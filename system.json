@@ -27,6 +27,6 @@
   "minimumCoreVersion": "0.7.9",
   "compatibleCoreVersion": "0.7.9",
   "url": "https://github.com/ArthegaAsdweri/warcraft5e",
-  "manifest": "https://raw.githubusercontent.com/ArthegaAsdweri/warcraft5e/master/system.json",
-  "download": "https://github.com/ArthegaAsdweri/warcraft5e/-/archive/release-1.2.3/dnd5e-release-1.2.3.zip"
+  "manifest": "https://github.com/ArthegaAsdweri/warcraft5e/raw/master/system.json",
+  "download": "https://github.com/ArthegaAsdweri/warcraft5e/archive/master.zip"
 }
