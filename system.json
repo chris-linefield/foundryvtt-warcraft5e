@@ -15,7 +15,7 @@
       "path": "./packs/races.db",
       "entity": "Item"
     },
-  ]
+  ],
   "languages": [
     {
       "lang": "en",
