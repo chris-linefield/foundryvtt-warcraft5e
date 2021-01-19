@@ -1,12 +1,9 @@
 {
   "name": "warcraft5e",
   "title": "Warcraft RPG - 5e",
-  "description": "A system for playing the fifth edition of the worlds most popular role-playing game in the Foundry Virtual Tabletop environment.",
+  "description": "Conversion of the official Warcraft Role Playing Game: https://drive.google.com/drive/folders/0B1FoMHLY1oOtLUlNdTZXYzVNY0k.",
   "version": "0.0.1",
   "author": "ArthegaAsdweri",
-  "scripts": [],
-  "esmodules": ["warcraft5e.js"],
-  "styles": ["warcraft5e.css"],
   "languages": [
     {
       "lang": "en",
@@ -24,7 +21,7 @@
   "gridUnits": "ft",
   "primaryTokenAttribute": "attributes.hp",
   "secondaryTokenAttribute": null,
-  "minimumCoreVersion": "0.7.9",
+  "minimumCoreVersion": "0.7.6",
   "compatibleCoreVersion": "0.7.9",
   "url": "https://github.com/ArthegaAsdweri/warcraft5e",
   "manifest": "https://github.com/ArthegaAsdweri/warcraft5e/raw/master/system.json",
