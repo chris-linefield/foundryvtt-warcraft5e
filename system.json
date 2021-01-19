@@ -7,6 +7,15 @@
   "scripts": [],
   "esmodules": ["warcraft5e.js"],
   "styles": ["warcraft5e.css"],
+  "packs": [
+    {
+      "name": "races",
+      "label": "Racial Features (SRD)",
+      "system": "warcraft5e",
+      "path": "./packs/races.db",
+      "entity": "Item"
+    },
+  ]
   "languages": [
     {
       "lang": "en",
