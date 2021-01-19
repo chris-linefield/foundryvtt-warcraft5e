@@ -2,7 +2,7 @@
   "name": "warcraft5e",
   "title": "Warcraft RPG - 5e",
   "description": "Conversion of the official Warcraft Role Playing Game: https://drive.google.com/drive/folders/0B1FoMHLY1oOtLUlNdTZXYzVNY0k.",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": "ArthegaAsdweri",
   "scripts": [],
   "esmodules": ["warcraft5e.js"],
