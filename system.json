@@ -3,10 +3,10 @@
   "title": "Warcraft RPG - 5e",
   "description": "A system for playing the fifth edition of the worlds most popular role-playing game in the Foundry Virtual Tabletop environment.",
   "version": "0.0.1",
-  "author": "Arthega",
+  "author": "ArthegaAsdweri",
   "scripts": [],
-  "esmodules": ["warcraft.js"],
-  "styles": ["warcraft.css"],
+  "esmodules": ["warcraft5e.js"],
+  "styles": ["warcraft5e.css"],
   "languages": [
     {
       "lang": "en",
@@ -26,7 +26,7 @@
   "secondaryTokenAttribute": null,
   "minimumCoreVersion": "0.7.9",
   "compatibleCoreVersion": "0.7.9",
-  "url": "https://github.com/ArthegaAsdweri/foundryVTTWarcraftRPG",
-  "manifest": "https://github.com/ArthegaAsdweri/foundryVTTWarcraftRPG/blob/master/system.json",
-  "download": "https://github.com/ArthegaAsdweri/foundryVTTWarcraftRPG/-/archive/release-1.2.3/dnd5e-release-1.2.3.zip"
+  "url": "https://github.com/ArthegaAsdweri/warcraft5e",
+  "manifest": "https://raw.githubusercontent.com/ArthegaAsdweri/warcraft5e/master/system.json",
+  "download": "https://github.com/ArthegaAsdweri/warcraft5e/-/archive/release-1.2.3/dnd5e-release-1.2.3.zip"
 }
