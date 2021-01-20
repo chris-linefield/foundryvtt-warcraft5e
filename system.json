@@ -14,7 +14,7 @@
       "system": "warcraft5e",
       "path": "./packs/races.db",
       "entity": "Item"
-    },
+    }
   ],
   "languages": [
     {
