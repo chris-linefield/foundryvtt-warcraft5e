@@ -2,12 +2,26 @@
     "WC5E.Race.AbilityScoreIncrease" : "Ability Score Increase",
     "WC5E.Race.Age" : "Age",
     "WC5E.Race.Traits" : "Traits",
+    "WC5E.Race.Affiliation" : "Affiliation",
+    "WC5E.Race.Size" : "Size",
+    "WC5E.Race.Appearance" : "Appearance",
+    "WC5E.Race.Speed" : "Speed",
+    "WC5E.Race.SpeedVal" : "Your base walking speed is ",
 
 
 
 
 
 
-    "WC5E.Race.DraeneiDescription" : "The draenei are a powerfully-build alien race that originates from Argus. They are powerfully magically-attuned, and have the potential for exceptional good or evil. Draenei who succumb to fel magic form the ranks of the Eredar, the greatest generals of the Burning Legion, while draenei who serve the Holy Light are immortal crusaders for justice across the cosmos."
+    "------------ DRAENEI DATA ------------" : "",
+    "WC5E.Race.DraeneiDescription" : "The draenei are a powerfully-build alien race that originates from Argus. They are powerfully magically-attuned, and have the potential for exceptional good or evil. Draenei who succumb to fel magic form the ranks of the Eredar, the greatest generals of the Burning Legion, while draenei who serve the Holy Light are immortal crusaders for justice across the cosmos.",
+    "WC5E.Race.DraeneiAbilityScoreIncrease" : "Your Spirit or Intelligence increases by 1.",
+    "WC5E.Race.DraeneiAge" : "A typical draenei claims adulthood around 100 years old, and can live to about ten thousand years old.",
+    "WC5E.Race.DraeneiAffiliation" : "Each sub-race is inclined to its own affiliations.",
+    "WC5E.Race.DraeneiSize" : "Their size is Medium. Males range anywhere from seven feet tall to eight feet tall and weigh on average around 300 or 400 pounds. Females stand at six to seven feet tall and only weigh around 170 or 250 pounds when fully grown.",
+    "WC5E.Race.DraeneiAppearance" : "As befitting their Eredar heritage, Draenei have hooved feet, tendrils that grow from the neck and short tails, and their skin color is affected by the magic they naturally absorb (with fel magic reddening them, holy magic rendering their skins blue to violet, and void magic darkening them to brown). Males‘ skulls are rigid (giving the appearance of a bone plate under their skin), while females grow foot-long, graceful curved horns. Broken draenei look distinctly different from normal Draenei, having flat, noseless faces and having thick, three-fingered hands, and lose their bone-like plates.",
 
+    "------------ TRAITS DATA ------------" : "",
+    "WC5E.Traits.Darkvision" : "Darkvision",
+    "WC5E.Traits.DarkvisionDescription" : "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can‘t discern color in darkness, only shades of gray."
 }

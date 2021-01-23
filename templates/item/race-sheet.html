@@ -8,7 +8,15 @@
 
     <section>
         <h2>{{ item.name }} {{ localize "WC5E.Race.Traits" }}</h2>
-        <strong><i>{{localize "WC5E.Race.AbilityScoreIncrease"}}:</i></strong> Your Spirit or Intelligence increases by 1.
-        <strong><i>{{localize "WC5E.Race.Age"}}:</i></strong>: A typical draenei claims adulthood around 100 years old, and can live to about ten thousand years old.
+        <strong><i>{{localize "WC5E.Race.AbilityScoreIncrease"}}:</i></strong> {{ localize item.data.abilityMod }}<br>
+        <strong><i>{{localize "WC5E.Race.Age"}}:</i></strong> {{ localize item.data.age }}<br>
+        <strong><i>{{localize "WC5E.Race.Affiliation"}}:</i></strong> {{ localize item.data.affiliation }}<br>
+        <strong><i>{{localize "WC5E.Race.Size"}}:</i></strong> {{ localize item.data.size }}<br>
+        <strong><i>{{localize "WC5E.Race.Appearance"}}:</i></strong> {{ localize item.data.appearance }}<br>
+        <strong><i>{{localize "WC5E.Race.Speed"}}:</i></strong> {{localize "WC5E.Race.SpeedVal"}} {{ item.data.speed }}.<br>
+
+        {{#each item.data.traits}}
+            <strong><i>{{localize this.key}}:</i></strong> {{localize this.value}}
+        {{/each}}
     </section>
 </form>

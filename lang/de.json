@@ -1,13 +1,26 @@
 {
-    "WC5E.Race.AbilityScoreIncrease" : "Attributs-Bonus",
+    "WC5E.Race.AbilityScoreIncrease" : "Attributs-Modifikator",
     "WC5E.Race.Age" : "Alter",
     "WC5E.Race.Traits" : "Merkmale",
+    "WC5E.Race.Affiliation" : "Zugehörigkeit",
+    "WC5E.Race.Size" : "Größe",
+    "WC5E.Race.Appearance" : "Erscheinung",
+    "WC5E.Race.Speed" : "Tempo",
+    "WC5E.Race.SpeedVal" : "Das Grund-Tempo beträgt ",
 
 
 
 
 
+    "------------ DRAENEI DATA ------------" : "",
+    "WC5E.Race.DraeneiDescription" : "Die Draenei sind eine stämmig gebaute außerirdische Rasse, die vom Planeten Argus stammt. Sie sind sehr stark mit der Magie im Einklang und neigen zum ausgesprochen Guten oder Bösen. Draenei, die der Fel-Magie anheim fallen, bilden die Ränge der Eredar, den größten Generälen der brennenden Legion. Draenei, die wiederrum dem heiligen Licht dienen, sind unsterbliche Kreuzritter im Dienste der Gerechtigkeit - überall im Universum.",
+    "WC5E.Race.DraeneiAbilityScoreIncrease" : "Geist oder Intelligenz steigen um 1.",
+    "WC5E.Race.DraeneiAge" : "Ein typischer Draenei gilt ab 100 Jahren als erwachsen und kann bis zu 10.000 Jahre alt werden.",
+    "WC5E.Race.DraeneiAffiliation" : "Jede Draeneifraktion hat ihre eigene Zugehörigkeit.",
+    "WC5E.Race.DraeneiSize" : "Medium - Männliche Draenei werden zwischen 2,15 m und 2,50 m groß und wiegen im Durchschnitt zwischen 135 kg und 180 kg. Ihre weiblichen Gegenstücke werden nur zwischen 1,80 m und 2,10 m groß und wiegen zwischen 75 kg und 115 kg.",
+    "WC5E.Race.DraeneiAppearance" : "Passend zu ihrer Eredar-Herkunft haben Draenei Hufen statt Füße, Ranken, die ihnen aus dem Nacken wachsen und kurze Schwänze. Ihre Hautfarbe wird geprägt von den magischen Einflüssen, denen sie ausgesetzt sind. Fel-Magie färbt ihre Haut rot, heilige Magie färmt sie blau bis violett und Leeren-Magie verdunkelt sie bis zu einem Braun-Ton. Die Schädel der Männer sind durchzogen von Knochenplatten der Stirn und dadurch sehr robust. Weiblichen Draenei hingegen wachsen lange geschwungene und anmutige Hörner. Die 'Zerschlagenen' sehen etwas anders aus als gewöhnliche Draenei. Aufgrund ihrer Mutationen haben sie flache Gesichter ohne Knochenplatten, ohne Nasen und ihre dicken Hände haben nur drei Finger.",
 
-    "WC5E.Race.DraeneiDescription" : "Die Draenei sind eine stämmig gebaute außerirdische Rasse, die vom Planeten Argus stammt. Sie sind sehr stark mit der Magie im Einklang und neigen zum ausgesprochen Guten oder Bösen. Draenei, die der Fel-Magie anheim fallen, bilden die Ränge der Eredar, den größten Generälen der brennenden Legion. Draenei, die wiederrum dem heiligen Licht dienen, sind unsterbliche Kreuzritter im Dienste der Gerechtigkeit - überall im Universum."
-
+    "------------ TRAITS DATA ------------" : "",
+    "WC5E.Traits.Darkvision" : "Dunkelsicht",
+    "WC5E.Traits.DarkvisionDescription" : "Du kannst im Dämmerlicht innerhalb von 60 Fuß so sehen als wäre es hell. In Dunkelheit wiederum als würde es dämmern, allerdings kannst du in Dunkelheit keine Farben unterscheiden."
 }

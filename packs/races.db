@@ -1,7 +1,7 @@
 {"_id":"1ggawbhLQHXOHL4C","name":"Elf (Void)","permission":{"default":0},"type":"race","data":{"test":"test"}}
 {"_id":"6Csg9TYGqpPUkE74","name":"Orc","permission":{"default":0},"type":"race","data":{"test":"test"}}
-{"_id":"C3mNAnhAyqmvE2lc","name":"Dwarf (Dark Iron)","permission":{"default":0},"type":"race","data":{"test":"test"}}
-{"_id":"EmMPa2zevjf6Pv36","name":"Draenei","permission":{"default":0},"type":"race","data":{"description":"WC5E.Race.DraeneiDescription","ability_score":0}}
+{"_id":"C3mNAnhAyqmvE2lc","name":"Dwarf (Dark Iron)","permission":{"default":0},"type":"race","img":"systems/warcraft5e/res/pics/races/darkiron.jpg","data":{"test":"test"}}
+{"_id":"EmMPa2zevjf6Pv36","name":"Draenei","permission":{"default":0},"type":"race","img":"systems/warcraft5e/res/pics/races/draenei.jpg","data":{"description":"WC5E.Race.DraeneiDescription","abilityMod":"WC5E.Race.DraeneiAbilityScoreIncrease","age":"WC5E.Race.DraeneiAge","affiliation":"WC5E.Race.DraeneiAffiliation","size":"WC5E.Race.DraeneiSize","appearance":"WC5E.Race.DraeneiAppearance","speed":"30","traits":[{"key":"WC5E.Traits.Darkvision","value":"WC5E.Traits.DarkvisionDescription"}]}}
 {"_id":"Ex4PbAYqUTVODlnC","name":"Elf (High)","permission":{"default":0},"type":"race","data":{"test":"test"}}
 {"_id":"FZRlqr6Covnl0gnn","name":"Worgen","permission":{"default":0},"type":"race","data":{"test":"test"}}
 {"_id":"VZalgCSIOlI3Nqef","name":"Troll","permission":{"default":0},"type":"race","data":{"test":"test"}}
@@ -14,5 +14,5 @@
 {"_id":"tXcxjG9mgEY6D2mz","name":"Forsaken","permission":{"default":0},"type":"race","data":{"test":"test"}}
 {"_id":"v1Y3ys8tWKdkLqUj","name":"Gnome","permission":{"default":0},"type":"race","data":{"test":"test"}}
 {"_id":"wPOGjdkSlcY1opIr","name":"Human","permission":{"default":0},"type":"race","data":{"test":"test"}}
-{"_id":"y5khNwBRIvNVFlGA","name":"Dwarf (Bronzebeard)","permission":{"default":0},"type":"race","data":{"test":"test"}}
+{"_id":"y5khNwBRIvNVFlGA","name":"Dwarf (Bronzebeard)","permission":{"default":0},"type":"race","img":"systems/warcraft5e/res/pics/races/bronzebeard.jpg","data":{"test":"test"}}
 {"_id":"yaTtt0uZHN5MB6It","name":"Elf (Blood)","permission":{"default":0},"type":"race","data":{"test":"test"}}
