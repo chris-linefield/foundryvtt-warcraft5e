@@ -1,0 +1,4 @@
+{"_id":"1","name":"test","permission":{"default":0},"folder":"","flags":{},"content":"test"}
+{"_id":"2","name":"test2","permission":{"default":0},"folder":"","flags":{},"content":"test2"}
+{"_id":"3","name":"test3","permission":{"default":0},"folder":"","flags":{},"content":"test3"}
+{"_id":"4","name":"test4","permission":{"default":0},"folder":"","flags":{},"content":"test4"}

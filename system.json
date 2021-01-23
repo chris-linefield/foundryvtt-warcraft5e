@@ -2,7 +2,7 @@
   "name": "warcraft5e",
   "title": "Warcraft RPG - 5e",
   "description": "Conversion of the official Warcraft Role Playing Game: https://drive.google.com/drive/folders/0B1FoMHLY1oOtLUlNdTZXYzVNY0k.",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "author": "ArthegaAsdweri",
   "scripts": [],
   "esmodules": ["warcraft5e.js"],
@@ -10,10 +10,17 @@
   "packs": [
     {
       "name": "races",
-      "label": "Racial Features (SRD)",
+      "label": "Races",
       "system": "warcraft5e",
       "path": "./packs/races.db",
       "entity": "Item"
+    },
+    {
+      "name": "rules",
+      "label": "Rules (SRD)",
+      "system": "warcraft5e",
+      "path": "./packs/rules.db",
+      "entity": "JournalEntry"
     }
   ],
   "languages": [

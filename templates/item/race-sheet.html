@@ -1,0 +1,14 @@
+<form class="{{cssClass}} flexcol" autocomplete="off">
+
+    {{!-- Item Sheet Header --}}
+    <header>
+        <h1>{{ item.name }}</h1>
+        <header-description>{{ localize item.data.description }}</header-descriptipn>
+    </header>
+
+    <section>
+        <h2>{{ item.name }} {{ localize "WC5E.Race.Traits" }}</h2>
+        <strong><i>{{localize "WC5E.Race.AbilityScoreIncrease"}}:</i></strong> Your Spirit or Intelligence increases by 1.
+        <strong><i>{{localize "WC5E.Race.Age"}}:</i></strong>: A typical draenei claims adulthood around 100 years old, and can live to about ten thousand years old.
+    </section>
+</form>
