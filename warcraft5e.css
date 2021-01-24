@@ -94,7 +94,7 @@
     border-top:1px solid #cab87a;
     border-bottom:0;
     width:25%;
-    margin:25px auto;
+    margin:15px auto;
 }
 
 .warcraft5e .window-content hr.full {
@@ -105,6 +105,7 @@
     font-weight:bold;
     border:none;
     font-size:1.2em;
+    padding-bottom:10px;
 }
 
 .warcraft5e .window-content h3 {
@@ -132,4 +133,25 @@
 
 .warcraft5e section {
     padding-bottom:50px;
+}
+
+.warcraft5e .raceGrid {
+    display:grid;
+    grid-template-columns:auto 1fr;
+    grid-gap:3px 20px;
+}
+
+.warcraft5e .raceGrid br {
+    grid-column: 1 / -1;
+}
+
+.warcraft5e .raceGrid hr {
+    grid-column: 1 / -1;
+    margin:2px auto;
+    width:95%;
+    border-color:#e0d8bb;
+}
+
+.warcraft5e .raceGrid hr:last-of-type {
+    display:none;
 }

@@ -3,6 +3,7 @@
 
         "Languages" : {
             "Common" : "Gemeinsprache",
+            "Dwarven" : "Zwergisch",
             "Eredun" : "Eredonisch"
         },
 
@@ -16,17 +17,14 @@
             "Speed" : "Tempo",
             "SpeedVal" : "Das Grund-Tempo beträgt ",
             "Languages" : "Sprachen",
-            "Subrace" : "Unterart",
-            "SubRaceChoice" : "Wähle eine der folgenden Unterarten.",
+            "Subrace" : "Unterarten",
+            "SubraceChoice" : "Wähle eine der folgenden Unterarten.",
             "MaleNames" : "Männernamen",
             "FemaleNames" : "Frauennamen",
             "FamilyNames" : "Familiennamen"
         },
 
         "Race" : {
-            "DarkIron" : {
-                "Name" : "Zwerg - Dunkeleisen"
-            },
             "Draenei" : {
                 "Description" : "Die Draenei sind eine stämmig gebaute außerirdische Rasse, die vom Planeten Argus stammt. Sie sind sehr stark mit der Magie im Einklang und neigen zum ausgesprochen Guten oder Bösen. Draenei, die der Fel-Magie anheim fallen, bilden die Ränge der Eredar, den größten Generälen der brennenden Legion. Draenei, die wiederrum dem heiligen Licht dienen, sind unsterbliche Kreuzritter im Dienste der Gerechtigkeit - überall im Universum.",
                 "AbilityScoreIncrease" : "Geist oder Intelligenz steigen um 1.",
@@ -53,6 +51,18 @@
                         "Affiliation" : "Allianz. Die Ungebrochenen haben gemerkt, dass sie starke Bande mit den Menschen und Zwergen teilen, da sie ebenfalls das Licht anbeten. Außerdem fühlen sie mit den nun sterblichen Nachtelfen."
                     }
                 }
+            },
+            "Dwarf" : {
+                "Name" : "Zwerge",
+                "Description" : "Zwerge sind kleine und kräftige Kreaturen, die hauptsächlich das Reich Khaz Modan bewohnen, welches in den östlichen Königreichen liegt. Sie sind kleiner als Menschen, aber größer als Gnome und verlassen sich - wenn sie können - auf ihre geringe Körpergröße, bzw. auf ihre Robustheit und Stärke, wenn die nicht hilft. Der durchschnittliche Zwerg ist zuverlässig, wachsam und ruhig.",
+                "AbilityScoreIncrease" : "Ausdauer steigt um 2.",
+                "Age" : "Zwerge altern genau so schnell wie Menschen, gelten aber als Jünglinge, bis sie das Alter von 40 erreichen. Im Durchschnitt werden Zwerge bis zu 450 Jahre alt.",
+                "Affiliation" : "Jede Unterart hat ihre eigene Zugehörigkeit, seit das Volk der Zwerge im Krieg der drei Hämmer auseinander brach.",
+                "Size" : "Medium - Zwerge werden zwischen 1,20 m und 1,50 m groß und wiegen zwischen 70 kg und 110 kg.",
+                "Appearance" : "Männliche Zwerge neigen dazu, sich lange Haare und Bärte wachsen zu lassen, die sie in verzierte Zöpfe flechten. Weibliche Zwerge haben ebenfalls stabile, aber vor allem dralle Körper - allerdings ohne Bartwuchs, auch wenn andere Rassen das oft behaupten.",
+                "SpeedAddition" : "Zwerge werden nicht durch das Tragen von schweren Rüstungen verlangsamt.",
+                "Language" : "Zwergisch besteht zu Großteilen aus harten Konsonanten und kehligen Lauten. Diese Eigenarten übertragen sich auf alle weiteren Sprachen, die ein Zwerg sprechen könnte.",
+                "Subrace" : "Drei Unterarten von Zwergen bevölkern die Welt von Azeroth: Die Hügelzwerge des Wildhammer-Clans, die Bergzwerge des Bronzebart-Clans und die dunklen Zwerge des Dunkeleisen-Clans."
             }
         },
 
@@ -66,8 +76,12 @@
                 "Description" : "Du kannst im Dämmerlicht innerhalb von 60 Fuß so sehen als wäre es hell. In Dunkelheit wiederum als würde es dämmern, allerdings kannst du in Dunkelheit keine Farben wahrnehmen."
             },
             "DraeneiCombatTraining" : {
-                "Label" : "Draenei Kampfausbildung",
+                "Label" : "Kampfausbildung",
                 "Description" : "Du hast Erfahrung im Umgang mit Langschwertern, Großhämmern, Gleven und schweren Armbrüsten."
+            },
+            "DwarvenCombatTraining" : {
+                "Label" : "Kampfausbildung",
+                "Description" : "Du hast Erfahrung im Umgang mit Kriegsäxten, Handäxten, leichten Hämmern und Kriegshämmern."
             },
             "FelResistance" : {
                 "Label" : "Fel-Resistenz",
@@ -79,15 +93,27 @@
             },
             "GiftOfTheNaaru" : {
                 "Label" : "Gabe der Naaru",
-                "Description" : "Du kannst deine Aktion dafür verwenden, heilige Energie zu sammeln und den Zauber \"TODO (Link): Erneuerndes Licht (Stufe 1)\" zu wirken. Diese Aktion ist do Kräfte zehrend, dass du dich bei einer kurzen oder langen Rast ausruhen musst, um den Zauber erneut zu wirken. Während eine Kreatur unter dem Einfluss des Zaubers steht, hat sie ein blau glühendes Zeichen über der Stirn, das TODO: ... Licht ausstrahlt (wie \"dancing lights\"). Der entsprechende Zauber-Modifikator deiner Wahl ist Geist oder Charisma."
+                "Description" : "Du kannst deine Aktion dafür verwenden, heilige Energie zu sammeln und den Zauber \"TODO (Link): Erneuerndes Licht (Stufe 1)\" zu wirken. Diese Aktion ist so Kräfte zehrend, dass du dich bei einer kurzen oder langen Rast ausruhen musst, um den Zauber erneut zu wirken. Während eine Kreatur unter dem Einfluss des Zaubers steht, hat sie ein blau glühendes Zeichen über der Stirn, das TODO: ... Licht ausstrahlt (wie \"dancing lights\"). Der entsprechende Zauber-Modifikator deiner Wahl ist Geist oder Charisma."
             },
             "HeroicPresence" : {
                 "Label" : "Heroische Präsenz",
                 "Description" : "Du kannst 10 Minuten aufwenden, um deine Gefährten zu inspirieren, damit sie mit mehr Zuversicht in den Kampf ziehen. Wähle dazu bis zu 6 befreundete Kreaturen (du kannst auch dich selbst wählen) innerhalb von 30 Fuß. Sie müssen dich sehen oder hören (und verstehen) können. Jede Kreatur erhält vorübergehende Lebenspunkte, die deiner Charakterstufe + der Hälfte deines Geist- oder Charisma-Modifikators entsprechen. Eine Kreatur kann auf diese Weise keine weiteren temporären Lebenspunkte erhalten, bis sie eine lange Rast hinter sich gebracht hat. Alternativ kannst du diese Fähigkeit einsetzen, wenn du einen kritischen Treffer im Kampf landest."
             },
+            "NaturalArmor" : {
+                "Label" : "Natürliche Rüstung",
+                "Description" : "Deine Haut ist so zäh wie gehärtetes Leder. Wenn du keine Rüstung trägst, entspricht dein Verteidigungswert 12 + Gewandtheits-Modifikator. Du kannst diesen natürlichen Bonus dazu verwenden, deinen Verteidigungswert zu ermitteln, wenn die Rüstung, die du trägst, einen geringeren Verteidigungswert verursachen würde. Die Vorteile von Schilden gelten uneingeschränkt."
+            },
             "Stalker" : {
                 "Label" : "Pirscher",
                 "Description" : "Du bist geübt in den Fähigkeiten Wahrnehmung und Verstohlenheit. Wenn du diese Fähigkeiten bereits anderweitig erworben hast, hast du sie hiermit gemeistert."
+            },
+            "Stoneform" : {
+                "Label" : "Steinform",
+                "Description" : "Du kannst dich gelegentlich darauf konzentrieren, Wunden zu ignorieren. Wenn du Schaden erleidest, kannst du deine Reaktion nutzen, um einen W12 zu würfeln. Addiere deinen Ausdauer-Modifikator, um den Schaden um diese Summe zu reduzieren. Wenn der Wert noch andauernden Blutungsschaden übersteigt, wird auch die Blutung sofort gestillt. Diese Fertigkeit regeneriert sich bei einer kurzen oder langen Rast."
+            },
+            "ToolProficiency" : {
+                "Label" : "Umgang mit Werkzeugen",
+                "Description" : "Du bist geübt im Umgang mit den Werkzeugen für einen der folgenden Berufe: Schmied, Braumeister, Steinmetz oder Bergarbeiter."
             }
         }
     }
