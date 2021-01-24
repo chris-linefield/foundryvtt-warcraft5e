@@ -1,22 +1,91 @@
 <form class="{{cssClass}} flexcol" autocomplete="off">
 
-    {{!-- Item Sheet Header --}}
+    {{!------ SHEET HEADER ------}}
     <header>
-        <h1>{{ item.name }}</h1>
-        <header-description>{{ localize item.data.description }}</header-descriptipn>
+        <h1>{{item.name}}</h1>
+        {{localize item.data.description}}
     </header>
 
-    <section>
-        <h2>{{ item.name }} {{ localize "WC5E.Race.Traits" }}</h2>
-        <strong><i>{{localize "WC5E.Race.AbilityScoreIncrease"}}:</i></strong> {{ localize item.data.abilityMod }}<br>
-        <strong><i>{{localize "WC5E.Race.Age"}}:</i></strong> {{ localize item.data.age }}<br>
-        <strong><i>{{localize "WC5E.Race.Affiliation"}}:</i></strong> {{ localize item.data.affiliation }}<br>
-        <strong><i>{{localize "WC5E.Race.Size"}}:</i></strong> {{ localize item.data.size }}<br>
-        <strong><i>{{localize "WC5E.Race.Appearance"}}:</i></strong> {{ localize item.data.appearance }}<br>
-        <strong><i>{{localize "WC5E.Race.Speed"}}:</i></strong> {{localize "WC5E.Race.SpeedVal"}} {{ item.data.speed }}.<br>
+    <hr >
 
+    <section>
+        <h2>{{item.name}} {{localize "WC5E.RaceSheet.Traits"}}</h2>
+        <strong><i>{{localize "WC5E.RaceSheet.AbilityScoreIncrease"}}:</i></strong> {{localize item.data.abilityMod}}<br>
+        <strong><i>{{localize "WC5E.RaceSheet.Age"}}:</i></strong> {{localize item.data.age}}<br>
+        <strong><i>{{localize "WC5E.RaceSheet.Affiliation"}}:</i></strong> {{localize item.data.affiliation}}<br>
+        <strong><i>{{localize "WC5E.RaceSheet.Size"}}:</i></strong> {{localize item.data.size}}<br>
+        <strong><i>{{localize "WC5E.RaceSheet.Appearance"}}:</i></strong> {{localize item.data.appearance}}<br>
+        <strong><i>{{localize "WC5E.RaceSheet.Speed"}}:</i></strong> {{localize "WC5E.RaceSheet.SpeedVal"}} {{item.data.speed}}.<br>
+
+        {{!------ TRAITS ------}}
         {{#each item.data.traits}}
-            <strong><i>{{localize this.key}}:</i></strong> {{localize this.value}}
+            <strong><i>{{localize this.key}}:</i></strong> {{localize this.value}}<br>
         {{/each}}
+
+        {{!------ LANGUAGES ------}}
+        <strong><i>{{localize "WC5E.RaceSheet.Languages"}}:</i></strong>
+        {{#each item.data.languages}}
+            {{localize this}},
+        {{/each}}.
+        {{localize item.data.languageDescription}}
+
+        {{!------ NAMES ------}}
+        {{#if item.data.names}}
+            <br><br>
+            {{#if item.data.names}}
+                <strong><i>{{localize "WC5E.RaceSheet.MaleNames"}}:</i></strong>
+                {{#each item.data.names.male}}
+                    {{this}},
+                {{/each}}
+            {{/if}}
+            {{#if item.data.names.female}}
+            <br>
+                <strong><i>{{localize "WC5E.RaceSheet.FemaleNames"}}:</i></strong>
+                {{#each item.data.names.female}}
+                    {{this}},
+                {{/each}}
+            {{/if}}
+            {{#if item.data.names.family}}
+            <br>
+                <strong><i>{{localize "WC5E.RaceSheet.FamilyNames"}}:</i></strong>
+                {{#each item.data.names.family}}
+                    {{localize this}},
+                {{/each}}
+            {{/if}}
+        {{/if}}
+
+
+        {{!------ SUBRACES ------}}
+        {{#if item.data.subrace}}
+            <br><br>
+            <strong><i>{{localize "WC5E.RaceSheet.Subrace"}}:</i></strong> {{localize item.data.subrace}}<br>
+            {{#each item.data.subraces}}
+                <hr class="full">
+                <div class="imageRow">
+                    <img src="{{this.img}}">
+                    <div class="imgContent">
+                        <h3>{{localize this.name}}</h3>
+                        <i>“{{localize this.quote}}”</i>
+                    </div>
+                </div>
+                {{localize this.description}}<br>
+                <hr>
+
+                {{#if this.abilityMod}}
+                    <strong><i>{{localize "WC5E.RaceSheet.AbilityScoreIncrease"}}:</i></strong> {{localize this.abilityMod}}<br>
+                {{/if}}
+
+                {{#if this.affiliation}}
+                    <strong><i>{{localize "WC5E.RaceSheet.Affiliation"}}:</i></strong> {{localize this.affiliation}}<br>
+                {{/if}}
+
+                {{#if this.traits}}
+                    {{#each this.traits}}
+                        <strong><i>{{localize this.key}}:</i></strong> {{localize this.value}}<br>
+                    {{/each}}
+                {{/if}}
+            {{/each}}
+        {{/if}}
+
     </section>
 </form>

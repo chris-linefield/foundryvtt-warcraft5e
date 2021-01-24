@@ -14,7 +14,7 @@ export class WcRaceSheet extends ItemSheet {
         return mergeObject(super.defaultOptions, {
             classes:   ["warcraft5e", "sheet", "race"],
             template:  "systems/warcraft5e/templates/item/race-sheet.html",
-            width:     650,
+            width:     850,
             height:    800,
             resizable: false
         });

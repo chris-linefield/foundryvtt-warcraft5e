@@ -1,26 +1,94 @@
 {
-    "WC5E.Race.AbilityScoreIncrease" : "Attributs-Modifikator",
-    "WC5E.Race.Age" : "Alter",
-    "WC5E.Race.Traits" : "Merkmale",
-    "WC5E.Race.Affiliation" : "Zugehörigkeit",
-    "WC5E.Race.Size" : "Größe",
-    "WC5E.Race.Appearance" : "Erscheinung",
-    "WC5E.Race.Speed" : "Tempo",
-    "WC5E.Race.SpeedVal" : "Das Grund-Tempo beträgt ",
+    "WC5E" : {
 
+        "Languages" : {
+            "Common" : "Gemeinsprache",
+            "Eredun" : "Eredonisch"
+        },
 
+        "RaceSheet" : {
+            "AbilityScoreIncrease" : "Attributs-Modifikator",
+            "Age" : "Alter",
+            "Traits" : "Merkmale",
+            "Affiliation" : "Zugehörigkeit",
+            "Size" : "Größe",
+            "Appearance" : "Erscheinung",
+            "Speed" : "Tempo",
+            "SpeedVal" : "Das Grund-Tempo beträgt ",
+            "Languages" : "Sprachen",
+            "Subrace" : "Unterart",
+            "SubRaceChoice" : "Wähle eine der folgenden Unterarten.",
+            "MaleNames" : "Männernamen",
+            "FemaleNames" : "Frauennamen",
+            "FamilyNames" : "Familiennamen"
+        },
 
+        "Race" : {
+            "DarkIron" : {
+                "Name" : "Zwerg - Dunkeleisen"
+            },
+            "Draenei" : {
+                "Description" : "Die Draenei sind eine stämmig gebaute außerirdische Rasse, die vom Planeten Argus stammt. Sie sind sehr stark mit der Magie im Einklang und neigen zum ausgesprochen Guten oder Bösen. Draenei, die der Fel-Magie anheim fallen, bilden die Ränge der Eredar, den größten Generälen der brennenden Legion. Draenei, die wiederrum dem heiligen Licht dienen, sind unsterbliche Kreuzritter im Dienste der Gerechtigkeit - überall im Universum.",
+                "AbilityScoreIncrease" : "Geist oder Intelligenz steigen um 1.",
+                "Age" : "Ein typischer Draenei gilt ab 100 Jahren als erwachsen und kann bis zu 10.000 Jahre alt werden.",
+                "Affiliation" : "Jede Draeneifraktion hat ihre eigene Zugehörigkeit.",
+                "Size" : "Medium - Männliche Draenei werden zwischen 2,15 m und 2,50 m groß und wiegen im Durchschnitt zwischen 135 kg und 180 kg. Ihre weiblichen Gegenstücke werden nur zwischen 1,80 m und 2,10 m groß und wiegen zwischen 75 kg und 115 kg.",
+                "Appearance" : "Passend zu ihrer Eredar-Herkunft haben Draenei anstelle von Füßen schwere Hufe, Ranken, die ihnen aus dem Nacken wachsen und kurze Schwänze. Ihre Hautfarbe wird geprägt von den magischen Einflüssen, denen sie ausgesetzt sind. Fel-Magie färbt ihre Haut rot, heilige Magie färmt sie blau bis violett und Leeren-Magie verdunkelt sie bis zu einem Braun-Ton. Die Schädel der Männer sind durchzogen von Knochenplatten der Stirn und dadurch sehr robust. Weiblichen Draenei hingegen wachsen lange geschwungene und anmutige Hörner. Die 'Zerschlagenen' sehen etwas anders aus als gewöhnliche Draenei. Aufgrund ihrer Mutationen haben sie flache Gesichter ohne Knochenplatten, ohne Nasen und ihre dicken Hände haben nur drei Finger.",
+                "Language" : "Die eredonische Draenei-Sprache ist ein abgewandelter Dialekt, der weniger korrumpiert ist. Die Sprache verursacht daher keine Nachteile, wenn sie verwendet wird, kann allerdings von Dämonen verstanden werden.",
+                "FamilyNames" : "Draenei tragen keine Familiennamen, aber sie erlangen Titel, die ihren namenhaften Taten entsprechen.",
+                "Subrace" : "Längst vergangene Ereignisse teilen die Draenei in zwei Unterarten: Die \"Ungebrochenen\" und die \"Zerschlagenen\".",
+                "Subraces" : {
+                    "Broken" : {
+                        "Name" : "Die Zerschlagenen (Krokul)",
+                        "Quote" : "Ihr werdet unsere Wege kennen lernen...",
+                        "Description" : "Die Zerschlagenen, auf eredonisch als die Krokul bekannt, sind eine mutierte und degenerierte Unterart der Draenei, die in der Scherbenwelt leben. So wie die meisten Orks fielen die Krokul dem Einfluss der finsteren Dämonen anheim und wurden durch die Verderbnis verändert. Obwohl sie einige ihrer ursprünglichen Kräfte verloren haben, stellen die Zerschlagenen noch immer eine Bedrohung für alle Lebewesen in der Scherbenwelt dar. Die größte bekannte Fraktion sind die Todeshörigen der Aschezungen, die von Akama angeführt werden. Sie sind vermutlich mit Illidan Sturmgrimm verbündet.",
+                        "AbilityScoreIncrease" : "Gewandtheit steigt um 2.",
+                        "Affiliation" : "Unabhängig. Trotz des größtenteils versehentlichen Rückschritts zu Zerschlagenen, wird dieser Unterart von den meisten Draenei nicht nur misstraut, es schlägt ihnen sogar offene Feindschaft entgegen. Obwohl das zumindest bei den Zerschlagenen verständlich ist, die noch unter dem Einfluss der Verderbnis stehen oder noch immer der brennenden Legion dienen, könnte man von den Ungebrochenen dennoch erwarten, dass sie ihre eigenen Leute nach dem Genozid der Orks willkommen heißen. Die meisten Zerschlagenen sind daher unabhängig, auch wenn es Bemühungen von Prophet Velen gibt, sie wieder zurück zu führen."
+                    },
+                    "Unbroken" : {
+                        "Name" : "Die Ungebrochenen (wahre Draenei)",
+                        "Quote" : "Das Ende der brennenden Legion rückt näher.",
+                        "Description" : "Als erleuchtete Cousins der Eredar, sind die Draenei nach der erneuten Öffnung des dunklen Portals in Azeroth aufgetaucht. Da sie die letzten Jahrhunderte im Exil und auf der Flucht vor der brennenden Legion verbracht haben, sind die Draenei standhafte Streiter für das Licht und werden alles tun was in ihrer Macht steht, um zu verhindern, dass eine weitere Welt den Flammen anheim fällt.",
+                        "AbilityScoreIncrease" : "Stärke steigt um 2.",
+                        "Affiliation" : "Allianz. Die Ungebrochenen haben gemerkt, dass sie starke Bande mit den Menschen und Zwergen teilen, da sie ebenfalls das Licht anbeten. Außerdem fühlen sie mit den nun sterblichen Nachtelfen."
+                    }
+                }
+            }
+        },
 
-
-    "------------ DRAENEI DATA ------------" : "",
-    "WC5E.Race.DraeneiDescription" : "Die Draenei sind eine stämmig gebaute außerirdische Rasse, die vom Planeten Argus stammt. Sie sind sehr stark mit der Magie im Einklang und neigen zum ausgesprochen Guten oder Bösen. Draenei, die der Fel-Magie anheim fallen, bilden die Ränge der Eredar, den größten Generälen der brennenden Legion. Draenei, die wiederrum dem heiligen Licht dienen, sind unsterbliche Kreuzritter im Dienste der Gerechtigkeit - überall im Universum.",
-    "WC5E.Race.DraeneiAbilityScoreIncrease" : "Geist oder Intelligenz steigen um 1.",
-    "WC5E.Race.DraeneiAge" : "Ein typischer Draenei gilt ab 100 Jahren als erwachsen und kann bis zu 10.000 Jahre alt werden.",
-    "WC5E.Race.DraeneiAffiliation" : "Jede Draeneifraktion hat ihre eigene Zugehörigkeit.",
-    "WC5E.Race.DraeneiSize" : "Medium - Männliche Draenei werden zwischen 2,15 m und 2,50 m groß und wiegen im Durchschnitt zwischen 135 kg und 180 kg. Ihre weiblichen Gegenstücke werden nur zwischen 1,80 m und 2,10 m groß und wiegen zwischen 75 kg und 115 kg.",
-    "WC5E.Race.DraeneiAppearance" : "Passend zu ihrer Eredar-Herkunft haben Draenei Hufen statt Füße, Ranken, die ihnen aus dem Nacken wachsen und kurze Schwänze. Ihre Hautfarbe wird geprägt von den magischen Einflüssen, denen sie ausgesetzt sind. Fel-Magie färbt ihre Haut rot, heilige Magie färmt sie blau bis violett und Leeren-Magie verdunkelt sie bis zu einem Braun-Ton. Die Schädel der Männer sind durchzogen von Knochenplatten der Stirn und dadurch sehr robust. Weiblichen Draenei hingegen wachsen lange geschwungene und anmutige Hörner. Die 'Zerschlagenen' sehen etwas anders aus als gewöhnliche Draenei. Aufgrund ihrer Mutationen haben sie flache Gesichter ohne Knochenplatten, ohne Nasen und ihre dicken Hände haben nur drei Finger.",
-
-    "------------ TRAITS DATA ------------" : "",
-    "WC5E.Traits.Darkvision" : "Dunkelsicht",
-    "WC5E.Traits.DarkvisionDescription" : "Du kannst im Dämmerlicht innerhalb von 60 Fuß so sehen als wäre es hell. In Dunkelheit wiederum als würde es dämmern, allerdings kannst du in Dunkelheit keine Farben unterscheiden."
+        "Traits" : {
+            "Adapter" : {
+                "Label" : "Anpassungsfähig",
+                "Description" : "Du kannst stets reagieren, wenn du im Kampf überrascht wirst (auch wenn deine Wahrnehmungs-Probe fehlgeschlagen ist). Du bist außerdem wetterbeständiger."
+            },
+            "Darkvision" : {
+                "Label" : "Dunkelsicht",
+                "Description" : "Du kannst im Dämmerlicht innerhalb von 60 Fuß so sehen als wäre es hell. In Dunkelheit wiederum als würde es dämmern, allerdings kannst du in Dunkelheit keine Farben wahrnehmen."
+            },
+            "DraeneiCombatTraining" : {
+                "Label" : "Draenei Kampfausbildung",
+                "Description" : "Du hast Erfahrung im Umgang mit Langschwertern, Großhämmern, Gleven und schweren Armbrüsten."
+            },
+            "FelResistance" : {
+                "Label" : "Fel-Resistenz",
+                "Description" : "Du besitzt natürlichen Widerstand gegen Fel-Magie."
+            },
+            "Gemcutting" : {
+                "Label" : "Gemmenschneider",
+                "Description" : "Du bist geübt im Umgang mit den Werkzeugen für die Edelsteinbearbeitung."
+            },
+            "GiftOfTheNaaru" : {
+                "Label" : "Gabe der Naaru",
+                "Description" : "Du kannst deine Aktion dafür verwenden, heilige Energie zu sammeln und den Zauber \"TODO (Link): Erneuerndes Licht (Stufe 1)\" zu wirken. Diese Aktion ist do Kräfte zehrend, dass du dich bei einer kurzen oder langen Rast ausruhen musst, um den Zauber erneut zu wirken. Während eine Kreatur unter dem Einfluss des Zaubers steht, hat sie ein blau glühendes Zeichen über der Stirn, das TODO: ... Licht ausstrahlt (wie \"dancing lights\"). Der entsprechende Zauber-Modifikator deiner Wahl ist Geist oder Charisma."
+            },
+            "HeroicPresence" : {
+                "Label" : "Heroische Präsenz",
+                "Description" : "Du kannst 10 Minuten aufwenden, um deine Gefährten zu inspirieren, damit sie mit mehr Zuversicht in den Kampf ziehen. Wähle dazu bis zu 6 befreundete Kreaturen (du kannst auch dich selbst wählen) innerhalb von 30 Fuß. Sie müssen dich sehen oder hören (und verstehen) können. Jede Kreatur erhält vorübergehende Lebenspunkte, die deiner Charakterstufe + der Hälfte deines Geist- oder Charisma-Modifikators entsprechen. Eine Kreatur kann auf diese Weise keine weiteren temporären Lebenspunkte erhalten, bis sie eine lange Rast hinter sich gebracht hat. Alternativ kannst du diese Fähigkeit einsetzen, wenn du einen kritischen Treffer im Kampf landest."
+            },
+            "Stalker" : {
+                "Label" : "Pirscher",
+                "Description" : "Du bist geübt in den Fähigkeiten Wahrnehmung und Verstohlenheit. Wenn du diese Fähigkeiten bereits anderweitig erworben hast, hast du sie hiermit gemeistert."
+            }
+        }
+    }
 }

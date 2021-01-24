@@ -49,6 +49,8 @@
 .sidebar-tab .directory-list .directory-item {
     line-height:80px;
     font-size:16px;
+    border-bottom:1px solid #cab87a;
+    padding:2px 0 3px;
 }
 
 .sidebar-tab .directory-list .entry-name {
@@ -88,8 +90,46 @@
     position:absolute; bottom:3px; left:0;
 }
 
+.warcraft5e .window-content hr {
+    border-top:1px solid #cab87a;
+    border-bottom:0;
+    width:25%;
+    margin:25px auto;
+}
+
+.warcraft5e .window-content hr.full {
+    width:90%;
+}
+
 .warcraft5e .window-content h2 {
     font-weight:bold;
     border:none;
     font-size:1.2em;
+}
+
+.warcraft5e .window-content h3 {
+    font-weight:bold;
+    font-size:1.2em;
+    color:#5081bd;
+}
+
+.warcraft5e .imageRow {
+    display:grid;
+    grid-template-columns:80px 1fr;
+    grid-gap:10px;
+    padding-bottom:10px;
+}
+
+.warcraft5e .imageRow img {
+    width:80px;
+    height:80px;
+    border:3px double #cab87a;
+}
+
+.warcraft5e .imageRow .imgContent {
+    align-self: center;
+}
+
+.warcraft5e section {
+    padding-bottom:50px;
 }
