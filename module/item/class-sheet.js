@@ -1,7 +1,7 @@
 /*
- * Race-Sheet for Compendium
+ * Class-Sheet for Compendium
  */
-export class WcRaceSheet extends ItemSheet {
+export class WcClassSheet extends ItemSheet {
 
     //---- OVERRIDES
 
@@ -10,8 +10,8 @@ export class WcRaceSheet extends ItemSheet {
      */
     static get defaultOptions() {
         return mergeObject(super.defaultOptions, {
-            classes:   ["warcraft5e", "sheet", "race"],
-            template:  "systems/warcraft5e/templates/item/race-sheet.html",
+            classes:   ["warcraft5e", "sheet", "class"],
+            template:  "systems/warcraft5e/templates/item/class-sheet.html",
             width:     850,
             height:    800,
             resizable: false

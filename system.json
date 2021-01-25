@@ -16,6 +16,13 @@
       "entity": "Item"
     },
     {
+      "name": "classes",
+      "label": "Classes",
+      "system": "warcraft5e",
+      "path": "./packs/classes.db",
+      "entity": "Item"
+    },
+    {
       "name": "rules",
       "label": "Rules (SRD)",
       "system": "warcraft5e",

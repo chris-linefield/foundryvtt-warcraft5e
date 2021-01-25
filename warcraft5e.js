@@ -1,10 +1,10 @@
-console.log('>> Wc5e: Initializing System');
 
 //---- IMPORT
 
 import { WcCharacterSheet } from "./module/actor/character-sheet.js";
 import { WcItemSheet }      from "./module/item/item-sheet.js";
 import { WcRaceSheet }      from "./module/item/race-sheet.js";
+import { WcClassSheet }     from "./module/item/class-sheet.js";
 
 
 //---- ON INITIALIZATION
@@ -32,6 +32,11 @@ Hooks.once('init', async function() {
 
     Items.registerSheet("warcraft5e", WcRaceSheet, {
         types: ["race"],
+        makeDefault: true
+    });
+
+    Items.registerSheet("warcraft5e", WcClassSheet, {
+        types: ["class"],
         makeDefault: true
     });
 
