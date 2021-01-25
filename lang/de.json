@@ -41,14 +41,14 @@
                         "Quote" : "Ihr werdet unsere Wege kennen lernen...",
                         "Description" : "Die Zerschlagenen, auf eredonisch als die Krokul bekannt, sind eine mutierte und degenerierte Unterart der Draenei, die in der Scherbenwelt leben. So wie die meisten Orks fielen die Krokul dem Einfluss der finsteren Dämonen anheim und wurden durch die Verderbnis verändert. Obwohl sie einige ihrer ursprünglichen Kräfte verloren haben, stellen die Zerschlagenen noch immer eine Bedrohung für alle Lebewesen in der Scherbenwelt dar. Die größte bekannte Fraktion sind die Todeshörigen der Aschezungen, die von Akama angeführt werden. Sie sind vermutlich mit Illidan Sturmgrimm verbündet.",
                         "AbilityScoreIncrease" : "Gewandtheit steigt um 2.",
-                        "Affiliation" : "Unabhängig. Trotz des größtenteils versehentlichen Rückschritts zu Zerschlagenen, wird dieser Unterart von den meisten Draenei nicht nur misstraut, es schlägt ihnen sogar offene Feindschaft entgegen. Obwohl das zumindest bei den Zerschlagenen verständlich ist, die noch unter dem Einfluss der Verderbnis stehen oder noch immer der brennenden Legion dienen, könnte man von den Ungebrochenen dennoch erwarten, dass sie ihre eigenen Leute nach dem Genozid der Orks willkommen heißen. Die meisten Zerschlagenen sind daher unabhängig, auch wenn es Bemühungen von Prophet Velen gibt, sie wieder zurück zu führen."
+                        "Affiliation" : "Unabhängig - Trotz des größtenteils versehentlichen Rückschritts zu Zerschlagenen, wird dieser Unterart von den meisten Draenei nicht nur misstraut, es schlägt ihnen sogar offene Feindschaft entgegen. Obwohl das zumindest bei den Zerschlagenen verständlich ist, die noch unter dem Einfluss der Verderbnis stehen oder noch immer der brennenden Legion dienen, könnte man von den Ungebrochenen dennoch erwarten, dass sie ihre eigenen Leute nach dem Genozid der Orks willkommen heißen. Die meisten Zerschlagenen sind daher unabhängig, auch wenn es Bemühungen von Prophet Velen gibt, sie wieder zurück zu führen."
                     },
                     "Unbroken" : {
                         "Name" : "Die Ungebrochenen (wahre Draenei)",
                         "Quote" : "Das Ende der brennenden Legion rückt näher.",
                         "Description" : "Als erleuchtete Cousins der Eredar, sind die Draenei nach der erneuten Öffnung des dunklen Portals in Azeroth aufgetaucht. Da sie die letzten Jahrhunderte im Exil und auf der Flucht vor der brennenden Legion verbracht haben, sind die Draenei standhafte Streiter für das Licht und werden alles tun was in ihrer Macht steht, um zu verhindern, dass eine weitere Welt den Flammen anheim fällt.",
                         "AbilityScoreIncrease" : "Stärke steigt um 2.",
-                        "Affiliation" : "Allianz. Die Ungebrochenen haben gemerkt, dass sie starke Bande mit den Menschen und Zwergen teilen, da sie ebenfalls das Licht anbeten. Außerdem fühlen sie mit den nun sterblichen Nachtelfen."
+                        "Affiliation" : "Allianz - Die Ungebrochenen haben gemerkt, dass sie starke Bande mit den Menschen und Zwergen teilen, da sie ebenfalls das Licht anbeten. Außerdem fühlen sie mit den nun sterblichen Nachtelfen."
                     }
                 }
             },
@@ -62,7 +62,44 @@
                 "Appearance" : "Männliche Zwerge neigen dazu, sich lange Haare und Bärte wachsen zu lassen, die sie in verzierte Zöpfe flechten. Weibliche Zwerge haben ebenfalls stabile, aber vor allem dralle Körper - allerdings ohne Bartwuchs, auch wenn andere Rassen das oft behaupten.",
                 "SpeedAddition" : "Zwerge werden nicht durch das Tragen von schweren Rüstungen verlangsamt.",
                 "Language" : "Zwergisch besteht zu Großteilen aus harten Konsonanten und kehligen Lauten. Diese Eigenarten übertragen sich auf alle weiteren Sprachen, die ein Zwerg sprechen könnte.",
-                "Subrace" : "Drei Unterarten von Zwergen bevölkern die Welt von Azeroth: Die Hügelzwerge des Wildhammer-Clans, die Bergzwerge des Bronzebart-Clans und die dunklen Zwerge des Dunkeleisen-Clans."
+                "Subrace" : "Drei Unterarten von Zwergen bevölkern die Welt von Azeroth: Die Hügelzwerge des Wildhammer-Clans, die Bergzwerge des Bronzebart-Clans und die dunklen Zwerge des Dunkeleisen-Clans.",
+                "Subraces" : {
+                    "Bronzebeard" : {
+                        "Name" : "Bergzwerge (Bronzebart-Clan)",
+                        "Quote" : "Für Khaz Modan!",
+                        "Description" : "Die meisten Bergzwerge leben in Khaz Modan und stammen in der Regel vom Bronzebart-Clan und dessen Unter-Clans ab. Die Zwerge aus Eisenschmiede sind massig und kräftig gebaut. Sie haben kurze muskolöse Körper und tragen ihr Haar in verzierten Zöpfen.",
+                        "AbilityScoreIncrease" : "Stärke steigt um 1.",
+                        "Affiliation" : "Allianz - Obwohl die Zwerge aus Eisenschmiede die kriegerischen Fähigkeiten der Horde respektieren, misstrauen sie speziell den Orks, Trollen und Verlassenen. Auch die Elfen aus Quel'Thalas halten die Zwerge auf einer Armlänge Abstand, trotz der diplomatischen- und Handelsbeziehungen, die sie mit ihnen pflegen. Obwohl sie die gleiche Gefolgschaft mit den Nachtelfen teilen, betrachten begegnen die Zwerge ihnen mit Argwohn und Beklommenheit. Die Menschen hingegen sind zuverlässige und stete Verbündete des Zwergenvolks und stoßen auf deren Gunst und Güte, wenn sie im Zwergenreich willkommen geheißen werden.",
+                        "FamilyNames" : "Donnerschmiede, Bronzebart, Hammergrim, Dornenstahl, Donnerleib"
+                    },
+                    "DarkIron" : {
+                        "Name" : "Dunkelzwerge (Dunkeleisen-Clan)",
+                        "Quote" : "Ihr sollt dienen.",
+                        "Description" : "Dunkelzwerge stammen in der Regel vom Dunkeleisen-Clan ab, der vom Zauberer-Than Thaurissan angeführt wird. Als Verräter der eigenen Rasse beschimpft, leben sie als Sklaven des großen elementaren Herrn des Feuers, Ragnaros, in den Hallen des Schwarzfelsen. Dort dienen sie im Verborgenen dem Vulkan. Dunkelzwerge sehen den Zwergen des Bronzebart-Clans in ihrer Erscheinung sehr ähnlich, abgesehen davon, dass ihre Haut aschfahl bis grau ist und ihre Augen rot-golden leuchten. Zwerge des Dunkeleisen-Clans können oft in die Tiefen ihres Wesens vordringen und Flammen beschwören. Aufgrund ihrer rauen und heiseren Stimmen und ihrer mürrischen Neigung zu Gemecker, erwecken sie nicht gerade Vertrauen.",
+                        "AbilityScoreIncrease" : "Intelligenz steigt um 1.",
+                        "Affiliation" : "Allianz oder unabhängig - Hass gegenüber allen Rassen treibt die Zwerge des Dunkeleisen-Clans an. In ihrem Dienst für Ragnaros sehen sie ausschließlich Rivalen, Sklaven und Feinde. Einige wenige von ihnen haben Gemeinsamkeiten mit ihren Cousins des Wildhammer- und des Bronzebart-Clans gefunden und beschlossen, der Allianz beizutreten.",
+                        "FamilyNames" : "Hassschmiede, Dunkelhändler, Feuerschlag, Schmiedezorn"
+                    },
+                    "Wildhammer" : {
+                        "Name" : "Hügelzwerge (Wildhammer-Clan)",
+                        "Quote" : "In die Lüfte!",
+                        "Description" : "Hügelzwerge stammen vermutlich vom Wildhammer-Clan und dessen Unter-Clans ab. Sie leben auf dem Nistgipfel. Wildhammer-Zwerge gleichen im Erscheinungsbild ihren Cousins aus Eisenschmiede, viele rasieren sich aber die Köpfe kahl und insgesamt sind sie ein schmaler und größer. Das Leben an der Sonne und im stetigen böigen Wind hat ihre Haut dunkler und rauer gemacht. Zwerge des Wildhammer-Clans flechten Perlen und Federn als Glücksbringer in Haare und Bart, die zu den farbigen Tattoos auf ihren Körpern passen, die oft Totems und Kreaturen darstellen, mit denen sie sich verbunden fühlen.",
+                        "AbilityScoreIncrease" : "Geist steigt um 1.",
+                        "Affiliation" : "Allianz oder unabhängig - Die Wildhammer-Zwerge sind zwar kein Mitglied der Allianz, aber Verbündete die der Allianz im Kriegsfall vermutlich beistehen würden, so wie es in der Vergangenheit bereits geschah. Sie haben keinen guten Draht zu Menschen oder zu den anderen großen Zwergen-Clans. Früher teilten Sie die Liebe zur Natur und den Hass auf das Böse mit den Hochelfen, bevor diese sich zur Sorge der Wildhammer-Zwerge veränderten. Das einzige Volk, das diese Gemeinsamkeiten jetzt noch teilt, sind die Nachtelfen, zu denen dadurch eine gewisse Nähe besteht.",
+                        "FamilyNames" : "Bestienklaue, Großbart, Donnerzähmer, Windsäer"
+                    }
+                }
+            },
+            "Elf" : {
+                "Description" : "An elf is a member of one of the longest lived species on Azeroth known for keen perception, grace, and great spellwork. Elves were once believed to be the first race to awaken on Azeroth.",
+                "AbilityScoreIncrease" : "Your Agility score increases by 2.",
+                "Age" : "Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. A high elf typically claims adulthood around the age of 60 and can live to be 750 years old. A night elf claims adulthood and live up to five times said age (adulthood at 300 and live up to 3,750 years old). Until the World Tree was destroyed, the Night Elves were immune to aging effects.",
+                "Affiliation" : "Each sub-race is inclined to its own affiliations ever since the Great War of the Ancients.",
+                "Size" : "A high elf (and hence a blood and void elf) is usually a little over 6 feet in height and weighs between 100 to 175 pounds, depending on gender. Night elves (and hence Nightborne) are imposing in stature, males being on average 7 feet tall.",
+                "Appearance" : "Male Kaldorei are very muscular, with broad chests and shoulders, indicative of the strength that lies within both their minds and bodies. Female night elves are lithe and curvaceous, yet still muscular and strong.",
+                "SpeedAddition" : "Your speed is not reduced by wearing heavy armor.",
+                "Language" : "Elven is fluid, with subtle intonations and intricate grammar, even with strange dialects such as Nazja. Elven literature is rich and varied, and their songs and poems are famous among other races.",
+                "Subrace" : "Ancient divides and use of mana siphoning (or mana vampirism) among the elven people resulted in several main sub-races: high elves (and the blood and void elves), and night elves (and the Nightborne)."
             }
         },
 
@@ -70,6 +107,18 @@
             "Adapter" : {
                 "Label" : "Anpassungsfähig",
                 "Description" : "Du kannst stets reagieren, wenn du im Kampf überrascht wirst (auch wenn deine Wahrnehmungs-Probe fehlgeschlagen ist). Du bist außerdem wetterbeständiger."
+            },
+            "Bravery" : {
+                "Label" : "Tapferkeit",
+                "Description" : "Du bist besonders widerstandsfähig gegen Angst."
+            },
+            "BronzebeardCombatTraining" : {
+                "Label" : "Kampfausbildung",
+                "Description" : "Du hast Erfahrung im Umgang mit Schusswaffen und Sprengstoffen aller Art, auch wenn du keine Tüftler-Qualitäten besitzt. Du bist geübt im Umgang mit leichter Rüstung."
+            },
+            "BurningHeart" : {
+                "Label" : "Burning Heart",
+                "Description" : "Du beherrschst den Zauber \"Flammen beschwören\" (Die Zauberstufe entspricht der Charakter-Stufe). Dein Zauberattribut dafür ist Intelligenz."
             },
             "Darkvision" : {
                 "Label" : "Dunkelsicht",
@@ -87,6 +136,10 @@
                 "Label" : "Fel-Resistenz",
                 "Description" : "Du besitzt natürlichen Widerstand gegen Fel-Magie."
             },
+            "FireLordsFavor" : {
+                "Label" : "Gunst des Herrn des Feuers",
+                "Description" : "Du besitzt natürlichen Widerstand gegen Feuer-Magie."
+            },
             "Gemcutting" : {
                 "Label" : "Gemmenschneider",
                 "Description" : "Du bist geübt im Umgang mit den Werkzeugen für die Edelsteinbearbeitung."
@@ -99,13 +152,33 @@
                 "Label" : "Heroische Präsenz",
                 "Description" : "Du kannst 10 Minuten aufwenden, um deine Gefährten zu inspirieren, damit sie mit mehr Zuversicht in den Kampf ziehen. Wähle dazu bis zu 6 befreundete Kreaturen (du kannst auch dich selbst wählen) innerhalb von 30 Fuß. Sie müssen dich sehen oder hören (und verstehen) können. Jede Kreatur erhält vorübergehende Lebenspunkte, die deiner Charakterstufe + der Hälfte deines Geist- oder Charisma-Modifikators entsprechen. Eine Kreatur kann auf diese Weise keine weiteren temporären Lebenspunkte erhalten, bis sie eine lange Rast hinter sich gebracht hat. Alternativ kannst du diese Fähigkeit einsetzen, wenn du einen kritischen Treffer im Kampf landest."
             },
+            "MountainBorn" : {
+                "Label" : "Kind der Berge",
+                "Description" : "Du kommst problemlos mit Höhen zurecht und bist es gewohnt in bis zu 6.000 m Höhe zu leben. Du bist außerdem an kaltes Wetter angepasst, daher bereitet es dir beim Erkunden der Wildnis keine Probleme."
+            },
             "NaturalArmor" : {
                 "Label" : "Natürliche Rüstung",
                 "Description" : "Deine Haut ist so zäh wie gehärtetes Leder. Wenn du keine Rüstung trägst, entspricht dein Verteidigungswert 12 + Gewandtheits-Modifikator. Du kannst diesen natürlichen Bonus dazu verwenden, deinen Verteidigungswert zu ermitteln, wenn die Rüstung, die du trägst, einen geringeren Verteidigungswert verursachen würde. Die Vorteile von Schilden gelten uneingeschränkt."
             },
+            "NaturalHandler" : {
+                "Label" : "Händchen für Tiere",
+                "Description" : "Du bist geübt im Umgang mit Tieren. Wenn du diese Fähigkeit bereits anderweitig erworben hast, hast du sie im Umgang mit Bergbewohnern, wie z.B. Greifen oder Berglöwen gemeistert."
+            },
+            "Resilience" : {
+                "Label" : "Unverwüstlich",
+            "Stonecunning" : {
+                "Label" : "Stonecunning",
+                "Description" : "Immer wenn du eine Intelligenz-Probe (Geschichte) oder Bergarbeits-Probe ablegst, die sich auf Steinarbeiten oder Mineralien bezieht, dann bist du geübt und Experte in Geschichte oder Bergarbeit. (Deine Wahl)"
+            },
+                "Description" : "Du bist sehr widerstandsfähig gegen Gifte."
+            },
             "Stalker" : {
                 "Label" : "Pirscher",
                 "Description" : "Du bist geübt in den Fähigkeiten Wahrnehmung und Verstohlenheit. Wenn du diese Fähigkeiten bereits anderweitig erworben hast, hast du sie hiermit gemeistert."
+            },
+            "Stonecunning" : {
+                "Label" : "Steinschläue",
+                "Description" : "Immer wenn du eine Intelligenz-Probe (Geschichte) oder Bergarbeits-Probe ablegst, die sich auf Steinarbeiten oder Mineralien bezieht, dann bist du geübt und Experte in Geschichte oder Bergarbeit. (Deine Wahl)"
             },
             "Stoneform" : {
                 "Label" : "Steinform",

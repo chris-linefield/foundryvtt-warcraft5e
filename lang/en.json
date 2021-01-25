@@ -61,7 +61,44 @@
                 "Size" : "Dwarves stand between 4 and 5 feet tall and average about 150 pounds. Your size is Medium. Male dwarves tend to have long hair, and beards or facial hair often tied in ornate braids. Female dwarves also have sturdy muscular frames, but they are buxom and lack facial hair, despite the claims of some of the less educated sages of other races.",
                 "SpeedAddition" : "Your speed is not reduced by wearing heavy armor.",
                 "Language" : "Dwarven is full of hard consonants and guttural sounds, and those characteristics spill over into whatever other language a dwarf might speak.",
-                "Subrace" : "Three main subraces of dwarves populate the worlds of Azeroth: Hill dwarves (Wildhammer Clan), Mountain dwarves (Bronzebeard Clan), and Dark dwarves (Dark Iron Clan)."
+                "Subrace" : "Three main subraces of dwarves populate the worlds of Azeroth: Hill dwarves (Wildhammer Clan), Mountain dwarves (Bronzebeard Clan), and Dark dwarves (Dark Iron Clan).",
+                "Subraces" : {
+                    "Bronzebeard" : {
+                        "Name" : "Mountain Dwarf (Bronzebeard)",
+                        "Quote" : "For Khaz Modan!",
+                        "Description" : "As a mountain dwarf, you probably hail from the Bronzebeard clan and its allies, and live in Khaz Modan. Ironforge dwarves are stout and powerful, with short muscular bodies, and prefer tying their hair (male or female) in ornate braids.",
+                        "AbilityScoreIncrease" : "Your Strength score increases by 1.",
+                        "Affiliation" : "Alliance. While the dwarves of Ironforge appreciate the fighting skill of the Horde, it is with grim eyes that they look upon the orcs and their allies, the trolls and the Forsaken. Although the dwarves have held dealings of commerce and diplomacy with the high elves, they keep the people of Quel‘Thalas at an arm‘s distance. While the night elves may share the same allegiances, the dwarves look upon them with suspicion and some trepidation. Humans, however, are the staunch and constant allies of the dwarven people and find welcome, favor and kindness when in dwarven lands.",
+                        "FamilyNames" : "Thunderforge, Bronzebeard, Hammergrim, Thornsteel, Chunderstout"
+                    },
+                    "DarkIron" : {
+                        "Name" : "Darklands Dwarf (Dark Iron)",
+                        "Quote" : "You shall serve.",
+                        "Description" : "As a darklands dwarf, you probably hail from the Dark Iron clans, lead by the Sorcerer-thane Thaurissan. Reviled as betrayers of their fellow dwarves, and living in the mountain-halls of Blackrock Mountain, Dark Iron dwarves are slaves to the great elemental Firelord Ragnaros, and serve him in the latent volcanic mountain. Dark Irons seem identical to Ironforge dwarves, except that their skin tones are ashen and gray, and their eyes are golden-red. Dark Irons who adventure can often reach into the power in their bloodline and spontaneously conjure flames. Hoarse of voice and prone to undertone muttering, Dark Irons do not inspire trust easily.",
+                        "AbilityScoreIncrease" : "Your Intelligence score increases by 1.",
+                        "Affiliation" : "Alliance or Independent. Hatred comes to Dark Iron dwarves against all races, and in their service to Ragnaros, they see only rivals, thralls, and enemies. Some dark irons have found kinship with their cousins the Wildhammers and the Bronzebeards, and chose to join the Alliance.",
+                        "FamilyNames" : "Angerforge, Darkbargainer, Firesmite, Forgewright"
+                    },
+                    "Wildhammer" : {
+                        "Name" : "Hill Dwarf (Wildhammer)",
+                        "Quote" : "To the skies!",
+                        "Description" : "As a hill dwarf, you probably hail from the Wildhammer clan and its allies, and live in the Aerie Peak. Wildhammer dwarves are similar in appearance to their Ironforge kin, though many shave their heads and they are slightly taller and leaner. Exposure to sun and high winds darkens and toughens their skin. Wildhammers string beads and feathers into their hair and beards as good luck charms, and paint tattoos on their bodies in homage to the totems, ideas and creatures they revere.",
+                        "AbilityScoreIncrease" : "Your Spirit score increases by 1.",
+                        "Affiliation" : "Alliance or independent. The Wildhammer clan is not a member of the Alliance, but Wildhammer dwarves are allies of the Alliance and would certainly help it in a war (and have done so in the past). They are distant with humans and Ironforge dwarves, but have formed a kinship with high elves. Wildhammers and high elves shared much in common in the past, including a love of nature and hatred of evil. Many high elves have grown introverted and brooding of late, which concerns the Wildhammers. The dwarves are appalled at the defection of the blood elves, an event which has caused them to see their high elf allies with new eyes. They also get along well with night elves, as the two races share much in common.",
+                        "FamilyNames" : "Beastclaw, Greatbeard, Thundertamer, Windseer"
+                    }
+                }
+            },
+            "Elf" : {
+                "Description" : "An elf is a member of one of the longest lived species on Azeroth known for keen perception, grace, and great spellwork. Elves were once believed to be the first race to awaken on Azeroth.",
+                "AbilityScoreIncrease" : "Your Agility score increases by 2.",
+                "Age" : "Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. A high elf typically claims adulthood around the age of 60 and can live to be 750 years old. A night elf claims adulthood and live up to five times said age (adulthood at 300 and live up to 3,750 years old). Until the World Tree was destroyed, the Night Elves were immune to aging effects.",
+                "Affiliation" : "Each sub-race is inclined to its own affiliations ever since the Great War of the Ancients.",
+                "Size" : "A high elf (and hence a blood and void elf) is usually a little over 6 feet in height and weighs between 100 to 175 pounds, depending on gender. Night elves (and hence Nightborne) are imposing in stature, males being on average 7 feet tall.",
+                "Appearance" : "Male Kaldorei are very muscular, with broad chests and shoulders, indicative of the strength that lies within both their minds and bodies. Female night elves are lithe and curvaceous, yet still muscular and strong.",
+                "SpeedAddition" : "Your speed is not reduced by wearing heavy armor.",
+                "Language" : "Elven is fluid, with subtle intonations and intricate grammar, even with strange dialects such as Nazja. Elven literature is rich and varied, and their songs and poems are famous among other races.",
+                "Subrace" : "Ancient divides and use of mana siphoning (or mana vampirism) among the elven people resulted in several main sub-races: high elves (and the blood and void elves), and night elves (and the Nightborne)."
             }
         },
 
@@ -69,6 +106,18 @@
             "Adapter" : {
                 "Label" : "Adapter",
                 "Description" : "You may always act when surprised at a combat encounter (even if you failed your Perception check to notice it). You also have advantage versus weather effects."
+            },
+            "Bravery" : {
+                "Label" : "Bravery",
+                "Description" : "You have advantage to all saves against fear."
+            },
+            "BronzebeardCombatTraining" : {
+                "Label" : "Dwarven Combat Training",
+                "Description" : "You have proficiency with firearms and explosives of all types, even if you do not have proficiency in engineering, and gain proficiency with light armor."
+            },
+            "BurningHeart" : {
+                "Label" : "Burning Heart",
+                "Description" : "You know the produce flame cantrip (caster level equal to your character level). Intelligence is your spellcasting ability for it."
             },
             "Darkvision" : {
                 "Label" : "Darkvision",
@@ -86,6 +135,10 @@
                 "Label" : "Fel Resistance",
                 "Description" : "You have resistance to fel damage."
             },
+            "FireLordsFavor" : {
+                "Label" : "Fire Lord's Favor",
+                "Description" : "You have resistance to fire damage."
+            },
             "Gemcutting" : {
                 "Label" : "Gemcutting",
                 "Description" : "You are proficient with artisan's tools (jewelcrafting kit)."
@@ -98,13 +151,29 @@
                 "Label" : "Heroic Presence",
                 "Description" : "You can spend 10 minutes inspiring your companions, shoring up their resolve to fight. When you do so, choose up to six friendly creatures (which can include yourself) within 30 feet of you who can see or hear you and who can understand you. Each creature can gain temporary hit points equal to your level + half your Charisma or Spirit modifier. A creature can't gain temporary hit points from this feature again until it has finished a long rest. Alternatively, you may declare use of this ability upon landing a critical hit."
             },
+            "MountainBorn" : {
+                "Label" : "Mountain Born",
+                "Description" : "You're acclimated to high altitude, including elevations above 20,000 feet. You're also naturally adapted to cold weather in the wilderness or while exploring."
+            },
             "NaturalArmor" : {
                 "Label" : "Natural Armor",
                 "Description" : "Your skin is as hardened leather in toughness. When you aren't wearing armor, your AC is 12 + your Agility modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor."
             },
+            "NaturalHandler" : {
+                "Label" : "Natural Handler",
+                "Description" : "You have proficiency with Animal Handling. If handling beasts that naturally live in mountains such as gryphons or mountain lions, you gain Expertise instead."
+            },
+            "Resilience" : {
+                "Label" : "Resilience",
+                "Description" : "You have advantage against poisons and resistance to poison damage."
+            },
             "Stalker" : {
                 "Label" : "Stalker",
                 "Description" : "You have proficiency with the Perception and Stealth skills. If you already have proficiency with one of these skills, you gain Expertise instead."
+            },
+            "Stonecunning" : {
+                "Label" : "Stonecunning",
+                "Description" : "Whenever you make an Intelligence (History) check or Mining checks related to stonework and minerals, you are considered both proficient and as if having Expertise in either History or Mining (choose one)."
             },
             "Stoneform" : {
                 "Label" : "Stoneform",
