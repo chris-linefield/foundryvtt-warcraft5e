@@ -4,6 +4,7 @@
         "Languages" : {
             "Common" : "Gemeinsprache",
             "Dwarven" : "Zwergisch",
+            "Elven" : "Elfisch",
             "Eredun" : "Eredonisch"
         },
 
@@ -91,15 +92,24 @@
                 }
             },
             "Elf" : {
-                "Description" : "An elf is a member of one of the longest lived species on Azeroth known for keen perception, grace, and great spellwork. Elves were once believed to be the first race to awaken on Azeroth.",
-                "AbilityScoreIncrease" : "Your Agility score increases by 2.",
-                "Age" : "Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. A high elf typically claims adulthood around the age of 60 and can live to be 750 years old. A night elf claims adulthood and live up to five times said age (adulthood at 300 and live up to 3,750 years old). Until the World Tree was destroyed, the Night Elves were immune to aging effects.",
-                "Affiliation" : "Each sub-race is inclined to its own affiliations ever since the Great War of the Ancients.",
-                "Size" : "A high elf (and hence a blood and void elf) is usually a little over 6 feet in height and weighs between 100 to 175 pounds, depending on gender. Night elves (and hence Nightborne) are imposing in stature, males being on average 7 feet tall.",
-                "Appearance" : "Male Kaldorei are very muscular, with broad chests and shoulders, indicative of the strength that lies within both their minds and bodies. Female night elves are lithe and curvaceous, yet still muscular and strong.",
-                "SpeedAddition" : "Your speed is not reduced by wearing heavy armor.",
-                "Language" : "Elven is fluid, with subtle intonations and intricate grammar, even with strange dialects such as Nazja. Elven literature is rich and varied, and their songs and poems are famous among other races.",
-                "Subrace" : "Ancient divides and use of mana siphoning (or mana vampirism) among the elven people resulted in several main sub-races: high elves (and the blood and void elves), and night elves (and the Nightborne)."
+                "Description" : "Elfen gehören zu den am längsten bekannten Spezies in Azeroth. Sie sind besonders für ihre scharfen Sinne, unvergleichliche Anmut und Magiebegabung bekannt. Elfen galten einst als die erste Rasse, die die Welt bevölkert hat.",
+                "AbilityScoreIncrease" : "Gewandtheit steigt um 2.",
+                "Age" : "Obwohl Elfen genau so schnell altern wie Menschen, geht ihre Definition von Reife weit über die körperliche Erscheinung hinaus und bezieht weltliche Erfahrungen mit ein. Ein Hochelf erreicht das Erwachsenenalter in der Regel mit etwa 60 Jahren und wird um die 750 Jahre alt. Ein Nachtelf hingegen gilt ab etwa 300 Jahren als erwachsen, wird aber auch etwa 3.700 Jahre alt. Bis zur Zerstörung des Weltenbaumes waren die Nachtelfen unsterblich.",
+                "Affiliation" : "Jede Unterart hat ihre eigene Zugehörigkeit seit den Geschehnissen im großen Krieg der Ahnen.",
+                "Size" : "Hochelfen (und daher auch Blut- und Leerenelfen) werden in der Regel um die 1,80 m groß und wiegen je nach Geschlecht zwischen 45 kg und 80 kg. Nachtelfen (und daher auch Nachtgeborene) sind beeindruckende Geschöpfe und werden bis zu 2,15 m groß.",
+                "Appearance" : "Männliche Kaldorei sind sehr muskolös. Anhand der kräftigen Oberkörper und breiten Schultern erkennt man ihre Stärke, die mit entsprechender Weisheit einher geht. Weibliche Nachtelfen sind gelenkig und kurvig und besitzen die Muskeln von Akrobaten.",
+                "Language" : "Elfisch ist eine flüssige Sprache mit weichen Betonungen und komplizierter Grammatik, besonders auch durch die vielen Dialekte wie z.B. Nazja. Die elfische Literatur ist reichhaltig und abwechslungsreich und ihre Gedichte und Lieder sind unter anderen Rassen sehr beliebt.",
+                "Subrace" : "Aufgrund des Mana-Vampirismus unter den Elfen zersplitterte ihre Kultur in verschiedene Unterarten: Hochelfen, Blutelfen, Leerenelfen, Nachtelfen und Nachtgeborene.",
+                "Subraces" : {
+                    "HighElf" : {
+                        "Name" : "Hochelf (Quel’dorei)",
+                        "Quote" : "Für Quel'Thalas!",
+                        "Description" : "As a high elf, you hail from Silvermoon in Quel‘Thalas or Dalaran. High elves stand slightly taller than humans do. The elves are slim, with sharp symmetrical features, often an exaggeration of perfect beauty. The high elves are uniformly fair in complexion, with white to flaxen colored hair. Their eyes are incredibly intense in color, seeming to glow with an inner light. While many high elves have blue or green eyes, violet and red are not unheard of.",
+                        "AbilityScoreIncrease" : "Your Intelligence score increases by 1.",
+                        "Affiliation" : "Alliance or independent. Most of the high elves have placed themselves under a self-imposed exile, ashamed of the damage that they have wrought upon the world of Lordaeron with their abuse of arcane magic. While humans still accept the high elves because of the aid that both races provided each other during the most recent attacks of the Burning Legion, many of the other races will only deal with the high elves if absolutely necessary. This is especially true after the acts of Kael‘thas Sunstrider. The night elves in particular do not care for the company of high elves and in some cases can be openly hostile toward their sun-blessed brethren. The passing of time may heal these wounds, but the use of arcane magic will always draw a rift between these two breeds of elf.",
+                        "FamilyNames" : "Boughstrider, Dawnblade, Lightbringer, Morningray, Suntreader"
+                    }
+                }
             }
         },
 
@@ -107,6 +117,15 @@
             "Adapter" : {
                 "Label" : "Anpassungsfähig",
                 "Description" : "Du kannst stets reagieren, wenn du im Kampf überrascht wirst (auch wenn deine Wahrnehmungs-Probe fehlgeschlagen ist). Du bist außerdem wetterbeständiger."
+            },
+            "ArcaneLegacy" : {
+                "Label" : "Arcane Legacy",
+                "Description" : "The high elves are uniquely attuned to magic. You can choose one of the below abilities.",
+                "Options" : {
+                    "1" : "You increase your mana pool size by 2 mana points.",
+                    "2" : "You add an additional cantrip to your High Magic ability, chosen from the mage spell list.",
+                    "3" : "You gain the Suffused Arrows talent. You may only take this if your first level is a hunter."
+                }
             },
             "Bravery" : {
                 "Label" : "Tapferkeit",
@@ -118,7 +137,7 @@
             },
             "BurningHeart" : {
                 "Label" : "Burning Heart",
-                "Description" : "Du beherrschst den Zauber \"Flammen beschwören\" (Die Zauberstufe entspricht der Charakter-Stufe). Dein Zauberattribut dafür ist Intelligenz."
+                "Description" : "Du beherrschst den Zauber \"TODO: LINK Flammen beschwören\" (Die Zauberstufe entspricht der Charakter-Stufe). Dein Zauberattribut dafür ist Intelligenz."
             },
             "Darkvision" : {
                 "Label" : "Dunkelsicht",
@@ -131,6 +150,10 @@
             "DwarvenCombatTraining" : {
                 "Label" : "Kampfausbildung",
                 "Description" : "Du hast Erfahrung im Umgang mit Kriegsäxten, Handäxten, leichten Hämmern und Kriegshämmern."
+            },
+            "ElvenCombatTraining" : {
+                "Label" : "Kampfausbildung",
+                "Description" : "Du hast Erfahrung im Umgang mit Langschwertern, Langbögen, Rapieren und Kurzbögen."
             },
             "FelResistance" : {
                 "Label" : "Fel-Resistenz",
@@ -152,9 +175,21 @@
                 "Label" : "Heroische Präsenz",
                 "Description" : "Du kannst 10 Minuten aufwenden, um deine Gefährten zu inspirieren, damit sie mit mehr Zuversicht in den Kampf ziehen. Wähle dazu bis zu 6 befreundete Kreaturen (du kannst auch dich selbst wählen) innerhalb von 30 Fuß. Sie müssen dich sehen oder hören (und verstehen) können. Jede Kreatur erhält vorübergehende Lebenspunkte, die deiner Charakterstufe + der Hälfte deines Geist- oder Charisma-Modifikators entsprechen. Eine Kreatur kann auf diese Weise keine weiteren temporären Lebenspunkte erhalten, bis sie eine lange Rast hinter sich gebracht hat. Alternativ kannst du diese Fähigkeit einsetzen, wenn du einen kritischen Treffer im Kampf landest."
             },
+            "HighMagic" : {
+                "Label" : "High Magic",
+                "Description" : "Magic. You know the prestidigitation cantrip and can cast it normally (caster level equal to your character level). When you reach 3rd level, you can also cast detect magic as a spell 1st level spell. When you reach 5th level, you can also cast the mute spell as a 2nd level spell. Intelligence is your spellcasting ability for these spells, and you use your mana pool for these abilities (even if you are not normally a spellcaster). While you use such abilities (and after using them for one hour), your eyes glow a pale blue. If you can already cast such spells (and have a sufficiently high caster level), they are always prepared for free."
+            },
+            "KeenSenses" : {
+                "Label" : "Scharfe Sinne",
+                "Description" : "Du bist geübt in der Fähigkeit Wahrnehmung."
+            },
             "MountainBorn" : {
                 "Label" : "Kind der Berge",
                 "Description" : "Du kommst problemlos mit Höhen zurecht und bist es gewohnt in bis zu 6.000 m Höhe zu leben. Du bist außerdem an kaltes Wetter angepasst, daher bereitet es dir beim Erkunden der Wildnis keine Probleme."
+            },
+            "MysticSenses" : {
+                "Label" : "Mystische Sinne",
+                "Description" : "Immer wenn du eine Probe auf die Herkunft von magischen Gegenständen, Überlieferungen oder Zaubern ablegst, giltst du als Experte für Zauberkunde."
             },
             "NaturalArmor" : {
                 "Label" : "Natürliche Rüstung",
@@ -166,10 +201,6 @@
             },
             "Resilience" : {
                 "Label" : "Unverwüstlich",
-            "Stonecunning" : {
-                "Label" : "Stonecunning",
-                "Description" : "Immer wenn du eine Intelligenz-Probe (Geschichte) oder Bergarbeits-Probe ablegst, die sich auf Steinarbeiten oder Mineralien bezieht, dann bist du geübt und Experte in Geschichte oder Bergarbeit. (Deine Wahl)"
-            },
                 "Description" : "Du bist sehr widerstandsfähig gegen Gifte."
             },
             "Stalker" : {

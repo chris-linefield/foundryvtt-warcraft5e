@@ -4,6 +4,7 @@
         "Languages" : {
             "Common" : "Common",
             "Dwarven" : "Dwarven",
+            "Elven" : "Elven",
             "Eredun" : "Eredun"
         },
 
@@ -98,7 +99,17 @@
                 "Appearance" : "Male Kaldorei are very muscular, with broad chests and shoulders, indicative of the strength that lies within both their minds and bodies. Female night elves are lithe and curvaceous, yet still muscular and strong.",
                 "SpeedAddition" : "Your speed is not reduced by wearing heavy armor.",
                 "Language" : "Elven is fluid, with subtle intonations and intricate grammar, even with strange dialects such as Nazja. Elven literature is rich and varied, and their songs and poems are famous among other races.",
-                "Subrace" : "Ancient divides and use of mana siphoning (or mana vampirism) among the elven people resulted in several main sub-races: high elves (and the blood and void elves), and night elves (and the Nightborne)."
+                "Subrace" : "Ancient divides and use of mana siphoning (or mana vampirism) among the elven people resulted in several main sub-races: high elves (and the blood and void elves), and night elves (and the Nightborne).",
+                "Subraces" : {
+                    "HighElf" : {
+                        "Name" : "High Elf (Quel’dorei)",
+                        "Quote" : "For Quel‟Thalas!",
+                        "Description" : "As a high elf, you hail from Silvermoon in Quel‘Thalas or Dalaran. High elves stand slightly taller than humans do. The elves are slim, with sharp symmetrical features, often an exaggeration of perfect beauty. The high elves are uniformly fair in complexion, with white to flaxen colored hair. Their eyes are incredibly intense in color, seeming to glow with an inner light. While many high elves have blue or green eyes, violet and red are not unheard of.",
+                        "AbilityScoreIncrease" : "Your Intelligence score increases by 1.",
+                        "Affiliation" : "Alliance or independent. Most of the high elves have placed themselves under a self-imposed exile, ashamed of the damage that they have wrought upon the world of Lordaeron with their abuse of arcane magic. While humans still accept the high elves because of the aid that both races provided each other during the most recent attacks of the Burning Legion, many of the other races will only deal with the high elves if absolutely necessary. This is especially true after the acts of Kael‘thas Sunstrider. The night elves in particular do not care for the company of high elves and in some cases can be openly hostile toward their sun-blessed brethren. The passing of time may heal these wounds, but the use of arcane magic will always draw a rift between these two breeds of elf.",
+                        "FamilyNames" : "Boughstrider, Dawnblade, Lightbringer, Morningray, Suntreader"
+                    }
+                }
             }
         },
 
@@ -106,6 +117,15 @@
             "Adapter" : {
                 "Label" : "Adapter",
                 "Description" : "You may always act when surprised at a combat encounter (even if you failed your Perception check to notice it). You also have advantage versus weather effects."
+            },
+            "ArcaneLegacy" : {
+                "Label" : "Arcane Legacy",
+                "Description" : "The high elves are uniquely attuned to magic. You can choose one of the below abilities.",
+                "Options" : {
+                    "1" : "You increase your mana pool size by 2 mana points.",
+                    "2" : "You add an additional cantrip to your High Magic ability, chosen from the mage spell list.",
+                    "3" : "You gain the Suffused Arrows talent. You may only take this if your first level is a hunter."
+                }
             },
             "Bravery" : {
                 "Label" : "Bravery",
@@ -131,6 +151,14 @@
                 "Label" : "Dwarven Combat Training",
                 "Description" : "You have proficiency with the battleaxe, handaxe, light hammer, and warhammer."
             },
+            "ElvenCombatTraining" : {
+                "Label" : "Elven Combat Training",
+                "Description" : "You have proficiency with the longsword, longbow, rapier, and shortbow."
+            },
+            "ExtraLanguage" : {
+                "Label" : "Extra Language",
+                "Description" : "You can speak, read and write one extra language of your choice."
+            },
             "FelResistance" : {
                 "Label" : "Fel Resistance",
                 "Description" : "You have resistance to fel damage."
@@ -151,9 +179,21 @@
                 "Label" : "Heroic Presence",
                 "Description" : "You can spend 10 minutes inspiring your companions, shoring up their resolve to fight. When you do so, choose up to six friendly creatures (which can include yourself) within 30 feet of you who can see or hear you and who can understand you. Each creature can gain temporary hit points equal to your level + half your Charisma or Spirit modifier. A creature can't gain temporary hit points from this feature again until it has finished a long rest. Alternatively, you may declare use of this ability upon landing a critical hit."
             },
+            "HighMagic" : {
+                "Label" : "High Magic",
+                "Description" : "Magic. You know the prestidigitation cantrip and can cast it normally (caster level equal to your character level). When you reach 3rd level, you can also cast detect magic as a spell 1st level spell. When you reach 5th level, you can also cast the mute spell as a 2nd level spell. Intelligence is your spellcasting ability for these spells, and you use your mana pool for these abilities (even if you are not normally a spellcaster). While you use such abilities (and after using them for one hour), your eyes glow a pale blue. If you can already cast such spells (and have a sufficiently high caster level), they are always prepared for free."
+            },
+            "KeenSenses" : {
+                "Label" : "Keen Senses",
+                "Description" : "You are proficient with the Perception skill."
+            },
             "MountainBorn" : {
                 "Label" : "Mountain Born",
                 "Description" : "You're acclimated to high altitude, including elevations above 20,000 feet. You're also naturally adapted to cold weather in the wilderness or while exploring."
+            },
+            "MysticSenses" : {
+                "Label" : "Mystic Senses",
+                "Description" : "Whenever you make any check related to the origin of magical items, lore, or spells, you are treated as if you have Expertise in the Arcana skill."
             },
             "NaturalArmor" : {
                 "Label" : "Natural Armor",

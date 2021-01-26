@@ -26,7 +26,17 @@
 
             {{!------ TRAITS ------}}
             {{#each item.data.traits}}
-                <strong><i>{{localize this.key}}:</i></strong> {{localize this.value}}
+                <strong><i>{{localize this.key}}:</i></strong>
+                <div>
+                    {{localize this.value}}
+                    {{#if this.options}}
+                        <ul>
+                            {{#each this.options}}
+                                <li>{{localize this}}</li>
+                            {{/each}}
+                        </ul>
+                    {{/if}}
+                </div>
                 <hr>
             {{/each}}
 
@@ -97,7 +107,17 @@
                     {{!------ TRAITS ------}}
                     {{#if this.traits}}
                         {{#each this.traits}}
-                            <strong><i>{{localize this.key}}:</i></strong> {{localize this.value}}
+                            <strong><i>{{localize this.key}}:</i></strong>
+                            <div>
+                                {{localize this.value}}
+                                {{#if this.options}}
+                                    <ul>
+                                        {{#each this.options}}
+                                            <li>{{localize this}}</li>
+                                        {{/each}}
+                                    </ul>
+                                {{/if}}
+                            </div>
                             <hr>
                         {{/each}}
                     {{/if}}
