@@ -110,6 +110,12 @@
                             <strong><i>{{localize this.key}}:</i></strong>
                             <div>
                                 {{localize this.value}}
+                                {{#if this.target}}
+                                    <br>
+                                    <a class="entity-link spellLink" draggable="true" data-pack="{{this.target.pack}}" data-id="{{this.target.node}}">
+                                        {{localize this.target.label}}
+                                    </a>
+                                {{/if}}
                                 {{#if this.options}}
                                     <ul>
                                         {{#each this.options}}

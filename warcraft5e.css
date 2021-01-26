@@ -155,3 +155,22 @@
 .warcraft5e .raceGrid hr:last-of-type {
     display:none;
 }
+
+.warcraft5e .spellLink {
+    position:relative;
+    display:inline-block;
+    border:1px solid #cab87a;
+    padding:0px 10px 5px 5px;
+    background-color:#f9f9f9;
+}
+
+.warcraft5e .spellLink::before {
+    content:'';
+    width:20px;
+    height:20px;
+    background:url('res/pics/ui/high/magic.png');
+    background-size:cover;
+    display:inline-block;
+    top:5px;
+    position:relative;
+}

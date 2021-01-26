@@ -59,7 +59,8 @@
                 "AbilityScoreIncrease" : "Your Stamina score increases by 2.",
                 "Age" : "Dwarves mature at the same rate as humans, but they're considered young until they reach the age of 40. On average, they live to be 450 years old.",
                 "Affiliation" : "Each sub-race is inclined to its own affiliations ever since the great War of the Three Hammers.",
-                "Size" : "Dwarves stand between 4 and 5 feet tall and average about 150 pounds. Your size is Medium. Male dwarves tend to have long hair, and beards or facial hair often tied in ornate braids. Female dwarves also have sturdy muscular frames, but they are buxom and lack facial hair, despite the claims of some of the less educated sages of other races.",
+                "Size" : "Dwarves stand between 4 and 5 feet tall and average about 150 pounds. Your size is Medium.",
+                "Appearance" : "Male dwarves tend to have long hair, and beards or facial hair often tied in ornate braids. Female dwarves also have sturdy muscular frames, but they are buxom and lack facial hair, despite the claims of some of the less educated sages of other races.",
                 "SpeedAddition" : "Your speed is not reduced by wearing heavy armor.",
                 "Language" : "Dwarven is full of hard consonants and guttural sounds, and those characteristics spill over into whatever other language a dwarf might speak.",
                 "Subrace" : "Three main subraces of dwarves populate the worlds of Azeroth: Hill dwarves (Wildhammer Clan), Mountain dwarves (Bronzebeard Clan), and Dark dwarves (Dark Iron Clan).",
@@ -222,6 +223,13 @@
             "ToolProficiency" : {
                 "Label" : "Tool Proficiency",
                 "Description" : "You gain proficiency with one artisan's tool of your choice: smith's tools, brewer's supplies, mason's tools, or mining tools."
+            }
+        },
+
+        "Spells" : {
+            "ProduceFlame" : {
+                "Label" : "Produce Flame",
+                "Description" : "A flickering flame appears in your hand. The flame remains there for the Duration and harms neither you nor your Equipment. The flame sheds bright light in a 10-foot radius and dim light for an additional 10 feet. The spell ends if you dismiss it as an action or if you cast it again.</p><p>You can also Attack with the flame, although doing so ends the spell. When you cast this spell, or as an action on a later turn, you can hurl the flame at a creature within 30 feet of you. Make a ranged spell Attack. On a hit, the target takes 1d8 fire damage.</p><p>This spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8)."
             }
         }
     }

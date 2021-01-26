@@ -40,7 +40,7 @@
     }
   },
   "Item": {
-    "types": ["item","race","class"],
+    "types": ["item","race","class","spell"],
     "templates": {
       "common": {
         "worth" : 0
