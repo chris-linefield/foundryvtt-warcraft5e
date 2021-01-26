@@ -102,12 +102,12 @@
                 "Subrace" : "Aufgrund des Mana-Vampirismus unter den Elfen zersplitterte ihre Kultur in verschiedene Unterarten: Hochelfen, Blutelfen, Leerenelfen, Nachtelfen und Nachtgeborene.",
                 "Subraces" : {
                     "HighElf" : {
-                        "Name" : "Hochelf (Quel’dorei)",
+                        "Name" : "Hochelf (Quel'dorei)",
                         "Quote" : "Für Quel'Thalas!",
-                        "Description" : "As a high elf, you hail from Silvermoon in Quel‘Thalas or Dalaran. High elves stand slightly taller than humans do. The elves are slim, with sharp symmetrical features, often an exaggeration of perfect beauty. The high elves are uniformly fair in complexion, with white to flaxen colored hair. Their eyes are incredibly intense in color, seeming to glow with an inner light. While many high elves have blue or green eyes, violet and red are not unheard of.",
-                        "AbilityScoreIncrease" : "Your Intelligence score increases by 1.",
-                        "Affiliation" : "Alliance or independent. Most of the high elves have placed themselves under a self-imposed exile, ashamed of the damage that they have wrought upon the world of Lordaeron with their abuse of arcane magic. While humans still accept the high elves because of the aid that both races provided each other during the most recent attacks of the Burning Legion, many of the other races will only deal with the high elves if absolutely necessary. This is especially true after the acts of Kael‘thas Sunstrider. The night elves in particular do not care for the company of high elves and in some cases can be openly hostile toward their sun-blessed brethren. The passing of time may heal these wounds, but the use of arcane magic will always draw a rift between these two breeds of elf.",
-                        "FamilyNames" : "Boughstrider, Dawnblade, Lightbringer, Morningray, Suntreader"
+                        "Description" : "Hochelfen stammen in der Regel aus Silbermond in Quel'Thalas oder aus Dalaran. Sie sind etwas höher gewachsen als Menschen und sehr schmal, mit scharfen symmetrisch geformten Merkmalen, die ihnen oft das Bild vollkommener Schönheit verleihen. Das Bild der Hochelfen ist sehr einheitlich und wenig komplex. Sie werden durch weiße bis flachsfarbene Haare und unglaublich intensive Augen geprägt, die für den Betrachter von innen heraus zu leuchten scheinen. Obwohl die meisten Hochelfen blaue oder grüne Augen haben, sind violett und rote Augen zumindest nicht unbekannt.",
+                        "AbilityScoreIncrease" : "Intelligenz steigt um 1.",
+                        "Affiliation" : "Allianz oder unabhängig - Die meisten Hochelfen haben sich in selbst auferlegtes Exil begeben, nachdem sie sich darüber klar wurden, welch Unheil sie durch ihren Missbrauch der arkanen Magie über die Welt von Lordaeron brachten. Während die Menschen die Hochelfen noch immer achten, weil die beiden Völker in den vergangenen Kriegen gegen die brennende Legion stets Seite an Seite kämpften, sind die meisten anderen Rassen nicht sonderlich gut auf die Quel'dorei zu sprechen. Das liegt vor allem auch an den Taten von Kael'thas Sonnenwanderer. Besonders die Nachtelfen meiden die Hochelfen wo sie nur können und begegnen ihren von der Sonne gesegneten Brüdern manchmal sogar mit offener Feindschaft. Die Zeit mag diese Wunden heilen, aber die Nutzung von arkaner Magie wird auf ewig einen Keil zwischen die beiden Arten der Elfen treiben.",
+                        "FamilyNames" : "Astwanderer, Morgenklinge, Lichtbringer, Morgengrau, Sonnenschreiter"
                     }
                 }
             }
@@ -119,12 +119,12 @@
                 "Description" : "Du kannst stets reagieren, wenn du im Kampf überrascht wirst (auch wenn deine Wahrnehmungs-Probe fehlgeschlagen ist). Du bist außerdem wetterbeständiger."
             },
             "ArcaneLegacy" : {
-                "Label" : "Arcane Legacy",
-                "Description" : "The high elves are uniquely attuned to magic. You can choose one of the below abilities.",
+                "Label" : "Arkanes Erbe",
+                "Description" : "Hochelfen besitzen ein einzigartiges Gespür für Magie. Du kannst einen der folgenden Vorteile wählen:",
                 "Options" : {
-                    "1" : "You increase your mana pool size by 2 mana points.",
-                    "2" : "You add an additional cantrip to your High Magic ability, chosen from the mage spell list.",
-                    "3" : "You gain the Suffused Arrows talent. You may only take this if your first level is a hunter."
+                    "1" : "Du kannst deinen Mana-Pool um 2 Punkte erhöhen.",
+                    "2" : "Du kannst einen zusätzlichen Zauberspruch zu ???????? You add an additional cantrip to your High Magic ability, chosen from the mage spell list.",
+                    "3" : "[Nur für Jäger] - Du erhältst das Talent \"TODO: Link Durchdringende Pfeile\"."
                 }
             },
             "Bravery" : {
