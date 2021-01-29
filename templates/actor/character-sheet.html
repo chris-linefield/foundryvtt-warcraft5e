@@ -1,8 +1,32 @@
 <form class="{{cssClass}} flexcol" autocomplete="off">
 
-    {{!-- Character Sheet Header --}}
-    <header>
-        Character Sheet
+    {{!-- Sheet Header --}}
+    <header class="sheet-header flexrow">
+        <img class="profile" src="{{actor.img}}" title="{{actor.name}}" data-edit="img"/>
     </header>
 
+    <section class="sheet-body">
+        {{data.goodness.label}}: {{data.goodness.value}}
+        <br>
+        <br>
+        <br>
+        Skills:
+        {{#each data.skills as |skill key|}}
+            <label>{{key}} ({{skill.ability}})</label> <input type="text" name="data.skills.{{key}}.value" value="" /><br>
+        {{/each}}
+        <br>
+        <br>
+        <br>
+        Spells:
+        {{#each data.spells as |spell key|}}
+            <input type="checkbox" name="data.spells.{{key}}.usable" {{checked spell.usable}} />
+            <a class="entity-link spellLink" draggable="true" data-pack="warcraft5e.spells" data-id="{{spell.node}}">
+                {{localize spell.label}}
+            </a>
+            <br>
+        {{/each}}
+
+        {{log data}}
+
+    </section>
 </form>

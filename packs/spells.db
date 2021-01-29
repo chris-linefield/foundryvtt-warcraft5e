@@ -1,1 +1,1 @@
-{"_id":"eCPQuQkIabFKTl9u","name":"Produce Flame","permission":{"default":0},"type":"spell","data":{"label":"WC5E.Spells.ProduceFlame.Label","description":"WC5E.Spells.ProduceFlame.Description"}}
+{"_id":"eCPQuQkIabFKTl9u","name":"Produce Flame","permission":{"default":0},"type":"spell","img":"systems/warcraft5e/res/pics/skills/yellow_09.jpg","data":{"label":"WC5E.Spells.ProduceFlame.Label","description":"WC5E.Spells.ProduceFlame.Description","properties":{"activeState":true}}}

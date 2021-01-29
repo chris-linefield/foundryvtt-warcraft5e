@@ -8,6 +8,10 @@
             "Eredun" : "Eredonisch"
         },
 
+        "CharacterSheet" : {
+            "HitPoints" : "Lebenspunkte"
+        },
+
         "RaceSheet" : {
             "AbilityScoreIncrease" : "Attributs-Modifikator",
             "Age" : "Alter",
@@ -155,6 +159,10 @@
                 "Label" : "Kampfausbildung",
                 "Description" : "Du hast Erfahrung im Umgang mit Langschwertern, Langbögen, Rapieren und Kurzbögen."
             },
+            "ExtraLanguage" : {
+                "Label" : "Zusätzliche Sprache",
+                "Description" : "Du kannst eine weitere Sprache deiner Wahl sprechen, lesen und schreiben."
+            },
             "FelResistance" : {
                 "Label" : "Fel-Resistenz",
                 "Description" : "Du besitzt natürlichen Widerstand gegen Fel-Magie."
@@ -177,7 +185,7 @@
             },
             "HighMagic" : {
                 "Label" : "High Magic",
-                "Description" : "Magic. Du kennst den Zauber \"TODO: Link: Fingergertigkeit\". You know the prestidigitation cantrip and can cast it normally (caster level equal to your character level). When you reach 3rd level, you can also cast detect magic as a spell 1st level spell. When you reach 5th level, you can also cast the mute spell as a 2nd level spell. Intelligence is your spellcasting ability for these spells, and you use your mana pool for these abilities (even if you are not normally a spellcaster). While you use such abilities (and after using them for one hour), your eyes glow a pale blue. If you can already cast such spells (and have a sufficiently high caster level), they are always prepared for free."
+                "Description" : "Magie. Du kennst den Zauber \"TODO: Link: Fingergertigkeit\" und kannst ihn ganz normal zaubern (Die Zauberstufe entspricht deiner Charakter-Stufe). Mit Stufe 3 kannst du \"TODO: Magie erkennen\" als Stufe 1 Zauber wirken. Wenn du Stufe 5 erreichst, erlernst du den Zauber \"TODO: Stille\" auf Stufe 2. Das entsprechende Attribut für diese Zauber ist Intelligenz und du benutzt deinen normalen Mana-Pool, um diese Zauber zu wirken, auch wenn du normalerweise kein Zauberwirker bist. Sobald du diese Fähigkeiten nutzt, beginnen deine Augen für die nächste Stunde in einem böassen blau zu leuchten. Wenn du diese Zauber bereits anderweitig gelernt hast und die entsprechende Stufe erreicht hast, kannst du sie immer ohne Mana-Kosten vorbereiten."
             },
             "KeenSenses" : {
                 "Label" : "Scharfe Sinne",
@@ -225,6 +233,14 @@
             "ProduceFlame" : {
                 "Label" : "Flammen erzeugen",
                 "Description" : "Eine flackernde Flamme erscheint in deiner Hand. Solange sie in deiner Hand tanzt, schadet sie weder dir noch deiner Ausrüstung. Die Flamme spendet Licht in einem Radius von 10 Fuß und schwaches Licht in weiteren 10 Fuß. Der Zauber endet, wenn du ihn als Aktion frei gibst oder ihn erneut wirkst. Du kannst die Flamme auch zum Angriff einsetzen. Auch hierbei erlischt die Flamme anschließend. In dem Moment, in dem du den Zauber wirkst, oder auf Kosten einer Aktion in einem späteren Zug, kannst du die Flamme auf eine Kreatur innerhalb von 30 Fuß Entfernung schleudern. Führe dazu einen Fernangriff aus. Bei einem Treffer erleidet das Ziel 1W8 Feuerschaden. Der Schaden steigt bei Stufe 5 auf 2W8, bei Stufe 11 auf 3W8 und bei Stufe 17 auf 4W8."
+            }
+        },
+
+        "UI": {
+            "Actions" : {
+                "NoToken" : "Du hast kein Token ausgewählt. Bitte wähle ein gültiges Token.",
+                "CastSpellError" : "Du bist nicht in der Lage, diesen Zauber zu wirken: ",
+                "CastSpell" : "Du wirkst den Zauber"
             }
         }
     }

@@ -7,6 +7,7 @@ import { WcRaceSheet }      from "./module/item/race-sheet.js";
 import { WcClassSheet }     from "./module/item/class-sheet.js";
 import { WcSpellSheet }     from "./module/item/spell-sheet.js";
 
+import * as WcSkillHandler  from "./module/skill-handler.js";
 
 //---- ON INITIALIZATION
 
@@ -45,6 +46,10 @@ Hooks.once('init', async function() {
         types: ["spell"],
         makeDefault: true
     });
+
+    game.WC5E = {
+        skills : WcSkillHandler
+    };
 
 });
 
