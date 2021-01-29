@@ -32,11 +32,58 @@ export function castSpell(skillName) {
 
         let spellProps = value.data.data.properties;
 
-        console.log(spellProps);
-
         //Does this spell have an active state?
         if(spellProps.activeState === true) {
-            console.log(game.i18n.localize('WC5E.UI.Actions.CastSpell')+' "'+readableSkill+'"');
+
+            if(skill.activeState === false) {
+                console.log(game.i18n.localize('WC5E.UI.Actions.CastSpell')+' "'+readableSkill+'"');
+
+                let tokenId = speaker.token;
+                let token = canvas.tokens.get(tokenId);
+
+                let updateObject = {};
+                //activate the effects of the active state
+                if(spellProps.effects) {
+                    //light effects
+                    if(spellProps.effects.light) {
+                        if(spellProps.effects.light.dim) {
+                            updateObject.dimLight = spellProps.effects.light.dim;
+                        }
+                        if(spellProps.effects.light.dim) {
+                            updateObject.brightLight = spellProps.effects.light.bright;
+                        }
+                    }
+                    //sight effects
+                    if(spellProps.effects.sight) {
+                        if(spellProps.effects.sight.dim) {
+                            updateObject.dimSight = spellProps.effects.sight.dim;
+                        }
+                        if(spellProps.effects.sight.dim) {
+                            updateObject.brightSight = spellProps.effects.sight.bright;
+                        }
+
+                    }
+                    //animation
+                    if(spellProps.effects.animation) {
+                        updateObject.lightAnimation = {
+                            intensity: spellProps.effects.animation.intensity,
+                            speed: spellProps.effects.animation.speed,
+                            type: spellProps.effects.animation.type
+                        };
+
+                        updateObject.lightColor = spellProps.effects.animation.color[0];
+                        updateObject.lightAlpha = spellProps.effects.animation.color[1];
+                    }
+                }
+
+                token.update(updateObject);
+
+                console.log(token);
+            }
+            else {
+
+            }
+
         }
         else {
 
