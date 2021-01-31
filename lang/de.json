@@ -13,14 +13,26 @@
         },
 
         "Class" : {
-            "Druid" : {
-                "Name" : "Druide"
-            },
             "Alchemist" : {
                 "Name" : "Alchemist"
             },
+            "DeathKnight" : {
+                "Name" : "Todesritter"
+            },
+            "Druid" : {
+                "Name" : "Druide"
+            },
+            "Hunter" : {
+                "Name" : "Jäger"
+            },
             "Mage" : {
                 "Name" : "Magier"
+            },
+            "Paladin" : {
+                "Name" : "Paladin"
+            },
+            "Priest" : {
+                "Name" : "Priester"
             },
             "Shaman" : {
                 "Name" : "Schamane"
@@ -257,6 +269,10 @@
         },
 
         "Spells" : {
+            "DetectMagic" : {
+                "Label" : "Detect Magic",
+                "Description" : "For the duration, you sense the presence of magic within 30 feet of you. If you sense magic in this way, you can use your action to see a faint aura around any visible creature or object in the area that bears magic, and you learn its school of magic, if any. The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt."
+            },
             "ProduceFlame" : {
                 "Label" : "Flammen erzeugen",
                 "Description" : "Eine flackernde Flamme erscheint in deiner Hand. Solange sie in deiner Hand tanzt, schadet sie weder dir noch deiner Ausrüstung. Die Flamme spendet Licht in einem Radius von 10 Fuß und schwaches Licht in weiteren 10 Fuß. Der Zauber endet, wenn du ihn als Aktion frei gibst oder ihn erneut wirkst. Du kannst die Flamme auch zum Angriff einsetzen. Auch hierbei erlischt die Flamme anschließend. In dem Moment, in dem du den Zauber wirkst, oder auf Kosten einer Aktion in einem späteren Zug, kannst du die Flamme auf eine Kreatur innerhalb von 30 Fuß Entfernung schleudern. Führe dazu einen Fernangriff aus. Bei einem Treffer erleidet das Ziel 1W8 Feuerschaden. Der Schaden steigt bei Stufe 5 auf 2W8, bei Stufe 11 auf 3W8 und bei Stufe 17 auf 4W8."
