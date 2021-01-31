@@ -3,30 +3,34 @@
     {{!-- Sheet Header --}}
     <header class="sheet-header flexrow">
         <img class="profile" src="{{actor.img}}" title="{{actor.name}}" data-edit="img"/>
+
+        <h1 class="charname">
+            <input name="name" type="text" value="{{actor.name}}" placeholder="{{ localize 'DND5E.Name' }}"/>
+        </h1>
+
+        <input name="data.core.lvl" type="text" value="{{data.core.lvl}}"/>
     </header>
 
     <section class="sheet-body">
+        {{localize "WC5E.CharacterSheet.HitPoints"}}: <input name="data.core.hp.value" type="text" value="{{data.core.hp.value}}"/> / <input name="data.core.hp.max" type="text" value="{{data.core.hp.max}}"/><br>
+        <br>
         {{data.goodness.label}}: {{data.goodness.value}}
         <br>
         <br>
-        <br>
-        Skills:
-        {{#each data.skills as |skill key|}}
-            <label>{{key}} ({{skill.ability}})</label> <input type="text" name="data.skills.{{key}}.value" value="" /><br>
-        {{/each}}
         <br>
         <br>
         <br>
         Spells:
         {{#each data.spells as |spell key|}}
-            <input type="checkbox" name="data.spells.{{key}}.usable" {{checked spell.usable}} />
+            <input type="checkbox" name="data.spells.{{key}}.usable" data-dtype="Boolean" {{checked spell.usable}} />
+            <input type="hidden" name="data.spells.{{key}}.activeState" data-dtype="Boolean" value="{{spell.activeState}}" />
             <a class="entity-link spellLink" draggable="true" data-pack="warcraft5e.spells" data-id="{{spell.node}}">
                 {{localize spell.label}}
             </a>
             <br>
         {{/each}}
 
-        {{log data}}
+        {{log this}}
 
     </section>
 </form>

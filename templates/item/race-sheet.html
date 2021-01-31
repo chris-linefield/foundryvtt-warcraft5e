@@ -52,21 +52,21 @@
                 {{#if item.data.names}}
                     <strong><i>{{localize "WC5E.RaceSheet.MaleNames"}}:</i></strong>
                     {{#each item.data.names.male}}
-                        {{this}},
+                        {{this}}{{#unless @last}},{{/unless}}
                     {{/each}}
                     <hr>
                 {{/if}}
                 {{#if item.data.names.female}}
                     <strong><i>{{localize "WC5E.RaceSheet.FemaleNames"}}:</i></strong>
                     {{#each item.data.names.female}}
-                        {{this}},
+                        {{this}}{{#unless @last}},{{/unless}}
                     {{/each}}
                     <hr>
                 {{/if}}
                 {{#if item.data.names.family}}
                     <strong><i>{{localize "WC5E.RaceSheet.FamilyNames"}}:</i></strong>
                     {{#each item.data.names.family}}
-                        {{localize this}},
+                        {{localize this}}{{#unless @last}},{{/unless}}
                     {{/each}}
                     <hr>
                 {{/if}}
@@ -112,9 +112,11 @@
                                 {{localize this.value}}
                                 {{#if this.target}}
                                     <br>
-                                    <a class="entity-link spellLink" draggable="true" data-pack="{{this.target.pack}}" data-id="{{this.target.node}}">
-                                        {{localize this.target.label}}
-                                    </a>
+                                    {{#each this.target}}
+                                        <a class="entity-link spellLink" draggable="true" data-pack="{{this.pack}}" data-id="{{this.node}}">
+                                            {{localize this.label}}
+                                        </a>
+                                    {{/each}}
                                 {{/if}}
                                 {{#if this.options}}
                                     <ul>
@@ -133,21 +135,21 @@
                         {{#if this.names}}
                             <strong><i>{{localize "WC5E.RaceSheet.MaleNames"}}:</i></strong>
                             {{#each this.names.male}}
-                                {{this}},
+                                {{this}}{{#unless @last}},{{/unless}}
                             {{/each}}
                             <hr>
                         {{/if}}
                         {{#if this.names.female}}
                             <strong><i>{{localize "WC5E.RaceSheet.FemaleNames"}}:</i></strong>
                             {{#each this.names.female}}
-                                {{this}},
+                                {{this}}{{#unless @last}},{{/unless}}
                             {{/each}}
                             <hr>
                         {{/if}}
                         {{#if this.names.family}}
                             <strong><i>{{localize "WC5E.RaceSheet.FamilyNames"}}:</i></strong>
                             {{#each this.names.family}}
-                                {{localize this}},
+                                {{localize this}}{{#unless @last}},{{/unless}}
                             {{/each}}
                             <hr>
                         {{/if}}

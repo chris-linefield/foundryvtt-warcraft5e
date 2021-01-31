@@ -12,6 +12,24 @@
             "HitPoints" : "Lebenspunkte"
         },
 
+        "Class" : {
+            "Druid" : {
+                "Name" : "Druide"
+            },
+            "Alchemist" : {
+                "Name" : "Alchemist"
+            },
+            "Mage" : {
+                "Name" : "Magier"
+            },
+            "Shaman" : {
+                "Name" : "Schamane"
+            },
+            "Warlock" : {
+                "Name" : "Hexer"
+            }
+        },
+
         "RaceSheet" : {
             "AbilityScoreIncrease" : "Attributs-Modifikator",
             "Age" : "Alter",
@@ -185,7 +203,7 @@
             },
             "HighMagic" : {
                 "Label" : "High Magic",
-                "Description" : "Magie. Du kennst den Zauber \"TODO: Link: Fingergertigkeit\" und kannst ihn ganz normal zaubern (Die Zauberstufe entspricht deiner Charakter-Stufe). Mit Stufe 3 kannst du \"TODO: Magie erkennen\" als Stufe 1 Zauber wirken. Wenn du Stufe 5 erreichst, erlernst du den Zauber \"TODO: Stille\" auf Stufe 2. Das entsprechende Attribut für diese Zauber ist Intelligenz und du benutzt deinen normalen Mana-Pool, um diese Zauber zu wirken, auch wenn du normalerweise kein Zauberwirker bist. Sobald du diese Fähigkeiten nutzt, beginnen deine Augen für die nächste Stunde in einem böassen blau zu leuchten. Wenn du diese Zauber bereits anderweitig gelernt hast und die entsprechende Stufe erreicht hast, kannst du sie immer ohne Mana-Kosten vorbereiten."
+                "Description" : "Magie. Du kennst den Zauber \"Taschenspielerei\" und kannst ihn ganz normal zaubern (Die Zauberstufe entspricht deiner Charakter-Stufe). Mit Stufe 3 kannst du \"TODO: Magie erkennen\" als Stufe 1 Zauber wirken. Wenn du Stufe 5 erreichst, erlernst du den Zauber \"TODO: Stille\" auf Stufe 2. Das entsprechende Attribut für diese Zauber ist Intelligenz und du benutzt deinen normalen Mana-Pool, um diese Zauber zu wirken, auch wenn du normalerweise kein Zauberwirker bist. Sobald du diese Fähigkeiten nutzt, beginnen deine Augen für die nächste Stunde in einem böassen blau zu leuchten. Wenn du diese Zauber bereits anderweitig gelernt hast und die entsprechende Stufe erreicht hast, kannst du sie immer ohne Mana-Kosten vorbereiten."
             },
             "KeenSenses" : {
                 "Label" : "Scharfe Sinne",
@@ -229,18 +247,67 @@
             }
         },
 
+        "SpellSheet" : {
+            "School" : "Zauberschule",
+            "CastTime" : "Zauberzeit",
+            "Range" : "Reichweite",
+            "Components" : "Bestandteile",
+            "Duration" : "Dauer",
+            "Classes" : "Klassen"
+        },
+
         "Spells" : {
             "ProduceFlame" : {
                 "Label" : "Flammen erzeugen",
                 "Description" : "Eine flackernde Flamme erscheint in deiner Hand. Solange sie in deiner Hand tanzt, schadet sie weder dir noch deiner Ausrüstung. Die Flamme spendet Licht in einem Radius von 10 Fuß und schwaches Licht in weiteren 10 Fuß. Der Zauber endet, wenn du ihn als Aktion frei gibst oder ihn erneut wirkst. Du kannst die Flamme auch zum Angriff einsetzen. Auch hierbei erlischt die Flamme anschließend. In dem Moment, in dem du den Zauber wirkst, oder auf Kosten einer Aktion in einem späteren Zug, kannst du die Flamme auf eine Kreatur innerhalb von 30 Fuß Entfernung schleudern. Führe dazu einen Fernangriff aus. Bei einem Treffer erleidet das Ziel 1W8 Feuerschaden. Der Schaden steigt bei Stufe 5 auf 2W8, bei Stufe 11 auf 3W8 und bei Stufe 17 auf 4W8."
+            },
+            "Prestidigitation" : {
+                "Label" : "Taschenspielerei",
+                "Description" : "Dieser Zauber ist ein winziger magischer Trick, den Zauberlehrlinge zum Üben verwenden. Du kannst damit innerhalb von 10 Fuß einen der nachfolgenden Effekte erzielen. Wenn du diesen Zauber mehrere male wirkst, kannst du bis zu drei der nicht-spontanen Effekte gleichzeitig aufrecht erhalten. Einen dieser Effekte zu beenden, ist eine normale Aktion.",
+                "Options" : {
+                    "1" : "Du erzeugst spontan einen harmlosen Effekt, der die Sinne täuscht, wie z.B. Gänsehaut, einen Windhauch, ein leises Notenspiel oder einen seltsamen Duft.",
+                    "2" : "Du kannst spontan eine kleine Flamme herbei zaubern oder löschen, um z.B. eine Kerze, eine Fackel oder ein kleines Lagerfeuer zu entzünden.",
+                    "3" : "Du kannst spontan einen Gegenstand säubern oder beschmutzen, der nicht größer als ein 35 cm langer Würfel ist.",
+                    "4" : "Du kannst nicht lebendige Materie abkühlen oder erwärmen, wenn sie nicht größer als ein 35 cm langer Würfel ist.",
+                    "5" : "Du kannst eine Farbe, ein kleines Zeichen oder ein Symbol auf der Oberfläche eines beliebigen Gegenstandes erzeugen.",
+                    "6" : "Du kannst ein nichtmagisches Schmuckstück oder ein illusorisches Bild beschwören, das in deine Hand passt. Du kannst es bis zum Ende deiner nächsten Runde aufrecht erhalten."
+                }
+            }
+        },
+
+        "SpellRules" : {
+            "SpellSchools" : {
+                "Abjuration" : "Schutz",
+                "Conjuration" : "Beschwörung",
+                "Divination" : "Wahrsagerei",
+                "Enchantment" : "Verzauberung",
+                "Evocation" : "Elemente",
+                "Illusion" : "Illusionen",
+                "Necromancy" : "Nekromantie",
+                "Transmutation" : "Verwandlung"
+            },
+            "Range" : {
+                "Self" : "du selbst"
+            },
+            "Components" : {
+                "Somatic" : "Gesten",
+                "Verbal" : "Geräusche"
             }
         },
 
         "UI": {
             "Actions" : {
                 "NoToken" : "Du hast kein Token ausgewählt. Bitte wähle ein gültiges Token.",
+                "CastSpell" : "Du wirkst den Zauber",
                 "CastSpellError" : "Du bist nicht in der Lage, diesen Zauber zu wirken: ",
-                "CastSpell" : "Du wirkst den Zauber"
+                "CastSpellInvalidTarget" : "Ungültiges Ziel. Bitte wähle ein einzelnes feindliches Token.",
+                "OutOfRange" : "Das Ziel befindet sich außer Reichweite. Distanz:"
+            },
+            "Units" : {
+                "Action" : "Aktion",
+                "Ft" : "Fuß",
+                "Minutes" : "Minuten",
+                "Hour" : "Stunde"
             }
         }
     }

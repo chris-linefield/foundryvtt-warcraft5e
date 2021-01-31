@@ -12,6 +12,24 @@
             "HitPoints" : "Hit Points"
         },
 
+        "Class" : {
+            "Druid" : {
+                "Name" : "Druid"
+            },
+            "Alchemist" : {
+                "Name" : "Alchemist"
+            },
+            "Mage" : {
+                "Name" : "Mage"
+            },
+            "Shaman" : {
+                "Name" : "Shaman"
+            },
+            "Warlock" : {
+                "Name" : "Warlock"
+            }
+        },
+
         "RaceSheet" : {
             "AbilityScoreIncrease" : "Ability Score Increase",
             "Age" : "Age",
@@ -186,7 +204,7 @@
             },
             "HighMagic" : {
                 "Label" : "High Magic",
-                "Description" : "Magic. You know the prestidigitation cantrip and can cast it normally (caster level equal to your character level). When you reach 3rd level, you can also cast detect magic as a spell 1st level spell. When you reach 5th level, you can also cast the mute spell as a 2nd level spell. Intelligence is your spellcasting ability for these spells, and you use your mana pool for these abilities (even if you are not normally a spellcaster). While you use such abilities (and after using them for one hour), your eyes glow a pale blue. If you can already cast such spells (and have a sufficiently high caster level), they are always prepared for free."
+                "Description" : "Magic. You know the prestidigitation cantrip and can cast it normally (caster level equal to your character level). When you reach 3rd level, you can also cast detect magic as a 1st level spell. When you reach 5th level, you can also cast the mute spell as a 2nd level spell. Intelligence is your spellcasting ability for these spells, and you use your mana pool for these abilities (even if you are not normally a spellcaster). While you use such abilities (and after using them for one hour), your eyes glow a pale blue. If you can already cast such spells (and have a sufficiently high caster level), they are always prepared for free."
             },
             "KeenSenses" : {
                 "Label" : "Keen Senses",
@@ -230,18 +248,67 @@
             }
         },
 
+        "SpellSheet" : {
+            "School" : "School",
+            "CastTime" : "Casting Time",
+            "Range" : "Range",
+            "Components" : "Components",
+            "Duration" : "Duration",
+            "Classes" : "Classes"
+        },
+
         "Spells" : {
             "ProduceFlame" : {
                 "Label" : "Produce Flame",
-                "Description" : "A flickering flame appears in your hand. The flame remains there for the Duration and harms neither you nor your Equipment. The flame sheds bright light in a 10-foot radius and dim light for an additional 10 feet. The spell ends if you dismiss it as an action or if you cast it again.</p><p>You can also Attack with the flame, although doing so ends the spell. When you cast this spell, or as an action on a later turn, you can hurl the flame at a creature within 30 feet of you. Make a ranged spell Attack. On a hit, the target takes 1d8 fire damage.</p><p>This spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8)."
+                "Description" : "A flickering flame appears in your hand. The flame remains there for the Duration and harms neither you nor your Equipment. The flame sheds bright light in a 10-foot radius and dim light for an additional 10 feet. The spell ends if you dismiss it as an action or if you cast it again. You can also Attack with the flame, although doing so ends the spell. When you cast this spell, or as an action on a later turn, you can hurl the flame at a creature within 30 feet of you. Make a ranged spell Attack. On a hit, the target takes 1d8 fire damage. This spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8)."
+            },
+            "Prestidigitation" : {
+                "Label" : "Prestidigitation",
+                "Description" : "This spell is a minor magical trick that novice spellcasters use for practice. You create one of the following magical Effects within range. If you cast this spell multiple times, you can have up to three of its non-instantaneous Effects active at a time, and you can dismiss such an Effect as an action.",
+                "Options" : {
+                    "1" : "You create an Instantaneous, harmless sensory Effect, such as a shower of sparks, a puff of wind, faint musical notes, or an odd odor.",
+                    "2" : "You instantaneously light or snuff out a Candle, a torch, or a small campfire.",
+                    "3" : "You instantaneously clean or soil an object no larger than 1 cubic foot.",
+                    "4" : "You chill, warm, or flavor up to 1 cubic foot of nonliving material for 1 hour.",
+                    "5" : "You make a color, a small mark, or a Symbol appear on an object or a surface for 1 hour.",
+                    "6" : "You create a nonmagical trinket or an illusory image that can fit in your hand and that lasts until the end of your next turn."
+                }
+            }
+        },
+
+        "SpellRules" : {
+            "SpellSchools" : {
+                "Abjuration" : "Abjuration",
+                "Conjuration" : "Conjuration",
+                "Divination" : "Divination",
+                "Enchantment" : "Enchantment",
+                "Evocation" : "Evocation",
+                "Illusion" : "Illusion",
+                "Necromancy" : "Necromancy",
+                "Transmutation" : "Transmutation"
+            },
+            "Range" : {
+                "Self" : "self"
+            },
+            "Components" : {
+                "Somatic" : "Somatic",
+                "Verbal" : "Verbal"
             }
         },
 
         "UI": {
             "Actions" : {
                 "NoToken" : "You have not selected a valid token. Please select a valid token.",
+                "CastSpell" : "You cast the Spell",
                 "CastSpellError" : "You're not able to cast the spell",
-                "CastSpell" : "You cast the Spell"
+                "CastSpellInvalidTarget" : "Invalid Target. Please select one hostile token.",
+                "OutOfRange" : "The target is out of range. Distance:"
+            },
+            "Units" : {
+                "Action" : "action",
+                "Ft" : "ft",
+                "Minutes" : "minutes",
+                "Hour" : "hour"
             }
         }
     }

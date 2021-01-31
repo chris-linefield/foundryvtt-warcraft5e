@@ -63,6 +63,9 @@
     border:3px double #cab87a;
 }
 
+/*********************************
+ * DEFAULT DESIGN
+ ********************************/
 
 .warcraft5e .window-content {
     background:url("res/pics/parchment.jpg") top left;
@@ -135,6 +138,10 @@
     padding-bottom:50px;
 }
 
+/*********************************
+ * RACE SHEET
+ ********************************/
+
 .warcraft5e .raceGrid {
     display:grid;
     grid-template-columns:auto 1fr;
@@ -173,4 +180,65 @@
     display:inline-block;
     top:5px;
     position:relative;
+}
+
+.warcraft5e header .imageRow {
+    grid-template-columns:100px 1fr;
+}
+
+.warcraft5e header .imageRow img {
+    width:100px;
+    height:100px;
+}
+
+/*********************************
+ * SPELL SHEET
+ ********************************/
+
+.warcraft5e .headerSpellGrid {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-gap:20px;
+}
+
+.warcraft5e .headerSpellGrid span:nth-of-type(2) {
+    text-align:right;
+}
+
+.warcraft5e .spellContent {
+    display:grid;
+    grid-template-columns:100px 1fr;
+    grid-gap:10px;
+    text-align:justify;
+    padding-top:10px;
+}
+
+.warcraft5e .spellProps {
+    font-size:0.9em;
+}
+
+.warcraft5e .spellProp {
+    border:1px solid #e0d8bb;
+    margin-bottom:10px;
+    line-height:1.1em;
+    background-color:rgba(255,255,255,0.75);
+    text-align:center;
+    padding:5px 5px;
+    box-shadow:1px 0px 0px #cab87a inset, -1px 0px 0px #cab87a inset;
+    color:#696969;
+    font-weightr:bold;
+}
+
+.warcraft5e .spellProp > strong {
+    display:block;
+    text-transform:uppercase;
+    font-size:0.7em;
+    font-family:Signika;
+    color:#a9a9a9;
+}
+
+.warcraft5e .spellDesc ul {
+    font-size:0.9em;
+    padding-right:20px;
+    padding-left:18px;
 }

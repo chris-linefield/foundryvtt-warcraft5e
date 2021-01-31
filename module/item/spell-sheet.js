@@ -13,7 +13,6 @@ export class WcSpellSheet extends ItemSheet {
             classes:   ["warcraft5e", "sheet", "spell"],
             template:  "systems/warcraft5e/templates/item/spell-sheet.html",
             width:     650,
-            height:    400,
             resizable: false
         });
     }

@@ -2,13 +2,64 @@
 
     {{!------ SHEET HEADER ------}}
     <header>
-        <h1>{{localize item.data.label}}</h1>
-        {{localize item.data.description}}
+        <div class="imageRow">
+            {{log item}}
+            <img src="{{item.img}}"/>
+            <div class="imgContent">
+                <h1>{{localize item.data.label}}</h1>
+                <div class="headerSpellGrid">
+                    <span>{{localize "WC5E.SpellSheet.School"}}: {{localize item.data.rules.school}}</span>
+                    <span>{{item.data.rules.castTime.value}} {{localize item.data.rules.castTime.unit}}</span>
+                </div>
+            </div>
+        </div>
     </header>
 
-    <hr >
+    <section class="spellContent">
 
-    <section>
-        <h2>Krasser Zauber!</h2>
+        <div class="spellProps">
+
+            {{#if item.data.rules.range}}
+                <div class="spellProp">
+                    <strong>{{localize "WC5E.SpellSheet.Range"}}</strong>
+                    {{item.data.rules.range.value}} {{localize item.data.rules.range.unit}}
+                </div>
+            {{/if}}
+
+            {{#if item.data.rules.components}}
+                <div class="spellProp">
+                    <strong>{{localize "WC5E.SpellSheet.Components"}}</strong>
+                    {{#each item.data.rules.components}}
+                        {{localize this}}{{#unless @last}},<br>{{/unless}}
+                    {{/each}}
+                </div>
+            {{/if}}
+
+            {{#if item.data.rules.duration}}
+                <div class="spellProp">
+                    <strong>{{localize "WC5E.SpellSheet.Duration"}}</strong> {{item.data.rules.duration.value}} {{localize item.data.rules.duration.unit}}
+                </div>
+            {{/if}}
+
+            {{#if item.data.rules.classes}}
+                <div class="spellProp">
+                    <strong>{{localize "WC5E.SpellSheet.Classes"}}</strong>
+                    {{#each item.data.rules.classes}}
+                        {{localize this}}{{#unless @last}},{{/unless}}
+                    {{/each}}
+                </div>
+            {{/if}}
+        </div>
+        <div class="spellDesc">
+            {{localize item.data.description}}
+
+            {{#if item.data.options}}
+                <ul>
+                    {{#each item.data.options}}
+                        <li>{{localize this}}</li>
+                    {{/each}}
+                </ul>
+            {{/if}}
+        </div>
     </section>
 </form>
