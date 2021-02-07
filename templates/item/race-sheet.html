@@ -85,12 +85,13 @@
                 <hr class="full">
                 <br>
                 <div class="imageRow">
-                    <img src="{{this.img}}">
+                    <img src="{{this.img}}"/>
                     <div class="imgContent">
                         <h3>{{localize this.name}}</h3>
                         <i>“{{localize this.quote}}”</i>
                     </div>
                 </div>
+                <img src="{{this.artwork}}"/>
                 {{localize this.description}}<br>
                 <hr>
                 <div class="raceGrid">
@@ -110,20 +111,22 @@
                             <strong><i>{{localize this.key}}:</i></strong>
                             <div>
                                 {{localize this.value}}
-                                {{#if this.target}}
-                                    <br>
-                                    {{#each this.target}}
-                                        <a class="entity-link spellLink" draggable="true" data-pack="{{this.pack}}" data-id="{{this.node}}">
-                                            {{localize this.label}}
-                                        </a>
-                                    {{/each}}
-                                {{/if}}
                                 {{#if this.options}}
                                     <ul>
                                         {{#each this.options}}
                                             <li>{{localize this}}</li>
                                         {{/each}}
                                     </ul>
+                                {{/if}}
+                                {{#if this.target}}
+                                    {{#unless this.options}}
+                                        <br>
+                                    {{/unless}}
+                                    {{#each this.target}}
+                                        <a class="entity-link spellLink" data-pack="{{this.pack}}" data-id="{{this.node}}">
+                                            {{localize this.label}}
+                                        </a>
+                                    {{/each}}
                                 {{/if}}
                             </div>
                             <hr>

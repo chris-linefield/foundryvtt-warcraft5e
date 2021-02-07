@@ -143,6 +143,12 @@
                         "AbilityScoreIncrease" : "Your Intelligence score increases by 1.",
                         "Affiliation" : "Alliance or independent. Most of the high elves have placed themselves under a self-imposed exile, ashamed of the damage that they have wrought upon the world of Lordaeron with their abuse of arcane magic. While humans still accept the high elves because of the aid that both races provided each other during the most recent attacks of the Burning Legion, many of the other races will only deal with the high elves if absolutely necessary. This is especially true after the acts of Kael‘thas Sunstrider. The night elves in particular do not care for the company of high elves and in some cases can be openly hostile toward their sun-blessed brethren. The passing of time may heal these wounds, but the use of arcane magic will always draw a rift between these two breeds of elf.",
                         "FamilyNames" : "Boughstrider, Dawnblade, Lightbringer, Morningray, Suntreader"
+                    },
+                    "BloodElf" : {
+                        "Name" : "Blood Elf (Sin’dorei)",
+                        "Quote" : "Power! My people are addicted to it... a dependence made manifest after the Sunwell was destroyed. - Kael'Thas Sunstrider",
+                        "Description" : "Following the Third War, 90% of the High Elven population was slain during the Siege of Silvermoon and the Razing of Quel‘Thalas. Prince Kael‘Thas Sunstrider renamed his people the Blood Elves (Sin‘dorei) following this terrible event. With their homeland destroyed, their forests burned and corrupted, and their beloved sacred Sunwell sullied, the Blood Elves underwent mana withdrawal. Blood Elves are identical to High Elves in racial bonuses and names. However, their culture is more warped due to their insatiable thirst for vengeance: most have abandoned worship of the Light, and their allegiances have also changed, and most suffer psychologically from extensive use of mana siphoning, due to the Sunwell‘s corruption and subsequent destruction. A DM should consider applying the mana withdrawal optional rule with Blood Elves.",
+                        "Affiliation" : "Horde or independent. Most of the blood elves have joined the New Horde, invited to do so by the Banshee Queen Sylvanas Windrunner."
                     }
                 }
             }
@@ -161,6 +167,10 @@
                     "2" : "You add an additional cantrip to your High Magic ability, chosen from the mage spell list.",
                     "3" : "You gain the Suffused Arrows talent. You may only take this if your first level is a hunter."
                 }
+            },
+            "BloodMagic" : {
+                "Label" : "Blood Magic",
+                "Description" : "This acts as High Magic. While you use abilities granted by this ability, your eyes glow a pale fel green instead of High Elves‘ blue. Instead of the prestidigitation cantrip, you may choose the thaumaturgy cantrip instead, and may cast the mana burn spell instead of mute."
             },
             "Bravery" : {
                 "Label" : "Bravery",
@@ -260,6 +270,25 @@
             }
         },
 
+        "SkillSheet" : {
+            "Category" : "Category"
+        },
+
+        "Skills" : {
+            "SuffusedArrows" : {
+                "Label" : "Suffused Arrows",
+                "Description" : "You master the art of spell-casting through arrows or infusing them. Choose:",
+                "Options" : {
+                    "1" : "You may choose to gain proficiency in the Infusion Kit, but can only infuse ranged weapons or arrows. If you choose to gain proficiency with the kit, you start with three infusion matrices of your choice that you can craft, and may store them in infusion manuals or similar books. Despite the talent‘s name, this can also cover other types of ranged weapons and ammunition, such as crossbow bolts and bullets, as well as larger samples (such as ballistae bolts or cannonballs).",
+                    "2" : "You gain the Spell Strike feat (but only for ranged weapons)"
+                }
+            }
+        },
+
+        "SkillCategories" : {
+            "General" : "General"
+        },
+
         "SpellSheet" : {
             "School" : "School",
             "CastTime" : "Casting Time",
@@ -273,6 +302,16 @@
             "DetectMagic" : {
                 "Label" : "Detect Magic",
                 "Description" : "For the duration, you sense the presence of magic within 30 feet of you. If you sense magic in this way, you can use your action to see a faint aura around any visible creature or object in the area that bears magic, and you learn its school of magic, if any. The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt."
+            },
+            "ManaBurn" : {
+                "Label" : "Mana Burn",
+                "Description" : "You target a creature that has mana within 30 feet. A ray of black-purple anti-magic leaps out, and strikes the target, draining them of mana. You must make a ranged spell attack with the ray. On a success, the target loses 1d4 + 1 mana points. For every mana point lost, the target takes two points of arcane damage. The target is entitled a Spirit saving throw. On a success, the mana and hit points lost are halved.",
+                "Heightened" : "The number of mana points drained increases by 1d4 points per every two levels above 2 (2d4 at level 4, 3d4 at level 6, 4d4 at level 8). Special: Demons always have active mana, and can always be targeted with mana burn. If they have no mana, they still take 2 points of arcane damage."
+            },
+            "Mute" : {
+                "Label" : "Mute",
+                "Description" : "Concentration, up to 1 minute You target a creature within range, forcing it to make a Spirit saving throw. If it fails, the target is isolated from all sound, causing it to be silenced and deafened. This prevents it from performing the verbal components of spells, and rendering it immune to Thunder damage and effects of a spell equal to the spell's level or lower.",
+                "Heightened" : "You may target another creature within 30 feet of the original target for every 2 spell levels above 2nd (2 creatures at level 4, 3 at level 6, and 4 at level 8)."
             },
             "ProduceFlame" : {
                 "Label" : "Produce Flame",
@@ -288,6 +327,22 @@
                     "4" : "You chill, warm, or flavor up to 1 cubic foot of nonliving material for 1 hour.",
                     "5" : "You make a color, a small mark, or a Symbol appear on an object or a surface for 1 hour.",
                     "6" : "You create a nonmagical trinket or an illusory image that can fit in your hand and that lasts until the end of your next turn."
+                }
+            },
+            "Silence" : {
+                "Label" : "Silence",
+                "Description" : "For the Duration, no sound can be created within or pass through a 20-foot-radius Sphere centered on a point you choose within range. Any creature or object entirely inside the Sphere is immune to thunder damage, and creatures are Deafened while entirely inside it. Casting a Spell that includes a verbal component is impossible there. "
+            },
+            "Thaumaturgy" : {
+                "Label" : "Thaumaturgy",
+                "Description" : "You manifest a minor wonder, a sign of supernatural power, within range. You create one of the following magical Effects within range. If you cast this spell multiple times, you can have up to three of its 1-minute Effects active at a time, and you can dismiss such an Effect as an action.",
+                "Options" : {
+                    "1" : "Your voice booms up to three times as loud as normal for 1 minute.",
+                    "2" : "You cause flames to flicker, brighten, dim, or change color for 1 minute.",
+                    "3" : "You cause harmless tremors in the ground for 1 minute.",
+                    "4" : "You create an Instantaneous sound that originates from a point of your choice within range, such as a rumble of thunder, the cry of a raven, or ominous whispers.",
+                    "5" : "You instantaneously cause an unlocked door or window to fly open or slam shut.",
+                    "6" : "You alter the Appearance of your eyes for 1 minute."
                 }
             }
         },
@@ -323,8 +378,18 @@
             "Units" : {
                 "Action" : "action",
                 "Ft" : "ft",
-                "Minutes" : "minutes",
-                "Hour" : "hour"
+                "Hour" : "hour",
+                "Instant" : "instant",
+                "Minute" : "minute",
+                "Minutes" : "minutes"
+            },
+            "Phrases" : {
+                "Skill" : "Fähigkeit",
+                "Spell" : "Zauber"
+            },
+            "Dialogs" : {
+                "CancelSkill" : "Release",
+                "CancelSkillDescription" : "Do you really want to release the skill?"
             }
         }
     }

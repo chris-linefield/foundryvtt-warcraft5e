@@ -142,6 +142,12 @@
                         "AbilityScoreIncrease" : "Intelligenz steigt um 1.",
                         "Affiliation" : "Allianz oder unabhängig - Die meisten Hochelfen haben sich in selbst auferlegtes Exil begeben, nachdem sie sich darüber klar wurden, welch Unheil sie durch ihren Missbrauch der arkanen Magie über die Welt von Lordaeron brachten. Während die Menschen die Hochelfen noch immer achten, weil die beiden Völker in den vergangenen Kriegen gegen die brennende Legion stets Seite an Seite kämpften, sind die meisten anderen Rassen nicht sonderlich gut auf die Quel'dorei zu sprechen. Das liegt vor allem auch an den Taten von Kael'thas Sonnenwanderer. Besonders die Nachtelfen meiden die Hochelfen wo sie nur können und begegnen ihren von der Sonne gesegneten Brüdern manchmal sogar mit offener Feindschaft. Die Zeit mag diese Wunden heilen, aber die Nutzung von arkaner Magie wird auf ewig einen Keil zwischen die beiden Arten der Elfen treiben.",
                         "FamilyNames" : "Astwanderer, Morgenklinge, Lichtbringer, Morgengrau, Sonnenschreiter"
+                    },
+                    "BloodElf" : {
+                        "Name" : "Blutelfen (Sin’dorei)",
+                        "Quote" : "Magie! Mein Volk ist süchtig danach... Eine Abhängigkeit, die geschaffen wurde, als der Sonnenbrunnen zerstört wurde. - Kael'Thas Sonnenwanderer",
+                        "Description" : "Nach dem dritten Krieg waren die Todeszahlen der Hochelfen erdrückend. 90% von ihnen wurden während der Belagerung von Silbermond erschlagen als Quel'Thalas dem Erdboden gleich gemacht wurde. Prinz Kael'Thas Sonnenwanderer gab den Überlebenden seines Volkes nach diesem schrecklichen Ereignis den Namen \"Blutelfen\" (Sin'dorei). Nachdem ihre Heimat zerstört, ihre Wälder nieder gebrannt  und ihr geliebter Sonnenbrunnen besudelt wurde, erlitten die Blutelfen die schlimmste Form von Magie-Entzug. Aufgrund ihrer Abstammung sind Blutelfen und Hochelfen absolut identisch. Trotzdem wurde ihre Kultur durch ihren unstillbaren Durst nach Rache verzerrt. Die meisten von ihnen haben aufgehört, dem Licht zu huldigen, wodurch ihre Treue gegenüber der Allianz schwand. Die meisten von ihnen leiden unter starken psychologischen Auswirkungen des Mana-Vampirismus aufgrund der Zerstörung des Sonnenbrunnens. Spielleiter sollten die optionale Regel \"Magie-Entzug\" bei Blutelfen in Erwägung ziehen.",
+                        "Affiliation" : "Horde oder unabhängig - Die meisten Blutelfen sind der Horde beigetreten, nachdem die Banshee-Königin Sylvanas Windläufer sie dazu eingeladen hat."
                     }
                 }
             }
@@ -157,9 +163,13 @@
                 "Description" : "Hochelfen besitzen ein einzigartiges Gespür für Magie. Du kannst einen der folgenden Vorteile wählen:",
                 "Options" : {
                     "1" : "Du kannst deinen Mana-Pool um 2 Punkte erhöhen.",
-                    "2" : "Du kannst einen zusätzlichen Zauberspruch zu ???????? You add an additional cantrip to your High Magic ability, chosen from the mage spell list.",
-                    "3" : "[Nur für Jäger] - Du erhältst das Talent \"TODO: Link Durchdringende Pfeile\"."
+                    "2" : "Du kannst einen zusätzlichen Zauberspruch zu [TODO:???????? You add an additional cantrip to your High Magic ability, chosen from the mage spell list.",
+                    "3" : "[Nur für Jäger] - Du erhältst das Talent \"Durchdrungene Pfeile\"."
                 }
+            },
+            "BloodMagic" : {
+                "Label" : "Blutmagie",
+                "Description" : "Blutmagie funktioniert wie \"Hohe Magie\" der Hochelfen. Anstelle von blau beginnen bei Nutzung dieses Zaubers die Augen allerdings in sanftem \"Fel\"-grün zu leuchten. Du kannst entscheiden, anstelle der Zauber \"Taschenspielerei\" und \"Verstummen\" die Zauber \"Thaumaturgie\" und \"Manabrand\" zu erlernen."
             },
             "Bravery" : {
                 "Label" : "Tapferkeit",
@@ -214,8 +224,8 @@
                 "Description" : "Du kannst 10 Minuten aufwenden, um deine Gefährten zu inspirieren, damit sie mit mehr Zuversicht in den Kampf ziehen. Wähle dazu bis zu 6 befreundete Kreaturen (du kannst auch dich selbst wählen) innerhalb von 30 Fuß. Sie müssen dich sehen oder hören (und verstehen) können. Jede Kreatur erhält vorübergehende Lebenspunkte, die deiner Charakterstufe + der Hälfte deines Geist- oder Charisma-Modifikators entsprechen. Eine Kreatur kann auf diese Weise keine weiteren temporären Lebenspunkte erhalten, bis sie eine lange Rast hinter sich gebracht hat. Alternativ kannst du diese Fähigkeit einsetzen, wenn du einen kritischen Treffer im Kampf landest."
             },
             "HighMagic" : {
-                "Label" : "High Magic",
-                "Description" : "Magie. Du kennst den Zauber \"Taschenspielerei\" und kannst ihn ganz normal zaubern (Die Zauberstufe entspricht deiner Charakter-Stufe). Mit Stufe 3 kannst du \"TODO: Magie erkennen\" als Stufe 1 Zauber wirken. Wenn du Stufe 5 erreichst, erlernst du den Zauber \"TODO: Stille\" auf Stufe 2. Das entsprechende Attribut für diese Zauber ist Intelligenz und du benutzt deinen normalen Mana-Pool, um diese Zauber zu wirken, auch wenn du normalerweise kein Zauberwirker bist. Sobald du diese Fähigkeiten nutzt, beginnen deine Augen für die nächste Stunde in einem böassen blau zu leuchten. Wenn du diese Zauber bereits anderweitig gelernt hast und die entsprechende Stufe erreicht hast, kannst du sie immer ohne Mana-Kosten vorbereiten."
+                "Label" : "Hohe Magie",
+                "Description" : "Du beherrschst den Zauber \"Taschenspielerei\" (Die Zauberstufe entspricht deiner Charakter-Stufe). Mit Stufe 3 kannst du \"Magie erkennen\" als Stufe 1 Zauber wirken. Wenn du Stufe 5 erreichst, erlernst du den Zauber \"TODO: Verstummen\" als Stufe 2 Zauber. Das entsprechende Attribut für diese Zauber ist Intelligenz und du benutzt deinen normalen Mana-Pool, um diese Zauber zu wirken, auch wenn du normalerweise kein Zauberwirker bist. Sobald du diese Fähigkeiten nutzt, beginnen deine Augen für die nächste Stunde in einem blassen blau zu leuchten. Wenn du diese Zauber bereits anderweitig gelernt hast und die entsprechende Stufe erreicht hast, kannst du sie immer ohne Mana-Kosten vorbereiten."
             },
             "KeenSenses" : {
                 "Label" : "Scharfe Sinne",
@@ -259,6 +269,25 @@
             }
         },
 
+        "SkillSheet" : {
+            "Category" : "Kategorie"
+        },
+
+        "Skills" : {
+            "SuffusedArrows" : {
+                "Label" : "Durchdrungene Pfeile",
+                "Description" : "Du hast die Fähigkeit gemeistert, Zauber durch deine Projektile wirken zu lassen oder Magie in diese einzubinden. Wähle eine der beiden Optionen:",
+                "Options" : {
+                    "1" : "Du bist geübt im Umgang mit Infusions-Werkzeug, kannst aber nur Pfeile oder [TODO: Wurfwaffen - stimmt das?] damit verzaubern. Du beginnst mit drei Infusions-Matrizen deiner Wahl (die du herstellen kannst) und kannst diese in Infusions-Anleitungen oder ähnlichen Handbüchern verewigen. Obwohl das aus dem Namen des Talents nicht hervor geht, bezieht sich die Fähigkeit auch auf alle anderen Arten von Munition und [TODO: Wurfwaffen???], wie z.B. Armbrustbolzen, Kugeln und ihre größeren Verwandten, wie z.B. Ballista-Bolzen oder Kanonenkugeln. TODO:Proficiency Link",
+                    "2" : "Du erhältst das Talent \"TODO: Zauberschlag\" (nur für Fernkampfwaffen)."
+                }
+            }
+        },
+
+        "SkillCategories" : {
+            "General" : "Allgemein"
+        },
+
         "SpellSheet" : {
             "School" : "Zauberschule",
             "CastTime" : "Zauberzeit",
@@ -270,8 +299,18 @@
 
         "Spells" : {
             "DetectMagic" : {
-                "Label" : "Detect Magic",
-                "Description" : "For the duration, you sense the presence of magic within 30 feet of you. If you sense magic in this way, you can use your action to see a faint aura around any visible creature or object in the area that bears magic, and you learn its school of magic, if any. The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt."
+                "Label" : "Magie erkennen",
+                "Description" : "Solange der Zauber andauert, kannst du Magie innerhalb von 30 Fuß um dich herum spüren. Du kannst eine Aktion aufwenden, um eine schwache Aura um alle sichtbaren Kreaturen oder Objekte herum zu erkennen, die von Magie durchdrungen sind. Falls die Magie ihren Ursprung in einer der Zauberschulen hat, kannst du diesen Ursprung ergründen. Der Zauber durchdringt die meisten Barrieren, wird aber von 30 cm (1 Fuß) dicken Mauern, 2,5 cm dickem gewöhnlichem Metall, einer dünnen Bleiverkleidung oder z.B. 4,5 m (3 Fuß) dickem Holz oder Erde aufgehalten."
+            },
+            "ManaBurn" : {
+                "Label" : "Mana Burn",
+                "Description" : "You target a creature that has mana within 30 feet. A ray of black-purple anti-magic leaps out, and strikes the target, draining them of mana. You must make a ranged spell attack with the ray. On a success, the target loses 1d4 + 1 mana points. For every mana point lost, the target takes two points of arcane damage. The target is entitled a Spirit saving throw. On a success, the mana and hit points lost are halved.",
+                "Heightened" : "The number of mana points drained increases by 1d4 points per every two levels above 2 (2d4 at level 4, 3d4 at level 6, 4d4 at level 8). Special: Demons always have active mana, and can always be targeted with mana burn. If they have no mana, they still take 2 points of arcane damage."
+            },
+            "Mute" : {
+                "Label" : "Verstummen",
+                "Description" : "Concentration, up to 1 minute You target a creature within range, forcing it to make a Spirit saving throw. If it fails, the target is isolated from all sound, causing it to be silenced and deafened. This prevents it from performing the verbal components of spells, and rendering it immune to Thunder damage and effects of a spell equal to the spell's level or lower.",
+                "Heightened" : "You may target another creature within 30 feet of the original target for every 2 spell levels above 2nd (2 creatures at level 4, 3 at level 6, and 4 at level 8)."
             },
             "ProduceFlame" : {
                 "Label" : "Flammen erzeugen",
@@ -288,6 +327,22 @@
                     "5" : "Du kannst eine Farbe, ein kleines Zeichen oder ein Symbol auf der Oberfläche eines beliebigen Gegenstandes erzeugen.",
                     "6" : "Du kannst ein nichtmagisches Schmuckstück oder ein illusorisches Bild beschwören, das in deine Hand passt. Du kannst es bis zum Ende deiner nächsten Runde aufrecht erhalten."
                 }
+            },
+            "Silence" : {
+                "Label" : "Stille",
+                "Description" : "An einem Zielort innerhalb der Reichweite entsteht eine Sphäre mit 20 Fuß Durchmesser, die kein Geräusch durchdringt und in der Geräusche aufhören zu existieren, so als wären alle innerhalb des betreffenden Bereiches taub. Jede Kreatur, die sich komplett innerhalb der Sphäre befindet, ist immun gegen Donnerschaden. Einen Zauber zu wirken, der eine verbale Komponente beinhaltet, ist in der Sphäre unmöglich."
+            },
+            "Thaumaturgy" : {
+                "Label" : "Thaumaturgy",
+                "Description" : "You manifest a minor wonder, a sign of supernatural power, within range. You create one of the following magical Effects within range. If you cast this spell multiple times, you can have up to three of its 1-minute Effects active at a time, and you can dismiss such an Effect as an action.",
+                "Options" : {
+                    "1" : "Your voice booms up to three times as loud as normal for 1 minute.",
+                    "2" : "You cause flames to flicker, brighten, dim, or change color for 1 minute.",
+                    "3" : "You cause harmless tremors in the ground for 1 minute.",
+                    "4" : "You create an Instantaneous sound that originates from a point of your choice within range, such as a rumble of thunder, the cry of a raven, or ominous whispers.",
+                    "5" : "You instantaneously cause an unlocked door or window to fly open or slam shut.",
+                    "6" : "You alter the Appearance of your eyes for 1 minute."
+                }
             }
         },
 
@@ -298,7 +353,7 @@
                 "Divination" : "Wahrsagerei",
                 "Enchantment" : "Verzauberung",
                 "Evocation" : "Elemente",
-                "Illusion" : "Illusionen",
+                "Illusion" : "Illusion",
                 "Necromancy" : "Nekromantie",
                 "Transmutation" : "Verwandlung"
             },
@@ -322,8 +377,18 @@
             "Units" : {
                 "Action" : "Aktion",
                 "Ft" : "Fuß",
-                "Minutes" : "Minuten",
-                "Hour" : "Stunde"
+                "Hour" : "Stunde",
+                "Instant" : "Sofort",
+                "Minute" : "Minute",
+                "Minutes" : "Minuten"
+            },
+            "Phrases" : {
+                "Skill" : "Fähigkeit",
+                "Spell" : "Zauber"
+            },
+            "Dialogs" : {
+                "CancelSkill" : "beenden",
+                "CancelSkillDescription" : "Möchtest du die Auswirkungen der Fähigkeit wirklich beenden?"
             }
         }
     }

@@ -28,6 +28,11 @@
                         "usable" : false,
                         "activeState" : false,
                         "node" : "eCPQuQkIabFKTl9u"
+                    },
+                    "silence" : {
+                        "label" : "WC5E.Spells.Silence.Label",
+                        "usable" : false,
+                        "node" : "eBEwRxobcJH5h5AZ"
                     }
                 }
             }
@@ -41,6 +46,6 @@
         }
     },
     "Item": {
-        "types": ["item", "class", "race", "spell"]
+        "types": ["item", "class", "race", "spell", "skill"]
     }
 }

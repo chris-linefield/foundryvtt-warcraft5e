@@ -30,6 +30,13 @@
       "entity": "JournalEntry"
     },
     {
+      "name": "skills",
+      "label": "Skills",
+      "system": "warcraft5e",
+      "path": "./packs/skills.db",
+      "entity": "Item"
+    },
+    {
       "name": "spells",
       "label": "Spells",
       "system": "warcraft5e",

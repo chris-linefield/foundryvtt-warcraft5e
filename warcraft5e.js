@@ -6,6 +6,7 @@ import { WcItemSheet }          from "./module/item/item-sheet.js";
 import { WcRaceSheet }          from "./module/item/race-sheet.js";
 import { WcClassSheet }         from "./module/item/class-sheet.js";
 import { WcSpellSheet }         from "./module/item/spell-sheet.js";
+import { WcSkillSheet }         from "./module/item/skill-sheet.js";
 
 import * as WcSkillHandler      from "./module/skill-handler.js";
 import * as WcMigrationHandler  from "./module/migration-handler.js";
@@ -45,8 +46,15 @@ Hooks.once('init', async function() {
         makeDefault: true
     });
 
+    Items.registerSheet("warcraft5e", WcSkillSheet, {
+        types: ["skill"],
+        makeDefault: true
+    });
+
     game.WC5E = {
-        skills : WcSkillHandler
+        skills : WcSkillHandler,
+        needsClick : false,
+        effectTokens : []
     };
 });
 

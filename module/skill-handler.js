@@ -1,7 +1,448 @@
-/*
- * Skill handling methods for progressing skill macros
- */
+export class WcSkillHandler {
+
+    constructor(type) {
+        this.type = type;
+    }
+
+    //---- SETTER
+
+    set type(val) {
+        if(['spell', 'skill'].includes(val)) {
+            this._type = val;
+        }
+        else {
+            console.error('>> Wc5e: wrong type "'+val+'" used for skillHandler. Must be either "skill" or "spell".');
+        }
+    }
+
+    set skillName(val) {
+        this._skillName = val;
+    }
+
+    set actor(val) {
+        if(val instanceof(Actor)) {
+            this._actor = val;
+        }
+        else {
+            console.error('>> Wc5e: wrong type "'+typeof(val)+'" used for "actor". Must be an instance of Actor().');
+        }
+    }
+
+    set actorToken(val) {
+        if(val instanceof(Token)) {
+            this._actorToken = val;
+        }
+        else {
+            console.error('>> Wc5e: wrong type "'+typeof(val)+'" used for "actorToken". Must be an instance of Token().');
+        }
+    }
+
+    set isActive(val) {
+        if(typeof(val) === "boolean") {
+            this._isActive = val;
+        }
+        else {
+            console.error('>> Wc5e: wrong type "'+val+'" used for "isActive". Must be either true or false.');
+        }
+    }
+
+    set attackRange(val) {
+        this._attackRange = val;
+    }
+
+    set target(val) {
+        if(['area', 'token', "multiToken"].includes(val)) {
+            this._target = val;
+        }
+        else {
+            console.error('>> Wc5e: wrong type "'+val+'" used for "target". Must be either "area" or "token".');
+        }
+    }
+
+    set canBeActivated(val) {
+        if(typeof(val) === "boolean") {
+            this._canBeActivated = val;
+        }
+        else {
+            console.error('>> Wc5e: wrong type "'+val+'" used for "canBeActivated". Must be either true or false.');
+        }
+    }
+
+    set effects(val) {
+        this._effects = val;
+    }
+
+    set targetEffects(val) {
+        this._targetEffects = val;
+    }
+
+    set offensive(val) {
+        if(['always', 'active', 'never'].includes(val)) {
+            this._offensive = val;
+        }
+        else {
+            console.error('>> Wc5e: wrong type "'+val+'" used for "offensive". Must be "always", "active" or "never".');
+        }
+    }
+
+    set releasable(val) {
+        if(typeof(val) === "boolean") {
+            this._releasable = val;
+        }
+        else {
+            console.error('>> Wc5e: wrong type "'+val+'" used for "releasable". Must be either true or false.');
+        }
+    }
+
+    set dmgValues(val) {
+        if(typeof(val) === "object" || val === null) {
+            this._dmgValues = val;
+        }
+        else {
+            console.error('>> Wc5e: wrong type "'+val+'" used for "dmgValues". Must be an Object that represents lvl and dmg {"1":"1d8","5":"2d8", ...}.');
+        }
+    }
+
+    set dmgType(val) {
+        if(Array.isArray(val) || val === null) {
+            this._dmgType = val;
+        }
+        else {
+            console.error('>> Wc5e: wrong type "'+val+'" used for "dmgType". Must be an Array of dmg Types e.g. ["magic","fire",...].');
+        }
+    }
+
+    //---- GETTER
+
+    get type() {
+        return this._type;
+    }
+
+    get skillName() {
+        return this._skillName;
+    }
+
+    get actor() {
+        return this._actor;
+    }
+
+    get actorToken() {
+        return this._actorToken;
+    }
+
+    get isActive() {
+        return this._isActive;
+    }
+
+    get attackRange() {
+        return this._attackRange;
+    }
+
+    get target() {
+        return this._target;
+    }
+
+    get canBeActivated() {
+        return this._canBeActivated;
+    }
+
+    get effects() {
+        return this._effects;
+    }
+
+    get targetEffects() {
+        return this._targetEffects;
+    }
+
+    get offensive() {
+        return this._offensive;
+    }
+
+    get releasable() {
+        return this._releasable;
+    }
+
+    get dmgValues() {
+        return this._dmgValues;
+    }
+
+    get dmgType() {
+        return this._dmgType;
+    }
+
+
+    //---- METHODS
+
+    /**
+     * This Method handles the initial "use" call of the skill.
+     */
+    use() {
+        //can the skill be activated (like a self buff)
+        if(this.canBeActivated) {
+            //activate skill if not yet done
+            if(!this.isActive) {
+                this.activate();
+                return;
+            }
+            //deactivate the skill
+            else {
+                //can the skill be used offensively after activation?
+                if(this.offensive === 'active') {
+                    //if the skill is releasable we need a choice
+                    if(this.releasable === true) {
+                        let dialog = new Dialog({
+                            title: "Select a way to end the spell",
+                            content: "<p>Do you wish to release the skill or use it for offense?</p>",
+                            buttons: {
+                                one: {
+                                    icon: '<i class="fas fa-check"></i>',
+                                    label: "Release",
+                                    callback: () => this.deactivate()
+                                },
+                                two: {
+                                    icon: '<i class="fas fa-check"></i>',
+                                    label: "Attack",
+                                    callback: () => {
+                                        this.deactivate();
+                                        this.useOffensiveSkill();
+                                    }
+                                },
+                                three: {
+                                    icon: '<i class="fas fa-times"></i>',
+                                    label: "Cancel",
+                                }
+                            },
+                        });
+                        dialog.render(true);
+                    }
+                    else {
+                        this.useOffensiveSkill();
+                        this.deactivate();
+                    }
+                }
+                else if(this.releasable === true) {
+                    //prompt the user to confirm the release of the skill
+                    Dialog.confirm({
+                        title: game.i18n.localize('WC5E.UI.Phrases.'+capitalizeFirstLetter(this.type)) + ' ' + game.i18n.localize('WC5E.UI.Dialogs.CancelSkill'),
+                        content: `
+                            <p>`+game.i18n.localize('WC5E.UI.Dialogs.CancelSkillDescription')+`</p>
+                        `,
+                        yes: () => this.deactivate(),
+                        defaultYes: false
+                    });
+                }
+            }
+        }
+        else {
+            if(this.target === 'area') {
+
+                console.log(this.actorToken);
+
+                game.needsClick = true;
+                ui.notifications.info("Please select an area.");
+
+                //TODO: WcMouseHandler
+                let original_mousedown = MouseInteractionManager.prototype._handleClickLeft;
+                var targetEffects = this.targetEffects;
+                var skillName = this.skillName;
+                MouseInteractionManager.prototype._handleClickLeft = function(event) {
+                    if(game.needsClick === true) {
+                        game.needsClick = false;
+                        console.log(targetEffects);
+
+                        Token.create({
+                            name: skillName+" Area",
+                            displayName: 40,
+                            x: event.data.origin.x,
+                            y: event.data.origin.y,
+                            img: "systems/warcraft5e/res/pics/token/effect.png",
+                            hidden: false,
+                            lightAnimation: {
+                                intensity: targetEffects.animation.intensity,
+                                speed: targetEffects.animation.speed,
+                                type: targetEffects.animation.type
+                            },
+                            lightColor: targetEffects.animation.color[0],
+                            lightAlpha: targetEffects.animation.color[1],
+                            brightLight: targetEffects.light.bright,
+                            disposition: 0
+                        }).then(function(token) {
+                            console.log(token);
+                        });
+                    }
+                    return original_mousedown.apply(this, arguments);
+                }
+            }
+        }
+        //(otherwise) trigger the skill
+
+
+    }
+
+
+    /**
+     * This Method handles the activation of certain skills with an active state (like "Produce Flame")
+     */
+    activate() {
+
+        //toggle Effects
+        this.toggleEffects('on');
+
+        //save the active state on the actor
+        this.actor.update({['data.spells.'+this.skillName+'.activeState']:!this.isActive});
+
+    }
+
+
+    /**
+     * This Method handles the deactivation of skills with an active state and triggers other actions if needed
+     */
+    deactivate() {
+
+        //toggle Effects off
+        this.toggleEffects('off');
+
+        //save the active state on the actor
+        this.actor.update({['data.spells.'+this.skillName+'.activeState']:!this.isActive});
+
+    }
+
+
+    /**
+     *
+     */
+    useOffensiveSkill() {
+
+        let target       = canvas.tokens;
+        let enemyTokens  = Array.from(game.user.targets);
+
+        //no token targeted
+        if(enemyTokens.length === 0) {
+            return ui.notifications.error(game.i18n.localize('WC5E.UI.Actions.CastSpellInvalidTarget'));
+        }
+
+        //verify that exactly one hostile token is specified
+        if(this.target === "token" && enemyTokens.length !== 1 || enemyTokens[0].data.disposition === 1) {
+            return ui.notifications.error(game.i18n.localize('WC5E.UI.Actions.CastSpellInvalidTarget'));
+        }
+
+        var enemyToken = enemyTokens[0];
+        let distance   = this.getDistance(this.actorToken, enemyToken);
+
+        if(distance > this.attackRange) {
+            return ui.notifications.error(game.i18n.localize('WC5E.UI.Actions.OutOfRange')+' '+distance+' / '+this.attackRange+' '+game.i18n.localize('WC5E.UI.Units.Ft'));
+        }
+
+        var enemyActor = game.actors.get(enemyToken.actor._id);
+        var enemyData  = enemyActor.data.data;
+
+        if(this.dmgValues) {
+            let dmg     = this.dmgValues;
+
+            var dmgToUse = null;
+            //get the correct entry for the actual level
+            for(let level in dmg) {
+                if(parseInt(level) > parseInt(this.actor.data.data.core.lvl)) {
+                    continue;
+                }
+                dmgToUse = dmg[level];
+            }
+
+            //roll the dice!
+            let roll = new Roll(dmgToUse);
+            roll.evaluate();
+            roll.toMessage();
+
+            //remove hp from enemy
+            let enemyHp = enemyData.core.hp.value;
+            enemyHp -= roll.total;
+
+            //save the new hp on the actor
+            enemyActor.update({'data.core.hp.value' : enemyHp});
+        }
+    }
+
+    toggleEffects(mode) {
+        var updateObject = {};
+        var actorData    = this.actor.data.data;
+
+        //restore the default values affected by the spell
+        if(this.effects) {
+            //light effects
+            if(this.effects.light) {
+                if(this.effects.light.dim) {
+                    updateObject.dimLight = (mode === 'on') ? this.effects.light.dim : actorData.light.dim;
+                }
+                if(this.effects.light.bright) {
+                    updateObject.brightLight = (mode === 'on') ? this.effects.light.bright : actorData.light.bright;
+                }
+            }
+            //sight effects
+            if(this.effects.sight) {
+                if(this.effects.sight.dim) {
+                    updateObject.dimSight = (mode === 'on') ? this.effects.sight.dim : actorData.vision.dim;
+                }
+                if(this.effects.sight.bright) {
+                    updateObject.brightSight = (mode === 'on') ? this.effects.sight.bright : actorData.vision.bright;
+                }
+            }
+            //animation
+            if(this.effects.animation) {
+
+                if(mode === 'on') {
+                    updateObject.lightAnimation = {
+                        intensity: this.effects.animation.intensity,
+                        speed: this.effects.animation.speed,
+                        type: this.effects.animation.type
+                    };
+
+                    updateObject.lightColor = this.effects.animation.color[0];
+                    updateObject.lightAlpha = this.effects.animation.color[1];
+                }
+                else {
+                    updateObject.lightAnimation = {
+                        type: null
+                    };
+                }
+            }
+
+            //update token
+            this.actorToken.update(updateObject);
+        }
+    }
+
+    getDistance(sourceToken, targetToken) {
+
+        const ray      = new Ray(sourceToken.center, targetToken.center);
+        const segments = [{ray}];
+
+        //calculate ground distance
+        let groundDistance = canvas.grid.measureDistances(segments,{
+            gridSpaces : true
+        })[0];
+
+        //get elevations (if one of the tokens is flying)
+        let actorElevation  = sourceToken.data.elevation;
+        let targetElevation = targetToken.data.elevation;
+
+        //if the tokens don't have the same elevation - then use it for calculation
+        if(targetElevation !== actorElevation) {
+            let h_diff = (targetElevation > actorElevation) ? targetElevation - actorElevation : actorElevation - targetElevation;
+            let hyp    = Math.sqrt(Math.pow(h_diff,2) + Math.pow(groundDistance,2));
+            return Math.floor(hyp);
+        }
+        //otherwise just return the distance
+        else {
+            return Math.floor(groundDistance);
+        }
+    }
+
+    //getProperty(myObject, "path.to.property")
+
+}
+
 export function castSpell(skillName) {
+
     const speaker = ChatMessage.getSpeaker();
     let actor;
 
@@ -22,190 +463,41 @@ export function castSpell(skillName) {
 
     //check if the actor can use the ability - exit otherwise
     let skill = actor.data.data.spells[skillName];
-    if(skill.usable === false) {
+    if(!skill || skill.usable === false) {
         return ui.notifications.error(game.i18n.localize('WC5E.UI.Actions.CastSpellError')+' "'+readableSkill+'"');
     }
 
-    //retrieve the spell data from the compendium
-    let pack  = game.packs.get('warcraft5e.spells');
-    pack.getEntity(skill.node).then(function(value) {
+    //actor token
+    let tokenId      = speaker.token;
+    let token        = canvas.tokens.get(tokenId);
 
+    //retrieve the spell data from the compendium
+    let pack = game.packs.get('warcraft5e.spells');
+    pack.getEntity(skill.node).then(function(value) {
         let spellProps = value.data.data.properties;
 
-        //Does this spell have an active state?
-        if(spellProps.activeState === true) {
+        console.log(spellProps);
 
-            let tokenId      = speaker.token;
-            let token        = canvas.tokens.get(tokenId);
-            let updateObject = {};
+        let skillHandler = new WcSkillHandler('spell');
+        skillHandler.skillName      = skillName;
+        skillHandler.actor          = actor;
+        skillHandler.actorToken     = token;
+        skillHandler.isActive       = (skill.activeState) ? true : false;
+        skillHandler.attackRange    = spellProps.attackRange;
+        skillHandler.dmgType        = (spellProps.dmg) ? spellProps.dmg.type : null;
+        skillHandler.dmgValues      = (spellProps.dmg) ? spellProps.dmg.values : null;
+        skillHandler.target         = (spellProps.areaSelect) ? 'area' : 'token';
+        skillHandler.canBeActivated = (spellProps.activeState) ? true : false;
+        skillHandler.effects        = spellProps.effects;
+        skillHandler.targetEffects  = spellProps.targetEffects;
+        skillHandler.releasable     = (spellProps.releasable) ? true : false;
+        skillHandler.offensive      = (spellProps.offensive) ? spellProps.offensive : 'never';
+        skillHandler.use();
 
-            //skill has not yet been activated
-            if(skill.activeState === false) {
-
-                //activate the effects of the active state
-                if(spellProps.effects) {
-                    //light effects
-                    if(spellProps.effects.light) {
-                        if(spellProps.effects.light.dim) {
-                            updateObject.dimLight = spellProps.effects.light.dim;
-                        }
-                        if(spellProps.effects.light.dim) {
-                            updateObject.brightLight = spellProps.effects.light.bright;
-                        }
-                    }
-                    //sight effects
-                    if(spellProps.effects.sight) {
-                        if(spellProps.effects.sight.dim) {
-                            updateObject.dimSight = spellProps.effects.sight.dim;
-                        }
-                        if(spellProps.effects.sight.dim) {
-                            updateObject.brightSight = spellProps.effects.sight.bright;
-                        }
-
-                    }
-                    //animation
-                    if(spellProps.effects.animation) {
-                        updateObject.lightAnimation = {
-                            intensity: spellProps.effects.animation.intensity,
-                            speed: spellProps.effects.animation.speed,
-                            type: spellProps.effects.animation.type
-                        };
-
-                        updateObject.lightColor = spellProps.effects.animation.color[0];
-                        updateObject.lightAlpha = spellProps.effects.animation.color[1];
-                    }
-                }
-
-                //save the active state on the actor
-                actor.update({['data.spells.'+skillName+'.activeState']:true});
-            }
-            //skill is already active
-            else {
-                var actorData = actor.data.data;
-
-                //restore the default values affected by the spell
-                if(spellProps.effects) {
-                    //light effects
-                    if(spellProps.effects.light) {
-                        if(spellProps.effects.light.dim) {
-                            updateObject.dimLight = actorData.light.dim;
-                        }
-                        if(spellProps.effects.light.bright) {
-                            updateObject.brightLight = actorData.light.bright;
-                        }
-                    }
-                    //sight effects
-                    if(spellProps.effects.sight) {
-                        if(spellProps.effects.sight.dim) {
-                            updateObject.dimSight = actorData.vision.dim;
-                        }
-                        if(spellProps.effects.sight.bright) {
-                            updateObject.brightSight = actorData.vision.bright;
-                        }
-                    }
-                    //animation
-                    if(spellProps.effects.animation) {
-                        updateObject.lightAnimation = {
-                            type: null
-                        };
-                    }
-                }
-
-                //can the spell be used offensively after activation?
-                if(spellProps.offensive === 'active') {
-                    let target       = canvas.tokens;
-                    let enemyTokens  = Array.from(game.user.targets);
-
-                    //no token targeted
-                    if(enemyTokens.length === 0) {
-                        return ui.notifications.error(game.i18n.localize('WC5E.UI.Actions.CastSpellInvalidTarget'));
-                    }
-
-                    //verify that exactly one hostile token is specified
-                    if(spellProps.target === "single" && enemyTokens.length !== 1 || enemyTokens[0].data.disposition === 1) {
-                        return ui.notifications.error(game.i18n.localize('WC5E.UI.Actions.CastSpellInvalidTarget'));
-                    }
-
-                    var enemyToken = enemyTokens[0];
-                    let distance   = getDistance(token, enemyToken);
-
-                    if(distance > spellProps.attackRange) {
-                        return ui.notifications.error(game.i18n.localize('WC5E.UI.Actions.OutOfRange')+' '+distance+' / '+spellProps.attackRange+' '+game.i18n.localize('WC5E.UI.Units.Ft'));
-                    }
-
-                    var enemyActor = game.actors.get(enemyToken.actor._id);
-                    var enemyData  = enemyActor.data.data;
-
-                    if(spellProps.dmg) {
-                        let dmg     = spellProps.dmg;
-
-                        var dmgToUse = null;
-                        //get the correct entry for the actual level
-                        for(let level in dmg) {
-                            if(parseInt(level) > parseInt(actorData.core.lvl)) {
-                                continue;
-                            }
-                            dmgToUse = dmg[level];
-                        }
-
-                        //roll the dice!
-                        let roll = new Roll(dmgToUse);
-                        roll.evaluate();
-                        roll.toMessage();
-
-                        //remove hp from enemy
-                        let enemyHp = enemyData.core.hp.value;
-                        enemyHp -= roll.total;
-
-                        //save the new hp on the actor
-                        enemyActor.update({'data.core.hp.value' : enemyHp});
-                    }
-                }
-            }
-
-            //save the active/inactive state on the actor
-            actor.update({['data.spells.'+skillName+'.activeState'] : !skill.activeState});
-            token.update(updateObject);
-
-        }
-        else {
-
-        }
+        console.log(skillHandler);
     });
-
 }
 
 function capitalizeFirstLetter(string) {
-  return string.charAt(0).toUpperCase() + string.slice(1);
+    return string.charAt(0).toUpperCase() + string.slice(1);
 }
-
-/**
- * method to calculate distance between two tokens (in feet)
- */
-function getDistance(sourceToken, targetToken) {
-
-    const ray      = new Ray(sourceToken.center, targetToken.center);
-    const segments = [{ray}];
-
-    //calculate ground distance
-    let groundDistance = canvas.grid.measureDistances(segments,{
-        gridSpaces : true
-    })[0];
-
-    //get elevations (if one of the tokens is flying)
-    let actorElevation  = sourceToken.data.elevation;
-    let targetElevation = targetToken.data.elevation;
-
-    //if the tokens don't have the same elevation - then use it for calculation
-    if(targetElevation !== actorElevation) {
-        let h_diff = (targetElevation > actorElevation) ? targetElevation - actorElevation : actorElevation - targetElevation;
-        let hyp    = Math.sqrt(Math.pow(h_diff,2) + Math.pow(groundDistance,2));
-        return Math.floor(hyp);
-    }
-    //otherwise just return the distance
-    else {
-        return Math.floor(groundDistance);
-    }
-}
-
-//getProperty(myObject, "path.to.property")
