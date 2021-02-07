@@ -295,7 +295,8 @@
             "Range" : "Range",
             "Components" : "Components",
             "Duration" : "Duration",
-            "Classes" : "Classes"
+            "Classes" : "Classes",
+            "Heightened" : "Heightened"
         },
 
         "Spells" : {

@@ -108,7 +108,25 @@ export class WcSkillHandler {
             this._dmgType = val;
         }
         else {
-            console.error('>> Wc5e: wrong type "'+val+'" used for "dmgType". Must be an Array of dmg Types e.g. ["magic","fire",...].');
+            console.error('>> Wc5e: wrong type "'+val+'" used for "dmgType". Must be an Array of damage types e.g. ["magic","fire",...].');
+        }
+    }
+
+    set debuffs(val) {
+        if(Array.isArray(val) || val === null) {
+            this._debuffs = val;
+        }
+        else {
+            console.error('>> Wc5e: wrong type "'+val+'" used for "debuffs". Must be an Array of Debuffs e.g. ["silence","stun",...].');
+        }
+    }
+
+    set targetTokens(val) {
+        if(Array.isArray(val) || val === null) {
+            this._targetTokens = val;
+        }
+        else {
+            console.error('>> Wc5e: wrong type "'+val+'" used for "targetTokens". Must be an Array of Token()-Instances.');
         }
     }
 
@@ -168,6 +186,14 @@ export class WcSkillHandler {
 
     get dmgType() {
         return this._dmgType;
+    }
+
+    get debuffs() {
+        return this._debuffs;
+    }
+
+    get targetTokens() {
+        return this._targetTokens;
     }
 
 
@@ -236,8 +262,6 @@ export class WcSkillHandler {
         else {
             if(this.target === 'area') {
 
-                console.log(this.actorToken);
-
                 game.needsClick = true;
                 ui.notifications.info("Please select an area.");
 
@@ -273,12 +297,26 @@ export class WcSkillHandler {
                     return original_mousedown.apply(this, arguments);
                 }
             }
+
+            this.applyDebuffs();
         }
-        //(otherwise) trigger the skill
-
-
     }
 
+    /**
+     * This Method appies all the debuffs specified
+     */
+    applyDebuffs() {
+        this.verifyTargets();
+
+        for(let debuff in this.debuffs) {
+            let token = this.targetTokens[0];
+            if(debuff === 'silence') {
+                debuff = 'silenced';
+            }
+            let targetActor = game.actors.get(token.actor._id);
+            targetActor.update({['data.effects.negative.'+debuff] : true});
+        }
+    }
 
     /**
      * This Method handles the activation of certain skills with an active state (like "Produce Flame")
@@ -309,24 +347,30 @@ export class WcSkillHandler {
 
 
     /**
-     *
+     * This Method verifies the selected targets
      */
-    useOffensiveSkill() {
-
-        let target       = canvas.tokens;
-        let enemyTokens  = Array.from(game.user.targets);
+    verifyTargets() {
 
         //no token targeted
-        if(enemyTokens.length === 0) {
+        if(this.targetTokens.length === 0) {
             return ui.notifications.error(game.i18n.localize('WC5E.UI.Actions.CastSpellInvalidTarget'));
         }
 
         //verify that exactly one hostile token is specified
-        if(this.target === "token" && enemyTokens.length !== 1 || enemyTokens[0].data.disposition === 1) {
+        if(this.target === "token" && this.targetTokens.length !== 1 || this.targetTokens[0].data.disposition === 1) {
             return ui.notifications.error(game.i18n.localize('WC5E.UI.Actions.CastSpellInvalidTarget'));
         }
+    }
 
-        var enemyToken = enemyTokens[0];
+
+    /**
+     *
+     */
+    useOffensiveSkill() {
+
+        this.verifyTargets();
+
+        var enemyToken = this.targetTokens[0];
         let distance   = this.getDistance(this.actorToken, enemyToken);
 
         if(distance > this.attackRange) {
@@ -490,8 +534,10 @@ export function castSpell(skillName) {
         skillHandler.canBeActivated = (spellProps.activeState) ? true : false;
         skillHandler.effects        = spellProps.effects;
         skillHandler.targetEffects  = spellProps.targetEffects;
+        skillHandler.debuffs        = (spellProps.debuffs) ? spellProps.debuffs : null;
         skillHandler.releasable     = (spellProps.releasable) ? true : false;
         skillHandler.offensive      = (spellProps.offensive) ? spellProps.offensive : 'never';
+        skillHandler.targetTokens   = Array.from(game.user.targets);
         skillHandler.use();
 
         console.log(skillHandler);

@@ -1,16 +1,20 @@
 {
-    "Actor": {
-        "types": ["character"],
-        "templates": {
-            "shared": {
+    "Actor" : {
+        "types" : ["character"],
+        "templates" : {
+            "shared" : {
                 "core" : {
                     "lvl" : 1,
                     "hp" : {
-                        "value": 0,
-                        "min": 0,
-                        "max": 0
+                        "value" : 0,
+                        "min" : 0,
+                        "max" : 0
                     },
-                    "mp" : 0
+                    "mp" : {
+                        "value" : 0,
+                        "min" : 0,
+                        "max" : 0
+                    }
                 },
                 "vision" : {
                     "dim" : 0,
@@ -21,8 +25,13 @@
                     "bright" : 0
                 }
             },
-            "spells": {
-                "spells": {
+            "spells" : {
+                "spells" : {
+                    "mute" : {
+                        "label" : "WC5E.Spells.Mute.Label",
+                        "usable" : false,
+                        "node" : "a1ETdr99xMIsahjL"
+                    },
                     "produceFlame" : {
                         "label" : "WC5E.Spells.ProduceFlame.Label",
                         "usable" : false,
@@ -35,17 +44,24 @@
                         "node" : "eBEwRxobcJH5h5AZ"
                     }
                 }
+            },
+            "effects" : {
+                "effects" : {
+                    "negative" : {
+                        "silenced" : false
+                    }
+                }
             }
         },
-        "character": {
-            "templates": ["shared", "spells"],
-            "goodness": {
-                "label": "Goodness",
-                "value": 10
+        "character" : {
+            "templates" : ["shared", "spells", "effects"],
+            "goodness" : {
+                "label" : "Goodness",
+                "value" : 10
             }
         }
     },
-    "Item": {
-        "types": ["item", "class", "race", "spell", "skill"]
+    "Item" : {
+        "types" : ["item", "class", "race", "spell", "skill"]
     }
 }

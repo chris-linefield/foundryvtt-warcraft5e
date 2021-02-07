@@ -11,62 +11,66 @@ export const migrate = async function() {
     for(let actor of game.data.actors) {
         console.log('>> Wc5e: syncing actor '+actor._id);
 
-        let clonedActor = { ...actor };
+        var realActor = game.actors.get(actor._id);
 
         //sync the data structure
-        syncObjectStructure('actor', model.Actor[clonedActor.type], clonedActor.data);
-
-        //update the actor
-        let realActor = game.actors.get(clonedActor._id);
-        realActor.update({'data' : clonedActor.data});
+        syncObjectStructure('actor', realActor, model.Actor[actor.type], actor.data, 'data');
     }
 }
 
 /**
  * This method synchronizes the entity with the original model from template.json
  */
-function syncObjectStructure(type, model, entity) {
-    addObjectProps(type, model, entity);
-    removeObjectProps(type, model, entity);
+function syncObjectStructure(type, entity, model, entityData, source) {
+    addObjectProps(type, entity, model, entityData, source);
+    //removeObjectProps(type, entity, model, entityData, source);
 }
 
 
-function addObjectProps(type, model, entity) {
+function addObjectProps(type, entity, model, entityData, source) {
     //add every missing key or convert it into the new structure
     for(let key in model) {
+        var keySource = source+'.'+key;
         //node is an object and has to be processed recursively
         if(Object.prototype.toString.call(model[key]) === '[object Object]') {
-            //If the type of value differs - overwrite it
-            if(typeof(model[key]) !== typeof(entity[key])) {
-                console.log('>> Wc5e: overwriting '+key+' of '+type+' due to structural changes.');
-                entity[key] = {};
-            }
             //if the node does not exist - create it
-            else if(!entity.hasOwnProperty(key)) {
-                console.log('>> Wc5e: adding '+key+' to '+type+'.');
-                entity[key] = {};
+            if(!entityData.hasOwnProperty(key)) {
+                console.log('>> Wc5e: adding "'+keySource+'"');
+                entity.update({[keySource] : {}});
             }
-            syncObjectStructure(type, model[key], entity[key]);
+            //If the type of value differs - overwrite it
+            else if(typeof(model[key]) !== typeof(entityData[key])) {
+                console.log('>> Wc5e: overwriting "'+keySource+'" due to structural changes: "'+typeof(model[key])+'" vs "'+typeof(entityData[key])+'".');
+                entity.update({[keySource] : {}});
+            }
+            syncObjectStructure(type, entity, model[key], entityData[key], keySource);
         }
         //node is just a value that will be set
-        else if(!entity.hasOwnProperty(key)) {
-            console.log('>> Wc5e: adding '+key+' to '+type+'.');
-            entity[key] = model[key];
+        else if(!entityData.hasOwnProperty(key)) {
+            console.log('>> Wc5e: adding "'+key+'" with value "'+model[key]+'".');
+            entity.update({[keySource] : model[key]});
         }
     }
 }
 
-function removeObjectProps(type, model, entity) {
+//FIXME - wrong nodes called - CREATES DEPRECTAED NODES FOR NO REASON
+function removeObjectProps(type, entity, model, entityData, source) {
     //remove every obsolete key that is no longer required
-    for(let key in entity) {
+    for(let key in entityData) {
+        var keySource = source+'.'+key;
         //node is an object and has to be processed recursively
-        if(Object.prototype.toString.call(entity[key]) === '[object Object]') {
-            removeObjectProps(type, model[key], entity[key]);
+        if(Object.prototype.toString.call(entityData[key]) === '[object Object]') {
+            removeObjectProps(type, entity, model[key], entityData[key], source);
         }
         else {
-            if(typeof(model[key]) === 'undefined') {
-                console.log('>> WC5e: remove '+key+' - deprecated');
-                delete entity[key];
+            if(typeof(model) === 'undefined') {
+                //console.log('>> WC5e: remove empty node "'+keySource+'"- deprecated');
+                entity.update({[keySource] : 'DEPRECATED'});
+            }
+            else if(typeof(model[key]) === 'undefined' && entityData[key] !== 'DEPRECATED') {
+                console.log('>> WC5e: remove "'+keySource+'" - deprecated');
+                //console.log(entityData[key]);
+                entity.update({[keySource] : 'DEPRECATED'});
             }
         }
     }

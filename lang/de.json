@@ -294,7 +294,8 @@
             "Range" : "Reichweite",
             "Components" : "Bestandteile",
             "Duration" : "Dauer",
-            "Classes" : "Klassen"
+            "Classes" : "Klassen",
+            "Heightened" : "Erhöhte Wirkung"
         },
 
         "Spells" : {
@@ -309,8 +310,8 @@
             },
             "Mute" : {
                 "Label" : "Verstummen",
-                "Description" : "Concentration, up to 1 minute You target a creature within range, forcing it to make a Spirit saving throw. If it fails, the target is isolated from all sound, causing it to be silenced and deafened. This prevents it from performing the verbal components of spells, and rendering it immune to Thunder damage and effects of a spell equal to the spell's level or lower.",
-                "Heightened" : "You may target another creature within 30 feet of the original target for every 2 spell levels above 2nd (2 creatures at level 4, 3 at level 6, and 4 at level 8)."
+                "Description" : "Konzentriere dich bis zu einer Minute lang auf ein Ziel in Reichweite. Bei einem verpatzten Rettungswurf (Geist) wird das Ziel von allen Geräuschen isoliert, sodass es stumm und taub ist. Dadurch kann das Ziel keine verbalen Komponenten von Zaubern mehr nutzen. Das Ziel wird immun für die Effekte von Magie, die Donnerschaden verursacht, solange die Zauberstufe des Zaubers nicht die Stufe des \"Verstummen\"-Zaubers überschreitet.",
+                "Heightened" : "Für alle zwei Zauberstufen kannst du ein weiteres Ziel innerhalb von 30 Fuß des ursprünglichen Ziels wählen, das den gleichen Effekt erleidet. (2 Kreaturen auf Stufe 4, 3 Kreaturen auf Stufe 6, 4 Kreaturen auf Stufe 8)"
             },
             "ProduceFlame" : {
                 "Label" : "Flammen erzeugen",

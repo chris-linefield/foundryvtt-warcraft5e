@@ -60,6 +60,12 @@
                     {{/each}}
                 </ul>
             {{/if}}
+            {{#if item.data.heightened}}
+                <p>
+                    <strong>{{localize "WC5E.SpellSheet.Heightened"}}:</strong><br>
+                    {{localize item.data.heightened}}
+                </p>
+            {{/if}}
         </div>
     </section>
 </form>
