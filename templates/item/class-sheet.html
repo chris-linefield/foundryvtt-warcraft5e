@@ -2,12 +2,26 @@
 
     {{!------ SHEET HEADER ------}}
     <header>
-        CLASS SHEET HEAD
+        <h1>{{localize item.data.name}}</h1>
     </header>
 
-    <hr >
-
     <section>
-        CLASS SHEET
+        <div class="classIntroduction">
+            <div class="artwork">
+                <img src="{{item.data.artwork.src}}">
+                <a href="{{item.data.artwork.url}}" target="_blank">&copy;{{item.data.artwork.credit}}</a>
+            </div>
+            <i>{{{localize item.data.introduction}}}</i>
+            <br>
+            <p>
+                {{localize item.data.conclusion}}
+            </p>
+            <br>
+            <br>
+            {{#each item.data.blocks}}
+                <h2>{{localize this.title}}</h2>
+                {{{localize this.content}}}
+            {{/each}}
+        </div>
     </section>
 </form>

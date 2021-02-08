@@ -91,7 +91,10 @@
                         <i>“{{localize this.quote}}”</i>
                     </div>
                 </div>
-                <img src="{{this.artwork}}"/>
+                <div class="artwork">
+                    <img src="{{this.artwork.src}}"/>
+                    <a href="{{this.artwork.url}}" target="_blank">&copy;{{this.artwork.credit}}</a>
+                </div>
                 {{localize this.description}}<br>
                 <hr>
                 <div class="raceGrid">

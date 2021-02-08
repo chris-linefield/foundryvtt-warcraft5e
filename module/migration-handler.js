@@ -27,6 +27,7 @@ function syncObjectStructure(type, entity, model, entityData, source) {
 }
 
 
+//FIXME - check fails sometimes and keeps creating keys
 function addObjectProps(type, entity, model, entityData, source) {
     //add every missing key or convert it into the new structure
     for(let key in model) {
@@ -37,17 +38,18 @@ function addObjectProps(type, entity, model, entityData, source) {
             if(!entityData.hasOwnProperty(key)) {
                 console.log('>> Wc5e: adding "'+keySource+'"');
                 entity.update({[keySource] : {}});
+                entityData[key] = {};
             }
             //If the type of value differs - overwrite it
             else if(typeof(model[key]) !== typeof(entityData[key])) {
                 console.log('>> Wc5e: overwriting "'+keySource+'" due to structural changes: "'+typeof(model[key])+'" vs "'+typeof(entityData[key])+'".');
                 entity.update({[keySource] : {}});
+                entityData[key] = {};
             }
             syncObjectStructure(type, entity, model[key], entityData[key], keySource);
         }
         //node is just a value that will be set
         else if(!entityData.hasOwnProperty(key)) {
-            console.log('>> Wc5e: adding "'+key+'" with value "'+model[key]+'".');
             entity.update({[keySource] : model[key]});
         }
     }

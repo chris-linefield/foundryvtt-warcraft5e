@@ -250,3 +250,30 @@
 .dialog {
     min-height:150px;
 }
+
+/*********************************
+ * CLASS SHEET
+ ********************************/
+
+.warcraft5e .artwork {
+    float:right;
+    width:350px;
+    display:block;
+    margin:0 0 10px 10px;
+    border:3px double #e0d8bb;
+}
+
+.warcraft5e .artwork img {
+    display:block;
+    border:none;
+}
+
+.warcraft5e .artwork a {
+    display:block;
+    text-align:center;
+    background-color:rgba(255,255,255,0.75);
+}
+
+.warcraft5e .raceGrid {
+    clear:both;
+}

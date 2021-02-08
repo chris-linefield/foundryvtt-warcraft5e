@@ -46,8 +46,8 @@ export class WcSkillHandler {
         }
     }
 
-    set attackRange(val) {
-        this._attackRange = val;
+    set range(val) {
+        this._range = val;
     }
 
     set target(val) {
@@ -112,6 +112,15 @@ export class WcSkillHandler {
         }
     }
 
+    set dmgTo(val) {
+        if(['hp'].includes(val)) {
+            this._dmgTo = val;
+        }
+        else {
+            console.error('>> Wc5e: wrong type "'+val+'" used for "dmgTo". Must be "hp".');
+        }
+    }
+
     set debuffs(val) {
         if(Array.isArray(val) || val === null) {
             this._debuffs = val;
@@ -152,8 +161,8 @@ export class WcSkillHandler {
         return this._isActive;
     }
 
-    get attackRange() {
-        return this._attackRange;
+    get range() {
+        return this._range;
     }
 
     get target() {
@@ -186,6 +195,10 @@ export class WcSkillHandler {
 
     get dmgType() {
         return this._dmgType;
+    }
+
+    get dmgTo() {
+        return this._dmgTo;
     }
 
     get debuffs() {
@@ -229,8 +242,10 @@ export class WcSkillHandler {
                                     icon: '<i class="fas fa-check"></i>',
                                     label: "Attack",
                                     callback: () => {
-                                        this.deactivate();
-                                        this.useOffensiveSkill();
+                                        if(this.verifyTargets()) {
+                                            this.deactivate();
+                                            this.useOffensiveSkill();
+                                        }
                                     }
                                 },
                                 three: {
@@ -302,6 +317,7 @@ export class WcSkillHandler {
         }
     }
 
+
     /**
      * This Method appies all the debuffs specified
      */
@@ -309,26 +325,24 @@ export class WcSkillHandler {
         this.verifyTargets();
 
         for(let debuff in this.debuffs) {
-            let token = this.targetTokens[0];
-            if(debuff === 'silence') {
-                debuff = 'silenced';
+            for(let enemyToken of this.targetTokens) {
+                if(debuff === 'silence') {
+                    debuff = 'silenced';
+                }
+                let targetActor = game.actors.get(enemyToken.actor._id);
+                targetActor.update({['data.effects.negative.'+debuff] : true});
             }
-            let targetActor = game.actors.get(token.actor._id);
-            targetActor.update({['data.effects.negative.'+debuff] : true});
         }
     }
+
 
     /**
      * This Method handles the activation of certain skills with an active state (like "Produce Flame")
      */
     activate() {
-
-        //toggle Effects
+        //FIXME: Fake Token erstellen und an das Haupt-Token knüpfen - damit die Sichtbarkeit vom Token nicht überschrieben wird
         this.toggleEffects('on');
-
-        //save the active state on the actor
         this.actor.update({['data.spells.'+this.skillName+'.activeState']:!this.isActive});
-
     }
 
 
@@ -336,35 +350,69 @@ export class WcSkillHandler {
      * This Method handles the deactivation of skills with an active state and triggers other actions if needed
      */
     deactivate() {
-
-        //toggle Effects off
         this.toggleEffects('off');
-
-        //save the active state on the actor
         this.actor.update({['data.spells.'+this.skillName+'.activeState']:!this.isActive});
-
     }
 
 
     /**
      * This Method verifies the selected targets
+     *
+     * @return    returns a notification error if one of the specified targets is invalid
      */
     verifyTargets() {
-
         //no token targeted
         if(this.targetTokens.length === 0) {
             return ui.notifications.error(game.i18n.localize('WC5E.UI.Actions.CastSpellInvalidTarget'));
         }
-
         //verify that exactly one hostile token is specified
         if(this.target === "token" && this.targetTokens.length !== 1 || this.targetTokens[0].data.disposition === 1) {
             return ui.notifications.error(game.i18n.localize('WC5E.UI.Actions.CastSpellInvalidTarget'));
+        }
+        //verify the valid distance to every target token
+        for(let enemyToken of this.targetTokens) {
+            let distance = this.getDistance(this.actorToken, enemyToken);
+            if(distance > this.range) {
+                return ui.notifications.error(game.i18n.localize('WC5E.UI.Actions.OutOfRange')+' '+distance+' / '+this.range+' '+game.i18n.localize('WC5E.UI.Units.Ft'));
+            }
         }
     }
 
 
     /**
+     * This method calculates the dmg based on the actor's attributes
      *
+     * @return string    dmg to be used - in format "3d8"
+     */
+    calculateDmgToUse() {
+        var actorData = this.actor.data.data;
+        let dmg       = this.dmgValues;
+        var dmgToUse  = null;
+
+        //get the correct entry for the actual level
+        for(let level in dmg) {
+            if(dmg[level]) {
+                if(parseInt(level) > parseInt(actorData.core.lvl)) {
+                    continue;
+                }
+                dmgToUse = dmg[level];
+            }
+        }
+
+        return dmgToUse;
+    }
+
+
+    /**
+     * This method deals the damage to the targets
+     */
+    appylyDamage() {
+
+    }
+
+
+    /**
+     * This method triggers the damage of the skill
      */
     useOffensiveSkill() {
 
@@ -373,39 +421,39 @@ export class WcSkillHandler {
         var enemyToken = this.targetTokens[0];
         let distance   = this.getDistance(this.actorToken, enemyToken);
 
-        if(distance > this.attackRange) {
-            return ui.notifications.error(game.i18n.localize('WC5E.UI.Actions.OutOfRange')+' '+distance+' / '+this.attackRange+' '+game.i18n.localize('WC5E.UI.Units.Ft'));
+        if(distance > this.range) {
+            return ui.notifications.error(game.i18n.localize('WC5E.UI.Actions.OutOfRange')+' '+distance+' / '+this.range+' '+game.i18n.localize('WC5E.UI.Units.Ft'));
         }
 
         var enemyActor = game.actors.get(enemyToken.actor._id);
         var enemyData  = enemyActor.data.data;
 
         if(this.dmgValues) {
-            let dmg     = this.dmgValues;
 
-            var dmgToUse = null;
-            //get the correct entry for the actual level
-            for(let level in dmg) {
-                if(parseInt(level) > parseInt(this.actor.data.data.core.lvl)) {
-                    continue;
-                }
-                dmgToUse = dmg[level];
-            }
+            let dmgToUse = this.calculateDmgToUse();
 
             //roll the dice!
             let roll = new Roll(dmgToUse);
             roll.evaluate();
             roll.toMessage();
 
+            this.applyDamage();
+
             //remove hp from enemy
             let enemyHp = enemyData.core.hp.value;
             enemyHp -= roll.total;
 
             //save the new hp on the actor
-            enemyActor.update({'data.core.hp.value' : enemyHp});
+            enemyActor.update({['data.core.'+this.dmgTo+'.value'] : enemyHp});
         }
     }
 
+
+    /**
+     * This method handles the activation and deactivation of light and animation effects on the actorToken
+     *
+     * @param string mode    "on" or "off"
+     */
     toggleEffects(mode) {
         var updateObject = {};
         var actorData    = this.actor.data.data;
@@ -527,9 +575,10 @@ export function castSpell(skillName) {
         skillHandler.actor          = actor;
         skillHandler.actorToken     = token;
         skillHandler.isActive       = (skill.activeState) ? true : false;
-        skillHandler.attackRange    = spellProps.attackRange;
+        skillHandler.range          = spellProps.range;
         skillHandler.dmgType        = (spellProps.dmg) ? spellProps.dmg.type : null;
         skillHandler.dmgValues      = (spellProps.dmg) ? spellProps.dmg.values : null;
+        skillHandler.dmgTo          = (spellProps.dmg) ? spellProps.dmg.to : null;
         skillHandler.target         = (spellProps.areaSelect) ? 'area' : 'token';
         skillHandler.canBeActivated = (spellProps.activeState) ? true : false;
         skillHandler.effects        = spellProps.effects;
