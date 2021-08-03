@@ -1,7 +1,7 @@
 /*
  * Spell-Sheet for Compendium
  */
-export class WcSpellSheet extends ItemSheet {
+export class WcRuleSheet extends ItemSheet {
 
     //---- OVERRIDES
 
@@ -10,8 +10,8 @@ export class WcSpellSheet extends ItemSheet {
      */
     static get defaultOptions() {
         return mergeObject(super.defaultOptions, {
-            classes:   ["warcraft5e", "sheet", "spell"],
-            template:  "modules/warcraft5e/templates/item/spell-sheet.html",
+            classes:   ["warcraft5e", "sheet", "rule"],
+            template:  "modules/warcraft5e/templates/item/rule-sheet.html",
             width:     650,
             resizable: false
         });

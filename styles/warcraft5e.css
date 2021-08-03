@@ -1,0 +1,385 @@
+@font-face {
+    font-family: 'Heuristica';
+    src: local('Heuristica Regular'), local('Heuristica-Regular'),
+        url('/modules/warcraft5e/res/fonts/Heuristica-Regular.woff2') format('woff2'),
+        url('/modules/warcraft5e/res/fonts/Heuristica-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Heuristica';
+    src: local('Heuristica Bold'), local('Heuristica-Bold'),
+        url('/modules/warcraft5e/res/fonts/Heuristica-Bold.woff2') format('woff2'),
+        url('/modules/warcraft5e/res/fonts/Heuristica-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display:swap;
+}
+
+@font-face {
+    font-family: 'Heuristica';
+    src: local('Heuristica Bold Italic'), local('Heuristica-BoldItalic'),
+        url('/modules/warcraft5e/res/fonts/Heuristica-BoldItalic.woff2') format('woff2'),
+        url('/modules/warcraft5e/res/fonts/Heuristica-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display:swap;
+}
+
+@font-face {
+    font-family: 'Heuristica';
+    src: local('Heuristica Italic'), local('Heuristica-Italic'),
+        url('/modules/warcraft5e/res/fonts/Heuristica-Italic.woff2') format('woff2'),
+        url('/modules/warcraft5e/res/fonts/Heuristica-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display:swap;
+}
+
+
+/*********************************
+ * UI - COMPENDIUM LIST
+ ********************************/
+
+.window-app .window-content {
+    background:url("/modules/warcraft5e/res/pics/parchment.jpg") top left;
+    font-family:'Heuristica';
+}
+
+.directory .directory-list .directory-item {
+    line-height:80px;
+    font-size:16px;
+    border-bottom:1px solid #cab87a;
+    padding:2px 0 3px;
+}
+
+.directory .directory-list .entry-name {
+    font-weight:bold;
+}
+
+.directory .directory-list .directory-item img {
+    width:80px;
+    height:80px;
+    border:3px double #cab87a;
+}
+
+/*********************************
+ * DEFAULT DESIGN
+ ********************************/
+
+.warcraft5e .window-content {
+    background:url("/modules/warcraft5e/res/pics/parchment.jpg") top left;
+    font-size:16px;
+    line-height:20px;
+    color:#191813;
+    padding:5px 20px;
+}
+
+.warcraft5e .window-content h1 {
+    font-weight:bold;
+    color:#1b456b;
+    border-bottom:1px solid #cab87a;
+    font-size:1.5em;
+    line-height:1.5em;
+    position:relative;
+    padding-bottom:5px;
+}
+
+.warcraft5e .window-content h1::after {
+    content:'';
+    width:100%;
+    height:1px;
+    border-bottom:1px solid #cab87a;
+    position:absolute; bottom:3px; left:0;
+}
+
+.warcraft5e .window-content hr {
+    border-top:1px solid #cab87a;
+    border-bottom:0;
+    width:25%;
+    margin:15px auto;
+}
+
+.warcraft5e .window-content hr.full {
+    width:90%;
+}
+
+.warcraft5e .window-content h2 {
+    font-weight:bold;
+    border:none;
+    font-size:1.2em;
+    padding-bottom:10px;
+}
+
+.warcraft5e .window-content h3 {
+    font-weight:bold;
+    font-size:1.2em;
+    color:#5081bd;
+}
+
+.warcraft5e .imageRow {
+    display:grid;
+    grid-template-columns:80px 1fr;
+    grid-gap:10px;
+    padding-bottom:10px;
+}
+
+.warcraft5e .imageRow img {
+    width:80px;
+    height:80px;
+    border:3px double #cab87a;
+}
+
+.warcraft5e .imageRow .imgContent {
+    align-self: center;
+}
+
+.warcraft5e section {
+    padding-bottom:10px;
+}
+
+/*********************************
+ * RACE SHEET
+ ********************************/
+
+.warcraft5e .raceDescription {
+    text-align: justify;
+    padding-top:20px;
+}
+
+.warcraft5e .raceGrid {
+    display:grid;
+    grid-template-columns:170px 1fr;
+    grid-gap:3px 20px;
+}
+
+.warcraft5e .raceGrid br {
+    grid-column: 1 / -1;
+}
+
+.warcraft5e .raceGrid hr {
+    grid-column: 1 / -1;
+    margin:2px auto;
+    width:95%;
+    border-color:#e0d8bb;
+}
+
+.warcraft5e .raceGrid hr:last-of-type {
+    display:none;
+}
+
+.warcraft5e .spellLink {
+    position:relative;
+    display:inline-block;
+    border:1px solid #cab87a;
+    padding:0px 10px 5px 5px;
+    background-color:#f9f9f9;
+}
+
+.warcraft5e .spellLink::before {
+    content:'';
+    width:20px;
+    height:20px;
+    background:url('/modules/warcraft5e/res/pics/ui/high/magic.png');
+    background-size:cover;
+    display:inline-block;
+    top:5px;
+    position:relative;
+}
+
+.warcraft5e header .imageRow {
+    grid-template-columns:100px 1fr;
+}
+
+.warcraft5e header .imageRow img {
+    width:100px;
+    height:100px;
+}
+
+/*********************************
+ * SPELL SHEET
+ ********************************/
+
+.warcraft5e .headerSpellGrid {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-gap:20px;
+}
+
+.warcraft5e .headerSpellGrid span:nth-of-type(2) {
+    text-align:right;
+}
+
+.warcraft5e .spellContent {
+    display:grid;
+    grid-template-columns:100px 1fr;
+    grid-gap:10px;
+    text-align:justify;
+    padding-top:10px;
+}
+
+.warcraft5e .spellProps {
+    font-size:0.9em;
+}
+
+.warcraft5e .spellProp {
+    border:1px solid #e0d8bb;
+    margin-bottom:10px;
+    line-height:1.1em;
+    background-color:rgba(255,255,255,0.75);
+    text-align:center;
+    padding:5px 5px;
+    box-shadow:1px 0px 0px #cab87a inset, -1px 0px 0px #cab87a inset;
+    color:#696969;
+    font-weightr:bold;
+}
+
+.warcraft5e .spellProp > strong {
+    display:block;
+    text-transform:uppercase;
+    font-size:0.7em;
+    font-family:Signika;
+    color:#a9a9a9;
+}
+
+.warcraft5e.sheet ul {
+    font-size:0.9em;
+    padding-right:20px;
+    padding-left:18px;
+}
+
+.warcraft5e .skillContent {
+    padding-top:10px;
+}
+
+.dialog {
+    min-height:150px;
+}
+
+/*********************************
+ * CLASS SHEET
+ ********************************/
+
+.warcraft5e .artwork {
+    float:right;
+    width:350px;
+    display:block;
+    margin:0 0 20px 20px;
+    border:3px double #e0d8bb;
+}
+
+.warcraft5e .artwork:nth-of-type(2n) {
+    float:left;
+    margin:0 20px 20px 0;
+}
+
+.warcraft5e .artwork img {
+    display:block;
+    border:none;
+}
+
+.warcraft5e .artwork a {
+    display:block;
+    text-align:center;
+    background-color:rgba(255,255,255,0.75);
+    text-decoration:none;
+}
+
+.warcraft5e .raceGrid {
+    clear:both;
+}
+
+.warcraft5e a.entity-link.inline {
+    cursor:help;
+    color:#a62121;
+    border:none;
+    background-color:transparent;
+    padding:0;
+}
+
+.warcraft5e table {
+    border:none;
+}
+
+.warcraft5e table.diagonal {
+    margin-top:20px;
+}
+
+.warcraft5e table.diagonal th span {
+    transform:rotate(-40deg);
+    text-align:left;
+    display:block;
+    width:50px;
+    padding-left:10px;
+}
+
+.warcraft5e .prevlink {
+    display:grid;
+    grid-template-columns:25px 1fr;
+    grid-gap:10px;
+    background-color:transparent;
+    border:none;
+    padding-left:0;
+}
+
+.warcraft5e .nextlink {
+    grid-template-columns:1fr 20px;
+}
+
+.warcraft5e .prevlink::before,
+.warcraft5e .prevlink::after {
+    content:'«';
+    line-height:18px;
+    width:20px;
+    height:20px;
+    border:3px double #cab87a;
+    display:block;
+    border-radius:50%;
+    background-color:rgba(255,255,255,0.75);
+    text-align:center;
+}
+
+.warcraft5e .prevlink::after,
+.warcraft5e .nextlink::before {
+    display:none;
+}
+
+.warcraft5e .nextlink::after {
+    content:'»';
+    display:block;
+}
+
+.warcraft5e .prevlink span {
+    align-self:center;
+}
+
+.warcraft5e .ruleNav {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-gap:50px;
+    border-bottom:1px dashed #cab87a;
+    padding-bottom:10px;
+    margin-bottom:10px;
+    padding-top:10px;
+}
+
+.warcraft5e .ruleNav.bottom {
+    border-top:1px dashed #cab87a;
+    border-bottom:none;
+    margin-top:10px;
+}
+
+.warcraft5e .nextlink {
+    text-align:right;
+}
+
+.warcraft5e .b1stlevel td:nth-of-type(6n-5),
+.warcraft5e .b1stlevel td:nth-of-type(6n-2) {
+    text-align:center;
+}
+
+.warcraft5e .b1stlevel td:nth-of-type(6n-4),
+.warcraft5e .b1stlevel td:nth-of-type(6n-1) {
+    text-align:right;
+    padding-right:5px;
+}

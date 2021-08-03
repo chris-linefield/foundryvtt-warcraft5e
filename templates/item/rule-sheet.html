@@ -1,0 +1,81 @@
+<form class="{{cssClass}} flexcol" autocomplete="off">
+
+    <div class="ruleNav">
+        {{#if item.data.prev}}
+            <a class="entity-link prevlink" data-pack="warcraft5e.{{item.data.prev.pack}}" data-id="{{item.data.prev.node}}">
+                <span>{{localize item.data.prev.label}}</span>
+            </a>
+            {{else}}
+            <span></span>
+        {{/if}}
+
+        {{#if item.data.next}}
+            <a class="entity-link prevlink nextlink" data-pack="warcraft5e.{{item.data.next.pack}}" data-id="{{item.data.next.node}}">
+                <span>{{localize item.data.next.label}}</span>
+            </a>
+        {{/if}}
+    </div>
+
+    <header>
+        <h1>{{localize item.data.title}}</h1>
+    </header>
+
+    <section>
+        {{{localize item.data.content}}}
+
+        {{#if item.data.blocks}}
+            {{#each item.data.blocks}}
+                <p>
+                    <strong>{{localize this.title}}</strong><br>
+                    {{{localize this.content}}}
+                </p>
+            {{/each}}
+        {{/if}}
+
+        {{#if item.data.table}}
+            <br>
+            <table class="{{item.data.table.class}}">
+                <tr>
+                    {{#each item.data.table.heads}}
+                        <th><span>{{localize this}}</span></th>
+                    {{/each}}
+                </tr>
+                {{log item.data.table}}
+                {{#each item.data.table.rows}}
+                    <tr>
+                    {{#each this}}
+                        <td>{{localize this}}</td>
+                    {{/each}}
+                    </tr>
+                {{/each}}
+            </table>
+        {{/if}}
+
+        {{#if item.data.blocks2}}
+            <br>
+            {{#each item.data.blocks2}}
+                <p>
+                    <strong>{{localize this.title}}</strong><br>
+                    {{{localize this.content}}}
+                </p>
+            {{/each}}
+        {{/if}}
+    </section>
+
+    <div class="ruleNav bottom">
+        {{#if item.data.prev}}
+            <a class="entity-link prevlink" data-pack="warcraft5e.{{item.data.prev.pack}}" data-id="{{item.data.prev.node}}">
+                <span>{{localize item.data.prev.label}}</span>
+            </a>
+            {{else}}
+            <span></span>
+        {{/if}}
+
+        {{#if item.data.next}}
+            <a class="entity-link prevlink nextlink" data-pack="warcraft5e.{{item.data.next.pack}}" data-id="{{item.data.next.node}}">
+                <span>{{localize item.data.next.label}}</span>
+            </a>
+        {{/if}}
+    </div>
+
+</form>

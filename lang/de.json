@@ -8,8 +8,15 @@
             "Eredun" : "Eredonisch"
         },
 
-        "CharacterSheet" : {
-            "HitPoints" : "Lebenspunkte"
+        "Character" : {
+            "Strength" : "Stärke",
+            "Agility" : "Gewandtheit",
+            "Stamina" : "Ausdauer",
+            "Intelligence" : "Intelligenz",
+            "Spirit" : "Sinne",
+            "Charisma" : "Charisma",
+            "HitPoints" : "Lebenspunkte",
+            "Level" : "Charakterstufe"
         },
 
         "Class" : {
@@ -69,6 +76,7 @@
 
         "Race" : {
             "Draenei" : {
+                "Name" : "Draenei",
                 "Description" : "Die Draenei sind eine stämmig gebaute außerirdische Rasse, die vom Planeten Argus stammt. Sie sind sehr stark mit der Magie im Einklang und neigen zum ausgesprochen Guten oder Bösen. Draenei, die der Fel-Magie anheim fallen, bilden die Ränge der Eredar, den größten Generälen der brennenden Legion. Draenei, die wiederrum dem heiligen Licht dienen, sind unsterbliche Kreuzritter im Dienste der Gerechtigkeit - überall im Universum.",
                 "AbilityScoreIncrease" : "Geist oder Intelligenz steigen um 1.",
                 "Age" : "Ein typischer Draenei gilt ab 100 Jahren als erwachsen und kann bis zu 10.000 Jahre alt werden.",
@@ -134,6 +142,7 @@
                 }
             },
             "Elf" : {
+                "Name" : "Elfen",
                 "Description" : "Elfen gehören zu den am längsten bekannten Spezies in Azeroth. Sie sind besonders für ihre scharfen Sinne, unvergleichliche Anmut und Magiebegabung bekannt. Elfen galten einst als die erste Rasse, die die Welt bevölkert hat.",
                 "AbilityScoreIncrease" : "Gewandtheit steigt um 2.",
                 "Age" : "Obwohl Elfen genau so schnell altern wie Menschen, geht ihre Definition von Reife weit über die körperliche Erscheinung hinaus und bezieht weltliche Erfahrungen mit ein. Ein Hochelf erreicht das Erwachsenenalter in der Regel mit etwa 60 Jahren und wird um die 750 Jahre alt. Ein Nachtelf hingegen gilt ab etwa 300 Jahren als erwachsen, wird aber auch etwa 3.700 Jahre alt. Bis zur Zerstörung des Weltenbaumes waren die Nachtelfen unsterblich.",
@@ -144,7 +153,7 @@
                 "Subrace" : "Aufgrund des Mana-Vampirismus unter den Elfen zersplitterte ihre Kultur in verschiedene Unterarten: Hochelfen, Blutelfen, Leerenelfen, Nachtelfen und Nachtgeborene.",
                 "Subraces" : {
                     "HighElf" : {
-                        "Name" : "Hochelf (Quel'dorei)",
+                        "Name" : "Hochelfen (Quel'dorei)",
                         "Quote" : "Für Quel'Thalas!",
                         "Description" : "Hochelfen stammen in der Regel aus Silbermond in Quel'Thalas oder aus Dalaran. Sie sind etwas höher gewachsen als Menschen und sehr schmal, mit scharfen symmetrisch geformten Merkmalen, die ihnen oft das Bild vollkommener Schönheit verleihen. Das Bild der Hochelfen ist sehr einheitlich und wenig komplex. Sie werden durch weiße bis flachsfarbene Haare und unglaublich intensive Augen geprägt, die für den Betrachter von innen heraus zu leuchten scheinen. Obwohl die meisten Hochelfen blaue oder grüne Augen haben, sind violett und rote Augen zumindest nicht unbekannt.",
                         "AbilityScoreIncrease" : "Intelligenz steigt um 1.",
@@ -152,19 +161,116 @@
                         "FamilyNames" : "Astwanderer, Morgenklinge, Lichtbringer, Morgengrau, Sonnenschreiter"
                     },
                     "BloodElf" : {
-                        "Name" : "Blutelfen (Sin’dorei)",
+                        "Name" : "Blutelfen (Sin'dorei)",
                         "Quote" : "Magie! Mein Volk ist süchtig danach... Eine Abhängigkeit, die geschaffen wurde, als der Sonnenbrunnen zerstört wurde. - Kael'Thas Sonnenwanderer",
                         "Description" : "Nach dem dritten Krieg waren die Todeszahlen der Hochelfen erdrückend. 90% von ihnen wurden während der Belagerung von Silbermond erschlagen als Quel'Thalas dem Erdboden gleich gemacht wurde. Prinz Kael'Thas Sonnenwanderer gab den Überlebenden seines Volkes nach diesem schrecklichen Ereignis den Namen \"Blutelfen\" (Sin'dorei). Nachdem ihre Heimat zerstört, ihre Wälder nieder gebrannt  und ihr geliebter Sonnenbrunnen besudelt wurde, erlitten die Blutelfen die schlimmste Form von Magie-Entzug. Aufgrund ihrer Abstammung sind Blutelfen und Hochelfen absolut identisch. Trotzdem wurde ihre Kultur durch ihren unstillbaren Durst nach Rache verzerrt. Die meisten von ihnen haben aufgehört, dem Licht zu huldigen, wodurch ihre Treue gegenüber der Allianz schwand. Die meisten von ihnen leiden unter starken psychologischen Auswirkungen des Mana-Vampirismus aufgrund der Zerstörung des Sonnenbrunnens. Spielleiter sollten die optionale Regel \"Magie-Entzug\" bei Blutelfen in Erwägung ziehen.",
                         "Affiliation" : "Horde oder unabhängig - Die meisten Blutelfen sind der Horde beigetreten, nachdem die Banshee-Königin Sylvanas Windläufer sie dazu eingeladen hat."
+                    },
+                    "NightElf" : {
+                        "Name" : "Nachtelfen (Kal'dorei)",
+                        "Quote" : "Das Horn hallte wider und ich kehre zurück, so wie es versprochen war. Ich rieche den Gestank von Verfall und Verderbnis in unserem Land. Das erzürnt mich. - Malfurion Stormrage",
+                        "Description" : "Als Nachtelf stammst du aus Darnassus in Kalimdor. Die ausgeprägten Augenbrauen, langen spitzen Ohren und die von der Natur geprägte Erscheinung verleihen dieser Rasse eine wilde Anmut. Die Hautfarben der Kaldorei sind so vielfältig wie die Natur selbst. Sie reichen von blassem weiß über blau, bis hin zu rötlichem rot. Die Haare hingegen bewegen sich zwischen hellem weiß, naturbelassenem grün und schimmerndem schwarz.",
+                        "AbilityScoreIncrease" : "Sinne steigen um 1.",
+                        "Affiliation" : "Allianz oder unabhängig. Die Nachtelfen sind Mitglieder der Allianz, sind aber nicht die am meisten geschätzten Vertreter dieses Bundes und auch nicht die Rasse, denen das meiste Vertrauen entgegen gebracht wird. Obwohl sie sehr ehrenhaft und gerecht sind, hat das natürliche Misstrauen der Nachtelfen die Beziehungen zu den anderen Völkern stets belastet. Gepaart mit ihrer mystischen Erscheinung und rätselhaften Natur kann die Interaktion mit den anderen Mitgliedern der Allianz oft schwierig sein. Es gibt ein starkes Bedürfnis nach Isolation bei den Kaldorei, da sie nur ungern die grünen Nebel von Teldrassil verlassen.",
+                        "FamilyNames" : "Mondklinge, Glevensturm, Stolzschreiter, Eichenläufer, Nachtschwinge, Hirschgeweih"
+                    },
+                    "Nightborne" : {
+                        "Name" : "Nachtgeborene (Shal'dorei)",
+                        "Quote" : "Meinem Volk steht ein ähnliches Schicksal bevor. Ich sah in alle möglichen Versionen der Zukunft und fand nur eine Antwort... Malfurion Sturmgrimm - Elisande, Großmagistrix der Nachtgeborenen",
+                        "Description" : "Als Nachtgeborener stammst du aus der uralten Stadt Suramar und hast dein Leben im Schutze des Nachtbrunnens und seiner Macht verbracht. Der Nachtbrunnen selbst hat Ähnlichkeit mit dem Brunnen der Ewigkeit und ist das Zentrum der arkanen Macht von Großmagistrix Elisande. Die Nachtgeborenen ähneln den Nachtelfen in ihrer Erscheinung, wirken jedoch um einiges dunkler und düsterer. Ihre Haut hat nicht die helleren lila- und pink farbenen Töne der Nachtelfen, stattdessen ist ihre Haut blasser und von dunklem bläulichen oder gräulichen Ton. Die Haare der Shal'dorei sind ebenfalls weniger farbenfroh als die ihrer Vetter und bestehen hauptsächlich aus weißen, grauen, schwarzen und sehr blassen blauen Farben. Glühende Tattoos sind unter den Nachtgeborenen offenbar sehr populär, obwohl nicht bekannt ist, ob sie diese aus kosmetischen Gründen tragen oder ob sie Auswirkungen der magischen Energie des Nachtbrunnens sind. Ihre Augen leuchten in einem sanften blau.",
+                        "AbilityScoreIncrease" : "Intelligenz steigt um 1.",
+                        "Affiliation" : "Horde oder unabhängig. Als die schützende Kuppel, die Suramar umgab, nach der dritten Invasion der Legion begann, sich aufzulösen, beschlossen die Anführer der Nachtgeborenen gemeinsam, den Schutz aufzugeben und ihr Volk statt der Alternative dem gleichen Entzug auszusetzen, den auch die Hochelfen durchleiden mussten. Die Anführer beschlossen anschließend per Wahlverfahren, dasss sie der Horde beitreten würden und die Nachtgeborenen fanden neue und beständige Verbündete in den Blutelfen, als sie wieder in der Welt von Azeroth Fuß fassten. Die Freigeister unter ihnen streifen durch die Welt und versuchen Wege zu finden, ihren unstillbaren Durst nach Magie zu stillen, bevor er sich zur gleichen Sucht entwickelt, unter der die Blutelfen leiden.",
+                        "FamilyNames" : "Moonblade, Glaivestorm, Proudstrider, Oakwalker, Nightwing, Staghorn"
                     }
                 }
+            }
+        },
+
+        "Rules" : {
+            "Mechanics" : {
+                "AbilityScoreSummary" : {
+                    "Label" : "Übersicht der Attributspunkte",
+                    "Content" : "",
+                    "Blocks" : {
+                        "1" : {
+                            "Content" : "beschreibt natürliche Sportlichkeit und körperliche Kraft<br>besonders wichtig für: Todesritter, Paladin und Krieger"
+                        },
+                        "2" : {
+                            "Content" : "beschreibt physische Geschicklichkeit, Reflexe, Gleichgewicht und Haltung<br>besonders wichtig für: Jäger, Mönch und Schurke"
+                        },
+                        "3" : {
+                            "Content" : "beschreibt Gesundheitszustand, Ausdauer und Lebenskraft<br>besonders wichtig für: alle"
+                        },
+                        "4" : {
+                            "Content" : "beschreibt mentalen Scharfsinn, Gedächtnis und analytisches Denken<br>besonders wichtig für: Alchemist, Magier, Tüftler"
+                        },
+                        "5" : {
+                            "Content" : "beschreibt Wahrnehmung, Intuition und Weisheit<br>besonders wichtig für: Druide, Priester, Schamane"
+                        },
+                        "6" : {
+                            "Content" : "beschreibt Selbstbewusstsein, Eloquenz und Führungsvermögen<br>besonders wichtig für: Hexer"
+                        }
+                    }
+                },
+                "DeterminingAbilityScores" : {
+                    "Label" : "Attributspunkte bestimmen",
+                    "Blocks" : {
+                        "1" : {
+                            "Label" : "Fokus und Schwachpunkt",
+                            "Content" : "Diese Variante führt zu Charakteren mit klaren Stärken und sichtbaren Schwächen. Wähle einen Fokus (ein Attribut, das besonders hervor sticht) und eine Schwäche (ein Attribut, das besonders schwach ausgeprägt ist), bevor irgendwelche Modifikatoren (z.B. durch die Rasse) angewandt werden.<br><i>Fokus:</i> Setze dieses Attribut auf den Wert 18.<br><i>Schwäche:</i> Setze dieses Attribut auf den Wert 8.<br><br>Setze nun die restlichen Attributspunkte auf den Wert 10 und verteile anschließend 16 Punkte über all deine Attribute hinweg, so wie du es für richtig hältst. Du kannst bestehende Attribute um 2 Punkte verringern und die entsprechenden Punkte auf ein anderes Attribut verteilen."
+                        },
+                        "2" : {
+                            "Label" : "Heroischer Wurf",
+                            "Content" : "Diese Variante führt in der Regel zu etwas stärkeren Charakteren als das gewöhnliche Würfeln. Würfle für jeden Attributswert 2W6 + 6."
+                        }
+                    }
+                },
+                "Beyond1stLevel" : {
+                    "Label" : "Über Stufe 1 hinaus",
+                    "Content" : "<p>Die Regeln des \"World of Warcraft 5e RPG\" schließen ebenfalls Systeme für Handwerk und Handwerksklassen mit ein (z.B. den Tüftler oder den Alchemisten). Außerdem gibt es Wege, Reichtum in Charakterstärke zu übertragen (z.B. durch das Talent <a class=\"entity-link inline\" data-pack=\"warcraft5e.feats\" data-id=\"enBseIfaasp0D7xv\">Infusionist</a>). Wenn du einen Charakter über Stufe 1 erschaffen möchtest, halte dich an die folgenden Leitlinien, um den erwarteten Reichtum so zu generieren, dass alle Charaktere etwa den gleichen Stand aufweisen. Schlage in Kapitel 7 unter \"TODO LINK Herstellungskosten und -komplexität von Gegenständen\", um die Seltenheit zu bestimmen. Beachte, dass die Herstellung von Gegenständen etwa die Hälfte des Kaufpreises ausmacht.</p><p>Die Menge an Reichtum, die ein Charakter angehäuft haben kann, ist sehr unterschiedlich. Das hängt vor allem von den anfänglichen Ressourcen, unerwarteten Schätzen während des Abenteuers und von der entsprechenden Zeit ab, um seinem Handwerk oder anderen Verdienstmöglichkeiten nachzugehen, z.B. wenn einem Charakter ein kleines Unternehmen oder eine Siedlung gehört usw...</p>",
+                    "Blocks" : {
+                        "1" : {
+                            "Label" : "Budget magischer Gegenstände",
+                            "Content" : "Ein Spielleiter kann über die obige Tabelle den Gesamtwert von magischen Gegenständen ermitteln, die Charaktere besitzen, sofern nicht explizit welche verkauft wurden. In diesem Falle entspricht der Reichtum nicht dem erwarteten Reichtum des Charakters, sondern den Kosten der magischen Gegenstände, die der Charakter auf der entsprechenden Stufe haben sollte. Hiervon eingeschlossen sind unter anderem Geschenke, das Verzaubern von Gegenständen oder ein permanenter Segen oder eine Infusion in einen der Gegenstände im Besitz. Die zu erwartenden Kosten von magischen Gegenständen relativ zu ihrer Seltenheit werden in Kapitel 7 aufgeführt. TODO: Link"
+                        },
+                        "2" : {
+                            "Label" : "Erwartete Ausfallzeiten",
+                            "Content" : "Im Falle von Handwerksklassen (Alchemist und Tüftler) oder in Fällen, in denen Charaktere magische Gegenstände (durch das Talent <a class=\"entity-link inline\" data-pack=\"warcraft5e.feats\" data-id=\"enBseIfaasp0D7xv\">Infusionist</a>) herstellen, wird eine Ausfallzeit von etwa 5 Tagen bis zu einer Woche zwischen den Abenteuern (oder aller 3-5 Kämpfe) empfohlen, damit diese Klassen wettbewerbsfähig bleiben. Auf diese Weise können sehr komplexe Projekte, wie z.B. die Fertigung eines Mechs oder eines Fahrzeugs aller 2-3 Abenteuer fertig gestellt werden. Durch diese Balance profitieren Spieler stärker dadurch, Zeit und Geld zu investieren, um genau die Dinge zu kreieren, die sie benötigen. Hierbei ist egal, ob es sich um Schriftrollen, Tränke, Sprengstoffe, Zauber in Zauberbüchern oder um fortgeschrittene Konstruke und Fahrzeuge handelt - wie z.B. den Gyrokopter. Ein gutes Gespür ist dabei äußerst wichtig."
+                        }
+                    },
+                    "TypicalWealth" : "Typischer Reichtum"
+                },
+                "Advantage" : {
+                    "Label" : "Vorteile und Nachteile",
+                    "Content" : "<p>Manchmal wird bei Fähigkeiten oder Zaubern angegeben, dass du einen Vorteil oder Nachteil bei einer Probe, einem Rettungswurf oder einem Angriffswurf hast. Das bedeutet, dass du einen zweiten Würfel zusätzlich wirfst. Im Falle eines Vorteils nimmst du anschließend den höheren der beiden Würfel, im Falle eines Nachteils den niedrigeren Wert. Ein Beispiel: Wenn du im Nachteil bist, und du wirfst eine 17 und eine 5, dann gilt die 5. Wenn du allerdings einen Vorteil hast, dann gilt die 17.</p><p>Wenn mehrere Situationen ein und den selben Wurf beeinflussen und du dadurch sozusagen mehrfach im Vorteil oder Nachteil wärest, wird niemals mehr als ein einziger zusätzlicher Würfel geworfen. Würden im oben Falle also zwei weitere Vorteile gelten, dann bliebe es dennoch bei 17 und 5.</p><p>Wenn Umstände dafür sorgen, dass ein einziger Wurf sowohl positiv als auch negativ beeinflusst wird, dann gilt weder ein Vorteil noch ein Nachteil und es wird ganz normal gewürfelt. Das gilt auch, wenn mehrere Umstände zu mehreren Nachteilen führen würden, aber nur ein einziger für einen Vorteil und umgedreht. In diesen Situationen wird normal gewürfelt.</p><p>Wenn du einen Vorteil oder Nachteil hast und eine Fähigkeit ermöglicht dir, deinen Wurf erneut zu würfeln, dann kannst du maximal einen der beiden Würfel erneut würfeln. Du kannst selbst entscheiden, welcher Würfel erneut geworfen wird. Wenn z.B. im obigen Beispiel ein Vorteil gelten würde, könntest du von der 5 und der 17 die 5 erneut Würfeln.</p><p>In der Regel erhältst du einen Vorteil oder Nachteil durch die Nutzung von Spezialfähigkeiten, Aktionen oder Zaubern. Inspiration kann einem Charakter ebenfalls Vorteile gewähren. Der Spielleiter kann ebenfalls entscheiden, dass bestimmte Situationen oder Handlungen zu einem Vor- oder Nachteil führen.</p>"
+                },
+                "Resistance" : {
+                    "Label" : "Widerstand und Anfälligkeit",
+                    "Content" : "<p>Manche Kreaturen und Objekte sind ausgesprochen schwer oder erstaunlich leicht mit bestimmten Schadenstypen zu verletzen.</p><p>Wenn solch eine Kreatur oder ein Objekt Widerstand gegenüber einem bestimmten Schadenstyp hat, dann wird der Schaden durch diese Quelle halbiert. Wenn eine Kreatur oder ein Objekt besonders anfällig für eine bestimmte Schadensart ist, wird der entsprechende Schaden dieses Typs verdoppelt.</p><p>Widerstand und Anfälligkeiten werden nach allen anderen Modifikatoren angewandt. Beispiel: Eine Kreatur hat Widerstand gegen Hiebschaden und würde für 25 Hiebschaden verwundet werden. Die Kreatur befindet sich außerdem innerhalb einer magischen Aura, die jeglichen erlittenen Schaden um 5 reduziert. Der Gesamtschaden von 25 wird nun erst um 5 Punkte reduziert, bevor er halbiert wird. Die Kreatur erleidet also 10 Schadenspunkte.</p><p>Mehrere Instanzen von Widerstand oder Anfälligkeit, die sich auf den gleichen Schadenstypen beziehen, zählen lediglich als ein einzelner Einfluss. Wenn eine Kreatur also z.B. Widerstand gegenüber Feuerschaden besitzt und zusätzlich Widerstand gegenüber allem nicht magischen Schaden, dann wird der Schaden trotzdem nur halbiert und nicht weiter reduziert.</p>"
+                }
+            }
+        },
+
+        "Feats" : {
+            "Infusionist" : {
+                "Label" : "Infusionist",
+                "Description" : ""
             }
         },
 
         "Traits" : {
             "Adapter" : {
                 "Label" : "Anpassungsfähig",
-                "Description" : "Du kannst stets reagieren, wenn du im Kampf überrascht wirst (auch wenn deine Wahrnehmungs-Probe fehlgeschlagen ist). Du bist außerdem wetterbeständiger."
+                "Description" : "Du kannst stets reagieren, wenn du im Kampf überrascht wirst (auch wenn deine Wahrnehmungs-Probe fehlgeschlagen ist). Du bist außerdem im <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"K4kXNTd9rJoZAHu5\">Vorteil</a>, wenn es um Wettereinflüsse und -beständigkeit geht."
+            },
+            "ArcaneAffinity" : {
+                "Label" : "Arkane Affinität",
+                "Description" : "Du bist besonders affin im Umgang mit arkaner Magie. Du kannst einen der folgenden Vorteile wählen:",
+                "Options" : {
+                    "1" : "<i>Verstärktes Zauberweben</i>. Du verursachst einen zusätzlichen Punkt Arkanschaden für jeden Würfel Schaden, den du mit deinen arkanen Zaubern verursachst. Dies gilt einmalig pro Zauber. Du kannst diesen Effekt auch bei Zaubern anwenden, die keinen Arkanschaden verursachen - allerdings nur ein einziges mal pro kurzer oder langer Rast.",
+                    "2" : "<i>Arkanschlag</i>. Du kannst deine Angriffe mit einer arkanen Explosion verstärken. Dies ist eine \"TODO: Link zur Regel - Schlag-Fertigkeit\", bei der du 1W6 Punkte Arkanschaden zu deinem Nahkampf- oder Fernkampfangriff hinzufügen kannst. Aller 4 Charakter-Stufen erhältst du einen weiteren Würfel dazu. Du musst entscheiden, ob du diese alle für einen Angriff nutzt oder jeweils einen für jeden Angriff. Die Fähigkeit stellt sich nach einer kurzen oder langen Rast wieder her.",
+                    "3" : "<i>Energie-Explosion</i>. Du bist in der Lage, eine: TODO: Gleich eigenes Feat dafür anlegen -> ist Schwachsinn mit 'like irgendwas'. You can release a blast of arcane force as if you possessed the Mystic Blast feat (arcane damage only). You may use this blast number of times equal to your Intelligence modifier before replenishing at a long rest. This deals a number of d4 dice equal to onequarter your level (minimum 1d4)."
+                }
             },
             "ArcaneLegacy" : {
                 "Label" : "Arkanes Erbe",
@@ -175,13 +281,17 @@
                     "3" : "[Nur für Jäger] - Du erhältst das Talent \"Durchdrungene Pfeile\"."
                 }
             },
+            "BlessingOfTheNightwell" : {
+                "Label" : "Segen des Nachtbrunnens",
+                "Description" : "Du besitzt natürlichen <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"FuRFBklCArGIhci8\">Widerstand</a> gegen arkane Magie."
+            },
             "BloodMagic" : {
                 "Label" : "Blutmagie",
                 "Description" : "Blutmagie funktioniert wie \"Hohe Magie\" der Hochelfen. Anstelle von blau beginnen bei Nutzung dieses Zaubers die Augen allerdings in sanftem \"Fel\"-grün zu leuchten. Du kannst entscheiden, anstelle der Zauber \"Taschenspielerei\" und \"Verstummen\" die Zauber \"Thaumaturgie\" und \"Manabrand\" zu erlernen."
             },
             "Bravery" : {
                 "Label" : "Tapferkeit",
-                "Description" : "Du bist besonders widerstandsfähig gegen Angst."
+                "Description" : "Du bist bei allen Rettungswürfen gegen Angst im <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"K4kXNTd9rJoZAHu5\">Vorteil</a>."
             },
             "BronzebeardCombatTraining" : {
                 "Label" : "Kampfausbildung",
@@ -213,11 +323,11 @@
             },
             "FelResistance" : {
                 "Label" : "Fel-Resistenz",
-                "Description" : "Du besitzt natürlichen Widerstand gegen Fel-Magie."
+                "Description" : "Du besitzt natürlichen <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"FuRFBklCArGIhci8\">Widerstand</a> gegen Fel-Magie."
             },
             "FireLordsFavor" : {
                 "Label" : "Gunst des Herrn des Feuers",
-                "Description" : "Du besitzt natürlichen Widerstand gegen Feuer-Magie."
+                "Description" : "Du besitzt natürlichen <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"FuRFBklCArGIhci8\">Widerstand</a> gegen Feuer-Magie."
             },
             "Gemcutting" : {
                 "Label" : "Gemmenschneider",
@@ -243,6 +353,10 @@
                 "Label" : "Kind der Berge",
                 "Description" : "Du kommst problemlos mit Höhen zurecht und bist es gewohnt in bis zu 6.000 m Höhe zu leben. Du bist außerdem an kaltes Wetter angepasst, daher bereitet es dir beim Erkunden der Wildnis keine Probleme."
             },
+            "MaskOfTheWild" : {
+                "Label" : "Verborgenheit der Natur",
+                "Description" : "Du kannst versuchen dich zu verstecken, selbst wenn du eigentlich nur leicht von Laub, starkem Regen, fallendem Schnee, Nebel oder anderen natürlichen Phänomenen verdeckt wirst."
+            },
             "MysticSenses" : {
                 "Label" : "Mystische Sinne",
                 "Description" : "Immer wenn du eine Probe auf die Herkunft von magischen Gegenständen, Überlieferungen oder Zaubern ablegst, giltst du als Experte für Zauberkunde."
@@ -255,9 +369,21 @@
                 "Label" : "Händchen für Tiere",
                 "Description" : "Du bist geübt im Umgang mit Tieren. Wenn du diese Fähigkeit bereits anderweitig erworben hast, hast du sie im Umgang mit Bergbewohnern, wie z.B. Greifen oder Berglöwen gemeistert."
             },
+            "NatureResistance" : {
+                "Label" : "Natur-Resistenz",
+                "Description" : "Du bist im <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"K4kXNTd9rJoZAHu5\">Vorteil</a> bei Rettungswürfen gegen Gift und besitzt besonderen <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"FuRFBklCArGIhci8\">Widerstand</a> gegen Blitz- und Giftschaden."
+            },
+            "NightfallenMagic" : {
+                "Label" : "Nightfallen Magic",
+                "Description" : "You know the mage hand cantrip and can cast it normally (caster level equal to your character level). When you reach 3rd level, you can also cast detect magic as a 1st level spell. When you reach 5th level, you can also cast the arcane explosion spell as a 2nd level spell. Intelligence is your spellcasting ability for these spells, and you use your mana pool for these abilities (even if you are not normally a spellcaster). While you use such abilities (and after using them for one hour), your eyes glow a light blue. If you can already cast such spells (and have a sufficiently high caster level), they are always prepared for free."
+            },
             "Resilience" : {
                 "Label" : "Unverwüstlich",
-                "Description" : "Du bist sehr widerstandsfähig gegen Gifte."
+                "Description" : "Du bist im <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"K4kXNTd9rJoZAHu5\">Vorteil</a> gegen Gifte und besitzt besonderen <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"FuRFBklCArGIhci8\">Widerstand</a> gegen Giftschaden."
+            },
+            "Shadowmeld" : {
+                "Label" : "Mit den Schatten verschmelzen",
+                "Description" : "Wenn du dich in schwachem Licht oder Dunkelheit befindest, erlangst du einen <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"K4kXNTd9rJoZAHu5\">Vorteil</a> bei Verstohlenheits-Proben. (TODO: Agility (Stealth))"
             },
             "Stalker" : {
                 "Label" : "Pirscher",
@@ -312,7 +438,7 @@
                 "Description" : "Solange der Zauber andauert, kannst du Magie innerhalb von 30 Fuß um dich herum spüren. Du kannst eine Aktion aufwenden, um eine schwache Aura um alle sichtbaren Kreaturen oder Objekte herum zu erkennen, die von Magie durchdrungen sind. Falls die Magie ihren Ursprung in einer der Zauberschulen hat, kannst du diesen Ursprung ergründen. Der Zauber durchdringt die meisten Barrieren, wird aber von 30 cm (1 Fuß) dicken Mauern, 2,5 cm dickem gewöhnlichem Metall, einer dünnen Bleiverkleidung oder z.B. 4,5 m (3 Fuß) dickem Holz oder Erde aufgehalten."
             },
             "ManaBurn" : {
-                "Label" : "Mana Burn",
+                "Label" : "TODO: Mana Burn",
                 "Description" : "You target a creature that has mana within 30 feet. A ray of black-purple anti-magic leaps out, and strikes the target, draining them of mana. You must make a ranged spell attack with the ray. On a success, the target loses 1d4 + 1 mana points. For every mana point lost, the target takes two points of arcane damage. The target is entitled a Spirit saving throw. On a success, the mana and hit points lost are halved.",
                 "Heightened" : "The number of mana points drained increases by 1d4 points per every two levels above 2 (2d4 at level 4, 3d4 at level 6, 4d4 at level 8). Special: Demons always have active mana, and can always be targeted with mana burn. If they have no mana, they still take 2 points of arcane damage."
             },
@@ -342,15 +468,15 @@
                 "Description" : "An einem Zielort innerhalb der Reichweite entsteht eine Sphäre mit 20 Fuß Durchmesser, die kein Geräusch durchdringt und in der Geräusche aufhören zu existieren, so als wären alle innerhalb des betreffenden Bereiches taub. Jede Kreatur, die sich komplett innerhalb der Sphäre befindet, ist immun gegen Donnerschaden. Einen Zauber zu wirken, der eine verbale Komponente beinhaltet, ist in der Sphäre unmöglich."
             },
             "Thaumaturgy" : {
-                "Label" : "Thaumaturgy",
-                "Description" : "You manifest a minor wonder, a sign of supernatural power, within range. You create one of the following magical Effects within range. If you cast this spell multiple times, you can have up to three of its 1-minute Effects active at a time, and you can dismiss such an Effect as an action.",
+                "Label" : "Thaumaturgie",
+                "Description" : "Du manifestierst innerhalb der Reichweite ein geringes Wunder, ein Zeichen von übernatürlichen Kräften. Du kannst einen der folgenden magischen Effekte bewirken. Wenn du diesen Zauber mehrere male wirkst, kannst du bis zu drei der Effekte, die eine Minute andauern, gleichzeitig aufrecht erhalten. Einen dieser Effekte zu beenden, ist eine normale Aktion.",
                 "Options" : {
-                    "1" : "Your voice booms up to three times as loud as normal for 1 minute.",
-                    "2" : "You cause flames to flicker, brighten, dim, or change color for 1 minute.",
-                    "3" : "You cause harmless tremors in the ground for 1 minute.",
-                    "4" : "You create an Instantaneous sound that originates from a point of your choice within range, such as a rumble of thunder, the cry of a raven, or ominous whispers.",
-                    "5" : "You instantaneously cause an unlocked door or window to fly open or slam shut.",
-                    "6" : "You alter the Appearance of your eyes for 1 minute."
+                    "1" : "Deine Stimme hallt drei mal so laut wie gewöhnlich für bis zu einer Minute.",
+                    "2" : "Du kannst bis zu eine Minute lang Flammen manipulieren. Du kannst Flammen zum flackern bringen, ihre Farbe ändern oder bewirken, dass sie stärker oder weniger hell leuchten.",
+                    "3" : "Für bis zu einer Minute kannst du den Boden sanft zum Zittern bringen.",
+                    "4" : "Du erzeugst sofort ein Geräusch, das von einem Punkt innerhalb deiner Reichweite ausgeht. z.B: Donnergrollen, das Krächzen eines Raben oder unheilvolles Flüstern.",
+                    "5" : "Du kannst spontan dafür sorgen, dass sich eine nicht verschlossene Tür auf geschwungen oder zu geschlagen wird.",
+                    "6" : "Du kannst für bis zu eine Minute lang die Farbe deiner Augen ändern."
                 }
             }
         },
@@ -372,6 +498,9 @@
             "Components" : {
                 "Somatic" : "Gesten",
                 "Verbal" : "Geräusche"
+            },
+            "SpellCategories" : {
+                "Strike" : "Strike spells modify a successful attack. See Chapter 9 for more details on strike effects. Strike and shot effects also usually a potential number of attacks equal to double the spell level. For instance, using kill shot as a 2nd level spell enhances 4 ranged attacks. The caster can have multiple potential strikes active, but cannot apply two shot or strike abilities to the same attack unless otherwise specified."
             }
         },
 
@@ -389,7 +518,8 @@
                 "Hour" : "Stunde",
                 "Instant" : "Sofort",
                 "Minute" : "Minute",
-                "Minutes" : "Minuten"
+                "Minutes" : "Minuten",
+                "Gp" : "Goldstücke"
             },
             "Phrases" : {
                 "Skill" : "Fähigkeit",

@@ -6,6 +6,31 @@
         {{localize item.data.description}}
     </header>
 
+    <!--
+    this.form.ondrop = event => this._onDrop(event);
+
+    async _onDrop(event) {
+        event.preventDefault();
+        event.stopPropagation();
+        let data;
+        try {
+          data = JSON.parse(event.dataTransfer.getData('text/plain'));
+        }
+        catch(err) {
+          console.log("Drop error");
+          console.log(event.dataTransfoer.getData('text/plain'));
+          console.log(err);
+          return false;
+        }
+
+        let item = game.items.get(data.id);
+        await this.object.addItem(item.data);
+        console.log("Drop completed");
+        console.log(item.data)
+        return false;
+      }
+    -->
+
     <hr >
 
     <section>
@@ -28,7 +53,7 @@
             {{#each item.data.traits}}
                 <strong><i>{{localize this.key}}:</i></strong>
                 <div>
-                    {{localize this.value}}
+                    {{{localize this.value}}}
                     {{#if this.options}}
                         <ul>
                             {{#each this.options}}
@@ -84,27 +109,29 @@
             {{#each item.data.subraces}}
                 <hr class="full">
                 <br>
-                <div class="imageRow">
-                    <img src="{{this.img}}"/>
-                    <div class="imgContent">
-                        <h3>{{localize this.name}}</h3>
-                        <i>“{{localize this.quote}}”</i>
-                    </div>
-                </div>
                 <div class="artwork">
                     <img src="{{this.artwork.src}}"/>
-                    <a href="{{this.artwork.url}}" target="_blank">&copy;{{this.artwork.credit}}</a>
+                    <a href="{{this.artwork.url}}" target="_blank">&copy; {{this.artwork.credit}}</a>
                 </div>
-                {{localize this.description}}<br>
-                <hr>
+                <div class="raceDescription">
+                    <h3>{{localize this.name}}</h3>
+                    <i>“{{localize this.quote}}”</i>
+                    <br>
+                    <br>
+                    <p>
+                    {{localize this.description}}
+                    </p>
+                    <br>
+                    <p>
+                    {{#if this.affiliation}}
+                        <strong><i>{{localize "WC5E.RaceSheet.Affiliation"}}:</i></strong> {{localize this.affiliation}}
+                        <hr>
+                    {{/if}}
+                    </p>
+                </div>
                 <div class="raceGrid">
                     {{#if this.abilityMod}}
                         <strong><i>{{localize "WC5E.RaceSheet.AbilityScoreIncrease"}}:</i></strong> {{localize this.abilityMod}}
-                        <hr>
-                    {{/if}}
-
-                    {{#if this.affiliation}}
-                        <strong><i>{{localize "WC5E.RaceSheet.Affiliation"}}:</i></strong> {{localize this.affiliation}}
                         <hr>
                     {{/if}}
 
@@ -113,11 +140,11 @@
                         {{#each this.traits}}
                             <strong><i>{{localize this.key}}:</i></strong>
                             <div>
-                                {{localize this.value}}
+                                {{{localize this.value}}}
                                 {{#if this.options}}
                                     <ul>
                                         {{#each this.options}}
-                                            <li>{{localize this}}</li>
+                                            <li>{{{localize this}}}</li>
                                         {{/each}}
                                     </ul>
                                 {{/if}}

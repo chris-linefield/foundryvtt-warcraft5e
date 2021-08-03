@@ -1,0 +1,53 @@
+{
+  "name": "warcraft5e",
+  "title": "Warcraft RPG - 5e",
+  "description": "Conversion of the official Warcraft Role Playing Game: https://drive.google.com/drive/folders/0B1FoMHLY1oOtLUlNdTZXYzVNY0k.",
+  "author": "ArthegaAsdweri",
+  "version": "0.0.1",
+  "esmodules": [
+    "scripts/warcraft5e.js"
+  ],
+  "styles": [
+    "styles/warcraft5e.css"
+  ],
+  "dependencies": [
+    {
+      "name": "dnd5e",
+      "type": "system"
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "de",
+      "name": "Deutsch",
+      "path": "lang/de.json"
+    }
+  ],
+  "packs": [
+    {
+      "name": "classes",
+      "label": "Classes",
+      "path": "./packs/classes.db",
+      "private": false,
+      "entity": "Item",
+      "system": "dnd5e"
+    },
+  	{
+      "label": "Races",
+      "entity": "Item",
+      "name": "races",
+      "path": "./packs/races.db",
+      "system": "dnd5e",
+      "package": "warcraft5e"
+    }
+  ],
+  "minimumCoreVersion": "0.8.2",
+  "url": "https://github.com/ArthegaAsdweri/foundryvtt-warcraft5e",
+  "manifest": "https://github.com/ArthegaAsdweri/foundryvtt-warcraft5e/raw/master/system.json",
+  "download": "https://github.com/ArthegaAsdweri/foundryvtt-warcraft5e/archive/master.zip"
+}

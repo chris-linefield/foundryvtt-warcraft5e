@@ -8,8 +8,15 @@
             "Eredun" : "Eredun"
         },
 
-        "CharacterSheet" : {
-            "HitPoints" : "Hit Points"
+        "Character" : {
+            "Strength" : "Strength",
+            "Agility" : "Agility",
+            "Stamina" : "Stamina",
+            "Intelligence" : "Intelligence",
+            "Spirit" : "Spirit",
+            "Charisma" : "Charisma",
+            "HitPoints" : "Hit Points",
+            "Level" : "Level"
         },
 
         "Class" : {
@@ -69,6 +76,7 @@
 
         "Race" : {
             "Draenei" : {
+                "Name" : "Draenei",
                 "Description" : "The draenei are a powerfully-build alien race that originates from Argus. They are powerfully magically-attuned, and have the potential for exceptional good or evil. Draenei who succumb to fel magic form the ranks of the Eredar, the greatest generals of the Burning Legion, while draenei who serve the Holy Light are immortal crusaders for justice across the cosmos.",
                 "AbilityScoreIncrease" : "Your Spirit or Intelligence increases by 1.",
                 "Age" : "A typical draenei claims adulthood around 100 years old, and can live to about ten thousand years old.",
@@ -134,6 +142,7 @@
                 }
             },
             "Elf" : {
+                "Name" : "Elf",
                 "Description" : "An elf is a member of one of the longest lived species on Azeroth known for keen perception, grace, and great spellwork. Elves were once believed to be the first race to awaken on Azeroth.",
                 "AbilityScoreIncrease" : "Your Agility score increases by 2.",
                 "Age" : "Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. A high elf typically claims adulthood around the age of 60 and can live to be 750 years old. A night elf claims adulthood and live up to five times said age (adulthood at 300 and live up to 3,750 years old). Until the World Tree was destroyed, the Night Elves were immune to aging effects.",
@@ -145,7 +154,7 @@
                 "Subrace" : "Ancient divides and use of mana siphoning (or mana vampirism) among the elven people resulted in several main sub-races: high elves (and the blood and void elves), and night elves (and the Nightborne).",
                 "Subraces" : {
                     "HighElf" : {
-                        "Name" : "High Elf (Quel’dorei)",
+                        "Name" : "High Elf (Quel'dorei)",
                         "Quote" : "For Quel‟Thalas!",
                         "Description" : "As a high elf, you hail from Silvermoon in Quel‘Thalas or Dalaran. High elves stand slightly taller than humans do. The elves are slim, with sharp symmetrical features, often an exaggeration of perfect beauty. The high elves are uniformly fair in complexion, with white to flaxen colored hair. Their eyes are incredibly intense in color, seeming to glow with an inner light. While many high elves have blue or green eyes, violet and red are not unheard of.",
                         "AbilityScoreIncrease" : "Your Intelligence score increases by 1.",
@@ -153,19 +162,121 @@
                         "FamilyNames" : "Boughstrider, Dawnblade, Lightbringer, Morningray, Suntreader"
                     },
                     "BloodElf" : {
-                        "Name" : "Blood Elf (Sin’dorei)",
+                        "Name" : "Blood Elf (Sin'dorei)",
                         "Quote" : "Power! My people are addicted to it... a dependence made manifest after the Sunwell was destroyed. - Kael'Thas Sunstrider",
                         "Description" : "Following the Third War, 90% of the High Elven population was slain during the Siege of Silvermoon and the Razing of Quel‘Thalas. Prince Kael‘Thas Sunstrider renamed his people the Blood Elves (Sin‘dorei) following this terrible event. With their homeland destroyed, their forests burned and corrupted, and their beloved sacred Sunwell sullied, the Blood Elves underwent mana withdrawal. Blood Elves are identical to High Elves in racial bonuses and names. However, their culture is more warped due to their insatiable thirst for vengeance: most have abandoned worship of the Light, and their allegiances have also changed, and most suffer psychologically from extensive use of mana siphoning, due to the Sunwell‘s corruption and subsequent destruction. A DM should consider applying the mana withdrawal optional rule with Blood Elves.",
                         "Affiliation" : "Horde or independent. Most of the blood elves have joined the New Horde, invited to do so by the Banshee Queen Sylvanas Windrunner."
+                    },
+                    "NightElf" : {
+                        "Name" : "Night Elf (Kal'dorei)",
+                        "Quote" : "The horn has sounded, and I have come as promised. I smell the stench of decay and corruption in our land. That angers me greatly. - Malfurion Stormrage",
+                        "Description" : "As a night elf, you hail from Darnassus in Kalimdor. The race‘s prominent eyebrows, long pointed ears and natural aspects imply a feral grace. Skin tones range from pale white to blue or even ruddy red, and their hair ranges in color from bright white to woodland green to lustrous black.",
+                        "AbilityScoreIncrease" : "Your Spirit score increases by 1.",
+                        "Affiliation" : "Alliance or independent. The night elves are members of the Alliance, but they are not the most trusted or highly regarded members of this group of races. Although honorable and just, the night elves‘ natural distrust has tainted their relations somewhat. Combined with their mystical appearances and mysterious natures, interactions with other races become uncomfortable at times. There is a strong streak of isolationism in the Kaldorei, for they are uncomfortable leaving the verdant mists of Teldrassil.",
+                        "FamilyNames" : "Moonblade, Glaivestorm, Proudstrider, Oakwalker, Nightwing, Staghorn"
+                    },
+                    "Nightborne" : {
+                        "Name" : "Nightborne (Shal'dorei)",
+                        "Quote" : "My people face a similar dilemma. I peered into all possible futures in search for an answer... and found only one - Malfurion Stormrage - Elisande, Grand Magistrix of the Nightborne",
+                        "Description" : "As a Nightborne, you hail from the ancient city of Suramar, and have spent your life sheltered by the power of the Nightwell (a simulacrum of the Well of Eternity), and the dome of arcane power weaved by Elisande, the Grand Magistrix. The nightborne look similar to night elves, but their overall appearance is darker. Their skin does not have the brighter skin tones of purple and pink that night elves do, instead having more pale skin with dark blue-purplish tones. A Shal'dorei's hair is also far less colorful than the Kal'dorei's, having only white, gray, black, or very pale-blue hair colors. Glowing tattoos seem common among nightborne, though whether these are cosmetic or a result of the Nightwell's energy is unknown. Their eyes glow a light blue.",
+                        "AbilityScoreIncrease" : "Your Intelligence score increases by 1.",
+                        "Affiliation" : "Horde or Independent. When the dome began unweaving after the Battle of Nighthold during the third Burning Legion invasion of Azeroth, the leaders of the Nightborne elected to let it fade, subjecting the Nightborne to the same withdrawal the High Elves face, rather than face the alternative. Electing to join the Horde, the Nightborne found new and steadfast allies in the Blood Elves when they re-appeared in the world of Azeroth. Nightborne that are more independentminded also roam the world, searching for ways to satiate their thirst for magic before it becomes an obsession like the Blood Elves"
+                    },
+                    "VoidElf" : {
+                        "Name" : "TODO",
+                        "Quote" : "TODO",
+                        "Description" : "TODO",
+                        "AbilityScoreIncrease" : "TODO",
+                        "Affiliation" : "TODO"
                     }
                 }
+            }
+        },
+
+        "Rules" : {
+            "Mechanics" : {
+                "AbilityScoreSummary" : {
+                    "Label" : "Ability Score Summary",
+                    "Blocks" : {
+                        "1" : {
+                            "Content" : "Measures: Natural athleticism, bodily power<br>Important for: Death Knight, Paladin, and Warrior"
+                        },
+                        "2" : {
+                            "Content" : "Measures: Physical agility, reflexes, balance, poise<br>Important for: Hunter, Monk, Rogue"
+                        },
+                        "3" : {
+                            "Content" : "Measures: Health, constitution, vital force<br>Important for: Everyone"
+                        },
+                        "4" : {
+                            "Content" : "Measures: Mental acuity, information recall, analytical skill<br>Important for: Alchemist, Mage, Tinker"
+                        },
+                        "5" : {
+                            "Content" : "Measures: Awareness, intuition, wisdom<br>Important for: Druid, Priest, Shaman"
+                        },
+                        "6" : {
+                            "Content" : "Measures: Confidence, eloquence, leadership<br>Important for: Warlock"
+                        }
+                    }
+                },
+                "DeterminingAbilityScores" : {
+                    "Label" : "Determining Ability Scores",
+                    "Blocks" : {
+                        "1" : {
+                            "Label" : "Focus and Foible",
+                            "Content" : "This method leads to more focused characters with clearer weaknesses. Before applying modifiers, choose a one focus (an ability score you‘re good at) and one foible (an ability score you‘re bad at).<br><i>Focus</i>. Mark this attribute as 18<br><i>Foible</i>. Mark this attribute as 8<br><br>Set your remaining attributes at 10, and distribute 16 points among the ability scores in any way you desire. You may reduce an existing attribute by up to 2 points to gain 2 points to add to another attribute."
+                        },
+                        "2" : {
+                            "Label" : "Heroic Roll",
+                            "Content" : "This method leads to generally stronger characters than by normal rolling. For each ability score, roll 2d6 + 6."
+                        }
+                    }
+                },
+                "Beyond1stLevel" : {
+                    "Label" : "Beyond 1st Level",
+                    "Content" : "<p>The rules in the World of Warcraft 5e RPG also include crafting sub-systems and classes (such as the Alchemist and Tinker), and various options (such as the <a class=\"entity-link inline\" data-pack=\"warcraft5e.feats\" data-id=\"enBseIfaasp0D7xv\">Infusionist</a> feat) that can translate wealth into character power. When creating a character from above 1st level, refer to the following guidelines for expected wealth for level to give a general idea how to keep characters on the same general level of wealth. Refer to the Item Creation Complexity and Cost Table on Chapter 7 to calculate item rarity. Note that crafting an item costs onehalf the cost of buying it.</p><p>The amount of wealth carried by a character can vary significantly depending on starting resources, unexpected loot gained in the campaign, whether or not characters have downtime to gather additional wealth, inherited gold, or even  ossessing companies and strongholds under their control.</p>",
+                    "Blocks" : {
+                        "1" : {
+                            "Label" : "Magical Item Budget",
+                            "Content" : "A DM may refer to the above chart to determine the total worth of magic items the characters have, without actually explicit magic items to be sold. In this case, the wealth is not the expected wealth of the character, but the cost of the magic items the player should have by the appropriate level. This can come in the form of quest gifts, a normal item improving into a magical one, or a permanent blessing or infusion upon a held item. The expected cost of magic items relative to rarity is present in Chapter 7."
+                        },
+                        "2" : {
+                            "Label" : "Expected Downtime",
+                            "Content" : "In case of crafting classes (Alchemist and Tinker), or in cases where characters can create magical items (taking the Infusionist feat), a good amount of downtime to allow the classes to function at a competitive rate is usually 5 days to 1 week between adventures (or the same time for every 3-5 combat encounters). That way, very complex projects (2 weeks) like building a mecha or vehicle can be done every two adventures. With such options available, players benefit more from wealth and time to build the exact items they need, from scrolls, potions, explosives, and more spells in a mage's spellbook, to advanced constructs and vehicles such as gyrocopters, so exercising judgment is key."
+                        }
+                    },
+                    "TypicalWealth" : "Typical Wealth"
+                },
+                "Advantage" : {
+                    "Label" : "Advantages and Disadvantages",
+                    "Content" : "<p>Sometimes a special ability or spell tells you that you have advantage or disadvantage on an ability check, a saving throw, or an attack roll. When that happens, you roll a second d20 when you make the roll. Use the higher of the two rolls if you have advantage, and use the lower roll if you have disadvantage. For example, if you have disadvantage and roll a 17 and a 5, you use the 5. If you instead have advantage and roll those numbers, you use the 17.</p><p>If multiple situations affect a roll and each one grants advantage or imposes disadvantage on it, you don't roll more than one additional d20. If two favorable situations grant advantage, for example, you still roll only one additional d20.</p><p>If circumstances cause a roll to have both advantage and disadvantage, you are considered to have neither of them, and you roll one d20. This is true even if multiple circumstances impose disadvantage and only one grants advantage or vice versa. In such a situation, you have neither advantage nor disadvantage.</p><p>When you have advantage or disadvantage and something in the game, such as the halfling's Lucky trait, lets you reroll the d20, you can reroll only one of the dice. You choose which one. For example, if a halfling has advantage or disadvantage on an ability check and rolls a 1 and a 13, the halfling could use the Lucky trait to reroll the 1.</p><p>You usually gain advantage or disadvantage through the use of special abilities, actions, or spells. Inspiration can also give a character advantage. The GM can also decide that circumstances influence a roll in one direction or the other and grant advantage or impose disadvantage as a result.</p>"
+                },
+                "Resistance" : {
+                    "Label" : "Damage Resistance and Vulnerability",
+                    "Content" : "<p>Some creatures and objects are exceedingly difficult or unusually easy to hurt with certain types of damage.</p><p>If a creature or an object has resistance to a damage type, damage of that type is halved against it. If a creature or an object has vulnerability to a damage type, damage of that type is doubled against it.</p><p>Resistance and then vulnerability are applied after all other modifiers to damage. For example, a creature has resistance to bludgeoning damage and is hit by an attack that deals 25 bludgeoning damage. The creature is also within a magical aura that reduces all damage by 5. The 25 damage is first reduced by 5 and then halved, so the creature takes 10 damage.</p><p>Multiple instances of resistance or vulnerability that affect the same damage type count as only one instance. For example, if a creature has resistance to fire damage as well as resistance to all nonmagical damage, the damage of a nonmagical fire is reduced by half against the creature, not reduced by three-quarters.</p>"
+                }
+            }
+        },
+
+        "Feats" : {
+            "Infusionist" : {
+                "Label" : "Infusionist",
+                "Description" : "You gain proficiency with the infusion skill and can make infused items."
             }
         },
 
         "Traits" : {
             "Adapter" : {
                 "Label" : "Adapter",
-                "Description" : "You may always act when surprised at a combat encounter (even if you failed your Perception check to notice it). You also have advantage versus weather effects."
+                "Description" : "You may always act when surprised at a combat encounter (even if you failed your Perception check to notice it). You also have <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"K4kXNTd9rJoZAHu5\">advantage</a> versus weather effects."
+            },
+            "ArcaneAffinity" : {
+                "Label" : "Arcane Affinity",
+                "Description" : "You have increased affinity with arcane magic. You can choose one of the following two features:",
+                "Options" : {
+                    "1" : "<i>Augment Weave</i>. You deal one additional point of arcane damage for each damage dice with your arcane spells. This applies once per spell. You may apply this to spells that do not deal arcane damage, but only once per short or long rest",
+                    "2" : "<i>Arcane Strike</i>. You can enhance your attacks with a blast of arcane damage. As a [strike] effect, you can add 1d6 points of arcane damage to your melee or ranged weapon attacks. For every four character levels you gain, you gain an additional dice of damage. You may choose to spend them all at once or one for each attack. You regain all spent dice at the end of a short rest",
+                    "3" : "<i>Energy Blast</i>. You can release a blast of arcane force as if you possessed the Mystic Blast feat (arcane damage only). You may use this blast number of times equal to your Intelligence modifier before replenishing at a long rest. This deals a number of d4 dice equal to onequarter your level (minimum 1d4)."
+                }
             },
             "ArcaneLegacy" : {
                 "Label" : "Arcane Legacy",
@@ -176,13 +287,17 @@
                     "3" : "You gain the Suffused Arrows talent. You may only take this if your first level is a hunter."
                 }
             },
+            "BlessingOfTheNightwell" : {
+                "Label" : "Blessing of the Nightwell",
+                "Description" : "You have resistance to arcane damage."
+            },
             "BloodMagic" : {
                 "Label" : "Blood Magic",
                 "Description" : "This acts as High Magic. While you use abilities granted by this ability, your eyes glow a pale fel green instead of High Elves‘ blue. Instead of the prestidigitation cantrip, you may choose the thaumaturgy cantrip instead, and may cast the mana burn spell instead of mute."
             },
             "Bravery" : {
                 "Label" : "Bravery",
-                "Description" : "You have advantage to all saves against fear."
+                "Description" : "You have <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"K4kXNTd9rJoZAHu5\">advantage</a> to all saves against fear."
             },
             "BronzebeardCombatTraining" : {
                 "Label" : "Dwarven Combat Training",
@@ -214,11 +329,11 @@
             },
             "FelResistance" : {
                 "Label" : "Fel Resistance",
-                "Description" : "You have resistance to fel damage."
+                "Description" : "You have <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"FuRFBklCArGIhci8\">resistance</a> to fel damage."
             },
             "FireLordsFavor" : {
                 "Label" : "Fire Lord's Favor",
-                "Description" : "You have resistance to fire damage."
+                "Description" : "You have <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"FuRFBklCArGIhci8\">resistance</a> to fire damage."
             },
             "Gemcutting" : {
                 "Label" : "Gemcutting",
@@ -240,6 +355,10 @@
                 "Label" : "Keen Senses",
                 "Description" : "You are proficient with the Perception skill."
             },
+            "MaskOfTheWild" : {
+                "Label" : "Mask of the Wild",
+                "Description" : "You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
+            },
             "MountainBorn" : {
                 "Label" : "Mountain Born",
                 "Description" : "You're acclimated to high altitude, including elevations above 20,000 feet. You're also naturally adapted to cold weather in the wilderness or while exploring."
@@ -256,9 +375,21 @@
                 "Label" : "Natural Handler",
                 "Description" : "You have proficiency with Animal Handling. If handling beasts that naturally live in mountains such as gryphons or mountain lions, you gain Expertise instead."
             },
+            "NatureResistance" : {
+                "Label" : "Nature Resistance",
+                "Description" : "You have <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"K4kXNTd9rJoZAHu5\">advantage</a> on saving throws against poisons, and have <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"FuRFBklCArGIhci8\">resistance</a> against lightning and poison damage."
+            },
+            "NightfallenMagic" : {
+                "Label" : "Nightfallen Magic",
+                "Description" : "You know the mage hand cantrip and can cast it normally (caster level equal to your character level). When you reach 3rd level, you can also cast detect magic as a 1st level spell. When you reach 5th level, you can also cast the arcane explosion spell as a 2nd level spell. Intelligence is your spellcasting ability for these spells, and you use your mana pool for these abilities (even if you are not normally a spellcaster). While you use such abilities (and after using them for one hour), your eyes glow a light blue. If you can already cast such spells (and have a sufficiently high caster level), they are always prepared for free."
+            },
             "Resilience" : {
                 "Label" : "Resilience",
-                "Description" : "You have advantage against poisons and resistance to poison damage."
+                "Description" : "You have <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"K4kXNTd9rJoZAHu5\">advantage</a> against poisons and <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"FuRFBklCArGIhci8\">resistance</a> to poison damage."
+            },
+            "Shadowmeld" : {
+                "Label" : "Shadowmeld",
+                "Description" : "When you are in dim or dark light, you gain <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"K4kXNTd9rJoZAHu5\">advantage</a> on Agility (Stealth) checks."
             },
             "Stalker" : {
                 "Label" : "Stalker",
@@ -311,6 +442,10 @@
             "DetectMagic" : {
                 "Label" : "Detect Magic",
                 "Description" : "For the duration, you sense the presence of magic within 30 feet of you. If you sense magic in this way, you can use your action to see a faint aura around any visible creature or object in the area that bears magic, and you learn its school of magic, if any. The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt."
+            },
+            "MageHand" : {
+                "Label" : "Mage Hand",
+                "Description" : "A spectral, floating hand appears at a point you choose within range. The hand lasts for the Duration or until you dismiss it as an action. The hand vanishes if it is ever more than 30 feet away from you or if you cast this spell again. You can use your action to control the hand. You can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial. You can move the hand up to 30 feet each time you use it. The hand can't Attack, activate magical items, or carry more than 10 pounds."
             },
             "ManaBurn" : {
                 "Label" : "Mana Burn",
@@ -373,6 +508,9 @@
             "Components" : {
                 "Somatic" : "Somatic",
                 "Verbal" : "Verbal"
+            },
+            "SpellCategories" : {
+                "Strike" : "Strike spells modify a successful attack. See Chapter 9 for more details on strike effects. Strike and shot effects also usually a potential number of attacks equal to double the spell level. For instance, using kill shot as a 2nd level spell enhances 4 ranged attacks. The caster can have multiple potential strikes active, but cannot apply two shot or strike abilities to the same attack unless otherwise specified."
             }
         },
 
@@ -390,11 +528,12 @@
                 "Hour" : "hour",
                 "Instant" : "instant",
                 "Minute" : "minute",
-                "Minutes" : "minutes"
+                "Minutes" : "minutes",
+                "Gp" : "gp"
             },
             "Phrases" : {
-                "Skill" : "Fähigkeit",
-                "Spell" : "Zauber"
+                "Skill" : "skill",
+                "Spell" : "spell"
             },
             "Dialogs" : {
                 "CancelSkill" : "Release",

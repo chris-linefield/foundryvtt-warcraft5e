@@ -1,0 +1,13 @@
+{"_id":"2N1AG8nsF7paOAUx","name":"Alchemist","permission":{"default":0},"type":"class","img":"modules/warcraft5e/res/pics/classes/alchemist.jpg","data":{"name":"WC5E.Class.Alchemist.Name","introduction":"WC5E.Class.Alchemist.Introduction","conclusion":"WC5E.Class.Alchemist.Conclusion","artwork":{"src":"modules/warcraft5e/res/pics/classes/alchemist_artwork.jpg","url":"https://www.deviantart.com/sergey82m/art/Troll-Alchemist-100971975","credit":"deviantart.com/sergey82m"},"blocks":[{"title":"WC5E.Class.Alchemist.Blocks.1.title","content":"WC5E.Class.Alchemist.Blocks.1.content"}]}}
+{"_id":"3BOX98CyZNqC84xq","name":"Paladin","permission":{"default":0},"type":"class","img":"modules/warcraft5e/res/pics/classes/paladin.jpg","data":{}}
+{"_id":"8Fi9cZUldmS3MUOF","name":"Mage","permission":{"default":0},"type":"class","img":"modules/warcraft5e/res/pics/classes/mage.jpg","data":{}}
+{"_id":"BygTVcdZ69FAsuxv","name":"Hunter","permission":{"default":0},"type":"class","img":"modules/warcraft5e/res/pics/classes/hunter.jpg","data":{}}
+{"_id":"F9a6FEK1NX40lPto","name":"Druid","permission":{"default":0},"type":"class","img":"modules/warcraft5e/res/pics/classes/druid.jpg","data":{}}
+{"_id":"O7LbJv4uPgfWA9Zj","name":"Warrior","permission":{"default":0},"type":"class","img":"modules/warcraft5e/res/pics/classes/warrior.jpg","data":{}}
+{"_id":"QkQ8aIsf3UG3GVhJ","name":"Rogue","permission":{"default":0},"type":"class","img":"modules/warcraft5e/res/pics/classes/rogue.jpg","data":{}}
+{"_id":"S7ic2PUqW7ZLXS8n","name":"Tinker","permission":{"default":0},"type":"class","img":"modules/warcraft5e/res/pics/classes/tinker.jpg","data":{}}
+{"_id":"TgXUhywvMXY0OlA0","name":"Shaman","permission":{"default":0},"type":"class","img":"modules/warcraft5e/res/pics/classes/shaman.jpg","data":{}}
+{"_id":"TvU8yWh6FXXRix3p","name":"Priest","permission":{"default":0},"type":"class","img":"modules/warcraft5e/res/pics/classes/priest.jpg","data":{}}
+{"_id":"atE8pXubZs7dB6T9","name":"Death Knight","permission":{"default":0},"type":"class","img":"modules/warcraft5e/res/pics/classes/deathknight.jpg","data":{}}
+{"_id":"yTxH1U5yvXKZswKx","name":"Warlock","permission":{"default":0},"type":"class","img":"modules/warcraft5e/res/pics/classes/warlock.jpg","data":{}}
+{"_id":"ycKWCQihk9W7Z6Xc","name":"Monk","permission":{"default":0},"type":"class","img":"modules/warcraft5e/res/pics/classes/monk.jpg","data":{}}
