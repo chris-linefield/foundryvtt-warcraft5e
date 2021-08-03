@@ -31,17 +31,25 @@
   "packs": [
     {
       "name": "classes",
-      "label": "Classes",
+      "label": "Wc5e | Classes",
       "path": "./packs/classes.db",
-      "private": false,
       "entity": "Item",
-      "system": "dnd5e"
+      "system": "dnd5e",
+      "package": "warcraft5e"
+    },
+    {
+      "name": "class_feats",
+      "label": "Wc5e | Class Features",
+      "path": "./packs/class_feats.db",
+      "entity": "Item",
+      "system": "dnd5e",
+      "package": "warcraft5e"
     },
   	{
-      "label": "Races",
-      "entity": "Item",
       "name": "races",
+      "label": "Wc5e | Races",
       "path": "./packs/races.db",
+      "entity": "Item",
       "system": "dnd5e",
       "package": "warcraft5e"
     }

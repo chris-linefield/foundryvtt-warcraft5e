@@ -3,19 +3,18 @@
 
 import { WcCharacterSheet }     from "../module/actor/character-sheet.js";
 import { WcItemSheet }          from "../module/item/item-sheet.js";
-import { WcRaceSheet }          from "../module/item/race-sheet.js";
-import { WcClassSheet }         from "../module/item/class-sheet.js";
-import { WcSpellSheet }         from "../module/item/spell-sheet.js";
-import { WcSkillSheet }         from "../module/item/skill-sheet.js";
-import { WcRuleSheet }          from "../module/item/rule-sheet.js";
-import { WcFeatSheet }          from "../module/item/feat-sheet.js";
 
 import * as WcSkillHandler      from "../module/skill-handler.js";
 import * as WcMigrationHandler  from "../module/migration-handler.js";
 
+import { }     from "./class_features.js";
+import {DND5E} from "../../../systems/dnd5e/module/config.js";
+
 //---- ON INITIALIZATION
 
 Hooks.once('init', async function() {
+
+    console.log(DND5E);
 
     //---- ACTORS
 
