@@ -1,0 +1,24 @@
+{
+   "_id":"0tVoLOidfrTrY0CJ",
+   "name":"Engineering",
+   "permission":{
+      "default":0
+   },
+   "type":"feat",
+   "data":{
+      "description":{
+         "value":"Starting when you gain your first level in this class, you are a master of engineering in the making.\nYou gain an engineer‘s notebook and can perform marvels with the skill that few can even imagine.\nNotebook\nAt 1st level, your notebook contains four blueprints of your choice that detail the specifications of\nany device you can create. When you level up, you gain 2 additional blueprints of your choice. You\nmay also acquire new blueprints by research, tutelage, or from the notebooks and blueprints of\ntinkers who have devices you can create.",
+         "chat":"",
+         "unidentified":""
+      },
+      "source":"PHB page 125",
+      "requirements":"Tinker 1"
+   },
+   "flags":{
+
+   },
+   "img":"icons/tools/fasteners/bolt-brass-yellow.webp",
+   "effects":[
+
+   ]
+}
