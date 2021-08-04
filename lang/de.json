@@ -54,6 +54,10 @@
             },
             "Warlock" : {
                 "Name" : "Hexer"
+            },
+            "Warrior" : {
+                "Name" : "Krieger",
+                "Introduction": "<p>“The heavily-armored dwarf takes a deep breath, tightening his grip on a war-hammer in one hand and a battleaxe in the other, facing down the ogre warlord raiding his mountain home. The mountain king shouts a battle-cry, suddenly increasing in size to equal the ogre, and swings his axe to dig deeply into the ogre‘s shoulder, before bringing down the war-hammer, causing a bloody shower to erupt onto his face.“</p><p>“An orc armed with a great two-handed blade leaps towards two naga, cleaving through both with a single strike and shaking the ground where he fell. Not breaking a sweat, he charges ahead to the next foe.“</p><p>“A tauren calmly strides across the fel-suffused battlefield, seeking a worthy opponent. Eventually, he\nfinds his match, a bloodthirsty felguard. Treading carefully, he parries every blow with his giant\nbattle-totem. Noticing an opportunity, the tauren warrior slams his hooves into the ground,\nknocking the felguard down, and then bringing down his mighty totem down, caving the fiend‘s\ntorso inward with a furious war-cry.\nWarriors are fighters highly trained in the art of weaponry. Combat is the warrior's strongest skill.\nThey are strong and quick on the battlefield. Depending on their specialization, a warrior can often\ndeal very high damage or be tough to kill.“</p>"
             }
         },
 

@@ -1,0 +1,65 @@
+{
+   "_id":"O7LbJv4uPgfWA9Zj",
+   "name":"Warrior",
+   "type":"class",
+   "img":"modules/warcraft5e/res/pics/classes/warrior.jpg",
+   "data":{
+      "wcType": "class",
+      "name":"WC5E.Class.Warrior.Name",
+      "artwork": {
+         "src": "modules/warcraft5e/res/pics/classes/warrior_artwork.jpg",
+         "url": "https://redskullspage.tumblr.com/post/90692401832",
+         "credit": "redskull"
+      },
+      "description":{
+         "value":"WC5E.Class.Warrior.Introduction",
+         "chat":"",
+         "unidentified":""
+      },
+      "source":"",
+      "levels":1,
+      "subclass":"",
+      "hitDice":"d10",
+      "hitDiceUsed":0,
+      "saves":[
+         "str",
+         "con"
+      ],
+      "skills":{
+         "number":2,
+         "choices":[
+            "acr",
+            "ani",
+            "ath",
+            "his",
+            "ins",
+            "itm",
+            "prc",
+            "sur"
+         ],
+         "value":[
+
+         ]
+      },
+      "spellcasting":{
+         "progression":"none",
+         "ability":""
+      },
+      "damage":{
+         "parts":[
+
+         ]
+      }
+   },
+   "effects":[
+
+   ],
+   "folder":null,
+   "sort":0,
+   "permission":{
+      "default":0
+   },
+   "flags":{
+
+   }
+}
