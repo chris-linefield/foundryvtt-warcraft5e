@@ -11,8 +11,91 @@
          "url": "https://redskullspage.tumblr.com/post/90692401832",
          "credit": "redskull"
       },
+      "introduction": [
+         "WC5E.Class.Warrior.Introduction.1",
+         "WC5E.Class.Warrior.Introduction.2",
+         "WC5E.Class.Warrior.Introduction.3"
+      ],
+      "blocks": [
+         {
+            "title": "WC5E.Class.Warrior.Blocks.1.Title",
+            "content": "WC5E.Class.Warrior.Blocks.1.Content"
+         },
+         {
+            "title": "WC5E.Class.Warrior.Blocks.2.Title",
+            "content": "WC5E.Class.Warrior.Blocks.2.Content"
+         },
+         {
+            "title": "WC5E.Class.Warrior.Blocks.3.Title",
+            "content": "WC5E.Class.Warrior.Blocks.3.Content"
+         }
+      ],
+      "quickBuild": "WC5E.Class.Warrior.QuickBuild",
+      "archetypes": [
+         {
+            "title": "WC5E.Class.Warrior.Archetypes.Arms.Title",
+            "description": "WC5E.Class.Warrior.Archetypes.Arms.Description",
+            "featList": [
+               {
+                  "level": "3",
+                  "feats": [
+                     {
+                        "pack":"warcraft5e.class_feats",
+                        "node":"jZZ3jr0aiZLwdcxv",
+                        "label":"WC5E.Feats.FirstBlood.Label"
+                     },
+                     {
+                        "pack":"warcraft5e.class_feats",
+                        "node":"C5BAim49sUa3Qegt",
+                        "label":"WC5E.Feats.CleavingStrike.Label"
+                     }
+                  ]
+               },
+               {
+                  "level": "7",
+                  "feats": [
+                     {
+                        "pack":"warcraft5e.class_feats",
+                        "node":"pzV0GxhXY8Jq2sWn",
+                        "label":"WC5E.Feats.MasterOfArms.Label"
+                     }
+                  ]
+               },
+               {
+                  "level": "10",
+                  "feats": [
+                     {
+                        "pack":"warcraft5e.class_feats",
+                        "node":"lRbedzZp3cixTZpc",
+                        "label":"WC5E.Feats.MortalStrike.Label"
+                     }
+                  ]
+               },
+               {
+                  "level": "15",
+                  "feats": [
+                     {
+                        "pack":"warcraft5e.class_feats",
+                        "node":"CE1HZQNeawepBtXI",
+                        "label":"WC5E.Feats.DieByTheSword.Label"
+                     }
+                  ]
+               },
+               {
+                  "level": "18",
+                  "feats": [
+                     {
+                        "pack":"warcraft5e.class_feats",
+                        "node":"UhPWa7DK3HBXtwsC",
+                        "label":"WC5E.Feats.Overpower.Label"
+                     }
+                  ]
+               }
+            ]
+         }
+      ],
       "description":{
-         "value":"WC5E.Class.Warrior.Introduction",
+         "value": "WC5E.Class.Warrior.Description",
          "chat":"",
          "unidentified":""
       },
