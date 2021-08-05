@@ -479,7 +479,8 @@
         },
 
         "SkillCategories" : {
-            "General" : "General"
+            "General" : "General",
+            "Strike" : "Strike"
         },
 
         "SpellSheet" : {

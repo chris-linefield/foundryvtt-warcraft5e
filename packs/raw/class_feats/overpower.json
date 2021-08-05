@@ -1,11 +1,13 @@
 {
    "_id":"UhPWa7DK3HBXtwsC",
-   "name":"WC5E.Feats.Overpower.Label",
+   "name":"Overpower",
    "permission":{
       "default":0
    },
    "type":"feat",
    "data":{
+      "wcType": "feat",
+      "wcCategory": "WC5E.SkillCategories.Strike",
       "description":{
          "value":"WC5E.Feats.Overpower.Description",
          "chat":"",

@@ -1,0 +1,49 @@
+﻿{
+	"label": "Wc5e | Klassen",
+	"entries": [
+		{
+			"id": "Death Knight",
+			"name": "Todesritter"
+		},
+		{
+			"id": "Druid",
+			"name": "Druide"
+		},
+		{
+			"id": "Hunter",
+			"name": "Jäger"
+		},
+		{
+			"id": "Mage",
+			"name": "Magier"
+		},
+		{
+			"id": "Monk",
+			"name": "Mönch"
+		},
+		{
+			"id": "Priest",
+			"name": "Priester"
+		},
+		{
+			"id": "Rogue",
+			"name": "Schurke"
+		},
+		{
+			"id": "Shaman",
+			"name": "Schamane"
+		},
+		{
+			"id": "Tinker",
+			"name": "Tüftler"
+		},
+		{
+			"id": "Warlock",
+			"name": "Hexenmeister"
+		},
+		{
+			"id": "Warrior",
+			"name": "Krieger"
+		}
+	]
+}

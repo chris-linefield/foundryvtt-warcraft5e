@@ -1,11 +1,13 @@
 {
    "_id":"jZZ3jr0aiZLwdcxv",
-   "name":"WC5E.Feats.FirstBlood.Label",
+   "name":"First Blood",
    "permission":{
       "default":0
    },
    "type":"feat",
    "data":{
+      "wcType": "feat",
+      "wcCategory": "WC5E.SkillCategories.General",
       "description":{
          "value":"WC5E.Feats.FirstBlood.Description",
          "chat":"",

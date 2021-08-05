@@ -1,11 +1,13 @@
 {
    "_id":"CE1HZQNeawepBtXI",
-   "name":"WC5E.Feats.DieByTheSword.Label",
+   "name":"Die by the Sword",
    "permission":{
       "default":0
    },
    "type":"feat",
    "data":{
+      "wcType": "feat",
+      "wcCategory": "WC5E.SkillCategories.General",
       "description":{
          "value":"WC5E.Feats.DieByTheSword.Description",
          "chat":"",

@@ -1,0 +1,33 @@
+﻿{
+	"label": "Wc5e | Klassen-Merkmale",
+	"entries": [
+		{
+			"id": "Alchemy",
+			"name": "Alchemie"
+		},
+		{
+			"id": "Cleaving Strike",
+			"name": "Spaltender Hieb"
+		},
+		{
+			"id": "Die by the Sword",
+			"name": "Tod durch die Klinge"
+		},
+		{
+			"id": "First Blood",
+			"name": "Erstes Blutvergießen"
+		},
+		{
+			"id": "Master of Arms",
+			"name": "Meister der Waffen"
+		},
+		{
+			"id": "Mortal Strike",
+			"name": "Tödlicher Hieb"
+		},
+		{
+			"id": "Overpower",
+			"name": "Überwältigen"
+		}
+	]
+}

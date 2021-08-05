@@ -5,11 +5,17 @@
    "img":"modules/warcraft5e/res/pics/classes/warrior.jpg",
    "data":{
       "wcType": "class",
-      "name":"WC5E.Class.Warrior.Name",
       "artwork": {
-         "src": "modules/warcraft5e/res/pics/classes/warrior_artwork.jpg",
-         "url": "https://redskullspage.tumblr.com/post/90692401832",
-         "credit": "redskull"
+         "1": {
+            "src": "modules/warcraft5e/res/pics/classes/warrior_artwork.jpg",
+            "url": "https://redskullspage.tumblr.com/post/90692401832",
+            "credit": "redskull"
+         },
+         "2": {
+            "src": "modules/warcraft5e/res/pics/classes/warrior_artwork2.jpg",
+            "url": "https://www.deviantart.com/fanfoxy/art/Naeraa-744584839",
+            "credit": "Fanfoxy"
+         }
       },
       "introduction": [
          "WC5E.Class.Warrior.Introduction.1",
