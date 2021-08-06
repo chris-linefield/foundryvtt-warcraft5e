@@ -78,6 +78,12 @@
                     }
                 },
                 "QuickBuild": "You can make a warrior quickly by following these suggestions. First, make Strength or Agility your highest ability score, depending on whether you want to focus on melee weapons or on archery (or finesse weapons). Your next-highest score should be Stamina. Second, choose the soldier background.",
+                "SpecialFeatures": {
+                    "1": {
+                        "Title": "Unarmored Defense",
+                        "Content": "While you are not wearing any armor, your Armor Class equals 10 + your Agility modifier + your\nStamina modifier. You can use a shield and still gain this benefit."
+                    }
+                },
                 "Archetypes": {
                     "Arms": {
                         "Title": "Arms",

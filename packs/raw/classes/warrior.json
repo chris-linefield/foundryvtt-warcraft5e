@@ -37,6 +37,241 @@
          }
       ],
       "quickBuild": "WC5E.Class.Warrior.QuickBuild",
+      "specialFeatures": [
+         {
+            "title": "WC5E.Class.Warrior.SpecialFeatures.1.Title",
+            "content": "WC5E.Class.Warrior.SpecialFeatures.1.Content"
+         }
+      ],
+      "progression": [
+         {
+            "level": "1",
+            "proficiency": "2",
+            "talent": "1",
+            "feats": [
+               {
+                  "pack":"warcraft5e.class_feats",
+                  "node":"KTeU6RPjSlPkisut",
+                  "label":"WC5E.Feats.FightingStyle.Label"
+               },
+               {
+                  "pack":"warcraft5e.class_feats",
+                  "node":"lFVytL3t8utTKs2r",
+                  "label":"WC5E.Feats.WarriorTalent.Label"
+               }
+            ]
+         },
+         {
+            "level": "2",
+            "proficiency": "2",
+            "talent": "2",
+            "feats": []
+         },
+         {
+            "level": "3",
+            "proficiency": "2",
+            "talent": "2",
+            "feats": [
+               {
+                  "pack":"warcraft5e.class_feats",
+                  "node":"sKw4cffExx8pfW6O",
+                  "label":"WC5E.Feats.WarriorArchetype.Label"
+               }
+            ]
+         },
+         {
+            "level": "4",
+            "proficiency": "2",
+            "talent": "2",
+            "feats": [
+               {
+                  "pack":"warcraft5e.class_feats",
+                  "node":"NSwm5sXXobXorPqC",
+                  "label":"WC5E.Feats.AbilityScoreImprovement.Label"
+               }
+            ]
+         },
+         {
+            "level": "5",
+            "proficiency": "3",
+            "talent": "2",
+            "feats": [
+               {
+                  "pack":"warcraft5e.class_feats",
+                  "node":"nAoxQouvbcuIx2JQ",
+                  "label":"WC5E.Feats.ExtraAttack.Label"
+               }
+            ]
+         },
+         {
+            "level": "6",
+            "proficiency": "3",
+            "talent": "2",
+            "feats": [
+               {
+                  "pack":"warcraft5e.class_feats",
+                  "node":"NSwm5sXXobXorPqC",
+                  "label":"WC5E.Feats.AbilityScoreImprovement.Label"
+               }
+            ]
+         },
+         {
+            "level": "7",
+            "proficiency": "3",
+            "talent": "2",
+            "feats": [
+               {
+                  "pack":"warcraft5e.class_feats",
+                  "node":"sKw4cffExx8pfW6O",
+                  "label":"WC5E.Feats.WarriorArchetype.Label"
+               }
+            ]
+         },
+         {
+            "level": "8",
+            "proficiency": "3",
+            "talent": "2",
+            "feats": [
+               {
+                  "pack":"warcraft5e.class_feats",
+                  "node":"NSwm5sXXobXorPqC",
+                  "label":"WC5E.Feats.AbilityScoreImprovement.Label"
+               }
+            ]
+         },
+         {
+            "level": "9",
+            "proficiency": "4",
+            "talent": "3",
+            "feats": [
+               {
+                  "pack":"warcraft5e.class_feats",
+                  "node":"lFVytL3t8utTKs2r",
+                  "label":"WC5E.Feats.WarriorTalent.Label"
+               }
+            ]
+         },
+         {
+            "level": "10",
+            "proficiency": "4",
+            "talent": "3",
+            "feats": [
+               {
+                  "pack":"warcraft5e.class_feats",
+                  "node":"sKw4cffExx8pfW6O",
+                  "label":"WC5E.Feats.WarriorArchetype.Label"
+               }
+            ]
+         },
+         {
+            "level": "11",
+            "proficiency": "4",
+            "talent": "3",
+            "feats": [
+               {
+                  "pack":"warcraft5e.class_feats",
+                  "node":"nAoxQouvbcuIx2JQ",
+                  "label":"WC5E.Feats.ExtraAttack.Label"
+               }
+            ]
+         },
+         {
+            "level": "12",
+            "proficiency": "4",
+            "talent": "3",
+            "feats": [
+               {
+                  "pack":"warcraft5e.class_feats",
+                  "node":"NSwm5sXXobXorPqC",
+                  "label":"WC5E.Feats.AbilityScoreImprovement.Label"
+               }
+            ]
+         },
+         {
+            "level": "13",
+            "proficiency": "5",
+            "talent": "4",
+            "feats": []
+         },
+         {
+            "level": "14",
+            "proficiency": "5",
+            "talent": "4",
+            "feats": [
+               {
+                  "pack":"warcraft5e.class_feats",
+                  "node":"NSwm5sXXobXorPqC",
+                  "label":"WC5E.Feats.AbilityScoreImprovement.Label"
+               }
+            ]
+         },
+         {
+            "level": "15",
+            "proficiency": "5",
+            "talent": "4",
+            "feats": [
+               {
+                  "pack":"warcraft5e.class_feats",
+                  "node":"sKw4cffExx8pfW6O",
+                  "label":"WC5E.Feats.WarriorArchetype.Label"
+               }
+            ]
+         },
+         {
+            "level": "16",
+            "proficiency": "5",
+            "talent": "4",
+            "feats": [
+               {
+                  "pack":"warcraft5e.class_feats",
+                  "node":"NSwm5sXXobXorPqC",
+                  "label":"WC5E.Feats.AbilityScoreImprovement.Label"
+               }
+            ]
+         },
+         {
+            "level": "17",
+            "proficiency": "6",
+            "talent": "5",
+            "feats": []
+         },
+         {
+            "level": "18",
+            "proficiency": "6",
+            "talent": "5",
+            "feats": [
+               {
+                  "pack":"warcraft5e.class_feats",
+                  "node":"sKw4cffExx8pfW6O",
+                  "label":"WC5E.Feats.WarriorArchetype.Label"
+               }
+            ]
+         },
+         {
+            "level": "19",
+            "proficiency": "6",
+            "talent": "5",
+            "feats": [
+               {
+                  "pack":"warcraft5e.class_feats",
+                  "node":"NSwm5sXXobXorPqC",
+                  "label":"WC5E.Feats.AbilityScoreImprovement.Label"
+               }
+            ]
+         },
+         {
+            "level": "20",
+            "proficiency": "6",
+            "talent": "5",
+            "feats": [
+               {
+                  "pack":"warcraft5e.class_feats",
+                  "node":"nAoxQouvbcuIx2JQ",
+                  "label":"WC5E.Feats.ExtraAttack.Label"
+               }
+            ]
+         }
+      ],
       "archetypes": [
          {
             "title": "WC5E.Class.Warrior.Archetypes.Arms.Title",
@@ -94,6 +329,33 @@
                         "pack":"warcraft5e.class_feats",
                         "node":"UhPWa7DK3HBXtwsC",
                         "label":"WC5E.Feats.Overpower.Label"
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            "title": "WC5E.Class.Warrior.Archetypes.Fury.Title",
+            "description": "WC5E.Class.Warrior.Archetypes.Fury.Description",
+            "featList": [
+               {
+                  "level": "3",
+                  "feats": [
+                     {
+                        "pack":"warcraft5e.class_feats",
+                        "node":"na8IZmJwynNkz1iL",
+                        "label":"WC5E.Feats.StrikeTheWound.Label"
+                     }
+                  ]
+                     },
+               },
+               {
+                  "level": "7",
+                  "feats": [
+                     {
+                        "pack":"warcraft5e.class_feats",
+                        "node":"tOcK4KygovPeQIqG",
+                        "label":"WC5E.Feats.BloodThirst.Label"
                      }
                   ]
                }

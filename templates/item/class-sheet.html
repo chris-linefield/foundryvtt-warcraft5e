@@ -7,6 +7,7 @@
     <nav class="sheet-navigation tabs" data-group="primary">
         <a class="item active" data-tab="lore">Background</a>
         <a class="item" data-tab="details">Details</a>
+        <a class="item" data-tab="progression">Progression</a>
         <a class="item" data-tab="archetypes">Archetypes</a>
     </nav>
 
@@ -40,17 +41,17 @@
                 <img src="{{item.data.artwork.2.src}}">
                 <a href="{{item.data.artwork.2.url}}" target="_blank">&copy;{{item.data.artwork.2.credit}}</a>
             </div>
-            <h2>Class Features</h2>
-            As a warrior, you gain the following class features.
+            <h3>Class Features</h3>
+            <p>As a warrior, you gain the following class features.</p>
             <br>
-            <h4>HIT POINTS</h4>
+            <h4>Hit Points</h4>
             <p>
                 <strong>Hit Dice:</strong> 1d10 per warrior level<br>
                 <strong>Hit Points at 1st Level:</strong> 10 + your Stamina modifier<br>
                 <strong>Hit Points at Higher Levels:</strong> 1d10 (or 6) + your Stamina modifier per warrior level after 1st
             </p>
             <br>
-            <h4>PROFICIENCIES</h4>
+            <h4>Proficiencies</h4>
             <p>
                 <strong>Armor:</strong> All armor, shields<br>
                 <strong>Weapons:</strong> Simple weapons, martial weapons<br>
@@ -59,12 +60,56 @@
                 <strong>Skills:</strong> Choose two skills from Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Perception, and Survival
             </p>
             <br>
-EQUIPMENT
-You start with the following equipment, in addition to the equipment granted by your background:
- (a) chain mail or (b) leather, longbow, and 20 arrows
- (a) a martial weapon and a shield or (b) two martial weapons
- (a) a light crossbow and 20 bolts or (b) two handaxes
- (a) a dungeoneer‘s pack or (b) an explorer‘s pack
+            <h4>Equipment</h4>
+            <p>
+                You start with the following equipment, in addition to the equipment granted by your background:
+                <ul>
+                    <li>(a) chain mail or (b) leather, longbow, and 20 arrows</li>
+                    <li>(a) a martial weapon and a shield or (b) two martial weapons</li>
+                    <li>(a) a light crossbow and 20 bolts or (b) two handaxes</li>
+                    <li>(a) a dungeoneer‘s pack or (b) an explorer‘s pack</li>
+                </ul>
+            </p>
+            <br>
+            {{#if item.data.specialFeatures}}
+                <h3>Special Features</h3>
+                {{#each item.data.specialFeatures}}
+                    <h4>{{localize this.title}}</h4>
+                    <p>{{localize this.content}}</p>
+                {{/each}}
+                <br>
+            {{/if}}
+        </div>
+
+        <div class="tab progression" data-group="primary" data-tab="progression">
+            <h3>Level Progression</h3>
+            <table>
+                <tr>
+                    <th>Level</th>
+                    <th>Proficiency</th>
+                    <th>Talent</th>
+                    <th>Features</th>
+                </tr>
+                {{#each item.data.progression}}
+                    <tr>
+                        <td>{{this.level}}</td>
+                        <td>+{{this.proficiency}}</td>
+                        <td>{{this.talent}}</td>
+                        <td>
+                            {{#if this.feats}}
+                                {{#each this.feats}}
+                                    <a class="entity-link spellLink" data-pack="{{this.pack}}" data-id="{{this.node}}">
+                                        {{localize this.label}}
+                                    </a>
+                                {{/each}}
+                            {{/if}}
+                            {{#else}}
+                                -
+                            {{/else}}
+                        </td>
+                    </tr>
+                {{/each}}
+            </table>
         </div>
 
         <div class="tab details" data-group="primary" data-tab="archetypes">
@@ -82,6 +127,7 @@ You start with the following equipment, in addition to the equipment granted by 
                     {{/each}}
                     <br>
                 {{/each}}
+                <br>
             {{/each}}
         </div>
     </section>
