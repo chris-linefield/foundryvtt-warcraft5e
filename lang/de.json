@@ -54,6 +54,35 @@
             },
             "Warlock" : {
                 "Name" : "Hexer"
+            },
+            "Warrior" : {
+                "Name" : "Krieger",
+                "Introduction": {
+                    "1": "Der schwer gepanzerte Zwerg nimmt einen tiefen Atemzug und festigt den Griff um seinen Kriegshammer in der einen, und der Kriegsaxt in der anderen Hand, als er den Oger dabei beobachtet, wie er seine Bergheimat verwüstet. Der Bergkönig stößt einen Kriegsschrei aus und wächst dabei plötzlich auf die gleiche Größe an wie der Oger. Er schwingt seine Axt und versenkt sie tief in der Schulter des Ogers, bevor er seinen Kriegshammer nieder sausen lässt, wodurch er mit einer warmen Dusche aus frischem Blut benetzt wird.",
+                    "2": "Ein Ork, der mit einer riesigen zweihändigen Klinge bewaffnet ist, stürmt zwei Naga entgegen, die er mit einem einzigen Hieb spaltet. Bei seinem Aufprall erzittert der Boden. Ohne mit der Wimper zu zucken, stürmt er dem nächsten Feind entgegen.",
+                    "3": "Ein Tauren wandert ruhig über das von Fel gezeichnete Schlachtfeld, um einen würdigen Gegner zu finden. Natürlich findet er einen Herausforderer - eine blutrünstige Teufelswache. Mit Bedacht pariert er jeden einzelnen Schlag mit seinem gigantischen Kriegs-Totem. Als sich die Gelegenheit ergibt, stampft der Tauren-Krieger mit seinen gewaltigen Hufen auf den Boden auf und bringt die Teufelswache aus dem Gleichgewicht. Begleitet von einem lauten Kriegsschrei, bringt er den Gegner mit einem gewaltigen Hieb seines Totems zur Strecke und dessen lebloser Leib bleibt in einem kleinen Krater zurück."
+                },
+                "Description": "Krieger sind Kämpfer, die besonders in der Kampfkunst geschult sind. Der Kampf ist die stärkste Fähigkeit des Kriegers. Sie sind schnell und tödlich auf dem Schlachtfeld. Je nach ihrer Spezialisierung können Krieger sehr viel Schaden anrichten oder sehr schwer zu überwinden sein.",
+                "Blocks": {
+                    "1": {
+                        "Title": "Trained for Battle",
+                        "Content": "As long as war is waged on Azeroth, there will be men and women who fight those wars. Warriors are no mere sword-swingers; they are skilled combatants, combining strength of arm, knowledge of weaponry, and practiced maneuvers to slice or bludgeon their foes into little red bits. Warriors are the most versatile of the combat classes, and they supplement their fighting prowess with the ability to rally their allies and spur them to victory. They charge into the heart of the battle and survive the most grievous of wounds. Elven and dwarven warriors reach into their blood for innate magic, creating spellbreakers and mountain kings, respectively, while tauren and orcs lean naturally towards using a single large weapon and the Arms path, creating chieftains and blademasters, respectively.<br>Warriors are common in dwarf, forsaken, human, and orc societies, but many other species also fill their ranks with warriors. Masters of swords, spears, and weapons of all kinds, warriors share a common way of life on Azeroth. Using their abilities to deal pain and cause bloodshed, warriors are deadly adversaries and welcome friends in violent times (which seem to be all the time in recent decades). Anyone willing to take up arms to defend their people can be classed as a warrior. A knight is the warrior elite among humans."
+                    },
+                    "2": {
+                        "Title": "Elite Fighters",
+                        "Content": "Not every member of the city watch, village militia, or the queen‘s army is a warrior. Most of these troops are relatively untrained soldiers with only the most basic combat knowledge or drilled for a certain function. Veteran soldiers, military officers, trained bodyguards, dedicated knights, and similar figures are true warriors—it is all about the spirit, in truth.<br>Some warriors feel drawn to use their training as adventurers. The dungeon delving, monster slaying, and other dangerous work common among adventurers is second nature for a warrior, not all that different from the life he or she left behind. Other warriors live a more stable life, serving as elite members in an order or military force, answering assignments and missions that involve armed pacification of resistance or the escort of vulnerable charges."
+                    },
+                    "3": {
+                        "Title": "Creating a Warrior",
+                        "Content": "For as long as war has raged, heroes from every race have aimed to master the art of battle.<br> Warriors combine strength, leadership, and a vast knowledge of arms and armor to wreak havoc in glorious combat. Some protect from the front lines with shields, locking down enemies while allies support the warrior from behind with spell and bow. Others forgo the shield and unleash their rage at the closest threat with a variety of deadly weapons.<br>As you build your warrior, think about your character‘s background: Where did you get your combat training, and what sets you apart from the mundane soldiers around you? You might have enjoyed formal training in a noble‘s army or in a local militia. Perhaps you trained in a war academy, learning strategy, tactics, and military history. Or you might be self—taught—unpolished but well tested.<br>Were you particularly ruthless? Did you get extra help from a mentor, or did your spirit shine brightly enough to warrant the title due to exceptional dedication? What drove you to this training in the first place? Was it a threat to your homeland, a thirst for revenge, or a need to prove yourself? Did you take up the sword as a way to escape the limits of life on a farm, or are you following a proud family tradition? Where did you acquire your weapons and armor? They might have been military issue or family heirlooms, or perhaps you scrimped and saved for years to buy them. Your armaments are now among your most important possessions—the only things that stand between you and death's embrace."
+                    }
+                },
+                "QuickBuild": "You can make a warrior quickly by following these suggestions. First, make Strength or Agility your highest ability score, depending on whether you want to focus on melee weapons or on archery (or finesse weapons). Your next-highest score should be Stamina. Second, choose the soldier background.",
+                "Archetypes": {
+                    "Arms": {
+                        "Description": "You focus on wielding great weapons, breaking enemy lines, inflicting the first wounds in battle, and dealing massive amounts of damage. As they cleave through several creatures at once to soften up their foes for their allies, arms warriors become an inspiring sight on the battlefield, and are masters of their chosen weapons."
+                    }
+                }
             }
         },
 
@@ -252,9 +281,33 @@
         },
 
         "Feats" : {
+            "CleavingStrike": {
+                "Label": "Cleaving Strike",
+                "Description": "When you successfully attack and damage a creature with a melee attack, you spend a bonus action to attack another creature you choose that is within 5 feet away from the first target."
+            },
+            "DieByTheSword" : {
+                "Label" : "Die by the Sword",
+                "Description" : "You are inspired by battlefield glories, and are able to react quickly to attacks. Whenever a target within 5 feet of you makes a successful attack against you, you gain a d6 Counterattack dice. You may spend the dice to make an attack as a reaction at any point out of your turn so long as the target dealt damage to you in the last minute, and may add the counterattack dice result to the total damage. Unlike with normal reactions, you may apply one strike effect to this attack. You can hold up to 3 Counterattack dice. They all fade within one minute if not consumed."
+            },
+            "FirstBlood": {
+                "Label": "FirstBlood",
+                "Description": "You gain a +2 bonus to your attack rolls and can add your Strength modifier to your damage rolls so long as you are targeting a creature that is above half their maximum hit points (or is not Bloodied). This is applied even if you normally add your Agility modifier to damage."
+            },
             "Infusionist" : {
                 "Label" : "Infusionist",
-                "Description" : ""
+                "Description" : "You gain proficiency with the infusion skill and can make infused items."
+            },
+            "MasterOfArms" : {
+                "Label" : "Master of Arms",
+                "Description" : "When you use a strike effect, you can apply it to all your attacks until the start of your turn in the next round, so long as the strike has sufficient uses."
+            },
+            "MortalStrike" : {
+                "Label" : "Mortal Strike",
+                "Description" : "You may severely wound a creature‘s healing capabilities if you successfully apply a mortal strike. If a creature is affected by a Mortal Strike, they must succeed on a Stamina saving throw against a DC equal to 8 + your proficiency bonus + your Strength bonus or take 50% less healing from all sources for one minute. So long as a creature is affected this way, it is always treated as if it is Bloodied for the purposes of your First Blood feature. A creature cannot be affected by this ability more than once in 24 hours."
+            },
+            "Overpower" : {
+                "Label" : "Overpower",
+                "Description" : "You may, after successfully damaging an enemy with a melee attack, regain hit points equal to double your Proficiency bonus. You may instead grant half the benefit to any ally within 30 feet. This is a strike effect that costs a bonus action. The enemy must be a qualifying threat to you for you to use this ability. If the target of this strike was also successfully affected by your Mortal Strike feature, you gain double the normal amount of hit points."
             }
         },
 

@@ -117,6 +117,11 @@
     color:#5081bd;
 }
 
+.warcraft5e .window-content h4 {
+    font-weight:bold;
+    font-size:1.1em;
+}
+
 .warcraft5e .imageRow {
     display:grid;
     grid-template-columns:80px 1fr;

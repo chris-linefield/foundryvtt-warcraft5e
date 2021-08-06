@@ -14,7 +14,14 @@ import {DND5E} from "../../../systems/dnd5e/module/config.js";
 
 Hooks.once('init', async function() {
 
-    console.log(DND5E);
+    if (typeof Babele !== 'undefined') {
+
+		Babele.get().register({
+			module: 'warcraft5e',
+			lang: 'de',
+			dir: 'lang/compendium/de'
+		});
+    }
 
     //---- ACTORS
 

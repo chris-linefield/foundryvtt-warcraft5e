@@ -1,5 +1,19 @@
 <form class="{{cssClass}} flexcol" autocomplete="off">
 
-    FEAT SHEET
+    <header>
+        <div class="imageRow">
+            <img src="{{item.img}}"/>
+            <div class="imgContent">
+                <h1>{{localize item.name}}</h1>
+                <div class="headerSpellGrid">
+                    <span>{{localize "WC5E.SkillSheet.Category"}}: {{localize item.data.wcCategory}}</span>
+                </div>
+            </div>
+        </div>
+    </header>
 
+
+    <section class="skillContent">
+        {{localize item.data.description.value}}
+    </section>
 </form>

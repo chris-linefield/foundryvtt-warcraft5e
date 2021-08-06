@@ -1,26 +1,87 @@
 <form class="{{cssClass}} flexcol" autocomplete="off">
 
-    {{!------ SHEET HEADER ------}}
     <header>
-        <h1>{{localize item.data.name}}</h1>
+        <h1>{{localize item.name}}</h1>
     </header>
 
-    <section>
-        <div class="classIntroduction">
+    <nav class="sheet-navigation tabs" data-group="primary">
+        <a class="item active" data-tab="lore">Background</a>
+        <a class="item" data-tab="details">Details</a>
+        <a class="item" data-tab="archetypes">Archetypes</a>
+    </nav>
+
+    <hr>
+
+    <section class="sheet-body">
+        <div class="classIntroduction tab active" data-group="primary" data-tab="lore">
             <div class="artwork">
-                <img src="{{item.data.artwork.src}}">
-                <a href="{{item.data.artwork.url}}" target="_blank">&copy;{{item.data.artwork.credit}}</a>
+                <img src="{{item.data.artwork.1.src}}">
+                <a href="{{item.data.artwork.1.url}}" target="_blank">&copy;{{item.data.artwork.1.credit}}</a>
             </div>
-            <i>{{{localize item.data.introduction}}}</i>
+            {{#each item.data.introduction}}
+                <p><i>“{{localize this}}“</i></p>
+            {{/each}}
             <br>
             <p>
-                {{localize item.data.conclusion}}
+                {{localize item.data.description.value}}
             </p>
             <br>
-            <br>
             {{#each item.data.blocks}}
-                <h2>{{localize this.title}}</h2>
-                {{{localize this.content}}}
+                <h4>{{localize this.title}}</h4>
+                <p>{{{localize this.content}}}</p>
+                <br>
+            {{/each}}
+            <h4>Quick Build</h4>
+            <p>{{localize item.data.quickBuild}}</p>
+        </div>
+
+        <div class="tab details" data-group="primary" data-tab="details">
+            <div class="artwork">
+                <img src="{{item.data.artwork.2.src}}">
+                <a href="{{item.data.artwork.2.url}}" target="_blank">&copy;{{item.data.artwork.2.credit}}</a>
+            </div>
+            <h2>Class Features</h2>
+            As a warrior, you gain the following class features.
+            <br>
+            <h4>HIT POINTS</h4>
+            <p>
+                <strong>Hit Dice:</strong> 1d10 per warrior level<br>
+                <strong>Hit Points at 1st Level:</strong> 10 + your Stamina modifier<br>
+                <strong>Hit Points at Higher Levels:</strong> 1d10 (or 6) + your Stamina modifier per warrior level after 1st
+            </p>
+            <br>
+            <h4>PROFICIENCIES</h4>
+            <p>
+                <strong>Armor:</strong> All armor, shields<br>
+                <strong>Weapons:</strong> Simple weapons, martial weapons<br>
+                <strong>Tools:</strong> None<br>
+                <strong>Saving Throws:</strong> Strength, Stamina<br>
+                <strong>Skills:</strong> Choose two skills from Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Perception, and Survival
+            </p>
+            <br>
+EQUIPMENT
+You start with the following equipment, in addition to the equipment granted by your background:
+ (a) chain mail or (b) leather, longbow, and 20 arrows
+ (a) a martial weapon and a shield or (b) two martial weapons
+ (a) a light crossbow and 20 bolts or (b) two handaxes
+ (a) a dungeoneer‘s pack or (b) an explorer‘s pack
+        </div>
+
+        <div class="tab details" data-group="primary" data-tab="archetypes">
+            <h2>Archetypes</h2>
+
+            {{#each item.data.archetypes}}
+                <h3>{{localize this.title}}</h3>
+                <p>{{localize this.description}}</p>
+                {{#each this.featList}}
+                    Level {{this.level}}
+                    {{#each this.feats}}
+                        <a class="entity-link spellLink" data-pack="{{this.pack}}" data-id="{{this.node}}">
+                            {{localize this.label}}
+                        </a>
+                    {{/each}}
+                    <br>
+                {{/each}}
             {{/each}}
         </div>
     </section>
