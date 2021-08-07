@@ -37,6 +37,13 @@
          }
       ],
       "quickBuild": "WC5E.Class.Warrior.QuickBuild",
+      "hitPoints1st": "10",
+      "weaponProfs": [
+         "sim", "mar"
+      ],
+      "armorProfs": [
+         "lgt", "med", "hvy", "shl"
+      ],
       "specialFeatures": [
          {
             "title": "WC5E.Class.Warrior.SpecialFeatures.1.Title",
@@ -87,7 +94,7 @@
                {
                   "pack":"warcraft5e.class_feats",
                   "node":"NSwm5sXXobXorPqC",
-                  "label":"WC5E.Feats.AbilityScoreImprovement.Label"
+                  "label":"WC5E.Feats.AbilityScoreImprovementWarrior.Label"
                }
             ]
          },
@@ -99,7 +106,7 @@
                {
                   "pack":"warcraft5e.class_feats",
                   "node":"nAoxQouvbcuIx2JQ",
-                  "label":"WC5E.Feats.ExtraAttack.Label"
+                  "label":"WC5E.Feats.ExtraAttackWarrior.Label"
                }
             ]
          },
@@ -111,7 +118,7 @@
                {
                   "pack":"warcraft5e.class_feats",
                   "node":"NSwm5sXXobXorPqC",
-                  "label":"WC5E.Feats.AbilityScoreImprovement.Label"
+                  "label":"WC5E.Feats.AbilityScoreImprovementWarrior.Label"
                }
             ]
          },
@@ -135,7 +142,7 @@
                {
                   "pack":"warcraft5e.class_feats",
                   "node":"NSwm5sXXobXorPqC",
-                  "label":"WC5E.Feats.AbilityScoreImprovement.Label"
+                  "label":"WC5E.Feats.AbilityScoreImprovementWarrior.Label"
                }
             ]
          },
@@ -171,7 +178,7 @@
                {
                   "pack":"warcraft5e.class_feats",
                   "node":"nAoxQouvbcuIx2JQ",
-                  "label":"WC5E.Feats.ExtraAttack.Label"
+                  "label":"WC5E.Feats.ExtraAttackWarrior.Label"
                }
             ]
          },
@@ -183,7 +190,7 @@
                {
                   "pack":"warcraft5e.class_feats",
                   "node":"NSwm5sXXobXorPqC",
-                  "label":"WC5E.Feats.AbilityScoreImprovement.Label"
+                  "label":"WC5E.Feats.AbilityScoreImprovementWarrior.Label"
                }
             ]
          },
@@ -201,7 +208,7 @@
                {
                   "pack":"warcraft5e.class_feats",
                   "node":"NSwm5sXXobXorPqC",
-                  "label":"WC5E.Feats.AbilityScoreImprovement.Label"
+                  "label":"WC5E.Feats.AbilityScoreImprovementWarrior.Label"
                }
             ]
          },
@@ -225,7 +232,7 @@
                {
                   "pack":"warcraft5e.class_feats",
                   "node":"NSwm5sXXobXorPqC",
-                  "label":"WC5E.Feats.AbilityScoreImprovement.Label"
+                  "label":"WC5E.Feats.AbilityScoreImprovementWarrior.Label"
                }
             ]
          },
@@ -255,7 +262,7 @@
                {
                   "pack":"warcraft5e.class_feats",
                   "node":"NSwm5sXXobXorPqC",
-                  "label":"WC5E.Feats.AbilityScoreImprovement.Label"
+                  "label":"WC5E.Feats.AbilityScoreImprovementWarrior.Label"
                }
             ]
          },
@@ -267,7 +274,7 @@
                {
                   "pack":"warcraft5e.class_feats",
                   "node":"nAoxQouvbcuIx2JQ",
-                  "label":"WC5E.Feats.ExtraAttack.Label"
+                  "label":"WC5E.Feats.ExtraAttackWarrior.Label"
                }
             ]
          }
@@ -347,7 +354,6 @@
                         "label":"WC5E.Feats.StrikeTheWound.Label"
                      }
                   ]
-                     },
                },
                {
                   "level": "7",
@@ -356,6 +362,92 @@
                         "pack":"warcraft5e.class_feats",
                         "node":"tOcK4KygovPeQIqG",
                         "label":"WC5E.Feats.BloodThirst.Label"
+                     }
+                  ]
+               },
+               {
+                  "level": "10",
+                  "feats": [
+                     {
+                        "pack":"warcraft5e.class_feats",
+                        "node":"WV4HWROfS9LE2h9J",
+                        "label":"WC5E.Feats.BattleCommands.Label"
+                     }
+                  ]
+               },
+               {
+                  "level": "15",
+                  "feats": [
+                     {
+                        "pack":"warcraft5e.class_feats",
+                        "node":"3vYZozTLrSTVh0Jg",
+                        "label":"WC5E.Feats.Hellscream.Label"
+                     }
+                  ]
+               },
+               {
+                  "level": "18",
+                  "feats": [
+                     {
+                        "pack":"warcraft5e.class_feats",
+                        "node":"lbdG8tGG6jobDHkx",
+                        "label":"WC5E.Feats.BloodyRibbons.Label"
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            "title": "WC5E.Class.Warrior.Archetypes.Protection.Title",
+            "description": "WC5E.Class.Warrior.Archetypes.Protection.Description",
+            "featList": [
+               {
+                  "level": "3",
+                  "feats": [
+                     {
+                        "pack":"warcraft5e.class_feats",
+                        "node":"s0BmwIiZaHlfijhF",
+                        "label":"WC5E.Feats.BlockAndTackle.Label"
+                     }
+                  ]
+               },
+               {
+                  "level": "7",
+                  "feats": [
+                     {
+                        "pack":"warcraft5e.class_feats",
+                        "node":"B8vZWezYjs9O5uIg",
+                        "label":"WC5E.Feats.SunderingStrike.Label"
+                     }
+                  ]
+               },
+               {
+                  "level": "10",
+                  "feats": [
+                     {
+                        "pack":"warcraft5e.class_feats",
+                        "node":"W3G5UsJoykzHbiXh",
+                        "label":"WC5E.Feats.Vigilance.Label"
+                     }
+                  ]
+               },
+               {
+                  "level": "15",
+                  "feats": [
+                     {
+                        "pack":"warcraft5e.class_feats",
+                        "node":"9Wz8j8i350x4cDtR",
+                        "label":"WC5E.Feats.Vanguard.Label"
+                     }
+                  ]
+               },
+               {
+                  "level": "18",
+                  "feats": [
+                     {
+                        "pack":"warcraft5e.class_feats",
+                        "node":"OPgso8NNMudmIPfU",
+                        "label":"WC5E.Feats.RestoredStrength.Label"
                      }
                   ]
                }

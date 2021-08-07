@@ -1,6 +1,6 @@
 {
-   "_id":"sKw4cffExx8pfW6O",
-   "name":"Warrior Archetype",
+   "_id":"lbdG8tGG6jobDHkx",
+   "name":"Bloody Ribbons",
    "permission":{
       "default":0
    },
@@ -9,11 +9,11 @@
       "wcType": "feat",
       "wcCategory": "WC5E.SkillCategories.General",
       "description":{
-         "value":"WC5E.Feats.WarriorArchetype.Description",
+         "value":"WC5E.Feats.BloodyRibbons.Description",
          "chat":"",
          "unidentified":""
       },
-      "source":"PHB page 145",
+      "source":"PHB page 148",
       "activation":{
          "type":"bonus",
          "cost":1,
@@ -58,7 +58,7 @@
          "value":"",
          "scaling":"spell"
       },
-      "requirements":"Warrior 3",
+      "requirements":"Warrior (Fury) 18",
       "recharge":{
          "value":null,
          "charged":false
@@ -67,7 +67,7 @@
    "flags":{
 
    },
-   "img":"systems/dnd5e/icons/skills/red_25.jpg",
+   "img":"systems/dnd5e/icons/skills/weapon_24.jpg",
    "effects":[
 
    ]

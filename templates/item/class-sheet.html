@@ -46,18 +46,40 @@
             <br>
             <h4>Hit Points</h4>
             <p>
-                <strong>Hit Dice:</strong> 1d10 per warrior level<br>
-                <strong>Hit Points at 1st Level:</strong> 10 + your Stamina modifier<br>
-                <strong>Hit Points at Higher Levels:</strong> 1d10 (or 6) + your Stamina modifier per warrior level after 1st
+                <strong>Hit Dice:</strong> 1{{item.data.hitDice}} per warrior level<br>
+                <strong>Hit Points at 1st Level:</strong> {{item.data.hitPoints1st}} + your Stamina modifier<br>
+                <strong>Hit Points at Higher Levels:</strong> 1{{item.data.hitDice}} (or 6) + your Stamina modifier per warrior level after 1st
             </p>
             <br>
             <h4>Proficiencies</h4>
             <p>
-                <strong>Armor:</strong> All armor, shields<br>
-                <strong>Weapons:</strong> Simple weapons, martial weapons<br>
+                <strong>Armor:</strong>
+                {{#each item.data.armorProfs}}
+                    {{#unless @first}}{{#if @last}} and {{else}},{{/if}}{{/unless}}
+                    {{lookup ../config.armorProficiencies this}}
+                {{/each}}
+                <br>
+                <strong>Weapons:</strong>
+                {{#each item.data.weaponProfs}}
+                    {{#unless @first}}{{#if @last}} and {{else}},{{/if}}{{/unless}}
+                    {{lookup ../config.weaponProficiencies this}}
+                {{/each}}
+                <br>
                 <strong>Tools:</strong> None<br>
-                <strong>Saving Throws:</strong> Strength, Stamina<br>
-                <strong>Skills:</strong> Choose two skills from Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Perception, and Survival
+
+                <strong>Saving Throws:</strong>
+                {{#each item.data.saves}}
+                    {{#unless @first}}{{#if @last}} and {{else}},{{/if}}{{/unless}}
+                    {{lookup ../config.abilities this}}
+                {{/each}}
+                <br>
+
+                <strong>Skills:</strong> Choose {{item.data.skills.number}} skills from
+                {{log config}}
+                {{#each item.data.skills.choices}}
+                    {{#unless @first}}{{#if @last}} and {{else}},{{/if}}{{/unless}}
+                    {{lookup ../config.skills this}}
+                {{/each}}
             </p>
             <br>
             <h4>Equipment</h4>
@@ -82,19 +104,18 @@
         </div>
 
         <div class="tab progression" data-group="primary" data-tab="progression">
-            <h3>Level Progression</h3>
             <table>
                 <tr>
-                    <th>Level</th>
-                    <th>Proficiency</th>
-                    <th>Talent</th>
-                    <th>Features</th>
+                    <th class="numberCol">Level</th>
+                    <th class="numberCol">Proficiency</th>
+                    <th class="numberCol">Talent</th>
+                    <th class="left">Features</th>
                 </tr>
                 {{#each item.data.progression}}
                     <tr>
-                        <td>{{this.level}}</td>
-                        <td>+{{this.proficiency}}</td>
-                        <td>{{this.talent}}</td>
+                        <td class="center">{{this.level}}</td>
+                        <td class="center">+{{this.proficiency}}</td>
+                        <td class="center">{{this.talent}}</td>
                         <td>
                             {{#if this.feats}}
                                 {{#each this.feats}}
@@ -113,20 +134,27 @@
         </div>
 
         <div class="tab details" data-group="primary" data-tab="archetypes">
-            <h2>Archetypes</h2>
-
             {{#each item.data.archetypes}}
                 <h3>{{localize this.title}}</h3>
                 <p>{{localize this.description}}</p>
+                <table>
+                    <tr>
+                        <th class="numberCol">Level</th>
+                        <th class="left">Features</th>
+                    </tr>
                 {{#each this.featList}}
-                    Level {{this.level}}
-                    {{#each this.feats}}
-                        <a class="entity-link spellLink" data-pack="{{this.pack}}" data-id="{{this.node}}">
-                            {{localize this.label}}
-                        </a>
-                    {{/each}}
-                    <br>
+                    <tr>
+                        <td class="center">{{this.level}}</td>
+                        <td>
+                            {{#each this.feats}}
+                                <a class="entity-link spellLink" data-pack="{{this.pack}}" data-id="{{this.node}}">
+                                    {{localize this.label}}
+                                </a>
+                            {{/each}}
+                        </td>
+                    </tr>
                 {{/each}}
+                </table>
                 <br>
             {{/each}}
         </div>

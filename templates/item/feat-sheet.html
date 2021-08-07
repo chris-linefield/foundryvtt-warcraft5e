@@ -12,8 +12,16 @@
         </div>
     </header>
 
-
     <section class="skillContent">
-        {{localize item.data.description.value}}
+        {{{localize item.data.description.value}}}
+        {{#if item.data.description.options}}
+            <ul>
+                {{#each item.data.description.options}}
+                    <li>
+                        {{{localize this}}}
+                    </li>
+                {{/each}}
+            </ul>
+        {{/if}}
     </section>
 </form>

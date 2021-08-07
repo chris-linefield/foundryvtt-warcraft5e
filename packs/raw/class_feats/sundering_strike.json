@@ -1,19 +1,19 @@
 {
-   "_id":"sKw4cffExx8pfW6O",
-   "name":"Warrior Archetype",
+   "_id":"B8vZWezYjs9O5uIg",
+   "name":"Sundering Strike",
    "permission":{
       "default":0
    },
    "type":"feat",
    "data":{
       "wcType": "feat",
-      "wcCategory": "WC5E.SkillCategories.General",
+      "wcCategory": "WC5E.SkillCategories.Strike",
       "description":{
-         "value":"WC5E.Feats.WarriorArchetype.Description",
+         "value":"WC5E.Feats.SunderingStrike.Description",
          "chat":"",
          "unidentified":""
       },
-      "source":"PHB page 145",
+      "source":"PHB page 148",
       "activation":{
          "type":"bonus",
          "cost":1,
@@ -58,7 +58,7 @@
          "value":"",
          "scaling":"spell"
       },
-      "requirements":"Warrior 3",
+      "requirements":"Warrior (Protection) 7",
       "recharge":{
          "value":null,
          "charged":false
@@ -67,7 +67,7 @@
    "flags":{
 
    },
-   "img":"systems/dnd5e/icons/skills/red_25.jpg",
+   "img":"icons/skills/melee/shield-damaged-broken-gold.webp",
    "effects":[
 
    ]
