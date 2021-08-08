@@ -58,6 +58,14 @@
       "entity": "Item",
       "system": "dnd5e",
       "package": "warcraft5e"
+    },
+    {
+      "name": "spells",
+      "label": "Wc5e | Spells",
+      "path": "./packs/spells.db",
+      "entity": "Item",
+      "system": "dnd5e",
+      "package": "warcraft5e"
     }
   ],
   "minimumCoreVersion": "0.8.2",

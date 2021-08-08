@@ -1,70 +1,59 @@
 <form class="{{cssClass}} flexcol" autocomplete="off">
 
-    {{!------ SHEET HEADER ------}}
     <header>
         <div class="imageRow">
             <img src="{{item.img}}"/>
             <div class="imgContent">
-                <h1>{{localize item.data.label}}</h1>
+                <h1>{{localize item.name}}</h1>
                 <div class="headerSpellGrid">
-                    <span>{{localize "WC5E.SpellSheet.School"}}: {{localize item.data.rules.school}}</span>
-                    <span>{{item.data.rules.castTime.value}} {{localize item.data.rules.castTime.unit}}</span>
+                    <span>{{localize "WC5E.SpellSheet.School"}}: {{localize item.data.school}}</span>
+                    <span>{{item.data.activation.cost}} {{localize item.data.activation.type}}</span>
                 </div>
             </div>
         </div>
     </header>
 
     <section class="spellContent">
-
         <div class="spellProps">
-
-            {{#if item.data.rules.range}}
-                <div class="spellProp">
-                    <strong>{{localize "WC5E.SpellSheet.Range"}}</strong>
-                    {{item.data.rules.range.value}} {{localize item.data.rules.range.unit}}
-                </div>
+            {{#if item.data.range}}
+            <div class="spellProp">
+                <strong>{{localize "WC5E.SpellSheet.Range"}}</strong>
+                {{item.data.rules.range.value}} {{localize item.data.range.units}}
+            </div>
             {{/if}}
 
-            {{#if item.data.rules.components}}
-                <div class="spellProp">
-                    <strong>{{localize "WC5E.SpellSheet.Components"}}</strong>
-                    {{#each item.data.rules.components}}
-                        {{localize this}}{{#unless @last}},<br>{{/unless}}
-                    {{/each}}
-                </div>
+            {{#if item.data.components}}
+            <div class="spellProp">
+                <strong>{{localize "WC5E.SpellSheet.Components"}}</strong>
+                {{#if item.data.components.vocal}}
+                V
+                {{/if}}
+            </div>
             {{/if}}
 
-            {{#if item.data.rules.duration}}
-                <div class="spellProp">
-                    <strong>{{localize "WC5E.SpellSheet.Duration"}}</strong> {{item.data.rules.duration.value}} {{localize item.data.rules.duration.unit}}
-                </div>
-            {{/if}}
-
-            {{#if item.data.rules.classes}}
-                <div class="spellProp">
-                    <strong>{{localize "WC5E.SpellSheet.Classes"}}</strong>
-                    {{#each item.data.rules.classes}}
-                        {{localize this}}{{#unless @last}},{{/unless}}
-                    {{/each}}
-                </div>
+            {{#if item.data.duration}}
+            <div class="spellProp">
+                <strong>{{localize "WC5E.SpellSheet.Duration"}}</strong> {{item.data.duration.value}} {{localize item.data.duration.units}}
+            </div>
             {{/if}}
         </div>
         <div class="spellDesc">
-            {{localize item.data.description}}
+            {{localize item.data.description.value}}
 
             {{#if item.data.options}}
-                <ul>
-                    {{#each item.data.options}}
-                        <li>{{localize this}}</li>
-                    {{/each}}
-                </ul>
+            <ul>
+                {{#each item.data.options}}
+                <li>{{localize this}}</li>
+                {{/each}}
+            </ul>
             {{/if}}
             {{#if item.data.heightened}}
-                <p>
-                    <strong>{{localize "WC5E.SpellSheet.Heightened"}}:</strong><br>
-                    {{localize item.data.heightened}}
-                </p>
+            <p>
+                <strong>{{localize "WC5E.SpellSheet.Heightened"}}:</strong><br>
+                {{localize item.data.heightened}}
+            </p>
             {{/if}}
         </div>
     </section>
+
 </form>

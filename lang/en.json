@@ -574,6 +574,11 @@
         },
 
         "Spells": {
+            "AbandonmentAura": {
+                "Label": "Abandonment Aura",
+                "Description": "Destructive energy radiates from you in an aura with a 15-foot radius. Until the spell ends, the aura moves with you, centered on you. Each creature hostile to you that is in the aura takes 1 extra point of damage from all weapon attacks. A creature can negate this effect if they succeed on a Spirit saving throw once within the aura‘s area.<br> This spell is suppressed by the protection from good and evil (and similar abjurations). This is an aura bonus.",
+                "Heightened": "For each spell level above 1st, the extra damage increases by 1 point (up to 5 extra points of damage at spell level 5).<br> Note. This spell suppresses and is suppressed by the devotion aura spell."
+            },
             "DetectMagic": {
                 "Label": "Detect Magic",
                 "Description": "For the duration, you sense the presence of magic within 30 feet of you. If you sense magic in this way, you can use your action to see a faint aura around any visible creature or object in the area that bears magic, and you learn its school of magic, if any. The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt."
