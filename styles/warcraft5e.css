@@ -294,6 +294,22 @@
     clear:both;
 }
 
+.warcraft5e .center {
+    text-align:center;
+}
+
+.warcraft5e .left {
+    text-align:left;
+}
+
+.warcraft5e .numberCol {
+    width:75px;
+}
+
+/**
+
+ */
+
 .warcraft5e a.entity-link.inline {
     cursor:help;
     color:#a62121;

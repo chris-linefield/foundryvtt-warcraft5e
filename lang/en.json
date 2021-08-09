@@ -1,62 +1,62 @@
 {
-    "WC5E" : {
+    "WC5E": {
 
-        "Languages" : {
-            "Common" : "Common",
-            "Dwarven" : "Dwarven",
-            "Elven" : "Elven",
-            "Eredun" : "Eredun"
+        "Languages": {
+            "Common": "Common",
+            "Dwarven": "Dwarven",
+            "Elven": "Elven",
+            "Eredun": "Eredun"
         },
 
-        "Character" : {
-            "Strength" : "Strength",
-            "Agility" : "Agility",
-            "Stamina" : "Stamina",
-            "Intelligence" : "Intelligence",
-            "Spirit" : "Spirit",
-            "Charisma" : "Charisma",
-            "HitPoints" : "Hit Points",
-            "Level" : "Level"
+        "Character": {
+            "Strength": "Strength",
+            "Agility": "Agility",
+            "Stamina": "Stamina",
+            "Intelligence": "Intelligence",
+            "Spirit": "Spirit",
+            "Charisma": "Charisma",
+            "HitPoints": "Hit Points",
+            "Level": "Level"
         },
 
-        "Class" : {
-            "Alchemist" : {
-                "Name" : "Alchemist",
-                "Introduction" : "<p>“A forsaken stalks the ruins of a murloc village, picking eyes and bits of flesh. As a skulking murloc prepares to jump out at her, she casually tosses a potion at its chest without glancing at it, causing the skin to bubble and blacken with a terrible—the last thing it sees are the forsaken‘s fingers reaching forward to take out its light.“</p><p>“A gnome reaches down to his box of Alchemist‘s Supplies, picking a rare herb and some pinches of sea salt, before tossing them into a small battle-beaker warmed by a portable burner. With uncanny calm, he weighs the curative mixture, before delivering it to a dying friend, revivifying her.“</p><p>“Laughing maniacally as he consumes his potion, the troll rushes into the fight, fingertips mutating into razor-sharp claws. As his muscles grow larger, and as his skin hardens, his eyes gleam with the promise of pain.“</p><p>“A goblin mercenary sits on the back of a drugged ogre, tossing explosive potions. Wincing as a human warrior stabs his giant homunculus, he pulls out a potion from his side pouch and jams it down the ogre‘s throat. The crunch of teeth against glass invigorates the ogre, and, with a burp, it tosses its arm forward with great strength, tossing the human away as the alchemist laughs in triumph.“</p>",
-                "Conclusion" : "Whether by careful measuring, self-experimentation, explosive mixtures, or supportive potions, an alchemist utilizes their own mix of magic and science, alchemical science, to support and heal wounds, decimate enemies, manifest unusual effects, or augment themselves to wade into battle. These lightly armored individuals are experts in creating a variety of special effects, from temporary explosives to elixirs that revive the dead.",
-                "Blocks" : {
-                    "1" : {
-                        "title" : "The weight of knowledge",
-                        "content" : "<p>Alchemists' lives may appear mundane, starting as a sage, independent researcher under a mage tower, a plague researcher, or member of a military force‘s supply chain. Other alchemists focus on trade, opening alchemy shops and selling anything from curative mixtures to love potions. Others still have adapted their talents to violence, such as serving in mercenary forces or the military, sapping structural defenses and focusing on combat support. The weight of knowledge and the demand for versatile potions calls for even the most sedentary alchemists to venture out to investigate strange happenings, support their friends, or answer the call to heroism.</p><p>Alchemists are students, researchers, and scientists of the mysterious science of alchemy. To choose to alchemist class is to be more than a dabbler in the art of alchemy—they are utilizers of strange techniques that would empower themselves and their allies, experienced craftspeople who can make potions for fractions of the normal time and cost, and some have even modified their bodies to make full use of their skills. Creating poisons, potions, special explosives, and empowering substances, alchemists are either curiosities, prized members of society, or reclusive, feared experts in unstable weird sciences. Alchemy itself does not fall strictly in one end between science and magic, but is a potent force nonetheless.</p><p>Alchemists support soldiers and adventurers, and could easily take to the field themselves, brewing and concocting potions, poisons, and poultices to support (or create) allies on the field. Some work to support their communities, others attempt to replicate (or surpass) the work of the Scourge's necromancers, and others focus on self-empowering through strange concoctions they imbibe.</p>"
+        "Class": {
+            "Alchemist": {
+                "Name": "Alchemist",
+                "Introduction": "<p>“A forsaken stalks the ruins of a murloc village, picking eyes and bits of flesh. As a skulking murloc prepares to jump out at her, she casually tosses a potion at its chest without glancing at it, causing the skin to bubble and blacken with a terrible—the last thing it sees are the forsaken‘s fingers reaching forward to take out its light.“</p><p>“A gnome reaches down to his box of Alchemist‘s Supplies, picking a rare herb and some pinches of sea salt, before tossing them into a small battle-beaker warmed by a portable burner. With uncanny calm, he weighs the curative mixture, before delivering it to a dying friend, revivifying her.“</p><p>“Laughing maniacally as he consumes his potion, the troll rushes into the fight, fingertips mutating into razor-sharp claws. As his muscles grow larger, and as his skin hardens, his eyes gleam with the promise of pain.“</p><p>“A goblin mercenary sits on the back of a drugged ogre, tossing explosive potions. Wincing as a human warrior stabs his giant homunculus, he pulls out a potion from his side pouch and jams it down the ogre‘s throat. The crunch of teeth against glass invigorates the ogre, and, with a burp, it tosses its arm forward with great strength, tossing the human away as the alchemist laughs in triumph.“</p>",
+                "Conclusion": "Whether by careful measuring, self-experimentation, explosive mixtures, or supportive potions, an alchemist utilizes their own mix of magic and science, alchemical science, to support and heal wounds, decimate enemies, manifest unusual effects, or augment themselves to wade into battle. These lightly armored individuals are experts in creating a variety of special effects, from temporary explosives to elixirs that revive the dead.",
+                "Blocks": {
+                    "1": {
+                        "title": "The weight of knowledge",
+                        "content": "<p>Alchemists' lives may appear mundane, starting as a sage, independent researcher under a mage tower, a plague researcher, or member of a military force‘s supply chain. Other alchemists focus on trade, opening alchemy shops and selling anything from curative mixtures to love potions. Others still have adapted their talents to violence, such as serving in mercenary forces or the military, sapping structural defenses and focusing on combat support. The weight of knowledge and the demand for versatile potions calls for even the most sedentary alchemists to venture out to investigate strange happenings, support their friends, or answer the call to heroism.</p><p>Alchemists are students, researchers, and scientists of the mysterious science of alchemy. To choose to alchemist class is to be more than a dabbler in the art of alchemy—they are utilizers of strange techniques that would empower themselves and their allies, experienced craftspeople who can make potions for fractions of the normal time and cost, and some have even modified their bodies to make full use of their skills. Creating poisons, potions, special explosives, and empowering substances, alchemists are either curiosities, prized members of society, or reclusive, feared experts in unstable weird sciences. Alchemy itself does not fall strictly in one end between science and magic, but is a potent force nonetheless.</p><p>Alchemists support soldiers and adventurers, and could easily take to the field themselves, brewing and concocting potions, poisons, and poultices to support (or create) allies on the field. Some work to support their communities, others attempt to replicate (or surpass) the work of the Scourge's necromancers, and others focus on self-empowering through strange concoctions they imbibe.</p>"
                     }
                 }
             },
-            "DeathKnight" : {
-                "Name" : "Death Knight"
+            "DeathKnight": {
+                "Name": "Death Knight"
             },
-            "Druid" : {
-                "Name" : "Druid"
+            "Druid": {
+                "Name": "Druid"
             },
-            "Hunter" : {
-                "Name" : "Hunter"
+            "Hunter": {
+                "Name": "Hunter"
             },
-            "Mage" : {
-                "Name" : "Mage"
+            "Mage": {
+                "Name": "Mage"
             },
-            "Paladin" : {
-                "Name" : "Paladin"
+            "Paladin": {
+                "Name": "Paladin"
             },
-            "Priest" : {
-                "Name" : "Priest"
+            "Priest": {
+                "Name": "Priest"
             },
-            "Shaman" : {
-                "Name" : "Shaman"
+            "Shaman": {
+                "Name": "Shaman"
             },
-            "Warlock" : {
-                "Name" : "Warlock"
+            "Warlock": {
+                "Name": "Warlock"
             },
-            "Warrior" : {
-                "Name" : "Warrior",
+            "Warrior": {
+                "Name": "Warrior",
                 "Introduction": {
                     "1": "The heavily-armored dwarf takes a deep breath, tightening his grip on a war-hammer in one hand and a battleaxe in the other, facing down the ogre warlord raiding his mountain home. The mountain king shouts a battle-cry, suddenly increasing in size to equal the ogre, and swings his axe to dig deeply into the ogre‘s shoulder, before bringing down the war-hammer, causing a bloody shower to erupt onto his face.",
                     "2": "An orc armed with a great two-handed blade leaps towards two naga, cleaving through both with a single strike and shaking the ground where he fell. Not breaking a sweat, he charges ahead to the next foe.",
@@ -78,521 +78,606 @@
                     }
                 },
                 "QuickBuild": "You can make a warrior quickly by following these suggestions. First, make Strength or Agility your highest ability score, depending on whether you want to focus on melee weapons or on archery (or finesse weapons). Your next-highest score should be Stamina. Second, choose the soldier background.",
+                "SpecialFeatures": {
+                    "1": {
+                        "Title": "Unarmored Defense",
+                        "Content": "While you are not wearing any armor, your Armor Class equals 10 + your Agility modifier + your Stamina modifier. You can use a shield and still gain this benefit."
+                    }
+                },
                 "Archetypes": {
                     "Arms": {
                         "Title": "Arms",
                         "Description": "You focus on wielding great weapons, breaking enemy lines, inflicting the first wounds in battle, and dealing massive amounts of damage. As they cleave through several creatures at once to soften up their foes for their allies, arms warriors become an inspiring sight on the battlefield, and are masters of their chosen weapons."
+                    },
+                    "Fury": {
+                        "Title": "Fury",
+                        "Description": "You equip yourself with two weapons, and slice your enemies to ribbons while shouting vengeance. Fury warriors make good party members, as inspiring shouts aid their allies."
+                    },
+                    "Protection": {
+                        "Title": "Protection",
+                        "Description": "You are the forward vanguard, decking yourself with heavy armors and a reliable shield. Protection warriors deflect and guarding their allies from attacks, and return damage with interest."
                     }
                 }
             }
         },
 
-        "RaceSheet" : {
-            "AbilityScoreIncrease" : "Ability Score Increase",
-            "Age" : "Age",
-            "Traits" : "Traits",
-            "Affiliation" : "Affiliation",
-            "Size" : "Size",
-            "Appearance" : "Appearance",
-            "Speed" : "Speed",
-            "SpeedVal" : "Your base walking speed is ",
-            "Languages" : "Languages",
-            "Subrace" : "Subrace",
-            "SubraceChoice" : "Choose one of these subraces.",
-            "MaleNames" : "Male Names",
-            "FemaleNames" : "Female Names",
-            "FamilyNames" : "Family Names"
+        "RaceSheet": {
+            "AbilityScoreIncrease": "Ability Score Increase",
+            "Age": "Age",
+            "Traits": "Traits",
+            "Affiliation": "Affiliation",
+            "Size": "Size",
+            "Appearance": "Appearance",
+            "Speed": "Speed",
+            "SpeedVal": "Your base walking speed is ",
+            "Languages": "Languages",
+            "Subrace": "Subrace",
+            "SubraceChoice": "Choose one of these subraces.",
+            "MaleNames": "Male Names",
+            "FemaleNames": "Female Names",
+            "FamilyNames": "Family Names"
         },
 
-        "Race" : {
-            "Draenei" : {
-                "Name" : "Draenei",
-                "Description" : "The draenei are a powerfully-build alien race that originates from Argus. They are powerfully magically-attuned, and have the potential for exceptional good or evil. Draenei who succumb to fel magic form the ranks of the Eredar, the greatest generals of the Burning Legion, while draenei who serve the Holy Light are immortal crusaders for justice across the cosmos.",
-                "AbilityScoreIncrease" : "Your Spirit or Intelligence increases by 1.",
-                "Age" : "A typical draenei claims adulthood around 100 years old, and can live to about ten thousand years old.",
-                "Affiliation" : "Each sub-race is inclined to its own affiliations.",
-                "Size" : "Their size is Medium. Males range anywhere from seven feet tall to eight feet tall and weigh on average around 300 or 400 pounds. Females stand at six to seven feet tall and only weigh around 170 or 250 pounds when fully grown.",
-                "Appearance" : "As befitting their Eredar heritage, Draenei have hooved feet, tendrils that grow from the neck and short tails, and their skin color is affected by the magic they naturally absorb (with fel magic reddening them, holy magic rendering their skins blue to violet, and void magic darkening them to brown). Males' skulls are rigid (giving the appearance of a bone plate under their skin), while females grow foot-long, graceful curved horns. Broken draenei look distinctly different from normal Draenei, having flat, noseless faces and having thick, three-fingered hands, and lose their bone-like plates.",
-                "Language" : "The Eredun Draenei speak is an altered dialect that is less corrupt, and thus does not impose penalties when speaking, but is perfectly understandable by fiends.",
-                "FamilyNames" : "Draenei do not have family names, but take a title according to their deeds.",
-                "Subrace" : "Ancient events divide the draenei into two sub-races: unbroken and broken.",
-                "Subraces" : {
-                    "Broken" : {
-                        "Name" : "Broken (Krokul)",
-                        "Quote" : "You will learn our ways...",
-                        "Description" : "The Broken, also known as Krokul in Draenei, are a mutated and devolved subrace of draenei who lived in Outland. They, like most of the orcs, fell prey to the demons' sinister influence and were changed by the corruption. Though they lost some of their former powers, the Broken still present a clear danger to all races through Outland. The largest known faction of Broken in Outland, the Ashtongue Deathsworn, is currently led by Akama. They are supposedly allied with Illidan Stormrage.",
-                        "AbilityScoreIncrease" : "Your Agility increases by 2.",
-                        "Affiliation" : "Independent. Despite the (mostly) accidental regression into broken, many unbroken draenei not only distrust them but despise them. Although understandable of those broken who remain corrupted or in service to the Legion, one would think that the unbroken would be willing to welcome any of their people that survived the orcs' genocide. Most broken are independent as a result, although the Prophet Velen, the leader of the unbroken, does extend a hand to broken to help them find their way back."
+        "Race": {
+            "Draenei": {
+                "Name": "Draenei",
+                "Description": "The draenei are a powerfully-build alien race that originates from Argus. They are powerfully magically-attuned, and have the potential for exceptional good or evil. Draenei who succumb to fel magic form the ranks of the Eredar, the greatest generals of the Burning Legion, while draenei who serve the Holy Light are immortal crusaders for justice across the cosmos.",
+                "AbilityScoreIncrease": "Your Spirit or Intelligence increases by 1.",
+                "Age": "A typical draenei claims adulthood around 100 years old, and can live to about ten thousand years old.",
+                "Affiliation": "Each sub-race is inclined to its own affiliations.",
+                "Size": "Their size is Medium. Males range anywhere from seven feet tall to eight feet tall and weigh on average around 300 or 400 pounds. Females stand at six to seven feet tall and only weigh around 170 or 250 pounds when fully grown.",
+                "Appearance": "As befitting their Eredar heritage, Draenei have hooved feet, tendrils that grow from the neck and short tails, and their skin color is affected by the magic they naturally absorb (with fel magic reddening them, holy magic rendering their skins blue to violet, and void magic darkening them to brown). Males' skulls are rigid (giving the appearance of a bone plate under their skin), while females grow foot-long, graceful curved horns. Broken draenei look distinctly different from normal Draenei, having flat, noseless faces and having thick, three-fingered hands, and lose their bone-like plates.",
+                "Language": "The Eredun Draenei speak is an altered dialect that is less corrupt, and thus does not impose penalties when speaking, but is perfectly understandable by fiends.",
+                "FamilyNames": "Draenei do not have family names, but take a title according to their deeds.",
+                "Subrace": "Ancient events divide the draenei into two sub-races: unbroken and broken.",
+                "Subraces": {
+                    "Broken": {
+                        "Name": "Broken (Krokul)",
+                        "Quote": "You will learn our ways...",
+                        "Description": "The Broken, also known as Krokul in Draenei, are a mutated and devolved subrace of draenei who lived in Outland. They, like most of the orcs, fell prey to the demons' sinister influence and were changed by the corruption. Though they lost some of their former powers, the Broken still present a clear danger to all races through Outland. The largest known faction of Broken in Outland, the Ashtongue Deathsworn, is currently led by Akama. They are supposedly allied with Illidan Stormrage.",
+                        "AbilityScoreIncrease": "Your Agility increases by 2.",
+                        "Affiliation": "Independent. Despite the (mostly) accidental regression into broken, many unbroken draenei not only distrust them but despise them. Although understandable of those broken who remain corrupted or in service to the Legion, one would think that the unbroken would be willing to welcome any of their people that survived the orcs' genocide. Most broken are independent as a result, although the Prophet Velen, the leader of the unbroken, does extend a hand to broken to help them find their way back."
                     },
-                    "Unbroken" : {
-                        "Name" : "Unbroken (True Draenei)",
-                        "Quote" : "The Legion's end draws near.",
-                        "Description" : "As one of the enlightened cousins of the Eredar, the Draenei arrived in Azeroth after the reopening of the Dark Portal. Living out the last centuries in exile and escape from the Burning Legion, the Draenei are steadfast champions of the Light, and will do anything in their power to prevent another world from falling to the Flame.",
-                        "AbilityScoreIncrease" : "Your Strength increases by 2.",
-                        "Affiliation" : "Alliance. Unbroken draenei have found that they have strong bonds with humanity and dwarvenkind due to their shared worship of the Light, and kinship with the now-mortal night elves."
+                    "Unbroken": {
+                        "Name": "Unbroken (True Draenei)",
+                        "Quote": "The Legion's end draws near.",
+                        "Description": "As one of the enlightened cousins of the Eredar, the Draenei arrived in Azeroth after the reopening of the Dark Portal. Living out the last centuries in exile and escape from the Burning Legion, the Draenei are steadfast champions of the Light, and will do anything in their power to prevent another world from falling to the Flame.",
+                        "AbilityScoreIncrease": "Your Strength increases by 2.",
+                        "Affiliation": "Alliance. Unbroken draenei have found that they have strong bonds with humanity and dwarvenkind due to their shared worship of the Light, and kinship with the now-mortal night elves."
                     }
                 }
             },
-            "Dwarf" : {
-                "Name" : "Dwarf",
-                "Description" : "Dwarves are short and stout creatures mostly inhabiting Khaz Modan in the Eastern Kingdoms. They are shorter than humans but taller than gnomes, taking advantage of their size when possible and relying on their robustness and strength when not. The average dwarf is steady, observant and composed.",
-                "AbilityScoreIncrease" : "Your Stamina score increases by 2.",
-                "Age" : "Dwarves mature at the same rate as humans, but they're considered young until they reach the age of 40. On average, they live to be 450 years old.",
-                "Affiliation" : "Each sub-race is inclined to its own affiliations ever since the great War of the Three Hammers.",
-                "Size" : "Dwarves stand between 4 and 5 feet tall and average about 150 pounds. Your size is Medium.",
-                "Appearance" : "Male dwarves tend to have long hair, and beards or facial hair often tied in ornate braids. Female dwarves also have sturdy muscular frames, but they are buxom and lack facial hair, despite the claims of some of the less educated sages of other races.",
-                "SpeedAddition" : "Your speed is not reduced by wearing heavy armor.",
-                "Language" : "Dwarven is full of hard consonants and guttural sounds, and those characteristics spill over into whatever other language a dwarf might speak.",
-                "Subrace" : "Three main subraces of dwarves populate the worlds of Azeroth: Hill dwarves (Wildhammer Clan), Mountain dwarves (Bronzebeard Clan), and Dark dwarves (Dark Iron Clan).",
-                "Subraces" : {
-                    "Bronzebeard" : {
-                        "Name" : "Mountain Dwarf (Bronzebeard)",
-                        "Quote" : "For Khaz Modan!",
-                        "Description" : "As a mountain dwarf, you probably hail from the Bronzebeard clan and its allies, and live in Khaz Modan. Ironforge dwarves are stout and powerful, with short muscular bodies, and prefer tying their hair (male or female) in ornate braids.",
-                        "AbilityScoreIncrease" : "Your Strength score increases by 1.",
-                        "Affiliation" : "Alliance. While the dwarves of Ironforge appreciate the fighting skill of the Horde, it is with grim eyes that they look upon the orcs and their allies, the trolls and the Forsaken. Although the dwarves have held dealings of commerce and diplomacy with the high elves, they keep the people of Quel‘Thalas at an arm‘s distance. While the night elves may share the same allegiances, the dwarves look upon them with suspicion and some trepidation. Humans, however, are the staunch and constant allies of the dwarven people and find welcome, favor and kindness when in dwarven lands.",
-                        "FamilyNames" : "Thunderforge, Bronzebeard, Hammergrim, Thornsteel, Chunderstout"
+            "Dwarf": {
+                "Name": "Dwarf",
+                "Description": "Dwarves are short and stout creatures mostly inhabiting Khaz Modan in the Eastern Kingdoms. They are shorter than humans but taller than gnomes, taking advantage of their size when possible and relying on their robustness and strength when not. The average dwarf is steady, observant and composed.",
+                "AbilityScoreIncrease": "Your Stamina score increases by 2.",
+                "Age": "Dwarves mature at the same rate as humans, but they're considered young until they reach the age of 40. On average, they live to be 450 years old.",
+                "Affiliation": "Each sub-race is inclined to its own affiliations ever since the great War of the Three Hammers.",
+                "Size": "Dwarves stand between 4 and 5 feet tall and average about 150 pounds. Your size is Medium.",
+                "Appearance": "Male dwarves tend to have long hair, and beards or facial hair often tied in ornate braids. Female dwarves also have sturdy muscular frames, but they are buxom and lack facial hair, despite the claims of some of the less educated sages of other races.",
+                "SpeedAddition": "Your speed is not reduced by wearing heavy armor.",
+                "Language": "Dwarven is full of hard consonants and guttural sounds, and those characteristics spill over into whatever other language a dwarf might speak.",
+                "Subrace": "Three main subraces of dwarves populate the worlds of Azeroth: Hill dwarves (Wildhammer Clan), Mountain dwarves (Bronzebeard Clan), and Dark dwarves (Dark Iron Clan).",
+                "Subraces": {
+                    "Bronzebeard": {
+                        "Name": "Mountain Dwarf (Bronzebeard)",
+                        "Quote": "For Khaz Modan!",
+                        "Description": "As a mountain dwarf, you probably hail from the Bronzebeard clan and its allies, and live in Khaz Modan. Ironforge dwarves are stout and powerful, with short muscular bodies, and prefer tying their hair (male or female) in ornate braids.",
+                        "AbilityScoreIncrease": "Your Strength score increases by 1.",
+                        "Affiliation": "Alliance. While the dwarves of Ironforge appreciate the fighting skill of the Horde, it is with grim eyes that they look upon the orcs and their allies, the trolls and the Forsaken. Although the dwarves have held dealings of commerce and diplomacy with the high elves, they keep the people of Quel‘Thalas at an arm‘s distance. While the night elves may share the same allegiances, the dwarves look upon them with suspicion and some trepidation. Humans, however, are the staunch and constant allies of the dwarven people and find welcome, favor and kindness when in dwarven lands.",
+                        "FamilyNames": "Thunderforge, Bronzebeard, Hammergrim, Thornsteel, Chunderstout"
                     },
-                    "DarkIron" : {
-                        "Name" : "Darklands Dwarf (Dark Iron)",
-                        "Quote" : "You shall serve.",
-                        "Description" : "As a darklands dwarf, you probably hail from the Dark Iron clans, lead by the Sorcerer-thane Thaurissan. Reviled as betrayers of their fellow dwarves, and living in the mountain-halls of Blackrock Mountain, Dark Iron dwarves are slaves to the great elemental Firelord Ragnaros, and serve him in the latent volcanic mountain. Dark Irons seem identical to Ironforge dwarves, except that their skin tones are ashen and gray, and their eyes are golden-red. Dark Irons who adventure can often reach into the power in their bloodline and spontaneously conjure flames. Hoarse of voice and prone to undertone muttering, Dark Irons do not inspire trust easily.",
-                        "AbilityScoreIncrease" : "Your Intelligence score increases by 1.",
-                        "Affiliation" : "Alliance or Independent. Hatred comes to Dark Iron dwarves against all races, and in their service to Ragnaros, they see only rivals, thralls, and enemies. Some dark irons have found kinship with their cousins the Wildhammers and the Bronzebeards, and chose to join the Alliance.",
-                        "FamilyNames" : "Angerforge, Darkbargainer, Firesmite, Forgewright"
+                    "DarkIron": {
+                        "Name": "Darklands Dwarf (Dark Iron)",
+                        "Quote": "You shall serve.",
+                        "Description": "As a darklands dwarf, you probably hail from the Dark Iron clans, lead by the Sorcerer-thane Thaurissan. Reviled as betrayers of their fellow dwarves, and living in the mountain-halls of Blackrock Mountain, Dark Iron dwarves are slaves to the great elemental Firelord Ragnaros, and serve him in the latent volcanic mountain. Dark Irons seem identical to Ironforge dwarves, except that their skin tones are ashen and gray, and their eyes are golden-red. Dark Irons who adventure can often reach into the power in their bloodline and spontaneously conjure flames. Hoarse of voice and prone to undertone muttering, Dark Irons do not inspire trust easily.",
+                        "AbilityScoreIncrease": "Your Intelligence score increases by 1.",
+                        "Affiliation": "Alliance or Independent. Hatred comes to Dark Iron dwarves against all races, and in their service to Ragnaros, they see only rivals, thralls, and enemies. Some dark irons have found kinship with their cousins the Wildhammers and the Bronzebeards, and chose to join the Alliance.",
+                        "FamilyNames": "Angerforge, Darkbargainer, Firesmite, Forgewright"
                     },
-                    "Wildhammer" : {
-                        "Name" : "Hill Dwarf (Wildhammer)",
-                        "Quote" : "To the skies!",
-                        "Description" : "As a hill dwarf, you probably hail from the Wildhammer clan and its allies, and live in the Aerie Peak. Wildhammer dwarves are similar in appearance to their Ironforge kin, though many shave their heads and they are slightly taller and leaner. Exposure to sun and high winds darkens and toughens their skin. Wildhammers string beads and feathers into their hair and beards as good luck charms, and paint tattoos on their bodies in homage to the totems, ideas and creatures they revere.",
-                        "AbilityScoreIncrease" : "Your Spirit score increases by 1.",
-                        "Affiliation" : "Alliance or independent. The Wildhammer clan is not a member of the Alliance, but Wildhammer dwarves are allies of the Alliance and would certainly help it in a war (and have done so in the past). They are distant with humans and Ironforge dwarves, but have formed a kinship with high elves. Wildhammers and high elves shared much in common in the past, including a love of nature and hatred of evil. Many high elves have grown introverted and brooding of late, which concerns the Wildhammers. The dwarves are appalled at the defection of the blood elves, an event which has caused them to see their high elf allies with new eyes. They also get along well with night elves, as the two races share much in common.",
-                        "FamilyNames" : "Beastclaw, Greatbeard, Thundertamer, Windseer"
+                    "Wildhammer": {
+                        "Name": "Hill Dwarf (Wildhammer)",
+                        "Quote": "To the skies!",
+                        "Description": "As a hill dwarf, you probably hail from the Wildhammer clan and its allies, and live in the Aerie Peak. Wildhammer dwarves are similar in appearance to their Ironforge kin, though many shave their heads and they are slightly taller and leaner. Exposure to sun and high winds darkens and toughens their skin. Wildhammers string beads and feathers into their hair and beards as good luck charms, and paint tattoos on their bodies in homage to the totems, ideas and creatures they revere.",
+                        "AbilityScoreIncrease": "Your Spirit score increases by 1.",
+                        "Affiliation": "Alliance or independent. The Wildhammer clan is not a member of the Alliance, but Wildhammer dwarves are allies of the Alliance and would certainly help it in a war (and have done so in the past). They are distant with humans and Ironforge dwarves, but have formed a kinship with high elves. Wildhammers and high elves shared much in common in the past, including a love of nature and hatred of evil. Many high elves have grown introverted and brooding of late, which concerns the Wildhammers. The dwarves are appalled at the defection of the blood elves, an event which has caused them to see their high elf allies with new eyes. They also get along well with night elves, as the two races share much in common.",
+                        "FamilyNames": "Beastclaw, Greatbeard, Thundertamer, Windseer"
                     }
                 }
             },
-            "Elf" : {
-                "Name" : "Elf",
-                "Description" : "An elf is a member of one of the longest lived species on Azeroth known for keen perception, grace, and great spellwork. Elves were once believed to be the first race to awaken on Azeroth.",
-                "AbilityScoreIncrease" : "Your Agility score increases by 2.",
-                "Age" : "Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. A high elf typically claims adulthood around the age of 60 and can live to be 750 years old. A night elf claims adulthood and live up to five times said age (adulthood at 300 and live up to 3,750 years old). Until the World Tree was destroyed, the Night Elves were immune to aging effects.",
-                "Affiliation" : "Each sub-race is inclined to its own affiliations ever since the Great War of the Ancients.",
-                "Size" : "A high elf (and hence a blood and void elf) is usually a little over 6 feet in height and weighs between 100 to 175 pounds, depending on gender. Night elves (and hence Nightborne) are imposing in stature, males being on average 7 feet tall.",
-                "Appearance" : "Male Kaldorei are very muscular, with broad chests and shoulders, indicative of the strength that lies within both their minds and bodies. Female night elves are lithe and curvaceous, yet still muscular and strong.",
-                "SpeedAddition" : "Your speed is not reduced by wearing heavy armor.",
-                "Language" : "Elven is fluid, with subtle intonations and intricate grammar, even with strange dialects such as Nazja. Elven literature is rich and varied, and their songs and poems are famous among other races.",
-                "Subrace" : "Ancient divides and use of mana siphoning (or mana vampirism) among the elven people resulted in several main sub-races: high elves (and the blood and void elves), and night elves (and the Nightborne).",
-                "Subraces" : {
-                    "HighElf" : {
-                        "Name" : "High Elf (Quel'dorei)",
-                        "Quote" : "For Quel‟Thalas!",
-                        "Description" : "As a high elf, you hail from Silvermoon in Quel‘Thalas or Dalaran. High elves stand slightly taller than humans do. The elves are slim, with sharp symmetrical features, often an exaggeration of perfect beauty. The high elves are uniformly fair in complexion, with white to flaxen colored hair. Their eyes are incredibly intense in color, seeming to glow with an inner light. While many high elves have blue or green eyes, violet and red are not unheard of.",
-                        "AbilityScoreIncrease" : "Your Intelligence score increases by 1.",
-                        "Affiliation" : "Alliance or independent. Most of the high elves have placed themselves under a self-imposed exile, ashamed of the damage that they have wrought upon the world of Lordaeron with their abuse of arcane magic. While humans still accept the high elves because of the aid that both races provided each other during the most recent attacks of the Burning Legion, many of the other races will only deal with the high elves if absolutely necessary. This is especially true after the acts of Kael‘thas Sunstrider. The night elves in particular do not care for the company of high elves and in some cases can be openly hostile toward their sun-blessed brethren. The passing of time may heal these wounds, but the use of arcane magic will always draw a rift between these two breeds of elf.",
-                        "FamilyNames" : "Boughstrider, Dawnblade, Lightbringer, Morningray, Suntreader"
+            "Elf": {
+                "Name": "Elf",
+                "Description": "An elf is a member of one of the longest lived species on Azeroth known for keen perception, grace, and great spellwork. Elves were once believed to be the first race to awaken on Azeroth.",
+                "AbilityScoreIncrease": "Your Agility score increases by 2.",
+                "Age": "Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. A high elf typically claims adulthood around the age of 60 and can live to be 750 years old. A night elf claims adulthood and live up to five times said age (adulthood at 300 and live up to 3,750 years old). Until the World Tree was destroyed, the Night Elves were immune to aging effects.",
+                "Affiliation": "Each sub-race is inclined to its own affiliations ever since the Great War of the Ancients.",
+                "Size": "A high elf (and hence a blood and void elf) is usually a little over 6 feet in height and weighs between 100 to 175 pounds, depending on gender. Night elves (and hence Nightborne) are imposing in stature, males being on average 7 feet tall.",
+                "Appearance": "Male Kaldorei are very muscular, with broad chests and shoulders, indicative of the strength that lies within both their minds and bodies. Female night elves are lithe and curvaceous, yet still muscular and strong.",
+                "SpeedAddition": "Your speed is not reduced by wearing heavy armor.",
+                "Language": "Elven is fluid, with subtle intonations and intricate grammar, even with strange dialects such as Nazja. Elven literature is rich and varied, and their songs and poems are famous among other races.",
+                "Subrace": "Ancient divides and use of mana siphoning (or mana vampirism) among the elven people resulted in several main sub-races: high elves (and the blood and void elves), and night elves (and the Nightborne).",
+                "Subraces": {
+                    "HighElf": {
+                        "Name": "High Elf (Quel'dorei)",
+                        "Quote": "For Quel‟Thalas!",
+                        "Description": "As a high elf, you hail from Silvermoon in Quel‘Thalas or Dalaran. High elves stand slightly taller than humans do. The elves are slim, with sharp symmetrical features, often an exaggeration of perfect beauty. The high elves are uniformly fair in complexion, with white to flaxen colored hair. Their eyes are incredibly intense in color, seeming to glow with an inner light. While many high elves have blue or green eyes, violet and red are not unheard of.",
+                        "AbilityScoreIncrease": "Your Intelligence score increases by 1.",
+                        "Affiliation": "Alliance or independent. Most of the high elves have placed themselves under a self-imposed exile, ashamed of the damage that they have wrought upon the world of Lordaeron with their abuse of arcane magic. While humans still accept the high elves because of the aid that both races provided each other during the most recent attacks of the Burning Legion, many of the other races will only deal with the high elves if absolutely necessary. This is especially true after the acts of Kael‘thas Sunstrider. The night elves in particular do not care for the company of high elves and in some cases can be openly hostile toward their sun-blessed brethren. The passing of time may heal these wounds, but the use of arcane magic will always draw a rift between these two breeds of elf.",
+                        "FamilyNames": "Boughstrider, Dawnblade, Lightbringer, Morningray, Suntreader"
                     },
-                    "BloodElf" : {
-                        "Name" : "Blood Elf (Sin'dorei)",
-                        "Quote" : "Power! My people are addicted to it... a dependence made manifest after the Sunwell was destroyed. - Kael'Thas Sunstrider",
-                        "Description" : "Following the Third War, 90% of the High Elven population was slain during the Siege of Silvermoon and the Razing of Quel‘Thalas. Prince Kael‘Thas Sunstrider renamed his people the Blood Elves (Sin‘dorei) following this terrible event. With their homeland destroyed, their forests burned and corrupted, and their beloved sacred Sunwell sullied, the Blood Elves underwent mana withdrawal. Blood Elves are identical to High Elves in racial bonuses and names. However, their culture is more warped due to their insatiable thirst for vengeance: most have abandoned worship of the Light, and their allegiances have also changed, and most suffer psychologically from extensive use of mana siphoning, due to the Sunwell‘s corruption and subsequent destruction. A DM should consider applying the mana withdrawal optional rule with Blood Elves.",
-                        "Affiliation" : "Horde or independent. Most of the blood elves have joined the New Horde, invited to do so by the Banshee Queen Sylvanas Windrunner."
+                    "BloodElf": {
+                        "Name": "Blood Elf (Sin'dorei)",
+                        "Quote": "Power! My people are addicted to it... a dependence made manifest after the Sunwell was destroyed. - Kael'Thas Sunstrider",
+                        "Description": "Following the Third War, 90% of the High Elven population was slain during the Siege of Silvermoon and the Razing of Quel‘Thalas. Prince Kael‘Thas Sunstrider renamed his people the Blood Elves (Sin‘dorei) following this terrible event. With their homeland destroyed, their forests burned and corrupted, and their beloved sacred Sunwell sullied, the Blood Elves underwent mana withdrawal. Blood Elves are identical to High Elves in racial bonuses and names. However, their culture is more warped due to their insatiable thirst for vengeance: most have abandoned worship of the Light, and their allegiances have also changed, and most suffer psychologically from extensive use of mana siphoning, due to the Sunwell‘s corruption and subsequent destruction. A DM should consider applying the mana withdrawal optional rule with Blood Elves.",
+                        "Affiliation": "Horde or independent. Most of the blood elves have joined the New Horde, invited to do so by the Banshee Queen Sylvanas Windrunner."
                     },
-                    "NightElf" : {
-                        "Name" : "Night Elf (Kal'dorei)",
-                        "Quote" : "The horn has sounded, and I have come as promised. I smell the stench of decay and corruption in our land. That angers me greatly. - Malfurion Stormrage",
-                        "Description" : "As a night elf, you hail from Darnassus in Kalimdor. The race‘s prominent eyebrows, long pointed ears and natural aspects imply a feral grace. Skin tones range from pale white to blue or even ruddy red, and their hair ranges in color from bright white to woodland green to lustrous black.",
-                        "AbilityScoreIncrease" : "Your Spirit score increases by 1.",
-                        "Affiliation" : "Alliance or independent. The night elves are members of the Alliance, but they are not the most trusted or highly regarded members of this group of races. Although honorable and just, the night elves‘ natural distrust has tainted their relations somewhat. Combined with their mystical appearances and mysterious natures, interactions with other races become uncomfortable at times. There is a strong streak of isolationism in the Kaldorei, for they are uncomfortable leaving the verdant mists of Teldrassil.",
-                        "FamilyNames" : "Moonblade, Glaivestorm, Proudstrider, Oakwalker, Nightwing, Staghorn"
+                    "NightElf": {
+                        "Name": "Night Elf (Kal'dorei)",
+                        "Quote": "The horn has sounded, and I have come as promised. I smell the stench of decay and corruption in our land. That angers me greatly. - Malfurion Stormrage",
+                        "Description": "As a night elf, you hail from Darnassus in Kalimdor. The race‘s prominent eyebrows, long pointed ears and natural aspects imply a feral grace. Skin tones range from pale white to blue or even ruddy red, and their hair ranges in color from bright white to woodland green to lustrous black.",
+                        "AbilityScoreIncrease": "Your Spirit score increases by 1.",
+                        "Affiliation": "Alliance or independent. The night elves are members of the Alliance, but they are not the most trusted or highly regarded members of this group of races. Although honorable and just, the night elves‘ natural distrust has tainted their relations somewhat. Combined with their mystical appearances and mysterious natures, interactions with other races become uncomfortable at times. There is a strong streak of isolationism in the Kaldorei, for they are uncomfortable leaving the verdant mists of Teldrassil.",
+                        "FamilyNames": "Moonblade, Glaivestorm, Proudstrider, Oakwalker, Nightwing, Staghorn"
                     },
-                    "Nightborne" : {
-                        "Name" : "Nightborne (Shal'dorei)",
-                        "Quote" : "My people face a similar dilemma. I peered into all possible futures in search for an answer... and found only one - Malfurion Stormrage - Elisande, Grand Magistrix of the Nightborne",
-                        "Description" : "As a Nightborne, you hail from the ancient city of Suramar, and have spent your life sheltered by the power of the Nightwell (a simulacrum of the Well of Eternity), and the dome of arcane power weaved by Elisande, the Grand Magistrix. The nightborne look similar to night elves, but their overall appearance is darker. Their skin does not have the brighter skin tones of purple and pink that night elves do, instead having more pale skin with dark blue-purplish tones. A Shal'dorei's hair is also far less colorful than the Kal'dorei's, having only white, gray, black, or very pale-blue hair colors. Glowing tattoos seem common among nightborne, though whether these are cosmetic or a result of the Nightwell's energy is unknown. Their eyes glow a light blue.",
-                        "AbilityScoreIncrease" : "Your Intelligence score increases by 1.",
-                        "Affiliation" : "Horde or Independent. When the dome began unweaving after the Battle of Nighthold during the third Burning Legion invasion of Azeroth, the leaders of the Nightborne elected to let it fade, subjecting the Nightborne to the same withdrawal the High Elves face, rather than face the alternative. Electing to join the Horde, the Nightborne found new and steadfast allies in the Blood Elves when they re-appeared in the world of Azeroth. Nightborne that are more independentminded also roam the world, searching for ways to satiate their thirst for magic before it becomes an obsession like the Blood Elves"
+                    "Nightborne": {
+                        "Name": "Nightborne (Shal'dorei)",
+                        "Quote": "My people face a similar dilemma. I peered into all possible futures in search for an answer... and found only one - Malfurion Stormrage - Elisande, Grand Magistrix of the Nightborne",
+                        "Description": "As a Nightborne, you hail from the ancient city of Suramar, and have spent your life sheltered by the power of the Nightwell (a simulacrum of the Well of Eternity), and the dome of arcane power weaved by Elisande, the Grand Magistrix. The nightborne look similar to night elves, but their overall appearance is darker. Their skin does not have the brighter skin tones of purple and pink that night elves do, instead having more pale skin with dark blue-purplish tones. A Shal'dorei's hair is also far less colorful than the Kal'dorei's, having only white, gray, black, or very pale-blue hair colors. Glowing tattoos seem common among nightborne, though whether these are cosmetic or a result of the Nightwell's energy is unknown. Their eyes glow a light blue.",
+                        "AbilityScoreIncrease": "Your Intelligence score increases by 1.",
+                        "Affiliation": "Horde or Independent. When the dome began unweaving after the Battle of Nighthold during the third Burning Legion invasion of Azeroth, the leaders of the Nightborne elected to let it fade, subjecting the Nightborne to the same withdrawal the High Elves face, rather than face the alternative. Electing to join the Horde, the Nightborne found new and steadfast allies in the Blood Elves when they re-appeared in the world of Azeroth. Nightborne that are more independentminded also roam the world, searching for ways to satiate their thirst for magic before it becomes an obsession like the Blood Elves"
                     },
-                    "VoidElf" : {
-                        "Name" : "TODO",
-                        "Quote" : "TODO",
-                        "Description" : "TODO",
-                        "AbilityScoreIncrease" : "TODO",
-                        "Affiliation" : "TODO"
+                    "VoidElf": {
+                        "Name": "TODO",
+                        "Quote": "TODO",
+                        "Description": "TODO",
+                        "AbilityScoreIncrease": "TODO",
+                        "Affiliation": "TODO"
                     }
                 }
             }
         },
 
-        "Rules" : {
-            "Mechanics" : {
-                "AbilityScoreSummary" : {
-                    "Label" : "Ability Score Summary",
-                    "Blocks" : {
-                        "1" : {
-                            "Content" : "Measures: Natural athleticism, bodily power<br>Important for: Death Knight, Paladin, and Warrior"
+        "Rules": {
+            "Mechanics": {
+                "AbilityScoreSummary": {
+                    "Label": "Ability Score Summary",
+                    "Blocks": {
+                        "1": {
+                            "Content": "Measures: Natural athleticism, bodily power<br>Important for: Death Knight, Paladin, and Warrior"
                         },
-                        "2" : {
-                            "Content" : "Measures: Physical agility, reflexes, balance, poise<br>Important for: Hunter, Monk, Rogue"
+                        "2": {
+                            "Content": "Measures: Physical agility, reflexes, balance, poise<br>Important for: Hunter, Monk, Rogue"
                         },
-                        "3" : {
-                            "Content" : "Measures: Health, constitution, vital force<br>Important for: Everyone"
+                        "3": {
+                            "Content": "Measures: Health, constitution, vital force<br>Important for: Everyone"
                         },
-                        "4" : {
-                            "Content" : "Measures: Mental acuity, information recall, analytical skill<br>Important for: Alchemist, Mage, Tinker"
+                        "4": {
+                            "Content": "Measures: Mental acuity, information recall, analytical skill<br>Important for: Alchemist, Mage, Tinker"
                         },
-                        "5" : {
-                            "Content" : "Measures: Awareness, intuition, wisdom<br>Important for: Druid, Priest, Shaman"
+                        "5": {
+                            "Content": "Measures: Awareness, intuition, wisdom<br>Important for: Druid, Priest, Shaman"
                         },
-                        "6" : {
-                            "Content" : "Measures: Confidence, eloquence, leadership<br>Important for: Warlock"
+                        "6": {
+                            "Content": "Measures: Confidence, eloquence, leadership<br>Important for: Warlock"
                         }
                     }
                 },
-                "DeterminingAbilityScores" : {
-                    "Label" : "Determining Ability Scores",
-                    "Blocks" : {
-                        "1" : {
-                            "Label" : "Focus and Foible",
-                            "Content" : "This method leads to more focused characters with clearer weaknesses. Before applying modifiers, choose a one focus (an ability score you‘re good at) and one foible (an ability score you‘re bad at).<br><i>Focus</i>. Mark this attribute as 18<br><i>Foible</i>. Mark this attribute as 8<br><br>Set your remaining attributes at 10, and distribute 16 points among the ability scores in any way you desire. You may reduce an existing attribute by up to 2 points to gain 2 points to add to another attribute."
+                "DeterminingAbilityScores": {
+                    "Label": "Determining Ability Scores",
+                    "Blocks": {
+                        "1": {
+                            "Label": "Focus and Foible",
+                            "Content": "This method leads to more focused characters with clearer weaknesses. Before applying modifiers, choose a one focus (an ability score you‘re good at) and one foible (an ability score you‘re bad at).<br><i>Focus</i>. Mark this attribute as 18<br><i>Foible</i>. Mark this attribute as 8<br><br>Set your remaining attributes at 10, and distribute 16 points among the ability scores in any way you desire. You may reduce an existing attribute by up to 2 points to gain 2 points to add to another attribute."
                         },
-                        "2" : {
-                            "Label" : "Heroic Roll",
-                            "Content" : "This method leads to generally stronger characters than by normal rolling. For each ability score, roll 2d6 + 6."
+                        "2": {
+                            "Label": "Heroic Roll",
+                            "Content": "This method leads to generally stronger characters than by normal rolling. For each ability score, roll 2d6 + 6."
                         }
                     }
                 },
-                "Beyond1stLevel" : {
-                    "Label" : "Beyond 1st Level",
-                    "Content" : "<p>The rules in the World of Warcraft 5e RPG also include crafting sub-systems and classes (such as the Alchemist and Tinker), and various options (such as the <a class=\"entity-link inline\" data-pack=\"warcraft5e.feats\" data-id=\"enBseIfaasp0D7xv\">Infusionist</a> feat) that can translate wealth into character power. When creating a character from above 1st level, refer to the following guidelines for expected wealth for level to give a general idea how to keep characters on the same general level of wealth. Refer to the Item Creation Complexity and Cost Table on Chapter 7 to calculate item rarity. Note that crafting an item costs onehalf the cost of buying it.</p><p>The amount of wealth carried by a character can vary significantly depending on starting resources, unexpected loot gained in the campaign, whether or not characters have downtime to gather additional wealth, inherited gold, or even  ossessing companies and strongholds under their control.</p>",
-                    "Blocks" : {
-                        "1" : {
-                            "Label" : "Magical Item Budget",
-                            "Content" : "A DM may refer to the above chart to determine the total worth of magic items the characters have, without actually explicit magic items to be sold. In this case, the wealth is not the expected wealth of the character, but the cost of the magic items the player should have by the appropriate level. This can come in the form of quest gifts, a normal item improving into a magical one, or a permanent blessing or infusion upon a held item. The expected cost of magic items relative to rarity is present in Chapter 7."
+                "Beyond1stLevel": {
+                    "Label": "Beyond 1st Level",
+                    "Content": "<p>The rules in the World of Warcraft 5e RPG also include crafting sub-systems and classes (such as the Alchemist and Tinker), and various options (such as the <a class=\"entity-link inline\" data-pack=\"warcraft5e.feats\" data-id=\"enBseIfaasp0D7xv\">Infusionist</a> feat) that can translate wealth into character power. When creating a character from above 1st level, refer to the following guidelines for expected wealth for level to give a general idea how to keep characters on the same general level of wealth. Refer to the Item Creation Complexity and Cost Table on Chapter 7 to calculate item rarity. Note that crafting an item costs onehalf the cost of buying it.</p><p>The amount of wealth carried by a character can vary significantly depending on starting resources, unexpected loot gained in the campaign, whether or not characters have downtime to gather additional wealth, inherited gold, or even  ossessing companies and strongholds under their control.</p>",
+                    "Blocks": {
+                        "1": {
+                            "Label": "Magical Item Budget",
+                            "Content": "A DM may refer to the above chart to determine the total worth of magic items the characters have, without actually explicit magic items to be sold. In this case, the wealth is not the expected wealth of the character, but the cost of the magic items the player should have by the appropriate level. This can come in the form of quest gifts, a normal item improving into a magical one, or a permanent blessing or infusion upon a held item. The expected cost of magic items relative to rarity is present in Chapter 7."
                         },
-                        "2" : {
-                            "Label" : "Expected Downtime",
-                            "Content" : "In case of crafting classes (Alchemist and Tinker), or in cases where characters can create magical items (taking the Infusionist feat), a good amount of downtime to allow the classes to function at a competitive rate is usually 5 days to 1 week between adventures (or the same time for every 3-5 combat encounters). That way, very complex projects (2 weeks) like building a mecha or vehicle can be done every two adventures. With such options available, players benefit more from wealth and time to build the exact items they need, from scrolls, potions, explosives, and more spells in a mage's spellbook, to advanced constructs and vehicles such as gyrocopters, so exercising judgment is key."
+                        "2": {
+                            "Label": "Expected Downtime",
+                            "Content": "In case of crafting classes (Alchemist and Tinker), or in cases where characters can create magical items (taking the Infusionist feat), a good amount of downtime to allow the classes to function at a competitive rate is usually 5 days to 1 week between adventures (or the same time for every 3-5 combat encounters). That way, very complex projects (2 weeks) like building a mecha or vehicle can be done every two adventures. With such options available, players benefit more from wealth and time to build the exact items they need, from scrolls, potions, explosives, and more spells in a mage's spellbook, to advanced constructs and vehicles such as gyrocopters, so exercising judgment is key."
                         }
                     },
-                    "TypicalWealth" : "Typical Wealth"
+                    "TypicalWealth": "Typical Wealth"
                 },
-                "Advantage" : {
-                    "Label" : "Advantages and Disadvantages",
-                    "Content" : "<p>Sometimes a special ability or spell tells you that you have advantage or disadvantage on an ability check, a saving throw, or an attack roll. When that happens, you roll a second d20 when you make the roll. Use the higher of the two rolls if you have advantage, and use the lower roll if you have disadvantage. For example, if you have disadvantage and roll a 17 and a 5, you use the 5. If you instead have advantage and roll those numbers, you use the 17.</p><p>If multiple situations affect a roll and each one grants advantage or imposes disadvantage on it, you don't roll more than one additional d20. If two favorable situations grant advantage, for example, you still roll only one additional d20.</p><p>If circumstances cause a roll to have both advantage and disadvantage, you are considered to have neither of them, and you roll one d20. This is true even if multiple circumstances impose disadvantage and only one grants advantage or vice versa. In such a situation, you have neither advantage nor disadvantage.</p><p>When you have advantage or disadvantage and something in the game, such as the halfling's Lucky trait, lets you reroll the d20, you can reroll only one of the dice. You choose which one. For example, if a halfling has advantage or disadvantage on an ability check and rolls a 1 and a 13, the halfling could use the Lucky trait to reroll the 1.</p><p>You usually gain advantage or disadvantage through the use of special abilities, actions, or spells. Inspiration can also give a character advantage. The GM can also decide that circumstances influence a roll in one direction or the other and grant advantage or impose disadvantage as a result.</p>"
+                "Advantage": {
+                    "Label": "Advantages and Disadvantages",
+                    "Content": "<p>Sometimes a special ability or spell tells you that you have advantage or disadvantage on an ability check, a saving throw, or an attack roll. When that happens, you roll a second d20 when you make the roll. Use the higher of the two rolls if you have advantage, and use the lower roll if you have disadvantage. For example, if you have disadvantage and roll a 17 and a 5, you use the 5. If you instead have advantage and roll those numbers, you use the 17.</p><p>If multiple situations affect a roll and each one grants advantage or imposes disadvantage on it, you don't roll more than one additional d20. If two favorable situations grant advantage, for example, you still roll only one additional d20.</p><p>If circumstances cause a roll to have both advantage and disadvantage, you are considered to have neither of them, and you roll one d20. This is true even if multiple circumstances impose disadvantage and only one grants advantage or vice versa. In such a situation, you have neither advantage nor disadvantage.</p><p>When you have advantage or disadvantage and something in the game, such as the halfling's Lucky trait, lets you reroll the d20, you can reroll only one of the dice. You choose which one. For example, if a halfling has advantage or disadvantage on an ability check and rolls a 1 and a 13, the halfling could use the Lucky trait to reroll the 1.</p><p>You usually gain advantage or disadvantage through the use of special abilities, actions, or spells. Inspiration can also give a character advantage. The GM can also decide that circumstances influence a roll in one direction or the other and grant advantage or impose disadvantage as a result.</p>"
                 },
-                "Resistance" : {
-                    "Label" : "Damage Resistance and Vulnerability",
-                    "Content" : "<p>Some creatures and objects are exceedingly difficult or unusually easy to hurt with certain types of damage.</p><p>If a creature or an object has resistance to a damage type, damage of that type is halved against it. If a creature or an object has vulnerability to a damage type, damage of that type is doubled against it.</p><p>Resistance and then vulnerability are applied after all other modifiers to damage. For example, a creature has resistance to bludgeoning damage and is hit by an attack that deals 25 bludgeoning damage. The creature is also within a magical aura that reduces all damage by 5. The 25 damage is first reduced by 5 and then halved, so the creature takes 10 damage.</p><p>Multiple instances of resistance or vulnerability that affect the same damage type count as only one instance. For example, if a creature has resistance to fire damage as well as resistance to all nonmagical damage, the damage of a nonmagical fire is reduced by half against the creature, not reduced by three-quarters.</p>"
+                "Resistance": {
+                    "Label": "Damage Resistance and Vulnerability",
+                    "Content": "<p>Some creatures and objects are exceedingly difficult or unusually easy to hurt with certain types of damage.</p><p>If a creature or an object has resistance to a damage type, damage of that type is halved against it. If a creature or an object has vulnerability to a damage type, damage of that type is doubled against it.</p><p>Resistance and then vulnerability are applied after all other modifiers to damage. For example, a creature has resistance to bludgeoning damage and is hit by an attack that deals 25 bludgeoning damage. The creature is also within a magical aura that reduces all damage by 5. The 25 damage is first reduced by 5 and then halved, so the creature takes 10 damage.</p><p>Multiple instances of resistance or vulnerability that affect the same damage type count as only one instance. For example, if a creature has resistance to fire damage as well as resistance to all nonmagical damage, the damage of a nonmagical fire is reduced by half against the creature, not reduced by three-quarters.</p>"
                 }
             }
         },
 
-        "Feats" : {
+        "Feats": {
+            "AbilityScoreImprovementWarrior": {
+                "Label": "Ability Score Improvement (Warrior)",
+                "Description": "When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can‘t increase an ability score above 20 using this feature."
+            },
+            "BattleCommands": {
+                "Label": "Battle Commands",
+                "Description": "You gain the Shout talent for free (if you don‘t already have it). Furthermore, whenever you attack with your off-hand weapon as a bonus action, you can maintain a shout or apply one strike effect."
+            },
+            "BlockAndTackle": {
+                "Label": "Block and Tackle",
+                "Description": "You may use a reaction to block a weapon attack that hits you, reducing the damage taken by 1d12 + your Stamina modifier. This requires a shield. If this reduces the damage to 0 points, you may use the same reaction to attack the target with an opportunity attack. You can use this feature a number of times equal to your Stamina bonus (minimum 2 uses). Once all uses are expended, they are restored after a short rest.<br>You may expend two uses of this ability and benefit an ally within 5 feet of you with this ability instead of you, reducing the damage on them as described (and targeting whoever harmed them with an opportunity attack). If whoever struck your ally is not within your melee range for the opportunity attack, you may move up to 5 feet to deliver it."
+            },
+            "BloodThirst": {
+                "Label": "Blood Thirst",
+                "Description": "You may attack again if you miss an attack. This does not require a separate action from the one used to make the attack. If you make use of this ability, the target is not counted as if they were hit for the purposes of the Strike the Wound ability unless you also successfully hit them. You may use this number of times equal to your Stamina modifier, which replenishes upon completing a short or long rest.<br>Furthermore, if you miss an attack roll against an enemy, you are treated as if you successfully landed a hit for the purposes of the Strike the Wound ability."
+            },
+            "BloodyRibbons": {
+                "Label": "Bloody Ribbons",
+                "Description": "Whenever you spend a Bonus Action to make an attack with your off-hand weapon, you can instead make two attacks. Also, whenever you would gain an action (such as by the haste spell or Action Surge ability), you double the attacks you can normally make with your Bonus Action.<br>Bloody Ribbons expends a use of your Bloodthirst ability."
+            },
             "CleavingStrike": {
                 "Label": "Cleaving Strike",
                 "Description": "When you successfully attack and damage a creature with a melee attack, you spend a bonus action to attack another creature you choose that is within 5 feet away from the first target."
             },
-            "DieByTheSword" : {
-                "Label" : "Die by the Sword",
-                "Description" : "You are inspired by battlefield glories, and are able to react quickly to attacks. Whenever a target within 5 feet of you makes a successful attack against you, you gain a d6 Counterattack dice. You may spend the dice to make an attack as a reaction at any point out of your turn so long as the target dealt damage to you in the last minute, and may add the counterattack dice result to the total damage. Unlike with normal reactions, you may apply one strike effect to this attack. You can hold up to 3 Counterattack dice. They all fade within one minute if not consumed."
+            "DieByTheSword": {
+                "Label": "Die by the Sword",
+                "Description": "You are inspired by battlefield glories, and are able to react quickly to attacks. Whenever a target within 5 feet of you makes a successful attack against you, you gain a d6 Counterattack dice. You may spend the dice to make an attack as a reaction at any point out of your turn so long as the target dealt damage to you in the last minute, and may add the counterattack dice result to the total damage. Unlike with normal reactions, you may apply one strike effect to this attack. You can hold up to 3 Counterattack dice. They all fade within one minute if not consumed."
+            },
+            "ExtraAttackWarrior": {
+                "Label": "Extra Attack (Warrior)",
+                "Description": "You can attack twice, instead of once, whenever you take the Attack action on your turn. The number of attacks increases to three when you reach 11th level in this class and to four when you reach 20th level in this class"
+            },
+            "FightingStyle": {
+                "Label": "Fighting Style",
+                "Description": "<p>You adopt a particular style of fighting as your specialty. Choose one of the following options. You can‘t take a Fighting Style option more than once, even if you later get to choose again.</p><br><h4>Archery</h4><p>You gain a +2 bonus to attack rolls you make with ranged weapons.</p><br><h4>Defense</h4><p>While you are wearing armor, you gain a +1 bonus to AC.</p><br><h4>Dueling</h4><p>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</p><br><h4>Great Weapon Fighting</h4><p>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.</p><br><h4>Protection</h4><p>When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.</p><br><h4>Two-Weapon Fighting</h4><p>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</p>"
             },
             "FirstBlood": {
                 "Label": "First Blood",
                 "Description": "You gain a +2 bonus to your attack rolls and can add your Strength modifier to your damage rolls so long as you are targeting a creature that is above half their maximum hit points (or is not Bloodied). This is applied even if you normally add your Agility modifier to damage."
             },
-            "Infusionist" : {
-                "Label" : "Infusionist",
-                "Description" : "You gain proficiency with the infusion skill and can make infused items."
+            "Hellscream": {
+                "Label": "Hellscream",
+                "Description": "All hostile creatures within range of your shouts take Thunder damage equal to half your level whenever you shout or maintain one. They are entitled a Stamina saving throw to half damage contested by your own Stamina saving throw.<br>Also, your critical range for your Strike the Wound ability becomes 15-20. "
             },
-            "MasterOfArms" : {
-                "Label" : "Master of Arms",
-                "Description" : "When you use a strike effect, you can apply it to all your attacks until the start of your turn in the next round, so long as the strike has sufficient uses."
+            "Infusionist": {
+                "Label": "Infusionist",
+                "Description": "You gain proficiency with the infusion skill and can make infused items."
             },
-            "MortalStrike" : {
-                "Label" : "Mortal Strike",
-                "Description" : "You may severely wound a creature‘s healing capabilities if you successfully apply a mortal strike. If a creature is affected by a Mortal Strike, they must succeed on a Stamina saving throw against a DC equal to 8 + your proficiency bonus + your Strength bonus or take 50% less healing from all sources for one minute. So long as a creature is affected this way, it is always treated as if it is Bloodied for the purposes of your First Blood feature. A creature cannot be affected by this ability more than once in 24 hours."
+            "MasterOfArms": {
+                "Label": "Master of Arms",
+                "Description": "When you use a strike effect, you can apply it to all your attacks until the start of your turn in the next round, so long as the strike has sufficient uses."
             },
-            "Overpower" : {
-                "Label" : "Overpower",
-                "Description" : "You may, after successfully damaging an enemy with a melee attack, regain hit points equal to double your Proficiency bonus. You may instead grant half the benefit to any ally within 30 feet. This is a strike effect that costs a bonus action. The enemy must be a qualifying threat to you for you to use this ability. If the target of this strike was also successfully affected by your Mortal Strike feature, you gain double the normal amount of hit points."
+            "MortalStrike": {
+                "Label": "Mortal Strike",
+                "Description": "You may severely wound a creature‘s healing capabilities if you successfully apply a mortal strike. If a creature is affected by a Mortal Strike, they must succeed on a Stamina saving throw against a DC equal to 8 + your proficiency bonus + your Strength bonus or take 50% less healing from all sources for one minute. So long as a creature is affected this way, it is always treated as if it is Bloodied for the purposes of your First Blood feature. A creature cannot be affected by this ability more than once in 24 hours."
+            },
+            "Overpower": {
+                "Label": "Overpower",
+                "Description": "You may, after successfully damaging an enemy with a melee attack, regain hit points equal to double your Proficiency bonus. You may instead grant half the benefit to any ally within 30 feet. This is a strike effect that costs a bonus action. The enemy must be a qualifying threat to you for you to use this ability. If the target of this strike was also successfully affected by your Mortal Strike feature, you gain double the normal amount of hit points."
+            },
+            "RestoredStrength": {
+                "Label": "Restored Strength",
+                "Description": "You may use the Second Wind talent three times before requiring rest. Furthermore, whenever you use Second Wind, you gain resistance to any damage you take for one round after use, and advantage against any saving throw made against the first spell that affects you in the next minute.<br>If you don‘t already have the Second Wind talent, you gain it as a talent instead of improving it."
+            },
+            "StrikeTheWound": {
+                "Label": "Strike the Wound",
+                "Description": "You gain momentary clarity towards causing further wounds after landing the first. If you make a successful melee attack roll against a target, your weapon attack can score a critical hit on a lower result of the dice (on a natural 19 or 20 instead of only 20). This effect stacks to a maximum roll of 17-20, and ends at the start of your turn in the next round.<br>Also, you gain the Dual Wielder feat if you didn‘t already have it. If you already have it, you add +1 to your weapon damage rolls with either weapon."
+            },
+            "SunderingStrike": {
+                "Label": "Sundering Strike",
+                "Description": "You may sunder an enemy‘s armor, reducing their AC by 1 point per strike (up to -5, but never below that of their AC if unarmored). This effect remains until the armor is tended to with the appropriate artisans‘ tools and 1 hour of work.<br>This can be applied to natural armor. In this case, the AC is restored upon completing a short rest."
+            },
+            "Vanguard": {
+                "Label": "Vanguard",
+                "Description": "Whenever you start your round in a turn with below half your maximum hit points, and have no temporary hit points, you gain a number of temporary hit points equal to 1d12 + your Stamina modifier."
+            },
+            "Vigilance": {
+                "Label": "Vigilance",
+                "Description": "Starting at 10th level, your block and tackle ability blocks an additional 1d12 (for a total of 2d12 + your Stamina modifier). Whenever you perform an opportunity attack derived from your Block and Tackle ability, you can add one of the following effects. ",
+                "Options": {
+                    "1": "<i>Destructive Counter</i>: Your opportunity attack deals an additional 2d6 damage.",
+                    "2": "<i>Disarming Counter</i>: Your opportunity attack drops the enemy‘s weapon. If they reach for it while threatened by you, you can make another attack of opportunity.",
+                    "3": "<i>Pushing Counter</i>: Your opportunity attack pushes the enemy 5 feet away.",
+                    "4": "<i>Repositioning Counter</i>: Your opportunity attack allows you to exchange places with an ally within 5 feet of you."
+                }
+            },
+            "WarriorArchetype": {
+                "Label": "Warrior Archetype",
+                "Description": "At 3rd level, you choose an archetype that you strive to emulate in your combat styles and techniques. Choose between the Arms Warrior, a champion in using great-weapons, the Fury Warrior, who focuses on bleeding his enemies and debilitating them tactically, or the Protection Warrior who focuses on defense while reflecting physical damage. All are detailed at the end of the class description. The archetype you choose grants you features at 3rd level and again at 7th, 10th, 15th, and 18th level."
+            },
+            "WarriorTalent": {
+                "Label": "Warrior Talent",
+                "Description": "Starting at 1st level, you gain a class talent, representing your preferred tactics and adaptability on the field of battle. See Class Talents at the end of the Chapter 3 for options.<br>Whenever you qualify for another talent (as detailed in the talent column), you can choose another talent or gain another use of an existing talent."
             }
         },
 
-        "Traits" : {
-            "Adapter" : {
-                "Label" : "Adapter",
-                "Description" : "You may always act when surprised at a combat encounter (even if you failed your Perception check to notice it). You also have <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"K4kXNTd9rJoZAHu5\">advantage</a> versus weather effects."
+        "Traits": {
+            "Adapter": {
+                "Label": "Adapter",
+                "Description": "You may always act when surprised at a combat encounter (even if you failed your Perception check to notice it). You also have <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"K4kXNTd9rJoZAHu5\">advantage</a> versus weather effects."
             },
-            "ArcaneAffinity" : {
-                "Label" : "Arcane Affinity",
-                "Description" : "You have increased affinity with arcane magic. You can choose one of the following two features:",
-                "Options" : {
-                    "1" : "<i>Augment Weave</i>. You deal one additional point of arcane damage for each damage dice with your arcane spells. This applies once per spell. You may apply this to spells that do not deal arcane damage, but only once per short or long rest",
-                    "2" : "<i>Arcane Strike</i>. You can enhance your attacks with a blast of arcane damage. As a [strike] effect, you can add 1d6 points of arcane damage to your melee or ranged weapon attacks. For every four character levels you gain, you gain an additional dice of damage. You may choose to spend them all at once or one for each attack. You regain all spent dice at the end of a short rest",
-                    "3" : "<i>Energy Blast</i>. You can release a blast of arcane force as if you possessed the Mystic Blast feat (arcane damage only). You may use this blast number of times equal to your Intelligence modifier before replenishing at a long rest. This deals a number of d4 dice equal to onequarter your level (minimum 1d4)."
+            "ArcaneAffinity": {
+                "Label": "Arcane Affinity",
+                "Description": "You have increased affinity with arcane magic. You can choose one of the following two features:",
+                "Options": {
+                    "1": "<i>Augment Weave</i>. You deal one additional point of arcane damage for each damage dice with your arcane spells. This applies once per spell. You may apply this to spells that do not deal arcane damage, but only once per short or long rest",
+                    "2": "<i>Arcane Strike</i>. You can enhance your attacks with a blast of arcane damage. As a [strike] effect, you can add 1d6 points of arcane damage to your melee or ranged weapon attacks. For every four character levels you gain, you gain an additional dice of damage. You may choose to spend them all at once or one for each attack. You regain all spent dice at the end of a short rest",
+                    "3": "<i>Energy Blast</i>. You can release a blast of arcane force as if you possessed the Mystic Blast feat (arcane damage only). You may use this blast number of times equal to your Intelligence modifier before replenishing at a long rest. This deals a number of d4 dice equal to onequarter your level (minimum 1d4)."
                 }
             },
-            "ArcaneLegacy" : {
-                "Label" : "Arcane Legacy",
-                "Description" : "The high elves are uniquely attuned to magic. You can choose one of the below abilities.",
-                "Options" : {
-                    "1" : "You increase your mana pool size by 2 mana points.",
-                    "2" : "You add an additional cantrip to your High Magic ability, chosen from the mage spell list.",
-                    "3" : "You gain the Suffused Arrows talent. You may only take this if your first level is a hunter."
+            "ArcaneLegacy": {
+                "Label": "Arcane Legacy",
+                "Description": "The high elves are uniquely attuned to magic. You can choose one of the below abilities.",
+                "Options": {
+                    "1": "You increase your mana pool size by 2 mana points.",
+                    "2": "You add an additional cantrip to your High Magic ability, chosen from the mage spell list.",
+                    "3": "You gain the Suffused Arrows talent. You may only take this if your first level is a hunter."
                 }
             },
-            "BlessingOfTheNightwell" : {
-                "Label" : "Blessing of the Nightwell",
-                "Description" : "You have resistance to arcane damage."
+            "BlessingOfTheNightwell": {
+                "Label": "Blessing of the Nightwell",
+                "Description": "You have resistance to arcane damage."
             },
-            "BloodMagic" : {
-                "Label" : "Blood Magic",
-                "Description" : "This acts as High Magic. While you use abilities granted by this ability, your eyes glow a pale fel green instead of High Elves‘ blue. Instead of the prestidigitation cantrip, you may choose the thaumaturgy cantrip instead, and may cast the mana burn spell instead of mute."
+            "BloodMagic": {
+                "Label": "Blood Magic",
+                "Description": "This acts as High Magic. While you use abilities granted by this ability, your eyes glow a pale fel green instead of High Elves‘ blue. Instead of the prestidigitation cantrip, you may choose the thaumaturgy cantrip instead, and may cast the mana burn spell instead of mute."
             },
-            "Bravery" : {
-                "Label" : "Bravery",
-                "Description" : "You have <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"K4kXNTd9rJoZAHu5\">advantage</a> to all saves against fear."
+            "Bravery": {
+                "Label": "Bravery",
+                "Description": "You have <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"K4kXNTd9rJoZAHu5\">advantage</a> to all saves against fear."
             },
-            "BronzebeardCombatTraining" : {
-                "Label" : "Dwarven Combat Training",
-                "Description" : "You have proficiency with firearms and explosives of all types, even if you do not have proficiency in engineering, and gain proficiency with light armor."
+            "BronzebeardCombatTraining": {
+                "Label": "Dwarven Combat Training",
+                "Description": "You have proficiency with firearms and explosives of all types, even if you do not have proficiency in engineering, and gain proficiency with light armor."
             },
-            "BurningHeart" : {
-                "Label" : "Burning Heart",
-                "Description" : "You know the produce flame cantrip (caster level equal to your character level). Intelligence is your spellcasting ability for it."
+            "BurningHeart": {
+                "Label": "Burning Heart",
+                "Description": "You know the produce flame cantrip (caster level equal to your character level). Intelligence is your spellcasting ability for it."
             },
-            "Darkvision" : {
-                "Label" : "Darkvision",
-                "Description" : "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+            "Darkvision": {
+                "Label": "Darkvision",
+                "Description": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
             },
-            "DraeneiCombatTraining" : {
-                "Label" : "Draenei Combat Training",
-                "Description" : "You have proficiency with the longsword, greathammer, glaive, and the heavy crossbow."
+            "DraeneiCombatTraining": {
+                "Label": "Draenei Combat Training",
+                "Description": "You have proficiency with the longsword, greathammer, glaive, and the heavy crossbow."
             },
-            "DwarvenCombatTraining" : {
-                "Label" : "Dwarven Combat Training",
-                "Description" : "You have proficiency with the battleaxe, handaxe, light hammer, and warhammer."
+            "DwarvenCombatTraining": {
+                "Label": "Dwarven Combat Training",
+                "Description": "You have proficiency with the battleaxe, handaxe, light hammer, and warhammer."
             },
-            "ElvenCombatTraining" : {
-                "Label" : "Elven Combat Training",
-                "Description" : "You have proficiency with the longsword, longbow, rapier, and shortbow."
+            "ElvenCombatTraining": {
+                "Label": "Elven Combat Training",
+                "Description": "You have proficiency with the longsword, longbow, rapier, and shortbow."
             },
-            "ExtraLanguage" : {
-                "Label" : "Extra Language",
-                "Description" : "You can speak, read and write one extra language of your choice."
+            "ExtraLanguage": {
+                "Label": "Extra Language",
+                "Description": "You can speak, read and write one extra language of your choice."
             },
-            "FelResistance" : {
-                "Label" : "Fel Resistance",
-                "Description" : "You have <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"FuRFBklCArGIhci8\">resistance</a> to fel damage."
+            "FelResistance": {
+                "Label": "Fel Resistance",
+                "Description": "You have <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"FuRFBklCArGIhci8\">resistance</a> to fel damage."
             },
-            "FireLordsFavor" : {
-                "Label" : "Fire Lord's Favor",
-                "Description" : "You have <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"FuRFBklCArGIhci8\">resistance</a> to fire damage."
+            "FireLordsFavor": {
+                "Label": "Fire Lord's Favor",
+                "Description": "You have <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"FuRFBklCArGIhci8\">resistance</a> to fire damage."
             },
-            "Gemcutting" : {
-                "Label" : "Gemcutting",
-                "Description" : "You are proficient with artisan's tools (jewelcrafting kit)."
+            "Gemcutting": {
+                "Label": "Gemcutting",
+                "Description": "You are proficient with artisan's tools (jewelcrafting kit)."
             },
-            "GiftOfTheNaaru" : {
-                "Label" : "Gift of the Naaru",
-                "Description" : "You can use your action to channel holy energy, casting the renewing light spell as if cast as a 1st level spell. This can be used once, replenishing on a short or long rest. While a creature benefits from this ability, they have a glowing blue mark above their forehead (shedding light equal to dancing lights). Your spellcasting ability modifier is Spirit or Charisma (your choice)."
+            "GiftOfTheNaaru": {
+                "Label": "Gift of the Naaru",
+                "Description": "You can use your action to channel holy energy, casting the renewing light spell as if cast as a 1st level spell. This can be used once, replenishing on a short or long rest. While a creature benefits from this ability, they have a glowing blue mark above their forehead (shedding light equal to dancing lights). Your spellcasting ability modifier is Spirit or Charisma (your choice)."
             },
-            "HeroicPresence" : {
-                "Label" : "Heroic Presence",
-                "Description" : "You can spend 10 minutes inspiring your companions, shoring up their resolve to fight. When you do so, choose up to six friendly creatures (which can include yourself) within 30 feet of you who can see or hear you and who can understand you. Each creature can gain temporary hit points equal to your level + half your Charisma or Spirit modifier. A creature can't gain temporary hit points from this feature again until it has finished a long rest. Alternatively, you may declare use of this ability upon landing a critical hit."
+            "HeroicPresence": {
+                "Label": "Heroic Presence",
+                "Description": "You can spend 10 minutes inspiring your companions, shoring up their resolve to fight. When you do so, choose up to six friendly creatures (which can include yourself) within 30 feet of you who can see or hear you and who can understand you. Each creature can gain temporary hit points equal to your level + half your Charisma or Spirit modifier. A creature can't gain temporary hit points from this feature again until it has finished a long rest. Alternatively, you may declare use of this ability upon landing a critical hit."
             },
-            "HighMagic" : {
-                "Label" : "High Magic",
-                "Description" : "Magic. You know the prestidigitation cantrip and can cast it normally (caster level equal to your character level). When you reach 3rd level, you can also cast detect magic as a 1st level spell. When you reach 5th level, you can also cast the mute spell as a 2nd level spell. Intelligence is your spellcasting ability for these spells, and you use your mana pool for these abilities (even if you are not normally a spellcaster). While you use such abilities (and after using them for one hour), your eyes glow a pale blue. If you can already cast such spells (and have a sufficiently high caster level), they are always prepared for free."
+            "HighMagic": {
+                "Label": "High Magic",
+                "Description": "Magic. You know the prestidigitation cantrip and can cast it normally (caster level equal to your character level). When you reach 3rd level, you can also cast detect magic as a 1st level spell. When you reach 5th level, you can also cast the mute spell as a 2nd level spell. Intelligence is your spellcasting ability for these spells, and you use your mana pool for these abilities (even if you are not normally a spellcaster). While you use such abilities (and after using them for one hour), your eyes glow a pale blue. If you can already cast such spells (and have a sufficiently high caster level), they are always prepared for free."
             },
-            "KeenSenses" : {
-                "Label" : "Keen Senses",
-                "Description" : "You are proficient with the Perception skill."
+            "KeenSenses": {
+                "Label": "Keen Senses",
+                "Description": "You are proficient with the Perception skill."
             },
-            "MaskOfTheWild" : {
-                "Label" : "Mask of the Wild",
-                "Description" : "You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
+            "MaskOfTheWild": {
+                "Label": "Mask of the Wild",
+                "Description": "You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
             },
-            "MountainBorn" : {
-                "Label" : "Mountain Born",
-                "Description" : "You're acclimated to high altitude, including elevations above 20,000 feet. You're also naturally adapted to cold weather in the wilderness or while exploring."
+            "MountainBorn": {
+                "Label": "Mountain Born",
+                "Description": "You're acclimated to high altitude, including elevations above 20,000 feet. You're also naturally adapted to cold weather in the wilderness or while exploring."
             },
-            "MysticSenses" : {
-                "Label" : "Mystic Senses",
-                "Description" : "Whenever you make any check related to the origin of magical items, lore, or spells, you are treated as if you have Expertise in the Arcana skill."
+            "MysticSenses": {
+                "Label": "Mystic Senses",
+                "Description": "Whenever you make any check related to the origin of magical items, lore, or spells, you are treated as if you have Expertise in the Arcana skill."
             },
-            "NaturalArmor" : {
-                "Label" : "Natural Armor",
-                "Description" : "Your skin is as hardened leather in toughness. When you aren't wearing armor, your AC is 12 + your Agility modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor."
+            "NaturalArmor": {
+                "Label": "Natural Armor",
+                "Description": "Your skin is as hardened leather in toughness. When you aren't wearing armor, your AC is 12 + your Agility modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor."
             },
-            "NaturalHandler" : {
-                "Label" : "Natural Handler",
-                "Description" : "You have proficiency with Animal Handling. If handling beasts that naturally live in mountains such as gryphons or mountain lions, you gain Expertise instead."
+            "NaturalHandler": {
+                "Label": "Natural Handler",
+                "Description": "You have proficiency with Animal Handling. If handling beasts that naturally live in mountains such as gryphons or mountain lions, you gain Expertise instead."
             },
-            "NatureResistance" : {
-                "Label" : "Nature Resistance",
-                "Description" : "You have <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"K4kXNTd9rJoZAHu5\">advantage</a> on saving throws against poisons, and have <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"FuRFBklCArGIhci8\">resistance</a> against lightning and poison damage."
+            "NatureResistance": {
+                "Label": "Nature Resistance",
+                "Description": "You have <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"K4kXNTd9rJoZAHu5\">advantage</a> on saving throws against poisons, and have <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"FuRFBklCArGIhci8\">resistance</a> against lightning and poison damage."
             },
-            "NightfallenMagic" : {
-                "Label" : "Nightfallen Magic",
-                "Description" : "You know the mage hand cantrip and can cast it normally (caster level equal to your character level). When you reach 3rd level, you can also cast detect magic as a 1st level spell. When you reach 5th level, you can also cast the arcane explosion spell as a 2nd level spell. Intelligence is your spellcasting ability for these spells, and you use your mana pool for these abilities (even if you are not normally a spellcaster). While you use such abilities (and after using them for one hour), your eyes glow a light blue. If you can already cast such spells (and have a sufficiently high caster level), they are always prepared for free."
+            "NightfallenMagic": {
+                "Label": "Nightfallen Magic",
+                "Description": "You know the mage hand cantrip and can cast it normally (caster level equal to your character level). When you reach 3rd level, you can also cast detect magic as a 1st level spell. When you reach 5th level, you can also cast the arcane explosion spell as a 2nd level spell. Intelligence is your spellcasting ability for these spells, and you use your mana pool for these abilities (even if you are not normally a spellcaster). While you use such abilities (and after using them for one hour), your eyes glow a light blue. If you can already cast such spells (and have a sufficiently high caster level), they are always prepared for free."
             },
-            "Resilience" : {
-                "Label" : "Resilience",
-                "Description" : "You have <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"K4kXNTd9rJoZAHu5\">advantage</a> against poisons and <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"FuRFBklCArGIhci8\">resistance</a> to poison damage."
+            "Resilience": {
+                "Label": "Resilience",
+                "Description": "You have <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"K4kXNTd9rJoZAHu5\">advantage</a> against poisons and <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"FuRFBklCArGIhci8\">resistance</a> to poison damage."
             },
-            "Shadowmeld" : {
-                "Label" : "Shadowmeld",
-                "Description" : "When you are in dim or dark light, you gain <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"K4kXNTd9rJoZAHu5\">advantage</a> on Agility (Stealth) checks."
+            "Shadowmeld": {
+                "Label": "Shadowmeld",
+                "Description": "When you are in dim or dark light, you gain <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"K4kXNTd9rJoZAHu5\">advantage</a> on Agility (Stealth) checks."
             },
-            "Stalker" : {
-                "Label" : "Stalker",
-                "Description" : "You have proficiency with the Perception and Stealth skills. If you already have proficiency with one of these skills, you gain Expertise instead."
+            "Stalker": {
+                "Label": "Stalker",
+                "Description": "You have proficiency with the Perception and Stealth skills. If you already have proficiency with one of these skills, you gain Expertise instead."
             },
-            "Stonecunning" : {
-                "Label" : "Stonecunning",
-                "Description" : "Whenever you make an Intelligence (History) check or Mining checks related to stonework and minerals, you are considered both proficient and as if having Expertise in either History or Mining (choose one)."
+            "Stonecunning": {
+                "Label": "Stonecunning",
+                "Description": "Whenever you make an Intelligence (History) check or Mining checks related to stonework and minerals, you are considered both proficient and as if having Expertise in either History or Mining (choose one)."
             },
-            "Stoneform" : {
-                "Label" : "Stoneform",
-                "Description" : "You can focus yourself to occasionally shrug off injury. When you take damage, you can use your reaction to roll a d12. Add your Stamina modifier to the number rolled, and reduce the damage by that total. If the damage exceeds any ongoing bleed damage you take, you end the effect as well. After you use this trait, you can't use it again until you finish a short or long rest."
+            "Stoneform": {
+                "Label": "Stoneform",
+                "Description": "You can focus yourself to occasionally shrug off injury. When you take damage, you can use your reaction to roll a d12. Add your Stamina modifier to the number rolled, and reduce the damage by that total. If the damage exceeds any ongoing bleed damage you take, you end the effect as well. After you use this trait, you can't use it again until you finish a short or long rest."
             },
-            "ToolProficiency" : {
-                "Label" : "Tool Proficiency",
-                "Description" : "You gain proficiency with one artisan's tool of your choice: smith's tools, brewer's supplies, mason's tools, or mining tools."
+            "ToolProficiency": {
+                "Label": "Tool Proficiency",
+                "Description": "You gain proficiency with one artisan's tool of your choice: smith's tools, brewer's supplies, mason's tools, or mining tools."
             }
         },
 
-        "SkillSheet" : {
-            "Category" : "Category"
+        "SkillSheet": {
+            "Category": "Category"
         },
 
-        "Skills" : {
-            "SuffusedArrows" : {
-                "Label" : "Suffused Arrows",
-                "Description" : "You master the art of spell-casting through arrows or infusing them. Choose:",
-                "Options" : {
-                    "1" : "You may choose to gain proficiency in the Infusion Kit, but can only infuse ranged weapons or arrows. If you choose to gain proficiency with the kit, you start with three infusion matrices of your choice that you can craft, and may store them in infusion manuals or similar books. Despite the talent‘s name, this can also cover other types of ranged weapons and ammunition, such as crossbow bolts and bullets, as well as larger samples (such as ballistae bolts or cannonballs).",
-                    "2" : "You gain the Spell Strike feat (but only for ranged weapons)"
-                }
-            }
-        },
-
-        "SkillCategories" : {
-            "General" : "General",
-            "Strike" : "Strike"
-        },
-
-        "SpellSheet" : {
-            "School" : "School",
-            "CastTime" : "Casting Time",
-            "Range" : "Range",
-            "Components" : "Components",
-            "Duration" : "Duration",
-            "Classes" : "Classes",
-            "Heightened" : "Heightened"
-        },
-
-        "Spells" : {
-            "DetectMagic" : {
-                "Label" : "Detect Magic",
-                "Description" : "For the duration, you sense the presence of magic within 30 feet of you. If you sense magic in this way, you can use your action to see a faint aura around any visible creature or object in the area that bears magic, and you learn its school of magic, if any. The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt."
-            },
-            "MageHand" : {
-                "Label" : "Mage Hand",
-                "Description" : "A spectral, floating hand appears at a point you choose within range. The hand lasts for the Duration or until you dismiss it as an action. The hand vanishes if it is ever more than 30 feet away from you or if you cast this spell again. You can use your action to control the hand. You can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial. You can move the hand up to 30 feet each time you use it. The hand can't Attack, activate magical items, or carry more than 10 pounds."
-            },
-            "ManaBurn" : {
-                "Label" : "Mana Burn",
-                "Description" : "You target a creature that has mana within 30 feet. A ray of black-purple anti-magic leaps out, and strikes the target, draining them of mana. You must make a ranged spell attack with the ray. On a success, the target loses 1d4 + 1 mana points. For every mana point lost, the target takes two points of arcane damage. The target is entitled a Spirit saving throw. On a success, the mana and hit points lost are halved.",
-                "Heightened" : "The number of mana points drained increases by 1d4 points per every two levels above 2 (2d4 at level 4, 3d4 at level 6, 4d4 at level 8). Special: Demons always have active mana, and can always be targeted with mana burn. If they have no mana, they still take 2 points of arcane damage."
-            },
-            "Mute" : {
-                "Label" : "Mute",
-                "Description" : "Concentration, up to 1 minute You target a creature within range, forcing it to make a Spirit saving throw. If it fails, the target is isolated from all sound, causing it to be silenced and deafened. This prevents it from performing the verbal components of spells, and rendering it immune to Thunder damage and effects of a spell equal to the spell's level or lower.",
-                "Heightened" : "You may target another creature within 30 feet of the original target for every 2 spell levels above 2nd (2 creatures at level 4, 3 at level 6, and 4 at level 8)."
-            },
-            "ProduceFlame" : {
-                "Label" : "Produce Flame",
-                "Description" : "A flickering flame appears in your hand. The flame remains there for the Duration and harms neither you nor your Equipment. The flame sheds bright light in a 10-foot radius and dim light for an additional 10 feet. The spell ends if you dismiss it as an action or if you cast it again. You can also Attack with the flame, although doing so ends the spell. When you cast this spell, or as an action on a later turn, you can hurl the flame at a creature within 30 feet of you. Make a ranged spell Attack. On a hit, the target takes 1d8 fire damage. This spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8)."
-            },
-            "Prestidigitation" : {
-                "Label" : "Prestidigitation",
-                "Description" : "This spell is a minor magical trick that novice spellcasters use for practice. You create one of the following magical Effects within range. If you cast this spell multiple times, you can have up to three of its non-instantaneous Effects active at a time, and you can dismiss such an Effect as an action.",
-                "Options" : {
-                    "1" : "You create an Instantaneous, harmless sensory Effect, such as a shower of sparks, a puff of wind, faint musical notes, or an odd odor.",
-                    "2" : "You instantaneously light or snuff out a Candle, a torch, or a small campfire.",
-                    "3" : "You instantaneously clean or soil an object no larger than 1 cubic foot.",
-                    "4" : "You chill, warm, or flavor up to 1 cubic foot of nonliving material for 1 hour.",
-                    "5" : "You make a color, a small mark, or a Symbol appear on an object or a surface for 1 hour.",
-                    "6" : "You create a nonmagical trinket or an illusory image that can fit in your hand and that lasts until the end of your next turn."
-                }
-            },
-            "Silence" : {
-                "Label" : "Silence",
-                "Description" : "For the Duration, no sound can be created within or pass through a 20-foot-radius Sphere centered on a point you choose within range. Any creature or object entirely inside the Sphere is immune to thunder damage, and creatures are Deafened while entirely inside it. Casting a Spell that includes a verbal component is impossible there. "
-            },
-            "Thaumaturgy" : {
-                "Label" : "Thaumaturgy",
-                "Description" : "You manifest a minor wonder, a sign of supernatural power, within range. You create one of the following magical Effects within range. If you cast this spell multiple times, you can have up to three of its 1-minute Effects active at a time, and you can dismiss such an Effect as an action.",
-                "Options" : {
-                    "1" : "Your voice booms up to three times as loud as normal for 1 minute.",
-                    "2" : "You cause flames to flicker, brighten, dim, or change color for 1 minute.",
-                    "3" : "You cause harmless tremors in the ground for 1 minute.",
-                    "4" : "You create an Instantaneous sound that originates from a point of your choice within range, such as a rumble of thunder, the cry of a raven, or ominous whispers.",
-                    "5" : "You instantaneously cause an unlocked door or window to fly open or slam shut.",
-                    "6" : "You alter the Appearance of your eyes for 1 minute."
+        "Skills": {
+            "SuffusedArrows": {
+                "Label": "Suffused Arrows",
+                "Description": "You master the art of spell-casting through arrows or infusing them. Choose:",
+                "Options": {
+                    "1": "You may choose to gain proficiency in the Infusion Kit, but can only infuse ranged weapons or arrows. If you choose to gain proficiency with the kit, you start with three infusion matrices of your choice that you can craft, and may store them in infusion manuals or similar books. Despite the talent‘s name, this can also cover other types of ranged weapons and ammunition, such as crossbow bolts and bullets, as well as larger samples (such as ballistae bolts or cannonballs).",
+                    "2": "You gain the Spell Strike feat (but only for ranged weapons)"
                 }
             }
         },
 
-        "SpellRules" : {
-            "SpellSchools" : {
-                "Abjuration" : "Abjuration",
-                "Conjuration" : "Conjuration",
-                "Divination" : "Divination",
-                "Enchantment" : "Enchantment",
-                "Evocation" : "Evocation",
-                "Illusion" : "Illusion",
-                "Necromancy" : "Necromancy",
-                "Transmutation" : "Transmutation"
+        "SkillCategories": {
+            "General": "General",
+            "Strike": "Strike"
+        },
+
+        "SpellSheet": {
+            "School": "School",
+            "CastTime": "Casting Time",
+            "Range": "Range",
+            "Components": "Components",
+            "Duration": "Duration",
+            "Classes": "Classes",
+            "Heightened": "Heightened"
+        },
+
+        "Spells": {
+            "AbandonmentAura": {
+                "Label": "Abandonment Aura",
+                "Description": "Destructive energy radiates from you in an aura with a 15-foot radius. Until the spell ends, the aura moves with you, centered on you. Each creature hostile to you that is in the aura takes 1 extra point of damage from all weapon attacks. A creature can negate this effect if they succeed on a Spirit saving throw once within the aura‘s area.<br> This spell is suppressed by the protection from good and evil (and similar abjurations). This is an aura bonus.",
+                "Heightened": "For each spell level above 1st, the extra damage increases by 1 point (up to 5 extra points of damage at spell level 5).<br> Note. This spell suppresses and is suppressed by the devotion aura spell."
             },
-            "Range" : {
-                "Self" : "self"
+            "DetectMagic": {
+                "Label": "Detect Magic",
+                "Description": "For the duration, you sense the presence of magic within 30 feet of you. If you sense magic in this way, you can use your action to see a faint aura around any visible creature or object in the area that bears magic, and you learn its school of magic, if any. The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt."
             },
-            "Components" : {
-                "Somatic" : "Somatic",
-                "Verbal" : "Verbal"
+            "MageHand": {
+                "Label": "Mage Hand",
+                "Description": "A spectral, floating hand appears at a point you choose within range. The hand lasts for the Duration or until you dismiss it as an action. The hand vanishes if it is ever more than 30 feet away from you or if you cast this spell again. You can use your action to control the hand. You can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial. You can move the hand up to 30 feet each time you use it. The hand can't Attack, activate magical items, or carry more than 10 pounds."
             },
-            "SpellCategories" : {
-                "Strike" : "Strike spells modify a successful attack. See Chapter 9 for more details on strike effects. Strike and shot effects also usually a potential number of attacks equal to double the spell level. For instance, using kill shot as a 2nd level spell enhances 4 ranged attacks. The caster can have multiple potential strikes active, but cannot apply two shot or strike abilities to the same attack unless otherwise specified."
+            "ManaBurn": {
+                "Label": "Mana Burn",
+                "Description": "You target a creature that has mana within 30 feet. A ray of black-purple anti-magic leaps out, and strikes the target, draining them of mana. You must make a ranged spell attack with the ray. On a success, the target loses 1d4 + 1 mana points. For every mana point lost, the target takes two points of arcane damage. The target is entitled a Spirit saving throw. On a success, the mana and hit points lost are halved.",
+                "Heightened": "The number of mana points drained increases by 1d4 points per every two levels above 2 (2d4 at level 4, 3d4 at level 6, 4d4 at level 8). Special: Demons always have active mana, and can always be targeted with mana burn. If they have no mana, they still take 2 points of arcane damage."
+            },
+            "Mute": {
+                "Label": "Mute",
+                "Description": "Concentration, up to 1 minute You target a creature within range, forcing it to make a Spirit saving throw. If it fails, the target is isolated from all sound, causing it to be silenced and deafened. This prevents it from performing the verbal components of spells, and rendering it immune to Thunder damage and effects of a spell equal to the spell's level or lower.",
+                "Heightened": "You may target another creature within 30 feet of the original target for every 2 spell levels above 2nd (2 creatures at level 4, 3 at level 6, and 4 at level 8)."
+            },
+            "ProduceFlame": {
+                "Label": "Produce Flame",
+                "Description": "A flickering flame appears in your hand. The flame remains there for the Duration and harms neither you nor your Equipment. The flame sheds bright light in a 10-foot radius and dim light for an additional 10 feet. The spell ends if you dismiss it as an action or if you cast it again. You can also Attack with the flame, although doing so ends the spell. When you cast this spell, or as an action on a later turn, you can hurl the flame at a creature within 30 feet of you. Make a ranged spell Attack. On a hit, the target takes 1d8 fire damage. This spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8)."
+            },
+            "Prestidigitation": {
+                "Label": "Prestidigitation",
+                "Description": "This spell is a minor magical trick that novice spellcasters use for practice. You create one of the following magical Effects within range. If you cast this spell multiple times, you can have up to three of its non-instantaneous Effects active at a time, and you can dismiss such an Effect as an action.",
+                "Options": {
+                    "1": "You create an Instantaneous, harmless sensory Effect, such as a shower of sparks, a puff of wind, faint musical notes, or an odd odor.",
+                    "2": "You instantaneously light or snuff out a Candle, a torch, or a small campfire.",
+                    "3": "You instantaneously clean or soil an object no larger than 1 cubic foot.",
+                    "4": "You chill, warm, or flavor up to 1 cubic foot of nonliving material for 1 hour.",
+                    "5": "You make a color, a small mark, or a Symbol appear on an object or a surface for 1 hour.",
+                    "6": "You create a nonmagical trinket or an illusory image that can fit in your hand and that lasts until the end of your next turn."
+                }
+            },
+            "Silence": {
+                "Label": "Silence",
+                "Description": "For the Duration, no sound can be created within or pass through a 20-foot-radius Sphere centered on a point you choose within range. Any creature or object entirely inside the Sphere is immune to thunder damage, and creatures are Deafened while entirely inside it. Casting a Spell that includes a verbal component is impossible there. "
+            },
+            "Thaumaturgy": {
+                "Label": "Thaumaturgy",
+                "Description": "You manifest a minor wonder, a sign of supernatural power, within range. You create one of the following magical Effects within range. If you cast this spell multiple times, you can have up to three of its 1-minute Effects active at a time, and you can dismiss such an Effect as an action.",
+                "Options": {
+                    "1": "Your voice booms up to three times as loud as normal for 1 minute.",
+                    "2": "You cause flames to flicker, brighten, dim, or change color for 1 minute.",
+                    "3": "You cause harmless tremors in the ground for 1 minute.",
+                    "4": "You create an Instantaneous sound that originates from a point of your choice within range, such as a rumble of thunder, the cry of a raven, or ominous whispers.",
+                    "5": "You instantaneously cause an unlocked door or window to fly open or slam shut.",
+                    "6": "You alter the Appearance of your eyes for 1 minute."
+                }
+            }
+        },
+
+        "SpellRules": {
+            "SpellSchools": {
+                "Abjuration": "Abjuration",
+                "Conjuration": "Conjuration",
+                "Divination": "Divination",
+                "Enchantment": "Enchantment",
+                "Evocation": "Evocation",
+                "Illusion": "Illusion",
+                "Necromancy": "Necromancy",
+                "Transmutation": "Transmutation"
+            },
+            "Range": {
+                "Self": "self"
+            },
+            "Components": {
+                "Somatic": "Somatic",
+                "Verbal": "Verbal"
+            },
+            "SpellCategories": {
+                "Strike": "Strike spells modify a successful attack. See Chapter 9 for more details on strike effects. Strike and shot effects also usually a potential number of attacks equal to double the spell level. For instance, using kill shot as a 2nd level spell enhances 4 ranged attacks. The caster can have multiple potential strikes active, but cannot apply two shot or strike abilities to the same attack unless otherwise specified."
             }
         },
 
         "UI": {
-            "Actions" : {
-                "NoToken" : "You have not selected a valid token. Please select a valid token.",
-                "CastSpell" : "You cast the Spell",
-                "CastSpellError" : "You're not able to cast the spell",
-                "CastSpellInvalidTarget" : "Invalid Target. Please select one hostile token.",
-                "OutOfRange" : "The target is out of range. Distance:"
+            "Actions": {
+                "NoToken": "You have not selected a valid token. Please select a valid token.",
+                "CastSpell": "You cast the Spell",
+                "CastSpellError": "You're not able to cast the spell",
+                "CastSpellInvalidTarget": "Invalid Target. Please select one hostile token.",
+                "OutOfRange": "The target is out of range. Distance:"
             },
-            "Units" : {
-                "Action" : "action",
-                "Ft" : "ft",
-                "Hour" : "hour",
-                "Instant" : "instant",
-                "Minute" : "minute",
-                "Minutes" : "minutes",
-                "Gp" : "gp"
+            "Units": {
+                "Action": "action",
+                "Ft": "ft",
+                "Hour": "hour",
+                "Instant": "instant",
+                "Minute": "minute",
+                "Minutes": "minutes",
+                "Gp": "gp"
             },
-            "Phrases" : {
-                "Skill" : "skill",
-                "Spell" : "spell"
+            "Phrases": {
+                "Skill": "skill",
+                "Spell": "spell"
             },
-            "Dialogs" : {
-                "CancelSkill" : "Release",
-                "CancelSkillDescription" : "Do you really want to release the skill?"
+            "Dialogs": {
+                "CancelSkill": "Release",
+                "CancelSkillDescription": "Do you really want to release the skill?"
             }
         }
     }
