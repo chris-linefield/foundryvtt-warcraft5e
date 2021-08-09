@@ -42,13 +42,11 @@
                 <a href="{{item.data.artwork.2.url}}" target="_blank">&copy;{{item.data.artwork.2.credit}}</a>
             </div>
             <h3>Class Features</h3>
-            <p>As a warrior, you gain the following class features.</p>
-            <br>
             <h4>Hit Points</h4>
             <p>
-                <strong>Hit Dice:</strong> 1{{item.data.hitDice}} per warrior level<br>
+                <strong>Hit Dice:</strong> 1{{item.data.hitDice}} per {{item.name}} level<br>
                 <strong>Hit Points at 1st Level:</strong> {{item.data.hitPoints1st}} + your Stamina modifier<br>
-                <strong>Hit Points at Higher Levels:</strong> 1{{item.data.hitDice}} (or 6) + your Stamina modifier per warrior level after 1st
+                <strong>Hit Points at Higher Levels:</strong> 1{{item.data.hitDice}} (or {{item.data.hitPointsHalfed}}) + your Stamina modifier per {{item.name}} level after 1st
             </p>
             <br>
             <h4>Proficiencies</h4>
@@ -64,8 +62,21 @@
                     {{#unless @first}}{{#if @last}} and {{else}},{{/if}}{{/unless}}
                     {{lookup ../config.weaponProficiencies this}}
                 {{/each}}
+                {{#each item.data.specificWeaponProfs}}
+                    {{#if @last}} and {{else}},{{/if}}
+                    {{this}}
+                {{/each}}
                 <br>
-                <strong>Tools:</strong> None<br>
+                <strong>Tools:</strong>
+                {{#if item.data.toolProfs}}
+                    {{#each item.data.toolProfs}}
+                        {{#unless @first}}{{#if @last}} and {{else}},{{/if}}{{/unless}}
+                        {{lookup ../config.toolProficiencies this}}
+                    {{/each}}
+                {{else}}
+                None
+                {{/if}}
+                <br>
 
                 <strong>Saving Throws:</strong>
                 {{#each item.data.saves}}
@@ -86,21 +97,23 @@
             <p>
                 You start with the following equipment, in addition to the equipment granted by your background:
                 <ul>
-                    <li>(a) chain mail or (b) leather, longbow, and 20 arrows</li>
-                    <li>(a) a martial weapon and a shield or (b) two martial weapons</li>
-                    <li>(a) a light crossbow and 20 bolts or (b) two handaxes</li>
-                    <li>(a) a dungeoneer‘s pack or (b) an explorer‘s pack</li>
+                    {{#each item.data.equipment}}
+                        <li>
+                            {{#if this.[1]}}
+                                {{#each this}}
+                                    {{#if @first}}
+                                        (a)
+                                    {{/if}}
+                                    {{#unless @first}}or (b){{/unless}}
+                                    {{this}}
+                                {{/each}}
+                            {{else}}
+                                {{this}}
+                            {{/if}}
+                        </li>
+                    {{/each}}
                 </ul>
             </p>
-            <br>
-            {{#if item.data.specialFeatures}}
-                <h3>Special Features</h3>
-                {{#each item.data.specialFeatures}}
-                    <h4>{{localize this.title}}</h4>
-                    <p>{{localize this.content}}</p>
-                {{/each}}
-                <br>
-            {{/if}}
         </div>
 
         <div class="tab progression" data-group="primary" data-tab="progression">

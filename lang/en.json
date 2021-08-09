@@ -52,6 +52,30 @@
             "Shaman": {
                 "Name": "Shaman"
             },
+            "Tinker": {
+                "Name": "Tinker",
+                "Introduction": {
+                    "1": "A dwarf holds out his rifle, standing watch over his position atop defensive walls. In the distance, he hears the explosion in a mine. Mentally calculating the distance, he turns to a nearby mortar, adjusting a few settings. He pulls the primer, smirking as the mortar lobs the explosive shell somewhere into the woods behind cover, releasing panicked screams and another blast.",
+                    "2": "A large mechanical construct with arms of steel and razorsharp claws approaches a keep‘s shut portcullis. The construct digs its claws under the steel of the gate, and begins pulling it upwards, as a small voice from inside the construct urges its fellows to pass quickly. From the walls, an arrow clangs on the construct‘s shoulder, causing the driver of the mecha to turn, lift an arm, and release a rocket barrage against the hapless archer. From within, a gnome squeaks out an apology.",
+                    "3": "The goblin‘s green skin seems almost black from the soot of her explosives as she ducks behind the ruined door frame, evading sling bullets and bolts of frost. She rests her back on the wall for a moment, and unhooks a mechanical wheel from her back. She revs up a rip-tire, packs a few pieces of dynamite into it, and releases it. With a roar, the wheel charges into the open gateway and lets out a resounding blast. The goblin then smirks at the silence, and hearing a groan, she pulls out her flamethrower, and moves in to clean up."
+                },
+                "Description": "For the tinker, innovation is both the tool and the end. Having the brain and the tools give them the nearly limitless capacity to solve any problem. These engineers are lightly armored, and are proficient with the skills to create a variety of tools and machines to help them achieve their goals.",
+                "Blocks": {
+                    "1": {
+                        "Title": "Consummate Innovators",
+                        "Content": "Tinkers among the smartest and most creative of the adventurers setting out to explore and conquer Azeroth. As a creator of incredible inventions from steam saws to siege engines, your devices allow them to overcome nearly any situation — and if you don‘t have the device they need, you just might be able to design and create a new one on the spot.<br>>Tinkers are born of necessity—economic or military. Many gnomish and goblin engineers chose to take up the path of the tinker because of its demand in peace and wartime, and to satisfy their creativity. Tinkers tend to carry about packs and pouches full of heavy tools, spare parts and inventions both finished and incomplete. In doing so, they quickly develop the ability to shoulder casually otherwise crushing burdens. Furthermore, the tinker‘s ability to put together devices out of random piles of spare parts or whatever wires and gears they happen to be carrying is a valuable asset, allowing a tinker to address problems and improvise even when they would otherwise be stumped.<br>From developing vehicles such as the zeppelin or the steam engine to reliable weapons and explosives, tinkers are increasingly needed innovators in the changing World of Warcraft. "
+                    },
+                    "2": {
+                        "Title": "Adaptable Combatants",
+                        "Content": "Tinkers prefer to spend days, weeks or even months constructing the devices they design. When adventuring, though, tinkers are often forced to throw together a device more quickly or adapt  pieces of fallen technology to their purposes. A tinker can arrive onto a battlefield with many tools, ranging from firearms, explosives, strange gadgets, to even personal vehicles and mecha. A tinker always balances what they can bring with what they should bring, as relying on technology that is too young could result in a crisis like the destruction of Gnomregan. They also look forward to repurposing enemy technology, and a tinker‘s strength can grow the more developed their opposition is.<br>Tinkers have a reputation for being dangerous companions before specializing, born mainly of reckless goblins experimenting with explosives, or using gadgets made and owned by others. However, the true heart of the tinker profession can be found in the steady craftsmanship of the dwarves and the wild-eyed curiosity of the gnomes."
+                    },
+                    "3": {
+                        "Title": "Creating a Tinker",
+                        "Content": "When you create a tinker, consider where you learned your craft. Are you self-taught or a student of a well-established guild, university, or master tinker? How has that affected your starting devices and formulae? Another thing to consider is your specialty—many gnomes and draenei prefer to rely on gadgets, while goblins lean towards explosives, and dwarves would swear on a reliable firearm.<br>Are the components and parts of your devices usually supplied and numbered or scavenged and repurposed from other devices?<br>Do you have qualms of repurposing technology (seeing it as a mark of poverty) or revel in it (seeing it as a proof of your power and skill)? Have you ever worked for an engineering society or guild— how have they treated you or used your inventions?"
+                    }
+                },
+                "QuickBuild": "You can make a tinker quickly by following these suggestions. First. Intelligence should be your highest ability score. Make Agility your next-highest if you want to excel at using firearms and explosives. Choose Stamina or Strength instead if you plan to emphasize using constructs and mecha. Second, choose the guild artisan background. Third, choose the following starting devices in your engineer‘s notebook: boomstick (or auto-crossbow), fog machine (gadget), flamethrower (gadget), and hand grenade (or iron rockets, iron bombs, or iron mines)."
+            },
             "Warlock": {
                 "Name": "Warlock"
             },
@@ -78,12 +102,6 @@
                     }
                 },
                 "QuickBuild": "You can make a warrior quickly by following these suggestions. First, make Strength or Agility your highest ability score, depending on whether you want to focus on melee weapons or on archery (or finesse weapons). Your next-highest score should be Stamina. Second, choose the soldier background.",
-                "SpecialFeatures": {
-                    "1": {
-                        "Title": "Unarmored Defense",
-                        "Content": "While you are not wearing any armor, your Armor Class equals 10 + your Agility modifier + your Stamina modifier. You can use a shield and still gain this benefit."
-                    }
-                },
                 "Archetypes": {
                     "Arms": {
                         "Title": "Arms",
@@ -373,6 +391,10 @@
             "SunderingStrike": {
                 "Label": "Sundering Strike",
                 "Description": "You may sunder an enemy‘s armor, reducing their AC by 1 point per strike (up to -5, but never below that of their AC if unarmored). This effect remains until the armor is tended to with the appropriate artisans‘ tools and 1 hour of work.<br>This can be applied to natural armor. In this case, the AC is restored upon completing a short rest."
+            },
+            "UnarmoredDefense": {
+                "Label": "Unarmored Defense",
+                "Description": "While you are not wearing any armor, your Armor Class equals 10 + your Agility modifier + your Stamina modifier. You can use a shield and still gain this benefit."
             },
             "Vanguard": {
                 "Label": "Vanguard",

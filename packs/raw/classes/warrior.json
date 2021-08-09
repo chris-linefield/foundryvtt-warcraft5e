@@ -38,17 +38,31 @@
       ],
       "quickBuild": "WC5E.Class.Warrior.QuickBuild",
       "hitPoints1st": "10",
+      "hitPointsHalfed": "6",
       "weaponProfs": [
          "sim", "mar"
       ],
       "armorProfs": [
          "lgt", "med", "hvy", "shl"
       ],
-      "specialFeatures": [
-         {
-            "title": "WC5E.Class.Warrior.SpecialFeatures.1.Title",
-            "content": "WC5E.Class.Warrior.SpecialFeatures.1.Content"
-         }
+      "toolProfs": [],
+      "equipment": [
+         [
+            "chain mail",
+            "leather, longbow, and 20 arrows"
+         ],
+         [
+            "a martial weapon and a shield",
+            "two martial weapons"
+         ],
+         [
+            "a light crossbow and 20 bolts",
+            "two handaxes"
+         ],
+         [
+            "a dungeoneer‘s pack",
+            "explorer‘s pack"
+         ]
       ],
       "progression": [
          {
@@ -60,6 +74,11 @@
                   "pack":"warcraft5e.class_feats",
                   "node":"KTeU6RPjSlPkisut",
                   "label":"WC5E.Feats.FightingStyle.Label"
+               },
+               {
+                  "pack":"warcraft5e.class_feats",
+                  "node":"6yr0026sJRfkMPtV",
+                  "label":"WC5E.Feats.UnarmoredDefense.Label"
                },
                {
                   "pack":"warcraft5e.class_feats",

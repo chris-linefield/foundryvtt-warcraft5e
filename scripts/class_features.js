@@ -1,5 +1,13 @@
 import {ClassFeatures} from "../../../systems/dnd5e/module/classFeatures.js";
 
+delete ClassFeatures.bard;
+delete ClassFeatures.barbarian;
+delete ClassFeatures.cleric;
+delete ClassFeatures.fighter;
+delete ClassFeatures.ranger;
+delete ClassFeatures.sorcerer;
+delete ClassFeatures.wizard;
+
 ClassFeatures.alchemist = {
    "subclasses": {
      "path-of-the-apothecary": {
@@ -19,3 +27,5 @@ ClassFeatures.alchemist = {
      "1": ["Compendium.warcraft5e.class_feats.URtICjZp9BRWdVlL"]
    }
 }
+
+console.log(ClassFeatures);
