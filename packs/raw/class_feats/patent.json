@@ -1,6 +1,6 @@
 {
-  "_id": "0tVoLOidfrTrY0CJ",
-  "name": "Engineering",
+  "_id": "kHW3aF52oqfQmbxB",
+  "name": "Patent",
   "permission": {
     "default": 0
   },
@@ -9,11 +9,11 @@
     "wcType": "feat",
     "wcCategory": "WC5E.SkillCategories.General",
     "description": {
-      "value": "WC5E.Feats.Engineering.Description",
+      "value": "WC5E.Feats.Patent.Description",
       "chat": "",
       "unidentified": ""
     },
-    "source": "PHB page 127",
+    "source": "PHB page 129",
     "activation": {
       "type": "bonus",
       "cost": 1,
@@ -65,7 +65,7 @@
   },
   "flags": {
   },
-  "img": "systems/dnd5e/icons/skills/mech_11.jpg",
+  "img": "systems/dnd5e/icons/skills/red_26.jpg",
   "effects": [
   ]
 }

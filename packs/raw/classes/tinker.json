@@ -83,13 +83,18 @@
             "feats": [
                {
                   "pack":"warcraft5e.class_feats",
-                  "node":"KTeU6RPjSlPkisut",
-                  "label":"WC5E.Feats.FightingStyle.Label"
+                  "node":"0tVoLOidfrTrY0CJ",
+                  "label":"WC5E.Feats.Engineering.Label"
                },
                {
                   "pack":"warcraft5e.class_feats",
-                  "node":"lFVytL3t8utTKs2r",
-                  "label":"WC5E.Feats.WarriorTalent.Label"
+                  "node":"BxFovVOtLQ9XyD03",
+                  "label":"WC5E.Feats.Innovation.Label"
+               },
+               {
+                  "pack": "warcraft5e.class_feats",
+                  "node": "kHW3aF52oqfQmbxB",
+                  "label": "WC5E.Feats.Patent.Label"
                }
             ]
          },

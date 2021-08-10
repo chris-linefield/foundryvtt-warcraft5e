@@ -1,6 +1,6 @@
 {
-  "_id": "0tVoLOidfrTrY0CJ",
-  "name": "Engineering",
+  "_id": "BxFovVOtLQ9XyD03",
+  "name": "Innovation",
   "permission": {
     "default": 0
   },
@@ -9,7 +9,7 @@
     "wcType": "feat",
     "wcCategory": "WC5E.SkillCategories.General",
     "description": {
-      "value": "WC5E.Feats.Engineering.Description",
+      "value": "WC5E.Feats.Innovation.Description",
       "chat": "",
       "unidentified": ""
     },
@@ -65,7 +65,7 @@
   },
   "flags": {
   },
-  "img": "systems/dnd5e/icons/skills/mech_11.jpg",
+  "img": "systems/dnd5e/icons/skills/mech_12.jpg",
   "effects": [
   ]
 }
