@@ -1,6 +1,6 @@
 {
-   "_id":"NSwm5sXXobXorPqC",
-   "name":"Ability Score Improvement (Warrior)",
+   "_id":"pZ0s66jTVdto9Z3b",
+   "name":"Ability Score Improvement",
    "permission":{
       "default":0
    },
@@ -9,7 +9,7 @@
       "wcType": "feat",
       "wcCategory": "WC5E.SkillCategories.General",
       "description":{
-         "value":"WC5E.Feats.AbilityScoreImprovementWarrior.Description",
+         "value":"WC5E.Feats.AbilityScoreImprovement.Description",
          "chat":"",
          "unidentified":""
       },
@@ -58,7 +58,7 @@
          "value":"",
          "scaling":"spell"
       },
-      "requirements":"Warrior 4",
+      "requirements":"Alchemist 4, Death Knight 4, Druid 4, Hunter 4, Mage 4, Monk 4, Paladin 4, Priest 4, Rogue 4, Shaman 4, Tinker 4, Warlock 4",
       "recharge":{
          "value":null,
          "charged":false

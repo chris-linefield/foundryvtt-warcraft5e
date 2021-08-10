@@ -320,6 +320,10 @@
         },
 
         "Feats": {
+            "AbilityScoreImprovement": {
+                "Label": "Ability Score Improvement",
+                "Description": "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can‘t increase an ability score above 20 using this feature."
+            },
             "AbilityScoreImprovementWarrior": {
                 "Label": "Ability Score Improvement (Warrior)",
                 "Description": "When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can‘t increase an ability score above 20 using this feature."
@@ -344,17 +348,37 @@
                 "Label": "Cleaving Strike",
                 "Description": "When you successfully attack and damage a creature with a melee attack, you spend a bonus action to attack another creature you choose that is within 5 feet away from the first target."
             },
+            "ConsistentInnovations": {
+                "Label": "Consistent Innovations",
+                "Description": "You have advantage to any tool check to maintain an innovated device, and the maximum duration increases from 5 minutes to 1 hour. You lessen the malfunction rate of innovated devices by 2 points (to a base increase of only 2 points)."
+            },
+            "CoolnessUnderFire": {
+                "Label": "Coolness under Fire",
+                "Description": "You may spend 4 Crafting Points to take 10 on any attack roll with an engineered device or ability check with Engineer‘s Tools."
+            },
             "DieByTheSword": {
                 "Label": "Die by the Sword",
                 "Description": "You are inspired by battlefield glories, and are able to react quickly to attacks. Whenever a target within 5 feet of you makes a successful attack against you, you gain a d6 Counterattack dice. You may spend the dice to make an attack as a reaction at any point out of your turn so long as the target dealt damage to you in the last minute, and may add the counterattack dice result to the total damage. Unlike with normal reactions, you may apply one strike effect to this attack. You can hold up to 3 Counterattack dice. They all fade within one minute if not consumed."
+            },
+            "EfficientEngineering": {
+                "Label": "Efficient Engineering",
+                "Description": "Your ability to whip up devices increases your efficiency in creating normal devices. You reduce the base crafting cost for technological devices from one-half to one-quarter buying price. This does not affect the costs of material components for spells nor does it affect the crafting costs for your Innovation ability. Normally crafting a device is also one step of complexity faster. This does not also reduce the cost of spell material components.<br>Starting at 15th level, this ability also halves the cost of spell material components for your gadget devices."
             },
             "Engineering": {
                 "Label": "Engineering",
                 "Description": "Starting when you gain your first level in this class, you are a master of engineering in the making.<br>You gain an engineer‘s notebook and can perform marvels with the skill that few can even imagine.<br><br><i>Notebook</i><br>At 1st level, your notebook contains four blueprints of your choice that detail the specifications of any device you can create. When you level up, you gain 2 additional blueprints of your choice. You may also acquire new blueprints by research, tutelage, or from the notebooks and blueprints of tinkers who have devices you can create."
             },
+            "Evasion": {
+                "Label": "Evasion",
+                "Description": "You can nimbly dodge out of the way of certain area effects, such as a red dragon‘s fiery breath or an ice storm spell. When you are subjected to an effect that allows you to make an Agility saving throw to take only half damage, you instead take no damage if you succeed  on the saving throw, and only half damage if you fail. You regain 2 Crafting Points if you suffer no damage from a successful saving throw. If you make a saving throw versus an effect made by you, you can either take half damage automatically or make a saving throw. If you choose to make a saving throw, you take no damage on a successful save, but take normal (full) damage on a failed save. After gaining 2 Crafting Points, you cannot gain more unless you complete a short rest."
+            },
             "ExtraAttackWarrior": {
                 "Label": "Extra Attack (Warrior)",
                 "Description": "You can attack twice, instead of once, whenever you take the Attack action on your turn. The number of attacks increases to three when you reach 11th level in this class and to four when you reach 20th level in this class."
+            },
+            "FavoredCreations": {
+                "Label": "Favored Creations",
+                "Description": "you gain increased proficiency in innovation. Choose up to four devices. These devices have half the Crafting Point cost, and their formulae are memorized. You may change a single favored creation with one week of downtime."
             },
             "FightingStyle": {
                 "Label": "Fighting Style",
@@ -363,6 +387,10 @@
             "FirstBlood": {
                 "Label": "First Blood",
                 "Description": "You gain a +2 bonus to your attack rolls and can add your Strength modifier to your damage rolls so long as you are targeting a creature that is above half their maximum hit points (or is not Bloodied). This is applied even if you normally add your Agility modifier to damage."
+            },
+            "FlashBomberTinker": {
+                "Label": "Flash Bomber (Tinker)",
+                "Description": "You gain the Flash Bomber talent, but may only use it for explosives."
             },
             "Hellscream": {
                 "Label": "Hellscream",
@@ -375,6 +403,10 @@
             "Innovation": {
                 "Label": "Innovation",
                 "Description": "You gain the ability to craft temporary and unstable technological creations at certain levels. Such creations have limitations compared to normal crafting (as described in Chapter 7), but are more accessible and useable in combat. You also need the required tools at hand (Engineer's Tools).<br>Creating temporary technological device costs an Action if a Consumable, 3 turns if a use-item (such as a firearm), or 1 minute if a Creature (such as turret or combat armor).<br><br><table><tr><th>Level</th><th>Rarity</th><th>Point Cost<sup>1</sup></th><th>Material Cost<sup>2</sup></th></tr><tr><td>1</td><td>Common</td><td>5</td><td>1 gp<sup>3</sup></td></tr><tr><td>1</td><td>Uncommon</td><td>7</td><td>4 gp</td></tr><tr><td>5</td><td>Rare</td><td>9</td><td>16 gp</td></tr><tr><td>9</td><td>Epic</td><td>11</td><td>64 gp</td></tr><tr><td>13</td><td>Legendary</td><td>13</td><td>256 gp</td></tr><tr><td>17</td><td>Artifact</td><td>15</td><td>1024 gp</td></tr></table><br>1) You reduce the crafting point cost by your proficiency bonus. You may reduce the point cost by your proficiency bonus (not applied above). Common items can have their point cost reduced to 0.<br>2) The crafting cost is unaffected by the Efficient Alchemy feature. Unlike normal crafting, the base crafting cost in materials is not modified for crafting class (x25 for Creatures), and thus innovating a Consumable costs the same as a Creature.<br>3) Starting at 5th level, your Common-level temporary creations do not consume crafting materials, but still require access to your tools (Engineer's Tools).<br><br><h3>Crafting Point Cost</h3>Your ability to do such rapid and innovative creations strains your mind and creative capabilities. You are afforded a pool of Crafting Points (which act as Mana Points). Similarly to Mana Points, you spend points to spontaneously craft items, and regain such points by resting. This is subject to the following points of difference, however:<ul><li>You have a number of Crafting Points equal to your Intelligence score (not modifier) plus your proficiency bonus plus one-half your Tinker level (round down). Unlike mana points, your pool is unaffected by the spell level you can access. As this power is not magical in nature, you are unaffected by any anti-magic effects such as an antimagic field or mana burn effects.</li><li>You do not regain points by mana-restorative effects, such as Mana Potions or resting near mana fountains. However, so long as you are in a relevant resource node or crafting area (such as an engineering workshop or your stronghold), you regain points with a +50% increase, as you draw inspiration from them.</li><li>Your creation costs scale by the item‘s rarity and your ability to craft them; and are thus limited by the Rarity column in your class chart. You can craft anything you have memorized or if you refer to the formula of in your possession (such as in your formulae book). A temporary creation that breaks down, fails, or expires can be harvested for one-half the crafting materials invested. This does not apply to Consumables that were successfully used.  Your temporary creations can be made permanent by paying the rest of the crafting cost.</li></ul><br><h3>Material Cost</h3>As well as consuming Crafting Points, temporary creations also cost material costs appropriate to their rarity, as detailed above.<br><br><h3>Temporary Item Duration</h3>Once created, the temporary item remains until used (if a Consumable), until it breaks down (if a Use-Item or Creature), or up to 5 minutes. Temporary creations are not stable, and if the item is not a consumable in nature, you must succeed on a tool check (Engineer's Tools) against a DC of 15 after a successful use (if a Use-Item), 1 minute (if a Creature), or the creation breaks down.  If the item is not being used by you (or a creature bound to you), it has a +4 increase to its malfunction rate. You may maintain multiple temporary creations, but they all begin expiring starting from the round they were crafted.<br><br><h3>At Higher Levels</h3> As you increase in levels, creations of certain rarity require less time and effort. The time it takes for you to innovate or craft temporary versions of your creations is reduced to a Bonus Action or 3 turns at the following levels for each rarity.<br><br><table><tr><th>Level</th><th>Rarity</th><th>Consumable</th><th>Use-Item</th><th>Creature</th></tr><tr><td>2nd</td><td>Common</td><td>Bonus Action</td><td>1 turn</td><td>3 turns</td></tr><tr><td>9th</td><td>Uncommon</td><td>Bonus Action</td><td>1 turn</td><td>3 turns</td></tr><tr><td>17th</td><td>Rare</td><td>Bonus Action</td><td>1 turn</td><td>3 turns</td></tr></table>"
+            },
+            "KnackForIt": {
+                "Label": "KnackForIt",
+                "Description": "You can use your bonus action to make an Agility (Sleight of Hand) check or use your Thieves‘ Tools to disarm a trap or open a lock.<br>Furthermore, you can choose to lower the malfunction rating of all devices you create by 2 points (minimum 1)."
             },
             "MasterOfArms": {
                 "Label": "Master of Arms",
@@ -396,6 +428,10 @@
                 "Label": "Restored Strength",
                 "Description": "You may use the Second Wind talent three times before requiring rest. Furthermore, whenever you use Second Wind, you gain resistance to any damage you take for one round after use, and advantage against any saving throw made against the first spell that affects you in the next minute.<br>If you don‘t already have the Second Wind talent, you gain it as a talent instead of improving it."
             },
+            "Scavenge": {
+                "Label": "Scavenge",
+                "Description": "When you gather raw materials for use with engineering, you gain triple the total value. This applies when harvesting existing devices, nodes, creatures, and deconstructing devices. If dismantling an item, this cannot exceed one-half the value of creating the item itself (counting any reductions)."
+            },
             "StrikeTheWound": {
                 "Label": "Strike the Wound",
                 "Description": "You gain momentary clarity towards causing further wounds after landing the first. If you make a successful melee attack roll against a target, your weapon attack can score a critical hit on a lower result of the dice (on a natural 19 or 20 instead of only 20). This effect stacks to a maximum roll of 17-20, and ends at the start of your turn in the next round.<br>Also, you gain the Dual Wielder feat if you didn‘t already have it. If you already have it, you add +1 to your weapon damage rolls with either weapon."
@@ -403,6 +439,14 @@
             "SunderingStrike": {
                 "Label": "Sundering Strike",
                 "Description": "You may sunder an enemy‘s armor, reducing their AC by 1 point per strike (up to -5, but never below that of their AC if unarmored). This effect remains until the armor is tended to with the appropriate artisans‘ tools and 1 hour of work.<br>This can be applied to natural armor. In this case, the AC is restored upon completing a short rest."
+            },
+            "Superfunction": {
+                "Label": "Superfunction",
+                "Description": "Your genius allows you to use malfunction rates to your benefit. Whenever you use a device, there is a chance it performs unexpectedly well—thus the greater the malfunction rate, the greater the superfunction rate. A Superfunction can stack with a critical hit (if using a weapon-based engineered device).<br><br><i>Superfunction Rate = 20 - Malfunction Rate</i><br><br>For instance, an explosive that has a malfunction rate of 2 has a Superfunction rate of 18-20.<br><br>When a device superfunctions, it does not roll for a malfunction for the duration of the effect (see below, affected by energy source). It also gains a bonus depending on its energy source. Choose one benefit the device qualifies for.<br><ul><li><i>Better</i>: The next malfunction condition is negated, and the next use of the device consumes no fuel charges (so long as it doesn‘t have only one use)</li><li><i>Faster</i>: The device gains a 25% increase in movement speed (if a construct or vehicle) for 1 hour</li><li><i>Harder</i>: The device cannot lose charges by taking damage or suffer any negative effects that would normally cause it to loses charges (such as overcharging) for 1 hour</li><li><i>Stronger</i>: The device deals maximum damage (no need to roll) with the next (or current) damage roll it makes.</li></ul><br><i>Note</i>: Since your Patent device cannot malfunction, it can only Superfunction at a natural 20 use."
+            },
+            "TinkerPath": {
+                "Label": "Tinker Path",
+                "Description": "At 3rd level, you choose a path that you emulate in the exercise of your tinker abilities: Bomber who focuses on creating explosives, the Gunner who focuses on creating and shooting with firearms, and Gadgeteer who focuses on creating wondrous gadgets, all detailed at the end of the class description.<br>Your path choice grants you features at 3rd level and then again at 6th, 10th, and 14th levels."
             },
             "UnarmoredDefense": {
                 "Label": "Unarmored Defense",
@@ -429,6 +473,10 @@
             "WarriorTalent": {
                 "Label": "Warrior Talent",
                 "Description": "Starting at 1st level, you gain a class talent, representing your preferred tactics and adaptability on the field of battle. See Class Talents at the end of the Chapter 3 for options.<br>Whenever you qualify for another talent (as detailed in the talent column), you can choose another talent or gain another use of an existing talent."
+            },
+            "WorksAsIntended": {
+                "Label": "Works as Intended",
+                "Description": "Starting at 11th level, you may spend 2 Crafting Points to remove the Malfunctioned condition of a device you are touching. This costs a bonus action or reaction. Also, removing the Malfunctioned condition requires 2d4 minutes instead of 1 hour (or the end of a short rest).<br>In both cases, this does not require you being familiar with the device."
             }
         },
 

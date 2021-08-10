@@ -101,126 +101,157 @@
          {
             "level": "2",
             "proficiency": "2",
-            "talent": "2",
-            "feats": []
+            "rarity": "Uncommon",
+            "feats": [
+               {
+                  "pack":"warcraft5e.class_feats",
+                  "node":"YVUjckHkEyV9W0oU",
+                  "label":"WC5E.Feats.EfficientEngineering.Label"
+               },
+               {
+                  "pack":"warcraft5e.class_feats",
+                  "node":"5FiNPLnuI2DzFuj5",
+                  "label":"WC5E.Feats.KnackForIt.Label"
+               }
+            ]
          },
          {
             "level": "3",
             "proficiency": "2",
-            "talent": "2",
+            "rarity": "Uncommon",
             "feats": [
                {
                   "pack":"warcraft5e.class_feats",
-                  "node":"sKw4cffExx8pfW6O",
-                  "label":"WC5E.Feats.WarriorArchetype.Label"
+                  "node":"qCIQqXsyeIEOfwge",
+                  "label":"WC5E.Feats.TinkerPath.Label"
+               },
+               {
+                  "pack":"warcraft5e.class_feats",
+                  "node":"zkaE7Ux6nFOdKSF2",
+                  "label":"WC5E.Feats.FlashBomberTinker.Label"
                }
             ]
          },
          {
             "level": "4",
             "proficiency": "2",
-            "talent": "2",
+            "rarity": "Uncommon",
             "feats": [
                {
                   "pack":"warcraft5e.class_feats",
-                  "node":"NSwm5sXXobXorPqC",
-                  "label":"WC5E.Feats.AbilityScoreImprovementWarrior.Label"
+                  "node":"pZ0s66jTVdto9Z3b",
+                  "label":"WC5E.Feats.AbilityScoreImprovement.Label"
                }
             ]
          },
          {
             "level": "5",
             "proficiency": "3",
-            "talent": "2",
+            "rarity": "Rare",
             "feats": [
                {
                   "pack":"warcraft5e.class_feats",
-                  "node":"nAoxQouvbcuIx2JQ",
-                  "label":"WC5E.Feats.ExtraAttackWarrior.Label"
+                  "node":"UqsLXbxQqyYYrl8P",
+                  "label":"WC5E.Feats.FavoredCreations.Label"
+               },
+               {
+                  "pack":"warcraft5e.class_feats",
+                  "node":"SHZG5Wddrg2jWLa5",
+                  "label":"WC5E.Feats.Superfunction.Label"
                }
             ]
          },
          {
             "level": "6",
             "proficiency": "3",
-            "talent": "2",
+            "rarity": "Rare",
             "feats": [
                {
                   "pack":"warcraft5e.class_feats",
-                  "node":"NSwm5sXXobXorPqC",
-                  "label":"WC5E.Feats.AbilityScoreImprovementWarrior.Label"
+                  "node":"qCIQqXsyeIEOfwge",
+                  "label":"WC5E.Feats.TinkerPath.Label"
                }
             ]
          },
          {
             "level": "7",
             "proficiency": "3",
-            "talent": "2",
+            "rarity": "Rare",
             "feats": [
                {
                   "pack":"warcraft5e.class_feats",
-                  "node":"sKw4cffExx8pfW6O",
-                  "label":"WC5E.Feats.WarriorArchetype.Label"
+                  "node":"2bHy7g5yI4pfCGha",
+                  "label":"WC5E.Feats.CoolnessUnderFire.Label"
                }
             ]
          },
          {
             "level": "8",
             "proficiency": "3",
-            "talent": "2",
+            "rarity": "Rare",
             "feats": [
                {
                   "pack":"warcraft5e.class_feats",
-                  "node":"NSwm5sXXobXorPqC",
-                  "label":"WC5E.Feats.AbilityScoreImprovementWarrior.Label"
+                  "node":"pZ0s66jTVdto9Z3b",
+                  "label":"WC5E.Feats.AbilityScoreImprovement.Label"
                }
             ]
          },
          {
             "level": "9",
             "proficiency": "4",
-            "talent": "3",
+            "rarity": "Epic",
             "feats": [
                {
                   "pack":"warcraft5e.class_feats",
-                  "node":"lFVytL3t8utTKs2r",
-                  "label":"WC5E.Feats.WarriorTalent.Label"
+                  "node":"JdAXjMxVRIm1S83C",
+                  "label":"WC5E.Feats.ConsistentInnovations.Label"
                }
             ]
          },
          {
             "level": "10",
             "proficiency": "4",
-            "talent": "3",
+            "rarity": "Epic",
             "feats": [
                {
                   "pack":"warcraft5e.class_feats",
+                  "node":"qCIQqXsyeIEOfwge",
+                  "label":"WC5E.Feats.TinkerPath.Label"
+               },
+               {
+                  "pack":"warcraft5e.class_feats",
                   "node":"sKw4cffExx8pfW6O",
-                  "label":"WC5E.Feats.WarriorArchetype.Label"
+                  "label":"WC5E.Feats.Scavenge.Label"
                }
             ]
          },
          {
             "level": "11",
             "proficiency": "4",
-            "talent": "3",
+            "rarity": "Epic",
             "feats": [
                {
                   "pack":"warcraft5e.class_feats",
-                  "node":"nAoxQouvbcuIx2JQ",
-                  "label":"WC5E.Feats.ExtraAttackWarrior.Label"
+                  "node":"vH3lv5vHjBAW1FBf",
+                  "label":"WC5E.Feats.Evasion.Label"
+               },
+               {
+                  "pack":"warcraft5e.class_feats",
+                  "node":"s0WyJ609hEA2FnwZ",
+                  "label":"WC5E.Feats.WorksAsIntended.Label"
                }
             ]
          },
          {
             "level": "12",
             "proficiency": "4",
-            "talent": "3",
+            "rarity": "Epic",
             "feats": [
                {
                   "pack":"warcraft5e.class_feats",
-                  "node":"NSwm5sXXobXorPqC",
-                  "label":"WC5E.Feats.AbilityScoreImprovementWarrior.Label"
+                  "node":"pZ0s66jTVdto9Z3b",
+                  "label":"WC5E.Feats.AbilityScoreImprovement.Label"
                }
             ]
          },
