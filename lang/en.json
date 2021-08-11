@@ -74,7 +74,21 @@
                         "Content": "When you create a tinker, consider where you learned your craft. Are you self-taught or a student of a well-established guild, university, or master tinker? How has that affected your starting devices and formulae? Another thing to consider is your specialty—many gnomes and draenei prefer to rely on gadgets, while goblins lean towards explosives, and dwarves would swear on a reliable firearm.<br>Are the components and parts of your devices usually supplied and numbered or scavenged and repurposed from other devices?<br>Do you have qualms of repurposing technology (seeing it as a mark of poverty) or revel in it (seeing it as a proof of your power and skill)? Have you ever worked for an engineering society or guild— how have they treated you or used your inventions?"
                     }
                 },
-                "QuickBuild": "You can make a tinker quickly by following these suggestions. First. Intelligence should be your highest ability score. Make Agility your next-highest if you want to excel at using firearms and explosives. Choose Stamina or Strength instead if you plan to emphasize using constructs and mecha. Second, choose the guild artisan background. Third, choose the following starting devices in your engineer‘s notebook: boomstick (or auto-crossbow), fog machine (gadget), flamethrower (gadget), and hand grenade (or iron rockets, iron bombs, or iron mines)."
+                "QuickBuild": "You can make a tinker quickly by following these suggestions. First. Intelligence should be your highest ability score. Make Agility your next-highest if you want to excel at using firearms and explosives. Choose Stamina or Strength instead if you plan to emphasize using constructs and mecha. Second, choose the guild artisan background. Third, choose the following starting devices in your engineer‘s notebook: boomstick (or auto-crossbow), fog machine (gadget), flamethrower (gadget), and hand grenade (or iron rockets, iron bombs, or iron mines).",
+                "Paths": {
+                    "Bomber": {
+                        "Title": "Bomber",
+                        "Description": "You appreciate the controlled destruction behind a bomb, terrible surprise beneath a mine, and the terror a rocket invokes. Bomber tinkers often makes use of mortars and rocket or mine launchers, to deny enemy mobility as well as to deal massive damage to their enemies. Bombers are also known as grenadiers, and often take to the skies on gyrocopters to unleash their fury from above."
+                    },
+                    "Gunner": {
+                        "Title": "Gunner",
+                        "Description": "You are not only a renowned gunsmith, but also an excellent marksman. Gunners are often called gunslingers or musketeers, and are usually employed in battlefields."
+                    },
+                    "Gadgeteer": {
+                        "Title": "Gadgeteer",
+                        "Description": "You appreciate the versatility gadgets provide, or prefer to craft and control constructs such as mechs and vehicles of all types. Gadgeteers are often the drivers of their own devices, such as the engines of goblin balloons, dwarf steam tanks, or gnomish submarines and gyrocopters."
+                    }
+                }
             },
             "Warlock": {
                 "Name": "Warlock"
@@ -332,6 +346,10 @@
                 "Label": "Battle Commands",
                 "Description": "You gain the Shout talent for free (if you don‘t already have it). Furthermore, whenever you attack with your off-hand weapon as a bonus action, you can maintain a shout or apply one strike effect."
             },
+            "BattleTested": {
+                "Label": "Battle-Tested",
+                "Description": "Your innovated creations that have been used at least three times without breaking down can be kept unused indefinitely (instead of breaking down after 5 minutes). If you choose to make the item into a permanent creation, you must pay the normal crafting cost, but the item‘s malfunction rate is 1 point lower (minimum 0). This improved model can be shared and scribed down as a new innovation. You cannot battle-test a base design more than once.<br>>You may also deal double damage to objects and constructs with your melee attacks as a strike effect.<br><br><i>Special</i>: For the purposes of the Superfunction ability, battle-tested creations act as if its malfunction rate is 1 point higher instead of 1 point lower."
+            },
             "BlockAndTackle": {
                 "Label": "Block and Tackle",
                 "Description": "You may use a reaction to block a weapon attack that hits you, reducing the damage taken by 1d12 + your Stamina modifier. This requires a shield. If this reduces the damage to 0 points, you may use the same reaction to attack the target with an opportunity attack. You can use this feature a number of times equal to your Stamina bonus (minimum 2 uses). Once all uses are expended, they are restored after a short rest.<br>You may expend two uses of this ability and benefit an ally within 5 feet of you with this ability instead of you, reducing the damage on them as described (and targeting whoever harmed them with an opportunity attack). If whoever struck your ally is not within your melee range for the opportunity attack, you may move up to 5 feet to deliver it."
@@ -367,6 +385,10 @@
             "Engineering": {
                 "Label": "Engineering",
                 "Description": "Starting when you gain your first level in this class, you are a master of engineering in the making.<br>You gain an engineer‘s notebook and can perform marvels with the skill that few can even imagine.<br><br><i>Notebook</i><br>At 1st level, your notebook contains four blueprints of your choice that detail the specifications of any device you can create. When you level up, you gain 2 additional blueprints of your choice. You may also acquire new blueprints by research, tutelage, or from the notebooks and blueprints of tinkers who have devices you can create."
+            },
+            "EngineeringMastery": {
+                "Label": "Engineering Mastery",
+                "Description": "You may identify the weaknesses and command triggers for any device you see. You gain the ability to deduce the operation and design of any device you operate or have one hour to study, and have a 20% chance to recreate it from memory. You can also spend a reaction if hit by a weapon attack made from a construct, trap, or engineered device (except firearms and crossbows) to halve the amount of damage you take from it. This does not stack with the bonus from your Evasion ability."
             },
             "Evasion": {
                 "Label": "Evasion",
@@ -405,7 +427,7 @@
                 "Description": "You gain the ability to craft temporary and unstable technological creations at certain levels. Such creations have limitations compared to normal crafting (as described in Chapter 7), but are more accessible and useable in combat. You also need the required tools at hand (Engineer's Tools).<br>Creating temporary technological device costs an Action if a Consumable, 3 turns if a use-item (such as a firearm), or 1 minute if a Creature (such as turret or combat armor).<br><br><table><tr><th>Level</th><th>Rarity</th><th>Point Cost<sup>1</sup></th><th>Material Cost<sup>2</sup></th></tr><tr><td>1</td><td>Common</td><td>5</td><td>1 gp<sup>3</sup></td></tr><tr><td>1</td><td>Uncommon</td><td>7</td><td>4 gp</td></tr><tr><td>5</td><td>Rare</td><td>9</td><td>16 gp</td></tr><tr><td>9</td><td>Epic</td><td>11</td><td>64 gp</td></tr><tr><td>13</td><td>Legendary</td><td>13</td><td>256 gp</td></tr><tr><td>17</td><td>Artifact</td><td>15</td><td>1024 gp</td></tr></table><br>1) You reduce the crafting point cost by your proficiency bonus. You may reduce the point cost by your proficiency bonus (not applied above). Common items can have their point cost reduced to 0.<br>2) The crafting cost is unaffected by the Efficient Alchemy feature. Unlike normal crafting, the base crafting cost in materials is not modified for crafting class (x25 for Creatures), and thus innovating a Consumable costs the same as a Creature.<br>3) Starting at 5th level, your Common-level temporary creations do not consume crafting materials, but still require access to your tools (Engineer's Tools).<br><br><h3>Crafting Point Cost</h3>Your ability to do such rapid and innovative creations strains your mind and creative capabilities. You are afforded a pool of Crafting Points (which act as Mana Points). Similarly to Mana Points, you spend points to spontaneously craft items, and regain such points by resting. This is subject to the following points of difference, however:<ul><li>You have a number of Crafting Points equal to your Intelligence score (not modifier) plus your proficiency bonus plus one-half your Tinker level (round down). Unlike mana points, your pool is unaffected by the spell level you can access. As this power is not magical in nature, you are unaffected by any anti-magic effects such as an antimagic field or mana burn effects.</li><li>You do not regain points by mana-restorative effects, such as Mana Potions or resting near mana fountains. However, so long as you are in a relevant resource node or crafting area (such as an engineering workshop or your stronghold), you regain points with a +50% increase, as you draw inspiration from them.</li><li>Your creation costs scale by the item‘s rarity and your ability to craft them; and are thus limited by the Rarity column in your class chart. You can craft anything you have memorized or if you refer to the formula of in your possession (such as in your formulae book). A temporary creation that breaks down, fails, or expires can be harvested for one-half the crafting materials invested. This does not apply to Consumables that were successfully used.  Your temporary creations can be made permanent by paying the rest of the crafting cost.</li></ul><br><h3>Material Cost</h3>As well as consuming Crafting Points, temporary creations also cost material costs appropriate to their rarity, as detailed above.<br><br><h3>Temporary Item Duration</h3>Once created, the temporary item remains until used (if a Consumable), until it breaks down (if a Use-Item or Creature), or up to 5 minutes. Temporary creations are not stable, and if the item is not a consumable in nature, you must succeed on a tool check (Engineer's Tools) against a DC of 15 after a successful use (if a Use-Item), 1 minute (if a Creature), or the creation breaks down.  If the item is not being used by you (or a creature bound to you), it has a +4 increase to its malfunction rate. You may maintain multiple temporary creations, but they all begin expiring starting from the round they were crafted.<br><br><h3>At Higher Levels</h3> As you increase in levels, creations of certain rarity require less time and effort. The time it takes for you to innovate or craft temporary versions of your creations is reduced to a Bonus Action or 3 turns at the following levels for each rarity.<br><br><table><tr><th>Level</th><th>Rarity</th><th>Consumable</th><th>Use-Item</th><th>Creature</th></tr><tr><td>2nd</td><td>Common</td><td>Bonus Action</td><td>1 turn</td><td>3 turns</td></tr><tr><td>9th</td><td>Uncommon</td><td>Bonus Action</td><td>1 turn</td><td>3 turns</td></tr><tr><td>17th</td><td>Rare</td><td>Bonus Action</td><td>1 turn</td><td>3 turns</td></tr></table>"
             },
             "KnackForIt": {
-                "Label": "KnackForIt",
+                "Label": "Knack for It",
                 "Description": "You can use your bonus action to make an Agility (Sleight of Hand) check or use your Thieves‘ Tools to disarm a trap or open a lock.<br>Furthermore, you can choose to lower the malfunction rating of all devices you create by 2 points (minimum 1)."
             },
             "MasterOfArms": {
@@ -424,6 +446,14 @@
                 "Label": "Patent",
                 "Description": "You gain increased mastery over a single engineered device of your creation that is not a consumable. Your Patented device does not malfunction when being used.<br>Furthermore, if a construct or gadget, it takes one-quarter the fuel as normally required for a single use. This stacks with the reduction for certain devices (such as strike effect gadgets).<br>The device may malfunction condition from other circumstances or abilities. This bonus only applies to your Patent device, and does not extend to Innovated devices (even if they are of your Patented device)."
             },
+            "PrecisionGuesswork": {
+                "Label": "Precision Guesswork",
+                "Description": "You spend half the required Crafting Points for the Coolness under Fire, Works as Intended, and Shutdown abilities."
+            },
+            "QuickTech": {
+                "Label": "Quick Tech",
+                "Description": "You may use your innovate ability on a device of equal rarity, and permanently alter the properties of the device. This device does not have to be built by you, nor does it have to be temporarily-created. This costs the same number of Crafting Points as well as the same time."
+            },
             "RestoredStrength": {
                 "Label": "Restored Strength",
                 "Description": "You may use the Second Wind talent three times before requiring rest. Furthermore, whenever you use Second Wind, you gain resistance to any damage you take for one round after use, and advantage against any saving throw made against the first spell that affects you in the next minute.<br>If you don‘t already have the Second Wind talent, you gain it as a talent instead of improving it."
@@ -431,6 +461,10 @@
             "Scavenge": {
                 "Label": "Scavenge",
                 "Description": "When you gather raw materials for use with engineering, you gain triple the total value. This applies when harvesting existing devices, nodes, creatures, and deconstructing devices. If dismantling an item, this cannot exceed one-half the value of creating the item itself (counting any reductions)."
+            },
+            "Shutdown": {
+                "Label": "Shutdown",
+                "Description": "You may expend 2 Crafting Points and a bonus action to increase the malfunction rate of any device within 10 feet of you by 5 points for up to 1 hour. You can target your own devices to increase the risk of malfunction and Superfunction (up to a 50% chance for either). If you attempt to apply this feature to another device while it is active, its benefits end for the previous one."
             },
             "StrikeTheWound": {
                 "Label": "Strike the Wound",

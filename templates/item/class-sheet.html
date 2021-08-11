@@ -121,14 +121,14 @@
                 <tr>
                     <th class="numberCol">Level</th>
                     <th class="numberCol">Proficiency</th>
-                    <th class="numberCol">Talent</th>
+                    <th>{{this.data.specialCol}}</th>
                     <th class="left">Features</th>
                 </tr>
                 {{#each item.data.progression}}
                     <tr>
                         <td class="center">{{this.level}}</td>
                         <td class="center">+{{this.proficiency}}</td>
-                        <td class="center">{{this.talent}}</td>
+                        <td class="center">{{this.special}}</td>
                         <td>
                             {{#if this.feats}}
                                 {{#each this.feats}}
