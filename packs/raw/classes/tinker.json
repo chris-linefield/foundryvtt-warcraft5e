@@ -368,23 +368,18 @@
                   "feats": [
                      {
                         "pack":"warcraft5e.class_feats",
-                        "node":"jZZ3jr0aiZLwdcxv",
-                        "label":"WC5E.Feats.FirstBlood.Label"
-                     },
-                     {
-                        "pack":"warcraft5e.class_feats",
-                        "node":"C5BAim49sUa3Qegt",
-                        "label":"WC5E.Feats.CleavingStrike.Label"
+                        "node":"IHkdG7wrZ62CpvtN",
+                        "label":"WC5E.Feats.ExplosiveMastery.Label"
                      }
                   ]
                },
                {
-                  "level": "7",
+                  "level": "6",
                   "feats": [
                      {
                         "pack":"warcraft5e.class_feats",
-                        "node":"pzV0GxhXY8Jq2sWn",
-                        "label":"WC5E.Feats.MasterOfArms.Label"
+                        "node":"YaZ6QGI1PROtCSFC",
+                        "label":"WC5E.Feats.CornerBlastStrike.Label"
                      }
                   ]
                },
@@ -393,28 +388,18 @@
                   "feats": [
                      {
                         "pack":"warcraft5e.class_feats",
-                        "node":"lRbedzZp3cixTZpc",
-                        "label":"WC5E.Feats.MortalStrike.Label"
+                        "node":"trtveMlKtVaDTEyX",
+                        "label":"WC5E.Feats.GreaterFlashBomber.Label"
                      }
                   ]
                },
                {
-                  "level": "15",
+                  "level": "14",
                   "feats": [
                      {
                         "pack":"warcraft5e.class_feats",
-                        "node":"CE1HZQNeawepBtXI",
-                        "label":"WC5E.Feats.DieByTheSword.Label"
-                     }
-                  ]
-               },
-               {
-                  "level": "18",
-                  "feats": [
-                     {
-                        "pack":"warcraft5e.class_feats",
-                        "node":"UhPWa7DK3HBXtwsC",
-                        "label":"WC5E.Feats.Overpower.Label"
+                        "node":"f9e8WTH6rtXrZ2W5",
+                        "label":"WC5E.Feats.ExplosiveResistance.Label"
                      }
                   ]
                }
@@ -429,18 +414,18 @@
                   "feats": [
                      {
                         "pack":"warcraft5e.class_feats",
-                        "node":"na8IZmJwynNkz1iL",
-                        "label":"WC5E.Feats.StrikeTheWound.Label"
+                        "node":"F9WjNpgB8SgAmZJr",
+                        "label":"WC5E.Feats.QuickReload.Label"
                      }
                   ]
                },
                {
-                  "level": "7",
+                  "level": "6",
                   "feats": [
                      {
                         "pack":"warcraft5e.class_feats",
-                        "node":"tOcK4KygovPeQIqG",
-                        "label":"WC5E.Feats.BloodThirst.Label"
+                        "node":"nJQ8RrxdQEV7ehjd",
+                        "label":"WC5E.Feats.SpecialBullets.Label"
                      }
                   ]
                },
@@ -449,28 +434,18 @@
                   "feats": [
                      {
                         "pack":"warcraft5e.class_feats",
-                        "node":"WV4HWROfS9LE2h9J",
-                        "label":"WC5E.Feats.BattleCommands.Label"
+                        "node":"wF27kRxdBTRfaUpp",
+                        "label":"WC5E.Feats.PracticedPrecision.Label"
                      }
                   ]
                },
                {
-                  "level": "15",
+                  "level": "14",
                   "feats": [
                      {
                         "pack":"warcraft5e.class_feats",
-                        "node":"3vYZozTLrSTVh0Jg",
-                        "label":"WC5E.Feats.Hellscream.Label"
-                     }
-                  ]
-               },
-               {
-                  "level": "18",
-                  "feats": [
-                     {
-                        "pack":"warcraft5e.class_feats",
-                        "node":"lbdG8tGG6jobDHkx",
-                        "label":"WC5E.Feats.BloodyRibbons.Label"
+                        "node":"vvNZakY2Z8al9mWh",
+                        "label":"WC5E.Feats.FirearmImprovement.Label"
                      }
                   ]
                }
@@ -485,18 +460,18 @@
                   "feats": [
                      {
                         "pack":"warcraft5e.class_feats",
-                        "node":"s0BmwIiZaHlfijhF",
-                        "label":"WC5E.Feats.BlockAndTackle.Label"
+                        "node":"weVaL0aKagU09Ox3",
+                        "label":"WC5E.Feats.QuickCooldown.Label"
                      }
                   ]
                },
                {
-                  "level": "7",
+                  "level": "6",
                   "feats": [
                      {
                         "pack":"warcraft5e.class_feats",
-                        "node":"B8vZWezYjs9O5uIg",
-                        "label":"WC5E.Feats.SunderingStrike.Label"
+                        "node":"HfkNtAfjkgE37g5B",
+                        "label":"WC5E.Feats.ExtensiveDesigning.Label"
                      }
                   ]
                },
@@ -505,28 +480,18 @@
                   "feats": [
                      {
                         "pack":"warcraft5e.class_feats",
-                        "node":"W3G5UsJoykzHbiXh",
-                        "label":"WC5E.Feats.Vigilance.Label"
+                        "node":"PFIfmXoDtbrySQVv",
+                        "label":"WC5E.Feats.SolidEngineering.Label"
                      }
                   ]
                },
                {
-                  "level": "15",
+                  "level": "14",
                   "feats": [
                      {
                         "pack":"warcraft5e.class_feats",
-                        "node":"9Wz8j8i350x4cDtR",
-                        "label":"WC5E.Feats.Vanguard.Label"
-                     }
-                  ]
-               },
-               {
-                  "level": "18",
-                  "feats": [
-                     {
-                        "pack":"warcraft5e.class_feats",
-                        "node":"OPgso8NNMudmIPfU",
-                        "label":"WC5E.Feats.RestoredStrength.Label"
+                        "node":"GYrmVcJOj9HJnOKA",
+                        "label":"WC5E.Feats.ProtectiveShell.Label"
                      }
                   ]
                }

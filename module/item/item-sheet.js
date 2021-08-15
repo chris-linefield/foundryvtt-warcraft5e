@@ -18,6 +18,9 @@ export class WcItemSheet extends ItemSheet5e {
             this.options.width = this.position.width =  850;
             this.options.height = this.position.height = 800;
         }
+        else if(wcType === 'feat') {
+            this.options.height = this.position.height = null;
+        }
     }
 
     get template() {

@@ -348,7 +348,7 @@
             },
             "BattleTested": {
                 "Label": "Battle-Tested",
-                "Description": "Your innovated creations that have been used at least three times without breaking down can be kept unused indefinitely (instead of breaking down after 5 minutes). If you choose to make the item into a permanent creation, you must pay the normal crafting cost, but the item‘s malfunction rate is 1 point lower (minimum 0). This improved model can be shared and scribed down as a new innovation. You cannot battle-test a base design more than once.<br>>You may also deal double damage to objects and constructs with your melee attacks as a strike effect.<br><br><i>Special</i>: For the purposes of the Superfunction ability, battle-tested creations act as if its malfunction rate is 1 point higher instead of 1 point lower."
+                "Description": "Your innovated creations that have been used at least three times without breaking down can be kept unused indefinitely (instead of breaking down after 5 minutes). If you choose to make the item into a permanent creation, you must pay the normal crafting cost, but the item‘s malfunction rate is 1 point lower (minimum 0). This improved model can be shared and scribed down as a new innovation. You cannot battle-test a base design more than once.<br>You may also deal double damage to objects and constructs with your melee attacks as a strike effect.<br><br><i>Special</i>: For the purposes of the Superfunction ability, battle-tested creations act as if its malfunction rate is 1 point higher instead of 1 point lower."
             },
             "BlockAndTackle": {
                 "Label": "Block and Tackle",
@@ -374,6 +374,10 @@
                 "Label": "Coolness under Fire",
                 "Description": "You may spend 4 Crafting Points to take 10 on any attack roll with an engineered device or ability check with Engineer‘s Tools."
             },
+            "CornerBlastStrike": {
+                "Label": "Corner Blast Strike",
+                "Description": "Whenever you use an explosive, you may center it against one creature in the area of effect, dealing two additional dice of damage. This is a strike effect that can target only one creature within the blast. If the explosive already affects only a single creature (either by design or by fact), this is applied automatically without using a bonus action.<br>You also gain the mortar, rocket launcher, cluster launcher and mine launcher blueprints for no cost, and they consume half the normal fuel."
+            },
             "DieByTheSword": {
                 "Label": "Die by the Sword",
                 "Description": "You are inspired by battlefield glories, and are able to react quickly to attacks. Whenever a target within 5 feet of you makes a successful attack against you, you gain a d6 Counterattack dice. You may spend the dice to make an attack as a reaction at any point out of your turn so long as the target dealt damage to you in the last minute, and may add the counterattack dice result to the total damage. Unlike with normal reactions, you may apply one strike effect to this attack. You can hold up to 3 Counterattack dice. They all fade within one minute if not consumed."
@@ -394,6 +398,18 @@
                 "Label": "Evasion",
                 "Description": "You can nimbly dodge out of the way of certain area effects, such as a red dragon‘s fiery breath or an ice storm spell. When you are subjected to an effect that allows you to make an Agility saving throw to take only half damage, you instead take no damage if you succeed  on the saving throw, and only half damage if you fail. You regain 2 Crafting Points if you suffer no damage from a successful saving throw. If you make a saving throw versus an effect made by you, you can either take half damage automatically or make a saving throw. If you choose to make a saving throw, you take no damage on a successful save, but take normal (full) damage on a failed save. After gaining 2 Crafting Points, you cannot gain more unless you complete a short rest."
             },
+            "ExplosiveMastery": {
+                "Label": "Explosive Mastery",
+                "Description": "Starting when you choose this archetype at 3rd level, you increase the range of your bombs and rockets by 15 feet, and the range of your mine‘s detection to its blast radius (beyond its actual position). Also, any explosive you use is automatically modified by the Careful Explosion modification, with no cost to the modification. If you roll a careen on mishap with an explosive, you may roll twice and choose the second result (even if it‘s worse)."
+            },
+            "ExplosiveResistance": {
+                "Label": "Explosive Resistance",
+                "Description": "You gain resistance to concussive, thunder, and bludgeoning damage.<br>Also, whenever you are in the area of concussive damage or the blast radius of an explosion, you can ‘ride the blast‘ and move up to one-half your speed away from the center of the blast, even if you otherwise took no damage from it (such as by using the Evasion ability). This can propel you upward if the explosion takes place under you. This distance is added to the distance the explosion already moves you (if possible)."
+            },
+            "ExtensiveDesigning": {
+                "Label": "Extensive Designing",
+                "Description": "Whenever you apply the Quick Use modification to your devices (as described under Quick Cooldown above), you reduce it by a further step.<ul><li>Gadgets that replicate spell levels above 3rd level have their cooldown reduced to 1 minute instead of 1 hour.</li><li>Gadgets that replicate spell levels above 6th level have their cooldown reduced to 1 hour instead of 8 hours.</li></ul> You may also add your proficiency bonus to attack rolls with your constructs."
+            },
             "ExtraAttackWarrior": {
                 "Label": "Extra Attack (Warrior)",
                 "Description": "You can attack twice, instead of once, whenever you take the Attack action on your turn. The number of attacks increases to three when you reach 11th level in this class and to four when you reach 20th level in this class."
@@ -406,6 +422,10 @@
                 "Label": "Fighting Style",
                 "Description": "<p>You adopt a particular style of fighting as your specialty. Choose one of the following options. You can‘t take a Fighting Style option more than once, even if you later get to choose again.</p><br><h4>Archery</h4><p>You gain a +2 bonus to attack rolls you make with ranged weapons.</p><br><h4>Defense</h4><p>While you are wearing armor, you gain a +1 bonus to AC.</p><br><h4>Dueling</h4><p>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</p><br><h4>Great Weapon Fighting</h4><p>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.</p><br><h4>Protection</h4><p>When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.</p><br><h4>Two-Weapon Fighting</h4><p>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</p>"
             },
+            "FirearmImprovement": {
+                "Label": "Firearm Improvement",
+                "Description": "Firearms you create always benefit from one free modification (equivalent to 1 EP point), chosen from any modification that applies to firearms. Also, whenever you apply an add-on to your firearms and suffer a malfunction, you can choose to let only the add-on suffer the condition."
+            },
             "FirstBlood": {
                 "Label": "First Blood",
                 "Description": "You gain a +2 bonus to your attack rolls and can add your Strength modifier to your damage rolls so long as you are targeting a creature that is above half their maximum hit points (or is not Bloodied). This is applied even if you normally add your Agility modifier to damage."
@@ -413,6 +433,10 @@
             "FlashBomberTinker": {
                 "Label": "Flash Bomber (Tinker)",
                 "Description": "You gain the Flash Bomber talent, but may only use it for explosives."
+            },
+            "GreaterFlashBomber": {
+                "Label": "Greater Flash Bomber",
+                "Description": "You double the amount of times you may use the Flash Bomber talent before a rest, and can use any explosive (not just in bomb form). You also gain the remote blueprint for free if you didn‘t already have it, and may employ it to trigger any number of your explosives normally, and can use it with a reaction."
             },
             "Hellscream": {
                 "Label": "Hellscream",
@@ -446,9 +470,25 @@
                 "Label": "Patent",
                 "Description": "You gain increased mastery over a single engineered device of your creation that is not a consumable. Your Patented device does not malfunction when being used.<br>Furthermore, if a construct or gadget, it takes one-quarter the fuel as normally required for a single use. This stacks with the reduction for certain devices (such as strike effect gadgets).<br>The device may malfunction condition from other circumstances or abilities. This bonus only applies to your Patent device, and does not extend to Innovated devices (even if they are of your Patented device)."
             },
+            "PracticedPrecision": {
+                "Label": "Practiced Precision",
+                "Description": "You do not take disadvantage to your ranged attack roll while being within 5 feet of a hostile creature, even if you don‘t attack them in melee first. You also gain the Sharpshooter feat for free. If you already had it, you gain the Archery fighting style (applicable to firearms only)."
+            },
             "PrecisionGuesswork": {
                 "Label": "Precision Guesswork",
                 "Description": "You spend half the required Crafting Points for the Coolness under Fire, Works as Intended, and Shutdown abilities."
+            },
+            "ProtectiveShell": {
+                "Label": "Protective Shell",
+                "Description": "All your constructs always benefit from the Coated Interior and Efficient Fuel modifications (for a total fuel reduction of 1/8 the normal cost for constructs). You may also double the Construct‘s Challenge Rating to its maximum hit points.<br>Also, whenever you activate a gadget that requires a harness or concentration, you gain temporary hit points equal to 1d10 + your Tinker level, which remain until the gadget stops operating. This does not stack with the benefit of the Coated Interior modification."
+            },
+            "QuickCooldown": {
+                "Label": "Quick Cooldown",
+                "Description": "Starting when you choose this archetype at 3rd level, your gadgets and constructs always benefit from the Quick Use and Quick Startup modifications, respectively. This has no cost."
+            },
+            "QuickReload": {
+                "Label": "Quick Reload",
+                "Description": "Starting when you choose this archetype at 3rd level, you may use a bonus action to reload a firearm instead of an action. If you perform the Touch-Blast Strike special attack or attack with your firearm as a melee attack, you can also reload as part of the action, and you may add your proficiency bonus to attacks with firearms without bayonets. If you use a bayonet, you deal 2 extra points of damage with melee attacks with them."
             },
             "QuickTech": {
                 "Label": "Quick Tech",
@@ -465,6 +505,14 @@
             "Shutdown": {
                 "Label": "Shutdown",
                 "Description": "You may expend 2 Crafting Points and a bonus action to increase the malfunction rate of any device within 10 feet of you by 5 points for up to 1 hour. You can target your own devices to increase the risk of malfunction and Superfunction (up to a 50% chance for either). If you attempt to apply this feature to another device while it is active, its benefits end for the previous one."
+            },
+            "SolidEngineering": {
+                "Label": "Solid Engineering",
+                "Description": "Your devices do not lose charges when they are damaged, and all your devices (except bombs and firearms) consume half the normal fuel (this may stack with the Efficient Fuel modification).<br>Also, you memorize the formula for phlogiston, gaining proficiency in Alchemist‘s Supplies if you don‘t already have it."
+            },
+            "SpecialBullets": {
+                "Label": "Special Bullets",
+                "Description": "You gain the Suffused Arrows talent (gaining proficiency as appropriate), and can create special infused bullets. You also deal 3 extra points of damage with any unmodified bullets."
             },
             "StrikeTheWound": {
                 "Label": "Strike the Wound",
