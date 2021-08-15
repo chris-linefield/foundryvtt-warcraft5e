@@ -83,17 +83,17 @@
             "special": "Uncommon",
             "feats": [
                {
-                  "pack":"warcraft5e.class_feats",
+                  "pack":"warcraft5e.wc5e_class_feats",
                   "node":"0tVoLOidfrTrY0CJ",
                   "label":"WC5E.Feats.Engineering.Label"
                },
                {
-                  "pack":"warcraft5e.class_feats",
+                  "pack":"warcraft5e.wc5e_class_feats",
                   "node":"BxFovVOtLQ9XyD03",
                   "label":"WC5E.Feats.Innovation.Label"
                },
                {
-                  "pack": "warcraft5e.class_feats",
+                  "pack": "warcraft5e.wc5e_class_feats",
                   "node": "kHW3aF52oqfQmbxB",
                   "label": "WC5E.Feats.Patent.Label"
                }
@@ -105,12 +105,12 @@
             "special": "Uncommon",
             "feats": [
                {
-                  "pack":"warcraft5e.class_feats",
+                  "pack":"warcraft5e.wc5e_class_feats",
                   "node":"YVUjckHkEyV9W0oU",
                   "label":"WC5E.Feats.EfficientEngineering.Label"
                },
                {
-                  "pack":"warcraft5e.class_feats",
+                  "pack":"warcraft5e.wc5e_class_feats",
                   "node":"5FiNPLnuI2DzFuj5",
                   "label":"WC5E.Feats.KnackForIt.Label"
                }
@@ -122,12 +122,12 @@
             "special": "Uncommon",
             "feats": [
                {
-                  "pack":"warcraft5e.class_feats",
+                  "pack":"warcraft5e.wc5e_class_feats",
                   "node":"qCIQqXsyeIEOfwge",
                   "label":"WC5E.Feats.TinkerPath.Label"
                },
                {
-                  "pack":"warcraft5e.class_feats",
+                  "pack":"warcraft5e.wc5e_class_feats",
                   "node":"zkaE7Ux6nFOdKSF2",
                   "label":"WC5E.Feats.FlashBomberTinker.Label"
                }
@@ -139,7 +139,7 @@
             "special": "Uncommon",
             "feats": [
                {
-                  "pack":"warcraft5e.class_feats",
+                  "pack":"warcraft5e.wc5e_class_feats",
                   "node":"pZ0s66jTVdto9Z3b",
                   "label":"WC5E.Feats.AbilityScoreImprovement.Label"
                }
@@ -151,12 +151,12 @@
             "special": "Rare",
             "feats": [
                {
-                  "pack":"warcraft5e.class_feats",
+                  "pack":"warcraft5e.wc5e_class_feats",
                   "node":"UqsLXbxQqyYYrl8P",
                   "label":"WC5E.Feats.FavoredCreations.Label"
                },
                {
-                  "pack":"warcraft5e.class_feats",
+                  "pack":"warcraft5e.wc5e_class_feats",
                   "node":"SHZG5Wddrg2jWLa5",
                   "label":"WC5E.Feats.Superfunction.Label"
                }
@@ -168,7 +168,7 @@
             "special": "Rare",
             "feats": [
                {
-                  "pack":"warcraft5e.class_feats",
+                  "pack":"warcraft5e.wc5e_class_feats",
                   "node":"qCIQqXsyeIEOfwge",
                   "label":"WC5E.Feats.TinkerPath.Label"
                }
@@ -180,7 +180,7 @@
             "special": "Rare",
             "feats": [
                {
-                  "pack":"warcraft5e.class_feats",
+                  "pack":"warcraft5e.wc5e_class_feats",
                   "node":"2bHy7g5yI4pfCGha",
                   "label":"WC5E.Feats.CoolnessUnderFire.Label"
                }
@@ -192,7 +192,7 @@
             "special": "Rare",
             "feats": [
                {
-                  "pack":"warcraft5e.class_feats",
+                  "pack":"warcraft5e.wc5e_class_feats",
                   "node":"pZ0s66jTVdto9Z3b",
                   "label":"WC5E.Feats.AbilityScoreImprovement.Label"
                }
@@ -204,7 +204,7 @@
             "special": "Epic",
             "feats": [
                {
-                  "pack":"warcraft5e.class_feats",
+                  "pack":"warcraft5e.wc5e_class_feats",
                   "node":"JdAXjMxVRIm1S83C",
                   "label":"WC5E.Feats.ConsistentInnovations.Label"
                }
@@ -216,12 +216,12 @@
             "special": "Epic",
             "feats": [
                {
-                  "pack":"warcraft5e.class_feats",
+                  "pack":"warcraft5e.wc5e_class_feats",
                   "node":"qCIQqXsyeIEOfwge",
                   "label":"WC5E.Feats.TinkerPath.Label"
                },
                {
-                  "pack":"warcraft5e.class_feats",
+                  "pack":"warcraft5e.wc5e_class_feats",
                   "node":"sKw4cffExx8pfW6O",
                   "label":"WC5E.Feats.Scavenge.Label"
                }
@@ -233,12 +233,12 @@
             "special": "Epic",
             "feats": [
                {
-                  "pack":"warcraft5e.class_feats",
+                  "pack":"warcraft5e.wc5e_class_feats",
                   "node":"vH3lv5vHjBAW1FBf",
                   "label":"WC5E.Feats.Evasion.Label"
                },
                {
-                  "pack":"warcraft5e.class_feats",
+                  "pack":"warcraft5e.wc5e_class_feats",
                   "node":"s0WyJ609hEA2FnwZ",
                   "label":"WC5E.Feats.WorksAsIntended.Label"
                }
@@ -250,7 +250,7 @@
             "special": "Epic",
             "feats": [
                {
-                  "pack":"warcraft5e.class_feats",
+                  "pack":"warcraft5e.wc5e_class_feats",
                   "node":"pZ0s66jTVdto9Z3b",
                   "label":"WC5E.Feats.AbilityScoreImprovement.Label"
                }
@@ -262,7 +262,7 @@
             "special": "Legendary",
             "feats": [
                {
-                  "pack":"warcraft5e.class_feats",
+                  "pack":"warcraft5e.wc5e_class_feats",
                   "node":"KCzDiZJsJ0ZNgxFM",
                   "label":"WC5E.Feats.BattleTested.Label"
                }
@@ -274,7 +274,7 @@
             "special": "Legendary",
             "feats": [
                {
-                  "pack":"warcraft5e.class_feats",
+                  "pack":"warcraft5e.wc5e_class_feats",
                   "node":"qCIQqXsyeIEOfwge",
                   "label":"WC5E.Feats.TinkerPath.Label"
                }
@@ -286,12 +286,12 @@
             "special": "Legendary",
             "feats": [
                {
-                  "pack":"warcraft5e.class_feats",
+                  "pack":"warcraft5e.wc5e_class_feats",
                   "node":"YVUjckHkEyV9W0oU",
                   "label":"WC5E.Feats.EfficientEngineering.Label"
                },
                {
-                  "pack":"warcraft5e.class_feats",
+                  "pack":"warcraft5e.wc5e_class_feats",
                   "node":"Pfnsk5vTjTJK5yJo",
                   "label":"WC5E.Feats.QuickTech.Label"
                }
@@ -303,7 +303,7 @@
             "special": "Legendary",
             "feats": [
                {
-                  "pack":"warcraft5e.class_feats",
+                  "pack":"warcraft5e.wc5e_class_feats",
                   "node":"pZ0s66jTVdto9Z3b",
                   "label":"WC5E.Feats.AbilityScoreImprovement.Label"
                }
@@ -315,7 +315,7 @@
             "special": "Artifact",
             "feats": [
                {
-                  "pack":"warcraft5e.class_feats",
+                  "pack":"warcraft5e.wc5e_class_feats",
                   "node":"pi3ZVUfOt67NRxz1",
                   "label":"WC5E.Feats.Shutdown.Label"
                }
@@ -327,7 +327,7 @@
             "special": "Artifact",
             "feats": [
                {
-                  "pack":"warcraft5e.class_feats",
+                  "pack":"warcraft5e.wc5e_class_feats",
                   "node":"lkuZuFTvus8lphWf",
                   "label":"WC5E.Feats.PrecisionGuesswork.Label"
                }
@@ -339,7 +339,7 @@
             "special": "Artifact",
             "feats": [
                {
-                  "pack":"warcraft5e.class_feats",
+                  "pack":"warcraft5e.wc5e_class_feats",
                   "node":"pZ0s66jTVdto9Z3b",
                   "label":"WC5E.Feats.AbilityScoreImprovement.Label"
                }
@@ -351,7 +351,7 @@
             "special": "Artifact",
             "feats": [
                {
-                  "pack":"warcraft5e.class_feats",
+                  "pack":"warcraft5e.wc5e_class_feats",
                   "node":"OddXpvUlobuwrFOK",
                   "label":"WC5E.Feats.EngineeringMastery.Label"
                }
@@ -367,7 +367,7 @@
                   "level": "3",
                   "feats": [
                      {
-                        "pack":"warcraft5e.class_feats",
+                        "pack":"warcraft5e.wc5e_class_feats",
                         "node":"IHkdG7wrZ62CpvtN",
                         "label":"WC5E.Feats.ExplosiveMastery.Label"
                      }
@@ -377,7 +377,7 @@
                   "level": "6",
                   "feats": [
                      {
-                        "pack":"warcraft5e.class_feats",
+                        "pack":"warcraft5e.wc5e_class_feats",
                         "node":"YaZ6QGI1PROtCSFC",
                         "label":"WC5E.Feats.CornerBlastStrike.Label"
                      }
@@ -387,7 +387,7 @@
                   "level": "10",
                   "feats": [
                      {
-                        "pack":"warcraft5e.class_feats",
+                        "pack":"warcraft5e.wc5e_class_feats",
                         "node":"trtveMlKtVaDTEyX",
                         "label":"WC5E.Feats.GreaterFlashBomber.Label"
                      }
@@ -397,7 +397,7 @@
                   "level": "14",
                   "feats": [
                      {
-                        "pack":"warcraft5e.class_feats",
+                        "pack":"warcraft5e.wc5e_class_feats",
                         "node":"f9e8WTH6rtXrZ2W5",
                         "label":"WC5E.Feats.ExplosiveResistance.Label"
                      }
@@ -413,7 +413,7 @@
                   "level": "3",
                   "feats": [
                      {
-                        "pack":"warcraft5e.class_feats",
+                        "pack":"warcraft5e.wc5e_class_feats",
                         "node":"F9WjNpgB8SgAmZJr",
                         "label":"WC5E.Feats.QuickReload.Label"
                      }
@@ -423,7 +423,7 @@
                   "level": "6",
                   "feats": [
                      {
-                        "pack":"warcraft5e.class_feats",
+                        "pack":"warcraft5e.wc5e_class_feats",
                         "node":"nJQ8RrxdQEV7ehjd",
                         "label":"WC5E.Feats.SpecialBullets.Label"
                      }
@@ -433,7 +433,7 @@
                   "level": "10",
                   "feats": [
                      {
-                        "pack":"warcraft5e.class_feats",
+                        "pack":"warcraft5e.wc5e_class_feats",
                         "node":"wF27kRxdBTRfaUpp",
                         "label":"WC5E.Feats.PracticedPrecision.Label"
                      }
@@ -443,7 +443,7 @@
                   "level": "14",
                   "feats": [
                      {
-                        "pack":"warcraft5e.class_feats",
+                        "pack":"warcraft5e.wc5e_class_feats",
                         "node":"vvNZakY2Z8al9mWh",
                         "label":"WC5E.Feats.FirearmImprovement.Label"
                      }
@@ -459,7 +459,7 @@
                   "level": "3",
                   "feats": [
                      {
-                        "pack":"warcraft5e.class_feats",
+                        "pack":"warcraft5e.wc5e_class_feats",
                         "node":"weVaL0aKagU09Ox3",
                         "label":"WC5E.Feats.QuickCooldown.Label"
                      }
@@ -469,7 +469,7 @@
                   "level": "6",
                   "feats": [
                      {
-                        "pack":"warcraft5e.class_feats",
+                        "pack":"warcraft5e.wc5e_class_feats",
                         "node":"HfkNtAfjkgE37g5B",
                         "label":"WC5E.Feats.ExtensiveDesigning.Label"
                      }
@@ -479,7 +479,7 @@
                   "level": "10",
                   "feats": [
                      {
-                        "pack":"warcraft5e.class_feats",
+                        "pack":"warcraft5e.wc5e_class_feats",
                         "node":"PFIfmXoDtbrySQVv",
                         "label":"WC5E.Feats.SolidEngineering.Label"
                      }
@@ -489,7 +489,7 @@
                   "level": "14",
                   "feats": [
                      {
-                        "pack":"warcraft5e.class_feats",
+                        "pack":"warcraft5e.wc5e_class_feats",
                         "node":"GYrmVcJOj9HJnOKA",
                         "label":"WC5E.Feats.ProtectiveShell.Label"
                      }

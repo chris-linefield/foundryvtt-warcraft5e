@@ -36,7 +36,7 @@
   ],
   "packs": [
     {
-      "name": "classes",
+      "name": "wc5e_classes",
       "label": "Wc5e | Classes",
       "path": "./packs/classes.db",
       "entity": "Item",
@@ -44,7 +44,7 @@
       "package": "warcraft5e"
     },
     {
-      "name": "class_feats",
+      "name": "wc5e_class_feats",
       "label": "Wc5e | Class Features",
       "path": "./packs/class_feats.db",
       "entity": "Item",
@@ -52,7 +52,7 @@
       "package": "warcraft5e"
     },
   	{
-      "name": "races",
+      "name": "wc5e_races",
       "label": "Wc5e | Races",
       "path": "./packs/races.db",
       "entity": "Item",
@@ -60,7 +60,7 @@
       "package": "warcraft5e"
     },
     {
-      "name": "spells",
+      "name": "wc5e_spells",
       "label": "Wc5e | Spells",
       "path": "./packs/spells.db",
       "entity": "Item",
@@ -69,6 +69,7 @@
     }
   ],
   "minimumCoreVersion": "0.8.2",
+  "compatibleCoreVersion": "0.8.8",
   "url": "https://github.com/ArthegaAsdweri/foundryvtt-warcraft5e",
   "manifest": "https://github.com/ArthegaAsdweri/foundryvtt-warcraft5e/raw/master/system.json",
   "download": "https://github.com/ArthegaAsdweri/foundryvtt-warcraft5e/archive/master.zip"

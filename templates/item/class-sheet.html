@@ -28,6 +28,12 @@
             </p>
             <br>
             {{#each item.data.blocks}}
+                {{#if @last}}
+                    <div class="artwork">
+                        <img src="{{../item.data.artwork.2.src}}">
+                        <a href="{{../item.data.artwork.2.url}}" target="_blank">&copy;{{../item.data.artwork.2.credit}}</a>
+                    </div>
+                {{/if}}
                 <h4>{{localize this.title}}</h4>
                 <p>{{{localize this.content}}}</p>
                 <br>
@@ -37,10 +43,6 @@
         </div>
 
         <div class="tab details" data-group="primary" data-tab="details">
-            <div class="artwork">
-                <img src="{{item.data.artwork.2.src}}">
-                <a href="{{item.data.artwork.2.url}}" target="_blank">&copy;{{item.data.artwork.2.credit}}</a>
-            </div>
             <h3>Class Features</h3>
             <h4>Hit Points</h4>
             <p>
@@ -71,7 +73,7 @@
                 {{#if item.data.toolProfs}}
                     {{#each item.data.toolProfs}}
                         {{#unless @first}}{{#if @last}} and {{else}},{{/if}}{{/unless}}
-                        {{lookup ../config.toolProficiencies this}}
+                        {{{lookup ../config.toolProficiencies this}}}
                     {{/each}}
                 {{else}}
                 None

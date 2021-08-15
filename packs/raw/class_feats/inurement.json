@@ -1,6 +1,6 @@
 {
-   "_id":"8sZenEzgW3Ophkab",
-   "name":"Alchemy",
+   "_id":"VzBpflaYYB9YlOwi",
+   "name":"Inurement",
    "permission":{
       "default":0
    },
@@ -9,7 +9,7 @@
       "wcType": "feat",
       "wcCategory": "WC5E.SkillCategories.General",
       "description":{
-         "value":"WC5E.Feats.Alchemy.Description",
+         "value":"WC5E.Feats.Inurement.Description",
          "chat":"",
          "unidentified":""
       },
@@ -67,7 +67,7 @@
    "flags":{
 
    },
-   "img":"icons/skills/toxins/cauldron-pot-bubbles-green.webp",
+   "img":"icons/consumables/potions/bottle-conical-fumes-green.webp",
    "effects":[
 
    ]
