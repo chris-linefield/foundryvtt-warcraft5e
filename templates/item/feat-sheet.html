@@ -13,6 +13,9 @@
     </header>
 
     <section class="skillContent">
+        {{#if item.data.requirements}}
+        <i>Prerequisites:</i> {{item.data.requirements}}<br><br>
+        {{/if}}
         {{{localize item.data.description.value}}}
         {{#if item.data.description.options}}
             <ul>

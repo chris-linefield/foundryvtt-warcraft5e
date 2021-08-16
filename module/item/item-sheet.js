@@ -18,7 +18,7 @@ export class WcItemSheet extends ItemSheet5e {
             this.options.width = this.position.width =  850;
             this.options.height = this.position.height = 800;
         }
-        else if(wcType === 'feat') {
+        else if(wcType === 'feat' || wcType === "talent") {
             this.options.height = this.position.height = null;
         }
     }
@@ -26,6 +26,9 @@ export class WcItemSheet extends ItemSheet5e {
     get template() {
         let wcType = this.object.data.data.wcType;
         if(typeof(wcType) !== 'undefined') {
+            if(wcType === 'talent') {
+                wcType = 'feat';
+            }
             return `modules/warcraft5e/templates/item/${wcType}-sheet.html`;
         }
         else {

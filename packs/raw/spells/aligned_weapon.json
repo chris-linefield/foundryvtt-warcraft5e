@@ -1,6 +1,6 @@
 {
-  "_id":"QYWXxIcbuTbMBZjV",
-  "name":"Abandonment Aura",
+  "_id":"R0PWgEOs3ktIUB9M",
+  "name":"Aligned Weapon",
   "permission":{
     "default":0
   },
@@ -8,7 +8,7 @@
   "data":{
     "wcType": "spell",
     "description":{
-      "value":"WC5E.Spells.AbandonmentAura.Description",
+      "value":"WC5E.Spells.AlignedWeapon.Description",
       "chat":"",
       "unidentified":""
     },
@@ -23,14 +23,14 @@
       "units":"hour"
     },
     "target":{
-      "value":15,
-      "units":"ft",
-      "type":"radius"
+      "value":1,
+      "units":"",
+      "type":"creature"
     },
     "range":{
       "value":null,
       "long":null,
-      "units":"self"
+      "units":"touch"
     },
     "uses":{
       "value":0,
@@ -38,7 +38,7 @@
       "per":""
     },
     "ability":"",
-    "actionType":"save",
+    "actionType":"util",
     "attackBonus":0,
     "chatFlavor":"",
     "critical":null,
@@ -48,16 +48,16 @@
     },
     "formula":"",
     "save":{
-      "ability":"wis",
-      "dc":0,
-      "scaling":"spell"
+      "ability":"",
+      "dc":null,
+      "value":""
     },
-    "level":1,
-    "school":"abj",
+    "level":5,
+    "school":"evo",
     "components":{
       "value":"",
       "vocal":true,
-      "somatic":false,
+      "somatic":true,
       "material":false,
       "ritual":false,
       "concentration":true
@@ -73,15 +73,15 @@
       "prepared":false
     },
     "scaling":{
-      "mode":"level",
-      "formula":"1d6"
+      "mode":"none",
+      "formula":""
     }
   },
   "sort":100001,
   "flags":{
 
   },
-  "img":"systems/dnd5e/icons/skills/shadow_18.jpg",
+  "img":"icons/skills/melee/sword-stuck-glowing-pink.webp",
   "effects":[
 
   ]

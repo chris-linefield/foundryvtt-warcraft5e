@@ -794,6 +794,19 @@
                 "Description": "Destructive energy radiates from you in an aura with a 15-foot radius. Until the spell ends, the aura moves with you, centered on you. Each creature hostile to you that is in the aura takes 1 extra point of damage from all weapon attacks. A creature can negate this effect if they succeed on a Spirit saving throw once within the aura‘s area.<br> This spell is suppressed by the protection from good and evil (and similar abjurations). This is an aura bonus.",
                 "Heightened": "For each spell level above 1st, the extra damage increases by 1 point (up to 5 extra points of damage at spell level 5).<br> Note. This spell suppresses and is suppressed by the devotion aura spell."
             },
+            "AlignedWeapon": {
+                "Label": "Aligned Weapon",
+                "Description": "You imbue a weapon you touch with power aligned to the Holy Light or the Forgotten Shadow. Until the spell ends, the weapon emits bright light in a 30-foot-radius and dim light for an additional 30 feet, colored golden white (if Holy Light) or pale violet (if Forgotten Shadow). In addition, weapon attacks made with it deal an extra 2d8 extra damage on a hit (holy damage if Holy Light, or shadow damage if Forgotten Shadow). If the weapon isn‘t already a magic weapon, it becomes one for the duration.<br>As a bonus action on your turn, you can dismiss this spell and cause the weapon to emit a lasting blast. Each creature of your choice that you can see within 30 feet of you must make a Stamina saving throw. On a failed save, a creature takes 4d8 damage (holy or shadow), and it is blinded for 1 minute. On a successful save, a creature takes half as much damage and isn‘t blinded. At the end of each of its turns, a blinded creature can make a Stamina saving throw, ending the effect on itself on a success.<br>Special. If aligned to the Forgotten Shadow, the weapon may, at your will, shed no light instead. In that case, releasing the spell deals extra 1d8 shadow damage."
+            },
+            "AmplifyMagic": {
+                "Label": "Amplify Magic",
+                "Description": "You amplify magical effects in the area of effect. All spells cast from or into the area of effect are heightened one spell level. If the spell cannot be heightened (or if heightening has no effect), it heals 25% more, damages 25% more, or remains for 25% longer.<br><i>Dampen Magic</i>: This spell may be reversely cast. If so, the spells cast into or from the area of effect are counted one level lower (if eligible) and are reversely affected (heals 25% less, deals 25% less damage, or remains for 25% less time)."
+            },
+            "AncestralGuardian": {
+                "Label": "Ancestral Guardian",
+                "Description": "You conjure spirits to guard and advise the target in battle, tapping into the target's ancestral bonds. The target regains 2d4 hit points. At the beginning of every round, the caster must succeed on a sigil roll to affect the target again.<br>Also, so long as this sigil is active, the target also takes 1 less point of damage from weapon and spell attacks and effects for that round. The reduction to damage is an aura effect.<br>Constructs gain no benefit from this spell.<br><i>Special</i>: If the caster and the target share ancestry or share a Blood Oath (see Chapter 10), the damage reduction increases by 1 point.",
+                "Heightened": "The healing increases by one dice per every level above 2nd, and reduction to damage increases by one point per every two levels above 2nd."
+            },
             "DetectMagic": {
                 "Label": "Detect Magic",
                 "Description": "For the duration, you sense the presence of magic within 30 feet of you. If you sense magic in this way, you can use your action to see a faint aura around any visible creature or object in the area that bears magic, and you learn its school of magic, if any. The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt."
@@ -866,6 +879,25 @@
             },
             "SpellCategories": {
                 "Strike": "Strike spells modify a successful attack. See Chapter 9 for more details on strike effects. Strike and shot effects also usually a potential number of attacks equal to double the spell level. For instance, using kill shot as a 2nd level spell enhances 4 ranged attacks. The caster can have multiple potential strikes active, but cannot apply two shot or strike abilities to the same attack unless otherwise specified."
+            }
+        },
+
+        "Talents": {
+            "ActionSurge": {
+                "Label": "Action Surge",
+                "Description": "You can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action on top of your regular action and a possible bonus action. Once you use this feature, you must finish a short before you can use it again. This talent can be taken again at level 17 for another use."
+            },
+            "Aggressive": {
+                "Label": "Aggressive",
+                "Description": "You may use your bonus action to take the Dash action, but only to approach a hostile creature that you can see."
+            },
+            "AgileLeap": {
+                "Label": "Agile Leap",
+                "Description": "You may use a bonus action to leap, moving at half your total speed. This movement does not provoke reactions. If you have the ability to glide, hover, or fly (via spell, gadget, or ability), you may choose to use this ability in mid-air (effectively changing your trajectory as a double-jump). This jump also counts as a dash for the purposes of other abilities.<br>You are treated as if you always benefit from the jump spell."
+            },
+            "BerserkerRage": {
+                "Label": "Berserker Rage",
+                "Description": "You may cast the berserker rage spell on yourself as a bonus action. This rage continues until you end it with a bonus action, or until the rage ends early (as per the spell‘s description).<br>This spell cannot be dispelled, but can be overwhelmed by a calm emotions spell or similar effect that would suppress this ability, and does not prevent use of spell-like abilities derived from talents. You can enter a rage this way a number of times equal to your proficiency bonus before replenishing on a long rest.<br>You can take this talent again. If you do so, you do not gain a level of exhaustion at the end (regardless of how long you rage)<br>If you reach 9th level of Warrior, your rage only ends if you are knocked unconscious or if you end it willingly."
             }
         },
 

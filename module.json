@@ -51,6 +51,14 @@
       "system": "dnd5e",
       "package": "warcraft5e"
     },
+    {
+      "name": "wc5e_class_talents",
+      "label": "Wc5e | Class Talents",
+      "path": "./packs/class_talents.db",
+      "entity": "Item",
+      "system": "dnd5e",
+      "package": "warcraft5e"
+    },
   	{
       "name": "wc5e_races",
       "label": "Wc5e | Races",
