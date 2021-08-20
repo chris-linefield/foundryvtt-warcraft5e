@@ -1,0 +1,74 @@
+{
+   "_id":"Fnq0LpmwyIGHKSjK",
+   "name":"Brutal Critical",
+   "permission":{
+      "default":0
+   },
+   "type":"feat",
+   "data":{
+      "wcType": "talent",
+      "wcCategory": "WC5E.SkillCategories.General",
+      "description":{
+         "value":"WC5E.Talents.BrutalCritical.Description",
+         "chat":"",
+         "unidentified":""
+      },
+      "source":"PHB page 161",
+      "activation":{
+         "type":"bonus",
+         "cost":1,
+         "condition":""
+      },
+      "duration":{
+         "value":null,
+         "units":""
+      },
+      "target":{
+         "value":null,
+         "units":null,
+         "type":"self"
+      },
+      "range":{
+         "value":null,
+         "long":null,
+         "units":"self"
+      },
+      "uses":{
+         "value":0,
+         "max":0,
+         "per":"",
+         "type":""
+      },
+      "ability":"",
+      "actionType":"",
+      "attackBonus":0,
+      "chatFlavor":"",
+      "critical":null,
+      "damage":{
+         "parts":[
+
+         ],
+         "versatile":"",
+         "value":""
+      },
+      "formula":"",
+      "save":{
+         "ability":"",
+         "dc":null,
+         "value":"",
+         "scaling":"spell"
+      },
+      "requirements":null,
+      "recharge":{
+         "value":null,
+         "charged":false
+      }
+   },
+   "flags":{
+
+   },
+   "img":"icons/skills/wounds/injury-pain-body-orange.webp",
+   "effects":[
+
+   ]
+}

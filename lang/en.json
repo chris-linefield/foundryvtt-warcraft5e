@@ -775,7 +775,8 @@
 
         "SkillCategories": {
             "General": "General",
-            "Strike": "Strike"
+            "Strike": "Strike",
+            "Stance": "Stance"
         },
 
         "SpellSheet": {
@@ -898,6 +899,70 @@
             "BerserkerRage": {
                 "Label": "Berserker Rage",
                 "Description": "You may cast the berserker rage spell on yourself as a bonus action. This rage continues until you end it with a bonus action, or until the rage ends early (as per the spell‘s description).<br>This spell cannot be dispelled, but can be overwhelmed by a calm emotions spell or similar effect that would suppress this ability, and does not prevent use of spell-like abilities derived from talents. You can enter a rage this way a number of times equal to your proficiency bonus before replenishing on a long rest.<br>You can take this talent again. If you do so, you do not gain a level of exhaustion at the end (regardless of how long you rage)<br>If you reach 9th level of Warrior, your rage only ends if you are knocked unconscious or if you end it willingly."
+            },
+            "Bladestorm": {
+                "Label": "Bladestorm",
+                "Description": "You may enter this stance with an action. While in this stance, you whirl with your weapon outstretched, automatically dealing your melee weapon damage to all creatures within the weapon‘s reach of you. This damage is treated as an area effect. Affected targets are entitled an Agility saving throw to halve the damage. You can apply strike effects, but they affect only targets who failed their saving throw, and one strike affects one target.<br>You cannot take any other actions in this stance other than maintaining it. You can enter this stance a number of times equal to your proficiency bonus before replenishing on a short rest, and the effects of it remaining until the beginning of your turn in the next round unless you extend it using the same actions.<br>While in this stance, you have advantage against all movement-impairing effects or effects that result in loss of control for your character, and you do not provoke reactions from movement from a creature who has failed their saving throw to half damage. Your speed, however, is halved in this stance. If you are unable to use your action, or if you cannot move at least 5 feet every round, this stance ends. If you are in this stance more than 3 rounds, you gain the incapacitated condition for after you are finished. The condition remains for 1 round per round you were in the stance beyond the first three."
+            },
+            "BrutalCritical": {
+                "Label": "Brutal Critical",
+                "Description": "You can roll one additional weapon damage die when determining the extra damage for a critical hit with a melee weapon attack. This talent can be taken again up to two times (resulting in three additional dice)."
+            },
+            "BurningBlades": {
+                "Label": "Burning Blades",
+                "Description": "As a bonus action, you can ignite any number of weapons you are wielding with magical energies. The weapon acts as if it gained the Elemental Damage Infusion (deals 1d6 extra elemental damage) for 1 minute and becomes magical. If you end your turn without attacking a target (without necessarily hitting them), the weapon loses the infusion and is extinguished. You have a number of uses of this ability (and can ignite a total number of weapons) equal to your Strength or Stamina modifier (minimum 1).<br>Despite the talent‘s name, you can choose which damage type the weapon deals (not necessarily fire) upon gaining this talent. You regain all the uses of this ability at the end of a long rest. You can regain a single use if you kill or reduce a creature to 0 hit points, so long as that creature can deal the same type of elemental damage (such as by spell, attack, or aura)."
+            },
+            "Camouflage": {
+                "Label": "Camouflage",
+                "Description": "You can use the Hide action as a bonus action on your turn. If you are also proficient with the Agility (Stealth) skill, you may cast the invisibility spell by spending an action and a bonus action. After being used, the spell cannot be used again until after a short rest. Also, you can‘t be tracked by nonmagical means, unless you choose to leave a trail, even outside your favored terrain (if you have one). "
+            },
+            "CloakOfShadows": {
+                "Label": "Cloak of Shadows",
+                "Description": "You cloak yourself with bits of the fading shadows of mana, hiding even from the effects of spells that affect you.<br>As an Action, you can cloak yourself with magical shadows for until the end of your turn in the next round. Any spell of a spell level less than one-half your level (round down) cast upon you can't affect you or anything you hold. Such a spell can target you or something you hold, but the spell has no effect. Similarly, your area is excluded from the areas affected by such spells. You can activate your Cloak of Shadows ability for a total number of rounds equal to one-half your level, replenishing on a long rest, and can extend an active cloak of shadows with no action so long as you have remaining rounds.<br>You may cloak yourself as a reaction instead, but each round consumed this way costs double the normal number of rounds of this ability. This effect otherwise acts as a globe of invulnerability spell of a spell level equal to one-half your level (round down). "
+            },
+            "CunningAction": {
+                "Label": "Cunning Action",
+                "Description": "Your quick thinking and agility allow you to move and act quickly. You can take a bonus action on each of your turns in combat to use the following action: Dash, Disengage, or Hide."
+            },
+            "DangerSense": {
+                "Label": "Danger Sense",
+                "Description": "You gain an uncanny sense of when things nearby aren‘t as they should be, giving you an edge when you dodge away from danger. You have advantage on Agility saving throws against effects that you can see, such as traps and spells. To gain this benefit, you can‘t be blinded, deafened, or incapacitated. You must be able to see the effect before it takes place (such as seeing a character cast a spell or the outer mechanism of the trap)."
+            },
+            "DarkRanger": {
+                "Label": "Dark Ranger",
+                "Description": "You add the following spells to your hunter spell list: banshee‟s curse, death coil, death pact, drain life, death ward, and silence. You may also add undead to the list of creatures you can bind and conjure (allowing you to also charm and dominate undead)."
+            },
+            "DefensiveStance": {
+                "Label": "Defensive Stance",
+                "Description": "You may enter this stance with a bonus action. While in this stance, you have resistance against piercing damage.<br>This stance is broken if you move more than half your full movement in a single round, or if you are no longer using a shield."
+            },
+            "DeflectMissiles": {
+                "Label": "Deflect Missiles",
+                "Description": "You can use your reaction to deflect or catch a ranged weapon attack you are hit by. When you do so, the damage you take from the attack is reduced by 1d10 + your Strength or Agility modifier (your choice) + your level.<br>If you reduce the damage to 0 and you have at least 2 Monk levels, you can catch the missile if it is small enough for you to hold in one hand and you have at least one hand free. If you catch a missile in this way, you can spend 1 ki point to make a ranged attack with the weapon or piece of ammunition you just caught, as part of the same reaction. You make this attack with proficiency, regardless of your weapon proficiencies, and the missile counts as a monk weapon for the attack. The range of this ability is 20/60 feet."
+            },
+            "DireStrike": {
+                "Label": "Dire Strike",
+                "Description": "You strike at a vulnerable place in the target's body when you may deal your sneak attack damage. Instead of dealing extra sneak attack damage, you may impose a condition on the target on a failed Stamina saving throw. The weapon damage type determines the condition, chosen from the below.<br><br><ul><li><i>Blinded (any)</i>: The target is blinded for until the end of their turn in the next round.</li><li><i>Kidney Shot (piercing or bludgeoning, requires level 5)</i>: The target is stunned until the end of their turn in the next round.</li><li><i>Rupture (slashing or piercing)</i>: The target gains the bleeding condition for 1 minute, with the value of blood loss equal to your Agility modifier. Furthermore, unless they take precautions, they leave a trail of blood behind them. The creature can attempt another Stamina saving throw at the beginning of every round to end this effect. Creatures that don't have blood (or do not require it to survive) cannot be harmed by bleeding.</li><li><i>Sap (bludgeoning)</i>: The creature is charmed for one minute and looks visibly dazed and flat-footed. While charmed by this effect, the creature is incapacitated and has a speed of 0. The effect ends for an affected creature if it takes any damage or if someone else uses an action to shake the creature out of its stupor. The creature can attempt another Stamina saving throw once every round to end this effect. Once a creature is affected by this ability, it is immune to it until it performs a short rest.</li></ul><br>For each saving throw attempt the target makes against a dire strike ability, they gain a cumulative +1 to their saving throws against this ability. This applies to saving throws rolled every round as well as new applications of effects that were already chosen. The bonus to saving throws remains for up to 24 hours. If the rupture strike, for example, has a DC of 14 the first round, the DC decreases to 13 the second round, and 12 the third round. If choosing kidney shot, the DC decreases the more the ability is applied."
+            },
+            "DreadAmbusher": {
+                "Label": "Dread Ambusher",
+                "Description": "You master the art of the ambush. You gain a bonus your initiative rolls equal to your Spirit modifier. Also, the start of your first turn of each combat encounter, your speed increases by 10 feet, which lasts until the end of that turn. When you retreat from combat, you have advantage to any Agility (Stealth) check to escape being pursued."
+            },
+            "Elusive": {
+                "Label": "Elusive",
+                "Description": "You are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while you aren‘t incapacitated."
+            },
+            "EssenceTouch": {
+                "Label": "Essence Touch",
+                "Description": "Whenever you touch a creature with innate special abilities (such as innate spellcasting), you can gain one use of their innate special abilities, usable only once before the essence fades away. This costs no mana, but you cannot steal an ability that is also a spell unless you had the level to cast it normally. Monks referring to their ki spell ability for the purposes of this talent."
+            },
+            "Evasion": {
+                "Label": "Evasion",
+                "Description": "You can nimbly dodge out of the way of certain area effects, such as a dragon‘s fiery breath or an ice storm spell. When you are subjected to an effect that allows you to make an Agility saving throw to take half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail."
+            },
+            "Execute": {
+                "Label": "Execute",
+                "Description": "Your attack carries with it the weight of doom. If you successfully deal damage with this strike effect against a bloodied target, the attack deals 50% extra damage.<br>After being used, this cannot be used again until after a short rest. If the target is killed or reduced to 0 hit points by this strike, you regain the use of it. If the target has any ability that would prevent it from being reduced to 0 hit points when it otherwise should have (such as the Relentless talent, the Undead Fortitude trait, or similar ability that would allow an escape) it must make a Stamina saving throw against your DC or else it fails and it is reduced to 0 hit points.<br>This talent can be taken multiple times, each time adding another use before requiring a short rest. This is a strike effect."
             }
         },
 
