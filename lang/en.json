@@ -963,6 +963,74 @@
             "Execute": {
                 "Label": "Execute",
                 "Description": "Your attack carries with it the weight of doom. If you successfully deal damage with this strike effect against a bloodied target, the attack deals 50% extra damage.<br>After being used, this cannot be used again until after a short rest. If the target is killed or reduced to 0 hit points by this strike, you regain the use of it. If the target has any ability that would prevent it from being reduced to 0 hit points when it otherwise should have (such as the Relentless talent, the Undead Fortitude trait, or similar ability that would allow an escape) it must make a Stamina saving throw against your DC or else it fails and it is reduced to 0 hit points.<br>This talent can be taken multiple times, each time adding another use before requiring a short rest. This is a strike effect."
+            },
+            "FadingShadow": {
+                "Label": "Fading Shadow",
+                "Description": "You may cast the blink step spell. After being used, this cannot be used again until after a short rest. This talent can be taken multiple times, each time adding another two uses of this ability before a short rest. If your level is 9, each use acts as the dimension door spell instead."
+            },
+            "FanOfKnives": {
+                "Label": "Fan of Knives",
+                "Description": "Whenever you use an action to attack with a light throwing weapon (such as daggers, darts, light hammers, handaxes, or javelins), you may throw another of the same type as part of the same attack action. You may still use two-weapon fighting to throw a third weapon as a bonus action. This stacks with the Extra Attack feature, if you possess it (adding one thrown attack with the first action for each extra attack).<br>You may instead spend your action and bonus action to release the same number of weapons as a 20-foot sphere (all around you), a 15-foot cone (in a quarter-circle), or a line 30 feet long, 5 feet wide in any direction you choose. This requires throwing up to three weapons, and deals damage as if they all hit, with an Agility saving throw to half damage.<br><i>Special</i>: If you have the Sneak Attack feature, you may add one additional point of damage per sneak attack dice to the total damage, but only if the target qualifies for a sneak attack. This is an area effect."
+            },
+            "Farsight": {
+                "Label": "Farsight",
+                "Description": "You increase the range of all ranged weapons of one type (crossbows, bows, firearms, axes, etc.) by half."
+            },
+            "FavoredByElune": {
+                "Label": "Favored By Elune",
+                "Description": "You may add the find familiar spell to your spell list, but may only choose an owl as a familiar. Furthermore, your link to your owl familiar is 250 feet, instead of the normal 100 feet. If you are standing in moonlight, the link becomes 500 feet instead. If you later choose the Beastmaster Hunter archetype, you may make your familiar your bonded creature, in which case the creature is treated as both a familiar and hunter‘s companion."
+            },
+            "FavoredEnemy": {
+                "Label": "Favored Enemy",
+                "Description": "You may use the Favored Enemy ability as a 1st level Hunter, or choose another favored enemy if you normally have it (such as by being a hunter). You cannot take this talent more than 3 times."
+            },
+            "FeralSenses": {
+                "Label": "Feral Senses",
+                "Description": "You gain preternatural senses that help you fight creatures you can‘t see. When you attack a creature you can‘t see, your inability to see it doesn‘t impose disadvantage on your attack rolls against it. You also permanently benefit from the see invisibility spell as if you cast it, but only so long as the enemy is within 60 feet."
+            },
+            "FlashBomber": {
+                "Label": "Flash Bomber",
+                "Description": "You may use a bonus action or reaction to activate or make use of the Use Object action for alchemical items or explosives. This may be used at a number of times equal to your Intelligence modifier before a short rest."
+            },
+            "FocusedAttack": {
+                "Label": "Focused Attack",
+                "Description": "You may choose to deal focused attacks instead of risking missed attacks. Whenever you score a successful ranged attack and have any remaining attacks (such as from the Extra Attack feature or the haste spell), you may spend the extra attacks to add the minimum possible damage the weapon attack to your damage result. The damage is resolved as made by one weapon attack (and uses one point of ammunition as normal, or one malfunction check). For instance, if you successfully deal a longbow ranged attack for 1d8 + 4, and have an additional attack from the haste spell, you may expend the attack to add 5 points of damage to the initial attack (for a total of 1d8 + 9) damage."
+            },
+            "Hamstring": {
+                "Label": "Hamstring",
+                "Description": "As a strike, you may cut a target‘s hamstring. The target‘s movement speed is reduced by 10 feet for one minute. Also, whenever they move more than half their speed or whenever they use the Dash action, they fall prone. The target (or an ally) may use an action to roll a Stamina saving throw against this ability, which ends the condition. It ends automatically at the end of a short rest. This speed reduction can be applied multiple times, to a minimum speed of 0 (in which case the target is treated as if restrained). This is a strike effect. This strike can be used a number of times equal to your proficiency bonus, with the uses replenishing at the end of a short rest."
+            },
+            "HeroicLeap": {
+                "Label": "Heroic Leap",
+                "Description": "You may make a heroic leap, jumping up to twice your normal distance, and can spend an action at the end. If the action is a melee attack roll, it deals damage equal to your normal weapon damage in a 10-foot sphere, centered on the area you landed on, with an Agility saving throw to half damage. The ground is also turned into difficult terrain (such as rubble) if applicable. Once used, this talent cannot be used again until after a short rest."
+            },
+            "HeroicThrow": {
+                "Label": "Heroic Throw",
+                "Description": "You may throw a weapon further than it can normally go, or throw a melee weapon that does not have that property. You may increase the range of an existing thrown weapon by 60 feet, or give a melee weapon the thrown property (20/60 feet) for one round.<br>On a hit, the weapon can either return to you after being thrown at a target, or knock the target prone (Agility save negates), dropping 5 feet from the target. This is a strike effect."
+            },
+            "HuntersSense": {
+                "Label": "Hunter's Sense",
+                "Description": "You can cast the scrying spell, but can only affect a creature detected by primeval alertness or a favored enemy. The creature must be within 10 miles of you to be affected by this ability. You may use this ability once per long rest. This talent can be taken multiple times, each time increasing the times this ability can be used per long rest by two."
+            },
+            "Indomitable": {
+                "Label": "Indomitable",
+                "Description": "You can reroll a saving throw that you fail. If you do so, you must use the new roll, even if it is lower than the initial roll. You may use this talent a number of times equal to one half your proficiency bonus."
+            },
+            "IndomitableMight": {
+                "Label": "Indomitable Might",
+                "Description": "If you roll a Strength check and the results are less than your Strength score, treat the result as your Strength score instead."
+            },
+            "InsightfulFighting": {
+                "Label": "Insightful Fighting",
+                "Description": "You gain the ability to decipher an opponent's tactics and develop a counter to them. As a bonus action, you can make a Spirit (Insight) check against a creature you can see that isn‘t incapacitated, contested by the target‘s Charisma (Deception) check. If you succeed, you can use your Sneak Attack against that target even if you don‘t have advantage on the attack roll, but not if you have disadvantage, so long as you spend your bonus action to maintain this effect. This benefit lasts for 1 minute or until you successfully use this feature against a different target."
+            },
+            "InsightfulManipulator": {
+                "Label": "Insightful Manipulator",
+                "Description": "If you spend at least 1 minute observing or interacting with another creature outside combat, you can learn certain information about its capabilities compared to your own. The DM tells you if the creature is your equal, superior, or inferior in regard to two of the following characteristics of your choice:<br><br><ul><li>Intelligence, Spirit, or Charisma scores</li><li>Class levels (if any)</li></ul><br>At the DM‘s option, you might also realize you know a piece of the creature‘s history or one of its personality traits, if it has any."
+            },
+            "IronWilledHunter": {
+                "Label": "Iron Willed Hunter",
+                "Description": "You have honed your ability to resist mind-altering powers. You gain proficiency in Spirit saving throws. If you already have this proficiency, you instead gain proficiency in Intelligence or Charisma saving throws (your choice)."
             }
         },
 
