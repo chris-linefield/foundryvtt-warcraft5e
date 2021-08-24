@@ -12,19 +12,59 @@
         </div>
     </header>
 
-    <section class="skillContent">
-        {{#if item.data.requirements}}
-        <i>Prerequisites:</i> {{item.data.requirements}}<br><br>
-        {{/if}}
-        {{{localize item.data.description.value}}}
-        {{#if item.data.description.options}}
-            <ul>
-                {{#each item.data.description.options}}
-                    <li>
-                        {{{localize this}}}
-                    </li>
-                {{/each}}
-            </ul>
-        {{/if}}
+    <nav class="sheet-navigation tabs" data-group="primary">
+        <a class="item active" data-tab="description">Description</a>
+        <a class="item" data-tab="details">Details</a>
+    </nav>
+
+    <section class="sheet-body skillContent">
+        <div class="tab details" data-group="primary" data-tab="description">
+            {{#if item.data.requirements}}
+            <i>Prerequisites:</i> {{item.data.requirements}}<br><br>
+            {{/if}}
+            {{{localize item.data.description.value}}}
+            {{#if item.data.description.options}}
+                <ul>
+                    {{#each item.data.description.options}}
+                        <li>
+                            {{{localize this}}}
+                        </li>
+                    {{/each}}
+                </ul>
+            {{/if}}
+        </div>
+
+        {{!-- Details Tab --}}
+        <div class="tab details" data-group="primary" data-tab="details">
+
+            <input type="text" name="data.wcType.value" value="talent" data-dtype="String"/>
+
+            <h3 class="form-header">{{ localize "DND5E.FeatureUsage" }}</h3>
+
+            {{!-- Item Activation Template --}}
+            {{> "systems/dnd5e/templates/items/parts/item-activation.html"}}
+
+            {{!-- Recharge Requirement --}}
+            {{#if data.activation.type}}
+            <div class="form-group recharge">
+                <label>{{ localize "DND5E.FeatureActionRecharge" }}</label>
+                <div class="form-fields">
+                    <span>{{ localize "DND5E.FeatureRechargeOn" }}</span>
+                    <input type="text" name="data.recharge.value" value="{{data.recharge.value}}"
+                           data-dtype="Number" placeholder="{{ localize 'DND5E.FeatureRechargeResult' }}"/>
+                    <label class="checkbox">
+                        {{ localize "DND5E.Charged" }}
+                        <input type="checkbox" name="data.recharge.charged" {{checked data.recharge.charged}}/>
+                    </label>
+                </div>
+            </div>
+            {{/if}}
+
+            <h3 class="form-header">{{ localize "DND5E.FeatureAttack" }}</h3>
+
+            {{!-- Item Action Template --}}
+            {{> "systems/dnd5e/templates/items/parts/item-action.html"}}
+        </div>
+
     </section>
 </form>

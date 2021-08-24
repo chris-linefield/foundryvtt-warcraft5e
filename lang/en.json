@@ -1031,6 +1031,62 @@
             "IronWilledHunter": {
                 "Label": "Iron Willed Hunter",
                 "Description": "You have honed your ability to resist mind-altering powers. You gain proficiency in Spirit saving throws. If you already have this proficiency, you instead gain proficiency in Intelligence or Charisma saving throws (your choice)."
+            },
+            "LandsStride": {
+                "Label": "Land's Stride",
+                "Description": "You may move through nonmagical difficult terrain without spending extra movement, and gain a +10 bonus to your speed. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard. In addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement, such those created by the entangling roots spell."
+            },
+            "MagicUsersNemesis": {
+                "Label": "Magic User's Nemesis",
+                "Description": "You can thwart someone else‘s magic. When you see a creature casting a spell or teleporting within 30 feet of you, you can use your reaction to try to foil it, either by using your own magic (if you can access spells), or an attack roll (by using a ranged or thrown weapon). The creature must succeed on a Spirit saving throw against your spell save DC or you must succeed on an attack roll, otherwise its spell or teleport fails and is wasted."
+            },
+            "MasterManipulator": {
+                "Label": "Master Manipulator",
+                "Description": "You can use the Help action as a bonus action. Additionally, when you use the Help action to aid an ally in attacking a creature, the target of that attack can be within 30 feet of you, rather than within 5 feet of you, if the target can see or hear you. You also gain proficiency with the disguise and forgery kits, and one gaming set of your choice. You also learn two languages of your choice. Lastly, you can unerringly mimic the speech patterns and accent of a creature that you hear speak for at least 1 minute, enabling you to pass yourself off as a native speaker of a particular land, provided that you know the language."
+            },
+            "Misdirection": {
+                "Label": "Misdirection",
+                "Description": "You can sometimes cause another creature to suffer an attack meant for you. When you are targeted by an attack while a creature within 5 feet of you is granting you cover against that attack, you can use your reaction to have the attack target that creature instead of you."
+            },
+            "MutilateStrike": {
+                "Label": "Mutilate Strike",
+                "Description": "Whenever you can attack as a bonus action with an off-hand weapon, you may instead add the off-hand damage to your main attack action, while retaining your bonus action. Your bonus action cannot be used to attack the same round after using this strike. Once used, this talent cannot be used again for three rounds."
+            },
+            "NaturalExplorer": {
+                "Label": "Natural Explorer",
+                "Description": "You are particularly familiar with one type of natural environment and are adept at traveling and surviving in such regions. Choose one type of favored terrain: arctic, coast, desert, forest, grassland, mountain, swamp, or caves and underground. When you make an Intelligence or Spirit check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you‘re proficient in. This ability works on any plane so long as it has a terrain of comparable nature (desert covers both Tanaris in Azeroth and Outland‘s Hellfire Peninsula). While traveling for an hour or more in your favored terrain, you gain the following benefits:<br><br><ul><li>Difficult terrain doesn‘t slow your group‘s travel.</li><li>Your group can‘t become lost except by magical means.</li><li>Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger, and have advantage to checks to avoid being surprised in your favored terrain.</li><li>You have advantage to saving throws against natural hazards in your favored terrain.</li><li>You can move stealthily at your normal pace without slowing down.</li><li>When you forage or gather, you find twice as much food as you normally would.</li><li>While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area.</li></ul><br>You may switch an existing favored terrain by performing all the following tasks, focused on one terrain:<br><ul><li>Track a target or explore the area for at least one hour alone</li><li>Spend 7 days in the terrain</li><li>Hunt down and defeat one native creature (though you do not have to defeat it alone).</li></ul><br>This talent can be taken multiple times, each time adding one favored terrain mastered at a given time."
+            },
+            "PrimevalAlertness": {
+                "Label": "Primeval Alertness",
+                "Description": "Whenever you are subjected to an effect that attempts to detect or identify you (such as a scrying spell), you gain advantage to all saving throws versus such effects. If you succeed on a contested Spirit saving throw, you can also reverse the spell (if possible, gaining a momentary glimpse of who is attempting to scry on you)."
+            },
+            "PrimevalAwareness": {
+                "Label": "Primeval Awareness",
+                "Description": "You gain awareness of your environment on a local scale. You can use your action and expend mana equal to any spell to gain primeval awareness. For 1 minute per level of the spell you expended, you can sense whether the following types of creatures are present within 1 mile of you (or within up to 6 miles if you are in your favored terrain, are on high ground compared to them, or if the target is a favored enemy): aberrations, celestials, dragons, elementals, fey, fiends,and undead.<br>This feature doesn‘t reveal the creatures‘ location or number, but does hint at their strength in rough terms (weaker, equal to you, or stronger than you, more numerous than you, wounded) and their general direction."
+            },
+            "PrimevalDisruption": {
+                "Label": "Primeval Disruption",
+                "Description": "You can sense if a favored enemy is casting a divine or arcane spell (choose one upon gaining this talent) within 3 miles. You are also aware of their general direction. If the target is within 1 mile, you can spend a reaction to force them to roll a Spirit saving throw against being distracted. This ability can be used a number of times equal to your proficiency bonus before replenishing after a long rest. If there are multiple favored enemies within the radius, you get a general awareness of them, but cannot force a disruption, unless you are the closest creature to the target."
+            },
+            "RecklessAttack": {
+                "Label": "Reckless Attack",
+                "Description": "When you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on melee attack rolls using Strength on this turn, but attack rolls against you have advantage until your next turn."
+            },
+            "Relentless": {
+                "Label": "Relentless",
+                "Description": "If you drop to 0 hit points and don't die outright, you can make a DC 10 Stamina saving throw. If you succeed, you drop to 1 hit point instead. Each time this is used, you increase the DC by 5 points. The DC resets once you complete a short rest. This is known as cheat death by hunters and rogues."
+            },
+            "ReliableTalent": {
+                "Label": "Reliable Talent",
+                "Description": "Whenever you make an ability check that lets you add your proficiency bonus, you can treat a d20 roll of 9 or lower as a 10."
+            },
+            "Retaliation": {
+                "Label": "Retaliation",
+                "Description": "When you take damage from a creature that is within 5 feet of you, you can use your reaction to make a melee weapon attack against that creature. This ability can be used a number of times equal to your proficiency bonus, with the uses replenishing after a short rest. This is also sometimes known as counterattack or storm of blades by hunters and rogues, respectively."
+            },
+            "SecondWind": {
+                "Label": "Second Wind",
+                "Description": "You have a limited well of stamina you can draw upon to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your warrior level. Once you use this feature, you must finish a short or long rest before you can use it again."
             }
         },
 
