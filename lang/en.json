@@ -762,17 +762,6 @@
             "Category": "Category"
         },
 
-        "Skills": {
-            "SuffusedArrows": {
-                "Label": "Suffused Arrows",
-                "Description": "You master the art of spell-casting through arrows or infusing them. Choose:",
-                "Options": {
-                    "1": "You may choose to gain proficiency in the Infusion Kit, but can only infuse ranged weapons or arrows. If you choose to gain proficiency with the kit, you start with three infusion matrices of your choice that you can craft, and may store them in infusion manuals or similar books. Despite the talent‘s name, this can also cover other types of ranged weapons and ammunition, such as crossbow bolts and bullets, as well as larger samples (such as ballistae bolts or cannonballs).",
-                    "2": "You gain the Spell Strike feat (but only for ranged weapons)"
-                }
-            }
-        },
-
         "SkillCategories": {
             "General": "General",
             "Strike": "Strike",
@@ -1087,6 +1076,50 @@
             "SecondWind": {
                 "Label": "Second Wind",
                 "Description": "You have a limited well of stamina you can draw upon to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your warrior level. Once you use this feature, you must finish a short or long rest before you can use it again."
+            },
+            "Shockwave": {
+                "Label": "Shockwave",
+                "Description": "You slam your weapon (manufactured or natural) into the ground, creating a ripple of force that shoots outward. This deals damage equal to your weapon damage, and affects a line 5-foot thick and 30 feet long. All creatures in the area in contact with the ground or within 5 feet of it that succeed on an Agility saving throw take half damage. The terrain damaged becomes difficult terrain (such as rubble) if applicable. If you have extra attacks, you may spend them to add the minimum possible damage to your total. Once this talent is used, it cannot be used again until after a short rest."
+            },
+            "ShockResistance": {
+                "Label": "Shock Resistance",
+                "Description": "You are more resilient against effects that would otherwise shock or stun a normal creature. You have advantage to saving throws against any effect that would cause the stunned condition. If an effect causes the condition as a secondary effect, the advantage applies only against the condition."
+            },
+            "Shout": {
+                "Label": "Shout",
+                "Description": "You can channel your warrior spirit into powerful battlefield commands (called shouts), although it can be anything from a barking command, to a litany, a prayer, or even a song. You can give a number of shouts equal to your Stamina or Charisma modifier (choose one). Using a shout costs a bonus action, and you may maintain an active shout for until the end of your turn in the next round with another bonus action (up to 1 minute). This bonus action still allows you to use strike effects (as if it does not cost an action), but does not allow other abilities. Shouts have a range of 30 feet of the range of the spell specified.<br>Shouts can replicate certain auras or have an entirely unique effect.<br><br><ul><li><i>Battle Shout</i>: You cast the abandonment aura spell.</li><li><i>Defensive Shout</i>: You cast the devotion aura spell.</li><li><i>Disruptive Shout (requires 7th level)</i>: You cast the distraction aura spell.</li><li><i>Halting</i>: One target within range has their speed halved. You can use this shout as a reaction.</li><li><i>Invigorating</i>: You may activate this shout by maintaining it for three rounds against a single target within range. At the start of your turn on the fourth round, the target increases their maximum hit points by one-half your level for one hour (cannot exceed double their maximum hit points), or can spend a single healing dice to heal themselves.</li><li><i>Marching Orders (requires 5th level)</i>: You cast the crusader aura spell.</li><li><i>Rallying</i>: One target within range is affected as if you cast the heroism spell (treat your Stamina modifier as the relevant spellcasting modifier). Maintaining the shout maintains the spell (up to the spell‘s normal limit).</li><li><i>Reordering</i>: One target within range can move up to one-quarter their speed as their reaction. You can change the target of this shout by maintaining it.</li><li><i>Taunt</i>: You cast the compelled duel spell. You can choose an additional target for the spell for every two levels above 5th.</li><li><i>Terrifying Howl</i>: You cast the cause fear spell. You can choose an additional target for the spell for every two levels above 5th.</li><li><i>Startling Cry</i>: One target within range suffers disadvantage to their attack rolls. You can activate this shout as a reaction if the attack takes place outside your turn, and you may maintain it on your turn and choose another target. A creature cannot be affected by this ability more than once until it completes a short rest. This is a fear effect.</li></ul><br><br>If the target of a shout leaves the range or is defeated, the effect ends for them. If a creature is affected by a shout used by you, or succeeds on their saving throw against it, they cannot be affected again by the same shout until after one minute. A shout is a thunder effect that does not function in areas of silence or if you cannot vocalize.<br><br><i>Special</i>: If you have proficiency in musical instruments, you can use them to apply a bonus to your shouts appropriate to the musical instrument type.<br><br><ul><li><i>Brass (trumpet, cornet, tuba) - Clarion</i>: Any saving throw done against your active spells, or any attempts to dispel your spells channeled through a brass instrument suffer disadvantage (if the dispel would be automatic, it instead requires a check regardless of spell level).</li><li><i>Percussion (drums, triangle, bells) - Resonance</i>: The range of your spells channeled through your instrument increases by 50%.</li><li><i>Strings (violin, cello, harp, dulcimer) - Lingering</i>: If you cast a non-instantaneous spell and stop concentrating or channeling it, it lingers for 1d4 rounds after you stop concentrating or channeling. This cannot exceed the maximum duration of the spell, but can allow you to effectively maintain multiple auras or concentration spells.</li><li><i>Woodwinds (flutes, clarinet, ocarina) - Synthesized</i>: If you cast a spell that provides a bonus to a roll or advantage to it, the targets gain a further +1 bonus to the roll.</li></ul>"
+            },
+            "SlayersCounter": {
+                "Label": "Slayer's Counter",
+                "Description": "You gain the ability to counterattack when your prey tries to sabotage you. If the target of your Slayer‘s Prey forces you to make a saving throw, you can use your reaction to make one weapon attack against the quarry. You make this attack immediately before making the saving throw. If your attack hits, your save automatically succeeds, in addition to the attack‘s normal effects."
+            },
+            "SlayersPrey": {
+                "Label": "Slayer's Prey",
+                "Description": "You can focus your ire on one foe, increasing the harm you inflict on it. As a bonus action, you designate one creature you can see within 60 feet of you as the target of this feature. The first time each turn that you hit that target with a weapon attack, it takes an extra 1d6 damage from the weapon. Once the creature is defeated, you can choose another target."
+            },
+            "SlipperyMind": {
+                "Label": "Slippery Mind",
+                "Description": "You have acquired greater mental strength. You gain proficiency in Spirit saving throws.<br>If you are a monk, you gain proficiency in all saving throws instead."
+            },
+            "SlowFall": {
+                "Label": "Slow Fall",
+                "Description": "You can use your reaction when you fall to reduce any falling damage you take by an amount equal to five times your level. If you would have landed on a target of an attack you would make, you may deal extra damage equal to half the amount of fall damage reduced by this talent, provided you succeedon the attack roll. In some circles, this ability is known as a drop kick. This extra damage is a strike effect."
+            },
+            "StalkersFlurry": {
+                "Label": "Stalker's Flurry",
+                "Description": "You learn to attack with such unexpected speed that you can turn a miss into another attack. When you miss with a weapon attack, you can make another weapon attack as part of the same action. This can be done a number of times equal to your Strength or Agility modifier before requiring a short rest."
+            },
+            "StunningSlam": {
+                "Label": "Stunning Slam",
+                "Description": "Upon scoring a critical hit with a melee weapon, you can stun your target for until the end of your turn in the next round. This can be negated with a successful Stamina saving throw. This is a strike effect."
+            },
+            "SuffusedArrows": {
+                "Label": "Suffused Arrows",
+                "Description": "You master the art of spell-casting through arrows or infusing them. You may choose to gain proficiency in the Infusion Kit, but can only infuse ranged weapons or arrows, or gain the Spell Strike feat (but only for ranged weapons). If you choose to gain proficiency with the kit, you start with three infusion matrices of your choice that you can craft, and may store them in infusion manuals or similar books.<br>Despite the talent‘s name, this can also cover other types of ranged weapons and ammunition, such as crossbow bolts and bullets, as well as larger samples (such as ballistae bolts or cannonballs)."
+            },
+            "SwiftSlash": {
+                "Label": "Swift Slash",
+                "Description": "Whenever you use the Dash action, you may make one free melee attack with a finesse weapon, made at any point during movement. This attack is treated as a normal melee attack for all purposes, but is resolved with a -2 penalty to hit.<br>If you reduce a creature to 0 hit points as part of this attack, you benefit from the blur spell until the beginning of your turn in the next round. You can use this talent only once per round, even if you had an ability that allowed multiple Dash actions in one round (such as Cunning Action or Haste)."
             }
         },
 
