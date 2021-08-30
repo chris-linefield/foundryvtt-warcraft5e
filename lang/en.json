@@ -1120,6 +1120,46 @@
             "SwiftSlash": {
                 "Label": "Swift Slash",
                 "Description": "Whenever you use the Dash action, you may make one free melee attack with a finesse weapon, made at any point during movement. This attack is treated as a normal melee attack for all purposes, but is resolved with a -2 penalty to hit.<br>If you reduce a creature to 0 hit points as part of this attack, you benefit from the blur spell until the beginning of your turn in the next round. You can use this talent only once per round, even if you had an ability that allowed multiple Dash actions in one round (such as Cunning Action or Haste)."
+            },
+            "TemperedHunter": {
+                "Label": "Tempered Hunter",
+                "Description": "You have advantage versus divine or arcane spells (choose one upon gaining this talent) cast by your favored enemies and advantage to all checks to avoid being subject to the scrying spell, or being detected, or identified by similar magic. Magics of such type also cast by your favored enemies cannot be used to put you to sleep or to read your mind."
+            },
+            "TerrifyingTracker": {
+                "Label": "Terrifying Tracker",
+                "Description": "Whenever you succeed on tracking a creature and have them within your line of sight, you gain advantage to any contested skill check against them. You may also intimidate the target without revealing yourself (usually to steer the target into one place or another)."
+            },
+            "ThunderClap": {
+                "Label": "Thunder Clap",
+                "Description": "You may use your action to cast the thunderstorm spell by slamming your weapon into the ground, releasing a wave of force. This acts as the spell with the following differences:<br><br><ul><li>The spell deals normal damage, plus your weapon damage roll. If you have extra attacks, you can add +5 to the damage roll for each attack you would normally make beyond the first.</li><li>You can change its area to a 15-foot sphere centered on you, excluding yourself (and a number of targets equal to your Strength modifier) from the damage.</li><li>Targets who fail their saving throware chilled for one minute. A creature may repeat its saving throw at the end of its turn every round to end the condition. You may choose to push the targets as the normal spell instead.</li></ul><br>Targets who fail their saving throware chilled for one minute. A creature may repeat its saving throw at the end of its turn every round to end the condition. You may choose to push the targets as the normal spell instead."
+            },
+            "Tremor": {
+                "Label": "Tremor",
+                "Description": "You may use a bonus action to cause a small localized tremor (usually by stomping your foot or slamming your fist down), dealing your unarmed strike damage in a 5-foot sphere centered on you, halved on an Agility save. Those who fail the saving throw are also knocked prone. If you have a natural weapon, you can use it to determine the damage you deal instead. If you use this ability at the end of a Heroic Leap, you may add +5 to the total damage.<br>This talent can be used a number of times equal to your proficiency bonus before replenishing after a short rest."
+            },
+            "TricksOfTheTrade": {
+                "Label": "Tricks of the Trade",
+                "Description": "You may cast the compelled duel spell, but instead of drawing the target to you, you can direct them to a secondary target within 30 feet of both of you. The target of the spell has advantage to the saving throw unless the secondary creature is one of your allies or is neutral to both of you. After being used, this cannot be used again until after a short rest. This effect ends if you attack the target, if the third creature does not defend itself, or if you end your turn more than 30 feet away from the target. If the target defeats the secondary target, you regain use of this ability.<br>This talent can be taken multiple times, each time adding another two uses of this ability before a short rest."
+            },
+            "UmbralSight": {
+                "Label": "Umbral Sight",
+                "Description": "You gain darkvision out to a range of 60 feet. If you already have darkvision from your race, its range increases by 30 feet. While in darkness, you can hide in plain sight against any creature that relies on darkvision to see you in that darkness."
+            },
+            "UnarmoredMovement": {
+                "Label": "Unarmored Movement",
+                "Description": "Your speed increases by five feet per proficiency bonus you have while you are not wearing armor or wielding a shield. This talent can be chosen again at level 5 or higher, allowing you to move along vertical surfaces and across liquids on your turn without falling during the move so long as you benefit from the speed increase."
+            },
+            "UncannyDodge": {
+                "Label": "Uncanny Dodge",
+                "Description": "When an attacker that you can see hits you with an attack, you can use your reaction to halve the attack‘s damage against you."
+            },
+            "UnerringEye": {
+                "Label": "Unerring Eye",
+                "Description": "Your senses are almost impossible to foil. As an action, you sense the presence of illusions, creatures not in their original form (such as shapechangers), and other magic designed to deceive the senses within 30 feet of you, provided you aren‘t blinded or deafened. You sense that an effect is attempting to trick you, but you gain no insight into what is hiddenor into its true nature. This ability can be used a number of times equal to your Spirit modifier before replenishing after a long rest."
+            },
+            "WindWalk": {
+                "Label": "Wind Walk",
+                "Description": "You may use your action to wind-walk, rendering yourself invisible as per the invisibility spell, and increase your land speed by 10 feet. Unlike normal stances, you must continue moving (at least half your speed) or else this effect dissipates. Your first attack while performing Wind Walk is a critical hit, and ends the invisibility effect. This is a supernatural ability. Once this talent is used, it cannot be used again until after a short rest."
             }
         },
 
