@@ -4,7 +4,7 @@ based on the 5e Conversion of the official Warcraft Role Playing Game:
 
 https://drive.google.com/drive/folders/0B1FoMHLY1oOtLUlNdTZXYzVNY0k
 
-This module is based on the default dnd5e System. It basically uses all the default features (drag and drop and stuff) and works exactly how you would expect it to be. However - the templates got overhauled mostly just for aesthetics. 
+This module is based on the default dnd5e System. It basically uses all the default features (drag and drop and stuff) and works exactly how you would expect it to be. However - the templates got overhauled (mostly for aesthetics). 
 
 # Installation:
 
