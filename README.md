@@ -9,6 +9,7 @@ This module is based on the default dnd5e System. It basically uses all the defa
 # Installation:
 
 Install the module by adding this manifest URL:
+
 https://github.com/ArthegaAsdweri/foundryvtt-warcraft5e/raw/master/module.json
 
 # Version: 0.0.5
