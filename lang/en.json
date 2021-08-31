@@ -4,8 +4,21 @@
         "Languages": {
             "Common": "Common",
             "Dwarven": "Dwarven",
+            "Draenei": "Draenei",
+            "Draconic": "Draconic",
             "Elven": "Elven",
-            "Eredun": "Eredun"
+            "Eredun": "Eredun",
+            "Gnomish": "Gnomish",
+            "Goblin": "Goblin",
+            "Kalimag": "Kalimag",
+            "LowCommon": "Low Common",
+            "Orcish": "Orcish",
+            "Ogre": "Ogre",
+            "Pandaren": "Pandaren",
+            "ShatYar": "Shath'Yar",
+            "Taurahe": "Taur-ahe",
+            "Titan": "Titan",
+            "Troll": "Troll"
         },
 
         "Character": {
