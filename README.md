@@ -11,8 +11,10 @@ This module is based on the default dnd5e System. It basically uses all the defa
 Install the module by adding this manifest URL: https://github.com/ArthegaAsdweri/foundryvtt-warcraft5e/raw/master/module.json
 
 
-Next steps:
-- finish all the classes - finished so far: Alchemist, Tinker and Warrior with their class skills and spells
-- Make races valid items for the character sheet so it automatically updates attributes and stuff
-- rework all the languages and lore specific changes
+# Tasks for now
 
+- finish all the classes
+  -> finished so far: Alchemist, Tinker and Warrior with their class skills and spells
+- Make races valid items for the character sheet so it automatically updates attributes and stuff
+  -> finished so far: Dwarf, Elf, Draenei 
+- rework all the languages and lore specific changes
