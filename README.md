@@ -18,3 +18,7 @@ Install the module by adding this manifest URL: https://github.com/ArthegaAsdwer
 - Make races valid items for the character sheet so it automatically updates attributes and stuff
   -> finished so far: Dwarf, Elf, Draenei 
 - rework all the languages and lore specific changes
+
+# Goals
+The module aims for a complete implementation of the ruleset with all it's addons (Codex Mandatum, Monster Compendium, ...)
+Automation of all possible skills by improving management and usage for foundry VTT.
