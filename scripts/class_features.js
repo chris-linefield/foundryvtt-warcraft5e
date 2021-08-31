@@ -33,7 +33,7 @@ ClassFeatures.alchemist = {
 
 ClassFeatures.tinker = {
    "subclasses": {
-     "arms": {
+     "bomber": {
        "label": "Bomber",
        "source": "PHB page 146",
        "features": {
@@ -43,8 +43,8 @@ ClassFeatures.tinker = {
          "14": ["Compendium.warcraft5e.wc5e_class_feats.f9e8WTH6rtXrZ2W5"]
        }
      },
-     "fury": {
-       "label": "Warrior of Fury",
+     "gunner": {
+       "label": "Gunner",
        "source": "PHB page 147",
        "features": {
          "3": ["Compendium.warcraft5e.wc5e_class_feats.F9WjNpgB8SgAmZJr"],
@@ -53,8 +53,8 @@ ClassFeatures.tinker = {
          "14": ["Compendium.warcraft5e.wc5e_class_feats.vvNZakY2Z8al9mWh"]
        }
      },
-     "protection": {
-       "label": "Warrior of Protection",
+     "gadgeteer": {
+       "label": "Gadgeteer",
        "source": "PHB page 147",
        "features": {
          "3": ["Compendium.warcraft5e.wc5e_class_feats.weVaL0aKagU09Ox3"],

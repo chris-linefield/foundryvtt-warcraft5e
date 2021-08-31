@@ -1,0 +1,91 @@
+{
+   "_id":"YKa1ZAK22A5NhcFn",
+   "name":"Berserker Rage",
+   "permission":{
+      "default":0
+   },
+   "type":"spell",
+   "data":{
+      "wcType": "spell",
+      "description":{
+         "value":"WC5E.Spells.BerserkerRage.Description",
+         "chat":"",
+         "unidentified":""
+      },
+      "source":"",
+      "activation":{
+         "type":"action",
+         "cost":1,
+         "condition":""
+      },
+      "duration":{
+         "value":1,
+         "units":"minute"
+      },
+      "target":{
+         "value":1,
+         "units":"",
+         "type":"creature"
+      },
+      "range":{
+         "value":30,
+         "long":0,
+         "units":"ft"
+      },
+      "uses":{
+         "value":0,
+         "max":0,
+         "per":""
+      },
+      "ability":"",
+      "actionType":"save",
+      "attackBonus":0,
+      "chatFlavor":"",
+      "critical":null,
+      "damage":{
+         "parts":[
+
+         ],
+         "versatile":"",
+         "value":""
+      },
+      "formula":"",
+      "save":{
+         "ability":"con",
+         "dc":0,
+         "scaling":"spell"
+      },
+      "level":2,
+      "school":"trs",
+      "components":{
+         "value":"",
+         "vocal":true,
+         "somatic":true,
+         "material":true,
+         "ritual":false,
+         "concentration":false
+      },
+      "materials":{
+         "value":"a red napkin",
+         "consumed":false,
+         "cost":0,
+         "supply":0
+      },
+      "preparation":{
+         "mode":"prepared",
+         "prepared":false
+      },
+      "scaling":{
+         "mode":"none",
+         "formula":""
+      }
+   },
+   "sort":100001,
+   "flags":{
+
+   },
+   "img":"icons/skills/social/intimidation-impressing.webp",
+   "effects":[
+
+   ]
+}

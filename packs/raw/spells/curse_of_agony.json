@@ -1,0 +1,89 @@
+{
+  "_id":"H43hulJn3K6ArXEk",
+  "name":"Curse of Agony",
+  "permission":{
+    "default":0
+  },
+  "type":"spell",
+  "data":{
+    "wcType": "spell",
+    "heightened": "WC5E.Spells.CurseOfAgony.Heightened",
+    "description":{
+      "value":"WC5E.Spells.CurseOfAgony.Description",
+      "chat":"",
+      "unidentified":""
+    },
+    "source":"PHB - page 334",
+    "activation":{
+      "type":"action",
+      "cost":1,
+      "condition":""
+    },
+    "duration":{
+      "value":1,
+      "units":"minute"
+    },
+    "target":{
+      "value":1,
+      "units":"",
+      "type":"creature"
+    },
+    "range":{
+      "value":"ft",
+      "long":null,
+      "units":"60"
+    },
+    "uses":{
+      "value":0,
+      "max":0,
+      "per":""
+    },
+    "ability":"",
+    "actionType":"other",
+    "attackBonus":0,
+    "chatFlavor":"",
+    "critical":null,
+    "damage":{
+      "parts":["2d4", "fel"],
+      "versatile":""
+    },
+    "formula":"",
+    "save":{
+      "ability":"",
+      "dc":null,
+      "value":""
+    },
+    "level":2,
+    "school":"nec",
+    "components":{
+      "value":"",
+      "vocal":true,
+      "somatic":true,
+      "material":false,
+      "ritual":false,
+      "concentration":false
+    },
+    "materials":{
+      "value":"",
+      "consumed":false,
+      "cost":0,
+      "supply":0
+    },
+    "preparation":{
+      "mode":"prepared",
+      "prepared":false
+    },
+    "scaling":{
+      "mode":"none",
+      "formula":""
+    }
+  },
+  "sort":100001,
+  "flags":{
+
+  },
+  "img":"icons/magic/unholy/hand-light-pink.webp",
+  "effects":[
+
+  ]
+}

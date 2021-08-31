@@ -45,17 +45,17 @@
                 },
                 "QuickBuild": "You can make an alchemist quickly by following these suggestions. First, Intelligence should be your highest ability score. Make Agility your next-highest if you want to use ranged or finesse weapons, or focus on throwing potions and explosives. Use Strength instead if you wish to empower yourself in battle and engage in combat via the mutate spell. Second, choose the guild artisan or scholar backgrounds. Third, choose the noxious fumes (poison spray), minor alchemy, and fire bolt cantrips, along with the following 1st-level spells for your formula book: <i>burning hands</i>, <i>explosion</i>, <i>mutate</i>, and <i>rejuvenation</i>.",
                 "Paths": {
-                    "Bomber": {
-                        "Title": "Bomber",
-                        "Description": "You appreciate the controlled destruction behind a bomb, terrible surprise beneath a mine, and the terror a rocket invokes. Bomber tinkers often makes use of mortars and rocket or mine launchers, to deny enemy mobility as well as to deal massive damage to their enemies. Bombers are also known as grenadiers, and often take to the skies on gyrocopters to unleash their fury from above."
+                    "Apothecary": {
+                        "Title": "Apothecary",
+                        "Description": "You recognize no boundary of morality or faith in your pursuit of weird science. Reaching beyond the realms of experimention to dissect the supernatural, you employ necromancy, soul magic, and unusual diseases and poisons. Apothecaries usually dress as plague doctors or experimenters, dealing with death and strange occult things for reasons only they know."
                     },
-                    "Gunner": {
-                        "Title": "Gunner",
-                        "Description": "You are not only a renowned gunsmith, but also an excellent marksman. Gunners are often called gunslingers or musketeers, and are usually employed in battlefields."
+                    "Mutant": {
+                        "Title": "Mutant",
+                        "Description": "You push your body past the normal limit—mutation is no mere rage or chemical reaction; it is a secret science only you know. Mutants are often ostracized by society, which sees such unstable people to be dangerous and fickle in their moods."
                     },
-                    "Gadgeteer": {
-                        "Title": "Gadgeteer",
-                        "Description": "You appreciate the versatility gadgets provide, or prefer to craft and control constructs such as mechs and vehicles of all types. Gadgeteers are often the drivers of their own devices, such as the engines of goblin balloons, dwarf steam tanks, or gnomish submarines and gyrocopters."
+                    "Transmutor": {
+                        "Title": "Transmutor",
+                        "Description": "Whereas the apothecary dabbles with the line between life and death, and the mutant experiments on themselves, you handle alchemy as a science and a tool, and are considered a more ‘classical‘ alchemist. Transmutors are appreciated in societies, often serving in courts or in magical circles to quantify the true nature of alchemy, sicknesses, and magic. In adventuring parties, they often focus on support."
                     }
                 }
             },
@@ -385,9 +385,25 @@
                 "Label": "Ability Score Improvement (Warrior)",
                 "Description": "When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can‘t increase an ability score above 20 using this feature."
             },
+            "AdaptableInurement": {
+                "Label": "Adaptable Inurement",
+                "Description": "You can utilize a sample or body part of a creature and mix it into a potion as a Bonus Action, inuring the target to it. If inured this way, the target can use your temporary potion as if it were you. This includes anything from hair, a bit of skin, saliva, blood, or nails. Furthermore, whenever it uses a potion inured to it, it can roll twice and choose the result when miscibility is rolled.<br>You are always counted as if you are inured to your own potions. If you could already roll twice on miscibility, you can roll three times instead."
+            },
             "Alchemy": {
                 "Label": "Alchemy",
                 "Description": "When starting with this class, you have proficiency with Alchemist‘s Supplies and can use them with uncanny skill. You can create alchemical mixtures from any spell that belongs to the alchemist spell list, so long as you have the alchemical formula. This does not allow you to cast spells, only to know them enough to create potions. Each level in the alchemist class provides you with 1 caster level to access alchemical formulae, as appropriate to the alchemist spell list.<br><br><h4>Cantrips</h4>At 1st level, you know a number of cantrips equal to your proficiency bonus. As normal for alchemist spells, you cannot cast them, but can turn them into potions. Cantrips do not require a formula book, and are always memorized.<br><br><h4>Conjuring and Binding</h4>An alchemist can conjure and bind aberrations, constructs, elementals, oozes, plants, and undead, as well homunculi creatures (creatures with the homunculus template). This is usually done by crafting miniature versions and preparing them in potions or globes of alchemical mixtures.<br><br><h4>Preparing and Casting Spells</h4>Each alchemist level provides you with one caster level in the alchemist class (minimum 1). You follow the normal progression to unlock spell levels (see the table under the Mana section). You may not prepare spells, but can brew them into potions, so long as you have your formulae book or have memorized the formula. When you level up, you can exchange a spell known with another you qualify for. You cannot otherwise change your alchemist spells other than by leveling up and exchanging them, or by training under another alchemist, fiend, celestial, or undead creature (see tutorship under magic).<br><br><h4>Spellcasting Ability</h4>Intelligence is your spellcasting ability for your alchemist spells and abilities, since your powers draw upon your scientific prowess. You use your Intelligence modifier whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for an alchemist effect you create and when making an attack roll with one.<br><br><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Intelligence modifier<br><strong>Spell attack modifier</strong> = your proficiency bonus + your Intelligence modifier<br><br><h4>Spellbook – Formula Book</h4>At 1st level, your formula book contains four 1st-level alchemist spells of your choice. When you level up, you gain 2 additional alchemist spells of your choice. You may also acquire new spells by  research, tutelage, or by deriving formulae from the spellbooks and scrolls of spellcasters who have spell versions of the formulae on your spell list. Your formula book is effectively your spellbook, and you may add spells by studying with it and replicating experiments found in other formula books."
+            },
+            "AlchemyPath": {
+                "Label": "Alchemy Path",
+                "Description": "You walk a path that defines you as your path of alchemy. Up to this time you have been in a preparatory stage, committed to a path but not yet fully enveloped in it. Now you choose the Path of the Mutant for self-transmutation and improving your combat abilities, Path of the Transmutor for theoretical pursuits and advanced alchemical effects, or Path of the Apothecary to go beyond morality and mortality and dabble in death and life magics, all detailed at the end of the class description.<br>Your choice grants you features at 3rd level and again at 6th, 10th, and 14th level. Those features include path spells.<br><br><h4>Path Spells</h4> Each path has a list of associated spells. You gain access to these spells at the levels specified in the path description. Once you gain access to a path spell, you always have it known and memorized. Path spells do not need to be stored in the alchemical notebook.<br>If you gain a path spell that doesn‘t appear on the alchemist spell list, the spell is nonetheless an alchemist spell for you."
+            },
+            "Augmentation": {
+                "Label": "Augmentation",
+                "Description": "You can augment a potion you hold by spending 1 minute or an Bonus Action and 4 Crafting Points. An augmented potion remains augmented indefinitely, but you can only have up to one potion augmented at any given time. You can apply the following augmentations:<br><br><ul><li>Every dice your potion rolls is maximized.</li><li>Every dice your potion rolls is minimized (lowest result on the roll).</li><li>When the potion is used, roll a d100. On a result of 50 or higher, the potion gives its full effects with only a fraction of the actual content, allowing the potion to be reused.</li><li>You alter your potion to activate in response to a trigger you choose and that can affect the potion‘s contents, such as time passed, being shaken a certain way, or being touched by an eligible target. This does not stack with the Internal Clock feature.<br>For instance, if you can create an exorcism potion, you can coat a sword with it to activate in response to touching an eligible target of the spell, or to activate after 1 minute to counter a possible possession.</li></ul>"
+            },
+            "BattleChemist": {
+                "Label": "Battle Chemist",
+                "Description": "You gain the Flash Bomber talent. These uses stack with the Weird Science feature (if you already chose it).<br>Also, whenever you are in the area of effect of the explosion spell (regardless of origin), you can benefit from the berserker rage spell for 3 rounds."
             },
             "BattleCommands": {
                 "Label": "Battle Commands",
@@ -396,6 +412,10 @@
             "BattleTested": {
                 "Label": "Battle-Tested",
                 "Description": "Your innovated creations that have been used at least three times without breaking down can be kept unused indefinitely (instead of breaking down after 5 minutes). If you choose to make the item into a permanent creation, you must pay the normal crafting cost, but the item‘s malfunction rate is 1 point lower (minimum 0). This improved model can be shared and scribed down as a new innovation. You cannot battle-test a base design more than once.<br>You may also deal double damage to objects and constructs with your melee attacks as a strike effect.<br><br><i>Special</i>: For the purposes of the Superfunction ability, battle-tested creations act as if its malfunction rate is 1 point higher instead of 1 point lower."
+            },
+            "Biohazard": {
+                "Label": "Biohazard",
+                "Description": "You gain the Mithridatism Weird Science feature if you didn‘t choose it at level 1.<br>If you already have the feature, it is instead enhanced as follows:<br><br><ul><li>You have a maximum of 8 poison doses instead of 4, and you regain 2 doses when you complete a short rest.</li><li>The poison DC is increased by 2.</li><li>Gaining acquired immunity to poisons or diseases requires only one-quarter the normal time. See the Poisoner‘s Kit for the ability to gain immunities against diseases or poisons.</li></ul>"
             },
             "BlockAndTackle": {
                 "Label": "Block and Tackle",
@@ -429,13 +449,21 @@
                 "Label": "Die by the Sword",
                 "Description": "You are inspired by battlefield glories, and are able to react quickly to attacks. Whenever a target within 5 feet of you makes a successful attack against you, you gain a d6 Counterattack dice. You may spend the dice to make an attack as a reaction at any point out of your turn so long as the target dealt damage to you in the last minute, and may add the counterattack dice result to the total damage. Unlike with normal reactions, you may apply one strike effect to this attack. You can hold up to 3 Counterattack dice. They all fade within one minute if not consumed."
             },
+            "EfficientAlchemy": {
+                "Label": "Efficient Alchemy",
+                "Description": "Your ability to whip up potions increases your efficiency in creating normal potions. You reduce the base crafting cost for potions from one-half to one-quarter buying price. This does not affect the costs of material components for spells nor does it affect the crafting costs for your Inurement ability. Normally crafting a potion is also one step of complexity faster. This does not also reduce the cost of spell material components.<br>Starting at 13th level, this ability also halves the cost of spell material components."
+            },
             "EfficientEngineering": {
                 "Label": "Efficient Engineering",
                 "Description": "Your ability to whip up devices increases your efficiency in creating normal devices. You reduce the base crafting cost for technological devices from one-half to one-quarter buying price. This does not affect the costs of material components for spells nor does it affect the crafting costs for your Innovation ability. Normally crafting a device is also one step of complexity faster. This does not also reduce the cost of spell material components.<br>Starting at 15th level, this ability also halves the cost of spell material components for your gadget devices."
             },
+            "EmpoweredPhysique": {
+                "Label": "Empowered Physique",
+                "Description": "You do not automatically incur miscibility when using potions within 1 hour of one another. You may benefit from a number of potions at a given time equal to 1 + your Stamina modifier (minimum 1) without risking miscibility.<br>You may, when drinking a new potion, choose to cause it to interact with another potion you already drank, provoking miscibility."
+            },
             "Engineering": {
                 "Label": "Engineering",
-                "Description": "Starting when you gain your first level in this class, you are a master of engineering in the making.<br>You gain an engineer‘s notebook and can perform marvels with the skill that few can even imagine.<br><br><i>Notebook</i><br>At 1st level, your notebook contains four blueprints of your choice that detail the specifications of any device you can create. When you level up, you gain 2 additional blueprints of your choice. You may also acquire new blueprints by research, tutelage, or from the notebooks and blueprints of tinkers who have devices you can create."
+                "Description": "You are a master of engineering in the making.<br>You gain an engineer‘s notebook and can perform marvels with the skill that few can even imagine.<br><br><i>Notebook</i><br>At 1st level, your notebook contains four blueprints of your choice that detail the specifications of any device you can create. When you level up, you gain 2 additional blueprints of your choice. You may also acquire new blueprints by research, tutelage, or from the notebooks and blueprints of tinkers who have devices you can create."
             },
             "EngineeringMastery": {
                 "Label": "Engineering Mastery",
@@ -445,9 +473,13 @@
                 "Label": "Evasion",
                 "Description": "You can nimbly dodge out of the way of certain area effects, such as a red dragon‘s fiery breath or an ice storm spell. When you are subjected to an effect that allows you to make an Agility saving throw to take only half damage, you instead take no damage if you succeed  on the saving throw, and only half damage if you fail. You regain 2 Crafting Points if you suffer no damage from a successful saving throw. If you make a saving throw versus an effect made by you, you can either take half damage automatically or make a saving throw. If you choose to make a saving throw, you take no damage on a successful save, but take normal (full) damage on a failed save. After gaining 2 Crafting Points, you cannot gain more unless you complete a short rest."
             },
+            "ExpertChemist": {
+                "Label": "Expert Chemist",
+                "Description": "Whenever you deliver a poison, disease, or potion, you the DC, damage, or duration of the effect increases by 2 points or two rounds (if possible)."
+            },
             "ExplosiveMastery": {
                 "Label": "Explosive Mastery",
-                "Description": "Starting when you choose this archetype at 3rd level, you increase the range of your bombs and rockets by 15 feet, and the range of your mine‘s detection to its blast radius (beyond its actual position). Also, any explosive you use is automatically modified by the Careful Explosion modification, with no cost to the modification. If you roll a careen on mishap with an explosive, you may roll twice and choose the second result (even if it‘s worse)."
+                "Description": "You increase the range of your bombs and rockets by 15 feet, and the range of your mine‘s detection to its blast radius (beyond its actual position). Also, any explosive you use is automatically modified by the Careful Explosion modification, with no cost to the modification. If you roll a careen on mishap with an explosive, you may roll twice and choose the second result (even if it‘s worse)."
             },
             "ExplosiveResistance": {
                 "Label": "Explosive Resistance",
@@ -463,7 +495,11 @@
             },
             "FavoredCreations": {
                 "Label": "Favored Creations",
-                "Description": "you gain increased proficiency in innovation. Choose up to four devices. These devices have half the Crafting Point cost, and their formulae are memorized. You may change a single favored creation with one week of downtime."
+                "Description": "You gain increased proficiency in innovation. Choose up to four devices. These devices have half the Crafting Point cost, and their formulae are memorized. You may change a single favored creation with one week of downtime."
+            },
+            "FavoredPotions": {
+                "Label": "Favored Potions",
+                "Description": "You gain increased proficiency in inuring potions. Choose up to four potions. These potions have half the Crafting Point cost, and their formulae are memorized. Furthermore, whenever you roll for miscibility with one of these potions, you can roll twice and take the better result.<br>You may change a single favored potion with one week of downtime."
             },
             "FightingStyle": {
                 "Label": "Fighting Style",
@@ -481,9 +517,25 @@
                 "Label": "Flash Bomber (Tinker)",
                 "Description": "You gain the Flash Bomber talent, but may only use it for explosives."
             },
+            "FortifyingChemistry": {
+                "Label": "Fortifying Chemistry",
+                "Description": "You may enhance any potion you handle for at least 1 minute to grant the imbiber temporary hit points equal to your alchemist level. These hit points remain for 1 hour, and can stack, but cannot exceed double the target‘s maximum hit points."
+            },
+            "GreaterAugmentation": {
+                "Label": "Greater Augmentation",
+                "Description": "You can augment up to three potions at any given time. You can also apply the following additional augmentations:<br><br><ul><li>Your potion also has the effects of a dispel magic or mana burn spell, with the spell level two spell levels lower than the potion‘s original spell level (minimum 1). If the potion has no replicated spell level, the effective level is instead equal to the lowest spell level the spell can be cast.</li><li>Your potion also has the benefits of one of the following spells: protection from poison, protection from energy, or remove curse.</li><li>Your potion allows the target to add their proficiency bonus to one saving throw of their choice. They cannot apply this to a saving throw in which they are already proficient. This remains up to 1 hour.</li><li>Your potion has a 25% chance to enhance the imbiber with increased lifeforce. If the target is reduced to 0 hit points or dies within 4 hours of imbibing the potion, they are affected with the revivify spell. The potion must replicate a spell level of 6 or higher to gain this augmentation.</li></ul>"
+            },
             "GreaterFlashBomber": {
                 "Label": "Greater Flash Bomber",
                 "Description": "You double the amount of times you may use the Flash Bomber talent before a rest, and can use any explosive (not just in bomb form). You also gain the remote blueprint for free if you didn‘t already have it, and may employ it to trigger any number of your explosives normally, and can use it with a reaction."
+            },
+            "GreaterInternalClock": {
+                "Label": "Greater Internal Clock",
+                "Description": "You treat your proficiency bonus as if 2 points higher for the purposes of how many potions you can have active under your Internal Clock ability. Also, if your Internal Clock ability would activate, you may choose to withhold benefitting from it up to 1 minute. If you do not declare a use of the ability (reaction if not in your turn, bonus action if it is) it fades at the end of the duration."
+            },
+            "GreaterMutate": {
+                "Label": "Greater Mutate",
+                "Description": "You treat any mutate spell you benefit from as if it were heightened one level for no cost, allowing certain mutations to become stronger. You always have the mutate spell memorized.<br>Furthermore, while under the effects of the spell, you gain a +2 bonus to damage rolls. This bonus also applies to any homunculus you have.<br>Lastly, you also gain proficiency in Strength saving throws. "
             },
             "Hellscream": {
                 "Label": "Hellscream",
@@ -497,6 +549,10 @@
                 "Label": "Innovation",
                 "Description": "You gain the ability to craft temporary and unstable technological creations at certain levels. Such creations have limitations compared to normal crafting (as described in Chapter 7), but are more accessible and useable in combat. You also need the required tools at hand (Engineer's Tools).<br>Creating temporary technological device costs an Action if a Consumable, 3 turns if a use-item (such as a firearm), or 1 minute if a Creature (such as turret or combat armor).<br><br><table><tr><th>Level</th><th>Rarity</th><th>Point Cost<sup>1</sup></th><th>Material Cost<sup>2</sup></th></tr><tr><td>1</td><td>Common</td><td>5</td><td>1 gp<sup>3</sup></td></tr><tr><td>1</td><td>Uncommon</td><td>7</td><td>4 gp</td></tr><tr><td>5</td><td>Rare</td><td>9</td><td>16 gp</td></tr><tr><td>9</td><td>Epic</td><td>11</td><td>64 gp</td></tr><tr><td>13</td><td>Legendary</td><td>13</td><td>256 gp</td></tr><tr><td>17</td><td>Artifact</td><td>15</td><td>1024 gp</td></tr></table><br>1) You reduce the crafting point cost by your proficiency bonus. You may reduce the point cost by your proficiency bonus (not applied above). Common items can have their point cost reduced to 0.<br>2) The crafting cost is unaffected by the Efficient Alchemy feature. Unlike normal crafting, the base crafting cost in materials is not modified for crafting class (x25 for Creatures), and thus innovating a Consumable costs the same as a Creature.<br>3) Starting at 5th level, your Common-level temporary creations do not consume crafting materials, but still require access to your tools (Engineer's Tools).<br><br><h3>Crafting Point Cost</h3>Your ability to do such rapid and innovative creations strains your mind and creative capabilities. You are afforded a pool of Crafting Points (which act as Mana Points). Similarly to Mana Points, you spend points to spontaneously craft items, and regain such points by resting. This is subject to the following points of difference, however:<ul><li>You have a number of Crafting Points equal to your Intelligence score (not modifier) plus your proficiency bonus plus one-half your Tinker level (round down). Unlike mana points, your pool is unaffected by the spell level you can access. As this power is not magical in nature, you are unaffected by any anti-magic effects such as an antimagic field or mana burn effects.</li><li>You do not regain points by mana-restorative effects, such as Mana Potions or resting near mana fountains. However, so long as you are in a relevant resource node or crafting area (such as an engineering workshop or your stronghold), you regain points with a +50% increase, as you draw inspiration from them.</li><li>Your creation costs scale by the item‘s rarity and your ability to craft them; and are thus limited by the Rarity column in your class chart. You can craft anything you have memorized or if you refer to the formula of in your possession (such as in your formulae book). A temporary creation that breaks down, fails, or expires can be harvested for one-half the crafting materials invested. This does not apply to Consumables that were successfully used.  Your temporary creations can be made permanent by paying the rest of the crafting cost.</li></ul><br><h3>Material Cost</h3>As well as consuming Crafting Points, temporary creations also cost material costs appropriate to their rarity, as detailed above.<br><br><h3>Temporary Item Duration</h3>Once created, the temporary item remains until used (if a Consumable), until it breaks down (if a Use-Item or Creature), or up to 5 minutes. Temporary creations are not stable, and if the item is not a consumable in nature, you must succeed on a tool check (Engineer's Tools) against a DC of 15 after a successful use (if a Use-Item), 1 minute (if a Creature), or the creation breaks down.  If the item is not being used by you (or a creature bound to you), it has a +4 increase to its malfunction rate. You may maintain multiple temporary creations, but they all begin expiring starting from the round they were crafted.<br><br><h3>At Higher Levels</h3> As you increase in levels, creations of certain rarity require less time and effort. The time it takes for you to innovate or craft temporary versions of your creations is reduced to a Bonus Action or 3 turns at the following levels for each rarity.<br><br><table><tr><th>Level</th><th>Rarity</th><th>Consumable</th><th>Use-Item</th><th>Creature</th></tr><tr><td>2nd</td><td>Common</td><td>Bonus Action</td><td>1 turn</td><td>3 turns</td></tr><tr><td>9th</td><td>Uncommon</td><td>Bonus Action</td><td>1 turn</td><td>3 turns</td></tr><tr><td>17th</td><td>Rare</td><td>Bonus Action</td><td>1 turn</td><td>3 turns</td></tr></table>"
             },
+            "InternalClock": {
+                "Label": "InternalClock",
+                "Description": "Whenever you make a potion and consume it, you can choose to keep its effects latent until a condition you specify. When said condition comes to pass, the potion activates as if you just consumed it, and costs you a reaction. You can have a number of potions stored this way equal to your proficiency bonus. If the potion has a casting time of more than 1 Action, it must remain latent for a minimum duration equal to the casting time first. These potions do not incur miscibility, even if consumed at the same time.<br>Starting at 18th level, activating a potion on your internal clock costs no reaction."
+            },
             "Inurement": {
                 "Label": "Inurement",
                 "Description": "You also gain the ability to craft temporary and unstable alchemical creations at certain levels. Such creations have limitations compared to normal crafting (as described in Chapter 7), but are more accessible and useable in combat. You also need the required tools at hand (Alchemist‘s Supplies). Creating temporary alchemical creations costs an Action if a Consumable, or 1 minute if a Creature (such as an alchemical homunculus or an Ooze).<br><br><table><tr><th>Level</th><th>Rarity</th><th>Point Cost<sup>1</sup></th><th>Material Cost<sup>2</sup></th></tr><tr><td>1</td><td>Common</td><td>5</td><td>1 gp<sup>3</sup></td></tr><tr><td>1</td><td>Uncommon</td><td>7</td><td>4 gp</td></tr><tr><td>5</td><td>Rare</td><td>9</td><td>16 gp</td></tr><tr><td>9</td><td>Epic</td><td>11</td><td>64 gp</td></tr><tr><td>13</td><td>Legendary</td><td>13</td><td>256 gp</td></tr><tr><td>17</td><td>Artifact</td><td>15</td><td>1,024 gp</td></tr></table><br><br>1) You reduce the crafting point cost by your proficiency bonus. You may reduce the point cost by your proficiency bonus (not applied above). Common items can have their point cost reduced to 0.<br>2) The crafting cost is unaffected by the Efficient Alchemy feature. Unlike normal crafting, the base crafting cost in materials is not modified for crafting class (x25 for Creatures), and thus innovating a Consumable costs the same as a Creature.<br>3) Starting at 5th level, your Common-level temporary creations do not consume crafting materials, but still require access to your tools (Alchemist‘s Supplies).<br><br><h3>Crafting Point Cost</h3>Your ability to do such rapid and innovative creations strains your mind and creative capabilities. You are afforded a pool of Crafting Points (which act as Mana Points). Similarly to Mana Points, you spend points to spontaneously craft items and regain such points by resting. This is subject to the following points of difference, however:<br><ul><li>You have a number of Crafting Points equal to your Intelligence score (not modifier) plus your proficiency bonus plus one-half your Alchemist level (round down). Unlike mana points, your pool is unaffected by the spell level you can access. As this power is not magical in nature, you are unaffected by any anti-magic effects such as an antimagic field or mana burn effects.</li><li>You do not regain points by mana-restorative effects, such as Mana Potions or resting near mana fountains. However, so long as you are in a relevant resource node or crafting area (such as an alchemical grove or your stronghold), you regain points with a +50% increase, as you draw inspiration from them.</li><li>Your creation costs scale by the item‘s rarity and your ability to craft them; and are thus limited by the Rarity column in your class chart. You can craft anything you have memorized or if you refer to the formula of in your possession (such as in your formulae book).</li></ul><br>A temporary creation that breaks down, fails, or expires can be harvested for one-half of the crafting materials invested. This does not apply to Consumables that were successfully used. Your temporary creations can be made permanent by paying the rest of the crafting cost.<br><br><h3>Material Cost</h3>As well as consuming Crafting Points, temporary creations also cost material costs appropriate to their rarity, as detailed above.<br><br><h3>Temporary Item Duration</h3>Once created, the temporary item remains until used (if a Consumable), until it breaks down (if a Creature), or up to 5 minutes. Temporary creations are not stable, and if the item is not a consumable in nature, you must succeed on a tool check (Alchemist‘s Supplies) against a DC of 15 after 1 minute (if a Creature), or the creation breaks down. If the item is not being used by you (or a creature bound to you), it has a 50% failure rate. You may maintain multiple temporary creations, but they all begin expiring starting from the round they were crafted.<br><br><h3>At Higher Levels</h3>As you increase in levels, creations of certain rarity require less time and effort. The time it takes for you to inure or craft temporary versions of your creations is reduced to a Bonus Action or 3 turns at the following levels for each rarity.<table><tr><th>Level</th><th>Rarity</th><th>Consumable</th><th>Creature</th></tr><tr><td>2nd</td><td>Common</td><td>Bonus Action</td><td>3 turns</td></tr><tr><td>9th</td><td>Uncommon</td><td>Bonus Action</td><td>3 turns</td></tr><tr><td>17th</td>Rare</td><td>Bonus Action</td><td>3 turns</td></tr></table>"
@@ -509,9 +565,25 @@
                 "Label": "Master of Arms",
                 "Description": "When you use a strike effect, you can apply it to all your attacks until the start of your turn in the next round, so long as the strike has sufficient uses."
             },
+            "MedicalExpert": {
+                "Label": "Medical Expert",
+                "Description": "You gain proficiency with an Herbalism Kit and the Spirit (Medicine) skill, if you didn‘t already have proficiency. Furthermore, whenever you expend a use of a Healer‘s Kit as an action to treat a creature, the target can expend one hit dice. A creature can benefit from this ability once per short rest.<br>Whenever you expend a use of a Healer‘s Kit, you can roll a DC 20 Intelligence check with Alchemist Supplies. If you succeed, you do not expend a single use of the kit."
+            },
+            "Mettle": {
+                "Label": "Mettle",
+                "Description": "Your exposure and experimentations in alchemy left your body more resilient to certain effects, such as a rogue‘s poison gas or a stinking cloud spell. When you are subjected to an effect that allows you to make a Stamina saving throw to take only half damage or a reduced effect, you instead take no damage or effect if you succeed on the saving throw, and only half damage (or the reduced effect) if you fail.<br>For example, a clay golem‘s reduction to maximum hit points is negated on a successful saving throw, and you take half the effect if you fail."
+            },
             "MortalStrike": {
                 "Label": "Mortal Strike",
                 "Description": "You may severely wound a creature‘s healing capabilities if you successfully apply a mortal strike. If a creature is affected by a Mortal Strike, they must succeed on a Stamina saving throw against a DC equal to 8 + your proficiency bonus + your Strength bonus or take 50% less healing from all sources for one minute. So long as a creature is affected this way, it is always treated as if it is Bloodied for the purposes of your First Blood feature. A creature cannot be affected by this ability more than once in 24 hours."
+            },
+            "MutatePotion": {
+                "Label": "Mutate Potion",
+                "Description": "you can spend 4 Crafting Points to change any potion you have into the rejuvenation spell of the same spell level (up to the maximum spell level of the spell you can access). You memorize the rejuvenation spell."
+            },
+            "NecromanticMastery": {
+                "Label": "Necromantic Mastery",
+                "Description": "You add all spells of the Necromancy school from the Mage spell list to the Alchemist spell list, and can make potions out of them."
             },
             "Overpower": {
                 "Label": "Overpower",
@@ -520,6 +592,10 @@
             "Patent": {
                 "Label": "Patent",
                 "Description": "You gain increased mastery over a single engineered device of your creation that is not a consumable. Your Patented device does not malfunction when being used.<br>Furthermore, if a construct or gadget, it takes one-quarter the fuel as normally required for a single use. This stacks with the reduction for certain devices (such as strike effect gadgets).<br>The device may malfunction condition from other circumstances or abilities. This bonus only applies to your Patent device, and does not extend to Innovated devices (even if they are of your Patented device)."
+            },
+            "PlagueZombies": {
+                "Label": "Plague Zombies",
+                "Description": "You learn to imbue any undead creature you create or control by your potions with any one poison or disease you have. You may imbue any corporeal undead with up to three dosages of a poison or disease, and allowing the creature to act as a carrier. It can then apply the poison, depending on the poison‘s vector, as below:<br><br><ul><li>A dose of an inhaled poison or disease can be exhaled as an action, affecting creatures within 5 feet (plus 5 feet per size category above Medium).</li><li>A dose of a contact poison or disease can be delivered with a successful melee weapon attack that inflicts the disease. The attacker cannot add their ability modifier to damage for this attack.</li><li>A dose of an ingested poison or disease can be projected onto edible food or drink as an action.</li><li>A dose of an injury poison or disease can be delivered with a successful attack; one dose is delivered with each successful attack.</li></ul><br>If you also chose the Mithridatism Weird Science feature, you can choose for some of your creations to host your doses instead of you."
             },
             "PracticedPrecision": {
                 "Label": "Practiced Precision",
@@ -535,15 +611,19 @@
             },
             "QuickCooldown": {
                 "Label": "Quick Cooldown",
-                "Description": "Starting when you choose this archetype at 3rd level, your gadgets and constructs always benefit from the Quick Use and Quick Startup modifications, respectively. This has no cost."
+                "Description": "Your gadgets and constructs always benefit from the Quick Use and Quick Startup modifications, respectively. This has no cost."
             },
             "QuickReload": {
                 "Label": "Quick Reload",
-                "Description": "Starting when you choose this archetype at 3rd level, you may use a bonus action to reload a firearm instead of an action. If you perform the Touch-Blast Strike special attack or attack with your firearm as a melee attack, you can also reload as part of the action, and you may add your proficiency bonus to attacks with firearms without bayonets. If you use a bayonet, you deal 2 extra points of damage with melee attacks with them."
+                "Description": "You may use a bonus action to reload a firearm instead of an action. If you perform the Touch-Blast Strike special attack or attack with your firearm as a melee attack, you can also reload as part of the action, and you may add your proficiency bonus to attacks with firearms without bayonets. If you use a bayonet, you deal 2 extra points of damage with melee attacks with them."
             },
             "QuickTech": {
                 "Label": "Quick Tech",
                 "Description": "You may use your innovate ability on a device of equal rarity, and permanently alter the properties of the device. This device does not have to be built by you, nor does it have to be temporarily-created. This costs the same number of Crafting Points as well as the same time."
+            },
+            "RepairFlesh": {
+                "Label": "Repair Flesh",
+                "Description": "Your alchemist spells and potions that heal the living on your spell list can heal undead and constructs (such as rejuvenation and heal). A given creature must be studied for at least one hour before you may adapt your alchemy to heal them, however. For instance, studying a forsaken for one hour allows you to heal all forsaken with the holy light spell if manifested as an alchemist spell (or potion)."
             },
             "RestoredStrength": {
                 "Label": "Restored Strength",
@@ -553,6 +633,14 @@
                 "Label": "Scavenge",
                 "Description": "When you gather raw materials for use with engineering, you gain triple the total value. This applies when harvesting existing devices, nodes, creatures, and deconstructing devices. If dismantling an item, this cannot exceed one-half the value of creating the item itself (counting any reductions)."
             },
+            "ScavengeAlchemist": {
+                "Label": "Scavenge (Alchemist)",
+                "Description": "When you gather raw materials for use with alchemy, you gain triple the total value. This applies when harvesting existing devices, nodes, creatures, and dismantling potions."
+            },
+            "SecretsOfAlchemy": {
+                "Label": "Secrets Of Alchemy",
+                "Description": "You learn and memorize how to create a Philosopher‘s Stone and the transmute material spell. You can transmute a mineral once per short rest instead of once per long rest, and you further memorize the alchemical composition of two minerals (as recipes), allowing you to turn one mineral to another. Whenever you would gain an alchemical recipe from leveling up, you may choose a mineral recipe instead."
+            },
             "Shutdown": {
                 "Label": "Shutdown",
                 "Description": "You may expend 2 Crafting Points and a bonus action to increase the malfunction rate of any device within 10 feet of you by 5 points for up to 1 hour. You can target your own devices to increase the risk of malfunction and Superfunction (up to a 50% chance for either). If you attempt to apply this feature to another device while it is active, its benefits end for the previous one."
@@ -560,6 +648,10 @@
             "SolidEngineering": {
                 "Label": "Solid Engineering",
                 "Description": "Your devices do not lose charges when they are damaged, and all your devices (except bombs and firearms) consume half the normal fuel (this may stack with the Efficient Fuel modification).<br>Also, you memorize the formula for phlogiston, gaining proficiency in Alchemist‘s Supplies if you don‘t already have it."
+            },
+            "SoulScience": {
+                "Label": "Soul Science",
+                "Description": "Whenever you create or summon undead, homunculi, or constructs via alchemy (as with the conjure spell), you may grant the creature Blindsight against living and undead creatures, as well as constructs and devices that work off an electrical source. The Blindsight only works up to 60 feet, but the creature is not blind beyond that radius."
             },
             "SpecialBullets": {
                 "Label": "Special Bullets",
@@ -576,6 +668,14 @@
             "Superfunction": {
                 "Label": "Superfunction",
                 "Description": "Your genius allows you to use malfunction rates to your benefit. Whenever you use a device, there is a chance it performs unexpectedly well—thus the greater the malfunction rate, the greater the superfunction rate. A Superfunction can stack with a critical hit (if using a weapon-based engineered device).<br><br><i>Superfunction Rate = 20 - Malfunction Rate</i><br><br>For instance, an explosive that has a malfunction rate of 2 has a Superfunction rate of 18-20.<br><br>When a device superfunctions, it does not roll for a malfunction for the duration of the effect (see below, affected by energy source). It also gains a bonus depending on its energy source. Choose one benefit the device qualifies for.<br><ul><li><i>Better</i>: The next malfunction condition is negated, and the next use of the device consumes no fuel charges (so long as it doesn‘t have only one use)</li><li><i>Faster</i>: The device gains a 25% increase in movement speed (if a construct or vehicle) for 1 hour</li><li><i>Harder</i>: The device cannot lose charges by taking damage or suffer any negative effects that would normally cause it to loses charges (such as overcharging) for 1 hour</li><li><i>Stronger</i>: The device deals maximum damage (no need to roll) with the next (or current) damage roll it makes.</li></ul><br><i>Note</i>: Since your Patent device cannot malfunction, it can only Superfunction at a natural 20 use."
+            },
+            "SuperMutant": {
+                "Label": "Super Mutant",
+                "Description": "Whenever you are under the effects of the mutate spell, you gain 1d6 temporary Hit Points per step of rarity (1d6 Common, 2d6 Uncommon, etc.). These fade at the end of the spell‘s duration.<br>Furthermore, you can attack twice, instead of once, whenever you take the Attack action on your turn.<br>Lastly, you no longer gain exhaustion from the berserker rage spell, and you do not lose your action when the haste spell ends for you."
+            },
+            "SynthesizedPotions": {
+                "Label": "Synthesized Potions",
+                "Description": "You can create synthesized potions. A synthesized potion has the benefit of one potion of a specific rarity, and includes the effect of another potion of a rarity two steps below. This does not risk miscibility. For example, the rare-quality Globe of Invulnerability Potion can be synthesized with a Commonquality Healing Potion. This costs the normal cost of the potion plus half the cost of the secondary potion.<br>You can possess an indefinite number of synthesized potions, but create only one every 24 hours."
             },
             "TinkerPath": {
                 "Label": "Tinker Path",
@@ -606,6 +706,10 @@
             "WarriorTalent": {
                 "Label": "Warrior Talent",
                 "Description": "Starting at 1st level, you gain a class talent, representing your preferred tactics and adaptability on the field of battle. See Class Talents at the end of the Chapter 3 for options.<br>Whenever you qualify for another talent (as detailed in the talent column), you can choose another talent or gain another use of an existing talent."
+            },
+            "WeirdScience": {
+                "Label": "Weird Science",
+                "Description": "You may choose a weird science or avenue of natural talent to focus your alchemical powers upon. Choose one of the following choices:<br><br><ul><li><i>Homunculus</i>: You gain a companion that is a humanoid, undead, construct, or any creature with the homunculus template. The creature has a Challenge Rating of 1/2 or lower. See Bound Companions for more details. Your homunculus companion improves in CR the higher your level becomes, CR equal to 1 per every 8 levels of Alchemist (improving to 1 CR at level 4, 2 CR at level 8, and 3 CR at level 16). This either takes the form of choosing a higher-level companion, or adding hit dice to the companion until its CR increases.<br>If a humanoid or a creature with the homunculus template, the creature is loyal to you, but retains a shadow of free will. It can be commanded to go against its nature (or what it perceives as its nature) with a DC 15 Charisma check. Bonding with a homunculus requires spending one hour communicating with the creature by means it can understand, and spending the next seven hours in bonding activities (fixing/healing/conversing/etc.). The companion can use your potions as if it was you.</li><li><i>Innate Cantrips</i>: You can use any cantrips you have learned, so long as you have access to your Formula Book. You can use cantrips as if you were a spellcaster, and do not need to turn them into potions or use any resources on them (such as mana or inurement).</li><li><i>Potion Slinger</i>: You may choose one type of ranged weapon (such as crossbows or bows) and gain proficiency if you don‘t already have it. Furthermore, you may spend a potion to infuse the projectile with the potion‘s effects. You may choose to activate the potion before launching the projectile (to take into account the spell‘s original casting time), but the spell otherwise takes place as if the target was hit (or the area it landed on) is the spell‘s original target. You may choose to deal the ranged weapon‘s damage on impact or to only apply the potion‘s effect.</li><li><i>Mithridatism</i>: You gain innate power over poisons. You naturally generate up to four doses of basic poison (as described in the Player‘s Handbook) whenever you complete a long rest. The poison‘s DC is equal to your Alchemy Spell Save DC, however, and the damage is equal to 1d4 Poison damage per Alchemist spell level you can access. The poison expires before you complete your next long rest, replenishing your store. If you have an empty Mithridatism dose slot, you can choose to fill it with a poison you are affected by, so long as you succeed on the saving throw against it and are aware of its presence. You can store this poison for future use, but cannot otherwise generate it.<br>You also have skill in deploying poisons that are in your dosage slots, and gain temporary immunity to such poisons so long as they are not deployed. You may deploy poisons as described under Chapter 7: Poisoner‘s Kit.</li>"
             },
             "WorksAsIntended": {
                 "Label": "Works as Intended",
@@ -784,9 +888,23 @@
                 "Description": "Destructive energy radiates from you in an aura with a 15-foot radius. Until the spell ends, the aura moves with you, centered on you. Each creature hostile to you that is in the aura takes 1 extra point of damage from all weapon attacks. A creature can negate this effect if they succeed on a Spirit saving throw once within the aura‘s area.<br> This spell is suppressed by the protection from good and evil (and similar abjurations). This is an aura bonus.",
                 "Heightened": "For each spell level above 1st, the extra damage increases by 1 point (up to 5 extra points of damage at spell level 5).<br> Note. This spell suppresses and is suppressed by the devotion aura spell."
             },
+            "AbsorbElements": {
+                "Label": "Absorb Elements",
+                "Description": "The spell captures some of the incoming energy, lessening its effect on you and storing it for your next melee attack. You have resistance to the triggering damage type until the start of your next turn. Also, the first time you hit with a melee attack on your next turn, the target takes an extra 1d6 damage of the triggering type, and the spell ends.",
+                "Heightened": "When you cast this spell using a spell slot of 2nd level or higher, the extra damage increases by 1d6 for each slot level above 1st."
+            },
             "AlignedWeapon": {
                 "Label": "Aligned Weapon",
                 "Description": "You imbue a weapon you touch with power aligned to the Holy Light or the Forgotten Shadow. Until the spell ends, the weapon emits bright light in a 30-foot-radius and dim light for an additional 30 feet, colored golden white (if Holy Light) or pale violet (if Forgotten Shadow). In addition, weapon attacks made with it deal an extra 2d8 extra damage on a hit (holy damage if Holy Light, or shadow damage if Forgotten Shadow). If the weapon isn‘t already a magic weapon, it becomes one for the duration.<br>As a bonus action on your turn, you can dismiss this spell and cause the weapon to emit a lasting blast. Each creature of your choice that you can see within 30 feet of you must make a Stamina saving throw. On a failed save, a creature takes 4d8 damage (holy or shadow), and it is blinded for 1 minute. On a successful save, a creature takes half as much damage and isn‘t blinded. At the end of each of its turns, a blinded creature can make a Stamina saving throw, ending the effect on itself on a success.<br>Special. If aligned to the Forgotten Shadow, the weapon may, at your will, shed no light instead. In that case, releasing the spell deals extra 1d8 shadow damage."
+            },
+            "AlterSelf": {
+                "Label": "Alter Self",
+                "Description": "You assume a different form. When you cast the spell, choose one of the following options, the effects of which last for the duration of the spell. While the spell lasts, you can end one option as an action to gain the benefits of a different one.",
+                "Options": {
+                    "1": "<i>Aquatic Adaptation</i>: You adapt your body to an aquatic environment, sprouting gills and growing webbing between your fingers. You can breathe underwater and gain a swimming speed equal to your walking speed.",
+                    "2": "<i>Change Appearance</i>: You transform your appearance. You decide what you look like, including your height, weight, facial features, sound of your voice, hair length, coloration, and distinguishing characteristics, if any. You can make yourself appear as a member of another race, though none of your statistics change. You also can't appear as a creature of a different size than you, and your basic shape stays the same; if you're bipedal, you can't use this spell to become quadrupedal, for instance. At any time for the duration of the spell, you can use your action to change your appearance in this way again.",
+                    "3": "<i>Natural Weapons</i>: You grow claws, fangs, spines, horns, or a different natural weapon of your choice. Your unarmed strikes deal 1d6 bludgeoning, piercing, or slashing damage, as appropriate to the natural weapon you chose, and you are proficient with your unarmed strikes. Finally, the natural weapon is magic and you have a +1 bonus to the attack and damage rolls you make using it."
+                }
             },
             "AmplifyMagic": {
                 "Label": "Amplify Magic",
@@ -797,9 +915,75 @@
                 "Description": "You conjure spirits to guard and advise the target in battle, tapping into the target's ancestral bonds. The target regains 2d4 hit points. At the beginning of every round, the caster must succeed on a sigil roll to affect the target again.<br>Also, so long as this sigil is active, the target also takes 1 less point of damage from weapon and spell attacks and effects for that round. The reduction to damage is an aura effect.<br>Constructs gain no benefit from this spell.<br><i>Special</i>: If the caster and the target share ancestry or share a Blood Oath (see Chapter 10), the damage reduction increases by 1 point.",
                 "Heightened": "The healing increases by one dice per every level above 2nd, and reduction to damage increases by one point per every two levels above 2nd."
             },
+            "BerserkerRage": {
+                "Label": "Berserker Rage",
+                "Description": "You cause one creature to go into a murderous rampage. The target must succeed on a Stamina saving throw or else gains the following benefits. A willing creature can choose to fail on the saving throw.<br><br><ul><li>They have advantage on Strength checks and Strength saving throws.</li><li>When they make a melee weapon attack using Strength, they gain a +2 bonus to the damage roll (this applies only twice per round).</li><li>They have Resistance to bludgeoning, piercing, and slashing damage.</li><li>The suffers the distracted condition (DC is equal to your spell DC).</li></ul><br>The rage ends early if the target is knocked unconscious, or if their turn ends without being attacked or attacking a hostile creature, or if not taking at least one point of damage in that turn. The benefits of this spell are not gained if the target is wearing heavy armor. A creature affected by this spell makes another Stamina saving throw at the end of its turn. On a successful save, the effect ends for it. If the rage continues for more than two rounds, the creature gains one level of exhaustion at the end of the rage.<br> A creature cannot benefit from this spell more than once per their own proficiency bonus per every long rest.",
+                "Heightened": "For each 3 spell levels heightened above 2nd level, the bonus to damage rolls increases by 1 (+3 at 5th, +4 at 8th)."
+            },
+            "Confusion": {
+                "Label": "Confusion",
+                "Description": "This spell assails and distorts the minds of creatures, generating illusions and causing uncontrolled actions. Each creature in a sphere of 10-foot-radius centered on a point chosen in the range of the spell must make a Wisdom saving throw otherwise it will be affected by the spell.<br>An affected target can react and it must start at the beginning of 1d10 each of his game rounds to determine its behavior for that round.<br>At the end of each turn, an affected creature can make a saving throw of Wisdom. If successful, the effect of the spell ends for this target.",
+                "Heightened": "When you cast this spell using a level spell slot 5 or more, the radius of the sphere increases by 5 feet for each level of higher spell slot to 4."
+            },
+            "ConjureUndead": {
+                "Label": "Conjure Undead",
+                "Description": "TODO: Spell missing"
+            },
+            "Contagion": {
+                "Label": "Contagion",
+                "Description": "Your touch inflicts disease. Make a melee spell attack against a creature within your reach. On a hit, you afflict the creature with a disease of your choice from any of the ones described below.<br>At the end of each of the target’s turns, it must make a Constitution saving throw. After failing three of these saving throws, the disease’s effects last for the duration, and the creature stops making these saves. After succeeding on three of these saving throws, the creature recovers from the disease, and the spell ends.<br>Since this spell induces a natural disease in its target, any effect that removes a disease or otherwise ameliorates a disease’s effects apply to it.<br><ul><li><i>Blinding Sickness</i>: Pain grips the creature’s mind, and its eyes turn milky white. The creature has disadvantage on Wisdom checks and Wisdom saving throws and is blinded.</li><li><i>Filth Fever</i>: A raging fever sweeps through the creature’s body. The creature has disadvantage on Strength checks, Strength saving throws, and attack rolls that use Strength.</li><li><i>Flesh Rot</i>: The creature’s flesh decays. The creature has disadvantage on Charisma checks and vulnerability to all damage.</li><li><i>Mindfire</i>: The creature’s mind becomes feverish. The creature has disadvantage on Intelligence checks and Intelligence saving throws, and the creature behaves as if under the effects of the confusion spell during combat.</li><li><i>Seizure</i>: The creature is overcome with shaking. The creature has disadvantage on Dexterity checks, Dexterity saving throws, and attack rolls that use Dexterity.</li><li><i>Slimy Doom</i>: The creature begins to bleed uncontrollably. The creature has disadvantage on Constitution checks and Constitution saving throws. In addition, whenever the creature takes damage, it is stunned until the end of its next turn."
+            },
+            "CreateFoodAndWater": {
+                "Label": "Create Food and Water",
+                "Description": "You create 45 pounds of food and 30 gallons of water on the ground or in containers within range, enough to sustain up to fifteen humanoids or five steeds for 24 hours. The food is bland but nourishing, and spoils if uneaten after 24 hours. The water is clean and doesn't go bad."
+            },
+            "Cripple": {
+                "Label": "Cripple",
+                "Description": "You cripple any living target within range. Make a ranged spell attack. On a success, the target takes -2 to AC and to Agility saving throws, can‘t use its reactions, and may make either an action or a bonus action every turn (not both). Regardless of the creature‘s abilities, it may only make one melee or ranged attack on its turn, and they deal only half damage with weapon attacks that use Strength or Agility.<br>If the creature attempts to cast a spell with a casting time of 1 action, roll a d20. On an 11 or higher, the spell doesn‘t take effect until the creature‘s next turn, and the creature must use its action on that turn to complete the spell. If it can‘t, the spell is wasted. At the end of each of the target‘s turns, it can make a Stamina saving throw against the spell. On a success, the spell ends."
+            },
+            "CurseOfAgony": {
+                "Label": "Curse of Agony",
+                "Description": "You curse one living target within range with searing agony, setting their nervous system ablaze. Make a ranged spell attack against the target. On a hit, the target suffers 2d4 fel damage. At the beginning of every round, the caster must succeed on a sigil roll to affect the target again.<br>Also, so long as the spell is active, the target is treated as if they gained a level of exhaustion for one round (even if they are normally immune to the condition, so long as they are living) until the beginning of their turn in the next round. If the ranged spell attack misses, the spell deals half the initial damage and has no other effect.",
+                "Heightened": "The damage increases by one dice per every level above 2nd.<br><i>Special</i>: Whenever the sigil roll succeeds, the target takes 1d4 additional damage the next round. This stacks up to a number of d4s equal to the spell level."
+            },
             "DetectMagic": {
                 "Label": "Detect Magic",
                 "Description": "For the duration, you sense the presence of magic within 30 feet of you. If you sense magic in this way, you can use your action to see a faint aura around any visible creature or object in the area that bears magic, and you learn its school of magic, if any. The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt."
+            },
+            "FeignDeath": {
+                "Label": "Feign Death",
+                "Description": "You touch a willing creature and put it into a cataleptic state that is indistinguishable from death.<br>For the spell’s duration, or until you use an action to touch the target and dismiss the spell, the target appears dead to all outward inspection and to spells used to determine the target’s status. The target is blinded and incapacitated, and its speed drops to 0. The target has resistance to all damage except psychic damage. If the target is diseased or poisoned when you cast the spell, or becomes diseased or poisoned while under the spell’s effect, the disease and poison have no effect until the spell ends."
+            },
+            "FleshToStone": {
+                "Label": "Flesh to Stone",
+                "Description": "You attempt to turn one creature that you can see within range into stone. If the target’s body is made of flesh, the creature must make a Constitution saving throw. On a failed save, it is Restrained as its flesh begins to harden. On a successful save, the creature isn’t affected.<br>A creature Restrained by this spell must make another Constitution saving throw at the end of each of its turns. If it successfully saves against this spell three times, the spell ends. If it fails its saves three times, it is turned to stone and subjected to the Petrified condition for the Duration. The successes and failures don’t need to be consecutive; keep track of both until the target collects three of a kind.<br>If the creature is physically broken while Petrified, it suffers from similar deformities if it reverts to its original state.<br>If you maintain your Concentration on this spell for the entire possible Duration, the creature is turned to stone until the effect is removed."
+            },
+            "Fly": {
+                "Label": "Fly",
+                "Description": "You touch a willing creature. The target gains a flying speed of 60 feet for the Duration. When the spell ends, the target falls if it is still aloft, unless it can stop the fall.",
+                "Heightened": "When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd."
+            },
+            "FogCloud": {
+                "Label": "Fog Cloud",
+                "Description": "You create a 20-foot-radius Sphere of fog centered on a point within range. The sphere spreads around corners, and its area is heavily obscured. It lasts for the Duration or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.",
+                "Heightened": "When you cast this spell using a spell slot of 2nd level or higher, the radius of the fog increases by 20 feet for each slot level above 1st."
+            },
+            "GaseousForm": {
+                "Label": "Gaseous Form",
+                "Description": "You transform a willing creature you touch, along with everything it's wearing and carrying, into a misty cloud for the duration. The spell ends if the creature drops to 0 hit points. An incorporeal creature isn't affected.<br>While in this form, the target's only method of movement is a flying speed of 10 feet. The target can enter and occupy the space of another creature. The target has resistance to nonmagical damage, and it has advantage on Strength, Dexterity, and Constitution saving throws. The target can pass through small holes, narrow openings, and even mere cracks, though it treats liquids as though they were solid surfaces. The target can't fall and remains hovering in the air even when stunned or otherwise incapacitated.<br>While in the form of a misty cloud, the target can't talk or manipulate objects, and any objects it was carrying or holding can't be dropped, used, or otherwise interacted with. The target can't attack or cast spells."
+            },
+            "Haste": {
+                "Label": "Haste",
+                "Description": "Choose a willing creature that you can see within range. Until the spell ends, the target’s speed is doubled, it gains a +2 bonus to AC, it has advantage on Dexterity Saving Throws, and it gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object action.<br>When the spell ends, the target can’t move or take Actions until after its next turn, as a wave of lethargy sweeps over it."
+            },
+            "HolyLight": {
+                "Label": "Holy Light",
+                "Description": "With the grace of the Holy Light, you bring life to the living, and harm to the unsanctified. The creature you target regains a number of hit points equal to 1d8 + your spellcasting ability modifier. If you target an undead or a fiend with this ability, they take holy damage equal to the hit points they would normally gain. If you target an unwilling creature, you require a ranged spell attack.<br>Constructs gain no benefit from this spell.",
+                "Heightened": "The healing increases by 1d8 per level above 1st."
+            },
+            "MageArmor": {
+                "Label": "Mage Armor",
+                "Description": "You touch a willing creature who isn't wearing armor, and a protective magical force surrounds it until the spell ends. The target's base AC becomes 13 + its Dexterity modifier. The spell ends if the target dons armor or if you dismiss the spell as an action."
             },
             "MageHand": {
                 "Label": "Mage Hand",
@@ -810,10 +994,19 @@
                 "Description": "You target a creature that has mana within 30 feet. A ray of black-purple anti-magic leaps out, and strikes the target, draining them of mana. You must make a ranged spell attack with the ray. On a success, the target loses 1d4 + 1 mana points. For every mana point lost, the target takes two points of arcane damage. The target is entitled a Spirit saving throw. On a success, the mana and hit points lost are halved.",
                 "Heightened": "The number of mana points drained increases by 1d4 points per every two levels above 2 (2d4 at level 4, 3d4 at level 6, 4d4 at level 8). Special: Demons always have active mana, and can always be targeted with mana burn. If they have no mana, they still take 2 points of arcane damage."
             },
+            "ModifyMemory": {
+                "Label": "Modify Memory",
+                "Description": "You attempt to reshape another creature’s memories. One creature that you can see must make a Wisdom saving throw. If you are fighting the creature, it has advantage on the saving throw. On a failed save, the target becomes Charmed by you for the Duration. The charmed target is Incapacitated and unaware of its surroundings, though it can still hear you. If it takes any damage or is targeted by another spell, this spell ends, and none of the target’s memories are modified.<br>While this charm lasts, you can affect the target’s memory of an event that it experienced within the last 24 hours and that lasted no more than 10 minutes. You can permanently eliminate all memory of the event, allow the target to recall the event with perfect clarity and exacting detail, change its memory of the details of the event, or create a memory of some other event.<br>You must speak to the target to describe how its memories are affected, and it must be able to understand your language for the modified memories to take root. Its mind fills in any gaps in the details of your description. If the spell ends before you have finished describing the modified memories, the creature’s memory isn’t altered. Otherwise, the modified memories take hold when the spell ends.<br>A modified memory doesn’t necessarily affect how a creature behaves, particularly if the memory contradicts the creature’s natural inclinations, Alignment, or beliefs. An illogical modified memory, such as implanting a memory of how much the creature enjoyed dousing itself in acid, is dismissed, perhaps as a bad dream. The DM might deem a modified memory too nonsensical to affect a creature in a significant manner.<br>A Remove Curse or Greater Restoration spell cast on the target restores the creature’s true memory.",
+                "Heightened": "If you cast this spell using a spell slot of 6th level or higher, you can alter the target’s memories of an event that took place up to 7 days ago (6th level), 30 days ago (7th level), 1 year ago (8th level), or any time in the creature’s past (9th level)."
+            },
             "Mute": {
                 "Label": "Mute",
                 "Description": "Concentration, up to 1 minute You target a creature within range, forcing it to make a Spirit saving throw. If it fails, the target is isolated from all sound, causing it to be silenced and deafened. This prevents it from performing the verbal components of spells, and rendering it immune to Thunder damage and effects of a spell equal to the spell's level or lower.",
                 "Heightened": "You may target another creature within 30 feet of the original target for every 2 spell levels above 2nd (2 creatures at level 4, 3 at level 6, and 4 at level 8)."
+            },
+            "Polymorph": {
+                "Label": "Polymorph",
+                "Description": "This spell transforms a creature that you can see within range into a new form. An unwilling creature must make a Wisdom saving throw to avoid the effect. The spell has no effect on a Shapechanger or a creature with 0 Hit Points.<br><br>The transformation lasts for the Duration, or until the target drops to 0 Hit Points or dies. The new form can be any beast whose Challenge rating is equal to or less than the target’s (or the target’s level, if it doesn’t have a challenge rating). The target’s game statistics, including mental Ability Scores, are replaced by the Statistics of the chosen beast. It retains its Alignment and personality.<br><br>The target assumes the Hit Points of its new form. When it reverts to its normal form, the creature returns to the number of hit points it had before it transformed. If it reverts as a result of dropping to 0 hit points, any excess damage carries over to its normal form. As long as the excess damage doesn’t reduce the creature’s normal form to 0 hit points, it isn’t knocked Unconscious.<br><br>The creature is limited in the Actions it can perform by the Nature of its new form, and it can’t speak, cast Spells, or take any other action that requires hands or speech.<br><br>The target’s gear melds into the new form. The creature can’t activate, use, wield, or otherwise benefit from any of its Equipment."
             },
             "ProduceFlame": {
                 "Label": "Produce Flame",
@@ -831,9 +1024,41 @@
                     "6": "You create a nonmagical trinket or an illusory image that can fit in your hand and that lasts until the end of your next turn."
                 }
             },
+            "RayOfEnfeeblement": {
+                "Label": "Ray of Enfeeblement",
+                "Description": "A black beam of enervating energy springs from your finger toward a creature within range. Make a ranged spell attack against the target. On a hit, the target deals only half damage with weapon attacks that use Strength until the spell ends.<br>At the end of each of the target's turns, it can make a Constitution saving throw against the spell. On a success, the spell ends."
+            },
+            "ResilientSphere": {
+                "Label": "Resilient Sphere",
+                "Description": "A sphere of shimmering force encloses a creature or object of Large size or smaller within range. An unwilling creature must make a Dexterity saving throw. On a failed save, the creature is enclosed for the Duration.<br><br>Nothing—not physical Objects, energy, or other spell effects—can pass through the barrier, in or out, though a creature in the sphere can breathe there. The sphere is immune to all damage, and a creature or object inside can’t be damaged by attacks or Effects originating from outside, nor can a creature inside the sphere damage anything outside it.<br><br>The sphere is weightless and just large enough to contain the creature or object inside. An enclosed creature can use its action to push against the sphere’s walls and thus roll the sphere at up to half the creature’s speed. Similarly, the globe can be picked up and moved by other creatures.<br><br>A Disintegrate spell targeting the globe destroys it without harming anything inside it."
+            },
+            "Revivify": {
+                "Label": "Revivify",
+                "Description": "You touch a creature that has died within the last minute. That creature returns to life with 1 hit point. This spell can't return to life a creature that has died of old age, nor can it restore any missing body parts."
+            },
+            "RuneArrayAlchemist": {
+                "Label": "Rune Array (Alchemist)",
+                "Description": "<i>Vampiric Rune</i>: After you make this attack, you regain a number of hit points equal to half the total weapon damage you dealt (weapon dice, Strength, plus any bonuses from the weapon only). You may grant this healing to any ally within 30 feet. This healing has no effect on constructs. This applies to your first attack in a given round."
+            },
+            "SeeInvisibility": {
+                "Label": "See Invisibility",
+                "Description": "For the duration, you see invisible creatures and objects as if they were visible, and you can see into the Ethereal Plane. Ethereal creatures and objects appear ghostly and translucent."
+            },
             "Silence": {
                 "Label": "Silence",
-                "Description": "For the Duration, no sound can be created within or pass through a 20-foot-radius Sphere centered on a point you choose within range. Any creature or object entirely inside the Sphere is immune to thunder damage, and creatures are Deafened while entirely inside it. Casting a Spell that includes a verbal component is impossible there. "
+                "Description": "For the Duration, no sound can be created within or pass through a 20-foot-radius Sphere centered on a point you choose within range. Any creature or object entirely inside the Sphere is immune to thunder damage, and creatures are Deafened while entirely inside it. Casting a Spell that includes a verbal component is impossible there."
+            },
+            "StinkingCloud": {
+                "Label": "Stinking Cloud",
+                "Description": "You create a 20-foot-radius sphere of yellow, nauseating gas centered on a point within range. The cloud spreads around corners, and its area is heavily obscured. The cloud lingers in the air for the duration.<br>Each creature that is completely within the cloud at the start of its turn must make a Constitution saving throw against poison. On a failed save, the creature spends its action that turn retching and reeling. Creatures that don't need to breathe or are immune to poison automatically succeed on this saving throw.<br>A moderate wind (at least 10 miles per hour) disperses the cloud after 4 rounds. A strong wind (at least 20 miles per hour) disperses it after 1 round."
+            },
+            "Stoneskin": {
+                "Label": "Stoneskin",
+                "Description": "This spell turns the flesh of a willing creature you touch as hard as stone. Until the spell ends, the target has resistance to nonmagical bludgeoning, piercing, and slashing damage."
+            },
+            "TelepathicBond": {
+                "Label": "Telepathic Bond",
+                "Description": "You forge a telepathic link among up to eight willing creatures of your choice within range, psychically linking each creature to all the others for the duration. Creatures with Intelligence scores of 2 or less aren’t affected by this spell.<br>Until the spell ends, the targets can communicate telepathically through the bond whether or not they have a common language. The communication is possible over any distance, though it can’t extend to other planes of existence."
             },
             "Thaumaturgy": {
                 "Label": "Thaumaturgy",
@@ -846,6 +1071,10 @@
                     "5": "You instantaneously cause an unlocked door or window to fly open or slam shut.",
                     "6": "You alter the Appearance of your eyes for 1 minute."
                 }
+            },
+            "TrueSeeing": {
+                "Label": "True Seeing",
+                "Description": "This spell gives the willing creature you touch the ability to see things as they actually are. For the duration, the creature has truesight, notices secret doors hidden by magic, and can see into the Ethereal Plane, all out to a range of 120 feet."
             }
         },
 

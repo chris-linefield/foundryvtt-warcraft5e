@@ -3,7 +3,7 @@
   "title": "Warcraft RPG - 5e",
   "description": "Conversion of the official Warcraft Role Playing Game: https://drive.google.com/drive/folders/0B1FoMHLY1oOtLUlNdTZXYzVNY0k.",
   "author": "ArthegaAsdweri",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "esmodules": [
     "scripts/warcraft5e.js"
   ],
@@ -77,8 +77,8 @@
     }
   ],
   "minimumCoreVersion": "0.8.2",
-  "compatibleCoreVersion": "0.8.8",
+  "compatibleCoreVersion": "0.8.9",
   "url": "https://github.com/ArthegaAsdweri/foundryvtt-warcraft5e",
-  "manifest": "https://github.com/ArthegaAsdweri/foundryvtt-warcraft5e/raw/master/system.json",
+  "manifest": "https://github.com/ArthegaAsdweri/foundryvtt-warcraft5e/raw/master/module.json",
   "download": "https://github.com/ArthegaAsdweri/foundryvtt-warcraft5e/archive/master.zip"
 }

@@ -96,26 +96,24 @@
             </p>
             <br>
             <h4>Equipment</h4>
-            <p>
-                You start with the following equipment, in addition to the equipment granted by your background:
-                <ul>
-                    {{#each item.data.equipment}}
-                        <li>
-                            {{#if this.[1]}}
-                                {{#each this}}
-                                    {{#if @first}}
-                                        (a)
-                                    {{/if}}
-                                    {{#unless @first}}or (b){{/unless}}
-                                    {{this}}
-                                {{/each}}
-                            {{else}}
+            You start with the following equipment, in addition to the equipment granted by your background:
+            <ul>
+                {{#each item.data.equipment}}
+                    <li>
+                        {{#if this.[1]}}
+                            {{#each this}}
+                                {{#if @first}}
+                                    (a)
+                                {{/if}}
+                                {{#unless @first}}or (b){{/unless}}
                                 {{this}}
-                            {{/if}}
-                        </li>
-                    {{/each}}
-                </ul>
-            </p>
+                            {{/each}}
+                        {{else}}
+                            {{this}}
+                        {{/if}}
+                    </li>
+                {{/each}}
+            </ul>
         </div>
 
         <div class="tab progression" data-group="primary" data-tab="progression">
@@ -125,6 +123,9 @@
                     <th class="numberCol">Proficiency</th>
                     <th>{{this.data.specialCol}}</th>
                     <th class="left">Features</th>
+                    {{#if this.data.isCaster}}
+                        <th>Caster level</th>
+                    {{/if}}
                 </tr>
                 {{#each item.data.progression}}
                     <tr>
@@ -138,11 +139,13 @@
                                         {{localize this.label}}
                                     </a>
                                 {{/each}}
-                            {{/if}}
-                            {{#else}}
+                            {{else}}
                                 -
-                            {{/else}}
+                            {{/if}}
                         </td>
+                        {{#if this.caster}}
+                            <td>{{this.caster}}</td>
+                        {{/if}}
                     </tr>
                 {{/each}}
             </table>
@@ -157,19 +160,39 @@
                         <th class="numberCol">Level</th>
                         <th class="left">Features</th>
                     </tr>
-                {{#each this.featList}}
-                    <tr>
-                        <td class="center">{{this.level}}</td>
-                        <td>
-                            {{#each this.feats}}
-                                <a class="entity-link spellLink" data-pack="{{this.pack}}" data-id="{{this.node}}">
-                                    {{localize this.label}}
-                                </a>
-                            {{/each}}
-                        </td>
-                    </tr>
-                {{/each}}
+                    {{#each this.featList}}
+                        <tr>
+                            <td class="center">{{this.level}}</td>
+                            <td>
+                                {{#each this.feats}}
+                                    <a class="entity-link spellLink" data-pack="{{this.pack}}" data-id="{{this.node}}">
+                                        {{localize this.label}}
+                                    </a>
+                                {{/each}}
+                            </td>
+                        </tr>
+                    {{/each}}
                 </table>
+                {{#if this.spellList}}
+                    <table>
+                        <tr>
+                            <th class="numberCol">Level</th>
+                            <th class="left">Spells</th>
+                        </tr>
+                        {{#each this.spellList}}
+                            <tr>
+                                <td class="center">{{this.level}}</td>
+                                <td>
+                                    {{#each this.spells}}
+                                        <a class="entity-link spellLink" data-pack="{{this.pack}}" data-id="{{this.node}}">
+                                            {{localize this.label}}
+                                        </a>
+                                    {{/each}}
+                                </td>
+                            </tr>
+                        {{/each}}
+                    </table>
+                {{/if}}
                 <br>
             {{/each}}
         </div>

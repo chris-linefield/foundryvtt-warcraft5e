@@ -80,8 +80,8 @@ Hooks.once('init', async function() {
     };
     */
 
-    game.system.entityTypes.Item.push("race");
-    console.log(game.system.entityTypes);
+	//game.system.template.Itme.setFlag('wc5e', 'wcType', 'feat');
+	console.log(game);
 });
 
 
