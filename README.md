@@ -10,6 +10,9 @@ This module is based on the default dnd5e System. It basically uses all the defa
 
 Install the module by adding this manifest URL: https://github.com/ArthegaAsdweri/foundryvtt-warcraft5e/raw/master/module.json
 
+# Version: 0.0.5
+
+Basic structure of most of the compendium types - some of them installed and working.
 
 # Tasks for now
 
