@@ -11,9 +11,9 @@ https://discord.com/channels/410113488204070932/410113488204070934
 ## Version: 0.0.5
 Feature / Description | Feature / Description
 ------------ | -------------
-![Classes Preview](http://www.hahn-webdesign.de/warcraft5e/classes_preview.jpg) | Features an overhauled class-sheet with lore and images
-Features newly implemented race-items with their own sheet with lore and images | ![Races Preview](http://www.hahn-webdesign.de/warcraft5e/races_preview.jpg)
-![Talents Preview](http://www.hahn-webdesign.de/warcraft5e/talents_preview.jpg) | Features all Class Talents and class skills of fully implemented classes
+![Classes Preview](http://www.hahn-webdesign.de/warcraft5e/classes_preview.jpg) | Features an overhauled class-sheet with lore and images. Features compendium entries for all classes
+Features newly implemented race-items with their own sheet with lore and images. Features compendium entries for all races | ![Races Preview](http://www.hahn-webdesign.de/warcraft5e/races_preview.jpg)
+![Talents Preview](http://www.hahn-webdesign.de/warcraft5e/talents_preview.jpg) | Features Compendiums for all Class Talents and a compendium for class skills of fully implemented classes
 
 ### Progression
 
