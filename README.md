@@ -9,9 +9,11 @@ Join the discord if you want to support the development of the ruleset itself.
 https://discord.com/channels/410113488204070932/410113488204070934
 
 ## Version: 0.0.5
-Feature | Description
+Feature / Description | Feature / Description
 ------------ | -------------
-![Image of Yaktocat](http://www.hahn-webdesign.de/warcraft5e/classes_preview.jpg) | Features an overhauled class-sheet with lore and images
+![Classes Preview](http://www.hahn-webdesign.de/warcraft5e/classes_preview.jpg) | Features an overhauled class-sheet with lore and images
+Features newly implemented race-items with their own sheet with lore and images | ![Races Preview](http://www.hahn-webdesign.de/warcraft5e/races_preview.jpg)
+![Talents Preview](http://www.hahn-webdesign.de/warcraft5e/talents_preview.jpg) | Features all Class Talents and class skills of fully implemented classes
 
 ### Progression
 
