@@ -1,17 +1,20 @@
 <form class="{{cssClass}} flexcol" autocomplete="off">
 
     <header>
-        <h1>{{localize item.name}}</h1>
+        <div class="imageRow">
+            <img src="{{item.img}}">
+            <div class="imgContent">
+                <h1>{{localize item.name}}</h1>
+                <nav class="sheet-navigation tabs" data-group="primary">
+                    <a class="item active" data-tab="lore">Background</a>
+                    <a class="item" data-tab="details">Features</a>
+                    <a class="item" data-tab="progression">Progression</a>
+                    <a class="item" data-tab="archetypes">Archetypes/Paths</a>
+                </nav>
+            </div>
+        </div>
     </header>
-
-    <nav class="sheet-navigation tabs" data-group="primary">
-        <a class="item active" data-tab="lore">Background</a>
-        <a class="item" data-tab="details">Details</a>
-        <a class="item" data-tab="progression">Progression</a>
-        <a class="item" data-tab="archetypes">Archetypes</a>
-    </nav>
-
-    <hr>
+    <br>
 
     <section class="sheet-body">
         <div class="classIntroduction tab active" data-group="primary" data-tab="lore">
@@ -38,12 +41,9 @@
                 <p>{{{localize this.content}}}</p>
                 <br>
             {{/each}}
-            <h4>Quick Build</h4>
-            <p>{{localize item.data.quickBuild}}</p>
         </div>
 
         <div class="tab details" data-group="primary" data-tab="details">
-            <h3>Class Features</h3>
             <h4>Hit Points</h4>
             <p>
                 <strong>Hit Dice:</strong> 1{{item.data.hitDice}} per {{item.name}} level<br>
@@ -114,6 +114,9 @@
                     </li>
                 {{/each}}
             </ul>
+            <br>
+            <h4>Quick Build</h4>
+            <p>{{{localize item.data.quickBuild}}}</p>
         </div>
 
         <div class="tab progression" data-group="primary" data-tab="progression">
@@ -193,7 +196,7 @@
                         {{/each}}
                     </table>
                 {{/if}}
-                <br>
+                <hr class="double full">
             {{/each}}
         </div>
     </section>
