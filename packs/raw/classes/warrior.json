@@ -37,6 +37,12 @@
          }
       ],
       "quickBuild": "WC5E.Class.Warrior.QuickBuild",
+      "specialFeats": [
+         {
+            "title": "WC5E.Feats.UnarmoredDefense.Label",
+            "description": "WC5E.Class.Warrior.SpecialFeats.UnarmoredDefense.Description"
+         }
+      ],
       "hitPoints1st": "10",
       "hitPointsHalfed": "6",
       "weaponProfs": [

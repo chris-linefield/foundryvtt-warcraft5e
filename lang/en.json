@@ -36,8 +36,8 @@
             "Alchemist": {
                 "Name": "Alchemist",
                 "Introduction": {
-                    "1": "A forsaken stalks the ruins of a murloc village, picking eyes and bits of flesh. As a skulking murloc prepares to jump out at her, she casually tosses a potion at its chest without glancing at it, causing the skin to bubble and blacken with a terrible—the last thing it sees are the forsaken‘s fingers reaching forward to take out its light.“",
-                    "2": "A gnome reaches down to his box of Alchemist‘s Supplies, picking a rare herb and some pinches of sea salt, before tossing them into a small battle-beaker warmed by a portable burner. With uncanny calm, he weighs the curative mixture, before delivering it to a dying friend, revivifying her.“",
+                    "1": "A forsaken stalks the ruins of a murloc village, picking eyes and bits of flesh. As a skulking murloc prepares to jump out at her, she casually tosses a potion at its chest without glancing at it, causing the skin to bubble and blacken with a terrible—the last thing it sees are the forsaken‘s fingers reaching forward to take out its light.",
+                    "2": "A gnome reaches down to his box of Alchemist‘s Supplies, picking a rare herb and some pinches of sea salt, before tossing them into a small battle-beaker warmed by a portable burner. With uncanny calm, he weighs the curative mixture, before delivering it to a dying friend, revivifying her.",
                     "3": "Laughing maniacally as he consumes his potion, the troll rushes into the fight, fingertips mutating into razor-sharp claws. As his muscles grow larger, and as his skin hardens, his eyes gleam with the promise of pain.",
                     "4": "A goblin mercenary sits on the back of a drugged ogre, tossing explosive potions. Wincing as a human warrior stabs his giant homunculus, he pulls out a potion from his side pouch and jams it down the ogre‘s throat. The crunch of teeth against glass invigorates the ogre, and, with a burp, it tosses its arm forward with great strength, tossing the human away as the alchemist laughs in triumph."
                 },
@@ -73,7 +73,56 @@
                 }
             },
             "DeathKnight": {
-                "Name": "Death Knight"
+                "Name": "Death Knight",
+                "Introduction": {
+                    "1": "Clad in armor streaked with warm blood, the human‘s eyes glow in a cold blue light as he swings his greatsword with precise fury, keep foes occupied with him. As he does so, his allies around him watch as his wounds seem to heal by vampiric-like magic even as the enemy falls.",
+                    "2": "Standing tall against the oncoming horde, a blood elf embraces the frozen resolve within to shrug off her enemies‘ attacks. Imbuing her twin shortswords with the power of the frozen north, her attacks break through their armor with reckless abandon, sending icy bits of armor, bone, and flesh flying.",
+                    "3": "A dwarf gazes over the battlefield alone, remembering a past life when he commanded legions of his brethren to defend their homelands. No longer the same dwarf, he raises his hand, binding the corpses to undeath, once more in the position of command, old loyalties broken in death. "
+                },
+                "Description": "Years after the destruction of Draenor, the immensely powerful Lich King created a new breed of death knights: malevolent, rune-wielding warriors of the Scourge. The first and greatest of these was the Lich King's chosen champion, Prince Arthas Menethil. Once a mighty paladin of the Silver Hand, the prince sacrificed his soul to claim the runeblade Frostmourne in a desperate bid to save his people, and having his soul bound for eternal servitude under the Lich King. The rest are primarily made up of other fallen paladins whose souls were twisted and bound to the will of the Frozen Throne.<br>Like Gul'dan's death knights, these dark champions possess unholy strength; they, however, do not possess free will and their minds are inexorably entwined with and dominated by the Lich King's vast consciousness. Despite the potential loss of free will, some powerful mortals are intrigued by the promise of immortality and pledge their souls freely into the Lich King's service to achieve it. In the years since Arthas shattered the Frozen Throne and merged with the Lich King, the power and fury of the death knights has only grown. Now these unrelenting crusaders of the damned eagerly await the Lich King's command to unleash their fury on Azeroth once again. Unlike death knights of the Old Horde, the Scourge's death knights are not limited to their use of ranged spell casting abilities. In addition, these tireless death knights are considerably stronger, faster, and more agile than they were in life. However, both generations are equally destructive and terrifying to engage in the field of battle.",
+                "Blocks": {
+                    "1": {
+                        "Title": "Fallen Protectors",
+                        "Content": "Most death knights were once virtuous defenders of humanity and truth as paladins. However, once the paladin ranks were disbanded by the failing Alliance, many of these holy warriors traveled to the quarantined lands to ease the suffering of those left within the plague-ridden colonies. Though the paladins were resistant to disease, they were persecuted by the general populace who believed that they had been infected by the foul plague. A small band of paladins, embittered by society's cruelty, traveled north to find the plague's source. These renegade knights succumbed to bitter hatred over the course of their grueling quest. When they finally reached Ner'zhul's icy fortress in Northrend they had become dark and brooding. The Lich King offered them untold power in exchange for their services and loyalty. The weary, vengeful warriors accepted his dark pact, and although they retained their humanity, their twisted souls were bound to his evil will for all time. Bestowed with black, vampiric Runeblades and shadowy steeds, death knights serve as the Scourge's mightiest generals."
+                    },
+                    "2": {
+                        "Title": "Released from Service",
+                        "Content": "When the Lich King's control of his death knights was broken, his former champions sought revenge for the horrors committed under his command. After their vengeance was won, the death knights found themselves without a cause and without a home. One by one they trickled into the land of the living in search of a new purpose. The Knights of the Ebon Blade is a faction consisting of the renegade death knights that broke free of the Lich King's control after the battle of Light's Hope Chapel. Led by Highlord Darion Mograine, the Knights of the Ebon Blade have allied themselves with the Alliance and the Horde with the help of Highlord Tirion Fordring of the Knights of the Silver Hand, and have pledged to do their part in defeating their former master, the Lich King. Their main base is Acherus: The Ebon Hold, taken from the Scourge after breaking free."
+                    },
+                    "3": {
+                        "Title": "Creating a Death Knight",
+                        "Content": "When creating your Death Knight, consider your relationship with the person or being that resurrected you. Do you know who it was, or why they brought you back from death? Do you feel indebted to them for giving you a second chance at life, or are you angry that they took you away from your eternal rest? Death knights often have terrible stories to tell that ended with their deaths. Consider your story before your death—if you were once a paladin, consider the oath you took. Do you remember it? Do you choose to follow those tenets again, or forsake your paladin teachings and follow a new path? If you were a noble or important member of your society, how do you cope with their expectations and your role? What evils have you committed under the Lich King‘s dominion? Have you committed crimes that you secretly approve of, such as the murder of a noble who let you down in  your old life, or lethally ending rivalries in life? Have you been commanded to use your power to raise the dead, and have you had a choice in raising anyone you once knew? Also, consider if and how you will attempt to reintegrate with society; most citizens of Azeroth fear and suspect the intentions of death knights, and might try to sabotage their acceptance. Have you wronged anyone who might oppose your reentry into society? Will you accept being separate from all factions, and choose to take up quests with only like-minded individuals?"
+                    }
+                },
+                "QuickBuild": "You can make a death knight quickly by following these suggestions. First, Strength should be your highest ability score, followed by Charisma. Second, choose the noble or criminal background.",
+                "SpecialFeats": {
+                    "Corruption" :{
+                        "Label": "Corruption",
+                        "Description": "Upon gaining a level in this class, you may permanently pledge your soul as well, turning yourself into an undead creature (permanently gaining the below Undead Nature ability, and counting as the undead creature type)."
+                    },
+                    "RuneSpells" :{
+                        "Label": "Rune Spells",
+                        "Description": "Death Knights are the only class that can access the rune array spell, and can prepare different runes for strike effects. Runes are magical enhancements that can enhance a death knight‘s weapon attacks, and can be released in coordination with the Runic Strike ability to cause a devastating strike."
+                    },
+                    "RuneBound" :{
+                        "Label": "Rune Bound",
+                        "Description": "Upon gaining a level in this class, you can turn one (of both, if using two weapons to fight) of your weapons into Runeblades, a weapon infused with the might of the Lich King and his blessing. Runeblades have three benefits:<br><ul><li>They serve as spellbooks and store spells (as described under Spellcasting).</li><li>You gain advantage to saving throws against any effect that controls your character or alters their alignment against the Lich King‘s will while using them.</li><li>The blade serves as an unholy symbol.</li><li>The runeblade is a greater attunement weapon (see Chapter 5: Equipment).</li></ul><br>You cannot have multiple Runeblades (beyond the one you choose or two you fight with). If lost, the blade usually finds its way back to you (or you to it) due to the bond you share."
+                    }
+                },
+                "Paths": {
+                    "PathOfBlood": {
+                        "Title": "Path of Blood",
+                        "Description": "You are a dark guardian who manipulates and corrupts life energy to sustain themselves in the face of the enemy‘s onslaught. Blood death knights invoke ancient legends of blood-drinking beings who are immortal on the battlefield."
+                    },
+                    "PathOfFrost": {
+                        "Title": "Path of Frost",
+                        "Description": "You are a harbinger of doom, channeling runic power and delivering freezing weapon strikes. Frost death knights are terrors of the frozen wastes."
+                    },
+                    "UnholyPath": {
+                        "Title": "Unholy Path",
+                        "Description": "You are a pale horseman of death, leading undead troops to battle, fueled with hatred of the living. Unholy death knights lead armies of the dead and overwhelm their enemies."
+                    }
+                }
             },
             "Druid": {
                 "Name": "Druid"
@@ -157,6 +206,11 @@
                     }
                 },
                 "QuickBuild": "You can make a warrior quickly by following these suggestions. First, make Strength or Agility your highest ability score, depending on whether you want to focus on melee weapons or on archery (or finesse weapons). Your next-highest score should be Stamina. Second, choose the soldier background.",
+                "SpecialFeats": {
+                    "UnarmoredDefense" :{
+                        "Description": "You may lose proficiency with heavy armor, and instead gain the unarmored defense ability. These are not gained as part of multi-classing."
+                    }
+                },
                 "Archetypes": {
                     "Arms": {
                         "Title": "Arms",
@@ -414,6 +468,14 @@
                 "Label": "Augmentation",
                 "Description": "You can augment a potion you hold by spending 1 minute or an Bonus Action and 4 Crafting Points. An augmented potion remains augmented indefinitely, but you can only have up to one potion augmented at any given time. You can apply the following augmentations:<br><br><ul><li>Every dice your potion rolls is maximized.</li><li>Every dice your potion rolls is minimized (lowest result on the roll).</li><li>When the potion is used, roll a d100. On a result of 50 or higher, the potion gives its full effects with only a fraction of the actual content, allowing the potion to be reused.</li><li>You alter your potion to activate in response to a trigger you choose and that can affect the potion‘s contents, such as time passed, being shaken a certain way, or being touched by an eligible target. This does not stack with the Internal Clock feature.<br>For instance, if you can create an exorcism potion, you can coat a sword with it to activate in response to touching an eligible target of the spell, or to activate after 1 minute to counter a possible possession.</li></ul>"
             },
+            "AuraDeathKnight": {
+                "Label": "Aura",
+                "Description": "Your mastery over aura spells begins to manifest. You always have the following aura spells prepared.<br><br><ul><li>At 3rd level, you always have the abandonment aura spell prepared.</li><li>At 6th level, you always have the necrotic aura spell prepared.</li><li>At 10th level, you always have the unholy aura spell prepared.</li><li>At 14th level, you always have the distraction aura spell prepared.</li><li>At 18th level, you always have the vulnerability aura spell prepared.</li></ul><br>Furthermore, you may cast each of the above aura spells for no cost once upon reaching the described level. You regain all expended uses after a short rest. You may expend a free aura use to cancel one successful turn undead attempt that affected your undead allies."
+            },
+            "AuraImprovementDeathKnight": {
+                "Label": "Aura Improvement",
+                "Description": "You can no longer lose concentration on an aura from taking damage, and may extend the range of any aura spell by 100%. Any effect that would normally dispel the aura instead suppresses it for 1 minute instead."
+            },
             "BattleChemist": {
                 "Label": "Battle Chemist",
                 "Description": "You gain the Flash Bomber talent. These uses stack with the Weird Science feature (if you already chose it).<br>Also, whenever you are in the area of effect of the explosion spell (regardless of origin), you can benefit from the berserker rage spell for 3 rounds."
@@ -458,9 +520,29 @@
                 "Label": "Corner Blast Strike",
                 "Description": "Whenever you use an explosive, you may center it against one creature in the area of effect, dealing two additional dice of damage. This is a strike effect that can target only one creature within the blast. If the explosive already affects only a single creature (either by design or by fact), this is applied automatically without using a bonus action.<br>You also gain the mortar, rocket launcher, cluster launcher and mine launcher blueprints for no cost, and they consume half the normal fuel."
             },
+            "CorruptingTouch": {
+                "Label": "Corrupting Touch",
+                "Description": "Your cursed touch can cause unholy wounds. As an action, you may perform a corrupting touch on a target, investing them with damaging energies. For every mana point you spend for Corrupting Touch, you heal a number of hit points equal to your proficiency bonus if targeting an undead or fiend. Amount you heal is instead treated as shadow damage for living creatures (in which case, this requires a melee spell attack). Excess hit points are lost, and you cannot heal or deal more damage than a value equal to your maximum hit points. When performing Corrupting Touch on yourself, this is instead a bonus action, and you are always healed by this ability, regardless of your creature type.<br>Alternatively, you can expend the mana to inflict one disease or one poison of your choice. Each disease or poison requires spending mana points equal to one-quarter the saving throw DC of the poison or disease. You may inflict multiple diseases or poisons this way. You can choose be a carrier to up to three separate poisons or diseases on your person. You need previous exposure to a poison or disease to be a carrier.<br>This feature has no effect on constructs."
+            },
+            "CursedCarrier": {
+                "Label": "Cursed Carrier",
+                "Description": "You can carry diseases in your body, and spread them by touch (if contact), scratch (if injury), breath (if inhaled), or spit (if ingested). You can carry up to three diseases of your choice with this ability, above the normal three added by Corrupting Touch."
+            },
+            "DarkPath": {
+                "Label": "Dark Path",
+                "Description": "You walk a path that defines you as a death knight forever. Up to this time you have been in a preparatory stage, committed to the path but not yet sworn to it. Now you choose the Path of Blood for vengeance, Path of Frost for cold disregard for life, or Path of the Unholy to defy the heavens, all detailed at the end of the class description.<br>Your choice grants you features at 3rd level and again at 7th, 15th, and 20th level. Those features include path spells and the Channel Divinity feature.<br><br><h4>Path Spells</h4>Each path has a list of associated spells. You gain access to these spells at the levels specified in the path description. Once you gain access to a path spell, you always have it prepared. Path spells don‘t count against the number of spells you can prepare each day.<br>If you gain a path spell that doesn‘t appear on the death knight spell list, the spell is nonetheless a death knight spell for you.<br><br><h4>Channel Divinity</h4>Your path allows you to channel divine energy to fuel magical effects. Each Channel Divinity option provided by your path explains how to use it. When you use your Channel Divinity, you choose which option to use. You must then finish a short or long rest to use your Channel Divinity again. Some Channel Divinity effects require saving throws. When you use such an effect from this class, the DC equals your death knight spell save DC.<br>By default, you may always Turn Good, and gain an additional choice from your Path.<br><br><h4>Channel Divinity: Turn Good</h4>As an action, you present your unholy symbol and speak a prayer censuring humanoids, celestials, and beasts, using your Channel Divinity. Each humanoid, celestial or beast that can see or hear you within 30 feet of you must make a Spirit saving throw.<br>If the creature fails its saving throw, it is turned for 1 minute or until it takes damage. A turned creature must spend its turns trying to move as far away from you as it can, and it can‘t willingly move to a space within 30 feet of you. It also can‘t take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there‘s nowhere to move, the creature can use the Dodge action."
+            },
             "DieByTheSword": {
                 "Label": "Die by the Sword",
                 "Description": "You are inspired by battlefield glories, and are able to react quickly to attacks. Whenever a target within 5 feet of you makes a successful attack against you, you gain a d6 Counterattack dice. You may spend the dice to make an attack as a reaction at any point out of your turn so long as the target dealt damage to you in the last minute, and may add the counterattack dice result to the total damage. Unlike with normal reactions, you may apply one strike effect to this attack. You can hold up to 3 Counterattack dice. They all fade within one minute if not consumed."
+            },
+            "DispellingTouch": {
+                "Label": "Dispelling Touch",
+                "Description": "You can use your action to end one spell on yourself or on one willing creature that you touch. You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain expended uses when you finish a long rest."
+            },
+            "DivineSense": {
+                "Label": "Divine Sense",
+                "Description": "The presence of strong evil registers on your senses like a soothing darkness, gifting peaceful oblivion of death and whispers of powerful forces, and powerful good brings painful brightness, shattered memories, and the creeping return of life.<br>As an action, you can open your awareness to detect such forces. Until the end of your next turn, you know the location of any celestial, fiend, or undead within 60 feet of you that is not behind total cover.<br>You know the type (celestial, fiend, or undead) of any being whose presence you sense, but not its identity (the lich Kel‘Thuzad, for instance). Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the hallow spell. You can use this feature a number of times equal to 1 + your Charisma modifier. When you finish a long rest, you regain all expended uses."
             },
             "EfficientAlchemy": {
                 "Label": "Efficient Alchemy",
@@ -503,8 +585,12 @@
                 "Description": "Whenever you apply the Quick Use modification to your devices (as described under Quick Cooldown above), you reduce it by a further step.<ul><li>Gadgets that replicate spell levels above 3rd level have their cooldown reduced to 1 minute instead of 1 hour.</li><li>Gadgets that replicate spell levels above 6th level have their cooldown reduced to 1 hour instead of 8 hours.</li></ul> You may also add your proficiency bonus to attack rolls with your constructs."
             },
             "ExtraAttackWarrior": {
-                "Label": "Extra Attack (Warrior)",
+                "Label": "Extra Attack",
                 "Description": "You can attack twice, instead of once, whenever you take the Attack action on your turn. The number of attacks increases to three when you reach 11th level in this class and to four when you reach 20th level in this class."
+            },
+            "ExtraAttack": {
+                "Label": "Extra Attack",
+                "Description": "You can attack twice, instead of once, whenever you take the Attack action on your turn."
             },
             "FavoredCreations": {
                 "Label": "Favored Creations",
@@ -517,6 +603,10 @@
             "FightingStyle": {
                 "Label": "Fighting Style",
                 "Description": "<p>You adopt a particular style of fighting as your specialty. Choose one of the following options. You can‘t take a Fighting Style option more than once, even if you later get to choose again.</p><br><h4>Archery</h4><p>You gain a +2 bonus to attack rolls you make with ranged weapons.</p><br><h4>Defense</h4><p>While you are wearing armor, you gain a +1 bonus to AC.</p><br><h4>Dueling</h4><p>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</p><br><h4>Great Weapon Fighting</h4><p>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.</p><br><h4>Protection</h4><p>When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.</p><br><h4>Two-Weapon Fighting</h4><p>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</p>"
+            },
+            "FightingStyleDeathKnight": {
+                "Label": "Fighting Style",
+                "Description": "<p>You adopt a particular style of fighting as your specialty. Choose one of the following options. You can‘t take a Fighting Style option more than once, even if you later get to choose again.</p><br><h4>Defense</h4><p>While you are wearing armor, you gain a +1 bonus to AC.</p><br><h4>Dueling</h4><p>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</p><br><h4>Great Weapon Fighting</h4><p>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.</p><br><h4>Two-Weapon Fighting</h4><p>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</p>"
             },
             "FirearmImprovement": {
                 "Label": "Firearm Improvement",
@@ -553,6 +643,10 @@
             "Hellscream": {
                 "Label": "Hellscream",
                 "Description": "All hostile creatures within range of your shouts take Thunder damage equal to half your level whenever you shout or maintain one. They are entitled a Stamina saving throw to half damage contested by your own Stamina saving throw.<br>Also, your critical range for your Strike the Wound ability becomes 15-20. "
+            },
+            "ImprovedRunicStrike": {
+                "Label": "Improved Runic Strike",
+                "Description": "You are so suffused with the might of the Lich King that all your melee weapon strikes carry his unholy power with them. Whenever you hit a creature with a melee weapon, the creature takes an extra 1d8 shadow damage. If you also use your Runic Strike with an attack, you add this damage to the extra damage of your Runic Strike."
             },
             "Infusionist": {
                 "Label": "Infusionist",
@@ -642,6 +736,10 @@
                 "Label": "Restored Strength",
                 "Description": "You may use the Second Wind talent three times before requiring rest. Furthermore, whenever you use Second Wind, you gain resistance to any damage you take for one round after use, and advantage against any saving throw made against the first spell that affects you in the next minute.<br>If you don‘t already have the Second Wind talent, you gain it as a talent instead of improving it."
             },
+            "RunicStrike": {
+                "Label": "Runic Strike",
+                "Description": "When you hit a creature with a melee weapon attack, you can expend mana equal to one death knight spell to deal shadow damage to the target, in addition to the weapon‘s damage.<br>The extra damage is 2d8 for a 1st-level spell, plus 1d8 for each spell level higher than 1st, to a maximum of 5d8. The damage increases by 1d8 if the target is a celestial or a follower of the Holy Light (or if not a follower, one who merely uses it).<br>If you have a rune active, you may also perform a Runic Strike without expending mana (called Runic Release), terminating the effects of the rune (plus an additional effect depending on the seal). Despite the name, Runic Strike does not count as a Strike effect."
+            },
             "Scavenge": {
                 "Label": "Scavenge",
                 "Description": "When you gather raw materials for use with engineering, you gain triple the total value. This applies when harvesting existing devices, nodes, creatures, and deconstructing devices. If dismantling an item, this cannot exceed one-half the value of creating the item itself (counting any reductions)."
@@ -670,6 +768,10 @@
                 "Label": "Special Bullets",
                 "Description": "You gain the Suffused Arrows talent (gaining proficiency as appropriate), and can create special infused bullets. You also deal 3 extra points of damage with any unmodified bullets."
             },
+            "SpellcastingDeathKnight": {
+                "Label": "Spellcasting",
+                "Description": "You have learned to draw on divine magic through meditation and prayer to cast spells as a paladin does.<br><br><h4>Conjuring and Binding</h4>A death knight can conjure and bind aberrations, fiends, and undead.<br><br><h4>Preparing and Casting Spells</h4>Each death knight level provides you with 0.5 caster levels in the death knight class (minimum 0). You follow the normal progression to unlock spell levels (see the table under the Mana section). You can change your list of prepared spells by consulting your runeblade‘s runes (treat as a spellbook), which takes 1 minute per spell level to alter the readied spell.<br>You prepare the list of death knight spells that are available for you to cast, choosing from the death knight spell list.<br>You can also change your list of prepared spells when you finish a long rest by training and studying your Runeblade (treat as a spellbook). Preparing a new list of death knight spells requires time spent in prayer and re-attuning to the spell-runes: at least 1 minute per spell level for each spell on your list.<br><br><h4>Spellcasting Ability</h4> Charisma is your spellcasting ability for your death knight spells, since their power derives from the strength of your convictions. You use your Charisma whenever a spell refers to your spellcasting  ability. In addition, you use your Charisma modifier when setting the saving throw DC for a death knight spell you cast and when making an attack roll with one.<br><br><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Charisma modifier<br><strong>Spell attack modifier</strong> = your proficiency bonus + your Charisma modifier<br><br><h4>Spellbook – Runeblade</h4> At 2nd level, your runeblade contains three 1st-level death knight spells of your choice. When you level up, you gain 2 additional death knight spells of your choice. You may also acquire new spells by research, tutelage, or from the spellbooks and scrolls of spellcasters who have spells you can cast. Your runeblade is effectively your spellbook, and you may add spells by scribing with runic inks. You can choose to store your death knight spells in a spellbook instead or as runes on any other surface as well.<br><br><h4>Spellcasting Focus</h4> You can use an unholy symbol as a spellcasting focus for your death knight spells, or you can treat your runeblade as your focus."
+            },
             "StrikeTheWound": {
                 "Label": "Strike the Wound",
                 "Description": "You gain momentary clarity towards causing further wounds after landing the first. If you make a successful melee attack roll against a target, your weapon attack can score a critical hit on a lower result of the dice (on a natural 19 or 20 instead of only 20). This effect stacks to a maximum roll of 17-20, and ends at the start of your turn in the next round.<br>Also, you gain the Dual Wielder feat if you didn‘t already have it. If you already have it, you add +1 to your weapon damage rolls with either weapon."
@@ -695,7 +797,7 @@
                 "Description": "At 3rd level, you choose a path that you emulate in the exercise of your tinker abilities: Bomber who focuses on creating explosives, the Gunner who focuses on creating and shooting with firearms, and Gadgeteer who focuses on creating wondrous gadgets, all detailed at the end of the class description.<br>Your path choice grants you features at 3rd level and then again at 6th, 10th, and 14th levels."
             },
             "UnarmoredDefense": {
-                "Label": "Unarmored Defense",
+                "Label": "Unarmored Defense (Optional)",
                 "Description": "While you are not wearing any armor, your Armor Class equals 10 + your Agility modifier + your Stamina modifier. You can use a shield and still gain this benefit."
             },
             "Vanguard": {
