@@ -27,7 +27,7 @@
             {{/each}}
             <br>
             <p>
-                {{localize item.data.description.value}}
+                {{{localize item.data.description.value}}}
             </p>
             <br>
             {{#each item.data.blocks}}
@@ -117,24 +117,37 @@
             <br>
             <h4>Quick Build</h4>
             <p>{{{localize item.data.quickBuild}}}</p>
+            <br>
+            {{#if item.data.specialFeats}}
+                <h3>Special Features</h3>
+                {{#each item.data.specialFeats}}
+                    <h4>{{localize this.title}}</h4>
+                    <p>{{{localize this.description}}}</p>
+                    <br>
+                {{/each}}
+            {{/if}}
         </div>
 
         <div class="tab progression" data-group="primary" data-tab="progression">
             <table>
                 <tr>
                     <th class="numberCol">Level</th>
-                    <th class="numberCol">Proficiency</th>
-                    <th>{{this.data.specialCol}}</th>
+                    <th class="numberCol">Prof</th>
+                    {{#if this.data.specialCol}}
+                        <th>{{this.data.specialCol}}</th>
+                    {{/if}}
                     <th class="left">Features</th>
                     {{#if this.data.isCaster}}
-                        <th>Caster level</th>
+                        <th>Caster (Spell)</th>
                     {{/if}}
                 </tr>
                 {{#each item.data.progression}}
                     <tr>
                         <td class="center">{{this.level}}</td>
                         <td class="center">+{{this.proficiency}}</td>
-                        <td class="center">{{this.special}}</td>
+                        {{#if this.special}}
+                            <th>{{this.special}}</th>
+                        {{/if}}
                         <td>
                             {{#if this.feats}}
                                 {{#each this.feats}}
@@ -147,7 +160,7 @@
                             {{/if}}
                         </td>
                         {{#if this.caster}}
-                            <td>{{this.caster}}</td>
+                            <td class="center">{{this.caster}}</td>
                         {{/if}}
                     </tr>
                 {{/each}}

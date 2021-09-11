@@ -21,144 +21,198 @@
       },
 
       "Class": {
-         "Alchemist": {
-            "Name": "Alchemist",
-            "Introduction": {
-               "1": "A forsaken stalks the ruins of a murloc village, picking eyes and bits of flesh. As a skulking murloc prepares to jump out at her, she casually tosses a potion at its chest without glancing at it, causing the skin to bubble and blacken with a terrible—the last thing it sees are the forsaken‘s fingers reaching forward to take out its light.“",
-               "2": "A gnome reaches down to his box of Alchemist‘s Supplies, picking a rare herb and some pinches of sea salt, before tossing them into a small battle-beaker warmed by a portable burner. With uncanny calm, he weighs the curative mixture, before delivering it to a dying friend, revivifying her.“",
-               "3": "Laughing maniacally as he consumes his potion, the troll rushes into the fight, fingertips mutating into razor-sharp claws. As his muscles grow larger, and as his skin hardens, his eyes gleam with the promise of pain.",
-               "4": "A goblin mercenary sits on the back of a drugged ogre, tossing explosive potions. Wincing as a human warrior stabs his giant homunculus, he pulls out a potion from his side pouch and jams it down the ogre‘s throat. The crunch of teeth against glass invigorates the ogre, and, with a burp, it tosses its arm forward with great strength, tossing the human away as the alchemist laughs in triumph."
-            },
-            "Description": "Whether by careful measuring, self-experimentation, explosive mixtures, or supportive potions, an alchemist utilizes their own mix of magic and science, alchemical science, to support and heal wounds, decimate enemies, manifest unusual effects, or augment themselves to wade into battle. These lightly armored individuals are experts in creating a variety of special effects, from temporary explosives to elixirs that revive the dead.",
-            "Blocks": {
-               "1": {
-                  "Title": "Magic and Science",
-                  "Content": "In the Warcraft universe, alchemy is not merely pseudo-chemistry—it is an art that draws power from the primal elements of life, not unlike actual magic. An alchemist is a master of the art who takes it leaps and bounds further than their peers, who are limited in their alchemical products to mere healing poultices and anti-toxins, reaching heights of reviving the dead or manifesting massive explosives.<br>The greatest strength of an alchemist is their versatility. They can themselves adequately but can specialize in being battle-chemists who augment themselves with potions before tearing their enemies apart with their own hands. They can choose to focus on the augmentative powers of their mixtures, delaying harm and healing wounds, or to debilitate their enemies with negative status effects. Damage dealt by an alchemist‘s potions usually focus on concussive or poison damage, but they are also broad in scope, dealing fire or frost or lighting as required of them. The better they anticipate their opposition, the better the alchemist can prepare.<br>The success of alchemists relies greatly on the formulae and recipes they have in their formula books. They gain new formulae as they gain experience, study other formula books, or research independently."
-               },
-               "2": {
-                  "Title": "The Weight of Knowledge",
-                  "Content": "Alchemists' lives may appear mundane, starting as a sage, independent researcher under a mage tower, a plague researcher, or member of a military force‘s supply chain. Other alchemists focus on trade, opening alchemy shops and selling anything from curative mixtures to love potions. Others still have adapted their talents to violence, such as serving in mercenary forces or the military, sapping structural defenses and focusing on combat support.<br>The weight of knowledge and the demand for versatile potions calls for even the most sedentary alchemists to venture out to investigate strange happenings, support their friends, or answer the call to heroism.<br><br>Alchemists are students, researchers, and scientists of the mysterious science of alchemy. To choose to alchemist class is to be more than a dabbler in the art of alchemy—they are utilizers of strange techniques that would empower themselves and their allies, experienced craftspeople who can make potions for fractions of the normal time and cost, and some have even modified their bodies to make full use of their skills.<br>Creating poisons, potions, special explosives, and empowering substances, alchemists are either curiosities, prized members of society, or reclusive, feared experts in unstable weird sciences. Alchemy itself does not fall strictly in one end between science and magic, but is a potent force nonetheless.<br>Alchemists support soldiers and adventurers, and could easily take to the field themselves, brewing and concocting potions, poisons, and poultices to support (or create) allies on the field. Some work to support their communities, others attempt to replicate (or surpass) the work of the Scourge's necromancers, and others focus on self-empowering through strange concoctions they imbibe."
-               },
-               "3": {
-                  "Title": "Creating an Alchemist",
-                  "Content": "As you make your alchemist character, consider the origins of their knowledge: were they selftaught, a student of another alchemist, or did they gain this mastery by esoteric means? Alchemy is a difficult discipline—how did you accomplish the challenge to gain your status? Were you motivated by war, fortune, or by something else entirely, such as the lack of magical talent to become a spellcaster?<br>Perhaps you preferred the reliable mundane science of alchemy over the unexpected extraordinary power of magic, or took comfort in the fact that you were in demand in an urban setting—there is no lack of adventurers who might need your aid as an alchemist if you do not wish to go out and adventure. Do you have any peers among alchemists? Do they perceive your approach to science as calm and intellectual, or rash but with great breakthroughs or a dangerous form of meddling with life and death that should not be tolerated? Do you have a special ambition or goal to achieve as an alchemist—such as making magic-like effects accessible to the mundane public, providing affordable healing, and counters to common ailments, or are your creations for your own monetary benefit?"
-               }
-            },
-            "QuickBuild": "You can make an alchemist quickly by following these suggestions. First, Intelligence should be your highest ability score. Make Agility your next-highest if you want to use ranged or finesse weapons, or focus on throwing potions and explosives. Use Strength instead if you wish to empower yourself in battle and engage in combat via the mutate spell. Second, choose the guild artisan or scholar backgrounds. Third, choose the noxious fumes (poison spray), minor alchemy, and fire bolt cantrips, along with the following 1st-level spells for your formula book: <i>burning hands</i>, <i>explosion</i>, <i>mutate</i>, and <i>rejuvenation</i>.",
-            "Paths": {
-               "Apothecary": {
-                  "Title": "Apothecary",
-                  "Description": "You recognize no boundary of morality or faith in your pursuit of weird science. Reaching beyond the realms of experimention to dissect the supernatural, you employ necromancy, soul magic, and unusual diseases and poisons. Apothecaries usually dress as plague doctors or experimenters, dealing with death and strange occult things for reasons only they know."
-               },
-               "Mutant": {
-                  "Title": "Mutant",
-                  "Description": "You push your body past the normal limit—mutation is no mere rage or chemical reaction; it is a secret science only you know. Mutants are often ostracized by society, which sees such unstable people to be dangerous and fickle in their moods."
-               },
-               "Transmutor": {
-                  "Title": "Transmutor",
-                  "Description": "Whereas the apothecary dabbles with the line between life and death, and the mutant experiments on themselves, you handle alchemy as a science and a tool, and are considered a more ‘classical‘ alchemist. Transmutors are appreciated in societies, often serving in courts or in magical circles to quantify the true nature of alchemy, sicknesses, and magic. In adventuring parties, they often focus on support."
-               }
-            }
+            "Alchemist": {
+                "Name": "Alchemist",
+                "Introduction": {
+                    "1": "A forsaken stalks the ruins of a murloc village, picking eyes and bits of flesh. As a skulking murloc prepares to jump out at her, she casually tosses a potion at its chest without glancing at it, causing the skin to bubble and blacken with a terrible—the last thing it sees are the forsaken‘s fingers reaching forward to take out its light.",
+                    "2": "A gnome reaches down to his box of Alchemist‘s Supplies, picking a rare herb and some pinches of sea salt, before tossing them into a small battle-beaker warmed by a portable burner. With uncanny calm, he weighs the curative mixture, before delivering it to a dying friend, revivifying her.",
+                    "3": "Laughing maniacally as he consumes his potion, the troll rushes into the fight, fingertips mutating into razor-sharp claws. As his muscles grow larger, and as his skin hardens, his eyes gleam with the promise of pain.",
+                 "4": "A goblin mercenary sits on the back of a drugged ogre, tossing explosive potions. Wincing as a human warrior stabs his giant homunculus, he pulls out a potion from his side pouch and jams it down the ogre‘s throat. The crunch of teeth against glass invigorates the ogre, and, with a burp, it tosses its arm forward with great strength, tossing the human away as the alchemist laughs in triumph."
+             },
+             "Description": "Whether by careful measuring, self-experimentation, explosive mixtures, or supportive potions, an alchemist utilizes their own mix of magic and science, alchemical science, to support and heal wounds, decimate enemies, manifest unusual effects, or augment themselves to wade into battle. These lightly armored individuals are experts in creating a variety of special effects, from temporary explosives to elixirs that revive the dead.",
+             "Blocks": {
+                 "1": {
+                     "Title": "Magic and Science",
+                     "Content": "In the Warcraft universe, alchemy is not merely pseudo-chemistry—it is an art that draws power from the primal elements of life, not unlike actual magic. An alchemist is a master of the art who takes it leaps and bounds further than their peers, who are limited in their alchemical products to mere healing poultices and anti-toxins, reaching heights of reviving the dead or manifesting massive explosives.<br>The greatest strength of an alchemist is their versatility. They can themselves adequately but can specialize in being battle-chemists who augment themselves with potions before tearing their enemies apart with their own hands. They can choose to focus on the augmentative powers of their mixtures, delaying harm and healing wounds, or to debilitate their enemies with negative status effects. Damage dealt by an alchemist‘s potions usually focus on concussive or poison damage, but they are also broad in scope, dealing fire or frost or lighting as required of them. The better they anticipate their opposition, the better the alchemist can prepare.<br>The success of alchemists relies greatly on the formulae and recipes they have in their formula books. They gain new formulae as they gain experience, study other formula books, or research independently."
+                 },
+                 "2": {
+                     "Title": "The Weight of Knowledge",
+                     "Content": "Alchemists' lives may appear mundane, starting as a sage, independent researcher under a mage tower, a plague researcher, or member of a military force‘s supply chain. Other alchemists focus on trade, opening alchemy shops and selling anything from curative mixtures to love potions. Others still have adapted their talents to violence, such as serving in mercenary forces or the military, sapping structural defenses and focusing on combat support.<br>The weight of knowledge and the demand for versatile potions calls for even the most sedentary alchemists to venture out to investigate strange happenings, support their friends, or answer the call to heroism.<br><br>Alchemists are students, researchers, and scientists of the mysterious science of alchemy. To choose to alchemist class is to be more than a dabbler in the art of alchemy—they are utilizers of strange techniques that would empower themselves and their allies, experienced craftspeople who can make potions for fractions of the normal time and cost, and some have even modified their bodies to make full use of their skills.<br>Creating poisons, potions, special explosives, and empowering substances, alchemists are either curiosities, prized members of society, or reclusive, feared experts in unstable weird sciences. Alchemy itself does not fall strictly in one end between science and magic, but is a potent force nonetheless.<br>Alchemists support soldiers and adventurers, and could easily take to the field themselves, brewing and concocting potions, poisons, and poultices to support (or create) allies on the field. Some work to support their communities, others attempt to replicate (or surpass) the work of the Scourge's necromancers, and others focus on self-empowering through strange concoctions they imbibe."
+                 },
+                 "3": {
+                     "Title": "Creating an Alchemist",
+                     "Content": "As you make your alchemist character, consider the origins of their knowledge: were they selftaught, a student of another alchemist, or did they gain this mastery by esoteric means? Alchemy is a difficult discipline—how did you accomplish the challenge to gain your status? Were you motivated by war, fortune, or by something else entirely, such as the lack of magical talent to become a spellcaster?<br>Perhaps you preferred the reliable mundane science of alchemy over the unexpected extraordinary power of magic, or took comfort in the fact that you were in demand in an urban setting—there is no lack of adventurers who might need your aid as an alchemist if you do not wish to go out and adventure. Do you have any peers among alchemists? Do they perceive your approach to science as calm and intellectual, or rash but with great breakthroughs or a dangerous form of meddling with life and death that should not be tolerated? Do you have a special ambition or goal to achieve as an alchemist—such as making magic-like effects accessible to the mundane public, providing affordable healing, and counters to common ailments, or are your creations for your own monetary benefit?"
+                 }
+             },
+             "QuickBuild": "You can make an alchemist quickly by following these suggestions. First, Intelligence should be your highest ability score. Make Agility your next-highest if you want to use ranged or finesse weapons, or focus on throwing potions and explosives. Use Strength instead if you wish to empower yourself in battle and engage in combat via the mutate spell. Second, choose the guild artisan or scholar backgrounds. Third, choose the noxious fumes (poison spray), minor alchemy, and fire bolt cantrips, along with the following 1st-level spells for your formula book: <i>burning hands</i>, <i>explosion</i>, <i>mutate</i>, and <i>rejuvenation</i>.",
+             "Paths": {
+                 "Apothecary": {
+                     "Title": "Apothecary",
+                     "Description": "You recognize no boundary of morality or faith in your pursuit of weird science. Reaching beyond the realms of experimention to dissect the supernatural, you employ necromancy, soul magic, and unusual diseases and poisons. Apothecaries usually dress as plague doctors or experimenters, dealing with death and strange occult things for reasons only they know."
+                 },
+                 "Mutant": {
+                     "Title": "Mutant",
+                     "Description": "You push your body past the normal limit—mutation is no mere rage or chemical reaction; it is a secret science only you know. Mutants are often ostracized by society, which sees such unstable people to be dangerous and fickle in their moods."
+                 },
+                 "Transmutor": {
+                     "Title": "Transmutor",
+                     "Description": "Whereas the apothecary dabbles with the line between life and death, and the mutant experiments on themselves, you handle alchemy as a science and a tool, and are considered a more ‘classical‘ alchemist. Transmutors are appreciated in societies, often serving in courts or in magical circles to quantify the true nature of alchemy, sicknesses, and magic. In adventuring parties, they often focus on support."
+                 }
+             }
          },
          "DeathKnight": {
-            "Name": "Death Knight"
+             "Name": "Death Knight",
+             "Introduction": {
+                 "1": "Clad in armor streaked with warm blood, the human‘s eyes glow in a cold blue light as he swings his greatsword with precise fury, keep foes occupied with him. As he does so, his allies around him watch as his wounds seem to heal by vampiric-like magic even as the enemy falls.",
+                 "2": "Standing tall against the oncoming horde, a blood elf embraces the frozen resolve within to shrug off her enemies‘ attacks. Imbuing her twin shortswords with the power of the frozen north, her attacks break through their armor with reckless abandon, sending icy bits of armor, bone, and flesh flying.",
+                 "3": "A dwarf gazes over the battlefield alone, remembering a past life when he commanded legions of his brethren to defend their homelands. No longer the same dwarf, he raises his hand, binding the corpses to undeath, once more in the position of command, old loyalties broken in death. "
+             },
+             "Description": "Years after the destruction of Draenor, the immensely powerful Lich King created a new breed of death knights: malevolent, rune-wielding warriors of the Scourge. The first and greatest of these was the Lich King's chosen champion, Prince Arthas Menethil. Once a mighty paladin of the Silver Hand, the prince sacrificed his soul to claim the runeblade Frostmourne in a desperate bid to save his people, and having his soul bound for eternal servitude under the Lich King. The rest are primarily made up of other fallen paladins whose souls were twisted and bound to the will of the Frozen Throne.<br>Like Gul'dan's death knights, these dark champions possess unholy strength; they, however, do not possess free will and their minds are inexorably entwined with and dominated by the Lich King's vast consciousness. Despite the potential loss of free will, some powerful mortals are intrigued by the promise of immortality and pledge their souls freely into the Lich King's service to achieve it. In the years since Arthas shattered the Frozen Throne and merged with the Lich King, the power and fury of the death knights has only grown. Now these unrelenting crusaders of the damned eagerly await the Lich King's command to unleash their fury on Azeroth once again. Unlike death knights of the Old Horde, the Scourge's death knights are not limited to their use of ranged spell casting abilities. In addition, these tireless death knights are considerably stronger, faster, and more agile than they were in life. However, both generations are equally destructive and terrifying to engage in the field of battle.",
+             "Blocks": {
+                 "1": {
+                     "Title": "Fallen Protectors",
+                     "Content": "Most death knights were once virtuous defenders of humanity and truth as paladins. However, once the paladin ranks were disbanded by the failing Alliance, many of these holy warriors traveled to the quarantined lands to ease the suffering of those left within the plague-ridden colonies. Though the paladins were resistant to disease, they were persecuted by the general populace who believed that they had been infected by the foul plague. A small band of paladins, embittered by society's cruelty, traveled north to find the plague's source. These renegade knights succumbed to bitter hatred over the course of their grueling quest. When they finally reached Ner'zhul's icy fortress in Northrend they had become dark and brooding. The Lich King offered them untold power in exchange for their services and loyalty. The weary, vengeful warriors accepted his dark pact, and although they retained their humanity, their twisted souls were bound to his evil will for all time. Bestowed with black, vampiric Runeblades and shadowy steeds, death knights serve as the Scourge's mightiest generals."
+                 },
+                 "2": {
+                     "Title": "Released from Service",
+                     "Content": "When the Lich King's control of his death knights was broken, his former champions sought revenge for the horrors committed under his command. After their vengeance was won, the death knights found themselves without a cause and without a home. One by one they trickled into the land of the living in search of a new purpose. The Knights of the Ebon Blade is a faction consisting of the renegade death knights that broke free of the Lich King's control after the battle of Light's Hope Chapel. Led by Highlord Darion Mograine, the Knights of the Ebon Blade have allied themselves with the Alliance and the Horde with the help of Highlord Tirion Fordring of the Knights of the Silver Hand, and have pledged to do their part in defeating their former master, the Lich King. Their main base is Acherus: The Ebon Hold, taken from the Scourge after breaking free."
+                 },
+                 "3": {
+                     "Title": "Creating a Death Knight",
+                     "Content": "When creating your Death Knight, consider your relationship with the person or being that resurrected you. Do you know who it was, or why they brought you back from death? Do you feel indebted to them for giving you a second chance at life, or are you angry that they took you away from your eternal rest? Death knights often have terrible stories to tell that ended with their deaths. Consider your story before your death—if you were once a paladin, consider the oath you took. Do you remember it? Do you choose to follow those tenets again, or forsake your paladin teachings and follow a new path? If you were a noble or important member of your society, how do you cope with their expectations and your role? What evils have you committed under the Lich King‘s dominion? Have you committed crimes that you secretly approve of, such as the murder of a noble who let you down in  your old life, or lethally ending rivalries in life? Have you been commanded to use your power to raise the dead, and have you had a choice in raising anyone you once knew? Also, consider if and how you will attempt to reintegrate with society; most citizens of Azeroth fear and suspect the intentions of death knights, and might try to sabotage their acceptance. Have you wronged anyone who might oppose your reentry into society? Will you accept being separate from all factions, and choose to take up quests with only like-minded individuals?"
+                 }
+             },
+             "QuickBuild": "You can make a death knight quickly by following these suggestions. First, Strength should be your highest ability score, followed by Charisma. Second, choose the noble or criminal background.",
+             "SpecialFeats": {
+                 "Corruption" :{
+                     "Label": "Corruption",
+                     "Description": "Upon gaining a level in this class, you may permanently pledge your soul as well, turning yourself into an undead creature (permanently gaining the below Undead Nature ability, and counting as the undead creature type)."
+                 },
+                 "RuneSpells" :{
+                     "Label": "Rune Spells",
+                     "Description": "Death Knights are the only class that can access the rune array spell, and can prepare different runes for strike effects. Runes are magical enhancements that can enhance a death knight‘s weapon attacks, and can be released in coordination with the Runic Strike ability to cause a devastating strike."
+                 },
+                 "RuneBound" :{
+                     "Label": "Rune Bound",
+                     "Description": "Upon gaining a level in this class, you can turn one (of both, if using two weapons to fight) of your weapons into Runeblades, a weapon infused with the might of the Lich King and his blessing. Runeblades have three benefits:<br><ul><li>They serve as spellbooks and store spells (as described under Spellcasting).</li><li>You gain advantage to saving throws against any effect that controls your character or alters their alignment against the Lich King‘s will while using them.</li><li>The blade serves as an unholy symbol.</li><li>The runeblade is a greater attunement weapon (see Chapter 5: Equipment).</li></ul><br>You cannot have multiple Runeblades (beyond the one you choose or two you fight with). If lost, the blade usually finds its way back to you (or you to it) due to the bond you share."
+                 }
+             },
+             "Paths": {
+                 "PathOfBlood": {
+                     "Title": "Path of Blood",
+                     "Description": "You are a dark guardian who manipulates and corrupts life energy to sustain themselves in the face of the enemy‘s onslaught. Blood death knights invoke ancient legends of blood-drinking beings who are immortal on the battlefield."
+                 },
+                 "PathOfFrost": {
+                     "Title": "Path of Frost",
+                     "Description": "You are a harbinger of doom, channeling runic power and delivering freezing weapon strikes. Frost death knights are terrors of the frozen wastes."
+                 },
+                 "UnholyPath": {
+                     "Title": "Unholy Path",
+                     "Description": "You are a pale horseman of death, leading undead troops to battle, fueled with hatred of the living. Unholy death knights lead armies of the dead and overwhelm their enemies."
+                 }
+             }
          },
          "Druid": {
-            "Name": "Druid"
+             "Name": "Druid"
          },
          "Hunter": {
-            "Name": "Hunter"
+             "Name": "Hunter"
          },
          "Mage": {
-            "Name": "Mage"
+             "Name": "Mage"
          },
          "Paladin": {
-            "Name": "Paladin"
+             "Name": "Paladin"
          },
          "Priest": {
-            "Name": "Priest"
+             "Name": "Priest"
          },
          "Shaman": {
-            "Name": "Shaman"
+             "Name": "Shaman"
          },
          "Tinker": {
-            "Name": "Tinker",
-            "Introduction": {
-               "1": "A dwarf holds out his rifle, standing watch over his position atop defensive walls. In the distance, he hears the explosion in a mine. Mentally calculating the distance, he turns to a nearby mortar, adjusting a few settings. He pulls the primer, smirking as the mortar lobs the explosive shell somewhere into the woods behind cover, releasing panicked screams and another blast.",
-               "2": "A large mechanical construct with arms of steel and razorsharp claws approaches a keep‘s shut portcullis. The construct digs its claws under the steel of the gate, and begins pulling it upwards, as a small voice from inside the construct urges its fellows to pass quickly. From the walls, an arrow clangs on the construct‘s shoulder, causing the driver of the mecha to turn, lift an arm, and release a rocket barrage against the hapless archer. From within, a gnome squeaks out an apology.",
-               "3": "The goblin‘s green skin seems almost black from the soot of her explosives as she ducks behind the ruined door frame, evading sling bullets and bolts of frost. She rests her back on the wall for a moment, and unhooks a mechanical wheel from her back. She revs up a rip-tire, packs a few pieces of dynamite into it, and releases it. With a roar, the wheel charges into the open gateway and lets out a resounding blast. The goblin then smirks at the silence, and hearing a groan, she pulls out her flamethrower, and moves in to clean up."
-            },
-            "Description": "For the tinker, innovation is both the tool and the end. Having the brain and the tools give them the nearly limitless capacity to solve any problem. These engineers are lightly armored, and are proficient with the skills to create a variety of tools and machines to help them achieve their goals.",
-            "Blocks": {
-               "1": {
-                  "Title": "Consummate Innovators",
-                  "Content": "Tinkers among the smartest and most creative of the adventurers setting out to explore and conquer Azeroth. As a creator of incredible inventions from steam saws to siege engines, your devices allow them to overcome nearly any situation — and if you don‘t have the device they need, you just might be able to design and create a new one on the spot.<br>>Tinkers are born of necessity—economic or military. Many gnomish and goblin engineers chose to take up the path of the tinker because of its demand in peace and wartime, and to satisfy their creativity. Tinkers tend to carry about packs and pouches full of heavy tools, spare parts and inventions both finished and incomplete. In doing so, they quickly develop the ability to shoulder casually otherwise crushing burdens. Furthermore, the tinker‘s ability to put together devices out of random piles of spare parts or whatever wires and gears they happen to be carrying is a valuable asset, allowing a tinker to address problems and improvise even when they would otherwise be stumped.<br>From developing vehicles such as the zeppelin or the steam engine to reliable weapons and explosives, tinkers are increasingly needed innovators in the changing World of Warcraft. "
-               },
-               "2": {
-                  "Title": "Adaptable Combatants",
-                  "Content": "Tinkers prefer to spend days, weeks or even months constructing the devices they design. When adventuring, though, tinkers are often forced to throw together a device more quickly or adapt  pieces of fallen technology to their purposes. A tinker can arrive onto a battlefield with many tools, ranging from firearms, explosives, strange gadgets, to even personal vehicles and mecha. A tinker always balances what they can bring with what they should bring, as relying on technology that is too young could result in a crisis like the destruction of Gnomregan. They also look forward to repurposing enemy technology, and a tinker‘s strength can grow the more developed their opposition is.<br>Tinkers have a reputation for being dangerous companions before specializing, born mainly of reckless goblins experimenting with explosives, or using gadgets made and owned by others. However, the true heart of the tinker profession can be found in the steady craftsmanship of the dwarves and the wild-eyed curiosity of the gnomes."
-               },
-               "3": {
-                  "Title": "Creating a Tinker",
-                  "Content": "When you create a tinker, consider where you learned your craft. Are you self-taught or a student of a well-established guild, university, or master tinker? How has that affected your starting devices and formulae? Another thing to consider is your specialty—many gnomes and draenei prefer to rely on gadgets, while goblins lean towards explosives, and dwarves would swear on a reliable firearm.<br>Are the components and parts of your devices usually supplied and numbered or scavenged and repurposed from other devices?<br>Do you have qualms of repurposing technology (seeing it as a mark of poverty) or revel in it (seeing it as a proof of your power and skill)? Have you ever worked for an engineering society or guild— how have they treated you or used your inventions?"
-               }
-            },
-            "QuickBuild": "You can make a tinker quickly by following these suggestions. First. Intelligence should be your highest ability score. Make Agility your next-highest if you want to excel at using firearms and explosives. Choose Stamina or Strength instead if you plan to emphasize using constructs and mecha. Second, choose the guild artisan background. Third, choose the following starting devices in your engineer‘s notebook: boomstick (or auto-crossbow), fog machine (gadget), flamethrower (gadget), and hand grenade (or iron rockets, iron bombs, or iron mines).",
-            "Paths": {
-               "Bomber": {
-                  "Title": "Bomber",
-                  "Description": "You appreciate the controlled destruction behind a bomb, terrible surprise beneath a mine, and the terror a rocket invokes. Bomber tinkers often makes use of mortars and rocket or mine launchers, to deny enemy mobility as well as to deal massive damage to their enemies. Bombers are also known as grenadiers, and often take to the skies on gyrocopters to unleash their fury from above."
-               },
-               "Gunner": {
-                  "Title": "Gunner",
-                  "Description": "You are not only a renowned gunsmith, but also an excellent marksman. Gunners are often called gunslingers or musketeers, and are usually employed in battlefields."
-               },
-               "Gadgeteer": {
-                  "Title": "Gadgeteer",
-                  "Description": "You appreciate the versatility gadgets provide, or prefer to craft and control constructs such as mechs and vehicles of all types. Gadgeteers are often the drivers of their own devices, such as the engines of goblin balloons, dwarf steam tanks, or gnomish submarines and gyrocopters."
-               }
-            }
+             "Name": "Tinker",
+             "Introduction": {
+                 "1": "A dwarf holds out his rifle, standing watch over his position atop defensive walls. In the distance, he hears the explosion in a mine. Mentally calculating the distance, he turns to a nearby mortar, adjusting a few settings. He pulls the primer, smirking as the mortar lobs the explosive shell somewhere into the woods behind cover, releasing panicked screams and another blast.",
+                 "2": "A large mechanical construct with arms of steel and razorsharp claws approaches a keep‘s shut portcullis. The construct digs its claws under the steel of the gate, and begins pulling it upwards, as a small voice from inside the construct urges its fellows to pass quickly. From the walls, an arrow clangs on the construct‘s shoulder, causing the driver of the mecha to turn, lift an arm, and release a rocket barrage against the hapless archer. From within, a gnome squeaks out an apology.",
+                 "3": "The goblin‘s green skin seems almost black from the soot of her explosives as she ducks behind the ruined door frame, evading sling bullets and bolts of frost. She rests her back on the wall for a moment, and unhooks a mechanical wheel from her back. She revs up a rip-tire, packs a few pieces of dynamite into it, and releases it. With a roar, the wheel charges into the open gateway and lets out a resounding blast. The goblin then smirks at the silence, and hearing a groan, she pulls out her flamethrower, and moves in to clean up."
+             },
+             "Description": "For the tinker, innovation is both the tool and the end. Having the brain and the tools give them the nearly limitless capacity to solve any problem. These engineers are lightly armored, and are proficient with the skills to create a variety of tools and machines to help them achieve their goals.",
+             "Blocks": {
+                 "1": {
+                     "Title": "Consummate Innovators",
+                     "Content": "Tinkers among the smartest and most creative of the adventurers setting out to explore and conquer Azeroth. As a creator of incredible inventions from steam saws to siege engines, your devices allow them to overcome nearly any situation — and if you don‘t have the device they need, you just might be able to design and create a new one on the spot.<br>>Tinkers are born of necessity—economic or military. Many gnomish and goblin engineers chose to take up the path of the tinker because of its demand in peace and wartime, and to satisfy their creativity. Tinkers tend to carry about packs and pouches full of heavy tools, spare parts and inventions both finished and incomplete. In doing so, they quickly develop the ability to shoulder casually otherwise crushing burdens. Furthermore, the tinker‘s ability to put together devices out of random piles of spare parts or whatever wires and gears they happen to be carrying is a valuable asset, allowing a tinker to address problems and improvise even when they would otherwise be stumped.<br>From developing vehicles such as the zeppelin or the steam engine to reliable weapons and explosives, tinkers are increasingly needed innovators in the changing World of Warcraft. "
+                 },
+                 "2": {
+                     "Title": "Adaptable Combatants",
+                     "Content": "Tinkers prefer to spend days, weeks or even months constructing the devices they design. When adventuring, though, tinkers are often forced to throw together a device more quickly or adapt  pieces of fallen technology to their purposes. A tinker can arrive onto a battlefield with many tools, ranging from firearms, explosives, strange gadgets, to even personal vehicles and mecha. A tinker always balances what they can bring with what they should bring, as relying on technology that is too young could result in a crisis like the destruction of Gnomregan. They also look forward to repurposing enemy technology, and a tinker‘s strength can grow the more developed their opposition is.<br>Tinkers have a reputation for being dangerous companions before specializing, born mainly of reckless goblins experimenting with explosives, or using gadgets made and owned by others. However, the true heart of the tinker profession can be found in the steady craftsmanship of the dwarves and the wild-eyed curiosity of the gnomes."
+                 },
+                 "3": {
+                     "Title": "Creating a Tinker",
+                     "Content": "When you create a tinker, consider where you learned your craft. Are you self-taught or a student of a well-established guild, university, or master tinker? How has that affected your starting devices and formulae? Another thing to consider is your specialty—many gnomes and draenei prefer to rely on gadgets, while goblins lean towards explosives, and dwarves would swear on a reliable firearm.<br>Are the components and parts of your devices usually supplied and numbered or scavenged and repurposed from other devices?<br>Do you have qualms of repurposing technology (seeing it as a mark of poverty) or revel in it (seeing it as a proof of your power and skill)? Have you ever worked for an engineering society or guild— how have they treated you or used your inventions?"
+                 }
+             },
+             "QuickBuild": "You can make a tinker quickly by following these suggestions. First. Intelligence should be your highest ability score. Make Agility your next-highest if you want to excel at using firearms and explosives. Choose Stamina or Strength instead if you plan to emphasize using constructs and mecha. Second, choose the guild artisan background. Third, choose the following starting devices in your engineer‘s notebook: boomstick (or auto-crossbow), fog machine (gadget), flamethrower (gadget), and hand grenade (or iron rockets, iron bombs, or iron mines).",
+             "Paths": {
+                 "Bomber": {
+                     "Title": "Bomber",
+                     "Description": "You appreciate the controlled destruction behind a bomb, terrible surprise beneath a mine, and the terror a rocket invokes. Bomber tinkers often makes use of mortars and rocket or mine launchers, to deny enemy mobility as well as to deal massive damage to their enemies. Bombers are also known as grenadiers, and often take to the skies on gyrocopters to unleash their fury from above."
+                 },
+                 "Gunner": {
+                     "Title": "Gunner",
+                     "Description": "You are not only a renowned gunsmith, but also an excellent marksman. Gunners are often called gunslingers or musketeers, and are usually employed in battlefields."
+                 },
+                 "Gadgeteer": {
+                     "Title": "Gadgeteer",
+                     "Description": "You appreciate the versatility gadgets provide, or prefer to craft and control constructs such as mechs and vehicles of all types. Gadgeteers are often the drivers of their own devices, such as the engines of goblin balloons, dwarf steam tanks, or gnomish submarines and gyrocopters."
+                 }
+             }
          },
          "Warlock": {
-            "Name": "Warlock"
+             "Name": "Warlock"
          },
          "Warrior": {
-            "Name": "Warrior",
-            "Introduction": {
-               "1": "The heavily-armored dwarf takes a deep breath, tightening his grip on a war-hammer in one hand and a battleaxe in the other, facing down the ogre warlord raiding his mountain home. The mountain king shouts a battle-cry, suddenly increasing in size to equal the ogre, and swings his axe to dig deeply into the ogre‘s shoulder, before bringing down the war-hammer, causing a bloody shower to erupt onto his face.",
-               "2": "An orc armed with a great two-handed blade leaps towards two naga, cleaving through both with a single strike and shaking the ground where he fell. Not breaking a sweat, he charges ahead to the next foe.",
-               "3": "A tauren calmly strides across the fel-suffused battlefield, seeking a worthy opponent. Eventually, he finds his match, a bloodthirsty felguard. Treading carefully, he parries every blow with his giant battle-totem. Noticing an opportunity, the tauren warrior slams his hooves into the ground, knocking the felguard down, and then bringing down his mighty totem down, caving the fiend‘s torso inward with a furious war-cry."
-            },
-            "Description": "Warriors are fighters highly trained in the art of weaponry. Combat is the warrior's strongest skill. They are strong and quick on the battlefield. Depending on their specialization, a warrior can often deal very high damage or be tough to kill.",
-            "Blocks": {
-               "1": {
-                  "Title": "Trained for Battle",
-                  "Content": "As long as war is waged on Azeroth, there will be men and women who fight those wars. Warriors are no mere sword-swingers; they are skilled combatants, combining strength of arm, knowledge of weaponry, and practiced maneuvers to slice or bludgeon their foes into little red bits. Warriors are the most versatile of the combat classes, and they supplement their fighting prowess with the ability to rally their allies and spur them to victory. They charge into the heart of the battle and survive the most grievous of wounds. Elven and dwarven warriors reach into their blood for innate magic, creating spellbreakers and mountain kings, respectively, while tauren and orcs lean naturally towards using a single large weapon and the Arms path, creating chieftains and blademasters, respectively.<br>Warriors are common in dwarf, forsaken, human, and orc societies, but many other species also fill their ranks with warriors. Masters of swords, spears, and weapons of all kinds, warriors share a common way of life on Azeroth. Using their abilities to deal pain and cause bloodshed, warriors are deadly adversaries and welcome friends in violent times (which seem to be all the time in recent decades). Anyone willing to take up arms to defend their people can be classed as a warrior. A knight is the warrior elite among humans."
-               },
-               "2": {
-                  "Title": "Elite Fighters",
-                  "Content": "Not every member of the city watch, village militia, or the queen‘s army is a warrior. Most of these troops are relatively untrained soldiers with only the most basic combat knowledge or drilled for a certain function. Veteran soldiers, military officers, trained bodyguards, dedicated knights, and similar figures are true warriors—it is all about the spirit, in truth.<br>Some warriors feel drawn to use their training as adventurers. The dungeon delving, monster slaying, and other dangerous work common among adventurers is second nature for a warrior, not all that different from the life he or she left behind. Other warriors live a more stable life, serving as elite members in an order or military force, answering assignments and missions that involve armed pacification of resistance or the escort of vulnerable charges."
-               },
-               "3": {
-                  "Title": "Creating a Warrior",
-                  "Content": "For as long as war has raged, heroes from every race have aimed to master the art of battle.<br> Warriors combine strength, leadership, and a vast knowledge of arms and armor to wreak havoc in glorious combat. Some protect from the front lines with shields, locking down enemies while allies support the warrior from behind with spell and bow. Others forgo the shield and unleash their rage at the closest threat with a variety of deadly weapons.<br>As you build your warrior, think about your character‘s background: Where did you get your combat training, and what sets you apart from the mundane soldiers around you? You might have enjoyed formal training in a noble‘s army or in a local militia. Perhaps you trained in a war academy, learning strategy, tactics, and military history. Or you might be self—taught—unpolished but well tested.<br>Were you particularly ruthless? Did you get extra help from a mentor, or did your spirit shine brightly enough to warrant the title due to exceptional dedication? What drove you to this training in the first place? Was it a threat to your homeland, a thirst for revenge, or a need to prove yourself? Did you take up the sword as a way to escape the limits of life on a farm, or are you following a proud family tradition? Where did you acquire your weapons and armor? They might have been military issue or family heirlooms, or perhaps you scrimped and saved for years to buy them. Your armaments are now among your most important possessions—the only things that stand between you and death's embrace."
-               }
-            },
-            "QuickBuild": "You can make a warrior quickly by following these suggestions. First, make Strength or Agility your highest ability score, depending on whether you want to focus on melee weapons or on archery (or finesse weapons). Your next-highest score should be Stamina. Second, choose the soldier background.",
-            "Archetypes": {
-               "Arms": {
-                  "Title": "Arms",
-                  "Description": "You focus on wielding great weapons, breaking enemy lines, inflicting the first wounds in battle, and dealing massive amounts of damage. As they cleave through several creatures at once to soften up their foes for their allies, arms warriors become an inspiring sight on the battlefield, and are masters of their chosen weapons."
-               },
-               "Fury": {
-                  "Title": "Fury",
-                  "Description": "You equip yourself with two weapons, and slice your enemies to ribbons while shouting vengeance. Fury warriors make good party members, as inspiring shouts aid their allies."
-               },
-               "Protection": {
-                  "Title": "Protection",
-                  "Description": "You are the forward vanguard, decking yourself with heavy armors and a reliable shield. Protection warriors deflect and guarding their allies from attacks, and return damage with interest."
-               }
-            }
+             "Name": "Warrior",
+             "Introduction": {
+                 "1": "The heavily-armored dwarf takes a deep breath, tightening his grip on a war-hammer in one hand and a battleaxe in the other, facing down the ogre warlord raiding his mountain home. The mountain king shouts a battle-cry, suddenly increasing in size to equal the ogre, and swings his axe to dig deeply into the ogre‘s shoulder, before bringing down the war-hammer, causing a bloody shower to erupt onto his face.",
+                 "2": "An orc armed with a great two-handed blade leaps towards two naga, cleaving through both with a single strike and shaking the ground where he fell. Not breaking a sweat, he charges ahead to the next foe.",
+                 "3": "A tauren calmly strides across the fel-suffused battlefield, seeking a worthy opponent. Eventually, he finds his match, a bloodthirsty felguard. Treading carefully, he parries every blow with his giant battle-totem. Noticing an opportunity, the tauren warrior slams his hooves into the ground, knocking the felguard down, and then bringing down his mighty totem down, caving the fiend‘s torso inward with a furious war-cry."
+             },
+             "Description": "Warriors are fighters highly trained in the art of weaponry. Combat is the warrior's strongest skill. They are strong and quick on the battlefield. Depending on their specialization, a warrior can often deal very high damage or be tough to kill.",
+             "Blocks": {
+                 "1": {
+                     "Title": "Trained for Battle",
+                     "Content": "As long as war is waged on Azeroth, there will be men and women who fight those wars. Warriors are no mere sword-swingers; they are skilled combatants, combining strength of arm, knowledge of weaponry, and practiced maneuvers to slice or bludgeon their foes into little red bits. Warriors are the most versatile of the combat classes, and they supplement their fighting prowess with the ability to rally their allies and spur them to victory. They charge into the heart of the battle and survive the most grievous of wounds. Elven and dwarven warriors reach into their blood for innate magic, creating spellbreakers and mountain kings, respectively, while tauren and orcs lean naturally towards using a single large weapon and the Arms path, creating chieftains and blademasters, respectively.<br>Warriors are common in dwarf, forsaken, human, and orc societies, but many other species also fill their ranks with warriors. Masters of swords, spears, and weapons of all kinds, warriors share a common way of life on Azeroth. Using their abilities to deal pain and cause bloodshed, warriors are deadly adversaries and welcome friends in violent times (which seem to be all the time in recent decades). Anyone willing to take up arms to defend their people can be classed as a warrior. A knight is the warrior elite among humans."
+                 },
+                 "2": {
+                     "Title": "Elite Fighters",
+                     "Content": "Not every member of the city watch, village militia, or the queen‘s army is a warrior. Most of these troops are relatively untrained soldiers with only the most basic combat knowledge or drilled for a certain function. Veteran soldiers, military officers, trained bodyguards, dedicated knights, and similar figures are true warriors—it is all about the spirit, in truth.<br>Some warriors feel drawn to use their training as adventurers. The dungeon delving, monster slaying, and other dangerous work common among adventurers is second nature for a warrior, not all that different from the life he or she left behind. Other warriors live a more stable life, serving as elite members in an order or military force, answering assignments and missions that involve armed pacification of resistance or the escort of vulnerable charges."
+                 },
+                 "3": {
+                     "Title": "Creating a Warrior",
+                     "Content": "For as long as war has raged, heroes from every race have aimed to master the art of battle.<br> Warriors combine strength, leadership, and a vast knowledge of arms and armor to wreak havoc in glorious combat. Some protect from the front lines with shields, locking down enemies while allies support the warrior from behind with spell and bow. Others forgo the shield and unleash their rage at the closest threat with a variety of deadly weapons.<br>As you build your warrior, think about your character‘s background: Where did you get your combat training, and what sets you apart from the mundane soldiers around you? You might have enjoyed formal training in a noble‘s army or in a local militia. Perhaps you trained in a war academy, learning strategy, tactics, and military history. Or you might be self—taught—unpolished but well tested.<br>Were you particularly ruthless? Did you get extra help from a mentor, or did your spirit shine brightly enough to warrant the title due to exceptional dedication? What drove you to this training in the first place? Was it a threat to your homeland, a thirst for revenge, or a need to prove yourself? Did you take up the sword as a way to escape the limits of life on a farm, or are you following a proud family tradition? Where did you acquire your weapons and armor? They might have been military issue or family heirlooms, or perhaps you scrimped and saved for years to buy them. Your armaments are now among your most important possessions—the only things that stand between you and death's embrace."
+                 }
+             },
+             "QuickBuild": "You can make a warrior quickly by following these suggestions. First, make Strength or Agility your highest ability score, depending on whether you want to focus on melee weapons or on archery (or finesse weapons). Your next-highest score should be Stamina. Second, choose the soldier background.",
+             "SpecialFeats": {
+                 "UnarmoredDefense" :{
+                     "Description": "You may lose proficiency with heavy armor, and instead gain the unarmored defense ability. These are not gained as part of multi-classing."
+                 }
+             },
+             "Archetypes": {
+                 "Arms": {
+                     "Title": "Arms",
+                     "Description": "You focus on wielding great weapons, breaking enemy lines, inflicting the first wounds in battle, and dealing massive amounts of damage. As they cleave through several creatures at once to soften up their foes for their allies, arms warriors become an inspiring sight on the battlefield, and are masters of their chosen weapons."
+                 },
+                 "Fury": {
+                     "Title": "Fury",
+                     "Description": "You equip yourself with two weapons, and slice your enemies to ribbons while shouting vengeance. Fury warriors make good party members, as inspiring shouts aid their allies."
+                 },
+                 "Protection": {
+                     "Title": "Protection",
+                     "Description": "You are the forward vanguard, decking yourself with heavy armors and a reliable shield. Protection warriors deflect and guarding their allies from attacks, and return damage with interest."
+                 }
+             }
          }
       },
 

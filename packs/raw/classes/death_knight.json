@@ -1,0 +1,440 @@
+{
+   "_id":"atE8pXubZs7dB6T9",
+   "name":"Death Knight",
+   "type":"class",
+   "img":"modules/warcraft5e/res/pics/classes/deathknight.jpg",
+   "data":{
+      "wcType": "class",
+      "artwork": {
+         "1": {
+            "src": "modules/warcraft5e/res/pics/classes/deathknight_artwork.jpg",
+            "url": "https://www.deviantart.com/ysrathor/art/Death-Knight-856335505",
+            "credit": "Ysrathor"
+         },
+         "2": {
+            "src": "modules/warcraft5e/res/pics/classes/deathknight_artwork2.jpg",
+            "url": "https://www.deviantart.com/ericbraddock/art/Remorseless-Winter-352544069",
+            "credit": "ericbraddock"
+         }
+      },
+      "introduction": [
+         "WC5E.Class.DeathKnight.Introduction.1",
+         "WC5E.Class.DeathKnight.Introduction.2",
+         "WC5E.Class.DeathKnight.Introduction.3"
+      ],
+      "blocks": [
+         {
+            "title": "WC5E.Class.DeathKnight.Blocks.1.Title",
+            "content": "WC5E.Class.DeathKnight.Blocks.1.Content"
+         },
+         {
+            "title": "WC5E.Class.DeathKnight.Blocks.2.Title",
+            "content": "WC5E.Class.DeathKnight.Blocks.2.Content"
+         },
+         {
+            "title": "WC5E.Class.DeathKnight.Blocks.3.Title",
+            "content": "WC5E.Class.DeathKnight.Blocks.3.Content"
+         }
+      ],
+      "quickBuild": "WC5E.Class.DeathKnight.QuickBuild",
+      "specialFeats": [
+         {
+            "title": "WC5E.Class.DeathKnight.SpecialFeats.Corruption.Label",
+            "description": "WC5E.Class.DeathKnight.SpecialFeats.Corruption.Description"
+         },
+         {
+            "title": "WC5E.Class.DeathKnight.SpecialFeats.RuneSpells.Label",
+            "description": "WC5E.Class.DeathKnight.SpecialFeats.RuneSpells.Description"
+         },
+         {
+            "title": "WC5E.Class.DeathKnight.SpecialFeats.RuneBound.Label",
+            "description": "WC5E.Class.DeathKnight.SpecialFeats.RuneBound.Description"
+         }
+      ],
+      "hitPoints1st": "10",
+      "hitPointsHalfed": "6",
+      "weaponProfs": [
+         "sim", "mar"
+      ],
+      "armorProfs": [
+         "lgt", "med", "hvy", "shl"
+      ],
+      "toolProfs": [],
+      "equipment": [
+         [
+            "a martial weapon and a shield",
+            "two martial weapons"
+         ],
+         [
+            "five javelins",
+            "any simple melee weapon"
+         ],
+         [
+            "a priest's pack",
+            "an explorer's pack"
+         ],
+         [
+            "chain mail and an unholy symbol"
+         ]
+      ],
+      "specialCol": false,
+      "isCaster": true,
+      "progression": [
+         {
+            "level": "1",
+            "proficiency": "2",
+            "caster": "-",
+            "feats": [
+               {
+                  "pack":"warcraft5e.wc5e_class_feats",
+                  "node":"E7MNYi17oWxoYV7d",
+                  "label":"WC5E.Feats.DivineSense.Label"
+               },
+               {
+                  "pack":"warcraft5e.wc5e_class_feats",
+                  "node":"bI7xI3VrGU6QkwCC",
+                  "label":"WC5E.Feats.CorruptingTouch.Label"
+               }
+            ]
+         },
+         {
+            "level": "2",
+            "proficiency": "2",
+            "caster": "1 (1st)",
+            "feats": [
+               {
+                  "pack":"warcraft5e.wc5e_class_feats",
+                  "node":"4VEbwGDxIo1A9qjp",
+                  "label":"WC5E.Feats.FightingStyleDeathKnight.Label"
+               },
+               {
+                  "pack":"warcraft5e.wc5e_class_feats",
+                  "node":"NpZmvg15FbFQ2Xvv",
+                  "label":"WC5E.Feats.RunicStrike.Label"
+               },
+               {
+                  "pack":"warcraft5e.wc5e_class_feats",
+                  "node":"CqVsG5nYaVsdhqHQ",
+                  "label":"WC5E.Feats.SpellcastingDeathKnight.Label"
+               }
+            ]
+         },
+         {
+            "level": "3",
+            "proficiency": "2",
+            "caster": "2 (1st)",
+            "feats": [
+               {
+                  "pack":"warcraft5e.wc5e_class_feats",
+                  "node":"ZpQY3CIhekCWLAOM",
+                  "label":"WC5E.Feats.AuraDeathKnight.Label"
+               },
+               {
+                  "pack":"warcraft5e.wc5e_class_feats",
+                  "node":"aghWTXJ444CYeUKm",
+                  "label":"WC5E.Feats.DarkPath.Label"
+               }
+            ]
+         },
+         {
+            "level": "4",
+            "proficiency": "2",
+            "caster": "2 (1st)",
+            "feats": [
+               {
+                  "pack":"warcraft5e.wc5e_class_feats",
+                  "node":"pZ0s66jTVdto9Z3b",
+                  "label":"WC5E.Feats.AbilityScoreImprovement.Label"
+               }
+            ]
+         },
+         {
+            "level": "5",
+            "proficiency": "3",
+            "caster": "3 (2nd)",
+            "feats": [
+               {
+                  "pack":"warcraft5e.wc5e_class_feats",
+                  "node":"RHCM1SEVR8YGj71w",
+                  "label":"WC5E.Feats.ExtraAttack.Label"
+               }
+            ]
+         },
+         {
+            "level": "6",
+            "proficiency": "3",
+            "caster": "3 (2nd)",
+            "feats": [
+               {
+                  "pack":"warcraft5e.wc5e_class_feats",
+                  "node":"ZpQY3CIhekCWLAOM",
+                  "label":"WC5E.Feats.AuraDeathKnight.Label"
+               },
+               {
+                  "pack":"warcraft5e.wc5e_class_feats",
+                  "node":"wW0gIF7xTQ1e6mEj",
+                  "label":"WC5E.Feats.CursedCarrier.Label"
+               }
+            ]
+         },
+         {
+            "level": "7",
+            "proficiency": "3",
+            "caster": "4 (2nd)",
+            "feats": [
+               {
+                  "pack":"warcraft5e.wc5e_class_feats",
+                  "node":"aghWTXJ444CYeUKm",
+                  "label":"WC5E.Feats.DarkPath.Label"
+               }
+            ]
+         },
+         {
+            "level": "8",
+            "proficiency": "3",
+            "caster": "4 (2nd)",
+            "feats": [
+               {
+                  "pack":"warcraft5e.wc5e_class_feats",
+                  "node":"pZ0s66jTVdto9Z3b",
+                  "label":"WC5E.Feats.AbilityScoreImprovement.Label"
+               }
+            ]
+         },
+         {
+            "level": "9",
+            "proficiency": "4",
+            "caster": "5 (3rd)",
+            "feats": []
+         },
+         {
+            "level": "10",
+            "proficiency": "4",
+            "caster": "5 (3rd)",
+            "feats": [
+               {
+                  "pack":"warcraft5e.wc5e_class_feats",
+                  "node":"ZpQY3CIhekCWLAOM",
+                  "label":"WC5E.Feats.AuraDeathKnight.Label"
+               }
+            ]
+         },
+         {
+            "level": "11",
+            "proficiency": "4",
+            "caster": "6 (3rd)",
+            "feats": [
+               {
+                  "pack":"warcraft5e.wc5e_class_feats",
+                  "node":"VyrQcDbkD5DZxKMb",
+                  "label":"WC5E.Feats.ImprovedRunicStrike.Label"
+               }
+            ]
+         },
+         {
+            "level": "12",
+            "proficiency": "4",
+            "caster": "6 (3rd)",
+            "feats": [
+               {
+                  "pack":"warcraft5e.wc5e_class_feats",
+                  "node":"pZ0s66jTVdto9Z3b",
+                  "label":"WC5E.Feats.AbilityScoreImprovement.Label"
+               }
+            ]
+         },
+         {
+            "level": "13",
+            "proficiency": "5",
+            "caster": "7 (4th)",
+            "feats": []
+         },
+         {
+            "level": "14",
+            "proficiency": "5",
+            "caster": "7 (4th)",
+            "feats": [
+               {
+                  "pack":"warcraft5e.wc5e_class_feats",
+                  "node":"ZpQY3CIhekCWLAOM",
+                  "label":"WC5E.Feats.AuraDeathKnight.Label"
+               },
+               {
+                  "pack":"warcraft5e.wc5e_class_feats",
+                  "node":"a9vilfbnrwSIp1tw",
+                  "label":"WC5E.Feats.DispellingTouch.Label"
+               }
+            ]
+         },
+         {
+            "level": "15",
+            "proficiency": "5",
+            "caster": "8 (4th)",
+            "feats": [
+               {
+                  "pack":"warcraft5e.wc5e_class_feats",
+                  "node":"aghWTXJ444CYeUKm",
+                  "label":"WC5E.Feats.DarkPath.Label"
+               }
+            ]
+         },
+         {
+            "level": "16",
+            "proficiency": "5",
+            "caster": "8 (4th)",
+            "feats": [
+               {
+                  "pack":"warcraft5e.wc5e_class_feats",
+                  "node":"pZ0s66jTVdto9Z3b",
+                  "label":"WC5E.Feats.AbilityScoreImprovement.Label"
+               }
+            ]
+         },
+         {
+            "level": "17",
+            "proficiency": "6",
+            "caster": "9 (5th)",
+            "feats": []
+         },
+         {
+            "level": "18",
+            "proficiency": "6",
+            "caster": "9 (5th)",
+            "feats": [
+               {
+                  "pack":"warcraft5e.wc5e_class_feats",
+                  "node":"ZpQY3CIhekCWLAOM",
+                  "label":"WC5E.Feats.AuraDeathKnight.Label"
+               },
+               {
+                  "pack":"warcraft5e.wc5e_class_feats",
+                  "node":"Zvcv0PFMFbeIL4BA",
+                  "label":"WC5E.Feats.AuraImprovementDeathKnight.Label"
+               }
+            ]
+         },
+         {
+            "level": "19",
+            "proficiency": "6",
+            "caster": "10 (5th)",
+            "feats": [
+               {
+                  "pack":"warcraft5e.wc5e_class_feats",
+                  "node":"pZ0s66jTVdto9Z3b",
+                  "label":"WC5E.Feats.AbilityScoreImprovement.Label"
+               }
+            ]
+         },
+         {
+            "level": "20",
+            "proficiency": "6",
+            "caster": "10 (5th)",
+            "feats": [
+               {
+                  "pack":"warcraft5e.wc5e_class_feats",
+                  "node":"aghWTXJ444CYeUKm",
+                  "label":"WC5E.Feats.DarkPath.Label"
+               }
+            ]
+         }
+      ],
+      "archetypes": [
+         {
+            "title": "WC5E.Class.DeathKnight.Paths.PathOfBlood.Title",
+            "description": "WC5E.Class.DeathKnight.Paths.PathOfBlood.Description",
+            "featList": [
+               {
+                  "level": "3",
+                  "feats": [
+                     {
+                        "pack":"warcraft5e.wc5e_class_feats",
+                        "node":"jZZ3jr0aiZLwdcxv",
+                        "label":"WC5E.Feats.FirstBlood.Label"
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            "title": "WC5E.Class.DeathKnight.Paths.PathOfFrost.Title",
+            "description": "WC5E.Class.DeathKnight.Paths.PathOfFrost.Description",
+            "featList": [
+               {
+                  "level": "3",
+                  "feats": [
+                     {
+                        "pack":"warcraft5e.wc5e_class_feats",
+                        "node":"na8IZmJwynNkz1iL",
+                        "label":"WC5E.Feats.StrikeTheWound.Label"
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            "title": "WC5E.Class.DeathKnight.Paths.UnholyPath.Title",
+            "description": "WC5E.Class.DeathKnight.Paths.UnholyPath.Description",
+            "featList": [
+               {
+                  "level": "3",
+                  "feats": [
+                     {
+                        "pack":"warcraft5e.wc5e_class_feats",
+                        "node":"s0BmwIiZaHlfijhF",
+                        "label":"WC5E.Feats.BlockAndTackle.Label"
+                     }
+                  ]
+               }
+            ]
+         }
+      ],
+      "description":{
+         "value": "WC5E.Class.DeathKnight.Description",
+         "chat":"",
+         "unidentified":""
+      },
+      "source":"",
+      "levels":1,
+      "subclass":"",
+      "hitDice":"d10",
+      "hitDiceUsed":0,
+      "saves":[
+         "str",
+         "wis"
+      ],
+      "skills":{
+         "number":4,
+         "choices":[
+            "ath",
+            "ins",
+            "itm",
+            "med",
+            "dec",
+            "rel"
+         ],
+         "value":[
+
+         ]
+      },
+      "spellcasting":{
+         "progression":"none",
+         "ability":""
+      },
+      "damage":{
+         "parts":[
+
+         ]
+      }
+   },
+   "effects":[
+
+   ],
+   "folder":null,
+   "sort":0,
+   "permission":{
+      "default":0
+   },
+   "flags":{
+
+   }
+}
