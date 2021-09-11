@@ -1,14 +1,15 @@
 {
   "_id":"7AJ7qh8K1MM9y7Ir",
-  "name":"Rune Array (Alchemist)",
+  "name":"Rune Array",
   "permission":{
     "default":0
   },
   "type":"spell",
   "data":{
     "wcType": "spell",
+    "heightened":"WC5E.Spells.RuneArray.Heightened",
     "description":{
-      "value":"WC5E.Spells.RuneArrayAlchemist.Description",
+      "value":"WC5E.Spells.RuneArray.Description",
       "chat":"",
       "unidentified":""
     },
@@ -81,7 +82,7 @@
   "flags":{
 
   },
-  "img":"icons/magic/death/mouth-bite-fangs-vampire.webp",
+  "img":"icons/magic/symbols/rune-sigil-black-pink.webp",
   "effects":[
 
   ]

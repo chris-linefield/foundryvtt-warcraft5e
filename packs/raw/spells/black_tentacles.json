@@ -1,0 +1,89 @@
+{
+  "_id": "lgmoBl0EMVO2Im5A",
+  "name": "Black Tentacles",
+  "permission": {
+    "default": 0
+  },
+  "type": "spell",
+  "data": {
+    "wcType": "spell",
+    "description": {
+      "value": "WC5E.Spells.BlackTentacles.Description",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": "",
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": 1,
+      "units": "minute"
+    },
+    "target": {
+      "value": 20,
+      "units": "ft",
+      "type": "square"
+    },
+    "range": {
+      "value": 90,
+      "long": 0,
+      "units": "ft"
+    },
+    "uses": {
+      "value": 0,
+      "max": 0,
+      "per": ""
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": 0,
+    "chatFlavor": "",
+    "critical": null,
+    "damage": {
+      "parts": [
+        [
+          "3d6",
+          "bludgeoning"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": 0,
+      "scaling": "spell"
+    },
+    "level": 4,
+    "school": "con",
+    "components": {
+      "value": "",
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": true
+    },
+    "materials": {
+      "value": "A piece of tentacle from a giant octopus or a giant squid",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    }
+  },
+  "sort": 100001,
+  "flags": {},
+  "img": "systems/dnd5e/icons/spells/vines-eerie-2.jpg",
+  "effects": []
+}

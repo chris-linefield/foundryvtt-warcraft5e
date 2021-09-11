@@ -1,0 +1,95 @@
+{
+   "_id":"wu9lDAhvE637vRyK",
+   "name":"False Life",
+   "permission":{
+      "default":0
+   },
+   "type":"spell",
+   "data":{
+     "wcType": "spell",
+     "heightened": "WC5E.Spells.FalseLife.Heightened",
+      "description":{
+         "value":"WC5E.Spells.FalseLife.Description",
+         "chat":"",
+         "unidentified":""
+      },
+      "source":"",
+      "activation":{
+         "type":"action",
+         "cost":1,
+         "condition":""
+      },
+      "duration":{
+         "value":1,
+         "units":"hour"
+      },
+      "target":{
+         "value":null,
+         "units":null,
+         "type":"self"
+      },
+      "range":{
+         "value":null,
+         "long":null,
+         "units":"self"
+      },
+      "uses":{
+         "value":0,
+         "max":0,
+         "per":""
+      },
+      "ability":"",
+      "actionType":"heal",
+      "attackBonus":0,
+      "chatFlavor":"",
+      "critical":null,
+      "damage":{
+         "parts":[
+            [
+               "1d4 + 4",
+               "temphp"
+            ]
+         ],
+         "versatile":""
+      },
+      "formula":"",
+      "save":{
+         "ability":"",
+         "dc":null,
+         "value":"",
+         "scaling":"spell"
+      },
+      "level":1,
+      "school":"nec",
+      "components":{
+         "value":"",
+         "vocal":true,
+         "somatic":true,
+         "material":true,
+         "ritual":false,
+         "concentration":false
+      },
+      "materials":{
+         "value":"A small amount of alcohol or distilled spirits",
+         "consumed":false,
+         "cost":0,
+         "supply":0
+      },
+      "preparation":{
+         "mode":"prepared",
+         "prepared":false
+      },
+      "scaling":{
+         "mode":"none",
+         "formula":""
+      }
+   },
+   "sort":100001,
+   "flags":{
+
+   },
+   "img":"systems/dnd5e/icons/spells/heal-royal-1.jpg",
+   "effects":[
+
+   ]
+}

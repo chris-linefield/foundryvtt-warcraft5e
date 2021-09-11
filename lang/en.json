@@ -1,6 +1,5 @@
 {
    "WC5E": {
-
       "Backgrounds": {
          "Acolyte": {
             "Description": {
@@ -8,7 +7,6 @@
             }
          }
       },
-
       "Character": {
          "Strength": "Strength",
          "Agility": "Agility",
@@ -19,203 +17,201 @@
          "HitPoints": "Hit Points",
          "Level": "Level"
       },
-
       "Class": {
-            "Alchemist": {
-                "Name": "Alchemist",
-                "Introduction": {
-                    "1": "A forsaken stalks the ruins of a murloc village, picking eyes and bits of flesh. As a skulking murloc prepares to jump out at her, she casually tosses a potion at its chest without glancing at it, causing the skin to bubble and blacken with a terrible—the last thing it sees are the forsaken‘s fingers reaching forward to take out its light.",
-                    "2": "A gnome reaches down to his box of Alchemist‘s Supplies, picking a rare herb and some pinches of sea salt, before tossing them into a small battle-beaker warmed by a portable burner. With uncanny calm, he weighs the curative mixture, before delivering it to a dying friend, revivifying her.",
-                    "3": "Laughing maniacally as he consumes his potion, the troll rushes into the fight, fingertips mutating into razor-sharp claws. As his muscles grow larger, and as his skin hardens, his eyes gleam with the promise of pain.",
-                 "4": "A goblin mercenary sits on the back of a drugged ogre, tossing explosive potions. Wincing as a human warrior stabs his giant homunculus, he pulls out a potion from his side pouch and jams it down the ogre‘s throat. The crunch of teeth against glass invigorates the ogre, and, with a burp, it tosses its arm forward with great strength, tossing the human away as the alchemist laughs in triumph."
-             },
-             "Description": "Whether by careful measuring, self-experimentation, explosive mixtures, or supportive potions, an alchemist utilizes their own mix of magic and science, alchemical science, to support and heal wounds, decimate enemies, manifest unusual effects, or augment themselves to wade into battle. These lightly armored individuals are experts in creating a variety of special effects, from temporary explosives to elixirs that revive the dead.",
-             "Blocks": {
-                 "1": {
-                     "Title": "Magic and Science",
-                     "Content": "In the Warcraft universe, alchemy is not merely pseudo-chemistry—it is an art that draws power from the primal elements of life, not unlike actual magic. An alchemist is a master of the art who takes it leaps and bounds further than their peers, who are limited in their alchemical products to mere healing poultices and anti-toxins, reaching heights of reviving the dead or manifesting massive explosives.<br>The greatest strength of an alchemist is their versatility. They can themselves adequately but can specialize in being battle-chemists who augment themselves with potions before tearing their enemies apart with their own hands. They can choose to focus on the augmentative powers of their mixtures, delaying harm and healing wounds, or to debilitate their enemies with negative status effects. Damage dealt by an alchemist‘s potions usually focus on concussive or poison damage, but they are also broad in scope, dealing fire or frost or lighting as required of them. The better they anticipate their opposition, the better the alchemist can prepare.<br>The success of alchemists relies greatly on the formulae and recipes they have in their formula books. They gain new formulae as they gain experience, study other formula books, or research independently."
-                 },
-                 "2": {
-                     "Title": "The Weight of Knowledge",
-                     "Content": "Alchemists' lives may appear mundane, starting as a sage, independent researcher under a mage tower, a plague researcher, or member of a military force‘s supply chain. Other alchemists focus on trade, opening alchemy shops and selling anything from curative mixtures to love potions. Others still have adapted their talents to violence, such as serving in mercenary forces or the military, sapping structural defenses and focusing on combat support.<br>The weight of knowledge and the demand for versatile potions calls for even the most sedentary alchemists to venture out to investigate strange happenings, support their friends, or answer the call to heroism.<br><br>Alchemists are students, researchers, and scientists of the mysterious science of alchemy. To choose to alchemist class is to be more than a dabbler in the art of alchemy—they are utilizers of strange techniques that would empower themselves and their allies, experienced craftspeople who can make potions for fractions of the normal time and cost, and some have even modified their bodies to make full use of their skills.<br>Creating poisons, potions, special explosives, and empowering substances, alchemists are either curiosities, prized members of society, or reclusive, feared experts in unstable weird sciences. Alchemy itself does not fall strictly in one end between science and magic, but is a potent force nonetheless.<br>Alchemists support soldiers and adventurers, and could easily take to the field themselves, brewing and concocting potions, poisons, and poultices to support (or create) allies on the field. Some work to support their communities, others attempt to replicate (or surpass) the work of the Scourge's necromancers, and others focus on self-empowering through strange concoctions they imbibe."
-                 },
-                 "3": {
-                     "Title": "Creating an Alchemist",
-                     "Content": "As you make your alchemist character, consider the origins of their knowledge: were they selftaught, a student of another alchemist, or did they gain this mastery by esoteric means? Alchemy is a difficult discipline—how did you accomplish the challenge to gain your status? Were you motivated by war, fortune, or by something else entirely, such as the lack of magical talent to become a spellcaster?<br>Perhaps you preferred the reliable mundane science of alchemy over the unexpected extraordinary power of magic, or took comfort in the fact that you were in demand in an urban setting—there is no lack of adventurers who might need your aid as an alchemist if you do not wish to go out and adventure. Do you have any peers among alchemists? Do they perceive your approach to science as calm and intellectual, or rash but with great breakthroughs or a dangerous form of meddling with life and death that should not be tolerated? Do you have a special ambition or goal to achieve as an alchemist—such as making magic-like effects accessible to the mundane public, providing affordable healing, and counters to common ailments, or are your creations for your own monetary benefit?"
-                 }
-             },
-             "QuickBuild": "You can make an alchemist quickly by following these suggestions. First, Intelligence should be your highest ability score. Make Agility your next-highest if you want to use ranged or finesse weapons, or focus on throwing potions and explosives. Use Strength instead if you wish to empower yourself in battle and engage in combat via the mutate spell. Second, choose the guild artisan or scholar backgrounds. Third, choose the noxious fumes (poison spray), minor alchemy, and fire bolt cantrips, along with the following 1st-level spells for your formula book: <i>burning hands</i>, <i>explosion</i>, <i>mutate</i>, and <i>rejuvenation</i>.",
-             "Paths": {
-                 "Apothecary": {
-                     "Title": "Apothecary",
-                     "Description": "You recognize no boundary of morality or faith in your pursuit of weird science. Reaching beyond the realms of experimention to dissect the supernatural, you employ necromancy, soul magic, and unusual diseases and poisons. Apothecaries usually dress as plague doctors or experimenters, dealing with death and strange occult things for reasons only they know."
-                 },
-                 "Mutant": {
-                     "Title": "Mutant",
-                     "Description": "You push your body past the normal limit—mutation is no mere rage or chemical reaction; it is a secret science only you know. Mutants are often ostracized by society, which sees such unstable people to be dangerous and fickle in their moods."
-                 },
-                 "Transmutor": {
-                     "Title": "Transmutor",
-                     "Description": "Whereas the apothecary dabbles with the line between life and death, and the mutant experiments on themselves, you handle alchemy as a science and a tool, and are considered a more ‘classical‘ alchemist. Transmutors are appreciated in societies, often serving in courts or in magical circles to quantify the true nature of alchemy, sicknesses, and magic. In adventuring parties, they often focus on support."
-                 }
-             }
+         "Alchemist": {
+            "Name": "Alchemist",
+            "Introduction": {
+               "1": "A forsaken stalks the ruins of a murloc village, picking eyes and bits of flesh. As a skulking murloc prepares to jump out at her, she casually tosses a potion at its chest without glancing at it, causing the skin to bubble and blacken with a terrible—the last thing it sees are the forsaken‘s fingers reaching forward to take out its light.",
+               "2": "A gnome reaches down to his box of Alchemist‘s Supplies, picking a rare herb and some pinches of sea salt, before tossing them into a small battle-beaker warmed by a portable burner. With uncanny calm, he weighs the curative mixture, before delivering it to a dying friend, revivifying her.",
+               "3": "Laughing maniacally as he consumes his potion, the troll rushes into the fight, fingertips mutating into razor-sharp claws. As his muscles grow larger, and as his skin hardens, his eyes gleam with the promise of pain.",
+               "4": "A goblin mercenary sits on the back of a drugged ogre, tossing explosive potions. Wincing as a human warrior stabs his giant homunculus, he pulls out a potion from his side pouch and jams it down the ogre‘s throat. The crunch of teeth against glass invigorates the ogre, and, with a burp, it tosses its arm forward with great strength, tossing the human away as the alchemist laughs in triumph."
+            },
+            "Description": "Whether by careful measuring, self-experimentation, explosive mixtures, or supportive potions, an alchemist utilizes their own mix of magic and science, alchemical science, to support and heal wounds, decimate enemies, manifest unusual effects, or augment themselves to wade into battle. These lightly armored individuals are experts in creating a variety of special effects, from temporary explosives to elixirs that revive the dead.",
+            "Blocks": {
+               "1": {
+                  "Title": "Magic and Science",
+                  "Content": "In the Warcraft universe, alchemy is not merely pseudo-chemistry—it is an art that draws power from the primal elements of life, not unlike actual magic. An alchemist is a master of the art who takes it leaps and bounds further than their peers, who are limited in their alchemical products to mere healing poultices and anti-toxins, reaching heights of reviving the dead or manifesting massive explosives.<br>The greatest strength of an alchemist is their versatility. They can themselves adequately but can specialize in being battle-chemists who augment themselves with potions before tearing their enemies apart with their own hands. They can choose to focus on the augmentative powers of their mixtures, delaying harm and healing wounds, or to debilitate their enemies with negative status effects. Damage dealt by an alchemist‘s potions usually focus on concussive or poison damage, but they are also broad in scope, dealing fire or frost or lighting as required of them. The better they anticipate their opposition, the better the alchemist can prepare.<br>The success of alchemists relies greatly on the formulae and recipes they have in their formula books. They gain new formulae as they gain experience, study other formula books, or research independently."
+               },
+               "2": {
+                  "Title": "The Weight of Knowledge",
+                  "Content": "Alchemists' lives may appear mundane, starting as a sage, independent researcher under a mage tower, a plague researcher, or member of a military force‘s supply chain. Other alchemists focus on trade, opening alchemy shops and selling anything from curative mixtures to love potions. Others still have adapted their talents to violence, such as serving in mercenary forces or the military, sapping structural defenses and focusing on combat support.<br>The weight of knowledge and the demand for versatile potions calls for even the most sedentary alchemists to venture out to investigate strange happenings, support their friends, or answer the call to heroism.<br><br>Alchemists are students, researchers, and scientists of the mysterious science of alchemy. To choose to alchemist class is to be more than a dabbler in the art of alchemy—they are utilizers of strange techniques that would empower themselves and their allies, experienced craftspeople who can make potions for fractions of the normal time and cost, and some have even modified their bodies to make full use of their skills.<br>Creating poisons, potions, special explosives, and empowering substances, alchemists are either curiosities, prized members of society, or reclusive, feared experts in unstable weird sciences. Alchemy itself does not fall strictly in one end between science and magic, but is a potent force nonetheless.<br>Alchemists support soldiers and adventurers, and could easily take to the field themselves, brewing and concocting potions, poisons, and poultices to support (or create) allies on the field. Some work to support their communities, others attempt to replicate (or surpass) the work of the Scourge's necromancers, and others focus on self-empowering through strange concoctions they imbibe."
+               },
+               "3": {
+                  "Title": "Creating an Alchemist",
+                  "Content": "As you make your alchemist character, consider the origins of their knowledge: were they selftaught, a student of another alchemist, or did they gain this mastery by esoteric means? Alchemy is a difficult discipline—how did you accomplish the challenge to gain your status? Were you motivated by war, fortune, or by something else entirely, such as the lack of magical talent to become a spellcaster?<br>Perhaps you preferred the reliable mundane science of alchemy over the unexpected extraordinary power of magic, or took comfort in the fact that you were in demand in an urban setting—there is no lack of adventurers who might need your aid as an alchemist if you do not wish to go out and adventure. Do you have any peers among alchemists? Do they perceive your approach to science as calm and intellectual, or rash but with great breakthroughs or a dangerous form of meddling with life and death that should not be tolerated? Do you have a special ambition or goal to achieve as an alchemist—such as making magic-like effects accessible to the mundane public, providing affordable healing, and counters to common ailments, or are your creations for your own monetary benefit?"
+               }
+            },
+            "QuickBuild": "You can make an alchemist quickly by following these suggestions. First, Intelligence should be your highest ability score. Make Agility your next-highest if you want to use ranged or finesse weapons, or focus on throwing potions and explosives. Use Strength instead if you wish to empower yourself in battle and engage in combat via the mutate spell. Second, choose the guild artisan or scholar backgrounds. Third, choose the noxious fumes (poison spray), minor alchemy, and fire bolt cantrips, along with the following 1st-level spells for your formula book: <i>burning hands</i>, <i>explosion</i>, <i>mutate</i>, and <i>rejuvenation</i>.",
+            "Paths": {
+               "Apothecary": {
+                  "Title": "Apothecary",
+                  "Description": "You recognize no boundary of morality or faith in your pursuit of weird science. Reaching beyond the realms of experimention to dissect the supernatural, you employ necromancy, soul magic, and unusual diseases and poisons. Apothecaries usually dress as plague doctors or experimenters, dealing with death and strange occult things for reasons only they know."
+               },
+               "Mutant": {
+                  "Title": "Mutant",
+                  "Description": "You push your body past the normal limit—mutation is no mere rage or chemical reaction; it is a secret science only you know. Mutants are often ostracized by society, which sees such unstable people to be dangerous and fickle in their moods."
+               },
+               "Transmutor": {
+                  "Title": "Transmutor",
+                  "Description": "Whereas the apothecary dabbles with the line between life and death, and the mutant experiments on themselves, you handle alchemy as a science and a tool, and are considered a more ‘classical‘ alchemist. Transmutors are appreciated in societies, often serving in courts or in magical circles to quantify the true nature of alchemy, sicknesses, and magic. In adventuring parties, they often focus on support."
+               }
+            }
          },
          "DeathKnight": {
-             "Name": "Death Knight",
-             "Introduction": {
-                 "1": "Clad in armor streaked with warm blood, the human‘s eyes glow in a cold blue light as he swings his greatsword with precise fury, keep foes occupied with him. As he does so, his allies around him watch as his wounds seem to heal by vampiric-like magic even as the enemy falls.",
-                 "2": "Standing tall against the oncoming horde, a blood elf embraces the frozen resolve within to shrug off her enemies‘ attacks. Imbuing her twin shortswords with the power of the frozen north, her attacks break through their armor with reckless abandon, sending icy bits of armor, bone, and flesh flying.",
-                 "3": "A dwarf gazes over the battlefield alone, remembering a past life when he commanded legions of his brethren to defend their homelands. No longer the same dwarf, he raises his hand, binding the corpses to undeath, once more in the position of command, old loyalties broken in death. "
-             },
-             "Description": "Years after the destruction of Draenor, the immensely powerful Lich King created a new breed of death knights: malevolent, rune-wielding warriors of the Scourge. The first and greatest of these was the Lich King's chosen champion, Prince Arthas Menethil. Once a mighty paladin of the Silver Hand, the prince sacrificed his soul to claim the runeblade Frostmourne in a desperate bid to save his people, and having his soul bound for eternal servitude under the Lich King. The rest are primarily made up of other fallen paladins whose souls were twisted and bound to the will of the Frozen Throne.<br>Like Gul'dan's death knights, these dark champions possess unholy strength; they, however, do not possess free will and their minds are inexorably entwined with and dominated by the Lich King's vast consciousness. Despite the potential loss of free will, some powerful mortals are intrigued by the promise of immortality and pledge their souls freely into the Lich King's service to achieve it. In the years since Arthas shattered the Frozen Throne and merged with the Lich King, the power and fury of the death knights has only grown. Now these unrelenting crusaders of the damned eagerly await the Lich King's command to unleash their fury on Azeroth once again. Unlike death knights of the Old Horde, the Scourge's death knights are not limited to their use of ranged spell casting abilities. In addition, these tireless death knights are considerably stronger, faster, and more agile than they were in life. However, both generations are equally destructive and terrifying to engage in the field of battle.",
-             "Blocks": {
-                 "1": {
-                     "Title": "Fallen Protectors",
-                     "Content": "Most death knights were once virtuous defenders of humanity and truth as paladins. However, once the paladin ranks were disbanded by the failing Alliance, many of these holy warriors traveled to the quarantined lands to ease the suffering of those left within the plague-ridden colonies. Though the paladins were resistant to disease, they were persecuted by the general populace who believed that they had been infected by the foul plague. A small band of paladins, embittered by society's cruelty, traveled north to find the plague's source. These renegade knights succumbed to bitter hatred over the course of their grueling quest. When they finally reached Ner'zhul's icy fortress in Northrend they had become dark and brooding. The Lich King offered them untold power in exchange for their services and loyalty. The weary, vengeful warriors accepted his dark pact, and although they retained their humanity, their twisted souls were bound to his evil will for all time. Bestowed with black, vampiric Runeblades and shadowy steeds, death knights serve as the Scourge's mightiest generals."
-                 },
-                 "2": {
-                     "Title": "Released from Service",
-                     "Content": "When the Lich King's control of his death knights was broken, his former champions sought revenge for the horrors committed under his command. After their vengeance was won, the death knights found themselves without a cause and without a home. One by one they trickled into the land of the living in search of a new purpose. The Knights of the Ebon Blade is a faction consisting of the renegade death knights that broke free of the Lich King's control after the battle of Light's Hope Chapel. Led by Highlord Darion Mograine, the Knights of the Ebon Blade have allied themselves with the Alliance and the Horde with the help of Highlord Tirion Fordring of the Knights of the Silver Hand, and have pledged to do their part in defeating their former master, the Lich King. Their main base is Acherus: The Ebon Hold, taken from the Scourge after breaking free."
-                 },
-                 "3": {
-                     "Title": "Creating a Death Knight",
-                     "Content": "When creating your Death Knight, consider your relationship with the person or being that resurrected you. Do you know who it was, or why they brought you back from death? Do you feel indebted to them for giving you a second chance at life, or are you angry that they took you away from your eternal rest? Death knights often have terrible stories to tell that ended with their deaths. Consider your story before your death—if you were once a paladin, consider the oath you took. Do you remember it? Do you choose to follow those tenets again, or forsake your paladin teachings and follow a new path? If you were a noble or important member of your society, how do you cope with their expectations and your role? What evils have you committed under the Lich King‘s dominion? Have you committed crimes that you secretly approve of, such as the murder of a noble who let you down in  your old life, or lethally ending rivalries in life? Have you been commanded to use your power to raise the dead, and have you had a choice in raising anyone you once knew? Also, consider if and how you will attempt to reintegrate with society; most citizens of Azeroth fear and suspect the intentions of death knights, and might try to sabotage their acceptance. Have you wronged anyone who might oppose your reentry into society? Will you accept being separate from all factions, and choose to take up quests with only like-minded individuals?"
-                 }
-             },
-             "QuickBuild": "You can make a death knight quickly by following these suggestions. First, Strength should be your highest ability score, followed by Charisma. Second, choose the noble or criminal background.",
-             "SpecialFeats": {
-                 "Corruption" :{
-                     "Label": "Corruption",
-                     "Description": "Upon gaining a level in this class, you may permanently pledge your soul as well, turning yourself into an undead creature (permanently gaining the below Undead Nature ability, and counting as the undead creature type)."
-                 },
-                 "RuneSpells" :{
-                     "Label": "Rune Spells",
-                     "Description": "Death Knights are the only class that can access the rune array spell, and can prepare different runes for strike effects. Runes are magical enhancements that can enhance a death knight‘s weapon attacks, and can be released in coordination with the Runic Strike ability to cause a devastating strike."
-                 },
-                 "RuneBound" :{
-                     "Label": "Rune Bound",
-                     "Description": "Upon gaining a level in this class, you can turn one (of both, if using two weapons to fight) of your weapons into Runeblades, a weapon infused with the might of the Lich King and his blessing. Runeblades have three benefits:<br><ul><li>They serve as spellbooks and store spells (as described under Spellcasting).</li><li>You gain advantage to saving throws against any effect that controls your character or alters their alignment against the Lich King‘s will while using them.</li><li>The blade serves as an unholy symbol.</li><li>The runeblade is a greater attunement weapon (see Chapter 5: Equipment).</li></ul><br>You cannot have multiple Runeblades (beyond the one you choose or two you fight with). If lost, the blade usually finds its way back to you (or you to it) due to the bond you share."
-                 }
-             },
-             "Paths": {
-                 "PathOfBlood": {
-                     "Title": "Path of Blood",
-                     "Description": "You are a dark guardian who manipulates and corrupts life energy to sustain themselves in the face of the enemy‘s onslaught. Blood death knights invoke ancient legends of blood-drinking beings who are immortal on the battlefield."
-                 },
-                 "PathOfFrost": {
-                     "Title": "Path of Frost",
-                     "Description": "You are a harbinger of doom, channeling runic power and delivering freezing weapon strikes. Frost death knights are terrors of the frozen wastes."
-                 },
-                 "UnholyPath": {
-                     "Title": "Unholy Path",
-                     "Description": "You are a pale horseman of death, leading undead troops to battle, fueled with hatred of the living. Unholy death knights lead armies of the dead and overwhelm their enemies."
-                 }
-             }
+            "Name": "Death Knight",
+            "Introduction": {
+               "1": "Clad in armor streaked with warm blood, the human‘s eyes glow in a cold blue light as he swings his greatsword with precise fury, keep foes occupied with him. As he does so, his allies around him watch as his wounds seem to heal by vampiric-like magic even as the enemy falls.",
+               "2": "Standing tall against the oncoming horde, a blood elf embraces the frozen resolve within to shrug off her enemies‘ attacks. Imbuing her twin shortswords with the power of the frozen north, her attacks break through their armor with reckless abandon, sending icy bits of armor, bone, and flesh flying.",
+               "3": "A dwarf gazes over the battlefield alone, remembering a past life when he commanded legions of his brethren to defend their homelands. No longer the same dwarf, he raises his hand, binding the corpses to undeath, once more in the position of command, old loyalties broken in death. "
+            },
+            "Description": "Years after the destruction of Draenor, the immensely powerful Lich King created a new breed of death knights: malevolent, rune-wielding warriors of the Scourge. The first and greatest of these was the Lich King's chosen champion, Prince Arthas Menethil. Once a mighty paladin of the Silver Hand, the prince sacrificed his soul to claim the runeblade Frostmourne in a desperate bid to save his people, and having his soul bound for eternal servitude under the Lich King. The rest are primarily made up of other fallen paladins whose souls were twisted and bound to the will of the Frozen Throne.<br>Like Gul'dan's death knights, these dark champions possess unholy strength; they, however, do not possess free will and their minds are inexorably entwined with and dominated by the Lich King's vast consciousness. Despite the potential loss of free will, some powerful mortals are intrigued by the promise of immortality and pledge their souls freely into the Lich King's service to achieve it. In the years since Arthas shattered the Frozen Throne and merged with the Lich King, the power and fury of the death knights has only grown. Now these unrelenting crusaders of the damned eagerly await the Lich King's command to unleash their fury on Azeroth once again. Unlike death knights of the Old Horde, the Scourge's death knights are not limited to their use of ranged spell casting abilities. In addition, these tireless death knights are considerably stronger, faster, and more agile than they were in life. However, both generations are equally destructive and terrifying to engage in the field of battle.",
+            "Blocks": {
+               "1": {
+                  "Title": "Fallen Protectors",
+                  "Content": "Most death knights were once virtuous defenders of humanity and truth as paladins. However, once the paladin ranks were disbanded by the failing Alliance, many of these holy warriors traveled to the quarantined lands to ease the suffering of those left within the plague-ridden colonies. Though the paladins were resistant to disease, they were persecuted by the general populace who believed that they had been infected by the foul plague. A small band of paladins, embittered by society's cruelty, traveled north to find the plague's source. These renegade knights succumbed to bitter hatred over the course of their grueling quest. When they finally reached Ner'zhul's icy fortress in Northrend they had become dark and brooding. The Lich King offered them untold power in exchange for their services and loyalty. The weary, vengeful warriors accepted his dark pact, and although they retained their humanity, their twisted souls were bound to his evil will for all time. Bestowed with black, vampiric Runeblades and shadowy steeds, death knights serve as the Scourge's mightiest generals."
+               },
+               "2": {
+                  "Title": "Released from Service",
+                  "Content": "When the Lich King's control of his death knights was broken, his former champions sought revenge for the horrors committed under his command. After their vengeance was won, the death knights found themselves without a cause and without a home. One by one they trickled into the land of the living in search of a new purpose. The Knights of the Ebon Blade is a faction consisting of the renegade death knights that broke free of the Lich King's control after the battle of Light's Hope Chapel. Led by Highlord Darion Mograine, the Knights of the Ebon Blade have allied themselves with the Alliance and the Horde with the help of Highlord Tirion Fordring of the Knights of the Silver Hand, and have pledged to do their part in defeating their former master, the Lich King. Their main base is Acherus: The Ebon Hold, taken from the Scourge after breaking free."
+               },
+               "3": {
+                  "Title": "Creating a Death Knight",
+                  "Content": "When creating your Death Knight, consider your relationship with the person or being that resurrected you. Do you know who it was, or why they brought you back from death? Do you feel indebted to them for giving you a second chance at life, or are you angry that they took you away from your eternal rest? Death knights often have terrible stories to tell that ended with their deaths. Consider your story before your death—if you were once a paladin, consider the oath you took. Do you remember it? Do you choose to follow those tenets again, or forsake your paladin teachings and follow a new path? If you were a noble or important member of your society, how do you cope with their expectations and your role? What evils have you committed under the Lich King‘s dominion? Have you committed crimes that you secretly approve of, such as the murder of a noble who let you down in  your old life, or lethally ending rivalries in life? Have you been commanded to use your power to raise the dead, and have you had a choice in raising anyone you once knew? Also, consider if and how you will attempt to reintegrate with society; most citizens of Azeroth fear and suspect the intentions of death knights, and might try to sabotage their acceptance. Have you wronged anyone who might oppose your reentry into society? Will you accept being separate from all factions, and choose to take up quests with only like-minded individuals?"
+               }
+            },
+            "QuickBuild": "You can make a death knight quickly by following these suggestions. First, Strength should be your highest ability score, followed by Charisma. Second, choose the noble or criminal background.",
+            "SpecialFeats": {
+               "Corruption": {
+                  "Label": "Corruption",
+                  "Description": "Upon gaining a level in this class, you may permanently pledge your soul as well, turning yourself into an undead creature (permanently gaining the below Undead Nature ability, and counting as the undead creature type)."
+               },
+               "RuneSpells": {
+                  "Label": "Rune Spells",
+                  "Description": "Death Knights are the only class that can access the rune array spell, and can prepare different runes for strike effects. Runes are magical enhancements that can enhance a death knight‘s weapon attacks, and can be released in coordination with the Runic Strike ability to cause a devastating strike."
+               },
+               "RuneBound": {
+                  "Label": "Rune Bound",
+                  "Description": "Upon gaining a level in this class, you can turn one (of both, if using two weapons to fight) of your weapons into Runeblades, a weapon infused with the might of the Lich King and his blessing. Runeblades have three benefits:<br><ul><li>They serve as spellbooks and store spells (as described under Spellcasting).</li><li>You gain advantage to saving throws against any effect that controls your character or alters their alignment against the Lich King‘s will while using them.</li><li>The blade serves as an unholy symbol.</li><li>The runeblade is a greater attunement weapon (see Chapter 5: Equipment).</li></ul><br>You cannot have multiple Runeblades (beyond the one you choose or two you fight with). If lost, the blade usually finds its way back to you (or you to it) due to the bond you share."
+               }
+            },
+            "Paths": {
+               "PathOfBlood": {
+                  "Title": "Path of Blood",
+                  "Description": "You are a dark guardian who manipulates and corrupts life energy to sustain themselves in the face of the enemy‘s onslaught. Blood death knights invoke ancient legends of blood-drinking beings who are immortal on the battlefield."
+               },
+               "PathOfFrost": {
+                  "Title": "Path of Frost",
+                  "Description": "You are a harbinger of doom, channeling runic power and delivering freezing weapon strikes. Frost death knights are terrors of the frozen wastes."
+               },
+               "UnholyPath": {
+                  "Title": "Unholy Path",
+                  "Description": "You are a pale horseman of death, leading undead troops to battle, fueled with hatred of the living. Unholy death knights lead armies of the dead and overwhelm their enemies."
+               }
+            }
          },
          "Druid": {
-             "Name": "Druid"
+            "Name": "Druid"
          },
          "Hunter": {
-             "Name": "Hunter"
+            "Name": "Hunter"
          },
          "Mage": {
-             "Name": "Mage"
+            "Name": "Mage"
          },
          "Paladin": {
-             "Name": "Paladin"
+            "Name": "Paladin"
          },
          "Priest": {
-             "Name": "Priest"
+            "Name": "Priest"
          },
          "Shaman": {
-             "Name": "Shaman"
+            "Name": "Shaman"
          },
          "Tinker": {
-             "Name": "Tinker",
-             "Introduction": {
-                 "1": "A dwarf holds out his rifle, standing watch over his position atop defensive walls. In the distance, he hears the explosion in a mine. Mentally calculating the distance, he turns to a nearby mortar, adjusting a few settings. He pulls the primer, smirking as the mortar lobs the explosive shell somewhere into the woods behind cover, releasing panicked screams and another blast.",
-                 "2": "A large mechanical construct with arms of steel and razorsharp claws approaches a keep‘s shut portcullis. The construct digs its claws under the steel of the gate, and begins pulling it upwards, as a small voice from inside the construct urges its fellows to pass quickly. From the walls, an arrow clangs on the construct‘s shoulder, causing the driver of the mecha to turn, lift an arm, and release a rocket barrage against the hapless archer. From within, a gnome squeaks out an apology.",
-                 "3": "The goblin‘s green skin seems almost black from the soot of her explosives as she ducks behind the ruined door frame, evading sling bullets and bolts of frost. She rests her back on the wall for a moment, and unhooks a mechanical wheel from her back. She revs up a rip-tire, packs a few pieces of dynamite into it, and releases it. With a roar, the wheel charges into the open gateway and lets out a resounding blast. The goblin then smirks at the silence, and hearing a groan, she pulls out her flamethrower, and moves in to clean up."
-             },
-             "Description": "For the tinker, innovation is both the tool and the end. Having the brain and the tools give them the nearly limitless capacity to solve any problem. These engineers are lightly armored, and are proficient with the skills to create a variety of tools and machines to help them achieve their goals.",
-             "Blocks": {
-                 "1": {
-                     "Title": "Consummate Innovators",
-                     "Content": "Tinkers among the smartest and most creative of the adventurers setting out to explore and conquer Azeroth. As a creator of incredible inventions from steam saws to siege engines, your devices allow them to overcome nearly any situation — and if you don‘t have the device they need, you just might be able to design and create a new one on the spot.<br>>Tinkers are born of necessity—economic or military. Many gnomish and goblin engineers chose to take up the path of the tinker because of its demand in peace and wartime, and to satisfy their creativity. Tinkers tend to carry about packs and pouches full of heavy tools, spare parts and inventions both finished and incomplete. In doing so, they quickly develop the ability to shoulder casually otherwise crushing burdens. Furthermore, the tinker‘s ability to put together devices out of random piles of spare parts or whatever wires and gears they happen to be carrying is a valuable asset, allowing a tinker to address problems and improvise even when they would otherwise be stumped.<br>From developing vehicles such as the zeppelin or the steam engine to reliable weapons and explosives, tinkers are increasingly needed innovators in the changing World of Warcraft. "
-                 },
-                 "2": {
-                     "Title": "Adaptable Combatants",
-                     "Content": "Tinkers prefer to spend days, weeks or even months constructing the devices they design. When adventuring, though, tinkers are often forced to throw together a device more quickly or adapt  pieces of fallen technology to their purposes. A tinker can arrive onto a battlefield with many tools, ranging from firearms, explosives, strange gadgets, to even personal vehicles and mecha. A tinker always balances what they can bring with what they should bring, as relying on technology that is too young could result in a crisis like the destruction of Gnomregan. They also look forward to repurposing enemy technology, and a tinker‘s strength can grow the more developed their opposition is.<br>Tinkers have a reputation for being dangerous companions before specializing, born mainly of reckless goblins experimenting with explosives, or using gadgets made and owned by others. However, the true heart of the tinker profession can be found in the steady craftsmanship of the dwarves and the wild-eyed curiosity of the gnomes."
-                 },
-                 "3": {
-                     "Title": "Creating a Tinker",
-                     "Content": "When you create a tinker, consider where you learned your craft. Are you self-taught or a student of a well-established guild, university, or master tinker? How has that affected your starting devices and formulae? Another thing to consider is your specialty—many gnomes and draenei prefer to rely on gadgets, while goblins lean towards explosives, and dwarves would swear on a reliable firearm.<br>Are the components and parts of your devices usually supplied and numbered or scavenged and repurposed from other devices?<br>Do you have qualms of repurposing technology (seeing it as a mark of poverty) or revel in it (seeing it as a proof of your power and skill)? Have you ever worked for an engineering society or guild— how have they treated you or used your inventions?"
-                 }
-             },
-             "QuickBuild": "You can make a tinker quickly by following these suggestions. First. Intelligence should be your highest ability score. Make Agility your next-highest if you want to excel at using firearms and explosives. Choose Stamina or Strength instead if you plan to emphasize using constructs and mecha. Second, choose the guild artisan background. Third, choose the following starting devices in your engineer‘s notebook: boomstick (or auto-crossbow), fog machine (gadget), flamethrower (gadget), and hand grenade (or iron rockets, iron bombs, or iron mines).",
-             "Paths": {
-                 "Bomber": {
-                     "Title": "Bomber",
-                     "Description": "You appreciate the controlled destruction behind a bomb, terrible surprise beneath a mine, and the terror a rocket invokes. Bomber tinkers often makes use of mortars and rocket or mine launchers, to deny enemy mobility as well as to deal massive damage to their enemies. Bombers are also known as grenadiers, and often take to the skies on gyrocopters to unleash their fury from above."
-                 },
-                 "Gunner": {
-                     "Title": "Gunner",
-                     "Description": "You are not only a renowned gunsmith, but also an excellent marksman. Gunners are often called gunslingers or musketeers, and are usually employed in battlefields."
-                 },
-                 "Gadgeteer": {
-                     "Title": "Gadgeteer",
-                     "Description": "You appreciate the versatility gadgets provide, or prefer to craft and control constructs such as mechs and vehicles of all types. Gadgeteers are often the drivers of their own devices, such as the engines of goblin balloons, dwarf steam tanks, or gnomish submarines and gyrocopters."
-                 }
-             }
+            "Name": "Tinker",
+            "Introduction": {
+               "1": "A dwarf holds out his rifle, standing watch over his position atop defensive walls. In the distance, he hears the explosion in a mine. Mentally calculating the distance, he turns to a nearby mortar, adjusting a few settings. He pulls the primer, smirking as the mortar lobs the explosive shell somewhere into the woods behind cover, releasing panicked screams and another blast.",
+               "2": "A large mechanical construct with arms of steel and razorsharp claws approaches a keep‘s shut portcullis. The construct digs its claws under the steel of the gate, and begins pulling it upwards, as a small voice from inside the construct urges its fellows to pass quickly. From the walls, an arrow clangs on the construct‘s shoulder, causing the driver of the mecha to turn, lift an arm, and release a rocket barrage against the hapless archer. From within, a gnome squeaks out an apology.",
+               "3": "The goblin‘s green skin seems almost black from the soot of her explosives as she ducks behind the ruined door frame, evading sling bullets and bolts of frost. She rests her back on the wall for a moment, and unhooks a mechanical wheel from her back. She revs up a rip-tire, packs a few pieces of dynamite into it, and releases it. With a roar, the wheel charges into the open gateway and lets out a resounding blast. The goblin then smirks at the silence, and hearing a groan, she pulls out her flamethrower, and moves in to clean up."
+            },
+            "Description": "For the tinker, innovation is both the tool and the end. Having the brain and the tools give them the nearly limitless capacity to solve any problem. These engineers are lightly armored, and are proficient with the skills to create a variety of tools and machines to help them achieve their goals.",
+            "Blocks": {
+               "1": {
+                  "Title": "Consummate Innovators",
+                  "Content": "Tinkers among the smartest and most creative of the adventurers setting out to explore and conquer Azeroth. As a creator of incredible inventions from steam saws to siege engines, your devices allow them to overcome nearly any situation — and if you don‘t have the device they need, you just might be able to design and create a new one on the spot.<br>>Tinkers are born of necessity—economic or military. Many gnomish and goblin engineers chose to take up the path of the tinker because of its demand in peace and wartime, and to satisfy their creativity. Tinkers tend to carry about packs and pouches full of heavy tools, spare parts and inventions both finished and incomplete. In doing so, they quickly develop the ability to shoulder casually otherwise crushing burdens. Furthermore, the tinker‘s ability to put together devices out of random piles of spare parts or whatever wires and gears they happen to be carrying is a valuable asset, allowing a tinker to address problems and improvise even when they would otherwise be stumped.<br>From developing vehicles such as the zeppelin or the steam engine to reliable weapons and explosives, tinkers are increasingly needed innovators in the changing World of Warcraft. "
+               },
+               "2": {
+                  "Title": "Adaptable Combatants",
+                  "Content": "Tinkers prefer to spend days, weeks or even months constructing the devices they design. When adventuring, though, tinkers are often forced to throw together a device more quickly or adapt  pieces of fallen technology to their purposes. A tinker can arrive onto a battlefield with many tools, ranging from firearms, explosives, strange gadgets, to even personal vehicles and mecha. A tinker always balances what they can bring with what they should bring, as relying on technology that is too young could result in a crisis like the destruction of Gnomregan. They also look forward to repurposing enemy technology, and a tinker‘s strength can grow the more developed their opposition is.<br>Tinkers have a reputation for being dangerous companions before specializing, born mainly of reckless goblins experimenting with explosives, or using gadgets made and owned by others. However, the true heart of the tinker profession can be found in the steady craftsmanship of the dwarves and the wild-eyed curiosity of the gnomes."
+               },
+               "3": {
+                  "Title": "Creating a Tinker",
+                  "Content": "When you create a tinker, consider where you learned your craft. Are you self-taught or a student of a well-established guild, university, or master tinker? How has that affected your starting devices and formulae? Another thing to consider is your specialty—many gnomes and draenei prefer to rely on gadgets, while goblins lean towards explosives, and dwarves would swear on a reliable firearm.<br>Are the components and parts of your devices usually supplied and numbered or scavenged and repurposed from other devices?<br>Do you have qualms of repurposing technology (seeing it as a mark of poverty) or revel in it (seeing it as a proof of your power and skill)? Have you ever worked for an engineering society or guild— how have they treated you or used your inventions?"
+               }
+            },
+            "QuickBuild": "You can make a tinker quickly by following these suggestions. First. Intelligence should be your highest ability score. Make Agility your next-highest if you want to excel at using firearms and explosives. Choose Stamina or Strength instead if you plan to emphasize using constructs and mecha. Second, choose the guild artisan background. Third, choose the following starting devices in your engineer‘s notebook: boomstick (or auto-crossbow), fog machine (gadget), flamethrower (gadget), and hand grenade (or iron rockets, iron bombs, or iron mines).",
+            "Paths": {
+               "Bomber": {
+                  "Title": "Bomber",
+                  "Description": "You appreciate the controlled destruction behind a bomb, terrible surprise beneath a mine, and the terror a rocket invokes. Bomber tinkers often makes use of mortars and rocket or mine launchers, to deny enemy mobility as well as to deal massive damage to their enemies. Bombers are also known as grenadiers, and often take to the skies on gyrocopters to unleash their fury from above."
+               },
+               "Gunner": {
+                  "Title": "Gunner",
+                  "Description": "You are not only a renowned gunsmith, but also an excellent marksman. Gunners are often called gunslingers or musketeers, and are usually employed in battlefields."
+               },
+               "Gadgeteer": {
+                  "Title": "Gadgeteer",
+                  "Description": "You appreciate the versatility gadgets provide, or prefer to craft and control constructs such as mechs and vehicles of all types. Gadgeteers are often the drivers of their own devices, such as the engines of goblin balloons, dwarf steam tanks, or gnomish submarines and gyrocopters."
+               }
+            }
          },
          "Warlock": {
-             "Name": "Warlock"
+            "Name": "Warlock"
          },
          "Warrior": {
-             "Name": "Warrior",
-             "Introduction": {
-                 "1": "The heavily-armored dwarf takes a deep breath, tightening his grip on a war-hammer in one hand and a battleaxe in the other, facing down the ogre warlord raiding his mountain home. The mountain king shouts a battle-cry, suddenly increasing in size to equal the ogre, and swings his axe to dig deeply into the ogre‘s shoulder, before bringing down the war-hammer, causing a bloody shower to erupt onto his face.",
-                 "2": "An orc armed with a great two-handed blade leaps towards two naga, cleaving through both with a single strike and shaking the ground where he fell. Not breaking a sweat, he charges ahead to the next foe.",
-                 "3": "A tauren calmly strides across the fel-suffused battlefield, seeking a worthy opponent. Eventually, he finds his match, a bloodthirsty felguard. Treading carefully, he parries every blow with his giant battle-totem. Noticing an opportunity, the tauren warrior slams his hooves into the ground, knocking the felguard down, and then bringing down his mighty totem down, caving the fiend‘s torso inward with a furious war-cry."
-             },
-             "Description": "Warriors are fighters highly trained in the art of weaponry. Combat is the warrior's strongest skill. They are strong and quick on the battlefield. Depending on their specialization, a warrior can often deal very high damage or be tough to kill.",
-             "Blocks": {
-                 "1": {
-                     "Title": "Trained for Battle",
-                     "Content": "As long as war is waged on Azeroth, there will be men and women who fight those wars. Warriors are no mere sword-swingers; they are skilled combatants, combining strength of arm, knowledge of weaponry, and practiced maneuvers to slice or bludgeon their foes into little red bits. Warriors are the most versatile of the combat classes, and they supplement their fighting prowess with the ability to rally their allies and spur them to victory. They charge into the heart of the battle and survive the most grievous of wounds. Elven and dwarven warriors reach into their blood for innate magic, creating spellbreakers and mountain kings, respectively, while tauren and orcs lean naturally towards using a single large weapon and the Arms path, creating chieftains and blademasters, respectively.<br>Warriors are common in dwarf, forsaken, human, and orc societies, but many other species also fill their ranks with warriors. Masters of swords, spears, and weapons of all kinds, warriors share a common way of life on Azeroth. Using their abilities to deal pain and cause bloodshed, warriors are deadly adversaries and welcome friends in violent times (which seem to be all the time in recent decades). Anyone willing to take up arms to defend their people can be classed as a warrior. A knight is the warrior elite among humans."
-                 },
-                 "2": {
-                     "Title": "Elite Fighters",
-                     "Content": "Not every member of the city watch, village militia, or the queen‘s army is a warrior. Most of these troops are relatively untrained soldiers with only the most basic combat knowledge or drilled for a certain function. Veteran soldiers, military officers, trained bodyguards, dedicated knights, and similar figures are true warriors—it is all about the spirit, in truth.<br>Some warriors feel drawn to use their training as adventurers. The dungeon delving, monster slaying, and other dangerous work common among adventurers is second nature for a warrior, not all that different from the life he or she left behind. Other warriors live a more stable life, serving as elite members in an order or military force, answering assignments and missions that involve armed pacification of resistance or the escort of vulnerable charges."
-                 },
-                 "3": {
-                     "Title": "Creating a Warrior",
-                     "Content": "For as long as war has raged, heroes from every race have aimed to master the art of battle.<br> Warriors combine strength, leadership, and a vast knowledge of arms and armor to wreak havoc in glorious combat. Some protect from the front lines with shields, locking down enemies while allies support the warrior from behind with spell and bow. Others forgo the shield and unleash their rage at the closest threat with a variety of deadly weapons.<br>As you build your warrior, think about your character‘s background: Where did you get your combat training, and what sets you apart from the mundane soldiers around you? You might have enjoyed formal training in a noble‘s army or in a local militia. Perhaps you trained in a war academy, learning strategy, tactics, and military history. Or you might be self—taught—unpolished but well tested.<br>Were you particularly ruthless? Did you get extra help from a mentor, or did your spirit shine brightly enough to warrant the title due to exceptional dedication? What drove you to this training in the first place? Was it a threat to your homeland, a thirst for revenge, or a need to prove yourself? Did you take up the sword as a way to escape the limits of life on a farm, or are you following a proud family tradition? Where did you acquire your weapons and armor? They might have been military issue or family heirlooms, or perhaps you scrimped and saved for years to buy them. Your armaments are now among your most important possessions—the only things that stand between you and death's embrace."
-                 }
-             },
-             "QuickBuild": "You can make a warrior quickly by following these suggestions. First, make Strength or Agility your highest ability score, depending on whether you want to focus on melee weapons or on archery (or finesse weapons). Your next-highest score should be Stamina. Second, choose the soldier background.",
-             "SpecialFeats": {
-                 "UnarmoredDefense" :{
-                     "Description": "You may lose proficiency with heavy armor, and instead gain the unarmored defense ability. These are not gained as part of multi-classing."
-                 }
-             },
-             "Archetypes": {
-                 "Arms": {
-                     "Title": "Arms",
-                     "Description": "You focus on wielding great weapons, breaking enemy lines, inflicting the first wounds in battle, and dealing massive amounts of damage. As they cleave through several creatures at once to soften up their foes for their allies, arms warriors become an inspiring sight on the battlefield, and are masters of their chosen weapons."
-                 },
-                 "Fury": {
-                     "Title": "Fury",
-                     "Description": "You equip yourself with two weapons, and slice your enemies to ribbons while shouting vengeance. Fury warriors make good party members, as inspiring shouts aid their allies."
-                 },
-                 "Protection": {
-                     "Title": "Protection",
-                     "Description": "You are the forward vanguard, decking yourself with heavy armors and a reliable shield. Protection warriors deflect and guarding their allies from attacks, and return damage with interest."
-                 }
-             }
+            "Name": "Warrior",
+            "Introduction": {
+               "1": "The heavily-armored dwarf takes a deep breath, tightening his grip on a war-hammer in one hand and a battleaxe in the other, facing down the ogre warlord raiding his mountain home. The mountain king shouts a battle-cry, suddenly increasing in size to equal the ogre, and swings his axe to dig deeply into the ogre‘s shoulder, before bringing down the war-hammer, causing a bloody shower to erupt onto his face.",
+               "2": "An orc armed with a great two-handed blade leaps towards two naga, cleaving through both with a single strike and shaking the ground where he fell. Not breaking a sweat, he charges ahead to the next foe.",
+               "3": "A tauren calmly strides across the fel-suffused battlefield, seeking a worthy opponent. Eventually, he finds his match, a bloodthirsty felguard. Treading carefully, he parries every blow with his giant battle-totem. Noticing an opportunity, the tauren warrior slams his hooves into the ground, knocking the felguard down, and then bringing down his mighty totem down, caving the fiend‘s torso inward with a furious war-cry."
+            },
+            "Description": "Warriors are fighters highly trained in the art of weaponry. Combat is the warrior's strongest skill. They are strong and quick on the battlefield. Depending on their specialization, a warrior can often deal very high damage or be tough to kill.",
+            "Blocks": {
+               "1": {
+                  "Title": "Trained for Battle",
+                  "Content": "As long as war is waged on Azeroth, there will be men and women who fight those wars. Warriors are no mere sword-swingers; they are skilled combatants, combining strength of arm, knowledge of weaponry, and practiced maneuvers to slice or bludgeon their foes into little red bits. Warriors are the most versatile of the combat classes, and they supplement their fighting prowess with the ability to rally their allies and spur them to victory. They charge into the heart of the battle and survive the most grievous of wounds. Elven and dwarven warriors reach into their blood for innate magic, creating spellbreakers and mountain kings, respectively, while tauren and orcs lean naturally towards using a single large weapon and the Arms path, creating chieftains and blademasters, respectively.<br>Warriors are common in dwarf, forsaken, human, and orc societies, but many other species also fill their ranks with warriors. Masters of swords, spears, and weapons of all kinds, warriors share a common way of life on Azeroth. Using their abilities to deal pain and cause bloodshed, warriors are deadly adversaries and welcome friends in violent times (which seem to be all the time in recent decades). Anyone willing to take up arms to defend their people can be classed as a warrior. A knight is the warrior elite among humans."
+               },
+               "2": {
+                  "Title": "Elite Fighters",
+                  "Content": "Not every member of the city watch, village militia, or the queen‘s army is a warrior. Most of these troops are relatively untrained soldiers with only the most basic combat knowledge or drilled for a certain function. Veteran soldiers, military officers, trained bodyguards, dedicated knights, and similar figures are true warriors—it is all about the spirit, in truth.<br>Some warriors feel drawn to use their training as adventurers. The dungeon delving, monster slaying, and other dangerous work common among adventurers is second nature for a warrior, not all that different from the life he or she left behind. Other warriors live a more stable life, serving as elite members in an order or military force, answering assignments and missions that involve armed pacification of resistance or the escort of vulnerable charges."
+               },
+               "3": {
+                  "Title": "Creating a Warrior",
+                  "Content": "For as long as war has raged, heroes from every race have aimed to master the art of battle.<br> Warriors combine strength, leadership, and a vast knowledge of arms and armor to wreak havoc in glorious combat. Some protect from the front lines with shields, locking down enemies while allies support the warrior from behind with spell and bow. Others forgo the shield and unleash their rage at the closest threat with a variety of deadly weapons.<br>As you build your warrior, think about your character‘s background: Where did you get your combat training, and what sets you apart from the mundane soldiers around you? You might have enjoyed formal training in a noble‘s army or in a local militia. Perhaps you trained in a war academy, learning strategy, tactics, and military history. Or you might be self—taught—unpolished but well tested.<br>Were you particularly ruthless? Did you get extra help from a mentor, or did your spirit shine brightly enough to warrant the title due to exceptional dedication? What drove you to this training in the first place? Was it a threat to your homeland, a thirst for revenge, or a need to prove yourself? Did you take up the sword as a way to escape the limits of life on a farm, or are you following a proud family tradition? Where did you acquire your weapons and armor? They might have been military issue or family heirlooms, or perhaps you scrimped and saved for years to buy them. Your armaments are now among your most important possessions—the only things that stand between you and death's embrace."
+               }
+            },
+            "QuickBuild": "You can make a warrior quickly by following these suggestions. First, make Strength or Agility your highest ability score, depending on whether you want to focus on melee weapons or on archery (or finesse weapons). Your next-highest score should be Stamina. Second, choose the soldier background.",
+            "SpecialFeats": {
+               "UnarmoredDefense": {
+                  "Description": "You may lose proficiency with heavy armor, and instead gain the unarmored defense ability. These are not gained as part of multi-classing."
+               }
+            },
+            "Archetypes": {
+               "Arms": {
+                  "Title": "Arms",
+                  "Description": "You focus on wielding great weapons, breaking enemy lines, inflicting the first wounds in battle, and dealing massive amounts of damage. As they cleave through several creatures at once to soften up their foes for their allies, arms warriors become an inspiring sight on the battlefield, and are masters of their chosen weapons."
+               },
+               "Fury": {
+                  "Title": "Fury",
+                  "Description": "You equip yourself with two weapons, and slice your enemies to ribbons while shouting vengeance. Fury warriors make good party members, as inspiring shouts aid their allies."
+               },
+               "Protection": {
+                  "Title": "Protection",
+                  "Description": "You are the forward vanguard, decking yourself with heavy armors and a reliable shield. Protection warriors deflect and guarding their allies from attacks, and return damage with interest."
+               }
+            }
          }
       },
-
       "Feats": {
          "AbilityScoreImprovement": {
             "Label": "Ability Score Improvement",
@@ -309,6 +305,48 @@
                }
             }
          },
+         "AuraDeathKnight": {
+            "Label": "Aura",
+            "Description": {
+               "1": {
+                  "Value": "Your mastery over aura spells begins to manifest. You always have the following aura spells prepared."
+               },
+               "2": {
+                  "Options": {
+                     "1": "At 3rd level, you always have the abandonment aura spell prepared.",
+                     "2": "At 6th level, you always have the necrotic aura spell prepared.",
+                     "3": "At 10th level, you always have the unholy aura spell prepared.",
+                     "4": "At 14th level, you always have the distraction aura spell prepared.",
+                     "5": "At 18th level, you always have the vulnerability aura spell prepared."
+                  }
+               },
+               "3": {
+                  "Value": "Furthermore, you may cast each of the above aura spells for no cost once upon reaching the described level. You regain all expended uses after a short rest. You may expend a free aura use to cancel one successful turn undead attempt that affected your undead allies."
+               }
+            }
+         },
+         "AuraImprovementDeathKnight": {
+            "Label": "Aura Improvement",
+            "Description": {
+               "1": {
+                  "Value": "You can no longer lose concentration on an aura from taking damage, and may extend the range of any aura spell by 100%. Any effect that would normally dispel the aura instead suppresses it for 1 minute instead."
+               }
+            }
+         },
+         "ArmyOfTheDead": {
+            "Label": "Army of the Dead",
+            "Description": {
+               "1": {
+                  "Value": "Starting at 15th level, your conjure undead (animate undead) spells are inherently stronger than others. You may cast the conjure undead spell as an action instead of 1 minute when conjuring undead. Once this feature is used, it cannot be used again until after a short rest. If you cast the spell with its full casting time, a number of zombies arise to fight for you and protect you while you focus on casting the spell. The number of zombies is equal to 2 per spell level, so far as there are sufficient corpses within 30 feet."
+               },
+               "2": {
+                  "Value": "These temporary undead followers are friendly to you and your allies, and are controlled as normal summons, but do not count against your limit of summoned undead. The DM has the zombies‘ statistics. Once the spell‘s casting time ends and you successfully cast the conjure undead spell, you can use an action to maintain the additional zombies. The additional zombies cannot remain more than 10 minutes. If you lose concentration on the spell, you also lose concentration on the zombies, and they stop animating."
+               },
+               "3": {
+                  "Value": "Furthermore, if you do not have the required number of corpses (the required material focus) for animating undead, you use corpses from any place so long as you are within 1 mile of a graveyard, mass grave, battlefield, or any location with sufficient number of corpses so long as they are not on hallowed ground. The earth must be loose enough for the zombies to dig their way out. The temporary undead you create from casting conjure undead require the corpses to be within 30 feet, however."
+               }
+            }
+         },
          "BattleChemist": {
             "Label": "Battle Chemist",
             "Description": {
@@ -338,7 +376,7 @@
                   "Value": "You may also deal double damage to objects and constructs with your melee attacks as a strike effect."
                },
                "3": {
-                  "Value":"For the purposes of the Superfunction ability, battle-tested creations act as if its malfunction rate is 1 point higher instead of 1 point lower."
+                  "Value": "For the purposes of the Superfunction ability, battle-tested creations act as if its malfunction rate is 1 point higher instead of 1 point lower."
                }
             }
          },
@@ -371,6 +409,22 @@
                }
             }
          },
+         "BloodStrike": {
+            "Label": "Blood Strike",
+            "Description": {
+               "1": {
+                  "Value": "Whenever you hit a living creature with a melee weapon attack, you can spend one of your hit dice to regain health."
+               }
+            }
+         },
+         "BloodTap": {
+            "Label": "Blood Tap",
+            "Description": {
+               "1": {
+                  "Value": "Whenever you use Death Pact to restore mana, the mana restored is increased by 50% (or 3 mana points per spell level)."
+               }
+            }
+         },
          "BloodThirst": {
             "Label": "Blood Thirst",
             "Description": {
@@ -390,6 +444,33 @@
                },
                "2": {
                   "Value": "Bloody Ribbons expends a use of your Bloodthirst ability."
+               }
+            }
+         },
+         "ChannelDivinityBloodWard": {
+            "Label": "Channel Divinity: Blood Ward",
+            "Description": {
+               "1": {
+                  "Value": "You can spend a Channel Divinity use as a reaction to enhance any aura you have to resist hostile magic. Choose one school of magic. You can grant yourself and everyone within range of any aura you have advantage on saving throws versus any magical effect from that school 1 minute."
+               }
+            }
+         },
+         "ChannelDivinityBolsterUndead": {
+            "Label": "Channel Divinity: Bolster Undead",
+            "Description": {
+               "1": {
+                  "Value": "You can use a Channel Divinity use to guard undead against being turned, as well as empowering them. All and any undead under your command within 30 ft. of you may add your Proficiency bonus to attack rolls, skill checks, and saving throws for one minute, and may ignore one Turn Undead attempt. This does not stack with their own proficiency bonuses."
+               },
+               "2": {
+                  "Value": "You cannot benefit from the numeric bonus, even if you are undead, but can resist one Turn Undead attempt as normal. This bonus remains for ten minutes."
+               }
+            }
+         },
+         "ChannelDivinityFreeze": {
+            "Label": "Channel Divinity: Freeze",
+            "Description": {
+               "1": {
+                  "Value": "You can spend a Channel Divinity use as an action to cause enemies within a 20-foot radius to be wracked with unbearable pain as you freeze their blood. The targets must succeed a Charisma save or suffer Disadvantage to all attack rolls and skill checks, and move at half movement while in the affected area. This lasts for a number of rounds equal to your Death Knight level. A creature can repeat the saving throw at the end of its turn every round."
                }
             }
          },
@@ -428,6 +509,60 @@
                }
             }
          },
+         "CorruptingTouch": {
+            "Label": "Corrupting Touch",
+            "Description": {
+               "1": {
+                  "Value": "Your cursed touch can cause unholy wounds. As an action, you may perform a corrupting touch on a target, investing them with damaging energies. For every mana point you spend for Corrupting Touch, you heal a number of hit points equal to your proficiency bonus if targeting an undead or fiend. Amount you heal is instead treated as shadow damage for living creatures (in which case, this requires a melee spell attack). Excess hit points are lost, and you cannot heal or deal more damage than a value equal to your maximum hit points. When performing Corrupting Touch on yourself, this is instead a bonus action, and you are always healed by this ability, regardless of your creature type."
+               },
+               "2": {
+                  "Value": "Alternatively, you can expend the mana to inflict one disease or one poison of your choice. Each disease or poison requires spending mana points equal to one-quarter the saving throw DC of the poison or disease. You may inflict multiple diseases or poisons this way. You can choose be a carrier to up to three separate poisons or diseases on your person. You need previous exposure to a poison or disease to be a carrier."
+               },
+               "3": {
+                  "Value": "This feature has no effect on constructs."
+               }
+            }
+         },
+         "CursedCarrier": {
+            "Label": "Cursed Carrier",
+            "Description": {
+               "1": {
+                  "Value": "You can carry diseases in your body, and spread them by touch (if contact), scratch (if injury), breath (if inhaled), or spit (if ingested). You can carry up to three diseases of your choice with this ability, above the normal three added by Corrupting Touch."
+               }
+            }
+         },
+         "DarkPath": {
+            "Label": "Dark Path",
+            "Description": {
+               "1": {
+                  "Value": "You walk a path that defines you as a death knight forever. Up to this time you have been in a preparatory stage, committed to the path but not yet sworn to it. Now you choose the Path of Blood for vengeance, Path of Frost for cold disregard for life, or Path of the Unholy to defy the heavens, all detailed at the end of the class description."
+               },
+               "2": {
+                  "Value": "Your choice grants you features at 3rd level and again at 7th, 15th, and 20th level. Those features include path spells and the Channel Divinity feature."
+               },
+               "3": {
+                  "Title": "Path Spells",
+                  "Value": "Each path has a list of associated spells. You gain access to these spells at the levels specified in the path description. Once you gain access to a path spell, you always have it prepared. Path spells don‘t count against the number of spells you can prepare each day."
+               },
+               "4": {
+                  "Value": "If you gain a path spell that doesn‘t appear on the death knight spell list, the spell is nonetheless a death knight spell for you."
+               },
+               "5": {
+                  "Title": "Channel Divinity",
+                  "Value": "Your path allows you to channel divine energy to fuel magical effects. Each Channel Divinity option provided by your path explains how to use it. When you use your Channel Divinity, you choose which option to use. You must then finish a short or long rest to use your Channel Divinity again. Some Channel Divinity effects require saving throws. When you use such an effect from this class, the DC equals your death knight spell save DC."
+               },
+               "6": {
+                  "Value": "By default, you may always Turn Good, and gain an additional choice from your Path."
+               },
+               "7": {
+                  "Title": "Channel Divinity: Turn Good",
+                  "Value": "As an action, you present your unholy symbol and speak a prayer censuring humanoids, celestials, and beasts, using your Channel Divinity. Each humanoid, celestial or beast that can see or hear you within 30 feet of you must make a Spirit saving throw."
+               },
+               "8": {
+                  "Value": "If the creature fails its saving throw, it is turned for 1 minute or until it takes damage. A turned creature must spend its turns trying to move as far away from you as it can, and it can‘t willingly move to a space within 30 feet of you. It also can‘t take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there‘s nowhere to move, the creature can use the Dodge action."
+               }
+            }
+         },
          "DieByTheSword": {
             "Label": "Die by the Sword",
             "Description": {
@@ -436,77 +571,265 @@
                }
             }
          },
+         "DispellingTouch": {
+            "Label": "Dispelling Touch",
+            "Description": {
+               "1": {
+                  "Value": "You can use your action to end one spell on yourself or on one willing creature that you touch. You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain expended uses when you finish a long rest."
+               }
+            }
+         },
+         "DivineSense": {
+            "Label": "Divine Sense",
+            "Description": {
+               "1": {
+                  "Value": "The presence of strong evil registers on your senses like a soothing darkness, gifting peaceful oblivion of death and whispers of powerful forces, and powerful good brings painful brightness, shattered memories, and the creeping return of life."
+               },
+               "2": {
+                  "Value": "As an action, you can open your awareness to detect such forces. Until the end of your next turn, you know the location of any celestial, fiend, or undead within 60 feet of you that is not behind total cover."
+               },
+               "3": {
+                  "Value": "You know the type (celestial, fiend, or undead) of any being whose presence you sense, but not its identity (the lich Kel‘Thuzad, for instance). Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the hallow spell. You can use this feature a number of times equal to 1 + your Charisma modifier. When you finish a long rest, you regain all expended uses."
+               }
+            }
+         },
          "EfficientAlchemy": {
             "Label": "Efficient Alchemy",
-            "Description": "Your ability to whip up potions increases your efficiency in creating normal potions. You reduce the base crafting cost for potions from one-half to one-quarter buying price. This does not affect the costs of material components for spells nor does it affect the crafting costs for your Inurement ability. Normally crafting a potion is also one step of complexity faster. This does not also reduce the cost of spell material components.<br>Starting at 13th level, this ability also halves the cost of spell material components."
+            "Description": {
+               "1": {
+                  "Value": "Your ability to whip up potions increases your efficiency in creating normal potions. You reduce the base crafting cost for potions from one-half to one-quarter buying price. This does not affect the costs of material components for spells nor does it affect the crafting costs for your Inurement ability. Normally crafting a potion is also one step of complexity faster. This does not also reduce the cost of spell material components."
+               },
+               "2": {
+                  "Value": "Starting at 13th level, this ability also halves the cost of spell material components."
+               }
+            }
          },
          "EfficientEngineering": {
             "Label": "Efficient Engineering",
-            "Description": "Your ability to whip up devices increases your efficiency in creating normal devices. You reduce the base crafting cost for technological devices from one-half to one-quarter buying price. This does not affect the costs of material components for spells nor does it affect the crafting costs for your Innovation ability. Normally crafting a device is also one step of complexity faster. This does not also reduce the cost of spell material components.<br>Starting at 15th level, this ability also halves the cost of spell material components for your gadget devices."
+            "Description": {
+               "1": {
+                  "Value": "Your ability to whip up devices increases your efficiency in creating normal devices. You reduce the base crafting cost for technological devices from one-half to one-quarter buying price. This does not affect the costs of material components for spells nor does it affect the crafting costs for your Innovation ability. Normally crafting a device is also one step of complexity faster. This does not also reduce the cost of spell material components."
+               },
+               "2": {
+                  "Value": "Starting at 15th level, this ability also halves the cost of spell material components for your gadget devices."
+               }
+            }
          },
          "EmpoweredPhysique": {
             "Label": "Empowered Physique",
-            "Description": "You do not automatically incur miscibility when using potions within 1 hour of one another. You may benefit from a number of potions at a given time equal to 1 + your Stamina modifier (minimum 1) without risking miscibility.<br>You may, when drinking a new potion, choose to cause it to interact with another potion you already drank, provoking miscibility."
+            "Description": {
+               "1": {
+                  "Value": "You do not automatically incur miscibility when using potions within 1 hour of one another. You may benefit from a number of potions at a given time equal to 1 + your Stamina modifier (minimum 1) without risking miscibility."
+               },
+               "2": {
+                  "Value": "You may, when drinking a new potion, choose to cause it to interact with another potion you already drank, provoking miscibility."
+               }
+            }
          },
          "Engineering": {
             "Label": "Engineering",
-            "Description": "You are a master of engineering in the making.<br>You gain an engineer‘s notebook and can perform marvels with the skill that few can even imagine.<br><br><i>Notebook</i><br>At 1st level, your notebook contains four blueprints of your choice that detail the specifications of any device you can create. When you level up, you gain 2 additional blueprints of your choice. You may also acquire new blueprints by research, tutelage, or from the notebooks and blueprints of tinkers who have devices you can create."
+            "Description": {
+               "1": {
+                  "Value": "You are a master of engineering in the making."
+               },
+               "2": {
+                  "Value": "You gain an engineer‘s notebook and can perform marvels with the skill that few can even imagine."
+               },
+               "3": {
+                  "Title": "Notebook",
+                  "Value": "At 1st level, your notebook contains four blueprints of your choice that detail the specifications of any device you can create. When you level up, you gain 2 additional blueprints of your choice. You may also acquire new blueprints by research, tutelage, or from the notebooks and blueprints of tinkers who have devices you can create."
+               }
+            }
          },
          "EngineeringMastery": {
             "Label": "Engineering Mastery",
-            "Description": "You may identify the weaknesses and command triggers for any device you see. You gain the ability to deduce the operation and design of any device you operate or have one hour to study, and have a 20% chance to recreate it from memory. You can also spend a reaction if hit by a weapon attack made from a construct, trap, or engineered device (except firearms and crossbows) to halve the amount of damage you take from it. This does not stack with the bonus from your Evasion ability."
+            "Description": {
+               "1": {
+                  "Value": "You may identify the weaknesses and command triggers for any device you see. You gain the ability to deduce the operation and design of any device you operate or have one hour to study, and have a 20% chance to recreate it from memory. You can also spend a reaction if hit by a weapon attack made from a construct, trap, or engineered device (except firearms and crossbows) to halve the amount of damage you take from it. This does not stack with the bonus from your Evasion ability."
+               }
+            }
          },
          "Evasion": {
             "Label": "Evasion",
-            "Description": "You can nimbly dodge out of the way of certain area effects, such as a red dragon‘s fiery breath or an ice storm spell. When you are subjected to an effect that allows you to make an Agility saving throw to take only half damage, you instead take no damage if you succeed  on the saving throw, and only half damage if you fail. You regain 2 Crafting Points if you suffer no damage from a successful saving throw. If you make a saving throw versus an effect made by you, you can either take half damage automatically or make a saving throw. If you choose to make a saving throw, you take no damage on a successful save, but take normal (full) damage on a failed save. After gaining 2 Crafting Points, you cannot gain more unless you complete a short rest."
+            "Description": {
+               "1": {
+                  "Value": "You can nimbly dodge out of the way of certain area effects, such as a red dragon‘s fiery breath or an ice storm spell. When you are subjected to an effect that allows you to make an Agility saving throw to take only half damage, you instead take no damage if you succeed  on the saving throw, and only half damage if you fail. You regain 2 Crafting Points if you suffer no damage from a successful saving throw. If you make a saving throw versus an effect made by you, you can either take half damage automatically or make a saving throw. If you choose to make a saving throw, you take no damage on a successful save, but take normal (full) damage on a failed save. After gaining 2 Crafting Points, you cannot gain more unless you complete a short rest."
+               }
+            }
          },
          "ExpertChemist": {
             "Label": "Expert Chemist",
-            "Description": "Whenever you deliver a poison, disease, or potion, you the DC, damage, or duration of the effect increases by 2 points or two rounds (if possible)."
+            "Description": {
+               "1": {
+                  "Value": "Whenever you deliver a poison, disease, or potion, you the DC, damage, or duration of the effect increases by 2 points or two rounds (if possible)."
+               }
+            }
          },
          "ExplosiveMastery": {
             "Label": "Explosive Mastery",
-            "Description": "You increase the range of your bombs and rockets by 15 feet, and the range of your mine‘s detection to its blast radius (beyond its actual position). Also, any explosive you use is automatically modified by the Careful Explosion modification, with no cost to the modification. If you roll a careen on mishap with an explosive, you may roll twice and choose the second result (even if it‘s worse)."
+            "Description": {
+               "1": {
+                  "Value": "You increase the range of your bombs and rockets by 15 feet, and the range of your mine‘s detection to its blast radius (beyond its actual position). Also, any explosive you use is automatically modified by the Careful Explosion modification, with no cost to the modification. If you roll a careen on mishap with an explosive, you may roll twice and choose the second result (even if it‘s worse)."
+               }
+            }
          },
          "ExplosiveResistance": {
             "Label": "Explosive Resistance",
-            "Description": "You gain resistance to concussive, thunder, and bludgeoning damage.<br>Also, whenever you are in the area of concussive damage or the blast radius of an explosion, you can ‘ride the blast‘ and move up to one-half your speed away from the center of the blast, even if you otherwise took no damage from it (such as by using the Evasion ability). This can propel you upward if the explosion takes place under you. This distance is added to the distance the explosion already moves you (if possible)."
+            "Description": {
+               "1": {
+                  "Value": "You gain resistance to concussive, thunder, and bludgeoning damage."
+               },
+               "2": {
+                  "Value": "Also, whenever you are in the area of concussive damage or the blast radius of an explosion, you can ‘ride the blast‘ and move up to one-half your speed away from the center of the blast, even if you otherwise took no damage from it (such as by using the Evasion ability). This can propel you upward if the explosion takes place under you. This distance is added to the distance the explosion already moves you (if possible)."
+               }
+            }
          },
          "ExtensiveDesigning": {
             "Label": "Extensive Designing",
-            "Description": "Whenever you apply the Quick Use modification to your devices (as described under Quick Cooldown above), you reduce it by a further step.<ul><li>Gadgets that replicate spell levels above 3rd level have their cooldown reduced to 1 minute instead of 1 hour.</li><li>Gadgets that replicate spell levels above 6th level have their cooldown reduced to 1 hour instead of 8 hours.</li></ul> You may also add your proficiency bonus to attack rolls with your constructs."
+            "Description": {
+               "1": {
+                  "Value": "Whenever you apply the Quick Use modification to your devices (as described under Quick Cooldown above), you reduce it by a further step.<ul><li>Gadgets that replicate spell levels above 3rd level have their cooldown reduced to 1 minute instead of 1 hour.</li><li>Gadgets that replicate spell levels above 6th level have their cooldown reduced to 1 hour instead of 8 hours.</li></ul> You may also add your proficiency bonus to attack rolls with your constructs."
+               }
+            }
+         },
+         "ExtraAttack": {
+            "Label": "Extra Attack",
+            "Description": {
+               "1": {
+                  "Value": "You can attack twice, instead of once, whenever you take the Attack action on your turn."
+               }
+            }
          },
          "ExtraAttackWarrior": {
-            "Label": "Extra Attack (Warrior)",
-            "Description": "You can attack twice, instead of once, whenever you take the Attack action on your turn. The number of attacks increases to three when you reach 11th level in this class and to four when you reach 20th level in this class."
+            "Label": "Extra Attack",
+            "Description": {
+               "1": {
+                  "Value": "You can attack twice, instead of once, whenever you take the Attack action on your turn. The number of attacks increases to three when you reach 11th level in this class and to four when you reach 20th level in this class."
+               }
+            }
          },
          "FavoredCreations": {
             "Label": "Favored Creations",
-            "Description": "You gain increased proficiency in innovation. Choose up to four devices. These devices have half the Crafting Point cost, and their formulae are memorized. You may change a single favored creation with one week of downtime."
+            "Description": {
+               "1": {
+                  "Value": "You gain increased proficiency in innovation. Choose up to four devices. These devices have half the Crafting Point cost, and their formulae are memorized. You may change a single favored creation with one week of downtime."
+               }
+            }
          },
          "FavoredPotions": {
             "Label": "Favored Potions",
-            "Description": "You gain increased proficiency in inuring potions. Choose up to four potions. These potions have half the Crafting Point cost, and their formulae are memorized. Furthermore, whenever you roll for miscibility with one of these potions, you can roll twice and take the better result.<br>You may change a single favored potion with one week of downtime."
+            "Description": {
+               "1": {
+                  "Value": "You gain increased proficiency in inuring potions. Choose up to four potions. These potions have half the Crafting Point cost, and their formulae are memorized. Furthermore, whenever you roll for miscibility with one of these potions, you can roll twice and take the better result."
+               },
+               "2": {
+                  "Value": "You may change a single favored potion with one week of downtime."
+               }
+            }
          },
          "FightingStyle": {
             "Label": "Fighting Style",
-            "Description": "<p>You adopt a particular style of fighting as your specialty. Choose one of the following options. You can‘t take a Fighting Style option more than once, even if you later get to choose again.</p><br><h4>Archery</h4><p>You gain a +2 bonus to attack rolls you make with ranged weapons.</p><br><h4>Defense</h4><p>While you are wearing armor, you gain a +1 bonus to AC.</p><br><h4>Dueling</h4><p>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</p><br><h4>Great Weapon Fighting</h4><p>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.</p><br><h4>Protection</h4><p>When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.</p><br><h4>Two-Weapon Fighting</h4><p>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</p>"
+            "Description": {
+               "1": {
+                  "Value": "You adopt a particular style of fighting as your specialty. Choose one of the following options. You can‘t take a Fighting Style option more than once, even if you later get to choose again."
+               },
+               "2": {
+                  "Title": "Archery",
+                  "Value": "You gain a +2 bonus to attack rolls you make with ranged weapons."
+               },
+               "3": {
+                  "Title": "Defense",
+                  "Value": "While you are wearing armor, you gain a +1 bonus to AC."
+               },
+               "4": {
+                  "Title": "Dueling",
+                  "Value": "When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon."
+               },
+               "5": {
+                  "Title": "Great Weapon Fighting",
+                  "Value": "When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit."
+               },
+               "6": {
+                  "Title": "Protection",
+                  "Value": "When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield."
+               },
+               "7": {
+                  "Title": "Two-Weapon Fighting",
+                  "Value": "When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack."
+               }
+            }
+         },
+         "FightingStyleDeathKnight": {
+            "Label": "Fighting Style",
+            "Description": {
+               "1": {
+                  "Value": "You adopt a particular style of fighting as your specialty. Choose one of the following options. You can‘t take a Fighting Style option more than once, even if you later get to choose again."
+               },
+               "2": {
+                  "Title": "Defense",
+                  "Value": "While you are wearing armor, you gain a +1 bonus to AC."
+               },
+               "3": {
+                  "Title": "Dueling",
+                  "Value": "When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon."
+               },
+               "4": {
+                  "Title": "Great Weapon Fighting",
+                  "Value": "When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit."
+               },
+               "5": {
+                  "Title": "Two-Weapon Fighting",
+                  "Value": "When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack."
+               }
+            }
          },
          "FirearmImprovement": {
             "Label": "Firearm Improvement",
-            "Description": "Firearms you create always benefit from one free modification (equivalent to 1 EP point), chosen from any modification that applies to firearms. Also, whenever you apply an add-on to your firearms and suffer a malfunction, you can choose to let only the add-on suffer the condition."
+            "Description": {
+               "1": {
+                  "Value": "Firearms you create always benefit from one free modification (equivalent to 1 EP point), chosen from any modification that applies to firearms. Also, whenever you apply an add-on to your firearms and suffer a malfunction, you can choose to let only the add-on suffer the condition."
+               }
+            }
          },
          "FirstBlood": {
             "Label": "First Blood",
-            "Description": "You gain a +2 bonus to your attack rolls and can add your Strength modifier to your damage rolls so long as you are targeting a creature that is above half their maximum hit points (or is not Bloodied). This is applied even if you normally add your Agility modifier to damage."
+            "Description": {
+               "1": {
+                  "Value": "You gain a +2 bonus to your attack rolls and can add your Strength modifier to your damage rolls so long as you are targeting a creature that is above half their maximum hit points (or is not Bloodied). This is applied even if you normally add your Agility modifier to damage."
+               }
+            }
          },
          "FlashBomberTinker": {
             "Label": "Flash Bomber (Tinker)",
-            "Description": "You gain the Flash Bomber talent, but may only use it for explosives."
+            "Description": {
+               "1": {
+                  "Value": "You gain the Flash Bomber talent, but may only use it for explosives."
+               }
+            }
          },
          "FortifyingChemistry": {
             "Label": "Fortifying Chemistry",
-            "Description": "You may enhance any potion you handle for at least 1 minute to grant the imbiber temporary hit points equal to your alchemist level. These hit points remain for 1 hour, and can stack, but cannot exceed double the target‘s maximum hit points."
+            "Description": {
+               "1": {
+                  "Value": "You may enhance any potion you handle for at least 1 minute to grant the imbiber temporary hit points equal to your alchemist level. These hit points remain for 1 hour, and can stack, but cannot exceed double the target‘s maximum hit points."
+               }
+            }
+         },
+         "FrostPresence": {
+            "Label": "Frost Presence",
+            "Description": {
+               "1": {
+                  "Value": "Whenever you deal cold damage through a death knight spell or ability, you deal extra cold damage equal to your proficiency bonus, applying once per round. You also gain resistance to cold damage."
+               }
+            }
+         },
+         "FrozenSoul": {
+            "Label": "Frozen Soul",
+            "Description": "Whenever you reduce a creature to 0 hit points from a cold spell, or if they under the effects of your Freeze channel divinity, your next Runic Strike within 1 hour has no mana cost. You may also choose to deal half of your Runic Strike‘s extra damage as cold damage. If you choose to do so, you may add half the bonus to damage from your Frost Presence ability. If you are under the effects of the avatar form death knight spell, your next two Runic Strikes within 1 hour have no mana cost."
+         },
+         "GraveMarch": {
+            "Label": "Grave March",
+            "Description": "Your auras increase in strength. You may maintain two aura spells at once as if they were one spell. Furthermore, your allies can also benefit from two auras at a time, so long as one of these spells is the Unholy Aura spell. The maximum duration of your unholy aura spell is 4 hours instead of 1.<br>Also, whenever in a forced march, all creatures under your unholy aura spell have advantage to saving throws to continue a march without suffering exhaustion, and can move at a fast pace without incurring a penalty to their Passive Spirit (Perception) score."
          },
          "GreaterAugmentation": {
             "Label": "Greater Augmentation",
@@ -528,6 +851,10 @@
             "Label": "Hellscream",
             "Description": "All hostile creatures within range of your shouts take Thunder damage equal to half your level whenever you shout or maintain one. They are entitled a Stamina saving throw to half damage contested by your own Stamina saving throw.<br>Also, your critical range for your Strike the Wound ability becomes 15-20. "
          },
+         "ImprovedRunicStrike": {
+            "Label": "Improved Runic Strike",
+            "Description": "You are so suffused with the might of the Lich King that all your melee weapon strikes carry his unholy power with them. Whenever you hit a creature with a melee weapon, the creature takes an extra 1d8 shadow damage. If you also use your Runic Strike with an attack, you add this damage to the extra damage of your Runic Strike."
+         },
          "Infusionist": {
             "Label": "Infusionist",
             "Description": "You gain proficiency with the infusion skill and can make infused items."
@@ -548,6 +875,10 @@
             "Label": "Knack for It",
             "Description": "You can use your bonus action to make an Agility (Sleight of Hand) check or use your Thieves‘ Tools to disarm a trap or open a lock.<br>Furthermore, you can choose to lower the malfunction rating of all devices you create by 2 points (minimum 1)."
          },
+         "LifeStealer": {
+            "Label": "Life Stealer",
+            "Description": "Whenever you are dropped to 0 hit points, you may use your death pact spell on any dying creature as well as undead and fiends as a reaction.<br>You may also instead tear the life from living targets within 30 ft. as a reaction, stealing a number of hit points equal to ¼ their current hit points, and restoring your hit points by the same amount. The target may resist with Stamina saving throw against your Spell Save DC. This may be used once per Charisma modifier (minimum 1) before requiring a long rest."
+         },
          "MasterOfArms": {
             "Label": "Master of Arms",
             "Description": "When you use a strike effect, you can apply it to all your attacks until the start of your turn in the next round, so long as the strike has sufficient uses."
@@ -559,6 +890,10 @@
          "Mettle": {
             "Label": "Mettle",
             "Description": "Your exposure and experimentations in alchemy left your body more resilient to certain effects, such as a rogue‘s poison gas or a stinking cloud spell. When you are subjected to an effect that allows you to make a Stamina saving throw to take only half damage or a reduced effect, you instead take no damage or effect if you succeed on the saving throw, and only half damage (or the reduced effect) if you fail.<br>For example, a clay golem‘s reduction to maximum hit points is negated on a successful saving throw, and you take half the effect if you fail."
+         },
+         "MightOfTheWastes": {
+            "Label": "Might of the Wastes",
+            "Description": "Your frost-sharpened weapons deals a critical hit on a roll of 19 or 20 as a strike effect. You also deal an additional 1d4 points of cold damage whenever you strike an enemy with this. You may also add the extra damage from your Frost Presence ability to this. Despite being a strike effect, you can make an off-hand attack with a Bonus Action and still maintain this strike effect."
          },
          "MortalStrike": {
             "Label": "Mortal Strike",
@@ -579,6 +914,10 @@
          "Patent": {
             "Label": "Patent",
             "Description": "You gain increased mastery over a single engineered device of your creation that is not a consumable. Your Patented device does not malfunction when being used.<br>Furthermore, if a construct or gadget, it takes one-quarter the fuel as normally required for a single use. This stacks with the reduction for certain devices (such as strike effect gadgets).<br>The device may malfunction condition from other circumstances or abilities. This bonus only applies to your Patent device, and does not extend to Innovated devices (even if they are of your Patented device)."
+         },
+         "PillarOfFrost": {
+            "Label": "Pillar of Frost",
+            "Description": "Supernatural ice hangs heavy on your body. This increases your strength score by 4 to a max of 24 and your Stamina by 2 to a max of 22."
          },
          "PlagueZombies": {
             "Label": "Plague Zombies",
@@ -616,6 +955,10 @@
             "Label": "Restored Strength",
             "Description": "You may use the Second Wind talent three times before requiring rest. Furthermore, whenever you use Second Wind, you gain resistance to any damage you take for one round after use, and advantage against any saving throw made against the first spell that affects you in the next minute.<br>If you don‘t already have the Second Wind talent, you gain it as a talent instead of improving it."
          },
+         "RunicStrike": {
+            "Label": "Runic Strike",
+            "Description": "When you hit a creature with a melee weapon attack, you can expend mana equal to one death knight spell to deal shadow damage to the target, in addition to the weapon‘s damage.<br>The extra damage is 2d8 for a 1st-level spell, plus 1d8 for each spell level higher than 1st, to a maximum of 5d8. The damage increases by 1d8 if the target is a celestial or a follower of the Holy Light (or if not a follower, one who merely uses it).<br>If you have a rune active, you may also perform a Runic Strike without expending mana (called Runic Release), terminating the effects of the rune (plus an additional effect depending on the seal). Despite the name, Runic Strike does not count as a Strike effect."
+         },
          "Scavenge": {
             "Label": "Scavenge",
             "Description": "When you gather raw materials for use with engineering, you gain triple the total value. This applies when harvesting existing devices, nodes, creatures, and deconstructing devices. If dismantling an item, this cannot exceed one-half the value of creating the item itself (counting any reductions)."
@@ -651,6 +994,10 @@
             "Label": "Special Bullets",
             "Description": "You gain the Suffused Arrows talent (gaining proficiency as appropriate), and can create special infused bullets. You also deal 3 extra points of damage with any unmodified bullets."
          },
+         "SpellcastingDeathKnight": {
+            "Label": "Spellcasting",
+            "Description": "You have learned to draw on divine magic through meditation and prayer to cast spells as a paladin does.<br><br><h4>Conjuring and Binding</h4>A death knight can conjure and bind aberrations, fiends, and undead.<br><br><h4>Preparing and Casting Spells</h4>Each death knight level provides you with 0.5 caster levels in the death knight class (minimum 0). You follow the normal progression to unlock spell levels (see the table under the Mana section). You can change your list of prepared spells by consulting your runeblade‘s runes (treat as a spellbook), which takes 1 minute per spell level to alter the readied spell.<br>You prepare the list of death knight spells that are available for you to cast, choosing from the death knight spell list.<br>You can also change your list of prepared spells when you finish a long rest by training and studying your Runeblade (treat as a spellbook). Preparing a new list of death knight spells requires time spent in prayer and re-attuning to the spell-runes: at least 1 minute per spell level for each spell on your list.<br><br><h4>Spellcasting Ability</h4> Charisma is your spellcasting ability for your death knight spells, since their power derives from the strength of your convictions. You use your Charisma whenever a spell refers to your spellcasting  ability. In addition, you use your Charisma modifier when setting the saving throw DC for a death knight spell you cast and when making an attack roll with one.<br><br><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Charisma modifier<br><strong>Spell attack modifier</strong> = your proficiency bonus + your Charisma modifier<br><br><h4>Spellbook – Runeblade</h4> At 2nd level, your runeblade contains three 1st-level death knight spells of your choice. When you level up, you gain 2 additional death knight spells of your choice. You may also acquire new spells by research, tutelage, or from the spellbooks and scrolls of spellcasters who have spells you can cast. Your runeblade is effectively your spellbook, and you may add spells by scribing with runic inks. You can choose to store your death knight spells in a spellbook instead or as runes on any other surface as well.<br><br><h4>Spellcasting Focus</h4> You can use an unholy symbol as a spellcasting focus for your death knight spells, or you can treat your runeblade as your focus."
+         },
          "StrikeTheWound": {
             "Label": "Strike the Wound",
             "Description": "You gain momentary clarity towards causing further wounds after landing the first. If you make a successful melee attack roll against a target, your weapon attack can score a critical hit on a lower result of the dice (on a natural 19 or 20 instead of only 20). This effect stacks to a maximum roll of 17-20, and ends at the start of your turn in the next round.<br>Also, you gain the Dual Wielder feat if you didn‘t already have it. If you already have it, you add +1 to your weapon damage rolls with either weapon."
@@ -676,8 +1023,16 @@
             "Description": "At 3rd level, you choose a path that you emulate in the exercise of your tinker abilities: Bomber who focuses on creating explosives, the Gunner who focuses on creating and shooting with firearms, and Gadgeteer who focuses on creating wondrous gadgets, all detailed at the end of the class description.<br>Your path choice grants you features at 3rd level and then again at 6th, 10th, and 14th levels."
          },
          "UnarmoredDefense": {
-            "Label": "Unarmored Defense",
+            "Label": "Unarmored Defense (Optional)",
             "Description": "While you are not wearing any armor, your Armor Class equals 10 + your Agility modifier + your Stamina modifier. You can use a shield and still gain this benefit."
+         },
+         "UndeadCompanion": {
+            "Label": "Undead Companion",
+            "Description": "You gain a bound companion that accompanies you on your adventures and can fight alongside you. The companion must be an undead that is no larger than Medium and that has a challenge rating of 1/2 or lower (for example, a lesser ghoul). See Bound Companion for more details.<br><br><h4>Bond</h4>Due to your bond with the creature, you can add your proficiency bonus to the undead‘s AC, attack rolls, and damage rolls, as well as to any saving throws and skills it is proficient in. This does not stack with their own proficiency bonuses. Its hit point maximum equals its normal maximum or four times your death knight level, whichever is higher. The creature benefits from Bolster Undead the same way you do.<br><br><h4>Leveling up</h4>Your undead companion improves in CR the higher your level becomes, CR equal to 1 per every 8 levels of Death Knight (improving to 1 CR at level 4, 2 CR at level 8, and 3 CR at level 16). This  either takes the form of choosing a higher-level companion, or adding hit dice to the companion until its CR increases.<br>When reaching 8th level, you can choose a Large creature. The companion also gains an Ability Score Improvement once you do (this acts as the normal feature).<br><br><h4>Special</h4>Bonding with an undead requires spending one hour animating it, and the next hour drawing from any superficial memories before its death. You can apply the skeletal or zombie monster template to any creature that qualifies and can be subject to animation by casting the bind spell on them. You may also raise your enemies to serve as undead companions, so long as their CR are within the described guidelines (treat 1 level as 1 CR)."
+         },
+         "UnholyChampion": {
+            "Label": "Unholy Champion",
+            "Description": "You gain the avatar form death knight spell for no cost if you didn‘t already have it. Furthermore, you augment the spell in the following ways:<br><br><ul><li>You are instantly healed for 3d8 + 10 hit points. The healing increases by 1d8 per spell level above 3rd.</li><li>You become resistant to damage from good aligned targets (or magical weapons) as well as to shadow damage.</li><li>Any undead within any active aura you have regains 2d6 hit points every round. This cannot exceed half their total hit points.</li></ul>"
          },
          "Vanguard": {
             "Label": "Vanguard",
@@ -705,12 +1060,15 @@
             "Label": "Weird Science",
             "Description": "You may choose a weird science or avenue of natural talent to focus your alchemical powers upon. Choose one of the following choices:<br><br><ul><li><i>Homunculus</i>: You gain a companion that is a humanoid, undead, construct, or any creature with the homunculus template. The creature has a Challenge Rating of 1/2 or lower. See Bound Companions for more details. Your homunculus companion improves in CR the higher your level becomes, CR equal to 1 per every 8 levels of Alchemist (improving to 1 CR at level 4, 2 CR at level 8, and 3 CR at level 16). This either takes the form of choosing a higher-level companion, or adding hit dice to the companion until its CR increases.<br>If a humanoid or a creature with the homunculus template, the creature is loyal to you, but retains a shadow of free will. It can be commanded to go against its nature (or what it perceives as its nature) with a DC 15 Charisma check. Bonding with a homunculus requires spending one hour communicating with the creature by means it can understand, and spending the next seven hours in bonding activities (fixing/healing/conversing/etc.). The companion can use your potions as if it was you.</li><li><i>Innate Cantrips</i>: You can use any cantrips you have learned, so long as you have access to your Formula Book. You can use cantrips as if you were a spellcaster, and do not need to turn them into potions or use any resources on them (such as mana or inurement).</li><li><i>Potion Slinger</i>: You may choose one type of ranged weapon (such as crossbows or bows) and gain proficiency if you don‘t already have it. Furthermore, you may spend a potion to infuse the projectile with the potion‘s effects. You may choose to activate the potion before launching the projectile (to take into account the spell‘s original casting time), but the spell otherwise takes place as if the target was hit (or the area it landed on) is the spell‘s original target. You may choose to deal the ranged weapon‘s damage on impact or to only apply the potion‘s effect.</li><li><i>Mithridatism</i>: You gain innate power over poisons. You naturally generate up to four doses of basic poison (as described in the Player‘s Handbook) whenever you complete a long rest. The poison‘s DC is equal to your Alchemy Spell Save DC, however, and the damage is equal to 1d4 Poison damage per Alchemist spell level you can access. The poison expires before you complete your next long rest, replenishing your store. If you have an empty Mithridatism dose slot, you can choose to fill it with a poison you are affected by, so long as you succeed on the saving throw against it and are aware of its presence. You can store this poison for future use, but cannot otherwise generate it.<br>You also have skill in deploying poisons that are in your dosage slots, and gain temporary immunity to such poisons so long as they are not deployed. You may deploy poisons as described under Chapter 7: Poisoner‘s Kit.</li>"
          },
+         "WillOfTheNecropolis": {
+            "Label": "Will of the Necropolis",
+            "Description": "Whenever you are bloodied, you may cast the death coil spell as a bonus action instead of an action. This feature can be used once per instance of you suffering the condition, or twice per instance if you are under the effects of the avatar form death knight spell."
+         },
          "WorksAsIntended": {
             "Label": "Works as Intended",
             "Description": "Starting at 11th level, you may spend 2 Crafting Points to remove the Malfunctioned condition of a device you are touching. This costs a bonus action or reaction. Also, removing the Malfunctioned condition requires 2d4 minutes instead of 1 hour (or the end of a short rest).<br>In both cases, this does not require you being familiar with the device."
          }
       },
-
       "Items": {
          "AlchemistsSupplies": {
             "Label": "Alchemist‘s Supplies"
@@ -746,7 +1104,6 @@
             "Label": "Vestments"
          }
       },
-
       "Languages": {
          "Common": "Common",
          "Dwarven": "Dwarven",
@@ -766,7 +1123,6 @@
          "Titan": "Titan",
          "Troll": "Troll"
       },
-
       "RaceSheet": {
          "AbilityScoreIncrease": "Ability Score Increase",
          "Age": "Age",
@@ -783,7 +1139,6 @@
          "FemaleNames": "Female Names",
          "FamilyNames": "Family Names"
       },
-
       "Race": {
          "Draenei": {
             "Name": "Draenei",
@@ -902,7 +1257,6 @@
             }
          }
       },
-
       "Rules": {
          "Mechanics": {
             "AbilityScoreSummary": {
@@ -966,7 +1320,6 @@
             }
          }
       },
-
       "Traits": {
          "Adapter": {
             "Label": "Adapter",
@@ -1111,17 +1464,14 @@
             "Description": "You gain proficiency with one artisan's tool of your choice: smith's tools, brewer's supplies, mason's tools, or mining tools."
          }
       },
-
       "SkillSheet": {
          "Category": "Category"
       },
-
       "SkillCategories": {
          "General": "General",
          "Strike": "Strike",
          "Stance": "Stance"
       },
-
       "SpellSheet": {
          "School": "School",
          "CastTime": "Casting Time",
@@ -1131,7 +1481,6 @@
          "Classes": "Classes",
          "Heightened": "Heightened"
       },
-
       "Spells": {
          "AbandonmentAura": {
             "Label": "Abandonment Aura",
@@ -1165,10 +1514,28 @@
             "Description": "You conjure spirits to guard and advise the target in battle, tapping into the target's ancestral bonds. The target regains 2d4 hit points. At the beginning of every round, the caster must succeed on a sigil roll to affect the target again.<br>Also, so long as this sigil is active, the target also takes 1 less point of damage from weapon and spell attacks and effects for that round. The reduction to damage is an aura effect.<br>Constructs gain no benefit from this spell.<br><i>Special</i>: If the caster and the target share ancestry or share a Blood Oath (see Chapter 10), the damage reduction increases by 1 point.",
             "Heightened": "The healing increases by one dice per every level above 2nd, and reduction to damage increases by one point per every two levels above 2nd."
          },
+         "Bane": {
+            "Label": "Bane",
+            "Description": "Up to three creatures of your choice that you can see within range must make Charisma saving throws. Whenever a target that fails this saving throw makes an attack roll or a saving throw before the spell ends, the target must roll a d4 and subtract the number rolled from the attack roll or saving throw.",
+            "Heightened": "When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st."
+         },
          "BerserkerRage": {
             "Label": "Berserker Rage",
             "Description": "You cause one creature to go into a murderous rampage. The target must succeed on a Stamina saving throw or else gains the following benefits. A willing creature can choose to fail on the saving throw.<br><br><ul><li>They have advantage on Strength checks and Strength saving throws.</li><li>When they make a melee weapon attack using Strength, they gain a +2 bonus to the damage roll (this applies only twice per round).</li><li>They have Resistance to bludgeoning, piercing, and slashing damage.</li><li>The suffers the distracted condition (DC is equal to your spell DC).</li></ul><br>The rage ends early if the target is knocked unconscious, or if their turn ends without being attacked or attacking a hostile creature, or if not taking at least one point of damage in that turn. The benefits of this spell are not gained if the target is wearing heavy armor. A creature affected by this spell makes another Stamina saving throw at the end of its turn. On a successful save, the effect ends for it. If the rage continues for more than two rounds, the creature gains one level of exhaustion at the end of the rage.<br> A creature cannot benefit from this spell more than once per their own proficiency bonus per every long rest.",
             "Heightened": "For each 3 spell levels heightened above 2nd level, the bonus to damage rolls increases by 1 (+3 at 5th, +4 at 8th)."
+         },
+         "BlackTentacles": {
+            "Label": "Black Tentacles",
+            "Description": "Squirming, ebony tentacles fill a 20-foot square on ground that you can see within range. For the Duration, these tentacles turn the ground in the area into difficult terrain.<br>When a creature enters the affected area for the first time on a turn or starts its turn there, the creature must succeed on a Dexterity saving throw or take 3d6 bludgeoning damage and be  Restrained by the tentacles until the spell ends. A creature that starts its turn in the area and is already  Restrained by the tentacles takes 3d6 bludgeoning damage.<br>A creature  Restrained by the tentacles can use its action to make a Strength or Dexterity check (its choice) against your spell save DC. On a success, it frees itself."
+         },
+         "CarrionSwarm": {
+            "Label": "Carrion Swarm",
+            "Description": "You release a torrent of poisonous spiders, beetles and other vermin from hand to bite and infest your opponents. Each creature in a 20-foot cone must make a Stamina saving throw, or take 3d8 bludgeoning, piercing, and slashing damage on a failed save, or half as much damage on a successful saving throw. Targets who failed the saving throw are also infested by the swarm. At the beginning of every round, the caster must succeed on a sigil roll to affect the infested targets again (even if they are no longer within the normal range). Also, as long as the spell is active for that target, they are considered poisoned until the beginning of their turn in the next round. Whenever a creature dies while being poisoned by this spell, a carrion beetle is conjured where they once stood (exploding from the corpse). The DM has the carrion beetle‘s statistics. A creature can end the infestation on them by spending an action.",
+            "Heightened": "The damage increases by one dice per every spell level above 3rd. Special. If you are a corporeal undead, you may target one creature that suffers under this sigil, and transfer some of their lost life force to you. You regain hit points equal to one-half the damage dealt by the spell in the same round."
+         },
+         "CircleOfPower": {
+            "Label": "Circle of Power",
+            "Description": "Divine energy radiates from you, distorting and diffusing magical energy within 30 feet of you. Until the spell ends, the sphere moves with you, centered on you. For the duration, each friendly creature in the area (including you) has advantage on saving throws against spells and other magical effects.<br><br>Additionally, when an affected creature succeeds on a saving throw made against a spell or magical effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throws."
          },
          "Confusion": {
             "Label": "Confusion",
@@ -1199,6 +1566,11 @@
          "DetectMagic": {
             "Label": "Detect Magic",
             "Description": "For the duration, you sense the presence of magic within 30 feet of you. If you sense magic in this way, you can use your action to see a faint aura around any visible creature or object in the area that bears magic, and you learn its school of magic, if any. The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt."
+         },
+         "FalseLife": {
+            "Label": "False Life",
+            "Description": "Bolstering yourself with a necromantic facsimile of life, you gain 1d4 + 4 Temporary Hit Points for the Duration.",
+            "Heightened": "When you cast this spell using a spell slot of 2nd level or higher, you gain 5 additional Temporary Hit Points for each slot level above 1st."
          },
          "FeignDeath": {
             "Label": "Feign Death",
@@ -1286,9 +1658,10 @@
             "Label": "Revivify",
             "Description": "You touch a creature that has died within the last minute. That creature returns to life with 1 hit point. This spell can't return to life a creature that has died of old age, nor can it restore any missing body parts."
          },
-         "RuneArrayAlchemist": {
-            "Label": "Rune Array (Alchemist)",
-            "Description": "<i>Vampiric Rune</i>: After you make this attack, you regain a number of hit points equal to half the total weapon damage you dealt (weapon dice, Strength, plus any bonuses from the weapon only). You may grant this healing to any ally within 30 feet. This healing has no effect on constructs. This applies to your first attack in a given round."
+         "RuneArray": {
+            "Label": "Rune Array",
+            "Description": "You gain one rune of the below array. If any spell of this array is used, you may release the rune, granting you the benefit of a runic strike as if you sacrificed mana for a spell of the rune you chose:<br><br><ul><li><i>Plague Rune (DKN 1)</i>: Your weapon deals 1d6 extra points of damage on its first attack in a given round. The damage can be cold or poison.</li><li><i>Frozen Waste Rune (DKN 1)</i>: Your weapon deals 1d4 extra points of damage on its first attack in a given round. The damage can be cold or shadow.</li><li><i>Blood Rune (DKN 2)</i>: Your weapon deals 1d4 extra points of damage on its first attack in a given round. The damage can be fire or fel.</li><li><i>Vampiric Rune (DKN 2)</i>: After you make this attack, you regain a number of hit points equal to half the total weapon damage you dealt (weapon dice, Strength, plus any bonuses from the weapon only). You may grant this healing to any ally within 30 feet. This healing has no effect on constructs. This applies to your first attack in a given round.</li><li><i>Worm Rune (DKN 4)</i>: While under the effects of this rune, your strikes infuse the enemy with a virulent magical ailment that spawns a worm under the target‘s skin. A living target suffers 2d6 damage every round so long as the target is not healed from the incubating worm. If the target loses at least 10 hit points from the bleeding, the worms increase in size, and form a visible tumor under the target‘s skin. At this point, releasing the rune has an additional effect. If the target is subject to a healing spell, roll 1d4. On the result of a 3 or higher, the worms shrivel and die without effect.</li></ul><br><h4>Release</h4>Releasing the rune has the following effect when released.<br><br><ul><li><i>Frozen Wastes Rune</i>: The target of the Death Knight‘s Runic Strike instantly suffers 2d4 extra points of damage of the rune‘s type, the target is chilled for one round.</li><li><i>Blood Rune</i>: If releasing the rune with a Runic Strike, the target takes bleed damage equal the damage the rune dealt for one minute. A successful Stamina save halves the damage and the duration.</li><li><i>Worms Rune</i>: If the worm deals at least 10 hit points of damage and is released, it explodes into a spray of blood. The target must succeed on a Stamina saving throw or suffer the 2d6 shadow damage. Also, regardless if the target succeeds or fails on the saving throw, the amount of hit points the worm gathered heals all undead creatures you designate within 30 feet, or harms all living creatures you designate within the same range. The amount of healing or harm is equal to the amount of hit points it dealt when incubating.</li></ul>",
+            "Heightened": "<ul><li><i>Plague Rune</i>: The base damage increases by 1d6 damage per level above 1st.</li><li><i>Blood and Frozen Wastes Runes</i>: The damage taken per hit increases by 1d4 per spell level.</li></ul>"
          },
          "SeeInvisibility": {
             "Label": "See Invisibility",
@@ -1305,6 +1678,10 @@
          "Stoneskin": {
             "Label": "Stoneskin",
             "Description": "This spell turns the flesh of a willing creature you touch as hard as stone. Until the spell ends, the target has resistance to nonmagical bludgeoning, piercing, and slashing damage."
+         },
+         "Strangulate": {
+            "Label": "Strangulate",
+            "Description": "Choose a humanoid that you can see within range. The target must succeed on a Stamina saving throw or be paralyzed and lifted ten feet above the ground for the duration. On each of their turns, the target may make another saving throw. On a success, the spell ends for the target, and they drop without taking falling damage. While the creature is paralyzed this way, they are also choking. After the spell‘s effects end, the target is affected by the mute spell for one round per round of complete strangulation."
          },
          "TelepathicBond": {
             "Label": "Telepathic Bond",
@@ -1325,9 +1702,13 @@
          "TrueSeeing": {
             "Label": "True Seeing",
             "Description": "This spell gives the willing creature you touch the ability to see things as they actually are. For the duration, the creature has truesight, notices secret doors hidden by magic, and can see into the Ethereal Plane, all out to a range of 120 feet."
+         },
+         "VampiricTouch": {
+            "Label": "Vampiric Touch",
+            "Description": "The touch of your shadow-wreathed hand can siphon life force from others to heal your wounds. Make a melee spell attack against a creature within your reach. On a hit, the target takes 3d6 necrotic damage, and you regain hit points equal to half the amount of necrotic damage dealt. Until the spell ends, you can make the attack again on each of your turns as an action.",
+            "Heightened": "When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd."
          }
       },
-
       "SpellRules": {
          "SpellSchools": {
             "Abjuration": "Abjuration",
@@ -1350,7 +1731,6 @@
             "Strike": "Strike spells modify a successful attack. See Chapter 9 for more details on strike effects. Strike and shot effects also usually a potential number of attacks equal to double the spell level. For instance, using kill shot as a 2nd level spell enhances 4 ranged attacks. The caster can have multiple potential strikes active, but cannot apply two shot or strike abilities to the same attack unless otherwise specified."
          }
       },
-
       "Talents": {
          "ActionSurge": {
             "Label": "Action Surge",
@@ -1641,7 +2021,6 @@
             "Description": "You may use your action to wind-walk, rendering yourself invisible as per the invisibility spell, and increase your land speed by 10 feet. Unlike normal stances, you must continue moving (at least half your speed) or else this effect dissipates. Your first attack while performing Wind Walk is a critical hit, and ends the invisibility effect. This is a supernatural ability. Once this talent is used, it cannot be used again until after a short rest."
          }
       },
-
       "UI": {
          "Actions": {
             "NoToken": "You have not selected a valid token. Please select a valid token.",

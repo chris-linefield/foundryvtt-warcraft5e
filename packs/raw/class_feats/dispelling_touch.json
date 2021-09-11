@@ -6,66 +6,19 @@
    },
    "type":"feat",
    "data":{
-      "wcType": "feat",
-      "wcCategory": "WC5E.SkillCategories.General",
-      "description":{
-         "value":"WC5E.Feats.DispellingTouch.Description",
-         "chat":"",
-         "unidentified":""
-      },
-      "source":"PHB page 49",
-      "activation":{
-         "type":"bonus",
-         "cost":1,
-         "condition":""
-      },
-      "duration":{
-         "value":null,
-         "units":""
-      },
-      "target":{
-         "value":null,
-         "units":null,
-         "type":"self"
-      },
-      "range":{
-         "value":null,
-         "long":null,
-         "units":"self"
-      },
-      "uses":{
-         "value":0,
-         "max":0,
-         "per":"",
-         "type":""
-      },
-      "ability":"",
-      "actionType":"",
-      "attackBonus":0,
-      "chatFlavor":"",
-      "critical":null,
-      "damage":{
-         "parts":[
-
-         ],
-         "versatile":"",
-         "value":""
-      },
-      "formula":"",
-      "save":{
-         "ability":"",
-         "dc":null,
-         "value":"",
-         "scaling":"spell"
-      },
-      "requirements":"Death Knight 14",
-      "recharge":{
-         "value":null,
-         "charged":false
-      }
+      "source":"Core Rules page 49",
+      "requirements":"Death Knight 14"
    },
    "flags":{
-
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description":[
+            {
+               "value":"WC5E.Feats.DispellingTouch.Description.1.Value"
+            }
+         ]
+      }
    },
    "img":"icons/magic/unholy/hand-marked-pink.webp",
    "effects":[

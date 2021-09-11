@@ -1,71 +1,30 @@
 {
-  "_id": "YVUjckHkEyV9W0oU",
-  "name": "Efficient Engineering",
-  "permission": {
-    "default": 0
-  },
-  "type": "feat",
-  "data": {
-    "wcType": "feat",
-    "wcCategory": "WC5E.SkillCategories.General",
-    "description": {
-      "value": "WC5E.Feats.EfficientEngineering.Description",
-      "chat": "",
-      "unidentified": ""
-    },
-    "source": "PHB page 129",
-    "activation": {
-      "type": "bonus",
-      "cost": 1,
-      "condition": ""
-    },
-    "duration": {
-      "value": null,
-      "units": ""
-    },
-    "target": {
-      "value": null,
-      "units": null,
-      "type": "self"
-    },
-    "range": {
-      "value": null,
-      "long": null,
-      "units": "self"
-    },
-    "uses": {
-      "value": 0,
-      "max": 0,
-      "per": "",
-      "type": ""
-    },
-    "ability": "",
-    "actionType": "",
-    "attackBonus": 0,
-    "chatFlavor": "",
-    "critical": null,
-    "damage": {
-      "parts": [
-      ],
-      "versatile": "",
-      "value": ""
-    },
-    "formula": "",
-    "save": {
-      "ability": "",
-      "dc": null,
-      "value": "",
-      "scaling": "spell"
-    },
-    "requirements": "Tinker 2",
-    "recharge": {
-      "value": null,
-      "charged": false
-    }
-  },
-  "flags": {
-  },
-  "img": "systems/dnd5e/icons/skills/mech_11.jpg",
-  "effects": [
-  ]
+   "_id": "YVUjckHkEyV9W0oU",
+   "name": "Efficient Engineering",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 129",
+      "requirements": "Tinker 2"
+   },
+   "flags": {
+      "wc5e": {
+         "wcType": "feat",
+         "wcCategory": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.EfficientEngineering.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.EfficientEngineering.Description.2.Value"
+            }
+         ]
+      }
+   },
+   "img": "systems/dnd5e/icons/skills/mech_11.jpg",
+   "effects": [
+
+   ]
 }

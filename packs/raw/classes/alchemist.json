@@ -417,7 +417,8 @@
                      {
                         "pack":"warcraft5e.wc5e_spells",
                         "node":"7AJ7qh8K1MM9y7Ir",
-                        "label":"WC5E.Spells.RuneArrayAlchemist.Label"
+                        "label":"WC5E.Spells.RuneArray.Label",
+                        "option": "vampiric"
                      },
                      {
                         "pack":"warcraft5e.wc5e_spells",

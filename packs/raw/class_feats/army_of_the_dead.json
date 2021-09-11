@@ -1,0 +1,33 @@
+{
+   "_id":"algn5NhMHmPK8bJz",
+   "name":"Army of the Dead",
+   "permission":{
+      "default":0
+   },
+   "type":"feat",
+   "data":{
+      "source":"Core Rules page 52",
+      "requirements":"Death Knight (Unholy Path) 15"
+   },
+   "flags":{
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description":[
+            {
+               "value":"WC5E.Feats.ArmyOfTheDead.Description.1.Value"
+            },
+            {
+               "value":"WC5E.Feats.ArmyOfTheDead.Description.2.Value"
+            },
+            {
+               "value":"WC5E.Feats.ArmyOfTheDead.Description.3.Value"
+            }
+         ]
+      }
+   },
+   "img":"icons/magic/death/undead-zombie-grave-green.webp",
+   "effects":[
+
+   ]
+}

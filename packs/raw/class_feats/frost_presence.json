@@ -1,13 +1,13 @@
 {
-   "_id": "IHkdG7wrZ62CpvtN",
-   "name": "Explosive Mastery",
+   "_id": "IarrLRT7ApLy0MUm",
+   "name": "Frost Presence",
    "permission": {
       "default": 0
    },
    "type": "feat",
    "data": {
-      "source": "Core Rules page 132",
-      "requirements": "Tinker (Bomber) 3"
+      "source": "PHB page 50",
+      "requirements": "Death Knight (Path of Frost) 3"
    },
    "flags": {
       "wc5e": {
@@ -15,12 +15,12 @@
          "category": "WC5E.SkillCategories.General",
          "description": [
             {
-               "value": "WC5E.Feats.ExplosiveMastery.Description.1.Value"
+               "value": "WC5E.Feats.FrostPresence.Description.1.Value"
             }
          ]
       }
    },
-   "img": "icons/weapons/thrown/bomb-timer.webp",
+   "img": "icons/skills/melee/strike-weapon-polearm-ice-blue.webp",
    "effects": [
    ]
 }
