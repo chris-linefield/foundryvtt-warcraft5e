@@ -6,7 +6,7 @@
             <div class="imgContent">
                 <h1>{{localize item.name}}</h1>
                 <div class="headerSpellGrid">
-                    <span>{{localize "WC5E.SkillSheet.Category"}}: {{localize item.data.wcCategory}}</span>
+                    <span>{{localize "WC5E.SkillSheet.Category"}}: {{localize item.flags.wc5e.category}}</span>
                 </div>
             </div>
         </div>
@@ -15,18 +15,29 @@
     <section class="sheet-body skillContent">
         <div class="tab details">
             {{#if item.data.requirements}}
-            <i>Prerequisites:</i> {{item.data.requirements}}<br><br>
+                <i>Prerequisites:</i> {{item.data.requirements}}<br><br>
             {{/if}}
-            {{{localize item.data.description.value}}}
-            {{#if item.data.description.options}}
-                <ul>
-                    {{#each item.data.description.options}}
-                        <li>
-                            {{{localize this}}}
-                        </li>
-                    {{/each}}
-                </ul>
-            {{/if}}
+            {{#each item.flags.wc5e.description}}
+                {{#if this.title}}
+                    <br>
+                    <h3>{{localize this.title}}</h3>
+                {{/if}}
+                {{#if this.value}}
+                    <p>
+                        {{#if this.special}}
+                            <i>Special:</i>
+                        {{/if}}
+                        {{{localize this.value}}}
+                    </p>
+                {{/if}}
+                {{#if this.options}}
+                    <ul>
+                        {{#each this.options}}
+                            <li>{{{localize this}}}</li>
+                        {{/each}}
+                    </ul>
+                {{/if}}
+            {{/each}}
         </div>
     </section>
 </form>

@@ -1,7 +1,7 @@
 console.log('>> Wc5e: Adjusting 5e Config');
 
-import {DND5E} from "../../../systems/dnd5e/module/config.js";
-
+import { DND5E } from "../../../systems/dnd5e/module/config.js";
+import { }       from "./config_class_features.js";
 
 DND5E.toolProficiencies.alc = "WC5E.AlchemistsSupplies";
 //DND5E.toolProficiencies.eng = "WC5E.EngineersTools";

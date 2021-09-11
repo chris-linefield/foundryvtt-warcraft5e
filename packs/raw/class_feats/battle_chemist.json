@@ -6,66 +6,22 @@
    },
    "type":"feat",
    "data":{
-      "wcType": "feat",
-      "wcCategory": "WC5E.SkillCategories.General",
-      "description":{
-         "value":"WC5E.Feats.BattleChemist.Description",
-         "chat":"",
-         "unidentified":""
-      },
-      "source":"PHB page 40",
-      "activation":{
-         "type":"bonus",
-         "cost":1,
-         "condition":""
-      },
-      "duration":{
-         "value":null,
-         "units":""
-      },
-      "target":{
-         "value":null,
-         "units":null,
-         "type":"self"
-      },
-      "range":{
-         "value":null,
-         "long":null,
-         "units":"self"
-      },
-      "uses":{
-         "value":0,
-         "max":0,
-         "per":"",
-         "type":""
-      },
-      "ability":"",
-      "actionType":"",
-      "attackBonus":0,
-      "chatFlavor":"",
-      "critical":null,
-      "damage":{
-         "parts":[
-
-         ],
-         "versatile":"",
-         "value":""
-      },
-      "formula":"",
-      "save":{
-         "ability":"",
-         "dc":null,
-         "value":"",
-         "scaling":"spell"
-      },
-      "requirements":"Alchemist (Mutant) 10",
-      "recharge":{
-         "value":null,
-         "charged":false
-      }
+      "source":"Core Rules page 40",
+      "requirements":"Alchemist (Mutant) 10"
    },
    "flags":{
-
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value":"WC5E.Feats.BattleChemist.Description.1.Value"
+            },
+            {
+               "value":"WC5E.Feats.BattleChemist.Description.2.Value"
+            }
+         ]
+      }
    },
    "img":"icons/weapons/thrown/bomb-purple.webp",
    "effects":[

@@ -75,6 +75,10 @@
     padding:5px 20px;
 }
 
+.warcraft5e .bold {
+    font-weight:bold;
+}
+
 .warcraft5e .window-content h1 {
     font-weight:bold;
     color:#1b456b;

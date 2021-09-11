@@ -5,67 +5,43 @@
       "default":0
    },
    "type":"feat",
-   "data":{
-      "wcType": "feat",
-      "wcCategory": "WC5E.SkillCategories.General",
-      "description":{
-         "value":"WC5E.Feats.Alchemy.Description",
-         "chat":"",
-         "unidentified":""
-      },
-      "source":"PHB page 34",
-      "activation":{
-         "type":"bonus",
-         "cost":1,
-         "condition":""
-      },
-      "duration":{
-         "value":null,
-         "units":""
-      },
-      "target":{
-         "value":null,
-         "units":null,
-         "type":"self"
-      },
-      "range":{
-         "value":null,
-         "long":null,
-         "units":"self"
-      },
-      "uses":{
-         "value":0,
-         "max":0,
-         "per":"",
-         "type":""
-      },
-      "ability":"",
-      "actionType":"",
-      "attackBonus":0,
-      "chatFlavor":"",
-      "critical":null,
-      "damage":{
-         "parts":[
-
-         ],
-         "versatile":"",
-         "value":""
-      },
-      "formula":"",
-      "save":{
-         "ability":"",
-         "dc":null,
-         "value":"",
-         "scaling":"spell"
-      },
-      "requirements":"Alchemist 1",
-      "recharge":{
-         "value":null,
-         "charged":false
-      }
+   "data": {
+      "source":"Core Rules page 34",
+      "requirements":"Alchemist 1"
    },
    "flags":{
-
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.Alchemy.Description.1.Value"
+            },
+            {
+               "title": "WC5E.Feats.Alchemy.Description.2.Title",
+               "value": "WC5E.Feats.Alchemy.Description.2.Value"
+            },
+            {
+               "title": "WC5E.Feats.Alchemy.Description.3.Title",
+               "value": "WC5E.Feats.Alchemy.Description.3.Value"
+            },
+            {
+               "title": "WC5E.Feats.Alchemy.Description.4.Title",
+               "value": "WC5E.Feats.Alchemy.Description.4.Value"
+            },
+            {
+               "title": "WC5E.Feats.Alchemy.Description.5.Title",
+               "value": "WC5E.Feats.Alchemy.Description.5.Value"
+            },
+            {
+               "value": "WC5E.Feats.Alchemy.Description.6.Value"
+            },
+            {
+               "title": "WC5E.Feats.Alchemy.Description.7.Title",
+               "value": "WC5E.Feats.Alchemy.Description.7.Value"
+            }
+         ]
+      }
    },
    "img":"icons/skills/toxins/cauldron-pot-bubbles-green.webp",
    "effects":[

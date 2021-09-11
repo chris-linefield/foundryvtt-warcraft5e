@@ -1,0 +1,70 @@
+<form class="{{cssClass}} flexcol" autocomplete="off">
+
+    <header>
+        <div class="imageRow">
+            <img src="{{item.img}}">
+            <div class="imgContent">
+                <h1>{{localize item.name}}</h1>
+            </div>
+        </div>
+    </header>
+    <br>
+
+    <section class="sheet-body">
+        {{#each item.flags.wc5e.description}}
+            {{localize this}}
+        {{/each}},
+        <table>
+            <tr>
+                <th>Skill Proficiencies</th>
+                <td>
+                    {{#if item.flags.wc5e.skillProfs}}
+                        {{#each item.flags.wc5e.skillProfs}}
+                            {{lookup ../config.skills this}}
+                        {{/each}},
+                    {{/if}}
+                </td>
+            </tr>
+            <tr>
+                <th>Tool Proficiencies</th>
+                <td>
+                    {{#if item.flags.wc5e.toolProfs}}
+                        {{#each item.flags.wc5e.toolProfs}}
+                            {{lookup ../config.toolProficiencies this}}
+                        {{/each}},
+                    {{/if}}
+                </td>
+            </tr>
+            <tr>
+                <th>Languages</th>
+                <td>
+                    {{#if item.flags.wc5e.languages}}
+                        {{item.flags.wc5e.languages.number}}
+                        {{#if item.flags.wc5e.languages.range}}
+                            {{#each item.flags.wc5e.languages.range}}
+                                {{this}}
+                            {{/each}},
+                        {{else}}
+                            of your choice
+                        {{/if}}
+                    {{/if}}
+                </td>
+            </tr>
+            <tr>
+                <th>Equipment</th>
+                <td>
+                    {{#if item.flags.wc5e.equipment}}
+                        {{#each item.flags.wc5e.equipment}}
+                            {{#each this}}
+                                <a class="entity-link spellLink" data-pack="{{this.pack}}" data-id="{{this.node}}">
+                                    {{this.amount}}x {{localize this.label}}
+                                </a>
+                            {{/each}}
+                        {{/each}}
+                    {{/if}}
+                </td>
+            </tr>
+        </table>
+        <h3>Features</h3>
+    </section>
+</form>
