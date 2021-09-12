@@ -825,119 +825,355 @@
          },
          "FrozenSoul": {
             "Label": "Frozen Soul",
-            "Description": "Whenever you reduce a creature to 0 hit points from a cold spell, or if they under the effects of your Freeze channel divinity, your next Runic Strike within 1 hour has no mana cost. You may also choose to deal half of your Runic Strike‘s extra damage as cold damage. If you choose to do so, you may add half the bonus to damage from your Frost Presence ability. If you are under the effects of the avatar form death knight spell, your next two Runic Strikes within 1 hour have no mana cost."
+            "Description": {
+               "1": {
+                  "Value": "Whenever you reduce a creature to 0 hit points from a cold spell, or if they under the effects of your Freeze channel divinity, your next Runic Strike within 1 hour has no mana cost. You may also choose to deal half of your Runic Strike‘s extra damage as cold damage. If you choose to do so, you may add half the bonus to damage from your Frost Presence ability. If you are under the effects of the avatar form death knight spell, your next two Runic Strikes within 1 hour have no mana cost."
+               }
+            }
          },
          "GraveMarch": {
             "Label": "Grave March",
-            "Description": "Your auras increase in strength. You may maintain two aura spells at once as if they were one spell. Furthermore, your allies can also benefit from two auras at a time, so long as one of these spells is the Unholy Aura spell. The maximum duration of your unholy aura spell is 4 hours instead of 1.<br>Also, whenever in a forced march, all creatures under your unholy aura spell have advantage to saving throws to continue a march without suffering exhaustion, and can move at a fast pace without incurring a penalty to their Passive Spirit (Perception) score."
+            "Description": {
+               "1": {
+                  "Value": "Your auras increase in strength. You may maintain two aura spells at once as if they were one spell. Furthermore, your allies can also benefit from two auras at a time, so long as one of these spells is the Unholy Aura spell. The maximum duration of your unholy aura spell is 4 hours instead of 1."
+               },
+               "2": {
+                  "Value": "Also, whenever in a forced march, all creatures under your unholy aura spell have advantage to saving throws to continue a march without suffering exhaustion, and can move at a fast pace without incurring a penalty to their Passive Spirit (Perception) score."
+               }
+            }
          },
          "GreaterAugmentation": {
             "Label": "Greater Augmentation",
-            "Description": "You can augment up to three potions at any given time. You can also apply the following additional augmentations:<br><br><ul><li>Your potion also has the effects of a dispel magic or mana burn spell, with the spell level two spell levels lower than the potion‘s original spell level (minimum 1). If the potion has no replicated spell level, the effective level is instead equal to the lowest spell level the spell can be cast.</li><li>Your potion also has the benefits of one of the following spells: protection from poison, protection from energy, or remove curse.</li><li>Your potion allows the target to add their proficiency bonus to one saving throw of their choice. They cannot apply this to a saving throw in which they are already proficient. This remains up to 1 hour.</li><li>Your potion has a 25% chance to enhance the imbiber with increased lifeforce. If the target is reduced to 0 hit points or dies within 4 hours of imbibing the potion, they are affected with the revivify spell. The potion must replicate a spell level of 6 or higher to gain this augmentation.</li></ul>"
+            "Description": {
+               "1": {
+                  "Value": "You can augment up to three potions at any given time. You can also apply the following additional augmentations:"
+               },
+               "2": {
+                  "Options": {
+                     "1": "Your potion also has the effects of a dispel magic or mana burn spell, with the spell level two spell levels lower than the potion‘s original spell level (minimum 1). If the potion has no replicated spell level, the effective level is instead equal to the lowest spell level the spell can be cast.",
+                     "2": "Your potion also has the benefits of one of the following spells: protection from poison, protection from energy, or remove curse.",
+                     "3": "Your potion allows the target to add their proficiency bonus to one saving throw of their choice. They cannot apply this to a saving throw in which they are already proficient. This remains up to 1 hour.",
+                     "4": "Your potion has a 25% chance to enhance the imbiber with increased lifeforce. If the target is reduced to 0 hit points or dies within 4 hours of imbibing the potion, they are affected with the revivify spell. The potion must replicate a spell level of 6 or higher to gain this augmentation."
+                  }
+               }
+            }
          },
          "GreaterFlashBomber": {
             "Label": "Greater Flash Bomber",
-            "Description": "You double the amount of times you may use the Flash Bomber talent before a rest, and can use any explosive (not just in bomb form). You also gain the remote blueprint for free if you didn‘t already have it, and may employ it to trigger any number of your explosives normally, and can use it with a reaction."
+            "Description": {
+               "1": {
+                  "Value": "You double the amount of times you may use the Flash Bomber talent before a rest, and can use any explosive (not just in bomb form). You also gain the remote blueprint for free if you didn‘t already have it, and may employ it to trigger any number of your explosives normally, and can use it with a reaction."
+               }
+            }
          },
          "GreaterInternalClock": {
             "Label": "Greater Internal Clock",
-            "Description": "You treat your proficiency bonus as if 2 points higher for the purposes of how many potions you can have active under your Internal Clock ability. Also, if your Internal Clock ability would activate, you may choose to withhold benefitting from it up to 1 minute. If you do not declare a use of the ability (reaction if not in your turn, bonus action if it is) it fades at the end of the duration."
+            "Description": {
+               "1": {
+                  "Value": "You treat your proficiency bonus as if 2 points higher for the purposes of how many potions you can have active under your Internal Clock ability. Also, if your Internal Clock ability would activate, you may choose to withhold benefitting from it up to 1 minute. If you do not declare a use of the ability (reaction if not in your turn, bonus action if it is) it fades at the end of the duration."
+               }
+            }
          },
          "GreaterMutate": {
             "Label": "Greater Mutate",
-            "Description": "You treat any mutate spell you benefit from as if it were heightened one level for no cost, allowing certain mutations to become stronger. You always have the mutate spell memorized.<br>Furthermore, while under the effects of the spell, you gain a +2 bonus to damage rolls. This bonus also applies to any homunculus you have.<br>Lastly, you also gain proficiency in Strength saving throws. "
+            "Description": {
+               "1": {
+                  "Value": "You treat any mutate spell you benefit from as if it were heightened one level for no cost, allowing certain mutations to become stronger. You always have the mutate spell memorized."
+               },
+               "2": {
+                  "Value": "Furthermore, while under the effects of the spell, you gain a +2 bonus to damage rolls. This bonus also applies to any homunculus you have."
+               },
+               "3": {
+                  "Value": "Lastly, you also gain proficiency in Strength saving throws."
+               }
+            }
          },
          "Hellscream": {
             "Label": "Hellscream",
-            "Description": "All hostile creatures within range of your shouts take Thunder damage equal to half your level whenever you shout or maintain one. They are entitled a Stamina saving throw to half damage contested by your own Stamina saving throw.<br>Also, your critical range for your Strike the Wound ability becomes 15-20. "
+            "Description": {
+               "1": {
+                  "Value": "All hostile creatures within range of your shouts take Thunder damage equal to half your level whenever you shout or maintain one. They are entitled a Stamina saving throw to half damage contested by your own Stamina saving throw."
+               },
+               "2": {
+                  "Value": "Also, your critical range for your Strike the Wound ability becomes 15-20."
+               }
+            }
          },
          "ImprovedRunicStrike": {
             "Label": "Improved Runic Strike",
-            "Description": "You are so suffused with the might of the Lich King that all your melee weapon strikes carry his unholy power with them. Whenever you hit a creature with a melee weapon, the creature takes an extra 1d8 shadow damage. If you also use your Runic Strike with an attack, you add this damage to the extra damage of your Runic Strike."
-         },
-         "Infusionist": {
-            "Label": "Infusionist",
-            "Description": "You gain proficiency with the infusion skill and can make infused items."
+            "Description": {
+               "1": {
+                  "Value": "You are so suffused with the might of the Lich King that all your melee weapon strikes carry his unholy power with them. Whenever you hit a creature with a melee weapon, the creature takes an extra 1d8 shadow damage. If you also use your Runic Strike with an attack, you add this damage to the extra damage of your Runic Strike."
+               }
+            }
          },
          "Innovation": {
             "Label": "Innovation",
-            "Description": "You gain the ability to craft temporary and unstable technological creations at certain levels. Such creations have limitations compared to normal crafting (as described in Chapter 7), but are more accessible and useable in combat. You also need the required tools at hand (Engineer's Tools).<br>Creating temporary technological device costs an Action if a Consumable, 3 turns if a use-item (such as a firearm), or 1 minute if a Creature (such as turret or combat armor).<br><br><table><tr><th>Level</th><th>Rarity</th><th>Point Cost<sup>1</sup></th><th>Material Cost<sup>2</sup></th></tr><tr><td>1</td><td>Common</td><td>5</td><td>1 gp<sup>3</sup></td></tr><tr><td>1</td><td>Uncommon</td><td>7</td><td>4 gp</td></tr><tr><td>5</td><td>Rare</td><td>9</td><td>16 gp</td></tr><tr><td>9</td><td>Epic</td><td>11</td><td>64 gp</td></tr><tr><td>13</td><td>Legendary</td><td>13</td><td>256 gp</td></tr><tr><td>17</td><td>Artifact</td><td>15</td><td>1024 gp</td></tr></table><br>1) You reduce the crafting point cost by your proficiency bonus. You may reduce the point cost by your proficiency bonus (not applied above). Common items can have their point cost reduced to 0.<br>2) The crafting cost is unaffected by the Efficient Alchemy feature. Unlike normal crafting, the base crafting cost in materials is not modified for crafting class (x25 for Creatures), and thus innovating a Consumable costs the same as a Creature.<br>3) Starting at 5th level, your Common-level temporary creations do not consume crafting materials, but still require access to your tools (Engineer's Tools).<br><br><h3>Crafting Point Cost</h3>Your ability to do such rapid and innovative creations strains your mind and creative capabilities. You are afforded a pool of Crafting Points (which act as Mana Points). Similarly to Mana Points, you spend points to spontaneously craft items, and regain such points by resting. This is subject to the following points of difference, however:<ul><li>You have a number of Crafting Points equal to your Intelligence score (not modifier) plus your proficiency bonus plus one-half your Tinker level (round down). Unlike mana points, your pool is unaffected by the spell level you can access. As this power is not magical in nature, you are unaffected by any anti-magic effects such as an antimagic field or mana burn effects.</li><li>You do not regain points by mana-restorative effects, such as Mana Potions or resting near mana fountains. However, so long as you are in a relevant resource node or crafting area (such as an engineering workshop or your stronghold), you regain points with a +50% increase, as you draw inspiration from them.</li><li>Your creation costs scale by the item‘s rarity and your ability to craft them; and are thus limited by the Rarity column in your class chart. You can craft anything you have memorized or if you refer to the formula of in your possession (such as in your formulae book). A temporary creation that breaks down, fails, or expires can be harvested for one-half the crafting materials invested. This does not apply to Consumables that were successfully used.  Your temporary creations can be made permanent by paying the rest of the crafting cost.</li></ul><br><h3>Material Cost</h3>As well as consuming Crafting Points, temporary creations also cost material costs appropriate to their rarity, as detailed above.<br><br><h3>Temporary Item Duration</h3>Once created, the temporary item remains until used (if a Consumable), until it breaks down (if a Use-Item or Creature), or up to 5 minutes. Temporary creations are not stable, and if the item is not a consumable in nature, you must succeed on a tool check (Engineer's Tools) against a DC of 15 after a successful use (if a Use-Item), 1 minute (if a Creature), or the creation breaks down.  If the item is not being used by you (or a creature bound to you), it has a +4 increase to its malfunction rate. You may maintain multiple temporary creations, but they all begin expiring starting from the round they were crafted.<br><br><h3>At Higher Levels</h3> As you increase in levels, creations of certain rarity require less time and effort. The time it takes for you to innovate or craft temporary versions of your creations is reduced to a Bonus Action or 3 turns at the following levels for each rarity.<br><br><table><tr><th>Level</th><th>Rarity</th><th>Consumable</th><th>Use-Item</th><th>Creature</th></tr><tr><td>2nd</td><td>Common</td><td>Bonus Action</td><td>1 turn</td><td>3 turns</td></tr><tr><td>9th</td><td>Uncommon</td><td>Bonus Action</td><td>1 turn</td><td>3 turns</td></tr><tr><td>17th</td><td>Rare</td><td>Bonus Action</td><td>1 turn</td><td>3 turns</td></tr></table>"
+            "Description": {
+               "1": {
+                  "Value": "You gain the ability to craft temporary and unstable technological creations at certain levels. Such creations have limitations compared to normal crafting (as described in Chapter 7), but are more accessible and useable in combat. You also need the required tools at hand (Engineer's Tools)."
+               },
+               "2": {
+                  "Value": "Creating temporary technological device costs an Action if a Consumable, 3 turns if a use-item (such as a firearm), or 1 minute if a Creature (such as turret or combat armor)."
+               },
+               "3": {
+                  "Value": "1) You reduce the crafting point cost by your proficiency bonus. You may reduce the point cost by your proficiency bonus (not applied above). Common items can have their point cost reduced to 0."
+               },
+               "4": {
+                  "Value": "2) The crafting cost is unaffected by the Efficient Alchemy feature. Unlike normal crafting, the base crafting cost in materials is not modified for crafting class (x25 for Creatures), and thus innovating a Consumable costs the same as a Creature."
+               },
+               "5": {
+                  "Value": "3) Starting at 5th level, your Common-level temporary creations do not consume crafting materials, but still require access to your tools (Engineer's Tools)."
+               },
+               "6": {
+                  "Title": "Crafting Point Cost",
+                  "Value": "Your ability to do such rapid and innovative creations strains your mind and creative capabilities. You are afforded a pool of Crafting Points (which act as Mana Points). Similarly to Mana Points, you spend points to spontaneously craft items, and regain such points by resting. This is subject to the following points of difference, however:"
+               },
+               "7": {
+                  "Options": {
+                     "1": "You have a number of Crafting Points equal to your Intelligence score (not modifier) plus your proficiency bonus plus one-half your Tinker level (round down). Unlike mana points, your pool is unaffected by the spell level you can access. As this power is not magical in nature, you are unaffected by any anti-magic effects such as an antimagic field or mana burn effects.",
+                     "2": "You do not regain points by mana-restorative effects, such as Mana Potions or resting near mana fountains. However, so long as you are in a relevant resource node or crafting area (such as an engineering workshop or your stronghold), you regain points with a +50% increase, as you draw inspiration from them.",
+                     "3": "Your creation costs scale by the item‘s rarity and your ability to craft them; and are thus limited by the Rarity column in your class chart. You can craft anything you have memorized or if you refer to the formula of in your possession (such as in your formulae book). "
+                  }
+               },
+               "8": {
+                  "Value": "A temporary creation that breaks down, fails, or expires can be harvested for one-half the crafting materials invested. This does not apply to Consumables that were successfully used.  Your temporary creations can be made permanent by paying the rest of the crafting cost."
+               },
+               "9": {
+                  "Title": "Material Cost",
+                  "Value": "As well as consuming Crafting Points, temporary creations also cost material costs appropriate to their rarity, as detailed above."
+               },
+               "10": {
+                  "Title": "Temporary Item Duration",
+                  "Value": "Once created, the temporary item remains until used (if a Consumable), until it breaks down (if a Use-Item or Creature), or up to 5 minutes. Temporary creations are not stable, and if the item is not a consumable in nature, you must succeed on a tool check (Engineer's Tools) against a DC of 15 after a successful use (if a Use-Item), 1 minute (if a Creature), or the creation breaks down.  If the item is not being used by you (or a creature bound to you), it has a +4 increase to its malfunction rate. You may maintain multiple temporary creations, but they all begin expiring starting from the round they were crafted."
+               },
+               "11": {
+                  "Title": "At Higher Levels",
+                  "Value": "As you increase in levels, creations of certain rarity require less time and effort. The time it takes for you to innovate or craft temporary versions of your creations is reduced to a Bonus Action or 3 turns at the following levels for each rarity."
+               }
+            }
          },
          "InternalClock": {
             "Label": "InternalClock",
-            "Description": "Whenever you make a potion and consume it, you can choose to keep its effects latent until a condition you specify. When said condition comes to pass, the potion activates as if you just consumed it, and costs you a reaction. You can have a number of potions stored this way equal to your proficiency bonus. If the potion has a casting time of more than 1 Action, it must remain latent for a minimum duration equal to the casting time first. These potions do not incur miscibility, even if consumed at the same time.<br>Starting at 18th level, activating a potion on your internal clock costs no reaction."
+            "Description": {
+               "1": {
+                  "Value": "Whenever you make a potion and consume it, you can choose to keep its effects latent until a condition you specify. When said condition comes to pass, the potion activates as if you just consumed it, and costs you a reaction. You can have a number of potions stored this way equal to your proficiency bonus. If the potion has a casting time of more than 1 Action, it must remain latent for a minimum duration equal to the casting time first. These potions do not incur miscibility, even if consumed at the same time."
+               },
+               "2": {
+                  "Value": "Starting at 18th level, activating a potion on your internal clock costs no reaction."
+               }
+            }
          },
          "Inurement": {
             "Label": "Inurement",
-            "Description": "You also gain the ability to craft temporary and unstable alchemical creations at certain levels. Such creations have limitations compared to normal crafting (as described in Chapter 7), but are more accessible and useable in combat. You also need the required tools at hand (Alchemist‘s Supplies). Creating temporary alchemical creations costs an Action if a Consumable, or 1 minute if a Creature (such as an alchemical homunculus or an Ooze).<br><br><table><tr><th>Level</th><th>Rarity</th><th>Point Cost<sup>1</sup></th><th>Material Cost<sup>2</sup></th></tr><tr><td>1</td><td>Common</td><td>5</td><td>1 gp<sup>3</sup></td></tr><tr><td>1</td><td>Uncommon</td><td>7</td><td>4 gp</td></tr><tr><td>5</td><td>Rare</td><td>9</td><td>16 gp</td></tr><tr><td>9</td><td>Epic</td><td>11</td><td>64 gp</td></tr><tr><td>13</td><td>Legendary</td><td>13</td><td>256 gp</td></tr><tr><td>17</td><td>Artifact</td><td>15</td><td>1,024 gp</td></tr></table><br><br>1) You reduce the crafting point cost by your proficiency bonus. You may reduce the point cost by your proficiency bonus (not applied above). Common items can have their point cost reduced to 0.<br>2) The crafting cost is unaffected by the Efficient Alchemy feature. Unlike normal crafting, the base crafting cost in materials is not modified for crafting class (x25 for Creatures), and thus innovating a Consumable costs the same as a Creature.<br>3) Starting at 5th level, your Common-level temporary creations do not consume crafting materials, but still require access to your tools (Alchemist‘s Supplies).<br><br><h3>Crafting Point Cost</h3>Your ability to do such rapid and innovative creations strains your mind and creative capabilities. You are afforded a pool of Crafting Points (which act as Mana Points). Similarly to Mana Points, you spend points to spontaneously craft items and regain such points by resting. This is subject to the following points of difference, however:<br><ul><li>You have a number of Crafting Points equal to your Intelligence score (not modifier) plus your proficiency bonus plus one-half your Alchemist level (round down). Unlike mana points, your pool is unaffected by the spell level you can access. As this power is not magical in nature, you are unaffected by any anti-magic effects such as an antimagic field or mana burn effects.</li><li>You do not regain points by mana-restorative effects, such as Mana Potions or resting near mana fountains. However, so long as you are in a relevant resource node or crafting area (such as an alchemical grove or your stronghold), you regain points with a +50% increase, as you draw inspiration from them.</li><li>Your creation costs scale by the item‘s rarity and your ability to craft them; and are thus limited by the Rarity column in your class chart. You can craft anything you have memorized or if you refer to the formula of in your possession (such as in your formulae book).</li></ul><br>A temporary creation that breaks down, fails, or expires can be harvested for one-half of the crafting materials invested. This does not apply to Consumables that were successfully used. Your temporary creations can be made permanent by paying the rest of the crafting cost.<br><br><h3>Material Cost</h3>As well as consuming Crafting Points, temporary creations also cost material costs appropriate to their rarity, as detailed above.<br><br><h3>Temporary Item Duration</h3>Once created, the temporary item remains until used (if a Consumable), until it breaks down (if a Creature), or up to 5 minutes. Temporary creations are not stable, and if the item is not a consumable in nature, you must succeed on a tool check (Alchemist‘s Supplies) against a DC of 15 after 1 minute (if a Creature), or the creation breaks down. If the item is not being used by you (or a creature bound to you), it has a 50% failure rate. You may maintain multiple temporary creations, but they all begin expiring starting from the round they were crafted.<br><br><h3>At Higher Levels</h3>As you increase in levels, creations of certain rarity require less time and effort. The time it takes for you to inure or craft temporary versions of your creations is reduced to a Bonus Action or 3 turns at the following levels for each rarity.<table><tr><th>Level</th><th>Rarity</th><th>Consumable</th><th>Creature</th></tr><tr><td>2nd</td><td>Common</td><td>Bonus Action</td><td>3 turns</td></tr><tr><td>9th</td><td>Uncommon</td><td>Bonus Action</td><td>3 turns</td></tr><tr><td>17th</td>Rare</td><td>Bonus Action</td><td>3 turns</td></tr></table>"
+            "Description": {
+               "1": {
+                  "Value": "You also gain the ability to craft temporary and unstable alchemical creations at certain levels. Such creations have limitations compared to normal crafting (as described in Chapter 7), but are more accessible and useable in combat. You also need the required tools at hand (Alchemist‘s Supplies). Creating temporary alchemical creations costs an Action if a Consumable, or 1 minute if a Creature (such as an alchemical homunculus or an Ooze)."
+               },
+               "2": {
+                  "Value": "1) You reduce the crafting point cost by your proficiency bonus. You may reduce the point cost by your proficiency bonus (not applied above). Common items can have their point cost reduced to 0."
+               },
+               "3": {
+                  "Value": "2) The crafting cost is unaffected by the Efficient Alchemy feature. Unlike normal crafting, the base crafting cost in materials is not modified for crafting class (x25 for Creatures), and thus innovating a Consumable costs the same as a Creature."
+               },
+               "4": {
+                  "Value": "3) Starting at 5th level, your Common-level temporary creations do not consume crafting materials, but still require access to your tools (Alchemist‘s Supplies)."
+               },
+               "5": {
+                  "Title": "Crafting Point Cost",
+                  "Value": "Your ability to do such rapid and innovative creations strains your mind and creative capabilities. You are afforded a pool of Crafting Points (which act as Mana Points). Similarly to Mana Points, you spend points to spontaneously craft items and regain such points by resting. This is subject to the following points of difference, however:"
+               },
+               "6": {
+                  "Options": {
+                     "1": "You have a number of Crafting Points equal to your Intelligence score (not modifier) plus your proficiency bonus plus one-half your Alchemist level (round down). Unlike mana points, your pool is unaffected by the spell level you can access. As this power is not magical in nature, you are unaffected by any anti-magic effects such as an antimagic field or mana burn effects.",
+                     "2": "You do not regain points by mana-restorative effects, such as Mana Potions or resting near mana fountains. However, so long as you are in a relevant resource node or crafting area (such as an alchemical grove or your stronghold), you regain points with a +50% increase, as you draw inspiration from them.",
+                     "3": "Your creation costs scale by the item‘s rarity and your ability to craft them; and are thus limited by the Rarity column in your class chart. You can craft anything you have memorized or if you refer to the formula of in your possession (such as in your formulae book)."
+                  }
+               },
+               "7": {
+                  "Value": "A temporary creation that breaks down, fails, or expires can be harvested for one-half of the crafting materials invested. This does not apply to Consumables that were successfully used. Your temporary creations can be made permanent by paying the rest of the crafting cost."
+               },
+               "8": {
+                  "Title": "Material Cost",
+                  "Value": "As well as consuming Crafting Points, temporary creations also cost material costs appropriate to their rarity, as detailed above."
+               },
+               "9": {
+                  "Title": "Temporary Item Duration",
+                  "Value": "Once created, the temporary item remains until used (if a Consumable), until it breaks down (if a Creature), or up to 5 minutes. Temporary creations are not stable, and if the item is not a consumable in nature, you must succeed on a tool check (Alchemist‘s Supplies) against a DC of 15 after 1 minute (if a Creature), or the creation breaks down. If the item is not being used by you (or a creature bound to you), it has a 50% failure rate. You may maintain multiple temporary creations, but they all begin expiring starting from the round they were crafted."
+               },
+               "10": {
+                  "Title": "At Higher Levels",
+                  "Value": "As you increase in levels, creations of certain rarity require less time and effort. The time it takes for you to inure or craft temporary versions of your creations is reduced to a Bonus Action or 3 turns at the following levels for each rarity."
+               }
+            }
          },
          "KnackForIt": {
             "Label": "Knack for It",
-            "Description": "You can use your bonus action to make an Agility (Sleight of Hand) check or use your Thieves‘ Tools to disarm a trap or open a lock.<br>Furthermore, you can choose to lower the malfunction rating of all devices you create by 2 points (minimum 1)."
+            "Description": {
+               "1": {
+                  "Value": "You can use your bonus action to make an Agility (Sleight of Hand) check or use your Thieves‘ Tools to disarm a trap or open a lock."
+               },
+               "2": {
+                  "Value": "Furthermore, you can choose to lower the malfunction rating of all devices you create by 2 points (minimum 1)."
+               }
+            }
          },
          "LifeStealer": {
             "Label": "Life Stealer",
-            "Description": "Whenever you are dropped to 0 hit points, you may use your death pact spell on any dying creature as well as undead and fiends as a reaction.<br>You may also instead tear the life from living targets within 30 ft. as a reaction, stealing a number of hit points equal to ¼ their current hit points, and restoring your hit points by the same amount. The target may resist with Stamina saving throw against your Spell Save DC. This may be used once per Charisma modifier (minimum 1) before requiring a long rest."
+            "Description": {
+               "1": {
+                  "Value": "Whenever you are dropped to 0 hit points, you may use your death pact spell on any dying creature as well as undead and fiends as a reaction."
+               },
+               "2": {
+                  "Value": "You may also instead tear the life from living targets within 30 ft. as a reaction, stealing a number of hit points equal to ¼ their current hit points, and restoring your hit points by the same amount. The target may resist with Stamina saving throw against your Spell Save DC. This may be used once per Charisma modifier (minimum 1) before requiring a long rest."
+               }
+            }
          },
          "MasterOfArms": {
             "Label": "Master of Arms",
-            "Description": "When you use a strike effect, you can apply it to all your attacks until the start of your turn in the next round, so long as the strike has sufficient uses."
+            "Description": {
+               "1": {
+                  "Value": "When you use a strike effect, you can apply it to all your attacks until the start of your turn in the next round, so long as the strike has sufficient uses."
+               }
+            }
          },
          "MedicalExpert": {
             "Label": "Medical Expert",
-            "Description": "You gain proficiency with an Herbalism Kit and the Spirit (Medicine) skill, if you didn‘t already have proficiency. Furthermore, whenever you expend a use of a Healer‘s Kit as an action to treat a creature, the target can expend one hit dice. A creature can benefit from this ability once per short rest.<br>Whenever you expend a use of a Healer‘s Kit, you can roll a DC 20 Intelligence check with Alchemist Supplies. If you succeed, you do not expend a single use of the kit."
+            "Description": {
+               "1": {
+                  "Value": "You gain proficiency with an Herbalism Kit and the Spirit (Medicine) skill, if you didn‘t already have proficiency. Furthermore, whenever you expend a use of a Healer‘s Kit as an action to treat a creature, the target can expend one hit dice. A creature can benefit from this ability once per short rest."
+               },
+               "2": {
+                  "Value": "Whenever you expend a use of a Healer‘s Kit, you can roll a DC 20 Intelligence check with Alchemist Supplies. If you succeed, you do not expend a single use of the kit."
+               }
+            }
          },
          "Mettle": {
             "Label": "Mettle",
-            "Description": "Your exposure and experimentations in alchemy left your body more resilient to certain effects, such as a rogue‘s poison gas or a stinking cloud spell. When you are subjected to an effect that allows you to make a Stamina saving throw to take only half damage or a reduced effect, you instead take no damage or effect if you succeed on the saving throw, and only half damage (or the reduced effect) if you fail.<br>For example, a clay golem‘s reduction to maximum hit points is negated on a successful saving throw, and you take half the effect if you fail."
+            "Description": {
+               "1": {
+                  "Value": "Your exposure and experimentations in alchemy left your body more resilient to certain effects, such as a rogue‘s poison gas or a stinking cloud spell. When you are subjected to an effect that allows you to make a Stamina saving throw to take only half damage or a reduced effect, you instead take no damage or effect if you succeed on the saving throw, and only half damage (or the reduced effect) if you fail."
+               },
+               "2": {
+                  "Value": "For example, a clay golem‘s reduction to maximum hit points is negated on a successful saving throw, and you take half the effect if you fail."
+               }
+            }
          },
          "MightOfTheWastes": {
             "Label": "Might of the Wastes",
-            "Description": "Your frost-sharpened weapons deals a critical hit on a roll of 19 or 20 as a strike effect. You also deal an additional 1d4 points of cold damage whenever you strike an enemy with this. You may also add the extra damage from your Frost Presence ability to this. Despite being a strike effect, you can make an off-hand attack with a Bonus Action and still maintain this strike effect."
+            "Description": {
+               "1": {
+                  "Value": "Your frost-sharpened weapons deals a critical hit on a roll of 19 or 20 as a strike effect. You also deal an additional 1d4 points of cold damage whenever you strike an enemy with this. You may also add the extra damage from your Frost Presence ability to this. Despite being a strike effect, you can make an off-hand attack with a Bonus Action and still maintain this strike effect."
+               }
+            }
          },
          "MortalStrike": {
             "Label": "Mortal Strike",
-            "Description": "You may severely wound a creature‘s healing capabilities if you successfully apply a mortal strike. If a creature is affected by a Mortal Strike, they must succeed on a Stamina saving throw against a DC equal to 8 + your proficiency bonus + your Strength bonus or take 50% less healing from all sources for one minute. So long as a creature is affected this way, it is always treated as if it is Bloodied for the purposes of your First Blood feature. A creature cannot be affected by this ability more than once in 24 hours."
+            "Description": {
+               "1": {
+                  "Value": "You may severely wound a creature‘s healing capabilities if you successfully apply a mortal strike. If a creature is affected by a Mortal Strike, they must succeed on a Stamina saving throw against a DC equal to 8 + your proficiency bonus + your Strength bonus or take 50% less healing from all sources for one minute. So long as a creature is affected this way, it is always treated as if it is Bloodied for the purposes of your First Blood feature. A creature cannot be affected by this ability more than once in 24 hours."
+               }
+            }
          },
          "MutatePotion": {
             "Label": "Mutate Potion",
-            "Description": "you can spend 4 Crafting Points to change any potion you have into the rejuvenation spell of the same spell level (up to the maximum spell level of the spell you can access). You memorize the rejuvenation spell."
+            "Description": {
+               "1": {
+                  "Value": "You can spend 4 Crafting Points to change any potion you have into the rejuvenation spell of the same spell level (up to the maximum spell level of the spell you can access). You memorize the rejuvenation spell."
+               }
+            }
          },
          "NecromanticMastery": {
             "Label": "Necromantic Mastery",
-            "Description": "You add all spells of the Necromancy school from the Mage spell list to the Alchemist spell list, and can make potions out of them."
+            "Description": {
+               "1": {
+                  "Value": "You add all spells of the Necromancy school from the Mage spell list to the Alchemist spell list, and can make potions out of them."
+               }
+            }
          },
          "Overpower": {
             "Label": "Overpower",
-            "Description": "You may, after successfully damaging an enemy with a melee attack, regain hit points equal to double your Proficiency bonus. You may instead grant half the benefit to any ally within 30 feet. This is a strike effect that costs a bonus action. The enemy must be a qualifying threat to you for you to use this ability. If the target of this strike was also successfully affected by your Mortal Strike feature, you gain double the normal amount of hit points."
+            "Description": {
+               "1": {
+                  "Value": "You may, after successfully damaging an enemy with a melee attack, regain hit points equal to double your Proficiency bonus. You may instead grant half the benefit to any ally within 30 feet. This is a strike effect that costs a bonus action. The enemy must be a qualifying threat to you for you to use this ability. If the target of this strike was also successfully affected by your Mortal Strike feature, you gain double the normal amount of hit points."
+               }
+            }
          },
          "Patent": {
             "Label": "Patent",
-            "Description": "You gain increased mastery over a single engineered device of your creation that is not a consumable. Your Patented device does not malfunction when being used.<br>Furthermore, if a construct or gadget, it takes one-quarter the fuel as normally required for a single use. This stacks with the reduction for certain devices (such as strike effect gadgets).<br>The device may malfunction condition from other circumstances or abilities. This bonus only applies to your Patent device, and does not extend to Innovated devices (even if they are of your Patented device)."
+            "Description": {
+               "1": {
+                  "Value": "You gain increased mastery over a single engineered device of your creation that is not a consumable. Your Patented device does not malfunction when being used."
+               },
+               "2": {
+                  "Value": "Furthermore, if a construct or gadget, it takes one-quarter the fuel as normally required for a single use. This stacks with the reduction for certain devices (such as strike effect gadgets)."
+               },
+               "3": {
+                  "Value": "The device may malfunction condition from other circumstances or abilities. This bonus only applies to your Patent device, and does not extend to Innovated devices (even if they are of your Patented device)."
+               }
+            }
          },
          "PillarOfFrost": {
             "Label": "Pillar of Frost",
-            "Description": "Supernatural ice hangs heavy on your body. This increases your strength score by 4 to a max of 24 and your Stamina by 2 to a max of 22."
+            "Description": {
+               "1": {
+                  "Value": "Supernatural ice hangs heavy on your body. This increases your strength score by 4 to a max of 24 and your Stamina by 2 to a max of 22."
+               }
+            }
          },
          "PlagueZombies": {
             "Label": "Plague Zombies",
-            "Description": "You learn to imbue any undead creature you create or control by your potions with any one poison or disease you have. You may imbue any corporeal undead with up to three dosages of a poison or disease, and allowing the creature to act as a carrier. It can then apply the poison, depending on the poison‘s vector, as below:<br><br><ul><li>A dose of an inhaled poison or disease can be exhaled as an action, affecting creatures within 5 feet (plus 5 feet per size category above Medium).</li><li>A dose of a contact poison or disease can be delivered with a successful melee weapon attack that inflicts the disease. The attacker cannot add their ability modifier to damage for this attack.</li><li>A dose of an ingested poison or disease can be projected onto edible food or drink as an action.</li><li>A dose of an injury poison or disease can be delivered with a successful attack; one dose is delivered with each successful attack.</li></ul><br>If you also chose the Mithridatism Weird Science feature, you can choose for some of your creations to host your doses instead of you."
+            "Description": {
+               "1": {
+                  "Value": "You learn to imbue any undead creature you create or control by your potions with any one poison or disease you have. You may imbue any corporeal undead with up to three dosages of a poison or disease, and allowing the creature to act as a carrier. It can then apply the poison, depending on the poison‘s vector, as below:"
+               },
+               "2": {
+                  "Options": {
+                     "1": "A dose of an inhaled poison or disease can be exhaled as an action, affecting creatures within 5 feet (plus 5 feet per size category above Medium).",
+                     "2": "A dose of a contact poison or disease can be delivered with a successful melee weapon attack that inflicts the disease. The attacker cannot add their ability modifier to damage for this attack.",
+                     "3": "A dose of an ingested poison or disease can be projected onto edible food or drink as an action.",
+                     "4": "A dose of an injury poison or disease can be delivered with a successful attack; one dose is delivered with each successful attack."
+                  }
+               },
+               "3": {
+                  "Value": "If you also chose the Mithridatism Weird Science feature, you can choose for some of your creations to host your doses instead of you."
+               }
+            }
          },
          "PracticedPrecision": {
             "Label": "Practiced Precision",
-            "Description": "You do not take disadvantage to your ranged attack roll while being within 5 feet of a hostile creature, even if you don‘t attack them in melee first. You also gain the Sharpshooter feat for free. If you already had it, you gain the Archery fighting style (applicable to firearms only)."
+            "Description": {
+               "1": {
+                  "Value": "You do not take disadvantage to your ranged attack roll while being within 5 feet of a hostile creature, even if you don‘t attack them in melee first. You also gain the Sharpshooter feat for free. If you already had it, you gain the Archery fighting style (applicable to firearms only)."
+               }
+            }
          },
          "PrecisionGuesswork": {
             "Label": "Precision Guesswork",
-            "Description": "You spend half the required Crafting Points for the Coolness under Fire, Works as Intended, and Shutdown abilities."
+            "Description": {
+               "1": {
+                  "Value": "You spend half the required Crafting Points for the Coolness under Fire, Works as Intended, and Shutdown abilities."
+               }
+            }
          },
          "ProtectiveShell": {
             "Label": "Protective Shell",
-            "Description": "All your constructs always benefit from the Coated Interior and Efficient Fuel modifications (for a total fuel reduction of 1/8 the normal cost for constructs). You may also double the Construct‘s Challenge Rating to its maximum hit points.<br>Also, whenever you activate a gadget that requires a harness or concentration, you gain temporary hit points equal to 1d10 + your Tinker level, which remain until the gadget stops operating. This does not stack with the benefit of the Coated Interior modification."
+            "Description": {
+               "1": {
+                  "Value": "All your constructs always benefit from the Coated Interior and Efficient Fuel modifications (for a total fuel reduction of 1/8 the normal cost for constructs). You may also double the Construct‘s Challenge Rating to its maximum hit points."
+               },
+               "2": {
+                  "Value": "Also, whenever you activate a gadget that requires a harness or concentration, you gain temporary hit points equal to 1d10 + your Tinker level, which remain until the gadget stops operating. This does not stack with the benefit of the Coated Interior modification."
+               }
+            }
          },
          "QuickCooldown": {
             "Label": "Quick Cooldown",
-            "Description": "Your gadgets and constructs always benefit from the Quick Use and Quick Startup modifications, respectively. This has no cost."
+            "Description": {
+               "1": {
+                  "Value": "Your gadgets and constructs always benefit from the Quick Use and Quick Startup modifications, respectively. This has no cost."
+               }
+            }
          },
          "QuickReload": {
             "Label": "Quick Reload",
@@ -2029,23 +2265,40 @@
             "CastSpellInvalidTarget": "Invalid Target. Please select one hostile token.",
             "OutOfRange": "The target is out of range. Distance:"
          },
-         "Units": {
-            "Action": "action",
-            "Ft": "ft",
-            "Hour": "hour",
-            "Instant": "instant",
-            "Minute": "minute",
-            "Minutes": "minutes",
-            "Gp": "gp"
+         "BonusAction": "Bonus Action",
+         "Consumable": "Consumable",
+         "Creature": "Creature",
+         "Dialogs": {
+            "CancelSkill": "Release",
+            "CancelSkillDescription": "Do you really want to release the skill?"
          },
+         "MaterialCost": "Material Cost",
          "Phrases": {
             "Skill": "skill",
             "Spell": "spell"
          },
-         "Dialogs": {
-            "CancelSkill": "Release",
-            "CancelSkillDescription": "Do you really want to release the skill?"
-         }
+         "PointCost": "Point Cost",
+         "Rarities": {
+            "Common": "Common",
+            "Uncommon": "Uncommon",
+            "Rare": "Rare",
+            "Epic": "Epic",
+            "Legendary": "Legendary",
+            "Artifact": "Artifact"
+         },
+         "Rarity": "Rarity",
+         "Units": {
+            "Action": "action",
+            "Ft": "ft",
+            "Gp": "gp",
+            "Hour": "hour",
+            "Instant": "instant",
+            "Minute": "minute",
+            "Minutes": "minutes",
+            "Turn": "turn",
+            "Turns": "turns"
+         },
+         "UseItem": "Use-Item"
       }
    }
 }

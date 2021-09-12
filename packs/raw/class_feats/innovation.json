@@ -1,71 +1,254 @@
 {
-  "_id": "BxFovVOtLQ9XyD03",
-  "name": "Innovation",
-  "permission": {
-    "default": 0
-  },
-  "type": "feat",
-  "data": {
-    "wcType": "feat",
-    "wcCategory": "WC5E.SkillCategories.General",
-    "description": {
-      "value": "WC5E.Feats.Innovation.Description",
-      "chat": "",
-      "unidentified": ""
-    },
-    "source": "PHB page 127",
-    "activation": {
-      "type": "bonus",
-      "cost": 1,
-      "condition": ""
-    },
-    "duration": {
-      "value": null,
-      "units": ""
-    },
-    "target": {
-      "value": null,
-      "units": null,
-      "type": "self"
-    },
-    "range": {
-      "value": null,
-      "long": null,
-      "units": "self"
-    },
-    "uses": {
-      "value": 0,
-      "max": 0,
-      "per": "",
-      "type": ""
-    },
-    "ability": "",
-    "actionType": "",
-    "attackBonus": 0,
-    "chatFlavor": "",
-    "critical": null,
-    "damage": {
-      "parts": [
-      ],
-      "versatile": "",
-      "value": ""
-    },
-    "formula": "",
-    "save": {
-      "ability": "",
-      "dc": null,
-      "value": "",
-      "scaling": "spell"
-    },
-    "requirements": "Tinker 1",
-    "recharge": {
-      "value": null,
-      "charged": false
-    }
-  },
-  "flags": {
-  },
-  "img": "systems/dnd5e/icons/skills/mech_12.jpg",
-  "effects": [
-  ]
+   "_id": "BxFovVOtLQ9XyD03",
+   "name": "Innovation",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 127",
+      "requirements": "Tinker 1"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.Innovation.Description.1.Value"
+            },
+            {
+               "table": {
+                  "head": [
+                     {
+                        "title": "WC5E.Character.Level"
+                     },
+                     {
+                        "title": "WC5E.UI.Rarity"
+                     },
+                     {
+                        "title": "WC5E.UI.PointCost",
+                        "sup": 1
+                     },
+                     {
+                        "title": "WC5E.UI.MaterialCost",
+                        "sup": 2
+                     }
+                  ],
+                  "rows": [
+                     [
+                        {
+                           "value": 1
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Common"
+                        },
+                        {
+                           "value": 5
+                        },
+                        {
+                           "value": 1,
+                           "unit": "WC5E.UI.Units.Gp",
+                           "sup": 3
+                        }
+                     ],
+                     [
+                        {
+                           "value": 1
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Uncommon"
+                        },
+                        {
+                           "value": 7
+                        },
+                        {
+                           "value": 4,
+                           "unit": "WC5E.UI.Units.Gp"
+                        }
+                     ],
+                     [
+                        {
+                           "value": 5
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Rare"
+                        },
+                        {
+                           "value": 9
+                        },
+                        {
+                           "value": 16,
+                           "unit": "WC5E.UI.Units.Gp"
+                        }
+                     ],
+                     [
+                        {
+                           "value": 9
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Epic"
+                        },
+                        {
+                           "value": 11
+                        },
+                        {
+                           "value": 64,
+                           "unit": "WC5E.UI.Units.Gp"
+                        }
+                     ],
+                     [
+                        {
+                           "value": 13
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Legendary"
+                        },
+                        {
+                           "value": 13
+                        },
+                        {
+                           "value": 256,
+                           "unit": "WC5E.UI.Units.Gp"
+                        }
+                     ],
+                     [
+                        {
+                           "value": 17
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Artifact"
+                        },
+                        {
+                           "value": 15
+                        },
+                        {
+                           "value": 1024,
+                           "unit": "WC5E.UI.Units.Gp"
+                        }
+                     ]
+                  ]
+               }
+            },
+            {
+               "value": "WC5E.Feats.Innovation.Description.3.Value"
+            },
+            {
+               "value": "WC5E.Feats.Innovation.Description.4.Value"
+            },
+            {
+               "value": "WC5E.Feats.Innovation.Description.5.Value"
+            },
+            {
+               "title": "WC5E.Feats.Innovation.Description.6.Title",
+               "value": "WC5E.Feats.Innovation.Description.6.Value"
+            },
+            {
+               "options": [
+                  "WC5E.Feats.Innovation.Description.7.Options.1",
+                  "WC5E.Feats.Innovation.Description.7.Options.2",
+                  "WC5E.Feats.Innovation.Description.7.Options.3"
+               ]
+            },
+            {
+               "value": "WC5E.Feats.Innovation.Description.8.Value"
+            },
+            {
+               "title": "WC5E.Feats.Innovation.Description.9.Title",
+               "value": "WC5E.Feats.Innovation.Description.9.Value"
+            },
+            {
+               "title": "WC5E.Feats.Innovation.Description.10.Title",
+               "value": "WC5E.Feats.Innovation.Description.10.Value"
+            },
+            {
+               "title": "WC5E.Feats.Innovation.Description.11.Title",
+               "value": "WC5E.Feats.Innovation.Description.11.Value"
+            },
+            {
+               "table": {
+                  "head": [
+                     {
+                        "title": "WC5E.Character.Level"
+                     },
+                     {
+                        "title": "WC5E.UI.Rarity"
+                     },
+                     {
+                        "title": "WC5E.UI.Consumable"
+                     },
+                     {
+                        "title": "WC5E.UI.UseItem"
+                     },
+                     {
+                        "title": "WC5E.UI.Creature"
+                     }
+                  ],
+                  "rows": [
+                     [
+                        {
+                           "value": 2
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Common"
+                        },
+                        {
+                           "text": "WC5E.UI.BonusAction"
+                        },
+                        {
+                           "value": 1,
+                           "unit": "WC5E.UI.Units.Turn"
+                        },
+                        {
+                           "value": 3,
+                           "unit": "WC5E.UI.Units.Turns"
+                        }
+                     ],
+                     [
+                        {
+                           "value": 9
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Uncommon"
+                        },
+                        {
+                           "text": "WC5E.UI.BonusAction"
+                        },
+                        {
+                           "value": 1,
+                           "unit": "WC5E.UI.Units.Turn"
+                        },
+                        {
+                           "value": 3,
+                           "unit": "WC5E.UI.Units.Turns"
+                        }
+                     ],
+                     [
+                        {
+                           "value": 17
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Rare"
+                        },
+                        {
+                           "text": "WC5E.UI.BonusAction"
+                        },
+                        {
+                           "value": 1,
+                           "unit": "WC5E.UI.Units.Turn"
+                        },
+                        {
+                           "value": 3,
+                           "unit": "WC5E.UI.Units.Turns"
+                        }
+                     ]
+                  ]
+               }
+            }
+         ]
+      }
+   },
+   "img": "systems/dnd5e/icons/skills/mech_12.jpg",
+   "effects": [
+   ]
 }

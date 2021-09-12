@@ -1,74 +1,34 @@
 {
-   "_id":"jmSJssDKfh6DUF8M",
-   "name":"Greater Augmentation",
-   "permission":{
-      "default":0
+   "_id": "jmSJssDKfh6DUF8M",
+   "name": "Greater Augmentation",
+   "permission": {
+      "default": 0
    },
-   "type":"feat",
-   "data":{
-      "wcType": "feat",
-      "wcCategory": "WC5E.SkillCategories.General",
-      "description":{
-         "value":"WC5E.Feats.GreaterAugmentation.Description",
-         "chat":"",
-         "unidentified":""
-      },
-      "source":"PHB page 42",
-      "activation":{
-         "type":"bonus",
-         "cost":1,
-         "condition":""
-      },
-      "duration":{
-         "value":null,
-         "units":""
-      },
-      "target":{
-         "value":null,
-         "units":null,
-         "type":"self"
-      },
-      "range":{
-         "value":null,
-         "long":null,
-         "units":"self"
-      },
-      "uses":{
-         "value":0,
-         "max":0,
-         "per":"",
-         "type":""
-      },
-      "ability":"",
-      "actionType":"",
-      "attackBonus":0,
-      "chatFlavor":"",
-      "critical":null,
-      "damage":{
-         "parts":[
-
-         ],
-         "versatile":"",
-         "value":""
-      },
-      "formula":"",
-      "save":{
-         "ability":"",
-         "dc":null,
-         "value":"",
-         "scaling":"spell"
-      },
-      "requirements":"Alchemist (Transmutor) 14",
-      "recharge":{
-         "value":null,
-         "charged":false
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 42",
+      "requirements": "Alchemist (Transmutor) 14"
+   },
+   "flags": {
+      "wc5e": {
+         "wcType": "feat",
+         "wcCategory": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.GreaterAugmentation.Description.1.Value"
+            },
+            {
+               "options": [
+                  "WC5E.Feats.GreaterAugmentation.Description.2.Options.1",
+                  "WC5E.Feats.GreaterAugmentation.Description.2.Options.2",
+                  "WC5E.Feats.GreaterAugmentation.Description.2.Options.3",
+                  "WC5E.Feats.GreaterAugmentation.Description.2.Options.4"
+               ]
+            }
+         ]
       }
    },
-   "flags":{
-
-   },
-   "img":"icons/tools/laboratory/bowl-powder-purple.webp",
-   "effects":[
-
+   "img": "icons/tools/laboratory/bowl-powder-purple.webp",
+   "effects": [
    ]
 }
