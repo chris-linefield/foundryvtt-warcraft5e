@@ -1,74 +1,32 @@
 {
-   "_id":"NpZmvg15FbFQ2Xvv",
-   "name":"Runic Strike",
-   "permission":{
-      "default":0
+   "_id": "NpZmvg15FbFQ2Xvv",
+   "name": "Runic Strike",
+   "permission": {
+      "default": 0
    },
-   "type":"feat",
-   "data":{
-      "wcType": "feat",
-      "wcCategory": "WC5E.SkillCategories.General",
-      "description":{
-         "value":"WC5E.Feats.RunicStrike.Description",
-         "chat":"",
-         "unidentified":""
-      },
-      "source":"PHB page 47",
-      "activation":{
-         "type":"bonus",
-         "cost":1,
-         "condition":""
-      },
-      "duration":{
-         "value":null,
-         "units":""
-      },
-      "target":{
-         "value":null,
-         "units":null,
-         "type":"self"
-      },
-      "range":{
-         "value":null,
-         "long":null,
-         "units":"self"
-      },
-      "uses":{
-         "value":0,
-         "max":0,
-         "per":"",
-         "type":""
-      },
-      "ability":"",
-      "actionType":"",
-      "attackBonus":0,
-      "chatFlavor":"",
-      "critical":null,
-      "damage":{
-         "parts":[
-
-         ],
-         "versatile":"",
-         "value":""
-      },
-      "formula":"",
-      "save":{
-         "ability":"",
-         "dc":null,
-         "value":"",
-         "scaling":"spell"
-      },
-      "requirements":"Death Knight 2",
-      "recharge":{
-         "value":null,
-         "charged":false
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 47",
+      "requirements": "Death Knight 2"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.RunicStrike.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.RunicStrike.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Feats.RunicStrike.Description.3.Value"
+            }
+         ]
       }
    },
-   "flags":{
-
-   },
-   "img":"icons/skills/melee/strike-dagger-arcane-pink.webp",
-   "effects":[
-
+   "img": "icons/skills/melee/strike-dagger-arcane-pink.webp",
+   "effects": [
    ]
 }

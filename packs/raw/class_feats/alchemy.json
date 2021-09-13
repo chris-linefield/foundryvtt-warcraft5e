@@ -1,15 +1,15 @@
 {
-   "_id":"8sZenEzgW3Ophkab",
-   "name":"Alchemy",
-   "permission":{
-      "default":0
+   "_id": "8sZenEzgW3Ophkab",
+   "name": "Alchemy",
+   "permission": {
+      "default": 0
    },
-   "type":"feat",
+   "type": "feat",
    "data": {
-      "source":"Core Rules page 34",
-      "requirements":"Alchemist 1"
+      "source": "Core Rules page 34",
+      "requirements": "Alchemist 1"
    },
-   "flags":{
+   "flags": {
       "wc5e": {
          "type": "feat",
          "category": "WC5E.SkillCategories.General",
@@ -43,8 +43,7 @@
          ]
       }
    },
-   "img":"icons/skills/toxins/cauldron-pot-bubbles-green.webp",
-   "effects":[
-
+   "img": "icons/skills/toxins/cauldron-pot-bubbles-green.webp",
+   "effects": [
    ]
 }

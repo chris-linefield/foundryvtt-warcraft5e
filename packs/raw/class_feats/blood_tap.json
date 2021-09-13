@@ -1,25 +1,24 @@
 {
-   "_id":"CiZ585lnHkf65RfV",
-   "name":"Blood Tap",
-   "permission":{
-      "default":0
+   "_id": "CiZ585lnHkf65RfV",
+   "name": "Blood Tap",
+   "permission": {
+      "default": 0
    },
-   "type":"feat",
-   "data":{
-      "source":"Core Rules page 50",
-      "requirements":"Death Knight (Path of Blood) 7"
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 50",
+      "requirements": "Death Knight (Path of Blood) 7"
    },
-   "flags":{
+   "flags": {
       "type": "feat",
       "category": "WC5E.SkillCategories.General",
       "description": [
          {
-            "value":"WC5E.Feats.BloodTap.Description.1.Value"
+            "value": "WC5E.Feats.BloodTap.Description.1.Value"
          }
       ]
    },
-   "img":"icons/magic/air/wind-vortex-swirl-red.webp",
-   "effects":[
-
+   "img": "icons/magic/air/wind-vortex-swirl-red.webp",
+   "effects": [
    ]
 }

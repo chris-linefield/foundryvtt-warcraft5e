@@ -1,25 +1,24 @@
 {
-   "_id":"CE1HZQNeawepBtXI",
-   "name":"Die by the Sword",
-   "permission":{
-      "default":0
+   "_id": "CE1HZQNeawepBtXI",
+   "name": "Die by the Sword",
+   "permission": {
+      "default": 0
    },
-   "type":"feat",
-   "data":{
-      "source":"Core Rules page 146",
-      "requirements":"Warrior (Arms) 15"
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 146",
+      "requirements": "Warrior (Arms) 15"
    },
-   "flags":{
+   "flags": {
       "wc5e": {
          "type": "feat",
          "category": "WC5E.SkillCategories.General",
-         "description":{
-            "value":"WC5E.Feats.DieByTheSword.Description.1.Value"
+         "description": {
+            "value": "WC5E.Feats.DieByTheSword.Description.1.Value"
          }
       }
    },
-   "img":"icons/skills/melee/weapons-crossed-swords-yellow.webp",
-   "effects":[
-
+   "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",
+   "effects": [
    ]
 }

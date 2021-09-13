@@ -1,27 +1,26 @@
 {
-   "_id":"C5BAim49sUa3Qegt",
-   "name":"Cleaving Strike",
-   "permission":{
-      "default":0
+   "_id": "C5BAim49sUa3Qegt",
+   "name": "Cleaving Strike",
+   "permission": {
+      "default": 0
    },
-   "type":"feat",
-   "data":{
-      "source":"Core Rules page 146",
-      "requirements":"Warrior (Arms) 3"
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 146",
+      "requirements": "Warrior (Arms) 3"
    },
-   "flags":{
+   "flags": {
       "wc5e": {
          "type": "feat",
          "category": "WC5E.SkillCategories.Strike",
-         "description":[
+         "description": [
             {
-               "value":"WC5E.Feats.CleavingStrike.Description.1.Value"
+               "value": "WC5E.Feats.CleavingStrike.Description.1.Value"
             }
          ]
       }
    },
-   "img":"icons/skills/melee/spear-tips-double-purple.webp",
-   "effects":[
-
+   "img": "icons/skills/melee/spear-tips-double-purple.webp",
+   "effects": [
    ]
 }

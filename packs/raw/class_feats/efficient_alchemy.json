@@ -1,30 +1,29 @@
 {
-   "_id":"Be4HjiEYIqimoWYs",
-   "name":"Efficient Alchemy",
-   "permission":{
-      "default":0
+   "_id": "Be4HjiEYIqimoWYs",
+   "name": "Efficient Alchemy",
+   "permission": {
+      "default": 0
    },
-   "type":"feat",
-   "data":{
-      "source":"Core Rules page 37",
-      "requirements":"Alchemist 2"
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 37",
+      "requirements": "Alchemist 2"
    },
-   "flags":{
+   "flags": {
       "wc5e": {
          "type": "feat",
          "category": "WC5E.SkillCategories.General",
          "description": [
             {
-               "value":"WC5E.Feats.EfficientAlchemy.Description.1.Value"
+               "value": "WC5E.Feats.EfficientAlchemy.Description.1.Value"
             },
             {
-               "value":"WC5E.Feats.EfficientAlchemy.Description.2.Value"
+               "value": "WC5E.Feats.EfficientAlchemy.Description.2.Value"
             }
          ]
       }
    },
-   "img":"icons/skills/toxins/cauldron-pot-bubbles-green.webp",
-   "effects":[
-
+   "img": "icons/skills/toxins/cauldron-pot-bubbles-green.webp",
+   "effects": [
    ]
 }

@@ -1,27 +1,26 @@
 {
-   "_id":"jZZ3jr0aiZLwdcxv",
-   "name":"First Blood",
-   "permission":{
-      "default":0
+   "_id": "jZZ3jr0aiZLwdcxv",
+   "name": "First Blood",
+   "permission": {
+      "default": 0
    },
-   "type":"feat",
-   "data":{
-      "source":"Core Rules page 146",
-      "requirements":"Warrior (Arms) 3"
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 146",
+      "requirements": "Warrior (Arms) 3"
    },
-   "flags":{
+   "flags": {
       "wc5e": {
          "type": "feat",
          "category": "WC5E.SkillCategories.General",
-         "description":[
+         "description": [
             {
-               "value":"WC5E.Feats.FirstBlood.Description.1.Value"
+               "value": "WC5E.Feats.FirstBlood.Description.1.Value"
             }
          ]
       }
    },
-   "img":"icons/skills/wounds/blood-spurt-spray-red.webp",
-   "effects":[
-
+   "img": "icons/skills/wounds/blood-spurt-spray-red.webp",
+   "effects": [
    ]
 }

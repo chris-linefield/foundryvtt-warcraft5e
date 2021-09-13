@@ -1,27 +1,26 @@
 {
-   "_id":"WV4HWROfS9LE2h9J",
-   "name":"Battle Commands",
-   "permission":{
-      "default":0
+   "_id": "WV4HWROfS9LE2h9J",
+   "name": "Battle Commands",
+   "permission": {
+      "default": 0
    },
-   "type":"feat",
-   "data":{
-      "source":"Core Rules page 147",
-      "requirements":"Warrior (Fury) 10"
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 147",
+      "requirements": "Warrior (Fury) 10"
    },
-   "flags":{
+   "flags": {
       "wc5e": {
          "type": "feat",
          "category": "WC5E.SkillCategories.General",
-         "description":[
+         "description": [
             {
-               "value":"WC5E.Feats.BattleCommands.Description.1.Value"
+               "value": "WC5E.Feats.BattleCommands.Description.1.Value"
             }
          ]
       }
    },
-   "img":"systems/dnd5e/icons/skills/yellow_17.jpg",
-   "effects":[
-
+   "img": "systems/dnd5e/icons/skills/yellow_17.jpg",
+   "effects": [
    ]
 }

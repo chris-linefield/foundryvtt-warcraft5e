@@ -1,27 +1,26 @@
 {
-   "_id":"VYvpCdOwqybLfeLO",
-   "name":"Expert Chemist",
-   "permission":{
-      "default":0
+   "_id": "VYvpCdOwqybLfeLO",
+   "name": "Expert Chemist",
+   "permission": {
+      "default": 0
    },
-   "type":"feat",
-   "data":{
-      "source":"Core Rules page 38",
-      "requirements":"Alchemist 11"
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 38",
+      "requirements": "Alchemist 11"
    },
-   "flags":{
+   "flags": {
       "wc5e": {
          "type": "feat",
          "category": "WC5E.SkillCategories.General",
          "description": [
             {
-               "value":"WC5E.Feats.ExpertChemist.Description.1.Value"
+               "value": "WC5E.Feats.ExpertChemist.Description.1.Value"
             }
          ]
       }
    },
-   "img":"icons/consumables/potions/potion-jar-corked-labeled-poison-skull-green.webp",
-   "effects":[
-
+   "img": "icons/consumables/potions/potion-jar-corked-labeled-poison-skull-green.webp",
+   "effects": [
    ]
 }

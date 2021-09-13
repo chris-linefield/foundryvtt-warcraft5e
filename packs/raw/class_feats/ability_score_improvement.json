@@ -1,15 +1,15 @@
 {
-   "_id":"pZ0s66jTVdto9Z3b",
-   "name":"Ability Score Improvement",
-   "permission":{
-      "default":0
+   "_id": "pZ0s66jTVdto9Z3b",
+   "name": "Ability Score Improvement",
+   "permission": {
+      "default": 0
    },
-   "type":"feat",
-   "data":{
-      "source":"Core Rules page 37",
-      "requirements":"Alchemist 4, Death Knight 4, Druid 4, Hunter 4, Mage 4, Monk 4, Paladin 4, Priest 4, Rogue 4, Shaman 4, Tinker 4, Warlock 4"
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 37",
+      "requirements": "Alchemist 4, Death Knight 4, Druid 4, Hunter 4, Mage 4, Monk 4, Paladin 4, Priest 4, Rogue 4, Shaman 4, Tinker 4, Warlock 4"
    },
-   "flags":{
+   "flags": {
       "wc5e": {
          "type": "feat",
          "category": "WC5E.SkillCategories.General",
@@ -20,8 +20,7 @@
          ]
       }
    },
-   "img":"icons/skills/melee/weapons-crossed-swords-white-blue.webp",
-   "effects":[
-
+   "img": "icons/skills/melee/weapons-crossed-swords-white-blue.webp",
+   "effects": [
    ]
 }

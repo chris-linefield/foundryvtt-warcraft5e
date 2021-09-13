@@ -1,33 +1,32 @@
 {
-   "_id":"E7MNYi17oWxoYV7d",
-   "name":"Divine Sense",
-   "permission":{
-      "default":0
+   "_id": "E7MNYi17oWxoYV7d",
+   "name": "Divine Sense",
+   "permission": {
+      "default": 0
    },
-   "type":"feat",
-   "data":{
-      "source":"Core Rules page 45",
-      "requirements":"Death Knight 1"
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 45",
+      "requirements": "Death Knight 1"
    },
-   "flags":{
+   "flags": {
       "wc5e": {
          "type": "feat",
          "category": "WC5E.SkillCategories.General",
-         "description":[
+         "description": [
             {
-               "value":"WC5E.Feats.DivineSense.Description.1.Value"
+               "value": "WC5E.Feats.DivineSense.Description.1.Value"
             },
             {
-               "value":"WC5E.Feats.DivineSense.Description.2.Value"
+               "value": "WC5E.Feats.DivineSense.Description.2.Value"
             },
             {
-               "value":"WC5E.Feats.DivineSense.Description.3.Value"
+               "value": "WC5E.Feats.DivineSense.Description.3.Value"
             }
          ]
       }
    },
-   "img":"icons/magic/light/orb-shadow-blue.webp",
-   "effects":[
-
+   "img": "icons/magic/light/orb-shadow-blue.webp",
+   "effects": [
    ]
 }

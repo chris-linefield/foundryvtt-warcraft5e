@@ -1,30 +1,29 @@
 {
-   "_id":"tOcK4KygovPeQIqG",
-   "name":"Blood Thirst",
-   "permission":{
-      "default":0
+   "_id": "tOcK4KygovPeQIqG",
+   "name": "Blood Thirst",
+   "permission": {
+      "default": 0
    },
-   "type":"feat",
-   "data":{
-      "source":"Core Rules page 147",
-      "requirements":"Warrior (Fury) 7"
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 147",
+      "requirements": "Warrior (Fury) 7"
    },
-   "flags":{
+   "flags": {
       "wc5e": {
          "type": "feat",
          "category": "WC5E.SkillCategories.General",
          "description": [
             {
-               "value":"WC5E.Feats.BloodThirst.Description.1.Value"
+               "value": "WC5E.Feats.BloodThirst.Description.1.Value"
             },
             {
-               "value":"WC5E.Feats.BloodThirst.Description.2.Value"
+               "value": "WC5E.Feats.BloodThirst.Description.2.Value"
             }
          ]
       }
    },
-   "img":"systems/dnd5e/icons/skills/blood_10.jpg",
-   "effects":[
-
+   "img": "systems/dnd5e/icons/skills/blood_10.jpg",
+   "effects": [
    ]
 }

@@ -1,27 +1,26 @@
 {
-   "_id":"wW0gIF7xTQ1e6mEj",
-   "name":"Cursed Carrier",
-   "permission":{
-      "default":0
+   "_id": "wW0gIF7xTQ1e6mEj",
+   "name": "Cursed Carrier",
+   "permission": {
+      "default": 0
    },
-   "type":"feat",
-   "data":{
-      "source":"PHB page 49",
-      "requirements":"Death Knight 6"
+   "type": "feat",
+   "data": {
+      "source": "PHB page 49",
+      "requirements": "Death Knight 6"
    },
-   "flags":{
+   "flags": {
       "wc5e": {
          "type": "feat",
          "category": "WC5E.SkillCategories.General",
          "description": [
             {
-               "value":"WC5E.Feats.CursedCarrier.Description.1.Value"
+               "value": "WC5E.Feats.CursedCarrier.Description.1.Value"
             }
          ]
       }
    },
-   "img":"icons/magic/unholy/projectiles-blood-salvo-red.webp",
-   "effects":[
-
+   "img": "icons/magic/unholy/projectiles-blood-salvo-red.webp",
+   "effects": [
    ]
 }

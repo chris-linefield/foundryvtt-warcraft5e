@@ -1,27 +1,26 @@
 {
-   "_id":"Zvcv0PFMFbeIL4BA",
-   "name":"Aura Improvement (Death Knight)",
-   "permission":{
-      "default":0
+   "_id": "Zvcv0PFMFbeIL4BA",
+   "name": "Aura Improvement (Death Knight)",
+   "permission": {
+      "default": 0
    },
-   "type":"feat",
-   "data":{
-      "source":"Core Rules page 49",
-      "requirements":"Death Knight 18"
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 49",
+      "requirements": "Death Knight 18"
    },
-   "flags":{
+   "flags": {
       "wc5e": {
          "type": "feat",
          "category": "WC5E.SkillCategories.General",
          "description": [
             {
-               "value":"WC5E.Feats.AuraImprovementDeathKnight.Description.1.Value"
+               "value": "WC5E.Feats.AuraImprovementDeathKnight.Description.1.Value"
             }
          ]
       }
    },
-   "img":"icons/magic/control/silhouette-hold-beam-blue.webp",
-   "effects":[
-
+   "img": "icons/magic/control/silhouette-hold-beam-blue.webp",
+   "effects": [
    ]
 }

@@ -1,33 +1,32 @@
 {
-   "_id":"bI7xI3VrGU6QkwCC",
-   "name":"Corrupting Touch",
-   "permission":{
-      "default":0
+   "_id": "bI7xI3VrGU6QkwCC",
+   "name": "Corrupting Touch",
+   "permission": {
+      "default": 0
    },
-   "type":"feat",
-   "data":{
-      "source":"Core Rules page 45",
-      "requirements":"Death Knight 1"
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 45",
+      "requirements": "Death Knight 1"
    },
-   "flags":{
+   "flags": {
       "wc5e": {
          "type": "feat",
          "category": "WC5E.SkillCategories.General",
-         "description":[
+         "description": [
             {
-               "value":"WC5E.Feats.CorruptingTouch.Description.1.Value"
+               "value": "WC5E.Feats.CorruptingTouch.Description.1.Value"
             },
             {
-               "value":"WC5E.Feats.CorruptingTouch.Description.2.Value"
+               "value": "WC5E.Feats.CorruptingTouch.Description.2.Value"
             },
             {
-               "value":"WC5E.Feats.CorruptingTouch.Description.3.Value"
+               "value": "WC5E.Feats.CorruptingTouch.Description.3.Value"
             }
          ]
       }
    },
-   "img":"icons/magic/unholy/strike-hand-glow-pink.webp",
-   "effects":[
-
+   "img": "icons/magic/unholy/strike-hand-glow-pink.webp",
+   "effects": [
    ]
 }

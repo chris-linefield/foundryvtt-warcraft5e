@@ -1,27 +1,26 @@
 {
-   "_id":"Hi2IlXyd4nETYjOq",
-   "name":"Channel Divinity: Freeze",
-   "permission":{
-      "default":0
+   "_id": "Hi2IlXyd4nETYjOq",
+   "name": "Channel Divinity: Freeze",
+   "permission": {
+      "default": 0
    },
-   "type":"feat",
-   "data":{
-      "source":"Core Rules page 50",
-      "requirements":"Death Knight (Path of Frost) 3"
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 50",
+      "requirements": "Death Knight (Path of Frost) 3"
    },
-   "flags":{
+   "flags": {
       "wc5e": {
          "type": "feat",
          "category": "WC5E.SkillCategories.General",
          "description": [
             {
-               "value":"WC5E.Feats.ChannelDivinityFreeze.Description.1.Value"
+               "value": "WC5E.Feats.ChannelDivinityFreeze.Description.1.Value"
             }
          ]
       }
    },
-   "img":"icons/magic/death/undead-skeleton-worn-blue.webp",
-   "effects":[
-
+   "img": "icons/magic/death/undead-skeleton-worn-blue.webp",
+   "effects": [
    ]
 }

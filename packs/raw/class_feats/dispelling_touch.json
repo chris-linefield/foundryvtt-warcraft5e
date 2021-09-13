@@ -1,27 +1,26 @@
 {
-   "_id":"a9vilfbnrwSIp1tw",
-   "name":"Dispelling Touch",
-   "permission":{
-      "default":0
+   "_id": "a9vilfbnrwSIp1tw",
+   "name": "Dispelling Touch",
+   "permission": {
+      "default": 0
    },
-   "type":"feat",
-   "data":{
-      "source":"Core Rules page 49",
-      "requirements":"Death Knight 14"
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 49",
+      "requirements": "Death Knight 14"
    },
-   "flags":{
+   "flags": {
       "wc5e": {
          "type": "feat",
          "category": "WC5E.SkillCategories.General",
-         "description":[
+         "description": [
             {
-               "value":"WC5E.Feats.DispellingTouch.Description.1.Value"
+               "value": "WC5E.Feats.DispellingTouch.Description.1.Value"
             }
          ]
       }
    },
-   "img":"icons/magic/unholy/hand-marked-pink.webp",
-   "effects":[
-
+   "img": "icons/magic/unholy/hand-marked-pink.webp",
+   "effects": [
    ]
 }

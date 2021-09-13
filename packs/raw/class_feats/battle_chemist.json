@@ -1,30 +1,29 @@
 {
-   "_id":"gfNjBd2i15oXCRvn",
-   "name":"Battle Chemist",
-   "permission":{
-      "default":0
+   "_id": "gfNjBd2i15oXCRvn",
+   "name": "Battle Chemist",
+   "permission": {
+      "default": 0
    },
-   "type":"feat",
-   "data":{
-      "source":"Core Rules page 40",
-      "requirements":"Alchemist (Mutant) 10"
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 40",
+      "requirements": "Alchemist (Mutant) 10"
    },
-   "flags":{
+   "flags": {
       "wc5e": {
          "type": "feat",
          "category": "WC5E.SkillCategories.General",
          "description": [
             {
-               "value":"WC5E.Feats.BattleChemist.Description.1.Value"
+               "value": "WC5E.Feats.BattleChemist.Description.1.Value"
             },
             {
-               "value":"WC5E.Feats.BattleChemist.Description.2.Value"
+               "value": "WC5E.Feats.BattleChemist.Description.2.Value"
             }
          ]
       }
    },
-   "img":"icons/weapons/thrown/bomb-purple.webp",
-   "effects":[
-
+   "img": "icons/weapons/thrown/bomb-purple.webp",
+   "effects": [
    ]
 }

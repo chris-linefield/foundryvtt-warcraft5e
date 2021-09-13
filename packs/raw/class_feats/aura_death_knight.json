@@ -1,21 +1,21 @@
 {
-   "_id":"ZpQY3CIhekCWLAOM",
-   "name":"Aura (Death Knight)",
-   "permission":{
-      "default":0
+   "_id": "ZpQY3CIhekCWLAOM",
+   "name": "Aura (Death Knight)",
+   "permission": {
+      "default": 0
    },
-   "type":"feat",
-   "data":{
-      "source":"Core Rules page 48",
-      "requirements":"Death Knight 3"
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 48",
+      "requirements": "Death Knight 3"
    },
-   "flags":{
+   "flags": {
       "wc5e": {
          "type": "feat",
          "category": "WC5E.SkillCategories.General",
-         "description":[
+         "description": [
             {
-               "value":"WC5E.Feats.AuraDeathKnight.Description.1.Value"
+               "value": "WC5E.Feats.AuraDeathKnight.Description.1.Value"
             },
             {
                "options": [
@@ -27,13 +27,12 @@
                ]
             },
             {
-               "value":"WC5E.Feats.AuraDeathKnight.Description.3.Value"
+               "value": "WC5E.Feats.AuraDeathKnight.Description.3.Value"
             }
          ]
       }
    },
-   "img":"icons/magic/control/silhouette-hold-beam-blue.webp",
-   "effects":[
-
+   "img": "icons/magic/control/silhouette-hold-beam-blue.webp",
+   "effects": [
    ]
 }

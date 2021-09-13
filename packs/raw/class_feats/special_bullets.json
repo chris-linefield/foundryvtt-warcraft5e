@@ -1,71 +1,26 @@
 {
-  "_id": "nJQ8RrxdQEV7ehjd",
-  "name": "Special Bullets",
-  "permission": {
-    "default": 0
-  },
-  "type": "feat",
-  "data": {
-    "wcType": "feat",
-    "wcCategory": "WC5E.SkillCategories.General",
-    "description": {
-      "value": "WC5E.Feats.SpecialBullets.Description",
-      "chat": "",
-      "unidentified": ""
-    },
-    "source": "PHB page 133",
-    "activation": {
-      "type": "bonus",
-      "cost": 1,
-      "condition": ""
-    },
-    "duration": {
-      "value": null,
-      "units": ""
-    },
-    "target": {
-      "value": null,
-      "units": null,
-      "type": "self"
-    },
-    "range": {
-      "value": null,
-      "long": null,
-      "units": "self"
-    },
-    "uses": {
-      "value": 0,
-      "max": 0,
-      "per": "",
-      "type": ""
-    },
-    "ability": "",
-    "actionType": "",
-    "attackBonus": 0,
-    "chatFlavor": "",
-    "critical": null,
-    "damage": {
-      "parts": [
-      ],
-      "versatile": "",
-      "value": ""
-    },
-    "formula": "",
-    "save": {
-      "ability": "",
-      "dc": null,
-      "value": "",
-      "scaling": "spell"
-    },
-    "requirements": "Tinker (Gunner) 6",
-    "recharge": {
-      "value": null,
-      "charged": false
-    }
-  },
-  "flags": {
-  },
-  "img": "icons/weapons/ammunition/shot-round-lead.webp",
-  "effects": [
-  ]
+   "_id": "nJQ8RrxdQEV7ehjd",
+   "name": "Special Bullets",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 133",
+      "requirements": "Tinker (Gunner) 6"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.SpecialBullets.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/weapons/ammunition/shot-round-lead.webp",
+   "effects": [
+   ]
 }

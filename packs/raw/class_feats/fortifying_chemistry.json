@@ -1,27 +1,26 @@
 {
-   "_id":"MoxAQW3bvLjyYxiy",
-   "name":"Fortifying Chemistry",
-   "permission":{
-      "default":0
+   "_id": "MoxAQW3bvLjyYxiy",
+   "name": "Fortifying Chemistry",
+   "permission": {
+      "default": 0
    },
-   "type":"feat",
-   "data":{
-      "source":"PHB page 41",
-      "requirements":"Alchemist (Transmutor) 3"
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 41",
+      "requirements": "Alchemist (Transmutor) 3"
    },
-   "flags":{
+   "flags": {
       "wc5e": {
          "type": "feat",
          "category": "WC5E.SkillCategories.General",
          "description": [
             {
-               "value":"WC5E.Feats.FortifyingChemistry.Description.1.Value"
+               "value": "WC5E.Feats.FortifyingChemistry.Description.1.Value"
             }
          ]
       }
    },
-   "img":"icons/consumables/potions/potion-tube-corked-red.webp",
-   "effects":[
-
+   "img": "icons/consumables/potions/potion-tube-corked-red.webp",
+   "effects": [
    ]
 }

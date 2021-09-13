@@ -1,15 +1,15 @@
 {
-   "_id":"NSwm5sXXobXorPqC",
-   "name":"Ability Score Improvement (Warrior)",
-   "permission":{
-      "default":0
+   "_id": "NSwm5sXXobXorPqC",
+   "name": "Ability Score Improvement (Warrior)",
+   "permission": {
+      "default": 0
    },
-   "type":"feat",
-   "data":{
-      "source":"Core Rules page 146",
-      "requirements":"Warrior 4"
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 146",
+      "requirements": "Warrior 4"
    },
-   "flags":{
+   "flags": {
       "wc5e": {
          "type": "feat",
          "category": "WC5E.SkillCategories.General",
@@ -20,8 +20,7 @@
          ]
       }
    },
-   "img":"icons/skills/melee/weapons-crossed-swords-white-blue.webp",
-   "effects":[
-
+   "img": "icons/skills/melee/weapons-crossed-swords-white-blue.webp",
+   "effects": [
    ]
 }

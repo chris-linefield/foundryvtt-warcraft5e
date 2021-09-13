@@ -1,16 +1,16 @@
 {
-   "_id":"KTeU6RPjSlPkisut",
-   "name":"Fighting Style (Warrior)",
-   "permission":{
-      "default":0
+   "_id": "KTeU6RPjSlPkisut",
+   "name": "Fighting Style (Warrior)",
+   "permission": {
+      "default": 0
    },
-   "type":"feat",
-   "data":{
-      "source":"Core Rules page 145",
-      "requirements":"Warrior 1"
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 145",
+      "requirements": "Warrior 1"
    },
-   "flags":{
-      "wc5e":{
+   "flags": {
+      "wc5e": {
          "type": "feat",
          "category": "WC5E.SkillCategories.General",
          "description": [
@@ -44,8 +44,7 @@
          ]
       }
    },
-   "img":"icons/skills/melee/maneuver-daggers-paired-orange.webp",
-   "effects":[
-
+   "img": "icons/skills/melee/maneuver-daggers-paired-orange.webp",
+   "effects": [
    ]
 }

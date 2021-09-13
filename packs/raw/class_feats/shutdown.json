@@ -1,71 +1,26 @@
 {
-  "_id": "pi3ZVUfOt67NRxz1",
-  "name": "Shutdown",
-  "permission": {
-    "default": 0
-  },
-  "type": "feat",
-  "data": {
-    "wcType": "feat",
-    "wcCategory": "WC5E.SkillCategories.General",
-    "description": {
-      "value": "WC5E.Feats.Shutdown.Description",
-      "chat": "",
-      "unidentified": ""
-    },
-    "source": "PHB page 131",
-    "activation": {
-      "type": "bonus",
-      "cost": 1,
-      "condition": ""
-    },
-    "duration": {
-      "value": null,
-      "units": ""
-    },
-    "target": {
-      "value": null,
-      "units": null,
-      "type": "self"
-    },
-    "range": {
-      "value": null,
-      "long": null,
-      "units": "self"
-    },
-    "uses": {
-      "value": 0,
-      "max": 0,
-      "per": "",
-      "type": ""
-    },
-    "ability": "",
-    "actionType": "",
-    "attackBonus": 0,
-    "chatFlavor": "",
-    "critical": null,
-    "damage": {
-      "parts": [
-      ],
-      "versatile": "",
-      "value": ""
-    },
-    "formula": "",
-    "save": {
-      "ability": "",
-      "dc": null,
-      "value": "",
-      "scaling": "spell"
-    },
-    "requirements": "Tinker 17",
-    "recharge": {
-      "value": null,
-      "charged": false
-    }
-  },
-  "flags": {
-  },
-  "img": "icons/commodities/tech/wire-red.webp",
-  "effects": [
-  ]
+   "_id": "pi3ZVUfOt67NRxz1",
+   "name": "Shutdown",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 131",
+      "requirements": "Tinker 17"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.Shutdown.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/commodities/tech/wire-red.webp",
+   "effects": [
+   ]
 }

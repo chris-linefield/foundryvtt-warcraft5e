@@ -1,27 +1,26 @@
 {
-   "_id":"RHCM1SEVR8YGj71w",
-   "name":"Extra Attack",
-   "permission":{
-      "default":0
+   "_id": "RHCM1SEVR8YGj71w",
+   "name": "Extra Attack",
+   "permission": {
+      "default": 0
    },
-   "type":"feat",
-   "data":{
-      "source":"Core Rules page 49",
-      "requirements":"Death Knight 5"
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 49",
+      "requirements": "Death Knight 5"
    },
-   "flags":{
+   "flags": {
       "wc5e": {
          "type": "feat",
          "category": "WC5E.SkillCategories.General",
          "description": [
             {
-               "value":"WC5E.Feats.ExtraAttack.Description.1.Value"
+               "value": "WC5E.Feats.ExtraAttack.Description.1.Value"
             }
          ]
       }
    },
-   "img":"systems/dnd5e/icons/skills/weapon_08.jpg",
-   "effects":[
-
+   "img": "systems/dnd5e/icons/skills/weapon_08.jpg",
+   "effects": [
    ]
 }
