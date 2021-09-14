@@ -21,8 +21,9 @@
                "value": "WC5E.Feats.SunderingStrike.Description.2.Value"
             }
          ]
-      },
-      "img": "icons/skills/melee/shield-damaged-broken-gold.webp",
-      "effects": [
-      ]
-   }
+      }
+   },
+   "img": "icons/skills/melee/shield-damaged-broken-gold.webp",
+   "effects": [
+   ]
+}

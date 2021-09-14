@@ -13,9 +13,11 @@
       "wc5e": {
          "type": "feat",
          "category": "WC5E.SkillCategories.General",
-         "description": {
-            "value": "WC5E.Feats.DieByTheSword.Description.1.Value"
-         }
+         "description": [
+            {
+               "value": "WC5E.Feats.DieByTheSword.Description.1.Value"
+            }
+         ]
       }
    },
    "img": "icons/skills/melee/weapons-crossed-swords-yellow.webp",

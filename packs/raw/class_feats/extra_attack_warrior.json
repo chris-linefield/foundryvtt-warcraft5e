@@ -11,8 +11,8 @@
    },
    "flags": {
       "wc5e": {
-         "wcType": "feat",
-         "wcCategory": "WC5E.SkillCategories.General",
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
          "description": [
             {
                "value": "WC5E.Feats.ExtraAttackWarrior.Description.1.Value"

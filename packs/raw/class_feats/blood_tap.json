@@ -10,13 +10,15 @@
       "requirements": "Death Knight (Path of Blood) 7"
    },
    "flags": {
-      "type": "feat",
-      "category": "WC5E.SkillCategories.General",
-      "description": [
-         {
-            "value": "WC5E.Feats.BloodTap.Description.1.Value"
-         }
-      ]
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.BloodTap.Description.1.Value"
+            }
+         ]
+      }
    },
    "img": "icons/magic/air/wind-vortex-swirl-red.webp",
    "effects": [

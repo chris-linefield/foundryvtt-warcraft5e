@@ -1,15 +1,15 @@
 {
-   "_id":"4WDjhRL1HYP0uQgg",
-   "name":"Shelter of the Faithful",
-   "permission":{
-      "default":0
+   "_id": "4WDjhRL1HYP0uQgg",
+   "name": "Shelter of the Faithful",
+   "permission": {
+      "default": 0
    },
-   "type":"feat",
-   "data":{
-      "source":"Core Rules page 175",
-      "requirements":"Acolyte"
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 175",
+      "requirements": "Acolyte"
    },
-   "flags":{
+   "flags": {
       "wc5e": {
          "type": "feat",
          "category": "WC5E.SkillCategories.General",
@@ -23,8 +23,7 @@
          ]
       }
    },
-   "img":"icons/environment/settlement/temple-night.webp",
-   "effects":[
-
+   "img": "icons/environment/settlement/temple-night.webp",
+   "effects": [
    ]
 }

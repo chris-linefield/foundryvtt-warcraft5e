@@ -18,8 +18,9 @@
                "value": "WC5E.Feats.PrecisionGuesswork.Description.1.Value"
             }
          ]
-      },
-      "img": "icons/commodities/tech/antenna-powered-purple.webp",
-      "effects": [
-      ]
-   }
+      }
+   },
+   "img": "icons/commodities/tech/antenna-powered-purple.webp",
+   "effects": [
+   ]
+}

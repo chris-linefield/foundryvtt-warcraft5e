@@ -10,13 +10,15 @@
       "requirements": "Alchemist (Apothecary) 6"
    },
    "flags": {
-      "wcType": "feat",
-      "wcCategory": "WC5E.SkillCategories.General",
-      "description": [
-         {
-            "value": "WC5E.Feats.NecromanticMastery.Description.1.Value"
-         }
-      ]
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.NecromanticMastery.Description.1.Value"
+            }
+         ]
+      }
    },
    "img": "icons/magic/death/skull-horned-worn-fire-blue.webp",
    "effects": [
