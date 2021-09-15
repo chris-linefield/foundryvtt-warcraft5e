@@ -1,74 +1,32 @@
 {
-   "_id":"pJ5PiR7xwXkFGkFz",
-   "name":"Cloak of Shadows",
-   "permission":{
-      "default":0
+   "_id": "pJ5PiR7xwXkFGkFz",
+   "name": "Cloak of Shadows",
+   "permission": {
+      "default": 0
    },
-   "type":"feat",
-   "data":{
-      "wcType": "talent",
-      "wcCategory": "WC5E.SkillCategories.General",
-      "description":{
-         "value":"WC5E.Talents.CloakOfShadows.Description",
-         "chat":"",
-         "unidentified":""
-      },
-      "source":"PHB page 161",
-      "activation":{
-         "type":"bonus",
-         "cost":1,
-         "condition":""
-      },
-      "duration":{
-         "value":null,
-         "units":""
-      },
-      "target":{
-         "value":null,
-         "units":null,
-         "type":"self"
-      },
-      "range":{
-         "value":null,
-         "long":null,
-         "units":"self"
-      },
-      "uses":{
-         "value":0,
-         "max":0,
-         "per":"",
-         "type":""
-      },
-      "ability":"",
-      "actionType":"",
-      "attackBonus":0,
-      "chatFlavor":"",
-      "critical":null,
-      "damage":{
-         "parts":[
-
-         ],
-         "versatile":"",
-         "value":""
-      },
-      "formula":"",
-      "save":{
-         "ability":"",
-         "dc":null,
-         "value":"",
-         "scaling":"spell"
-      },
-      "requirements":"The ability to cast spells or proficiency in Stealth",
-      "recharge":{
-         "value":null,
-         "charged":false
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 161",
+      "requirements": "The ability to cast spells or proficiency in Stealth"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "talent",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Talents.CloakOfShadows.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Talents.CloakOfShadows.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Talents.CloakOfShadows.Description.3.Value"
+            }
+         ]
       }
    },
-   "flags":{
-
-   },
-   "img":"icons/equipment/back/cloak-collared-blue-iron.webp",
-   "effects":[
-
+   "img": "icons/equipment/back/cloak-collared-blue-iron.webp",
+   "effects": [
    ]
 }
