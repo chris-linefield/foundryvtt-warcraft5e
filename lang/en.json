@@ -4,6 +4,77 @@
          "Acolyte": {
             "Description": {
                "1": "You are a religious devotee. Acolytes tend to live somewhat sheltered lives as priests and aides in major religions, until the call to adventure sounds. Acolytes serving in the Church of the Holy Light are most common, but there are also other faiths with established hierarchies, such as the Troll faith in the Loa."
+            },
+            "Suggestions": {
+               "Description": "Acolytes are shaped by their experience in temples or other religious communities. Their study of the history and tenets of their faith and their relationships to temples, shrines, or hierarchies affect their mannerisms and ideals. Their flaws might be some hidden hypocrisy or heretical idea, or an ideal or bond taken to an extreme.",
+               "Personality": {
+                  "1": "I idolize a particular hero of my faith, and constantly refer to that person's deeds and example.",
+                  "2": "I can find common ground between the fiercest enemies, empathizing with them and always working toward peace.",
+                  "3": "I see omens in every event and action. The gods try to speak to us, we just need to listen.",
+                  "4": "Nothing can shake my optimistic attitude.",
+                  "5": "I quote (or misquote) sacred texts and proverbs in almost every situation.",
+                  "6": "I am tolerant (or intolerant) of other faiths and respect (or condemn) the worship of other gods.",
+                  "7": "I've enjoyed fine food, drink, and high society among my temple's elite. Rough living grates on me.",
+                  "8": "I've spent so long in the temple that I have little practical experience dealing with people in the outside world."
+               },
+               "Ideal": {
+                  "1": {
+                     "Title": "Tradition",
+                     "Value": "The ancient traditions of worship and sacrifice must be preserved and upheld. (Lawful)"
+                  },
+                  "2": {
+                     "Title": "Charity",
+                     "Value": "I always try to help those in need, no matter what the personal cost. (Good)"
+                  },
+                  "3": {
+                     "Title": "Change",
+                     "Value": "We must help bring about the changes the gods are constantly working in the world. (Chaotic)"
+                  },
+                  "4": {
+                     "Title": "Power",
+                     "Value": "I hope to one day rise to the top of my faith's religious hierarchy. (Lawful)"
+                  },
+                  "5": {
+                     "Title": "Faith",
+                     "Value": "I trust that my deity will guide my actions. I have faith that if I work hard, things will go well. (Lawful)"
+                  },
+                  "6": {
+                     "Title": "Aspiration",
+                     "Value": "I seek to prove myself worthy of my god's favor by matching my actions against their teachings. (Any)"
+                  }
+               },
+               "Bonds": {
+                  "1": "I would die to recover an ancient relic of my faith that was lost long ago.",
+                  "2": "I will someday get revenge on the corrupt temple hierarchy who branded me a heretic.",
+                  "3": "I owe my life to the priest who took me in when my parents died.",
+                  "4": "Everything I do is for the common people.",
+                  "5": "I will do anything to protect the temple where I served.",
+                  "6": "I seek to preserve a sacred text that my enemies consider heretical and seek to destroy."
+               },
+               "Flaws": {
+                  "1": "I judge others harshly, and myself even more severely.",
+                  "2": "I put too much trust in those who wield power within my temple's hierarchy.",
+                  "3": "My piety sometimes leads me to blindly trust those that profess faith in my god.",
+                  "4": "I am inflexible in my thinking.",
+                  "5": "I am suspicious of strangers and expect the worst of them.",
+                  "6": "Once I pick a goal, I become obsessed with it to the detriment of everything else in my life."
+               }
+            },
+            "Variants": {
+               "Cultist": {
+                  "Title": "Cultist",
+                  "Description": {
+                     "1": "You have dedicated your life (and very soul) to the service of a cult. This could be anything from a benign splinter organization away from the main church of the Holy Light to the dark Cult of the Damned, various demon cults (such as with many orcish clans), the Cult of Shadow, among others. With this variant, you are trained in hiding your faith and loyalties from others. You may also be part of the Shadow Council, venerating the Old Gods.",
+                     "2": "Rather than training in Insight and Religion, you may exchange one of the proficiencies with Deception or Intimidation."
+                  }
+               },
+               "SisterOfElune": {
+                  "Title": "Sister Of Elune",
+                  "Description": {
+                     "1": "You are part of the Sisterhood of Elune, a matriarchal religious/military organization that holds great sway in Night Elven society. The sisterhood is the gateway of a night elven sister joining the priesthood of Elune (becoming a Priestess of the Moon), or a member of the Watchers organization. Elite Watchers are elevated to being Wardens, legendary jailors of the enemies of Night Elven society.",
+                     "2": "Rather than training in Insight and Religion, you may exchange one of the proficiencies with Stealth. Also, rather than having 5 sticks of incense, you instead have an insignia of rank in the priesthood, and a bow of your choice that was the tool of your training in the favored weapon of the moon goddess."
+                  }
+               }
             }
          }
       },
@@ -2505,7 +2576,7 @@
             "Label": "Heroic Throw",
             "Description": {
                "1": {
-                  "Value":"You may throw a weapon further than it can normally go, or throw a melee weapon that does not have that property. You may increase the range of an existing thrown weapon by 60 feet, or give a melee weapon the thrown property (20/60 feet) for one round."
+                  "Value": "You may throw a weapon further than it can normally go, or throw a melee weapon that does not have that property. You may increase the range of an existing thrown weapon by 60 feet, or give a melee weapon the thrown property (20/60 feet) for one round."
                },
                "2": {
                   "Value": "On a hit, the weapon can either return to you after being thrown at a target, or knock the target prone (Agility save negates), dropping 5 feet from the target. This is a strike effect."
@@ -2685,6 +2756,8 @@
             "CastSpellInvalidTarget": "Invalid Target. Please select one hostile token.",
             "OutOfRange": "The target is out of range. Distance:"
          },
+         "Bond": "Bond",
+         "Bonds": "Bonds",
          "BonusAction": "Bonus Action",
          "Consumable": "Consumable",
          "Creature": "Creature",
@@ -2692,11 +2765,18 @@
             "CancelSkill": "Release",
             "CancelSkillDescription": "Do you really want to release the skill?"
          },
+         "Features": "Features",
+         "Flaw": "Flaw",
+         "Flaws": "Flaws",
+         "Ideal": "Ideal",
+         "Ideals": "Ideals",
          "MaterialCost": "Material Cost",
          "Phrases": {
             "Skill": "skill",
             "Spell": "spell"
          },
+         "PersonalityTrait": "Personality Trait",
+         "PersonalityTraits": "Personality Traits",
          "PointCost": "Point Cost",
          "Rarities": {
             "Common": "Common",
@@ -2707,6 +2787,7 @@
             "Artifact": "Artifact"
          },
          "Rarity": "Rarity",
+         "SuggestedCharacteristics": "Suggested Characteristics",
          "Units": {
             "Action": "action",
             "Ft": "ft",
