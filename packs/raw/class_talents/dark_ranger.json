@@ -18,9 +18,9 @@
                "value": "WC5E.Talents.DarkRanger.Description.1.Value"
             }
          ]
-      },
-      "img": "icons/magic/unholy/hand-marked-pink.webp",
-      "effects": [
-      ]
-   }
+      }
+   },
+   "img": "icons/magic/unholy/hand-marked-pink.webp",
+   "effects": [
+   ]
 }

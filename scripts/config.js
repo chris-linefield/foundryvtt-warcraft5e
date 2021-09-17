@@ -3,10 +3,14 @@ console.log('>> Wc5e: Adjusting 5e Config');
 import { DND5E } from "../../../systems/dnd5e/module/config.js";
 import { }       from "./config_class_features.js";
 
-DND5E.toolProficiencies.alc = "WC5E.AlchemistsSupplies";
-//DND5E.toolProficiencies.eng = "WC5E.EngineersTools";
-DND5E.toolProficiencies.poi = "WC5E.PoisonersKit";
-//DND5E.toolProficiencies.thi = "WC5E.ThievesTools";
+DND5E.toolProficiencies = {
+    "alc"  : "WC5E.AlchemistsSupplies",
+    "disg" : "WC5E.DisguiseKit",
+    "eng"  : "WC5E.EngineersTools",
+    "forg" : "WC5E.ForgeryKit",
+    "poi"  : "WC5E.PoisonersKit",
+    "thi"  : "WC5E.ThievesTools"
+};
 
 DND5E.languages = {
     "common"    : "WC5E.Languages.Common",

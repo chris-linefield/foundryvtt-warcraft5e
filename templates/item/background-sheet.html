@@ -7,7 +7,9 @@
                 <h1>{{localize item.name}}</h1>
                 <nav class="sheet-navigation tabs" data-group="primary">
                     <a class="item active" data-tab="lore">Background</a>
-                    <a class="item" data-tab="variants">Variants</a>
+                    {{#if item.flags.wc5e.variants}}
+                        <a class="item" data-tab="variants">Variants</a>
+                    {{/if}}
                 </nav>
             </div>
         </div>
@@ -16,64 +18,76 @@
 
     <section class="sheet-body">
         <div class="tab active" data-group="primary" data-tab="lore">
-            {{#each item.flags.wc5e.description}}
-                <p><i>“{{localize this}}“</i></p>
-            {{/each}}
-            <br>
-            <table>
-                <tr>
-                    <th class="left">Skill Proficiencies</th>
-                    <td>
-                        {{#if item.flags.wc5e.skillProfs}}
-                            {{#each item.flags.wc5e.skillProfs}}
-                                {{lookup ../config.skills this~}}
-                                {{#unless @last}},{{/unless}}
-                            {{/each}}
-                        {{/if}}
-                    </td>
-                </tr>
-                <tr>
-                    <th class="left">Tool Proficiencies</th>
-                    <td>
-                        {{#if item.flags.wc5e.toolProfs}}
-                            {{#each item.flags.wc5e.toolProfs}}
-                                {{lookup ../config.toolProficiencies this}}
-                            {{/each}},
-                        {{else}}
-                            -
-                        {{/if}}
-                    </td>
-                </tr>
-                <tr>
-                    <th class="left">Languages</th>
-                    <td>
-                        {{#if item.flags.wc5e.languages}}
-                            {{item.flags.wc5e.languages.number}}
-                            {{#if item.flags.wc5e.languages.range}}
-                                {{#each item.flags.wc5e.languages.range}}
-                                    {{this}}
-                                {{/each}},
-                            {{else}}
-                                of your choice
-                            {{/if}}
-                        {{/if}}
-                    </td>
-                </tr>
-                <tr>
-                    <th class="left">Equipment</th>
-                    <td>
-                        {{#if item.flags.wc5e.equipment}}
-                            {{#each item.flags.wc5e.equipment}}
-                                {{#each this}}
-                                    <a class="entity-link spellLink" data-pack="{{this.pack}}" data-id="{{this.node}}">
-                                        {{this.amount}}x {{localize this.label}}
-                                    </a>
-                                {{/each}}
-                            {{/each}}
-                        {{/if}}
-                    </td>
-                </tr>
-            </table>
+            <div class="backgroundIntro">
+                <div>
+                    {{#each item.flags.wc5e.description}}
+                        <p><i>“{{localize this}}“</i></p>
+                    {{/each}}
+                    <br>
+                    <table>
+                        <tr>
+                            <th class="left">Skills</th>
+                            <td>
+                                {{#if item.flags.wc5e.skillProfs}}
+                                    {{#each item.flags.wc5e.skillProfs}}
+                                        {{lookup ../config.skills this~}}
+                                        {{#unless @last}},{{/unless}}
+                                    {{/each}}
+                                {{/if}}
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="left">Tools</th>
+                            <td>
+                                {{#if item.flags.wc5e.toolProfs}}
+                                    {{#each item.flags.wc5e.toolProfs}}
+                                        {{lookup ../config.toolProficiencies this~}}
+                                        {{#unless @last}},{{/unless}}
+                                    {{/each}}
+                                {{else}}
+                                    -
+                                {{/if}}
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="left">Languages</th>
+                            <td>
+                                {{#if item.flags.wc5e.languages}}
+                                    {{item.flags.wc5e.languages.number}}
+                                    {{#if item.flags.wc5e.languages.range}}
+                                        {{#each item.flags.wc5e.languages.range}}
+                                            {{this}}
+                                        {{/each}},
+                                    {{else}}
+                                        of your choice
+                                    {{/if}}
+                                {{else}}
+                                    -
+                                {{/if}}
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="left">Equipment</th>
+                            <td>
+                                {{#if item.flags.wc5e.equipment}}
+                                    {{#each item.flags.wc5e.equipment}}
+                                        {{#each this}}
+                                            <a class="entity-link spellLink" data-pack="{{this.pack}}" data-id="{{this.node}}">
+                                                {{this.amount}}x {{localize this.label}}
+                                            </a>
+                                            <br>
+                                        {{/each}}
+                                    {{/each}}
+                                {{/if}}
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="artwork">
+                    <img src="{{item.flags.wc5e.artwork.src}}">
+                    <a href="{{item.flags.wc5e.artwork.url}}" target="_blank">&copy;{{item.flags.wc5e.artwork.credit}}</a>
+                </div>
+            </div>
             {{#if item.flags.wc5e.feats}}
                 <br>
                 <h3>{{localize "WC5E.UI.Features"}}</h3>
@@ -147,10 +161,10 @@
         </div>
         <div class="tab active" data-group="primary" data-tab="variants">
             {{#each item.flags.wc5e.variants}}
-            <div class="artwork">
-                <img src="{{this.artwork.src}}">
-                <a href="{{this.artwork.url}}" target="_blank">&copy;{{this.artwork.credit}}</a>
-            </div>
+                <div class="artwork">
+                    <img src="{{this.artwork.src}}">
+                    <a href="{{this.artwork.url}}" target="_blank">&copy;{{this.artwork.credit}}</a>
+                </div>
                 <h3>{{localize this.title}}</h3>
                 {{#each this.description}}
                     <p>
@@ -159,7 +173,7 @@
                         {{else}}
                             {{localize this}}
                         {{/if~}}
-                        {{#if @last}}“{{/if}}
+                        {{#if @first}}“{{/if}}
                     </p>
                 {{/each}}
                 <hr class="double full">

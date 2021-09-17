@@ -270,6 +270,19 @@
 }
 
 /*********************************
+ * BACKGROUND SHEET
+ ********************************/
+
+.warcraft5e .backgroundIntro {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.warcraft5e .backgroundIntro .artwork {
+    margin:0 0 0 20px !important;
+    float:none !important;
+}
+
+/*********************************
  * CLASS SHEET
  ********************************/
 

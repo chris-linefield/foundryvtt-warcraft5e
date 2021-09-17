@@ -141,6 +141,11 @@
                "WC5E.Backgrounds.Acolyte.Suggestions.Flaws.6"
             ]
          },
+         "artwork": {
+            "src": "modules/warcraft5e/res/pics/backgrounds/acolyte.jpg",
+            "url": "https://www.wallpaperflare.com/female-elf-character-illustration-fantasy-art-elves-magic-wallpaper-mxwka",
+            "credit": "???"
+         },
          "variants": [
             {
                "title": "WC5E.Backgrounds.Acolyte.Variants.Cultist.Title",
@@ -157,8 +162,8 @@
                },
                "artwork": {
                   "src": "modules/warcraft5e/res/pics/backgrounds/cultist.jpg",
-                  "url": "TODO",
-                  "credit": "TODO"
+                  "url": "https://www.instagram.com/luna_cosplay_craft/",
+                  "credit": "Luna"
                }
             },
             {

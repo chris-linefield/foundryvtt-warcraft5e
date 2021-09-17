@@ -1,74 +1,26 @@
 {
-   "_id":"jvupG7vUNKVCJhyx",
-   "name":"Iron Willed Hunter",
-   "permission":{
-      "default":0
+   "_id": "jvupG7vUNKVCJhyx",
+   "name": "Iron Willed Hunter",
+   "permission": {
+      "default": 0
    },
-   "type":"feat",
-   "data":{
-      "wcType": "talent",
-      "wcCategory": "WC5E.SkillCategories.General",
-      "description":{
-         "value":"WC5E.Talents.IronWilledHunter.Description",
-         "chat":"",
-         "unidentified":""
-      },
-      "source":"PHB page 165",
-      "activation":{
-         "type":"bonus",
-         "cost":1,
-         "condition":""
-      },
-      "duration":{
-         "value":null,
-         "units":""
-      },
-      "target":{
-         "value":null,
-         "units":null,
-         "type":"self"
-      },
-      "range":{
-         "value":null,
-         "long":null,
-         "units":"self"
-      },
-      "uses":{
-         "value":0,
-         "max":0,
-         "per":"",
-         "type":""
-      },
-      "ability":"",
-      "actionType":"",
-      "attackBonus":0,
-      "chatFlavor":"",
-      "critical":null,
-      "damage":{
-         "parts":[
-
-         ],
-         "versatile":"",
-         "value":""
-      },
-      "formula":"",
-      "save":{
-         "ability":"",
-         "dc":null,
-         "value":"",
-         "scaling":"spell"
-      },
-      "requirements":"5th level and at least 1 level in Hunter",
-      "recharge":{
-         "value":null,
-         "charged":false
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 165",
+      "requirements": "5th level and at least 1 level in Hunter"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "talent",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Talents.IronWilledHunter.Description.1.Value"
+            }
+         ]
       }
    },
-   "flags":{
-
-   },
-   "img":"systems/dnd5e/icons/skills/green_27.jpg",
-   "effects":[
-
+   "img": "systems/dnd5e/icons/skills/green_27.jpg",
+   "effects": [
    ]
 }
