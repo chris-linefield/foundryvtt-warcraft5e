@@ -4,6 +4,138 @@
          "Acolyte": {
             "Description": {
                "1": "You are a religious devotee. Acolytes tend to live somewhat sheltered lives as priests and aides in major religions, until the call to adventure sounds. Acolytes serving in the Church of the Holy Light are most common, but there are also other faiths with established hierarchies, such as the Troll faith in the Loa."
+            },
+            "Suggestions": {
+               "Description": "Acolytes are shaped by their experience in temples or other religious communities. Their study of the history and tenets of their faith and their relationships to temples, shrines, or hierarchies affect their mannerisms and ideals. Their flaws might be some hidden hypocrisy or heretical idea, or an ideal or bond taken to an extreme.",
+               "Personality": {
+                  "1": "I idolize a particular hero of my faith, and constantly refer to that person's deeds and example.",
+                  "2": "I can find common ground between the fiercest enemies, empathizing with them and always working toward peace.",
+                  "3": "I see omens in every event and action. The gods try to speak to us, we just need to listen.",
+                  "4": "Nothing can shake my optimistic attitude.",
+                  "5": "I quote (or misquote) sacred texts and proverbs in almost every situation.",
+                  "6": "I am tolerant (or intolerant) of other faiths and respect (or condemn) the worship of other gods.",
+                  "7": "I've enjoyed fine food, drink, and high society among my temple's elite. Rough living grates on me.",
+                  "8": "I've spent so long in the temple that I have little practical experience dealing with people in the outside world."
+               },
+               "Ideal": {
+                  "1": {
+                     "Title": "Tradition",
+                     "Value": "The ancient traditions of worship and sacrifice must be preserved and upheld. (Lawful)"
+                  },
+                  "2": {
+                     "Title": "Charity",
+                     "Value": "I always try to help those in need, no matter what the personal cost. (Good)"
+                  },
+                  "3": {
+                     "Title": "Change",
+                     "Value": "We must help bring about the changes the gods are constantly working in the world. (Chaotic)"
+                  },
+                  "4": {
+                     "Title": "Power",
+                     "Value": "I hope to one day rise to the top of my faith's religious hierarchy. (Lawful)"
+                  },
+                  "5": {
+                     "Title": "Faith",
+                     "Value": "I trust that my deity will guide my actions. I have faith that if I work hard, things will go well. (Lawful)"
+                  },
+                  "6": {
+                     "Title": "Aspiration",
+                     "Value": "I seek to prove myself worthy of my god's favor by matching my actions against their teachings. (Any)"
+                  }
+               },
+               "Bonds": {
+                  "1": "I would die to recover an ancient relic of my faith that was lost long ago.",
+                  "2": "I will someday get revenge on the corrupt temple hierarchy who branded me a heretic.",
+                  "3": "I owe my life to the priest who took me in when my parents died.",
+                  "4": "Everything I do is for the common people.",
+                  "5": "I will do anything to protect the temple where I served.",
+                  "6": "I seek to preserve a sacred text that my enemies consider heretical and seek to destroy."
+               },
+               "Flaws": {
+                  "1": "I judge others harshly, and myself even more severely.",
+                  "2": "I put too much trust in those who wield power within my temple's hierarchy.",
+                  "3": "My piety sometimes leads me to blindly trust those that profess faith in my god.",
+                  "4": "I am inflexible in my thinking.",
+                  "5": "I am suspicious of strangers and expect the worst of them.",
+                  "6": "Once I pick a goal, I become obsessed with it to the detriment of everything else in my life."
+               }
+            },
+            "Variants": {
+               "Cultist": {
+                  "Title": "Cultist",
+                  "Description": {
+                     "1": "You have dedicated your life (and very soul) to the service of a cult. This could be anything from a benign splinter organization away from the main church of the Holy Light to the dark Cult of the Damned, various demon cults (such as with many orcish clans), the Cult of Shadow, among others. With this variant, you are trained in hiding your faith and loyalties from others. You may also be part of the Shadow Council, venerating the Old Gods.",
+                     "2": "Rather than training in Insight and Religion, you may exchange one of the proficiencies with Deception or Intimidation."
+                  }
+               },
+               "SisterOfElune": {
+                  "Title": "Sister Of Elune",
+                  "Description": {
+                     "1": "You are part of the Sisterhood of Elune, a matriarchal religious/military organization that holds great sway in Night Elven society. The sisterhood is the gateway of a night elven sister joining the priesthood of Elune (becoming a Priestess of the Moon), or a member of the Watchers organization. Elite Watchers are elevated to being Wardens, legendary jailors of the enemies of Night Elven society.",
+                     "2": "Rather than training in Insight and Religion, you may exchange one of the proficiencies with Stealth. Also, rather than having 5 sticks of incense, you instead have an insignia of rank in the priesthood, and a bow of your choice that was the tool of your training in the favored weapon of the moon goddess."
+                  }
+               }
+            }
+         },
+         "Charlatan": {
+            "Description": {
+               "1": "You are a special sort of criminal who specializes in taking advantage of others. Charlatans tend to live in urbanized areas where they have many marks (targets) and areas where they can retreat if discovered.",
+               "2": "Anyone can become a charlatan, but they are common among human cities due to their urban nature."
+            },
+            "Suggestions": {
+               "Description": "Charlatans are colorful characters who conceal their true selves behind the masks they construct. They reflect what people want to see, what they want to believe, and how they see the world. But their true selves are sometimes plagued by an uneasy conscience, an old enemy, or deep-seated trust issues.",
+               "Personality": {
+                  "1": "I fall in and out of love easily, and am always pursuing someone.",
+                  "2": "I have a joke for every occasion, especially occasions where humor is inappropriate.",
+                  "3": "Flattery is my preferred trick for getting what I want.",
+                  "4": "I'm a born gambler who can't resist taking a risk for a potential payoff.",
+                  "5": "I lie about almost everything, even when there's no good reason to.",
+                  "6": "Sarcasm and insults are my weapons of choice.",
+                  "7": "I keep multiple holy symbols on me and invoke whatever deity might come in useful at any given moment.",
+                  "8": "I pocket anything I see that might have some value."
+               },
+               "Ideal": {
+                  "1": {
+                     "Title": "Independence",
+                     "Value": "I am a free spirit – no one tells me what to do. (Chaotic)"
+                  },
+                  "2": {
+                     "Title": "Fairness",
+                     "Value": "I never target people who can't afford to lose a few coins. (Lawful)"
+                  },
+                  "3": {
+                     "Title": "Charity",
+                     "Value": "I distribute the money I acquire to the people who really need it. (Good)"
+                  },
+                  "4": {
+                     "Title": "Creativity",
+                     "Value": "I never run the same con twice. (Chaotic)"
+                  },
+                  "5": {
+                     "Title": "Friendship",
+                     "Value": "Material goods come and go. Bonds of friendship last forever. (Good)"
+                  },
+                  "6": {
+                     "Title": "Aspiration",
+                     "Value": "I'm determined to make something of myself. (Any)"
+                  }
+               },
+               "Bonds": {
+                  "1": "I fleeced the wrong person and must work to ensure that this individual never crosses paths with me or those I care about.",
+                  "2": "I owe everything to my mentor – a horrible person who's probably rotting in jail somewhere.",
+                  "3": "Somewhere out there, I have a child who doesn't know me. I'm making the world better for him or her.",
+                  "4": "I come from a noble family, and one day I'll reclaim my lands and title from those who stole them from me.",
+                  "5": "A powerful person killed someone I love. Some day soon, I'll have my revenge.",
+                  "6": "I swindled and ruined a person who didn't deserve it. I seek to atone for my misdeeds but might never be able to forgive myself."
+               },
+               "Flaws": {
+                  "1": "I can't resist a pretty face.",
+                  "2": "I'm always in debt. I spend my ill-gotten gains on decadent luxuries faster than I bring them in.",
+                  "3": "I'm convinced that no one could ever fool me the way I fool others.",
+                  "4": "I'm too greedy for my own good. I can't resist taking a risk if there's money involved.",
+                  "5": "I can't resist swindling people who are more powerful than me.",
+                  "6": "I hate to admit it and will hate myself for it, but I'll run and preserve my own hide if the going gets tough.\n"
+               }
             }
          }
       },
@@ -708,6 +840,14 @@
                }
             }
          },
+         "FalseIdentity": {
+            "Label": "False Identity",
+            "Description": {
+               "1": {
+                  "Value": "You have created a second identity that includes documentation, established acquaintances, and disguises that allow you to assume that persona. Additionally, you can forge documents including official papers and personal letters, as long as you have seen an example of the kind of document or the handwriting you are trying to copy."
+               }
+            }
+         },
          "FavoredCreations": {
             "Label": "Favored Creations",
             "Description": {
@@ -724,6 +864,24 @@
                },
                "2": {
                   "Value": "You may change a single favored potion with one week of downtime."
+               }
+            }
+         },
+         "FavoriteSchemes": {
+            "Label": "Favorite Schemes",
+            "Description": {
+               "1": {
+                  "Value": "Every charlatan has an angle they use in preference to other schemes. Choose a favorite scam or roll on the table below."
+               },
+               "2": {
+                  "Options": {
+                     "1": "I cheat at games of chance.",
+                     "2": "I shave coins or forge documents.",
+                     "3": "I insinuate myself into people's lives to prey on their weakness and secure their fortunes.",
+                     "4": "I put on new identities like clothes.",
+                     "5": "I run sleight-of-hand cons on street corners.",
+                     "6": "I convince people that worthless junk is worth their hard-earned money."
+                  }
                }
             }
          },
@@ -1549,11 +1707,20 @@
          "CommonClothes": {
             "Label": "Common Clothes"
          },
+         "DisguiseKit": {
+            "Label": "Disguise Kit"
+         },
          "EngineersTools": {
             "Label": "Engineer‘s Tools"
          },
+         "FineClothes": {
+            "Label": "Fine Clothes"
+         },
          "HolySymbol": {
             "Label": "Holy Symbol"
+         },
+         "MarkedCards": {
+            "Label": "Marked Cards"
          },
          "PoisonersKit": {
             "Label": "Poisoner‘s Kit"
@@ -1575,6 +1742,9 @@
          },
          "Vestments": {
             "Label": "Vestments"
+         },
+         "WeightedDice": {
+            "Label": "Weighted Dice"
          }
       },
       "Languages": {
@@ -1957,12 +2127,30 @@
       "Spells": {
          "AbandonmentAura": {
             "Label": "Abandonment Aura",
-            "Description": "Destructive energy radiates from you in an aura with a 15-foot radius. Until the spell ends, the aura moves with you, centered on you. Each creature hostile to you that is in the aura takes 1 extra point of damage from all weapon attacks. A creature can negate this effect if they succeed on a Spirit saving throw once within the aura‘s area.<br> This spell is suppressed by the protection from good and evil (and similar abjurations). This is an aura bonus.",
-            "Heightened": "For each spell level above 1st, the extra damage increases by 1 point (up to 5 extra points of damage at spell level 5).<br> Note. This spell suppresses and is suppressed by the devotion aura spell."
+            "Description": {
+               "1": {
+                  "Value": "Destructive energy radiates from you in an aura with a 15-foot radius. Until the spell ends, the aura moves with you, centered on you. Each creature hostile to you that is in the aura takes 1 extra point of damage from all weapon attacks. A creature can negate this effect if they succeed on a Spirit saving throw once within the aura‘s area."
+               },
+               "2": {
+                  "Value": "This spell is suppressed by the protection from good and evil (and similar abjurations). This is an aura bonus."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "For each spell level above 1st, the extra damage increases by 1 point (up to 5 extra points of damage at spell level 5)."
+               },
+               "2": {
+                  "Value": "Note. This spell suppresses and is suppressed by the devotion aura spell."
+               }
+            }
          },
          "AbsorbElements": {
             "Label": "Absorb Elements",
-            "Description": "The spell captures some of the incoming energy, lessening its effect on you and storing it for your next melee attack. You have resistance to the triggering damage type until the start of your next turn. Also, the first time you hit with a melee attack on your next turn, the target takes an extra 1d6 damage of the triggering type, and the spell ends.",
+            "Description": {
+               "1": {
+                  "Value": "The spell captures some of the incoming energy, lessening its effect on you and storing it for your next melee attack. You have resistance to the triggering damage type until the start of your next turn. Also, the first time you hit with a melee attack on your next turn, the target takes an extra 1d6 damage of the triggering type, and the spell ends."
+               }
+            },
             "Heightened": "When you cast this spell using a spell slot of 2nd level or higher, the extra damage increases by 1d6 for each slot level above 1st."
          },
          "AlignedWeapon": {
@@ -2207,291 +2395,731 @@
       "Talents": {
          "ActionSurge": {
             "Label": "Action Surge",
-            "Description": "You can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action on top of your regular action and a possible bonus action. Once you use this feature, you must finish a short before you can use it again. This talent can be taken again at level 17 for another use."
+            "Description": {
+               "1": {
+                  "Value": "You can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action on top of your regular action and a possible bonus action. Once you use this feature, you must finish a short before you can use it again. This talent can be taken again at level 17 for another use."
+               }
+            }
          },
          "Aggressive": {
             "Label": "Aggressive",
-            "Description": "You may use your bonus action to take the Dash action, but only to approach a hostile creature that you can see."
+            "Description": {
+               "1": {
+                  "Value": "You may use your bonus action to take the Dash action, but only to approach a hostile creature that you can see."
+               }
+            }
          },
          "AgileLeap": {
             "Label": "Agile Leap",
-            "Description": "You may use a bonus action to leap, moving at half your total speed. This movement does not provoke reactions. If you have the ability to glide, hover, or fly (via spell, gadget, or ability), you may choose to use this ability in mid-air (effectively changing your trajectory as a double-jump). This jump also counts as a dash for the purposes of other abilities.<br>You are treated as if you always benefit from the jump spell."
+            "Description": {
+               "1": {
+                  "Value": "You may use a bonus action to leap, moving at half your total speed. This movement does not provoke reactions. If you have the ability to glide, hover, or fly (via spell, gadget, or ability), you may choose to use this ability in mid-air (effectively changing your trajectory as a double-jump). This jump also counts as a dash for the purposes of other abilities."
+               },
+               "2": {
+                  "Value": "You are treated as if you always benefit from the jump spell."
+               }
+            }
          },
          "BerserkerRage": {
             "Label": "Berserker Rage",
-            "Description": "You may cast the berserker rage spell on yourself as a bonus action. This rage continues until you end it with a bonus action, or until the rage ends early (as per the spell‘s description).<br>This spell cannot be dispelled, but can be overwhelmed by a calm emotions spell or similar effect that would suppress this ability, and does not prevent use of spell-like abilities derived from talents. You can enter a rage this way a number of times equal to your proficiency bonus before replenishing on a long rest.<br>You can take this talent again. If you do so, you do not gain a level of exhaustion at the end (regardless of how long you rage)<br>If you reach 9th level of Warrior, your rage only ends if you are knocked unconscious or if you end it willingly."
+            "Description": {
+               "1": {
+                  "Value": "You may cast the berserker rage spell on yourself as a bonus action. This rage continues until you end it with a bonus action, or until the rage ends early (as per the spell‘s description)."
+               },
+               "2": {
+                  "Value": "This spell cannot be dispelled, but can be overwhelmed by a calm emotions spell or similar effect that would suppress this ability, and does not prevent use of spell-like abilities derived from talents. You can enter a rage this way a number of times equal to your proficiency bonus before replenishing on a long rest."
+               },
+               "3": {
+                  "Value": "You can take this talent again. If you do so, you do not gain a level of exhaustion at the end (regardless of how long you rage)"
+               },
+               "4": {
+                  "Value": "If you reach 9th level of Warrior, your rage only ends if you are knocked unconscious or if you end it willingly."
+               }
+            }
          },
          "Bladestorm": {
             "Label": "Bladestorm",
-            "Description": "You may enter this stance with an action. While in this stance, you whirl with your weapon outstretched, automatically dealing your melee weapon damage to all creatures within the weapon‘s reach of you. This damage is treated as an area effect. Affected targets are entitled an Agility saving throw to halve the damage. You can apply strike effects, but they affect only targets who failed their saving throw, and one strike affects one target.<br>You cannot take any other actions in this stance other than maintaining it. You can enter this stance a number of times equal to your proficiency bonus before replenishing on a short rest, and the effects of it remaining until the beginning of your turn in the next round unless you extend it using the same actions.<br>While in this stance, you have advantage against all movement-impairing effects or effects that result in loss of control for your character, and you do not provoke reactions from movement from a creature who has failed their saving throw to half damage. Your speed, however, is halved in this stance. If you are unable to use your action, or if you cannot move at least 5 feet every round, this stance ends. If you are in this stance more than 3 rounds, you gain the incapacitated condition for after you are finished. The condition remains for 1 round per round you were in the stance beyond the first three."
+            "Description": {
+               "1": {
+                  "Value": "You may enter this stance with an action. While in this stance, you whirl with your weapon outstretched, automatically dealing your melee weapon damage to all creatures within the weapon‘s reach of you. This damage is treated as an area effect. Affected targets are entitled an Agility saving throw to halve the damage. You can apply strike effects, but they affect only targets who failed their saving throw, and one strike affects one target."
+               },
+               "2": {
+                  "Value": "You cannot take any other actions in this stance other than maintaining it. You can enter this stance a number of times equal to your proficiency bonus before replenishing on a short rest, and the effects of it remaining until the beginning of your turn in the next round unless you extend it using the same actions."
+               },
+               "3": {
+                  "Value": "While in this stance, you have advantage against all movement-impairing effects or effects that result in loss of control for your character, and you do not provoke reactions from movement from a creature who has failed their saving throw to half damage. Your speed, however, is halved in this stance. If you are unable to use your action, or if you cannot move at least 5 feet every round, this stance ends. If you are in this stance more than 3 rounds, you gain the incapacitated condition for after you are finished. The condition remains for 1 round per round you were in the stance beyond the first three."
+               }
+            }
          },
          "BrutalCritical": {
             "Label": "Brutal Critical",
-            "Description": "You can roll one additional weapon damage die when determining the extra damage for a critical hit with a melee weapon attack. This talent can be taken again up to two times (resulting in three additional dice)."
+            "Description": {
+               "1": {
+                  "Value": "You can roll one additional weapon damage die when determining the extra damage for a critical hit with a melee weapon attack. This talent can be taken again up to two times (resulting in three additional dice)."
+               }
+            }
          },
          "BurningBlades": {
             "Label": "Burning Blades",
-            "Description": "As a bonus action, you can ignite any number of weapons you are wielding with magical energies. The weapon acts as if it gained the Elemental Damage Infusion (deals 1d6 extra elemental damage) for 1 minute and becomes magical. If you end your turn without attacking a target (without necessarily hitting them), the weapon loses the infusion and is extinguished. You have a number of uses of this ability (and can ignite a total number of weapons) equal to your Strength or Stamina modifier (minimum 1).<br>Despite the talent‘s name, you can choose which damage type the weapon deals (not necessarily fire) upon gaining this talent. You regain all the uses of this ability at the end of a long rest. You can regain a single use if you kill or reduce a creature to 0 hit points, so long as that creature can deal the same type of elemental damage (such as by spell, attack, or aura)."
+            "Description": {
+               "1": {
+                  "Value": "As a bonus action, you can ignite any number of weapons you are wielding with magical energies. The weapon acts as if it gained the Elemental Damage Infusion (deals 1d6 extra elemental damage) for 1 minute and becomes magical. If you end your turn without attacking a target (without necessarily hitting them), the weapon loses the infusion and is extinguished. You have a number of uses of this ability (and can ignite a total number of weapons) equal to your Strength or Stamina modifier (minimum 1)."
+               },
+               "2": {
+                  "Value": "Despite the talent‘s name, you can choose which damage type the weapon deals (not necessarily fire) upon gaining this talent. You regain all the uses of this ability at the end of a long rest. You can regain a single use if you kill or reduce a creature to 0 hit points, so long as that creature can deal the same type of elemental damage (such as by spell, attack, or aura)."
+               }
+            }
          },
          "Camouflage": {
             "Label": "Camouflage",
-            "Description": "You can use the Hide action as a bonus action on your turn. If you are also proficient with the Agility (Stealth) skill, you may cast the invisibility spell by spending an action and a bonus action. After being used, the spell cannot be used again until after a short rest. Also, you can‘t be tracked by nonmagical means, unless you choose to leave a trail, even outside your favored terrain (if you have one). "
+            "Description": {
+               "1": {
+                  "Value": "You can use the Hide action as a bonus action on your turn. If you are also proficient with the Agility (Stealth) skill, you may cast the invisibility spell by spending an action and a bonus action. After being used, the spell cannot be used again until after a short rest. Also, you can‘t be tracked by nonmagical means, unless you choose to leave a trail, even outside your favored terrain (if you have one)."
+               }
+            }
          },
          "CloakOfShadows": {
             "Label": "Cloak of Shadows",
-            "Description": "You cloak yourself with bits of the fading shadows of mana, hiding even from the effects of spells that affect you.<br>As an Action, you can cloak yourself with magical shadows for until the end of your turn in the next round. Any spell of a spell level less than one-half your level (round down) cast upon you can't affect you or anything you hold. Such a spell can target you or something you hold, but the spell has no effect. Similarly, your area is excluded from the areas affected by such spells. You can activate your Cloak of Shadows ability for a total number of rounds equal to one-half your level, replenishing on a long rest, and can extend an active cloak of shadows with no action so long as you have remaining rounds.<br>You may cloak yourself as a reaction instead, but each round consumed this way costs double the normal number of rounds of this ability. This effect otherwise acts as a globe of invulnerability spell of a spell level equal to one-half your level (round down). "
+            "Description": {
+               "1": {
+                  "Value": "You cloak yourself with bits of the fading shadows of mana, hiding even from the effects of spells that affect you."
+               },
+               "2": {
+                  "Value": "As an Action, you can cloak yourself with magical shadows for until the end of your turn in the next round. Any spell of a spell level less than one-half your level (round down) cast upon you can't affect you or anything you hold. Such a spell can target you or something you hold, but the spell has no effect. Similarly, your area is excluded from the areas affected by such spells. You can activate your Cloak of Shadows ability for a total number of rounds equal to one-half your level, replenishing on a long rest, and can extend an active cloak of shadows with no action so long as you have remaining rounds."
+               },
+               "3": {
+                  "Value": "You may cloak yourself as a reaction instead, but each round consumed this way costs double the normal number of rounds of this ability. This effect otherwise acts as a globe of invulnerability spell of a spell level equal to one-half your level (round down). "
+               }
+            }
          },
          "CunningAction": {
             "Label": "Cunning Action",
-            "Description": "Your quick thinking and agility allow you to move and act quickly. You can take a bonus action on each of your turns in combat to use the following action: Dash, Disengage, or Hide."
+            "Description": {
+               "1": {
+                  "Value": "Your quick thinking and agility allow you to move and act quickly. You can take a bonus action on each of your turns in combat to use the following action: Dash, Disengage, or Hide."
+               }
+            }
          },
          "DangerSense": {
             "Label": "Danger Sense",
-            "Description": "You gain an uncanny sense of when things nearby aren‘t as they should be, giving you an edge when you dodge away from danger. You have advantage on Agility saving throws against effects that you can see, such as traps and spells. To gain this benefit, you can‘t be blinded, deafened, or incapacitated. You must be able to see the effect before it takes place (such as seeing a character cast a spell or the outer mechanism of the trap)."
+            "Description": {
+               "1": {
+                  "Value": "You gain an uncanny sense of when things nearby aren‘t as they should be, giving you an edge when you dodge away from danger. You have advantage on Agility saving throws against effects that you can see, such as traps and spells. To gain this benefit, you can‘t be blinded, deafened, or incapacitated. You must be able to see the effect before it takes place (such as seeing a character cast a spell or the outer mechanism of the trap)."
+               }
+            }
          },
          "DarkRanger": {
             "Label": "Dark Ranger",
-            "Description": "You add the following spells to your hunter spell list: banshee‟s curse, death coil, death pact, drain life, death ward, and silence. You may also add undead to the list of creatures you can bind and conjure (allowing you to also charm and dominate undead)."
+            "Description": {
+               "1": {
+                  "Value": "You add the following spells to your hunter spell list: banshee‟s curse, death coil, death pact, drain life, death ward, and silence. You may also add undead to the list of creatures you can bind and conjure (allowing you to also charm and dominate undead)."
+               }
+            }
          },
          "DefensiveStance": {
             "Label": "Defensive Stance",
-            "Description": "You may enter this stance with a bonus action. While in this stance, you have resistance against piercing damage.<br>This stance is broken if you move more than half your full movement in a single round, or if you are no longer using a shield."
+            "Description": {
+               "1": {
+                  "Value": "You may enter this stance with a bonus action. While in this stance, you have resistance against piercing damage."
+               },
+               "2": {
+                  "Value": "This stance is broken if you move more than half your full movement in a single round, or if you are no longer using a shield."
+               }
+            }
          },
          "DeflectMissiles": {
             "Label": "Deflect Missiles",
-            "Description": "You can use your reaction to deflect or catch a ranged weapon attack you are hit by. When you do so, the damage you take from the attack is reduced by 1d10 + your Strength or Agility modifier (your choice) + your level.<br>If you reduce the damage to 0 and you have at least 2 Monk levels, you can catch the missile if it is small enough for you to hold in one hand and you have at least one hand free. If you catch a missile in this way, you can spend 1 ki point to make a ranged attack with the weapon or piece of ammunition you just caught, as part of the same reaction. You make this attack with proficiency, regardless of your weapon proficiencies, and the missile counts as a monk weapon for the attack. The range of this ability is 20/60 feet."
+            "Description": {
+               "1": {
+                  "Value": "You can use your reaction to deflect or catch a ranged weapon attack you are hit by. When you do so, the damage you take from the attack is reduced by 1d10 + your Strength or Agility modifier (your choice) + your level."
+               },
+               "2": {
+                  "Value": "If you reduce the damage to 0 and you have at least 2 Monk levels, you can catch the missile if it is small enough for you to hold in one hand and you have at least one hand free. If you catch a missile in this way, you can spend 1 ki point to make a ranged attack with the weapon or piece of ammunition you just caught, as part of the same reaction. You make this attack with proficiency, regardless of your weapon proficiencies, and the missile counts as a monk weapon for the attack. The range of this ability is 20/60 feet."
+               }
+            }
          },
          "DireStrike": {
             "Label": "Dire Strike",
-            "Description": "You strike at a vulnerable place in the target's body when you may deal your sneak attack damage. Instead of dealing extra sneak attack damage, you may impose a condition on the target on a failed Stamina saving throw. The weapon damage type determines the condition, chosen from the below.<br><br><ul><li><i>Blinded (any)</i>: The target is blinded for until the end of their turn in the next round.</li><li><i>Kidney Shot (piercing or bludgeoning, requires level 5)</i>: The target is stunned until the end of their turn in the next round.</li><li><i>Rupture (slashing or piercing)</i>: The target gains the bleeding condition for 1 minute, with the value of blood loss equal to your Agility modifier. Furthermore, unless they take precautions, they leave a trail of blood behind them. The creature can attempt another Stamina saving throw at the beginning of every round to end this effect. Creatures that don't have blood (or do not require it to survive) cannot be harmed by bleeding.</li><li><i>Sap (bludgeoning)</i>: The creature is charmed for one minute and looks visibly dazed and flat-footed. While charmed by this effect, the creature is incapacitated and has a speed of 0. The effect ends for an affected creature if it takes any damage or if someone else uses an action to shake the creature out of its stupor. The creature can attempt another Stamina saving throw once every round to end this effect. Once a creature is affected by this ability, it is immune to it until it performs a short rest.</li></ul><br>For each saving throw attempt the target makes against a dire strike ability, they gain a cumulative +1 to their saving throws against this ability. This applies to saving throws rolled every round as well as new applications of effects that were already chosen. The bonus to saving throws remains for up to 24 hours. If the rupture strike, for example, has a DC of 14 the first round, the DC decreases to 13 the second round, and 12 the third round. If choosing kidney shot, the DC decreases the more the ability is applied."
+            "Description": {
+               "1": {
+                  "Value": "You strike at a vulnerable place in the target's body when you may deal your sneak attack damage. Instead of dealing extra sneak attack damage, you may impose a condition on the target on a failed Stamina saving throw. The weapon damage type determines the condition, chosen from the below."
+               },
+               "2": {
+                  "Options": {
+                     "1": "<i>Blinded (any)</i>: The target is blinded for until the end of their turn in the next round.",
+                     "2": "<i>Kidney Shot (piercing or bludgeoning, requires level 5)</i>: The target is stunned until the end of their turn in the next round.",
+                     "3": "<i>Rupture (slashing or piercing)</i>: The target gains the bleeding condition for 1 minute, with the value of blood loss equal to your Agility modifier. Furthermore, unless they take precautions, they leave a trail of blood behind them. The creature can attempt another Stamina saving throw at the beginning of every round to end this effect. Creatures that don't have blood (or do not require it to survive) cannot be harmed by bleeding.",
+                     "4": "<i>Sap (bludgeoning)</i>: The creature is charmed for one minute and looks visibly dazed and flat-footed. While charmed by this effect, the creature is incapacitated and has a speed of 0. The effect ends for an affected creature if it takes any damage or if someone else uses an action to shake the creature out of its stupor. The creature can attempt another Stamina saving throw once every round to end this effect. Once a creature is affected by this ability, it is immune to it until it performs a short rest."
+                  }
+               },
+               "3": {
+                  "Value": "For each saving throw attempt the target makes against a dire strike ability, they gain a cumulative +1 to their saving throws against this ability. This applies to saving throws rolled every round as well as new applications of effects that were already chosen. The bonus to saving throws remains for up to 24 hours. If the rupture strike, for example, has a DC of 14 the first round, the DC decreases to 13 the second round, and 12 the third round. If choosing kidney shot, the DC decreases the more the ability is applied."
+               }
+            }
          },
          "DreadAmbusher": {
             "Label": "Dread Ambusher",
-            "Description": "You master the art of the ambush. You gain a bonus your initiative rolls equal to your Spirit modifier. Also, the start of your first turn of each combat encounter, your speed increases by 10 feet, which lasts until the end of that turn. When you retreat from combat, you have advantage to any Agility (Stealth) check to escape being pursued."
+            "Description": {
+               "1": {
+                  "Value": "You master the art of the ambush. You gain a bonus your initiative rolls equal to your Spirit modifier. Also, the start of your first turn of each combat encounter, your speed increases by 10 feet, which lasts until the end of that turn. When you retreat from combat, you have advantage to any Agility (Stealth) check to escape being pursued."
+               }
+            }
          },
          "Elusive": {
             "Label": "Elusive",
-            "Description": "You are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while you aren‘t incapacitated."
+            "Description": {
+               "1": {
+                  "Value": "You are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while you aren‘t incapacitated."
+               }
+            }
          },
          "EssenceTouch": {
             "Label": "Essence Touch",
-            "Description": "Whenever you touch a creature with innate special abilities (such as innate spellcasting), you can gain one use of their innate special abilities, usable only once before the essence fades away. This costs no mana, but you cannot steal an ability that is also a spell unless you had the level to cast it normally. Monks referring to their ki spell ability for the purposes of this talent."
+            "Description": {
+               "1": {
+                  "Value": "Whenever you touch a creature with innate special abilities (such as innate spellcasting), you can gain one use of their innate special abilities, usable only once before the essence fades away. This costs no mana, but you cannot steal an ability that is also a spell unless you had the level to cast it normally. Monks referring to their ki spell ability for the purposes of this talent."
+               }
+            }
          },
          "Evasion": {
             "Label": "Evasion",
-            "Description": "You can nimbly dodge out of the way of certain area effects, such as a dragon‘s fiery breath or an ice storm spell. When you are subjected to an effect that allows you to make an Agility saving throw to take half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail."
+            "Description": {
+               "1": {
+                  "Value": "You can nimbly dodge out of the way of certain area effects, such as a dragon‘s fiery breath or an ice storm spell. When you are subjected to an effect that allows you to make an Agility saving throw to take half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail."
+               }
+            }
          },
          "Execute": {
             "Label": "Execute",
-            "Description": "Your attack carries with it the weight of doom. If you successfully deal damage with this strike effect against a bloodied target, the attack deals 50% extra damage.<br>After being used, this cannot be used again until after a short rest. If the target is killed or reduced to 0 hit points by this strike, you regain the use of it. If the target has any ability that would prevent it from being reduced to 0 hit points when it otherwise should have (such as the Relentless talent, the Undead Fortitude trait, or similar ability that would allow an escape) it must make a Stamina saving throw against your DC or else it fails and it is reduced to 0 hit points.<br>This talent can be taken multiple times, each time adding another use before requiring a short rest. This is a strike effect."
+            "Description": {
+               "1": {
+                  "Value": "Your attack carries with it the weight of doom. If you successfully deal damage with this strike effect against a bloodied target, the attack deals 50% extra damage."
+               },
+               "2": {
+                  "Value": "After being used, this cannot be used again until after a short rest. If the target is killed or reduced to 0 hit points by this strike, you regain the use of it. If the target has any ability that would prevent it from being reduced to 0 hit points when it otherwise should have (such as the Relentless talent, the Undead Fortitude trait, or similar ability that would allow an escape) it must make a Stamina saving throw against your DC or else it fails and it is reduced to 0 hit points."
+               },
+               "3": {
+                  "Value": "This talent can be taken multiple times, each time adding another use before requiring a short rest. This is a strike effect."
+               }
+            }
          },
          "FadingShadow": {
             "Label": "Fading Shadow",
-            "Description": "You may cast the blink step spell. After being used, this cannot be used again until after a short rest. This talent can be taken multiple times, each time adding another two uses of this ability before a short rest. If your level is 9, each use acts as the dimension door spell instead."
+            "Description": {
+               "1": {
+                  "Value": "You may cast the blink step spell. After being used, this cannot be used again until after a short rest. This talent can be taken multiple times, each time adding another two uses of this ability before a short rest. If your level is 9, each use acts as the dimension door spell instead."
+               }
+            }
          },
          "FanOfKnives": {
             "Label": "Fan of Knives",
-            "Description": "Whenever you use an action to attack with a light throwing weapon (such as daggers, darts, light hammers, handaxes, or javelins), you may throw another of the same type as part of the same attack action. You may still use two-weapon fighting to throw a third weapon as a bonus action. This stacks with the Extra Attack feature, if you possess it (adding one thrown attack with the first action for each extra attack).<br>You may instead spend your action and bonus action to release the same number of weapons as a 20-foot sphere (all around you), a 15-foot cone (in a quarter-circle), or a line 30 feet long, 5 feet wide in any direction you choose. This requires throwing up to three weapons, and deals damage as if they all hit, with an Agility saving throw to half damage.<br><i>Special</i>: If you have the Sneak Attack feature, you may add one additional point of damage per sneak attack dice to the total damage, but only if the target qualifies for a sneak attack. This is an area effect."
+            "Description": {
+               "1": {
+                  "Value": "Whenever you use an action to attack with a light throwing weapon (such as daggers, darts, light hammers, handaxes, or javelins), you may throw another of the same type as part of the same attack action. You may still use two-weapon fighting to throw a third weapon as a bonus action. This stacks with the Extra Attack feature, if you possess it (adding one thrown attack with the first action for each extra attack)."
+               },
+               "2": {
+                  "Value": "You may instead spend your action and bonus action to release the same number of weapons as a 20-foot sphere (all around you), a 15-foot cone (in a quarter-circle), or a line 30 feet long, 5 feet wide in any direction you choose. This requires throwing up to three weapons, and deals damage as if they all hit, with an Agility saving throw to half damage."
+               },
+               "3": {
+                  "Value": "If you have the Sneak Attack feature, you may add one additional point of damage per sneak attack dice to the total damage, but only if the target qualifies for a sneak attack. This is an area effect."
+               }
+            }
          },
          "Farsight": {
             "Label": "Farsight",
-            "Description": "You increase the range of all ranged weapons of one type (crossbows, bows, firearms, axes, etc.) by half."
+            "Description": {
+               "1": {
+                  "Value": "You increase the range of all ranged weapons of one type (crossbows, bows, firearms, axes, etc.) by half."
+               }
+            }
          },
          "FavoredByElune": {
             "Label": "Favored By Elune",
-            "Description": "You may add the find familiar spell to your spell list, but may only choose an owl as a familiar. Furthermore, your link to your owl familiar is 250 feet, instead of the normal 100 feet. If you are standing in moonlight, the link becomes 500 feet instead. If you later choose the Beastmaster Hunter archetype, you may make your familiar your bonded creature, in which case the creature is treated as both a familiar and hunter‘s companion."
+            "Description": {
+               "1": {
+                  "Value": "You may add the find familiar spell to your spell list, but may only choose an owl as a familiar. Furthermore, your link to your owl familiar is 250 feet, instead of the normal 100 feet. If you are standing in moonlight, the link becomes 500 feet instead. If you later choose the Beastmaster Hunter archetype, you may make your familiar your bonded creature, in which case the creature is treated as both a familiar and hunter‘s companion."
+               }
+            }
          },
          "FavoredEnemy": {
             "Label": "Favored Enemy",
-            "Description": "You may use the Favored Enemy ability as a 1st level Hunter, or choose another favored enemy if you normally have it (such as by being a hunter). You cannot take this talent more than 3 times."
+            "Description": {
+               "1": {
+                  "Value": "You may use the Favored Enemy ability as a 1st level Hunter, or choose another favored enemy if you normally have it (such as by being a hunter). You cannot take this talent more than 3 times."
+               }
+            }
          },
          "FeralSenses": {
             "Label": "Feral Senses",
-            "Description": "You gain preternatural senses that help you fight creatures you can‘t see. When you attack a creature you can‘t see, your inability to see it doesn‘t impose disadvantage on your attack rolls against it. You also permanently benefit from the see invisibility spell as if you cast it, but only so long as the enemy is within 60 feet."
+            "Description": {
+               "1": {
+                  "Value": "You gain preternatural senses that help you fight creatures you can‘t see. When you attack a creature you can‘t see, your inability to see it doesn‘t impose disadvantage on your attack rolls against it. You also permanently benefit from the see invisibility spell as if you cast it, but only so long as the enemy is within 60 feet."
+               }
+            }
          },
          "FlashBomber": {
             "Label": "Flash Bomber",
-            "Description": "You may use a bonus action or reaction to activate or make use of the Use Object action for alchemical items or explosives. This may be used at a number of times equal to your Intelligence modifier before a short rest."
+            "Description": {
+               "1": {
+                  "Value": "You may use a bonus action or reaction to activate or make use of the Use Object action for alchemical items or explosives. This may be used at a number of times equal to your Intelligence modifier before a short rest."
+               }
+            }
          },
          "FocusedAttack": {
             "Label": "Focused Attack",
-            "Description": "You may choose to deal focused attacks instead of risking missed attacks. Whenever you score a successful ranged attack and have any remaining attacks (such as from the Extra Attack feature or the haste spell), you may spend the extra attacks to add the minimum possible damage the weapon attack to your damage result. The damage is resolved as made by one weapon attack (and uses one point of ammunition as normal, or one malfunction check). For instance, if you successfully deal a longbow ranged attack for 1d8 + 4, and have an additional attack from the haste spell, you may expend the attack to add 5 points of damage to the initial attack (for a total of 1d8 + 9) damage."
+            "Description": {
+               "1": {
+                  "Value": "You may choose to deal focused attacks instead of risking missed attacks. Whenever you score a successful ranged attack and have any remaining attacks (such as from the Extra Attack feature or the haste spell), you may spend the extra attacks to add the minimum possible damage the weapon attack to your damage result. The damage is resolved as made by one weapon attack (and uses one point of ammunition as normal, or one malfunction check). For instance, if you successfully deal a longbow ranged attack for 1d8 + 4, and have an additional attack from the haste spell, you may expend the attack to add 5 points of damage to the initial attack (for a total of 1d8 + 9) damage."
+               }
+            }
          },
          "Hamstring": {
             "Label": "Hamstring",
-            "Description": "As a strike, you may cut a target‘s hamstring. The target‘s movement speed is reduced by 10 feet for one minute. Also, whenever they move more than half their speed or whenever they use the Dash action, they fall prone. The target (or an ally) may use an action to roll a Stamina saving throw against this ability, which ends the condition. It ends automatically at the end of a short rest. This speed reduction can be applied multiple times, to a minimum speed of 0 (in which case the target is treated as if restrained). This is a strike effect. This strike can be used a number of times equal to your proficiency bonus, with the uses replenishing at the end of a short rest."
+            "Description": {
+               "1": {
+                  "Value": "As a strike, you may cut a target‘s hamstring. The target‘s movement speed is reduced by 10 feet for one minute. Also, whenever they move more than half their speed or whenever they use the Dash action, they fall prone. The target (or an ally) may use an action to roll a Stamina saving throw against this ability, which ends the condition. It ends automatically at the end of a short rest. This speed reduction can be applied multiple times, to a minimum speed of 0 (in which case the target is treated as if restrained). This is a strike effect. This strike can be used a number of times equal to your proficiency bonus, with the uses replenishing at the end of a short rest."
+               }
+            }
          },
          "HeroicLeap": {
             "Label": "Heroic Leap",
-            "Description": "You may make a heroic leap, jumping up to twice your normal distance, and can spend an action at the end. If the action is a melee attack roll, it deals damage equal to your normal weapon damage in a 10-foot sphere, centered on the area you landed on, with an Agility saving throw to half damage. The ground is also turned into difficult terrain (such as rubble) if applicable. Once used, this talent cannot be used again until after a short rest."
+            "Description": {
+               "1": {
+                  "Value": "You may make a heroic leap, jumping up to twice your normal distance, and can spend an action at the end. If the action is a melee attack roll, it deals damage equal to your normal weapon damage in a 10-foot sphere, centered on the area you landed on, with an Agility saving throw to half damage. The ground is also turned into difficult terrain (such as rubble) if applicable. Once used, this talent cannot be used again until after a short rest."
+               }
+            }
          },
          "HeroicThrow": {
             "Label": "Heroic Throw",
-            "Description": "You may throw a weapon further than it can normally go, or throw a melee weapon that does not have that property. You may increase the range of an existing thrown weapon by 60 feet, or give a melee weapon the thrown property (20/60 feet) for one round.<br>On a hit, the weapon can either return to you after being thrown at a target, or knock the target prone (Agility save negates), dropping 5 feet from the target. This is a strike effect."
+            "Description": {
+               "1": {
+                  "Value": "You may throw a weapon further than it can normally go, or throw a melee weapon that does not have that property. You may increase the range of an existing thrown weapon by 60 feet, or give a melee weapon the thrown property (20/60 feet) for one round."
+               },
+               "2": {
+                  "Value": "On a hit, the weapon can either return to you after being thrown at a target, or knock the target prone (Agility save negates), dropping 5 feet from the target. This is a strike effect."
+               }
+            }
          },
          "HuntersSense": {
             "Label": "Hunter's Sense",
-            "Description": "You can cast the scrying spell, but can only affect a creature detected by primeval alertness or a favored enemy. The creature must be within 10 miles of you to be affected by this ability. You may use this ability once per long rest. This talent can be taken multiple times, each time increasing the times this ability can be used per long rest by two."
+            "Description": {
+               "1": {
+                  "Value": "You can cast the scrying spell, but can only affect a creature detected by primeval alertness or a favored enemy. The creature must be within 10 miles of you to be affected by this ability. You may use this ability once per long rest. This talent can be taken multiple times, each time increasing the times this ability can be used per long rest by two."
+               }
+            }
          },
          "Indomitable": {
             "Label": "Indomitable",
-            "Description": "You can reroll a saving throw that you fail. If you do so, you must use the new roll, even if it is lower than the initial roll. You may use this talent a number of times equal to one half your proficiency bonus."
+            "Description": {
+               "1": {
+                  "Value": "You can reroll a saving throw that you fail. If you do so, you must use the new roll, even if it is lower than the initial roll. You may use this talent a number of times equal to one half your proficiency bonus."
+               }
+            }
          },
          "IndomitableMight": {
             "Label": "Indomitable Might",
-            "Description": "If you roll a Strength check and the results are less than your Strength score, treat the result as your Strength score instead."
+            "Description": {
+               "1": {
+                  "Value": "If you roll a Strength check and the results are less than your Strength score, treat the result as your Strength score instead."
+               }
+            }
          },
          "InsightfulFighting": {
             "Label": "Insightful Fighting",
-            "Description": "You gain the ability to decipher an opponent's tactics and develop a counter to them. As a bonus action, you can make a Spirit (Insight) check against a creature you can see that isn‘t incapacitated, contested by the target‘s Charisma (Deception) check. If you succeed, you can use your Sneak Attack against that target even if you don‘t have advantage on the attack roll, but not if you have disadvantage, so long as you spend your bonus action to maintain this effect. This benefit lasts for 1 minute or until you successfully use this feature against a different target."
+            "Description": {
+               "1": {
+                  "Value": "You gain the ability to decipher an opponent's tactics and develop a counter to them. As a bonus action, you can make a Spirit (Insight) check against a creature you can see that isn‘t incapacitated, contested by the target‘s Charisma (Deception) check. If you succeed, you can use your Sneak Attack against that target even if you don‘t have advantage on the attack roll, but not if you have disadvantage, so long as you spend your bonus action to maintain this effect. This benefit lasts for 1 minute or until you successfully use this feature against a different target."
+               }
+            }
          },
          "InsightfulManipulator": {
             "Label": "Insightful Manipulator",
-            "Description": "If you spend at least 1 minute observing or interacting with another creature outside combat, you can learn certain information about its capabilities compared to your own. The DM tells you if the creature is your equal, superior, or inferior in regard to two of the following characteristics of your choice:<br><br><ul><li>Intelligence, Spirit, or Charisma scores</li><li>Class levels (if any)</li></ul><br>At the DM‘s option, you might also realize you know a piece of the creature‘s history or one of its personality traits, if it has any."
+            "Description": {
+               "1": {
+                  "Value": "If you spend at least 1 minute observing or interacting with another creature outside combat, you can learn certain information about its capabilities compared to your own. The DM tells you if the creature is your equal, superior, or inferior in regard to two of the following characteristics of your choice:"
+               },
+               "2": {
+                  "Options": {
+                     "1": "Intelligence, Spirit, or Charisma scores",
+                     "2": "Class levels (if any)"
+                  }
+               },
+               "3": {
+                  "Value": "At the DM‘s option, you might also realize you know a piece of the creature‘s history or one of its personality traits, if it has any."
+               }
+            }
          },
          "IronWilledHunter": {
             "Label": "Iron Willed Hunter",
-            "Description": "You have honed your ability to resist mind-altering powers. You gain proficiency in Spirit saving throws. If you already have this proficiency, you instead gain proficiency in Intelligence or Charisma saving throws (your choice)."
+            "Description": {
+               "1": {
+                  "Value": "You have honed your ability to resist mind-altering powers. You gain proficiency in Spirit saving throws. If you already have this proficiency, you instead gain proficiency in Intelligence or Charisma saving throws (your choice)."
+               }
+            }
          },
          "LandsStride": {
             "Label": "Land's Stride",
-            "Description": "You may move through nonmagical difficult terrain without spending extra movement, and gain a +10 bonus to your speed. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard. In addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement, such those created by the entangling roots spell."
+            "Description": {
+               "1": {
+                  "Value": "You may move through nonmagical difficult terrain without spending extra movement, and gain a +10 bonus to your speed. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard. In addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement, such those created by the entangling roots spell."
+               }
+            }
          },
          "MagicUsersNemesis": {
             "Label": "Magic User's Nemesis",
-            "Description": "You can thwart someone else‘s magic. When you see a creature casting a spell or teleporting within 30 feet of you, you can use your reaction to try to foil it, either by using your own magic (if you can access spells), or an attack roll (by using a ranged or thrown weapon). The creature must succeed on a Spirit saving throw against your spell save DC or you must succeed on an attack roll, otherwise its spell or teleport fails and is wasted."
+            "Description": {
+               "1": {
+                  "Value": "You can thwart someone else‘s magic. When you see a creature casting a spell or teleporting within 30 feet of you, you can use your reaction to try to foil it, either by using your own magic (if you can access spells), or an attack roll (by using a ranged or thrown weapon). The creature must succeed on a Spirit saving throw against your spell save DC or you must succeed on an attack roll, otherwise its spell or teleport fails and is wasted."
+               }
+            }
          },
          "MasterManipulator": {
             "Label": "Master Manipulator",
-            "Description": "You can use the Help action as a bonus action. Additionally, when you use the Help action to aid an ally in attacking a creature, the target of that attack can be within 30 feet of you, rather than within 5 feet of you, if the target can see or hear you. You also gain proficiency with the disguise and forgery kits, and one gaming set of your choice. You also learn two languages of your choice. Lastly, you can unerringly mimic the speech patterns and accent of a creature that you hear speak for at least 1 minute, enabling you to pass yourself off as a native speaker of a particular land, provided that you know the language."
+            "Description": {
+               "1": {
+                  "Value": "You can use the Help action as a bonus action. Additionally, when you use the Help action to aid an ally in attacking a creature, the target of that attack can be within 30 feet of you, rather than within 5 feet of you, if the target can see or hear you. You also gain proficiency with the disguise and forgery kits, and one gaming set of your choice. You also learn two languages of your choice. Lastly, you can unerringly mimic the speech patterns and accent of a creature that you hear speak for at least 1 minute, enabling you to pass yourself off as a native speaker of a particular land, provided that you know the language."
+               }
+            }
          },
          "Misdirection": {
             "Label": "Misdirection",
-            "Description": "You can sometimes cause another creature to suffer an attack meant for you. When you are targeted by an attack while a creature within 5 feet of you is granting you cover against that attack, you can use your reaction to have the attack target that creature instead of you."
+            "Description": {
+               "1": {
+                  "Value": "You can sometimes cause another creature to suffer an attack meant for you. When you are targeted by an attack while a creature within 5 feet of you is granting you cover against that attack, you can use your reaction to have the attack target that creature instead of you."
+               }
+            }
          },
          "MutilateStrike": {
             "Label": "Mutilate Strike",
-            "Description": "Whenever you can attack as a bonus action with an off-hand weapon, you may instead add the off-hand damage to your main attack action, while retaining your bonus action. Your bonus action cannot be used to attack the same round after using this strike. Once used, this talent cannot be used again for three rounds."
+            "Description": {
+               "1": {
+                  "Value": "Whenever you can attack as a bonus action with an off-hand weapon, you may instead add the off-hand damage to your main attack action, while retaining your bonus action. Your bonus action cannot be used to attack the same round after using this strike. Once used, this talent cannot be used again for three rounds."
+               }
+            }
          },
          "NaturalExplorer": {
             "Label": "Natural Explorer",
-            "Description": "You are particularly familiar with one type of natural environment and are adept at traveling and surviving in such regions. Choose one type of favored terrain: arctic, coast, desert, forest, grassland, mountain, swamp, or caves and underground. When you make an Intelligence or Spirit check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you‘re proficient in. This ability works on any plane so long as it has a terrain of comparable nature (desert covers both Tanaris in Azeroth and Outland‘s Hellfire Peninsula). While traveling for an hour or more in your favored terrain, you gain the following benefits:<br><br><ul><li>Difficult terrain doesn‘t slow your group‘s travel.</li><li>Your group can‘t become lost except by magical means.</li><li>Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger, and have advantage to checks to avoid being surprised in your favored terrain.</li><li>You have advantage to saving throws against natural hazards in your favored terrain.</li><li>You can move stealthily at your normal pace without slowing down.</li><li>When you forage or gather, you find twice as much food as you normally would.</li><li>While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area.</li></ul><br>You may switch an existing favored terrain by performing all the following tasks, focused on one terrain:<br><ul><li>Track a target or explore the area for at least one hour alone</li><li>Spend 7 days in the terrain</li><li>Hunt down and defeat one native creature (though you do not have to defeat it alone).</li></ul><br>This talent can be taken multiple times, each time adding one favored terrain mastered at a given time."
+            "Description": {
+               "1": {
+                  "Value": "You are particularly familiar with one type of natural environment and are adept at traveling and surviving in such regions. Choose one type of favored terrain: arctic, coast, desert, forest, grassland, mountain, swamp, or caves and underground. When you make an Intelligence or Spirit check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you‘re proficient in. This ability works on any plane so long as it has a terrain of comparable nature (desert covers both Tanaris in Azeroth and Outland‘s Hellfire Peninsula). While traveling for an hour or more in your favored terrain, you gain the following benefits:"
+               },
+               "2": {
+                  "Options": {
+                     "1": "Difficult terrain doesn‘t slow your group‘s travel.",
+                     "2": "Your group can‘t become lost except by magical means.",
+                     "3": "Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger, and have advantage to checks to avoid being surprised in your favored terrain.",
+                     "4": "You have advantage to saving throws against natural hazards in your favored terrain.",
+                     "5": "You can move stealthily at your normal pace without slowing down.",
+                     "6": "When you forage or gather, you find twice as much food as you normally would.",
+                     "7": "While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area."
+                  }
+               },
+               "3": {
+                  "Value": "You may switch an existing favored terrain by performing all the following tasks, focused on one terrain:"
+               },
+               "4": {
+                  "Options": {
+                     "1": "Track a target or explore the area for at least one hour alone",
+                     "2": "Spend 7 days in the terrain",
+                     "3": "Hunt down and defeat one native creature (though you do not have to defeat it alone)."
+                  }
+               },
+               "5": {
+                  "Value": "This talent can be taken multiple times, each time adding one favored terrain mastered at a given time."
+               }
+            }
          },
          "PrimevalAlertness": {
             "Label": "Primeval Alertness",
-            "Description": "Whenever you are subjected to an effect that attempts to detect or identify you (such as a scrying spell), you gain advantage to all saving throws versus such effects. If you succeed on a contested Spirit saving throw, you can also reverse the spell (if possible, gaining a momentary glimpse of who is attempting to scry on you)."
+            "Description": {
+               "1": {
+                  "Value": "Whenever you are subjected to an effect that attempts to detect or identify you (such as a scrying spell), you gain advantage to all saving throws versus such effects. If you succeed on a contested Spirit saving throw, you can also reverse the spell (if possible, gaining a momentary glimpse of who is attempting to scry on you)."
+               }
+            }
          },
          "PrimevalAwareness": {
             "Label": "Primeval Awareness",
-            "Description": "You gain awareness of your environment on a local scale. You can use your action and expend mana equal to any spell to gain primeval awareness. For 1 minute per level of the spell you expended, you can sense whether the following types of creatures are present within 1 mile of you (or within up to 6 miles if you are in your favored terrain, are on high ground compared to them, or if the target is a favored enemy): aberrations, celestials, dragons, elementals, fey, fiends,and undead.<br>This feature doesn‘t reveal the creatures‘ location or number, but does hint at their strength in rough terms (weaker, equal to you, or stronger than you, more numerous than you, wounded) and their general direction."
+            "Description": {
+               "1": {
+                  "Value": "You gain awareness of your environment on a local scale. You can use your action and expend mana equal to any spell to gain primeval awareness. For 1 minute per level of the spell you expended, you can sense whether the following types of creatures are present within 1 mile of you (or within up to 6 miles if you are in your favored terrain, are on high ground compared to them, or if the target is a favored enemy): aberrations, celestials, dragons, elementals, fey, fiends,and undead."
+               },
+               "2": {
+                  "Value": "This feature doesn‘t reveal the creatures‘ location or number, but does hint at their strength in rough terms (weaker, equal to you, or stronger than you, more numerous than you, wounded) and their general direction."
+               }
+            }
          },
          "PrimevalDisruption": {
             "Label": "Primeval Disruption",
-            "Description": "You can sense if a favored enemy is casting a divine or arcane spell (choose one upon gaining this talent) within 3 miles. You are also aware of their general direction. If the target is within 1 mile, you can spend a reaction to force them to roll a Spirit saving throw against being distracted. This ability can be used a number of times equal to your proficiency bonus before replenishing after a long rest. If there are multiple favored enemies within the radius, you get a general awareness of them, but cannot force a disruption, unless you are the closest creature to the target."
+            "Description": {
+               "1": {
+                  "Value": "You can sense if a favored enemy is casting a divine or arcane spell (choose one upon gaining this talent) within 3 miles. You are also aware of their general direction. If the target is within 1 mile, you can spend a reaction to force them to roll a Spirit saving throw against being distracted. This ability can be used a number of times equal to your proficiency bonus before replenishing after a long rest. If there are multiple favored enemies within the radius, you get a general awareness of them, but cannot force a disruption, unless you are the closest creature to the target."
+               }
+            }
          },
          "RecklessAttack": {
             "Label": "Reckless Attack",
-            "Description": "When you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on melee attack rolls using Strength on this turn, but attack rolls against you have advantage until your next turn."
+            "Description": {
+               "1": {
+                  "Value": "When you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on melee attack rolls using Strength on this turn, but attack rolls against you have advantage until your next turn."
+               }
+            }
          },
          "Relentless": {
             "Label": "Relentless",
-            "Description": "If you drop to 0 hit points and don't die outright, you can make a DC 10 Stamina saving throw. If you succeed, you drop to 1 hit point instead. Each time this is used, you increase the DC by 5 points. The DC resets once you complete a short rest. This is known as cheat death by hunters and rogues."
+            "Description": {
+               "1": {
+                  "Value": "If you drop to 0 hit points and don't die outright, you can make a DC 10 Stamina saving throw. If you succeed, you drop to 1 hit point instead. Each time this is used, you increase the DC by 5 points. The DC resets once you complete a short rest. This is known as cheat death by hunters and rogues."
+               }
+            }
          },
          "ReliableTalent": {
             "Label": "Reliable Talent",
-            "Description": "Whenever you make an ability check that lets you add your proficiency bonus, you can treat a d20 roll of 9 or lower as a 10."
+            "Description": {
+               "1": {
+                  "Value": "Whenever you make an ability check that lets you add your proficiency bonus, you can treat a d20 roll of 9 or lower as a 10."
+               }
+            }
          },
          "Retaliation": {
             "Label": "Retaliation",
-            "Description": "When you take damage from a creature that is within 5 feet of you, you can use your reaction to make a melee weapon attack against that creature. This ability can be used a number of times equal to your proficiency bonus, with the uses replenishing after a short rest. This is also sometimes known as counterattack or storm of blades by hunters and rogues, respectively."
+            "Description": {
+               "1": {
+                  "Value": "When you take damage from a creature that is within 5 feet of you, you can use your reaction to make a melee weapon attack against that creature. This ability can be used a number of times equal to your proficiency bonus, with the uses replenishing after a short rest. This is also sometimes known as counterattack or storm of blades by hunters and rogues, respectively."
+               }
+            }
          },
          "SecondWind": {
             "Label": "Second Wind",
-            "Description": "You have a limited well of stamina you can draw upon to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your warrior level. Once you use this feature, you must finish a short or long rest before you can use it again."
-         },
-         "Shockwave": {
-            "Label": "Shockwave",
-            "Description": "You slam your weapon (manufactured or natural) into the ground, creating a ripple of force that shoots outward. This deals damage equal to your weapon damage, and affects a line 5-foot thick and 30 feet long. All creatures in the area in contact with the ground or within 5 feet of it that succeed on an Agility saving throw take half damage. The terrain damaged becomes difficult terrain (such as rubble) if applicable. If you have extra attacks, you may spend them to add the minimum possible damage to your total. Once this talent is used, it cannot be used again until after a short rest."
+            "Description": {
+               "1": {
+                  "Value": "You have a limited well of stamina you can draw upon to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your warrior level. Once you use this feature, you must finish a short or long rest before you can use it again."
+               }
+            }
          },
          "ShockResistance": {
             "Label": "Shock Resistance",
-            "Description": "You are more resilient against effects that would otherwise shock or stun a normal creature. You have advantage to saving throws against any effect that would cause the stunned condition. If an effect causes the condition as a secondary effect, the advantage applies only against the condition."
+            "Description": {
+               "1": {
+                  "Value": "You are more resilient against effects that would otherwise shock or stun a normal creature. You have advantage to saving throws against any effect that would cause the stunned condition. If an effect causes the condition as a secondary effect, the advantage applies only against the condition."
+               }
+            }
+         },
+         "Shockwave": {
+            "Label": "Shockwave",
+            "Description": {
+               "1": {
+                  "Value": "You slam your weapon (manufactured or natural) into the ground, creating a ripple of force that shoots outward. This deals damage equal to your weapon damage, and affects a line 5-foot thick and 30 feet long. All creatures in the area in contact with the ground or within 5 feet of it that succeed on an Agility saving throw take half damage. The terrain damaged becomes difficult terrain (such as rubble) if applicable. If you have extra attacks, you may spend them to add the minimum possible damage to your total. Once this talent is used, it cannot be used again until after a short rest."
+               }
+            }
          },
          "Shout": {
             "Label": "Shout",
-            "Description": "You can channel your warrior spirit into powerful battlefield commands (called shouts), although it can be anything from a barking command, to a litany, a prayer, or even a song. You can give a number of shouts equal to your Stamina or Charisma modifier (choose one). Using a shout costs a bonus action, and you may maintain an active shout for until the end of your turn in the next round with another bonus action (up to 1 minute). This bonus action still allows you to use strike effects (as if it does not cost an action), but does not allow other abilities. Shouts have a range of 30 feet of the range of the spell specified.<br>Shouts can replicate certain auras or have an entirely unique effect.<br><br><ul><li><i>Battle Shout</i>: You cast the abandonment aura spell.</li><li><i>Defensive Shout</i>: You cast the devotion aura spell.</li><li><i>Disruptive Shout (requires 7th level)</i>: You cast the distraction aura spell.</li><li><i>Halting</i>: One target within range has their speed halved. You can use this shout as a reaction.</li><li><i>Invigorating</i>: You may activate this shout by maintaining it for three rounds against a single target within range. At the start of your turn on the fourth round, the target increases their maximum hit points by one-half your level for one hour (cannot exceed double their maximum hit points), or can spend a single healing dice to heal themselves.</li><li><i>Marching Orders (requires 5th level)</i>: You cast the crusader aura spell.</li><li><i>Rallying</i>: One target within range is affected as if you cast the heroism spell (treat your Stamina modifier as the relevant spellcasting modifier). Maintaining the shout maintains the spell (up to the spell‘s normal limit).</li><li><i>Reordering</i>: One target within range can move up to one-quarter their speed as their reaction. You can change the target of this shout by maintaining it.</li><li><i>Taunt</i>: You cast the compelled duel spell. You can choose an additional target for the spell for every two levels above 5th.</li><li><i>Terrifying Howl</i>: You cast the cause fear spell. You can choose an additional target for the spell for every two levels above 5th.</li><li><i>Startling Cry</i>: One target within range suffers disadvantage to their attack rolls. You can activate this shout as a reaction if the attack takes place outside your turn, and you may maintain it on your turn and choose another target. A creature cannot be affected by this ability more than once until it completes a short rest. This is a fear effect.</li></ul><br><br>If the target of a shout leaves the range or is defeated, the effect ends for them. If a creature is affected by a shout used by you, or succeeds on their saving throw against it, they cannot be affected again by the same shout until after one minute. A shout is a thunder effect that does not function in areas of silence or if you cannot vocalize.<br><br><i>Special</i>: If you have proficiency in musical instruments, you can use them to apply a bonus to your shouts appropriate to the musical instrument type.<br><br><ul><li><i>Brass (trumpet, cornet, tuba) - Clarion</i>: Any saving throw done against your active spells, or any attempts to dispel your spells channeled through a brass instrument suffer disadvantage (if the dispel would be automatic, it instead requires a check regardless of spell level).</li><li><i>Percussion (drums, triangle, bells) - Resonance</i>: The range of your spells channeled through your instrument increases by 50%.</li><li><i>Strings (violin, cello, harp, dulcimer) - Lingering</i>: If you cast a non-instantaneous spell and stop concentrating or channeling it, it lingers for 1d4 rounds after you stop concentrating or channeling. This cannot exceed the maximum duration of the spell, but can allow you to effectively maintain multiple auras or concentration spells.</li><li><i>Woodwinds (flutes, clarinet, ocarina) - Synthesized</i>: If you cast a spell that provides a bonus to a roll or advantage to it, the targets gain a further +1 bonus to the roll.</li></ul>"
+            "Description": {
+               "1": {
+                  "Value": "You can channel your warrior spirit into powerful battlefield commands (called shouts), although it can be anything from a barking command, to a litany, a prayer, or even a song. You can give a number of shouts equal to your Stamina or Charisma modifier (choose one). Using a shout costs a bonus action, and you may maintain an active shout for until the end of your turn in the next round with another bonus action (up to 1 minute). This bonus action still allows you to use strike effects (as if it does not cost an action), but does not allow other abilities. Shouts have a range of 30 feet of the range of the spell specified."
+               },
+               "2": {
+                  "Value": "Shouts can replicate certain auras or have an entirely unique effect."
+               },
+               "3": {
+                  "Options": {
+                     "1": "<i>Battle Shout</i>: You cast the abandonment aura spell.",
+                     "2": "<i>Defensive Shout</i>: You cast the devotion aura spell.",
+                     "3": "<i>Disruptive Shout (requires 7th level)</i>: You cast the distraction aura spell.",
+                     "4": "<i>Halting</i>: One target within range has their speed halved. You can use this shout as a reaction.",
+                     "5": "<i>Invigorating</i>: You may activate this shout by maintaining it for three rounds against a single target within range. At the start of your turn on the fourth round, the target increases their maximum hit points by one-half your level for one hour (cannot exceed double their maximum hit points), or can spend a single healing dice to heal themselves.",
+                     "6": "<i>Marching Orders (requires 5th level)</i>: You cast the crusader aura spell.",
+                     "7": "<i>Rallying</i>: One target within range is affected as if you cast the heroism spell (treat your Stamina modifier as the relevant spellcasting modifier). Maintaining the shout maintains the spell (up to the spell‘s normal limit).",
+                     "8": "<i>Reordering</i>: One target within range can move up to one-quarter their speed as their reaction. You can change the target of this shout by maintaining it.",
+                     "9": "<i>Taunt</i>: You cast the compelled duel spell. You can choose an additional target for the spell for every two levels above 5th.",
+                     "10": "<i>Terrifying Howl</i>: You cast the cause fear spell. You can choose an additional target for the spell for every two levels above 5th.",
+                     "11": "<i>Startling Cry</i>: One target within range suffers disadvantage to their attack rolls. You can activate this shout as a reaction if the attack takes place outside your turn, and you may maintain it on your turn and choose another target. A creature cannot be affected by this ability more than once until it completes a short rest. This is a fear effect."
+                  }
+               },
+               "4": {
+                  "Value": "If the target of a shout leaves the range or is defeated, the effect ends for them. If a creature is affected by a shout used by you, or succeeds on their saving throw against it, they cannot be affected again by the same shout until after one minute. A shout is a thunder effect that does not function in areas of silence or if you cannot vocalize."
+               },
+               "5": {
+                  "Value": "If you have proficiency in musical instruments, you can use them to apply a bonus to your shouts appropriate to the musical instrument type."
+               },
+               "6": {
+                  "Options": {
+                     "1": "<i>Brass (trumpet, cornet, tuba) - Clarion</i>: Any saving throw done against your active spells, or any attempts to dispel your spells channeled through a brass instrument suffer disadvantage (if the dispel would be automatic, it instead requires a check regardless of spell level).",
+                     "2": "<i>Percussion (drums, triangle, bells) - Resonance</i>: The range of your spells channeled through your instrument increases by 50%.",
+                     "3": "<i>Strings (violin, cello, harp, dulcimer) - Lingering</i>: If you cast a non-instantaneous spell and stop concentrating or channeling it, it lingers for 1d4 rounds after you stop concentrating or channeling. This cannot exceed the maximum duration of the spell, but can allow you to effectively maintain multiple auras or concentration spells.",
+                     "4": "<i>Woodwinds (flutes, clarinet, ocarina) - Synthesized</i>: If you cast a spell that provides a bonus to a roll or advantage to it, the targets gain a further +1 bonus to the roll."
+                  }
+               }
+            }
          },
          "SlayersCounter": {
             "Label": "Slayer's Counter",
-            "Description": "You gain the ability to counterattack when your prey tries to sabotage you. If the target of your Slayer‘s Prey forces you to make a saving throw, you can use your reaction to make one weapon attack against the quarry. You make this attack immediately before making the saving throw. If your attack hits, your save automatically succeeds, in addition to the attack‘s normal effects."
+            "Description": {
+               "1": {
+                  "Value": "You gain the ability to counterattack when your prey tries to sabotage you. If the target of your Slayer‘s Prey forces you to make a saving throw, you can use your reaction to make one weapon attack against the quarry. You make this attack immediately before making the saving throw. If your attack hits, your save automatically succeeds, in addition to the attack‘s normal effects."
+               }
+            }
          },
          "SlayersPrey": {
             "Label": "Slayer's Prey",
-            "Description": "You can focus your ire on one foe, increasing the harm you inflict on it. As a bonus action, you designate one creature you can see within 60 feet of you as the target of this feature. The first time each turn that you hit that target with a weapon attack, it takes an extra 1d6 damage from the weapon. Once the creature is defeated, you can choose another target."
+            "Description": {
+               "1": {
+                  "Value": "You can focus your ire on one foe, increasing the harm you inflict on it. As a bonus action, you designate one creature you can see within 60 feet of you as the target of this feature. The first time each turn that you hit that target with a weapon attack, it takes an extra 1d6 damage from the weapon. Once the creature is defeated, you can choose another target."
+               }
+            }
          },
          "SlipperyMind": {
             "Label": "Slippery Mind",
-            "Description": "You have acquired greater mental strength. You gain proficiency in Spirit saving throws.<br>If you are a monk, you gain proficiency in all saving throws instead."
+            "Description": {
+               "1": {
+                  "Value": "You have acquired greater mental strength. You gain proficiency in Spirit saving throws."
+               },
+               "2": {
+                  "Value": "If you are a monk, you gain proficiency in all saving throws instead."
+               }
+            }
          },
          "SlowFall": {
             "Label": "Slow Fall",
-            "Description": "You can use your reaction when you fall to reduce any falling damage you take by an amount equal to five times your level. If you would have landed on a target of an attack you would make, you may deal extra damage equal to half the amount of fall damage reduced by this talent, provided you succeedon the attack roll. In some circles, this ability is known as a drop kick. This extra damage is a strike effect."
+            "Description": {
+               "1": {
+                  "Value": "You can use your reaction when you fall to reduce any falling damage you take by an amount equal to five times your level. If you would have landed on a target of an attack you would make, you may deal extra damage equal to half the amount of fall damage reduced by this talent, provided you succeedon the attack roll. In some circles, this ability is known as a drop kick. This extra damage is a strike effect."
+               }
+            }
          },
          "StalkersFlurry": {
             "Label": "Stalker's Flurry",
-            "Description": "You learn to attack with such unexpected speed that you can turn a miss into another attack. When you miss with a weapon attack, you can make another weapon attack as part of the same action. This can be done a number of times equal to your Strength or Agility modifier before requiring a short rest."
+            "Description": {
+               "1": {
+                  "Value": "You learn to attack with such unexpected speed that you can turn a miss into another attack. When you miss with a weapon attack, you can make another weapon attack as part of the same action. This can be done a number of times equal to your Strength or Agility modifier before requiring a short rest."
+               }
+            }
          },
          "StunningSlam": {
             "Label": "Stunning Slam",
-            "Description": "Upon scoring a critical hit with a melee weapon, you can stun your target for until the end of your turn in the next round. This can be negated with a successful Stamina saving throw. This is a strike effect."
+            "Description": {
+               "1": {
+                  "Value": "Upon scoring a critical hit with a melee weapon, you can stun your target for until the end of your turn in the next round. This can be negated with a successful Stamina saving throw. This is a strike effect."
+               }
+            }
          },
          "SuffusedArrows": {
             "Label": "Suffused Arrows",
-            "Description": "You master the art of spell-casting through arrows or infusing them. You may choose to gain proficiency in the Infusion Kit, but can only infuse ranged weapons or arrows, or gain the Spell Strike feat (but only for ranged weapons). If you choose to gain proficiency with the kit, you start with three infusion matrices of your choice that you can craft, and may store them in infusion manuals or similar books.<br>Despite the talent‘s name, this can also cover other types of ranged weapons and ammunition, such as crossbow bolts and bullets, as well as larger samples (such as ballistae bolts or cannonballs)."
+            "Description": {
+               "1": {
+                  "Value": "You master the art of spell-casting through arrows or infusing them. You may choose to gain proficiency in the Infusion Kit, but can only infuse ranged weapons or arrows, or gain the Spell Strike feat (but only for ranged weapons). If you choose to gain proficiency with the kit, you start with three infusion matrices of your choice that you can craft, and may store them in infusion manuals or similar books."
+               },
+               "2": {
+                  "Value": "Despite the talent‘s name, this can also cover other types of ranged weapons and ammunition, such as crossbow bolts and bullets, as well as larger samples (such as ballistae bolts or cannonballs)."
+               }
+            }
          },
          "SwiftSlash": {
             "Label": "Swift Slash",
-            "Description": "Whenever you use the Dash action, you may make one free melee attack with a finesse weapon, made at any point during movement. This attack is treated as a normal melee attack for all purposes, but is resolved with a -2 penalty to hit.<br>If you reduce a creature to 0 hit points as part of this attack, you benefit from the blur spell until the beginning of your turn in the next round. You can use this talent only once per round, even if you had an ability that allowed multiple Dash actions in one round (such as Cunning Action or Haste)."
+            "Description": {
+               "1": {
+                  "Value": "Whenever you use the Dash action, you may make one free melee attack with a finesse weapon, made at any point during movement. This attack is treated as a normal melee attack for all purposes, but is resolved with a -2 penalty to hit."
+               },
+               "2": {
+                  "Value": "If you reduce a creature to 0 hit points as part of this attack, you benefit from the blur spell until the beginning of your turn in the next round. You can use this talent only once per round, even if you had an ability that allowed multiple Dash actions in one round (such as Cunning Action or Haste)."
+               }
+            }
          },
          "TemperedHunter": {
             "Label": "Tempered Hunter",
-            "Description": "You have advantage versus divine or arcane spells (choose one upon gaining this talent) cast by your favored enemies and advantage to all checks to avoid being subject to the scrying spell, or being detected, or identified by similar magic. Magics of such type also cast by your favored enemies cannot be used to put you to sleep or to read your mind."
+            "Description": {
+               "1": {
+                  "Value": "You have advantage versus divine or arcane spells (choose one upon gaining this talent) cast by your favored enemies and advantage to all checks to avoid being subject to the scrying spell, or being detected, or identified by similar magic. Magics of such type also cast by your favored enemies cannot be used to put you to sleep or to read your mind."
+               }
+            }
          },
          "TerrifyingTracker": {
             "Label": "Terrifying Tracker",
-            "Description": "Whenever you succeed on tracking a creature and have them within your line of sight, you gain advantage to any contested skill check against them. You may also intimidate the target without revealing yourself (usually to steer the target into one place or another)."
+            "Description": {
+               "1": {
+                  "Value": "Whenever you succeed on tracking a creature and have them within your line of sight, you gain advantage to any contested skill check against them. You may also intimidate the target without revealing yourself (usually to steer the target into one place or another)."
+               }
+            }
          },
          "ThunderClap": {
             "Label": "Thunder Clap",
-            "Description": "You may use your action to cast the thunderstorm spell by slamming your weapon into the ground, releasing a wave of force. This acts as the spell with the following differences:<br><br><ul><li>The spell deals normal damage, plus your weapon damage roll. If you have extra attacks, you can add +5 to the damage roll for each attack you would normally make beyond the first.</li><li>You can change its area to a 15-foot sphere centered on you, excluding yourself (and a number of targets equal to your Strength modifier) from the damage.</li><li>Targets who fail their saving throware chilled for one minute. A creature may repeat its saving throw at the end of its turn every round to end the condition. You may choose to push the targets as the normal spell instead.</li></ul><br>Targets who fail their saving throware chilled for one minute. A creature may repeat its saving throw at the end of its turn every round to end the condition. You may choose to push the targets as the normal spell instead."
+            "Description": {
+               "1": {
+                  "Value": "You may use your action to cast the thunderstorm spell by slamming your weapon into the ground, releasing a wave of force. This acts as the spell with the following differences:"
+               },
+               "2": {
+                  "Options": {
+                     "1": "The spell deals normal damage, plus your weapon damage roll. If you have extra attacks, you can add +5 to the damage roll for each attack you would normally make beyond the first.",
+                     "2": "You can change its area to a 15-foot sphere centered on you, excluding yourself (and a number of targets equal to your Strength modifier) from the damage.",
+                     "3": "Targets who fail their saving throw are chilled for one minute. A creature may repeat its saving throw at the end of its turn every round to end the condition. You may choose to push the targets as the normal spell instead."
+                  }
+               },
+               "3": {
+                  "Value": "This is a supernatural ability. Once this ability is used, it cannot be used again until after a short rest."
+               }
+            }
          },
          "Tremor": {
             "Label": "Tremor",
-            "Description": "You may use a bonus action to cause a small localized tremor (usually by stomping your foot or slamming your fist down), dealing your unarmed strike damage in a 5-foot sphere centered on you, halved on an Agility save. Those who fail the saving throw are also knocked prone. If you have a natural weapon, you can use it to determine the damage you deal instead. If you use this ability at the end of a Heroic Leap, you may add +5 to the total damage.<br>This talent can be used a number of times equal to your proficiency bonus before replenishing after a short rest."
+            "Description": {
+               "1": {
+                  "Value": "You may use a bonus action to cause a small localized tremor (usually by stomping your foot or slamming your fist down), dealing your unarmed strike damage in a 5-foot sphere centered on you, halved on an Agility save. Those who fail the saving throw are also knocked prone. If you have a natural weapon, you can use it to determine the damage you deal instead. If you use this ability at the end of a Heroic Leap, you may add +5 to the total damage."
+               },
+               "2": {
+                  "Value": "This talent can be used a number of times equal to your proficiency bonus before replenishing after a short rest."
+               }
+            }
          },
          "TricksOfTheTrade": {
             "Label": "Tricks of the Trade",
-            "Description": "You may cast the compelled duel spell, but instead of drawing the target to you, you can direct them to a secondary target within 30 feet of both of you. The target of the spell has advantage to the saving throw unless the secondary creature is one of your allies or is neutral to both of you. After being used, this cannot be used again until after a short rest. This effect ends if you attack the target, if the third creature does not defend itself, or if you end your turn more than 30 feet away from the target. If the target defeats the secondary target, you regain use of this ability.<br>This talent can be taken multiple times, each time adding another two uses of this ability before a short rest."
+            "Description": {
+               "1": {
+                  "Value": "You may cast the compelled duel spell, but instead of drawing the target to you, you can direct them to a secondary target within 30 feet of both of you. The target of the spell has advantage to the saving throw unless the secondary creature is one of your allies or is neutral to both of you. After being used, this cannot be used again until after a short rest. This effect ends if you attack the target, if the third creature does not defend itself, or if you end your turn more than 30 feet away from the target. If the target defeats the secondary target, you regain use of this ability."
+               },
+               "2": {
+                  "Value": "This talent can be taken multiple times, each time adding another two uses of this ability before a short rest."
+               }
+            }
          },
          "UmbralSight": {
             "Label": "Umbral Sight",
-            "Description": "You gain darkvision out to a range of 60 feet. If you already have darkvision from your race, its range increases by 30 feet. While in darkness, you can hide in plain sight against any creature that relies on darkvision to see you in that darkness."
+            "Description": {
+               "1": {
+                  "Value": "You gain darkvision out to a range of 60 feet. If you already have darkvision from your race, its range increases by 30 feet. While in darkness, you can hide in plain sight against any creature that relies on darkvision to see you in that darkness."
+               }
+            }
          },
          "UnarmoredMovement": {
             "Label": "Unarmored Movement",
-            "Description": "Your speed increases by five feet per proficiency bonus you have while you are not wearing armor or wielding a shield. This talent can be chosen again at level 5 or higher, allowing you to move along vertical surfaces and across liquids on your turn without falling during the move so long as you benefit from the speed increase."
+            "Description": {
+               "1": {
+                  "Value": "Your speed increases by five feet per proficiency bonus you have while you are not wearing armor or wielding a shield. This talent can be chosen again at level 5 or higher, allowing you to move along vertical surfaces and across liquids on your turn without falling during the move so long as you benefit from the speed increase."
+               }
+            }
          },
          "UncannyDodge": {
             "Label": "Uncanny Dodge",
-            "Description": "When an attacker that you can see hits you with an attack, you can use your reaction to halve the attack‘s damage against you."
+            "Description": {
+               "1": {
+                  "Value": "When an attacker that you can see hits you with an attack, you can use your reaction to halve the attack‘s damage against you."
+               }
+            }
          },
          "UnerringEye": {
             "Label": "Unerring Eye",
-            "Description": "Your senses are almost impossible to foil. As an action, you sense the presence of illusions, creatures not in their original form (such as shapechangers), and other magic designed to deceive the senses within 30 feet of you, provided you aren‘t blinded or deafened. You sense that an effect is attempting to trick you, but you gain no insight into what is hiddenor into its true nature. This ability can be used a number of times equal to your Spirit modifier before replenishing after a long rest."
+            "Description": {
+               "1": {
+                  "Value": "Your senses are almost impossible to foil. As an action, you sense the presence of illusions, creatures not in their original form (such as shapechangers), and other magic designed to deceive the senses within 30 feet of you, provided you aren‘t blinded or deafened. You sense that an effect is attempting to trick you, but you gain no insight into what is hiddenor into its true nature. This ability can be used a number of times equal to your Spirit modifier before replenishing after a long rest."
+               }
+            }
          },
          "WindWalk": {
             "Label": "Wind Walk",
-            "Description": "You may use your action to wind-walk, rendering yourself invisible as per the invisibility spell, and increase your land speed by 10 feet. Unlike normal stances, you must continue moving (at least half your speed) or else this effect dissipates. Your first attack while performing Wind Walk is a critical hit, and ends the invisibility effect. This is a supernatural ability. Once this talent is used, it cannot be used again until after a short rest."
+            "Description": {
+               "1": {
+                  "Value": "You may use your action to wind-walk, rendering yourself invisible as per the invisibility spell, and increase your land speed by 10 feet. Unlike normal stances, you must continue moving (at least half your speed) or else this effect dissipates. Your first attack while performing Wind Walk is a critical hit, and ends the invisibility effect. This is a supernatural ability. Once this talent is used, it cannot be used again until after a short rest."
+               }
+            }
          }
       },
       "UI": {
@@ -2502,6 +3130,8 @@
             "CastSpellInvalidTarget": "Invalid Target. Please select one hostile token.",
             "OutOfRange": "The target is out of range. Distance:"
          },
+         "Bond": "Bond",
+         "Bonds": "Bonds",
          "BonusAction": "Bonus Action",
          "Consumable": "Consumable",
          "Creature": "Creature",
@@ -2509,11 +3139,18 @@
             "CancelSkill": "Release",
             "CancelSkillDescription": "Do you really want to release the skill?"
          },
+         "Features": "Features",
+         "Flaw": "Flaw",
+         "Flaws": "Flaws",
+         "Ideal": "Ideal",
+         "Ideals": "Ideals",
          "MaterialCost": "Material Cost",
          "Phrases": {
             "Skill": "skill",
             "Spell": "spell"
          },
+         "PersonalityTrait": "Personality Trait",
+         "PersonalityTraits": "Personality Traits",
          "PointCost": "Point Cost",
          "Rarities": {
             "Common": "Common",
@@ -2524,6 +3161,8 @@
             "Artifact": "Artifact"
          },
          "Rarity": "Rarity",
+         "Scam": "Scam",
+         "SuggestedCharacteristics": "Suggested Characteristics",
          "Units": {
             "Action": "action",
             "Ft": "ft",

@@ -19,22 +19,22 @@
     <section class="sheet-body">
         <div class="classIntroduction tab active" data-group="primary" data-tab="lore">
             <div class="artwork">
-                <img src="{{item.data.artwork.1.src}}">
-                <a href="{{item.data.artwork.1.url}}" target="_blank">&copy;{{item.data.artwork.1.credit}}</a>
+                <img src="{{item.flags.wc5e.artwork.1.src}}">
+                <a href="{{item.flags.wc5e.artwork.1.url}}" target="_blank">&copy;{{item.flags.wc5e.artwork.1.credit}}</a>
             </div>
-            {{#each item.data.introduction}}
+            {{#each item.flags.wc5e.introduction}}
                 <p><i>“{{localize this}}“</i></p>
             {{/each}}
             <br>
             <p>
-                {{{localize item.data.description.value}}}
+                {{{localize item.flags.wc5e.description.value}}}
             </p>
             <br>
-            {{#each item.data.blocks}}
+            {{#each item.flags.wc5e.blocks}}
                 {{#if @last}}
                     <div class="artwork">
-                        <img src="{{../item.data.artwork.2.src}}">
-                        <a href="{{../item.data.artwork.2.url}}" target="_blank">&copy;{{../item.data.artwork.2.credit}}</a>
+                        <img src="{{../item.flags.wc5e.artwork.2.src}}">
+                        <a href="{{../item.flags.wc5e.artwork.2.url}}" target="_blank">&copy;{{../item.flags.wc5e.artwork.2.credit}}</a>
                     </div>
                 {{/if}}
                 <h4>{{localize this.title}}</h4>
@@ -48,15 +48,15 @@
             <table>
                 <tr>
                     <th class="left">Hit Dice:</th>
-                    <td>1{{item.data.hitDice}} per {{item.name}} level</td>
+                    <td>1{{item.flags.wc5e.hitDice}} per {{item.name}} level</td>
                 </tr>
                 <tr>
                     <th class="left">Hit Points - lvl 1</th>
-                    <td>{{item.data.hitPoints1st}} + your Stamina modifier</td>
+                    <td>{{item.flags.wc5e.hitPoints1st}} + your Stamina modifier</td>
                 </tr>
                 <tr>
                     <th class="left">Hit Points - lvl +</th>
-                    <td>1{{item.data.hitDice}} (or {{item.data.hitPointsHalfed}}) + your Stamina modifier per {{item.name}} level after 1st</td>
+                    <td>1{{item.flags.wc5e.hitDice}} (or {{item.flags.wc5e.hitPointsHalfed}}) + your Stamina modifier per {{item.name}} level after 1st</td>
                 </tr>
             </table>
             <br>
@@ -65,7 +65,7 @@
                 <tr>
                     <th class="left">Armor:</th>
                     <td>
-                        {{#each item.data.armorProfs}}
+                        {{#each item.flags.wc5e.armorProfs}}
                             {{#unless @first}}{{#if @last}} and {{else}},{{/if}}{{/unless}}
                             {{lookup ../config.armorProficiencies this}}
                         {{/each}}
@@ -74,21 +74,21 @@
                 <tr>
                     <th class="left">Weapons:</th>
                     <td>
-                        {{#each item.data.weaponProfs}}
+                        {{#each item.flags.wc5e.weaponProfs}}
                             {{#unless @first}}{{#if @last}} and {{else}},{{/if}}{{/unless}}
                             {{lookup ../config.weaponProficiencies this}}
                         {{/each}}
-                        {{#each item.data.specificWeaponProfs}}
+                        {{#each item.flags.wc5e.specificWeaponProfs}}
                             {{#if @last}} and {{else}},{{/if}}
-                            {{this}}
+                            {{~this}}
                         {{/each}}
                     </td>
                 </tr>
                 <tr>
                     <th class="left">Tools:</th>
                     <td>
-                        {{#if item.data.toolProfs}}
-                            {{#each item.data.toolProfs}}
+                        {{#if item.flags.wc5e.toolProfs}}
+                            {{#each item.flags.wc5e.toolProfs}}
                                 {{#unless @first}}{{#if @last}} and {{else}},{{/if}}{{/unless}}
                                 {{{lookup ../config.toolProficiencies this}}}
                             {{/each}}
@@ -100,7 +100,7 @@
                 <tr>
                     <th class="left">Saving Throws:</th>
                     <td>
-                        {{#each item.data.saves}}
+                        {{#each item.flags.wc5e.saves}}
                             {{#unless @first}}{{#if @last}} and {{else}},{{/if}}{{/unless}}
                             {{lookup ../config.abilities this}}
                         {{/each}}
@@ -109,9 +109,9 @@
                 <tr>
                     <th class="left">Skills:</th>
                     <td>
-                        Choose {{item.data.skills.number}} skills from
+                        Choose {{item.flags.wc5e.skills.number}} skills from
                         {{log config}}
-                        {{#each item.data.skills.choices}}
+                        {{#each item.flags.wc5e.skills.choices}}
                             {{#unless @first}}{{#if @last}} and {{else}},{{/if}}{{/unless}}
                             {{lookup ../config.skills this}}
                         {{/each}}
@@ -122,7 +122,7 @@
             <h4>Equipment</h4>
             You start with the following equipment, in addition to the equipment granted by your background:
             <ul>
-                {{#each item.data.equipment}}
+                {{#each item.flags.wc5e.equipment}}
                     <li>
                         {{#if this.[1]}}
                             {{#each this}}
@@ -140,11 +140,11 @@
             </ul>
             <br>
             <h4>Quick Build</h4>
-            <p>{{{localize item.data.quickBuild}}}</p>
+            <p>{{{localize item.flags.wc5e.quickBuild}}}</p>
             <br>
-            {{#if item.data.specialFeats}}
+            {{#if item.flags.wc5e.specialFeats}}
                 <h3>Special Features</h3>
-                {{#each item.data.specialFeats}}
+                {{#each item.flags.wc5e.specialFeats}}
                     <h4>{{localize this.title}}</h4>
                     <p>{{{localize this.description}}}</p>
                     <br>
@@ -157,20 +157,20 @@
                 <tr>
                     <th class="numberCol">Level</th>
                     <th class="numberCol">Prof</th>
-                    {{#if this.data.specialCol}}
-                        <th>{{this.data.specialCol}}</th>
+                    {{#if item.flags.wc5e.specialCol}}
+                        <th>{{item.flags.wc5e.specialCol}}</th>
                     {{/if}}
                     <th class="left">Features</th>
-                    {{#if this.data.isCaster}}
+                    {{#if item.flags.wc5e.isCaster}}
                         <th>Caster (Spell)</th>
                     {{/if}}
                 </tr>
-                {{#each item.data.progression}}
+                {{#each item.flags.wc5e.progression}}
                     <tr>
                         <td class="center">{{this.level}}</td>
                         <td class="center">+{{this.proficiency}}</td>
                         {{#if this.special}}
-                            <th>{{this.special}}</th>
+                            <td class="center">{{this.special}}</td>
                         {{/if}}
                         <td>
                             {{#if this.feats}}
@@ -195,7 +195,7 @@
         </div>
 
         <div class="tab details" data-group="primary" data-tab="archetypes">
-            {{#each item.data.archetypes}}
+            {{#each item.flags.wc5e.archetypes}}
                 <h3>{{localize this.title}}</h3>
                 <p>{{localize this.description}}</p>
                 <table>

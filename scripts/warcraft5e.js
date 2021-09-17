@@ -38,3 +38,7 @@ Handlebars.registerHelper('isClassSkill', function (data, skill) {
 
     return false;
 });
+
+Handlebars.registerHelper("increment", function(value) {
+    return parseInt(value) + 1;
+});

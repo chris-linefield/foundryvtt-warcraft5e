@@ -1,74 +1,25 @@
 {
-   "_id":"xyNHGNHFb3lon18R",
-   "name":"Farsight",
-   "permission":{
-      "default":0
+   "_id": "xyNHGNHFb3lon18R",
+   "name": "Farsight",
+   "permission": {
+      "default": 0
    },
-   "type":"feat",
-   "data":{
-      "wcType": "talent",
-      "wcCategory": "WC5E.SkillCategories.Strike",
-      "description":{
-         "value":"WC5E.Talents.Farsight.Description",
-         "chat":"",
-         "unidentified":""
-      },
-      "source":"PHB page 164",
-      "activation":{
-         "type":"bonus",
-         "cost":1,
-         "condition":""
-      },
-      "duration":{
-         "value":null,
-         "units":""
-      },
-      "target":{
-         "value":null,
-         "units":null,
-         "type":"self"
-      },
-      "range":{
-         "value":null,
-         "long":null,
-         "units":"self"
-      },
-      "uses":{
-         "value":0,
-         "max":0,
-         "per":"",
-         "type":""
-      },
-      "ability":"",
-      "actionType":"",
-      "attackBonus":0,
-      "chatFlavor":"",
-      "critical":null,
-      "damage":{
-         "parts":[
-
-         ],
-         "versatile":"",
-         "value":""
-      },
-      "formula":"",
-      "save":{
-         "ability":"",
-         "dc":null,
-         "value":"",
-         "scaling":"spell"
-      },
-      "requirements":null,
-      "recharge":{
-         "value":null,
-         "charged":false
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 164"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "talent",
+         "category": "WC5E.SkillCategories.Strike",
+         "description": [
+            {
+               "value": "WC5E.Talents.Farsight.Description.1.Value"
+            }
+         ]
       }
    },
-   "flags":{
-
-   },
-   "img":"icons/magic/perception/eye-slit-red-orange.webp",
-   "effects":[
-
+   "img": "icons/magic/perception/eye-slit-red-orange.webp",
+   "effects": [
    ]
 }

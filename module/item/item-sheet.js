@@ -8,12 +8,7 @@ export class WcItemSheet extends ItemSheet5e {
         super(...args);
 
         let wcType = 'dnd5e';
-        if(typeof(this.object.data.data.wcType) !== 'undefined') {
-            wcType = this.object.data.data.wcType;
-            this.options.classes   = ['warcraft5e', 'sheet', 'item'];
-            this.options.resizable = false;
-        }
-        else if(typeof(this.object.data.flags.wc5e) !== 'undefined') {
+        if(typeof(this.object.data.flags.wc5e) !== 'undefined') {
             wcType = this.object.data.flags.wc5e.type;
             this.options.classes   = ['warcraft5e', 'sheet', 'item'];
             this.options.resizable = false;
@@ -29,16 +24,12 @@ export class WcItemSheet extends ItemSheet5e {
     }
 
     get template() {
-        let wcType = this.object.data.data.wcType;
-        let wcType2 = this.object.data.flags.wc5e;
+        let wcType = this.object.data.flags.wc5e.type;
         if(typeof(wcType) !== 'undefined') {
             if(wcType === 'talent') {
                 wcType = 'feat';
             }
             return `modules/warcraft5e/templates/item/${wcType}-sheet.html`;
-        }
-        else if(typeof(wcType2) !== 'undefined') {
-            return `modules/warcraft5e/templates/item/${wcType2.type}-sheet.html`;
         }
         else {
             return `systems/dnd5e/templates/items/${this.item.data.type}.html`;

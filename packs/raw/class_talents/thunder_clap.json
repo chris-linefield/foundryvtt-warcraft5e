@@ -1,74 +1,35 @@
 {
-   "_id":"bnWVL2mDLHcZGW9B",
-   "name":"Thunder Clap",
-   "permission":{
-      "default":0
+   "_id": "bnWVL2mDLHcZGW9B",
+   "name": "Thunder Clap",
+   "permission": {
+      "default": 0
    },
-   "type":"feat",
-   "data":{
-      "wcType": "talent",
-      "wcCategory": "WC5E.SkillCategories.General",
-      "description":{
-         "value":"WC5E.Talents.ThunderClap.Description",
-         "chat":"",
-         "unidentified":""
-      },
-      "source":"PHB page 171",
-      "activation":{
-         "type":"bonus",
-         "cost":1,
-         "condition":""
-      },
-      "duration":{
-         "value":null,
-         "units":""
-      },
-      "target":{
-         "value":null,
-         "units":null,
-         "type":"self"
-      },
-      "range":{
-         "value":null,
-         "long":null,
-         "units":"self"
-      },
-      "uses":{
-         "value":0,
-         "max":0,
-         "per":"",
-         "type":""
-      },
-      "ability":"",
-      "actionType":"",
-      "attackBonus":0,
-      "chatFlavor":"",
-      "critical":null,
-      "damage":{
-         "parts":[
-
-         ],
-         "versatile":"",
-         "value":""
-      },
-      "formula":"",
-      "save":{
-         "ability":"",
-         "dc":null,
-         "value":"",
-         "scaling":"spell"
-      },
-      "requirements":null,
-      "recharge":{
-         "value":null,
-         "charged":false
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 171"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "talent",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Talents.ThunderClap.Description.1.Value"
+            },
+            {
+               "options": [
+                  "WC5E.Talents.ThunderClap.Description.2.Options.1",
+                  "WC5E.Talents.ThunderClap.Description.2.Options.2",
+                  "WC5E.Talents.ThunderClap.Description.2.Options.3"
+               ]
+            },
+            {
+               "value": "WC5E.Talents.ThunderClap.Description.3.Value"
+            }
+         ]
       }
    },
-   "flags":{
-
-   },
-   "img":"icons/magic/lightning/bolt-strike-wide-white.webp",
-   "effects":[
-
+   "img": "icons/magic/lightning/bolt-strike-wide-white.webp",
+   "effects": [
    ]
 }

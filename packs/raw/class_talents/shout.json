@@ -1,74 +1,59 @@
 {
-   "_id":"Zvc8VlNMYkuLa0xQ",
-   "name":"Shout",
-   "permission":{
-      "default":0
+   "_id": "Zvc8VlNMYkuLa0xQ",
+   "name": "Shout",
+   "permission": {
+      "default": 0
    },
-   "type":"feat",
-   "data":{
-      "wcType": "talent",
-      "wcCategory": "WC5E.SkillCategories.General",
-      "description":{
-         "value":"WC5E.Talents.Shout.Description",
-         "chat":"",
-         "unidentified":""
-      },
-      "source":"PHB page 168",
-      "activation":{
-         "type":"bonus",
-         "cost":1,
-         "condition":""
-      },
-      "duration":{
-         "value":null,
-         "units":""
-      },
-      "target":{
-         "value":null,
-         "units":null,
-         "type":"self"
-      },
-      "range":{
-         "value":null,
-         "long":null,
-         "units":"self"
-      },
-      "uses":{
-         "value":0,
-         "max":0,
-         "per":"",
-         "type":""
-      },
-      "ability":"",
-      "actionType":"",
-      "attackBonus":0,
-      "chatFlavor":"",
-      "critical":null,
-      "damage":{
-         "parts":[
-
-         ],
-         "versatile":"",
-         "value":""
-      },
-      "formula":"",
-      "save":{
-         "ability":"",
-         "dc":null,
-         "value":"",
-         "scaling":"spell"
-      },
-      "requirements":"1 level in Warrior",
-      "recharge":{
-         "value":null,
-         "charged":false
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 168",
+      "requirements": "1 level in Warrior"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "talent",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Talents.Shout.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Talents.Shout.Description.2.Value"
+            },
+            {
+               "options": [
+                  "WC5E.Talents.Shout.Description.3.Options.1",
+                  "WC5E.Talents.Shout.Description.3.Options.2",
+                  "WC5E.Talents.Shout.Description.3.Options.3",
+                  "WC5E.Talents.Shout.Description.3.Options.4",
+                  "WC5E.Talents.Shout.Description.3.Options.5",
+                  "WC5E.Talents.Shout.Description.3.Options.6",
+                  "WC5E.Talents.Shout.Description.3.Options.7",
+                  "WC5E.Talents.Shout.Description.3.Options.8",
+                  "WC5E.Talents.Shout.Description.3.Options.9",
+                  "WC5E.Talents.Shout.Description.3.Options.10",
+                  "WC5E.Talents.Shout.Description.3.Options.11"
+               ]
+            },
+            {
+               "value": "WC5E.Talents.Shout.Description.4.Value"
+            },
+            {
+               "special": true,
+               "value": "WC5E.Talents.Shout.Description.5.Value"
+            },
+            {
+               "options": [
+                  "WC5E.Talents.Shout.Description.6.Options.1",
+                  "WC5E.Talents.Shout.Description.6.Options.2",
+                  "WC5E.Talents.Shout.Description.6.Options.3",
+                  "WC5E.Talents.Shout.Description.6.Options.4"
+               ]
+            }
+         ]
       }
    },
-   "flags":{
-
-   },
-   "img":"systems/dnd5e/icons/skills/red_10.jpg",
-   "effects":[
-
+   "img": "systems/dnd5e/icons/skills/red_10.jpg",
+   "effects": [
    ]
 }

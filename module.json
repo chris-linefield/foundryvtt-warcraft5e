@@ -1,106 +1,106 @@
 {
-  "name": "warcraft5e",
-  "title": "Warcraft RPG - 5e",
-  "description": "Conversion of the official Warcraft Role Playing Game: https://drive.google.com/drive/folders/0B1FoMHLY1oOtLUlNdTZXYzVNY0k.",
-  "author": "ArthegaAsdweri",
-  "version": "0.0.6",
-  "esmodules": [
-    "scripts/warcraft5e.js"
-  ],
-  "styles": [
-    "styles/warcraft5e.css"
-  ],
-  "dependencies": [
-    {
-      "name": "dnd5e",
-      "type": "system"
-    },
-    {
-      "name": "libWrapper",
-      "manifest": "https://github.com/ruipin/fvtt-lib-wrapper/releases/latest/download/module.json",
-      "version": "1.1",
-      "type": "module"
-    },
-    {
-      "name": "babele",
-      "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/-/blob/master/module/module.json",
-      "version": "2.0",
-      "type": "module"
-    }
-  ],
-  "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "lang/en.json"
-    },
-    {
-      "lang": "de",
-      "name": "Deutsch",
-      "path": "lang/de.json"
-    }
-  ],
-  "packs": [
-    {
-      "name": "wc5e_backgrounds",
-      "label": "Wc5e | Backgrounds",
-      "path": "./packs/backgrounds.db",
-      "entity": "Item",
-      "system": "dnd5e",
-      "package": "warcraft5e"
-    },
-    {
-      "name": "wc5e_background_feats",
-      "label": "Wc5e | Background Feats",
-      "path": "./packs/background_feats.db",
-      "entity": "Item",
-      "system": "dnd5e",
-      "package": "warcraft5e"
-    },
-    {
-      "name": "wc5e_classes",
-      "label": "Wc5e | Classes",
-      "path": "./packs/classes.db",
-      "entity": "Item",
-      "system": "dnd5e",
-      "package": "warcraft5e"
-    },
-    {
-      "name": "wc5e_class_feats",
-      "label": "Wc5e | Class Features",
-      "path": "./packs/class_feats.db",
-      "entity": "Item",
-      "system": "dnd5e",
-      "package": "warcraft5e"
-    },
-    {
-      "name": "wc5e_races",
-      "label": "Wc5e | Races",
-      "path": "./packs/races.db",
-      "entity": "Item",
-      "system": "dnd5e",
-      "package": "warcraft5e"
-    },
-    {
-      "name": "wc5e_spells",
-      "label": "Wc5e | Spells",
-      "path": "./packs/spells.db",
-      "entity": "Item",
-      "system": "dnd5e",
-      "package": "warcraft5e"
-    },
-    {
-      "name": "wc5e_class_talents",
-      "label": "Wc5e | Class Talents",
-      "path": "./packs/class_talents.db",
-      "entity": "Item",
-      "system": "dnd5e",
-      "package": "warcraft5e"
-    }
-  ],
-  "minimumCoreVersion": "0.8.2",
-  "compatibleCoreVersion": "0.8.9",
-  "url": "https://github.com/ArthegaAsdweri/foundryvtt-warcraft5e",
-  "manifest": "https://github.com/ArthegaAsdweri/foundryvtt-warcraft5e/raw/master/module.json",
-  "download": "https://github.com/ArthegaAsdweri/foundryvtt-warcraft5e/archive/master.zip"
+   "name": "warcraft5e",
+   "title": "Warcraft RPG - 5e",
+   "description": "Conversion of the official Warcraft Role Playing Game: https://drive.google.com/drive/folders/0B1FoMHLY1oOtLUlNdTZXYzVNY0k.",
+   "author": "ArthegaAsdweri",
+   "version": "0.0.7",
+   "esmodules": [
+      "scripts/warcraft5e.js"
+   ],
+   "styles": [
+      "styles/warcraft5e.css"
+   ],
+   "dependencies": [
+      {
+         "name": "dnd5e",
+         "type": "system"
+      },
+      {
+         "name": "libWrapper",
+         "manifest": "https://github.com/ruipin/fvtt-lib-wrapper/releases/latest/download/module.json",
+         "version": "1.1",
+         "type": "module"
+      },
+      {
+         "name": "babele",
+         "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/-/blob/master/module/module.json",
+         "version": "2.0",
+         "type": "module"
+      }
+   ],
+   "languages": [
+      {
+         "lang": "en",
+         "name": "English",
+         "path": "lang/en.json"
+      },
+      {
+         "lang": "de",
+         "name": "Deutsch",
+         "path": "lang/de.json"
+      }
+   ],
+   "packs": [
+      {
+         "name": "wc5e_backgrounds",
+         "label": "Wc5e | Backgrounds",
+         "path": "./packs/backgrounds.db",
+         "entity": "Item",
+         "system": "dnd5e",
+         "package": "warcraft5e"
+      },
+      {
+         "name": "wc5e_background_feats",
+         "label": "Wc5e | Background Feats",
+         "path": "./packs/background_feats.db",
+         "entity": "Item",
+         "system": "dnd5e",
+         "package": "warcraft5e"
+      },
+      {
+         "name": "wc5e_classes",
+         "label": "Wc5e | Classes",
+         "path": "./packs/classes.db",
+         "entity": "Item",
+         "system": "dnd5e",
+         "package": "warcraft5e"
+      },
+      {
+         "name": "wc5e_class_feats",
+         "label": "Wc5e | Class Features",
+         "path": "./packs/class_feats.db",
+         "entity": "Item",
+         "system": "dnd5e",
+         "package": "warcraft5e"
+      },
+      {
+         "name": "wc5e_races",
+         "label": "Wc5e | Races",
+         "path": "./packs/races.db",
+         "entity": "Item",
+         "system": "dnd5e",
+         "package": "warcraft5e"
+      },
+      {
+         "name": "wc5e_spells",
+         "label": "Wc5e | Spells",
+         "path": "./packs/spells.db",
+         "entity": "Item",
+         "system": "dnd5e",
+         "package": "warcraft5e"
+      },
+      {
+         "name": "wc5e_class_talents",
+         "label": "Wc5e | Class Talents",
+         "path": "./packs/class_talents.db",
+         "entity": "Item",
+         "system": "dnd5e",
+         "package": "warcraft5e"
+      }
+   ],
+   "minimumCoreVersion": "0.8.2",
+   "compatibleCoreVersion": "0.8.9",
+   "url": "https://github.com/ArthegaAsdweri/foundryvtt-warcraft5e",
+   "manifest": "https://github.com/ArthegaAsdweri/foundryvtt-warcraft5e/raw/master/module.json",
+   "download": "https://github.com/ArthegaAsdweri/foundryvtt-warcraft5e/archive/master.zip"
 }

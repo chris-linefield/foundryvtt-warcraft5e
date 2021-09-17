@@ -1,0 +1,88 @@
+{
+   "_id": "TxQWM1T5qmaAzpBe",
+   "name": "Favorite Schemes",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Player's Handbook",
+      "requirements": "Charlatan"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.FavoriteSchemes.Description.1.Value"
+            },
+            {
+               "table": {
+                  "head": [
+                     {
+                        "title": "d6"
+                     },
+                     {
+                        "title": "WC5E.UI.Scam"
+                     }
+                  ],
+                  "rows": [
+                     [
+                        {
+                           "value": 1
+                        },
+                        {
+                           "text": "WC5E.Feats.FavoriteSchemes.Description.2.Options.1"
+                        }
+                     ],
+                     [
+                        {
+                           "value": 2
+                        },
+                        {
+                           "text": "WC5E.Feats.FavoriteSchemes.Description.2.Options.2"
+                        }
+                     ],
+                     [
+                        {
+                           "value": 3
+                        },
+                        {
+                           "text": "WC5E.Feats.FavoriteSchemes.Description.2.Options.3"
+                        }
+                     ],
+                     [
+                        {
+                           "value": 4
+                        },
+                        {
+                           "text": "WC5E.Feats.FavoriteSchemes.Description.2.Options.4"
+                        }
+                     ],
+                     [
+                        {
+                           "value": 5
+                        },
+                        {
+                           "text": "WC5E.Feats.FavoriteSchemes.Description.2.Options.5"
+                        }
+                     ],
+                     [
+                        {
+                           "value": 6
+                        },
+                        {
+                           "text": "WC5E.Feats.FavoriteSchemes.Description.2.Options.6"
+                        }
+                     ]
+                  ]
+               }
+            }
+         ]
+      }
+   },
+   "img": "icons/sundries/gaming/dice-pair-white-green.webp",
+   "effects": [
+   ]
+}
