@@ -2127,12 +2127,30 @@
       "Spells": {
          "AbandonmentAura": {
             "Label": "Abandonment Aura",
-            "Description": "Destructive energy radiates from you in an aura with a 15-foot radius. Until the spell ends, the aura moves with you, centered on you. Each creature hostile to you that is in the aura takes 1 extra point of damage from all weapon attacks. A creature can negate this effect if they succeed on a Spirit saving throw once within the aura‘s area.<br> This spell is suppressed by the protection from good and evil (and similar abjurations). This is an aura bonus.",
-            "Heightened": "For each spell level above 1st, the extra damage increases by 1 point (up to 5 extra points of damage at spell level 5).<br> Note. This spell suppresses and is suppressed by the devotion aura spell."
+            "Description": {
+               "1": {
+                  "Value": "Destructive energy radiates from you in an aura with a 15-foot radius. Until the spell ends, the aura moves with you, centered on you. Each creature hostile to you that is in the aura takes 1 extra point of damage from all weapon attacks. A creature can negate this effect if they succeed on a Spirit saving throw once within the aura‘s area."
+               },
+               "2": {
+                  "Value": "This spell is suppressed by the protection from good and evil (and similar abjurations). This is an aura bonus."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "For each spell level above 1st, the extra damage increases by 1 point (up to 5 extra points of damage at spell level 5)."
+               },
+               "2": {
+                  "Value": "Note. This spell suppresses and is suppressed by the devotion aura spell."
+               }
+            }
          },
          "AbsorbElements": {
             "Label": "Absorb Elements",
-            "Description": "The spell captures some of the incoming energy, lessening its effect on you and storing it for your next melee attack. You have resistance to the triggering damage type until the start of your next turn. Also, the first time you hit with a melee attack on your next turn, the target takes an extra 1d6 damage of the triggering type, and the spell ends.",
+            "Description": {
+               "1": {
+                  "Value": "The spell captures some of the incoming energy, lessening its effect on you and storing it for your next melee attack. You have resistance to the triggering damage type until the start of your next turn. Also, the first time you hit with a melee attack on your next turn, the target takes an extra 1d6 damage of the triggering type, and the spell ends."
+               }
+            },
             "Heightened": "When you cast this spell using a spell slot of 2nd level or higher, the extra damage increases by 1d6 for each slot level above 1st."
          },
          "AlignedWeapon": {
