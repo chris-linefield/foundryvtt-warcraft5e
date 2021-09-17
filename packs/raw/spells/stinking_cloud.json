@@ -1,91 +1,96 @@
 {
-   "_id":"Ih22xaa1ZQ5pApME",
-   "name":"Stinking Cloud",
-   "permission":{
-      "default":0
+   "_id": "Ih22xaa1ZQ5pApME",
+   "name": "Stinking Cloud",
+   "permission": {
+      "default": 0
    },
-   "type":"spell",
-   "data":{
-      "wcType": "spell",
-      "description":{
-         "value":"WC5E.Spells.StinkingCloud.Description",
-         "chat":"",
-         "unidentified":""
+   "type": "spell",
+   "data": {
+      "source": "",
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
       },
-      "source":"",
-      "activation":{
-         "type":"action",
-         "cost":1,
-         "condition":""
+      "duration": {
+         "value": 1,
+         "units": "minute"
       },
-      "duration":{
-         "value":1,
-         "units":"minute"
+      "target": {
+         "value": 20,
+         "units": "ft",
+         "type": "sphere"
       },
-      "target":{
-         "value":20,
-         "units":"ft",
-         "type":"sphere"
+      "range": {
+         "value": 90,
+         "long": 0,
+         "units": "ft"
       },
-      "range":{
-         "value":90,
-         "long":0,
-         "units":"ft"
+      "uses": {
+         "value": 0,
+         "max": 0,
+         "per": ""
       },
-      "uses":{
-         "value":0,
-         "max":0,
-         "per":""
-      },
-      "ability":"",
-      "actionType":"save",
-      "attackBonus":0,
-      "chatFlavor":"",
-      "critical":null,
-      "damage":{
-         "parts":[
-
+      "ability": "",
+      "actionType": "save",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": null,
+      "damage": {
+         "parts": [
          ],
-         "versatile":"",
-         "value":""
+         "versatile": "",
+         "value": ""
       },
-      "formula":"",
-      "save":{
-         "ability":"con",
-         "dc":0,
-         "scaling":"spell"
+      "formula": "",
+      "save": {
+         "ability": "con",
+         "dc": 0,
+         "scaling": "spell"
       },
-      "level":3,
-      "school":"con",
-      "components":{
-         "value":"",
-         "vocal":true,
-         "somatic":true,
-         "material":true,
-         "ritual":false,
-         "concentration":true
+      "level": 3,
+      "school": "con",
+      "components": {
+         "value": "",
+         "vocal": true,
+         "somatic": true,
+         "material": true,
+         "ritual": false,
+         "concentration": true
       },
-      "materials":{
-         "value":"A rotten egg or several skunk cabbage leaves",
-         "consumed":false,
-         "cost":0,
-         "supply":0
+      "materials": {
+         "value": "A rotten egg or several skunk cabbage leaves",
+         "consumed": false,
+         "cost": 0,
+         "supply": 0
       },
-      "preparation":{
-         "mode":"prepared",
-         "prepared":false
+      "preparation": {
+         "mode": "prepared",
+         "prepared": false
       },
-      "scaling":{
-         "mode":"none",
-         "formula":""
+      "scaling": {
+         "mode": "none",
+         "formula": ""
       }
    },
-   "sort":100001,
-   "flags":{
-
+   "sort": 100001,
+   "flags": {
+      "wc5e": {
+         "type": "spell",
+         "description": [
+            {
+               "value": "WC5E.Spells.StinkingCloud.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Spells.StinkingCloud.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Spells.StinkingCloud.Description.3.Value"
+            }
+         ]
+      }
    },
-   "img":"systems/dnd5e/icons/spells/fog-acid-2.jpg",
-   "effects":[
-
+   "img": "systems/dnd5e/icons/spells/fog-acid-2.jpg",
+   "effects": [
    ]
 }

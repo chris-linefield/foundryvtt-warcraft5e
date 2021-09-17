@@ -1,85 +1,85 @@
 {
-  "_id":"Qbb36MemlLPDP9ps",
-  "name":"Vampiric Aura",
-  "permission":{
-    "default":0
-  },
-  "type":"spell",
-  "data":{
-    "wcType": "spell",
-    "description":{
-      "value":"WC5E.Spells.VampiricAura.Description",
-      "chat":"",
-      "unidentified":""
-    },
-    "source":"https://www.dandwiki.com/wiki/Vampiric_Aura_(5e_Spell)",
-    "activation":{
-      "type":"action",
-      "cost":1,
-      "condition":""
-    },
-    "duration":{
-      "value":10,
-      "units":"minutes"
-    },
-    "target":{
-      "value":30,
-      "units":"ft",
-      "type":"radius"
-    },
-    "range":{
-      "value":null,
-      "long":null,
-      "units":"self"
-    },
-    "uses":{
-      "value":0,
-      "max":0,
-      "per":""
-    },
-    "ability":"",
-    "actionType":"save",
-    "attackBonus":0,
-    "chatFlavor":"",
-    "critical":null,
-    "damage":{
-      "parts":[],
-      "versatile":""
-    },
-    "formula":"",
-    "save":{
-    },
-    "level":6,
-    "school":"nec",
-    "components":{
-      "value":"",
-      "vocal":true,
-      "somatic":true,
-      "material":false,
-      "ritual":false,
-      "concentration":false
-    },
-    "materials":{
-      "value":"",
-      "consumed":false,
-      "cost":0,
-      "supply":0
-    },
-    "preparation":{
-      "mode":"prepared",
-      "prepared":false
-    },
-    "scaling":{
-      "mode":"level",
-      "formula":"1d6"
-    }
-  },
-  "sort":100001,
-  "flags":{
-
-  },
-  "img":"icons/magic/light/circle-window-clock-blue.webp",
-  "effects":[
-
-  ]
+   "_id": "Qbb36MemlLPDP9ps",
+   "name": "Vampiric Aura",
+   "permission": {
+      "default": 0
+   },
+   "type": "spell",
+   "data": {
+      "source": "",
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": 10,
+         "units": "minutes"
+      },
+      "target": {
+         "value": 30,
+         "units": "ft",
+         "type": "radius"
+      },
+      "range": {
+         "value": null,
+         "long": null,
+         "units": "self"
+      },
+      "uses": {
+         "value": 0,
+         "max": 0,
+         "per": ""
+      },
+      "ability": "",
+      "actionType": "save",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": null,
+      "damage": {
+         "parts": [],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+      },
+      "level": 6,
+      "school": "nec",
+      "components": {
+         "value": "",
+         "vocal": true,
+         "somatic": true,
+         "material": false,
+         "ritual": false,
+         "concentration": false
+      },
+      "materials": {
+         "value": "",
+         "consumed": false,
+         "cost": 0,
+         "supply": 0
+      },
+      "preparation": {
+         "mode": "prepared",
+         "prepared": false
+      },
+      "scaling": {
+         "mode": "level",
+         "formula": "1d6"
+      }
+   },
+   "sort": 100001,
+   "flags": {
+      "wc5e": {
+         "type": "spell",
+         "description": [
+            {
+               "value": "WC5E.Spells.VampiricAura.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/death/mouth-bite-fangs-vampire.webp",
+   "effects": [
+   ]
 }

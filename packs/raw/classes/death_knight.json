@@ -505,13 +505,13 @@
                      "spells": [
                         {
                            "pack": "warcraft5e.wc5e_spells",
-                           "node": "lgmoBl0EMVO2Im5A",
+                           "node": "70yzEZc4G9AK4snW",
                            "label": "WC5E.Spells.CircleOfPower.Label"
                         },
                         {
                            "pack": "warcraft5e.wc5e_spells",
-                           "node": "jMDm1EdS2x19nMjI",
-                           "label": "WC5E.Spells.Strangulate.Label"
+                           "node": "Qbb36MemlLPDP9ps",
+                           "label": "WC5E.Spells.VampiricAura.Label"
                         }
                      ]
                   }

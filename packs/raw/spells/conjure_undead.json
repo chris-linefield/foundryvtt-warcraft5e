@@ -1,88 +1,91 @@
 {
-  "_id":"oppMIXl9H5bf8yTl",
-  "name":"Conjure Undead",
-  "permission":{
-    "default":0
-  },
-  "type":"spell",
-  "data":{
-    "wcType": "spell",
-    "description":{
-      "value":"WC5E.Spells.ConjureUndead.Description",
-      "chat":"",
-      "unidentified":""
-    },
-    "source":"TODO - Spell missing",
-    "activation":{
-      "type":"action",
-      "cost":1,
-      "condition":""
-    },
-    "duration":{
-      "value":1,
-      "units":"minute"
-    },
-    "target":{
-      "value":1,
-      "units":"",
-      "type":"creature"
-    },
-    "range":{
-      "value":null,
-      "long":null,
-      "units":"touch"
-    },
-    "uses":{
-      "value":0,
-      "max":0,
-      "per":""
-    },
-    "ability":"",
-    "actionType":"heal",
-    "attackBonus":0,
-    "chatFlavor":"",
-    "critical":null,
-    "damage":{
-      "parts":["2d4", "healing"],
-      "versatile":""
-    },
-    "formula":"",
-    "save":{
-      "ability":"",
-      "dc":null,
-      "value":""
-    },
-    "level":2,
-    "school":"abj",
-    "components":{
-      "value":"",
-      "vocal":true,
-      "somatic":true,
-      "material":false,
-      "ritual":false,
-      "concentration":false
-    },
-    "materials":{
-      "value":"",
-      "consumed":false,
-      "cost":0,
-      "supply":0
-    },
-    "preparation":{
-      "mode":"prepared",
-      "prepared":false
-    },
-    "scaling":{
-      "mode":"none",
-      "formula":""
-    }
-  },
-  "sort":100001,
-  "flags":{
-
-  },
-  "img":"icons/svg/stoned.svg",
-  "effects":[
-
-  ]
+   "_id": "oppMIXl9H5bf8yTl",
+   "name": "Conjure Undead",
+   "permission": {
+      "default": 0
+   },
+   "type": "spell",
+   "data": {
+      "description": {
+         "value": "WC5E.Spells.ConjureUndead.Description",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "TODO - Spell missing",
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": 1,
+         "units": "minute"
+      },
+      "target": {
+         "value": 1,
+         "units": "",
+         "type": "creature"
+      },
+      "range": {
+         "value": null,
+         "long": null,
+         "units": "touch"
+      },
+      "uses": {
+         "value": 0,
+         "max": 0,
+         "per": ""
+      },
+      "ability": "",
+      "actionType": "heal",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": null,
+      "damage": {
+         "parts": [
+            "2d4",
+            "healing"
+         ],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "value": ""
+      },
+      "level": 2,
+      "school": "abj",
+      "components": {
+         "value": "",
+         "vocal": true,
+         "somatic": true,
+         "material": false,
+         "ritual": false,
+         "concentration": false
+      },
+      "materials": {
+         "value": "",
+         "consumed": false,
+         "cost": 0,
+         "supply": 0
+      },
+      "preparation": {
+         "mode": "prepared",
+         "prepared": false
+      },
+      "scaling": {
+         "mode": "none",
+         "formula": ""
+      }
+   },
+   "sort": 100001,
+   "flags": {
+      "wc5e": {
+         "type": "spell"
+      }
+   },
+   "img": "icons/svg/stoned.svg",
+   "effects": [
+   ]
 }

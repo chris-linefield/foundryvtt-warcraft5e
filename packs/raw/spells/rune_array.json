@@ -1,89 +1,116 @@
 {
-  "_id":"7AJ7qh8K1MM9y7Ir",
-  "name":"Rune Array",
-  "permission":{
-    "default":0
-  },
-  "type":"spell",
-  "data":{
-    "wcType": "spell",
-    "heightened":"WC5E.Spells.RuneArray.Heightened",
-    "description":{
-      "value":"WC5E.Spells.RuneArray.Description",
-      "chat":"",
-      "unidentified":""
-    },
-    "source":"PHB page 364",
-    "activation":{
-      "type":"action",
-      "cost":1,
-      "condition":""
-    },
-    "duration":{
-      "value":1,
-      "units":"minute"
-    },
-    "target":{
-      "value":1,
-      "units":"",
-      "type":"self"
-    },
-    "range":{
-      "value":"",
-      "long":null,
-      "units":"self"
-    },
-    "uses":{
-      "value":0,
-      "max":0,
-      "per":""
-    },
-    "ability":"",
-    "actionType":"other",
-    "attackBonus":0,
-    "chatFlavor":"",
-    "critical":null,
-    "damage":{
-      "parts":[],
-      "versatile":""
-    },
-    "formula":"",
-    "save":{
-      "ability":"",
-      "dc":null,
-      "value":""
-    },
-    "level":1,
-    "school":"nec",
-    "components":{
-      "value":"",
-      "vocal":true,
-      "somatic":true,
-      "material":false,
-      "ritual":false,
-      "concentration":false
-    },
-    "materials":{
-      "value":"",
-      "consumed":false,
-      "cost":0,
-      "supply":0
-    },
-    "preparation":{
-      "mode":"prepared",
-      "prepared":false
-    },
-    "scaling":{
-      "mode":"none",
-      "formula":""
-    }
-  },
-  "sort":100001,
-  "flags":{
-
-  },
-  "img":"icons/magic/symbols/rune-sigil-black-pink.webp",
-  "effects":[
-
-  ]
+   "_id": "7AJ7qh8K1MM9y7Ir",
+   "name": "Rune Array",
+   "permission": {
+      "default": 0
+   },
+   "type": "spell",
+   "data": {
+      "source": "Core Rules page 364",
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": 1,
+         "units": "minute"
+      },
+      "target": {
+         "value": 1,
+         "units": "",
+         "type": "self"
+      },
+      "range": {
+         "value": "",
+         "long": null,
+         "units": "self"
+      },
+      "uses": {
+         "value": 0,
+         "max": 0,
+         "per": ""
+      },
+      "ability": "",
+      "actionType": "other",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": null,
+      "damage": {
+         "parts": [],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "value": ""
+      },
+      "level": 1,
+      "school": "nec",
+      "components": {
+         "value": "",
+         "vocal": true,
+         "somatic": true,
+         "material": false,
+         "ritual": false,
+         "concentration": false
+      },
+      "materials": {
+         "value": "",
+         "consumed": false,
+         "cost": 0,
+         "supply": 0
+      },
+      "preparation": {
+         "mode": "prepared",
+         "prepared": false
+      },
+      "scaling": {
+         "mode": "none",
+         "formula": ""
+      }
+   },
+   "sort": 100001,
+   "flags": {
+      "wc5e": {
+         "type": "spell",
+         "description": [
+            {
+               "value": "WC5E.Spells.RuneArray.Description.1.Value"
+            },
+            {
+               "options": [
+                  "WC5E.Spells.RuneArray.Description.2.Options.1",
+                  "WC5E.Spells.RuneArray.Description.2.Options.2",
+                  "WC5E.Spells.RuneArray.Description.2.Options.3",
+                  "WC5E.Spells.RuneArray.Description.2.Options.4",
+                  "WC5E.Spells.RuneArray.Description.2.Options.5"
+               ]
+            },
+            {
+               "title": "WC5E.Spells.RuneArray.Description.3.Title",
+               "value": "WC5E.Spells.RuneArray.Description.3.Value"
+            },
+            {
+               "options": [
+                  "WC5E.Spells.RuneArray.Description.4.Options.1",
+                  "WC5E.Spells.RuneArray.Description.4.Options.2",
+                  "WC5E.Spells.RuneArray.Description.4.Options.3"
+               ]
+            }
+         ],
+         "heightened": [
+            {
+               "options": [
+                  "WC5E.Spells.RuneArray.Heightened.1.Options.1",
+                  "WC5E.Spells.RuneArray.Heightened.1.Options.2"
+               ]
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/symbols/rune-sigil-black-pink.webp",
+   "effects": [
+   ]
 }

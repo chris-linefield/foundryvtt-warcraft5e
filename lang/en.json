@@ -2151,152 +2151,439 @@
                   "Value": "The spell captures some of the incoming energy, lessening its effect on you and storing it for your next melee attack. You have resistance to the triggering damage type until the start of your next turn. Also, the first time you hit with a melee attack on your next turn, the target takes an extra 1d6 damage of the triggering type, and the spell ends."
                }
             },
-            "Heightened": "When you cast this spell using a spell slot of 2nd level or higher, the extra damage increases by 1d6 for each slot level above 1st."
+            "Heightened": {
+               "1": {
+                  "Value": "When you cast this spell using a spell slot of 2nd level or higher, the extra damage increases by 1d6 for each slot level above 1st."
+               }
+            }
          },
          "AlignedWeapon": {
             "Label": "Aligned Weapon",
-            "Description": "You imbue a weapon you touch with power aligned to the Holy Light or the Forgotten Shadow. Until the spell ends, the weapon emits bright light in a 30-foot-radius and dim light for an additional 30 feet, colored golden white (if Holy Light) or pale violet (if Forgotten Shadow). In addition, weapon attacks made with it deal an extra 2d8 extra damage on a hit (holy damage if Holy Light, or shadow damage if Forgotten Shadow). If the weapon isn‘t already a magic weapon, it becomes one for the duration.<br>As a bonus action on your turn, you can dismiss this spell and cause the weapon to emit a lasting blast. Each creature of your choice that you can see within 30 feet of you must make a Stamina saving throw. On a failed save, a creature takes 4d8 damage (holy or shadow), and it is blinded for 1 minute. On a successful save, a creature takes half as much damage and isn‘t blinded. At the end of each of its turns, a blinded creature can make a Stamina saving throw, ending the effect on itself on a success.<br>Special. If aligned to the Forgotten Shadow, the weapon may, at your will, shed no light instead. In that case, releasing the spell deals extra 1d8 shadow damage."
+            "Description": {
+               "1": {
+                  "Value": "You imbue a weapon you touch with power aligned to the Holy Light or the Forgotten Shadow. Until the spell ends, the weapon emits bright light in a 30-foot-radius and dim light for an additional 30 feet, colored golden white (if Holy Light) or pale violet (if Forgotten Shadow). In addition, weapon attacks made with it deal an extra 2d8 extra damage on a hit (holy damage if Holy Light, or shadow damage if Forgotten Shadow). If the weapon isn‘t already a magic weapon, it becomes one for the duration."
+               },
+               "2": {
+                  "Value": "As a bonus action on your turn, you can dismiss this spell and cause the weapon to emit a lasting blast. Each creature of your choice that you can see within 30 feet of you must make a Stamina saving throw. On a failed save, a creature takes 4d8 damage (holy or shadow), and it is blinded for 1 minute. On a successful save, a creature takes half as much damage and isn‘t blinded. At the end of each of its turns, a blinded creature can make a Stamina saving throw, ending the effect on itself on a success."
+               },
+               "3": {
+                  "Value": "If aligned to the Forgotten Shadow, the weapon may, at your will, shed no light instead. In that case, releasing the spell deals extra 1d8 shadow damage."
+               }
+            }
          },
          "AlterSelf": {
             "Label": "Alter Self",
-            "Description": "You assume a different form. When you cast the spell, choose one of the following options, the effects of which last for the duration of the spell. While the spell lasts, you can end one option as an action to gain the benefits of a different one.",
-            "Options": {
-               "1": "<i>Aquatic Adaptation</i>: You adapt your body to an aquatic environment, sprouting gills and growing webbing between your fingers. You can breathe underwater and gain a swimming speed equal to your walking speed.",
-               "2": "<i>Change Appearance</i>: You transform your appearance. You decide what you look like, including your height, weight, facial features, sound of your voice, hair length, coloration, and distinguishing characteristics, if any. You can make yourself appear as a member of another race, though none of your statistics change. You also can't appear as a creature of a different size than you, and your basic shape stays the same; if you're bipedal, you can't use this spell to become quadrupedal, for instance. At any time for the duration of the spell, you can use your action to change your appearance in this way again.",
-               "3": "<i>Natural Weapons</i>: You grow claws, fangs, spines, horns, or a different natural weapon of your choice. Your unarmed strikes deal 1d6 bludgeoning, piercing, or slashing damage, as appropriate to the natural weapon you chose, and you are proficient with your unarmed strikes. Finally, the natural weapon is magic and you have a +1 bonus to the attack and damage rolls you make using it."
+            "Description": {
+               "1": {
+                  "Value": "You assume a different form. When you cast the spell, choose one of the following options, the effects of which last for the duration of the spell. While the spell lasts, you can end one option as an action to gain the benefits of a different one."
+               },
+               "2": {
+                  "Options": {
+                     "1": "<i>Aquatic Adaptation</i>: You adapt your body to an aquatic environment, sprouting gills and growing webbing between your fingers. You can breathe underwater and gain a swimming speed equal to your walking speed.",
+                     "2": "<i>Change Appearance</i>: You transform your appearance. You decide what you look like, including your height, weight, facial features, sound of your voice, hair length, coloration, and distinguishing characteristics, if any. You can make yourself appear as a member of another race, though none of your statistics change. You also can't appear as a creature of a different size than you, and your basic shape stays the same; if you're bipedal, you can't use this spell to become quadrupedal, for instance. At any time for the duration of the spell, you can use your action to change your appearance in this way again.",
+                     "3": "<i>Natural Weapons</i>: You grow claws, fangs, spines, horns, or a different natural weapon of your choice. Your unarmed strikes deal 1d6 bludgeoning, piercing, or slashing damage, as appropriate to the natural weapon you chose, and you are proficient with your unarmed strikes. Finally, the natural weapon is magic and you have a +1 bonus to the attack and damage rolls you make using it."
+                  }
+               }
             }
          },
          "AmplifyMagic": {
             "Label": "Amplify Magic",
-            "Description": "You amplify magical effects in the area of effect. All spells cast from or into the area of effect are heightened one spell level. If the spell cannot be heightened (or if heightening has no effect), it heals 25% more, damages 25% more, or remains for 25% longer.<br><i>Dampen Magic</i>: This spell may be reversely cast. If so, the spells cast into or from the area of effect are counted one level lower (if eligible) and are reversely affected (heals 25% less, deals 25% less damage, or remains for 25% less time)."
+            "Description": {
+               "1": {
+                  "Value": "You amplify magical effects in the area of effect. All spells cast from or into the area of effect are heightened one spell level. If the spell cannot be heightened (or if heightening has no effect), it heals 25% more, damages 25% more, or remains for 25% longer."
+               },
+               "2": {
+                  "Value": "<i>Dampen Magic</i>: This spell may be reversely cast. If so, the spells cast into or from the area of effect are counted one level lower (if eligible) and are reversely affected (heals 25% less, deals 25% less damage, or remains for 25% less time)."
+               }
+            }
          },
          "AncestralGuardian": {
             "Label": "Ancestral Guardian",
-            "Description": "You conjure spirits to guard and advise the target in battle, tapping into the target's ancestral bonds. The target regains 2d4 hit points. At the beginning of every round, the caster must succeed on a sigil roll to affect the target again.<br>Also, so long as this sigil is active, the target also takes 1 less point of damage from weapon and spell attacks and effects for that round. The reduction to damage is an aura effect.<br>Constructs gain no benefit from this spell.<br><i>Special</i>: If the caster and the target share ancestry or share a Blood Oath (see Chapter 10), the damage reduction increases by 1 point.",
-            "Heightened": "The healing increases by one dice per every level above 2nd, and reduction to damage increases by one point per every two levels above 2nd."
+            "Description": {
+               "1": {
+                  "Value": "You conjure spirits to guard and advise the target in battle, tapping into the target's ancestral bonds. The target regains 2d4 hit points. At the beginning of every round, the caster must succeed on a sigil roll to affect the target again."
+               },
+               "2": {
+                  "Value": "Also, so long as this sigil is active, the target also takes 1 less point of damage from weapon and spell attacks and effects for that round. The reduction to damage is an aura effect."
+               },
+               "3": {
+                  "Value": "Constructs gain no benefit from this spell."
+               },
+               "4": {
+                  "Value": "If the caster and the target share ancestry or share a Blood Oath (see Chapter 10), the damage reduction increases by 1 point."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "The healing increases by one dice per every level above 2nd, and reduction to damage increases by one point per every two levels above 2nd."
+               }
+            }
          },
          "Bane": {
             "Label": "Bane",
-            "Description": "Up to three creatures of your choice that you can see within range must make Charisma saving throws. Whenever a target that fails this saving throw makes an attack roll or a saving throw before the spell ends, the target must roll a d4 and subtract the number rolled from the attack roll or saving throw.",
-            "Heightened": "When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st."
+            "Description": {
+               "1": {
+                  "Value": "Up to three creatures of your choice that you can see within range must make Charisma saving throws. Whenever a target that fails this saving throw makes an attack roll or a saving throw before the spell ends, the target must roll a d4 and subtract the number rolled from the attack roll or saving throw."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st."
+               }
+            }
          },
          "BerserkerRage": {
             "Label": "Berserker Rage",
-            "Description": "You cause one creature to go into a murderous rampage. The target must succeed on a Stamina saving throw or else gains the following benefits. A willing creature can choose to fail on the saving throw.<br><br><ul><li>They have advantage on Strength checks and Strength saving throws.</li><li>When they make a melee weapon attack using Strength, they gain a +2 bonus to the damage roll (this applies only twice per round).</li><li>They have Resistance to bludgeoning, piercing, and slashing damage.</li><li>The suffers the distracted condition (DC is equal to your spell DC).</li></ul><br>The rage ends early if the target is knocked unconscious, or if their turn ends without being attacked or attacking a hostile creature, or if not taking at least one point of damage in that turn. The benefits of this spell are not gained if the target is wearing heavy armor. A creature affected by this spell makes another Stamina saving throw at the end of its turn. On a successful save, the effect ends for it. If the rage continues for more than two rounds, the creature gains one level of exhaustion at the end of the rage.<br> A creature cannot benefit from this spell more than once per their own proficiency bonus per every long rest.",
-            "Heightened": "For each 3 spell levels heightened above 2nd level, the bonus to damage rolls increases by 1 (+3 at 5th, +4 at 8th)."
+            "Description": {
+               "1": {
+                  "Value": "You cause one creature to go into a murderous rampage. The target must succeed on a Stamina saving throw or else gains the following benefits. A willing creature can choose to fail on the saving throw."
+               },
+               "2": {
+                  "Options": {
+                     "1": "They have advantage on Strength checks and Strength saving throws.",
+                     "2": "When they make a melee weapon attack using Strength, they gain a +2 bonus to the damage roll (this applies only twice per round).",
+                     "3": "They have Resistance to bludgeoning, piercing, and slashing damage.",
+                     "4": "The target suffers the distracted condition (DC is equal to your spell DC)."
+                  }
+               },
+               "3": {
+                  "Value": "The rage ends early if the target is knocked unconscious, or if their turn ends without being attacked or attacking a hostile creature, or if not taking at least one point of damage in that turn. The benefits of this spell are not gained if the target is wearing heavy armor. A creature affected by this spell makes another Stamina saving throw at the end of its turn. On a successful save, the effect ends for it. If the rage continues for more than two rounds, the creature gains one level of exhaustion at the end of the rage."
+               },
+               "4": {
+                  "Value": "A creature cannot benefit from this spell more than once per their own proficiency bonus per every long rest."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "For each 3 spell levels heightened above 2nd level, the bonus to damage rolls increases by 1 (+3 at 5th, +4 at 8th)."
+               }
+            }
          },
          "BlackTentacles": {
             "Label": "Black Tentacles",
-            "Description": "Squirming, ebony tentacles fill a 20-foot square on ground that you can see within range. For the Duration, these tentacles turn the ground in the area into difficult terrain.<br>When a creature enters the affected area for the first time on a turn or starts its turn there, the creature must succeed on a Dexterity saving throw or take 3d6 bludgeoning damage and be  Restrained by the tentacles until the spell ends. A creature that starts its turn in the area and is already  Restrained by the tentacles takes 3d6 bludgeoning damage.<br>A creature  Restrained by the tentacles can use its action to make a Strength or Dexterity check (its choice) against your spell save DC. On a success, it frees itself."
+            "Description": {
+               "1": {
+                  "Value": "Squirming, ebony tentacles fill a 20-foot square on ground that you can see within range. For the Duration, these tentacles turn the ground in the area into difficult terrain."
+               },
+               "2": {
+                  "Value": "When a creature enters the affected area for the first time on a turn or starts its turn there, the creature must succeed on a Dexterity saving throw or take 3d6 bludgeoning damage and be  Restrained by the tentacles until the spell ends. A creature that starts its turn in the area and is already  Restrained by the tentacles takes 3d6 bludgeoning damage."
+               },
+               "3": {
+                  "Value": "A creature  Restrained by the tentacles can use its action to make a Strength or Dexterity check (its choice) against your spell save DC. On a success, it frees itself."
+               }
+            }
          },
          "CarrionSwarm": {
             "Label": "Carrion Swarm",
-            "Description": "You release a torrent of poisonous spiders, beetles and other vermin from hand to bite and infest your opponents. Each creature in a 20-foot cone must make a Stamina saving throw, or take 3d8 bludgeoning, piercing, and slashing damage on a failed save, or half as much damage on a successful saving throw. Targets who failed the saving throw are also infested by the swarm. At the beginning of every round, the caster must succeed on a sigil roll to affect the infested targets again (even if they are no longer within the normal range). Also, as long as the spell is active for that target, they are considered poisoned until the beginning of their turn in the next round. Whenever a creature dies while being poisoned by this spell, a carrion beetle is conjured where they once stood (exploding from the corpse). The DM has the carrion beetle‘s statistics. A creature can end the infestation on them by spending an action.",
-            "Heightened": "The damage increases by one dice per every spell level above 3rd. Special. If you are a corporeal undead, you may target one creature that suffers under this sigil, and transfer some of their lost life force to you. You regain hit points equal to one-half the damage dealt by the spell in the same round."
+            "Description": {
+               "1": {
+                  "Value": "You release a torrent of poisonous spiders, beetles and other vermin from hand to bite and infest your opponents. Each creature in a 20-foot cone must make a Stamina saving throw, or take 3d8 bludgeoning, piercing, and slashing damage on a failed save, or half as much damage on a successful saving throw. Targets who failed the saving throw are also infested by the swarm."
+               },
+               "2": {
+                  "Value": "At the beginning of every round, the caster must succeed on a sigil roll to affect the infested targets again (even if they are no longer within the normal range)."
+               },
+               "3": {
+                  "Value": "Also, as long as the spell is active for that target, they are considered poisoned until the beginning of their turn in the next round."
+               },
+               "4": {
+                  "Value": "Whenever a creature dies while being poisoned by this spell, a carrion beetle is conjured where they once stood (exploding from the corpse). The DM has the carrion beetle‘s statistics. A creature can end the infestation on them by spending an action."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "The damage increases by one dice per every spell level above 3rd. Special. If you are a corporeal undead, you may target one creature that suffers under this sigil, and transfer some of their lost life force to you. You regain hit points equal to one-half the damage dealt by the spell in the same round."
+               }
+            }
          },
          "CircleOfPower": {
             "Label": "Circle of Power",
-            "Description": "Divine energy radiates from you, distorting and diffusing magical energy within 30 feet of you. Until the spell ends, the sphere moves with you, centered on you. For the duration, each friendly creature in the area (including you) has advantage on saving throws against spells and other magical effects.<br><br>Additionally, when an affected creature succeeds on a saving throw made against a spell or magical effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throws."
+            "Description": {
+               "1": {
+                  "Value": "Divine energy radiates from you, distorting and diffusing magical energy within 30 feet of you. Until the spell ends, the sphere moves with you, centered on you. For the duration, each friendly creature in the area (including you) has advantage on saving throws against spells and other magical effects."
+               },
+               "2": {
+                  "Value": "Additionally, when an affected creature succeeds on a saving throw made against a spell or magical effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throws."
+               }
+            }
          },
          "Confusion": {
             "Label": "Confusion",
-            "Description": "This spell assails and distorts the minds of creatures, generating illusions and causing uncontrolled actions. Each creature in a sphere of 10-foot-radius centered on a point chosen in the range of the spell must make a Wisdom saving throw otherwise it will be affected by the spell.<br>An affected target can react and it must start at the beginning of 1d10 each of his game rounds to determine its behavior for that round.<br>At the end of each turn, an affected creature can make a saving throw of Wisdom. If successful, the effect of the spell ends for this target.",
-            "Heightened": "When you cast this spell using a level spell slot 5 or more, the radius of the sphere increases by 5 feet for each level of higher spell slot to 4."
+            "Description": {
+               "1": {
+                  "Value": "This spell assails and distorts the minds of creatures, generating illusions and causing uncontrolled actions. Each creature in a sphere of 10-foot-radius centered on a point chosen in the range of the spell must make a Wisdom saving throw otherwise it will be affected by the spell."
+               },
+               "2": {
+                  "Value": "An affected target can react and it must start at the beginning of 1d10 each of his game rounds to determine its behavior for that round."
+               },
+               "3": {
+                  "Value": "At the end of each turn, an affected creature can make a saving throw of Wisdom. If successful, the effect of the spell ends for this target."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "When you cast this spell using a level spell slot 5 or more, the radius of the sphere increases by 5 feet for each level of higher spell slot to 4."
+               }
+            }
          },
          "ConjureUndead": {
             "Label": "Conjure Undead",
-            "Description": "TODO: Spell missing"
+            "Description": {
+               "1": {
+                  "Value": "TODO: Spell missing"
+               }
+            }
          },
          "Contagion": {
             "Label": "Contagion",
-            "Description": "Your touch inflicts disease. Make a melee spell attack against a creature within your reach. On a hit, you afflict the creature with a disease of your choice from any of the ones described below.<br>At the end of each of the target’s turns, it must make a Constitution saving throw. After failing three of these saving throws, the disease’s effects last for the duration, and the creature stops making these saves. After succeeding on three of these saving throws, the creature recovers from the disease, and the spell ends.<br>Since this spell induces a natural disease in its target, any effect that removes a disease or otherwise ameliorates a disease’s effects apply to it.<br><ul><li><i>Blinding Sickness</i>: Pain grips the creature’s mind, and its eyes turn milky white. The creature has disadvantage on Wisdom checks and Wisdom saving throws and is blinded.</li><li><i>Filth Fever</i>: A raging fever sweeps through the creature’s body. The creature has disadvantage on Strength checks, Strength saving throws, and attack rolls that use Strength.</li><li><i>Flesh Rot</i>: The creature’s flesh decays. The creature has disadvantage on Charisma checks and vulnerability to all damage.</li><li><i>Mindfire</i>: The creature’s mind becomes feverish. The creature has disadvantage on Intelligence checks and Intelligence saving throws, and the creature behaves as if under the effects of the confusion spell during combat.</li><li><i>Seizure</i>: The creature is overcome with shaking. The creature has disadvantage on Dexterity checks, Dexterity saving throws, and attack rolls that use Dexterity.</li><li><i>Slimy Doom</i>: The creature begins to bleed uncontrollably. The creature has disadvantage on Constitution checks and Constitution saving throws. In addition, whenever the creature takes damage, it is stunned until the end of its next turn."
+            "Description": {
+               "1": {
+                  "Value": "Your touch inflicts disease. Make a melee spell attack against a creature within your reach. On a hit, you afflict the creature with a disease of your choice from any of the ones described below."
+               },
+               "2": {
+                  "Value": "At the end of each of the target’s turns, it must make a Constitution saving throw. After failing three of these saving throws, the disease’s effects last for the duration, and the creature stops making these saves. After succeeding on three of these saving throws, the creature recovers from the disease, and the spell ends."
+               },
+               "3": {
+                  "Value": "Since this spell induces a natural disease in its target, any effect that removes a disease or otherwise ameliorates a disease’s effects apply to it."
+               },
+               "4": {
+                  "Options": {
+                     "1": "<i>Blinding Sickness</i>: Pain grips the creature’s mind, and its eyes turn milky white. The creature has disadvantage on Wisdom checks and Wisdom saving throws and is blinded.",
+                     "2": "<i>Filth Fever</i>: A raging fever sweeps through the creature’s body. The creature has disadvantage on Strength checks, Strength saving throws, and attack rolls that use Strength.",
+                     "3": "<i>Flesh Rot</i>: The creature’s flesh decays. The creature has disadvantage on Charisma checks and vulnerability to all damage.",
+                     "4": "<i>Mindfire</i>: The creature’s mind becomes feverish. The creature has disadvantage on Intelligence checks and Intelligence saving throws, and the creature behaves as if under the effects of the confusion spell during combat.",
+                     "5": "<i>Seizure</i>: The creature is overcome with shaking. The creature has disadvantage on Dexterity checks, Dexterity saving throws, and attack rolls that use Dexterity.",
+                     "6": "<i>Slimy Doom</i>: The creature begins to bleed uncontrollably. The creature has disadvantage on Constitution checks and Constitution saving throws. In addition, whenever the creature takes damage, it is stunned until the end of its next turn."
+                  }
+               }
+            }
          },
          "CreateFoodAndWater": {
             "Label": "Create Food and Water",
-            "Description": "You create 45 pounds of food and 30 gallons of water on the ground or in containers within range, enough to sustain up to fifteen humanoids or five steeds for 24 hours. The food is bland but nourishing, and spoils if uneaten after 24 hours. The water is clean and doesn't go bad."
+            "Description": {
+               "1": {
+                  "Value": "You create 45 pounds of food and 30 gallons of water on the ground or in containers within range, enough to sustain up to fifteen humanoids or five steeds for 24 hours. The food is bland but nourishing, and spoils if uneaten after 24 hours. The water is clean and doesn't go bad."
+               }
+            }
          },
          "Cripple": {
             "Label": "Cripple",
-            "Description": "You cripple any living target within range. Make a ranged spell attack. On a success, the target takes -2 to AC and to Agility saving throws, can‘t use its reactions, and may make either an action or a bonus action every turn (not both). Regardless of the creature‘s abilities, it may only make one melee or ranged attack on its turn, and they deal only half damage with weapon attacks that use Strength or Agility.<br>If the creature attempts to cast a spell with a casting time of 1 action, roll a d20. On an 11 or higher, the spell doesn‘t take effect until the creature‘s next turn, and the creature must use its action on that turn to complete the spell. If it can‘t, the spell is wasted. At the end of each of the target‘s turns, it can make a Stamina saving throw against the spell. On a success, the spell ends."
+            "Description": {
+               "1": {
+                  "Value": "You cripple any living target within range. Make a ranged spell attack. On a success, the target takes -2 to AC and to Agility saving throws, can‘t use its reactions, and may make either an action or a bonus action every turn (not both). Regardless of the creature‘s abilities, it may only make one melee or ranged attack on its turn, and they deal only half damage with weapon attacks that use Strength or Agility."
+               },
+               "2": {
+                  "Value": "If the creature attempts to cast a spell with a casting time of 1 action, roll a d20. On an 11 or higher, the spell doesn‘t take effect until the creature‘s next turn, and the creature must use its action on that turn to complete the spell. If it can‘t, the spell is wasted. At the end of each of the target‘s turns, it can make a Stamina saving throw against the spell. On a success, the spell ends."
+               }
+            }
          },
          "CurseOfAgony": {
             "Label": "Curse of Agony",
-            "Description": "You curse one living target within range with searing agony, setting their nervous system ablaze. Make a ranged spell attack against the target. On a hit, the target suffers 2d4 fel damage. At the beginning of every round, the caster must succeed on a sigil roll to affect the target again.<br>Also, so long as the spell is active, the target is treated as if they gained a level of exhaustion for one round (even if they are normally immune to the condition, so long as they are living) until the beginning of their turn in the next round. If the ranged spell attack misses, the spell deals half the initial damage and has no other effect.",
-            "Heightened": "The damage increases by one dice per every level above 2nd.<br><i>Special</i>: Whenever the sigil roll succeeds, the target takes 1d4 additional damage the next round. This stacks up to a number of d4s equal to the spell level."
+            "Description": {
+               "1": {
+                  "Value": "You curse one living target within range with searing agony, setting their nervous system ablaze. Make a ranged spell attack against the target. On a hit, the target suffers 2d4 fel damage. At the beginning of every round, the caster must succeed on a sigil roll to affect the target again."
+               },
+               "2": {
+                  "Value": "Also, so long as the spell is active, the target is treated as if they gained a level of exhaustion for one round (even if they are normally immune to the condition, so long as they are living) until the beginning of their turn in the next round. If the ranged spell attack misses, the spell deals half the initial damage and has no other effect."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "The damage increases by one dice per every level above 2nd."
+               },
+               "2": {
+                  "Value": "Whenever the sigil roll succeeds, the target takes 1d4 additional damage the next round. This stacks up to a number of d4s equal to the spell level."
+               }
+            }
          },
          "DetectMagic": {
-            "Label": "Detect Magic",
-            "Description": "For the duration, you sense the presence of magic within 30 feet of you. If you sense magic in this way, you can use your action to see a faint aura around any visible creature or object in the area that bears magic, and you learn its school of magic, if any. The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt."
+            "Label": "TODO: Detect Magic",
+            "Description": {
+               "1": {
+                  "Value": "For the duration, you sense the presence of magic within 30 feet of you. If you sense magic in this way, you can use your action to see a faint aura around any visible creature or object in the area that bears magic, and you learn its school of magic, if any. The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt."
+               }
+            }
          },
          "FalseLife": {
             "Label": "False Life",
-            "Description": "Bolstering yourself with a necromantic facsimile of life, you gain 1d4 + 4 Temporary Hit Points for the Duration.",
-            "Heightened": "When you cast this spell using a spell slot of 2nd level or higher, you gain 5 additional Temporary Hit Points for each slot level above 1st."
+            "Description": {
+               "1": {
+                  "Value": "Bolstering yourself with a necromantic facsimile of life, you gain 1d4 + 4 Temporary Hit Points for the Duration."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "When you cast this spell using a spell slot of 2nd level or higher, you gain 5 additional Temporary Hit Points for each slot level above 1st."
+               }
+            }
          },
          "FeignDeath": {
             "Label": "Feign Death",
-            "Description": "You touch a willing creature and put it into a cataleptic state that is indistinguishable from death.<br>For the spell’s duration, or until you use an action to touch the target and dismiss the spell, the target appears dead to all outward inspection and to spells used to determine the target’s status. The target is blinded and incapacitated, and its speed drops to 0. The target has resistance to all damage except psychic damage. If the target is diseased or poisoned when you cast the spell, or becomes diseased or poisoned while under the spell’s effect, the disease and poison have no effect until the spell ends."
+            "Description": {
+               "1": {
+                  "Value": "You touch a willing creature and put it into a cataleptic state that is indistinguishable from death."
+               },
+               "2": {
+                  "Value": "For the spell’s duration, or until you use an action to touch the target and dismiss the spell, the target appears dead to all outward inspection and to spells used to determine the target’s status. The target is blinded and incapacitated, and its speed drops to 0. The target has resistance to all damage except psychic damage. If the target is diseased or poisoned when you cast the spell, or becomes diseased or poisoned while under the spell’s effect, the disease and poison have no effect until the spell ends."
+               }
+            }
          },
          "FleshToStone": {
             "Label": "Flesh to Stone",
-            "Description": "You attempt to turn one creature that you can see within range into stone. If the target’s body is made of flesh, the creature must make a Constitution saving throw. On a failed save, it is Restrained as its flesh begins to harden. On a successful save, the creature isn’t affected.<br>A creature Restrained by this spell must make another Constitution saving throw at the end of each of its turns. If it successfully saves against this spell three times, the spell ends. If it fails its saves three times, it is turned to stone and subjected to the Petrified condition for the Duration. The successes and failures don’t need to be consecutive; keep track of both until the target collects three of a kind.<br>If the creature is physically broken while Petrified, it suffers from similar deformities if it reverts to its original state.<br>If you maintain your Concentration on this spell for the entire possible Duration, the creature is turned to stone until the effect is removed."
+            "Description": {
+               "1": {
+                  "Value": "You attempt to turn one creature that you can see within range into stone. If the target’s body is made of flesh, the creature must make a Constitution saving throw. On a failed save, it is Restrained as its flesh begins to harden. On a successful save, the creature isn’t affected."
+               },
+               "2": {
+                  "Value": "A creature Restrained by this spell must make another Constitution saving throw at the end of each of its turns. If it successfully saves against this spell three times, the spell ends. If it fails its saves three times, it is turned to stone and subjected to the Petrified condition for the Duration. The successes and failures don’t need to be consecutive; keep track of both until the target collects three of a kind."
+               },
+               "3": {
+                  "Value": "If the creature is physically broken while Petrified, it suffers from similar deformities if it reverts to its original state."
+               },
+               "4": {
+                  "Value": "If you maintain your Concentration on this spell for the entire possible Duration, the creature is turned to stone until the effect is removed."
+               }
+            }
          },
          "Fly": {
             "Label": "Fly",
-            "Description": "You touch a willing creature. The target gains a flying speed of 60 feet for the Duration. When the spell ends, the target falls if it is still aloft, unless it can stop the fall.",
-            "Heightened": "When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd."
+            "Description": {
+               "1": {
+                  "Value": "You touch a willing creature. The target gains a flying speed of 60 feet for the Duration. When the spell ends, the target falls if it is still aloft, unless it can stop the fall."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd."
+               }
+            }
          },
          "FogCloud": {
             "Label": "Fog Cloud",
-            "Description": "You create a 20-foot-radius Sphere of fog centered on a point within range. The sphere spreads around corners, and its area is heavily obscured. It lasts for the Duration or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.",
-            "Heightened": "When you cast this spell using a spell slot of 2nd level or higher, the radius of the fog increases by 20 feet for each slot level above 1st."
+            "Description": {
+               "1": {
+                  "Value": "You create a 20-foot-radius Sphere of fog centered on a point within range. The sphere spreads around corners, and its area is heavily obscured. It lasts for the Duration or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "When you cast this spell using a spell slot of 2nd level or higher, the radius of the fog increases by 20 feet for each slot level above 1st."
+               }
+            }
          },
          "GaseousForm": {
             "Label": "Gaseous Form",
-            "Description": "You transform a willing creature you touch, along with everything it's wearing and carrying, into a misty cloud for the duration. The spell ends if the creature drops to 0 hit points. An incorporeal creature isn't affected.<br>While in this form, the target's only method of movement is a flying speed of 10 feet. The target can enter and occupy the space of another creature. The target has resistance to nonmagical damage, and it has advantage on Strength, Dexterity, and Constitution saving throws. The target can pass through small holes, narrow openings, and even mere cracks, though it treats liquids as though they were solid surfaces. The target can't fall and remains hovering in the air even when stunned or otherwise incapacitated.<br>While in the form of a misty cloud, the target can't talk or manipulate objects, and any objects it was carrying or holding can't be dropped, used, or otherwise interacted with. The target can't attack or cast spells."
+            "Description": {
+               "1": {
+                  "Value": "You transform a willing creature you touch, along with everything it's wearing and carrying, into a misty cloud for the duration. The spell ends if the creature drops to 0 hit points. An incorporeal creature isn't affected."
+               },
+               "2": {
+                  "Value": "While in this form, the target's only method of movement is a flying speed of 10 feet. The target can enter and occupy the space of another creature. The target has resistance to nonmagical damage, and it has advantage on Strength, Dexterity, and Constitution saving throws. The target can pass through small holes, narrow openings, and even mere cracks, though it treats liquids as though they were solid surfaces. The target can't fall and remains hovering in the air even when stunned or otherwise incapacitated."
+               },
+               "3": {
+                  "Value": "While in the form of a misty cloud, the target can't talk or manipulate objects, and any objects it was carrying or holding can't be dropped, used, or otherwise interacted with. The target can't attack or cast spells."
+               }
+            }
          },
          "Haste": {
             "Label": "Haste",
-            "Description": "Choose a willing creature that you can see within range. Until the spell ends, the target’s speed is doubled, it gains a +2 bonus to AC, it has advantage on Dexterity Saving Throws, and it gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object action.<br>When the spell ends, the target can’t move or take Actions until after its next turn, as a wave of lethargy sweeps over it."
+            "Description": {
+               "1": {
+                  "Value": "Choose a willing creature that you can see within range. Until the spell ends, the target’s speed is doubled, it gains a +2 bonus to AC, it has advantage on Dexterity Saving Throws, and it gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object action."
+               },
+               "2": {
+                  "Value": "When the spell ends, the target can’t move or take Actions until after its next turn, as a wave of lethargy sweeps over it."
+               }
+            }
          },
          "HolyLight": {
             "Label": "Holy Light",
-            "Description": "With the grace of the Holy Light, you bring life to the living, and harm to the unsanctified. The creature you target regains a number of hit points equal to 1d8 + your spellcasting ability modifier. If you target an undead or a fiend with this ability, they take holy damage equal to the hit points they would normally gain. If you target an unwilling creature, you require a ranged spell attack.<br>Constructs gain no benefit from this spell.",
-            "Heightened": "The healing increases by 1d8 per level above 1st."
+            "Description": {
+               "1": {
+                  "Value": "With the grace of the Holy Light, you bring life to the living, and harm to the unsanctified. The creature you target regains a number of hit points equal to 1d8 + your spellcasting ability modifier. If you target an undead or a fiend with this ability, they take holy damage equal to the hit points they would normally gain. If you target an unwilling creature, you require a ranged spell attack."
+               },
+               "2": {
+                  "Value": "Constructs gain no benefit from this spell."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "The healing increases by 1d8 per level above 1st."
+               }
+            }
          },
          "MageArmor": {
             "Label": "Mage Armor",
-            "Description": "You touch a willing creature who isn't wearing armor, and a protective magical force surrounds it until the spell ends. The target's base AC becomes 13 + its Dexterity modifier. The spell ends if the target dons armor or if you dismiss the spell as an action."
+            "Description": {
+               "1": {
+                  "Value": "You touch a willing creature who isn't wearing armor, and a protective magical force surrounds it until the spell ends. The target's base AC becomes 13 + its Dexterity modifier. The spell ends if the target dons armor or if you dismiss the spell as an action."
+               }
+            }
          },
          "MageHand": {
-            "Label": "Mage Hand",
+            "Label": "TODO: Mage Hand",
             "Description": "A spectral, floating hand appears at a point you choose within range. The hand lasts for the Duration or until you dismiss it as an action. The hand vanishes if it is ever more than 30 feet away from you or if you cast this spell again. You can use your action to control the hand. You can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial. You can move the hand up to 30 feet each time you use it. The hand can't Attack, activate magical items, or carry more than 10 pounds."
          },
          "ManaBurn": {
-            "Label": "Mana Burn",
+            "Label": "TODO: Mana Burn",
             "Description": "You target a creature that has mana within 30 feet. A ray of black-purple anti-magic leaps out, and strikes the target, draining them of mana. You must make a ranged spell attack with the ray. On a success, the target loses 1d4 + 1 mana points. For every mana point lost, the target takes two points of arcane damage. The target is entitled a Spirit saving throw. On a success, the mana and hit points lost are halved.",
             "Heightened": "The number of mana points drained increases by 1d4 points per every two levels above 2 (2d4 at level 4, 3d4 at level 6, 4d4 at level 8). Special: Demons always have active mana, and can always be targeted with mana burn. If they have no mana, they still take 2 points of arcane damage."
          },
          "ModifyMemory": {
             "Label": "Modify Memory",
-            "Description": "You attempt to reshape another creature’s memories. One creature that you can see must make a Wisdom saving throw. If you are fighting the creature, it has advantage on the saving throw. On a failed save, the target becomes Charmed by you for the Duration. The charmed target is Incapacitated and unaware of its surroundings, though it can still hear you. If it takes any damage or is targeted by another spell, this spell ends, and none of the target’s memories are modified.<br>While this charm lasts, you can affect the target’s memory of an event that it experienced within the last 24 hours and that lasted no more than 10 minutes. You can permanently eliminate all memory of the event, allow the target to recall the event with perfect clarity and exacting detail, change its memory of the details of the event, or create a memory of some other event.<br>You must speak to the target to describe how its memories are affected, and it must be able to understand your language for the modified memories to take root. Its mind fills in any gaps in the details of your description. If the spell ends before you have finished describing the modified memories, the creature’s memory isn’t altered. Otherwise, the modified memories take hold when the spell ends.<br>A modified memory doesn’t necessarily affect how a creature behaves, particularly if the memory contradicts the creature’s natural inclinations, Alignment, or beliefs. An illogical modified memory, such as implanting a memory of how much the creature enjoyed dousing itself in acid, is dismissed, perhaps as a bad dream. The DM might deem a modified memory too nonsensical to affect a creature in a significant manner.<br>A Remove Curse or Greater Restoration spell cast on the target restores the creature’s true memory.",
-            "Heightened": "If you cast this spell using a spell slot of 6th level or higher, you can alter the target’s memories of an event that took place up to 7 days ago (6th level), 30 days ago (7th level), 1 year ago (8th level), or any time in the creature’s past (9th level)."
+            "Description": {
+               "1": {
+                  "Value": "You attempt to reshape another creature’s memories. One creature that you can see must make a Wisdom saving throw. If you are fighting the creature, it has advantage on the saving throw. On a failed save, the target becomes Charmed by you for the Duration. The charmed target is Incapacitated and unaware of its surroundings, though it can still hear you. If it takes any damage or is targeted by another spell, this spell ends, and none of the target’s memories are modified."
+               },
+               "2": {
+                  "Value": "While this charm lasts, you can affect the target’s memory of an event that it experienced within the last 24 hours and that lasted no more than 10 minutes. You can permanently eliminate all memory of the event, allow the target to recall the event with perfect clarity and exacting detail, change its memory of the details of the event, or create a memory of some other event."
+               },
+               "3": {
+                  "Value": "You must speak to the target to describe how its memories are affected, and it must be able to understand your language for the modified memories to take root. Its mind fills in any gaps in the details of your description. If the spell ends before you have finished describing the modified memories, the creature’s memory isn’t altered. Otherwise, the modified memories take hold when the spell ends."
+               },
+               "4": {
+                  "Value": "A modified memory doesn’t necessarily affect how a creature behaves, particularly if the memory contradicts the creature’s natural inclinations, Alignment, or beliefs. An illogical modified memory, such as implanting a memory of how much the creature enjoyed dousing itself in acid, is dismissed, perhaps as a bad dream. The DM might deem a modified memory too nonsensical to affect a creature in a significant manner."
+               },
+               "5": {
+                  "Value": "A Remove Curse or Greater Restoration spell cast on the target restores the creature’s true memory."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "If you cast this spell using a spell slot of 6th level or higher, you can alter the target’s memories of an event that took place up to 7 days ago (6th level), 30 days ago (7th level), 1 year ago (8th level), or any time in the creature’s past (9th level)."
+               }
+            }
          },
          "Mute": {
-            "Label": "Mute",
+            "Label": "TODO: Mute",
             "Description": "Concentration, up to 1 minute You target a creature within range, forcing it to make a Spirit saving throw. If it fails, the target is isolated from all sound, causing it to be silenced and deafened. This prevents it from performing the verbal components of spells, and rendering it immune to Thunder damage and effects of a spell equal to the spell's level or lower.",
             "Heightened": "You may target another creature within 30 feet of the original target for every 2 spell levels above 2nd (2 creatures at level 4, 3 at level 6, and 4 at level 8)."
          },
          "Polymorph": {
             "Label": "Polymorph",
-            "Description": "This spell transforms a creature that you can see within range into a new form. An unwilling creature must make a Wisdom saving throw to avoid the effect. The spell has no effect on a Shapechanger or a creature with 0 Hit Points.<br><br>The transformation lasts for the Duration, or until the target drops to 0 Hit Points or dies. The new form can be any beast whose Challenge rating is equal to or less than the target’s (or the target’s level, if it doesn’t have a challenge rating). The target’s game statistics, including mental Ability Scores, are replaced by the Statistics of the chosen beast. It retains its Alignment and personality.<br><br>The target assumes the Hit Points of its new form. When it reverts to its normal form, the creature returns to the number of hit points it had before it transformed. If it reverts as a result of dropping to 0 hit points, any excess damage carries over to its normal form. As long as the excess damage doesn’t reduce the creature’s normal form to 0 hit points, it isn’t knocked Unconscious.<br><br>The creature is limited in the Actions it can perform by the Nature of its new form, and it can’t speak, cast Spells, or take any other action that requires hands or speech.<br><br>The target’s gear melds into the new form. The creature can’t activate, use, wield, or otherwise benefit from any of its Equipment."
+            "Description": {
+               "1": {
+                  "Value": "This spell transforms a creature that you can see within range into a new form. An unwilling creature must make a Wisdom saving throw to avoid the effect. The spell has no effect on a Shapechanger or a creature with 0 Hit Points."
+               },
+               "2": {
+                  "Value": "The transformation lasts for the Duration, or until the target drops to 0 Hit Points or dies. The new form can be any beast whose Challenge rating is equal to or less than the target’s (or the target’s level, if it doesn’t have a challenge rating). The target’s game statistics, including mental Ability Scores, are replaced by the Statistics of the chosen beast. It retains its Alignment and personality."
+               },
+               "3": {
+                  "Value": "The target assumes the Hit Points of its new form. When it reverts to its normal form, the creature returns to the number of hit points it had before it transformed. If it reverts as a result of dropping to 0 hit points, any excess damage carries over to its normal form. As long as the excess damage doesn’t reduce the creature’s normal form to 0 hit points, it isn’t knocked Unconscious."
+               },
+               "4": {
+                  "Value": "The creature is limited in the Actions it can perform by the Nature of its new form, and it can’t speak, cast Spells, or take any other action that requires hands or speech."
+               },
+               "5": {
+                  "Value": "The target’s gear melds into the new form. The creature can’t activate, use, wield, or otherwise benefit from any of its Equipment."
+               }
+            }
          },
          "ProduceFlame": {
-            "Label": "Produce Flame",
+            "Label": "TODO: Produce Flame",
             "Description": "A flickering flame appears in your hand. The flame remains there for the Duration and harms neither you nor your Equipment. The flame sheds bright light in a 10-foot radius and dim light for an additional 10 feet. The spell ends if you dismiss it as an action or if you cast it again. You can also Attack with the flame, although doing so ends the spell. When you cast this spell, or as an action on a later turn, you can hurl the flame at a creature within 30 feet of you. Make a ranged spell Attack. On a hit, the target takes 1d8 fire damage. This spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8)."
          },
          "Prestidigitation": {
-            "Label": "Prestidigitation",
+            "Label": "TODO: Prestidigitation",
             "Description": "This spell is a minor magical trick that novice spellcasters use for practice. You create one of the following magical Effects within range. If you cast this spell multiple times, you can have up to three of its non-instantaneous Effects active at a time, and you can dismiss such an Effect as an action.",
             "Options": {
                "1": "You create an Instantaneous, harmless sensory Effect, such as a shower of sparks, a puff of wind, faint musical notes, or an odd odor.",
@@ -2309,47 +2596,131 @@
          },
          "RayOfEnfeeblement": {
             "Label": "Ray of Enfeeblement",
-            "Description": "A black beam of enervating energy springs from your finger toward a creature within range. Make a ranged spell attack against the target. On a hit, the target deals only half damage with weapon attacks that use Strength until the spell ends.<br>At the end of each of the target's turns, it can make a Constitution saving throw against the spell. On a success, the spell ends."
+            "Description": {
+               "1": {
+                  "Value": "A black beam of enervating energy springs from your finger toward a creature within range. Make a ranged spell attack against the target. On a hit, the target deals only half damage with weapon attacks that use Strength until the spell ends."
+               },
+               "2": {
+                  "Value": "At the end of each of the target's turns, it can make a Constitution saving throw against the spell. On a success, the spell ends."
+               }
+            }
          },
          "ResilientSphere": {
             "Label": "Resilient Sphere",
-            "Description": "A sphere of shimmering force encloses a creature or object of Large size or smaller within range. An unwilling creature must make a Dexterity saving throw. On a failed save, the creature is enclosed for the Duration.<br><br>Nothing—not physical Objects, energy, or other spell effects—can pass through the barrier, in or out, though a creature in the sphere can breathe there. The sphere is immune to all damage, and a creature or object inside can’t be damaged by attacks or Effects originating from outside, nor can a creature inside the sphere damage anything outside it.<br><br>The sphere is weightless and just large enough to contain the creature or object inside. An enclosed creature can use its action to push against the sphere’s walls and thus roll the sphere at up to half the creature’s speed. Similarly, the globe can be picked up and moved by other creatures.<br><br>A Disintegrate spell targeting the globe destroys it without harming anything inside it."
+            "Description": {
+               "1": {
+                  "Value": "A sphere of shimmering force encloses a creature or object of Large size or smaller within range. An unwilling creature must make a Dexterity saving throw. On a failed save, the creature is enclosed for the Duration."
+               },
+               "2": {
+                  "Value": "Nothing - not physical Objects, energy, or other spell effects—can pass through the barrier, in or out, though a creature in the sphere can breathe there. The sphere is immune to all damage, and a creature or object inside can’t be damaged by attacks or Effects originating from outside, nor can a creature inside the sphere damage anything outside it."
+               },
+               "3": {
+                  "Value": "The sphere is weightless and just large enough to contain the creature or object inside. An enclosed creature can use its action to push against the sphere’s walls and thus roll the sphere at up to half the creature’s speed. Similarly, the globe can be picked up and moved by other creatures."
+               },
+               "4": {
+                  "Value": "A Disintegrate spell targeting the globe destroys it without harming anything inside it."
+               }
+            }
          },
          "Revivify": {
             "Label": "Revivify",
-            "Description": "You touch a creature that has died within the last minute. That creature returns to life with 1 hit point. This spell can't return to life a creature that has died of old age, nor can it restore any missing body parts."
+            "Description": {
+               "1": {
+                  "Value": "You touch a creature that has died within the last minute. That creature returns to life with 1 hit point. This spell can't return to life a creature that has died of old age, nor can it restore any missing body parts."
+               }
+            }
          },
          "RuneArray": {
             "Label": "Rune Array",
-            "Description": "You gain one rune of the below array. If any spell of this array is used, you may release the rune, granting you the benefit of a runic strike as if you sacrificed mana for a spell of the rune you chose:<br><br><ul><li><i>Plague Rune (DKN 1)</i>: Your weapon deals 1d6 extra points of damage on its first attack in a given round. The damage can be cold or poison.</li><li><i>Frozen Waste Rune (DKN 1)</i>: Your weapon deals 1d4 extra points of damage on its first attack in a given round. The damage can be cold or shadow.</li><li><i>Blood Rune (DKN 2)</i>: Your weapon deals 1d4 extra points of damage on its first attack in a given round. The damage can be fire or fel.</li><li><i>Vampiric Rune (DKN 2)</i>: After you make this attack, you regain a number of hit points equal to half the total weapon damage you dealt (weapon dice, Strength, plus any bonuses from the weapon only). You may grant this healing to any ally within 30 feet. This healing has no effect on constructs. This applies to your first attack in a given round.</li><li><i>Worm Rune (DKN 4)</i>: While under the effects of this rune, your strikes infuse the enemy with a virulent magical ailment that spawns a worm under the target‘s skin. A living target suffers 2d6 damage every round so long as the target is not healed from the incubating worm. If the target loses at least 10 hit points from the bleeding, the worms increase in size, and form a visible tumor under the target‘s skin. At this point, releasing the rune has an additional effect. If the target is subject to a healing spell, roll 1d4. On the result of a 3 or higher, the worms shrivel and die without effect.</li></ul><br><h4>Release</h4>Releasing the rune has the following effect when released.<br><br><ul><li><i>Frozen Wastes Rune</i>: The target of the Death Knight‘s Runic Strike instantly suffers 2d4 extra points of damage of the rune‘s type, the target is chilled for one round.</li><li><i>Blood Rune</i>: If releasing the rune with a Runic Strike, the target takes bleed damage equal the damage the rune dealt for one minute. A successful Stamina save halves the damage and the duration.</li><li><i>Worms Rune</i>: If the worm deals at least 10 hit points of damage and is released, it explodes into a spray of blood. The target must succeed on a Stamina saving throw or suffer the 2d6 shadow damage. Also, regardless if the target succeeds or fails on the saving throw, the amount of hit points the worm gathered heals all undead creatures you designate within 30 feet, or harms all living creatures you designate within the same range. The amount of healing or harm is equal to the amount of hit points it dealt when incubating.</li></ul>",
-            "Heightened": "<ul><li><i>Plague Rune</i>: The base damage increases by 1d6 damage per level above 1st.</li><li><i>Blood and Frozen Wastes Runes</i>: The damage taken per hit increases by 1d4 per spell level.</li></ul>"
+            "Description": {
+               "1": {
+                  "Value": "You gain one rune of the below array. If any spell of this array is used, you may release the rune, granting you the benefit of a runic strike as if you sacrificed mana for a spell of the rune you chose:"
+               },
+               "2": {
+                  "Options": {
+                     "1": "<i>Plague Rune (DKN 1)</i>: Your weapon deals 1d6 extra points of damage on its first attack in a given round. The damage can be cold or poison.",
+                     "2": "<i>Frozen Waste Rune (DKN 1)</i>: Your weapon deals 1d4 extra points of damage on its first attack in a given round. The damage can be cold or shadow.",
+                     "3": "<i>Blood Rune (DKN 2)</i>: Your weapon deals 1d4 extra points of damage on its first attack in a given round. The damage can be fire or fel.",
+                     "4": "<i>Vampiric Rune (DKN 2)</i>: After you make this attack, you regain a number of hit points equal to half the total weapon damage you dealt (weapon dice, Strength, plus any bonuses from the weapon only). You may grant this healing to any ally within 30 feet. This healing has no effect on constructs. This applies to your first attack in a given round.",
+                     "5": "<i>Worm Rune (DKN 4)</i>: While under the effects of this rune, your strikes infuse the enemy with a virulent magical ailment that spawns a worm under the target‘s skin. A living target suffers 2d6 damage every round so long as the target is not healed from the incubating worm. If the target loses at least 10 hit points from the bleeding, the worms increase in size, and form a visible tumor under the target‘s skin. At this point, releasing the rune has an additional effect. If the target is subject to a healing spell, roll 1d4. On the result of a 3 or higher, the worms shrivel and die without effect."
+                  }
+               },
+               "3": {
+                  "Title": "Release",
+                  "Value": "Releasing the rune has the following effect when released."
+               },
+               "4": {
+                  "Options": {
+                     "1": "<i>Frozen Wastes Rune</i>: The target of the Death Knight‘s Runic Strike instantly suffers 2d4 extra points of damage of the rune‘s type, the target is chilled for one round.",
+                     "2": "<i>Blood Rune</i>: If releasing the rune with a Runic Strike, the target takes bleed damage equal the damage the rune dealt for one minute. A successful Stamina save halves the damage and the duration.",
+                     "3": "<i>Worms Rune</i>: If the worm deals at least 10 hit points of damage and is released, it explodes into a spray of blood. The target must succeed on a Stamina saving throw or suffer the 2d6 shadow damage. Also, regardless if the target succeeds or fails on the saving throw, the amount of hit points the worm gathered heals all undead creatures you designate within 30 feet, or harms all living creatures you designate within the same range. The amount of healing or harm is equal to the amount of hit points it dealt when incubating."
+                  }
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Options": {
+                     "1": "<i>Plague Rune</i>: The base damage increases by 1d6 damage per level above 1st.",
+                     "2": "<i>Blood and Frozen Wastes Runes</i>: The damage taken per hit increases by 1d4 per spell level."
+                  }
+               }
+            }
          },
          "SeeInvisibility": {
             "Label": "See Invisibility",
-            "Description": "For the duration, you see invisible creatures and objects as if they were visible, and you can see into the Ethereal Plane. Ethereal creatures and objects appear ghostly and translucent."
+            "Description": {
+               "1": {
+                  "Value": "For the duration, you see invisible creatures and objects as if they were visible, and you can see into the Ethereal Plane. Ethereal creatures and objects appear ghostly and translucent."
+               }
+            }
          },
          "Silence": {
-            "Label": "Silence",
+            "Label": "TODO: Silence",
             "Description": "For the Duration, no sound can be created within or pass through a 20-foot-radius Sphere centered on a point you choose within range. Any creature or object entirely inside the Sphere is immune to thunder damage, and creatures are Deafened while entirely inside it. Casting a Spell that includes a verbal component is impossible there."
          },
          "StinkingCloud": {
             "Label": "Stinking Cloud",
-            "Description": "You create a 20-foot-radius sphere of yellow, nauseating gas centered on a point within range. The cloud spreads around corners, and its area is heavily obscured. The cloud lingers in the air for the duration.<br>Each creature that is completely within the cloud at the start of its turn must make a Constitution saving throw against poison. On a failed save, the creature spends its action that turn retching and reeling. Creatures that don't need to breathe or are immune to poison automatically succeed on this saving throw.<br>A moderate wind (at least 10 miles per hour) disperses the cloud after 4 rounds. A strong wind (at least 20 miles per hour) disperses it after 1 round."
+            "Description": {
+               "1": {
+                  "Value": "You create a 20-foot-radius sphere of yellow, nauseating gas centered on a point within range. The cloud spreads around corners, and its area is heavily obscured. The cloud lingers in the air for the duration."
+               },
+               "2": {
+                  "Value": "Each creature that is completely within the cloud at the start of its turn must make a Constitution saving throw against poison. On a failed save, the creature spends its action that turn retching and reeling. Creatures that don't need to breathe or are immune to poison automatically succeed on this saving throw."
+               },
+               "3": {
+                  "Value": "A moderate wind (at least 10 miles per hour) disperses the cloud after 4 rounds. A strong wind (at least 20 miles per hour) disperses it after 1 round."
+               }
+            }
          },
          "Stoneskin": {
             "Label": "Stoneskin",
-            "Description": "This spell turns the flesh of a willing creature you touch as hard as stone. Until the spell ends, the target has resistance to nonmagical bludgeoning, piercing, and slashing damage."
+            "Description": {
+               "1": {
+                  "Value": "This spell turns the flesh of a willing creature you touch as hard as stone. Until the spell ends, the target has resistance to nonmagical bludgeoning, piercing, and slashing damage."
+               }
+            }
          },
          "Strangulate": {
             "Label": "Strangulate",
-            "Description": "Choose a humanoid that you can see within range. The target must succeed on a Stamina saving throw or be paralyzed and lifted ten feet above the ground for the duration. On each of their turns, the target may make another saving throw. On a success, the spell ends for the target, and they drop without taking falling damage. While the creature is paralyzed this way, they are also choking. After the spell‘s effects end, the target is affected by the mute spell for one round per round of complete strangulation."
+            "Description": {
+               "1": {
+                  "Value": "Choose a humanoid that you can see within range. The target must succeed on a Stamina saving throw or be paralyzed and lifted ten feet above the ground for the duration. On each of their turns, the target may make another saving throw. On a success, the spell ends for the target, and they drop without taking falling damage. While the creature is paralyzed this way, they are also choking. After the spell‘s effects end, the target is affected by the mute spell for one round per round of complete strangulation."
+               }
+            }
          },
          "TelepathicBond": {
             "Label": "Telepathic Bond",
-            "Description": "You forge a telepathic link among up to eight willing creatures of your choice within range, psychically linking each creature to all the others for the duration. Creatures with Intelligence scores of 2 or less aren’t affected by this spell.<br>Until the spell ends, the targets can communicate telepathically through the bond whether or not they have a common language. The communication is possible over any distance, though it can’t extend to other planes of existence."
+            "Description": {
+               "1": {
+                  "Value": "You forge a telepathic link among up to eight willing creatures of your choice within range, psychically linking each creature to all the others for the duration. Creatures with Intelligence scores of 2 or less aren’t affected by this spell."
+               },
+               "2": {
+                  "Value": "Until the spell ends, the targets can communicate telepathically through the bond whether or not they have a common language. The communication is possible over any distance, though it can’t extend to other planes of existence."
+               }
+            }
          },
          "Thaumaturgy": {
-            "Label": "Thaumaturgy",
+            "Label": "TODO: Thaumaturgy",
             "Description": "You manifest a minor wonder, a sign of supernatural power, within range. You create one of the following magical Effects within range. If you cast this spell multiple times, you can have up to three of its 1-minute Effects active at a time, and you can dismiss such an Effect as an action.",
             "Options": {
                "1": "Your voice booms up to three times as loud as normal for 1 minute.",
@@ -2362,12 +2733,32 @@
          },
          "TrueSeeing": {
             "Label": "True Seeing",
-            "Description": "This spell gives the willing creature you touch the ability to see things as they actually are. For the duration, the creature has truesight, notices secret doors hidden by magic, and can see into the Ethereal Plane, all out to a range of 120 feet."
+            "Description": {
+               "1": {
+                  "Value": "This spell gives the willing creature you touch the ability to see things as they actually are. For the duration, the creature has truesight, notices secret doors hidden by magic, and can see into the Ethereal Plane, all out to a range of 120 feet."
+               }
+            }
+         },
+         "VampiricAura": {
+            "Label": "Vampiric Aura",
+            "Description": {
+               "1": {
+                  "Value": "Life-draining energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. You can use a bonus action to make a ranged spell attack against a creature within the aura. On a hit, the target takes 6d6 necrotic damage, and you regain hit points equal to half the amount of necrotic damage dealt."
+               }
+            }
          },
          "VampiricTouch": {
             "Label": "Vampiric Touch",
-            "Description": "The touch of your shadow-wreathed hand can siphon life force from others to heal your wounds. Make a melee spell attack against a creature within your reach. On a hit, the target takes 3d6 necrotic damage, and you regain hit points equal to half the amount of necrotic damage dealt. Until the spell ends, you can make the attack again on each of your turns as an action.",
-            "Heightened": "When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd."
+            "Description": {
+               "1": {
+                  "Value": "The touch of your shadow-wreathed hand can siphon life force from others to heal your wounds. Make a melee spell attack against a creature within your reach. On a hit, the target takes 3d6 necrotic damage, and you regain hit points equal to half the amount of necrotic damage dealt. Until the spell ends, you can make the attack again on each of your turns as an action."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd."
+               }
+            }
          }
       },
       "SpellRules": {

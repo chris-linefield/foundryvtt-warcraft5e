@@ -1,92 +1,95 @@
 {
-   "_id":"gwYBPryPgEq9zACW",
-   "name":"Fog Cloud",
-   "permission":{
-      "default":0
+   "_id": "gwYBPryPgEq9zACW",
+   "name": "Fog Cloud",
+   "permission": {
+      "default": 0
    },
-   "type":"spell",
-   "data":{
-      "wcType": "spell",
-      "heightened":"WC5E.Spells.FogCloud.Heightened",
-      "description":{
-         "value":"WC5E.Spells.FogCloud.Description",
-         "chat":"",
-         "unidentified":""
+   "type": "spell",
+   "data": {
+      "source": "",
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
       },
-      "source":"",
-      "activation":{
-         "type":"action",
-         "cost":1,
-         "condition":""
+      "duration": {
+         "value": 1,
+         "units": "hour"
       },
-      "duration":{
-         "value":1,
-         "units":"hour"
+      "target": {
+         "value": 20,
+         "units": "ft",
+         "type": "sphere"
       },
-      "target":{
-         "value":20,
-         "units":"ft",
-         "type":"sphere"
+      "range": {
+         "value": 120,
+         "long": 0,
+         "units": "ft"
       },
-      "range":{
-         "value":120,
-         "long":0,
-         "units":"ft"
+      "uses": {
+         "value": 0,
+         "max": 0,
+         "per": ""
       },
-      "uses":{
-         "value":0,
-         "max":0,
-         "per":""
-      },
-      "ability":"",
-      "actionType":"util",
-      "attackBonus":0,
-      "chatFlavor":"",
-      "critical":null,
-      "damage":{
-         "parts":[
-
+      "ability": "",
+      "actionType": "util",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": null,
+      "damage": {
+         "parts": [
          ],
-         "versatile":"",
-         "value":""
+         "versatile": "",
+         "value": ""
       },
-      "formula":"",
-      "save":{
-         "ability":"",
-         "dc":null,
-         "value":""
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "value": ""
       },
-      "level":1,
-      "school":"con",
-      "components":{
-         "value":"",
-         "vocal":true,
-         "somatic":true,
-         "material":false,
-         "ritual":false,
-         "concentration":true
+      "level": 1,
+      "school": "con",
+      "components": {
+         "value": "",
+         "vocal": true,
+         "somatic": true,
+         "material": false,
+         "ritual": false,
+         "concentration": true
       },
-      "materials":{
-         "value":"",
-         "consumed":false,
-         "cost":0,
-         "supply":0
+      "materials": {
+         "value": "",
+         "consumed": false,
+         "cost": 0,
+         "supply": 0
       },
-      "preparation":{
-         "mode":"prepared",
-         "prepared":false
+      "preparation": {
+         "mode": "prepared",
+         "prepared": false
       },
-      "scaling":{
-         "mode":"level",
-         "formula":""
+      "scaling": {
+         "mode": "level",
+         "formula": ""
       }
    },
-   "sort":100001,
-   "flags":{
-
+   "sort": 100001,
+   "flags": {
+      "wc5e": {
+         "type": "spell",
+         "description": [
+            {
+               "value": "WC5E.Spells.FogCloud.Description.1.Value"
+            }
+         ],
+         "heightened": [
+            {
+               "value": "WC5E.Spells.FogCloud.Heightened.1.Value"
+            }
+         ]
+      }
    },
-   "img":"systems/dnd5e/icons/spells/fog-water-air-2.jpg",
-   "effects":[
-
+   "img": "systems/dnd5e/icons/spells/fog-water-air-2.jpg",
+   "effects": [
    ]
 }

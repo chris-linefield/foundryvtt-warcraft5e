@@ -1,96 +1,100 @@
 {
-   "_id":"zuFqeb7dUfRZdncs",
-   "name":"Absorb Elements",
-   "permission":{
-      "default":0
+   "_id": "zuFqeb7dUfRZdncs",
+   "name": "Absorb Elements",
+   "permission": {
+      "default": 0
    },
-   "type":"spell",
-   "data":{
-      "wcType": "spell",
-      "description":{
-         "value":"WC5E.Spells.AbsorbElements.Description",
-         "chat":"",
-         "unidentified":""
+   "type": "spell",
+   "data": {
+      "source": "",
+      "activation": {
+         "type": "reaction",
+         "cost": 1,
+         "condition": "which you take when you take acid, cold, fire, lightning, or thunder damage"
       },
-      "source":"",
-      "activation":{
-         "type":"reaction",
-         "cost":1,
-         "condition":"which you take when you take acid, cold, fire, lightning, or thunder damage"
+      "duration": {
+         "value": 1,
+         "units": "round"
       },
-      "duration":{
-         "value":1,
-         "units":"round"
+      "target": {
+         "value": null,
+         "width": null,
+         "units": "",
+         "type": "self"
       },
-      "target":{
-         "value":null,
-         "width":null,
-         "units":"",
-         "type":"self"
+      "range": {
+         "value": null,
+         "long": null,
+         "units": "self"
       },
-      "range":{
-         "value":null,
-         "long":null,
-         "units":"self"
+      "uses": {
+         "value": 0,
+         "max": "0",
+         "per": ""
       },
-      "uses":{
-         "value":0,
-         "max":"0",
-         "per":""
+      "consume": {
+         "type": "",
+         "target": "",
+         "amount": null
       },
-      "consume":{
-         "type":"",
-         "target":"",
-         "amount":null
-      },
-      "ability":"",
-      "actionType":"",
-      "attackBonus":0,
-      "chatFlavor":"",
-      "critical":null,
-      "damage":{
-         "parts":[
-
+      "ability": "",
+      "actionType": "",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": null,
+      "damage": {
+         "parts": [
          ],
-         "versatile":""
+         "versatile": ""
       },
-      "formula":"",
-      "save":{
-         "ability":"",
-         "dc":null,
-         "scaling":"spell"
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "scaling": "spell"
       },
-      "level":1,
-      "school":"abj",
-      "components":{
-         "value":"",
-         "vocal":false,
-         "somatic":true,
-         "material":false,
-         "ritual":false,
-         "concentration":false
+      "level": 1,
+      "school": "abj",
+      "components": {
+         "value": "",
+         "vocal": false,
+         "somatic": true,
+         "material": false,
+         "ritual": false,
+         "concentration": false
       },
-      "materials":{
-         "value":"",
-         "consumed":false,
-         "cost":0,
-         "supply":0
+      "materials": {
+         "value": "",
+         "consumed": false,
+         "cost": 0,
+         "supply": 0
       },
-      "preparation":{
-         "mode":"prepared",
-         "prepared":false
+      "preparation": {
+         "mode": "prepared",
+         "prepared": false
       },
-      "scaling":{
-         "mode":"none",
-         "formula":""
+      "scaling": {
+         "mode": "none",
+         "formula": ""
       }
    },
-   "sort":100001,
-   "flags":{
-
+   "sort": 100001,
+   "flags": {
+      "wc5e": {
+         "type": "spell",
+         "description": [
+            {
+               "value": "WC5E.Spells.AbsorbElements.Description.1.Value"
+            }
+         ],
+         "heightened": [
+            {
+               "value": "WC5E.Spells.AbsorbElements.Heightened.1.Value"
+            }
+         ]
+      }
    },
-   "img":"systems/dnd5e/icons/spells/fog-acid-2.jpg",
-   "effects":[
-
+   "img": "systems/dnd5e/icons/spells/fog-acid-2.jpg",
+   "effects": [
    ]
 }

@@ -1,91 +1,99 @@
 {
-   "_id":"hloKMuNbAufxFL7X",
-   "name":"Flesh to Stone",
-   "permission":{
-      "default":0
+   "_id": "hloKMuNbAufxFL7X",
+   "name": "Flesh to Stone",
+   "permission": {
+      "default": 0
    },
-   "type":"spell",
+   "type": "spell",
    "data": {
-      "wcType": "spell",
-      "description":{
-         "value":"WC5E.Spells.FleshToStone.Description",
-         "chat":"",
-         "unidentified":""
+      "source": "",
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
       },
-      "source":"",
-      "activation":{
-         "type":"action",
-         "cost":1,
-         "condition":""
+      "duration": {
+         "value": 1,
+         "units": "minute"
       },
-      "duration":{
-         "value":1,
-         "units":"minute"
+      "target": {
+         "value": 1,
+         "units": "",
+         "type": "creature"
       },
-      "target":{
-         "value":1,
-         "units":"",
-         "type":"creature"
+      "range": {
+         "value": 60,
+         "long": 0,
+         "units": "ft"
       },
-      "range":{
-         "value":60,
-         "long":0,
-         "units":"ft"
+      "uses": {
+         "value": 0,
+         "max": 0,
+         "per": ""
       },
-      "uses":{
-         "value":0,
-         "max":0,
-         "per":""
-      },
-      "ability":"",
-      "actionType":"save",
-      "attackBonus":0,
-      "chatFlavor":"",
-      "critical":null,
-      "damage":{
-         "parts":[
-
+      "ability": "",
+      "actionType": "save",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": null,
+      "damage": {
+         "parts": [
          ],
-         "versatile":"",
-         "value":""
+         "versatile": "",
+         "value": ""
       },
-      "formula":"",
-      "save":{
-         "ability":"con",
-         "dc":null,
-         "scaling":"spell"
+      "formula": "",
+      "save": {
+         "ability": "con",
+         "dc": null,
+         "scaling": "spell"
       },
-      "level":6,
-      "school":"trs",
-      "components":{
-         "value":"",
-         "vocal":true,
-         "somatic":true,
-         "material":true,
-         "ritual":false,
-         "concentration":true
+      "level": 6,
+      "school": "trs",
+      "components": {
+         "value": "",
+         "vocal": true,
+         "somatic": true,
+         "material": true,
+         "ritual": false,
+         "concentration": true
       },
-      "materials":{
-         "value":"A pinch of lime, water, and earth",
-         "consumed":false,
-         "cost":0,
-         "supply":0
+      "materials": {
+         "value": "A pinch of lime, water, and earth",
+         "consumed": false,
+         "cost": 0,
+         "supply": 0
       },
-      "preparation":{
-         "mode":"prepared",
-         "prepared":false
+      "preparation": {
+         "mode": "prepared",
+         "prepared": false
       },
-      "scaling":{
-         "mode":"none",
-         "formula":""
+      "scaling": {
+         "mode": "none",
+         "formula": ""
       }
    },
-   "sort":100001,
-   "flags":{
-
+   "sort": 100001,
+   "flags": {
+      "wc5e": {
+         "type": "spell",
+         "description": [
+            {
+               "value": "WC5E.Spells.FleshToStone.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Spells.FleshToStone.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Spells.FleshToStone.Description.3.Value"
+            },
+            {
+               "value": "WC5E.Spells.FleshToStone.Description.4.Value"
+            }
+         ]
+      }
    },
-   "img":"systems/dnd5e/icons/skills/blue_34.jpg",
-   "effects":[
-
+   "img": "systems/dnd5e/icons/skills/blue_34.jpg",
+   "effects": [
    ]
 }
