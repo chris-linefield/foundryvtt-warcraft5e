@@ -3,7 +3,7 @@
     {{!------ SHEET HEADER ------}}
     <header>
         <h1>{{localize item.name}}</h1>
-        {{localize item.data.description}}
+        {{localize item.flags.wc5e.description}}
     </header>
 
     <!--
@@ -36,21 +36,21 @@
     <section>
         <h2>{{localize "WC5E.RaceSheet.Traits"}}</h2>
         <div class="raceGrid">
-            <strong><i>{{localize "WC5E.RaceSheet.AbilityScoreIncrease"}}:</i></strong>{{localize item.data.abilityMod}}
+            <strong><i>{{localize "WC5E.RaceSheet.AbilityScoreIncrease"}}:</i></strong>{{localize item.flags.wc5e.abilityMod}}
             <hr>
-            <strong><i>{{localize "WC5E.RaceSheet.Age"}}:</i></strong> {{localize item.data.age}}
+            <strong><i>{{localize "WC5E.RaceSheet.Age"}}:</i></strong> {{localize item.flags.wc5e.age}}
             <hr>
-            <strong><i>{{localize "WC5E.RaceSheet.Affiliation"}}:</i></strong> {{localize item.data.affiliation}}
+            <strong><i>{{localize "WC5E.RaceSheet.Affiliation"}}:</i></strong> {{localize item.flags.wc5e.affiliation}}
             <hr>
-            <strong><i>{{localize "WC5E.RaceSheet.Size"}}:</i></strong> {{localize item.data.size}}
+            <strong><i>{{localize "WC5E.RaceSheet.Size"}}:</i></strong> {{localize item.flags.wc5e.size}}
             <hr>
-            <strong><i>{{localize "WC5E.RaceSheet.Appearance"}}:</i></strong> {{localize item.data.appearance}}
+            <strong><i>{{localize "WC5E.RaceSheet.Appearance"}}:</i></strong> {{localize item.flags.wc5e.appearance}}
             <hr>
-            <strong><i>{{localize "WC5E.RaceSheet.Speed"}}:</i></strong> {{localize "WC5E.RaceSheet.SpeedVal"}} {{item.data.speed}}. {{#if item.data.speedAddition}} {{localize item.data.speedAddition}} {{/if}}
+            <strong><i>{{localize "WC5E.RaceSheet.Speed"}}:</i></strong> {{localize "WC5E.RaceSheet.SpeedVal"}} {{item.flags.wc5e.speed}}. {{#if item.flags.wc5e.speedAddition}} {{localize item.flags.wc5e.speedAddition}} {{/if}}
             <hr>
 
             {{!------ TRAITS ------}}
-            {{#each item.data.traits}}
+            {{#each item.flags.wc5e.traits}}
                 <strong><i>{{localize this.key}}:</i></strong>
                 <div>
                     {{{localize this.value}}}
@@ -67,47 +67,47 @@
 
             {{!------ LANGUAGES ------}}
             <strong><i>{{localize "WC5E.RaceSheet.Languages"}}:</i></strong>
-            {{#each item.data.languages}}
+            {{#each item.flags.wc5e.languages}}
                 {{localize this}},
             {{/each}}.
-            {{localize item.data.languageDescription}}
+            {{localize item.flags.wc5e.languageDescription}}
             <hr>
 
             {{!------ NAMES ------}}
-            {{#if item.data.names}}
-                {{#if item.data.names}}
+            {{#if item.flags.wc5e.names}}
+                {{#if item.flags.wc5e.names}}
                     <strong><i>{{localize "WC5E.RaceSheet.MaleNames"}}:</i></strong>
-                    {{#each item.data.names.male}}
+                    {{#each item.flags.wc5e.names.male}}
                         {{this}}{{#unless @last}},{{/unless}}
                     {{/each}}
                     <hr>
                 {{/if}}
-                {{#if item.data.names.female}}
+                {{#if item.flags.wc5e.names.female}}
                     <strong><i>{{localize "WC5E.RaceSheet.FemaleNames"}}:</i></strong>
-                    {{#each item.data.names.female}}
+                    {{#each item.flags.wc5e.names.female}}
                         {{this}}{{#unless @last}},{{/unless}}
                     {{/each}}
                     <hr>
                 {{/if}}
-                {{#if item.data.names.family}}
+                {{#if item.flags.wc5e.names.family}}
                     <strong><i>{{localize "WC5E.RaceSheet.FamilyNames"}}:</i></strong>
-                    {{#each item.data.names.family}}
+                    {{#each item.flags.wc5e.names.family}}
                         {{localize this}}{{#unless @last}},{{/unless}}
                     {{/each}}
                     <hr>
                 {{/if}}
             {{/if}}
-            {{#if item.data.subrace}}
-                <strong><i>{{localize "WC5E.RaceSheet.Subrace"}}:</i></strong> {{localize item.data.subrace}} {{localize "WC5E.RaceSheet.SubraceChoice"}}
+            {{#if item.flags.wc5e.subrace}}
+                <strong><i>{{localize "WC5E.RaceSheet.Subrace"}}:</i></strong> {{localize item.flags.wc5e.subrace}} {{localize "WC5E.RaceSheet.SubraceChoice"}}
                 <hr>
             {{/if}}
         </div>
 
 
         {{!------ SUBRACES ------}}
-        {{#if item.data.subrace}}
+        {{#if item.flags.wc5e.subrace}}
             <br>
-            {{#each item.data.subraces}}
+            {{#each item.flags.wc5e.subraces}}
                 <hr class="full">
                 <br>
                 <div class="artwork">
