@@ -109,9 +109,9 @@
                 <tr>
                     <th class="left">Skills:</th>
                     <td>
-                        Choose {{item.flags.wc5e.skills.number}} skills from
+                        Choose {{item.data.skills.number}} skills from
                         {{log config}}
-                        {{#each item.flags.wc5e.skills.choices}}
+                        {{#each item.data.skills.choices}}
                             {{#unless @first}}{{#if @last}} and {{else}},{{/if}}{{/unless}}
                             {{lookup ../config.skills this}}
                         {{/each}}

@@ -1,0 +1,95 @@
+{
+   "_id": "H2Vh1gvqUmPvBuxn",
+   "name": "Consecration / Desecration",
+   "permission": {
+      "default": 0
+   },
+   "type": "spell",
+   "data": {
+      "source": "",
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": 1,
+         "units": "minute"
+      },
+      "target": {
+         "value": 15,
+         "units": "ft",
+         "type": "sphere"
+      },
+      "range": {
+         "value": 30,
+         "long": null,
+         "units": "ft"
+      },
+      "uses": {
+         "value": 0,
+         "max": 0,
+         "per": ""
+      },
+      "ability": "",
+      "actionType": "save",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": null,
+      "damage": {
+         "parts": [],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+      },
+      "level": 2,
+      "school": "abj",
+      "components": {
+         "value": "",
+         "vocal": true,
+         "somatic": true,
+         "material": false,
+         "ritual": false,
+         "concentration": true
+      },
+      "materials": {
+         "value": "",
+         "consumed": false,
+         "cost": 0,
+         "supply": 0
+      },
+      "preparation": {
+         "mode": "prepared",
+         "prepared": false
+      },
+      "scaling": {
+      }
+   },
+   "sort": 100001,
+   "flags": {
+      "wc5e": {
+         "type": "spell",
+         "description": [
+            {
+               "value": "WC5E.Spells.Consecration.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Spells.Consecration.Description.2.Value"
+            },
+            {
+               "special": true,
+               "value": "WC5E.Spells.Consecration.Description.3.Value"
+            }
+         ],
+         "heightened": [
+            {
+               "value": "WC5E.Spells.Consecration.Heightened.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/light/beam-strike-village-yellow.webp",
+   "effects": [
+   ]
+}

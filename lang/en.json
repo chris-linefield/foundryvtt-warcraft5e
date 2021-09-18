@@ -134,7 +134,7 @@
                   "3": "I'm convinced that no one could ever fool me the way I fool others.",
                   "4": "I'm too greedy for my own good. I can't resist taking a risk if there's money involved.",
                   "5": "I can't resist swindling people who are more powerful than me.",
-                  "6": "I hate to admit it and will hate myself for it, but I'll run and preserve my own hide if the going gets tough.\n"
+                  "6": "I hate to admit it and will hate myself for it, but I'll run and preserve my own hide if the going gets tough. "
                }
             }
          }
@@ -2273,6 +2273,44 @@
                }
             }
          },
+         "Blight": {
+            "Label": "Blight",
+            "Description": {
+               "1": {
+                  "Value": "Necromantic energy washes over a creature of your choice that you can see within range, draining moisture and vitality from it. The target must make a Constitution saving throw. The target takes 8d8 necrotic damage on a failed save, or half as much damage on a successful one. This spell has no effect on undead or constructs."
+               },
+               "2": {
+                  "Value": "If you target a plant creature or a magical plant, it makes the saving throw with disadvantage, and the spell deals maximum damage to it."
+               },
+               "3": {
+                  "Value": "If you target a nonmagical plant that isn't a creature, such as a tree or shrub, it doesn't make a saving throw, it simply withers and dies."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d8 for each slot level above 4th."
+               }
+            }
+         },
+         "Blizzard": {
+            "Label": "Blizzard",
+            "Description": {
+               "1": {
+                  "Value": "You whisper the magic words, and a cold light emanates from your hands. A freezing cloud materializes 40 feet above the target, raining down shards of ice and heavy snow, dealing 4d6 points of damage in the area for every round of channeling. The damage is half cold, and half slashing damage, with an Agility saving throw to half damage."
+               },
+               "2": {
+                  "Value": "Creatures that fail their saving throw are also chilled for one round."
+               },
+               "3": {
+                  "Value": "The heavy snow and hail obscures all sight, including darkvision, beyond 5 feet. The cloud can deal damage to creatures flying under it as well, and imposes the same obscuration to sight to creatures below the cloud. As a bonus action, you can move the cloud that calls down the blizzard up to 30 feet."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "Per level above 3rd, add one dice of damage per every spell level above 3rd level."
+               }
+            }
+         },
          "CarrionSwarm": {
             "Label": "Carrion Swarm",
             "Description": {
@@ -2306,6 +2344,22 @@
                }
             }
          },
+         "ConeOfCold": {
+            "Label": "Cone of Cold",
+            "Description": {
+               "1": {
+                  "Value": "A blast of cold air erupts from your hands. Each creature in a 60-foot cone must make a Constitution saving throw. A creature takes 8d8 cold damage on a failed save, or half as much damage on a successful one."
+               },
+               "2": {
+                  "Value": "A creature killed by this spell becomes a frozen statue until it thaws."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d8 for each slot level above 5th."
+               }
+            }
+         },
          "Confusion": {
             "Label": "Confusion",
             "Description": {
@@ -2330,6 +2384,25 @@
             "Description": {
                "1": {
                   "Value": "TODO: Spell missing"
+               }
+            }
+         },
+         "Consecration": {
+            "Label": "Consecration",
+            "Description": {
+               "1": {
+                  "Value": "You call upon the Holy Light to sanctify an area of a 15-foot sphere. Any creature who is hostile to the Holy Light suffers 2d8 points of holy damage if they are in the area when the spell is cast, or if they end their turn in the area, or if they enter the area (but cannot take the damage more than once per round)."
+               },
+               "2": {
+                  "Value": "If the creature is neutral towards the Holy Light as a doctrine, they take only half damage. If the creature is a fiend or undead, they take half extra damage, and move at half normal speed so long as they are in the area. Furthermore, for the duration of the spell, the area of effect is treated as hallowed (as per the spell hallow/unhallow, but cannot bind an extra effect to the area)."
+               },
+               "3": {
+                  "Value": "When cast by a Death Knight or a priest that follows the Lich King or demonic forces (such as high-level acolytes), this deals shadow damage instead, targeting those hostile to their faith. The increased effect is dealt to celestials and those who directly channel the Holy Light. This is then called Desecration."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "The damage increases by 1d8 per level."
                }
             }
          },
@@ -2495,6 +2568,25 @@
                }
             }
          },
+         "Hold": {
+            "Label": "Hold",
+            "Description": {
+               "1": {
+                  "Value": "You attempt to hold a creature you can see within range. When preparing this spell, you can choose to be able to hold one creature type your class can bind (see binding under spellcasting) or your own creature type."
+               },
+               "2": {
+                  "Value": "It must make a Spirit saving throw. If it fails, it is paralyzed until the spell ends. At the end of each of its turns, the target can make another saving throw. On a success, the spell ends on the target."
+               },
+               "3": {
+                  "Value": "If choosing to exclusively affect beasts, the spell‘s level is decreased to 1st level instead, as their minds are more malleable."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "When you cast this spell as a 3rd level spell or higher, you can target one additional creature for each spell level above 3rd. They must be within 30 ft. of each other when you target them. You can instead choose to target an additional creature type to the hold spell instead (Hold Person at level 2 can be Hold Person and Elementals at level 3)."
+               }
+            }
+         },
          "HolyLight": {
             "Label": "Holy Light",
             "Description": {
@@ -2508,6 +2600,30 @@
             "Heightened": {
                "1": {
                   "Value": "The healing increases by 1d8 per level above 1st."
+               }
+            }
+         },
+         "IceStorm": {
+            "Label": "Ice Storm",
+            "Description": {
+               "1": {
+                  "Value": "A hail of rock-hard ice pounds to the ground in a 20-foot-radius, 40-foot-high Cylinder centered on a point within range. Each creature in the cylinder must make a Dexterity saving throw. A creature takes 2d8 bludgeoning damage and 4d6 cold damage on a failed save, or half as much damage on a successful one."
+               },
+               "2": {
+                  "Value": "Hailstones turn the storm’s area of effect into difficult terrain until the end of your next turn."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "When you cast this spell using a spell slot of 5th level or higher, the bludgeoning damage increases by 1d8 for each slot level above 4th."
+               }
+            }
+         },
+         "IcyTouch": {
+            "Label": "Icy Touch",
+            "Description": {
+               "1": {
+                  "Value": "You reach forward, freezing your target‘s joints and breath. Make a melee spell attack against a creature you touch. If you succeed, the target takes 3d6 cold damage, and is chilled for one round."
                }
             }
          },

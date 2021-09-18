@@ -1,0 +1,100 @@
+{
+   "_id": "xNagRDPJGfhyym4u",
+   "name": "Cone of Cold",
+   "permission": {
+      "default": 0
+   },
+   "type": "spell",
+   "data": {
+      "source": "",
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": null,
+         "units": "inst"
+      },
+      "target": {
+         "value": 60,
+         "units": "ft",
+         "type": "cone"
+      },
+      "range": {
+         "value": null,
+         "long": null,
+         "units": "self"
+      },
+      "uses": {
+         "value": 0,
+         "max": 0,
+         "per": ""
+      },
+      "ability": "",
+      "actionType": "save",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": null,
+      "damage": {
+         "parts": [
+            [
+               "8d8",
+               "cold"
+            ]
+         ],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "con",
+         "dc": 0,
+         "scaling": "spell"
+      },
+      "level": 5,
+      "school": "evo",
+      "components": {
+         "value": "",
+         "vocal": true,
+         "somatic": true,
+         "material": true,
+         "ritual": false,
+         "concentration": false
+      },
+      "materials": {
+         "value": "A small crystal or glass cone",
+         "consumed": false,
+         "cost": 0,
+         "supply": 0
+      },
+      "preparation": {
+         "mode": "prepared",
+         "prepared": false
+      },
+      "scaling": {
+         "mode": "level",
+         "formula": "1d8"
+      }
+   },
+   "sort": 100001,
+   "flags": {
+      "wc5e": {
+         "type": "spell",
+         "description": [
+            {
+               "value": "WC5E.Spells.ConeOfCold.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Spells.ConeOfCold.Description.2.Value"
+            }
+         ],
+         "heightened": [
+            {
+               "value": "WC5E.Spells.ConeOfCold.Heightened.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "systems/dnd5e/icons/spells/ice-blue-3.jpg",
+   "effects": []
+}

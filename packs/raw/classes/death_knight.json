@@ -566,6 +566,79 @@
                         }
                      ]
                   }
+               ],
+               "spellList": [
+                  {
+                     "level": "3",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "inRuwsd5VxMwVPEy",
+                           "label": "WC5E.Spells.IcyTouch.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "7AJ7qh8K1MM9y7Ir",
+                           "label": "WC5E.Spells.RuneArray.Label",
+                           "option": "frozen wastes"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "5",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "l9SSGxRL5X5GVUYJ",
+                           "label": "WC5E.Spells.Hold.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "H2Vh1gvqUmPvBuxn",
+                           "label": "WC5E.Spells.Consecration.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "9",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "TZfWqWpAyiXdlRV3",
+                           "label": "WC5E.Spells.Blizzard.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "13",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "WQOwdqWBmgOGG9zs",
+                           "label": "WC5E.Spells.Blight.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "zyI3PHXWJfKYjyR4",
+                           "label": "WC5E.Spells.IceStorm.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "17",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "xNagRDPJGfhyym4u",
+                           "label": "WC5E.Spells.ConeOfCold.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "Gt0n2Y1Npxefs7JQ",
+                           "label": "WC5E.Spells.Cripple.Label"
+                        }
+                     ]
+                  }
                ]
             },
             {
