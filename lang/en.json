@@ -2219,6 +2219,20 @@
                }
             }
          },
+         "AntilifeShell": {
+            "Label": "Antilife Shell",
+            "Description": {
+               "1": {
+                  "Value": "A shimmering barrier extends out from you in a 10-foot radius and moves with you, remaining centered on you and hedging out creatures other than undead and constructs. The barrier lasts for the duration."
+               },
+               "2": {
+                  "Value": "The barrier prevents an affected creature from passing or reaching through. An affected creature can cast spells or make attacks with ranged or reach weapons through the barrier."
+               },
+               "3": {
+                  "Value": "If you move so that an affected creature is forced to pass through the barrier, the spell ends."
+               }
+            }
+         },
          "Bane": {
             "Label": "Bane",
             "Description": {
@@ -2256,6 +2270,38 @@
             "Heightened": {
                "1": {
                   "Value": "For each 3 spell levels heightened above 2nd level, the bonus to damage rolls increases by 1 (+3 at 5th, +4 at 8th)."
+               }
+            }
+         },
+         "BestowCurse": {
+            "Label": "Bestow Curse",
+            "Description": {
+               "1": {
+                  "Value": "You touch a creature, and that creature must succeed on a Wisdom saving throw or become cursed for the duration of the spell. When you cast this spell, choose the nature of the curse from the following options:"
+               },
+               "2": {
+                  "Options": {
+                     "1": "Choose one ability score. While cursed, the target has disadvantage on ability checks and saving throws made with that ability score.",
+                     "2": "While cursed, the target has disadvantage on attack rolls against you.",
+                     "3": "While cursed, the target must make a Wisdom saving throw at the start of each of its turns. If it fails, it wastes its action that turn doing nothing.",
+                     "4": "While the target is cursed, your attacks and spells deal an extra 1d8 necrotic damage to the target."
+                  }
+               },
+               "3": {
+                  "Value": "A remove curse spell ends this effect. At the DM's option, you may choose an alternative curse effect, but it should be no more powerful than those described above. The DM has final say on such a curse's effect."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "If you cast this spell using a spell slot of 4th level or higher, the duration is concentration, up to 10 minutes. If you use a spell slot of 5th level or higher, the duration is 8 hours. If you use a spell slot of 7th level or higher, the duration is 24 hours. If you use a 9th level spell slot, the spell lasts until it is dispelled. Using a spell slot of 5th level or higher grants a duration that doesn't require concentration."
+               }
+            }
+         },
+         "BindUndead": {
+            "Label": "TODO: Spell Missing",
+            "Description": {
+               "1": {
+                  "Value": ""
                }
             }
          },
@@ -2330,6 +2376,22 @@
             "Heightened": {
                "1": {
                   "Value": "The damage increases by one dice per every spell level above 3rd. Special. If you are a corporeal undead, you may target one creature that suffers under this sigil, and transfer some of their lost life force to you. You regain hit points equal to one-half the damage dealt by the spell in the same round."
+               }
+            }
+         },
+         "Charm": {
+            "Label": "Charm",
+            "Description": {
+               "1": {
+                  "Value": "You attempt to charm one creature you can see within range. When preparing this spell, you can choose to be able to charm your creature type, beasts, or one creature type your class can bind (see binding under spellcasting)."
+               },
+               "2": {
+                  "Value": "It must make a Spirit saving throw, and does so with advantage if you or your companions are fighting it. If it fails it is charmed by you until the spell ends or until you or your companions do something harmful to it. The charmed creature regards you as a friendly acquaintance. When the spell ends it knows it has been charmed. This only affects the creature type specified by the spell (a Charm Undead cannot also charm a humanoid)."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "When cast as a spell of 2nd level or higher, you can target one additional creature for each spell level above 1st. They must be within 30 ft. of each other when you target them. You can instead choose to target one additional creature type to the charm spell instead (Charm Person at level 2 can be Charm Person and Elementals)."
                }
             }
          },
@@ -2468,11 +2530,95 @@
                }
             }
          },
+         "DeathAndDecay": {
+            "Label": "Death and Decay",
+            "Description": {
+               "1": {
+                  "Value": "Negative energy infuses a cylinder 15 feet side 60 feet high. Living creatures age rapidly, as skin sags and flesh sloughs off bones."
+               },
+               "2": {
+                  "Value": "Structures wither and collapse, suffering the effects of decades within few seconds."
+               },
+               "3": {
+                  "Value": "All living creatures and structures in the area take 6d6 points of shadow damage per round of channeling. Each creature can make a Stamina saving throw to half damage dealt. Creatures that fail their saving throw to half damage also have their speed reduced by half."
+               },
+               "4": {
+                  "Value": "The spell deals normal damage to any structure in contact with the ground when the spell is cast, and every round until the spell ends. See Chapter 8: Adventurers for structure damage."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "The spell deals an additional 1d6 for every spell level above 5th."
+               }
+            }
+         },
+         "DeathCoil": {
+            "Label": "Death Coil",
+            "Description": {
+               "1": {
+                  "Value": "Invoking the power of death, you bring the living closer to the end, and invigoration to the unholy or undead. The creature you target regains a number of hit points equal to 1d8 + your spellcasting ability modifier if they are undead or fiends. If you target a living or celestial creature, they take damage equal to the hit points they would normally gain as shadow damage. If you target an unwilling creature, you require a ranged spell attack."
+               },
+               "2": {
+                  "Value": "Constructs gain no effect from this spell."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "The healing increases by 1d8 per level above 1st."
+               }
+            }
+         },
          "DetectMagic": {
             "Label": "TODO: Detect Magic",
             "Description": {
                "1": {
                   "Value": "For the duration, you sense the presence of magic within 30 feet of you. If you sense magic in this way, you can use your action to see a faint aura around any visible creature or object in the area that bears magic, and you learn its school of magic, if any. The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt."
+               }
+            }
+         },
+         "EarthShield": {
+            "Label": "Earth Shield",
+            "Description": {
+               "1": {
+                  "Value": "You conjure a shield of earth to guard and protect a creature within range. The target gains resistance against the first weapon attack they take in a combat round. At the beginning of every round, the caster must succeed on a sigil roll to affect the target again."
+               },
+               "2": {
+                  "Value": "Also, so long as this sigil is active, the target also gains a +2 bonus to their AC. The reduction to damage is an aura effect."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "For each spell level above 2nd, you gain resistance to another attack taken in the same combat round."
+               }
+            }
+         },
+         "EssenceSeal": {
+            "Label": "Essence Seal",
+            "Description": {
+               "1": {
+                  "Value": "You draw an essence-capturing magic circle or seal and designate a single creature type. If a creature from the type you designated is reduced to 0 hit points within 10 feet of the seal (or any surface you inscribe it upon), they must succeed on a Spirit saving throw or else have its essence absorbed. The creature must have a Challenge equal to or less than double the spell level."
+               },
+               "2": {
+                  "Value": "If a creature‘s essence is absorbed, it cannot be revived or resurrected, and any creature attempting such effects must succeed on an contested spell attack roll against your spell attack bonus. On a success of two out of three attempts, the essence is released and the target can be revived or resurrected. On a failed attempt, the caster can no longer attempt to contest control again. An immortal creature or a creature that can reform from death (such as demons, liches, or ghosts) that are sealed cannot reform until the seal is broken."
+               },
+               "3": {
+                  "Value": "The focus crystal can be destroyed to release the creature‘s essence (as an item with hit points equal to 10 times the spell‘s level). The exorcism spell deals double damage to focus crystals, but only to release the creature imprisoned."
+               },
+               "4": {
+                  "Value": "Depending on the creature type, the focus crystal has different names."
+               },
+               "5": {
+                  "Options": {
+                     "1": "<i>Soul Gem</i>: This focus crystal holds the essence of a humanoid, giant, beast, fey, monstrosity, plant, or dragon. This can fuel necromancy engines.",
+                     "2": "<i>Elemental Gem</i>: This focus crystal holds the essence of an elemental. This can fuel elemental engines.",
+                     "3": "<i>Quintessence</i>: This focus crystal holds the essence of an aberration, fiend, celestial, or undead. Quintessence can be consumed to restore 1d8 hit points (or 1d4 mana points) per Challenge of the creature. This causes immense supernatural suffering for the creature, and releases it from the focus crystal. If resurrected, the target requires double the normal amount of rest for resurrection sickness."
+                  }
+               },
+               "6": {
+                  "Value": "Oozes and constructs cannot be affected by this spell. There are other mechanisms to release an imprisoned essence besides  resurrections, such as the shaman‘s release elementals ability for elemental gems."
+               },
+               "7": {
+                  "Value": " If the spell is cast ritually, and if you expend double the normal mana cost, the target creature type suffers disadvantage to their saving throw, and any attempts to release the essence by contested rolls has disadvantage."
                }
             }
          },

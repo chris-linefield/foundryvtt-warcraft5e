@@ -1,20 +1,20 @@
 {
-   "_id": "q1Tz0ehvEIAffjsi",
-   "name": "Holy Light",
+   "_id": "ToJbmA0sBv2Fri8R",
+   "name": "Charm",
    "permission": {
       "default": 0
    },
    "type": "spell",
    "data": {
-      "source": "Core Rules page 349",
+      "source": "Core Rules page 330",
       "activation": {
          "type": "action",
          "cost": 1,
          "condition": ""
       },
       "duration": {
-         "value": null,
-         "units": "inst"
+         "value": 1,
+         "units": "hour"
       },
       "target": {
          "value": 1,
@@ -22,8 +22,8 @@
          "type": "creature"
       },
       "range": {
-         "value": 30,
-         "long": null,
+         "value": 60,
+         "long": 0,
          "units": "ft"
       },
       "uses": {
@@ -32,25 +32,23 @@
          "per": ""
       },
       "ability": "",
-      "actionType": "heal",
+      "actionType": "save",
       "attackBonus": 0,
       "chatFlavor": "",
       "critical": null,
       "damage": {
-         "parts": [
-            "1d8",
-            "healing"
-         ],
-         "versatile": ""
+         "parts": [],
+         "versatile": "",
+         "value": ""
       },
       "formula": "",
       "save": {
-         "ability": "",
-         "dc": null,
-         "value": ""
+         "ability": "wis",
+         "dc": 0,
+         "scaling": "spell"
       },
       "level": 1,
-      "school": "evo",
+      "school": "enc",
       "components": {
          "value": "",
          "vocal": true,
@@ -70,8 +68,13 @@
          "prepared": false
       },
       "scaling": {
-         "mode": "none",
+         "mode": "level",
          "formula": ""
+      },
+      "consume": {
+         "type": "",
+         "target": "",
+         "amount": null
       }
    },
    "sort": 100001,
@@ -80,17 +83,19 @@
          "type": "spell",
          "description": [
             {
-               "value": "WC5E.Spells.HolyLight.Description.1.Value"
+               "value": "WC5E.Spells.Charm.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Spells.Charm.Description.2.Value"
             }
          ],
          "heightened": [
             {
-               "value": "WC5E.Spells.HolyLight.Heightened.1.Value"
+               "value": "WC5E.Spells.Charm.Heightened.1.Value"
             }
          ]
       }
    },
-   "img": "icons/magic/light/beam-strike-orange-gold.webp",
-   "effects": [
-   ]
+   "img": "icons/magic/control/hypnosis-mesmerism-eye.webp",
+   "effects": []
 }

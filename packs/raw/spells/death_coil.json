@@ -1,12 +1,12 @@
 {
-   "_id": "q1Tz0ehvEIAffjsi",
-   "name": "Holy Light",
+   "_id": "3goTXua1Lv4pPQS1",
+   "name": "Death Coil",
    "permission": {
       "default": 0
    },
    "type": "spell",
    "data": {
-      "source": "Core Rules page 349",
+      "source": "Core Rules page 337",
       "activation": {
          "type": "action",
          "cost": 1,
@@ -80,17 +80,20 @@
          "type": "spell",
          "description": [
             {
-               "value": "WC5E.Spells.HolyLight.Description.1.Value"
+               "value": "WC5E.Spells.DeathCoil.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Spells.DeathCoil.Description.2.Value"
             }
          ],
          "heightened": [
             {
-               "value": "WC5E.Spells.HolyLight.Heightened.1.Value"
+               "value": "WC5E.Spells.DeathCoil.Heightened.1.Value"
             }
          ]
       }
    },
-   "img": "icons/magic/light/beam-strike-orange-gold.webp",
+   "img": "icons/magic/unholy/projectile-helix-blood-red.webp",
    "effects": [
    ]
 }

@@ -1,29 +1,29 @@
 {
-   "_id": "q1Tz0ehvEIAffjsi",
-   "name": "Holy Light",
+   "_id": "1mzEBm9Jr31dtgXi",
+   "name": "Death and Decay",
    "permission": {
       "default": 0
    },
    "type": "spell",
    "data": {
-      "source": "Core Rules page 349",
+      "source": "",
       "activation": {
          "type": "action",
          "cost": 1,
          "condition": ""
       },
       "duration": {
-         "value": null,
-         "units": "inst"
+         "value": 1,
+         "units": "hour"
       },
       "target": {
-         "value": 1,
-         "units": "",
-         "type": "creature"
+         "value": 15,
+         "units": "ft",
+         "type": "cylinder"
       },
       "range": {
-         "value": 30,
-         "long": null,
+         "value": 60,
+         "long": 0,
          "units": "ft"
       },
       "uses": {
@@ -32,16 +32,15 @@
          "per": ""
       },
       "ability": "",
-      "actionType": "heal",
+      "actionType": "util",
       "attackBonus": 0,
       "chatFlavor": "",
       "critical": null,
       "damage": {
          "parts": [
-            "1d8",
-            "healing"
          ],
-         "versatile": ""
+         "versatile": "",
+         "value": ""
       },
       "formula": "",
       "save": {
@@ -49,15 +48,15 @@
          "dc": null,
          "value": ""
       },
-      "level": 1,
-      "school": "evo",
+      "level": 5,
+      "school": "nec",
       "components": {
-         "value": "",
+         "value": "a dead rose",
          "vocal": true,
          "somatic": true,
-         "material": false,
+         "material": true,
          "ritual": false,
-         "concentration": false
+         "concentration": true
       },
       "materials": {
          "value": "",
@@ -70,7 +69,7 @@
          "prepared": false
       },
       "scaling": {
-         "mode": "none",
+         "mode": "level",
          "formula": ""
       }
    },
@@ -80,17 +79,26 @@
          "type": "spell",
          "description": [
             {
-               "value": "WC5E.Spells.HolyLight.Description.1.Value"
+               "value": "WC5E.Spells.DeathAndDecay.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Spells.DeathAndDecay.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Spells.DeathAndDecay.Description.3.Value"
+            },
+            {
+               "value": "WC5E.Spells.DeathAndDecay.Description.4.Value"
             }
          ],
          "heightened": [
             {
-               "value": "WC5E.Spells.HolyLight.Heightened.1.Value"
+               "value": "WC5E.Spells.DeathAndDecay.Heightened.1.Value"
             }
          ]
       }
    },
-   "img": "icons/magic/light/beam-strike-orange-gold.webp",
+   "img": "systems/dnd5e/icons/spells/fog-water-air-2.jpg",
    "effects": [
    ]
 }
