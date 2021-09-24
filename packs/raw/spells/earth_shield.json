@@ -1,20 +1,20 @@
 {
-   "_id": "q1Tz0ehvEIAffjsi",
-   "name": "Holy Light",
+   "_id": "YzccCBDhIOZJoR2q",
+   "name": "Earth Shield",
    "permission": {
       "default": 0
    },
    "type": "spell",
    "data": {
-      "source": "Core Rules page 349",
+      "source": "Core Rules page 341",
       "activation": {
          "type": "action",
          "cost": 1,
          "condition": ""
       },
       "duration": {
-         "value": null,
-         "units": "inst"
+         "value": 1,
+         "units": "minute"
       },
       "target": {
          "value": 1,
@@ -22,7 +22,7 @@
          "type": "creature"
       },
       "range": {
-         "value": 30,
+         "value": 60,
          "long": null,
          "units": "ft"
       },
@@ -37,10 +37,7 @@
       "chatFlavor": "",
       "critical": null,
       "damage": {
-         "parts": [
-            "1d8",
-            "healing"
-         ],
+         "parts": [],
          "versatile": ""
       },
       "formula": "",
@@ -49,8 +46,8 @@
          "dc": null,
          "value": ""
       },
-      "level": 1,
-      "school": "evo",
+      "level": 2,
+      "school": "trs",
       "components": {
          "value": "",
          "vocal": true,
@@ -80,17 +77,20 @@
          "type": "spell",
          "description": [
             {
-               "value": "WC5E.Spells.HolyLight.Description.1.Value"
+               "value": "WC5E.Spells.EarthShield.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Spells.EarthShield.Description.2.Value"
             }
          ],
          "heightened": [
             {
-               "value": "WC5E.Spells.HolyLight.Heightened.1.Value"
+               "value": "WC5E.Spells.EarthShield.Heightened.1.Value"
             }
          ]
       }
    },
-   "img": "icons/magic/light/beam-strike-orange-gold.webp",
+   "img": "systems/dnd5e/icons/spells/protect-orange-1.jpg",
    "effects": [
    ]
 }

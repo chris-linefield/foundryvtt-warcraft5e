@@ -461,7 +461,7 @@
                            "pack": "warcraft5e.wc5e_spells",
                            "node": "7AJ7qh8K1MM9y7Ir",
                            "label": "WC5E.Spells.RuneArray.Label",
-                           "option": "vampiric"
+                           "option": "Vampiric"
                         },
                         {
                            "pack": "warcraft5e.wc5e_spells",
@@ -687,6 +687,85 @@
                            "pack": "warcraft5e.wc5e_class_feats",
                            "node": "bwj4xvl22wCaZIEi",
                            "label": "WC5E.Feats.UnholyChampion.Label"
+                        }
+                     ]
+                  }
+               ],
+               "spellList": [
+                  {
+                     "level": "3",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "3goTXua1Lv4pPQS1",
+                           "label": "WC5E.Spells.DeathCoil.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "ToJbmA0sBv2Fri8R",
+                           "label": "WC5E.Spells.Charm.Label",
+                           "option": "Undead"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "5",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "U41USx3QClrQ2eko",
+                           "label": "WC5E.Spells.EssenceSeal.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "YzccCBDhIOZJoR2q",
+                           "label": "WC5E.Spells.EarthShield.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "9",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "",
+                           "label": "WC5E.Spells.BindUndead.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "pO4zGe5LmFIYqJiL",
+                           "label": "WC5E.Spells.BestowCurse.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "13",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "dmjHOAmJKNVvLiZt",
+                           "label": "WC5E.Spells.Confusion.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "7AJ7qh8K1MM9y7Ir",
+                           "label": "WC5E.Spells.RuneArray.Label",
+                           "option": "Worm"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "17",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "fEcP6mZmC9rDupPy",
+                           "label": "WC5E.Spells.AntilifeShell.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "1mzEBm9Jr31dtgXi",
+                           "label": "WC5E.Spells.DeathAndDecay.Label"
                         }
                      ]
                   }

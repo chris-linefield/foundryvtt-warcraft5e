@@ -100,7 +100,7 @@
                 <tr>
                     <th class="left">Saving Throws:</th>
                     <td>
-                        {{#each item.flags.wc5e.saves}}
+                        {{#each item.data.saves}}
                             {{#unless @first}}{{#if @last}} and {{else}},{{/if}}{{/unless}}
                             {{lookup ../config.abilities this}}
                         {{/each}}
