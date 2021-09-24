@@ -1,0 +1,162 @@
+{
+   "_id": "nB6yswkMfo875xJT",
+   "name": "Entertainer",
+   "permission": {
+      "default": 0
+   },
+   "type": "class",
+   "data": {
+   },
+   "flags": {
+      "wc5e": {
+         "type": "background",
+         "description": [
+            "WC5E.Backgrounds.Entertainer.Description.1"
+         ],
+         "source": "Player's Handbook",
+         "skillProfs": [
+            "acr",
+            "prf"
+         ],
+         "toolProfs": [
+            "disg",
+            "instr"
+         ],
+         "languages": null,
+         "equipment": [
+            [
+               {
+                  "amount": 1,
+                  "pack": "dnd5e.items",
+                  "node": "E0Px9YrsAotTIibl",
+                  "label": "WC5E.Items.MusicalInstrument.Label"
+               }
+            ],
+            [
+               {
+                  "label": "the favor of an admirer (love letter, lock of hair, or trinket)"
+               }
+            ],
+            [
+               {
+                  "amount": 1,
+                  "pack": "dnd5e.items",
+                  "node": "E2h6sEe6FU2tnU96",
+                  "label": "WC5E.Items.CostumeClothes.Label"
+               }
+            ],
+            [
+               {
+                  "amount": 1,
+                  "pack": "dnd5e.items",
+                  "node": "9bWTRRDym06PzSAf",
+                  "label": "WC5E.Items.Pouch.Label"
+               }
+            ]
+         ],
+         "feats": [
+            {
+               "pack": "warcraft5e.wc5e_background_feats",
+               "node": "j3WLiZt25vISmeVj",
+               "label": "WC5E.Feats.EntertainerRoutines.Label"
+            },
+            {
+               "pack": "warcraft5e.wc5e_background_feats",
+               "node": "wNwuz4eUxKgRmpat",
+               "label": "WC5E.Feats.ByPopularDemand.Label"
+            }
+         ],
+         "suggestions": {
+            "description": "WC5E.Backgrounds.Entertainer.Suggestions.Description",
+            "personality": [
+               "WC5E.Backgrounds.Entertainer.Suggestions.Personality.1",
+               "WC5E.Backgrounds.Entertainer.Suggestions.Personality.2",
+               "WC5E.Backgrounds.Entertainer.Suggestions.Personality.3",
+               "WC5E.Backgrounds.Entertainer.Suggestions.Personality.4",
+               "WC5E.Backgrounds.Entertainer.Suggestions.Personality.5",
+               "WC5E.Backgrounds.Entertainer.Suggestions.Personality.6",
+               "WC5E.Backgrounds.Entertainer.Suggestions.Personality.7",
+               "WC5E.Backgrounds.Entertainer.Suggestions.Personality.8"
+            ],
+            "ideals": [
+               {
+                  "title": "WC5E.Backgrounds.Entertainer.Suggestions.Ideal.1.Title",
+                  "value": "WC5E.Backgrounds.Entertainer.Suggestions.Ideal.1.Value"
+               },
+               {
+                  "title": "WC5E.Backgrounds.Entertainer.Suggestions.Ideal.2.Title",
+                  "value": "WC5E.Backgrounds.Entertainer.Suggestions.Ideal.2.Value"
+               },
+               {
+                  "title": "WC5E.Backgrounds.Entertainer.Suggestions.Ideal.3.Title",
+                  "value": "WC5E.Backgrounds.Entertainer.Suggestions.Ideal.3.Value"
+               },
+               {
+                  "title": "WC5E.Backgrounds.Entertainer.Suggestions.Ideal.4.Title",
+                  "value": "WC5E.Backgrounds.Entertainer.Suggestions.Ideal.4.Value"
+               },
+               {
+                  "title": "WC5E.Backgrounds.Entertainer.Suggestions.Ideal.5.Title",
+                  "value": "WC5E.Backgrounds.Entertainer.Suggestions.Ideal.5.Value"
+               },
+               {
+                  "title": "WC5E.Backgrounds.Entertainer.Suggestions.Ideal.6.Title",
+                  "value": "WC5E.Backgrounds.Entertainer.Suggestions.Ideal.6.Value"
+               }
+            ],
+            "bonds": [
+               "WC5E.Backgrounds.Entertainer.Suggestions.Bonds.1",
+               "WC5E.Backgrounds.Entertainer.Suggestions.Bonds.2",
+               "WC5E.Backgrounds.Entertainer.Suggestions.Bonds.3",
+               "WC5E.Backgrounds.Entertainer.Suggestions.Bonds.4",
+               "WC5E.Backgrounds.Entertainer.Suggestions.Bonds.5",
+               "WC5E.Backgrounds.Entertainer.Suggestions.Bonds.6"
+            ],
+            "flaws": [
+               "WC5E.Backgrounds.Entertainer.Suggestions.Flaws.1",
+               "WC5E.Backgrounds.Entertainer.Suggestions.Flaws.2",
+               "WC5E.Backgrounds.Entertainer.Suggestions.Flaws.3",
+               "WC5E.Backgrounds.Entertainer.Suggestions.Flaws.4",
+               "WC5E.Backgrounds.Entertainer.Suggestions.Flaws.5",
+               "WC5E.Backgrounds.Entertainer.Suggestions.Flaws.6"
+            ]
+         },
+         "artwork": {
+            "src": "modules/warcraft5e/res/pics/backgrounds/acolyte.jpg",
+            "url": "https://www.wallpaperflare.com/female-elf-character-illustration-fantasy-art-elves-magic-wallpaper-mxwka",
+            "credit": "???"
+         },
+         "variants": [
+            {
+               "title": "WC5E.Backgrounds.Entertainer.Variants.Gladiator.Title",
+               "description": [
+                  {
+                     "value": "WC5E.Backgrounds.Entertainer.Variants.Gladiator.Description.1.Value"
+                  }
+               ],
+               "changes": "WC5E.Backgrounds.Entertainer.Variants.Gladiator.Description.2.Value",
+               "artwork": {
+                  "src": "",
+                  "url": "",
+                  "credit": "TODO"
+               }
+            },
+            {
+               "title": "WC5E.Backgrounds.Entertainer.Variants.DarkmoonTheaterTroupeMember.Title",
+               "description": [
+                  {
+                     "value": "WC5E.Backgrounds.Entertainer.Variants.DarkmoonTheaterTroupeMember.Description.1.Value"
+                  }
+               ],
+               "artwork": {
+                  "src": "",
+                  "url": "",
+                  "credit": "TODO"
+               }
+            }
+         ]
+      }
+   },
+   "img": "icons/tools/instruments/lute-gold-brown.webp",
+   "effects": []
+}

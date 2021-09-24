@@ -1,13 +1,13 @@
 {
-   "_id": "wJJw0Jyj0ifBbJIv",
-   "name": "False Identity",
+   "_id": "7nOlercy3oXxNggv",
+   "name": "Criminal Contact",
    "permission": {
       "default": 0
    },
    "type": "feat",
    "data": {
       "source": "Player's Handbook",
-      "requirements": "Charlatan"
+      "requirements": "Criminal"
    },
    "flags": {
       "wc5e": {
@@ -15,12 +15,12 @@
          "category": "WC5E.SkillCategories.General",
          "description": [
             {
-               "value": "WC5E.Feats.FalseIdentity.Description.1.Value"
+               "value": "WC5E.Feats.CriminalContact.Description.1.Value"
             }
          ]
       }
    },
-   "img": "systems/dnd5e/icons/items/inventory/letter-sealed.jpg",
+   "img": "icons/environment/people/commoner.webp",
    "effects": [
    ]
 }

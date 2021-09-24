@@ -1,0 +1,274 @@
+{
+   "_id": "gPxwzFOB5ymsM2wc",
+   "name": "Criminal",
+   "permission": {
+      "default": 0
+   },
+   "type": "class",
+   "data": {
+   },
+   "flags": {
+      "wc5e": {
+         "type": "background",
+         "description": [
+            "WC5E.Backgrounds.Criminal.Description.1"
+         ],
+         "source": "Player's Handbook",
+         "skillProfs": [
+            "dec",
+            "ste"
+         ],
+         "toolProfs": [
+            "thief",
+            "game"
+         ],
+         "languages": null,
+         "equipment": [
+            [
+               {
+                  "amount": 1,
+                  "pack": "dnd5e.items",
+                  "node": "V5UAjT3ed6sDNtgm",
+                  "label": "WC5E.Items.Crowbar.Label"
+               }
+            ],
+            [
+               {
+                  "amount": 1,
+                  "pack": "dnd5e.items",
+                  "node": "8RXjiddJ6VGyE7vB",
+                  "label": "WC5E.Items.CommonClothes.Label"
+               }
+            ],
+            [
+               {
+                  "amount": 1,
+                  "pack": "dnd5e.items",
+                  "node": "9bWTRRDym06PzSAf",
+                  "label": "WC5E.Items.Pouch.Label"
+               }
+            ]
+         ],
+         "feats": [
+            {
+               "pack": "warcraft5e.wc5e_background_feats",
+               "node": "rUxELRjPAm1tqeyn",
+               "label": "WC5E.Feats.CriminalSpecialty.Label"
+            },
+            {
+               "pack": "warcraft5e.wc5e_background_feats",
+               "node": "7nOlercy3oXxNggv",
+               "label": "WC5E.Feats.CriminalContact.Label"
+            }
+         ],
+         "suggestions": {
+            "description": "WC5E.Backgrounds.Criminal.Suggestions.Description",
+            "personality": [
+               "WC5E.Backgrounds.Criminal.Suggestions.Personality.1",
+               "WC5E.Backgrounds.Criminal.Suggestions.Personality.2",
+               "WC5E.Backgrounds.Criminal.Suggestions.Personality.3",
+               "WC5E.Backgrounds.Criminal.Suggestions.Personality.4",
+               "WC5E.Backgrounds.Criminal.Suggestions.Personality.5",
+               "WC5E.Backgrounds.Criminal.Suggestions.Personality.6",
+               "WC5E.Backgrounds.Criminal.Suggestions.Personality.7",
+               "WC5E.Backgrounds.Criminal.Suggestions.Personality.8"
+            ],
+            "ideals": [
+               {
+                  "title": "WC5E.Backgrounds.Criminal.Suggestions.Ideal.1.Title",
+                  "value": "WC5E.Backgrounds.Criminal.Suggestions.Ideal.1.Value"
+               },
+               {
+                  "title": "WC5E.Backgrounds.Criminal.Suggestions.Ideal.2.Title",
+                  "value": "WC5E.Backgrounds.Criminal.Suggestions.Ideal.2.Value"
+               },
+               {
+                  "title": "WC5E.Backgrounds.Criminal.Suggestions.Ideal.3.Title",
+                  "value": "WC5E.Backgrounds.Criminal.Suggestions.Ideal.3.Value"
+               },
+               {
+                  "title": "WC5E.Backgrounds.Criminal.Suggestions.Ideal.4.Title",
+                  "value": "WC5E.Backgrounds.Criminal.Suggestions.Ideal.4.Value"
+               },
+               {
+                  "title": "WC5E.Backgrounds.Criminal.Suggestions.Ideal.5.Title",
+                  "value": "WC5E.Backgrounds.Criminal.Suggestions.Ideal.5.Value"
+               },
+               {
+                  "title": "WC5E.Backgrounds.Criminal.Suggestions.Ideal.6.Title",
+                  "value": "WC5E.Backgrounds.Criminal.Suggestions.Ideal.6.Value"
+               }
+            ],
+            "bonds": [
+               "WC5E.Backgrounds.Criminal.Suggestions.Bonds.1",
+               "WC5E.Backgrounds.Criminal.Suggestions.Bonds.2",
+               "WC5E.Backgrounds.Criminal.Suggestions.Bonds.3",
+               "WC5E.Backgrounds.Criminal.Suggestions.Bonds.4",
+               "WC5E.Backgrounds.Criminal.Suggestions.Bonds.5",
+               "WC5E.Backgrounds.Criminal.Suggestions.Bonds.6"
+            ],
+            "flaws": [
+               "WC5E.Backgrounds.Criminal.Suggestions.Flaws.1",
+               "WC5E.Backgrounds.Criminal.Suggestions.Flaws.2",
+               "WC5E.Backgrounds.Criminal.Suggestions.Flaws.3",
+               "WC5E.Backgrounds.Criminal.Suggestions.Flaws.4",
+               "WC5E.Backgrounds.Criminal.Suggestions.Flaws.5",
+               "WC5E.Backgrounds.Criminal.Suggestions.Flaws.6"
+            ]
+         },
+         "artwork": {
+            "src": "modules/warcraft5e/res/pics/backgrounds/acolyte.jpg",
+            "url": "https://www.wallpaperflare.com/female-elf-character-illustration-fantasy-art-elves-magic-wallpaper-mxwka",
+            "credit": "???"
+         },
+         "variants": [
+            {
+               "title": "WC5E.Backgrounds.Criminal.Variants.Operative.Title",
+               "description": [
+                  {
+                     "value": "WC5E.Backgrounds.Criminal.Variants.Operative.Description.1.Value"
+                  },
+                  {
+                     "value": "WC5E.Backgrounds.Criminal.Variants.Operative.Description.2.Value"
+                  }
+               ],
+               "artwork": {
+                  "src": "",
+                  "url": "",
+                  "credit": "TODO"
+               }
+            },
+            {
+               "title": "WC5E.Backgrounds.Criminal.Variants.UndeadStalker.Title",
+               "description": [
+                  {
+                     "value": "WC5E.Backgrounds.Criminal.Variants.UndeadStalker.Description.1.Value"
+                  },
+                  {
+                     "value": "WC5E.Backgrounds.Criminal.Variants.UndeadStalker.Description.2.Value"
+                  }
+               ],
+               "artwork": {
+                  "src": "",
+                  "url": "",
+                  "credit": "TODO"
+               }
+            },
+            {
+               "title": "WC5E.Backgrounds.Criminal.Variants.UndeadDeathStalker.Title",
+               "description": [
+                  {
+                     "value": "WC5E.Backgrounds.Criminal.Variants.UndeadDeathStalker.Description.1.Value"
+                  },
+                  {
+                     "title": "WC5E.Backgrounds.Criminal.Variants.UndeadDeathStalker.Description.2.Title",
+                     "value": "WC5E.Backgrounds.Criminal.Variants.UndeadDeathStalker.Description.2.Value"
+                  },
+                  {
+                     "table": {
+                        "head": [
+                           {
+                              "title": "d6"
+                           },
+                           {
+                              "title": "Test"
+                           }
+                        ],
+                        "rows": [
+                           [
+                              {
+                                 "value": 1
+                              },
+                              {
+                                 "text": "WC5E.Backgrounds.Criminal.Variants.UndeadDeathStalker.Description.3.Options.1"
+                              }
+                           ],
+                           [
+                              {
+                                 "value": 2
+                              },
+                              {
+                                 "text": "WC5E.Backgrounds.Criminal.Variants.UndeadDeathStalker.Description.3.Options.2"
+                              }
+                           ],
+                           [
+                              {
+                                 "value": 3
+                              },
+                              {
+                                 "text": "WC5E.Backgrounds.Criminal.Variants.UndeadDeathStalker.Description.3.Options.3"
+                              }
+                           ],
+                           [
+                              {
+                                 "value": 4
+                              },
+                              {
+                                 "text": "WC5E.Backgrounds.Criminal.Variants.UndeadDeathStalker.Description.3.Options.4"
+                              }
+                           ],
+                           [
+                              {
+                                 "value": 5
+                              },
+                              {
+                                 "text": "WC5E.Backgrounds.Criminal.Variants.UndeadDeathStalker.Description.3.Options.5"
+                              }
+                           ],
+                           [
+                              {
+                                 "value": 6
+                              },
+                              {
+                                 "text": "WC5E.Backgrounds.Criminal.Variants.UndeadDeathStalker.Description.3.Options.6"
+                              }
+                           ]
+                        ]
+                     }
+                  }
+               ],
+               "changes": "WC5E.Backgrounds.Criminal.Variants.UndeadDeathStalker.Description.4.Value",
+               "artwork": {
+                  "src": "",
+                  "url": "",
+                  "credit": "TODO"
+               }
+            },
+            {
+               "title": "WC5E.Backgrounds.Criminal.Variants.Uncrowned.Title",
+               "description": [
+                  {
+                     "value": "WC5E.Backgrounds.Criminal.Variants.Uncrowned.Description.1.Value"
+                  },
+                  {
+                     "value": "WC5E.Backgrounds.Criminal.Variants.Uncrowned.Description.2.Value"
+                  }
+               ],
+               "artwork": {
+                  "src": "",
+                  "url": "",
+                  "credit": "TODO"
+               }
+            },
+            {
+               "title": "WC5E.Backgrounds.Criminal.Variants.AgentOfSuspectLoyalty.Title",
+               "description": [
+                  {
+                     "value": "WC5E.Backgrounds.Criminal.Variants.AgentOfSuspectLoyalty.Description.1.Value"
+                  },
+                  {
+                     "value": "WC5E.Backgrounds.Criminal.Variants.AgentOfSuspectLoyalty.Description.2.Value"
+                  }
+               ],
+               "artwork": {
+                  "src": "",
+                  "url": "",
+                  "credit": "TODO"
+               }
+            }
+         ]
+      }
+   },
+   "img": "icons/skills/social/theft-pickpocket-bribery-brown.webp",
+   "effects": []
+}
