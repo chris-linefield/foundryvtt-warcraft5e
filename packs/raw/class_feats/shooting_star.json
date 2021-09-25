@@ -1,0 +1,29 @@
+{
+   "_id": "TN4aZNPDe4sIha7D",
+   "name": "Shooting Star",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 59",
+      "requirements": "Druid (Balance) 10"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.ShootingStar.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.ShootingStar.Description.2.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/nature/meteorite-purple.webp",
+   "effects": [
+   ]
+}

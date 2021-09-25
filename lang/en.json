@@ -382,15 +382,28 @@
             "Blocks": {
                "1": {
                   "Title": "Magic and Science",
-                  "Content": "In the Warcraft universe, alchemy is not merely pseudo-chemistry—it is an art that draws power from the primal elements of life, not unlike actual magic. An alchemist is a master of the art who takes it leaps and bounds further than their peers, who are limited in their alchemical products to mere healing poultices and anti-toxins, reaching heights of reviving the dead or manifesting massive explosives.<br>The greatest strength of an alchemist is their versatility. They can themselves adequately but can specialize in being battle-chemists who augment themselves with potions before tearing their enemies apart with their own hands. They can choose to focus on the augmentative powers of their mixtures, delaying harm and healing wounds, or to debilitate their enemies with negative status effects. Damage dealt by an alchemist‘s potions usually focus on concussive or poison damage, but they are also broad in scope, dealing fire or frost or lighting as required of them. The better they anticipate their opposition, the better the alchemist can prepare.<br>The success of alchemists relies greatly on the formulae and recipes they have in their formula books. They gain new formulae as they gain experience, study other formula books, or research independently."
+                  "Content": {
+                     "1": "In the Warcraft universe, alchemy is not merely pseudo-chemistry - it is an art that draws power from the primal elements of life, not unlike actual magic. An alchemist is a master of the art who takes it leaps and bounds further than their peers, who are limited in their alchemical products to mere healing poultices and anti-toxins, reaching heights of reviving the dead or manifesting massive explosives.",
+                     "2": "The greatest strength of an alchemist is their versatility. They can themselves adequately but can specialize in being battle-chemists who augment themselves with potions before tearing their enemies apart with their own hands. They can choose to focus on the augmentative powers of their mixtures, delaying harm and healing wounds, or to debilitate their enemies with negative status effects. Damage dealt by an alchemist‘s potions usually focus on concussive or poison damage, but they are also broad in scope, dealing fire or frost or lighting as required of them. The better they anticipate their opposition, the better the alchemist can prepare.",
+                     "3": "The success of alchemists relies greatly on the formulae and recipes they have in their formula books. They gain new formulae as they gain experience, study other formula books, or research independently."
+                  }
                },
                "2": {
                   "Title": "The Weight of Knowledge",
-                  "Content": "Alchemists' lives may appear mundane, starting as a sage, independent researcher under a mage tower, a plague researcher, or member of a military force‘s supply chain. Other alchemists focus on trade, opening alchemy shops and selling anything from curative mixtures to love potions. Others still have adapted their talents to violence, such as serving in mercenary forces or the military, sapping structural defenses and focusing on combat support.<br>The weight of knowledge and the demand for versatile potions calls for even the most sedentary alchemists to venture out to investigate strange happenings, support their friends, or answer the call to heroism.<br><br>Alchemists are students, researchers, and scientists of the mysterious science of alchemy. To choose to alchemist class is to be more than a dabbler in the art of alchemy—they are utilizers of strange techniques that would empower themselves and their allies, experienced craftspeople who can make potions for fractions of the normal time and cost, and some have even modified their bodies to make full use of their skills.<br>Creating poisons, potions, special explosives, and empowering substances, alchemists are either curiosities, prized members of society, or reclusive, feared experts in unstable weird sciences. Alchemy itself does not fall strictly in one end between science and magic, but is a potent force nonetheless.<br>Alchemists support soldiers and adventurers, and could easily take to the field themselves, brewing and concocting potions, poisons, and poultices to support (or create) allies on the field. Some work to support their communities, others attempt to replicate (or surpass) the work of the Scourge's necromancers, and others focus on self-empowering through strange concoctions they imbibe."
+                  "Content": {
+                     "1": "Alchemists‘ lives may appear mundane, starting as a sage, independent researcher under a mage tower, a plague researcher, or member of a military force‘s supply chain. Other alchemists focus on trade, opening alchemy shops and selling anything from curative mixtures to love potions. Others still have adapted their talents to violence, such as serving in mercenary forces or the military, sapping structural defenses and focusing on combat support.",
+                     "2": "The weight of knowledge and the demand for versatile potions calls for even the most sedentary alchemists to venture out to investigate strange happenings, support their friends, or answer the call to heroism.",
+                     "3": "Alchemists are students, researchers, and scientists of the mysterious science of alchemy. To choose to alchemist class is to be more than a dabbler in the art of alchemy—they are utilizers of strange techniques that would empower themselves and their allies, experienced craftspeople who can make potions for fractions of the normal time and cost, and some have even modified their bodies to make full use of their skills.",
+                     "4": "Creating poisons, potions, special explosives, and empowering substances, alchemists are either curiosities, prized members of society, or reclusive, feared experts in unstable weird sciences. Alchemy itself does not fall strictly in one end between science and magic, but is a potent force nonetheless.",
+                     "5": "Alchemists support soldiers and adventurers, and could easily take to the field themselves, brewing and concocting potions, poisons, and poultices to support (or create) allies on the field. Some work to support their communities, others attempt to replicate (or surpass) the work of the Scourge's necromancers, and others focus on self-empowering through strange concoctions they imbibe."
+                  }
                },
                "3": {
                   "Title": "Creating an Alchemist",
-                  "Content": "As you make your alchemist character, consider the origins of their knowledge: were they selftaught, a student of another alchemist, or did they gain this mastery by esoteric means? Alchemy is a difficult discipline—how did you accomplish the challenge to gain your status? Were you motivated by war, fortune, or by something else entirely, such as the lack of magical talent to become a spellcaster?<br>Perhaps you preferred the reliable mundane science of alchemy over the unexpected extraordinary power of magic, or took comfort in the fact that you were in demand in an urban setting—there is no lack of adventurers who might need your aid as an alchemist if you do not wish to go out and adventure. Do you have any peers among alchemists? Do they perceive your approach to science as calm and intellectual, or rash but with great breakthroughs or a dangerous form of meddling with life and death that should not be tolerated? Do you have a special ambition or goal to achieve as an alchemist—such as making magic-like effects accessible to the mundane public, providing affordable healing, and counters to common ailments, or are your creations for your own monetary benefit?"
+                  "Content": {
+                     "1": "As you make your alchemist character, consider the origins of their knowledge: were they selftaught, a student of another alchemist, or did they gain this mastery by esoteric means? Alchemy is a difficult discipline—how did you accomplish the challenge to gain your status? Were you motivated by war, fortune, or by something else entirely, such as the lack of magical talent to become a spellcaster?",
+                     "2": "Perhaps you preferred the reliable mundane science of alchemy over the unexpected extraordinary power of magic, or took comfort in the fact that you were in demand in an urban setting—there is no lack of adventurers who might need your aid as an alchemist if you do not wish to go out and adventure. Do you have any peers among alchemists? Do they perceive your approach to science as calm and intellectual, or rash but with great breakthroughs or a dangerous form of meddling with life and death that should not be tolerated? Do you have a special ambition or goal to achieve as an alchemist—such as making magic-like effects accessible to the mundane public, providing affordable healing, and counters to common ailments, or are your creations for your own monetary benefit?"
+                  }
                }
             },
             "QuickBuild": "You can make an alchemist quickly by following these suggestions. First, Intelligence should be your highest ability score. Make Agility your next-highest if you want to use ranged or finesse weapons, or focus on throwing potions and explosives. Use Strength instead if you wish to empower yourself in battle and engage in combat via the mutate spell. Second, choose the guild artisan or scholar backgrounds. Third, choose the noxious fumes (poison spray), minor alchemy, and fire bolt cantrips, along with the following 1st-level spells for your formula book: <i>burning hands</i>, <i>explosion</i>, <i>mutate</i>, and <i>rejuvenation</i>.",
@@ -420,15 +433,25 @@
             "Blocks": {
                "1": {
                   "Title": "Fallen Protectors",
-                  "Content": "Most death knights were once virtuous defenders of humanity and truth as paladins. However, once the paladin ranks were disbanded by the failing Alliance, many of these holy warriors traveled to the quarantined lands to ease the suffering of those left within the plague-ridden colonies. Though the paladins were resistant to disease, they were persecuted by the general populace who believed that they had been infected by the foul plague. A small band of paladins, embittered by society's cruelty, traveled north to find the plague's source. These renegade knights succumbed to bitter hatred over the course of their grueling quest. When they finally reached Ner'zhul's icy fortress in Northrend they had become dark and brooding. The Lich King offered them untold power in exchange for their services and loyalty. The weary, vengeful warriors accepted his dark pact, and although they retained their humanity, their twisted souls were bound to his evil will for all time. Bestowed with black, vampiric Runeblades and shadowy steeds, death knights serve as the Scourge's mightiest generals."
+                  "Content": {
+                     "1": "Most death knights were once virtuous defenders of humanity and truth as paladins. However, once the paladin ranks were disbanded by the failing Alliance, many of these holy warriors traveled to the quarantined lands to ease the suffering of those left within the plague-ridden colonies. Though the paladins were resistant to disease, they were persecuted by the general populace who believed that they had been infected by the foul plague. A small band of paladins, embittered by society's cruelty, traveled north to find the plague's source. These renegade knights succumbed to bitter hatred over the course of their grueling quest.",
+                     "2": "When they finally reached Ner'zhul's icy fortress in Northrend they had become dark and brooding. The Lich King offered them untold power in exchange for their services and loyalty. The weary, vengeful warriors accepted his dark pact, and although they retained their humanity, their twisted souls were bound to his evil will for all time. Bestowed with black, vampiric Runeblades and shadowy steeds, death knights serve as the Scourge's mightiest generals."
+                  }
                },
                "2": {
                   "Title": "Released from Service",
-                  "Content": "When the Lich King's control of his death knights was broken, his former champions sought revenge for the horrors committed under his command. After their vengeance was won, the death knights found themselves without a cause and without a home. One by one they trickled into the land of the living in search of a new purpose. The Knights of the Ebon Blade is a faction consisting of the renegade death knights that broke free of the Lich King's control after the battle of Light's Hope Chapel. Led by Highlord Darion Mograine, the Knights of the Ebon Blade have allied themselves with the Alliance and the Horde with the help of Highlord Tirion Fordring of the Knights of the Silver Hand, and have pledged to do their part in defeating their former master, the Lich King. Their main base is Acherus: The Ebon Hold, taken from the Scourge after breaking free."
+                  "Content": {
+                     "1": "When the Lich King's control of his death knights was broken, his former champions sought revenge for the horrors committed under his command. After their vengeance was won, the death knights found themselves without a cause and without a home. One by one they trickled into the land of the living in search of a new purpose.",
+                     "2": "The Knights of the Ebon Blade is a faction consisting of the renegade death knights that broke free of the Lich King's control after the battle of Light's Hope Chapel. Led by Highlord Darion Mograine, the Knights of the Ebon Blade have allied themselves with the Alliance and the Horde with the help of Highlord Tirion Fordring of the Knights of the Silver Hand, and have pledged to do their part in defeating their former master, the Lich King. Their main base is Acherus: The Ebon Hold, taken from the Scourge after breaking free."
+                  }
                },
                "3": {
                   "Title": "Creating a Death Knight",
-                  "Content": "When creating your Death Knight, consider your relationship with the person or being that resurrected you. Do you know who it was, or why they brought you back from death? Do you feel indebted to them for giving you a second chance at life, or are you angry that they took you away from your eternal rest? Death knights often have terrible stories to tell that ended with their deaths. Consider your story before your death—if you were once a paladin, consider the oath you took. Do you remember it? Do you choose to follow those tenets again, or forsake your paladin teachings and follow a new path? If you were a noble or important member of your society, how do you cope with their expectations and your role? What evils have you committed under the Lich King‘s dominion? Have you committed crimes that you secretly approve of, such as the murder of a noble who let you down in  your old life, or lethally ending rivalries in life? Have you been commanded to use your power to raise the dead, and have you had a choice in raising anyone you once knew? Also, consider if and how you will attempt to reintegrate with society; most citizens of Azeroth fear and suspect the intentions of death knights, and might try to sabotage their acceptance. Have you wronged anyone who might oppose your reentry into society? Will you accept being separate from all factions, and choose to take up quests with only like-minded individuals?"
+                  "Content": {
+                     "1": "When creating your Death Knight, consider your relationship with the person or being that resurrected you. Do you know who it was, or why they brought you back from death? Do you feel indebted to them for giving you a second chance at life, or are you angry that they took you away from your eternal rest?",
+                     "2": "Death knights often have terrible stories to tell that ended with their deaths. Consider your story before your death—if you were once a paladin, consider the oath you took. Do you remember it? Do you choose to follow those tenets again, or forsake your paladin teachings and follow a new path? If you were a noble or important member of your society, how do you cope with their expectations and your role? What evils have you committed under the Lich King‘s dominion? Have you committed crimes that you secretly approve of, such as the murder of a noble who let you down in  your old life, or lethally ending rivalries in life? Have you been commanded to use your power to raise the dead, and have you had a choice in raising anyone you once knew?",
+                     "3": "Also, consider if and how you will attempt to reintegrate with society; most citizens of Azeroth fear and suspect the intentions of death knights, and might try to sabotage their acceptance. Have you wronged anyone who might oppose your reentry into society? Will you accept being separate from all factions, and choose to take up quests with only like-minded individuals?"
+                  }
                }
             },
             "QuickBuild": "You can make a death knight quickly by following these suggestions. First, Strength should be your highest ability score, followed by Charisma. Second, choose the noble or criminal background.",
@@ -462,7 +485,53 @@
             }
          },
          "Druid": {
-            "Name": "Druid"
+            "Name": "Druid",
+            "Introduction": {
+               "1": "The night elf notices a broken blade of familiar design, and then a disturbance in the distance. She rises, and runs toward the sound, leaping through the forest expertly and silently. As she comes to a waterfall, she leaps off the edge of the cliff, a wave of purple mist enveloping her, as she shapeshifts into a saber cat, prepared for further pursuit.",
+               "2": "An ancient troll stands quietly atop an equally old ziggurat, eyes narrowing against the bright red sunrise. In the distance, the waves bring the promise of war as ships sail towards his homeland. He speaks a prayer to the Loa, before shapeshifting into a leathery-winged primordial pterrordax, and rising upon the winds to scout the danger approaching his home.",
+               "3": "A worgen stalks the forest, hunting her quarry, smelling blood. She emerges to a worgen stirred into a blood-frenzy upon a wounded human, prepared to bite it. She shouts, causing the mindless beast to turn to her. She raises her hand, bringing a pillar of moonlight down, searing the worgen‘s fur. As the blinding light subsides, an unconscious human lies on the grass, curse overwhelmed by the moon-goddess‘s holy strength."
+            },
+            "Description": "Druids are keepers of the world who walk the path of nature, following the wisdom of the Ancients and Cenarius, healing and nurturing the world. To druids, nature is a delicate balance of actions in which even the smallest imbalance can create storming turmoil from peaceful skies. Druids draw their power from this natural energy, using it to change their shapes and command the forces of nature. Traditionally, druids chose the path of a specific animal totem. Since the invasion of the Burning Legion, however, most druids have undergone a number of reforms, including encouraging the study of magic from all totems. Druids who do this are known as druids of the wild.",
+            "Blocks": {
+               "1": {
+                  "Title": "Balance and Harmony",
+                  "Content": {
+                     "1": "Druids harness the vast powers of nature to preserve balance and protect life. With experience, druids can unleash nature‘s raw energy against their enemies, raining celestial fury on them from a great distance, binding them with enchanted vines, or ensnaring them in unrelenting cyclones. Druids can also direct this power to heal wounds and restore life to fallen allies. They are deeply in tune with the animal spirits of Azeroth. As master shapeshifters, druids can take on the forms of a variety of beasts, morphing into a bear, cat, storm crow, or sea lion with ease. This flexibility allows them to fill different roles during their adventures, tearing enemies to shreds one minute and surveying the battlefield from the sky the next. These keepers of the natural order are among the most versatile heroes in Azeroth, and they must be prepared to adjust to new challenges on a moment‘s notice.",
+                     "2": "Cenarius is the patron entity of all druids. However, each group of druids has its own special patrons and some even have the ability to transform into a being that looks like their patron. Many druids take on an animal companion based on their patron."
+                  }
+               },
+               "2": {
+                  "Title": "Call of the Wild",
+                  "Content": {
+                     "1": "A druid's empathy with the creatures of the wild also allows him to shapeshift into the forms of other animals. For example, a wounded druid whose magical energies are running low might  abruptly take on the form of a bear in order to better withstand further injury. Alternatively, the druid might shift into the form of some large cat, sneak up behind an enemy, then pounce and deliver a fierce flurry of melee attacks. Even the deepest oceans can be explored by a druid, who can simply shift into an aquatic creature, allowing him to stay underwater as long as needed. Druids come and go as they please, and their goals typically have little to do with the ‗civilized‘ world. Unaffiliated with any specific government, the primary druidic organization on Azeroth, the Cenarion Circle, answers to no one but itself.",
+                     "2": "The highest rank that a druid can have is that of archdruid, and there are only a few archdruids on Azeroth. At the moment the Cenarion Circle's leader is Archdruid Malfurion Stormrage, also widely considered to be the first (and greatest) mortal druid on Azeroth."
+                  }
+               },
+               "3": {
+                  "Title": "Creating a Druid",
+                  "Content": {
+                     "1": "When making a druid, consider why your character has such a close bond with nature. Perhaps your character lives in a society where druidism still thrives, or was raised by a druid after being abandoned in the depths of a forest, or burdened by a terrible curse to which druidism was a cure. Perhaps your character had a dramatic encounter with the spirits of nature, coming face to face with a giant eagle or dire wolf and surviving the experience. Maybe your character was born during an epic storm or a volcanic eruption, which was interpreted as a sign that becoming a druid was part of your character's destiny.",
+                     "2": "Have you always been an adventurer as part of your druidic calling, or did you first spend time as a caretaker of a sacred grove or spring? Perhaps your homeland was befouled by evil, and you took up an adventuring life in hopes of finding a new home or purpose.",
+                     "3": "Druids harness the vast powers of nature to preserve balance and protect life. With experience, druids can unleash nature‘s raw energy against their enemies, raining celestial fury on them from a great distance, binding them with enchanted vines, or ensnaring them in unrelenting cyclones.",
+                     "4": "The druids of Azeroth nearly all belong to the circle of Cenarius. Druids otherwise corrupted still belong to the same circle. Azerothian druids are more limited in the shapes they may choose when transforming, but they gain an additional ability to empower said form."
+                  }
+               }
+            },
+            "QuickBuild": "You can make a druid quickly by following these suggestions. First, Spirit should be your highest ability score, followed by Stamina. Second, choose the hermit background. Third, choose the gust, thorn whip, and wrath cantrips, along with the following 1st-level spells for your idol: primal roar (abandonment aura), charm (beast), conjure (beast), entangling roots, faerie fire, and rejuvenation. ",
+            "Paths": {
+               "CircleOfBalance": {
+                  "Title": "Circle of Balance",
+                  "Description": "You achieve a balance between the powers and influence of the moon and sun. Balance druids usually stand in the back lines, invigorating their allies and calling down shooting stars on their foes."
+               },
+               "CircleOfFeralBeast": {
+                  "Title": "Circle of Feral Beast",
+                  "Description": "Your magical talents bring you closer to beasts of the wild, making you prime and paragon above them. Feral druids often take up traits of the beasts they shape to."
+               },
+               "CircleOfRestoration": {
+                  "Title": "Circle of Restoration",
+                  "Description": "You focus on the renewing and resilient quality of nature. Restoration druids appreciate the more organic side of nature, preferring to conjure plant allies (usually treants), heal their friends, and reach out through the Emerald Dream for information and insights to the future."
+               }
+            }
          },
          "Hunter": {
             "Name": "Hunter"
@@ -490,15 +559,25 @@
             "Blocks": {
                "1": {
                   "Title": "Consummate Innovators",
-                  "Content": "Tinkers among the smartest and most creative of the adventurers setting out to explore and conquer Azeroth. As a creator of incredible inventions from steam saws to siege engines, your devices allow them to overcome nearly any situation — and if you don‘t have the device they need, you just might be able to design and create a new one on the spot.<br>>Tinkers are born of necessity—economic or military. Many gnomish and goblin engineers chose to take up the path of the tinker because of its demand in peace and wartime, and to satisfy their creativity. Tinkers tend to carry about packs and pouches full of heavy tools, spare parts and inventions both finished and incomplete. In doing so, they quickly develop the ability to shoulder casually otherwise crushing burdens. Furthermore, the tinker‘s ability to put together devices out of random piles of spare parts or whatever wires and gears they happen to be carrying is a valuable asset, allowing a tinker to address problems and improvise even when they would otherwise be stumped.<br>From developing vehicles such as the zeppelin or the steam engine to reliable weapons and explosives, tinkers are increasingly needed innovators in the changing World of Warcraft. "
+                  "Content": {
+                     "1": "Tinkers among the smartest and most creative of the adventurers setting out to explore and conquer Azeroth. As a creator of incredible inventions from steam saws to siege engines, your devices allow them to overcome nearly any situation — and if you don‘t have the device they need, you just might be able to design and create a new one on the spot.",
+                     "2": "Tinkers are born of necessity—economic or military. Many gnomish and goblin engineers chose to take up the path of the tinker because of its demand in peace and wartime, and to satisfy their creativity. Tinkers tend to carry about packs and pouches full of heavy tools, spare parts and inventions both finished and incomplete. In doing so, they quickly develop the ability to shoulder casually otherwise crushing burdens. Furthermore, the tinker‘s ability to put together devices out of random piles of spare parts or whatever wires and gears they happen to be carrying is a valuable asset, allowing a tinker to address problems and improvise even when they would otherwise be stumped.",
+                     "3": "From developing vehicles such as the zeppelin or the steam engine to reliable weapons and explosives, tinkers are increasingly needed innovators in the changing World of Warcraft."
+                  }
                },
                "2": {
                   "Title": "Adaptable Combatants",
-                  "Content": "Tinkers prefer to spend days, weeks or even months constructing the devices they design. When adventuring, though, tinkers are often forced to throw together a device more quickly or adapt  pieces of fallen technology to their purposes. A tinker can arrive onto a battlefield with many tools, ranging from firearms, explosives, strange gadgets, to even personal vehicles and mecha. A tinker always balances what they can bring with what they should bring, as relying on technology that is too young could result in a crisis like the destruction of Gnomregan. They also look forward to repurposing enemy technology, and a tinker‘s strength can grow the more developed their opposition is.<br>Tinkers have a reputation for being dangerous companions before specializing, born mainly of reckless goblins experimenting with explosives, or using gadgets made and owned by others. However, the true heart of the tinker profession can be found in the steady craftsmanship of the dwarves and the wild-eyed curiosity of the gnomes."
+                  "Content": {
+                     "1": "Tinkers prefer to spend days, weeks or even months constructing the devices they design. When adventuring, though, tinkers are often forced to throw together a device more quickly or adapt  pieces of fallen technology to their purposes. A tinker can arrive onto a battlefield with many tools, ranging from firearms, explosives, strange gadgets, to even personal vehicles and mecha. A tinker always balances what they can bring with what they should bring, as relying on technology that is too young could result in a crisis like the destruction of Gnomregan. They also look forward to repurposing enemy technology, and a tinker‘s strength can grow the more developed their opposition is.",
+                     "2": "Tinkers have a reputation for being dangerous companions before specializing, born mainly of reckless goblins experimenting with explosives, or using gadgets made and owned by others. However, the true heart of the tinker profession can be found in the steady craftsmanship of the dwarves and the wild-eyed curiosity of the gnomes."
+                  }
                },
                "3": {
                   "Title": "Creating a Tinker",
-                  "Content": "When you create a tinker, consider where you learned your craft. Are you self-taught or a student of a well-established guild, university, or master tinker? How has that affected your starting devices and formulae? Another thing to consider is your specialty—many gnomes and draenei prefer to rely on gadgets, while goblins lean towards explosives, and dwarves would swear on a reliable firearm.<br>Are the components and parts of your devices usually supplied and numbered or scavenged and repurposed from other devices?<br>Do you have qualms of repurposing technology (seeing it as a mark of poverty) or revel in it (seeing it as a proof of your power and skill)? Have you ever worked for an engineering society or guild— how have they treated you or used your inventions?"
+                  "Content": {
+                     "1": "When you create a tinker, consider where you learned your craft. Are you self-taught or a student of a well-established guild, university, or master tinker? How has that affected your starting devices and formulae? Another thing to consider is your specialty—many gnomes and draenei prefer to rely on gadgets, while goblins lean towards explosives, and dwarves would swear on a reliable firearm. Are the components and parts of your devices usually supplied and numbered or scavenged and repurposed from other devices?",
+                     "2": "Do you have qualms of repurposing technology (seeing it as a mark of poverty) or revel in it (seeing it as a proof of your power and skill)? Have you ever worked for an engineering society or guild - how have they treated you or used your inventions?"
+                  }
                }
             },
             "QuickBuild": "You can make a tinker quickly by following these suggestions. First. Intelligence should be your highest ability score. Make Agility your next-highest if you want to excel at using firearms and explosives. Choose Stamina or Strength instead if you plan to emphasize using constructs and mecha. Second, choose the guild artisan background. Third, choose the following starting devices in your engineer‘s notebook: boomstick (or auto-crossbow), fog machine (gadget), flamethrower (gadget), and hand grenade (or iron rockets, iron bombs, or iron mines).",
@@ -531,15 +610,25 @@
             "Blocks": {
                "1": {
                   "Title": "Trained for Battle",
-                  "Content": "As long as war is waged on Azeroth, there will be men and women who fight those wars. Warriors are no mere sword-swingers; they are skilled combatants, combining strength of arm, knowledge of weaponry, and practiced maneuvers to slice or bludgeon their foes into little red bits. Warriors are the most versatile of the combat classes, and they supplement their fighting prowess with the ability to rally their allies and spur them to victory. They charge into the heart of the battle and survive the most grievous of wounds. Elven and dwarven warriors reach into their blood for innate magic, creating spellbreakers and mountain kings, respectively, while tauren and orcs lean naturally towards using a single large weapon and the Arms path, creating chieftains and blademasters, respectively.<br>Warriors are common in dwarf, forsaken, human, and orc societies, but many other species also fill their ranks with warriors. Masters of swords, spears, and weapons of all kinds, warriors share a common way of life on Azeroth. Using their abilities to deal pain and cause bloodshed, warriors are deadly adversaries and welcome friends in violent times (which seem to be all the time in recent decades). Anyone willing to take up arms to defend their people can be classed as a warrior. A knight is the warrior elite among humans."
+                  "Content": {
+                     "1": "As long as war is waged on Azeroth, there will be men and women who fight those wars. Warriors are no mere sword-swingers; they are skilled combatants, combining strength of arm, knowledge of weaponry, and practiced maneuvers to slice or bludgeon their foes into little red bits. Warriors are the most versatile of the combat classes, and they supplement their fighting prowess with the ability  to rally their allies and spur them to victory. They charge into the heart of the battle and survive the most grievous of wounds. Elven and dwarven warriors reach into their blood for innate magic, creating spellbreakers and mountain kings, respectively, while tauren and orcs lean naturally towards using a single large weapon and the Arms path, creating chieftains and blademasters, respectively.",
+                     "2": "Warriors are common in dwarf, forsaken, human, and orc societies, but many other species also fill their ranks with warriors. Masters of swords, spears, and weapons of all kinds, warriors share a common way of life on Azeroth. Using their abilities to deal pain and cause bloodshed, warriors are deadly adversaries and welcome friends in violent times (which seem to be all the time in recent decades). Anyone willing to take up arms to defend their people can be classed as a warrior. A knight is the warrior elite among humans."
+                  }
                },
                "2": {
                   "Title": "Elite Fighters",
-                  "Content": "Not every member of the city watch, village militia, or the queen‘s army is a warrior. Most of these troops are relatively untrained soldiers with only the most basic combat knowledge or drilled for a certain function. Veteran soldiers, military officers, trained bodyguards, dedicated knights, and similar figures are true warriors—it is all about the spirit, in truth.<br>Some warriors feel drawn to use their training as adventurers. The dungeon delving, monster slaying, and other dangerous work common among adventurers is second nature for a warrior, not all that different from the life he or she left behind. Other warriors live a more stable life, serving as elite members in an order or military force, answering assignments and missions that involve armed pacification of resistance or the escort of vulnerable charges."
+                  "Content": {
+                     "1": "Not every member of the city watch, village militia, or the queen‘s army is a warrior. Most of these troops are relatively untrained soldiers with only the most basic combat knowledge or drilled for a certain function. Veteran soldiers, military officers, trained bodyguards, dedicated knights, and similar figures are true warriors—it is all about the spirit, in truth.",
+                     "2": "Some warriors feel drawn to use their training as adventurers. The dungeon delving, monster slaying, and other dangerous work common among adventurers is second nature for a warrior, not all that different from the life he or she left behind. Other warriors live a more stable life, serving as elite members in an order or military force, answering assignments and missions that involve armed pacification of resistance or the escort of vulnerable charges."
+                  }
                },
                "3": {
                   "Title": "Creating a Warrior",
-                  "Content": "For as long as war has raged, heroes from every race have aimed to master the art of battle.<br> Warriors combine strength, leadership, and a vast knowledge of arms and armor to wreak havoc in glorious combat. Some protect from the front lines with shields, locking down enemies while allies support the warrior from behind with spell and bow. Others forgo the shield and unleash their rage at the closest threat with a variety of deadly weapons.<br>As you build your warrior, think about your character‘s background: Where did you get your combat training, and what sets you apart from the mundane soldiers around you? You might have enjoyed formal training in a noble‘s army or in a local militia. Perhaps you trained in a war academy, learning strategy, tactics, and military history. Or you might be self—taught—unpolished but well tested.<br>Were you particularly ruthless? Did you get extra help from a mentor, or did your spirit shine brightly enough to warrant the title due to exceptional dedication? What drove you to this training in the first place? Was it a threat to your homeland, a thirst for revenge, or a need to prove yourself? Did you take up the sword as a way to escape the limits of life on a farm, or are you following a proud family tradition? Where did you acquire your weapons and armor? They might have been military issue or family heirlooms, or perhaps you scrimped and saved for years to buy them. Your armaments are now among your most important possessions—the only things that stand between you and death's embrace."
+                  "Content": {
+                     "1": "For as long as war has raged, heroes from every race have aimed to master the art of battle. Warriors combine strength, leadership, and a vast knowledge of arms and armor to wreak havoc in glorious combat. Some protect from the front lines with shields, locking down enemies while allies support the warrior from behind with spell and bow. Others forgo the shield and unleash their rage at the closest threat with a variety of deadly weapons.",
+                     "2": "As you build your warrior, think about your character‘s background: Where did you get your combat training, and what sets you apart from the mundane soldiers around you? You might have enjoyed formal training in a noble‘s army or in a local militia. Perhaps you trained in a war academy, learning strategy, tactics, and military history. Or you might be self—taught—unpolished but well tested.",
+                     "3": "Were you particularly ruthless? Did you get extra help from a mentor, or did your spirit shine brightly enough to warrant the title due to exceptional dedication? What drove you to this training in the first place? Was it a threat to your homeland, a thirst for revenge, or a need to prove yourself? Did you take up the sword as a way to escape the limits of life on a farm, or are you following a proud family tradition? Where did you acquire your weapons and armor? They might have been military issue or family heirlooms, or perhaps you scrimped and saved for years to buy them. Your armaments are now among your most important possessions—the only things that stand between you and death's embrace."
+                  }
                }
             },
             "QuickBuild": "You can make a warrior quickly by following these suggestions. First, make Strength or Agility your highest ability score, depending on whether you want to focus on melee weapons or on archery (or finesse weapons). Your next-highest score should be Stamina. Second, choose the soldier background.",
@@ -589,6 +678,20 @@
                },
                "2": {
                   "Value": "You are always counted as if you are inured to your own potions. If you could already roll twice on miscibility, you can roll three times instead."
+               }
+            }
+         },
+         "AncientPower": {
+            "Label": "Ancient Power",
+            "Description": {
+               "1": {
+                  "Value": "Starting at 2nd level, you may rapidly recover your mana by invoking ancient powers. You can use your action and bonus action on your turn to regain mana as if completed a short rest (or rested for one hour)."
+               },
+               "2": {
+                  "Value": "You can use this feature a number of times equal to half your proficiency bonus. You regain expended uses when you finish a long rest. While using this feature, natural energies suffuse you, imposing disadvantage on attack rolls made against you, and granting you advantage to saving throws until the start of your turn in the next round."
+               },
+               "3": {
+                  "Value": "Alternatively, if you use this during a short rest or when you are below one-quarter your maximum mana point pool, you are treated as if you rested for two hours instead of one. This is atop the mana you regain for the normal rest."
                }
             }
          },
@@ -685,6 +788,14 @@
                }
             }
          },
+         "Archdruid": {
+            "Label": "Archdruid",
+            "Description": {
+               "1": {
+                  "Value": "You can use your Wild Shape an unlimited number of times. Additionally, you can ignore the verbal and somatic components of your druid spells, as well as any material components that lack a cost and aren‘t consumed by a spell. You gain this benefit in both your normal shape and your various Wild Shapes."
+               }
+            }
+         },
          "ArmyOfTheDead": {
             "Label": "Army of the Dead",
             "Description": {
@@ -696,6 +807,20 @@
                },
                "3": {
                   "Value": "Furthermore, if you do not have the required number of corpses (the required material focus) for animating undead, you use corpses from any place so long as you are within 1 mile of a graveyard, mass grave, battlefield, or any location with sufficient number of corpses so long as they are not on hallowed ground. The earth must be loose enough for the zombies to dig their way out. The temporary undead you create from casting conjure undead require the corpses to be within 30 feet, however."
+               }
+            }
+         },
+         "BalanceOfSunAndMoon": {
+            "Label": "Balance of Sun and Moon",
+            "Description": {
+               "1": {
+                  "Value": "You may expend one Eclipse point when casting a spell that deals arcane or holy damage to apply one of the following effects:"
+               },
+               "2": {
+                  "Options": {
+                     "1": "Deal 2d6 extra points of damage of that type atop the normal bonus.",
+                     "2": "Cast the wrath cantrip as a bonus action. On a successful hit with the cantrip, you regain the Eclipse point."
+                  }
                }
             }
          },
@@ -732,6 +857,14 @@
                }
             }
          },
+         "BeastSpells": {
+            "Label": "Beast Spells",
+            "Description": {
+               "1": {
+                  "Value": "You can cast many of your druid spells in any shape you assume using Wild Shape. You can perform the somatic and verbal components of a druid spell while in a beast shape, but you aren‘t able to provide material components."
+               }
+            }
+         },
          "Biohazard": {
             "Label": "Biohazard",
             "Description": {
@@ -746,6 +879,26 @@
                      "1": "You have a maximum of 8 poison doses instead of 4, and you regain 2 doses when you complete a short rest.",
                      "2": "The poison DC is increased by 2.",
                      "3": "Gaining acquired immunity to poisons or diseases requires only one-quarter the normal time. See the Poisoner‘s Kit for the ability to gain immunities against diseases or poisons."
+                  }
+               }
+            }
+         },
+         "BlessedBeast": {
+            "Label": "Blessed Beast",
+            "Description": {
+               "1": {
+                  "Value": "You may gain a special ability when in wild shape. Choose any category of wild shape (land, sea, air, or plant), and you may assign one of the following abilities to all creatures in that category when wild shaping into them, but only when in that form. Upon reaching 15th level, you may choose another option."
+               },
+               "2": {
+                  "Options": {
+                     "1": "<i>Defending beast</i>: Whenever you start your turn while in wild shape, you gain 5 temporary hit points. Furthermore, you can, as a reaction, gain resistance to one damage type of your choice. This remains for one minute, and cannot be used again until you complete a short rest.",
+                     "2": "<i>Furious beast</i>: You gain the Berserker Rage talent.",
+                     "3": "<i>Holy beast</i>: You gain the priest‘s Channel Divinity as a holy priest, but only to Turn Undead. Your effective priest level for this ability is equal to half your druid level. Fiends are also turned by this ability, but cannot be destroyed as undead. You cannot increase the number of uses of the Channel Divinity effect (regardless of effective priest level).",
+                     "4": "<i>Inspiring beast</i>: You gain the bard‘s Inspiration ability. Your effective bard level for this ability is equal to half your druid level.",
+                     "5": "<i>Magical beast</i>: You may choose any four spells from your druid spell list and cast them in while in wild shape. This does not require somatic or verbal components, but you must have chosen to merge any material components with you when you chose to wild shape. If taken again, this ability adds four other spells. Upon gaining the Beast Spells feature of 18th level, you may cast all your druid spells without somatic or verbal components, as this ability details. You may choose up four spells per use of this ability, and use their material components while wild shaped.",
+                     "6": "<i>Prowling beast</i>: Whenever you and an ally both threaten a creature, your ally gains advantage to attack rolls against it, and you deal 1d6 extra points of damage to it.",
+                     "7": "<i>Persistent beast</i>: Whenever you are in a wild shape, you have advantage to Stamina saving throws to maintain a concentration spell. Furthermore, if you lose concentration on a spell by taking damage while in wild shape, you regain half the mana spent on the spell. This does not count as a normal mana restorative effect.",
+                     "8": "<i>Raking beast</i>: You gain the rogue‘s Sneak Attack ability as a 1st level rogue. If chosen again, your effective rogue level for this ability is equal to half your druid level."
                   }
                }
             }
@@ -981,6 +1134,33 @@
                }
             }
          },
+         "DruidCircle": {
+            "Label": "Druid Circle",
+            "Description": {
+               "1": {
+                  "Value": "You choose to identify with a circle of druids: the Circle of the Balance to preserve the order of nature, the Circle of the Feral Beast to act within nature‘s order, or the Circle of Restoration to keep and preserve living things, all detailed at the end of the class description. Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level."
+               }
+            }
+         },
+         "Druidic": {
+            "Label": "Druidic",
+            "Description": {
+               "1": {
+                  "Value": "You know druidic, the secret language of druids, fey, and spirits of the wild. You can speak the language and use it to leave hidden messages. You and others who know this language automatically spot such a message. Others spot the message‘s presence with a successful DC 15 Spirit (Perception) check but can‘t decipher it without magic. If you can speak druidic, you can communicate one-way with all other druids and fey creatures, even if you don‘t otherwise share a language. Natural beasts understand simple commands in druidic."
+               }
+            }
+         },
+         "EclipsePool": {
+            "Label": "Eclipse Pool",
+            "Description": {
+               "1": {
+                  "Value": "Whenever you successfully deal arcane or holy damage to an enemy through a Druidic spell or ability, you gain one Eclipse point. You cannot gain more than one per round. This also applies once per spell, not once per target or sigil pulse. Eclipse points are used to empower your abilities."
+               },
+               "2": {
+                  "Value": "For every Eclipse point you have, you may deal an additional 1 point of arcane or holy damage per dice of the spell, if the spells or abilities deals arcane or holy damage. You may have a maximum number of eclipse points equal to 2 plus your Proficiency bonus, and they remain for one hour after being acquired."
+               }
+            }
+         },
          "EfficientAlchemy": {
             "Label": "Efficient Alchemy",
             "Description": {
@@ -1091,6 +1271,14 @@
                },
                "2": {
                   "Value": "Also, whenever you are in the area of concussive damage or the blast radius of an explosion, you can ‘ride the blast‘ and move up to one-half your speed away from the center of the blast, even if you otherwise took no damage from it (such as by using the Evasion ability). This can propel you upward if the explosion takes place under you. This distance is added to the distance the explosion already moves you (if possible)."
+               }
+            }
+         },
+         "ExtendedGrowth": {
+            "Label": "Extended Growth",
+            "Description": {
+               "1": {
+                  "Value": "The maximum duration of healing sigil druid spells for you is doubled, and you gain advantage to the roll to maintain druid sigil spells."
                }
             }
          },
@@ -1251,6 +1439,17 @@
                }
             }
          },
+         "FortitudeOfTheWilds": {
+            "Label": "Fortitude of the Wilds",
+            "Description": {
+               "1": {
+                  "Value": "You gain the ability to use Wild Shape on your turn as a bonus action or a reaction, rather than as an action."
+               },
+               "2": {
+                  "Value": "Additionally, while you are transformed by Wild Shape, you can use a bonus action to expend one spell to regain 1d8 hit points per level of the spell expended."
+               }
+            }
+         },
          "FrostPresence": {
             "Label": "Frost Presence",
             "Description": {
@@ -1264,6 +1463,25 @@
             "Description": {
                "1": {
                   "Value": "Whenever you reduce a creature to 0 hit points from a cold spell, or if they under the effects of your Freeze channel divinity, your next Runic Strike within 1 hour has no mana cost. You may also choose to deal half of your Runic Strike‘s extra damage as cold damage. If you choose to do so, you may add half the bonus to damage from your Frost Presence ability. If you are under the effects of the avatar form death knight spell, your next two Runic Strikes within 1 hour have no mana cost."
+               }
+            }
+         },
+         "FuryOfTheWilds": {
+            "Label": "Fury of the Wilds",
+            "Description": {
+               "1": {
+                  "Value": "When determining your maximum allowable CR to transform to, you divide your level by three, and not eight (round down), referring to the below table."
+               }
+            }
+         },
+         "GrandBeast": {
+            "Label": "Grand Beast",
+            "Description": {
+               "1": {
+                  "Value": "Your weapon attacks while in wild shape deal an additional die of damage, and your bonus to attack and damage rolls from your Primal Strike feature improves to +2."
+               },
+               "2": {
+                  "Value": "Also, if you start your turn while under a wild shape, you gain 5 temporary hit points. These do not stack."
                }
             }
          },
@@ -1324,6 +1542,14 @@
                }
             }
          },
+         "HealingLore": {
+            "Label": "Healing Lore",
+            "Description": {
+               "1": {
+                  "Value": "You may alter the target of a druid sigil spell effect as a bonus action. This requires a successful attack against the new target, and you must be within the range of them to cast the spell normally. The spell‘s effects take place at the new target‘s turn as usual."
+               }
+            }
+         },
          "Hellscream": {
             "Label": "Hellscream",
             "Description": {
@@ -1340,6 +1566,14 @@
             "Description": {
                "1": {
                   "Value": "You are so suffused with the might of the Lich King that all your melee weapon strikes carry his unholy power with them. Whenever you hit a creature with a melee weapon, the creature takes an extra 1d8 shadow damage. If you also use your Runic Strike with an attack, you add this damage to the extra damage of your Runic Strike."
+               }
+            }
+         },
+         "ImprovedSeedOfLife": {
+            "Label": "Improved Seed of Life",
+            "Description": {
+               "1": {
+                  "Value": "You may imbue up to six seeds of life at once, and can imbue a single target with up to two seeds. You can also use an action to see up to a distance of 5 ft. from a creature affected by your Seed of Life, so long as the ability wasn‘t discharged yet. You have no use of your normal senses while you are perceiving this way."
                }
             }
          },
@@ -1443,6 +1677,14 @@
                }
             }
          },
+         "Ironbark": {
+            "Label": "Ironbark",
+            "Description": {
+               "1": {
+                  "Value": "Whenever you heal a creature (including yourself), you may imbue their skin with the resilience of nature. If you do, they gain resistance to all non-magical weapon damage for 1 minute, or gain a number of temporary hit points equal to your level. A given creature can benefit only once every 24 hours."
+               }
+            }
+         },
          "KnackForIt": {
             "Label": "Knack for It",
             "Description": {
@@ -1500,6 +1742,17 @@
             "Description": {
                "1": {
                   "Value": "Your frost-sharpened weapons deals a critical hit on a roll of 19 or 20 as a strike effect. You also deal an additional 1d4 points of cold damage whenever you strike an enemy with this. You may also add the extra damage from your Frost Presence ability to this. Despite being a strike effect, you can make an off-hand attack with a Bonus Action and still maintain this strike effect."
+               }
+            }
+         },
+         "Moonkin": {
+            "Label": "Moonkin",
+            "Description": {
+               "1": {
+                  "Value": "You may always transform into a wildkin when wild shaping. Furthermore, when transformed to a wildkin, you may still cast druidic spells of the Transmutation and Evocation schools. You can perform the somatic and verbal components of druid spells of the Transmutation and Evocation schools while in a beast shape, but you aren‘t able to provide material components. Furthermore, you gain three Eclipse points when you enter this form."
+               },
+               "2": {
+                  "Value": "When in this form or while under the effects of the avatar form spell, such spells cost 1 mana less than normal. Once you gain the Beast Spells druid feature of 18th level, you can cast spells as normal, but you still benefit from the mana cost reduction for those specific spell schools."
                }
             }
          },
@@ -1589,6 +1842,14 @@
             "Description": {
                "1": {
                   "Value": "You spend half the required Crafting Points for the Coolness under Fire, Works as Intended, and Shutdown abilities."
+               }
+            }
+         },
+         "PrimalStrike": {
+            "Label": "Primal Strike",
+            "Description": {
+               "1": {
+                  "Value": "Your attacks in beast form count as magical for the purpose of overcoming resistance and immunity to non-magical attacks and damage. You also gain a +1 bonus to your attack and damage rolls."
                }
             }
          },
@@ -1684,6 +1945,23 @@
                }
             }
          },
+         "SeedOfLife": {
+            "Label": "Seed of Life",
+            "Description": {
+               "1": {
+                  "Value": "you may touch any creature as an action, and store any spell from the druid spell list into them, which remains latent until you discharge it with a mental command. If the spell‘s casting time is more than 1 action, you must also spend the casting time in contact with the target, as well as any required components. So long as the seed remains active, you gain a general and vague sense of the well-being of the creature and their physical and mental health, and you may use a reaction at any point to discharge the spell (in reaction to sudden pain or mental distress), although the spell does not specify the particulars of the triggering event."
+               },
+               "2": {
+                  "Value": "If you choose the Lesser Restoration or Greater Restoration spells (or similar effects), the spell can also notify you when the target is affected by a condition the spell would heal or remove (such as death if imbuing revivify)."
+               },
+               "3": {
+                  "Value": "The seed remains active for up 24 hours, after which it fades. You may also discharge this spell only if the target is within 5 miles of you. If you and the target are within similar terrain and there are live plants within 30 feet of both of you (such as being in the same forest or desert), you can discharge the spell at any range so long as the natural terrain is unbroken. You can place up to three seeds per day, and a creature can only benefit from one at any given time."
+               },
+               "4": {
+                  "Value": "This feature has no effect on constructs unless they are plant-based or made of wood."
+               }
+            }
+         },
          "ShelterOfTheFaithful": {
             "Label": "Shelter of the Faithful",
             "Description": {
@@ -1692,6 +1970,17 @@
                },
                "2": {
                   "Value": "You might also have ties to a specific temple dedicated to your chosen deity or pantheon, and you have a residence there. This could be the temple where you used to serve, if you remain on good terms with it, or a temple where you have found a new home. While near your temple, you can call upon the priests for assistance, provided the assistance you ask for is not hazardous and you remain in good standing with your temple."
+               }
+            }
+         },
+         "ShootingStar": {
+            "Label": "Shooting Star",
+            "Description": {
+               "1": {
+                  "Value": "You may reroll the damage roll for any druid spell you cast by expending an Eclipse Point. If the dice‘s roll is the maximum possible result (6 on d6, 4 on d4, etc.), you may roll again and add that damage to the total."
+               },
+               "2": {
+                  "Value": "Also, while under the effects of the avatar form spell, whenever you spend an Eclipse point, roll a 1d4. On a roll of a 4, it is not spent."
                }
             }
          },
@@ -1767,6 +2056,51 @@
                }
             }
          },
+         "SpellcastingDruid": {
+            "Label": "Spellcasting",
+            "Description": {
+               "1": {
+                  "Value": "Drawing on the divine essence of nature itself, you can cast spells to shape that essence to your will."
+               },
+               "2": {
+                  "Title": "Cantrips",
+                  "Value": "At 1st level, you know a number of cantrips equal to your proficiency bonus."
+               },
+               "3": {
+                  "Title": "Conjuring and Binding",
+                  "Value": "A druid can conjure and bind aberrations, beasts, elementals, fey, oozes, and plants."
+               },
+               "4": {
+                  "Title": "Preparing and Casting Spells",
+                  "Value": "Each druid level provides you with 1 caster level in the druid class. You follow the normal progression to unlock spell levels (see the table under the Mana section)."
+               },
+               "5": {
+                  "Value": "You prepare the list of druid spells that are available for you to cast, choosing from the druid spell list. You can also change your list of prepared spells when you finish a long rest by meditating in nature and consulting your druidic idol (treat as a spellbook). Preparing a new list of druid spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list."
+               },
+               "6": {
+                  "Title": "Ritual Casting",
+                  "Value": "You can cast a druid spell as a ritual if that spell has the ritual tag and you have the spell in your idol. You don't need to have the spell prepared."
+               },
+               "7": {
+                  "Title": "Spellcasting Ability",
+                  "Value": "Spirit is your spellcasting ability for your druid spells, since your magic draws upon your devotion and attunement to nature. You use your Spirit whenever a spell refers to your spellcasting ability. In addition, you use your Spirit modifier when setting the saving throw DC for a druid spell you cast and when making an attack roll with one."
+               },
+               "8": {
+                  "Value": "<strong>Spell save DC</strong> = 8 + your proficiency bonus + your Spirit modifier<br><strong>Spell attack modifier</strong> = your proficiency bonus + your Spirit modifier"
+               },
+               "9": {
+                  "Title": "Spellbook - Idol",
+                  "Value": "At 1st level, your idol contains six 1st-level druid spells of your choice. When you level up, you gain 2 additional druid spells of your choice. You may also acquire new spells by research, tutelage, or from the spellbooks and scrolls of spellcasters who have spells you can cast."
+               },
+               "10": {
+                  "Value": "Your idol is effectively your spellbook, and you may add spells by meditating with it and inhaling herbal vapors."
+               },
+               "11": {
+                  "Title": "Spellcasting Focus",
+                  "Value": "You can use a druidic idol as a spellcasting focus for your druid spells."
+               }
+            }
+         },
          "StrikeTheWound": {
             "Label": "Strike the Wound",
             "Description": {
@@ -1839,6 +2173,14 @@
                },
                "2": {
                   "Value": "You can possess an indefinite number of synthesized potions, but create only one every 24 hours."
+               }
+            }
+         },
+         "Timeless": {
+            "Label": "Timeless",
+            "Description": {
+               "1": {
+                  "Value": "The primal magic that you wield causes you to age more slowly. For every 10 actual years you live, your body ages one year only."
                }
             }
          },
@@ -1958,6 +2300,42 @@
                }
             }
          },
+         "WildShape": {
+            "Label": "Wild Shape",
+            "Description": {
+               "1": {
+                  "Value": "Starting at 2nd level, you may choose a land-bound beast to morph into as an action. You can use this feature twice before requiring a short or long rest. The creature selected can be any beast that cannot fly or swim naturally, such as a wolf, lion, bear, tiger, etc. You remain in this form a number of hours equal to half your druid level (round down)."
+               },
+               "2": {
+                  "Value": "You then revert to your normal form unless you expend another use of this feature. You can revert to your normal form earlier by using a bonus action on your turn. You automatically revert if you fall unconscious (unless if sleeping by your own volition, such as by resting or the slumber spell), drop to 0 hit points, or die."
+               },
+               "3": {
+                  "Value": "While you are transformed, the following rules apply:"
+               },
+               "4": {
+                  "Options": {
+                     "1": "Your game statistics are replaced by the statistics of the beast, but you retain your alignment, personality, and Intelligence, Spirit, and Charisma scores. You also retain all of your skill and saving throw proficiencies, in addition to gaining those of the creature.",
+                     "2": "If the creature has the same proficiency as you and the bonus in its stat block is higher than yours, use the creature‘s bonus instead of yours. If the creature has any legendary or lair actions, you can't use them.",
+                     "3": "When you transform, you assume the beast‘s hit points and Hit Dice. When you revert to your normal form, you retain the percentage of hit points your wild shape form ended with, but this cannot reduce your hit points by more than one-quarter your hit point total (for instance, wild shaping to a creature at full hit points and ending the spell at 0 hit points reduces your current hit points by one-quarter). If the spell ended from your hit points being reduced to 0 or below, you revert back automatically, and reduce your current hit points by one-quarter as described.",
+                     "4": "You can‘t cast spells unless those noted by other abilities, and your ability to speak or take any action that requires hands is limited to the capabilities of your beast form. Transforming doesn‘t break your concentration on a spell you‘ve already cast, however, or prevent you from taking actions that are part of a spell (such as call lightning) that you‘ve already cast.",
+                     "5": "You retain the benefit of any features from your class, race, or other source and can use them if the new form is physically capable of doing so. However, you can‘t use any of your special senses, such as darkvision, unless your new form also has that sense.",
+                     "6": "You choose whether your equipment falls to the ground in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the DM decides whether it is practical for the new form to wear a piece of equipment, based on the creature‘s shape and size. Your equipment doesn‘t change size or shape to match the new form, and any equipment that the new form can‘t wear must either fall to the ground or merge with it. Equipment that merges with the form has no effect until you leave the form."
+                  }
+               },
+               "5": {
+                  "Value": "Starting at 4th level, you may choose a creature with natural swimming capabilities and underwater breathing, such as a sea lion, a seal, a fish, a shark, etc."
+               },
+               "6": {
+                  "Value": "At 8th level, you may choose a creature with natural flying capabilities (such as giant eagles, dragonhawks, storm-crows, or vultures) to the list of creatures you can transform to."
+               },
+               "7": {
+                  "Value": "At 12th level, you may take the form of a tree or plant creature, and add minor ancients to the list of creatures you can transform to."
+               },
+               "8": {
+                  "Value": "The chosen creature forms are equal to your Spirit modifier from each category (land, water, air, and plant), and the suite cannot be changed later except when leveling up (in which case you may choose a new suite of creatures for each category). Creatures you may transform to have a maximum CR of your hit dice divided by 8 (¼ at level 2, ½ at level 4, 1 at level 8, and 2 at level 16)."
+               }
+            }
+         },
          "WillOfTheNecropolis": {
             "Label": "Will of the Necropolis",
             "Description": {
@@ -1974,6 +2352,20 @@
                },
                "2": {
                   "Value": "In both cases, this does not require you being familiar with the device."
+               }
+            }
+         },
+         "WorldInBalance": {
+            "Label": "World in Balance",
+            "Description": {
+               "1": {
+                  "Value": "You can command the world to hear your call, and call a solar or lunar eclipse (depending on the time). Once this ability is used, it cannot be used again until after a long rest."
+               },
+               "2": {
+                  "Value": "<i>Solar Eclipse (Day only)</i>: The sun‘s light is covered by a shadow which blankets the earth in a 5-mile radius centered on the druid for one hour. The area becomes dim light or normal light (your choice), and creatures sensitive to sunlight do not take penalties from sunlight. All your druid spells that deal arcane damage do so as if your Eclipse pool was full. You also gain one Eclipse Point per minute."
+               },
+               "3": {
+                  "Value": "<i>Lunar Eclipse (Night only)</i>: The moon‘s light is bright and cloaked in the shadow which blankets the earth in a 5-mile radius centered on the druid for one hour. The area becomes either dim or normal light (your choice), and creatures sensitive to moonlight or sunlight take penalties (depending on your wish) when in the area. All your druid spells that deal holy damage do so as if your Eclipse pool is full. You also gain one Eclipse Point per minute."
                }
             }
          }

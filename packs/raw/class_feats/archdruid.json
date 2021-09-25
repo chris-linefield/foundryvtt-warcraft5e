@@ -1,0 +1,26 @@
+{
+   "_id": "Xr27k8bUvG9sFIen",
+   "name": "Archdruid",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 58",
+      "requirements": "Druid 20"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.Archdruid.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/nature/root-vines-face-glow-green.webp",
+   "effects": [
+   ]
+}

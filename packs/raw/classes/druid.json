@@ -1,0 +1,544 @@
+{
+   "_id": "CscqHMKibC0EfLTA",
+   "name": "Druid",
+   "type": "class",
+   "img": "modules/warcraft5e/res/pics/classes/druid.jpg",
+   "data": {
+      "description": {
+         "value": "WC5E.Class.Druid.Description"
+      },
+      "source": "",
+      "levels": 1,
+      "subclass": "",
+      "hitDice": "d8",
+      "hitDiceUsed": 0,
+      "saves": [
+         "cha",
+         "con"
+      ],
+      "skills": {
+         "number": 2,
+         "choices": [
+            "arc",
+            "ani",
+            "ins",
+            "med",
+            "nat",
+            "prc",
+            "rel",
+            "sur"
+         ],
+         "value": [
+         ]
+      },
+      "spellcasting": {
+         "progression": "none",
+         "ability": ""
+      },
+      "damage": {
+         "parts": [
+         ]
+      }
+   },
+   "effects": [
+   ],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+      "default": 0
+   },
+   "flags": {
+      "wc5e": {
+         "type": "class",
+         "artwork": {
+            "1": {
+               "src": "modules/warcraft5e/res/pics/classes/druid_artwork.jpg",
+               "url": "https://www.artstation.com/artwork/PyGO8",
+               "credit": "Ivan Sevic"
+            },
+            "2": {
+               "src": "modules/warcraft5e/res/pics/classes/druid_artwork2.jpg",
+               "url": "https://www.artstation.com/artwork/r3WO2",
+               "credit": "Steven Shan"
+            }
+         },
+         "introduction": [
+            "WC5E.Class.Druid.Introduction.1",
+            "WC5E.Class.Druid.Introduction.2",
+            "WC5E.Class.Druid.Introduction.3"
+         ],
+         "blocks": [
+            {
+               "title": "WC5E.Class.Druid.Blocks.1.Title",
+               "content": [
+                  "WC5E.Class.Druid.Blocks.1.Content.1",
+                  "WC5E.Class.Druid.Blocks.1.Content.2"
+               ]
+            },
+            {
+               "title": "WC5E.Class.Druid.Blocks.2.Title",
+               "content": [
+                  "WC5E.Class.Druid.Blocks.2.Content.1",
+                  "WC5E.Class.Druid.Blocks.2.Content.2"
+               ]
+            },
+            {
+               "title": "WC5E.Class.Druid.Blocks.3.Title",
+               "content": [
+                  "WC5E.Class.Druid.Blocks.3.Content.1",
+                  "WC5E.Class.Druid.Blocks.3.Content.2",
+                  "WC5E.Class.Druid.Blocks.3.Content.3",
+                  "WC5E.Class.Druid.Blocks.3.Content.4"
+               ]
+            }
+         ],
+         "quickBuild": "WC5E.Class.Druid.QuickBuild",
+         "hitPoints1st": "8",
+         "hitPointsHalfed": "5",
+         "weaponProfs": [],
+         "specificWeaponProfs": [
+            "clubs",
+            "daggers",
+            "darts",
+            "javelins",
+            "maces",
+            "quarterstaffs",
+            "sickles",
+            "slings",
+            "spears"
+         ],
+         "armorProfs": [
+            "lgt"
+         ],
+         "toolProfs": [
+            "her"
+         ],
+         "equipment": [
+            [
+               "a quarterstaff",
+               "TODO: any simple weapon?"
+            ],
+            [
+               "5 javelins",
+               "a sling and 10 bullets"
+            ],
+            [
+               "Leather armor, an explorer's pack and a druidic focus"
+            ]
+         ],
+         "specialCol": null,
+         "isCaster": true,
+         "progression": [
+            {
+               "level": "1",
+               "proficiency": "2",
+               "caster": "1 (1st)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "Ziu7O84V9qADpM66",
+                     "label": "WC5E.Feats.Druidic.Label"
+                  },
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "4hovzz0VURJ5XEsr",
+                     "label": "WC5E.Feats.SpellcastingDruid.Label"
+                  }
+               ]
+            },
+            {
+               "level": "2",
+               "proficiency": "2",
+               "caster": "2 (1st)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "A9PJKH1vVY2ncT05",
+                     "label": "WC5E.Feats.DruidCircle.Label"
+                  },
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "kjoU8GlVSo0jmqcf",
+                     "label": "WC5E.Feats.WildShape.Label"
+                  },
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "wA1qRvzQnSQVL7pH",
+                     "label": "WC5E.Feats.AncientPower.Label"
+                  }
+               ]
+            },
+            {
+               "level": "3",
+               "proficiency": "2",
+               "caster": "3 (2nd)",
+               "feats": []
+            },
+            {
+               "level": "4",
+               "proficiency": "2",
+               "caster": "4 (2nd)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "pZ0s66jTVdto9Z3b",
+                     "label": "WC5E.Feats.AbilityScoreImprovement.Label"
+                  },
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "kjoU8GlVSo0jmqcf",
+                     "label": "WC5E.Feats.WildShape.Label",
+                     "option": "Water"
+                  }
+               ]
+            },
+            {
+               "level": "5",
+               "proficiency": "3",
+               "caster": "5 (3rd)",
+               "feats": []
+            },
+            {
+               "level": "6",
+               "proficiency": "3",
+               "caster": "6 (3rd)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "A9PJKH1vVY2ncT05",
+                     "label": "WC5E.Feats.DruidCircle.Label"
+                  }
+               ]
+            },
+            {
+               "level": "7",
+               "proficiency": "3",
+               "caster": "7 (4th)",
+               "feats": []
+            },
+            {
+               "level": "8",
+               "proficiency": "3",
+               "caster": "8 (4th)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "pZ0s66jTVdto9Z3b",
+                     "label": "WC5E.Feats.AbilityScoreImprovement.Label"
+                  },
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "kjoU8GlVSo0jmqcf",
+                     "label": "WC5E.Feats.WildShape.Label",
+                     "option": "Air"
+                  }
+               ]
+            },
+            {
+               "level": "9",
+               "proficiency": "4",
+               "caster": "9 (5th)",
+               "feats": []
+            },
+            {
+               "level": "10",
+               "proficiency": "4",
+               "caster": "10 (5th)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "A9PJKH1vVY2ncT05",
+                     "label": "WC5E.Feats.DruidCircle.Label"
+                  }
+               ]
+            },
+            {
+               "level": "11",
+               "proficiency": "4",
+               "caster": "11 (6th)",
+               "feats": []
+            },
+            {
+               "level": "12",
+               "proficiency": "4",
+               "caster": "12 (6th)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "pZ0s66jTVdto9Z3b",
+                     "label": "WC5E.Feats.AbilityScoreImprovement.Label"
+                  },
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "kjoU8GlVSo0jmqcf",
+                     "label": "WC5E.Feats.WildShape.Label",
+                     "option": "Plant"
+                  }
+               ]
+            },
+            {
+               "level": "13",
+               "proficiency": "5",
+               "caster": "13 (7th)",
+               "feats": []
+            },
+            {
+               "level": "14",
+               "proficiency": "5",
+               "caster": "14 (7th)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "A9PJKH1vVY2ncT05",
+                     "label": "WC5E.Feats.DruidCircle.Label"
+                  }
+               ]
+            },
+            {
+               "level": "15",
+               "proficiency": "5",
+               "caster": "15 (8th)",
+               "feats": []
+            },
+            {
+               "level": "16",
+               "proficiency": "5",
+               "caster": "16 (8th)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "pZ0s66jTVdto9Z3b",
+                     "label": "WC5E.Feats.AbilityScoreImprovement.Label"
+                  }
+               ]
+            },
+            {
+               "level": "17",
+               "proficiency": "6",
+               "caster": "17 (9th)",
+               "feats": []
+            },
+            {
+               "level": "18",
+               "proficiency": "6",
+               "caster": "18 (9th)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "7gQHqIqq8eGCQUCp",
+                     "label": "WC5E.Feats.Timeless.Label"
+                  },
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "vEDMiIDSdkCEMA6P",
+                     "label": "WC5E.Feats.BeastSpells.Label"
+                  }
+               ]
+            },
+            {
+               "level": "19",
+               "proficiency": "6",
+               "caster": "19 (9th)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "pZ0s66jTVdto9Z3b",
+                     "label": "WC5E.Feats.AbilityScoreImprovement.Label"
+                  }
+               ]
+            },
+            {
+               "level": "20",
+               "proficiency": "6",
+               "caster": "20 (9th)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "Xr27k8bUvG9sFIen",
+                     "label": "WC5E.Feats.Archdruid.Label"
+                  }
+               ]
+            }
+         ],
+         "archetypes": [
+            {
+               "title": "WC5E.Class.Druid.Paths.CircleOfBalance.Title",
+               "description": "WC5E.Class.Druid.Paths.CircleOfBalance.Description",
+               "featList": [
+                  {
+                     "level": "2",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "HvLHardWnT1aWNXH",
+                           "label": "WC5E.Feats.EclipsePool.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "uUhsDBHjU8kzWtjX",
+                           "label": "WC5E.Feats.BalanceOfSunAndMoon.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "6",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "4nCcbhDi1IkkAnyp",
+                           "label": "WC5E.Feats.Moonkin.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "10",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "TN4aZNPDe4sIha7D",
+                           "label": "WC5E.Feats.ShootingStar.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "14",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "b4mQ0wGwseHIR4cy",
+                           "label": "WC5E.Feats.WorldInBalance.Label"
+                        }
+                     ]
+                  }
+               ],
+               "spellList": [
+                  {
+                     "level": "3",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "oppMIXl9H5bf8yTl",
+                           "label": "WC5E.Spells.ConjureUndead.Label"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "title": "WC5E.Class.Druid.Paths.CircleOfFeralBeast.Title",
+               "description": "WC5E.Class.Druid.Paths.CircleOfFeralBeast.Description",
+               "featList": [
+                  {
+                     "level": "2",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "t5d4RlaFNNH1cgVp",
+                           "label": "WC5E.Feats.FortitudeOfTheWilds.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "QeLx7sfAv0rKhNw3",
+                           "label": "WC5E.Feats.FuryOfTheWilds.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "6",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "Y4wUUUHZXuFxABPE",
+                           "label": "WC5E.Feats.PrimalStrike.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "10",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "tvWxpr00gdnPLz00",
+                           "label": "WC5E.Feats.BlessedBeast.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "14",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "YA8uHltnzfmjjPg7",
+                           "label": "WC5E.Feats.GrandBeast.Label"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "title": "WC5E.Class.Druid.Paths.CircleOfRestoration.Title",
+               "description": "WC5E.Class.Druid.Paths.CircleOfRestoration.Description",
+               "featList": [
+                  {
+                     "level": "2",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "XtoEYQ7OzazMiS1f",
+                           "label": "WC5E.Feats.HealingLore.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "wA1qRvzQnSQVL7pH",
+                           "label": "WC5E.Feats.ExtendedGrowth.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "6",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "olgFPYXiUsMVuI7X",
+                           "label": "WC5E.Feats.SeedOfLife.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "10",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "mgm5EHvSvDqgfha8",
+                           "label": "WC5E.Feats.Ironbark.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "14",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "LmEbySgScEe1RNe6",
+                           "label": "WC5E.Feats.ImprovedSeedOfLife.Label"
+                        }
+                     ]
+                  }
+               ],
+               "spellList": [
+                  {
+                     "level": "3",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "oppMIXl9H5bf8yTl",
+                           "label": "WC5E.Spells.ConjureUndead.Label"
+                        }
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+   }
+}

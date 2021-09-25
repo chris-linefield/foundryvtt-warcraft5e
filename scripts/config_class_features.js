@@ -15,7 +15,7 @@ ClassFeatures.alchemist = {
    "subclasses": {
      "apothecary": {
        "label": "Apothecary",
-       "source": "PHB page 39",
+       "source": "Core Rules page 39",
        "features": {
          "3": [
              "Compendium.warcraft5e.wc5e_class_feats.cBp6ymcqcqWtsitG",
@@ -28,7 +28,7 @@ ClassFeatures.alchemist = {
      },
      "mutant": {
        "label": "Mutant",
-       "source": "PHB page 40",
+       "source": "Core Rules page 40",
        "features": {
          "3": [
              "Compendium.warcraft5e.wc5e_class_feats.z6qfh7iXuCGYMuUU",
@@ -41,7 +41,7 @@ ClassFeatures.alchemist = {
      },
      "transmutor": {
        "label": "Transmutor",
-       "source": "PHB page 41",
+       "source": "Core Rules page 41",
        "features": {
          "3": [
              "Compendium.warcraft5e.wc5e_class_feats.MoxAQW3bvLjyYxiy",
@@ -82,11 +82,94 @@ ClassFeatures.alchemist = {
    }
 }
 
+
+ClassFeatures.deathKnight = {
+   "subclasses": {
+     "pathOfBlood": {
+       "label": "Path of Blood",
+       "source": "Core Rules page 49",
+       "features": {
+         "3": [
+             "Compendium.warcraft5e.wc5e_class_feats.KmQj5Z2i2ySPayr2",
+             "Compendium.warcraft5e.wc5e_class_feats.Z9iWKy2PWb1BcRjX"
+         ],
+         "7": ["Compendium.warcraft5e.wc5e_class_feats.CiZ585lnHkf65RfV"],
+         "15": ["Compendium.warcraft5e.wc5e_class_feats.LHW4zbujvC2oEhOW"],
+         "20": ["Compendium.warcraft5e.wc5e_class_feats.ylCYqr2H3rJvhFKg"]
+       }
+     },
+     "pathOfFrost": {
+       "label": "Path of Frost",
+       "source": "Core Rules page 50",
+       "features": {
+         "3": [
+             "Compendium.warcraft5e.wc5e_class_feats.Hi2IlXyd4nETYjOq",
+             "Compendium.warcraft5e.wc5e_class_feats.IarrLRT7ApLy0MUm"
+         ],
+         "7": ["Compendium.warcraft5e.wc5e_class_feats.e4c2uz9zUybfrlqQ"],
+         "15": ["Compendium.warcraft5e.wc5e_class_feats.IIGYjkWIQKZvTLUR"],
+         "20": ["Compendium.warcraft5e.wc5e_class_feats.F29VxMHzB3H8VYIb"]
+       }
+     },
+     "unholyPath": {
+       "label": "Unholy Path",
+       "source": "Core Rules page 51",
+       "features": {
+         "3": [
+             "Compendium.warcraft5e.wc5e_class_feats.f2YutuIvE9ZtLlZE",
+             "Compendium.warcraft5e.wc5e_class_feats.yotHQiKWUtqYZnR5"
+         ],
+         "7": ["Compendium.warcraft5e.wc5e_class_feats.cmsQRLMNBJ1YFw2U"],
+         "15": ["Compendium.warcraft5e.wc5e_class_feats.algn5NhMHmPK8bJz"],
+         "20": ["Compendium.warcraft5e.wc5e_class_feats.bwj4xvl22wCaZIEi"]
+       }
+     }
+   },
+   "features": {
+     "1": [
+         "Compendium.warcraft5e.class_feats.E7MNYi17oWxoYV7d",
+         "Compendium.warcraft5e.class_feats.bI7xI3VrGU6QkwCC"
+     ],
+     "2": [
+         "Compendium.warcraft5e.class_feats.4VEbwGDxIo1A9qjp",
+         "Compendium.warcraft5e.class_feats.NpZmvg15FbFQ2Xvv",
+         "Compendium.warcraft5e.class_feats.CqVsG5nYaVsdhqHQ"
+     ],
+     "3": [
+         "Compendium.warcraft5e.class_feats.ZpQY3CIhekCWLAOM",
+         "Compendium.warcraft5e.class_feats.aghWTXJ444CYeUKm"
+     ],
+     "4": ["Compendium.warcraft5e.class_feats.pZ0s66jTVdto9Z3b"],
+     "5": ["Compendium.warcraft5e.class_feats.RHCM1SEVR8YGj71w"],
+     "6": [
+         "Compendium.warcraft5e.class_feats.ZpQY3CIhekCWLAOM",
+         "Compendium.warcraft5e.class_feats.wW0gIF7xTQ1e6mEj"
+     ],
+     "7": ["Compendium.warcraft5e.class_feats.aghWTXJ444CYeUKm"],
+     "8": ["Compendium.warcraft5e.class_feats.pZ0s66jTVdto9Z3b"],
+     "10": ["Compendium.warcraft5e.class_feats.ZpQY3CIhekCWLAOM"],
+     "11": ["Compendium.warcraft5e.class_feats.VyrQcDbkD5DZxKMb"],
+     "12": ["Compendium.warcraft5e.class_feats.pZ0s66jTVdto9Z3b"],
+     "14": [
+         "Compendium.warcraft5e.class_feats.ZpQY3CIhekCWLAOM",
+         "Compendium.warcraft5e.class_feats.a9vilfbnrwSIp1tw"
+     ],
+     "15": ["Compendium.warcraft5e.class_feats.aghWTXJ444CYeUKm"],
+     "16": ["Compendium.warcraft5e.class_feats.pZ0s66jTVdto9Z3b"],
+     "18": [
+         "Compendium.warcraft5e.class_feats.ZpQY3CIhekCWLAOM",
+         "Compendium.warcraft5e.class_feats.Zvcv0PFMFbeIL4BA"
+     ],
+     "19": ["Compendium.warcraft5e.class_feats.pZ0s66jTVdto9Z3b"],
+     "20": ["Compendium.warcraft5e.class_feats.aghWTXJ444CYeUKm"]
+   }
+}
+
 ClassFeatures.tinker = {
    "subclasses": {
      "bomber": {
        "label": "Bomber",
-       "source": "PHB page 146",
+       "source": "Core Rules page 146",
        "features": {
          "3": ["Compendium.warcraft5e.wc5e_class_feats.IHkdG7wrZ62CpvtN"],
          "6": ["Compendium.warcraft5e.wc5e_class_feats.YaZ6QGI1PROtCSFC"],
@@ -96,7 +179,7 @@ ClassFeatures.tinker = {
      },
      "gunner": {
        "label": "Gunner",
-       "source": "PHB page 147",
+       "source": "Core Rules page 147",
        "features": {
          "3": ["Compendium.warcraft5e.wc5e_class_feats.F9WjNpgB8SgAmZJr"],
          "6": ["Compendium.warcraft5e.wc5e_class_feats.nJQ8RrxdQEV7ehjd"],
@@ -106,7 +189,7 @@ ClassFeatures.tinker = {
      },
      "gadgeteer": {
        "label": "Gadgeteer",
-       "source": "PHB page 147",
+       "source": "Core Rules page 147",
        "features": {
          "3": ["Compendium.warcraft5e.wc5e_class_feats.weVaL0aKagU09Ox3"],
          "6": ["Compendium.warcraft5e.wc5e_class_feats.HfkNtAfjkgE37g5B"],
@@ -157,7 +240,7 @@ ClassFeatures.warrior = {
    "subclasses": {
      "arms": {
        "label": "Warrior of Arms",
-       "source": "PHB page 146",
+       "source": "Core Rules page 146",
        "features": {
          "3": [
              "Compendium.warcraft5e.wc5e_class_feats.jZZ3jr0aiZLwdcxv",
@@ -171,7 +254,7 @@ ClassFeatures.warrior = {
      },
      "fury": {
        "label": "Warrior of Fury",
-       "source": "PHB page 147",
+       "source": "Core Rules page 147",
        "features": {
          "3": ["Compendium.warcraft5e.wc5e_class_feats.na8IZmJwynNkz1iL"],
          "7": ["Compendium.warcraft5e.wc5e_class_feats.tOcK4KygovPeQIqG"],
@@ -182,7 +265,7 @@ ClassFeatures.warrior = {
      },
      "protection": {
        "label": "Warrior of Protection",
-       "source": "PHB page 147",
+       "source": "Core Rules page 147",
        "features": {
          "3": ["Compendium.warcraft5e.wc5e_class_feats.s0BmwIiZaHlfijhF"],
          "7": ["Compendium.warcraft5e.wc5e_class_feats.B8vZWezYjs9O5uIg"],

@@ -1,0 +1,106 @@
+{
+   "_id": "QeLx7sfAv0rKhNw3",
+   "name": "Fury of the Wilds",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 60",
+      "requirements": "Druid (Feral) 2"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.FortitudeOfTheWilds.Description.1.Value"
+            },
+            {
+               "table": {
+                  "head": [
+                     [
+                        {
+                           "title": "Druid Level"
+                        },
+                        {
+                           "title": "Maximum CR"
+                        }
+                     ]
+                  ],
+                  "rows": [
+                     [
+                        {
+                           "value": 2
+                        },
+                        {
+                           "text": "1/2"
+                        }
+                     ],
+                     [
+                        {
+                           "value": 4
+                        },
+                        {
+                           "value": 1
+                        }
+                     ],
+                     [
+                        {
+                           "value": 6
+                        },
+                        {
+                           "value": 2
+                        }
+                     ],
+                     [
+                        {
+                           "value": 9
+                        },
+                        {
+                           "value": 3
+                        }
+                     ],
+                     [
+                        {
+                           "value": 12
+                        },
+                        {
+                           "value": 4
+                        }
+                     ],
+                     [
+                        {
+                           "value": 12
+                        },
+                        {
+                           "value": 4
+                        }
+                     ],
+                     [
+                        {
+                           "value": 15
+                        },
+                        {
+                           "value": 5
+                        }
+                     ],
+                     [
+                        {
+                           "value": 18
+                        },
+                        {
+                           "value": 6
+                        }
+                     ]
+                  ]
+               }
+            }
+         ]
+      }
+   },
+   "img": "icons/creatures/abilities/cougar-roar-rush-orange.webp",
+   "effects": [
+   ]
+}

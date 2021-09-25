@@ -1,0 +1,32 @@
+{
+   "_id": "uUhsDBHjU8kzWtjX",
+   "name": "Balance of Sun and Moon",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 59",
+      "requirements": "Druid (Balance) 2"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.BalanceOfSunAndMoon.Description.1.Value"
+            },
+            {
+               "options": [
+                  "WC5E.Feats.BalanceOfSunAndMoon.Description.2.Options.1",
+                  "WC5E.Feats.BalanceOfSunAndMoon.Description.2.Options.2"
+               ]
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/nature/moon-crescent.webp",
+   "effects": [
+   ]
+}

@@ -1,0 +1,63 @@
+{
+   "_id": "4hovzz0VURJ5XEsr",
+   "name": "Spellcasting (Druid)",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 46",
+      "requirements": "Druid 1"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.SpellcastingDruid.Description.1.Value"
+            },
+            {
+               "title": "WC5E.Feats.SpellcastingDruid.Description.2.Title",
+               "value": "WC5E.Feats.SpellcastingDruid.Description.2.Value"
+            },
+            {
+               "title": "WC5E.Feats.SpellcastingDruid.Description.3.Title",
+               "value": "WC5E.Feats.SpellcastingDruid.Description.3.Value"
+            },
+            {
+               "title": "WC5E.Feats.SpellcastingDruid.Description.4.Title",
+               "value": "WC5E.Feats.SpellcastingDruid.Description.4.Value"
+            },
+            {
+               "value": "WC5E.Feats.SpellcastingDruid.Description.5.Value"
+            },
+            {
+               "title": "WC5E.Feats.SpellcastingDruid.Description.6.Title",
+               "value": "WC5E.Feats.SpellcastingDruid.Description.6.Value"
+            },
+            {
+               "title": "WC5E.Feats.SpellcastingDruid.Description.7.Title",
+               "value": "WC5E.Feats.SpellcastingDruid.Description.7.Value"
+            },
+            {
+               "value": "WC5E.Feats.SpellcastingDruid.Description.8.Value"
+            },
+            {
+               "title": "WC5E.Feats.SpellcastingDruid.Description.9.Title",
+               "value": "WC5E.Feats.SpellcastingDruid.Description.9.Value"
+            },
+            {
+               "value": "WC5E.Feats.SpellcastingDruid.Description.10.Value"
+            },
+            {
+               "title": "WC5E.Feats.SpellcastingDruid.Description.11.Title",
+               "value": "WC5E.Feats.SpellcastingDruid.Description.11.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/nature/leaf-hand-green.webp",
+   "effects": [
+   ]
+}

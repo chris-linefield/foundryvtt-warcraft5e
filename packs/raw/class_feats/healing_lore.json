@@ -1,0 +1,26 @@
+{
+   "_id": "XtoEYQ7OzazMiS1f",
+   "name": "Healing Lore",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 61",
+      "requirements": "Druid (Restoration) 2"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.HealingLore.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/nature/plant-undersea-seaweed-glow-green.webp",
+   "effects": [
+   ]
+}
