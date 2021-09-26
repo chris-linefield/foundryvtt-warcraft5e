@@ -1,0 +1,120 @@
+{
+   "_id": "RiFIhq2ZmrxcJ9X7",
+   "name": "Defining Event",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Player's Handbook",
+      "requirements": "Folk Hero"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.DefiningEvent.Description.1.Value"
+            },
+            {
+               "table": {
+                  "head": [
+                     {
+                        "title": "d10"
+                     },
+                     {
+                        "title": "WC5E.Feats.DefiningEvent.Label"
+                     }
+                  ],
+                  "rows": [
+                     [
+                        {
+                           "value": 1
+                        },
+                        {
+                           "text": "WC5E.Feats.DefiningEvent.Description.2.Options.1"
+                        }
+                     ],
+                     [
+                        {
+                           "value": 2
+                        },
+                        {
+                           "text": "WC5E.Feats.DefiningEvent.Description.2.Options.2"
+                        }
+                     ],
+                     [
+                        {
+                           "value": 3
+                        },
+                        {
+                           "text": "WC5E.Feats.DefiningEvent.Description.2.Options.3"
+                        }
+                     ],
+                     [
+                        {
+                           "value": 4
+                        },
+                        {
+                           "text": "WC5E.Feats.DefiningEvent.Description.2.Options.4"
+                        }
+                     ],
+                     [
+                        {
+                           "value": 5
+                        },
+                        {
+                           "text": "WC5E.Feats.DefiningEvent.Description.2.Options.5"
+                        }
+                     ],
+                     [
+                        {
+                           "value": 6
+                        },
+                        {
+                           "text": "WC5E.Feats.DefiningEvent.Description.2.Options.6"
+                        }
+                     ],
+                     [
+                        {
+                           "value": 7
+                        },
+                        {
+                           "text": "WC5E.Feats.DefiningEvent.Description.2.Options.7"
+                        }
+                     ],
+                     [
+                        {
+                           "value": 8
+                        },
+                        {
+                           "text": "WC5E.Feats.DefiningEvent.Description.2.Options.8"
+                        }
+                     ],
+                     [
+                        {
+                           "value": 9
+                        },
+                        {
+                           "text": "WC5E.Feats.DefiningEvent.Description.2.Options.9"
+                        }
+                     ],
+                     [
+                        {
+                           "value": 10
+                        },
+                        {
+                           "text": "WC5E.Feats.DefiningEvent.Description.2.Options.10"
+                        }
+                     ]
+                  ]
+               }
+            }
+         ]
+      }
+   },
+   "img": "icons/tools/navigation/compass-brass-blue-red.webp",
+   "effects": [
+   ]
+}

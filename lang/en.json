@@ -357,6 +357,80 @@
                   }
                }
             }
+         },
+         "FolkHero": {
+            "Description": {
+               "1": "Before stepping onto the world stage, you first saved a lone village near to your heart. A Folk Hero may rise from anywhere he or she is needed; wherever a monster pillages or a child cries out, they‘ll be there.",
+               "2": "Folk heroes arise from exceptional circumstances. Many heroes of Azeroth started as folk heroes, questing to resolve family feuds in Elwynn to bringing closure to widowed orcs of the Barrens."
+            },
+            "Suggestions": {
+               "Description": "A folk hero is one of the common people, for better or for worse. Most folk heroes look on their humble origins as a virtue, not a shortcoming, and their home communities remain very important to them.",
+               "Personality": {
+                  "1": "I judge people by their actions, not their words.",
+                  "2": "If someone is in trouble, I'm always ready to lend help.",
+                  "3": "When I set my mind to something, I follow through no matter what gets in my way.",
+                  "4": "I have a strong sense of fair play and always try to find the most equitable solution to arguments.",
+                  "5": "I'm confident in my own abilities and do what I can to instill confidence in others.",
+                  "6": "Thinking is for other people. I prefer action.",
+                  "7": "I misuse long words in an attempt to sound smarter.",
+                  "8": "I get bored easily. When am I going to get on with my destiny?"
+               },
+               "Ideal": {
+                  "1": {
+                     "Title": "Respect",
+                     "Value": "People deserve to be treated with dignity and respect. (Good)"
+                  },
+                  "2": {
+                     "Title": "Fairness",
+                     "Value": "No one should get preferential treatment before the law, and no one is above the law. (Lawful)"
+                  },
+                  "3": {
+                     "Title": "Freedom",
+                     "Value": "Tyrants must not be allowed to oppress the people. (Chaotic)"
+                  },
+                  "4": {
+                     "Title": "Might",
+                     "Value": "If I become strong, I can take what I want – what I deserve. (Evil)"
+                  },
+                  "5": {
+                     "Title": "Sincerity",
+                     "Value": "There's no good in pretending to be something I'm not. (Neutral)"
+                  },
+                  "6": {
+                     "Title": "Destiny",
+                     "Value": "Nothing and no one can steer me away from my higher calling. (Any)"
+                  }
+               },
+               "Bonds": {
+                  "1": "I have a family, but I have no idea where they are. One day, I hope to see them again.",
+                  "2": "I worked the land, I love the land, and I will protect the land.",
+                  "3": "A proud noble once gave me a horrible beating, and I will take my revenge on any bully I encounter.",
+                  "4": "My tools are symbols of my past life, and I carry them so that I will never forget my roots.",
+                  "5": "I protect those who cannot protect themselves.",
+                  "6": "I wish my childhood sweetheart had come with me to pursue my destiny."
+               },
+               "Flaws": {
+                  "1": "The tyrant who rules my land will stop at nothing to see me killed.",
+                  "2": "I'm convinced of the significance of my destiny, and blind to my shortcomings and the risk of failure.",
+                  "3": "The people who knew me when I was young know my shameful secret, so I can never go home again.",
+                  "4": "I have a weakness for the vices of the city, especially hard drink.",
+                  "5": "Secretly, I believe that things would be better if I were a tyrant lording over the land.",
+                  "6": "I have trouble trusting in my allies."
+               }
+            },
+            "Variants": {
+               "Gladiator": {
+                  "Title": "Gladiator",
+                  "Description": {
+                     "1": {
+                        "Value": "A gladiator is as much an entertainer as any minstrel or circus performer trained to make the arts of combat into a spectacle the crowd can enjoy. This kind of flashy combat is your entertainer routine, though you might also have some skills as a tumbler or actor. Using your By Popular Demand feature, you can find a place to perform in any place that features combat for entertainment-perhaps a gladiatorial arena or secret pit fighting club."
+                     },
+                     "2": {
+                        "Value": "You can replace the musical instrument in your equipment package with an inexpensive but unusual weapon, such as a trident or net."
+                     }
+                  }
+               }
+            }
          }
       },
       "Character": {
@@ -1101,6 +1175,28 @@
                },
                "8": {
                   "Value": "If the creature fails its saving throw, it is turned for 1 minute or until it takes damage. A turned creature must spend its turns trying to move as far away from you as it can, and it can‘t willingly move to a space within 30 feet of you. It also can‘t take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there‘s nowhere to move, the creature can use the Dodge action."
+               }
+            }
+         },
+         "DefiningEvent": {
+            "Label": "Defining Event",
+            "Description": {
+               "1": {
+                  "Value": "You previously pursued a simple profession among the peasantry, perhaps as a farmer, miner, servant, shepherd, woodcutter, or gravedigger. But something happened that set you on a different path and marked you for greater things. Choose or randomly determine a defining event that marked you as a hero of the people."
+               },
+               "2": {
+                  "Options": {
+                     "1": "I stood up to a tyrant's agents.",
+                     "2": "I saved people during a natural disaster.",
+                     "3": "I stood alone against a terrible monster.",
+                     "4": "I stole from a corrupt merchant to help the poor.",
+                     "5": "I led a militia to fight off an invading army.",
+                     "6": "I broke into a tyrant's castle and stole weapons to arm the people.",
+                     "7": "I trained the peasantry to use farm implements as weapons against a tyrant's soldiers.",
+                     "8": "A lord rescinded an unpopular decree after I led a symbolic act of protect against it.",
+                     "9": "A celestial, fey, or similar creature gave me a blessing or revealed my secret origin.",
+                     "10": "Recruited into a lord's army, I rose to leadership and was commended for my heroism."
+                  }
                }
             }
          },
@@ -1918,6 +2014,14 @@
                },
                "3": {
                   "Value": "If you have a rune active, you may also perform a Runic Strike without expending mana (called Runic Release), terminating the effects of the rune (plus an additional effect depending on the seal). Despite the name, Runic Strike does not count as a Strike effect."
+               }
+            }
+         },
+         "RusticHospitality": {
+            "Label": "Rustic Hospitality",
+            "Description": {
+               "1": {
+                  "Value": "Since you come from the ranks of the common folk, you fit in among them with ease. You can find a place to hide, rest, or recuperate among other commoners, unless you have shown yourself to be a danger to them. They will shield you from the law or anyone else searching for you, though they will not risk their lives for you."
                }
             }
          },
