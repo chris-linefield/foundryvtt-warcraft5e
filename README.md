@@ -11,7 +11,7 @@ https://discord.com/channels/410113488204070932/410113488204070934
 ## Version: 0.0.8
 Feature | Description
 ------------ | -------------
-![Classes Preview](http://www.hahn-webdesign.de/warcraft5e/classes_preview.jpg) | Features an overhauled class-sheet with lore and images. Features compendium entries for all classes.<br><br>Progress: <ul><li>[x] Alchemist + Class Feats and Spells</li><li>[x] Death Knight + Class Feats and Spells</li><li>[ ] Druid</li><li>[ ] Hunter</li><li>[ ] Mage</li><li>[ ] Monk</li><li>[ ] Paladin</li><li>[ ] Priest</li><li>[ ] Rogue</li><li>[ ] Shaman</li><li>[x] Tinker + Class Feats</li><li>[ ] Warlock</li><li>[x] Warrior + Class Feats</li></ul>
+![Classes Preview](http://www.hahn-webdesign.de/warcraft5e/classes_preview.jpg) | Features an overhauled class-sheet with lore and images. Features compendium entries for all classes.<br><br>Progress: <ul><li>[x] Alchemist + Class Feats and Spells</li><li>[x] Death Knight + Class Feats and Spells</li><li>[x] Druid + Class Feats and Spells</li><li>[ ] Hunter</li><li>[ ] Mage</li><li>[ ] Monk</li><li>[ ] Paladin</li><li>[ ] Priest</li><li>[ ] Rogue</li><li>[ ] Shaman</li><li>[x] Tinker + Class Feats</li><li>[ ] Warlock</li><li>[x] Warrior + Class Feats</li></ul>
 
 
 Description | Feature
@@ -21,7 +21,7 @@ Features newly implemented race-items with their own sheet with lore and images.
 
 Feature | Description
 ------------ | -------------
-![Backgrounds Preview](http://www.hahn-webdesign.de/warcraft5e/backgrounds_preview.jpg) | Features newly implemented background-items with their own sheet with lore and images. Features compendium entries for all backgrounds.<br><br> Progress:<ul><li>[x] Acolyte + Variants and Feats</li><li>[x] Charlatan + Variants and Feats</li><li>[ ] Criminal</li><li>[ ] Entertainer</li><li>[ ] Folk Hero</li><li>[ ] Guild Artisan</li><li>[ ] Haunted One</li><li>[ ] Hermit</li><li>[ ] Noble</li><li>[ ] Outlander</li><li>[ ] Sage</li><li>[ ] Sailor</li><li>[ ] Soldier</li><li>[ ] Urchin</li></ul>
+![Backgrounds Preview](http://www.hahn-webdesign.de/warcraft5e/backgrounds_preview.jpg) | Features newly implemented background-items with their own sheet with lore and images. Features compendium entries for all backgrounds.<br><br> Progress:<ul><li>[x] Acolyte + Variants and Feats</li><li>[x] Charlatan + Variants and Feats</li><li>[x] Criminal + Class Feats and Spells</li><li>[x] Entertainer + Class Feats and Spells</li><li>[x] Folk Hero + Class Feats and Spells</li><li>[ ] Guild Artisan</li><li>[ ] Haunted One</li><li>[ ] Hermit</li><li>[ ] Noble</li><li>[ ] Outlander</li><li>[ ] Sage</li><li>[ ] Sailor</li><li>[ ] Soldier</li><li>[ ] Urchin</li></ul>
 
 Description | Feature
 ------------ | -------------
