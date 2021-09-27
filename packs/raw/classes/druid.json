@@ -417,8 +417,58 @@
                      "spells": [
                         {
                            "pack": "warcraft5e.wc5e_spells",
-                           "node": "oppMIXl9H5bf8yTl",
-                           "label": "WC5E.Spells.ConjureUndead.Label"
+                           "node": "JPwIEfgUPVebr5AH",
+                           "label": "WC5E.Spells.Barkskin.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "eYaAoh3lsUIKIjTW",
+                           "label": "WC5E.Spells.EntanglingRoots.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "5",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "ehvmg9U9fcMEhE4z",
+                           "label": "WC5E.Spells.CallLightning.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "YWtwzp6ZnQJMEmVW",
+                           "label": "WC5E.Spells.PlantGrowth.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "7",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "vIUrJDLTcOjgXDpV",
+                           "label": "WC5E.Spells.Divination.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "7fkeb8FrhN2DavIM",
+                           "label": "WC5E.Spells.FreedomOfMovement.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "9",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "VUfnY0J9XBiedspC",
+                           "label": "WC5E.Spells.CommuneWithNature.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "8kqL11n7QUlH726s",
+                           "label": "WC5E.Spells.TreeStride.Label"
                         }
                      ]
                   }
@@ -521,18 +571,6 @@
                            "pack": "warcraft5e.wc5e_class_feats",
                            "node": "LmEbySgScEe1RNe6",
                            "label": "WC5E.Feats.ImprovedSeedOfLife.Label"
-                        }
-                     ]
-                  }
-               ],
-               "spellList": [
-                  {
-                     "level": "3",
-                     "spells": [
-                        {
-                           "pack": "warcraft5e.wc5e_spells",
-                           "node": "oppMIXl9H5bf8yTl",
-                           "label": "WC5E.Spells.ConjureUndead.Label"
                         }
                      ]
                   }

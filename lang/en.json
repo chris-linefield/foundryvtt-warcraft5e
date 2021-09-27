@@ -3026,6 +3026,14 @@
                }
             }
          },
+         "Barkskin": {
+            "Label": "Barkskin",
+            "Description": {
+               "1": {
+                  "Value": "You touch a willing creature. Until the spell ends, the target's skin has a rough, bark-like appearance, and the target's AC can't be less than 16, regardless of what kind of armor it is wearing."
+               }
+            }
+         },
          "BerserkerRage": {
             "Label": "Berserker Rage",
             "Description": {
@@ -3159,6 +3167,25 @@
                }
             }
          },
+         "CallLightning": {
+            "Label": "Call Lightning",
+            "Description": {
+               "1": {
+                  "Value": "A storm cloud appears in the shape of a cylinder that is 10 feet tall with a 60-foot radius, centered on a point you can see 100 feet directly above you. The spell fails if you can’t see a point in the air where the storm cloud could appear (for example, if you are in a room that can’t accommodate the cloud)."
+               },
+               "2": {
+                  "Value": "When you cast the spell, choose a point you can see within range. A bolt of lightning flashes down from the cloud to that point. Each creature within 5 feet of that point must make a Dexterity saving throw. A creature takes 3d10 lightning damage on a failed save, or half as much damage on a successful one. On each of your turns until the spell ends, you can use your action to call down lightning in this way again, targeting the same point or a different one."
+               },
+               "3": {
+                  "Value": "If you are outdoors in stormy conditions when you cast this spell, the spell gives you control over the existing storm instead of creating a new one. Under such conditions, the spell’s damage increases by 1d10."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "When you cast this spell using a spell slot of 4th or higher level, the damage increases by 1d10 for each slot level above 3rd."
+               }
+            }
+         },
          "Charm": {
             "Label": "Charm",
             "Description": {
@@ -3183,6 +3210,29 @@
                },
                "2": {
                   "Value": "Additionally, when an affected creature succeeds on a saving throw made against a spell or magical effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throws."
+               }
+            }
+         },
+         "CommuneWithNature": {
+            "Label": "Commune with Nature",
+            "Description": {
+               "1": {
+                  "Value": "You briefly become one with nature and gain knowledge of the surrounding territory. In the outdoors, the spell gives you knowledge of the land within 3 miles of you. In caves and other natural underground settings, the radius is limited to 300 feet. The spell doesn’t function where nature has been replaced by construction, such as in dungeons and towns."
+               },
+               "2": {
+                  "Value": "You instantly gain knowledge of up to three facts of your choice about any of the following subjects as they relate to the area:"
+               },
+               "3": {
+                  "Options": {
+                     "1": "terrain and bodies of water",
+                     "2": "prevalent plants, minerals, animals, or peoples",
+                     "3": "powerful celestials, fey, fiends, elementals, or undead",
+                     "4": "influence from other planes of existence",
+                     "5": "buildings"
+                  }
+               },
+               "4": {
+                  "Value": "For example, you could determine the location of powerful undead in the area, the location of major sources of safe drinking water, and the location of any nearby towns."
                }
             }
          },
@@ -3356,6 +3406,20 @@
                }
             }
          },
+         "Divination": {
+            "Label": "Divination",
+            "Description": {
+               "1": {
+                  "Value": "Your magic and an offering put you in contact with a god or a god's servants. You ask a single question concerning a specific goal, event, or activity to occur within 7 days. The DM offers a truthful reply. The reply might be a short phrase, a cryptic rhyme, or an omen."
+               },
+               "2": {
+                  "Value": "The spell doesn't take into account any possible circumstances that might change the outcome, such as the casting of additional spells or the loss or gain of a companion."
+               },
+               "3": {
+                  "Value": "If you cast the spell two or more times before finishing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get a random reading. The DM makes this roll in secret."
+               }
+            }
+         },
          "EarthShield": {
             "Label": "Earth Shield",
             "Description": {
@@ -3369,6 +3433,22 @@
             "Heightened": {
                "1": {
                   "Value": "For each spell level above 2nd, you gain resistance to another attack taken in the same combat round."
+               }
+            }
+         },
+         "EntanglingRoots": {
+            "Label": "Entangling Roots",
+            "Description": {
+               "1": {
+                  "Value": "By targeting one creature within range, you sprout thorny vines and weeds that constrict on them. The creature must succeed on a Strength saving throw or else be restrained by the entangling weeds so long as you concentrate. While the creature is restrained, they take 1d4 damage every round (the type is either piercing, slashing, or bludgeoning)."
+               },
+               "2": {
+                  "Value": "They may use an action every round to make a Strength check against your DC again. On a success, it frees itself, and the plants wilt away."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "The damage dealt increases by 1d4 per level above 1st and can entangle another creature within 5 feet."
                }
             }
          },
@@ -3466,6 +3546,17 @@
             "Heightened": {
                "1": {
                   "Value": "When you cast this spell using a spell slot of 2nd level or higher, the radius of the fog increases by 20 feet for each slot level above 1st."
+               }
+            }
+         },
+         "FreedomOfMovement": {
+            "Label": "Freedom of Movement",
+            "Description": {
+               "1": {
+                  "Value": "You touch a willing creature. For the Duration, the target’s Movement is unaffected by difficult terrain, and Spells and other magical Effects can neither reduce the target’s speed nor cause the target to be Paralyzed or Restrained."
+               },
+               "2": {
+                  "Value": "The target can also spend 5 feet of Movement to automatically escape from nonmagical restraints, such as Manacles or a creature that has it Grappled. Finally, being Underwater imposes no penalties on the target’s movement or attacks."
                }
             }
          },
@@ -3599,6 +3690,23 @@
             "Label": "TODO: Mute",
             "Description": "Concentration, up to 1 minute You target a creature within range, forcing it to make a Spirit saving throw. If it fails, the target is isolated from all sound, causing it to be silenced and deafened. This prevents it from performing the verbal components of spells, and rendering it immune to Thunder damage and effects of a spell equal to the spell's level or lower.",
             "Heightened": "You may target another creature within 30 feet of the original target for every 2 spell levels above 2nd (2 creatures at level 4, 3 at level 6, and 4 at level 8)."
+         },
+         "PlantGrowth": {
+            "Label": "Plant Growth",
+            "Description": {
+               "1": {
+                  "Value": "This spell channels vitality into plants within a specific area. There are two possible uses for the spell, granting either immediate or long-term benefits."
+               },
+               "2": {
+                  "Value": "If you cast this spell using 1 action, choose a point within range. All normal plants in a 100-foot radius centered on that point become thick and overgrown. A creature moving through the area must spend 4 feet of movement for every 1 foot it moves."
+               },
+               "3": {
+                  "Value": "You can exclude one or more areas of any size within the spell's area from being affected."
+               },
+               "4": {
+                  "Value": "If you cast this spell over 8 hours, you enrich the land. All plants in a half-mile radius centered on a point within range become enriched for 1 year. The plants yield twice the normal amount of food when harvested."
+               }
+            }
          },
          "Polymorph": {
             "Label": "Polymorph",
@@ -3771,6 +3879,17 @@
                "4": "You create an Instantaneous sound that originates from a point of your choice within range, such as a rumble of thunder, the cry of a raven, or ominous whispers.",
                "5": "You instantaneously cause an unlocked door or window to fly open or slam shut.",
                "6": "You alter the Appearance of your eyes for 1 minute."
+            }
+         },
+         "TreeStride": {
+            "Label": "Tree Stride",
+            "Description": {
+               "1": {
+                  "Value": "You gain the ability to enter a tree and move from inside it to inside another tree of the same kind within 500 feet. Both trees must be living and at least the same size as you. You must use 5 feet of Movement to enter a tree. You instantly know the location of all other trees of the same kind within 500 feet and, as part of the move used to enter the tree, can either pass into one of those trees or step out of the tree you’re in. You appear in a spot of your choice within 5 feet of the destination tree, using another 5 feet of movement. If you have no movement left, you appear within 5 feet of the tree you entered."
+               },
+               "2": {
+                  "Value": "You can use this transportation ability once per round for the Duration. You must end each turn outside a tree."
+               }
             }
          },
          "TrueSeeing": {

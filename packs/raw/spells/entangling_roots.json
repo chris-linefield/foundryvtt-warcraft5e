@@ -1,0 +1,101 @@
+{
+   "_id": "eYaAoh3lsUIKIjTW",
+   "name": "Entangling Roots",
+   "type": "spell",
+   "img": "icons/magic/nature/root-vine-entangled-humanoid.webp",
+   "data": {
+      "source": "",
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": 1,
+         "units": "minute"
+      },
+      "target": {
+         "value": 1,
+         "units": "",
+         "type": "creature"
+      },
+      "range": {
+         "value": null,
+         "long": null,
+         "units": "touch"
+      },
+      "uses": {
+         "value": 0,
+         "max": 0,
+         "per": ""
+      },
+      "consume": {
+         "type": "",
+         "target": "",
+         "amount": null
+      },
+      "ability": "",
+      "actionType": "util",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": null,
+      "damage": {
+         "parts": [],
+         "versatile": "",
+         "value": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "scaling": "spell",
+         "value": ""
+      },
+      "level": 1,
+      "school": "con",
+      "components": {
+         "value": "",
+         "vocal": true,
+         "somatic": true,
+         "material": false,
+         "ritual": false,
+         "concentration": true
+      },
+      "materials": {
+         "value": "",
+         "consumed": false,
+         "cost": 0,
+         "supply": 0
+      },
+      "preparation": {
+         "mode": "prepared",
+         "prepared": false
+      },
+      "scaling": {
+         "mode": "none",
+         "formula": ""
+      }
+   },
+   "effects": [
+   ],
+   "folder": null,
+   "sort": 100001,
+   "permission": {
+      "default": 0
+   },
+   "flags": {
+      "wc5e": {
+         "type": "spell",
+         "description": [
+            {
+               "value": "WC5E.Spells.EntanglingRoots.Description.1.Value"
+            }
+         ],
+         "heightened": [
+            {
+               "value": "WC5E.Spells.EntanglingRoots.Heightened.1.Value"
+            }
+         ]
+      }
+   }
+}
