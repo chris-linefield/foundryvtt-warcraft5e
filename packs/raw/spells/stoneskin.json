@@ -1,91 +1,90 @@
 {
-   "_id":"cQEvImie02ZJ1Mbg",
-   "name":"Stoneskin",
-   "permission":{
-      "default":0
+   "_id": "cQEvImie02ZJ1Mbg",
+   "name": "Stoneskin",
+   "permission": {
+      "default": 0
    },
-   "type":"spell",
-   "data":{
-      "wcType": "spell",
-      "description":{
-         "value":"WC5E.Spells.Stoneskin.Description",
-         "chat":"",
-         "unidentified":""
+   "type": "spell",
+   "data": {
+      "source": "",
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
       },
-      "source":"",
-      "activation":{
-         "type":"action",
-         "cost":1,
-         "condition":""
+      "duration": {
+         "value": 1,
+         "units": "hour"
       },
-      "duration":{
-         "value":1,
-         "units":"hour"
+      "target": {
+         "value": 1,
+         "units": "",
+         "type": "creature"
       },
-      "target":{
-         "value":1,
-         "units":"",
-         "type":"creature"
+      "range": {
+         "value": null,
+         "long": null,
+         "units": "touch"
       },
-      "range":{
-         "value":null,
-         "long":null,
-         "units":"touch"
+      "uses": {
+         "value": 0,
+         "max": 0,
+         "per": ""
       },
-      "uses":{
-         "value":0,
-         "max":0,
-         "per":""
-      },
-      "ability":"",
-      "actionType":"util",
-      "attackBonus":0,
-      "chatFlavor":"",
-      "critical":null,
-      "damage":{
-         "parts":[
-
+      "ability": "",
+      "actionType": "util",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": null,
+      "damage": {
+         "parts": [
          ],
-         "versatile":"",
-         "value":""
+         "versatile": "",
+         "value": ""
       },
-      "formula":"",
-      "save":{
-         "ability":"",
-         "dc":null,
-         "value":""
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "value": ""
       },
-      "level":4,
-      "school":"abj",
-      "components":{
-         "value":"",
-         "vocal":true,
-         "somatic":true,
-         "material":true,
-         "ritual":false,
-         "concentration":true
+      "level": 4,
+      "school": "abj",
+      "components": {
+         "value": "",
+         "vocal": true,
+         "somatic": true,
+         "material": true,
+         "ritual": false,
+         "concentration": true
       },
-      "materials":{
-         "value":"Diamond dust worth 100 gp, which the spell consumes",
-         "consumed":true,
-         "cost":100,
-         "supply":0
+      "materials": {
+         "value": "Diamond dust worth 100 gp, which the spell consumes",
+         "consumed": true,
+         "cost": 100,
+         "supply": 0
       },
-      "preparation":{
-         "mode":"prepared",
-         "prepared":false
+      "preparation": {
+         "mode": "prepared",
+         "prepared": false
       },
-      "scaling":{
-         "mode":"none",
-         "formula":""
+      "scaling": {
+         "mode": "none",
+         "formula": ""
       }
    },
-   "sort":100001,
-   "flags":{
-
+   "sort": 100001,
+   "flags": {
+      "wc5e": {
+         "type": "spell",
+         "description": [
+            {
+               "value": "WC5E.Spells.Stoneskin.Description.1.Value"
+            }
+         ]
+      }
    },
-   "img":"systems/dnd5e/icons/spells/protect-orange-2.jpg",
-   "effects":[
-
+   "img": "systems/dnd5e/icons/spells/protect-orange-2.jpg",
+   "effects": [
    ]
 }

@@ -1,0 +1,26 @@
+{
+   "_id": "Ziu7O84V9qADpM66",
+   "name": "Druidic",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 55",
+      "requirements": "Druid 1"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.Druidic.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/nature/instrument-recorder-leaves.webp",
+   "effects": [
+   ]
+}

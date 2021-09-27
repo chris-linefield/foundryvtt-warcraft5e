@@ -1,92 +1,91 @@
 {
-   "_id":"GjjYaywZukusAabE",
-   "name":"True Seeing",
-   "permission":{
-      "default":0
+   "_id": "GjjYaywZukusAabE",
+   "name": "True Seeing",
+   "permission": {
+      "default": 0
    },
-   "type":"spell",
-   "data":{
-      "wcType": "spell",
-      "description":{
-         "value":"WC5E.Spells.TrueSeeing.Description",
-         "chat":"",
-         "unidentified":""
+   "type": "spell",
+   "data": {
+      "source": "",
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
       },
-      "source":"",
-      "activation":{
-         "type":"action",
-         "cost":1,
-         "condition":""
+      "duration": {
+         "value": 1,
+         "units": "hour"
       },
-      "duration":{
-         "value":1,
-         "units":"hour"
+      "target": {
+         "value": 1,
+         "units": "",
+         "type": "creature"
       },
-      "target":{
-         "value":1,
-         "units":"",
-         "type":"creature"
+      "range": {
+         "value": null,
+         "long": null,
+         "units": "touch"
       },
-      "range":{
-         "value":null,
-         "long":null,
-         "units":"touch"
+      "uses": {
+         "value": 0,
+         "max": 0,
+         "per": ""
       },
-      "uses":{
-         "value":0,
-         "max":0,
-         "per":""
-      },
-      "ability":"",
-      "actionType":"util",
-      "attackBonus":0,
-      "chatFlavor":"",
-      "critical":null,
-      "damage":{
-         "parts":[
-
+      "ability": "",
+      "actionType": "util",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": null,
+      "damage": {
+         "parts": [
          ],
-         "versatile":"",
-         "value":""
+         "versatile": "",
+         "value": ""
       },
-      "formula":"",
-      "save":{
-         "ability":"",
-         "dc":null,
-         "value":"",
-         "scaling":"spell"
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "value": "",
+         "scaling": "spell"
       },
-      "level":6,
-      "school":"div",
-      "components":{
-         "value":"",
-         "vocal":true,
-         "somatic":true,
-         "material":true,
-         "ritual":false,
-         "concentration":false
+      "level": 6,
+      "school": "div",
+      "components": {
+         "value": "",
+         "vocal": true,
+         "somatic": true,
+         "material": true,
+         "ritual": false,
+         "concentration": false
       },
-      "materials":{
-         "value":"An ointment for the eyes that costs 25gp; is made from mushroom powder, saffron, and fat; and is consumed by the spell",
-         "consumed":true,
-         "cost":25,
-         "supply":0
+      "materials": {
+         "value": "An ointment for the eyes that costs 25gp; is made from mushroom powder, saffron, and fat; and is consumed by the spell",
+         "consumed": true,
+         "cost": 25,
+         "supply": 0
       },
-      "preparation":{
-         "mode":"prepared",
-         "prepared":false
+      "preparation": {
+         "mode": "prepared",
+         "prepared": false
       },
-      "scaling":{
-         "mode":"none",
-         "formula":""
+      "scaling": {
+         "mode": "none",
+         "formula": ""
       }
    },
-   "sort":100001,
-   "flags":{
-
+   "sort": 100001,
+   "flags": {
+      "wc5e": {
+         "type": "spell",
+         "description": [
+            {
+               "value": "WC5E.Spells.TrueSeeing.Description.1.Value"
+            }
+         ]
+      }
    },
-   "img":"systems/dnd5e/icons/spells/evil-eye-eerie-3.jpg",
-   "effects":[
-
+   "img": "systems/dnd5e/icons/spells/evil-eye-eerie-3.jpg",
+   "effects": [
    ]
 }

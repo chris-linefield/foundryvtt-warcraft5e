@@ -1,119 +1,118 @@
 {
-   "_id":"rkQUQ8B1sp68Nj49",
-   "name":"Mage Armor",
-   "type":"spell",
-   "img":"systems/dnd5e/icons/spells/protect-blue-1.jpg",
-   "data":{
-      "wcType": "spell",
-      "description":{
-         "value":"WC5E.Spells.MageArmor.Description",
-         "chat":"",
-         "unidentified":""
+   "_id": "rkQUQ8B1sp68Nj49",
+   "name": "Mage Armor",
+   "type": "spell",
+   "img": "systems/dnd5e/icons/spells/protect-blue-1.jpg",
+   "data": {
+      "source": "",
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
       },
-      "source":"PHB pg. 256",
-      "activation":{
-         "type":"action",
-         "cost":1,
-         "condition":""
+      "duration": {
+         "value": 8,
+         "units": "hour"
       },
-      "duration":{
-         "value":8,
-         "units":"hour"
+      "target": {
+         "value": 1,
+         "width": null,
+         "units": "",
+         "type": "creature"
       },
-      "target":{
-         "value":1,
-         "width":null,
-         "units":"",
-         "type":"creature"
+      "range": {
+         "value": null,
+         "long": null,
+         "units": "touch"
       },
-      "range":{
-         "value":null,
-         "long":null,
-         "units":"touch"
+      "uses": {
+         "value": 0,
+         "max": 0,
+         "per": ""
       },
-      "uses":{
-         "value":0,
-         "max":0,
-         "per":""
+      "consume": {
+         "type": "",
+         "target": null,
+         "amount": null
       },
-      "consume":{
-         "type":"",
-         "target":null,
-         "amount":null
-      },
-      "ability":"",
-      "actionType":"util",
-      "attackBonus":0,
-      "chatFlavor":"",
-      "critical":null,
-      "damage":{
-         "parts":[
-
+      "ability": "",
+      "actionType": "util",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": null,
+      "damage": {
+         "parts": [
          ],
-         "versatile":"",
-         "value":""
+         "versatile": "",
+         "value": ""
       },
-      "formula":"",
-      "save":{
-         "ability":"",
-         "dc":null,
-         "scaling":"spell",
-         "value":""
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "scaling": "spell",
+         "value": ""
       },
-      "level":1,
-      "school":"abj",
-      "components":{
-         "value":"",
-         "vocal":true,
-         "somatic":true,
-         "material":true,
-         "ritual":false,
-         "concentration":false
+      "level": 1,
+      "school": "abj",
+      "components": {
+         "value": "",
+         "vocal": true,
+         "somatic": true,
+         "material": true,
+         "ritual": false,
+         "concentration": false
       },
-      "materials":{
-         "value":"A piece of cured leather",
-         "consumed":false,
-         "cost":0,
-         "supply":0
+      "materials": {
+         "value": "A piece of cured leather",
+         "consumed": false,
+         "cost": 0,
+         "supply": 0
       },
-      "preparation":{
-         "mode":"prepared",
-         "prepared":false
+      "preparation": {
+         "mode": "prepared",
+         "prepared": false
       },
-      "scaling":{
-         "mode":"none",
-         "formula":""
+      "scaling": {
+         "mode": "none",
+         "formula": ""
       }
    },
-   "effects":[
+   "effects": [
       {
-         "_id":"cfwMU7LuOJ619Lny",
-         "changes":[
+         "_id": "cfwMU7LuOJ619Lny",
+         "changes": [
             {
-               "key":"data.attributes.ac.calc",
-               "value":"mage",
-               "mode":5
+               "key": "data.attributes.ac.calc",
+               "value": "mage",
+               "mode": 5
             }
          ],
-         "disabled":true,
-         "duration":{
-            "startTime":null
+         "disabled": true,
+         "duration": {
+            "startTime": null
          },
-         "icon":"systems/dnd5e/icons/spells/protect-blue-1.jpg",
-         "label":"Mage Armor",
-         "origin":"Compendium.dnd5e.spells.CKZTpZlxj7hjjo2H",
-         "transfer":true,
-         "flags":{
-
+         "icon": "systems/dnd5e/icons/spells/protect-blue-1.jpg",
+         "label": "Mage Armor",
+         "origin": "Compendium.dnd5e.spells.CKZTpZlxj7hjjo2H",
+         "transfer": true,
+         "flags": {
          }
       }
    ],
-   "folder":null,
-   "sort":100001,
-   "permission":{
-      "default":0
+   "folder": null,
+   "sort": 100001,
+   "permission": {
+      "default": 0
    },
-   "flags":{
-
+   "flags": {
+      "wc5e": {
+         "type": "spell",
+         "description": [
+            {
+               "value": "WC5E.Spells.MageArmor.Description.1.Value"
+            }
+         ]
+      }
    }
 }

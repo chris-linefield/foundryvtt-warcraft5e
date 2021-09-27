@@ -1,88 +1,88 @@
 {
-  "_id":"jMDm1EdS2x19nMjI",
-  "name":"Strangulate",
-  "permission":{
-    "default":0
-  },
-  "type":"spell",
-  "data":{
-    "wcType": "spell",
-    "description":{
-      "value":"WC5E.Spells.Strangulate.Description",
-      "chat":"",
-      "unidentified":""
-    },
-    "source":"PHB page 372",
-    "activation":{
-      "type":"action",
-      "cost":1,
-      "condition":""
-    },
-    "duration":{
-      "value":1,
-      "units":"minute"
-    },
-    "target":{
-      "value":1,
-      "units":"",
-      "type":"creature"
-    },
-    "range":{
-      "value":60,
-      "long":null,
-      "units":"ft"
-    },
-    "uses":{
-      "value":0,
-      "max":0,
-      "per":""
-    },
-    "ability":"",
-    "actionType":"save",
-    "attackBonus":0,
-    "chatFlavor":"",
-    "critical":null,
-    "damage":{
-      "parts":[],
-      "versatile":""
-    },
-    "formula":"",
-    "save":{
-      "ability":"con",
-      "dc":0,
-      "scaling":"spell"
-    },
-    "level":4,
-    "school":"nec",
-    "components":{
-      "value":"",
-      "vocal":true,
-      "somatic":false,
-      "material":false,
-      "ritual":false,
-      "concentration":true
-    },
-    "materials":{
-      "value":"",
-      "consumed":false,
-      "cost":0,
-      "supply":0
-    },
-    "preparation":{
-      "mode":"prepared",
-      "prepared":false
-    },
-    "scaling":{
-      "mode":"level",
-      "formula":"1d6"
-    }
-  },
-  "sort":100001,
-  "flags":{
-
-  },
-  "img":"icons/magic/control/control-influence-puppet.webp",
-  "effects":[
-
-  ]
+   "_id": "jMDm1EdS2x19nMjI",
+   "name": "Strangulate",
+   "permission": {
+      "default": 0
+   },
+   "type": "spell",
+   "data": {
+      "source": "Core Rules page 372",
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": 1,
+         "units": "minute"
+      },
+      "target": {
+         "value": 1,
+         "units": "",
+         "type": "creature"
+      },
+      "range": {
+         "value": 60,
+         "long": null,
+         "units": "ft"
+      },
+      "uses": {
+         "value": 0,
+         "max": 0,
+         "per": ""
+      },
+      "ability": "",
+      "actionType": "save",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": null,
+      "damage": {
+         "parts": [],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "con",
+         "dc": 0,
+         "scaling": "spell"
+      },
+      "level": 4,
+      "school": "nec",
+      "components": {
+         "value": "",
+         "vocal": true,
+         "somatic": false,
+         "material": false,
+         "ritual": false,
+         "concentration": true
+      },
+      "materials": {
+         "value": "",
+         "consumed": false,
+         "cost": 0,
+         "supply": 0
+      },
+      "preparation": {
+         "mode": "prepared",
+         "prepared": false
+      },
+      "scaling": {
+         "mode": "level",
+         "formula": "1d6"
+      }
+   },
+   "sort": 100001,
+   "flags": {
+      "wc5e": {
+         "type": "spell",
+         "description": [
+            {
+               "value": "WC5E.Spells.Strangulate.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/control/control-influence-puppet.webp",
+   "effects": [
+   ]
 }

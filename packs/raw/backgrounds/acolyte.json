@@ -150,9 +150,11 @@
             {
                "title": "WC5E.Backgrounds.Acolyte.Variants.Cultist.Title",
                "description": [
-                  "WC5E.Backgrounds.Acolyte.Variants.Cultist.Description.1",
-                  "WC5E.Backgrounds.Acolyte.Variants.Cultist.Description.2"
+                  {
+                     "value": "WC5E.Backgrounds.Acolyte.Variants.Cultist.Description.1.Value"
+                  }
                ],
+               "changes": "WC5E.Backgrounds.Acolyte.Variants.Cultist.Description.2.Value",
                "skills": {
                   "number": 1,
                   "choices": [
@@ -169,9 +171,11 @@
             {
                "title": "WC5E.Backgrounds.Acolyte.Variants.SisterOfElune.Title",
                "description": [
-                  "WC5E.Backgrounds.Acolyte.Variants.SisterOfElune.Description.1",
-                  "WC5E.Backgrounds.Acolyte.Variants.SisterOfElune.Description.2"
+                  {
+                     "value": "WC5E.Backgrounds.Acolyte.Variants.SisterOfElune.Description.1.Value"
+                  }
                ],
+               "changes": "WC5E.Backgrounds.Acolyte.Variants.SisterOfElune.Description.2.Value",
                "skills": {
                   "number": 1,
                   "choices": [

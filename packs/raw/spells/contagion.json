@@ -1,91 +1,106 @@
 {
-   "_id":"jHijqkawU6deHNR9",
-   "name":"Contagion",
-   "permission":{
-      "default":0
+   "_id": "jHijqkawU6deHNR9",
+   "name": "Contagion",
+   "permission": {
+      "default": 0
    },
-   "type":"spell",
-   "data":{
-      "wcType": "spell",
-      "description":{
-         "value":"WC5E.Spells.Contagion.Description",
-         "chat":"",
-         "unidentified":""
+   "type": "spell",
+   "data": {
+      "source": "",
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
       },
-      "source":"",
-      "activation":{
-         "type":"action",
-         "cost":1,
-         "condition":""
+      "duration": {
+         "value": 7,
+         "units": "day"
       },
-      "duration":{
-         "value":7,
-         "units":"day"
+      "target": {
+         "value": 1,
+         "units": "",
+         "type": "creature"
       },
-      "target":{
-         "value":1,
-         "units":"",
-         "type":"creature"
+      "range": {
+         "value": null,
+         "long": null,
+         "units": "touch"
       },
-      "range":{
-         "value":null,
-         "long":null,
-         "units":"touch"
+      "uses": {
+         "value": 0,
+         "max": 0,
+         "per": ""
       },
-      "uses":{
-         "value":0,
-         "max":0,
-         "per":""
-      },
-      "ability":"",
-      "actionType":"msak",
-      "attackBonus":0,
-      "chatFlavor":"",
-      "critical":null,
-      "damage":{
-         "parts":[
-
+      "ability": "",
+      "actionType": "msak",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": null,
+      "damage": {
+         "parts": [
          ],
-         "versatile":"",
-         "value":""
+         "versatile": "",
+         "value": ""
       },
-      "formula":"",
-      "save":{
-         "ability":"con",
-         "dc":null,
-         "scaling":"spell"
+      "formula": "",
+      "save": {
+         "ability": "con",
+         "dc": null,
+         "scaling": "spell"
       },
-      "level":5,
-      "school":"nec",
-      "components":{
-         "value":"",
-         "vocal":true,
-         "somatic":true,
-         "material":false,
-         "ritual":false,
-         "concentration":false
+      "level": 5,
+      "school": "nec",
+      "components": {
+         "value": "",
+         "vocal": true,
+         "somatic": true,
+         "material": false,
+         "ritual": false,
+         "concentration": false
       },
-      "materials":{
-         "value":"",
-         "consumed":false,
-         "cost":0,
-         "supply":0
+      "materials": {
+         "value": "",
+         "consumed": false,
+         "cost": 0,
+         "supply": 0
       },
-      "preparation":{
-         "mode":"prepared",
-         "prepared":false
+      "preparation": {
+         "mode": "prepared",
+         "prepared": false
       },
-      "scaling":{
-         "mode":"none",
-         "formula":""
+      "scaling": {
+         "mode": "none",
+         "formula": ""
       }
    },
-   "sort":100001,
-   "flags":{
-
+   "sort": 100001,
+   "flags": {
+      "wc5e": {
+         "type": "spell",
+         "description": [
+            {
+               "value": "WC5E.Spells.Contagion.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Spells.Contagion.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Spells.Contagion.Description.3.Value"
+            },
+            {
+               "options": [
+                  "WC5E.Spells.Contagion.Description.4.Options.1",
+                  "WC5E.Spells.Contagion.Description.4.Options.2",
+                  "WC5E.Spells.Contagion.Description.4.Options.3",
+                  "WC5E.Spells.Contagion.Description.4.Options.4",
+                  "WC5E.Spells.Contagion.Description.4.Options.5",
+                  "WC5E.Spells.Contagion.Description.4.Options.6"
+               ]
+            }
+         ]
+      }
    },
-   "img":"systems/dnd5e/icons/spells/rip-magenta-3.jpg",
-   "effects":[
-
+   "img": "systems/dnd5e/icons/spells/rip-magenta-3.jpg",
+   "effects": [
    ]
 }

@@ -38,7 +38,12 @@
                     </div>
                 {{/if}}
                 <h4>{{localize this.title}}</h4>
-                <p>{{{localize this.content}}}</p>
+                <p>
+                {{#each this.content}}
+                    {{{localize this}}}
+                    {{#unless @last}}<br>{{/unless}}
+                {{/each}}
+                </p>
                 <br>
             {{/each}}
         </div>
@@ -79,7 +84,17 @@
                             {{lookup ../config.weaponProficiencies this}}
                         {{/each}}
                         {{#each item.flags.wc5e.specificWeaponProfs}}
-                            {{#if @last}} and {{else}},{{/if}}
+                            {{#if @last}}
+                                and
+                            {{else}}
+                                {{#if ../item.flags.wc5e.weaponProfs}}
+                                    ,
+                                {{else}}
+                                    {{#unless @first}}
+                                        ,
+                                    {{/unless}}
+                                {{/if}}
+                            {{/if}}
                             {{~this}}
                         {{/each}}
                     </td>
@@ -100,7 +115,7 @@
                 <tr>
                     <th class="left">Saving Throws:</th>
                     <td>
-                        {{#each item.flags.wc5e.saves}}
+                        {{#each item.data.saves}}
                             {{#unless @first}}{{#if @last}} and {{else}},{{/if}}{{/unless}}
                             {{lookup ../config.abilities this}}
                         {{/each}}
@@ -109,9 +124,9 @@
                 <tr>
                     <th class="left">Skills:</th>
                     <td>
-                        Choose {{item.flags.wc5e.skills.number}} skills from
+                        Choose {{item.data.skills.number}} skills from
                         {{log config}}
-                        {{#each item.flags.wc5e.skills.choices}}
+                        {{#each item.data.skills.choices}}
                             {{#unless @first}}{{#if @last}} and {{else}},{{/if}}{{/unless}}
                             {{lookup ../config.skills this}}
                         {{/each}}

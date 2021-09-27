@@ -1,92 +1,98 @@
 {
-   "_id":"WveVFwtyLgygXxOW",
-   "name":"Alter Self",
-   "permission":{
-      "default":0
+   "_id": "WveVFwtyLgygXxOW",
+   "name": "Alter Self",
+   "permission": {
+      "default": 0
    },
-   "type":"spell",
-   "data":{
-      "wcType": "spell",
-      "description":{
-         "value":"WC5E.Spells.AlterSelf.Description",
-         "chat":"",
-         "unidentified":""
+   "type": "spell",
+   "data": {
+      "source": "",
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
       },
-      "source":"",
-      "activation":{
-         "type":"action",
-         "cost":1,
-         "condition":""
+      "duration": {
+         "value": 1,
+         "units": "hour"
       },
-      "duration":{
-         "value":1,
-         "units":"hour"
+      "target": {
+         "value": null,
+         "units": null,
+         "type": "self"
       },
-      "target":{
-         "value":null,
-         "units":null,
-         "type":"self"
+      "range": {
+         "value": null,
+         "long": null,
+         "units": "self"
       },
-      "range":{
-         "value":null,
-         "long":null,
-         "units":"self"
+      "uses": {
+         "value": 0,
+         "max": 0,
+         "per": ""
       },
-      "uses":{
-         "value":0,
-         "max":0,
-         "per":""
-      },
-      "ability":"",
-      "actionType":"util",
-      "attackBonus":0,
-      "chatFlavor":"",
-      "critical":null,
-      "damage":{
-         "parts":[
-
+      "ability": "",
+      "actionType": "util",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": null,
+      "damage": {
+         "parts": [
          ],
-         "versatile":"",
-         "value":""
+         "versatile": "",
+         "value": ""
       },
-      "formula":"",
-      "save":{
-         "ability":"",
-         "dc":null,
-         "value":"",
-         "scaling":"spell"
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "value": "",
+         "scaling": "spell"
       },
-      "level":2,
-      "school":"trs",
-      "components":{
-         "value":"",
-         "vocal":true,
-         "somatic":true,
-         "material":false,
-         "ritual":false,
-         "concentration":true
+      "level": 2,
+      "school": "trs",
+      "components": {
+         "value": "",
+         "vocal": true,
+         "somatic": true,
+         "material": false,
+         "ritual": false,
+         "concentration": true
       },
-      "materials":{
-         "value":"",
-         "consumed":false,
-         "cost":0,
-         "supply":0
+      "materials": {
+         "value": "",
+         "consumed": false,
+         "cost": 0,
+         "supply": 0
       },
-      "preparation":{
-         "mode":"prepared",
-         "prepared":false
+      "preparation": {
+         "mode": "prepared",
+         "prepared": false
       },
-      "scaling":{
-         "mode":"none",
-         "formula":""
+      "scaling": {
+         "mode": "none",
+         "formula": ""
       }
    },
-   "sort":100001,
-   "flags":{
-
+   "sort": 100001,
+   "flags": {
+      "wc5e": {
+         "type": "spell",
+         "description": [
+            {
+               "value": "WC5E.Spells.AlterSelf.Description.1.Value"
+            },
+            {
+               "options": [
+                  "WC5E.Spells.AlterSelf.Description.2.Options.1",
+                  "WC5E.Spells.AlterSelf.Description.2.Options.2",
+                  "WC5E.Spells.AlterSelf.Description.2.Options.3"
+               ]
+            }
+         ]
+      }
    },
-   "img":"systems/dnd5e/icons/spells/wind-grasp-acid-2.jpg",
-   "effects":[
-
+   "img": "systems/dnd5e/icons/spells/wind-grasp-acid-2.jpg",
+   "effects": [
    ]
 }

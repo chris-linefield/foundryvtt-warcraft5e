@@ -1,92 +1,94 @@
 {
-   "_id":"3qUdJR4qT1fCxYQi",
-   "name":"Telepathic Bond",
-   "permission":{
-      "default":0
+   "_id": "3qUdJR4qT1fCxYQi",
+   "name": "Telepathic Bond",
+   "permission": {
+      "default": 0
    },
-   "type":"spell",
-   "data":{
-      "wcType": "spell",
-      "description":{
-         "value":"WC5E.Spells.TelepathicBond.Description",
-         "chat":"",
-         "unidentified":""
+   "type": "spell",
+   "data": {
+      "source": "",
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
       },
-      "source":"",
-      "activation":{
-         "type":"action",
-         "cost":1,
-         "condition":""
+      "duration": {
+         "value": 1,
+         "units": "hour"
       },
-      "duration":{
-         "value":1,
-         "units":"hour"
+      "target": {
+         "value": 9,
+         "units": "",
+         "type": "creature"
       },
-      "target":{
-         "value":9,
-         "units":"",
-         "type":"creature"
+      "range": {
+         "value": 30,
+         "long": 0,
+         "units": "ft"
       },
-      "range":{
-         "value":30,
-         "long":0,
-         "units":"ft"
+      "uses": {
+         "value": 0,
+         "max": 0,
+         "per": ""
       },
-      "uses":{
-         "value":0,
-         "max":0,
-         "per":""
-      },
-      "ability":"",
-      "actionType":"util",
-      "attackBonus":0,
-      "chatFlavor":"",
-      "critical":null,
-      "damage":{
-         "parts":[
-
+      "ability": "",
+      "actionType": "util",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": null,
+      "damage": {
+         "parts": [
          ],
-         "versatile":"",
-         "value":""
+         "versatile": "",
+         "value": ""
       },
-      "formula":"",
-      "save":{
-         "ability":"",
-         "dc":null,
-         "value":"",
-         "scaling":"spell"
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "value": "",
+         "scaling": "spell"
       },
-      "level":5,
-      "school":"div",
-      "components":{
-         "value":"",
-         "vocal":true,
-         "somatic":true,
-         "material":true,
-         "ritual":true,
-         "concentration":false
+      "level": 5,
+      "school": "div",
+      "components": {
+         "value": "",
+         "vocal": true,
+         "somatic": true,
+         "material": true,
+         "ritual": true,
+         "concentration": false
       },
-      "materials":{
-         "value":"Pieces of eggshell from two different kinds of creatures",
-         "consumed":false,
-         "cost":0,
-         "supply":0
+      "materials": {
+         "value": "Pieces of eggshell from two different kinds of creatures",
+         "consumed": false,
+         "cost": 0,
+         "supply": 0
       },
-      "preparation":{
-         "mode":"prepared",
-         "prepared":false
+      "preparation": {
+         "mode": "prepared",
+         "prepared": false
       },
-      "scaling":{
-         "mode":"none",
-         "formula":""
+      "scaling": {
+         "mode": "none",
+         "formula": ""
       }
    },
-   "sort":100001,
-   "flags":{
-
+   "sort": 100001,
+   "flags": {
+      "wc5e": {
+         "type": "spell",
+         "description": [
+            {
+               "value": "WC5E.Spells.TelepathicBond.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Spells.TelepathicBond.Description.2.Value"
+            }
+         ]
+      }
    },
-   "img":"systems/dnd5e/icons/spells/link-blue-1.jpg",
-   "effects":[
-
+   "img": "systems/dnd5e/icons/spells/link-blue-1.jpg",
+   "effects": [
    ]
 }

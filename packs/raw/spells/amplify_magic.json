@@ -1,88 +1,91 @@
 {
-  "_id":"51serpYcrS4GkdvY",
-  "name":"Amplify Magic",
-  "permission":{
-    "default":0
-  },
-  "type":"spell",
-  "data":{
-    "wcType": "spell",
-    "description":{
-      "value":"WC5E.Spells.AmplifyMagic.Description",
-      "chat":"",
-      "unidentified":""
-    },
-    "source":"PHB page 320",
-    "activation":{
-      "type":"action",
-      "cost":1,
-      "condition":""
-    },
-    "duration":{
-      "value":1,
-      "units":"minute"
-    },
-    "target":{
-      "value":15,
-      "units":"ft",
-      "type":"sphere"
-    },
-    "range":{
-      "value":60,
-      "long":null,
-      "units":"ft"
-    },
-    "uses":{
-      "value":0,
-      "max":0,
-      "per":""
-    },
-    "ability":"",
-    "actionType":"util",
-    "attackBonus":0,
-    "chatFlavor":"",
-    "critical":null,
-    "damage":{
-      "parts":[],
-      "versatile":""
-    },
-    "formula":"",
-    "save":{
-      "ability":"",
-      "dc":null,
-      "value":""
-    },
-    "level":5,
-    "school":"abj",
-    "components":{
-      "value":"",
-      "vocal":true,
-      "somatic":true,
-      "material":false,
-      "ritual":false,
-      "concentration":true
-    },
-    "materials":{
-      "value":"",
-      "consumed":false,
-      "cost":0,
-      "supply":0
-    },
-    "preparation":{
-      "mode":"prepared",
-      "prepared":false
-    },
-    "scaling":{
-      "mode":"none",
-      "formula":""
-    }
-  },
-  "sort":100001,
-  "flags":{
-
-  },
-  "img":"icons/magic/symbols/symbol-lightning-bolt.webp",
-  "effects":[
-
-  ]
+   "_id": "51serpYcrS4GkdvY",
+   "name": "Amplify Magic",
+   "permission": {
+      "default": 0
+   },
+   "type": "spell",
+   "data": {
+      "source": "Core Rules page 320",
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": 1,
+         "units": "minute"
+      },
+      "target": {
+         "value": 15,
+         "units": "ft",
+         "type": "sphere"
+      },
+      "range": {
+         "value": 60,
+         "long": null,
+         "units": "ft"
+      },
+      "uses": {
+         "value": 0,
+         "max": 0,
+         "per": ""
+      },
+      "ability": "",
+      "actionType": "util",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": null,
+      "damage": {
+         "parts": [],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "value": ""
+      },
+      "level": 5,
+      "school": "abj",
+      "components": {
+         "value": "",
+         "vocal": true,
+         "somatic": true,
+         "material": false,
+         "ritual": false,
+         "concentration": true
+      },
+      "materials": {
+         "value": "",
+         "consumed": false,
+         "cost": 0,
+         "supply": 0
+      },
+      "preparation": {
+         "mode": "prepared",
+         "prepared": false
+      },
+      "scaling": {
+         "mode": "none",
+         "formula": ""
+      }
+   },
+   "sort": 100001,
+   "flags": {
+      "wc5e": {
+         "type": "spell",
+         "description": [
+            {
+               "value": "WC5E.Spells.AmplifyMagic.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Spells.AmplifyMagic.Description.2.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/symbols/symbol-lightning-bolt.webp",
+   "effects": [
+   ]
 }

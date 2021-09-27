@@ -72,9 +72,13 @@
                                 {{#if item.flags.wc5e.equipment}}
                                     {{#each item.flags.wc5e.equipment}}
                                         {{#each this}}
-                                            <a class="entity-link spellLink" data-pack="{{this.pack}}" data-id="{{this.node}}">
-                                                {{this.amount}}x {{localize this.label}}
-                                            </a>
+                                            {{#if this.pack}}
+                                                <a class="entity-link spellLink" data-pack="{{this.pack}}" data-id="{{this.node}}">
+                                                    {{this.amount}}x {{localize this.label}}
+                                                </a>
+                                            {{else}}
+                                                {{localize this.label}}
+                                            {{/if}}
                                             <br>
                                         {{/each}}
                                     {{/each}}
@@ -161,21 +165,55 @@
         </div>
         <div class="tab active" data-group="primary" data-tab="variants">
             {{#each item.flags.wc5e.variants}}
-                <div class="artwork">
-                    <img src="{{this.artwork.src}}">
-                    <a href="{{this.artwork.url}}" target="_blank">&copy;{{this.artwork.credit}}</a>
-                </div>
+                {{#if this.artwork.src}}
+                    <div class="artwork">
+                        <img src="{{this.artwork.src}}">
+                        <a href="{{this.artwork.url}}" target="_blank">&copy;{{this.artwork.credit}}</a>
+                    </div>
+                {{/if}}
                 <h3>{{localize this.title}}</h3>
                 {{#each this.description}}
-                    <p>
-                        {{#if @first~}}
-                            “<i>{{localize this}}</i>
-                        {{else}}
-                            {{localize this}}
-                        {{/if~}}
-                        {{#if @first}}“{{/if}}
-                    </p>
+                    {{#if this.value~}}
+                        <p>
+                            {{#if @first~}}“{{/if}}<i>{{localize this.value}}</i>
+                            {{#if @last~}}“{{/if}}
+                        </p>
+                    {{/if~}}
+                    {{#if this.table~}}
+                        <table>
+                            <tr>
+                                {{#each this.table.head}}
+                                    <th>{{this.title}}</th>
+                                {{/each}}
+                            </tr>
+                            {{#each this.table.rows}}
+                                <tr>
+                                    {{#each this}}
+                                        <td class="center">
+                                            {{#if this.value}}
+                                                {{this.value}}
+                                                {{#if this.unit}}
+                                                    {{localize this.unit}}
+                                                {{/if}}
+                                                {{#if this.sup}}
+                                                    <sup>{{this.sup}}</sup>
+                                                {{/if}}
+                                            {{/if}}
+                                            {{#if this.text}}
+                                                {{localize this.text}}
+                                            {{/if}}
+                                        </td>
+                                    {{/each}}
+                                </tr>
+                            {{/each}}
+                        </table>
+                    {{/if}}
                 {{/each}}
+                {{#if this.changes~}}
+                    <p>
+                        {{localize this.changes}}
+                    </p>
+                {{/if}}
                 <hr class="double full">
             {{/each}}
         </div>

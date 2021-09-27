@@ -1,0 +1,93 @@
+{
+   "_id": "fEcP6mZmC9rDupPy",
+   "name": "Antilife Shell",
+   "permission": {
+      "default": 0
+   },
+   "type": "spell",
+   "data": {
+      "source": "",
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": 1,
+         "units": "hour"
+      },
+      "target": {
+         "value": 10,
+         "units": "ft",
+         "type": "radius"
+      },
+      "range": {
+         "value": null,
+         "long": null,
+         "units": "self"
+      },
+      "uses": {
+         "value": 0,
+         "max": 0,
+         "per": ""
+      },
+      "ability": "",
+      "actionType": "util",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": null,
+      "damage": {
+         "parts": [],
+         "versatile": "",
+         "value": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "value": ""
+      },
+      "level": 5,
+      "school": "abj",
+      "components": {
+         "value": "",
+         "vocal": true,
+         "somatic": true,
+         "material": false,
+         "ritual": false,
+         "concentration": true
+      },
+      "materials": {
+         "value": "",
+         "consumed": false,
+         "cost": 0,
+         "supply": 0
+      },
+      "preparation": {
+         "mode": "prepared",
+         "prepared": false
+      },
+      "scaling": {
+         "mode": "none",
+         "formula": ""
+      }
+   },
+   "sort": 100001,
+   "flags": {
+      "wc5e2": {
+         "description": [
+            {
+               "value": "WC5E.Spells.AntilifeShell.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Spells.AntilifeShell.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Spells.AntilifeShell.Description.3.Value"
+            }
+         ]
+      }
+   },
+   "img": "systems/dnd5e/icons/spells/protect-jade-2.jpg",
+   "effects": []
+}

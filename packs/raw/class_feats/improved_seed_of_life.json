@@ -1,0 +1,26 @@
+{
+   "_id": "LmEbySgScEe1RNe6",
+   "name": "Improved Seed of Life",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 62",
+      "requirements": "Druid (Restoration) 14"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.ImprovedSeedOfLife.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/nature/plant-sproud-hands-dirt-green.webp",
+   "effects": [
+   ]
+}

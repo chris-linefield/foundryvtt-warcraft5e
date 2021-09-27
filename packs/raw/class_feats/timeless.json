@@ -1,0 +1,26 @@
+{
+   "_id": "7gQHqIqq8eGCQUCp",
+   "name": "Timeless",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 58",
+      "requirements": "Druid 18"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.Timeless.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/time/hourglass-brown-orange.webp",
+   "effects": [
+   ]
+}

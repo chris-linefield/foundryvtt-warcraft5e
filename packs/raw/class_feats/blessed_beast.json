@@ -1,0 +1,38 @@
+{
+   "_id": "tvWxpr00gdnPLz00",
+   "name": "Blessed Beast",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 60",
+      "requirements": "Druid (Feral) 10"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.BlessedBeast.Description.1.Value"
+            },
+            {
+               "options": [
+                  "WC5E.Feats.BlessedBeast.Description.2.Options.1",
+                  "WC5E.Feats.BlessedBeast.Description.2.Options.2",
+                  "WC5E.Feats.BlessedBeast.Description.2.Options.3",
+                  "WC5E.Feats.BlessedBeast.Description.2.Options.4",
+                  "WC5E.Feats.BlessedBeast.Description.2.Options.5",
+                  "WC5E.Feats.BlessedBeast.Description.2.Options.6",
+                  "WC5E.Feats.BlessedBeast.Description.2.Options.7",
+                  "WC5E.Feats.BlessedBeast.Description.2.Options.8"
+               ]
+            }
+         ]
+      }
+   },
+   "img": "icons/creatures/abilities/cougar-roar-rush-orange.webp",
+   "effects": [
+   ]
+}

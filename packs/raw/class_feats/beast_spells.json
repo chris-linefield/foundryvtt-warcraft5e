@@ -1,0 +1,26 @@
+{
+   "_id": "vEDMiIDSdkCEMA6P",
+   "name": "Beast Spells",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 58",
+      "requirements": "Druid 18"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.BeastSpells.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/creatures/abilities/paw-glowing-yellow.webp",
+   "effects": [
+   ]
+}

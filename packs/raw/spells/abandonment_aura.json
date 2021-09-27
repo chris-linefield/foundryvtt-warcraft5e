@@ -6,7 +6,7 @@
    },
    "type": "spell",
    "data": {
-      "source": "PHB page 320",
+      "source": "Core Rules page 320",
       "activation": {
          "type": "bonus",
          "cost": 1,

@@ -1,0 +1,26 @@
+{
+   "_id": "Y4wUUUHZXuFxABPE",
+   "name": "Primal Strike",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 60",
+      "requirements": "Druid (Feral) 6"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.PrimalStrike.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/creatures/abilities/paw-glowing-yellow.webp",
+   "effects": [
+   ]
+}

@@ -1,0 +1,103 @@
+{
+   "_id": "9xmPkSs3dyVB3AXl",
+   "name": "Dream",
+   "permission": {
+      "default": 0
+   },
+   "type": "spell",
+   "data": {
+      "source": "",
+      "activation": {
+         "type": "minute",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": 8,
+         "units": "hour"
+      },
+      "target": {
+         "value": 1,
+         "units": "",
+         "type": "creature"
+      },
+      "range": {
+         "value": null,
+         "long": null,
+         "units": "self"
+      },
+      "uses": {
+         "value": 0,
+         "max": 0,
+         "per": ""
+      },
+      "ability": "",
+      "actionType": "save",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": null,
+      "damage": {
+         "parts": [
+            [
+               "3d6",
+               "psychic"
+            ]
+         ],
+         "versatile": "",
+         "value": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "wis",
+         "dc": null,
+         "value": "",
+         "scaling": "spell"
+      },
+      "level": 5,
+      "school": "ill",
+      "components": {
+         "value": "",
+         "vocal": true,
+         "somatic": true,
+         "material": true,
+         "ritual": false,
+         "concentration": false
+      },
+      "materials": {
+         "value": "A handful of sand, a dab of ink, and a writing quill plucked from a sleeping bird",
+         "consumed": false,
+         "cost": 0,
+         "supply": 0
+      },
+      "preparation": {
+         "mode": "prepared",
+         "prepared": false
+      },
+      "scaling": {
+         "mode": "none",
+         "formula": ""
+      }
+   },
+   "sort": 100001,
+   "flags": {
+      "wc5e": {
+         "type": "spell",
+         "description": [
+            {
+               "value": "WC5E.Spells.Dream.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Spells.Dream.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Spells.Dream.Description.3.Value"
+            },
+            {
+               "value": "WC5E.Spells.Dream.Description.4.Value"
+            }
+         ]
+      }
+   },
+   "img": "systems/dnd5e/icons/spells/fog-magenta-3.jpg",
+   "effects": []
+}

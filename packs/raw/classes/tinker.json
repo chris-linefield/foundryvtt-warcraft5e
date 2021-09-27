@@ -74,15 +74,25 @@
          "blocks": [
             {
                "title": "WC5E.Class.Tinker.Blocks.1.Title",
-               "content": "WC5E.Class.Tinker.Blocks.1.Content"
+               "content": [
+                  "WC5E.Class.Tinker.Blocks.1.Content.1",
+                  "WC5E.Class.Tinker.Blocks.1.Content.2",
+                  "WC5E.Class.Tinker.Blocks.1.Content.3"
+               ]
             },
             {
                "title": "WC5E.Class.Tinker.Blocks.2.Title",
-               "content": "WC5E.Class.Tinker.Blocks.2.Content"
+               "content": [
+                  "WC5E.Class.Tinker.Blocks.2.Content.1",
+                  "WC5E.Class.Tinker.Blocks.2.Content.2"
+               ]
             },
             {
                "title": "WC5E.Class.Tinker.Blocks.3.Title",
-               "content": "WC5E.Class.Tinker.Blocks.3.Content"
+               "content": [
+                  "WC5E.Class.Tinker.Blocks.2.Content.1",
+                  "WC5E.Class.Tinker.Blocks.2.Content.2"
+               ]
             }
          ],
          "quickBuild": "WC5E.Class.Tinker.QuickBuild",

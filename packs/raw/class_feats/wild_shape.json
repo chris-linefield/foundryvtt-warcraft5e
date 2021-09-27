@@ -1,0 +1,54 @@
+{
+   "_id": "kjoU8GlVSo0jmqcf",
+   "name": "Wild Shape",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 56",
+      "requirements": "Druid 2"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.WildShape.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.WildShape.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Feats.WildShape.Description.3.Value"
+            },
+            {
+               "options": [
+                  "WC5E.Feats.WildShape.Description.4.Options.1",
+                  "WC5E.Feats.WildShape.Description.4.Options.2",
+                  "WC5E.Feats.WildShape.Description.4.Options.3",
+                  "WC5E.Feats.WildShape.Description.4.Options.4",
+                  "WC5E.Feats.WildShape.Description.4.Options.5",
+                  "WC5E.Feats.WildShape.Description.4.Options.6"
+               ]
+            },
+            {
+               "value": "WC5E.Feats.WildShape.Description.5.Value"
+            },
+            {
+               "value": "WC5E.Feats.WildShape.Description.6.Value"
+            },
+            {
+               "value": "WC5E.Feats.WildShape.Description.7.Value"
+            },
+            {
+               "value": "WC5E.Feats.WildShape.Description.8.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/creatures/abilities/bear-roar-bite-brown.webp",
+   "effects": [
+   ]
+}

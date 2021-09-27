@@ -1,0 +1,29 @@
+{
+   "_id": "t5d4RlaFNNH1cgVp",
+   "name": "Fortitude of the Wilds",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 59",
+      "requirements": "Druid (Feral) 2"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.FortitudeOfTheWilds.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.FortitudeOfTheWilds.Description.2.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/creatures/abilities/bear-roar-bite-brown-green.webp",
+   "effects": [
+   ]
+}

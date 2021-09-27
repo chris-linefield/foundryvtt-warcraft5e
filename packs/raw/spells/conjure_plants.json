@@ -1,0 +1,110 @@
+{
+   "_id": "w2VgmRFblzgsPBf8",
+   "name": "Conjure Plants",
+   "permission": {
+      "default": 0
+   },
+   "type": "spell",
+   "data": {
+      "source": "",
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": 1,
+         "units": "hour"
+      },
+      "target": {
+         "value": 0,
+         "units": "",
+         "type": ""
+      },
+      "range": {
+         "value": 60,
+         "long": null,
+         "units": "ft"
+      },
+      "uses": {
+         "value": 0,
+         "max": 0,
+         "per": ""
+      },
+      "ability": "",
+      "actionType": "save",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": null,
+      "damage": {
+         "parts": [],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "wis",
+         "dc": 0,
+         "scaling": "spell"
+      },
+      "level": 3,
+      "school": "con",
+      "components": {
+         "value": "",
+         "vocal": true,
+         "somatic": true,
+         "material": false,
+         "ritual": false,
+         "concentration": true
+      },
+      "materials": {
+         "value": "",
+         "consumed": false,
+         "cost": 0,
+         "supply": 0
+      },
+      "preparation": {
+         "mode": "prepared",
+         "prepared": false
+      },
+      "scaling": {
+         "mode": "level",
+         "formula": "1d6"
+      }
+   },
+   "sort": 100001,
+   "flags": {
+      "wc5e": {
+         "type": "spell",
+         "description": [
+            {
+               "value": "WC5E.Spells.ConjurePlants.Description.1.Value"
+            },
+            {
+               "options": [
+                  "WC5E.Spells.ConjurePlants.Description.2.Options.1",
+                  "WC5E.Spells.ConjurePlants.Description.2.Options.2",
+                  "WC5E.Spells.ConjurePlants.Description.2.Options.3",
+                  "WC5E.Spells.ConjurePlants.Description.2.Options.4"
+               ]
+            },
+            {
+               "value": "WC5E.Spells.ConjurePlants.Description.3.Value"
+            },
+            {
+               "value": "WC5E.Spells.ConjurePlants.Description.4.Value"
+            },
+            {
+               "value": "WC5E.Spells.ConjurePlants.Description.5.Value"
+            }
+         ],
+         "heightened": [
+            {
+               "value": "WC5E.Spells.ConjurePlants.Heightened.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/nature/plant-venus-flytrap-blood.webp",
+   "effects": [
+   ]
+}

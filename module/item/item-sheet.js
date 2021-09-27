@@ -24,8 +24,8 @@ export class WcItemSheet extends ItemSheet5e {
     }
 
     get template() {
-        let wcType = this.object.data.flags.wc5e.type;
-        if(typeof(wcType) !== 'undefined') {
+        let wcType = (typeof(this.object.data.flags.wc5e) !== 'undefined') ? this.object.data.flags.wc5e.type : null;
+        if(wcType !== null) {
             if(wcType === 'talent') {
                 wcType = 'feat';
             }

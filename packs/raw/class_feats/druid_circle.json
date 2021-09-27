@@ -1,0 +1,26 @@
+{
+   "_id": "A9PJKH1vVY2ncT05",
+   "name": "Druid Circle",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 56",
+      "requirements": "Druid 2"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.DruidCircle.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "systems/dnd5e/icons/skills/red_25.jpg",
+   "effects": [
+   ]
+}

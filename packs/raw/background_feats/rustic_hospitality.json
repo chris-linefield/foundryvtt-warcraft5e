@@ -1,0 +1,26 @@
+{
+   "_id": "jvuBd82Vvc2EMEqh",
+   "name": "Rustic Hospitality",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Player's Handbook",
+      "requirements": "Folk Hero"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.RusticHospitality.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/skills/social/diplomacy-handshake.webp",
+   "effects": [
+   ]
+}

@@ -1,0 +1,26 @@
+{
+   "_id": "mgm5EHvSvDqgfha8",
+   "name": "Ironbark",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 61",
+      "requirements": "Druid (Restoration) 10"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.Ironbark.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/nature/root-vine-barrier-wall-brown.webp",
+   "effects": [
+   ]
+}
