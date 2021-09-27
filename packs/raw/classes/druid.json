@@ -574,6 +574,68 @@
                         }
                      ]
                   }
+               ],
+               "spellList": [
+                  {
+                     "level": "3",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "pLEGEuKOUZdcLDRP",
+                           "label": "WC5E.Spells.PassWithoutTrace.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "PKmONelNw0wui1SU",
+                           "label": "WC5E.Spells.Rejuvenation.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "5",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "grxHnsg8Z3WU6XET",
+                           "label": "WC5E.Spells.Daylight.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "R4QvsF9ZhrYkbrlh",
+                           "label": "WC5E.Spells.LesserRestoration.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "7",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "vIUrJDLTcOjgXDpV",
+                           "label": "WC5E.Spells.Divination.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "w2VgmRFblzgsPBf8",
+                           "label": "WC5E.Spells.ConjurePlants.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "9",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "9xmPkSs3dyVB3AXl",
+                           "label": "WC5E.Spells.Dream.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "o5cuZMx3xL952iub",
+                           "label": "WC5E.Spells.Tranquility.Label"
+                        }
+                     ]
+                  }
                ]
             }
          ]

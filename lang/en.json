@@ -3271,6 +3271,36 @@
                }
             }
          },
+         "ConjurePlants": {
+            "Label": "Conjure Plants",
+            "Description": {
+               "1": {
+                  "Value": "You summon fey spirits that take the form of plant creatures and appear in unoccupied spaces that you can see within range. Choose one of the following options for what appears:"
+               },
+               "2": {
+                  "Options": {
+                     "1": "One plant of challenge rating 2 or lower",
+                     "2": "Two plants of challenge rating 1 or lower",
+                     "3": "Four plants of challenge rating 1/2 or lower",
+                     "4": "Eight plants of challenge rating 1/4 or lower"
+                  }
+               },
+               "3": {
+                  "Value": "Each plant is also considered fey, and it disappears when it drops to 0 hit points or when the spell ends."
+               },
+               "4": {
+                  "Value": "The summoned creatures are friendly to you and your companions. Roll initiative for the summoned creatures as a group, which has its own turns. They obey any verbal commands that you issue to them (no action required by you). If you don't issue any commands to them, they defend themselves from hostile creatures, but otherwise take no actions."
+               },
+               "5": {
+                  "Value": "The GM has the creatures' statistics."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "When you cast this spell using certain higher-level spell slots, you choose one of the summoning options above, and more creatures appear: twice as many with a 5th-level slot, three times as many with a 7th-level slot, and four times as many with a 9th-level slot."
+               }
+            }
+         },
          "ConjureUndead": {
             "Label": "Conjure Undead",
             "Description": {
@@ -3360,6 +3390,20 @@
                }
             }
          },
+         "Daylight": {
+            "Label": "Daylight",
+            "Description": {
+               "1": {
+                  "Value": "A 60-foot-radius sphere of light spreads out from a point you choose within range. The sphere is bright light and sheds dim light for an additional 60 feet."
+               },
+               "2": {
+                  "Value": "If you chose a point on an object you are holding or one that isn't being worn or carried, the light shines from the object and moves with it. Completely covering the affected object with an opaque object, such as a bowl or a helm, blocks the light."
+               },
+               "3": {
+                  "Value": "If any of this spell's area overlaps with an area of darkness created by a spell of 3rd level or lower, the spell that created the darkness is dispelled."
+               }
+            }
+         },
          "DeathAndDecay": {
             "Label": "Death and Decay",
             "Description": {
@@ -3417,6 +3461,23 @@
                },
                "3": {
                   "Value": "If you cast the spell two or more times before finishing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get a random reading. The DM makes this roll in secret."
+               }
+            }
+         },
+         "Dream": {
+            "Label": "Dream",
+            "Description": {
+               "1": {
+                  "Value": "This spell shapes a creature’s dreams. Choose a creature known to you as the target of this spell. The target must be on the same plane of existence as you. Creatures that don’t sleep, such as elves, can’t be contacted by this spell. You, or a willing creature you touch, enters a trance state, acting as a messenger. While in the trance, the messenger is aware of his or her surroundings, but can’t take Actions or move."
+               },
+               "2": {
+                  "Value": "If the target is asleep, the messenger appears in the target’s dreams and can converse with the target as long as it remains asleep, through the Duration of the spell. The messenger can also shape The Environment of the dream, creating landscapes, Objects, and other images. The messenger can emerge from the trance at any time, ending the effect of the spell early. The target recalls the dream perfectly upon waking. If the target is awake when you cast the spell, the messenger knows it, and can either end the trance (and the spell) or wait for the target to fall asleep, at which point the messenger appears in the target’s dreams."
+               },
+               "3": {
+                  "Value": "You can make the messenger appear monstrous and terrifying to the target. If you do, the messenger can deliver a message of no more than ten words and then the target must make a Wisdom saving throw. On a failed save, echoes of the phantasmal monstrosity spawn a nightmare that lasts the Duration of the target’s sleep and prevents the target from gaining any benefit from that rest. In addition, when the target wakes up, it takes 3d6 psychic damage."
+               },
+               "4": {
+                  "Value": "If you have a body part, lock of hair, clipping from a nail, or similar portion of the target’s body, the target makes its saving throw with disadvantage."
                }
             }
          },
@@ -3644,6 +3705,14 @@
                }
             }
          },
+         "LesserRestoration": {
+            "Label": "Lesser Restoration",
+            "Description": {
+               "1": {
+                  "Value": "You touch a creature and can end either one disease or one condition afflicting it. The condition can be blinded, deafened, paralyzed, or poisoned."
+               }
+            }
+         },
          "MageArmor": {
             "Label": "Mage Armor",
             "Description": {
@@ -3690,6 +3759,14 @@
             "Label": "TODO: Mute",
             "Description": "Concentration, up to 1 minute You target a creature within range, forcing it to make a Spirit saving throw. If it fails, the target is isolated from all sound, causing it to be silenced and deafened. This prevents it from performing the verbal components of spells, and rendering it immune to Thunder damage and effects of a spell equal to the spell's level or lower.",
             "Heightened": "You may target another creature within 30 feet of the original target for every 2 spell levels above 2nd (2 creatures at level 4, 3 at level 6, and 4 at level 8)."
+         },
+         "PassWithoutTrace": {
+            "Label": "Pass without Trace",
+            "Description": {
+               "1": {
+                  "Value": "A veil of shadows and Silence radiates from you, masking you and your companions from detection. For the Duration, each creature you choose within 30 feet of you (including you) has a +10 bonus to Dexterity (Stealth) checks and can’t be tracked except by magical means. A creature that receives this bonus leaves behind no tracks or other traces of its passage."
+               }
+            }
          },
          "PlantGrowth": {
             "Label": "Plant Growth",
@@ -3752,6 +3829,20 @@
                },
                "2": {
                   "Value": "At the end of each of the target's turns, it can make a Constitution saving throw against the spell. On a success, the spell ends."
+               }
+            }
+         },
+         "Rejuvenation": {
+            "Label": "Rejuvenation",
+            "Description": {
+               "1": {
+                  "Value": "With the grace of the nature, you envelop one living creature within range with a blessing that rapidly closes wounds and rejuvenates the target. The target regains 1d4 hit points. At the beginning of every round, the caster must succeed on a sigil roll to affect the target again."
+               },
+               "2": {
+                  "Value": "Also, so long as the spell sigil is active, the target also gains resistance to poison damage, or suppresses one level of exhaustion until the beginning of their turn the next round."
+               },
+               "3": {
+                  "Value": "Undead and constructs gain no benefit from this spell."
                }
             }
          },
@@ -3879,6 +3970,26 @@
                "4": "You create an Instantaneous sound that originates from a point of your choice within range, such as a rumble of thunder, the cry of a raven, or ominous whispers.",
                "5": "You instantaneously cause an unlocked door or window to fly open or slam shut.",
                "6": "You alter the Appearance of your eyes for 1 minute."
+            }
+         },
+         "Tranquility": {
+            "Label": "Tranquility",
+            "Description": {
+               "1": {
+                  "Value": "A soft magical rain-like light descends within the area around you in a cylinder 15 feet wide, and 60 feet high. When you invoke this rain, you can choose for the power to concentrate on up to six targets, or wash on every creature and object in the area."
+               },
+               "2": {
+                  "Options": {
+                     "1": "<i>Concentrated Rain</i>: Up to six creatures of your choice that you can see regain hit points equal to 3d8 + your spellcasting ability modifier. The rain-like light appears to concentrate on the targets. The targets are healed at the beginning of your turn every round. This is a concentration effect.",
+                     "2": "<i>General Drizzle</i>: You may treat this spell as if a channeled spell. All living and natural creatures (including natural structures and plants) in the area are healed 2d4 + 2 point of damage per round of channeling."
+                  }
+               },
+               "3": {
+                  "Value": "Any creature who benefits from this spell also seems to become younger and healthier for their age (remaining until the spell's duration ends). Plants briefly grow buds (or attempt to, if too old) and show a healthy lustrous sheen, before returning to their previous state."
+               },
+               "4": {
+                  "Value": "Undead and constructs gain no benefit from tranquility, and are not harmed by it."
+               }
             }
          },
          "TreeStride": {
