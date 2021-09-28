@@ -431,6 +431,141 @@
                   }
                }
             }
+         },
+         "GuildArtisan": {
+            "Description": {
+               "1": "You are a person of business. Artisans learned a trade and practice it well, usually accompanied by a union of like-minded individuals.",
+               "2": "Most artisans are found in large urban settlements, offering training or apprenticeship in the knowledge of how to create rare materials. Many guilds exist in Azeroth, such as the Alliance‘s MEGA (Mechanical Engineering Guild, Associated), and the Great Anvil Smiths of Ironforge, or the independent (Goblin Experimental Engineering Korporation)."
+            },
+            "Suggestions": {
+               "Description": "Guild artisans are among the most ordinary people in the world until they set down their tools and take up an adventuring career. They understand the value of hard work and the importance of community, but they're vulnerable to sins of greed and covetousness.",
+               "Personality": {
+                  "1": "I believe that anything worth doing is worth doing right. I can't help it – I'm a perfectionist.",
+                  "2": "I'm a snob who looks down on those who can't appreciate fine art.",
+                  "3": "I always want to know how things work and what makes people tick.",
+                  "4": "I'm full of witty aphorisms and have a proverb for every occasion.",
+                  "5": "I'm rude to people who lack my commitment to hard work and fair play.",
+                  "6": "I like to talk at length about my profession.",
+                  "7": "I don't part with my money easily and will haggle tirelessly to get the best deal possible.",
+                  "8": "I'm well known for my work, and I want to make sure everyone appreciates it. I'm always taken aback when people haven't heard of me."
+               },
+               "Ideal": {
+                  "1": {
+                     "Title": "Community",
+                     "Value": "It is the duty of all civilized people to strengthen the bonds of community and the security of civilization. (Lawful)"
+                  },
+                  "2": {
+                     "Title": "Generosity",
+                     "Value": "My talents were given to me so that I could use them to benefit the world. (Good)"
+                  },
+                  "3": {
+                     "Title": "Freedom",
+                     "Value": "Everyone should be free to pursue his or her own livelihood. (Chaotic)"
+                  },
+                  "4": {
+                     "Title": "Greed",
+                     "Value": "I'm only in it for the money. (Evil)"
+                  },
+                  "5": {
+                     "Title": "People",
+                     "Value": "I'm committed to the people I care about, not to ideals. (Neutral)"
+                  },
+                  "6": {
+                     "Title": "Aspiration",
+                     "Value": "I work hard to be the best there is at my craft. (Any)"
+                  }
+               },
+               "Bonds": {
+                  "1": "The workshop where I learned my trade is the most important place in the world to me.",
+                  "2": "I created a great work for someone, and then found them unworthy to receive it. I'm still looking for someone worthy.",
+                  "3": "I owe my guild a great debt for forging me into the person I am today.",
+                  "4": "I pursue wealth to secure someone's love.",
+                  "5": "One day I will return to my guild and prove that I am the greatest artisan of them all.",
+                  "6": "I will get revenge on the evil forces that destroyed my place of business and ruined my livelihood."
+               },
+               "Flaws": {
+                  "1": "I'll do anything to get my hands on something rare or priceless.",
+                  "2": "I'm quick to assume that someone is trying to cheat me.",
+                  "3": "No one must ever learn that I once stole money from guild coffers.",
+                  "4": "I'm never satisfied with what I have – I always want more.",
+                  "5": "I would kill to acquire a noble title.",
+                  "6": "I'm horribly jealous of anyone who can outshine my handiwork. Everywhere I go, I'm surrounded by rivals."
+               }
+            },
+            "Variants": {
+               "GuildMerchant": {
+                  "Title": "Guild Merchant",
+                  "Description": {
+                     "1": {
+                        "Value": "Instead of an artisans' guild, you might belong to a guild of traders, caravan masters, or shopkeepers. You don't craft items yourself but earn a living by buying and selling the works of others (or the raw materials artisans need to practice their craft). Your guild might be a large merchant consortium (or family) with interests across the region. Perhaps you transported goods from one place to another, by ship, wagon, or caravan, or bought them from traveling traders and sold them in your own little shop. In some ways, the traveling merchant's life lends itself to adventure far more than the life of an artisan."
+                     },
+                     "2": {
+                        "Value": "Rather than proficiency with artisan's tools, you might be proficient with navigator's tools or an additional language. And instead of artisan's tools, you can start with a mule and a cart."
+                     }
+                  }
+               },
+               "CompanyOwner": {
+                  "Title": "Company Owner",
+                  "Description": {
+                     "1": {
+                        "Value": "You may have chosen to start your own enterprise over joining the employ of a guild or company. This requires great initiative and persistence, as other companies may wish to force a merger to take advantage of your innovations or to get rid of a competitor."
+                     }
+                  }
+               },
+               "ChiefExecutiveOfficer": {
+                  "Title": "Chief Executive Officer",
+                  "Description": {
+                     "1": {
+                        "Value": "Thanks to your initiative and ambition, people are inclined to think the best of you or take your word seriously. When entering a market you are known in, people assume you are there on serious business, from investment to searching for apprentices to even searching for a place to sell your wares. The common folk make every effort to accommodate you and avoid your displeasure, and merchants and other company owners treat you as an equal."
+                     },
+                     "2": {
+                        "Value": "You can secure an audience with a local merchant or company owner if you need to, and with a little work, you might secure an audience with a local noble as well, if you have something they might like to listen to (such as an offer to invest or useful products of your making)."
+                     }
+                  }
+               },
+               "GuildCrafter": {
+                  "Title": "Guild Crafter",
+                  "Description": {
+                     "1": {
+                        "Value": "Gnome and forsaken alchemists and gnomish and dwarven tinkers often boast membership in a guild that could support their crafting endeavors, from providing training in rare material recipes to financial aid when a project becomes too expensive (in return for a percent on future income, of course!)."
+                     },
+                     "2": {
+                        "Value": "Furthermore, your guild may possess engineering blueprints, alchemy formulae, or even infusion matrices they might share with you, in return for services rendered or for reduced cost in comparison to other sources."
+                     }
+                  }
+               },
+               "ThoriumBrother": {
+                  "Title": "Thorium Brother",
+                  "Description": {
+                     "1": {
+                        "Value": "The Thorium Brotherhood (TB Ltd.) is a group of Dark Iron dwarves who are not members of the Dark Iron clan. On the cliffs overlooking the region called the Cauldron, in the far north of the Searing Gorge, the dwarves of the Thorium Brotherhood have established a base of operations, Thorium Point. From here, they keep a close eye on the Dark Iron dwarves' activities in the Searing Gorge and beyond."
+                     },
+                     "2": {
+                        "Value": "The Thorium Brotherhood comprises many exceptionally talented craftsmen, and the blacksmiths of the Brotherhood are rumored to be among the finest Azeroth has ever seen. They possess the knowledge required to make the arms and armaments of Ragnaros, the Fire Lord, but lack the manpower to obtain the materials required for the crafting."
+                     },
+                     "3": {
+                        "Value": "A daunting task, no doubt, but gaining access to the Thorium Brotherhood's secrets should prove to be a reward well worth the effort."
+                     }
+                  }
+               },
+               "CartelMember": {
+                  "Title": "Cartel Member",
+                  "Description": {
+                     "1": {
+                        "Value": "A cartel refers to a large group of goblin traders. Goblin cartels often compete with other cartels, such as in the Trade Wars. These organizations are normally led by trade princes, but they don't have to be; for example, although the Venture Company is a cartel, its leader Mogul Razdunk is not a trade prince."
+                     },
+                     "2": {
+                        "Value": "After the goblins overthrew the Zandalaritrolls, they celebrated their new found freedom by turning on each other, creating chaos as countless feuds were waged and alliances formed. Soon enough they were split into various different groups, with the most powerful of these known as the cartels. However, as the battles raged on and it became clear no one was actually winning, the cartels realized it was in their mutual interests to broker a truce. Despite this, the conflict would never really end, as the goblins now turned to trade, doing battle in the economic arena. For years to come the cartels were rivals, constantly outshining and outsmarting each other as they continued in their quest for wealth and power."
+                     },
+                     "3": {
+                        "Value": "As a cartel member, you do not create but trade, and earn a living by maximizing profit by selling to the neediest individuals or organizations. You may use honorable means, but there is no love lost between goblins and the other races of Azeroth—establishing monopolies, sabotaging the competition, and selling basic living expenses are cutthroat prices to starving buyers made trade princes trade princes, after all!"
+                     },
+                     "4": {
+                        "Value": "Rather than proficiency with artisan‘s tools, you might be proficient with navigator‘s tools, a vehicle, or an additional language. And instead of artisan‘s tools, you can start with a mule and a cart, or a permanent free pass on goblin balloons for yourself and your adventuring companions."
+                     }
+                  }
+               }
+            }
          }
       },
       "Character": {
@@ -1635,6 +1770,55 @@
                },
                "3": {
                   "Value": "Lastly, you also gain proficiency in Strength saving throws."
+               }
+            }
+         },
+         "GuildBusiness": {
+            "Label": "Guild Business",
+            "Description": {
+               "1": {
+                  "Value": "Guilds are generally found in cities large enough to support several artisans practicing the same trade. However, your guild might instead be a loose network of artisans who each work in a different village within a larger realm. Work with your DM to determine the nature of your guild. You can select your guild business from the Guild Business table or roll randomly."
+               },
+               "2": {
+                  "Options": {
+                     "1": "Alchemists and apothecaries",
+                     "2": "Armorers, locksmiths, and finesmiths",
+                     "3": "Brewers, distillers, and vintners",
+                     "4": "Calligraphers, scribes, and scriveners",
+                     "5": "Carpenters, roofers, and plasterers",
+                     "6": "Cartographers, surveyors, and chart-makers",
+                     "7": "Cobblers and shoemakers",
+                     "8": "Cooks and bakers",
+                     "9": "Glassblowers and glaziers",
+                     "10": "Jewelers and gemcutters",
+                     "11": "Leatherworkers, skinners, and tanners",
+                     "12": "Masons and stonecutters",
+                     "13": "Painters, limners, and sign-makers",
+                     "14": "Potters and tile-makers",
+                     "15": "Shipwrights and sailmakers",
+                     "16": "Smiths and metal-forgers",
+                     "17": "Tinkers, pewterers, and casters",
+                     "18": "Wagon-makers and wheelwrights",
+                     "19": "Weavers and dyers",
+                     "20": "Woodcarvers, coopers, and bowyers"
+                  }
+               },
+               "3": {
+                  "Value": "As a member of your guild, you know the skills needed to create finished items from raw materials (reflected in your proficiency with a certain kind of artisan's tools), as well as the principles of trade and good business practices. The question now is whether you abandon your trade for adventure, or take on the extra effort to weave adventuring and trade together."
+               }
+            }
+         },
+         "GuildMembership": {
+            "Label": "Guild Membership",
+            "Description": {
+               "1": {
+                  "Value": "As an established and respected member of a guild, you can rely on certain benefits that membership provides. Your fellow guild members will provide you with lodging and food if necessary, and pay for your funeral if needed. In some cities and towns, a guildhall offers a central place to meet other members of your profession, which can be a good place to meet potential patrons, allies, or hirelings."
+               },
+               "2": {
+                  "Value": "Guilds often wield tremendous political power. If you are accused of a crime, your guild will support you if a good case can be made for your innocence or the crime is justifiable. You can also gain access to powerful political figures through the guild, if you are a member in good standing. Such connections might require the donation of money or magic items to the guild's coffers."
+               },
+               "3": {
+                  "Value": "You must pay dues of 5 gp per month to the guild. If you miss payments, you must make up back dues to remain in the guild's good graces."
                }
             }
          },
