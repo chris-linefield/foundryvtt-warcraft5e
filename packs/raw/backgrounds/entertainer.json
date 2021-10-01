@@ -14,10 +14,12 @@
             "WC5E.Backgrounds.Entertainer.Description.1"
          ],
          "source": "Player's Handbook",
-         "skillProfs": [
-            "acr",
-            "prf"
-         ],
+         "skillProfs": {
+            "range": [
+               "acr",
+               "prf"
+            ]
+         },
          "toolProfs": [
             "disg",
             "instr"

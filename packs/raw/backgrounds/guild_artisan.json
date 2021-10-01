@@ -15,10 +15,12 @@
             "WC5E.Backgrounds.GuildArtisan.Description.2"
          ],
          "source": "Player's Handbook",
-         "skillProfs": [
-            "ins",
-            "per"
-         ],
+         "skillProfs": {
+            "range": [
+               "ins",
+               "per"
+            ]
+         },
          "toolProfs": [
             "artisans"
          ],

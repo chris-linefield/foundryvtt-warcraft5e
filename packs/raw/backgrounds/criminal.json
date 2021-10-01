@@ -14,10 +14,12 @@
             "WC5E.Backgrounds.Criminal.Description.1"
          ],
          "source": "Player's Handbook",
-         "skillProfs": [
-            "dec",
-            "ste"
-         ],
+         "skillProfs": {
+            "range": [
+               "dec",
+               "ste"
+            ]
+         },
          "toolProfs": [
             "thief",
             "game"

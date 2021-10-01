@@ -14,10 +14,12 @@
             "WC5E.Backgrounds.Acolyte.Description.1"
          ],
          "source": "Player's Handbook",
-         "skillProfs": [
-            "ins",
-            "rel"
-         ],
+         "skillProfs": {
+            "range": [
+               "ins",
+               "rel"
+            ]
+         },
          "toolProfs": [],
          "languages": {
             "number": 2,

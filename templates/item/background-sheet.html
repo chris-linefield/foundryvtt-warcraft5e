@@ -29,7 +29,10 @@
                             <th class="left">Skills</th>
                             <td>
                                 {{#if item.flags.wc5e.skillProfs}}
-                                    {{#each item.flags.wc5e.skillProfs}}
+                                    {{#if item.flags.wc5e.skillProfs.amount}}
+                                        choose {{item.flags.wc5e.skillProfs.amount}} of
+                                    {{/if}}
+                                    {{#each item.flags.wc5e.skillProfs.range}}
                                         {{lookup ../config.skills this~}}
                                         {{#unless @last}},{{/unless}}
                                     {{/each}}
@@ -56,8 +59,9 @@
                                     {{item.flags.wc5e.languages.number}}
                                     {{#if item.flags.wc5e.languages.range}}
                                         {{#each item.flags.wc5e.languages.range}}
-                                            {{this}}
-                                        {{/each}},
+                                            {{lookup ../config.languages this~}}
+                                            {{#unless @last}},{{/unless}}
+                                        {{/each}}
                                     {{else}}
                                         of your choice
                                     {{/if}}

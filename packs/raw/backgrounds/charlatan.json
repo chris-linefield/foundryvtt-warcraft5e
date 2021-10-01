@@ -14,10 +14,12 @@
             "WC5E.Backgrounds.Charlatan.Description.1"
          ],
          "source": "Player's Handbook",
-         "skillProfs": [
-            "dec",
-            "slt"
-         ],
+         "skillProfs": {
+            "range": [
+               "dec",
+               "slt"
+            ]
+         },
          "toolProfs": [
             "disg",
             "forg"
