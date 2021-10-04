@@ -147,16 +147,12 @@
                   {
                      "value": "WC5E.Backgrounds.GuildArtisan.Variants.CompanyOwner.Description.1.Value"
                   }
-               ]
-            },
-            {
-               "title": "WC5E.Backgrounds.GuildArtisan.Variants.ChiefExecutiveOfficer.Title",
-               "description": [
+               ],
+               "feats": [
                   {
-                     "value": "WC5E.Backgrounds.GuildArtisan.Variants.ChiefExecutiveOfficer.Description.1.Value"
-                  },
-                  {
-                     "value": "WC5E.Backgrounds.GuildArtisan.Variants.ChiefExecutiveOfficer.Description.2.Value"
+                     "pack": "warcraft5e.wc5e_background_feats",
+                     "node": "NEuYNLVoNPuhU5v2",
+                     "label": "WC5E.Feats.ChiefExecutiveOfficer.Label"
                   }
                ]
             },

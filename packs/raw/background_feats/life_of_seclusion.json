@@ -1,0 +1,105 @@
+{
+   "_id": "y7vTQtZsImp8BYi4",
+   "name": "Life of Seclusion",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Player's Handbook",
+      "requirements": "Hermit"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.LifeOfSeclusion.Description.1.Value"
+            },
+            {
+
+               "table": {
+                  "head": [
+                     {
+                        "title": "d8"
+                     },
+                     {
+                        "title": "WC5E.Feats.LifeOfSeclusion.Label"
+                     }
+                  ],
+                  "rows": [
+                     [
+                        {
+                           "value": 1
+                        },
+                        {
+                           "text": "WC5E.Feats.LifeOfSeclusion.Description.2.Options.1"
+                        }
+                     ],
+                     [
+                        {
+                           "value": 2
+                        },
+                        {
+                           "text": "WC5E.Feats.LifeOfSeclusion.Description.2.Options.2"
+                        }
+                     ],
+                     [
+                        {
+                           "value": 3
+                        },
+                        {
+                           "text": "WC5E.Feats.LifeOfSeclusion.Description.2.Options.3"
+                        }
+                     ],
+                     [
+                        {
+                           "value": 4
+                        },
+                        {
+                           "text": "WC5E.Feats.LifeOfSeclusion.Description.2.Options.4"
+                        }
+                     ],
+                     [
+                        {
+                           "value": 5
+                        },
+                        {
+                           "text": "WC5E.Feats.LifeOfSeclusion.Description.2.Options.5"
+                        }
+                     ],
+                     [
+                        {
+                           "value": 6
+                        },
+                        {
+                           "text": "WC5E.Feats.LifeOfSeclusion.Description.2.Options.6"
+                        }
+                     ],
+                     [
+                        {
+                           "value": 7
+                        },
+                        {
+                           "text": "WC5E.Feats.LifeOfSeclusion.Description.2.Options.7"
+                        }
+                     ],
+                     [
+                        {
+                           "value": 8
+                        },
+                        {
+                           "text": "WC5E.Feats.LifeOfSeclusion.Description.2.Options.8"
+                        }
+                     ]
+                  ]
+               }
+            }
+         ]
+      }
+   },
+   "img": "icons/environment/settlement/hut.webp",
+   "effects": [
+   ]
+}

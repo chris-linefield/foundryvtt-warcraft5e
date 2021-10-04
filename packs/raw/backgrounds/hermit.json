@@ -1,0 +1,158 @@
+{
+   "_id": "RqYqu5szu8jX9bvO",
+   "name": "Hermit",
+   "permission": {
+      "default": 0
+   },
+   "type": "class",
+   "data": {
+   },
+   "flags": {
+      "wc5e": {
+         "type": "background",
+         "description": [
+            "WC5E.Backgrounds.Hermit.Description.1"
+         ],
+         "source": "Player's Handbook",
+         "skillProfs": {
+            "amount": 2,
+            "range": [
+               "med",
+               "rel"
+            ]
+         },
+         "toolProfs": [
+            "herb"
+         ],
+         "languages": {
+            "number": 1
+         },
+         "equipment": [
+            [
+               {
+                  "amount": 1,
+                  "pack": "dnd5e.items",
+                  "node": "5mIeX824uMklU3xq",
+                  "label": "WC5E.Items.ScrollCase.Label"
+               }
+            ],
+            [
+               {
+                  "amount": 1,
+                  "pack": "dnd5e.items",
+                  "label": "Winter Blanket"
+               }
+            ],
+            [
+               {
+                  "amount": 1,
+                  "pack": "dnd5e.items",
+                  "node": "8RXjiddJ6VGyE7vB",
+                  "label": "WC5E.Items.CommonClothes.Label"
+               }
+            ],
+            [
+               {
+                  "amount": 1,
+                  "pack": "dnd5e.items",
+                  "node": "i89okN7GFTWHsvPy",
+                  "label": "WC5E.Items.HerbalismKit.Label"
+               }
+            ],
+            [
+               {
+                  "amount": 1,
+                  "label": "5gp"
+               }
+            ]
+         ],
+         "feats": [
+            {
+               "pack": "warcraft5e.wc5e_background_feats",
+               "node": "y7vTQtZsImp8BYi4",
+               "label": "WC5E.Feats.LifeOfSeclusion.Label"
+            },
+            {
+               "pack": "warcraft5e.wc5e_background_feats",
+               "node": "zhBSM2wxK2xGbzxg",
+               "label": "WC5E.Feats.Discovery.Label"
+            }
+         ],
+         "suggestions": {
+            "description": "WC5E.Backgrounds.Hermit.Suggestions.Description",
+            "personality": [
+               "WC5E.Backgrounds.Hermit.Suggestions.Personality.1",
+               "WC5E.Backgrounds.Hermit.Suggestions.Personality.2",
+               "WC5E.Backgrounds.Hermit.Suggestions.Personality.3",
+               "WC5E.Backgrounds.Hermit.Suggestions.Personality.4",
+               "WC5E.Backgrounds.Hermit.Suggestions.Personality.5",
+               "WC5E.Backgrounds.Hermit.Suggestions.Personality.6",
+               "WC5E.Backgrounds.Hermit.Suggestions.Personality.7",
+               "WC5E.Backgrounds.Hermit.Suggestions.Personality.8"
+            ],
+            "ideals": [
+               {
+                  "title": "WC5E.Backgrounds.Hermit.Suggestions.Ideal.1.Title",
+                  "value": "WC5E.Backgrounds.Hermit.Suggestions.Ideal.1.Value"
+               },
+               {
+                  "title": "WC5E.Backgrounds.Hermit.Suggestions.Ideal.2.Title",
+                  "value": "WC5E.Backgrounds.Hermit.Suggestions.Ideal.2.Value"
+               },
+               {
+                  "title": "WC5E.Backgrounds.Hermit.Suggestions.Ideal.3.Title",
+                  "value": "WC5E.Backgrounds.Hermit.Suggestions.Ideal.3.Value"
+               },
+               {
+                  "title": "WC5E.Backgrounds.Hermit.Suggestions.Ideal.4.Title",
+                  "value": "WC5E.Backgrounds.Hermit.Suggestions.Ideal.4.Value"
+               },
+               {
+                  "title": "WC5E.Backgrounds.Hermit.Suggestions.Ideal.5.Title",
+                  "value": "WC5E.Backgrounds.Hermit.Suggestions.Ideal.5.Value"
+               },
+               {
+                  "title": "WC5E.Backgrounds.Hermit.Suggestions.Ideal.6.Title",
+                  "value": "WC5E.Backgrounds.Hermit.Suggestions.Ideal.6.Value"
+               }
+            ],
+            "bonds": [
+               "WC5E.Backgrounds.Hermit.Suggestions.Bonds.1",
+               "WC5E.Backgrounds.Hermit.Suggestions.Bonds.2",
+               "WC5E.Backgrounds.Hermit.Suggestions.Bonds.3",
+               "WC5E.Backgrounds.Hermit.Suggestions.Bonds.4",
+               "WC5E.Backgrounds.Hermit.Suggestions.Bonds.5",
+               "WC5E.Backgrounds.Hermit.Suggestions.Bonds.6"
+            ],
+            "flaws": [
+               "WC5E.Backgrounds.Hermit.Suggestions.Flaws.1",
+               "WC5E.Backgrounds.Hermit.Suggestions.Flaws.2",
+               "WC5E.Backgrounds.Hermit.Suggestions.Flaws.3",
+               "WC5E.Backgrounds.Hermit.Suggestions.Flaws.4",
+               "WC5E.Backgrounds.Hermit.Suggestions.Flaws.5",
+               "WC5E.Backgrounds.Hermit.Suggestions.Flaws.6"
+            ]
+         },
+         "variants": [
+            {
+               "title": "WC5E.Backgrounds.Hermit.Variants.SlumberingDruid.Title",
+               "description": [
+                  {
+                     "value": "WC5E.Backgrounds.Hermit.Variants.SlumberingDruid.Description.1.Value"
+                  },
+                  {
+                     "value": "WC5E.Backgrounds.Hermit.Variants.SlumberingDruid.Description.2.Value"
+                  }
+               ]
+            },
+            {
+               "pack": "warcraft5e.wc5e_background_feats",
+               "node": "1mFcUqBy1l4tibkw",
+               "label": "WC5E.Feats.EmeraldSleep.Label"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/nature/leaf-juggle-humanoid-green.webp",
+   "effects": []
+}

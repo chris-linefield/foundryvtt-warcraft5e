@@ -1,0 +1,29 @@
+{
+   "_id": "NEuYNLVoNPuhU5v2",
+   "name": "Chief Executive Officer",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Player's Handbook",
+      "requirements": "Guild Artisan (Company Owner)"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.ChiefExecutiveOfficer.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.ChiefExecutiveOfficer.Description.2.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/environment/people/commoner.webp",
+   "effects": [
+   ]
+}

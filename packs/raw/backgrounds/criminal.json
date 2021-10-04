@@ -133,28 +133,7 @@
                   {
                      "value": "WC5E.Backgrounds.Criminal.Variants.Operative.Description.2.Value"
                   }
-               ],
-               "artwork": {
-                  "src": "",
-                  "url": "",
-                  "credit": "TODO"
-               }
-            },
-            {
-               "title": "WC5E.Backgrounds.Criminal.Variants.UndeadStalker.Title",
-               "description": [
-                  {
-                     "value": "WC5E.Backgrounds.Criminal.Variants.UndeadStalker.Description.1.Value"
-                  },
-                  {
-                     "value": "WC5E.Backgrounds.Criminal.Variants.UndeadStalker.Description.2.Value"
-                  }
-               ],
-               "artwork": {
-                  "src": "",
-                  "url": "",
-                  "credit": "TODO"
-               }
+               ]
             },
             {
                "title": "WC5E.Backgrounds.Criminal.Variants.UndeadDeathStalker.Title",
@@ -230,11 +209,13 @@
                   }
                ],
                "changes": "WC5E.Backgrounds.Criminal.Variants.UndeadDeathStalker.Description.4.Value",
-               "artwork": {
-                  "src": "",
-                  "url": "",
-                  "credit": "TODO"
-               }
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_background_feats",
+                     "node": "8fktkccCyUYpEWyw",
+                     "label": "WC5E.Feats.UndeadStalker.Label"
+                  }
+               ]
             },
             {
                "title": "WC5E.Backgrounds.Criminal.Variants.Uncrowned.Title",
@@ -246,27 +227,13 @@
                      "value": "WC5E.Backgrounds.Criminal.Variants.Uncrowned.Description.2.Value"
                   }
                ],
-               "artwork": {
-                  "src": "",
-                  "url": "",
-                  "credit": "TODO"
-               }
-            },
-            {
-               "title": "WC5E.Backgrounds.Criminal.Variants.AgentOfSuspectLoyalty.Title",
-               "description": [
+               "feats": [
                   {
-                     "value": "WC5E.Backgrounds.Criminal.Variants.AgentOfSuspectLoyalty.Description.1.Value"
-                  },
-                  {
-                     "value": "WC5E.Backgrounds.Criminal.Variants.AgentOfSuspectLoyalty.Description.2.Value"
+                     "pack": "warcraft5e.wc5e_background_feats",
+                     "node": "h9SVfNpJuemkQ6IH",
+                     "label": "WC5E.Feats.AgentOfSuspectLoyalty.Label"
                   }
-               ],
-               "artwork": {
-                  "src": "",
-                  "url": "",
-                  "credit": "TODO"
-               }
+               ]
             }
          ]
       }

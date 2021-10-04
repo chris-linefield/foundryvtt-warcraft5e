@@ -1,0 +1,39 @@
+{
+   "_id": "1mFcUqBy1l4tibkw",
+   "name": "Emerald Sleep",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Player's Handbook",
+      "requirements": "Hermit (Slumbering Druid)"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.EmeraldSleep.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.EmeraldSleep.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Feats.EmeraldSleep.Description.3.Value"
+            },
+            {
+               "value": "WC5E.Feats.EmeraldSleep.Description.4.Value"
+            },
+            {
+               "value": "WC5E.Feats.EmeraldSleep.Description.5.Value",
+               "special": true
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/nature/leaf-rune-glow-green.webp",
+   "effects": [
+   ]
+}

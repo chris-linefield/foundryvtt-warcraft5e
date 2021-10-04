@@ -218,6 +218,17 @@
                         {{localize this.changes}}
                     </p>
                 {{/if}}
+
+                {{#if this.feats}}
+                    <br>
+                    <h4>{{localize "WC5E.UI.Features"}}</h4>
+                    {{#each this.feats}}
+                        <a class="entity-link spellLink" data-pack="{{this.pack}}" data-id="{{this.node}}">
+                            {{localize this.label}}
+                        </a>
+                    {{/each}}
+                    <br>
+                {{/if}}
                 <hr class="double full">
             {{/each}}
         </div>
