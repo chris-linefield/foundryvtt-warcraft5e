@@ -1,0 +1,29 @@
+{
+   "_id": "zhBSM2wxK2xGbzxg",
+   "name": "Discovery",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Player's Handbook",
+      "requirements": "Hermit"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.Discovery.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.Discovery.Description.2.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/sundries/documents/document-torn-diagram-tan.webp",
+   "effects": [
+   ]
+}

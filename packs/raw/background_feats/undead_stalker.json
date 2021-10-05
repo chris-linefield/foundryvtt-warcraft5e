@@ -1,0 +1,29 @@
+{
+   "_id": "8fktkccCyUYpEWyw",
+   "name": "Undead Stalker",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Player's Handbook",
+      "requirements": "Criminal (Undead Deathstalker)"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.UndeadStalker.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.UndeadStalker.Description.2.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/death/skull-trio-badge-purple.webp",
+   "effects": [
+   ]
+}

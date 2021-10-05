@@ -15,10 +15,12 @@
             "WC5E.Backgrounds.FolkHero.Description.2"
          ],
          "source": "Player's Handbook",
-         "skillProfs": [
-            "ani",
-            "sur"
-         ],
+         "skillProfs": {
+            "range": [
+               "ani",
+               "sur"
+            ]
+         },
          "toolProfs": [
             "artisans",
             "vehicle land"

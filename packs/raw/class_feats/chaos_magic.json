@@ -1,0 +1,26 @@
+{
+   "_id": "0h7RUS2kfUXTwkdm",
+   "name": "Chaos Magic",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 141",
+      "requirements": "Warlock (Destruction) 1"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.ChaosMagic.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/fire/projectile-fireball-green.webp",
+   "effects": [
+   ]
+}

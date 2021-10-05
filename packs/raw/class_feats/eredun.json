@@ -1,0 +1,29 @@
+{
+   "_id": "1PXPQRGYPhhPm8J3",
+   "name": "Eredun",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 136",
+      "requirements": "Warlock 1"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.Eredun.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.Eredun.Description.2.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/symbols/rune-sigil-hook-white-red.webp",
+   "effects": [
+   ]
+}

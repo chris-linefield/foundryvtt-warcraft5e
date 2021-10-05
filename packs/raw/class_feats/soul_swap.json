@@ -1,0 +1,29 @@
+{
+   "_id": "b0ci4k42K5xY8q4R",
+   "name": "Soul Swap",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 140",
+      "requirements": "Warlock (Affliction) 6"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.SoulSwap.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.SoulSwap.Description.2.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/unholy/projectiles-binary-pink.webp",
+   "effects": [
+   ]
+}

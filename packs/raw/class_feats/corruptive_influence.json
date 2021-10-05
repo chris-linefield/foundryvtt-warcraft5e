@@ -1,0 +1,26 @@
+{
+   "_id": "tIP2mhdV88SnEABk",
+   "name": "Corruptive Influence",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 140",
+      "requirements": "Warlock (Affliction) 18"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.CorruptiveInfluence.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/unholy/barrier-fire-pink.webp",
+   "effects": [
+   ]
+}

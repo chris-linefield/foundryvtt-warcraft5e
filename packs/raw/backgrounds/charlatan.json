@@ -14,10 +14,12 @@
             "WC5E.Backgrounds.Charlatan.Description.1"
          ],
          "source": "Player's Handbook",
-         "skillProfs": [
-            "dec",
-            "slt"
-         ],
+         "skillProfs": {
+            "range": [
+               "dec",
+               "slt"
+            ]
+         },
          "toolProfs": [
             "disg",
             "forg"
@@ -131,6 +133,11 @@
                "WC5E.Backgrounds.Charlatan.Suggestions.Flaws.5",
                "WC5E.Backgrounds.Charlatan.Suggestions.Flaws.6"
             ]
+         },
+         "artwork": {
+            "src": "modules/warcraft5e/res/pics/backgrounds/charlatan.jpg",
+            "url": "https://imgur.com/gallery/WNdaAtu",
+            "credit": "Donutello"
          }
       }
    },

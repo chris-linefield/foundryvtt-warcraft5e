@@ -1,0 +1,204 @@
+{
+   "_id": "Mm2ouSDrwBR6L0F4",
+   "name": "Guild Artisan",
+   "permission": {
+      "default": 0
+   },
+   "type": "class",
+   "data": {
+   },
+   "flags": {
+      "wc5e": {
+         "type": "background",
+         "description": [
+            "WC5E.Backgrounds.GuildArtisan.Description.1",
+            "WC5E.Backgrounds.GuildArtisan.Description.2"
+         ],
+         "source": "Player's Handbook",
+         "skillProfs": {
+            "range": [
+               "ins",
+               "per"
+            ]
+         },
+         "toolProfs": [
+            "artisans"
+         ],
+         "languages": {
+            "number": 1,
+            "range": "all"
+         },
+         "equipment": [
+            [
+               {
+                  "label": "A set of artisan's tools (one of your choice)"
+               }
+            ],
+            [
+               {
+                  "amount": 1,
+                  "pack": "dnd5e.items",
+                  "node": "",
+                  "label": "TODO: letter of introduction from yor guild"
+               }
+            ],
+            [
+               {
+                  "amount": 1,
+                  "pack": "dnd5e.items",
+                  "node": "SsAmWV6YBqeOFihT",
+                  "label": "WC5E.Items.TravelersClothes.Label"
+               }
+            ],
+            [
+               {
+                  "amount": 1,
+                  "pack": "dnd5e.items",
+                  "node": "9bWTRRDym06PzSAf",
+                  "label": "WC5E.Items.Pouch.Label"
+               }
+            ]
+         ],
+         "feats": [
+            {
+               "pack": "warcraft5e.wc5e_background_feats",
+               "node": "5nxknaL64xYKIcm2",
+               "label": "WC5E.Feats.GuildBusiness.Label"
+            },
+            {
+               "pack": "warcraft5e.wc5e_background_feats",
+               "node": "RebkFSZ1JXf8wiED",
+               "label": "WC5E.Feats.GuildMembership.Label"
+            }
+         ],
+         "suggestions": {
+            "description": "WC5E.Backgrounds.GuildArtisan.Suggestions.Description",
+            "personality": [
+               "WC5E.Backgrounds.GuildArtisan.Suggestions.Personality.1",
+               "WC5E.Backgrounds.GuildArtisan.Suggestions.Personality.2",
+               "WC5E.Backgrounds.GuildArtisan.Suggestions.Personality.3",
+               "WC5E.Backgrounds.GuildArtisan.Suggestions.Personality.4",
+               "WC5E.Backgrounds.GuildArtisan.Suggestions.Personality.5",
+               "WC5E.Backgrounds.GuildArtisan.Suggestions.Personality.6",
+               "WC5E.Backgrounds.GuildArtisan.Suggestions.Personality.7",
+               "WC5E.Backgrounds.GuildArtisan.Suggestions.Personality.8"
+            ],
+            "ideals": [
+               {
+                  "title": "WC5E.Backgrounds.GuildArtisan.Suggestions.Ideal.1.Title",
+                  "value": "WC5E.Backgrounds.GuildArtisan.Suggestions.Ideal.1.Value"
+               },
+               {
+                  "title": "WC5E.Backgrounds.GuildArtisan.Suggestions.Ideal.2.Title",
+                  "value": "WC5E.Backgrounds.GuildArtisan.Suggestions.Ideal.2.Value"
+               },
+               {
+                  "title": "WC5E.Backgrounds.GuildArtisan.Suggestions.Ideal.3.Title",
+                  "value": "WC5E.Backgrounds.GuildArtisan.Suggestions.Ideal.3.Value"
+               },
+               {
+                  "title": "WC5E.Backgrounds.GuildArtisan.Suggestions.Ideal.4.Title",
+                  "value": "WC5E.Backgrounds.GuildArtisan.Suggestions.Ideal.4.Value"
+               },
+               {
+                  "title": "WC5E.Backgrounds.GuildArtisan.Suggestions.Ideal.5.Title",
+                  "value": "WC5E.Backgrounds.GuildArtisan.Suggestions.Ideal.5.Value"
+               },
+               {
+                  "title": "WC5E.Backgrounds.GuildArtisan.Suggestions.Ideal.6.Title",
+                  "value": "WC5E.Backgrounds.GuildArtisan.Suggestions.Ideal.6.Value"
+               }
+            ],
+            "bonds": [
+               "WC5E.Backgrounds.GuildArtisan.Suggestions.Bonds.1",
+               "WC5E.Backgrounds.GuildArtisan.Suggestions.Bonds.2",
+               "WC5E.Backgrounds.GuildArtisan.Suggestions.Bonds.3",
+               "WC5E.Backgrounds.GuildArtisan.Suggestions.Bonds.4",
+               "WC5E.Backgrounds.GuildArtisan.Suggestions.Bonds.5",
+               "WC5E.Backgrounds.GuildArtisan.Suggestions.Bonds.6"
+            ],
+            "flaws": [
+               "WC5E.Backgrounds.GuildArtisan.Suggestions.Flaws.1",
+               "WC5E.Backgrounds.GuildArtisan.Suggestions.Flaws.2",
+               "WC5E.Backgrounds.GuildArtisan.Suggestions.Flaws.3",
+               "WC5E.Backgrounds.GuildArtisan.Suggestions.Flaws.4",
+               "WC5E.Backgrounds.GuildArtisan.Suggestions.Flaws.5",
+               "WC5E.Backgrounds.GuildArtisan.Suggestions.Flaws.6"
+            ]
+         },
+         "artwork": {
+            "src": "",
+            "url": "",
+            "credit": "???"
+         },
+         "variants": [
+            {
+               "title": "WC5E.Backgrounds.GuildArtisan.Variants.GuildMerchant.Title",
+               "description": [
+                  {
+                     "value": "WC5E.Backgrounds.GuildArtisan.Variants.GuildMerchant.Description.1.Value"
+                  }
+               ],
+               "changes": "WC5E.Backgrounds.GuildArtisan.Variants.GuildMerchant.Description.2.Value"
+            },
+            {
+               "title": "WC5E.Backgrounds.GuildArtisan.Variants.CompanyOwner.Title",
+               "description": [
+                  {
+                     "value": "WC5E.Backgrounds.GuildArtisan.Variants.CompanyOwner.Description.1.Value"
+                  }
+               ],
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_background_feats",
+                     "node": "NEuYNLVoNPuhU5v2",
+                     "label": "WC5E.Feats.ChiefExecutiveOfficer.Label"
+                  }
+               ]
+            },
+            {
+               "title": "WC5E.Backgrounds.GuildArtisan.Variants.GuildCrafter.Title",
+               "description": [
+                  {
+                     "value": "WC5E.Backgrounds.GuildArtisan.Variants.GuildCrafter.Description.1.Value"
+                  },
+                  {
+                     "value": "WC5E.Backgrounds.GuildArtisan.Variants.GuildCrafter.Description.2.Value"
+                  }
+               ]
+            },
+            {
+               "title": "WC5E.Backgrounds.GuildArtisan.Variants.ThoriumBrother.Title",
+               "description": [
+                  {
+                     "value": "WC5E.Backgrounds.GuildArtisan.Variants.ThoriumBrother.Description.1.Value"
+                  },
+                  {
+                     "value": "WC5E.Backgrounds.GuildArtisan.Variants.ThoriumBrother.Description.2.Value"
+                  },
+                  {
+                     "value": "WC5E.Backgrounds.GuildArtisan.Variants.ThoriumBrother.Description.3.Value"
+                  }
+               ]
+            },
+            {
+               "title": "WC5E.Backgrounds.GuildArtisan.Variants.CartelMember.Title",
+               "description": [
+                  {
+                     "value": "WC5E.Backgrounds.GuildArtisan.Variants.CartelMember.Description.1.Value"
+                  },
+                  {
+                     "value": "WC5E.Backgrounds.GuildArtisan.Variants.CartelMember.Description.2.Value"
+                  },
+                  {
+                     "value": "WC5E.Backgrounds.GuildArtisan.Variants.CartelMember.Description.3.Value"
+                  }
+               ],
+               "changes": "WC5E.Backgrounds.GuildArtisan.Variants.CartelMember.Description.4.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/tools/smithing/hammer-sledge-steel-grey.webp",
+   "effects": []
+}
