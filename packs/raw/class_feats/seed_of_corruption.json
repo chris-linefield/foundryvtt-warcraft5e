@@ -1,0 +1,32 @@
+{
+   "_id": "8zRF8tRcN4zBKNZZ",
+   "name": "Seed of Corruption",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 140",
+      "requirements": "Warlock (Affliction) 14"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.SeedOfCorruption.Description.1.Value"
+            },
+            {
+               "options": [
+                  "WC5E.Feats.SeedOfCorruption.Description.2.Options.1",
+                  "WC5E.Feats.SeedOfCorruption.Description.2.Options.2"
+               ]
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/unholy/orb-colllecting-energy-green.webp",
+   "effects": [
+   ]
+}

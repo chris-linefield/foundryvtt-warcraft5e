@@ -133,6 +133,11 @@
                "WC5E.Backgrounds.Charlatan.Suggestions.Flaws.5",
                "WC5E.Backgrounds.Charlatan.Suggestions.Flaws.6"
             ]
+         },
+         "artwork": {
+            "src": "modules/warcraft5e/res/pics/backgrounds/charlatan.jpg",
+            "url": "https://imgur.com/gallery/WNdaAtu",
+            "credit": "Donutello"
          }
       }
    },

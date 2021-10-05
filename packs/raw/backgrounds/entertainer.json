@@ -124,9 +124,9 @@
             ]
          },
          "artwork": {
-            "src": "modules/warcraft5e/res/pics/backgrounds/acolyte.jpg",
-            "url": "https://www.wallpaperflare.com/female-elf-character-illustration-fantasy-art-elves-magic-wallpaper-mxwka",
-            "credit": "???"
+            "src": "modules/warcraft5e/res/pics/backgrounds/entertainer.jpg",
+            "url": "https://www.deviantart.com/egilthompson/art/Sneak-Attack-619322413",
+            "credit": "egilthompson"
          },
          "variants": [
             {
@@ -136,12 +136,7 @@
                      "value": "WC5E.Backgrounds.Entertainer.Variants.Gladiator.Description.1.Value"
                   }
                ],
-               "changes": "WC5E.Backgrounds.Entertainer.Variants.Gladiator.Description.2.Value",
-               "artwork": {
-                  "src": "",
-                  "url": "",
-                  "credit": "TODO"
-               }
+               "changes": "WC5E.Backgrounds.Entertainer.Variants.Gladiator.Description.2.Value"
             },
             {
                "title": "WC5E.Backgrounds.Entertainer.Variants.DarkmoonTheaterTroupeMember.Title",
@@ -149,12 +144,7 @@
                   {
                      "value": "WC5E.Backgrounds.Entertainer.Variants.DarkmoonTheaterTroupeMember.Description.1.Value"
                   }
-               ],
-               "artwork": {
-                  "src": "",
-                  "url": "",
-                  "credit": "TODO"
-               }
+               ]
             }
          ]
       }

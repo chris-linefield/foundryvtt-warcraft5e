@@ -1,0 +1,46 @@
+{
+   "_id": "aSLDlpVbsPAYtHFE",
+   "name": "Soul Shards",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 138",
+      "requirements": "Warlock 2"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.SoulShards.Description.1.Value"
+            },
+            {
+               "title": "WC5E.Feats.SoulShards.Description.2.Title",
+               "value": "WC5E.Feats.SoulShards.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Feats.SoulShards.Description.3.Value"
+            },
+            {
+               "value": "WC5E.Feats.SoulShards.Description.4.Value"
+            },
+            {
+               "value": "WC5E.Feats.SoulShards.Description.5.Value"
+            },
+            {
+               "options": [
+                  "WC5E.Feats.SoulShards.Description.6.Options.1",
+                  "WC5E.Feats.SoulShards.Description.6.Options.2",
+                  "WC5E.Feats.SoulShards.Description.6.Options.3"
+               ]
+            }
+         ]
+      }
+   },
+   "img": "icons/commodities/gems/gem-rough-tapered-red.webp",
+   "effects": [
+   ]
+}

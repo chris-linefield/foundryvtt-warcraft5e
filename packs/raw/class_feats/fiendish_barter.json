@@ -1,0 +1,29 @@
+{
+   "_id": "LbKLP6wNlpy5TBPD",
+   "name": "Fiendish Barter",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 139",
+      "requirements": "Warlock 10"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.FiendishBarter.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.FiendishBarter.Description.2.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/commodities/gems/gem-faceted-navette-red.webp",
+   "effects": [
+   ]
+}

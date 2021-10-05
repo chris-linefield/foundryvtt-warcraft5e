@@ -1,0 +1,32 @@
+{
+   "_id": "q0phj3NJAGnGl8ym",
+   "name": "Demonic Invocation",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 136",
+      "requirements": "Warlock 1"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.DemonicInvocation.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.DemonicInvocation.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Feats.DemonicInvocation.Description.3.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/unholy/hand-grasping-green.webp",
+   "effects": [
+   ]
+}

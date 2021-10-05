@@ -1,0 +1,33 @@
+{
+   "_id": "Zix5jvsp41eXi14J",
+   "name": "Incinerate",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 142",
+      "requirements": "Warlock (Destruction) 14"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.Incinerate.Description.1.Value"
+            },
+            {
+               "options": [
+                  "WC5E.Feats.Incinerate.Description.2.Options.1",
+                  "WC5E.Feats.Incinerate.Description.2.Options.2",
+                  "WC5E.Feats.Incinerate.Description.2.Options.3"
+               ]
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/fire/flame-burning-earth-orange.webp",
+   "effects": [
+   ]
+}

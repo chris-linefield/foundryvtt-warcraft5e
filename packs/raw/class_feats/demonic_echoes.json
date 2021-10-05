@@ -1,0 +1,29 @@
+{
+   "_id": "uOQu24kJG2zsX378",
+   "name": "Demonic Echoes",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 140",
+      "requirements": "Warlock (Demonology) 1"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.DemonicEchoes.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.DemonicEchoes.Description.2.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/creatures/unholy/demon-fire-horned-mask.webp",
+   "effects": [
+   ]
+}
