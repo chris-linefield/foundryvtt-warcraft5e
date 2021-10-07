@@ -81,7 +81,6 @@ ClassFeatures.alchemist = {
         "20": ["Compendium.warcraft5e.class_feats.6FKCdgSXqxMdvyc1"]
     }
 }
-
 ClassFeatures.deathKnight = {
     "subclasses": {
         "pathOfBlood": {
@@ -163,7 +162,6 @@ ClassFeatures.deathKnight = {
         "20": ["Compendium.warcraft5e.class_feats.aghWTXJ444CYeUKm"]
     }
 }
-
 ClassFeatures.druid = {
     "subclasses": {
         "circleOfBalance": {
@@ -242,7 +240,6 @@ ClassFeatures.druid = {
         "20": ["Compendium.warcraft5e.class_feats.Xr27k8bUvG9sFIen"]
     }
 }
-
 ClassFeatures.tinker = {
     "subclasses": {
         "bomber": {
@@ -313,7 +310,69 @@ ClassFeatures.tinker = {
         "20": ["Compendium.warcraft5e.wc5e_class_feats.OddXpvUlobuwrFOK"]
     }
 }
-
+ClassFeatures.warlock = {
+    "subclasses": {
+        "affliction": {
+            "label": "Affliction",
+            "source": "Core Rules page 139",
+            "features": {
+                "1": [
+                    "Compendium.warcraft5e.wc5e_class_feats.IUX4nj4jmczJOhEA",
+                    "Compendium.warcraft5e.wc5e_class_feats.rySXMTp4uiqk20Gi"
+                ],
+                "6": ["Compendium.warcraft5e.wc5e_class_feats.b0ci4k42K5xY8q4R"],
+                "14": ["Compendium.warcraft5e.wc5e_class_feats.8zRF8tRcN4zBKNZZ"],
+                "18": ["Compendium.warcraft5e.wc5e_class_feats.tIP2mhdV88SnEABk"]
+            }
+        },
+        "demonology": {
+            "label": "Demonology",
+            "source": "Core Rules page 140",
+            "features": {
+                "1": [
+                    "Compendium.warcraft5e.wc5e_class_feats.PHXdCoM6HH3NIf7K",
+                    "Compendium.warcraft5e.wc5e_class_feats.uOQu24kJG2zsX378"
+                ],
+                "6": ["Compendium.warcraft5e.wc5e_class_feats.wY0STEopZzf1hB3z"],
+                "14": ["Compendium.warcraft5e.wc5e_class_feats.xxrqsGK19xOR3q7R"],
+                "18": ["Compendium.warcraft5e.wc5e_class_feats.oDAMc9wlLQ18UbGA"]
+            }
+        },
+        "destruction": {
+            "label": "destruction",
+            "source": "Core Rules page 141",
+            "features": {
+                "1": [
+                    "Compendium.warcraft5e.wc5e_class_feats.0h7RUS2kfUXTwkdm",
+                    "Compendium.warcraft5e.wc5e_class_feats.PCLwGvIRMY3KYLMI"
+                ],
+                "6": ["Compendium.warcraft5e.wc5e_class_feats.AA7PS3znDq201lTn"],
+                "14": ["Compendium.warcraft5e.wc5e_class_feats.Zix5jvsp41eXi14J"],
+                "18": ["Compendium.warcraft5e.wc5e_class_feats.FrHZaqJfS1UxmN0s"]
+            }
+        }
+    },
+    "features": {
+        "1": [
+            "Compendium.warcraft5e.wc5e_class_feats.1PXPQRGYPhhPm8J3",
+            "Compendium.warcraft5e.wc5e_class_feats.bIOMzwUkgs46t8Qe",
+            "Compendium.warcraft5e.wc5e_class_feats.q0phj3NJAGnGl8ym",
+            "Compendium.warcraft5e.wc5e_class_feats.zXqjKHVh08yelm2a"
+        ],
+        "2": ["Compendium.warcraft5e.wc5e_class_feats.aSLDlpVbsPAYtHFE"],
+        "3": ["Compendium.warcraft5e.wc5e_class_feats.FJuWOyl6vdY70eH2"],
+        "4": ["Compendium.warcraft5e.wc5e_class_feats.pZ0s66jTVdto9Z3b"],
+        "6": ["Compendium.warcraft5e.wc5e_class_feats.bIOMzwUkgs46t8Qe"],
+        "8": ["Compendium.warcraft5e.wc5e_class_feats.pZ0s66jTVdto9Z3b"],
+        "10": ["Compendium.warcraft5e.wc5e_class_feats.LbKLP6wNlpy5TBPD"],
+        "12": ["Compendium.warcraft5e.wc5e_class_feats.pZ0s66jTVdto9Z3b"],
+        "14": ["Compendium.warcraft5e.wc5e_class_feats.bIOMzwUkgs46t8Qe"],
+        "16": ["Compendium.warcraft5e.wc5e_class_feats.pZ0s66jTVdto9Z3b"],
+        "18": ["Compendium.warcraft5e.wc5e_class_feats.bIOMzwUkgs46t8Qe"],
+        "19": ["Compendium.warcraft5e.wc5e_class_feats.pZ0s66jTVdto9Z3b"],
+        "20": ["Compendium.warcraft5e.wc5e_class_feats.7PYDrXNrSXhfqJh6"]
+    }
+}
 ClassFeatures.warrior = {
     "subclasses": {
         "arms": {
