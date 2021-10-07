@@ -79,6 +79,9 @@
                                             {{#if this.pack}}
                                                 <a class="entity-link spellLink" data-pack="{{this.pack}}" data-id="{{this.node}}">
                                                     {{this.amount}}x {{localize this.label}}
+                                                    {{#if this.option}}
+                                                        ({{this.option}})
+                                                    {{/if}}
                                                 </a>
                                             {{else}}
                                                 {{localize this.label}}

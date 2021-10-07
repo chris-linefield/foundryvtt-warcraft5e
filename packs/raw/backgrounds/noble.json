@@ -1,0 +1,169 @@
+{
+   "_id": "17ORpYNiFjeIg9WM",
+   "name": "Noble",
+   "permission": {
+      "default": 0
+   },
+   "type": "class",
+   "data": {
+   },
+   "flags": {
+      "wc5e": {
+         "type": "background",
+         "description": [
+            "WC5E.Backgrounds.Noble.Description.1",
+            "WC5E.Backgrounds.Noble.Description.2",
+            "WC5E.Backgrounds.Noble.Description.3"
+         ],
+         "source": "Player's Handbook",
+         "skillProfs": {
+            "range": [
+               "his",
+               "per"
+            ]
+         },
+         "toolProfs": [
+            "one type of gaming set"
+         ],
+         "languages": {
+            "number": 1
+         },
+         "equipment": [
+            [
+               {
+                  "amount": 1,
+                  "pack": "dnd5e.items",
+                  "node": "3OXueEpvDDCVfGFA",
+                  "label": "WC5E.Items.FineClothes.Label"
+               }
+            ],
+            [
+               {
+                  "amount": 1,
+                  "pack": "dnd5e.items",
+                  "node": "kdkpSZMUHGXGM15H",
+                  "label": "WC5E.Items.SignetRing.Label"
+               }
+            ],
+            [
+               {
+                  "amount": 1,
+                  "pack": "dnd5e.items",
+                  "label": "Scroll of Pedigree"
+               }
+            ],
+            [
+               {
+                  "amount": 1,
+                  "pack": "dnd5e.items",
+                  "node": "9bWTRRDym06PzSAf",
+                  "label": "WC5E.Items.Pouch.Label",
+                  "option": "25g"
+               }
+            ]
+         ],
+         "feats": [
+            {
+               "pack": "warcraft5e.wc5e_background_feats",
+               "node": "fp3upjS7NmVSlxWE",
+               "label": "WC5E.Feats.Retainers.Label"
+            },
+            {
+               "pack": "warcraft5e.wc5e_background_feats",
+               "node": "xCEHaF7vSB5bIxir",
+               "label": "WC5E.Feats.PositionOfPrivilege.Label"
+            }
+         ],
+         "suggestions": {
+            "description": "WC5E.Backgrounds.Noble.Suggestions.Description",
+            "personality": [
+               "WC5E.Backgrounds.Noble.Suggestions.Personality.1",
+               "WC5E.Backgrounds.Noble.Suggestions.Personality.2",
+               "WC5E.Backgrounds.Noble.Suggestions.Personality.3",
+               "WC5E.Backgrounds.Noble.Suggestions.Personality.4",
+               "WC5E.Backgrounds.Noble.Suggestions.Personality.5",
+               "WC5E.Backgrounds.Noble.Suggestions.Personality.6",
+               "WC5E.Backgrounds.Noble.Suggestions.Personality.7",
+               "WC5E.Backgrounds.Noble.Suggestions.Personality.8"
+            ],
+            "ideals": [
+               {
+                  "title": "WC5E.Backgrounds.Noble.Suggestions.Ideal.1.Title",
+                  "value": "WC5E.Backgrounds.Noble.Suggestions.Ideal.1.Value"
+               },
+               {
+                  "title": "WC5E.Backgrounds.Noble.Suggestions.Ideal.2.Title",
+                  "value": "WC5E.Backgrounds.Noble.Suggestions.Ideal.2.Value"
+               },
+               {
+                  "title": "WC5E.Backgrounds.Noble.Suggestions.Ideal.3.Title",
+                  "value": "WC5E.Backgrounds.Noble.Suggestions.Ideal.3.Value"
+               },
+               {
+                  "title": "WC5E.Backgrounds.Noble.Suggestions.Ideal.4.Title",
+                  "value": "WC5E.Backgrounds.Noble.Suggestions.Ideal.4.Value"
+               },
+               {
+                  "title": "WC5E.Backgrounds.Noble.Suggestions.Ideal.5.Title",
+                  "value": "WC5E.Backgrounds.Noble.Suggestions.Ideal.5.Value"
+               },
+               {
+                  "title": "WC5E.Backgrounds.Noble.Suggestions.Ideal.6.Title",
+                  "value": "WC5E.Backgrounds.Noble.Suggestions.Ideal.6.Value"
+               }
+            ],
+            "bonds": [
+               "WC5E.Backgrounds.Noble.Suggestions.Bonds.1",
+               "WC5E.Backgrounds.Noble.Suggestions.Bonds.2",
+               "WC5E.Backgrounds.Noble.Suggestions.Bonds.3",
+               "WC5E.Backgrounds.Noble.Suggestions.Bonds.4",
+               "WC5E.Backgrounds.Noble.Suggestions.Bonds.5",
+               "WC5E.Backgrounds.Noble.Suggestions.Bonds.6"
+            ],
+            "flaws": [
+               "WC5E.Backgrounds.Noble.Suggestions.Flaws.1",
+               "WC5E.Backgrounds.Noble.Suggestions.Flaws.2",
+               "WC5E.Backgrounds.Noble.Suggestions.Flaws.3",
+               "WC5E.Backgrounds.Noble.Suggestions.Flaws.4",
+               "WC5E.Backgrounds.Noble.Suggestions.Flaws.5",
+               "WC5E.Backgrounds.Noble.Suggestions.Flaws.6"
+            ]
+         },
+         "variants": [
+            {
+               "title": "WC5E.Backgrounds.Noble.Variants.Knight.Title",
+               "description": [
+                  {
+                     "value": "WC5E.Backgrounds.Noble.Variants.Knight.Description.1.Value"
+                  }
+               ],
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_background_feats",
+                     "node": "u1Rc4MPFHDNOi1eL",
+                     "label": "WC5E.Feats.MountedWarrior.Label"
+                  }
+               ]
+            },
+            {
+               "title": "WC5E.Backgrounds.Noble.Variants.TribalElite.Title",
+               "description": [
+                  {
+                     "value": "WC5E.Backgrounds.Noble.Variants.TribalElite.Description.1.Value"
+                  }
+               ],
+               "changes": "WC5E.Backgrounds.Noble.Variants.TribalElite.Description.2.Value",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_background_feats",
+                     "node": "kUSLZC42tLtf22c3",
+                     "label": "WC5E.Feats.RiteOfGlory.Label"
+                  }
+               ]
+            }
+         ]
+      }
+   },
+   "img": "icons/equipment/finger/ring-faceted-gold-purple.webp",
+   "effects": []
+}
