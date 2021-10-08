@@ -1,0 +1,26 @@
+{
+   "_id": "JfRs0obM7Ft7ZUZC",
+   "name": "Wanderer",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Player's Handbook",
+      "requirements": "Outlander"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.Wanderer.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/water/water-hand.webp",
+   "effects": [
+   ]
+}

@@ -682,6 +682,180 @@
                   }
                }
             }
+         },
+         "Noble": {
+            "Description": {
+               "1": "You are an aristocrat or important member of society. Nobles exist in all societies, even if they aren‘t legally defined as such. There is always a cultural, spiritual, or economic elitein every civilization, regardless of the title itself.",
+               "2": "You may be a noble of the Stormwind House of Nobles, dissatisfied with the role the Alliance has or your fellow nobles (egged on by nobles such as Lady Prestor), or a high tribesman in orcish society. While few night elven nobles have remaining grievances after they witnessed the folly of Queen Azshara during the War of the Ancients, some do long for the days where they ruled and the Sisterhood of Elune and the Druids were not calling the shots.",
+               "3": "Where the nobles of Alterac turned to serve or join the criminal Syndicate, high elven noble refugees have decided to fight back for their homelands."
+            },
+            "Suggestions": {
+               "Description": "Nobles are born and raised to a very different lifestyle than most people ever experience, and their personalities reflect that upbringing. A noble title comes with a plethora of bonds –responsibilities to family, to other nobles (including the sovereign), to the people entrusted to the family's care, or even to the title itself. But this responsibility is often a good way to undermine a noble.",
+               "Personality": {
+                  "1": "My eloquent flattery makes everyone I talk to feel like the most wonderful and important person in the world.",
+                  "2": "The common folk love me for my kindness and generosity.",
+                  "3": "No one could doubt by looking at my regal bearing that I am a cut above the unwashed masses.",
+                  "4": "I take great pains to always look my best and follow the latest fashions.",
+                  "5": "I don't like to get my hands dirty, and I won't be caught dead in unsuitable accommodations.",
+                  "6": "Despite my noble birth, I do not place myself above other folk. We all have the same blood.",
+                  "7": "My favor, once lost, is lost forever.",
+                  "8": "If you do me an injury, I will crush you, ruin your name, and salt your fields."
+               },
+               "Ideal": {
+                  "1": {
+                     "Title": "Respect",
+                     "Value": "Respect is due to me because of my position, but all people regardless of station deserve to be treated with dignity. (Good)"
+                  },
+                  "2": {
+                     "Title": "Responsibility",
+                     "Value": "It is my duty to respect the authority of those above me, just as those below me must respect mine. (Lawful)"
+                  },
+                  "3": {
+                     "Title": "Independence",
+                     "Value": "I must prove that I can handle myself without the coddling of my family. (Chaotic)"
+                  },
+                  "4": {
+                     "Title": "Power",
+                     "Value": "If I can attain more power, no one will tell me what to do. (Evil)"
+                  },
+                  "5": {
+                     "Title": "Family",
+                     "Value": "Blood runs thicker than water. (Any)"
+                  },
+                  "6": {
+                     "Title": "Noble Obligation",
+                     "Value": "It is my duty to protect and care for the people beneath me. (Good)"
+                  }
+               },
+               "Bonds": {
+                  "1": "I will face any challenge to win the approval of my family.",
+                  "2": "My house's alliance with another noble family must be sustained at all costs.",
+                  "3": "Nothing is more important than the other members of my family.",
+                  "4": "I am in love with the heir of a family that my family despises.",
+                  "5": "My loyalty to my sovereign is unwavering.",
+                  "6": "The common folk must see me as a hero of the people."
+               },
+               "Flaws": {
+                  "1": "I secretly believe that everyone is beneath me.",
+                  "2": "I hide a truly scandalous secret that could ruin my family forever.",
+                  "3": "I too often hear veiled insults and threats in every word addressed to me, and I'm quick to anger.",
+                  "4": "I have an insatiable desire for carnal pleasures.",
+                  "5": "In fact, the world does revolve around me.",
+                  "6": "By my words and actions, I often bring shame to my family."
+               }
+            },
+            "Variants": {
+               "Knight": {
+                  "Title": "Knight",
+                  "Description": {
+                     "1": {
+                        "Value": "There are many knightly orders on Azeroth, from the noble Knights of Stormwind and the remnants of the Silver Hand, to the Argent Dawn or Scarlet Crusade orders. Orcish raiders also have a position of importance in the Horde and in their tribes, often serving as advisors and councilors as well as generals and commanders."
+                     }
+                  }
+               },
+               "TribalElite": {
+                  "Title": "Tribal Elite",
+                  "Description": {
+                     "1": {
+                        "Value": "You are an elite member of your tribe. Many tribes of dozens of races spread among Azeroth, such as the various troll and orc clans."
+                     },
+                     "2": {
+                        "Value": "Instead of receiving a signet ring, you have a symbol or flag of your clan."
+                     }
+                  }
+               }
+            }
+         },
+         "Outlander": {
+            "Description": {
+               "1": "You are a survivor of the wilderness. An outlander, like the hermit, tends to live alone though not exclusively. They live in the wilds for years at a time away from greater civilization. They live off the land and survive using their wits.",
+               "2": "Every race has its members who chose to live apart from urban civilization."
+            },
+            "Suggestions": {
+               "Description": "Often considered rude and uncouth among civilized folk, outlanders have little respect for the niceties of life in the cities. The ties of tribe, clan, family, and the natural world of which they are a part are the most important bonds to most outlanders.",
+               "Personality": {
+                  "1": "I'm driven by a wanderlust that led me away from home.",
+                  "2": "I watch over my friends as if they were a litter of newborn pups.",
+                  "3": "I once ran twenty-five miles without stopping to warn my clan of an approaching orc horde. I'd do it again if I had to.",
+                  "4": "I have a lesson for every situation, drawn from observing nature.",
+                  "5": "I place no stock in wealthy or well-mannered folk. Money and manners won't save you from a hungry owlbear.",
+                  "6": "I'm always picking things up, absently fiddling with them, and sometimes accidentally breaking them.",
+                  "7": "I feel far more comfortable around animals than people.",
+                  "8": "I was, in fact, raised by wolves."
+               },
+               "Ideal": {
+                  "1": {
+                     "Title": "Change",
+                     "Value": "Life is like the seasons, in constant change, and we must change with it. (Chaotic)"
+                  },
+                  "2": {
+                     "Title": "Greater Good",
+                     "Value": "It is each person's responsibility to make the most happiness for the whole tribe. (Good)"
+                  },
+                  "3": {
+                     "Title": "Honor",
+                     "Value": "If I dishonor myself, I dishonor my whole clan. (Lawful)"
+                  },
+                  "4": {
+                     "Title": "Might",
+                     "Value": "The strongest are meant to rule. (Evil)"
+                  },
+                  "5": {
+                     "Title": "Nature",
+                     "Value": "The natural world is more important than all the constructs of civilization. (Neutral)"
+                  },
+                  "6": {
+                     "Title": "Glory",
+                     "Value": "I must earn glory in battle, for myself and my clan. (Any)"
+                  }
+               },
+               "Bonds": {
+                  "1": "My family, clan, or tribe is the most important thing in my life, even when they are far from me.",
+                  "2": "An injury to the unspoiled wilderness of my home is an injury to me.",
+                  "3": "I will bring terrible wrath down on the evildoers who destroyed my homeland.",
+                  "4": "I am the last of my tribe, and it is up to me to ensure their names enter legend.",
+                  "5": "I suffer awful visions of a coming disaster and will do anything to prevent it.",
+                  "6": "It is my duty to provide children to sustain my tribe."
+               },
+               "Flaws": {
+                  "1": "I am too enamored of ale, wine, and other intoxicants.",
+                  "2": "There's no room for caution in a life lived to the fullest.",
+                  "3": "I remember every insult I've received and nurse a silent resentment toward anyone who's ever wronged me.",
+                  "4": "I am slow to trust members of other races, tribes, and societies.",
+                  "5": "Violence is my answer to almost any challenge.",
+                  "6": "Don't expect me to save those who can't save themselves. It is nature's way that the strong thrive and the weak perish."
+               }
+            },
+            "Variants": {
+               "Headhunter": {
+                  "Title": "Headhunter (Troll only)",
+                  "Description": {
+                     "1": {
+                        "Value": "You are capable combatant and survivalist who serves himself or his tribe, walking the wilderness and putting down threats to your people while living far from them. This could be for noble or spiritual reasons."
+                     },
+                     "2": {
+                        "Value": "Instead of proficiency in a musical instrument, you may be proficient with one artisan tool of your choice or the herbalism kit. You can also replace your staff with an herbalism kit."
+                     }
+                  }
+               },
+               "SpiritWalker": {
+                  "Title": "Spirit Walker (Tauren and Orc only)",
+                  "Description": {
+                     "1": {
+                        "Value": "Instead of proficiency in a musical instrument, you may be proficient with one artisan tool of your choice or the herbalism kit. You can also replace your staff with an herbalism kit."
+                     },
+                     "2": {
+                        "Value": "As a spirit walker, your fur is pearly-white, and your eyes reflect the life of a thousand souls."
+                     },
+                     "3": {
+                        "Value": "Their bodies are vessels, conduits from the realm of the dead to the world of the living. As a spirit walker, you are often looked upon with awe and fear by their brethren. A spirit walker strong enough to bear the weight of so many souls achieves a mystical transcendence, embodying the collective will and experience of the generations that are reaching out to him."
+                     },
+                     "4": {
+                        "Value": "Alternatively, instead of being a tauren, you might be an orc from the Shattered Hand clan."
+                     }
+                  }
+               }
+            }
          }
       },
       "Character": {
@@ -1401,6 +1575,17 @@
             "Description": {
                "1": {
                   "Value": "When you successfully attack and damage a creature with a melee attack, you spend a bonus action to attack another creature you choose that is within 5 feet away from the first target."
+               }
+            }
+         },
+         "ConduitOfSpirits": {
+            "Label": "Conduit of Spirits",
+            "Description": {
+               "1": {
+                  "Value": "You are capable of channeling ancestral spirits through your body. When you sleep or meditate, you often receive visions of the people who are now dead, usually echoes of the past. If there are restless spirits about, the DM may allow a limited degree of contact with them (as a Call), as if you shared a language with incorporeal undead. This communication takes five times as much time to deliver or understand a message."
+               },
+               "2": {
+                  "Value": "Uncontrolled undead that normally hostile by nature might approach with caution or ignore you, instead of attacking on sight.Because this feature is not magical, its power is inferior to the speak with dead spell or actually speaking a shared language."
                }
             }
          },
@@ -2477,6 +2662,28 @@
                }
             }
          },
+         "Origin": {
+            "Label": "Origin",
+            "Description": {
+               "1": {
+                  "Value": "You've been to strange places and seen things that others cannot begin to fathom. Consider some of the distant lands you have visited, and how they impacted you. You can roll on the following table to determine your occupation during your time in the wild, or choose one that best fits your character."
+               },
+               "2": {
+                  "Options": {
+                     "1": "Forester",
+                     "2": "Trapper",
+                     "3": "Homesteader",
+                     "4": "Guide",
+                     "5": "Exile or Outcast",
+                     "6": "Bounty hunter",
+                     "7": "Pilgrim",
+                     "8": "Tribal nomad",
+                     "9": "Hunter-gatherer",
+                     "10": "Tribal marauder"
+                  }
+               }
+            }
+         },
          "Overpower": {
             "Label": "Overpower",
             "Description": {
@@ -3105,6 +3312,14 @@
                      "3": "<i>Pushing Counter</i>: Your opportunity attack pushes the enemy 5 feet away.",
                      "4": "<i>Repositioning Counter</i>: Your opportunity attack allows you to exchange places with an ally within 5 feet of you."
                   }
+               }
+            }
+         },
+         "Wanderer": {
+            "Label": "Wanderer",
+            "Description": {
+               "1": {
+                  "Value": "You have an excellent memory for maps and geography, and you can always recall the general layout of terrain, settlements, and other features around you. In addition, you can find food and fresh water for yourself and up to five other people each day, provided that the land offers berries, small game, water, and so forth."
                }
             }
          },
