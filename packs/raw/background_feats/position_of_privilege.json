@@ -1,0 +1,26 @@
+{
+   "_id": "xCEHaF7vSB5bIxir",
+   "name": "Position of Privilege",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Player's Handbook",
+      "requirements": "Noble"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.PositionOfPrivilege.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/equipment/finger/ring-crown-gold-red.webp",
+   "effects": [
+   ]
+}

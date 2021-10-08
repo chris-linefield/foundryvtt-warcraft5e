@@ -1,0 +1,29 @@
+{
+   "_id": "Idr6UhgGdYVEyuyi",
+   "name": "Conduit of Spirits",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Player's Handbook",
+      "requirements": "Outlander (Spirit Walker)"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.ConduitOfSpirits.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.ConduitOfSpirits.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/light/explosion-star-glow-silhouette.webp",
+   "effects": [
+   ]
+}
