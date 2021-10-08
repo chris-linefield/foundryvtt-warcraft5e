@@ -2638,6 +2638,14 @@
                }
             }
          },
+         "MountedWarrior": {
+            "Label": "Mounted Warrior",
+            "Description": {
+               "1": {
+                  "Value": "Instead of taking the Position of Privilege or Retainers feature, you may instead acquire a racial mount appropriate for your race (such as a horse for humans, a riding wolf for orcs, etc.)."
+               }
+            }
+         },
          "MortalStrike": {
             "Label": "Mortal Strike",
             "Description": {
@@ -2733,6 +2741,14 @@
                }
             }
          },
+         "PositionOfPrivilege": {
+            "Label": "Position of Privilege",
+            "Description": {
+               "1": {
+                  "Value": "Thanks to your noble birth, people are inclined to think the best of you. You are welcome in high society, and people assume you have the right to be wherever you are. The common folk make every effort to accommodate you and avoid your displeasure, and other people of high birth treat you as a member of the same social sphere. You can secure an audience with a local noble if you need to."
+               }
+            }
+         },
          "PracticedPrecision": {
             "Label": "Practiced Precision",
             "Description": {
@@ -2808,6 +2824,25 @@
                },
                "2": {
                   "Value": "If you don‘t already have the Second Wind talent, you gain it as a talent instead of improving it."
+               }
+            }
+         },
+         "Retainers": {
+            "Label": "Retainers",
+            "Description": {
+               "1": {
+                  "Value": "If your character has a noble background, you may select this background feature instead of Position of Privilege."
+               },
+               "2": {
+                  "Value": "You have the service of three retainers loyal to your family. These retainers can be attendants or messengers, and one might be a majordomo. Your retainers are commoners who can perform mundane tasks for you, but they do not fight for you, will not follow you into obviously dangerous areas (such as dungeons), and will leave if they are frequently endangered or abused."
+               }
+            }
+         },
+         "RiteOfGlory": {
+            "Label": "Rite of Glory",
+            "Description": {
+               "1": {
+                  "Value": "You passed many trials, such as the rite of adulthood and rite of glory. Your clan (and others) acknowledge your authority and influence, and you may utilize this influence to secure simple equipment such as temporary mounts or equipment. You are also honored by your clan, and you and your adventuring companions can find it easy to acquire shelter and food as guests, so long as you observe the customs of hospitality."
                }
             }
          },

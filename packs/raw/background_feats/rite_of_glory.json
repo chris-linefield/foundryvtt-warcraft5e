@@ -1,0 +1,26 @@
+{
+   "_id": "kUSLZC42tLtf22c3",
+   "name": "Rite of Glory",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Player's Handbook",
+      "requirements": "Noble (Tribal Elite)"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.RiteOfGlory.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/sundries/flags/banner-standard-moon.webp",
+   "effects": [
+   ]
+}

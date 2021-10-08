@@ -1,0 +1,29 @@
+{
+   "_id": "fp3upjS7NmVSlxWE",
+   "name": "Retainers",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Player's Handbook",
+      "requirements": "Noble"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.Retainers.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.Retainers.Description.2.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/environment/people/commoner.webp",
+   "effects": [
+   ]
+}

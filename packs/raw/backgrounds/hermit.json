@@ -15,7 +15,6 @@
          ],
          "source": "Player's Handbook",
          "skillProfs": {
-            "amount": 2,
             "range": [
                "med",
                "rel"
