@@ -142,12 +142,14 @@
                   {
                      "value": "WC5E.Backgrounds.Hermit.Variants.SlumberingDruid.Description.2.Value"
                   }
+               ],
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_background_feats",
+                     "node": "1mFcUqBy1l4tibkw",
+                     "label": "WC5E.Feats.EmeraldSleep.Label"
+                  }
                ]
-            },
-            {
-               "pack": "warcraft5e.wc5e_background_feats",
-               "node": "1mFcUqBy1l4tibkw",
-               "label": "WC5E.Feats.EmeraldSleep.Label"
             }
          ]
       }

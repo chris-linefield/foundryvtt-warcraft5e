@@ -1,0 +1,121 @@
+{
+   "_id": "HDVm4yB08Hh627gj",
+   "name": "Origin",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Player's Handbook",
+      "requirements": "Outlander"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.Origin.Description.1.Value"
+            },
+            {
+
+               "table": {
+                  "head": [
+                     {
+                        "title": "d10"
+                     },
+                     {
+                        "title": "WC5E.Feats.Origin.Label"
+                     }
+                  ],
+                  "rows": [
+                     [
+                        {
+                           "value": 1
+                        },
+                        {
+                           "text": "WC5E.Feats.Origin.Description.2.Options.1"
+                        }
+                     ],
+                     [
+                        {
+                           "value": 2
+                        },
+                        {
+                           "text": "WC5E.Feats.Origin.Description.2.Options.2"
+                        }
+                     ],
+                     [
+                        {
+                           "value": 3
+                        },
+                        {
+                           "text": "WC5E.Feats.Origin.Description.2.Options.3"
+                        }
+                     ],
+                     [
+                        {
+                           "value": 4
+                        },
+                        {
+                           "text": "WC5E.Feats.Origin.Description.2.Options.4"
+                        }
+                     ],
+                     [
+                        {
+                           "value": 5
+                        },
+                        {
+                           "text": "WC5E.Feats.Origin.Description.2.Options.5"
+                        }
+                     ],
+                     [
+                        {
+                           "value": 6
+                        },
+                        {
+                           "text": "WC5E.Feats.Origin.Description.2.Options.6"
+                        }
+                     ],
+                     [
+                        {
+                           "value": 7
+                        },
+                        {
+                           "text": "WC5E.Feats.Origin.Description.2.Options.7"
+                        }
+                     ],
+                     [
+                        {
+                           "value": 8
+                        },
+                        {
+                           "text": "WC5E.Feats.Origin.Description.2.Options.8"
+                        }
+                     ],
+                     [
+                        {
+                           "value": 9
+                        },
+                        {
+                           "text": "WC5E.Feats.Origin.Description.2.Options.9"
+                        }
+                     ],
+                     [
+                        {
+                           "value": 10
+                        },
+                        {
+                           "text": "WC5E.Feats.Origin.Description.2.Options.10"
+                        }
+                     ]
+                  ]
+               }
+            }
+         ]
+      }
+   },
+   "img": "icons/environment/wilderness/cave-entrance-rocky.webp",
+   "effects": [
+   ]
+}

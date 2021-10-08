@@ -1,0 +1,175 @@
+{
+   "_id": "RUtQOTmrsR8SD1Y3",
+   "name": "Outlander",
+   "permission": {
+      "default": 0
+   },
+   "type": "class",
+   "data": {
+   },
+   "flags": {
+      "wc5e": {
+         "type": "background",
+         "description": [
+            "WC5E.Backgrounds.Outlander.Description.1"
+         ],
+         "source": "Player's Handbook",
+         "skillProfs": {
+            "range": [
+               "ath",
+               "sur"
+            ]
+         },
+         "toolProfs": [
+            "musical instrument"
+         ],
+         "languages": {
+            "number": 1
+         },
+         "equipment": [
+            [
+               {
+                  "amount": 1,
+                  "pack": "dnd5e.items",
+                  "node": "BeKIrNIvNHRPQ4t5",
+                  "label": "WC5E.Items.Staff.Label"
+               }
+            ],
+            [
+               {
+                  "amount": 1,
+                  "pack": "dnd5e.items",
+                  "node": "LiOD83I4MIZlpoQQ",
+                  "label": "WC5E.Items.HuntingTrap.Label"
+               }
+            ],
+            [
+               {
+                  "amount": 1,
+                  "pack": "dnd5e.items",
+                  "label": "trophy from an animal you killed"
+               }
+            ],
+            [
+               {
+                  "amount": 1,
+                  "pack": "dnd5e.items",
+                  "node": "SsAmWV6YBqeOFihT",
+                  "label": "WC5E.Items.TravelersClothes.Label"
+               }
+            ],
+            [
+               {
+                  "amount": 1,
+                  "pack": "dnd5e.items",
+                  "node": "9bWTRRDym06PzSAf",
+                  "label": "WC5E.Items.Pouch.Label",
+                  "option": "10gp"
+               }
+            ]
+         ],
+         "feats": [
+            {
+               "pack": "warcraft5e.wc5e_background_feats",
+               "node": "HDVm4yB08Hh627gj",
+               "label": "WC5E.Feats.Origin.Label"
+            },
+            {
+               "pack": "warcraft5e.wc5e_background_feats",
+               "node": "JfRs0obM7Ft7ZUZC",
+               "label": "WC5E.Feats.Wanderer.Label"
+            }
+         ],
+         "suggestions": {
+            "description": "WC5E.Backgrounds.Outlander.Suggestions.Description",
+            "personality": [
+               "WC5E.Backgrounds.Outlander.Suggestions.Personality.1",
+               "WC5E.Backgrounds.Outlander.Suggestions.Personality.2",
+               "WC5E.Backgrounds.Outlander.Suggestions.Personality.3",
+               "WC5E.Backgrounds.Outlander.Suggestions.Personality.4",
+               "WC5E.Backgrounds.Outlander.Suggestions.Personality.5",
+               "WC5E.Backgrounds.Outlander.Suggestions.Personality.6",
+               "WC5E.Backgrounds.Outlander.Suggestions.Personality.7",
+               "WC5E.Backgrounds.Outlander.Suggestions.Personality.8"
+            ],
+            "ideals": [
+               {
+                  "title": "WC5E.Backgrounds.Outlander.Suggestions.Ideal.1.Title",
+                  "value": "WC5E.Backgrounds.Outlander.Suggestions.Ideal.1.Value"
+               },
+               {
+                  "title": "WC5E.Backgrounds.Outlander.Suggestions.Ideal.2.Title",
+                  "value": "WC5E.Backgrounds.Outlander.Suggestions.Ideal.2.Value"
+               },
+               {
+                  "title": "WC5E.Backgrounds.Outlander.Suggestions.Ideal.3.Title",
+                  "value": "WC5E.Backgrounds.Outlander.Suggestions.Ideal.3.Value"
+               },
+               {
+                  "title": "WC5E.Backgrounds.Outlander.Suggestions.Ideal.4.Title",
+                  "value": "WC5E.Backgrounds.Outlander.Suggestions.Ideal.4.Value"
+               },
+               {
+                  "title": "WC5E.Backgrounds.Outlander.Suggestions.Ideal.5.Title",
+                  "value": "WC5E.Backgrounds.Outlander.Suggestions.Ideal.5.Value"
+               },
+               {
+                  "title": "WC5E.Backgrounds.Outlander.Suggestions.Ideal.6.Title",
+                  "value": "WC5E.Backgrounds.Outlander.Suggestions.Ideal.6.Value"
+               }
+            ],
+            "bonds": [
+               "WC5E.Backgrounds.Outlander.Suggestions.Bonds.1",
+               "WC5E.Backgrounds.Outlander.Suggestions.Bonds.2",
+               "WC5E.Backgrounds.Outlander.Suggestions.Bonds.3",
+               "WC5E.Backgrounds.Outlander.Suggestions.Bonds.4",
+               "WC5E.Backgrounds.Outlander.Suggestions.Bonds.5",
+               "WC5E.Backgrounds.Outlander.Suggestions.Bonds.6"
+            ],
+            "flaws": [
+               "WC5E.Backgrounds.Outlander.Suggestions.Flaws.1",
+               "WC5E.Backgrounds.Outlander.Suggestions.Flaws.2",
+               "WC5E.Backgrounds.Outlander.Suggestions.Flaws.3",
+               "WC5E.Backgrounds.Outlander.Suggestions.Flaws.4",
+               "WC5E.Backgrounds.Outlander.Suggestions.Flaws.5",
+               "WC5E.Backgrounds.Outlander.Suggestions.Flaws.6"
+            ]
+         },
+         "variants": [
+            {
+               "title": "WC5E.Backgrounds.Outlander.Variants.Headhunter.Title",
+               "description": [
+                  {
+                     "value": "WC5E.Backgrounds.Outlander.Variants.Headhunter.Description.1.Value"
+                  }
+               ],
+               "changes": "WC5E.Backgrounds.Outlander.Variants.Headhunter.Description.2.Value"
+            },
+            {
+               "title": "WC5E.Backgrounds.Outlander.Variants.SpiritWalker.Title",
+               "description": [
+                  {
+                     "value": "WC5E.Backgrounds.Outlander.Variants.SpiritWalker.Description.1.Value"
+                  },
+                  {
+                     "value": "WC5E.Backgrounds.Outlander.Variants.SpiritWalker.Description.2.Value"
+                  },
+                  {
+                     "value": "WC5E.Backgrounds.Outlander.Variants.SpiritWalker.Description.3.Value"
+                  }
+               ],
+               "changes": "WC5E.Backgrounds.Outlander.Variants.SpiritWalker.Description.4.Value",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_background_feats",
+                     "node": "Idr6UhgGdYVEyuyi",
+                     "label": "WC5E.Feats.ConduitOfSpirits.Label"
+                  }
+               ]
+            }
+         ]
+      }
+   },
+   "img": "icons/environment/wilderness/cave-entrance-rocky.webp",
+   "effects": []
+}
