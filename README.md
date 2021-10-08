@@ -21,7 +21,7 @@ Features newly implemented race-items with their own sheet with lore and images.
 
 Feature | Description
 ------------ | -------------
-![Backgrounds Preview](http://www.hahn-webdesign.de/warcraft5e/backgrounds_preview.jpg) | Features newly implemented background-items with their own sheet with lore and images. Features compendium entries for all backgrounds.<br><br> Progress:<ul><li>[x] Acolyte + Variants and Feats</li><li>[x] Charlatan + Variants and Feats</li><li>[x] Criminal + Variants and Feats</li><li>[x] Entertainer + Variants and Feats</li><li>[x] Folk Hero + Variants and Feats</li><li>[x] Guild Artisan + Variants and Feats</li><li>[x] Haunted One + Variants and Feats</li><li>[x] Hermit + Variants and Feats</li><li>[ ] Noble</li><li>[ ] Outlander</li><li>[ ] Sage</li><li>[ ] Sailor</li><li>[ ] Soldier</li><li>[ ] Urchin</li></ul>
+![Backgrounds Preview](http://www.hahn-webdesign.de/warcraft5e/backgrounds_preview.jpg) | Features newly implemented background-items with their own sheet with lore and images. Features compendium entries for all backgrounds.<br><br> Progress:<ul><li>[x] Acolyte + Variants and Feats</li><li>[x] Charlatan + Variants and Feats</li><li>[x] Criminal + Variants and Feats</li><li>[x] Entertainer + Variants and Feats</li><li>[x] Folk Hero + Variants and Feats</li><li>[x] Guild Artisan + Variants and Feats</li><li>[x] Haunted One + Variants and Feats</li><li>[x] Hermit + Variants and Feats</li><li>[x] Noble + Variants and Feats</li><li>[x] Outlander + Variants and Feats</li><li>[ ] Sage</li><li>[ ] Sailor</li><li>[ ] Soldier</li><li>[ ] Urchin</li></ul>
 
 Description | Feature
 ------------ | -------------
