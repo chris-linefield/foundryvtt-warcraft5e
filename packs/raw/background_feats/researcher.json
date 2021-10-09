@@ -1,0 +1,26 @@
+{
+   "_id": "kxG8xTbMjXkXvC3f",
+   "name": "Researcher",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Player's Handbook",
+      "requirements": "Sage"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.Researcher.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/tools/scribal/magnifying-glass.webp",
+   "effects": [
+   ]
+}
