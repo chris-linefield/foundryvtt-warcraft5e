@@ -1,0 +1,165 @@
+{
+   "_id": "A90rdXGcdZQy0aMb",
+   "name": "Sage",
+   "permission": {
+      "default": 0
+   },
+   "type": "class",
+   "data": {
+   },
+   "flags": {
+      "wc5e": {
+         "type": "background",
+         "description": [
+            "WC5E.Backgrounds.Sage.Description.1"
+         ],
+         "source": "Player's Handbook",
+         "skillProfs": {
+            "range": [
+               "arc",
+               "history"
+            ]
+         },
+         "toolProfs": [],
+         "languages": {
+            "number": 2
+         },
+         "equipment": [
+            [
+               {
+                  "amount": 1,
+                  "pack": "dnd5e.items",
+                  "label": "bottle of ink"
+               }
+            ],
+            [
+               {
+                  "amount": 1,
+                  "pack": "dnd5e.items",
+                  "label": "quill"
+               }
+            ],
+            [
+               {
+                  "amount": 1,
+                  "pack": "dnd5e.items",
+                  "node": "3nVvaHVfHsgwGlkL",
+                  "label": "WC5E.Items.SmallKnife.Label"
+               }
+            ],
+            [
+               {
+                  "amount": 1,
+                  "pack": "dnd5e.items",
+                  "label": "a letter from a dead colleague posing a question you have not yet been able to answer"
+               }
+            ],
+            [
+               {
+                  "amount": 1,
+                  "pack": "dnd5e.items",
+                  "node": "8RXjiddJ6VGyE7vB",
+                  "label": "WC5E.Items.CommonClothes.Label"
+               }
+            ],
+            [
+               {
+                  "amount": 1,
+                  "pack": "dnd5e.items",
+                  "node": "9bWTRRDym06PzSAf",
+                  "label": "WC5E.Items.Pouch.Label",
+                  "option": "10gp"
+               }
+            ]
+         ],
+         "feats": [
+            {
+               "pack": "warcraft5e.wc5e_background_feats",
+               "node": "pon7iNfDb5X5I0Nb",
+               "label": "WC5E.Feats.Specialty.Label"
+            },
+            {
+               "pack": "warcraft5e.wc5e_background_feats",
+               "node": "kxG8xTbMjXkXvC3f",
+               "label": "WC5E.Feats.Researcher.Label"
+            }
+         ],
+         "suggestions": {
+            "description": "WC5E.Backgrounds.Sage.Suggestions.Description",
+            "personality": [
+               "WC5E.Backgrounds.Sage.Suggestions.Personality.1",
+               "WC5E.Backgrounds.Sage.Suggestions.Personality.2",
+               "WC5E.Backgrounds.Sage.Suggestions.Personality.3",
+               "WC5E.Backgrounds.Sage.Suggestions.Personality.4",
+               "WC5E.Backgrounds.Sage.Suggestions.Personality.5",
+               "WC5E.Backgrounds.Sage.Suggestions.Personality.6",
+               "WC5E.Backgrounds.Sage.Suggestions.Personality.7",
+               "WC5E.Backgrounds.Sage.Suggestions.Personality.8"
+            ],
+            "ideals": [
+               {
+                  "title": "WC5E.Backgrounds.Sage.Suggestions.Ideal.1.Title",
+                  "value": "WC5E.Backgrounds.Sage.Suggestions.Ideal.1.Value"
+               },
+               {
+                  "title": "WC5E.Backgrounds.Sage.Suggestions.Ideal.2.Title",
+                  "value": "WC5E.Backgrounds.Sage.Suggestions.Ideal.2.Value"
+               },
+               {
+                  "title": "WC5E.Backgrounds.Sage.Suggestions.Ideal.3.Title",
+                  "value": "WC5E.Backgrounds.Sage.Suggestions.Ideal.3.Value"
+               },
+               {
+                  "title": "WC5E.Backgrounds.Sage.Suggestions.Ideal.4.Title",
+                  "value": "WC5E.Backgrounds.Sage.Suggestions.Ideal.4.Value"
+               },
+               {
+                  "title": "WC5E.Backgrounds.Sage.Suggestions.Ideal.5.Title",
+                  "value": "WC5E.Backgrounds.Sage.Suggestions.Ideal.5.Value"
+               },
+               {
+                  "title": "WC5E.Backgrounds.Sage.Suggestions.Ideal.6.Title",
+                  "value": "WC5E.Backgrounds.Sage.Suggestions.Ideal.6.Value"
+               }
+            ],
+            "bonds": [
+               "WC5E.Backgrounds.Sage.Suggestions.Bonds.1",
+               "WC5E.Backgrounds.Sage.Suggestions.Bonds.2",
+               "WC5E.Backgrounds.Sage.Suggestions.Bonds.3",
+               "WC5E.Backgrounds.Sage.Suggestions.Bonds.4",
+               "WC5E.Backgrounds.Sage.Suggestions.Bonds.5",
+               "WC5E.Backgrounds.Sage.Suggestions.Bonds.6"
+            ],
+            "flaws": [
+               "WC5E.Backgrounds.Sage.Suggestions.Flaws.1",
+               "WC5E.Backgrounds.Sage.Suggestions.Flaws.2",
+               "WC5E.Backgrounds.Sage.Suggestions.Flaws.3",
+               "WC5E.Backgrounds.Sage.Suggestions.Flaws.4",
+               "WC5E.Backgrounds.Sage.Suggestions.Flaws.5",
+               "WC5E.Backgrounds.Sage.Suggestions.Flaws.6"
+            ]
+         },
+         "variants": [
+            {
+               "title": "WC5E.Backgrounds.Sage.Variants.KirinTorAgent.Title",
+               "description": [
+                  {
+                     "value": "WC5E.Backgrounds.Sage.Variants.KirinTorAgent.Description.1.Value"
+                  }
+               ],
+               "changes": "WC5E.Backgrounds.Sage.Variants.KirinTorAgent.Description.2.Value",
+               "skills": {
+                  "number": 1,
+                  "choices": [
+                     "dec",
+                     "inv",
+                     "per"
+                  ]
+               }
+            }
+         ]
+      }
+   },
+   "img": "icons/tools/scribal/spectacles-glasses.webp",
+   "effects": []
+}
