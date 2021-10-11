@@ -1,0 +1,180 @@
+{
+   "_id": "NaRd50Qm9p0Xh7Ek",
+   "name": "Sailor",
+   "permission": {
+      "default": 0
+   },
+   "type": "class",
+   "data": {
+   },
+   "flags": {
+      "wc5e": {
+         "type": "background",
+         "description": [
+            "WC5E.Backgrounds.Sailor.Description.1"
+         ],
+         "source": "Player's Handbook",
+         "skillProfs": {
+            "range": [
+               "ath",
+               "prc"
+            ]
+         },
+         "toolProfs": [
+            "nav",
+            "vehw"
+         ],
+         "equipment": [
+            [
+               {
+                  "amount": 1,
+                  "pack": "dnd5e.items",
+                  "node": "nfIRTECQIG81CvM4",
+                  "label": "WC5E.Items.Club.Label"
+               }
+            ],
+            [
+               {
+                  "amount": 1,
+                  "pack": "dnd5e.items",
+                  "node": "oY8KbpGmB5H2Deoy",
+                  "label": "WC5E.Items.SilkRope.Label",
+                  "option": "50ft"
+               }
+            ],
+            [
+               {
+                  "amount": 1,
+                  "label": "lucky charm"
+               }
+            ],
+            [
+               {
+                  "amount": 1,
+                  "pack": "dnd5e.items",
+                  "node": "8RXjiddJ6VGyE7vB",
+                  "label": "WC5E.Items.CommonClothes.Label"
+               }
+            ],
+            [
+               {
+                  "amount": 1,
+                  "pack": "dnd5e.items",
+                  "node": "9bWTRRDym06PzSAf",
+                  "label": "WC5E.Items.Pouch.Label",
+                  "option": "10gp"
+               }
+            ]
+         ],
+         "feats": [
+            {
+               "pack": "warcraft5e.wc5e_background_feats",
+               "node": "PxMr3sflAZ64gmY7",
+               "label": "WC5E.Feats.ShipsPassage.Label"
+            }
+         ],
+         "suggestions": {
+            "description": "WC5E.Backgrounds.Sailor.Suggestions.Description",
+            "personality": [
+               "WC5E.Backgrounds.Sailor.Suggestions.Personality.1",
+               "WC5E.Backgrounds.Sailor.Suggestions.Personality.2",
+               "WC5E.Backgrounds.Sailor.Suggestions.Personality.3",
+               "WC5E.Backgrounds.Sailor.Suggestions.Personality.4",
+               "WC5E.Backgrounds.Sailor.Suggestions.Personality.5",
+               "WC5E.Backgrounds.Sailor.Suggestions.Personality.6",
+               "WC5E.Backgrounds.Sailor.Suggestions.Personality.7",
+               "WC5E.Backgrounds.Sailor.Suggestions.Personality.8"
+            ],
+            "ideals": [
+               {
+                  "title": "WC5E.Backgrounds.Sailor.Suggestions.Ideal.1.Title",
+                  "value": "WC5E.Backgrounds.Sailor.Suggestions.Ideal.1.Value"
+               },
+               {
+                  "title": "WC5E.Backgrounds.Sailor.Suggestions.Ideal.2.Title",
+                  "value": "WC5E.Backgrounds.Sailor.Suggestions.Ideal.2.Value"
+               },
+               {
+                  "title": "WC5E.Backgrounds.Sailor.Suggestions.Ideal.3.Title",
+                  "value": "WC5E.Backgrounds.Sailor.Suggestions.Ideal.3.Value"
+               },
+               {
+                  "title": "WC5E.Backgrounds.Sailor.Suggestions.Ideal.4.Title",
+                  "value": "WC5E.Backgrounds.Sailor.Suggestions.Ideal.4.Value"
+               },
+               {
+                  "title": "WC5E.Backgrounds.Sailor.Suggestions.Ideal.5.Title",
+                  "value": "WC5E.Backgrounds.Sailor.Suggestions.Ideal.5.Value"
+               },
+               {
+                  "title": "WC5E.Backgrounds.Sailor.Suggestions.Ideal.6.Title",
+                  "value": "WC5E.Backgrounds.Sailor.Suggestions.Ideal.6.Value"
+               }
+            ],
+            "bonds": [
+               "WC5E.Backgrounds.Sailor.Suggestions.Bonds.1",
+               "WC5E.Backgrounds.Sailor.Suggestions.Bonds.2",
+               "WC5E.Backgrounds.Sailor.Suggestions.Bonds.3",
+               "WC5E.Backgrounds.Sailor.Suggestions.Bonds.4",
+               "WC5E.Backgrounds.Sailor.Suggestions.Bonds.5",
+               "WC5E.Backgrounds.Sailor.Suggestions.Bonds.6"
+            ],
+            "flaws": [
+               "WC5E.Backgrounds.Sailor.Suggestions.Flaws.1",
+               "WC5E.Backgrounds.Sailor.Suggestions.Flaws.2",
+               "WC5E.Backgrounds.Sailor.Suggestions.Flaws.3",
+               "WC5E.Backgrounds.Sailor.Suggestions.Flaws.4",
+               "WC5E.Backgrounds.Sailor.Suggestions.Flaws.5",
+               "WC5E.Backgrounds.Sailor.Suggestions.Flaws.6"
+            ]
+         },
+         "variants": [
+            {
+               "title": "WC5E.Backgrounds.Sailor.Variants.Pirate.Title",
+               "description": [
+                  {
+                     "value": "WC5E.Backgrounds.Sailor.Variants.Pirate.Description.1.Value"
+                  }
+               ],
+               "changes": "WC5E.Backgrounds.Sailor.Variants.Pirate.Description.2.Value",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_background_feats",
+                     "node": "unkDDy7dGFHiUnfi",
+                     "label": "WC5E.Feats.BadReputation.Label"
+                  }
+               ]
+            },
+            {
+               "title": "WC5E.Backgrounds.Sailor.Variants.GoblinBalloonist.Title",
+               "description": [
+                  {
+                     "value": "WC5E.Backgrounds.Sailor.Variants.GoblinBalloonist.Description.1.Value"
+                  }
+               ],
+               "changes": "WC5E.Backgrounds.Sailor.Variants.GoblinBalloonist.Description.2.Value",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_background_feats",
+                     "node": "JQ3h968E3W7qWNQL",
+                     "label": "WC5E.Feats.GoblinBalloonPass.Label"
+                  }
+               ]
+            },
+            {
+               "title": "WC5E.Backgrounds.Sailor.Variants.MarinerOrReaver.Title",
+               "description": [
+                  {
+                     "value": "WC5E.Backgrounds.Sailor.Variants.MarinerOrReaver.Description.1.Value"
+                  },
+                  {
+                     "value": "WC5E.Backgrounds.Sailor.Variants.MarinerOrReaver.Description.2.Value"
+                  }
+               ]
+            }
+         ]
+      }
+   },
+   "img": "icons/tools/nautical/steering-wheel.webp",
+   "effects": []
+}
