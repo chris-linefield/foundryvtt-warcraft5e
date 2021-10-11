@@ -1,0 +1,26 @@
+{
+   "_id": "JQ3h968E3W7qWNQL",
+   "name": "Goblin Balloon Pass",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Player's Handbook",
+      "requirements": "Sailor (Goblin Balloonist)"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.GoblinBalloonPass.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/sundries/misc/admission-ticket-blue.webp",
+   "effects": [
+   ]
+}

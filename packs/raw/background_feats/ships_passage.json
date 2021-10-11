@@ -1,0 +1,26 @@
+{
+   "_id": "PxMr3sflAZ64gmY7",
+   "name": "Ship's Passage",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Player's Handbook",
+      "requirements": "Sailor"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.ShipsPassage.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/environment/settlement/ship.webp",
+   "effects": [
+   ]
+}

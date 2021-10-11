@@ -929,6 +929,101 @@
                   }
                }
             }
+         },
+         "Sailor": {
+            "Description": {
+               "1": "You are a sailor, one who makes their way in the world as traders, merchants, naval personnel, or even as smugglers or pirates when times get lean. Sailors can be found near any major body of water or in ports."
+            },
+            "Suggestions": {
+               "Description": "Sailors can be a rough lot, but the responsibilities of life on a ship make them generally reliable as well. Life aboard a ship shapes their outlook and forms their most important attachments.",
+               "Personality": {
+                  "1": "My friends know they can rely on me, no matter what.",
+                  "2": "I work hard so that I can play hard when the work is done.",
+                  "3": "I enjoy sailing into new ports and making new friends over a flagon of ale.",
+                  "4": "I stretch the truth for the sake of a good story.",
+                  "5": "To me, a tavern brawl is a nice way to get to know a new city.",
+                  "6": "I never pass up a friendly wager.",
+                  "7": "My language is as foul as a harpy nest.",
+                  "8": "I like a job well done, especially if I can convince someone else to do it."
+               },
+               "Ideal": {
+                  "1": {
+                     "Title": "Respect",
+                     "Value": "The thing that keeps a ship together is mutual respect between captain and crew. (Good)"
+                  },
+                  "2": {
+                     "Title": "Fairness",
+                     "Value": "We all do the work, so we all share in the rewards. (Lawful)"
+                  },
+                  "3": {
+                     "Title": "Freedom",
+                     "Value": "The sea is freedom - the freedom to go anywhere and do anything. (Chaotic)"
+                  },
+                  "4": {
+                     "Title": "Mastery",
+                     "Value": "I'm a predator, and the other ships on the sea are my prey. (Evil)"
+                  },
+                  "5": {
+                     "Title": "People",
+                     "Value": "I'm committed to my crewmates, not to ideals. (Neutral)"
+                  },
+                  "6": {
+                     "Title": "Aspiration",
+                     "Value": "Someday I'll own my own ship and chart my own destiny. (Any)"
+                  }
+               },
+               "Bonds": {
+                  "1": "I'm loyal to my captain first, everything else second.",
+                  "2": "The ship is most important – crewmates and captains come and go.",
+                  "3": "I'll always remember my first ship.",
+                  "4": "In a harbor town, I have a paramour whose eyes nearly stole me from the sea.",
+                  "5": "I was cheated out of my fair share of the profits, and I want to get my due.",
+                  "6": "Ruthless pirates murdered my captain and crewmates, plundered our ship, and left me to die. Vengeance will be mine."
+               },
+               "Flaws": {
+                  "1": "I follow orders, even if I think they're wrong.",
+                  "2": "I'll say anything to avoid having to do extra work.",
+                  "3": "Once someone questions my courage, I never back down no matter how dangerous the situation.",
+                  "4": "Once I start drinking, it's hard for me to stop.",
+                  "5": "I can't help but pocket loose coins and other trinkets I come across.",
+                  "6": "My pride will probably lead to my destruction."
+               }
+            },
+            "Variants": {
+               "Pirate": {
+                  "Title": "Pirate",
+                  "Description": {
+                     "1": {
+                        "Value": "You spent your youth under the sway of a dread pirate, a ruthless cutthroat who taught you how to survive in a world of sharks and savages. You've indulged in larceny on the high seas and sent more than one deserving soul to a briny grave. Fear and bloodshed are no strangers to you, and you've garnered a somewhat unsavory reputation in many a port town."
+                     },
+                     "2": {
+                        "Value": "If you decide that your sailing career involved piracy, you can choose the Bad Reputation feature below instead of the Ship's Passage feature."
+                     }
+                  }
+               },
+               "GoblinBalloonist": {
+                  "Title": "Goblin Balloonist (usually Goblin only)",
+                  "Description": {
+                     "1": {
+                        "Value": "The job of a balloonist is a risky but profitable venture in the world of Azeroth, as it is gradually becoming the medium of choice for transport across terrestrial lands. As a balloonist, you may have faced high winds, aerial foes, or delivered your charges (or cargo) across active battlefields to their destinations."
+                     },
+                     "2": {
+                        "Value": "Instead of proficiency in vehicles (water), you may be proficient in vehicles (air)."
+                     }
+                  }
+               },
+               "MarinerOrReaver": {
+                  "Title": "Mariner or Reaver",
+                  "Description": {
+                     "1": {
+                        "Value": "Marines (or mariners) are, depending on their faction, either footmen or grunts specialized in the support of naval and army operations on land and at sea."
+                     },
+                     "2": {
+                        "Value": "As a mariner, may have served aboard the various airships and gunships of the Alliance or the Horde, and are often working alongside sailors. The human nation of Kul‘tiras is specialized in naval warfare and as such has a high number of marines among its forces. Mariners tend to operate under standard five-year contracts when signing on with a new crew as evidenced by the crew of the Wavestrider. While human marines are almost always found among the crews of Alliance gunships, it seems the orcish equivalent for them is \"reaver\", for reavers can be found among almost all orc gunships. Instead of a lucky charm, you may choose to receive an insignia of rank instead."
+                     }
+                  }
+               }
+            }
          }
       },
       "Character": {
@@ -1436,6 +1531,17 @@
                },
                "3": {
                   "Value": "Furthermore, if you do not have the required number of corpses (the required material focus) for animating undead, you use corpses from any place so long as you are within 1 mile of a graveyard, mass grave, battlefield, or any location with sufficient number of corpses so long as they are not on hallowed ground. The earth must be loose enough for the zombies to dig their way out. The temporary undead you create from casting conjure undead require the corpses to be within 30 feet, however."
+               }
+            }
+         },
+         "BadReputation": {
+            "Label": "Bad Reputation",
+            "Description": {
+               "1": {
+                  "Value": "If your character has a pirate background, you may select this background feature instead of Ship's Passage."
+               },
+               "2": {
+                  "Value": "No matter where you go, people are afraid of you due to your reputation. When you are in a civilized settlement, you can get away with minor criminal offenses, such as refusing to pay for food at a tavern or breaking down doors at a local shop, since most people will not report your activity to the authorities."
                }
             }
          },
@@ -2279,6 +2385,14 @@
                }
             }
          },
+         "GoblinBalloonPass": {
+            "Label": "Goblin Balloon Pass",
+            "Description": {
+               "1": {
+                  "Value": "When you need to, you can secure free passage on a goblin balloon for yourself and your adventuring companions. You might sail on the balloon you served on, or another balloon you have good relations with (perhaps one captained by a former crewmate). Because you‘re calling in a favor, you can‘t be certain o f a schedule or route that will meet your every need. Your Dungeon Master will determine how long it takes to get where you need to go. In return for your free passage, you and your companions are expected to assist the crew during the voyage, but you do not require a permanent pass."
+               }
+            }
+         },
          "GrandBeast": {
             "Label": "Grand Beast",
             "Description": {
@@ -3020,6 +3134,14 @@
                },
                "2": {
                   "Value": "You might also have ties to a specific temple dedicated to your chosen deity or pantheon, and you have a residence there. This could be the temple where you used to serve, if you remain on good terms with it, or a temple where you have found a new home. While near your temple, you can call upon the priests for assistance, provided the assistance you ask for is not hazardous and you remain in good standing with your temple."
+               }
+            }
+         },
+         "ShipsPassage": {
+            "Label": "Ship's Passage",
+            "Description": {
+               "1": {
+                  "Value": "When you need to, you can secure free passage on a sailing ship for yourself and your adventuring companions. You might sail on the ship you served on, or another ship you have good relations with (perhaps one captained by a former crewmate). Because you're calling in a favor, you can't be certain of a schedule or route that will meet your every need. Your DM will determine how long it takes to get where you need to go. In return for your free passage, you and your companions are expected to assist the crew during the voyage."
                }
             }
          },
