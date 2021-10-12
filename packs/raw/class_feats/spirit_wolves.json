@@ -1,0 +1,32 @@
+{
+   "_id": "A0L4jDzqDqZJ6VO8",
+   "name": "Spirit Wolves",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 122",
+      "requirements": "Shaman (Enhancement) 8"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.SpiritWolves.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.SpiritWolves.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Feats.SpiritWolves.Description.3.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/creatures/mammals/wolf-shadow-black.webp",
+   "effects": [
+   ]
+}

@@ -1,0 +1,32 @@
+{
+   "_id": "gfJHW5hvYKzh8Iwv",
+   "name": "Mana Surge",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 119",
+      "requirements": "Shaman 2"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.ManaSurge.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.ManaSurge.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Feats.ManaSurge.Description.3.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/air/air-wave-gust-blue.webp",
+   "effects": [
+   ]
+}

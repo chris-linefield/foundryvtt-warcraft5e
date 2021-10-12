@@ -16,6 +16,9 @@
          "description": [
             {
                "value": "WC5E.Feats.DieByTheSword.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.DieByTheSword.Description.2.Value"
             }
          ]
       }

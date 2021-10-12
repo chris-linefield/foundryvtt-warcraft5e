@@ -1,0 +1,36 @@
+{
+   "_id": "g6639EiDoqAAv43g",
+   "name": "Channel Elements",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 117",
+      "requirements": "Shaman 2"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.ChannelElements.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.ChannelElements.Description.2.Value"
+            },
+            {
+               "title": "WC5E.Feats.ChannelElements.Description.3.Title",
+               "value": "WC5E.Feats.ChannelElements.Description.3.Value"
+            },
+            {
+               "value": "WC5E.Feats.ChannelElements.Description.4.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/earth/orb-stone-smoke-teal.webp",
+   "effects": [
+   ]
+}

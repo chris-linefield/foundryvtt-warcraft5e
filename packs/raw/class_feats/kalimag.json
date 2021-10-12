@@ -1,13 +1,13 @@
 {
-   "_id": "A9PJKH1vVY2ncT05",
-   "name": "Druid Circle",
+   "_id": "teGIlK6XbxusBe5f",
+   "name": "Kalimag",
    "permission": {
       "default": 0
    },
    "type": "feat",
    "data": {
-      "source": "Core Rules page 56",
-      "requirements": "Druid 2"
+      "source": "Core Rules page 117",
+      "requirements": "Shaman 1"
    },
    "flags": {
       "wc5e": {
@@ -15,12 +15,12 @@
          "category": "WC5E.SkillCategories.General",
          "description": [
             {
-               "value": "WC5E.Feats.DruidCircle.Description.1.Value"
+               "value": "WC5E.Feats.Kalimag.Description.1.Value"
             }
          ]
       }
    },
-   "img": "icons/sundries/books/book-embossed-roots-green.webp",
+   "img": "icons/magic/symbols/runes-carved-stone-green.webp",
    "effects": [
    ]
 }

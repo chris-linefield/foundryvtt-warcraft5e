@@ -1,0 +1,660 @@
+{
+   "_id": "TTYZ4BRWxbuI2gMn",
+   "name": "Shaman",
+   "type": "class",
+   "img": "modules/warcraft5e/res/pics/classes/shaman.jpg",
+   "data": {
+      "description": {
+         "value": "WC5E.Class.Shaman.Description",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "",
+      "levels": 1,
+      "subclass": "",
+      "hitDice": "d8",
+      "hitDiceUsed": 0,
+      "saves": [
+         "wis",
+         "cha"
+      ],
+      "skills": {
+         "number": 2,
+         "choices": [
+            "his",
+            "ins",
+            "med",
+            "per",
+            "rel"
+         ],
+         "value": [
+         ]
+      },
+      "spellcasting": {
+         "progression": "none",
+         "ability": ""
+      },
+      "damage": {
+         "parts": [
+         ]
+      }
+   },
+   "effects": [
+   ],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+      "default": 0
+   },
+   "flags": {
+      "wc5e": {
+         "type": "class",
+         "artwork": {
+            "1": {
+               "src": "modules/warcraft5e/res/pics/classes/shaman_artwork.jpg",
+               "url": "https://www.iamag.co/the-art-of-ld-austin/#jp-carousel-61605",
+               "credit": "Laurel D Austin"
+            },
+            "2": {
+               "src": "modules/warcraft5e/res/pics/classes/shaman_artwork2.jpg",
+               "url": "https://www.deviantart.com/shadowpriest/art/Commission-Tauren-Shaman-773414762",
+               "credit": "ShadowPriest"
+            }
+         },
+         "introduction": [
+            "WC5E.Class.Shaman.Introduction.1",
+            "WC5E.Class.Shaman.Introduction.2",
+            "WC5E.Class.Shaman.Introduction.3"
+         ],
+         "blocks": [
+            {
+               "title": "WC5E.Class.Shaman.Blocks.1.Title",
+               "content": [
+                  "WC5E.Class.Shaman.Blocks.1.Content.1",
+                  "WC5E.Class.Shaman.Blocks.1.Content.2",
+                  "WC5E.Class.Shaman.Blocks.1.Content.3"
+               ]
+            },
+            {
+               "title": "WC5E.Class.Shaman.Blocks.2.Title",
+               "content": [
+                  "WC5E.Class.Shaman.Blocks.2.Content.1",
+                  "WC5E.Class.Shaman.Blocks.2.Content.2"
+               ]
+            },
+            {
+               "title": "WC5E.Class.Shaman.Blocks.3.Title",
+               "content": [
+                  "WC5E.Class.Shaman.Blocks.2.Content.1",
+                  "WC5E.Class.Shaman.Blocks.2.Content.2"
+               ]
+            }
+         ],
+         "quickBuild": "WC5E.Class.Shaman.QuickBuild",
+         "hitPoints1st": "8",
+         "hitPointsHalfed": "5",
+         "weaponProfs": [
+            "sim"
+         ],
+         "specificWeaponProfs": [
+            "bludgeons",
+            "axes",
+            "daggers",
+            "quarterstaffs"
+         ],
+         "armorProfs": [
+            "lgt",
+            "med",
+            "shl"
+         ],
+         "toolProfs": [
+            "herb"
+         ],
+         "equipment": [
+            [
+               "a battle axe",
+               "a warhammer"
+            ],
+            [
+               "leather armor",
+               "chain shirt"
+            ],
+            [
+               "2 handaxes",
+               "a shield"
+            ],
+            [
+               "a priest's pack",
+               "an explorer‘s pack"
+            ],
+            [
+               "a shamanistic focus (minor totem)"
+            ]
+         ],
+         "isCaster": true,
+         "progression": [
+            {
+               "level": "1",
+               "proficiency": "2",
+               "caster": "1 (1st)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "teGIlK6XbxusBe5f",
+                     "label": "WC5E.Feats.Kalimag.Label"
+                  },
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "XRY1J7ExecaAvZL5",
+                     "label": "WC5E.Feats.SpellcastingShaman.Label"
+                  },
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "mrc1NSo8hZN68WEp",
+                     "label": "WC5E.Feats.ShamanisticArt.Label"
+                  }
+               ]
+            },
+            {
+               "level": "2",
+               "proficiency": "2",
+               "caster": "2 (1st)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "g6639EiDoqAAv43g",
+                     "label": "WC5E.Feats.ChannelElements.Label",
+                     "option": "1x"
+                  },
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "gfJHW5hvYKzh8Iwv",
+                     "label": "WC5E.Feats.ManaSurge.Label"
+                  },
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "mrc1NSo8hZN68WEp",
+                     "label": "WC5E.Feats.ShamanisticArt.Label"
+                  }
+               ]
+            },
+            {
+               "level": "3",
+               "proficiency": "2",
+               "caster": "3 (2nd)",
+               "feats": []
+            },
+            {
+               "level": "4",
+               "proficiency": "2",
+               "caster": "4 (2nd)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "pZ0s66jTVdto9Z3b",
+                     "label": "WC5E.Feats.AbilityScoreImprovement.Label"
+                  }
+               ]
+            },
+            {
+               "level": "5",
+               "proficiency": "3",
+               "caster": "5 (3rd)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "IM5qEkNqnltsFqcd",
+                     "label": "WC5E.Feats.ReleaseElemental.Label",
+                     "option": "CR 1/2"
+                  }
+               ]
+            },
+            {
+               "level": "6",
+               "proficiency": "3",
+               "caster": "6 (3rd)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "g6639EiDoqAAv43g",
+                     "label": "WC5E.Feats.ChannelElements.Label",
+                     "option": "2x"
+                  },
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "mrc1NSo8hZN68WEp",
+                     "label": "WC5E.Feats.ShamanisticArt.Label"
+                  }
+               ]
+            },
+            {
+               "level": "7",
+               "proficiency": "3",
+               "caster": "7 (4th)",
+               "feats": []
+            },
+            {
+               "level": "8",
+               "proficiency": "3",
+               "caster": "8 (4th)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "pZ0s66jTVdto9Z3b",
+                     "label": "WC5E.Feats.AbilityScoreImprovement.Label"
+                  },
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "IM5qEkNqnltsFqcd",
+                     "label": "WC5E.Feats.ReleaseElemental.Label",
+                     "option": "CR 1"
+                  },
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "mrc1NSo8hZN68WEp",
+                     "label": "WC5E.Feats.ShamanisticArt.Label"
+                  }
+               ]
+            },
+            {
+               "level": "9",
+               "proficiency": "4",
+               "caster": "9 (5th)",
+               "feats": []
+            },
+            {
+               "level": "10",
+               "proficiency": "4",
+               "caster": "10 (5th)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "hcT1ALhoSD1kOUDP",
+                     "label": "WC5E.Feats.ElementalIntervention.Label"
+                  }
+               ]
+            },
+            {
+               "level": "11",
+               "proficiency": "4",
+               "caster": "11 (6th)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "IM5qEkNqnltsFqcd",
+                     "label": "WC5E.Feats.ReleaseElemental.Label",
+                     "option": "CR 2"
+                  }
+               ]
+            },
+            {
+               "level": "12",
+               "proficiency": "4",
+               "caster": "12 (6th)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "pZ0s66jTVdto9Z3b",
+                     "label": "WC5E.Feats.AbilityScoreImprovement.Label"
+                  }
+               ]
+            },
+            {
+               "level": "13",
+               "proficiency": "5",
+               "caster": "13 (7th)",
+               "feats": []
+            },
+            {
+               "level": "14",
+               "proficiency": "5",
+               "caster": "14 (7th)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "IM5qEkNqnltsFqcd",
+                     "label": "WC5E.Feats.ReleaseElemental.Label",
+                     "option": "CR 3"
+                  }
+               ]
+            },
+            {
+               "level": "15",
+               "proficiency": "5",
+               "caster": "15 (8th)",
+               "feats": []
+            },
+            {
+               "level": "16",
+               "proficiency": "5",
+               "caster": "16 (8th)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "pZ0s66jTVdto9Z3b",
+                     "label": "WC5E.Feats.AbilityScoreImprovement.Label"
+                  }
+               ]
+            },
+            {
+               "level": "17",
+               "proficiency": "6",
+               "caster": "17 (9th)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "IM5qEkNqnltsFqcd",
+                     "label": "WC5E.Feats.ReleaseElemental.Label",
+                     "option": "CR 4"
+                  },
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "mrc1NSo8hZN68WEp",
+                     "label": "WC5E.Feats.ShamanisticArt.Label"
+                  }
+               ]
+            },
+            {
+               "level": "18",
+               "proficiency": "6",
+               "caster": "18 (9th)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "g6639EiDoqAAv43g",
+                     "label": "WC5E.Feats.ChannelElements.Label",
+                     "option": "3x"
+                  }
+               ]
+            },
+            {
+               "level": "19",
+               "proficiency": "6",
+               "caster": "19 (9th)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "pZ0s66jTVdto9Z3b",
+                     "label": "WC5E.Feats.AbilityScoreImprovement.Label"
+                  }
+               ]
+            },
+            {
+               "level": "20",
+               "proficiency": "6",
+               "caster": "20 (9th)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "hcT1ALhoSD1kOUDP",
+                     "label": "WC5E.Feats.ElementalIntervention.Label",
+                     "option": "Improvement"
+                  }
+               ]
+            }
+         ],
+         "archetypes": [
+            {
+               "title": "WC5E.Class.Shaman.Paths.Elemental.Title",
+               "description": "WC5E.Class.Shaman.Paths.Elemental.Description",
+               "featList": [
+                  {
+                     "level": "1",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "uwLlHRgiSbm9ncvi",
+                           "label": "WC5E.Feats.ElementalMastery.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "Lit6kqsCl8uscjol",
+                           "label": "WC5E.Feats.Acclimation.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "2",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "YT5mEQRF6YaU8Wp9",
+                           "label": "WC5E.Feats.ChannelElementsWrath.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "6",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "26Bm2DjJnkvBh5vN",
+                           "label": "WC5E.Feats.ElementalMixing.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "8",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "9O6ArBfAbMN3pdvZ",
+                           "label": "WC5E.Feats.BondedElemental.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "17",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "yEzkodabqfMFdqkF",
+                           "label": "WC5E.Feats.ElementalStorm.Label"
+                        }
+                     ]
+                  }
+               ],
+               "spellList": [
+                  {
+                     "level": "1",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "gwYBPryPgEq9zACW",
+                           "label": "WC5E.Spells.FogCloud.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "XszWf5Q5g3Tc8g3U",
+                           "label": "WC5E.Spells.ElementalShock.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "3",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "UhZHeTobiuPnFxRk",
+                           "label": "WC5E.Spells.AnimalMessenger.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "iq8jSqY2uC6Pb0LY",
+                           "label": "WC5E.Spells.GustOfWind.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "5",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "ehvmg9U9fcMEhE4z",
+                           "label": "WC5E.Spells.CallLightning.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "Vsmp2CZFAkovKByK",
+                           "label": "WC5E.Spells.Sending.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "7",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "pDDphOxIMm89ekJg",
+                           "label": "WC5E.Spells.ControlWater.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "zyI3PHXWJfKYjyR4",
+                           "label": "WC5E.Spells.IceStorm.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "9",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "kEHgSL1IP29MMc2a",
+                           "label": "WC5E.Spells.Maelstrom.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "jFGbPeo0vzBBr8mX",
+                           "label": "WC5E.Spells.TeleportationCircle.Label"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "title": "WC5E.Class.Shaman.Paths.Enhancement.Title",
+               "description": "WC5E.Class.Shaman.Paths.Enhancement.Description",
+               "featList": [
+                  {
+                     "level": "1",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "9DPJbM0zkkuI5gsk",
+                           "label": "WC5E.Feats.BonusProficiencies.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "BXHGUjkF0ckCrdFe",
+                           "label": "WC5E.Feats.ElementalCommand.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "2",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "wa37WeEd4Ndo3TRu",
+                           "label": "WC5E.Feats.ChannelElementsElementalistCombat.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "6",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "2Paq6iTiYEgCh7Jk",
+                           "label": "WC5E.Feats.Flurry.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "8",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "A0L4jDzqDqZJ6VO8",
+                           "label": "WC5E.Feats.SpiritWolves.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "17",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "3mYJRk5H5Rrepnvc",
+                           "label": "WC5E.Feats.GreaterInvestitures.Label"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "title": "WC5E.Class.Shaman.Paths.Restoration.Title",
+               "description": "WC5E.Class.Shaman.Paths.Restoration.Description",
+               "featList": [
+                  {
+                     "level": "1",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "caRItDWXUgsayCb9",
+                           "label": "WC5E.Feats.AncestralBlessing.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "yqR7iSdE87SJM4Lo",
+                           "label": "WC5E.Feats.ElusiveTotems.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "2",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "C4km96jZUwGbZRrf",
+                           "label": "WC5E.Feats.ChannelElementsLifeLink.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "6",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "jX8daFzRS6GiIiyU",
+                           "label": "WC5E.Feats.CleanseSpirit.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "8",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "p8QQrz7P6pqA9sI9",
+                           "label": "WC5E.Feats.DeepHealing.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "17",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "osJf60aBOveCLwZk",
+                           "label": "WC5E.Feats.TotemMastery.Label"
+                        }
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+   }
+}
