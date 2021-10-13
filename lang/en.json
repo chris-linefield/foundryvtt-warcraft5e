@@ -4322,6 +4322,17 @@
                }
             }
          },
+         "Bloodlust": {
+            "Label": "Bloodlust",
+            "Description": {
+               "1": {
+                  "Value": "Choose a willing creature you can see within range. Until the spell ends, the target is immune to fear, has +2 to AC, advantage on Agility saving throws, and can make an additional action on each of its turns, and gains temporary hit points equal to your spellcasting modifier."
+               },
+               "2": {
+                  "Value": "This action can only be used for the attack (one weapon attack only), Dash, Disengage, Hide, or Use Object action. When the spell ends, the target can‘t move or take actions until after its next turn. This extra action does not stack with similar abilities granting extra actions."
+               }
+            }
+         },
          "CarrionSwarm": {
             "Label": "Carrion Swarm",
             "Description": {
@@ -4475,6 +4486,22 @@
             "Heightened": {
                "1": {
                   "Value": "When you cast this spell using certain higher-level spell slots, you choose one of the summoning options above, and more creatures appear: twice as many with a 5th-level slot, three times as many with a 7th-level slot, and four times as many with a 9th-level slot."
+               }
+            }
+         },
+         "ConjureSpiritDireWolf": {
+            "Label": "Conjure Spirit Dire Wolf",
+            "Description": {
+               "1": {
+                  "Value": "You summon fey spirits that take the form of dire wolfes and appear in unoccupied spaces that you can see within range."
+               },
+               "2": {
+                  "Value": "The summoned creatures are friendly to you and your companions. Roll initiative for the summoned creatures as a group, which has its own turns. They obey any verbal commands that you issue to them (no action required by you). If you don’t issue any commands to them, they defend themselves from hostile creatures, but otherwise take no actions."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "When you cast this spell using certain higher-level spell slots, you choose one of the summoning options above, and more creatures appear: twice as many with a 5th-level slot, three times as many with a 7th-level."
                }
             }
          },
@@ -4652,6 +4679,20 @@
                }
             }
          },
+         "DeathWard": {
+            "Label": "Death Ward",
+            "Description": {
+               "1": {
+                  "Value": "You touch a creature and grant it a measure of protection from death."
+               },
+               "2": {
+                  "Value": "The first time the target would drop to 0 hit points as a result of taking damage, the target instead drops to 1 hit point, and the spell ends."
+               },
+               "3": {
+                  "Value": "If the spell is still in effect when the target is subjected to an effect that would kill it instantaneously without dealing damage, that effect is instead negated against the target, and the spell ends."
+               }
+            }
+         },
          "DetectMagic": {
             "Label": "TODO: Detect Magic",
             "Description": {
@@ -4731,6 +4772,19 @@
                },
                "2": {
                   "Value": "This spell costs one less mana point than normal for its spell level."
+               }
+            }
+         },
+         "ElementalTongue": {
+            "Label": "Elemental Tongue",
+            "Description": {
+               "1": {
+                  "Value": "You may apply this strike to any melee weapon attack. This deals additional 1d6 damage, chosen from any type of elemental damage you choose when you cast the spell. This deals an additional effect as Elemental Shock."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "You deal an additional 1d6 elemental damage or one additional use from any of the above elements per level above 1st."
                }
             }
          },
@@ -5188,9 +5242,35 @@
                }
             }
          },
+         "Shield": {
+            "Label": "Shield",
+            "Description": {
+               "1": {
+                  "Value": "An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from magic missile."
+               }
+            }
+         },
          "Silence": {
             "Label": "TODO: Silence",
             "Description": "For the Duration, no sound can be created within or pass through a 20-foot-radius Sphere centered on a point you choose within range. Any creature or object entirely inside the Sphere is immune to thunder damage, and creatures are Deafened while entirely inside it. Casting a Spell that includes a verbal component is impossible there."
+         },
+         "SpiritInfusion": {
+            "Label": "Spirit Infusion",
+            "Description": {
+               "1": {
+                  "Value": "You infuse yourself with a totemic spirit that affects only you. Choose one of the three spirits below, and you gain the chosen benefit for as long as the spell is active."
+               },
+               "2": {
+                  "Options": {
+                     "1": "<i>Bear</i>: You gain climb speed of 10 feet per round, are able to deal 1d6 damage with your melee unarmed attack (instead of your normal damage, at your choice), and gain 2d6 temporary hit points.",
+                     "2": "<i>Eagle</i>: You double your normal movement speed and jumping distance, and constantly benefit from the feather fall spell.",
+                     "3": "<i>Wolf</i>: You gain +1 to melee damage rolls per ally adjacent to the target (maximum equal to spell level), and your allies gain +2 to attack rolls against one target you designate within 5 feet of you. This is an aura bonus."
+                  }
+               }
+            },
+            "Heightened": {
+               "1": "For each spell level above 3rd, the maximum duration of the spell increases by 2 minutes."
+            }
          },
          "StinkingCloud": {
             "Label": "Stinking Cloud",
@@ -5316,6 +5396,19 @@
             "Heightened": {
                "1": {
                   "Value": "When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd."
+               }
+            }
+         },
+         "WindfuryTongue": {
+            "Label": "Windfury Tongue",
+            "Description": {
+               "1": {
+                  "Value": "Over the next minute, whenever your turn starts (including this turn), you must roll a d20. On a 17 or higher, you may make another attack with the same action."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "The required dice result to trigger the extra attack is 1 point less on the d20 for every two spell levels above 5th, to a result of a result of a 15 or higher on the d20."
                }
             }
          }

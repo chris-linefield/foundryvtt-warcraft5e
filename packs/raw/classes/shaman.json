@@ -591,6 +591,83 @@
                         }
                      ]
                   }
+               ],
+               "spellList": [
+                  {
+                     "level": "1",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "tZP12iJt7GHXhgMc",
+                           "label": "WC5E.Spells.ElementalTongue.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "VEiN0onKrAbdKBCE",
+                           "label": "WC5E.Spells.Shield.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "3",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "Tnn2TvuQ3YICEm5S",
+                           "label": "WC5E.Spells.ConjureSpiritDireWolf.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "YzccCBDhIOZJoR2q",
+                           "label": "WC5E.Spells.EarthShield.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "5",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "Y2AJvpkxF1OrfT6r",
+                           "label": "WC5E.Spells.Bloodlust.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "T2VoiBaO50fCYfyX",
+                           "label": "WC5E.Spells.SpiritInfusion.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "7",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "i47iiZstrOY4lpwq",
+                           "label": "WC5E.Spells.DeathWard.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "7fkeb8FrhN2DavIM",
+                           "label": "WC5E.Spells.FreedomOfMovement.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "9",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "XFxFNfgS8YxPAu7o",
+                           "label": "WC5E.Spells.WindfuryTongue.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "GjjYaywZukusAabE",
+                           "label": "WC5E.Spells.TrueSeeing.Label"
+                        }
+                     ]
+                  }
                ]
             },
             {
