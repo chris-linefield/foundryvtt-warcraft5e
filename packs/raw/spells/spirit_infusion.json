@@ -1,0 +1,101 @@
+{
+   "_id": "T2VoiBaO50fCYfyX",
+   "name": "Spirit Infusion",
+   "permission": {
+      "default": 0
+   },
+   "type": "spell",
+   "data": {
+      "source": "",
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": 1,
+         "units": "minute"
+      },
+      "target": {
+         "value": null,
+         "units": null,
+         "type": "self"
+      },
+      "range": {
+         "value": null,
+         "long": null,
+         "units": "self"
+      },
+      "uses": {
+         "value": 0,
+         "max": 0,
+         "per": ""
+      },
+      "ability": "",
+      "actionType": "util",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": null,
+      "damage": {
+         "parts": [],
+         "versatile": "",
+         "value": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "value": "",
+         "scaling": "spell"
+      },
+      "level": 3,
+      "school": "trs",
+      "components": {
+         "value": "",
+         "vocal": true,
+         "somatic": true,
+         "material": false,
+         "ritual": false,
+         "concentration": false
+      },
+      "materials": {
+         "value": "",
+         "consumed": false,
+         "cost": 0,
+         "supply": 0
+      },
+      "preparation": {
+         "mode": "prepared",
+         "prepared": false
+      },
+      "scaling": {
+         "mode": "level",
+         "formula": ""
+      }
+   },
+   "sort": 100001,
+   "flags": {
+      "wc5e": {
+         "type": "spell",
+         "description": [
+            {
+               "value": "WC5E.Spells.SpiritInfusion.Description.1.Value"
+            },
+            {
+               "options": [
+                  "WC5E.Spells.SpiritInfusion.Description.2.Options.1",
+                  "WC5E.Spells.SpiritInfusion.Description.2.Options.2",
+                  "WC5E.Spells.SpiritInfusion.Description.2.Options.3"
+               ]
+            }
+         ],
+         "heightened": [
+            {
+               "value": "WC5E.Spells.SpiritInfusion.Heightened.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/creatures/birds/corvid-flying-wings-purple.webp",
+   "effects": []
+}

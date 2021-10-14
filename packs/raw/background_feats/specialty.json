@@ -1,0 +1,105 @@
+{
+   "_id": "pon7iNfDb5X5I0Nb",
+   "name": "Specialty",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Player's Handbook",
+      "requirements": "Sage"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.Specialty.Description.1.Value"
+            },
+            {
+
+               "table": {
+                  "head": [
+                     {
+                        "title": "d8"
+                     },
+                     {
+                        "title": "WC5E.Feats.Specialty.Label"
+                     }
+                  ],
+                  "rows": [
+                     [
+                        {
+                           "value": 1
+                        },
+                        {
+                           "text": "WC5E.Feats.Specialty.Description.2.Options.1"
+                        }
+                     ],
+                     [
+                        {
+                           "value": 2
+                        },
+                        {
+                           "text": "WC5E.Feats.Specialty.Description.2.Options.2"
+                        }
+                     ],
+                     [
+                        {
+                           "value": 3
+                        },
+                        {
+                           "text": "WC5E.Feats.Specialty.Description.2.Options.3"
+                        }
+                     ],
+                     [
+                        {
+                           "value": 4
+                        },
+                        {
+                           "text": "WC5E.Feats.Specialty.Description.2.Options.4"
+                        }
+                     ],
+                     [
+                        {
+                           "value": 5
+                        },
+                        {
+                           "text": "WC5E.Feats.Specialty.Description.2.Options.5"
+                        }
+                     ],
+                     [
+                        {
+                           "value": 6
+                        },
+                        {
+                           "text": "WC5E.Feats.Specialty.Description.2.Options.6"
+                        }
+                     ],
+                     [
+                        {
+                           "value": 7
+                        },
+                        {
+                           "text": "WC5E.Feats.Specialty.Description.2.Options.7"
+                        }
+                     ],
+                     [
+                        {
+                           "value": 8
+                        },
+                        {
+                           "text": "WC5E.Feats.Specialty.Description.2.Options.8"
+                        }
+                     ]
+                  ]
+               }
+            }
+         ]
+      }
+   },
+   "img": "icons/sundries/documents/document-sealed-white-orange.webp",
+   "effects": [
+   ]
+}

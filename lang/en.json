@@ -856,6 +856,174 @@
                   }
                }
             }
+         },
+         "Sage": {
+            "Description": {
+               "1": "You are a scholar of mystic or mundane knowledge. Sages are a class of learners who delve into the deepest mysteries and the murkiest of Apocrypha to bring truth to the people, or a sizeable grant to their institutions."
+            },
+            "Suggestions": {
+               "Description": "Sages arc defined by their extensive studies, and their characteristics reflect this life of study. Devoted to scholarly pursuits, a sage values knowledge highly – sometimes in its own right, sometimes as a means toward other ideals.",
+               "Personality": {
+                  "1": "I use polysyllabic words that convey the impression of great erudition.",
+                  "2": "I've read every book in the world's greatest libraries – or I like to boast that I have.",
+                  "3": "I'm used to helping out those who aren't as smart as I am, and I patiently explain anything and everything to others.",
+                  "4": "There's nothing I like more than a good mystery.",
+                  "5": "I'm willing to listen to every side of an argument before I make my own judgment.",
+                  "6": "I… speak… slowly… when talking… to idiots,… which… almost… everyone… is… compared… to me.",
+                  "7": "I am horribly, horribly awkward in social situations.",
+                  "8": "I'm convinced that people are always trying to steal my secrets."
+               },
+               "Ideal": {
+                  "1": {
+                     "Title": "Knowledge",
+                     "Value": "The path to power and self-improvement is through knowledge. (Neutral)"
+                  },
+                  "2": {
+                     "Title": "Beauty",
+                     "Value": "What is beautiful points us beyond itself toward what is true. (Good)"
+                  },
+                  "3": {
+                     "Title": "Logic",
+                     "Value": "Emotions must not cloud our logical thinking. (Lawful)"
+                  },
+                  "4": {
+                     "Title": "No Limits",
+                     "Value": "Nothing should fetter the infinite possibility inherent in all existence. (Chaotic)"
+                  },
+                  "5": {
+                     "Title": "Power",
+                     "Value": "Knowledge is the path to power and domination. (Evil)"
+                  },
+                  "6": {
+                     "Title": "Self-Improvement",
+                     "Value": "The goal of a life of study is the betterment of oneself. (Any)"
+                  }
+               },
+               "Bonds": {
+                  "1": "It is my duty to protect my students.",
+                  "2": "I have an ancient text that holds terrible secrets that must not fall into the wrong hands.",
+                  "3": "I work to preserve a library, university, scriptorium, or monastery.",
+                  "4": "My life's work is a series of tomes related to a specific field of lore.",
+                  "5": "I've been searching my whole life for the answer to a certain question.",
+                  "6": "I sold my soul for knowledge. I hope to do great deeds and win it back."
+               },
+               "Flaws": {
+                  "1": "I am easily distracted by the promise of information.",
+                  "2": "Most people scream and run when they see a demon. I stop and take notes on its anatomy.",
+                  "3": "Unlocking an ancient mystery is worth the price of a civilization.",
+                  "4": "I overlook obvious solutions in favor of complicated ones.",
+                  "5": "I speak without really thinking through my words, invariably insulting others.",
+                  "6": "I can't keep a secret to save my life, or anyone else's."
+               }
+            },
+            "Variants": {
+               "KirinTorAgent": {
+                  "Title": "Kirin Tor Agent",
+                  "Description": {
+                     "1": {
+                        "Value": "You are (or were) employed in Dalaran, whether an agent of the mage-court itself, a graduate, a mage-guard, or one of the factions that rule the city. The magical city of Dalaran is ruled by a council of mages, and is usually influenced by the interests of several factions. By the time of the Third War, there were many powerful wizards‘ guilds, who trained apprentices and served as a curious mix of faction, guild, and students‘ activities clubs. By the time of the War of the Lich King, the Sunreavers and Silver Covenant factions dominated the political scene."
+                     },
+                     "2": {
+                        "Value": "You may replace one skill proficiency from your background with Deception, Investigation, or Persuasion. Instead of common clothes, your clothes might be violet (representing the kingdom itself), or be of a color associated with one of the guilds. Also, you gain one of the following equipment depending on your role in Dalaran: a graduate‘s staff (if you were a graduate) or a signet ring of a faction (if you were a faction member)."
+                     }
+                  }
+               }
+            }
+         },
+         "Sailor": {
+            "Description": {
+               "1": "You are a sailor, one who makes their way in the world as traders, merchants, naval personnel, or even as smugglers or pirates when times get lean. Sailors can be found near any major body of water or in ports."
+            },
+            "Suggestions": {
+               "Description": "Sailors can be a rough lot, but the responsibilities of life on a ship make them generally reliable as well. Life aboard a ship shapes their outlook and forms their most important attachments.",
+               "Personality": {
+                  "1": "My friends know they can rely on me, no matter what.",
+                  "2": "I work hard so that I can play hard when the work is done.",
+                  "3": "I enjoy sailing into new ports and making new friends over a flagon of ale.",
+                  "4": "I stretch the truth for the sake of a good story.",
+                  "5": "To me, a tavern brawl is a nice way to get to know a new city.",
+                  "6": "I never pass up a friendly wager.",
+                  "7": "My language is as foul as a harpy nest.",
+                  "8": "I like a job well done, especially if I can convince someone else to do it."
+               },
+               "Ideal": {
+                  "1": {
+                     "Title": "Respect",
+                     "Value": "The thing that keeps a ship together is mutual respect between captain and crew. (Good)"
+                  },
+                  "2": {
+                     "Title": "Fairness",
+                     "Value": "We all do the work, so we all share in the rewards. (Lawful)"
+                  },
+                  "3": {
+                     "Title": "Freedom",
+                     "Value": "The sea is freedom - the freedom to go anywhere and do anything. (Chaotic)"
+                  },
+                  "4": {
+                     "Title": "Mastery",
+                     "Value": "I'm a predator, and the other ships on the sea are my prey. (Evil)"
+                  },
+                  "5": {
+                     "Title": "People",
+                     "Value": "I'm committed to my crewmates, not to ideals. (Neutral)"
+                  },
+                  "6": {
+                     "Title": "Aspiration",
+                     "Value": "Someday I'll own my own ship and chart my own destiny. (Any)"
+                  }
+               },
+               "Bonds": {
+                  "1": "I'm loyal to my captain first, everything else second.",
+                  "2": "The ship is most important – crewmates and captains come and go.",
+                  "3": "I'll always remember my first ship.",
+                  "4": "In a harbor town, I have a paramour whose eyes nearly stole me from the sea.",
+                  "5": "I was cheated out of my fair share of the profits, and I want to get my due.",
+                  "6": "Ruthless pirates murdered my captain and crewmates, plundered our ship, and left me to die. Vengeance will be mine."
+               },
+               "Flaws": {
+                  "1": "I follow orders, even if I think they're wrong.",
+                  "2": "I'll say anything to avoid having to do extra work.",
+                  "3": "Once someone questions my courage, I never back down no matter how dangerous the situation.",
+                  "4": "Once I start drinking, it's hard for me to stop.",
+                  "5": "I can't help but pocket loose coins and other trinkets I come across.",
+                  "6": "My pride will probably lead to my destruction."
+               }
+            },
+            "Variants": {
+               "Pirate": {
+                  "Title": "Pirate",
+                  "Description": {
+                     "1": {
+                        "Value": "You spent your youth under the sway of a dread pirate, a ruthless cutthroat who taught you how to survive in a world of sharks and savages. You've indulged in larceny on the high seas and sent more than one deserving soul to a briny grave. Fear and bloodshed are no strangers to you, and you've garnered a somewhat unsavory reputation in many a port town."
+                     },
+                     "2": {
+                        "Value": "If you decide that your sailing career involved piracy, you can choose the Bad Reputation feature below instead of the Ship's Passage feature."
+                     }
+                  }
+               },
+               "GoblinBalloonist": {
+                  "Title": "Goblin Balloonist (usually Goblin only)",
+                  "Description": {
+                     "1": {
+                        "Value": "The job of a balloonist is a risky but profitable venture in the world of Azeroth, as it is gradually becoming the medium of choice for transport across terrestrial lands. As a balloonist, you may have faced high winds, aerial foes, or delivered your charges (or cargo) across active battlefields to their destinations."
+                     },
+                     "2": {
+                        "Value": "Instead of proficiency in vehicles (water), you may be proficient in vehicles (air)."
+                     }
+                  }
+               },
+               "MarinerOrReaver": {
+                  "Title": "Mariner or Reaver",
+                  "Description": {
+                     "1": {
+                        "Value": "Marines (or mariners) are, depending on their faction, either footmen or grunts specialized in the support of naval and army operations on land and at sea."
+                     },
+                     "2": {
+                        "Value": "As a mariner, may have served aboard the various airships and gunships of the Alliance or the Horde, and are often working alongside sailors. The human nation of Kul‘tiras is specialized in naval warfare and as such has a high number of marines among its forces. Mariners tend to operate under standard five-year contracts when signing on with a new crew as evidenced by the crew of the Wavestrider. While human marines are almost always found among the crews of Alliance gunships, it seems the orcish equivalent for them is \"reaver\", for reavers can be found among almost all orc gunships. Instead of a lucky charm, you may choose to receive an insignia of rank instead."
+                     }
+                  }
+               }
+            }
          }
       },
       "Character": {
@@ -1045,7 +1213,54 @@
             "Name": "Priest"
          },
          "Shaman": {
-            "Name": "Shaman"
+            "Name": "Shaman",
+            "Introduction": {
+               "1": "A tauren standing atop a cliff calmly raises his hand, leaning on a giant halberd, sprinkling reagents upon the grasslands below. The golden dust is carried on a spirit of the wind. A giant totem bound to his back trembles in approval.",
+               "2": "A red-bearded dwarf stands on shaking ground, unmoved, as the earth cracks before him, spewing the beginnings of lava. As his comrades collapse, he points at it with commanding presence, shouting in a primordial tongue that speaks to the very earth. The beginnings of a chaotic volcanic eruption slow, before the primal powers of the earth and fire retreat, calmed, back into the earth.",
+               "3": "Cleaving through fiendish foes with a bloodied axe in one hand and lightning-enhanced attack claws in the other, the orc shouts a war cry to rally his allies. Bearing a wolf-pelt over his shoulders, he raises an olive-skinned arm to the skies, summoning a bolt of lightning from the stormy clouds before, which he then sends at a gathering of demons with a resounding clap of thunder."
+            },
+            "Description": "Shaman are mortal mediators between the very elements themselves. Often spiritual guides of their communities, these powerful practitioners commune with the ancestors and seek to balance the raging elemental forces, and can call upon them in battle to scorch and blast their enemies, or to  strengthen and heal their allies. Shaman can enhance their weapons with elemental effects, smite enemies with lightning strikes and bursts of lava, and summon powerful elementals to their aid.",
+            "Blocks": {
+               "1": {
+                  "Title": "Spiritual Powers",
+                  "Content": {
+                     "1": "Shaman are spiritual guides and practitioners, not of the divine, but of the very elements. Unlike some other mystics, shaman commune with forces that are not strictly benevolent. The elements are chaotic, and left to their own devices, they rage against one another in unending primal fury. It is the call of the shaman to bring balance to this chaos. Acting as moderators among earth, fire, water, and air, shaman summon totems that focus the elements to support the shaman‘s allies or punish those who threaten them.",
+                     "2": "Shaman are spiritual visionaries of tribes and clans. These gifted warriors can see into the world of spirits and communicate with creatures invisible to the eyes of normal beings. They are beset by visions of the future and use their sight to guide their people through troubled times. Although shaman may seem wise and serene at first, they are formidable foes; when angered, their wrath is as fierce as those who have a connection to divines or to nature.",
+                     "3": "During combat, shaman place damaging and controlling totems on the ground to maximize their effectiveness while hindering their enemies. Shaman are versatile enough to battle foes up close or at range, but wise shamans choose their avenue of attack based on their enemies' strengths and weaknesses."
+                  }
+               },
+               "2": {
+                  "Title": "Gift of the Elements",
+                  "Content": {
+                     "1": "Commanding chaotic and conflicting elements, a shaman is a force that hears the world tremble and directs its wrath. Communicating with spirits of flame, winds, and stone, shamans channel the power of the storm, earth, and fire to their will. A shaman‘s holy symbol is a small ancestral relic or totem of bone, wood, or iron that can be carried in one‘s hand.",
+                     "2": "The elements are chaotic, however, and left to their own devices, they rage against one another in unending primal fury. It is the call of the shaman to bring balance to this chaos, acting as moderators among earth, fire, water, and air. The spirit of life is a hidden and elusive one, but shamans often channel healing energies through water until they are able and proficient enough to negotiate bringing the dead to life via invoking life spirits.",
+                     "3": "As shamans mediate between elemental spirits, it is unsurprising that such aptitude eventually translates to connecting with other kinds of spirits as well, including that of incorporeal undead (such as banshees or ghosts) or the shaman‘s own ancestors.",
+                     "4": "Besides the great shamanistic traditions of the orcs, Wildhammer dwarves are familiar with shamanism in its ancestral worship form, and Tauren are most well-versed with the spirits of earth and sky, both having traditions ancient to modern Azeroth."
+                  }
+               },
+               "3": {
+                  "Title": "Creating a Shaman",
+                  "Content": {
+                     "1": "When you create your shaman the most important question to ask is how you became attuned to the spirits. Was it a natural event such as being born during a mystical meteor shower? Did terrible dreams plague you as a child and it wasn‘t until you had matured that you realized the truth of your abilities?",
+                     "2": "How does your character perceive their abilities? Maybe you view them as a duty to the souls around you, an endless task to lend aid to the spirits and help them into the afterlife? Or even perhaps you view the spirits as tools to advance your own plans, choosing to exploit the spirits you see rather than helping them?"
+                  }
+               }
+            },
+            "QuickBuild": "You can make a shaman quickly by following these suggestions. First, Spirit should be your highest ability score, followed by Strength or Stamina. Second, choose the hermit background. Third, choose the create bonfire, invoke elements, and thunderclap cantrips, along with the following 1st-level spells for your master totem: absorb elements, conjure (elementals), elemental shock, fog cloud, healing ward, and lightning orbs.",
+            "Paths": {
+               "Elemental": {
+                  "Title": "Elemental",
+                  "Description": "Elemental Your ability to command the elements at long ranges, and influence and aid their allies at equal distance is renowned and respected. Elementalists make up most adventuring shamans."
+               },
+               "Enhancement": {
+                  "Title": "Enhancement",
+                  "Description": "Your magic is woven to your combat style, empowering your ability harm their enemies in melee combat. Enhancement shamans usually use two weapons."
+               },
+               "Restoration": {
+                  "Title": "Restoration",
+                  "Description": "You focus on magic that heals and divines the future - your totems, as a consequence, are stronger than that of other paths. Restoration shamans are often thought of as more spiritual than others, and are known as witch-shamans or spirit-walkers."
+               }
+            }
          },
          "Tinker": {
             "Name": "Tinker",
@@ -1215,6 +1430,14 @@
                }
             }
          },
+         "Acclimation": {
+            "Label": "Acclimation",
+            "Description": {
+               "1": {
+                  "Value": "You are also immune to the hostile effects of weather. By spending an action, you can determine the weather for the next 24 hours with a 50% degree of accuracy. You can also sense any weather-changing spells when they are being cast within 5 miles of your location, and can roughly identify whether the caster is a friend or foe to the elements or shamans."
+               }
+            }
+         },
          "AdaptableInurement": {
             "Label": "Adaptable Inurement",
             "Description": {
@@ -1234,6 +1457,17 @@
                },
                "2": {
                   "Value": "As a double agent, your life is risky but rewarding if you play your cards right—after all, who knows your true loyalties but yourself?"
+               }
+            }
+         },
+         "AncestralBlessing": {
+            "Label": "Ancestral Blessing",
+            "Description": {
+               "1": {
+                  "Value": "Whenever you heal a creature, you add your Spirit modifier to the total amount of healing given. This applies once per spell. If the target is blood-related to you or sworn to the same blood-oath, the benefits of this ability is doubled for them. See Chapter 10 for details on Blood Oaths."
+               },
+               "2": {
+                  "Value": "Also, any healing totem costs 1 less mana point to cast (minimum 1)."
                }
             }
          },
@@ -1363,6 +1597,17 @@
                },
                "3": {
                   "Value": "Furthermore, if you do not have the required number of corpses (the required material focus) for animating undead, you use corpses from any place so long as you are within 1 mile of a graveyard, mass grave, battlefield, or any location with sufficient number of corpses so long as they are not on hallowed ground. The earth must be loose enough for the zombies to dig their way out. The temporary undead you create from casting conjure undead require the corpses to be within 30 feet, however."
+               }
+            }
+         },
+         "BadReputation": {
+            "Label": "Bad Reputation",
+            "Description": {
+               "1": {
+                  "Value": "If your character has a pirate background, you may select this background feature instead of Ship's Passage."
+               },
+               "2": {
+                  "Value": "No matter where you go, people are afraid of you due to your reputation. When you are in a civilized settlement, you can get away with minor criminal offenses, such as refusing to pay for food at a tavern or breaking down doors at a local shop, since most people will not report your activity to the authorities."
                }
             }
          },
@@ -1516,6 +1761,22 @@
                }
             }
          },
+         "BondedElemental": {
+            "Label": "Bonded Elemental",
+            "Description": {
+               "1": {
+                  "Value": "You may conjure an elemental and render its duration permanent. If the elemental dies, you can perform the ritual again to summon another. This elemental does not require concentration to maintain and does not count against the normal limit for the bind spell, with a maximum spell level rendered permanent equal to one-half the maximum spell level of the elemental you can bond."
+               }
+            }
+         },
+         "BonusProficiencies": {
+            "Label": "Bonus Proficiencies",
+            "Description": {
+               "1": {
+                  "Value": "You gain proficiency with martial weapons. Also, you gain the Dual Wielder feat if you didn‘t already have it. If you already have it, you add +1 to your weapon damage rolls with either weapon."
+               }
+            }
+         },
          "ByPopularDemand": {
             "Label": "By Popular Demand",
             "Description": {
@@ -1551,6 +1812,51 @@
                }
             }
          },
+         "ChannelElements": {
+            "Label": "Channel Elements",
+            "Description": {
+               "1": {
+                  "Value": "You gain the ability to channel elemental energy directly, using that energy to fuel magical effects. You start with two such effects: Turn Elementals and an effect determined by your art. Some arts grant you additional effects as you advance in levels, as noted in the art description. When you use your Channel Elements, you choose which effect to create. You must then finish a short or long rest to use your Channel Elements again."
+               },
+               "2": {
+                  "Value": "Some Channel Elements effects require saving throws. When you use such an effect from this class, the DC equals your shaman spell save DC. Beginning at 6th level, you can use your Channel Elements twice between rests, and beginning at 18th level you can use it three times between rests. When you finish a short or long rest, you regain your expended uses."
+               },
+               "3": {
+                  "Title": "Channel Elements: Turn Elementals",
+                  "Value": "As an action, you present your shamanistic symbol and speak a prayer dismissing and quelling elementals. Each elemental that can see or hear you within 30 feet of you must make a Spirit saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage. A turned creature must spend its turns trying to move as far away from you as it can, and it can‘t willingly move to a space within 30 feet of you. It also can‘t take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there‘s nowhere to move, the creature can use the Dodge action."
+               },
+               "4": {
+                  "Value": "While it is turned, you may also opt to calm the elemental, rendering it passive and not hostile for one minute. If treated fairly and listened to, the elemental might reveal why it is angered, and may  demand from the shaman to address a problem that is wracking the elementals in the region (or beyond)."
+               }
+            }
+         },
+         "ChannelElementsElementalistCombat": {
+            "Label": "Channel Elements: Elementalist Combat",
+            "Description": {
+               "1": {
+                  "Value": "You can spend a Channel Elements use to invoke a blessing from the elementals. This does not cost an action. This blessing boosts your combat capabilities beyond those even of experienced warriors for 1 minute. While this blessing is active, your strike and shot effects do not cost a bonus action to apply, so long as they are from the shaman class or from shaman spells. Furthermore, if you successfully affect the target with two attacks or more, you may push the creature up to 10 feet away (plus an additional 10 feet for each extra attack), so long as it is not more than one size category larger you. If the strike would normally push the enemy, the forced movement does not stack."
+               },
+               "2": {
+                  "Value": "The blessing ends early if you are knocked unconscious, or if their turn ends without being attacked or attacking a hostile creature, or if not casting a non-cantrip shaman spell."
+               }
+            }
+         },
+         "ChannelElementsLifeLink": {
+            "Label": "Channel Elements: Life-Link",
+            "Description": {
+               "1": {
+                  "Value": "You may channel the elements and spend an action to cast effects spirit link spell (even if you normally cannot cast it). Furthermore, whenever a creature is healed, the healing is also distributed through the link as well. You may add this effect to as an existing spirit link spell as well by using channel divinity, so long as you were the one who cast it."
+               }
+            }
+         },
+         "ChannelElementsWrath": {
+            "Label": "Channel Elements: Wrath",
+            "Description": {
+               "1": {
+                  "Value": "You can spend a Channel Elements use to wield the power of the elements with unchecked ferocity. When you roll for any type of elemental damage, you can use a Channel Elements attempt to deal maximum damage instead."
+               }
+            }
+         },
          "ChiefExecutiveOfficer": {
             "Label": "Chief Executive Officer",
             "Description": {
@@ -1567,6 +1873,24 @@
             "Description": {
                "1": {
                   "Value": "Any fire or fel spell you use that deals damage also deals an additional 1d6 points of the other type (fire deals extra 1d6 fel, or vice versa). Spells that deal both fire and fel damage gain an additional 1d10 damage from either types (your choice). This triggers once per spell."
+               }
+            }
+         },
+         "CleanseSpirit": {
+            "Label": "Cleanse Spirit",
+            "Description": {
+               "1": {
+                  "Value": "You may use an action to cast the dispel magic spell (spell level equal to the highest spell level you can access) to any creature within 30 feet, but not on objects, areas, or creatures without spirits (such as Undead or Constructs). This may be used a number of times equal to your Spirit modifier (minimum 1). You may spend three uses to cast the remove curse instead with the same limitations. All expended uses are replenished at a long rest. To unwilling targets, this must be a ranged spell attack."
+               },
+               "2": {
+                  "Value": "Also, whenever you dispel any number of magical effects, you may choose to apply one of the following additional effects:"
+               },
+               "3": {
+                  "Options": {
+                     "1": "Allow the target to spend a hit dice to heal themselves",
+                     "2": "Deal 1d6 points of arcane damage for each spell level removed",
+                     "3": "Reduce the target‘s speed by 10 feet for 1 minute"
+                  }
                }
             }
          },
@@ -1717,6 +2041,17 @@
                }
             }
          },
+         "DeepHealing": {
+            "Label": "Deep Healing",
+            "Description": {
+               "1": {
+                  "Value": "Your healing spells heal much more if the target is already wounded. If the target of one of your shaman healing spells is bloodied, the benefits of your Ancestral Blessing ability is doubled (double your Spirit modifier in extra hit points). If the target is at 0 hit points and is unstable, the benefits triple."
+               },
+               "2": {
+                  "Value": "Also, so long as one of your shaman totems is within 30 feet of you, you can cast any shaman healing spell through it as if you were standing in its space. You can ‗chain‘ the shaman totem, extending healing via the totems you prepare."
+               }
+            }
+         },
          "DefiningEvent": {
             "Label": "Defining Event",
             "Description": {
@@ -1780,6 +2115,17 @@
                },
                "2": {
                   "Value": "When you are killed, your spirit is taken to an demiplane (see the spell) that is owned by you, where you return to life in the matter of 1d10 days, nurtured by any demonic allies you have employed, enslaved, or allied with."
+               }
+            }
+         },
+         "DieByTheSword": {
+            "Label": "Die by the Sword",
+            "Description": {
+               "1": {
+                  "Value": "you are inspired by battlefield glories, and are able to react quickly to attacks. Whenever a target within 5 feet of you makes a successful attack against you, you gain a d6 Counterattack dice. You may spend the dice to make an attack as a reaction at any point out of your turn so long as the target dealt damage to you in the last minute, and may add the counterattack dice result to the total damage. Unlike with normal reactions, you may apply one strike effect to this attack."
+               },
+               "2": {
+                  "Value": "You can hold up to 3 Counterattack dice. They all fade within one minute if not consumed"
                }
             }
          },
@@ -1862,6 +2208,87 @@
                },
                "2": {
                   "Value": "Starting at 15th level, this ability also halves the cost of spell material components for your gadget devices."
+               }
+            }
+         },
+         "ElementalCommand": {
+            "Label": "Elemental Command",
+            "Description": {
+               "1": {
+                  "Value": "You gain increased proficiency and command over the elements. You may perform any of the following abilities a number of times equal to your Spirit modifier. All such uses of elemental command are restored after a short rest."
+               },
+               "2": {
+                  "Options": {
+                     "1": "<i>Command the Storm</i>: When a creature within 5 feet of you that you can see hits you with an attack, you can use your reaction to cause the creature to make an Agility saving throw. The creature takes 2d6 lightning or thunder damage (your choice) on a failed saving throw, and half as much damage on a successful one. If they took at least 5 points of damage, they are pushed 5 feet away. The damage increases by 1 dice for every two spell levels you can access above 1st level (up to 6d6).",
+                     "2": "<i>Command the Earth</i>: You may send a tremor through the earth as a bonus action as an elemental command, unbalancing your enemies. In a 30-foot-sphere centered on you, you may send a shockwave, dealing 2d6 + your Spirit modifier in bludgeoning damage (or your off-handed weapon damage, whichever is higher), with an Agility saving throw to half damage. You may instead shape this as a 15-foot-long cone, or a 30-foot-long line. If you also have the Tremor talent, you may expend a use of Tremor. If you elect to do so, creatures who fail the Agility saving throw are also knocked prone and suffer 5 additional points of damage. The damage increases by 1 dice for every two spell levels you can access above 1st level (up to 6d6).",
+                     "3": "<i>Command the Flame</i>: You may cast fire bolt as a bonus action or as a reaction as a use of elemental command. You may add this damage to your off-hand attack as part of the same action."
+                  }
+               },
+               "3": {
+                  "Value": "Also, choose one weapon you are proficient in and enhance it with a shard of your essence. So long as you wield the weapon, it counts as a spellcasting focus, and you may use it to perform somatic components of your shaman spells. You can only have one weapon enhanced this way."
+               }
+            }
+         },
+         "ElementalIntervention": {
+            "Label": "Elemental Intervention",
+            "Description": {
+               "1": {
+                  "Value": "You can call on the elements of Azeroth to intervene on your behalf when your need is great. Imploring the elements‘ aid requires you to use your action. Describe the assistance you seek, and roll a percentile dice. If you roll a number equal to or lower than your shaman level, the elements intervene. The DM chooses the nature of the intervention; the effect of any shaman spell or art spell would be appropriate. This ability is treated as divine intervention in all respects."
+               },
+               "2": {
+                  "Value": "If the elements intervene, you can‘t use this feature again for 7 days. Otherwise, you can use it again after you finish a long rest. At 20th level, your call for intervention succeeds automatically, no roll required."
+               }
+            }
+         },
+         "ElementalMastery": {
+            "Label": "Elemental Mastery",
+            "Description": {
+               "1": {
+                  "Value": "You may change any elemental damage type dealt by your shaman spells to another type. This requires a bonus action."
+               }
+            }
+         },
+         "ElementalMixing": {
+            "Label": "Elemental Mixing",
+            "Description": {
+               "1": {
+                  "Value": "When you roll elemental damage from a shaman spell of spell level 1 or higher, you can apply one of the following effects:"
+               },
+               "2": {
+                  "Options": {
+                     "1": "<i>Earth Slide</i>: The target is pushed 10 feet in any direction you choose.",
+                     "2": "<i>Fire Sear</i>: The target is scorched for one round.",
+                     "3": "<i>Frost Snap</i>: The target is chilled for one round.",
+                     "4": "<i>Storm Toss</i>: The target takes disadvantage to attack rolls."
+                  }
+               },
+               "3": {
+                  "Value": "These effects stack with others, whenever possible (such as by the elemental shock spell). For example, an elemental shock that deals lightning (lightning shock) normally imposes the Storm Toss effect. You can also add the Earth Slide effect to push the target as well."
+               }
+            }
+         },
+         "ElementalStorm": {
+            "Label": "Elemental Storm",
+            "Description": {
+               "1": {
+                  "Value": "You gain the ability to summon a fully-realized thunderstorm, snowstorm, or firestorm at your location. The earth is blanketed by a 5-mile radius centered on you for one hour. This otherwise acts as control weather, and takes 10 minutes to cast as normal. However, so long as the elemental storm is active, you may also use an action to cause a 10-foot wide cylinder of elemental wrath that deals 10d6 damage (thunder, lighting, cold, or fire, depending on the storm type). The range of this ability is as far as you can see within the radius, and the affected creatures are entitled an Agility saving throw to half damage."
+               },
+               "2": {
+                  "Value": "Whenever you call the elemental cylinder, the dice damage is reduced by 2d6. When they reach 0d6, the storm ends prematurely (even if maintaining concentration), as the elemental spirits become calmer. Once used, this ability cannot be used again until after a long rest."
+               }
+            }
+         },
+         "ElusiveTotems": {
+            "Label": "Elusive Totems",
+            "Description": {
+               "1": {
+                  "Value": "You may move any or all of your totems up to half your own speed as a reaction, not as a bonus action. This cannot interrupt an attack, but gives the totem a bonus to AC equal to your Spirit modifier versus an attack you react to."
+               },
+               "2": {
+                  "Value": "You also increase their hit points by your level (to a total of three times your level). Totems also gain the benefit of the Evasion rogue ability when using your Agility saving throw bonus. Lastly, if one of your totems are destroyed, you regain one-quarter the mana cost you spent on it."
+               },
+               "3": {
+                  "Value": "If you are traveling overland with totems out, they move with you."
                }
             }
          },
@@ -2163,6 +2590,14 @@
                }
             }
          },
+         "Flurry": {
+            "Label": "Flurry",
+            "Description": {
+               "1": {
+                  "Value": "When you take an action to attack, you can attack twice instead of once."
+               }
+            }
+         },
          "FortifyingChemistry": {
             "Label": "Fortifying Chemistry",
             "Description": {
@@ -2203,6 +2638,14 @@
             "Description": {
                "1": {
                   "Value": "When determining your maximum allowable CR to transform to, you divide your level by three, and not eight (round down), referring to the below table."
+               }
+            }
+         },
+         "GoblinBalloonPass": {
+            "Label": "Goblin Balloon Pass",
+            "Description": {
+               "1": {
+                  "Value": "When you need to, you can secure free passage on a goblin balloon for yourself and your adventuring companions. You might sail on the balloon you served on, or another balloon you have good relations with (perhaps one captained by a former crewmate). Because you‘re calling in a favor, you can‘t be certain o f a schedule or route that will meet your every need. Your Dungeon Master will determine how long it takes to get where you need to go. In return for your free passage, you and your companions are expected to assist the crew during the voyage, but you do not require a permanent pass."
                }
             }
          },
@@ -2257,6 +2700,17 @@
             "Description": {
                "1": {
                   "Value": "You treat your proficiency bonus as if 2 points higher for the purposes of how many potions you can have active under your Internal Clock ability. Also, if your Internal Clock ability would activate, you may choose to withhold benefitting from it up to 1 minute. If you do not declare a use of the ability (reaction if not in your turn, bonus action if it is) it fades at the end of the duration."
+               }
+            }
+         },
+         "GreaterInvestitures": {
+            "Label": "Greater Investitures",
+            "Description": {
+               "1": {
+                  "Value": "You can may cast one of the four ‗Investiture‘ spells (Investiture of Flame, Investiture of Wind, etc.) with a use of Elemental Command."
+               },
+               "2": {
+                  "Value": "While under the effects of one of the spells, whenever you cast the elemental shock or elemental tongue spells that deals the same damage type as described in the investiture (if any), the spell deals double damage (as if a critical hit). This can stack with a critical hit (up to triple damage)."
                }
             }
          },
@@ -2547,6 +3001,14 @@
                }
             }
          },
+         "Kalimag": {
+            "Label": "Kalimag",
+            "Description": {
+               "1": {
+                  "Value": "You know Kalimag, the language of elementals and wind, earth, fire, and water spirits. You can speak the language and use it to leave hidden messages. You and others who know this language automatically spot such a message. If you can speak Kalimag, you can communicate with all other shamans and elementals, even if you don‘t otherwise share a language."
+               }
+            }
+         },
          "KnackForIt": {
             "Label": "Knack for It",
             "Description": {
@@ -2586,6 +3048,20 @@
                },
                "2": {
                   "Value": "You may also instead tear the life from living targets within 30 ft. as a reaction, stealing a number of hit points equal to ¼ their current hit points, and restoring your hit points by the same amount. The target may resist with Stamina saving throw against your Spell Save DC. This may be used once per Charisma modifier (minimum 1) before requiring a long rest."
+               }
+            }
+         },
+         "ManaSurge": {
+            "Label": "Mana Surge",
+            "Description": {
+               "1": {
+                  "Value": "You may rapidly recover your mana by calling out to fonts of spiritual power. You can use your action and bonus action on your turn to regain mana as if completed a short rest (or rested for one hour)."
+               },
+               "2": {
+                  "Value": "You can use this feature a number of times equal to half your proficiency bonus. You regain expended uses when you finish a long rest. While using this feature, the flow of elemental power protects you, imposing disadvantage on attack rolls made against you, and granting you advantage to saving throws until the start of your turn in the next round."
+               },
+               "3": {
+                  "Value": "Alternatively, if you use this during a short rest or when you are below one-quarter your maximum mana point pool, you are treated as if you rested for two hours instead of one. This is atop the mana you regain for the normal rest."
                }
             }
          },
@@ -2808,11 +3284,33 @@
                }
             }
          },
+         "ReleaseElemental": {
+            "Label": "Release Elemental",
+            "Description": {
+               "1": {
+                  "Value": "When an elemental fails its saving throw against your Turn Elemental feature, you may subject the creature to a dispel (as the dispel magic spell), release it from its bindings (if bound by the bind or essence seal spells), return it to its realm of origin (as the banishment spell), or destroy it outright if its challenge rating is at or below a certain threshold, as shown in the Release Elemental table. This ability only functions when you declare your intention to use it."
+               },
+               "2": {
+                  "Value": "If targeting an elemental whose essence is captured and is being used to fuel a device with an elemental engine, you can cause it to suffer from the malfunctioned condition with a successful spell attack against the wielder of the device. If the device already is malfunctioned, a successful spell attack releases the elemental instead, which appears at any point between you and the device (you can choose the point). Such elementals usually serve the shaman for 1 day or until they can return the favor."
+               },
+               "3": {
+                  "Value": "Destroying elementals is a secret art known to shamans, and is typically only used against elementals that are corrupted by fel energies, as elementals are usually receptive to shamans who turn them (see above)."
+               }
+            }
+         },
          "RepairFlesh": {
             "Label": "Repair Flesh",
             "Description": {
                "1": {
                   "Value": "Your alchemist spells and potions that heal the living on your spell list can heal undead and constructs (such as rejuvenation and heal). A given creature must be studied for at least one hour before you may adapt your alchemy to heal them, however. For instance, studying a forsaken for one hour allows you to heal all forsaken with the holy light spell if manifested as an alchemist spell (or potion)."
+               }
+            }
+         },
+         "Researcher": {
+            "Label": "Researcher",
+            "Description": {
+               "1": {
+                  "Value": "When you attempt to learn or recall a piece of lore, if you do not know that information, you often know where and from whom you can obtain it. Usually, this information comes from a library, scriptorium, university, or a sage or other learned person or creature. Your DM might rule that the knowledge you seek is secreted away in an almost inaccessible place, or that it simply cannot be found. Unearthing the deepest secrets of the multiverse can require an adventure or even a whole campaign."
                }
             }
          },
@@ -2931,6 +3429,21 @@
                }
             }
          },
+         "ShamanisticArt": {
+            "Label": "Shamanistic Art",
+            "Description": {
+               "1": {
+                  "Value": "Choose one shamanistic art or focus related to how you view the elements and how they have received you, such as Elemental to focus on bringing the elements‘ wrath down, enhancement to strengthen yourself through the elements, or restoration, in which the elements are in balance. Each art is detailed at the end of the class description."
+               },
+               "2": {
+                  "Value": "Your choice grants you art spells and other features when you choose it at 1st level. It also grants you additional ways to use Channel Elements when you gain that feature at 2nd level, and additional benefits at 6th, 8th, and 17th levels."
+               },
+               "3": {
+                  "Title": "Art Spells",
+                  "Value": "Each art has a list of spells - its art spells - that you gain at the shaman levels noted in the art description. Once you gain an art spell, you always have it prepared, and it doesn‘t count against the number of spells you can prepare each day. If you have an art spell that doesn‘t appear on the priest spell list, the spell is nonetheless a shaman spell for you."
+               }
+            }
+         },
          "ShelterOfTheFaithful": {
             "Label": "Shelter of the Faithful",
             "Description": {
@@ -2939,6 +3452,14 @@
                },
                "2": {
                   "Value": "You might also have ties to a specific temple dedicated to your chosen deity or pantheon, and you have a residence there. This could be the temple where you used to serve, if you remain on good terms with it, or a temple where you have found a new home. While near your temple, you can call upon the priests for assistance, provided the assistance you ask for is not hazardous and you remain in good standing with your temple."
+               }
+            }
+         },
+         "ShipsPassage": {
+            "Label": "Ship's Passage",
+            "Description": {
+               "1": {
+                  "Value": "When you need to, you can secure free passage on a sailing ship for yourself and your adventuring companions. You might sail on the ship you served on, or another ship you have good relations with (perhaps one captained by a former crewmate). Because you're calling in a favor, you can't be certain of a schedule or route that will meet your every need. Your DM will determine how long it takes to get where you need to go. In return for your free passage, you and your companions are expected to assist the crew during the voyage."
                }
             }
          },
@@ -3007,6 +3528,26 @@
                }
             }
          },
+         "Specialty": {
+            "Label": "Specialty",
+            "Description": {
+               "1": {
+                  "Value": "To determine the nature of your scholarly training, roll a d8 or choose from the options in the table below."
+               },
+               "2": {
+                  "Options": {
+                     "1": "Alchemist",
+                     "2": "Astronomer",
+                     "3": "Discredited academic",
+                     "4": "Librarian",
+                     "5": "Professor",
+                     "6": "Researcher",
+                     "7": "Wizard's apprentice",
+                     "8": "Scribe"
+                  }
+               }
+            }
+         },
          "SpellcastingDeathKnight": {
             "Label": "Spellcasting",
             "Description": {
@@ -3052,7 +3593,7 @@
                },
                "2": {
                   "Title": "Cantrips",
-                  "Value": "At 1st level, you know a number of cantrips equal to your proficiency bonus."
+                  "Value": "You know a number of cantrips equal to your proficiency bonus."
                },
                "3": {
                   "Title": "Conjuring and Binding",
@@ -3089,11 +3630,58 @@
                }
             }
          },
+         "SpellcastingShaman": {
+            "Label": "Spellcasting",
+            "Description": {
+               "1": {
+                  "Value": "You have learned to draw on raw elemental might through meditation and communication with the elements."
+               },
+               "2": {
+                  "Title": "Cantrips",
+                  "Value": "You know a number of cantrips equal to your proficiency bonus."
+               },
+               "3": {
+                  "Title": "Conjuring and Binding",
+                  "Value": "A shaman can conjure and bind aberrations, elementals, fiends, oozes, and undead, as well spirit creatures (creatures with the spirit template)."
+               },
+               "4": {
+                  "Value": "Furthermore, you can be Called (see Calling, see Chapter 10) by the elements and elementals, although they usually only call to ask for aid regarding circumstances that threaten the balance of powers, such as extensive drilling efforts, an upcoming wildfire in a dry area, or a coming storm in around 24 hours before they take place."
+               },
+               "5": {
+                  "Title": "Preparing and Casting Spells",
+                  "Value": "Each shaman level provides you with 1 caster level in the shaman class. You follow the normal progression to unlock spell levels (see the table under the Mana section). You prepare the list of shaman spells that are available for you to cast, choosing from the shaman spell list."
+               },
+               "6": {
+                  "Value": "You can also change your list of prepared spells by consulting your totem (treat as a spellbook) after a long rest. Preparing a new list of shaman spells requires time spent in study: at least 1 minute per spell level for each spell on your list."
+               },
+               "7": {
+                  "Title": "Spellcasting Ability",
+                  "Value": "Spirit is your spellcasting ability for your shaman spells, since you learn your shaman spells through primal contact with the elemental forces."
+               },
+               "8": {
+                  "Value": "You use your Spirit whenever a spell refers to your spellcasting ability. In addition, you use your Spirit modifier when setting the saving throw DC for a shaman spell you cast and when making an attack roll with one."
+               },
+               "9": {
+                  "Value": "<strong>Spell save DC</strong> = 8 + your proficiency bonus + your Spirit modifier<br><strong>Spell attack modifier</strong> = your proficiency bonus + your Spirit modifier"
+               },
+               "10": {
+                  "Title": "Spellbook - Master Totem",
+                  "Value": "At 1st level, your totem contains six 1st-level shaman spells of your choice. When you level up, you gain 2 additional shaman spells of your choice. You may also acquire new spells by research, tutelage, or from the spellbooks and scrolls of spellcasters who have spells you can cast."
+               },
+               "11": {
+                  "Value": "Your totem is effectively your spellbook, and you may add spells by meditating with it and burning incense and rare herbs. This totem is usually also known as your spell totem."
+               },
+               "12": {
+                  "Title": "Spellcasting Focus",
+                  "Value": "You can use your shamanistic symbol as a spellcasting focus for your shaman spells. These are typically totems, tufts of wolf hair, or a carving of your spiritual animal."
+               }
+            }
+         },
          "SpellcastingWarlock": {
             "Label": "Spellcasting",
             "Description": {
                "1": {
-                  "Value": "you gain the ability to cast spells, trafficking in demonic forces most have no hope of understanding or controlling. You have a grimoire containing spells that show the first glimmerings of your true power."
+                  "Value": "You gain the ability to cast spells, trafficking in demonic forces most have no hope of understanding or controlling. You have a grimoire containing spells that show the first glimmerings of your true power."
                },
                "2": {
                   "Title": "Cantrips",
@@ -3130,6 +3718,20 @@
                "11": {
                   "Title": "Spellcasting Focus",
                   "Value": "You can use an arcane focus as a spellcasting focus for your warlock spells."
+               }
+            }
+         },
+         "SpiritWolves": {
+            "Label": "Spirit Wolves",
+            "Description": {
+               "1": {
+                  "Value": "You can summon two dire wolves with the spirit template as an action, which take their turns immediately after yours. The wolves dissipate after 5 minutes, and do not require concentration. So long as the wolves are within 10 feet of you, your movement speed increases to match their own."
+               },
+               "2": {
+                  "Value": "Furthermore, whenever you succeed on more than two attacks and the spirit wolves are within 30 feet of you, they can make an attack of opportunity as a reaction against any creature that is within 5 feet of them. If either succeeds on attacking, you regain 1d6+1 hit points."
+               },
+               "3": {
+                  "Value": "After using this feature, you must finish a short rest before you can use it again. The DM has the wolves‘ statistics, and applies the spirit template appropriately. The dire wolves‘ Challenge is always of a value equal to one-eighth your shaman level (allowing you to enhance them, as described in the Monster Guide)."
                }
             }
          },
@@ -3266,6 +3868,17 @@
                },
                "2": {
                   "Value": "Your path choice grants you features at 3rd level and then again at 6th, 10th, and 14th levels."
+               }
+            }
+         },
+         "TotemMastery": {
+            "Label": "Totem Mastery",
+            "Description": {
+               "1": {
+                  "Value": "You may activate two totems with the same reaction. You may also include totems in the spirit link spell or effect, despite them being objects and not creatures. For this purpose, they have resistance against any damage shared through the link, soaking up the total damage distributed."
+               },
+               "2": {
+                  "Value": "Also, whenever one of your totems is attacked (and not necessarily hit), it can move 10 feet in any direction. If it ends adjacent to an ally, the totem regains 2d6 hit points."
                }
             }
          },
@@ -4020,6 +4633,22 @@
                }
             }
          },
+         "AnimalMessenger": {
+            "Label": "Animal Messenger",
+            "Description": {
+               "1": {
+                  "Value": "By means of this spell, you use an animal to deliver a message. Choose a Tiny beast you can see within range, such as a squirrel, a blue jay, or a bat. You specify a location, which you must have visited, and a recipient who matches a general description, such as \"a man or woman dressed in the uniform of the town guard\" or \"a red-haired dwarf wearing a pointed hat.\" You also speak a message of up to twenty-five words. The target beast travels for the duration of the spell toward the specified location, covering about 50 miles per 24 hours for a flying messenger, or 25 miles for other animals."
+               },
+               "2": {
+                  "Value": "When the messenger arrives, it delivers your message to the creature that you described, replicating the sound of your voice. The messenger speaks only to a creature matching the description you gave. If the messenger doesn't reach its destination before the spell ends, the message is lost, and the beast makes its way back to where you cast this spell."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "If you cast this spell using a spell slot of 3rd level or higher, the duration of the spell increases by 48 hours for each slot level above 2nd."
+               }
+            }
+         },
          "AntilifeShell": {
             "Label": "Antilife Shell",
             "Description": {
@@ -4163,6 +4792,17 @@
             "Heightened": {
                "1": {
                   "Value": "Per level above 3rd, add one dice of damage per every spell level above 3rd level."
+               }
+            }
+         },
+         "Bloodlust": {
+            "Label": "Bloodlust",
+            "Description": {
+               "1": {
+                  "Value": "Choose a willing creature you can see within range. Until the spell ends, the target is immune to fear, has +2 to AC, advantage on Agility saving throws, and can make an additional action on each of its turns, and gains temporary hit points equal to your spellcasting modifier."
+               },
+               "2": {
+                  "Value": "This action can only be used for the attack (one weapon attack only), Dash, Disengage, Hide, or Use Object action. When the spell ends, the target can‘t move or take actions until after its next turn. This extra action does not stack with similar abilities granting extra actions."
                }
             }
          },
@@ -4322,6 +4962,22 @@
                }
             }
          },
+         "ConjureSpiritDireWolf": {
+            "Label": "Conjure Spirit Dire Wolf",
+            "Description": {
+               "1": {
+                  "Value": "You summon fey spirits that take the form of dire wolfes and appear in unoccupied spaces that you can see within range."
+               },
+               "2": {
+                  "Value": "The summoned creatures are friendly to you and your companions. Roll initiative for the summoned creatures as a group, which has its own turns. They obey any verbal commands that you issue to them (no action required by you). If you don’t issue any commands to them, they defend themselves from hostile creatures, but otherwise take no actions."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "When you cast this spell using certain higher-level spell slots, you choose one of the summoning options above, and more creatures appear: twice as many with a 5th-level slot, three times as many with a 7th-level."
+               }
+            }
+         },
          "ConjureUndead": {
             "Label": "Conjure Undead",
             "Description": {
@@ -4370,6 +5026,39 @@
                      "5": "<i>Seizure</i>: The creature is overcome with shaking. The creature has disadvantage on Dexterity checks, Dexterity saving throws, and attack rolls that use Dexterity.",
                      "6": "<i>Slimy Doom</i>: The creature begins to bleed uncontrollably. The creature has disadvantage on Constitution checks and Constitution saving throws. In addition, whenever the creature takes damage, it is stunned until the end of its next turn."
                   }
+               }
+            }
+         },
+         "ControlWater": {
+            "Label": "Control Water",
+            "Description": {
+               "1": {
+                  "Value": "Until the spell ends, you control any freestanding water inside an area you choose that is a cube up to 100 feet on a side. You can choose from any of the following effects when you cast this spell. As an action on your turn, you can repeat the same effect or choose a different one."
+               },
+               "2": {
+                  "Title": "Flood",
+                  "Value": "You cause the water level of all standing water in the area to rise by as much as 20 feet. If the area includes a shore, the flooding water spills over onto dry land, instead create a 20-foot tall wave that travels from one side of the area to the other and then crashes down. Any Huge or smaller vehicles in the wave’s path are carried with it to the other side. Any Huge or smaller vehicles struck by the wave have a 25 percent chance of capsizing."
+               },
+               "3": {
+                  "Value": "The water level remains elevated until the spell ends or you choose a different effect. If this effect produced a wave, the wave repeats on the start of your next turn while the flood effect lasts."
+               },
+               "4": {
+                  "Title": "Part Water",
+                  "Value": "You cause water in the area to move apart and create a trench. The trench extends across the spell’s area, and the separated water forms a wall to either side. The trench remains until the spell ends or you choose a different effect. The water then slowly fills in the trench over the course of the next round until the normal water level is restored."
+               },
+               "5": {
+                  "Title": "Redirect Flow",
+                  "Value": "You cause flowing water in the area to move in a direction you choose, even if the water has to flow over obstacles, up walls, or in other unlikely directions. The water in the area moves as you direct it, but once it moves beyond the spell’s area, it resumes its flow based on the terrain conditions. The water continues to move in the direction you chose until the spell ends or you choose a different effect."
+               },
+               "6": {
+                  "Title": "Whirlpool",
+                  "Value": "This effect requires a body of water at least 50 feet square and 25 feet deep. You cause a whirlpool to form in the center of the area. The whirlpool forms a vortex that is 5 feet wide at the base, up to 50 feet wide at the top, and 25 feet tall. Any creature or object in the water and within 25 feet of the vortex is pulled 10 feet toward it. A creature can swim away from the vortex by making a Strength (Athletics) check against your spell save DC."
+               },
+               "7": {
+                  "Value": "When a creature enters the vortex for the first time on a turn or starts its turn there, it must make a Strength saving throw. On a failed save, the creature takes 2d8 bludgeoning damage and is caught in the vortex until the spell ends. On a successful save, the creature takes half damage, and isn’t caught in the vortex. A creature caught in the vortex can use its action to try to swim away from the vortex as described above, but has disadvantage on the Strength (Athletics) check to do so."
+               },
+               "8": {
+                  "Value": "The first time each turn that an object enters the vortex, the object takes 2d8 bludgeoning damage; this damage occurs each round it remains in the vortex."
                }
             }
          },
@@ -4463,6 +5152,20 @@
                }
             }
          },
+         "DeathWard": {
+            "Label": "Death Ward",
+            "Description": {
+               "1": {
+                  "Value": "You touch a creature and grant it a measure of protection from death."
+               },
+               "2": {
+                  "Value": "The first time the target would drop to 0 hit points as a result of taking damage, the target instead drops to 1 hit point, and the spell ends."
+               },
+               "3": {
+                  "Value": "If the spell is still in effect when the target is subjected to an effect that would kill it instantaneously without dealing damage, that effect is instead negated against the target, and the spell ends."
+               }
+            }
+         },
          "DetectMagic": {
             "Label": "TODO: Detect Magic",
             "Description": {
@@ -4515,6 +5218,46 @@
             "Heightened": {
                "1": {
                   "Value": "For each spell level above 2nd, you gain resistance to another attack taken in the same combat round."
+               }
+            }
+         },
+         "ElementalShock": {
+            "Label": "Elemental Shock",
+            "Description": {
+               "1": {
+                  "Value": "Make a spell attack roll at a target within range. You blast the target with a burst of elemental energy, dealing 2d8 damage from any of elemental damage type you choose (chosen from acid, cold, fire, or lightning)."
+               },
+               "2": {
+                  "Value": "Furthermore, depending on the damage type you choose, the target also suffers a secondary effect if they fail a Stamina saving throw."
+               },
+               "3": {
+                  "Options": {
+                     "1": "<i>Earth (acid)</i>: The target is pushed 10 feet in any direction you choose.",
+                     "2": "<i>Fire (fire)</i>: The target is scorched for until the beginning of your turn in the next round.",
+                     "3": "<i>Frost (cold)</i>: The target is chilled for until the beginning of your turn in the next round.",
+                     "4": "<i>Storm (lightning)</i>: The target takes disadvantage to attack rolls until the beginning of your turn in the next round."
+                  }
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "The initial damage increases by 2d8 per level above 1st."
+               },
+               "2": {
+                  "Value": "This spell costs one less mana point than normal for its spell level."
+               }
+            }
+         },
+         "ElementalTongue": {
+            "Label": "Elemental Tongue",
+            "Description": {
+               "1": {
+                  "Value": "You may apply this strike to any melee weapon attack. This deals additional 1d6 damage, chosen from any type of elemental damage you choose when you cast the spell. This deals an additional effect as Elemental Shock."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "You deal an additional 1d6 elemental damage or one additional use from any of the above elements per level above 1st."
                }
             }
          },
@@ -4656,6 +5399,23 @@
                }
             }
          },
+         "GustOfWind": {
+            "Label": "Gust of Wind",
+            "Description": {
+               "1": {
+                  "Value": "A line of strong wind 60 feet long and 10 feet wide blasts from you in a direction you choose for the spell's duration. Each creature that starts its turn in the line must succeed on a Strength saving throw or be pushed 15 feet away from you in a direction following the line."
+               },
+               "2": {
+                  "Value": "Any creature in the line must spend 2 feet of movement for every 1 foot it moves when moving closer to you."
+               },
+               "3": {
+                  "Value": "The gust disperses gas or vapor, and it extinguishes candles, torches, and similar unprotected flames in the area. It causes protected flames, such as those of lanterns, to dance wildly and has a 50 percent chance to extinguish them."
+               },
+               "4": {
+                  "Value": "As a bonus action on each of your turns before the spell ends, you can change the direction in which the line blasts from you."
+               }
+            }
+         },
          "Haste": {
             "Label": "Haste",
             "Description": {
@@ -4664,6 +5424,43 @@
                },
                "2": {
                   "Value": "When the spell ends, the target can’t move or take Actions until after its next turn, as a wave of lethargy sweeps over it."
+               }
+            }
+         },
+         "HealingStream": {
+            "Label": "Healing Stream",
+            "Description": {
+               "1": {
+                  "Value": "You may target a single creature with a chained healing spell. The target is healed 5d4 hit points, and the spell‘s effects are then transferred (and diminished) to another creature you choose within 20 feet of the original target. The secondary target heals 3d4 hit points, and the effect arcs again, losing two dice for each target after the first (until it reaches 0d4)."
+               },
+               "2": {
+                  "Value": "This spell has no effect on constructs and undead."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "The healing increases by 1d4 for each level above 3rd."
+               }
+            }
+         },
+         "HealingStreamTotem": {
+            "Label": "Healing Stream Totem",
+            "Description": {
+               "1": {
+                  "Value": "Once you place this totem, you may use your reaction every round to cause it to emit healing energies as the healing stream spell of 3rd level; you may choose the targets of the spell."
+               }
+            }
+         },
+         "HealingWard": {
+            "Label": "Healing Ward",
+            "Description": {
+               "1": {
+                  "Value": "Once you place this totem, you may use your reaction every round to cause it to emit healing energies, restoring 1 hit point per round to all creatures within 30 feet. This healing acts exactly as normal healing from the holy light spell."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "The ward heals one additional hit point, or remains for one additional minute per spell level."
                }
             }
          },
@@ -4731,6 +5528,14 @@
             "Description": {
                "1": {
                   "Value": "You touch a creature and can end either one disease or one condition afflicting it. The condition can be blinded, deafened, paralyzed, or poisoned."
+               }
+            }
+         },
+         "Maelstrom": {
+            "Label": "Maelstrom",
+            "Description": {
+               "1": {
+                  "Value": "A swirling mass of 5-foot-deep water appears in a 30-foot radius centered on a point you can see within range. The point must be on the ground or in a body of water. Until the spell ends, that area is difficult terrain, and any creature that starts its turn there must succeed on a Strength saving throw or take 6d6 bludgeoning damage and be pulled 10 feet toward the center."
                }
             }
          },
@@ -4892,6 +5697,25 @@
                }
             }
          },
+         "Riptide": {
+            "Label": "Riptide",
+            "Description": {
+               "1": {
+                  "Value": "You may target a living creature within range with a curative blast of waters. The target regains 1d4 hit points. If you target an undead or a fiend with this ability, they take holy damage equal to the hit points they would normally gain. If you target an unwilling creature, you require a ranged spell attack. At the beginning of every round, the caster must succeed on a sigil roll to affect the target again."
+               },
+               "2": {
+                  "Value": "Also, so long as the spell is active, a single spell that affects the target while under the sigil‘s effects is subject to a dispel effect (as if a dispel magic spell was 1st level). The dispel effect requires spending a reaction."
+               },
+               "3": {
+                  "Value": "Constructs gain no benefit from this spell."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "The healing taken increases by one dice per every level above 2nd. The effective level of the dispel magic also increases by one level."
+               }
+            }
+         },
          "RuneArray": {
             "Label": "Rune Array",
             "Description": {
@@ -4936,9 +5760,60 @@
                }
             }
          },
+         "Sending": {
+            "Label": "Sending",
+            "Description": {
+               "1": {
+                  "Value": "You send a short message of twenty-five words or less to a creature with which you are familiar. The creature hears the message in its mind, recognizes you as the sender if it knows you, and can answer in a like manner immediately. The spell enables creatures with Intelligence scores of at least 1 to understand the meaning of your message."
+               },
+               "2": {
+                  "Value": "You can send the message across any distance and even to other planes of existence, but if the target is on a different plane than you, there is a 5 percent chance that the message doesn't arrive."
+               }
+            }
+         },
+         "Shield": {
+            "Label": "Shield",
+            "Description": {
+               "1": {
+                  "Value": "An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from magic missile."
+               }
+            }
+         },
          "Silence": {
             "Label": "TODO: Silence",
             "Description": "For the Duration, no sound can be created within or pass through a 20-foot-radius Sphere centered on a point you choose within range. Any creature or object entirely inside the Sphere is immune to thunder damage, and creatures are Deafened while entirely inside it. Casting a Spell that includes a verbal component is impossible there."
+         },
+         "SpiritInfusion": {
+            "Label": "Spirit Infusion",
+            "Description": {
+               "1": {
+                  "Value": "You infuse yourself with a totemic spirit that affects only you. Choose one of the three spirits below, and you gain the chosen benefit for as long as the spell is active."
+               },
+               "2": {
+                  "Options": {
+                     "1": "<i>Bear</i>: You gain climb speed of 10 feet per round, are able to deal 1d6 damage with your melee unarmed attack (instead of your normal damage, at your choice), and gain 2d6 temporary hit points.",
+                     "2": "<i>Eagle</i>: You double your normal movement speed and jumping distance, and constantly benefit from the feather fall spell.",
+                     "3": "<i>Wolf</i>: You gain +1 to melee damage rolls per ally adjacent to the target (maximum equal to spell level), and your allies gain +2 to attack rolls against one target you designate within 5 feet of you. This is an aura bonus."
+                  }
+               }
+            },
+            "Heightened": {
+               "1": "For each spell level above 3rd, the maximum duration of the spell increases by 2 minutes."
+            }
+         },
+         "SpiritLinkTotem": {
+            "Label": "Spirit Link Totem",
+            "Description": {
+               "1": {
+                  "Value": "You plant the totem in the ground anywhere within 30 feet. All willing allies are linked with the spirit link spell, up to a maximum of one creature per spell level. Whenever a creature is damaged, you may use your reaction to share the damage taken among the rest. You may use an action to change the targets of the spirit link."
+               },
+               "2": {
+                  "Value": "This spell otherwise acts as a totemic version of spirit link."
+               },
+               "3": {
+                  "Value": "Unlike most totem spells, this is a concentration effect."
+               }
+            }
          },
          "StinkingCloud": {
             "Label": "Stinking Cloud",
@@ -4981,6 +5856,20 @@
                }
             }
          },
+         "TeleportationCircle": {
+            "Label": "Teleportation Circle",
+            "Description": {
+               "1": {
+                  "Value": "As you cast the spell, you draw a 10-foot-diameter circle on the ground inscribed with sigils that link your location to a permanent teleportation circle of your choice whose sigil sequence you know and that is on the same plane of existence as you. A shimmering portal opens within the circle you drew and remains open until the end of your next turn. Any creature that enters the portal instantly appears within 5 feet of the destination circle or in the nearest unoccupied space if that space is occupied."
+               },
+               "2": {
+                  "Value": "Many major temples, guilds, and other important places have permanent teleportation circles inscribed somewhere within their confines. Each such circle includes a unique sigil sequence—a string of magical runes arranged in a particular pattern. When you first gain the ability to cast this spell, you learn the sigil sequences for two destinations on The Material Plane, determined by the DM. You can learn additional sigil sequences during your adventures. You can commit a new sigil sequence to memory after studying it for 1 minute."
+               },
+               "3": {
+                  "Value": "You can create a permanent teleportation circle by casting this spell in the same location every day for one year. You need not use the circle to Teleport when you cast the spell in this way."
+               }
+            }
+         },
          "Thaumaturgy": {
             "Label": "TODO: Thaumaturgy",
             "Description": "You manifest a minor wonder, a sign of supernatural power, within range. You create one of the following magical Effects within range. If you cast this spell multiple times, you can have up to three of its 1-minute Effects active at a time, and you can dismiss such an Effect as an action.",
@@ -4991,6 +5880,17 @@
                "4": "You create an Instantaneous sound that originates from a point of your choice within range, such as a rumble of thunder, the cry of a raven, or ominous whispers.",
                "5": "You instantaneously cause an unlocked door or window to fly open or slam shut.",
                "6": "You alter the Appearance of your eyes for 1 minute."
+            }
+         },
+         "TotemicRecall": {
+            "Label": "Totemic Recall",
+            "Description": {
+               "1": {
+                  "Value": "You may recall any of your totems within 60 feet. So long as the totem has at least one round remaining and cost at least 1 mana point to place, you regain mana equal to 1 per totem recalled."
+               },
+               "2": {
+                  "Value": "This spell does not cost mana to cast. It does also does not count as a mana restorative effect."
+               }
             }
          },
          "Tranquility": {
@@ -5050,6 +5950,19 @@
             "Heightened": {
                "1": {
                   "Value": "When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd."
+               }
+            }
+         },
+         "WindfuryTongue": {
+            "Label": "Windfury Tongue",
+            "Description": {
+               "1": {
+                  "Value": "Over the next minute, whenever your turn starts (including this turn), you must roll a d20. On a 17 or higher, you may make another attack with the same action."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "The required dice result to trigger the extra attack is 1 point less on the d20 for every two spell levels above 5th, to a result of a result of a 15 or higher on the d20."
                }
             }
          }

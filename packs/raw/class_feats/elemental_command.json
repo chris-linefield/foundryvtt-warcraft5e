@@ -1,0 +1,36 @@
+{
+   "_id": "BXHGUjkF0ckCrdFe",
+   "name": "Elemental Command",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 121",
+      "requirements": "Shaman (Enhancement) 1"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.ElementalCommand.Description.1.Value"
+            },
+            {
+               "options": [
+                  "WC5E.Feats.ElementalCommand.Description.2.Options.1",
+                  "WC5E.Feats.ElementalCommand.Description.2.Options.2",
+                  "WC5E.Feats.ElementalCommand.Description.2.Options.3"
+               ]
+            },
+            {
+               "value": "WC5E.Feats.ElementalCommand.Description.3.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/earth/explosion-lava-stone-red.webp",
+   "effects": [
+   ]
+}

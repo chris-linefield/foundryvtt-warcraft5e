@@ -1,0 +1,87 @@
+{
+   "_id": "IM5qEkNqnltsFqcd",
+   "name": "Release Elemental",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 119",
+      "requirements": "Shaman 5"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.ReleaseElemental.Description.1.Value"
+            },
+            {
+               "table": {
+                  "head": [
+                     {
+                        "title": "WC5E.Character.Level"
+                     },
+                     {
+                        "title": "WC5E.Feats.ReleaseElemental.Label",
+                        "sup": "CR"
+                     }
+                  ],
+                  "rows": [
+                     [
+                        {
+                           "value": 5
+                        },
+                        {
+                           "text": "<= 1/2"
+                        }
+                     ],
+                     [
+                        {
+                           "value": 8
+                        },
+                        {
+                           "text": "<= 1"
+                        }
+                     ],
+                     [
+                        {
+                           "value": 11
+                        },
+                        {
+                           "text": "<= 2"
+                        }
+                     ],
+                     [
+                        {
+                           "value": 14
+                        },
+                        {
+                           "text": "<= 3"
+                        }
+                     ],
+                     [
+                        {
+                           "value": 17
+                        },
+                        {
+                           "text": "<= 4"
+                        }
+                     ]
+                  ]
+               }
+            },
+            {
+               "value": "WC5E.Feats.ReleaseElemental.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Feats.ReleaseElemental.Description.3.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/air/wind-vortex-swirl-purple.webp",
+   "effects": [
+   ]
+}
