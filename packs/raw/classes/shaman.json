@@ -729,6 +729,83 @@
                         }
                      ]
                   }
+               ],
+               "spellList": [
+                  {
+                     "level": "1",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "yzlxkiqJ9QIn4Bf7",
+                           "label": "WC5E.Spells.HealingWard.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "lJwvdoJbW7adgEsg",
+                           "label": "WC5E.Spells.Riptide.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "3",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "H4BJufftApelPI8c",
+                           "label": "WC5E.Spells.AncestralGuardian.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "OMeU9ocWqBX3FDti",
+                           "label": "WC5E.Spells.TotemicRecall.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "5",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "iaOCR8jwS4OP6NI3",
+                           "label": "WC5E.Spells.HealingStream.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "X7e3HjqB7LgLyfBx",
+                           "label": "WC5E.Spells.Revivify.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "7",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "i47iiZstrOY4lpwq",
+                           "label": "WC5E.Spells.DeathWard.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "gJ8MYDbqNIw7sO24",
+                           "label": "WC5E.Spells.SpiritLinkTotem.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "9",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "mNk5b5UZAK0fKICU",
+                           "label": "WC5E.Spells.HealingStreamTotem.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "o5cuZMx3xL952iub",
+                           "label": "WC5E.Spells.Tranquility.Label"
+                        }
+                     ]
+                  }
                ]
             }
          ]

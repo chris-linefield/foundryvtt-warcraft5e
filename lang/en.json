@@ -4954,6 +4954,43 @@
                }
             }
          },
+         "HealingStream": {
+            "Label": "Healing Stream",
+            "Description": {
+               "1": {
+                  "Value": "You may target a single creature with a chained healing spell. The target is healed 5d4 hit points, and the spell‘s effects are then transferred (and diminished) to another creature you choose within 20 feet of the original target. The secondary target heals 3d4 hit points, and the effect arcs again, losing two dice for each target after the first (until it reaches 0d4)."
+               },
+               "2": {
+                  "Value": "This spell has no effect on constructs and undead."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "The healing increases by 1d4 for each level above 3rd."
+               }
+            }
+         },
+         "HealingStreamTotem": {
+            "Label": "Healing Stream Totem",
+            "Description": {
+               "1": {
+                  "Value": "Once you place this totem, you may use your reaction every round to cause it to emit healing energies as the healing stream spell of 3rd level; you may choose the targets of the spell."
+               }
+            }
+         },
+         "HealingWard": {
+            "Label": "Healing Ward",
+            "Description": {
+               "1": {
+                  "Value": "Once you place this totem, you may use your reaction every round to cause it to emit healing energies, restoring 1 hit point per round to all creatures within 30 feet. This healing acts exactly as normal healing from the holy light spell."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "The ward heals one additional hit point, or remains for one additional minute per spell level."
+               }
+            }
+         },
          "Hold": {
             "Label": "Hold",
             "Description": {
@@ -5187,6 +5224,25 @@
                }
             }
          },
+         "Riptide": {
+            "Label": "Riptide",
+            "Description": {
+               "1": {
+                  "Value": "You may target a living creature within range with a curative blast of waters. The target regains 1d4 hit points. If you target an undead or a fiend with this ability, they take holy damage equal to the hit points they would normally gain. If you target an unwilling creature, you require a ranged spell attack. At the beginning of every round, the caster must succeed on a sigil roll to affect the target again."
+               },
+               "2": {
+                  "Value": "Also, so long as the spell is active, a single spell that affects the target while under the sigil‘s effects is subject to a dispel effect (as if a dispel magic spell was 1st level). The dispel effect requires spending a reaction."
+               },
+               "3": {
+                  "Value": "Constructs gain no benefit from this spell."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "The healing taken increases by one dice per every level above 2nd. The effective level of the dispel magic also increases by one level."
+               }
+            }
+         },
          "RuneArray": {
             "Label": "Rune Array",
             "Description": {
@@ -5272,6 +5328,20 @@
                "1": "For each spell level above 3rd, the maximum duration of the spell increases by 2 minutes."
             }
          },
+         "SpiritLinkTotem": {
+            "Label": "Spirit Link Totem",
+            "Description": {
+               "1": {
+                  "Value": "You plant the totem in the ground anywhere within 30 feet. All willing allies are linked with the spirit link spell, up to a maximum of one creature per spell level. Whenever a creature is damaged, you may use your reaction to share the damage taken among the rest. You may use an action to change the targets of the spirit link."
+               },
+               "2": {
+                  "Value": "This spell otherwise acts as a totemic version of spirit link."
+               },
+               "3": {
+                  "Value": "Unlike most totem spells, this is a concentration effect."
+               }
+            }
+         },
          "StinkingCloud": {
             "Label": "Stinking Cloud",
             "Description": {
@@ -5337,6 +5407,17 @@
                "4": "You create an Instantaneous sound that originates from a point of your choice within range, such as a rumble of thunder, the cry of a raven, or ominous whispers.",
                "5": "You instantaneously cause an unlocked door or window to fly open or slam shut.",
                "6": "You alter the Appearance of your eyes for 1 minute."
+            }
+         },
+         "TotemicRecall": {
+            "Label": "Totemic Recall",
+            "Description": {
+               "1": {
+                  "Value": "You may recall any of your totems within 60 feet. So long as the totem has at least one round remaining and cost at least 1 mana point to place, you regain mana equal to 1 per totem recalled."
+               },
+               "2": {
+                  "Value": "This spell does not cost mana to cast. It does also does not count as a mana restorative effect."
+               }
             }
          },
          "Tranquility": {
