@@ -1,0 +1,26 @@
+{
+   "_id": "YT5mEQRF6YaU8Wp9",
+   "name": "Channel Elements: Wrath",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 120",
+      "requirements": "Shaman (Elemental) 2"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.ChannelElementsWrath.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/earth/projectile-stone-bullet-pink.webp",
+   "effects": [
+   ]
+}

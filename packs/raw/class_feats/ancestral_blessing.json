@@ -1,0 +1,28 @@
+{
+   "_id": "caRItDWXUgsayCb9",
+   "name": "Ancestral Blessing",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 123",
+      "requirements": "Shaman (Restoration) 1"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.AncestralBlessing.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.AncestralBlessing.Description.2.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/life/cross-explosion-burst-green.webp",
+   "effects": []
+}

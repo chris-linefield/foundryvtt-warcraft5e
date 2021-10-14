@@ -1,0 +1,29 @@
+{
+   "_id": "yEzkodabqfMFdqkF",
+   "name": "Elemental Storm",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 121",
+      "requirements": "Shaman (Elemental) 17"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.ElementalStorm.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.ElementalStorm.Description.2.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/lightning/bolts-salvo-clouds-sky.webp",
+   "effects": [
+   ]
+}

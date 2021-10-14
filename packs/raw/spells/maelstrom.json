@@ -1,0 +1,90 @@
+{
+   "_id": "kEHgSL1IP29MMc2a",
+   "name": "Maelstrom",
+   "permission": {
+      "default": 0
+   },
+   "type": "spell",
+   "data": {
+      "source": "",
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": 1,
+         "units": "minute"
+      },
+      "target": {
+         "value": 30,
+         "units": "ft",
+         "type": "radius"
+      },
+      "range": {
+         "value": 120,
+         "long": null,
+         "units": "ft"
+      },
+      "uses": {
+         "value": 0,
+         "max": 0,
+         "per": ""
+      },
+      "ability": "",
+      "actionType": "save",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": null,
+      "damage": {
+         "parts": [
+            "6d6",
+            "bludgeoning"
+         ],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "str",
+         "dc": 0,
+         "scaling": "spell"
+      },
+      "level": 5,
+      "school": "evo",
+      "components": {
+         "vocal": true,
+         "somatic": true,
+         "material": true,
+         "ritual": false,
+         "concentration": true
+      },
+      "materials": {
+         "value": "paper or leaf in the shape of a funnel",
+         "consumed": false,
+         "cost": 0,
+         "supply": 0
+      },
+      "preparation": {
+         "mode": "prepared",
+         "prepared": false
+      },
+      "scaling": {
+         "mode": "level",
+         "formula": "1d6"
+      }
+   },
+   "sort": 100001,
+   "flags": {
+      "wc5e": {
+         "type": "spell",
+         "description": [
+            {
+               "value": "WC5E.Spells.Maelstrom.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/water/vortex-water-whirlpool.webp",
+   "effects": [
+   ]
+}

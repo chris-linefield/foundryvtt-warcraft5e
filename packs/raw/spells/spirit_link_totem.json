@@ -1,0 +1,94 @@
+{
+   "_id": "gJ8MYDbqNIw7sO24",
+   "name": "Spirit Link Totem",
+   "permission": {
+      "default": 0
+   },
+   "type": "spell",
+   "data": {
+      "source": "Core Rules page 371",
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": "1",
+         "units": "hour"
+      },
+      "target": {
+         "value": null,
+         "units": "",
+         "type": "area"
+      },
+      "range": {
+         "value": 30,
+         "long": null,
+         "units": "ft"
+      },
+      "uses": {
+         "value": 0,
+         "max": 0,
+         "per": ""
+      },
+      "ability": "",
+      "actionType": "util",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": null,
+      "damage": {
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "value": ""
+      },
+      "level": 5,
+      "school": "con",
+      "components": {
+         "value": "",
+         "vocal": true,
+         "somatic": true,
+         "material": true,
+         "ritual": false,
+         "concentration": false
+      },
+      "materials": {
+         "value": "",
+         "consumed": false,
+         "cost": 0,
+         "supply": 0
+      },
+      "preparation": {
+         "mode": "prepared",
+         "prepared": false
+      },
+      "scaling": {
+         "mode": "none",
+         "formula": ""
+      }
+   },
+   "sort": 100001,
+   "flags": {
+      "wc5e": {
+         "type": "spell",
+         "description": [
+            {
+               "value": "WC5E.Spells.SpiritLinkTotem.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Spells.SpiritLinkTotem.Description.2.Value"
+            },
+            {
+               "special": true,
+               "value": "WC5E.Spells.SpiritLinkTotem.Description.3.Value"
+            }
+         ]
+      }
+   },
+   "img": "systems/dnd5e/icons/spells/link-royal-3.jpg",
+   "effects": [
+   ]
+}

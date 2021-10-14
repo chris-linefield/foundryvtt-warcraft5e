@@ -1,0 +1,28 @@
+{
+   "_id": "osJf60aBOveCLwZk",
+   "name": "Totem Mastery",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 123",
+      "requirements": "Shaman (Restoration) 17"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.TotemMastery.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.TotemMastery.Description.2.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/commodities/treasure/totem-wooden-glowing-yellow.webp",
+   "effects": []
+}

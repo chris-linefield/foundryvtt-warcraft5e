@@ -1,0 +1,31 @@
+{
+   "_id": "yqR7iSdE87SJM4Lo",
+   "name": "Elusive Totems",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 123",
+      "requirements": "Shaman (Restoration) 1"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.ElusiveTotems.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.ElusiveTotems.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Feats.ElusiveTotems.Description.3.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/commodities/treasure/totem-wooden-glowing-green.webp",
+   "effects": []
+}

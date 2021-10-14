@@ -1,0 +1,65 @@
+{
+   "_id": "XRY1J7ExecaAvZL5",
+   "name": "Spellcasting (Shaman)",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 117",
+      "requirements": "Shaman 1"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.SpellcastingShaman.Description.1.Value"
+            },
+            {
+               "title": "WC5E.Feats.SpellcastingShaman.Description.2.Title",
+               "value": "WC5E.Feats.SpellcastingShaman.Description.2.Value"
+            },
+            {
+               "title": "WC5E.Feats.SpellcastingShaman.Description.3.Title",
+               "value": "WC5E.Feats.SpellcastingShaman.Description.3.Value"
+            },
+            {
+               "value": "WC5E.Feats.SpellcastingShaman.Description.4.Value"
+            },
+            {
+               "title": "WC5E.Feats.SpellcastingShaman.Description.5.Title",
+               "value": "WC5E.Feats.SpellcastingShaman.Description.5.Value"
+            },
+            {
+               "value": "WC5E.Feats.SpellcastingShaman.Description.6.Value"
+            },
+            {
+               "title": "WC5E.Feats.SpellcastingShaman.Description.7.Title",
+               "value": "WC5E.Feats.SpellcastingShaman.Description.7.Value"
+            },
+            {
+               "value": "WC5E.Feats.SpellcastingShaman.Description.8.Value"
+            },
+            {
+               "value": "WC5E.Feats.SpellcastingShaman.Description.9.Value"
+            },
+            {
+               "title": "WC5E.Feats.SpellcastingShaman.Description.10.Title",
+               "value": "WC5E.Feats.SpellcastingShaman.Description.10.Value"
+            },
+            {
+               "value": "WC5E.Feats.SpellcastingShaman.Description.11.Value"
+            },
+            {
+               "title": "WC5E.Feats.SpellcastingShaman.Description.12.Title",
+               "value": "WC5E.Feats.SpellcastingShaman.Description.12.Value"
+            }
+         ]
+      }
+   },
+   "img": "systems/dnd5e/icons/skills/yellow_09.jpg",
+   "effects": [
+   ]
+}

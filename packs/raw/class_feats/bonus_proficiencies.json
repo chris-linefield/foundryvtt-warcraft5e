@@ -1,0 +1,26 @@
+{
+   "_id": "9DPJbM0zkkuI5gsk",
+   "name": "Bonus Proficiencies",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 121",
+      "requirements": "Shaman (Enhancement) 1"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.BonusProficiencies.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/skills/melee/maneuver-daggers-paired-orange.webp",
+   "effects": [
+   ]
+}

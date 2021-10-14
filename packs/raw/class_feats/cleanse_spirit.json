@@ -1,0 +1,35 @@
+{
+   "_id": "jX8daFzRS6GiIiyU",
+   "name": "Cleanse Spirit",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 123",
+      "requirements": "Shaman (Restoration) 6"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.CleanseSpirit.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.CleanseSpirit.Description.2.Value"
+            },
+            {
+               "options": [
+                  "WC5E.Feats.CleanseSpirit.Description.3.Options.1",
+                  "WC5E.Feats.CleanseSpirit.Description.3.Options.2",
+                  "WC5E.Feats.CleanseSpirit.Description.3.Options.3"
+               ]
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/nature/plant-glowing-white-purple.webp",
+   "effects": []
+}

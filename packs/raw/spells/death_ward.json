@@ -1,0 +1,100 @@
+{
+   "_id": "i47iiZstrOY4lpwq",
+   "name": "Death Ward",
+   "permission": {
+      "default": 0
+   },
+   "type": "spell",
+   "data": {
+      "source": "",
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": 8,
+         "units": "hour"
+      },
+      "target": {
+         "value": 1,
+         "units": "",
+         "type": "creature"
+      },
+      "range": {
+         "value": null,
+         "long": null,
+         "units": "touch"
+      },
+      "uses": {
+         "value": 0,
+         "max": 0,
+         "per": ""
+      },
+      "ability": "",
+      "actionType": "util",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": null,
+      "damage": {
+         "parts": [],
+         "versatile": "",
+         "value": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "value": "",
+         "scaling": "spell"
+      },
+      "level": 4,
+      "school": "abj",
+      "components": {
+         "value": "",
+         "vocal": true,
+         "somatic": true,
+         "material": false,
+         "ritual": false,
+         "concentration": false
+      },
+      "materials": {
+         "value": "",
+         "consumed": false,
+         "cost": 0,
+         "supply": 0
+      },
+      "preparation": {
+         "mode": "prepared",
+         "prepared": false
+      },
+      "scaling": {
+         "mode": "none",
+         "formula": ""
+      },
+      "consume": {
+         "type": "",
+         "target": "",
+         "amount": null
+      }
+   },
+   "sort": 100001,
+   "flags": {
+      "wc5e": {
+         "type": "spell",
+         "description": [
+            {
+               "value": "WC5E.Spells.DeathWard.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Spells.DeathWard.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Spells.DeathWard.Description.3.Value"
+            }
+         ]
+      }
+   },
+   "img": "systems/dnd5e/icons/spells/horror-eerie-2.jpg",
+   "effects": []
+}
