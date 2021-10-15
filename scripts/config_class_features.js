@@ -240,6 +240,87 @@ ClassFeatures.druid = {
         "20": ["Compendium.warcraft5e.class_feats.Xr27k8bUvG9sFIen"]
     }
 }
+ClassFeatures.shaman = {
+    "subclasses": {
+        "elemental": {
+            "label": "Elemental",
+            "source": "Core Rules page 120",
+            "features": {
+                "1": [
+                    "Compendium.warcraft5e.wc5e_class_feats.uwLlHRgiSbm9ncvi",
+                    "Compendium.warcraft5e.wc5e_class_feats.Lit6kqsCl8uscjol"
+                ],
+                "2": ["Compendium.warcraft5e.wc5e_class_feats.YT5mEQRF6YaU8Wp9"],
+                "6": ["Compendium.warcraft5e.wc5e_class_feats.26Bm2DjJnkvBh5vN"],
+                "8": ["Compendium.warcraft5e.wc5e_class_feats.9O6ArBfAbMN3pdvZ"],
+                "17": ["Compendium.warcraft5e.wc5e_class_feats.yEzkodabqfMFdqkF"]
+            }
+        },
+        "enhancement": {
+            "label": "Enhancement",
+            "source": "Core Rules page 121",
+            "features": {
+                "1": [
+                    "Compendium.warcraft5e.wc5e_class_feats.9DPJbM0zkkuI5gsk",
+                    "Compendium.warcraft5e.wc5e_class_feats.BXHGUjkF0ckCrdFe"
+                ],
+                "2": ["Compendium.warcraft5e.wc5e_class_feats.wa37WeEd4Ndo3TRu"],
+                "6": ["Compendium.warcraft5e.wc5e_class_feats.2Paq6iTiYEgCh7Jk"],
+                "8": ["Compendium.warcraft5e.wc5e_class_feats.A0L4jDzqDqZJ6VO8"],
+                "17": ["Compendium.warcraft5e.wc5e_class_feats.3mYJRk5H5Rrepnvc"]
+            }
+        },
+        "restoration": {
+            "label": "Restoration",
+            "source": "Core Rules page 122",
+            "features": {
+                "1": [
+                    "Compendium.warcraft5e.wc5e_class_feats.caRItDWXUgsayCb9",
+                    "Compendium.warcraft5e.wc5e_class_feats.yqR7iSdE87SJM4Lo"
+                ],
+                "2": ["Compendium.warcraft5e.wc5e_class_feats.C4km96jZUwGbZRrf"],
+                "6": ["Compendium.warcraft5e.wc5e_class_feats.jX8daFzRS6GiIiyU"],
+                "8": ["Compendium.warcraft5e.wc5e_class_feats.p8QQrz7P6pqA9sI9"],
+                "17": ["Compendium.warcraft5e.wc5e_class_feats.osJf60aBOveCLwZk"]
+            }
+        }
+    },
+    "features": {
+        "1": [
+            "Compendium.warcraft5e.class_feats.teGIlK6XbxusBe5f",
+            "Compendium.warcraft5e.class_feats.XRY1J7ExecaAvZL5",
+            "Compendium.warcraft5e.class_feats.mrc1NSo8hZN68WEp"
+        ],
+        "2": [
+            "Compendium.warcraft5e.class_feats.g6639EiDoqAAv43g",
+            "Compendium.warcraft5e.class_feats.gfJHW5hvYKzh8Iwv",
+            "Compendium.warcraft5e.class_feats.mrc1NSo8hZN68WEp"
+        ],
+        "4": ["Compendium.warcraft5e.class_feats.pZ0s66jTVdto9Z3b"],
+        "5": ["Compendium.warcraft5e.class_feats.IM5qEkNqnltsFqcd"],
+        "6": [
+            "Compendium.warcraft5e.class_feats.g6639EiDoqAAv43g",
+            "Compendium.warcraft5e.class_feats.mrc1NSo8hZN68WEp"
+        ],
+        "8": [
+            "Compendium.warcraft5e.class_feats.pZ0s66jTVdto9Z3b",
+            "Compendium.warcraft5e.class_feats.IM5qEkNqnltsFqcd",
+            "Compendium.warcraft5e.class_feats.mrc1NSo8hZN68WEp"
+        ],
+        "10": ["Compendium.warcraft5e.class_feats.hcT1ALhoSD1kOUDP"],
+        "11": ["Compendium.warcraft5e.class_feats.IM5qEkNqnltsFqcd"],
+        "12": ["Compendium.warcraft5e.class_feats.pZ0s66jTVdto9Z3b"],
+        "14": ["Compendium.warcraft5e.class_feats.IM5qEkNqnltsFqcd"],
+        "16": ["Compendium.warcraft5e.class_feats.pZ0s66jTVdto9Z3b"],
+        "17": [
+            "Compendium.warcraft5e.class_feats.IM5qEkNqnltsFqcd",
+            "Compendium.warcraft5e.class_feats.mrc1NSo8hZN68WEp"
+        ],
+        "18": ["Compendium.warcraft5e.class_feats.g6639EiDoqAAv43g"],
+        "19": ["Compendium.warcraft5e.class_feats.pZ0s66jTVdto9Z3b"],
+        "20": ["Compendium.warcraft5e.class_feats.hcT1ALhoSD1kOUDP"]
+    }
+}
 ClassFeatures.tinker = {
     "subclasses": {
         "bomber": {
