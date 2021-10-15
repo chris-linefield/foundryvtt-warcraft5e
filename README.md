@@ -8,7 +8,7 @@ Join the discord if you want to support the development of the ruleset itself.
 
 https://discord.com/channels/410113488204070932/410113488204070934
 
-## Version: 0.0.15
+## Version: 0.0.16
 Feature | Description
 ------------ | -------------
 ![Classes Preview](http://www.hahn-webdesign.de/warcraft5e/classes_preview.jpg) | Features an overhauled class-sheet with lore and images. Features compendium entries for all classes.<br><br>Progress: <ul><li>[x] Alchemist + Class Feats and Spells</li><li>[x] Death Knight + Class Feats and Spells</li><li>[x] Druid + Class Feats and Spells</li><li>[ ] Hunter</li><li>[ ] Mage</li><li>[ ] Monk</li><li>[ ] Paladin</li><li>[ ] Priest</li><li>[ ] Rogue</li><li>[x] Shaman + Class Feats and Spells</li><li>[x] Tinker + Class Feats</li><li>[x] Warlock + Class Feats</li><li>[x] Warrior + Class Feats</li></ul>
