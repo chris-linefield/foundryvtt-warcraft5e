@@ -12,6 +12,14 @@ Hooks.once('init', async function() {
         });
     }
 
+    //fix class names with spaces
+    libWrapper.register('warcraft5e', 'game.dnd5e.entities.Actor5e.loadClassFeatures', function (wrapped, ...args) {
+        let oldArgument = args[0].className;
+        args[0].className = oldArgument.replace(/ /i, '');
+        let result = wrapped(...args);
+        return result;
+    });
+
     /*
     libWrapper.register('warcraft5e', 'game.dnd5e.entities.Item5e.prototype._preCreateEmbeddedDocuments', function (wrapped, data, options, user) {
         console.log('_preCreateEmbeddedDocuments');
