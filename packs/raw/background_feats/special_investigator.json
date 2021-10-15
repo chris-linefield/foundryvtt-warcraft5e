@@ -1,0 +1,35 @@
+{
+   "_id": "Rm7ebBzYntAfBIgG",
+   "name": "Special Investigator",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Player's Handbook",
+      "requirements": "Soldier (Mage Guard)"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.SpecialInvestigator.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.SpecialInvestigator.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Feats.SpecialInvestigator.Description.3.Value"
+            },
+            {
+               "value": "WC5E.Feats.SpecialInvestigator.Description.4.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/sundries/lights/lantern-iron-yellow.webp",
+   "effects": [
+   ]
+}

@@ -1024,6 +1024,126 @@
                   }
                }
             }
+         },
+         "Soldier": {
+            "Description": {
+               "1": "You are a combatant who participated in a war or trained as such. With war being the fact of life in Azeroth, there is no end in sight for work, whether it be for a militia, professional standing army, or as a mercenary."
+            },
+            "Suggestions": {
+               "Description": "The horrors of war combined with the rigid discipline of military service leave their mark on all soldiers, shaping their ideals, creating strong bonds, and often leaving them scarred and vulnerable to fear, shame, and hatred.",
+               "Personality": {
+                  "1": "I'm always polite and respectful.",
+                  "2": "I'm haunted by memories of war. I can't get the images of violence out of my mind.",
+                  "3": "I've lost too many friends, and I'm slow to make new ones.",
+                  "4": "I'm full of inspiring and cautionary tales from my military experience relevant to almost every combat situation.",
+                  "5": "I can stare down a hell hound without flinching.",
+                  "6": "I enjoy being strong and like breaking things.",
+                  "7": "I have a crude sense of humor.",
+                  "8": "I face problems head-on. A simple, direct solution is the best path to success."
+               },
+               "Ideal": {
+                  "1": {
+                     "Title": "Greater Good",
+                     "Value": "Our lot is to lay down our lives in defense of others. (Good)"
+                  },
+                  "2": {
+                     "Title": "Responsibility",
+                     "Value": "I do what I must and obey just authority. (Lawful)"
+                  },
+                  "3": {
+                     "Title": "Independance",
+                     "Value": "When people follow orders blindly, they embrace a kind of tyranny. (Chaotic)"
+                  },
+                  "4": {
+                     "Title": "Might",
+                     "Value": "In life as in war, the stronger force wins. (Evil)"
+                  },
+                  "5": {
+                     "Title": "Live and let live",
+                     "Value": "Ideals aren't worth killing over or going to war for. (Neutral)"
+                  },
+                  "6": {
+                     "Title": "Nation",
+                     "Value": "My city, nation, or people are all that matter. (Any)"
+                  }
+               },
+               "Bonds": {
+                  "1": "I would still lay down my life for the people I served with.",
+                  "2": "Someone saved my life on the battlefield. To this day, I will never leave a friend behind.",
+                  "3": "My honor is my life.",
+                  "4": "I'll never forget the crushing defeat my company suffered or the enemies who dealt it.",
+                  "5": "Those who fight beside me are those worth dying for.",
+                  "6": "I fight for those who cannot fight for themselves."
+               },
+               "Flaws": {
+                  "1": "The monstrous enemy we faced in battle still leaves me quivering with fear.",
+                  "2": "I have little respect for anyone who is not a proven warrior.",
+                  "3": "I made a terrible mistake in battle that cost many lives – and I would do anything to keep that mistake secret.",
+                  "4": "My hatred of my enemies is blind and unreasoning.",
+                  "5": "I obey the law, even if the law causes misery.",
+                  "6": "I'd rather eat my armor than admit when I'm wrong."
+               }
+            },
+            "Variants": {
+               "Militiaman": {
+                  "Title": "Militiaman",
+                  "Description": {
+                     "1": {
+                        "Value": "You are trained in a town militia, practicing weaponry common to your race and ready at a moment‘s notice to answer the call to arms."
+                     }
+                  }
+               },
+               "MageGuard": {
+                  "Title": "Mage Guard",
+                  "Description": {
+                     "1": {
+                        "Value": "You are trained to guard and protect mages or other spellcasters. You could have been trained in the Violet City of Dalaran, have been cloistered with the priests of Northshire Abbey, or have been a childhood friend or sibling to a mage."
+                     },
+                     "2": {
+                        "Value": "Rather than training in Athletics and Intimidation, you may exchange one of the proficiencies with Arcana or Investigation."
+                     }
+                  }
+               },
+               "Crusader": {
+                  "Title": "Crusader",
+                  "Description": {
+                     "1": {
+                        "Value": "A crusade was the only answer to humanity in the fallen domains of Lordaeron and Dalaran. The undead armies of the Scourge were a tide that could not be pushed back save by the sword and the prayer."
+                     },
+                     "2": {
+                        "Value": "You might have once been a member of the disbanded Order of the Silver Hand, a farmer who threw down his farming tools and took up a rusted militia sword, or a youth who chose to leave the safety of the southern lands to fight back against the encroaching darkness under the mantle of the Light. Not every crusader is from the Paladin class, as they also boast Hunters and Priests among their rank, as well as the necessary Rogue."
+                     },
+                     "3": {
+                        "Value": "You may replace one skill proficiency from your background with Insight or Religion."
+                     }
+                  }
+               },
+               "Farstrider": {
+                  "Title": "Farstrider (High Elf and Blood Elf usually)",
+                  "Description": {
+                     "1": {
+                        "Value": "You are part of the High Elven Order ofFarstriders, a paramilitary organization that is a similar reflection to the night elven Sentinels. After the destruction of Quel‘Thalas, the Farstriders began diminishing in importance, especially after the blood elves‘ newfound obsession with fel magic."
+                     },
+                     "2": {
+                        "Value": "Rangers form the scout and advanced skirmishing forces of Quel‘Thalas, while seekers are specialized assassins who infiltrate enemy lands and perform dangerous missions."
+                     },
+                     "3": {
+                        "Value": "You may replace one skill proficiency from your background with Nature, Insight, orPerception. Also, instead of proficiency with vehicles (land), you may gain proficiency with an herbalism or disguise kit. You may also gain the wanderer background feature of the Outlander instead of the Military Rank feature of the soldier background."
+                     }
+                  }
+               },
+               "Sentinel": {
+                  "Title": "Sentinel",
+                  "Description": {
+                     "1": {
+                        "Value": "You are part of the Night Elven Order of Sentinels, a religious/military organization that protects and preemptively destroys threats to the night elves and their lands."
+                     },
+                     "2": {
+                        "Value": "You may replace one skill proficiency from your background with Religion, Investigation, or Stealth."
+                     }
+                  }
+               }
+            }
          }
       },
       "Character": {
@@ -1700,6 +1820,14 @@
             "Description": {
                "1": {
                   "Value": "You can always find a place to perform, usually in an inn or tavern but possibly with a circus, at a theater, or even in a noble's court. At such a place, you receive free lodging and food of a modest or comfortable standard (depending on the quality of the establishment), as long as you perform each night. In addition, your performance makes you something of a local figure. When strangers recognize you in a town where you have performed, they typically take a liking to you."
+               }
+            }
+         },
+         "CallToArms": {
+            "Label": "Call to Arms",
+            "Description": {
+               "1": {
+                  "Value": "You answer to the call to arms—and give it as well. Villagers, militiamen, city-folk, and city guards usually trust your word regarding any danger you identify and properly communicate, and you can temporarily acquire equipment that can aid confront the threat from them, such as mounts or weapons. Your background and steadfastness also usually allows such strangers to be friendlier to you so long as you maintain your duties."
                }
             }
          },
@@ -2814,6 +2942,14 @@
                }
             }
          },
+         "MilitaryRank": {
+            "Label": "Military Rank",
+            "Description": {
+               "1": {
+                  "Value": "You have a military rank from your career as a soldier. Soldiers loyal to your former military organization still recognize your authority and influence, and they defer to you if they are of a lower rank. You can invoke your rank to exert influence over other soldiers and requisition simple equipment or horses for temporary use. You can also usually gain access to friendly military encampments and fortresses where your rank is recognized."
+               }
+            }
+         },
          "Moonkin": {
             "Label": "Moonkin",
             "Description": {
@@ -3210,6 +3346,23 @@
                }
             }
          },
+         "SpecialInvestigator": {
+            "Label": "Special Investigator",
+            "Description": {
+               "1": {
+                  "Value": "You are trained in taking down wizards and finding evidence of them. You could have been trained in Dalaran by the Kirin Tor‘s wardens, or be a superstitious villager who fears dark magic."
+               },
+               "2": {
+                  "Value": "Whenever you visit a settlement, commoners and law enforcement are more likely to trust you with reports of strange events, such as missing persons, reports of demonic activity, unknown magical paraphernalia such as magic circles burnt into grass, or reports of people speaking in tongues."
+               },
+               "3": {
+                  "Value": "While many such instances were pranks or the confused spellcasting or apprentice mages, some are omens of darker things. You can also usually tell the difference between the two when observing clues, such as a suspect‘s residence."
+               },
+               "4": {
+                  "Value": "You are usually recommended to keep the results of your investigation secret and report back to your superiors."
+               }
+            }
+         },
          "Specialty": {
             "Label": "Specialty",
             "Description": {
@@ -3226,6 +3379,26 @@
                      "6": "Researcher",
                      "7": "Wizard's apprentice",
                      "8": "Scribe"
+                  }
+               }
+            }
+         },
+         "SpecialtySoldier": {
+            "Label": "Specialty",
+            "Description": {
+               "1": {
+                  "Value": "During your time as a soldier, you had a specific role to play in your unit or army. Roll a d8 or choose from the options in the table below to determine your role:"
+               },
+               "2": {
+                  "Options": {
+                     "1": "Officer",
+                     "2": "Scout",
+                     "3": "Infantry",
+                     "4": "Cavalry",
+                     "5": "Healer",
+                     "6": "Quartermaster",
+                     "7": "Standard bearer",
+                     "8": "Support staff (cook, blacksmith, or the like)"
                   }
                }
             }
