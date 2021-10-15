@@ -1,0 +1,26 @@
+{
+   "_id": "MZ6rwQ2a6CGUMAIK",
+   "name": "Military Rank",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Player's Handbook",
+      "requirements": "Soldier"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.MilitaryRank.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/commodities/treasure/medal-ribbon-blue.webp",
+   "effects": [
+   ]
+}

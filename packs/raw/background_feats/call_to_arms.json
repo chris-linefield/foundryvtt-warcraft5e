@@ -1,0 +1,26 @@
+{
+   "_id": "EhGUeBNPtuND1DwQ",
+   "name": "Call to Arms",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Player's Handbook",
+      "requirements": "Soldier (Militiaman)"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.CallToArms.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/skills/melee/strike-weapons-orange.webp",
+   "effects": [
+   ]
+}

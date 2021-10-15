@@ -1,0 +1,240 @@
+{
+   "_id": "tGuOe0hWOheRQ97W",
+   "name": "Soldier",
+   "permission": {
+      "default": 0
+   },
+   "type": "class",
+   "data": {
+   },
+   "flags": {
+      "wc5e": {
+         "type": "background",
+         "description": [
+            "WC5E.Backgrounds.Soldier.Description.1"
+         ],
+         "source": "Player's Handbook",
+         "skillProfs": {
+            "range": [
+               "ath",
+               "itm"
+            ]
+         },
+         "toolProfs": [
+            "gaming",
+            "vehl"
+         ],
+         "equipment": [
+            [
+               {
+                  "amount": 1,
+                  "label": "insignia of rank"
+               }
+            ],
+            [
+               {
+                  "amount": 1,
+                  "label": "trophy taken from a fallen enemy"
+               }
+            ],
+            [
+               {
+                  "amount": 1,
+                  "pack": "dnd5e.items",
+                  "node": "iBuTM09KD9IoM5L8",
+                  "label": "WC5E.Items.GamingSetOfDice.Label"
+               },
+               {
+                  "amount": 1,
+                  "pack": "dnd5e.items",
+                  "node": "YwlHI3BVJapz4a3E",
+                  "label": "WC5E.Items.GamingSetOfPlayingCards.Label"
+               }
+            ],
+            [
+               {
+                  "amount": 1,
+                  "pack": "dnd5e.items",
+                  "node": "8RXjiddJ6VGyE7vB",
+                  "label": "WC5E.Items.CommonClothes.Label"
+               }
+            ],
+            [
+               {
+                  "amount": 1,
+                  "pack": "dnd5e.items",
+                  "node": "9bWTRRDym06PzSAf",
+                  "label": "WC5E.Items.Pouch.Label",
+                  "option": "10gp"
+               }
+            ]
+         ],
+         "feats": [
+            {
+               "pack": "warcraft5e.wc5e_background_feats",
+               "node": "6zI5aik5bL1gwASw",
+               "label": "WC5E.Feats.SpecialtySoldier.Label"
+            },
+            {
+               "pack": "warcraft5e.wc5e_background_feats",
+               "node": "MZ6rwQ2a6CGUMAIK",
+               "label": "WC5E.Feats.MilitaryRank.Label"
+            }
+         ],
+         "suggestions": {
+            "description": "WC5E.Backgrounds.Soldier.Suggestions.Description",
+            "personality": [
+               "WC5E.Backgrounds.Soldier.Suggestions.Personality.1",
+               "WC5E.Backgrounds.Soldier.Suggestions.Personality.2",
+               "WC5E.Backgrounds.Soldier.Suggestions.Personality.3",
+               "WC5E.Backgrounds.Soldier.Suggestions.Personality.4",
+               "WC5E.Backgrounds.Soldier.Suggestions.Personality.5",
+               "WC5E.Backgrounds.Soldier.Suggestions.Personality.6",
+               "WC5E.Backgrounds.Soldier.Suggestions.Personality.7",
+               "WC5E.Backgrounds.Soldier.Suggestions.Personality.8"
+            ],
+            "ideals": [
+               {
+                  "title": "WC5E.Backgrounds.Soldier.Suggestions.Ideal.1.Title",
+                  "value": "WC5E.Backgrounds.Soldier.Suggestions.Ideal.1.Value"
+               },
+               {
+                  "title": "WC5E.Backgrounds.Soldier.Suggestions.Ideal.2.Title",
+                  "value": "WC5E.Backgrounds.Soldier.Suggestions.Ideal.2.Value"
+               },
+               {
+                  "title": "WC5E.Backgrounds.Soldier.Suggestions.Ideal.3.Title",
+                  "value": "WC5E.Backgrounds.Soldier.Suggestions.Ideal.3.Value"
+               },
+               {
+                  "title": "WC5E.Backgrounds.Soldier.Suggestions.Ideal.4.Title",
+                  "value": "WC5E.Backgrounds.Soldier.Suggestions.Ideal.4.Value"
+               },
+               {
+                  "title": "WC5E.Backgrounds.Soldier.Suggestions.Ideal.5.Title",
+                  "value": "WC5E.Backgrounds.Soldier.Suggestions.Ideal.5.Value"
+               },
+               {
+                  "title": "WC5E.Backgrounds.Soldier.Suggestions.Ideal.6.Title",
+                  "value": "WC5E.Backgrounds.Soldier.Suggestions.Ideal.6.Value"
+               }
+            ],
+            "bonds": [
+               "WC5E.Backgrounds.Soldier.Suggestions.Bonds.1",
+               "WC5E.Backgrounds.Soldier.Suggestions.Bonds.2",
+               "WC5E.Backgrounds.Soldier.Suggestions.Bonds.3",
+               "WC5E.Backgrounds.Soldier.Suggestions.Bonds.4",
+               "WC5E.Backgrounds.Soldier.Suggestions.Bonds.5",
+               "WC5E.Backgrounds.Soldier.Suggestions.Bonds.6"
+            ],
+            "flaws": [
+               "WC5E.Backgrounds.Soldier.Suggestions.Flaws.1",
+               "WC5E.Backgrounds.Soldier.Suggestions.Flaws.2",
+               "WC5E.Backgrounds.Soldier.Suggestions.Flaws.3",
+               "WC5E.Backgrounds.Soldier.Suggestions.Flaws.4",
+               "WC5E.Backgrounds.Soldier.Suggestions.Flaws.5",
+               "WC5E.Backgrounds.Soldier.Suggestions.Flaws.6"
+            ]
+         },
+         "variants": [
+            {
+               "title": "WC5E.Backgrounds.Soldier.Variants.Militiaman.Title",
+               "description": [
+                  {
+                     "value": "WC5E.Backgrounds.Soldier.Variants.Militiaman.Description.1.Value"
+                  }
+               ],
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_background_feats",
+                     "node": "EhGUeBNPtuND1DwQ",
+                     "label": "WC5E.Feats.CallToArms.Label"
+                  }
+               ]
+            },
+            {
+               "title": "WC5E.Backgrounds.Soldier.Variants.MageGuard.Title",
+               "description": [
+                  {
+                     "value": "WC5E.Backgrounds.Soldier.Variants.MageGuard.Description.1.Value"
+                  }
+               ],
+               "changes": "WC5E.Backgrounds.Soldier.Variants.MageGuard.Description.2.Value",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_background_feats",
+                     "node": "Rm7ebBzYntAfBIgG",
+                     "label": "WC5E.Feats.SpecialInvestigator.Label"
+                  }
+               ]
+            },
+            {
+               "title": "WC5E.Backgrounds.Soldier.Variants.Crusader.Title",
+               "description": [
+                  {
+                     "value": "WC5E.Backgrounds.Soldier.Variants.Crusader.Description.1.Value"
+                  },
+                  {
+                     "value": "WC5E.Backgrounds.Soldier.Variants.Crusader.Description.2.Value"
+                  }
+               ],
+               "changes": "WC5E.Backgrounds.Soldier.Variants.Crusader.Description.3.Value",
+               "skills": {
+                  "number": 1,
+                  "choices": [
+                     "ins",
+                     "rel"
+                  ]
+               }
+            },
+            {
+               "title": "WC5E.Backgrounds.Soldier.Variants.Farstrider.Title",
+               "description": [
+                  {
+                     "value": "WC5E.Backgrounds.Soldier.Variants.Farstrider.Description.1.Value"
+                  },
+                  {
+                     "value": "WC5E.Backgrounds.Soldier.Variants.Farstrider.Description.2.Value"
+                  }
+               ],
+               "changes": "WC5E.Backgrounds.Soldier.Variants.Farstrider.Description.3.Value",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_background_feats",
+                     "node": "JfRs0obM7Ft7ZUZC",
+                     "label": "WC5E.Feats.Wanderer.Label",
+                     "option": "optional"
+                  }
+               ],
+               "skills": {
+                  "number": 1,
+                  "choices": [
+                     "nat",
+                     "ins",
+                     "prc"
+                  ]
+               }
+            },
+            {
+               "title": "WC5E.Backgrounds.Soldier.Variants.Sentinel.Title",
+               "description": [
+                  {
+                     "value": "WC5E.Backgrounds.Soldier.Variants.Sentinel.Description.1.Value"
+                  }
+               ],
+               "changes": "WC5E.Backgrounds.Soldier.Variants.Sentinel.Description.2.Value",
+               "skills": {
+                  "number": 1,
+                  "choices": [
+                     "rel",
+                     "inv",
+                     "ste"
+                  ]
+               }
+            }
+         ]
+      }
+   },
+   "img": "icons/equipment/shield/heater-steel-sword-yellow-black.webp",
+   "effects": []
+}
