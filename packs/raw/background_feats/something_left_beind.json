@@ -1,0 +1,29 @@
+{
+   "_id": "rS8q43OS0ZZGpgit",
+   "name": "Something Left Behind",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Player's Handbook",
+      "requirements": "Urchin (Refugee)"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.AgentOfSuspectLoyalty.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.AgentOfSuspectLoyalty.Description.2.Value"
+            }
+         ]
+      }
+   },
+   "img": "systems/dnd5e/icons/skills/light_07.jpg",
+   "effects": [
+   ]
+}

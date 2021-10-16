@@ -1144,6 +1144,84 @@
                   }
                }
             }
+         },
+         "Urchin": {
+            "Description": {
+               "1": "A child of the streets. Urchins can be found in the dirty streets begging for coin, pocketing what isn‘t theirs, and generally trying to grow up to be criminals or charlatans."
+            },
+            "Suggestions": {
+               "Description": "Urchins are shaped by lives of desperate poverty, for good and for ill. They tend to be driven either by a commitment to the people with whom they shared life on the street or by a burning desire to find a better life and maybe get some payback on all the rich people who treated them badly.",
+               "Personality": {
+                  "1": "I hide scraps of food and trinkets away in my pockets.",
+                  "2": "I ask a lot of questions.",
+                  "3": "I like to squeeze into small places where no one else can get to me.",
+                  "4": "I sleep with my back to a wall or tree, with everything I own wrapped in a bundle in my arms.",
+                  "5": "I eat like a pig and have bad manners.",
+                  "6": "I think anyone who's nice to me is hiding evil intent.",
+                  "7": "I don't like to bathe.",
+                  "8": "I bluntly say what other people are hinting at or hiding."
+               },
+               "Ideal": {
+                  "1": {
+                     "Title": "Respect",
+                     "Value": "All people, rich or poor, deserve respect. (Good)"
+                  },
+                  "2": {
+                     "Title": "Community",
+                     "Value": "We have to take care of each other, because no one else is going to do it. (Lawful)"
+                  },
+                  "3": {
+                     "Title": "Chaotic",
+                     "Value": "The low are lifted up, and the high and mighty are brought down. Change is the nature of things. (Chaotic)"
+                  },
+                  "4": {
+                     "Title": "Retribution",
+                     "Value": "The rich need to be shown what life and death are like in the gutters. (Evil)"
+                  },
+                  "5": {
+                     "Title": "People",
+                     "Value": "I help the people who help me-that's what keeps us alive. (Neutral)"
+                  },
+                  "6": {
+                     "Title": "Aspiration",
+                     "Value": "I'm going to prove that I'm worthy of a better life. (Any)"
+                  }
+               },
+               "Bonds": {
+                  "1": "My town or city is my home, and I'll fight to defend it.",
+                  "2": "I sponsor an orphanage to keep others from enduring what I was forced to endure.",
+                  "3": "I owe my survival to another urchin who taught me to live on the streets.",
+                  "4": "I owe a debt I can never repay to the person who took pity on me.",
+                  "5": "I escaped my life of poverty by robbing an important person, and I'm wanted for it.",
+                  "6": "No one else should have to endure the hardships I've been through."
+               },
+               "Flaws": {
+                  "1": "If I'm outnumbered, I will run away from a fight.",
+                  "2": "Gold seems like a lot of money to me, and I'll do just about anything for more of it.",
+                  "3": "I will never fully trust anyone other than myself.",
+                  "4": "I'd rather kill someone in their sleep then fight fair.",
+                  "5": "It's not stealing if I need it more than someone else.",
+                  "6": "People who can't take care of themselves get what they deserve."
+               }
+            },
+            "Variants": {
+               "Militiaman": {
+                  "Title": "Militiaman",
+                  "Description": {
+                     "1": {
+                        "Value": "You are trained in a town militia, practicing weaponry common to your race and ready at a moment‘s notice to answer the call to arms."
+                     }
+                  }
+               },
+               "Refugee": {
+                  "Title": "Refugee",
+                  "Description": {
+                     "1": {
+                        "Value": "In many cases, an urchin could have been born in comfort or even opulence. You have been forced from your home to another land, either from war (such as the humans of Stormwind or the high elves of Silvermoon), disease (such as the humans of southern Lordaeron escaping the Undead Plague), civil conflict (such as the instability in Westfall), or the very destruction of your world (as the Mag‘har orcs)."
+                     }
+                  }
+               }
+            }
          }
       },
       "Character": {
@@ -1985,6 +2063,14 @@
                }
             }
          },
+         "ChaosMagic": {
+            "Label": "Chaos Magic",
+            "Description": {
+               "1": {
+                  "Value": "Any fire or fel spell you use that deals damage also deals an additional 1d6 points of the other type (fire deals extra 1d6 fel, or vice versa). Spells that deal both fire and fel damage gain an additional 1d10 damage from either types (your choice). This triggers once per spell."
+               }
+            }
+         },
          "ChiefExecutiveOfficer": {
             "Label": "Chief Executive Officer",
             "Description": {
@@ -1996,11 +2082,11 @@
                }
             }
          },
-         "ChaosMagic": {
-            "Label": "Chaos Magic",
+         "CitySecrets": {
+            "Label": "City Secrets",
             "Description": {
                "1": {
-                  "Value": "Any fire or fel spell you use that deals damage also deals an additional 1d6 points of the other type (fire deals extra 1d6 fel, or vice versa). Spells that deal both fire and fel damage gain an additional 1d10 damage from either types (your choice). This triggers once per spell."
+                  "Value": "You know the secret patterns and flow to cities and can find passages through the urban sprawl that others would miss. When you are not in combat, you (and companions you lead) can travel between any two locations in the city twice as fast as your speed would normally allow."
                }
             }
          },
@@ -3626,6 +3712,17 @@
                },
                "2": {
                   "Value": "Also, you memorize the formula for phlogiston, gaining proficiency in Alchemist‘s Supplies if you don‘t already have it."
+               }
+            }
+         },
+         "SomethingLeftBehind": {
+            "Label": "Something Left Behind",
+            "Description": {
+               "1": {
+                  "Value": "You have access to a unique and powerful secret. The exact nature of this secret depends on the nature of your exile or status as refugee. It may be a secret about the event that caused you to escape, knowledge of a treasure or valuable memento. It might be information that would be damaging to the organization that drove you away, and hence the reason for your choice to adventure."
+               },
+               "2": {
+                  "Value": "Work with your DM to determine the details of your secret and its impact on the campaign."
                }
             }
          },
