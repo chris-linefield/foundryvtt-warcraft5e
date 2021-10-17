@@ -1,0 +1,42 @@
+{
+   "_id": "zRalmH8DkBPR5vDk",
+   "name": "Fighting Style (Hunter)",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 65",
+      "requirements": "Hunter 2"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.FightingStyle.Description.1.Value"
+            },
+            {
+               "title": "WC5E.Feats.FightingStyle.Description.2.Title",
+               "value": "WC5E.Feats.FightingStyle.Description.2.Value"
+            },
+            {
+               "title": "WC5E.Feats.FightingStyle.Description.3.Title",
+               "value": "WC5E.Feats.FightingStyle.Description.3.Value"
+            },
+            {
+               "title": "WC5E.Feats.FightingStyle.Description.4.Title",
+               "value": "WC5E.Feats.FightingStyle.Description.4.Value"
+            },
+            {
+               "title": "WC5E.Feats.FightingStyle.Description.7.Title",
+               "value": "WC5E.Feats.FightingStyle.Description.7.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/skills/melee/maneuver-daggers-paired-orange.webp",
+   "effects": [
+   ]
+}

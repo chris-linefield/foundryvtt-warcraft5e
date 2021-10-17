@@ -1,0 +1,546 @@
+{
+   "_id": "Y1IXhOfXZFKh7W9t",
+   "name": "Hunter",
+   "type": "class",
+   "img": "modules/warcraft5e/res/pics/classes/hunter.jpg",
+   "data": {
+      "description": {
+         "value": "WC5E.Class.Hunter.Description",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "",
+      "levels": 1,
+      "subclass": "",
+      "hitDice": "d10",
+      "hitDiceUsed": 0,
+      "saves": [
+         "str",
+         "dex"
+      ],
+      "skills": {
+         "number": 3,
+         "choices": [
+            "ani",
+            "ath",
+            "ins",
+            "inv",
+            "nat",
+            "prc",
+            "ste",
+            "sur"
+         ],
+         "value": [
+         ]
+      },
+      "spellcasting": {
+         "progression": "none",
+         "ability": ""
+      },
+      "damage": {
+         "parts": [
+         ]
+      }
+   },
+   "effects": [
+   ],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+      "default": 0
+   },
+   "flags": {
+      "wc5e": {
+         "type": "class",
+         "artwork": {
+            "1": {
+               "src": "modules/warcraft5e/res/pics/classes/hunter_artwork.jpg",
+               "url": "#",
+               "credit": "-"
+            },
+            "2": {
+               "src": "modules/warcraft5e/res/pics/classes/hunter_artwork2.jpg",
+               "url": "https://www.deviantart.com/imdrunkontea/art/Night-Elf-Archer-818463468",
+               "credit": "imdrunkonTea"
+            }
+         },
+         "introduction": [
+            "WC5E.Class.Hunter.Introduction.1",
+            "WC5E.Class.Hunter.Introduction.2",
+            "WC5E.Class.Hunter.Introduction.3"
+         ],
+         "blocks": [
+            {
+               "title": "WC5E.Class.Hunter.Blocks.1.Title",
+               "content": [
+                  "WC5E.Class.Hunter.Blocks.1.Content.1",
+                  "WC5E.Class.Hunter.Blocks.1.Content.2"
+               ]
+            },
+            {
+               "title": "WC5E.Class.Hunter.Blocks.2.Title",
+               "content": [
+                  "WC5E.Class.Hunter.Blocks.2.Content.1",
+                  "WC5E.Class.Hunter.Blocks.2.Content.2"
+               ]
+            },
+            {
+               "title": "WC5E.Class.Hunter.Blocks.3.Title",
+               "content": [
+                  "WC5E.Class.Hunter.Blocks.3.Content.1",
+                  "WC5E.Class.Hunter.Blocks.3.Content.2"
+               ]
+            }
+         ],
+         "quickBuild": "WC5E.Class.Hunter.QuickBuild",
+         "specialFeats": [
+            {
+               "title": "WC5E.Feats.UnarmoredDefense.Label",
+               "description": "WC5E.Class.Hunter.SpecialFeats.UnarmoredDefense.Description"
+            }
+         ],
+         "hitPoints1st": "10",
+         "hitPointsHalfed": "6",
+         "weaponProfs": [
+            "sim",
+            "mar"
+         ],
+         "armorProfs": [
+            "lgt",
+            "med"
+         ],
+         "toolProfs": [],
+         "equipment": [
+            [
+               "scale mail",
+               "leather armor"
+            ],
+            [
+               "two shortswords",
+               "two simple melee weapons"
+            ],
+            [
+               "a dungeoneer's pack",
+               "an explorer's pack"
+            ],
+            [
+               "a druid idol"
+            ],
+            [
+               "a longbow and a quiver of 20 arrows",
+               "a common-quality firearm (EP2 or lower), 20 bullets and a powder horn"
+            ]
+         ],
+         "specialCol": "Talent",
+         "isCaster": true,
+         "progression": [
+            {
+               "level": "1",
+               "proficiency": "2",
+               "special": "1",
+               "caster": "-",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "wLNTBy9dMYT2CjGb",
+                     "label": "WC5E.Feats.FavoredEnemy.Label"
+                  },
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "ZIozEthSXCRehlGw",
+                     "label": "WC5E.Feats.HunterTalent.Label"
+                  }
+               ]
+            },
+            {
+               "level": "2",
+               "proficiency": "2",
+               "special": "1",
+               "caster": "1 (1st)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "zRalmH8DkBPR5vDk",
+                     "label": "WC5E.Feats.FightingStyle.Label"
+                  },
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "qhxjEAxl1EVuYAqh",
+                     "label": "WC5E.Feats.HunterFocus.Label"
+                  }
+               ]
+            },
+            {
+               "level": "3",
+               "proficiency": "2",
+               "special": "2",
+               "caster": "2 (1st)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "1bcAMQ0PaxViafja",
+                     "label": "WC5E.Feats.HunterArchetype.Label"
+                  }
+               ]
+            },
+            {
+               "level": "4",
+               "proficiency": "2",
+               "special": "2",
+               "caster": "2 (1st)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "pZ0s66jTVdto9Z3b",
+                     "label": "WC5E.Feats.AbilityScoreImprovement.Label"
+                  }
+               ]
+            },
+            {
+               "level": "5",
+               "proficiency": "3",
+               "special": "2",
+               "caster": "3 (2nd)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "RHCM1SEVR8YGj71w",
+                     "label": "WC5E.Feats.ExtraAttack.Label"
+                  }
+               ]
+            },
+            {
+               "level": "6",
+               "proficiency": "3",
+               "special": "3",
+               "caster": "3 (2nd)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "wLNTBy9dMYT2CjGb",
+                     "label": "WC5E.Feats.FavoredEnemy.Label"
+                  }
+               ]
+            },
+            {
+               "level": "7",
+               "proficiency": "3",
+               "special": "3",
+               "caster": "4 (2nd)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "1bcAMQ0PaxViafja",
+                     "label": "WC5E.Feats.HunterArchetype.Label"
+                  }
+               ]
+            },
+            {
+               "level": "8",
+               "proficiency": "3",
+               "special": "4",
+               "caster": "4 (2nd)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "pZ0s66jTVdto9Z3b",
+                     "label": "WC5E.Feats.AbilityScoreImprovement.Label"
+                  }
+               ]
+            },
+            {
+               "level": "9",
+               "proficiency": "4",
+               "special": "4",
+               "caster": "5 (3rd)",
+               "feats": []
+            },
+            {
+               "level": "10",
+               "proficiency": "4",
+               "special": "5",
+               "caster": "5 (3rd)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "wLNTBy9dMYT2CjGb",
+                     "label": "WC5E.Feats.HideInPlainSight.Label"
+                  }
+               ]
+            },
+            {
+               "level": "11",
+               "proficiency": "4",
+               "special": "5",
+               "caster": "6 (3rd)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "1bcAMQ0PaxViafja",
+                     "label": "WC5E.Feats.HunterArchetype.Label"
+                  }
+               ]
+            },
+            {
+               "level": "12",
+               "proficiency": "4",
+               "special": "5",
+               "caster": "6 (3rd)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "pZ0s66jTVdto9Z3b",
+                     "label": "WC5E.Feats.AbilityScoreImprovement.Label"
+                  }
+               ]
+            },
+            {
+               "level": "13",
+               "proficiency": "5",
+               "special": "5",
+               "caster": "7 (4th)",
+               "feats": []
+            },
+            {
+               "level": "14",
+               "proficiency": "5",
+               "special": "6",
+               "caster": "7 (4th)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "wLNTBy9dMYT2CjGb",
+                     "label": "WC5E.Feats.FavoredEnemy.Label"
+                  }
+               ]
+            },
+            {
+               "level": "15",
+               "proficiency": "5",
+               "special": "6",
+               "caster": "8 (4th)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "1bcAMQ0PaxViafja",
+                     "label": "WC5E.Feats.HunterArchetype.Label"
+                  }
+               ]
+            },
+            {
+               "level": "16",
+               "proficiency": "5",
+               "special": "6",
+               "caster": "8 (4th)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "pZ0s66jTVdto9Z3b",
+                     "label": "WC5E.Feats.AbilityScoreImprovement.Label"
+                  }
+               ]
+            },
+            {
+               "level": "17",
+               "proficiency": "6",
+               "special": "6",
+               "caster": "9 (5th)",
+               "feats": []
+            },
+            {
+               "level": "18",
+               "proficiency": "6",
+               "special": "7",
+               "caster": "9 (5th)",
+               "feats": []
+            },
+            {
+               "level": "19",
+               "proficiency": "6",
+               "special": "7",
+               "caster": "10 (5th)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "pZ0s66jTVdto9Z3b",
+                     "label": "WC5E.Feats.AbilityScoreImprovement.Label"
+                  }
+               ]
+            },
+            {
+               "level": "20",
+               "proficiency": "6",
+               "special": "7",
+               "caster": "10 (5th)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "KMdXwpS1f2zc1WrA",
+                     "label": "WC5E.Feats.FoeSlayer.Label"
+                  }
+               ]
+            }
+         ],
+         "archetypes": [
+            {
+               "title": "WC5E.Class.Hunter.Archetypes.BeastMaster.Title",
+               "description": "WC5E.Class.Hunter.Archetypes.BeastMaster.Description",
+               "featList": [
+                  {
+                     "level": "3",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "DXx4xvTOQ2wrFC3p",
+                           "label": "WC5E.Feats.HuntersCompanion.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "7",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "r4zAElBNqHgQ0fbR",
+                           "label": "WC5E.Feats.SpiritBond.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "11",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "oQXidlmDWLQQg0J0",
+                           "label": "WC5E.Feats.Frenzy.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "15",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "x8o6vp9x6DwfoyfI",
+                           "label": "WC5E.Feats.EmpoweredBond.Label"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "title": "WC5E.Class.Hunter.Archetypes.Fury.Title",
+               "description": "WC5E.Class.Hunter.Archetypes.Fury.Description",
+               "featList": [
+                  {
+                     "level": "3",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "na8IZmJwynNkz1iL",
+                           "label": "WC5E.Feats.StrikeTheWound.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "7",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "tOcK4KygovPeQIqG",
+                           "label": "WC5E.Feats.BloodThirst.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "10",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "WV4HWROfS9LE2h9J",
+                           "label": "WC5E.Feats.BattleCommands.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "15",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "3vYZozTLrSTVh0Jg",
+                           "label": "WC5E.Feats.Hellscream.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "18",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "lbdG8tGG6jobDHkx",
+                           "label": "WC5E.Feats.BloodyRibbons.Label"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "title": "WC5E.Class.Hunter.Archetypes.Protection.Title",
+               "description": "WC5E.Class.Hunter.Archetypes.Protection.Description",
+               "featList": [
+                  {
+                     "level": "3",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "s0BmwIiZaHlfijhF",
+                           "label": "WC5E.Feats.BlockAndTackle.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "7",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "B8vZWezYjs9O5uIg",
+                           "label": "WC5E.Feats.SunderingStrike.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "10",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "W3G5UsJoykzHbiXh",
+                           "label": "WC5E.Feats.Vigilance.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "15",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "9Wz8j8i350x4cDtR",
+                           "label": "WC5E.Feats.Vanguard.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "18",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "OPgso8NNMudmIPfU",
+                           "label": "WC5E.Feats.RestoredStrength.Label"
+                        }
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+   }
+}
