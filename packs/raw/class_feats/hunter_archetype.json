@@ -1,0 +1,26 @@
+{
+   "_id": "1bcAMQ0PaxViafja",
+   "name": "Hunter Archetype",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 66",
+      "requirements": "Hunter 3"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.HunterArchetype.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/sundries/books/book-leaves-circle.webp",
+   "effects": [
+   ]
+}

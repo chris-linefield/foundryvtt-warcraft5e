@@ -1,0 +1,29 @@
+{
+   "_id": "ePlaLixp5XS16KeN",
+   "name": "Trap Expert",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 69",
+      "requirements": "Hunter (Survival) 7"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.Shot",
+         "description": [
+            {
+               "value": "WC5E.Feats.SurvivalKnowledge.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.SurvivalKnowledge.Description.2.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/environment/traps/trap-jaw-steel.webp",
+   "effects": [
+   ]
+}

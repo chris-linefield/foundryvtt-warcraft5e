@@ -1321,7 +1321,51 @@
             }
          },
          "Hunter": {
-            "Name": "Hunter"
+            "Name": "Hunter",
+            "Introduction": {
+               "1": "A dwarf watches over frozen mountains, a loyal bear next to him breathing out warm buffs of breath against the falling snow. The dwarf studies the tracks in the snow, and then lifts his firearm, beckoning the bear to continue forward.",
+               "2": "Stalking her prey, a troll loads a bolt into her crossbow. The panther is completely unaware of her, as she prowls through the jungle. Until it is too late. Before she can react, the bolt pierces her skull, as the troll walks calmly to claim her prize.",
+               "3": "As a ship enters the harbor, a thin whistle of a crossbow bolt whispers in the wind. The navigator silently collapses, dragging the ship‘s wheel with her as she falls, forcing the ship to veer off and collide with the dock‘s wooden beams, before its hull is punctured by the harbor‘s rocky bottom, sinking. A goblin disappears back into the forest from his perch, his job complete, sporting a quiet smile on his face."
+            },
+            "Description": "From an early age the call of the wild draws some adventurers from the comfort of their homes into the unforgiving primal world outside. Those who endure become hunters. Masters of their environment, they are able to slip like ghosts through the trees and lay traps in the paths of their enemies.",
+            "Blocks": {
+               "1": {
+                  "Title": "Deadly Rangers",
+                  "Content": {
+                     "1": "Warriors of the wilderness, hunters specialize in hunting the monsters that threaten the edges of civilization—humanoid raiders, rampaging beasts and monstrosities, terrible giants, and even dragons. They learn to track their prey as a predator does, moving stealthily through the wilds and hiding themselves in brush and rubble.",
+                     "2": "Hunters focus their combat training on techniques that are particularly useful against their specific favored foes. Thanks to their intimate familiarity with the wilds, hunters also acquire the ability to cast spells that harness nature‘s power, much like a druid. Their spells, like their combat abilities, focus on speed, stealth, and the hunt."
+                  }
+               },
+               "2": {
+                  "Title": "Independent Adventurers",
+                  "Content": {
+                     "1": "Hunters are stalkers in the wild, living on their knowledge of survival and skill with a bow or rifle. They are deeply in tune with nature and some of its mightiest beasts are their allies. Of Azeroth's many creatures, few can resist the hunters' call, and fewer can survive their fury. Hunters are as varied as the world's many climates, but they are universally renowned for their amazing abilities to find their prey and bring it down. They come from any race, though certain races naturally excel at the hunter's profession. Most hunters seek to aid the balance of nature along with their druidic allies.",
+                     "2": "Hunters are skilled in stealth, slipping through the woods like a ghost. Orcs of the Horde first learned the ways of the Azerothian hunter from forest trolls on Lordaeron and tauren have been masters of the hunt since the dawn of the world. Like the druid, hunters call upon the spirits of the land, wind, and fire to aid them in their hunts and tasks."
+                  }
+               },
+               "3": {
+                  "Title": "Creating a Hunter",
+                  "Content": {
+                     "1": "As you create your hunter character, consider the nature of the training that gave you your particular capabilities. Did you train with a single mentor, wandering the wilds together until you mastered the hunter‘s ways? Did you leave your apprenticeship, or was your mentor slain— perhaps by the same kind of monster that became your favored enemy? Or perhaps you learned your skills as part of a band of hunter‘s affiliated with a druidic circle, trained in mystic paths as well as wilderness lore. You might be self-taught, a recluse who learned combat skills, tracking, and even a magical connection to nature through the necessity of surviving in the wilds.",
+                     "2": "What‘s the source of your particular hatred of a certain kind of enemy? Did a monster kill someone you loved or destroy your home village? Or did you see too much of the destruction these monsters cause and commit yourself to reining in their depredations? Is your adventuring career a continuation of your work in protecting the borderlands, or a significant change? What made you join up with a band of adventurers? Do you find it challenging to teach new allies the ways of the wild, or do you welcome the relief from solitude that they offer?"
+                  }
+               }
+            },
+            "QuickBuild": "You can make a hunter quickly by following these suggestions. First, make Agility your highest ability score, followed by Spirit. (Some hunters who focus on two-weapon fighting make Strength higher than Agility.) Second, choose the outlander background.",
+            "Archetypes": {
+               "BeastMaster": {
+                  "Title": "Beast Master",
+                  "Description": "Your bond with the land is stronger than that of other hunters, a bonded beast appropriate to your terrain has chosen to fight alongside you. Beast master hunters are the most common adventuring hunters to fight without aid."
+               },
+               "Marksman": {
+                  "Title": "Marksman",
+                  "Description": "You are a master archer or sharpshooter who excels in bringing down enemies from afar. Marksmen hunters are often favored allies in battle, as chosen shot spells and the ability to focus their fire on an enemy can turn the tide of battle."
+               },
+               "Survival": {
+                  "Title": "Survival",
+                  "Description": "You are a rugged tracker who uses animal venom, explosives, and traps as deadly weapons. Survival hunters usually walk alone, but make excellent advanced scouts and explorers who can handle nearly any terrain."
+               }
+            }
          },
          "Mage": {
             "Name": "Mage"
@@ -1913,6 +1957,17 @@
                }
             }
          },
+         "CarefulAim": {
+            "Label": "Careful Aim",
+            "Description": {
+               "1": {
+                  "Value": "You may use a bonus action as part of shooting to grant yourself advantage your ranged weapon attack. You cannot use this if you already moved in the previous round."
+               },
+               "2": {
+                  "Value": "If you use a [Shot] effect or reload a firearm you are using, you can also benefit from advantage to your ranged weapon attack."
+               }
+            }
+         },
          "ChannelDivinityBloodWard": {
             "Label": "Channel Divinity: Blood Ward",
             "Description": {
@@ -1993,6 +2048,17 @@
                },
                "2": {
                   "Value": "You can secure an audience with a local merchant or company owner if you need to, and with a little work, you might secure an audience with a local noble as well, if you have something they might like to listen to (such as an offer to invest or useful products of your making)."
+               }
+            }
+         },
+         "ChimeraShot": {
+            "Label": "Chimera Shot",
+            "Description": {
+               "1": {
+                  "Value": "You gain the ability to use Chimera Shot once per Spirit modifier, regained at the end of a long rest. You may declare the use of Chimera Shot, which allows you to combine the effects of up to three different shot spells in the same attack. This does not cost mana."
+               },
+               "2": {
+                  "Value": "If you do not have access to shot spells, you can use the properties of up to three different ammunition types (such as suffused arrows or other special ammunition)."
                }
             }
          },
@@ -2440,6 +2506,17 @@
                }
             }
          },
+         "EmpoweredBond": {
+            "Label": "Empowered Bond",
+            "Description": {
+               "1": {
+                  "Value": "You and your animal companion may share the damage both of you take by dividing it by two so long as you are within 30 feet of one another, as if under the effects of the spirit link spell."
+               },
+               "2": {
+                  "Value": "As long as you and your animal companion are within one mile or less of one another, you may also use an action to see through your companion‘s eyes and sense through their normal senses, though you are blind to your own surroundings if you do so."
+               }
+            }
+         },
          "EmpoweredPhysique": {
             "Label": "Empowered Physique",
             "Description": {
@@ -2590,6 +2667,30 @@
                }
             }
          },
+         "FavoredEnemy": {
+            "Label": "Favored Enemy",
+            "Description": {
+               "1": {
+                  "Value": "You have significant experience studying, tracking, hunting, and even talking to a certain type of enemy. Choose a type of favored enemy: aberrations, beasts, celestials, constructs, dragons, elementals, fey, fiends, giants, monstrosities, oozes, plants, or undead. Alternatively, you can select two races of humanoid (such as gnolls and orcs) as favored enemies. You have advantage on contested skill checks against your favored enemies, as well as on Intelligence checks to recall information about them, and when making an attack against them, you deal 2 extra points of damage."
+               },
+               "2": {
+                  "Value": "When you gain this feature, you also learn one language of your choice that is spoken by your favored enemies, if they speak one at all. As you gain levels, your choices reflect the types of monsters you have encountered on your adventures. You choose one additional favored enemy, as well as an associated language, at 6th and 14th level."
+               },
+               "3": {
+                  "Value": "You may switch this feature (and your chosen favored enemy) by performing the following tasks against one creature type (or two races of humanoids):"
+               },
+               "4": {
+                  "Options": {
+                     "1": "Defeat it in single combat",
+                     "2": "Track and survey the creature type for at a total of 24 hours over 7 days",
+                     "3": "Examine its corpse for at one hour"
+                  }
+               },
+               "5": {
+                  "Value": "You cannot change a favored enemy this way if it is limited to an organization, but can do the same to other organizations. You may switch back to previously studied favored enemy at the end of a long rest. The language gained by the initial favored enemy choices cannot be re-chosen by switching favored enemies."
+               }
+            }
+         },
          "FavoredPotions": {
             "Label": "Favored Potions",
             "Description": {
@@ -2726,6 +2827,14 @@
                }
             }
          },
+         "FoeSlayer": {
+            "Label": "Foe Slayer",
+            "Description": {
+               "1": {
+                  "Value": "You become an unparalleled hunter of your enemies. Once on each of your turns, you can add your Spirit modifier to the attack roll or the damage roll. You can choose to use this feature before or after the roll, but before any effects of the roll are applied."
+               }
+            }
+         },
          "FortifyingChemistry": {
             "Label": "Fortifying Chemistry",
             "Description": {
@@ -2742,6 +2851,17 @@
                },
                "2": {
                   "Value": "Additionally, while you are transformed by Wild Shape, you can use a bonus action to expend one spell to regain 1d8 hit points per level of the spell expended."
+               }
+            }
+         },
+         "Frenzy": {
+            "Label": "Frenzy",
+            "Description": {
+               "1": {
+                  "Value": "You can command your companion to attack with a bonus action, allowing it to make two attacks when it uses an action to attack on its turn. This stacks with giving your animal companion an extra attack from your Extra Attack feature."
+               },
+               "2": {
+                  "Value": "Your animal companion‘s weapon attacks score a critical hit on a roll of 19 and 20."
                }
             }
          },
@@ -2856,6 +2976,20 @@
                }
             }
          },
+         "Grit": {
+            "Label": "Grit",
+            "Description": {
+               "1": {
+                  "Value": "You only lose a death saving throw on a dice result of a natural 1 (counts as one failure) or when being attacked while dying."
+               },
+               "2": {
+                  "Value": "You may also apply poisons on your weapon as a bonus action."
+               },
+               "3": {
+                  "Value": "Furthermore, you always count yourself as within your favored terrain for the purposes of travel (so long as you have the favored terrain talent), and whenever one of your traps harm a creature, you always treat it as if it is surprised against you, unless combat hasn‘t already started."
+               }
+            }
+         },
          "GuildBusiness": {
             "Label": "Guild Business",
             "Description": {
@@ -2952,6 +3086,14 @@
                }
             }
          },
+         "HawkEye": {
+            "Label": "Hawk Eye",
+            "Description": {
+               "1": {
+                  "Value": "You double your range with all ranged weapon attacks. Also, your first ranged attack in a given round is a critical hit if the target is surprised."
+               }
+            }
+         },
          "HealingLore": {
             "Label": "Healing Lore",
             "Description": {
@@ -2976,6 +3118,130 @@
                },
                "2": {
                   "Value": "Also, your critical range for your Strike the Wound ability becomes 15-20."
+               }
+            }
+         },
+         "HideInPlainSight": {
+            "Label": "Hide in Plain Sight",
+            "Description": {
+               "1": {
+                  "Value": "You can spend 1 minute creating camouflage for yourself. You must have access to fresh mud, dirt, plants, soot, and other naturally occurring materials with which to create your camouflage. Once you are camouflaged in this way, you can try to hide by pressing yourself up against a solid surface, such as a tree or wall, that is at least as tall and wide as you are. You gain a +10 bonus to Agility (Stealth) checks as long as you remain there without moving or taking actions."
+               },
+               "2": {
+                  "Value": "Once you move or take an action or a reaction, you must camouflage yourself again with an action so long as she remains in the same general terrain type. If you are in a different terrain, you must spend another minute."
+               }
+            }
+         },
+         "HunterArchetype": {
+            "Label": "Hunter Archetype",
+            "Description": {
+               "1": {
+                  "Value": "At 3rd level, you choose an archetype that you strive to emulate: the Beast Master who bonds with an animal, a Marksman who always finds their target and excels in bringing them down, and a Survivalist, who has several terrain-based abilities and is an expert ambusher, all of which are detailed at the end of the class description. Your choice grants you features at 3rd level and again at 7th, 11th, and 15th level."
+               }
+            }
+         },
+         "HunterFocus": {
+            "Label": "Hunter Focus",
+            "Description": {
+               "1": {
+                  "Value": "You may choose to gain the ability to cast spells (drawing from the divine essence of nature itself) or to gain proficiency in engineering. Choose either the Spellcasting or Engineering features."
+               },
+               "2": {
+                  "Headline": "Spellcasting"
+               },
+               "3": {
+                  "Title": "Conjuring and Binding",
+                  "Value": "A hunter can conjure and bind beasts, elementals, fey, and plants. Beast master hunters often choose their animal companions from previously bounded animals."
+               },
+               "4": {
+                  "Title": "Preparing and Casting Spells",
+                  "Value": "Each hunter level provides you with 0.5 caster levels in the hunter class. You follow the normal progression to unlock spell levels (see the table under the Mana section)."
+               },
+               "5": {
+                  "Value": "You prepare the list of hunter spells that are available for you to cast, choosing from the hunter spell list."
+               },
+               "6": {
+                  "Value": "When you do so, you may ready a number of hunter spells equal to half the number you can prepare normally (a 3rd level hunter with +2 Spirit can prepare 2 spells instead of 5)."
+               },
+               "7": {
+                  "Value": "When you level up, you can exchange the spells known with others you qualify for. You cannot otherwise change your hunter spells other than by leveling up and exchanging them, or by training under another hunter, druid, or fey creature (see tutorship under magic), who can change your prepared spells after training is completed."
+               },
+               "8": {
+                  "Title": "Spellcasting Ability",
+                  "Value": "Spirit is your spellcasting ability for your hunter spells, since your magic draws upon your attunement to nature. You use your Spirit whenever a spell refers to your spellcasting ability. In addition, you use your Spirit modifier when setting the saving throw DC for a druid spell you cast and when making an attack roll with one."
+               },
+               "9": {
+                  "Value": "<strong>Spell save DC</strong> = 8 + your proficiency bonus + your Spirit modifier<br><strong>Spell attack modifier</strong> = your proficiency bonus + your Spirit modifier"
+               },
+               "10": {
+                  "Title": "Spellbook - Idol",
+                  "Value": "At 2nd level, your idol contains three 1st-level hunter spells of your choice. When you level up, you gain 2 additional hunter spells of your choice. You may also acquire new spells by research, tutelage, or from the spellbooks and scrolls of spellcasters who have spells you can cast."
+               },
+               "11": {
+                  "Value": "Your idol is effectively your spellbook, and you may add spells by meditating with it and inhaling herbal vapors."
+               },
+               "12": {
+                  "Title": "Shot Spells",
+                  "Value": "Shot spells may be cast while attacking with a ranged weapon, and counts as a strike feat for most purposes except where otherwise noted."
+               },
+               "13": {
+                  "Value": "Some hunters eschew the arts of nature magic, and instead focus entirely on technology."
+               },
+               "14": {
+                  "Value": "They can lose access to all spells, and instead gain the Sharpshooter feature instead of the Spellcasting Feature."
+               },
+               "15": {
+                  "Headline": "Sharpshooter",
+                  "Value": "You gain proficiency in Engineer‘s Tools and weapons created by the tools (such as firearms and explosives). You also create and maintain such weapons with a 25% reduction to cost."
+               },
+               "16": {
+                  "Value": "If you already have proficiency in Engineer‘s Tools, you instead gain expertise to all checks with these tools (although this does not improve the strength of technologically-crafted items)."
+               },
+               "17": {
+                  "Value": "You also gain one of the following features of your choice:"
+               },
+               "18": {
+                  "Options": {
+                     "1": "The Suffused Arrows talent",
+                     "2": "The Flash Bomber talent"
+                  }
+               }
+            }
+         },
+         "HuntersCompanion": {
+            "Label": "Hunter's Companion",
+            "Description": {
+               "1": {
+                  "Title": "Bond",
+                  "Value": "Due to your bond with the beast, you can add your proficiency bonus to the beast‘s AC, attack rolls, and damage rolls, as well as to any saving throws and skills it is proficient in. The beast also gains proficiency in two skills of your choice, and to all saving throws. Due to your bond, however, the companion loses the Multiattack feature (if it possesses it). This does not stack with their own proficiency bonuses."
+               },
+               "2": {
+                  "Value": "Its hit point maximum equals its normal maximum or four times your hunter level, whichever is higher."
+               },
+               "3": {
+                  "Value": "Whenever you gain Extra Attack, you can give the extra attack action to your beast instead of using it yourself. This decision is made on the start of your turn on every round."
+               },
+               "4": {
+                  "Title": "Leveling up",
+                  "Value": "Your beast companion improves in CR the higher your level becomes, CR equal to 1 per every 8 levels of Hunter (improving to 1 CR at level 4, 2 CR at level 8, and 3 CR at level 16). This either takes the form of choosing a higher-level companion, or adding hit dice to the companion until its CR increases."
+               },
+               "5": {
+                  "Value": "When reaching 8th level, you can choose a Large creature. The companion also gains an Ability Score Improvement once you do (this acts as the normal feature)."
+               },
+               "6": {
+                  "Title": "Special",
+                  "Value": "While traveling through your favored terrain with your beast, you can move stealthily at a normal pace. Bonding with a beast requires spending one hour communicating with the creature by nonverbal cues, and spending the next seven hours in bonding activities (hunting, etc.)."
+               }
+            }
+         },
+         "HunterTalent": {
+            "Label": "Hunter Talent",
+            "Description": {
+               "1": {
+                  "Value": "Starting at 1st level, you gain a class talent, representing your preferred tactics and abilities you honed through your experience of hunting. See Class Talents at the end of the Chapter 3 for options."
+               },
+               "2": {
+                  "Value": "Whenever you qualify for another talent (as detailed in the talent column), you can choose another talent or gain another use of an existing talent."
                }
             }
          },
@@ -3266,6 +3532,17 @@
                }
             }
          },
+         "MultiShotStrike": {
+            "Label": "Multi-Shot Strike",
+            "Description": {
+               "1": {
+                  "Value": "Whenever you successfully strike an enemy with a ranged attack, you may use a bonus action to attack any other target within 5 feet of the original target."
+               },
+               "2": {
+                  "Value": "You may also instead designate a 10-foot-square within the range of your ranged weapon, and bombard any number of enemies the area, dealing your normal weapon damage, plus the minimum possible damage roll from each extra attack you have (taking the lowest result on the weapon damage roll)."
+               }
+            }
+         },
          "MutatePotion": {
             "Label": "Mutate Potion",
             "Description": {
@@ -3350,6 +3627,14 @@
                },
                "3": {
                   "Value": "If you also chose the Mithridatism Weird Science feature, you can choose for some of your creations to host your doses instead of you."
+               }
+            }
+         },
+         "PoisonScience": {
+            "Label": "Poison Science",
+            "Description": {
+               "1": {
+                  "Value": "You can harvest triple the normal quantity of poisons from dead creatures. You also gain resistance to all poison damage. Gaining acquired immunity to poisons or diseases requires only one-quarter the normal time."
                }
             }
          },
@@ -3894,6 +4179,17 @@
                }
             }
          },
+         "SpiritBond": {
+            "Label": "Spirit Bond",
+            "Description": {
+               "1": {
+                  "Value": "On any of your turns, you can use a bonus action to command the beast to take the Dash, Disengage, Dodge, or Help action on your turn. The beast also has advantage with any saving throw to resist spells that control or repel it (such as charm or fear spells), if the spell would cause it to abandon or betray you."
+               },
+               "2": {
+                  "Value": "You may also empower the spirit link to your beast. Doing so takes 1 minute of physical contact with a magic weapon (such as placing a magic sword against its paw, tapping it with a magic staff, or resting a magic bow on it). Once the task is completed, the beast‘s weapon attacks are treated as magical as well for 1 hour. You may use weapons that belong to others, but not if they are attuned to others. If the weapon is attuned to you, it takes only 1 round of physical contact."
+               }
+            }
+         },
          "SpiritWolves": {
             "Label": "Spirit Wolves",
             "Description": {
@@ -4014,6 +4310,17 @@
                }
             }
          },
+         "SurvivalKnowledge": {
+            "Label": "Survival Knowledge",
+            "Description": {
+               "1": {
+                  "Value": "You gain proficiency in Engineer‘s Tools (though only to make traps and explosives) and the Poisoner‘s Kit."
+               },
+               "2": {
+                  "Value": "You also gain +10 feet to your speed when wearing medium armor or less, and when not using a shield."
+               }
+            }
+         },
          "SynthesizedPotions": {
             "Label": "Synthesized Potions",
             "Description": {
@@ -4052,6 +4359,17 @@
                },
                "2": {
                   "Value": "Also, whenever one of your totems is attacked (and not necessarily hit), it can move 10 feet in any direction. If it ends adjacent to an ally, the totem regains 2d6 hit points."
+               }
+            }
+         },
+         "TrapExpert": {
+            "Label": "Trap Expert",
+            "Description": {
+               "1": {
+                  "Value": "Any creature subjected to traps set by you have disadvantage to their saves, or the trap has advantage to any attack against them, and you may add your Proficiency bonus to all saving throw DCs or attack rolls made by traps you set or poisons you create."
+               },
+               "2": {
+                  "Value": "The trap needs only to be set by you, and not necessarily built by you. You may also add one additional explosive to any trap you set without triggering it (such as adding two mines, or one mine and a wagon clamp)."
                }
             }
          },

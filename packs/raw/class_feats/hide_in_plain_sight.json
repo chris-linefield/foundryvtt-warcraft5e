@@ -1,0 +1,29 @@
+{
+   "_id": "Tm6xWgs45PNJWZHf",
+   "name": "Hide in Plain Sight",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 67",
+      "requirements": "Hunter 10"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.HideInPlainSight.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.HideInPlainSight.Description.2.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/nature/stealth-hide-beast-eyes-green.webp",
+   "effects": [
+   ]
+}

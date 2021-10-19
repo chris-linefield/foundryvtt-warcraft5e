@@ -1,0 +1,29 @@
+{
+   "_id": "AkZWkmxe9uV5xeS3",
+   "name": "Survival Knowledge",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 69",
+      "requirements": "Hunter (Survival) 3"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.Shot",
+         "description": [
+            {
+               "value": "WC5E.Feats.SurvivalKnowledge.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.SurvivalKnowledge.Description.2.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/skills/movement/feet-winged-boots-glowing-yellow.webp",
+   "effects": [
+   ]
+}
