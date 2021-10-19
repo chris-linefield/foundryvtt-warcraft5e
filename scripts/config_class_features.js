@@ -240,6 +240,64 @@ ClassFeatures.druid = {
         "20": ["Compendium.warcraft5e.wc5e_class_feats.Xr27k8bUvG9sFIen"]
     }
 }
+ClassFeatures.hunter = {
+    "subclasses": {
+        "beastMaster": {
+            "label": "Beast Master",
+            "source": "Core Rules page 67",
+            "features": {
+                "3": ["Compendium.warcraft5e.wc5e_class_feats.DXx4xvTOQ2wrFC3p"],
+                "7": ["Compendium.warcraft5e.wc5e_class_feats.r4zAElBNqHgQ0fbR"],
+                "11": ["Compendium.warcraft5e.wc5e_class_feats.oQXidlmDWLQQg0J0"],
+                "15": ["Compendium.warcraft5e.wc5e_class_feats.x8o6vp9x6DwfoyfI"]
+            }
+        },
+        "marksman": {
+            "label": "Marksman",
+            "source": "Core Rules page 68",
+            "features": {
+                "3": ["Compendium.warcraft5e.wc5e_class_feats.DzvT9juUQYLSR7YZ"],
+                "7": ["Compendium.warcraft5e.wc5e_class_feats.uaIpcs3TYF1q41EV"],
+                "11": ["Compendium.warcraft5e.wc5e_class_feats.wY0LLZwqeyZEahD6"],
+                "15": ["Compendium.warcraft5e.wc5e_class_feats.3LQx3dSrrXyQfUwp"]
+            }
+        },
+        "survival": {
+            "label": "Survival",
+            "source": "Core Rules page 69",
+            "features": {
+                "3": ["Compendium.warcraft5e.wc5e_class_feats.AkZWkmxe9uV5xeS3"],
+                "7": ["Compendium.warcraft5e.wc5e_class_feats.ePlaLixp5XS16KeN"],
+                "11": ["Compendium.warcraft5e.wc5e_class_feats.znGg1RBRXJiLjyVH"],
+                "15": ["Compendium.warcraft5e.wc5e_class_feats.b3BRUiVDo2G6Vjwf"]
+            }
+        }
+    },
+    "features": {
+        "1": [
+            "Compendium.warcraft5e.wc5e_class_feats.wLNTBy9dMYT2CjGb",
+            "Compendium.warcraft5e.wc5e_class_feats.ZIozEthSXCRehlGw"
+        ],
+        "2": [
+            "Compendium.warcraft5e.wc5e_class_feats.zRalmH8DkBPR5vDk",
+            "Compendium.warcraft5e.wc5e_class_feats.qhxjEAxl1EVuYAqh"
+        ],
+        "3": ["Compendium.warcraft5e.wc5e_class_feats.1bcAMQ0PaxViafja"],
+        "4": ["Compendium.warcraft5e.wc5e_class_feats.pZ0s66jTVdto9Z3b"],
+        "5": ["Compendium.warcraft5e.wc5e_class_feats.RHCM1SEVR8YGj71w"],
+        "6": ["Compendium.warcraft5e.wc5e_class_feats.wLNTBy9dMYT2CjGb"],
+        "7": ["Compendium.warcraft5e.wc5e_class_feats.1bcAMQ0PaxViafja"],
+        "8": ["Compendium.warcraft5e.wc5e_class_feats.pZ0s66jTVdto9Z3b"],
+        "10": ["Compendium.warcraft5e.wc5e_class_feats.wLNTBy9dMYT2CjGb"],
+        "11": ["Compendium.warcraft5e.wc5e_class_feats.1bcAMQ0PaxViafja"],
+        "12": ["Compendium.warcraft5e.wc5e_class_feats.pZ0s66jTVdto9Z3b"],
+        "14": ["Compendium.warcraft5e.wc5e_class_feats.wLNTBy9dMYT2CjGb"],
+        "15": ["Compendium.warcraft5e.wc5e_class_feats.1bcAMQ0PaxViafja"],
+        "16": ["Compendium.warcraft5e.wc5e_class_feats.pZ0s66jTVdto9Z3b"],
+        "19": ["Compendium.warcraft5e.wc5e_class_feats.pZ0s66jTVdto9Z3b"],
+        "20": ["Compendium.warcraft5e.wc5e_class_feats.KMdXwpS1f2zc1WrA"]
+    }
+}
 ClassFeatures.shaman = {
     "subclasses": {
         "elemental": {
@@ -503,7 +561,6 @@ ClassFeatures.warrior = {
         "5": ["Compendium.warcraft5e.wc5e_class_feats.nAoxQouvbcuIx2JQ"],
         "6": ["Compendium.warcraft5e.wc5e_class_feats.NSwm5sXXobXorPqC"],
         "8": ["Compendium.warcraft5e.wc5e_class_feats.NSwm5sXXobXorPqC"],
-        "9": ["Compendium.warcraft5e.wc5e_class_feats.lFVytL3t8utTKs2r"],
         "11": ["Compendium.warcraft5e.wc5e_class_feats.nAoxQouvbcuIx2JQ"],
         "12": ["Compendium.warcraft5e.wc5e_class_feats.NSwm5sXXobXorPqC"],
         "14": ["Compendium.warcraft5e.wc5e_class_feats.NSwm5sXXobXorPqC"],

@@ -18,8 +18,14 @@
                 <i>Prerequisites:</i> {{item.data.requirements}}<br><br>
             {{/if}}
             {{#each item.flags.wc5e.description}}
-                {{#if this.title}}
+                {{#if this.headline}}
                     <br>
+                    <h2>{{localize this.headline}}</h2>
+                {{/if}}
+                {{#if this.title}}
+                    {{#unless this.headline}}
+                        <br>
+                    {{/unless}}
                     <h3>{{localize this.title}}</h3>
                 {{/if}}
                 {{#if this.value}}

@@ -1,0 +1,26 @@
+{
+   "_id": "uaIpcs3TYF1q41EV",
+   "name": "Hawk Eye",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 68",
+      "requirements": "Hunter (Marksman) 7"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.HawkEye.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/skills/ranged/arrow-strike-apple-orange.webp",
+   "effects": [
+   ]
+}

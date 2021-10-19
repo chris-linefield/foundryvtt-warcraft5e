@@ -1,0 +1,84 @@
+{
+   "_id": "qhxjEAxl1EVuYAqh",
+   "name": "Hunter Focus",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 65",
+      "requirements": "Hunter 2"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.HunterFocus.Description.1.Value"
+            },
+            {
+               "headline": "WC5E.Feats.HunterFocus.Description.2.Headline",
+               "title": "WC5E.Feats.HunterFocus.Description.3.Title",
+               "value": "WC5E.Feats.HunterFocus.Description.3.Value"
+            },
+            {
+               "title": "WC5E.Feats.HunterFocus.Description.4.Title",
+               "value": "WC5E.Feats.HunterFocus.Description.4.Value"
+            },
+            {
+               "value": "WC5E.Feats.HunterFocus.Description.5.Value"
+            },
+            {
+               "value": "WC5E.Feats.HunterFocus.Description.6.Value"
+            },
+            {
+               "value": "WC5E.Feats.HunterFocus.Description.7.Value"
+            },
+            {
+               "title": "WC5E.Feats.HunterFocus.Description.8.Title",
+               "value": "WC5E.Feats.HunterFocus.Description.8.Value"
+            },
+            {
+               "value": "WC5E.Feats.HunterFocus.Description.9.Value"
+            },
+            {
+               "title": "WC5E.Feats.HunterFocus.Description.10.Title",
+               "value": "WC5E.Feats.HunterFocus.Description.10.Value"
+            },
+            {
+               "value": "WC5E.Feats.HunterFocus.Description.11.Value"
+            },
+            {
+               "title": "WC5E.Feats.HunterFocus.Description.12.Title",
+               "value": "WC5E.Feats.HunterFocus.Description.12.Value"
+            },
+            {
+               "value": "WC5E.Feats.HunterFocus.Description.13.Value"
+            },
+            {
+               "value": "WC5E.Feats.HunterFocus.Description.14.Value"
+            },
+            {
+               "headline": "WC5E.Feats.HunterFocus.Description.15.Headline",
+               "value": "WC5E.Feats.HunterFocus.Description.15.Value"
+            },
+            {
+               "value": "WC5E.Feats.HunterFocus.Description.16.Value"
+            },
+            {
+               "value": "WC5E.Feats.HunterFocus.Description.17.Value"
+            },
+            {
+               "options": [
+                  "WC5E.Feats.HunterFocus.Description.18.Options.1",
+                  "WC5E.Feats.HunterFocus.Description.18.Options.2"
+               ]
+            }
+         ]
+      }
+   },
+   "img": "icons/skills/ranged/wand-attack-beam-blue.webp",
+   "effects": [
+   ]
+}

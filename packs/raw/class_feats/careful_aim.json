@@ -1,0 +1,29 @@
+{
+   "_id": "DzvT9juUQYLSR7YZ",
+   "name": "Careful Aim",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 68",
+      "requirements": "Hunter (Marksman) 3"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.CarefulAim.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.CarefulAim.Description.2.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/skills/ranged/person-archery-bow-attack-orange.webp",
+   "effects": [
+   ]
+}
