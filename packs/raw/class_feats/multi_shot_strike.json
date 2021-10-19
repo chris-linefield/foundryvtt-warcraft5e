@@ -1,0 +1,29 @@
+{
+   "_id": "wY0LLZwqeyZEahD6",
+   "name": "Multi-Shot Strike",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 68",
+      "requirements": "Hunter (Marksman) 11"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.MultiShotStrike.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.MultiShotStrike.Description.2.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/skills/ranged/arrows-flying-salvo-blue.webp",
+   "effects": [
+   ]
+}

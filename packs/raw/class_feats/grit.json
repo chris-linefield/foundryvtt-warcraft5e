@@ -1,0 +1,26 @@
+{
+   "_id": "b3BRUiVDo2G6Vjwf",
+   "name": "Grit",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 69",
+      "requirements": "Hunter (Survival) 15"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.Grit.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/skills/trades/farming-wheat-swirl-green.webp",
+   "effects": [
+   ]
+}

@@ -429,16 +429,16 @@
                ]
             },
             {
-               "title": "WC5E.Class.Hunter.Archetypes.Fury.Title",
-               "description": "WC5E.Class.Hunter.Archetypes.Fury.Description",
+               "title": "WC5E.Class.Hunter.Archetypes.Marksman.Title",
+               "description": "WC5E.Class.Hunter.Archetypes.Marksman.Description",
                "featList": [
                   {
                      "level": "3",
                      "feats": [
                         {
                            "pack": "warcraft5e.wc5e_class_feats",
-                           "node": "na8IZmJwynNkz1iL",
-                           "label": "WC5E.Feats.StrikeTheWound.Label"
+                           "node": "DzvT9juUQYLSR7YZ",
+                           "label": "WC5E.Feats.CarefulAim.Label"
                         }
                      ]
                   },
@@ -447,18 +447,18 @@
                      "feats": [
                         {
                            "pack": "warcraft5e.wc5e_class_feats",
-                           "node": "tOcK4KygovPeQIqG",
-                           "label": "WC5E.Feats.BloodThirst.Label"
+                           "node": "uaIpcs3TYF1q41EV",
+                           "label": "WC5E.Feats.HawkEye.Label"
                         }
                      ]
                   },
                   {
-                     "level": "10",
+                     "level": "11",
                      "feats": [
                         {
                            "pack": "warcraft5e.wc5e_class_feats",
-                           "node": "WV4HWROfS9LE2h9J",
-                           "label": "WC5E.Feats.BattleCommands.Label"
+                           "node": "wY0LLZwqeyZEahD6",
+                           "label": "WC5E.Feats.MultiShotStrike.Label"
                         }
                      ]
                   },
@@ -467,34 +467,24 @@
                      "feats": [
                         {
                            "pack": "warcraft5e.wc5e_class_feats",
-                           "node": "3vYZozTLrSTVh0Jg",
-                           "label": "WC5E.Feats.Hellscream.Label"
-                        }
-                     ]
-                  },
-                  {
-                     "level": "18",
-                     "feats": [
-                        {
-                           "pack": "warcraft5e.wc5e_class_feats",
-                           "node": "lbdG8tGG6jobDHkx",
-                           "label": "WC5E.Feats.BloodyRibbons.Label"
+                           "node": "3LQx3dSrrXyQfUwp",
+                           "label": "WC5E.Feats.ChimeraShot.Label"
                         }
                      ]
                   }
                ]
             },
             {
-               "title": "WC5E.Class.Hunter.Archetypes.Protection.Title",
-               "description": "WC5E.Class.Hunter.Archetypes.Protection.Description",
+               "title": "WC5E.Class.Hunter.Archetypes.Survival.Title",
+               "description": "WC5E.Class.Hunter.Archetypes.Survival.Description",
                "featList": [
                   {
                      "level": "3",
                      "feats": [
                         {
                            "pack": "warcraft5e.wc5e_class_feats",
-                           "node": "s0BmwIiZaHlfijhF",
-                           "label": "WC5E.Feats.BlockAndTackle.Label"
+                           "node": "AkZWkmxe9uV5xeS3",
+                           "label": "WC5E.Feats.SurvivalKnowledge.Label"
                         }
                      ]
                   },
@@ -503,18 +493,18 @@
                      "feats": [
                         {
                            "pack": "warcraft5e.wc5e_class_feats",
-                           "node": "B8vZWezYjs9O5uIg",
-                           "label": "WC5E.Feats.SunderingStrike.Label"
+                           "node": "ePlaLixp5XS16KeN",
+                           "label": "WC5E.Feats.TrapExpert.Label"
                         }
                      ]
                   },
                   {
-                     "level": "10",
+                     "level": "11",
                      "feats": [
                         {
                            "pack": "warcraft5e.wc5e_class_feats",
-                           "node": "W3G5UsJoykzHbiXh",
-                           "label": "WC5E.Feats.Vigilance.Label"
+                           "node": "znGg1RBRXJiLjyVH",
+                           "label": "WC5E.Feats.PoisonScience.Label"
                         }
                      ]
                   },
@@ -523,18 +513,8 @@
                      "feats": [
                         {
                            "pack": "warcraft5e.wc5e_class_feats",
-                           "node": "9Wz8j8i350x4cDtR",
-                           "label": "WC5E.Feats.Vanguard.Label"
-                        }
-                     ]
-                  },
-                  {
-                     "level": "18",
-                     "feats": [
-                        {
-                           "pack": "warcraft5e.wc5e_class_feats",
-                           "node": "OPgso8NNMudmIPfU",
-                           "label": "WC5E.Feats.RestoredStrength.Label"
+                           "node": "b3BRUiVDo2G6Vjwf",
+                           "label": "WC5E.Feats.Grit.Label"
                         }
                      ]
                   }

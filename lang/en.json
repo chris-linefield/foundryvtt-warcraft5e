@@ -1957,6 +1957,17 @@
                }
             }
          },
+         "CarefulAim": {
+            "Label": "Careful Aim",
+            "Description": {
+               "1": {
+                  "Value": "You may use a bonus action as part of shooting to grant yourself advantage your ranged weapon attack. You cannot use this if you already moved in the previous round."
+               },
+               "2": {
+                  "Value": "If you use a [Shot] effect or reload a firearm you are using, you can also benefit from advantage to your ranged weapon attack."
+               }
+            }
+         },
          "ChannelDivinityBloodWard": {
             "Label": "Channel Divinity: Blood Ward",
             "Description": {
@@ -2037,6 +2048,17 @@
                },
                "2": {
                   "Value": "You can secure an audience with a local merchant or company owner if you need to, and with a little work, you might secure an audience with a local noble as well, if you have something they might like to listen to (such as an offer to invest or useful products of your making)."
+               }
+            }
+         },
+         "ChimeraShot": {
+            "Label": "Chimera Shot",
+            "Description": {
+               "1": {
+                  "Value": "You gain the ability to use Chimera Shot once per Spirit modifier, regained at the end of a long rest. You may declare the use of Chimera Shot, which allows you to combine the effects of up to three different shot spells in the same attack. This does not cost mana."
+               },
+               "2": {
+                  "Value": "If you do not have access to shot spells, you can use the properties of up to three different ammunition types (such as suffused arrows or other special ammunition)."
                }
             }
          },
@@ -2954,6 +2976,20 @@
                }
             }
          },
+         "Grit": {
+            "Label": "Grit",
+            "Description": {
+               "1": {
+                  "Value": "You only lose a death saving throw on a dice result of a natural 1 (counts as one failure) or when being attacked while dying."
+               },
+               "2": {
+                  "Value": "You may also apply poisons on your weapon as a bonus action."
+               },
+               "3": {
+                  "Value": "Furthermore, you always count yourself as within your favored terrain for the purposes of travel (so long as you have the favored terrain talent), and whenever one of your traps harm a creature, you always treat it as if it is surprised against you, unless combat hasn‘t already started."
+               }
+            }
+         },
          "GuildBusiness": {
             "Label": "Guild Business",
             "Description": {
@@ -3047,6 +3083,14 @@
                },
                "3": {
                   "Value": "Furthermore, you also gain two soul shards instead of one if you reduce a creature to 0 hit points with a channeled warlock spell."
+               }
+            }
+         },
+         "HawkEye": {
+            "Label": "Hawk Eye",
+            "Description": {
+               "1": {
+                  "Value": "You double your range with all ranged weapon attacks. Also, your first ranged attack in a given round is a critical hit if the target is surprised."
                }
             }
          },
@@ -3488,6 +3532,17 @@
                }
             }
          },
+         "MultiShotStrike": {
+            "Label": "Multi-Shot Strike",
+            "Description": {
+               "1": {
+                  "Value": "Whenever you successfully strike an enemy with a ranged attack, you may use a bonus action to attack any other target within 5 feet of the original target."
+               },
+               "2": {
+                  "Value": "You may also instead designate a 10-foot-square within the range of your ranged weapon, and bombard any number of enemies the area, dealing your normal weapon damage, plus the minimum possible damage roll from each extra attack you have (taking the lowest result on the weapon damage roll)."
+               }
+            }
+         },
          "MutatePotion": {
             "Label": "Mutate Potion",
             "Description": {
@@ -3572,6 +3627,14 @@
                },
                "3": {
                   "Value": "If you also chose the Mithridatism Weird Science feature, you can choose for some of your creations to host your doses instead of you."
+               }
+            }
+         },
+         "PoisonScience": {
+            "Label": "Poison Science",
+            "Description": {
+               "1": {
+                  "Value": "You can harvest triple the normal quantity of poisons from dead creatures. You also gain resistance to all poison damage. Gaining acquired immunity to poisons or diseases requires only one-quarter the normal time."
                }
             }
          },
@@ -4247,6 +4310,17 @@
                }
             }
          },
+         "SurvivalKnowledge": {
+            "Label": "Survival Knowledge",
+            "Description": {
+               "1": {
+                  "Value": "You gain proficiency in Engineer‘s Tools (though only to make traps and explosives) and the Poisoner‘s Kit."
+               },
+               "2": {
+                  "Value": "You also gain +10 feet to your speed when wearing medium armor or less, and when not using a shield."
+               }
+            }
+         },
          "SynthesizedPotions": {
             "Label": "Synthesized Potions",
             "Description": {
@@ -4285,6 +4359,17 @@
                },
                "2": {
                   "Value": "Also, whenever one of your totems is attacked (and not necessarily hit), it can move 10 feet in any direction. If it ends adjacent to an ally, the totem regains 2d6 hit points."
+               }
+            }
+         },
+         "TrapExpert": {
+            "Label": "Trap Expert",
+            "Description": {
+               "1": {
+                  "Value": "Any creature subjected to traps set by you have disadvantage to their saves, or the trap has advantage to any attack against them, and you may add your Proficiency bonus to all saving throw DCs or attack rolls made by traps you set or poisons you create."
+               },
+               "2": {
+                  "Value": "The trap needs only to be set by you, and not necessarily built by you. You may also add one additional explosive to any trap you set without triggering it (such as adding two mines, or one mine and a wagon clamp)."
                }
             }
          },
