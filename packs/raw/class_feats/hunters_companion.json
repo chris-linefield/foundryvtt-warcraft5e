@@ -1,0 +1,44 @@
+{
+   "_id": "DXx4xvTOQ2wrFC3p",
+   "name": "Hunter's Companion",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 67",
+      "requirements": "Hunter (Beast Master) 3"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "title": "WC5E.Feats.HuntersCompanion.Description.1.Title",
+               "value": "WC5E.Feats.HuntersCompanion.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.HuntersCompanion.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Feats.HuntersCompanion.Description.3.Value"
+            },
+            {
+               "title": "WC5E.Feats.HuntersCompanion.Description.4.Title",
+               "value": "WC5E.Feats.HuntersCompanion.Description.4.Value"
+            },
+            {
+               "value": "WC5E.Feats.HuntersCompanion.Description.5.Value"
+            },
+            {
+               "title": "WC5E.Feats.HuntersCompanion.Description.6.Title",
+               "value": "WC5E.Feats.HuntersCompanion.Description.6.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/creatures/abilities/wolf-howl-moon-purple.webp",
+   "effects": [
+   ]
+}

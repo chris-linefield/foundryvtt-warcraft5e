@@ -1,0 +1,42 @@
+{
+   "_id": "wLNTBy9dMYT2CjGb",
+   "name": "Favored Enemy",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 64",
+      "requirements": "Hunter 1"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.FavoredEnemy.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.FavoredEnemy.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Feats.FavoredEnemy.Description.3.Value"
+            },
+            {
+               "options": [
+                  "WC5E.Feats.FavoredEnemy.Description.4.Options.1",
+                  "WC5E.Feats.FavoredEnemy.Description.4.Options.2",
+                  "WC5E.Feats.FavoredEnemy.Description.4.Options.3"
+               ]
+            },
+            {
+               "value": "WC5E.Feats.FavoredEnemy.Description.5.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/skills/ranged/projectile-strike-impale-gray.webp",
+   "effects": [
+   ]
+}

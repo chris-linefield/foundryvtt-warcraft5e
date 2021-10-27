@@ -1,0 +1,26 @@
+{
+   "_id": "KMdXwpS1f2zc1WrA",
+   "name": "Foe Slayer",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 67",
+      "requirements": "Hunter 20"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.FavoredEnemy.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/skills/ranged/arrow-flying-white-blue.webp",
+   "effects": [
+   ]
+}
