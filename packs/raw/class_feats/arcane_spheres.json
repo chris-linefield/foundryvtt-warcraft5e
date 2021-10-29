@@ -1,0 +1,45 @@
+{
+   "_id": "Kz94qdOAZhVicLfJ",
+   "name": "Arcane Spheres",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 74",
+      "requirements": "Mage (Arcane) 2"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.ArcaneSpheres.Description.1.Value"
+            },
+            {
+               "options": [
+                  "WC5E.Feats.ArcaneSpheres.Description.2.Options.1",
+                  "WC5E.Feats.ArcaneSpheres.Description.2.Options.2",
+                  "WC5E.Feats.ArcaneSpheres.Description.2.Options.3"
+               ]
+            },
+            {
+               "value": "WC5E.Feats.ArcaneSpheres.Description.3.Value"
+            },
+            {
+               "options": [
+                  "WC5E.Feats.ArcaneSpheres.Description.4.Options.1",
+                  "WC5E.Feats.ArcaneSpheres.Description.4.Options.2"
+               ]
+            },
+            {
+               "value": "WC5E.Feats.ArcaneSpheres.Description.5.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/unholy/orb-swirling-pink.webp",
+   "effects": [
+   ]
+}
