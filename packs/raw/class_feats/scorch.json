@@ -1,0 +1,26 @@
+{
+   "_id": "joU6dcGOc0r4wcqy",
+   "name": "Scorch",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 76",
+      "requirements": "Mage (Fire) 6"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.Scorch.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/fire/projectile-embers-orange.webp",
+   "effects": [
+   ]
+}

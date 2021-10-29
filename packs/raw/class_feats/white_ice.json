@@ -1,0 +1,32 @@
+{
+   "_id": "JrSbJGFrbdkHzQjd",
+   "name": "White Ice",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 77",
+      "requirements": "Mage (Frost) 10"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.WhiteIce.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.WhiteIce.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Feats.WhiteIce.Description.3.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/water/ice-snowman.webp",
+   "effects": [
+   ]
+}

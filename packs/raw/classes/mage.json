@@ -1,0 +1,488 @@
+{
+   "_id": "M1T4Y4hWpfdmZyDC",
+   "name": "Mage",
+   "type": "class",
+   "img": "modules/warcraft5e/res/pics/classes/mage.jpg",
+   "data": {
+      "description": {
+         "value": "WC5E.Class.Mage.Description",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "",
+      "levels": 1,
+      "subclass": "",
+      "hitDice": "d6",
+      "hitDiceUsed": 0,
+      "saves": [
+         "int",
+         "wis"
+      ],
+      "skills": {
+         "number": 2,
+         "choices": [
+            "arc",
+            "his",
+            "ins",
+            "inv",
+            "med",
+            "rel"
+         ],
+         "value": [
+         ]
+      },
+      "spellcasting": {
+         "progression": "none",
+         "ability": ""
+      },
+      "damage": {
+         "parts": [
+         ]
+      }
+   },
+   "effects": [
+   ],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+      "default": 0
+   },
+   "flags": {
+      "wc5e": {
+         "type": "class",
+         "artwork": {
+            "1": {
+               "src": "modules/warcraft5e/res/pics/classes/mage_artwork.jpg",
+               "url": "https://www.artstation.com/artwork/9vKdQ",
+               "credit": "Deix"
+            },
+            "2": {
+               "src": "modules/warcraft5e/res/pics/classes/mage_artwork2.jpg",
+               "url": "https://www.artstation.com/artwork/y2w6x",
+               "credit": "Aaron Lovett"
+            }
+         },
+         "introduction": [
+            "WC5E.Class.Mage.Introduction.1",
+            "WC5E.Class.Mage.Introduction.2",
+            "WC5E.Class.Mage.Introduction.3"
+         ],
+         "blocks": [
+            {
+               "title": "WC5E.Class.Mage.Blocks.1.Title",
+               "content": [
+                  "WC5E.Class.Mage.Blocks.1.Content.1",
+                  "WC5E.Class.Mage.Blocks.1.Content.2"
+               ]
+            },
+            {
+               "title": "WC5E.Class.Mage.Blocks.2.Title",
+               "content": [
+                  "WC5E.Class.Mage.Blocks.2.Content.1",
+                  "WC5E.Class.Mage.Blocks.2.Content.2"
+               ]
+            },
+            {
+               "title": "WC5E.Class.Mage.Blocks.3.Title",
+               "content": [
+                  "WC5E.Class.Mage.Blocks.3.Content.1",
+                  "WC5E.Class.Mage.Blocks.3.Content.2"
+               ]
+            }
+         ],
+         "quickBuild": "WC5E.Class.Mage.QuickBuild",
+         "hitPoints1st": "6",
+         "hitPointsHalfed": "4",
+         "weaponProfs": [
+            "sim",
+            "mar"
+         ],
+         "specificWeaponProfs": [
+            "daggers",
+            "darts",
+            "slings",
+            "quarterstaffs",
+            "light crossbows"
+         ],
+         "armorProfs": [],
+         "toolProfs": [],
+         "equipment": [
+            [
+               "a quarterstaff",
+               "a dagger"
+            ],
+            [
+               "two shortswords",
+               "two simple melee weapons"
+            ],
+            [
+               "a component pouch",
+               "an arcane focus"
+            ],
+            [
+               "a scholar‘s pack",
+               "an explorer‘s pack"
+            ],
+            [
+               "a spellbook"
+            ]
+         ],
+         "specialCol": null,
+         "isCaster": true,
+         "progression": [
+            {
+               "level": "1",
+               "proficiency": "2",
+               "caster": "1 (1st)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "nyzZQNRbky035Pzi",
+                     "label": "WC5E.Feats.Invocation.Label"
+                  },
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "T00t50eQC3Q5Mv7i",
+                     "label": "WC5E.Feats.SpellcastingMage.Label"
+                  }
+               ]
+            },
+            {
+               "level": "2",
+               "proficiency": "2",
+               "caster": "2 (1st)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "p9Sy4xutvzgMOlPQ",
+                     "label": "WC5E.Feats.MageTradition.Label"
+                  }
+               ]
+            },
+            {
+               "level": "3",
+               "proficiency": "2",
+               "caster": "3 (2nd)",
+               "feats": []
+            },
+            {
+               "level": "4",
+               "proficiency": "2",
+               "caster": "4 (2nd)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "pZ0s66jTVdto9Z3b",
+                     "label": "WC5E.Feats.AbilityScoreImprovement.Label"
+                  }
+               ]
+            },
+            {
+               "level": "5",
+               "proficiency": "3",
+               "caster": "5 (3rd)",
+               "feats": []
+            },
+            {
+               "level": "6",
+               "proficiency": "3",
+               "caster": "6 (3rd)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "p9Sy4xutvzgMOlPQ",
+                     "label": "WC5E.Feats.MageTradition.Label"
+                  }
+               ]
+            },
+            {
+               "level": "7",
+               "proficiency": "3",
+               "caster": "7 (4th)",
+               "feats": []
+            },
+            {
+               "level": "8",
+               "proficiency": "3",
+               "caster": "8 (4th)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "pZ0s66jTVdto9Z3b",
+                     "label": "WC5E.Feats.AbilityScoreImprovement.Label"
+                  }
+               ]
+            },
+            {
+               "level": "9",
+               "proficiency": "4",
+               "caster": "9 (5th)",
+               "feats": []
+            },
+            {
+               "level": "10",
+               "proficiency": "4",
+               "caster": "10 (5th)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "p9Sy4xutvzgMOlPQ",
+                     "label": "WC5E.Feats.MageTradition.Label"
+                  }
+               ]
+            },
+            {
+               "level": "11",
+               "proficiency": "4",
+               "caster": "11 (6th)",
+               "feats": []
+            },
+            {
+               "level": "12",
+               "proficiency": "4",
+               "caster": "12 (6th)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "pZ0s66jTVdto9Z3b",
+                     "label": "WC5E.Feats.AbilityScoreImprovement.Label"
+                  }
+               ]
+            },
+            {
+               "level": "13",
+               "proficiency": "5",
+               "caster": "13 (7th)",
+               "feats": []
+            },
+            {
+               "level": "14",
+               "proficiency": "5",
+               "caster": "14 (7th)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "p9Sy4xutvzgMOlPQ",
+                     "label": "WC5E.Feats.MageTradition.Label"
+                  }
+               ]
+            },
+            {
+               "level": "15",
+               "proficiency": "5",
+               "caster": "15 (8th)",
+               "feats": []
+            },
+            {
+               "level": "16",
+               "proficiency": "5",
+               "caster": "16 (8th)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "pZ0s66jTVdto9Z3b",
+                     "label": "WC5E.Feats.AbilityScoreImprovement.Label"
+                  }
+               ]
+            },
+            {
+               "level": "17",
+               "proficiency": "6",
+               "caster": "17 (9th)",
+               "feats": []
+            },
+            {
+               "level": "18",
+               "proficiency": "6",
+               "caster": "18 (9th)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "QzZQTZwjVQG0fdRv",
+                     "label": "WC5E.Feats.SpellMastery.Label"
+                  }
+               ]
+            },
+            {
+               "level": "19",
+               "proficiency": "6",
+               "caster": "19 (9th)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "pZ0s66jTVdto9Z3b",
+                     "label": "WC5E.Feats.AbilityScoreImprovement.Label"
+                  }
+               ]
+            },
+            {
+               "level": "20",
+               "proficiency": "6",
+               "caster": "20 (9th)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "1wgi6bQJPMHJbymE",
+                     "label": "WC5E.Feats.SignatureSpell.Label"
+                  }
+               ]
+            }
+         ],
+         "archetypes": [
+            {
+               "title": "WC5E.Class.Mage.Traditions.Arcane.Title",
+               "description": "WC5E.Class.Mage.Traditions.Arcane.Description",
+               "featList": [
+                  {
+                     "level": "2",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "Kz94qdOAZhVicLfJ",
+                           "label": "WC5E.Feats.ArcaneSpheres.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "MO9xhgHqXihbvRtx",
+                           "label": "WC5E.Feats.ArcanePowerMastery.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "6",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "Y1Sp7b5eaVo0smrh",
+                           "label": "WC5E.Feats.PresenceOfMind.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "10",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "ljk1RkNw3NcefLVF",
+                           "label": "WC5E.Feats.ArcanePower.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "14",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "i5YmSxTpymdMqOAl",
+                           "label": "WC5E.Feats.FocusPower.Label"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "title": "WC5E.Class.Mage.Traditions.Fire.Title",
+               "description": "WC5E.Class.Mage.Traditions.Fire.Description",
+               "featList": [
+                  {
+                     "level": "2",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "PY9zd0U6iN8zmSAG",
+                           "label": "WC5E.Feats.ControlledDestruction.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "dS1lVTf8oxQrhEAa",
+                           "label": "WC5E.Feats.StudentOfFlame.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "6",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "joU6dcGOc0r4wcqy",
+                           "label": "WC5E.Feats.Scorch.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "10",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "3raIynROpzVPFI5j",
+                           "label": "WC5E.Feats.BlackFire.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "14",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "Ch4pExUv8jGYSjGx",
+                           "label": "WC5E.Feats.Pyromaniac.Label"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "title": "WC5E.Class.Mage.Traditions.Frost.Title",
+               "description": "WC5E.Class.Mage.Traditions.Frost.Description",
+               "featList": [
+                  {
+                     "level": "2",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "i7MIIGg4ucXKx6rq",
+                           "label": "WC5E.Feats.ChillingEffects.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "wCDvuUjTdfhXmc5D",
+                           "label": "WC5E.Feats.StudentOfFrost.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "6",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "Uuwlyr0o5sxbHN2H",
+                           "label": "WC5E.Feats.IceLance.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "10",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "JrSbJGFrbdkHzQjd",
+                           "label": "WC5E.Feats.WhiteIce.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "14",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "QsgvXKqyvq8YuiCh",
+                           "label": "WC5E.Feats.IceStatues.Label"
+                        }
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+   }
+}

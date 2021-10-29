@@ -1,0 +1,32 @@
+{
+   "_id": "3raIynROpzVPFI5j",
+   "name": "Black Fire",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 76",
+      "requirements": "Mage (Fire) 10"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.BlackFire.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.BlackFire.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Feats.BlackFire.Description.3.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/fire/flame-burning-creature-skeleton.webp",
+   "effects": [
+   ]
+}

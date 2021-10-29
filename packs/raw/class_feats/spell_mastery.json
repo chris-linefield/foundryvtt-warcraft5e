@@ -1,0 +1,32 @@
+{
+   "_id": "QzZQTZwjVQG0fdRv",
+   "name": "Spell Mastery",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 74",
+      "requirements": "Mage 18"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.SpellMastery.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.SpellMastery.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Feats.SpellMastery.Description.3.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/skills/trades/academics-book-study-runes.webp",
+   "effects": [
+   ]
+}
