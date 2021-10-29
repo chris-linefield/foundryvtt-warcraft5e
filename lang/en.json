@@ -1446,7 +1446,54 @@
             }
          },
          "Mage": {
-            "Name": "Mage"
+            "Name": "Mage",
+            "Introduction": {
+               "1": "Standing atop a ruined cliff-side chapel, a human mage retreats against the demonic infernal. Climbing up the side, the infernal barely has time to react, as the human raises his arms, unleashing a volley of fireballs at the infernal, before releasing a storm of ice upon the demon, sending it spiraling into the chasm below.",
+               "2": "Surveying the battlefield from afar, a blood elf looks to the skies, finishing the last words of the spell. The clouds part as an ice crystals form, before falling to the ground, crashing and wreaking bloody havoc amongst her adversaries. Allowing the faintest smile, she walks away from the carnage, her duty fulfilled.",
+               "3": "The draenei mage-lord clad in violet and gold robes stands firm before fel winds. As a doomguard elite breaks his flank, he turns to it, sweeping his hand at its direction, suffusing the fiend with planar magic. The wills of the two clash, and then the doomguard roars in frustration, as he is banished from the battlefield to whence he came. Satisfied, the draenei sweeps his staff over the remaining demons. As the violet crystal sweeps over them, time slows, and they are torn apart by swords loyal to the Army of Light."
+            },
+            "Description": "Students gifted with a keen intellect and unwavering discipline may walk the path of the Mage. The arcane magic available to magi is both great and dangerous, and thus is revealed only to the most devoted practitioners. To avoid interference with their spellcasting, magi wear only cloth armor, but arcane shields and enchantments give them additional protection. To keep enemies at bay, magi can summon bursts of fire or storms of ice to decimate distant targets and cause entire regiments to erupt with elemental energy, or to barrage them with violet blasts of pure arcane magic.",
+            "Blocks": {
+               "1": {
+                  "Title": "Scholars of the Arcane",
+                  "Content": {
+                     "1": "The wizards of Azeroth are commonly known as mages, or magi. The magi of Azeroth acknowledge the corrupting influence of arcane magic, and unlike Warlocks, they temper their advancement with cool intellect and precision.",
+                     "2": "Mages focus on magic that creates and changes things, most often with the purpose of damaging their enemies and boosting the power of their allies. Such beings can obtain a familiar, which is a normal animal that gains new powers and becomes a magical beast when summoned to service by a mage.",
+                     "3": "Magi also understand the workings of arcane energy so well they can counter most magic with great effectiveness. Those who have dedication to and natural predilection for one of the schools of specialization or a magic tradition becomes more entrenched.",
+                     "4": "The magi of the Kirin Tor first mastered the art of casting spells using the elements of ice and fire. Magi are also known for being able to summon elementals, usually water elementals, but can also summon air, earth, and fire elementals. The greatest mortal mage ever to have lived might be the naga Queen Azshara (who may no longer be mortal) or the legendary human Medivh, the last Guardian of Tirisfal, who set in motion many events in the Third War.",
+                     "5": "The first known magi on Azeroth were elves. They existed before the breaking of the Well of Eternity and the Exile of the High Elves, who lived on the shores of the Well of Eternity and  wielded its tremendous magic powers. When the elven kingdom made their ancient pact to aid the human kingdom of Arathi, the magi learned arcane magic as well, turning the tide of the Troll Wars to cement the human and elven presence in Azeroth."
+                  }
+               },
+               "2": {
+                  "Title": "The Lure of Knowledge",
+                  "Content": {
+                     "1": "Mages‘ lives are seldom mundane. The closest a mage is likely to come to an ordinary life is working as a sage or lecturer in a library or university, teaching others the secrets of the multiverse. Other mages sell their services as diviners, serve in military forces, or pursue lives of crime or domination.",
+                     "2": "But the lure of knowledge and power calls even the most unadventurous mages out of the safety of their libraries and laboratories and into crumbling ruins and lost cities. Mages believe that their counterparts in ancient civilizations knew secrets of magic that have been lost to the ages, and discovering those secrets could unlock the path to a power greater than any magic available in the present age."
+                  }
+               },
+               "3": {
+                  "Title": "Creating a Mage",
+                  "Content": {
+                     "1": "Creating a Mage character demands a backstory dominated by at least one extraordinary event. How did your character first come into contact with magic? How did you discover you had an aptitude for it? Do you have a natural talent, or did you simply study hard and practice incessantly? Did you encounter a magical creature or an ancient tome that taught you the basics of magic? ",
+                     "2": "What drew you forth from your life of study? Did your first taste of magical knowledge leave you hungry for more? Have you received word of a secret repository of knowledge not yet plundered by any other mage? Perhaps you‘re simply eager to put your newfound magical skills to the test in the face of danger."
+                  }
+               }
+            },
+            "QuickBuild": "You can make a mage quickly by following these suggestions. First, Intelligence should be your highest ability score, followed by Stamina or Agility. Second, choose the sage background. Third, choose the mage hand, light, and frost bolt cantrips, along with the following 1st-level spells for your spellbook: burning hands, charm (humanoid), feather fall, mana shield, arcane missile, and sleep.",
+            "Traditions": {
+               "Arcane": {
+                  "Title": "Arcane",
+                  "Description": "You manipulate focused mysterious arcane and raw mana powers more adeptly than others, destroying enemies with overwhelming raw magic force. Arcane mages adopt a more scholarly persona than other mages."
+               },
+               "Fire": {
+                  "Title": "Fire",
+                  "Description": "You ignite enemies with bolts of flame and exploding fire, heating up until you deliver the final strike. Fire mages are well-appreciated engines of destruction in war."
+               },
+               "Frost": {
+                  "Title": "Frost",
+                  "Description": "You debilitate and freeze your enemies in their tracks, before shattering them with ice magic or entombing them in it for eternity. Frost mages are usually explorers, as their ability to debilitate, slow, and evade foes gives them survivability that makes them natural to the task."
+               }
+            }
          },
          "Paladin": {
             "Name": "Paladin"
@@ -1820,6 +1867,52 @@
                }
             }
          },
+         "ArcanePower": {
+            "Label": "Arcane Power",
+            "Description": {
+               "1": {
+                  "Value": "You can open yourself to latent arcane energies with an action, channeling power you would normally be unable to channel. For the next minute, every mage spell you cast costs 1 less mana point (minimum 1 mana). If the spell is heightened from a lower spell level, it costs 2 less points instead. Once you use this ability, you cannot use it again until after a short or long rest, or unless you spend 4 Arcane spheres."
+               }
+            }
+         },
+         "ArcanePowerMastery": {
+            "Label": "Arcane Power Mastery",
+            "Description": {
+               "1": {
+                  "Value": "You gain the ability to unleash blasts of arcane force as an action. You gain the Mystic Blast feat. Unlike the normal Mystic Blast feat, this only deals arcane damage."
+               },
+               "2": {
+                  "Value": "You also always have the mana shield spell prepared, and whenever you cast the spell, you gain temporary hit points equal to your Arcane Blast damage until the spell ends."
+               }
+            }
+         },
+         "ArcaneSpheres": {
+            "Label": "Arcane Spheres",
+            "Description": {
+               "1": {
+                  "Value": "You gain one Arcane Sphere whenever one of the following happens to you:"
+               },
+               "2": {
+                  "Options": {
+                     "1": "You deal arcane damage to an enemy with a mage ability or spell from the mage list",
+                     "2": "You lose at least 4 mana points by being target of the mana burn or detonate mana spells or absorbing damage via the mana shield spell. If absorbing damage by the mana shield spell, you gain one Arcane Sphere for each 4 mana points lost this way.",
+                     "3": "You suffer an attack from another Mystic Blast or similar ability (usually called Mystic, Fire, Arcane, or Shadow Blasts), unless it is fel damage (in which case you do not gain a sphere)."
+                  }
+               },
+               "3": {
+                  "Value": "This applies once per spell. Arcane Spheres may be used to empower your abilities. Arcane Spheres may be spent for the following."
+               },
+               "4": {
+                  "Options": {
+                     "1": "<i>Augmenting Arcana</i>: Deal 1 additional point of arcane damage per damage dice with mage spells and abilities that deal arcane damage. This can be spent after rolling for damage, and applies once per spell. This does not stack with similar abilities.",
+                     "2": "<i>Mana Circulation</i>: You may substitute 1 Arcane Sphere for 1 mana point (cannot reduce mana point loss beyond 1) for effects that consume mana (such as spells or mana burn and similar effects)."
+                  }
+               },
+               "5": {
+                  "Value": "You may have a maximum number of spheres equal to 2 plus your Proficiency bonus, and they remain for one hour after being acquired."
+               }
+            }
+         },
          "Archdruid": {
             "Label": "Archdruid",
             "Description": {
@@ -1923,6 +2016,20 @@
                      "2": "The poison DC is increased by 2.",
                      "3": "Gaining acquired immunity to poisons or diseases requires only one-quarter the normal time. See the Poisoner‘s Kit for the ability to gain immunities against diseases or poisons."
                   }
+               }
+            }
+         },
+         "BlackFire": {
+            "Label": "Black Fire",
+            "Description": {
+               "1": {
+                  "Value": "You may spend a bonus action and curse a creature within 30 feet with black flame, reducing its resistance to fire damage. The creature must succeed on a Stamina saving throw or fall to the hex for 1 minute. If it is immune to fire damage, it becomes resistant instead. If resistant, it takes fire damage normally."
+               },
+               "2": {
+                  "Value": "If it doesn't have immunity nor resistance, you (and only you) instead deal bonus fire damage to them equal to half your level. This applies once per spell or effect."
+               },
+               "3": {
+                  "Value": "A creature cannot be subjected to this effect more than once for 24 hours. You can only affect one creature with this ability at any given time."
                }
             }
          },
@@ -2137,6 +2244,14 @@
                }
             }
          },
+         "ChillingEffects": {
+            "Label": "Chilling Effects",
+            "Description": {
+               "1": {
+                  "Value": "You may use a bonus action to inflict the chilled condition to any target of your cold spells for one round. The condition stacks as normal, even with spells that already chill the enemy. If multiple creatures are chilled, choose a number equal to your Intelligence modifier."
+               }
+            }
+         },
          "ChimeraShot": {
             "Label": "Chimera Shot",
             "Description": {
@@ -2198,6 +2313,20 @@
             "Description": {
                "1": {
                   "Value": "You have advantage to any tool check to maintain an innovated device, and the maximum duration increases from 5 minutes to 1 hour. You lessen the malfunction rate of innovated devices by 2 points (to a base increase of only 2 points)."
+               }
+            }
+         },
+         "ControlledDestruction": {
+            "Label": "Controlled Destruction",
+            "Description": {
+               "1": {
+                  "Value": "You can create pockets of relative safety within the effects of your fire evocation spells. When you cast a fire evocation spell that affects other creatures that you can see, you can choose a number of them equal to 1 + your intelligence modifier. The chosen creatures automatically succeed on their saving throws against the spell, and they take no damage if they would normally take half damage on a successful save."
+               },
+               "2": {
+                  "Value": "Also, for a number of times equal to your proficiency bonus, your fire evocation spells can be used to set a target single on fire, inflicting the burning condition on a failed Stamina saving throw. The burning damage is equal to 1d6 points of fire damage, or one-quarter the number of dice the spell dealt (whichever is higher)."
+               },
+               "3": {
+                  "Value": "You may use multiple uses on a single spell. You regain all spent uses at the end of a short rest."
                }
             }
          },
@@ -2913,6 +3042,20 @@
                }
             }
          },
+         "FocusPower": {
+            "Label": "Focus Power",
+            "Description": {
+               "1": {
+                  "Value": "You can choose to re-use arcane energies that normally dissipate into the ether when casting spells. Whenever you affect a target by a mage spell on your turn, you can also make an Arcane Blast attack without spending an action. This can be used once per turn, regardless of how many targets you affect by your spell, and can only be added to spells two levels lower than your highest-level spell."
+               },
+               "2": {
+                  "Value": "If the spell has a duration more than instantaneous, you can instead choose to deliver the damage at any point of the duration instead of after instantaneously striking the target (up to a maximum of the end of the spell‘s duration)."
+               },
+               "3": {
+                  "Value": "The damage of the Arcane Blast is added to the total damage despite being of a different type (and is counted as one attack; thus, if the original spell had a saving throw to negate or half damage, the extra damage is negated or halved appropriately)."
+               }
+            }
+         },
          "FoeSlayer": {
             "Label": "Foe Slayer",
             "Description": {
@@ -3331,6 +3474,31 @@
                }
             }
          },
+         "IceLance": {
+            "Label": "Ice Lance",
+            "Description": {
+               "1": {
+                  "Value": "You know the frost bolt cantrip, and can always cast it as a bonus action. You can also use this cantrip if you already cast a spell in the same round."
+               },
+               "2": {
+                  "Value": "Also, you can create a path of frost over water (or any liquid that freezes at a similar temperature) with any spell that deals cold damage (including cantrips). This freezes a number of consecutive 5- foot squares equal to double the spell level (or a single square if a cantrip)."
+               },
+               "3": {
+                  "Value": "The frozen path melts away in one minute (or may not if the weather is at below freezing). The path can also be broken by spending 5 feet of movement for every 5-foot square."
+               }
+            }
+         },
+         "IceStatues": {
+            "Label": "Ice Statues",
+            "Description": {
+               "1": {
+                  "Value": "whenever you a target of your mage spells is restrained by having their speed reduced to 0 by the chilled condition, they are also incapacitated for the duration of the chilled condition. Against such targets, your frost bolt cantrip is automatically a critical hit if it successfully hits, but the chilled condition ends prematurely (and is not applied for frost bolt)."
+               },
+               "2": {
+                  "Value": "Also, whenever you deal damage to a creature that exceeds one-half their maximum hit points at once, they are both restrained and incapacitated for one hour (or until they thaw out, whichever comes first). Both effects end prematurely if the target is hit."
+               }
+            }
+         },
          "ImprovedRunicStrike": {
             "Label": "Improved Runic Strike",
             "Description": {
@@ -3473,6 +3641,20 @@
                }
             }
          },
+         "Invocation": {
+            "Label": "Invocation",
+            "Description": {
+               "1": {
+                  "Value": "You may rapidly recover your mana by attuning yourself to the flows of magic. You can use your action and bonus action on your turn to regain mana as if completed a short rest (or rested for one hour)."
+               },
+               "2": {
+                  "Value": "You can use this feature a number of times equal to half your proficiency bonus. You regain expended uses when you finish a long rest. While using this feature, the flow of raw mana protects you, imposing disadvantage on attack rolls made against you, and granting you advantage to saving throws until the start of your turn in the next round."
+               },
+               "3": {
+                  "Value": "Alternatively, if you use this during a short rest or when you are below one-quarter your maximum mana point pool, you are treated as if you rested for two hours instead of one. This is atop the mana you regain for the normal rest."
+               }
+            }
+         },
          "Ironbark": {
             "Label": "Ironbark",
             "Description": {
@@ -3528,6 +3710,17 @@
                },
                "2": {
                   "Value": "You may also instead tear the life from living targets within 30 ft. as a reaction, stealing a number of hit points equal to ¼ their current hit points, and restoring your hit points by the same amount. The target may resist with Stamina saving throw against your Spell Save DC. This may be used once per Charisma modifier (minimum 1) before requiring a long rest."
+               }
+            }
+         },
+         "MageTradition": {
+            "Label": "Mage Tradition",
+            "Description": {
+               "1": {
+                  "Value": "You choose a mage tradition, shaping your practice of magic through one of eight schools, or through the disciplines of Arcane, Fire, or Frost, detailed at the end of the class description. Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level."
+               },
+               "2": {
+                  "Value": "The most common traditions in Azeroth are the three below: Arcane, Fire, and Frost. Arcane and Frost are preferred by the students and people of Dalaran, but the grand power of Fire is nothing to be ignored. Other than the above specializations, the Necromancy and Conjuration schools (as described in the core rulebook) are common in Azeroth."
                }
             }
          },
@@ -3748,6 +3941,17 @@
                }
             }
          },
+         "PresenceOfMind": {
+            "Label": "Presence of Mind",
+            "Description": {
+               "1": {
+                  "Value": "You may store bits of your mental focus and concentration over the day, and then discharge the stored potential to cast a spell. When you cast a mage spell that has a casting time of 1 action, it instead becomes a bonus action. You can cast two spells in one round this way, and are not restricted to cantrips. For this purpose, Mystic Blast counts as a spell."
+               },
+               "2": {
+                  "Value": "Once this ability is used a number of times equal to half your proficiency bonus, it cannot be used again until after a long or short rest."
+               }
+            }
+         },
          "PrimalStrike": {
             "Label": "Primal Strike",
             "Description": {
@@ -3764,6 +3968,17 @@
                },
                "2": {
                   "Value": "Also, whenever you activate a gadget that requires a harness or concentration, you gain temporary hit points equal to 1d10 + your Tinker level, which remain until the gadget stops operating. This does not stack with the benefit of the Coated Interior modification."
+               }
+            }
+         },
+         "Pyromaniac": {
+            "Label": "Pyromaniac",
+            "Description": {
+               "1": {
+                  "Value": "You add the pyroblast spell to your spellbook if it isn‘t already within it."
+               },
+               "2": {
+                  "Value": "Whenever you critically hit with a ranged fire spell, you may spend a bonus action to gain one round of concentration on the pyroblast spell for each critical hit. The pyromaniac bonus remains for one hour or until you cast the spell, and stacks with itself. It cannot exceed the maximum damage you can deal with spell, however. For this purpose, you count as if you critically hit if one of the targets of your fire spells fails by a natural 1-2 on a saving throw, or if you score a natural 19- 20 on a ranged attack with a fire spell."
                }
             }
          },
@@ -3889,6 +4104,14 @@
                }
             }
          },
+         "Scorch": {
+            "Label": "Scorch",
+            "Description": {
+               "1": {
+                  "Value": "You may cast fire bolt as a bonus action. Also, you may critically hit with any ranged fire spell attack on a 19 and a 20, dealing double damage. Also, whenever a creature suffers the burning condition from your fire spells, they also have disadvantage to ability checks so long as the condition remains."
+               }
+            }
+         },
          "SearingMagics": {
             "Label": "Searing Magics",
             "Description": {
@@ -3986,6 +4209,17 @@
             "Description": {
                "1": {
                   "Value": "You may expend 2 Crafting Points and a bonus action to increase the malfunction rate of any device within 10 feet of you by 5 points for up to 1 hour. You can target your own devices to increase the risk of malfunction and Superfunction (up to a 50% chance for either). If you attempt to apply this feature to another device while it is active, its benefits end for the previous one."
+               }
+            }
+         },
+         "SignatureSpell": {
+            "Label": "Signature Spell",
+            "Description": {
+               "1": {
+                  "Value": "You gain mastery over two powerful spells and can cast them with little effort. Choose two 4th-level mage spells in your spellbook as your signature spells. You always have these spells prepared, they don‘t count against the number of spells you have prepared, and you can cast each of them once at 4th level without expending mana. When you do so, you can‘t do so again until you finish a short or long rest."
+               },
+               "2": {
+                  "Value": "If you want to cast either spell at a higher level, you must expend mana as normal."
                }
             }
          },
@@ -4185,6 +4419,58 @@
                }
             }
          },
+         "SpellcastingMage": {
+            "Label": "Spellcasting",
+            "Description": {
+               "1": {
+                  "Value": "As a student of arcane magic, you have a spellbook containing spells that show the first glimmerings of your true power."
+               },
+               "2": {
+                  "Title": "Cantrips",
+                  "Value": "You know a number of cantrips equal to your proficiency bonus."
+               },
+               "3": {
+                  "Title": "Conjuring and Binding",
+                  "Value": "A mage can conjure and bind aberrations, celestials, constructs, elementals, fey, fiends, oozes, and undead, as well homunculi creatures (creatures with the homunculus template)."
+               },
+               "4": {
+                  "Title": "Spellbook",
+                  "Value": "You have a spellbook containing six 1st-level mage spells of your choice. When you level up, you gain 2 additional mage spells of your choice. You may also acquire new spells by research, tutelage, or from the spellbooks and scrolls of spellcasters who have spells you can cast."
+               },
+               "5": {
+                  "Title": "Preparing and Casting Spells",
+                  "Value": "Each mage level provides you with 1 caster level in the mage class. You follow the normal progression to unlock spell levels (see the table under the Mana section)."
+               },
+               "6": {
+                  "Value": "You prepare the list of mage spells that are available for you to cast, choosing from the mage spell list."
+               },
+               "7": {
+                  "Value": "You can also change your list of prepared spells by consulting your spellbook after a long rest. Preparing a new list of mage spells requires time spent in study: at least 1 minute per spell level for each spell on your list."
+               },
+               "8": {
+                  "Title": "Spellcasting Ability",
+                  "Value": "Intelligence is your spellcasting ability for your mage spells, since you learn your mage spells through dedicated study and memorization."
+               },
+               "9": {
+                  "Value": "You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a mage spell you cast and when making an attack roll with one."
+               },
+               "10": {
+                  "Value": "<strong>Spell save DC</strong> = 8 + your proficiency bonus + your Intelligence modifier<br><strong>Spell attack modifier</strong> = your proficiency bonus + your Intelligence modifier"
+               },
+               "11": {
+                  "Title": "Ritual Casting",
+                  "Value": "You can cast a mage spell as a ritual if that spell has the ritual tag and you have the spell in your spellbook. You don't need to have the spell prepared."
+               },
+               "12": {
+                  "Title": "Spellcasting Focus",
+                  "Value": "You can use an arcane focus as a spellcasting focus for your mage spells."
+               },
+               "13": {
+                  "Title": "Learning Spells of 1st Level and Higher",
+                  "Value": "On your adventures, you might find other spells that you can add to your spellbook. You do not gain spells by default, and typically scribe spells from scrolls into your own spellbook, or purchase (or steal) the spellbooks of others, or research them yourself."
+               }
+            }
+         },
          "SpellcastingShaman": {
             "Label": "Spellcasting",
             "Description": {
@@ -4276,6 +4562,20 @@
                }
             }
          },
+         "SpellMastery": {
+            "Label": "Spell Mastery",
+            "Description": {
+               "1": {
+                  "Value": "You have achieved such mastery over certain spells that you can cast them at will with no mana cost. Choose a 2nd-level and one 3rd-level mage spell that are in your spellbook."
+               },
+               "2": {
+                  "Value": "You can cast those spells at their lowest level without expending mana when you have them prepared. If you want to cast either spell at a higher level (or if the spell consumes mana in its description), you must expend mana as normal."
+               },
+               "3": {
+                  "Value": "By spending 8 hours in study, you can exchange one or both of the spells you chose for different spells of the same levels."
+               }
+            }
+         },
          "SpiritBond": {
             "Label": "Spirit Bond",
             "Description": {
@@ -4351,6 +4651,22 @@
                },
                "2": {
                   "Value": "Also, you gain the Dual Wielder feat if you didn‘t already have it. If you already have it, you add +1 to your weapon damage rolls with either weapon."
+               }
+            }
+         },
+         "StudentOfFlame": {
+            "Label": "Student of Flame",
+            "Description": {
+               "1": {
+                  "Value": "You may scribe evocation spells with other energy types as fire spells in your spellbook. The spells act the same way, unless the DM rules it is unreasonable (such as a slippery effect on a fire sleet spell). You also gain resistance to fire damage."
+               }
+            }
+         },
+         "StudentOfFrost": {
+            "Label": "Student of Frost",
+            "Description": {
+               "1": {
+                  "Value": "You may scribe evocation spells with other energy types as cold spells in your spellbook. The spells act the same way, unless the DM rules it is unreasonable (such as a burning effect on a cold spell). You also gain resistance to cold damage."
                }
             }
          },
@@ -4623,6 +4939,20 @@
                      "3": "<i>Potion Slinger</i>: You may choose one type of ranged weapon (such as crossbows or bows) and gain proficiency if you don‘t already have it. Furthermore, you may spend a potion to infuse the projectile with the potion‘s effects. You may choose to activate the potion before launching the projectile (to take into account the spell‘s original casting time), but the spell otherwise takes place as if the target was hit (or the area it landed on) is the spell‘s original target. You may choose to deal the ranged weapon‘s damage on impact or to only apply the potion‘s effect.",
                      "4": "<i>Mithridatism</i>: You gain innate power over poisons. You naturally generate up to four doses of basic poison (as described in the Player‘s Handbook) whenever you complete a long rest. The poison‘s DC is equal to your Alchemy Spell Save DC, however, and the damage is equal to 1d4 Poison damage per Alchemist spell level you can access. The poison expires before you complete your next long rest, replenishing your store. If you have an empty Mithridatism dose slot, you can choose to fill it with a poison you are affected by, so long as you succeed on the saving throw against it and are aware of its presence. You can store this poison for future use, but cannot otherwise generate it.<br>You also have skill in deploying poisons that are in your dosage slots, and gain temporary immunity to such poisons so long as they are not deployed. You may deploy poisons as described under Chapter 7: Poisoner‘s Kit."
                   }
+               }
+            }
+         },
+         "WhiteIce": {
+            "Label": "White Ice",
+            "Description": {
+               "1": {
+                  "Value": "You may spend a bonus action and curse a creature within 30 feet with white ice, reducing its resistance to cold damage. The creature must succeed on a Stamina saving throw or fall to the hex for 1 minute."
+               },
+               "2": {
+                  "Value": "If it is immune to cold damage, it becomes resistant instead. If resistant, it takes cold damage normally. If it doesn't have immunity nor resistance, you (and only you) instead deal bonus cold damage to them equal to half your level. This applies once per spell or effect."
+               },
+               "3": {
+                  "Value": "A creature cannot be subjected to this effect more than once for 24 hours. You can only affect one creature with this ability at any given time."
                }
             }
          },

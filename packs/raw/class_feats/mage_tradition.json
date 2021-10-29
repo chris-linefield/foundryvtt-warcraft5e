@@ -1,0 +1,29 @@
+{
+   "_id": "p9Sy4xutvzgMOlPQ",
+   "name": "Mage Tradition",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 73",
+      "requirements": "Mage 2"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.MageTradition.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.MageTradition.Description.2.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/sundries/books/book-embossed-jewel-gold-purple.webp",
+   "effects": [
+   ]
+}

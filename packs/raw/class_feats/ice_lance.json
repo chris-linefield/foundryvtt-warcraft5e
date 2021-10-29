@@ -1,0 +1,32 @@
+{
+   "_id": "Uuwlyr0o5sxbHN2H",
+   "name": "Ice Lance",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 76",
+      "requirements": "Mage (Frost) 6"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.IceLance.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.IceLance.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Feats.IceLance.Description.3.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/water/projectile-icecicle-glowing.webp",
+   "effects": [
+   ]
+}

@@ -1,0 +1,70 @@
+{
+   "_id": "T00t50eQC3Q5Mv7i",
+   "name": "Spellcasting (Mage)",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 72",
+      "requirements": "Mage 1"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.SpellcastingMage.Description.1.Value"
+            },
+            {
+               "title": "WC5E.Feats.SpellcastingMage.Description.2.Title",
+               "value": "WC5E.Feats.SpellcastingMage.Description.2.Value"
+            },
+            {
+               "title": "WC5E.Feats.SpellcastingMage.Description.3.Title",
+               "value": "WC5E.Feats.SpellcastingMage.Description.3.Value"
+            },
+            {
+               "title": "WC5E.Feats.SpellcastingMage.Description.4.Title",
+               "value": "WC5E.Feats.SpellcastingMage.Description.4.Value"
+            },
+            {
+               "title": "WC5E.Feats.SpellcastingMage.Description.5.Title",
+               "value": "WC5E.Feats.SpellcastingMage.Description.5.Value"
+            },
+            {
+               "value": "WC5E.Feats.SpellcastingMage.Description.6.Value"
+            },
+            {
+               "value": "WC5E.Feats.SpellcastingMage.Description.7.Value"
+            },
+            {
+               "title": "WC5E.Feats.SpellcastingMage.Description.8.Title",
+               "value": "WC5E.Feats.SpellcastingMage.Description.8.Value"
+            },
+            {
+               "value": "WC5E.Feats.SpellcastingMage.Description.9.Value"
+            },
+            {
+               "value": "WC5E.Feats.SpellcastingMage.Description.10.Value"
+            },
+            {
+               "title": "WC5E.Feats.SpellcastingMage.Description.11.Title",
+               "value": "WC5E.Feats.SpellcastingMage.Description.11.Value"
+            },
+            {
+               "title": "WC5E.Feats.SpellcastingMage.Description.12.Title",
+               "value": "WC5E.Feats.SpellcastingMage.Description.12.Value"
+            },
+            {
+               "title": "WC5E.Feats.SpellcastingMage.Description.13.Title",
+               "value": "WC5E.Feats.SpellcastingMage.Description.13.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/light/hand-sparks-smoke-green.webp",
+   "effects": [
+   ]
+}

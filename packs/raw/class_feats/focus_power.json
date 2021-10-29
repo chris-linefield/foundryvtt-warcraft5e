@@ -1,0 +1,32 @@
+{
+   "_id": "1wgi6bQJPMHJbymE",
+   "name": "Focus Power",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 75",
+      "requirements": "Mage (Arcane) 14"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.FocusPower.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.FocusPower.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Feats.FocusPower.Description.3.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/lightning/projectile-tendrils-teal.webp",
+   "effects": [
+   ]
+}
