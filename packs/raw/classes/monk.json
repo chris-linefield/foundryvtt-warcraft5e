@@ -369,7 +369,7 @@
                "feats": [
                   {
                      "pack": "warcraft5e.wc5e_class_feats",
-                     "node": "tGeaOxjjZVNP9AS6",
+                     "node": "cA9AWTxYSiztfWlq",
                      "label": "WC5E.Feats.PerfectSelf.Label"
                   }
                ]
@@ -504,21 +504,21 @@
                ]
             },
             {
-               "title": "WC5E.Class.Monk.Traditions.Frost.Title",
-               "description": "WC5E.Class.Monk.Traditions.Frost.Description",
+               "title": "WC5E.Class.Monk.Traditions.Windwalker.Title",
+               "description": "WC5E.Class.Monk.Traditions.Windwalker.Description",
                "featList": [
                   {
-                     "level": "2",
+                     "level": "3",
                      "feats": [
                         {
                            "pack": "warcraft5e.wc5e_class_feats",
-                           "node": "i7MIIGg4ucXKx6rq",
-                           "label": "WC5E.Feats.ChillingEffects.Label"
+                           "node": "zCH3QykOX0EMHTcu",
+                           "label": "WC5E.Feats.SuperiorMartialArts.Label"
                         },
                         {
                            "pack": "warcraft5e.wc5e_class_feats",
-                           "node": "wCDvuUjTdfhXmc5D",
-                           "label": "WC5E.Feats.StudentOfFrost.Label"
+                           "node": "em3Ip3uS3H1pQy6R",
+                           "label": "WC5E.Feats.WindwalkerGrace.Label"
                         }
                      ]
                   },
@@ -527,28 +527,33 @@
                      "feats": [
                         {
                            "pack": "warcraft5e.wc5e_class_feats",
-                           "node": "Uuwlyr0o5sxbHN2H",
-                           "label": "WC5E.Feats.IceLance.Label"
+                           "node": "Hgvx8m6xTuBvEKoe",
+                           "label": "WC5E.Feats.DestroyMana.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "CdML8DpmA8RQ4zPQ",
+                           "label": "WC5E.Feats.RisingSun.Label"
                         }
                      ]
                   },
                   {
-                     "level": "10",
+                     "level": "11",
                      "feats": [
                         {
                            "pack": "warcraft5e.wc5e_class_feats",
-                           "node": "JrSbJGFrbdkHzQjd",
-                           "label": "WC5E.Feats.WhiteIce.Label"
+                           "node": "NQnoAHyBLWBnkOfi",
+                           "label": "WC5E.Feats.ComboAttacks.Label"
                         }
                      ]
                   },
                   {
-                     "level": "14",
+                     "level": "17",
                      "feats": [
                         {
                            "pack": "warcraft5e.wc5e_class_feats",
-                           "node": "QsgvXKqyvq8YuiCh",
-                           "label": "WC5E.Feats.IceStatues.Label"
+                           "node": "9fqPszK0DoHzxK6e",
+                           "label": "WC5E.Feats.QuiveringPalm.Label"
                         }
                      ]
                   }

@@ -1,13 +1,13 @@
 {
-   "_id": "cA9AWTxYSiztfWlq",
-   "name": "Perfect Self",
+   "_id": "em3Ip3uS3H1pQy6R",
+   "name": "Windwalker Grace",
    "permission": {
       "default": 0
    },
    "type": "feat",
    "data": {
-      "source": "Core Rules page 82",
-      "requirements": "Monk 20"
+      "source": "Core Rules page 85",
+      "requirements": "Monk (Windwalker) 3"
    },
    "flags": {
       "wc5e": {
@@ -15,12 +15,12 @@
          "category": "WC5E.SkillCategories.General",
          "description": [
             {
-               "value": "WC5E.Feats.PerfectSelf.Description.1.Value"
+               "value": "WC5E.Feats.WindwalkerGrace.Description.1.Value"
             }
          ]
       }
    },
-   "img": "icons/skills/movement/ball-spinning-blue.webp",
+   "img": "icons/skills/movement/feet-winged-boots-brown.webp",
    "effects": [
    ]
 }

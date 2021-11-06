@@ -2378,6 +2378,14 @@
                }
             }
          },
+         "ComboAttacks": {
+            "Label": "Combo Attacks",
+            "Description": {
+               "1": {
+                  "Value": "You score a critical hit with your weapon attacks on a 19-20. If you already possess this range, the range increases by 1 point to 18-20. When you score a critical hit, you may either use any one Ki ability with no action or Ki cost (such as flurry of blows, Rising Sun, your Superior Martial Arts abilities, or Quivering Palm once you gain it), or choose to regain 2 Ki."
+               }
+            }
+         },
          "ConduitOfSpirits": {
             "Label": "Conduit of Spirits",
             "Description": {
@@ -2616,6 +2624,14 @@
                },
                "2": {
                   "Value": "When you are killed, your spirit is taken to an demiplane (see the spell) that is owned by you, where you return to life in the matter of 1d10 days, nurtured by any demonic allies you have employed, enslaved, or allied with."
+               }
+            }
+         },
+         "DestroyMana": {
+            "Label": "Destroy Mana",
+            "Description": {
+               "1": {
+                  "Value": "As an action, you may spend 2 Ki to cast the mana burn spell. This requires touching the effect or creature that is subject to the effect, and does not require vocal components. You can choose to make this ability destroy Ki instead, in which case it removes half the mana points it would normally remove. You may treat this as a strike effect. You can spend Ki to heighten this effect."
                }
             }
          },
@@ -4305,6 +4321,17 @@
                }
             }
          },
+         "QuiveringPalm": {
+            "Label": "Quivering Palm",
+            "Description": {
+               "1": {
+                  "Value": "You gain the ability to set up lethal vibrations in someone‘s body. When you hit a creature with an unarmed strike, you can use a bonus action and 3 Ki to start these imperceptible vibrations, which last for a number of days equal to your monk level. The vibrations are harmless unless you use your action to end them. To do so, you and the target must be on the same plane of existence. When you use this action, the creature must make a Stamina saving throw. If it fails, it is reduced to 0 hit points. If it succeeds, it takes 10d10 shadow damage instead. You may place these vibrations even with a harmless touch (which may require a Charisma (Deception) check contested to a Spirit (Insight) check)."
+               },
+               "2": {
+                  "Value": "You can have only one creature under the effect of this feature at a time. You can choose to end the vibrations harmlessly without using an action."
+               }
+            }
+         },
          "ReleaseElemental": {
             "Label": "Release Elemental",
             "Description": {
@@ -4354,6 +4381,14 @@
                },
                "2": {
                   "Value": "You have the service of three retainers loyal to your family. These retainers can be attendants or messengers, and one might be a majordomo. Your retainers are commoners who can perform mundane tasks for you, but they do not fight for you, will not follow you into obviously dangerous areas (such as dungeons), and will leave if they are frequently endangered or abused."
+               }
+            }
+         },
+         "RisingSun": {
+            "Label": "Rising Sun",
+            "Description": {
+               "1": {
+                  "Value": "As a bonus action, you may perform an upwards kick, dealing unarmed damage and imposing an additional effect. You may also choose between dealing extra 2d6 damage, or adding 1d6 to any melee weapon attack you make against the target for the next minute. If the target succeeds on a Strength saving throw, they take half the 2d6 extra damage, or, if you chose the second option, ignore the extra damage."
                }
             }
          },
@@ -4544,6 +4579,20 @@
                }
             }
          },
+         "SoothingMist": {
+            "Label": "Soothing Mist",
+            "Description": {
+               "1": {
+                  "Value": "As an action, you may expend Ki and gain a cloud of healing mists. The creature gains 2d6 hit points for every Ki point invested. You may target a creature up to 15 feet away (or a number of creatures within 30 feet of one another), and distribute healing amongst as many creatures as you wish. If benefitting from Thunder Focus Tea, this ability heals 5 extra hit points."
+               },
+               "2": {
+                  "Value": "If you already used your action to attack a hostile creature and landed at least one successful hit on your turn in the last round, you may use this ability as a bonus action instead."
+               },
+               "3": {
+                  "Value": "You may alternatively expend hit points from your pool of healing to cure the target of one disease or neutralize one poison affecting it, with a number of hit points required equal to one-half the saving throw DC of the poison (round up). You can cure multiple diseases and neutralize multiple poisons with a single use of Soothing Mist, expending hit points separately for each one. This feature has no effect on constructs or undead."
+               }
+            }
+         },
          "SoulBurner": {
             "Label": "Soul Burner",
             "Description": {
@@ -4568,6 +4617,48 @@
                },
                "2": {
                   "Value": "If you are under the effects of the avatar form warlock spell and you choose to alter the target of the sigil spell with this ability, you may attempt a sigil roll on your original target before shifting the spell (possibly affecting two targets in the same turn)."
+               }
+            }
+         },
+         "SoulShards": {
+            "Label": "Soul Shards",
+            "Description": {
+               "1": {
+                  "Value": "You tap into a deep and mysterious magic of souls. This wellspring is represented by soul shards, which allow you to weaken your enemies or strengthen your own spells, by siphoning off a part of the opponent‘s lifeforce."
+               },
+               "2": {
+                  "Title": "Soul Shards",
+                  "Value": "Your magic can bind your opponent‘s lifeforce to your own. Whenever you deal damage by a spell, melee or ranged weapon or spell attack, or whenever a creature you summoned or bound deals damage to a creature that is not a construct, they are marked by your warlock magic until the beginning of your turn in the next round."
+               },
+               "3": {
+                  "Value": "If the creature dies or is reduced to 0 hit points while marked this way, you gain a soul shard. A creature cannot be marked by more than one warlock at a given time. Any new mark replaces the one before it, unless the previous mark was placed by a warlock of higher level."
+               },
+               "4": {
+                  "Value": "You can have a maximum number of soul shards equal to your Warlock level. Soul shards fade at a rate of 1 shard per hour (or 1 shard per short rest) if not used. The creature must be a qualifying threat to you (such as by having a Challenge comparable with your level, or if it is able to reliably or consistently harm you)."
+               },
+               "5": {
+                  "Value": "You may use soul shards for any of the following:"
+               },
+               "6": {
+                  "Options": {
+                     "1": "<i>Enhanced Conjuring</i>: You may spend one soul shard per spell level, and quicken any conjure spell of a casting time of 1 minute to cost only a 1 action. For until the beginning of your turn in the next round, your speed is 0.",
+                     "2": "<i>Enhanced Concentration</i>: When you cast a conjuration warlock spell that requires concentration, you may spend one soul shard to concentrate on the spell, instead of having to concentrate on it yourself. You cannot concentrate on more than two conjured creatures using this ability. When your concentration is threatened, you must roll to maintain both spells, however. This costs one soul shard per spell level.",
+                     "3": "<i>Soul Magic</i>: With a bonus action, you can force a living creature or an undead to take -4 to its saving throw of one of your warlock spells, or you can gain a +4 bonus to your own spell and attack rolls to such targets (including sigil rolls). This functions up to 5th level spells, and costs one soul shard per spell level. This bonus can be applied after knowing the result of the roll (whether failure or success)."
+                  }
+               }
+            }
+         },
+         "SoulVault": {
+            "Label": "Soul Vault",
+            "Description": {
+               "1": {
+                  "Value": "When you reach 20th level, you may gain two soul shards instead of one per every enemy reduced to 0 hit points as a result of your warlock spells."
+               },
+               "2": {
+                  "Value": "Also, you may stow your grimoire into the pocket realm (known as the soul vault) of your choosing by using 3 soul shards, and can draw it out using 1 soul shard. You do not need to physically possess the grimoire at that time, but must be within 100 feet of it, and spend 1 action to banish it into the realm or draw it back again."
+               },
+               "3": {
+                  "Value": "Only you can access the pocket realm, unless you choose a realm that multiple creatures can enter (in which case, you can designate the grimoire to appear at any point you previously conducted a 1- hour ritual to attune the book to the place)."
                }
             }
          },
@@ -4900,62 +4991,6 @@
                }
             }
          },
-         "SoothingMist": {
-            "Label": "Soothing Mist",
-            "Description": {
-               "1": {
-                  "Value": "As an action, you may expend Ki and gain a cloud of healing mists. The creature gains 2d6 hit points for every Ki point invested. You may target a creature up to 15 feet away (or a number of creatures within 30 feet of one another), and distribute healing amongst as many creatures as you wish. If benefitting from Thunder Focus Tea, this ability heals 5 extra hit points."
-               },
-               "2": {
-                  "Value": "If you already used your action to attack a hostile creature and landed at least one successful hit on your turn in the last round, you may use this ability as a bonus action instead."
-               },
-               "3": {
-                  "Value": "You may alternatively expend hit points from your pool of healing to cure the target of one disease or neutralize one poison affecting it, with a number of hit points required equal to one-half the saving throw DC of the poison (round up). You can cure multiple diseases and neutralize multiple poisons with a single use of Soothing Mist, expending hit points separately for each one. This feature has no effect on constructs or undead."
-               }
-            }
-         },
-         "SoulShards": {
-            "Label": "Soul Shards",
-            "Description": {
-               "1": {
-                  "Value": "You tap into a deep and mysterious magic of souls. This wellspring is represented by soul shards, which allow you to weaken your enemies or strengthen your own spells, by siphoning off a part of the opponent‘s lifeforce."
-               },
-               "2": {
-                  "Title": "Soul Shards",
-                  "Value": "Your magic can bind your opponent‘s lifeforce to your own. Whenever you deal damage by a spell, melee or ranged weapon or spell attack, or whenever a creature you summoned or bound deals damage to a creature that is not a construct, they are marked by your warlock magic until the beginning of your turn in the next round."
-               },
-               "3": {
-                  "Value": "If the creature dies or is reduced to 0 hit points while marked this way, you gain a soul shard. A creature cannot be marked by more than one warlock at a given time. Any new mark replaces the one before it, unless the previous mark was placed by a warlock of higher level."
-               },
-               "4": {
-                  "Value": "You can have a maximum number of soul shards equal to your Warlock level. Soul shards fade at a rate of 1 shard per hour (or 1 shard per short rest) if not used. The creature must be a qualifying threat to you (such as by having a Challenge comparable with your level, or if it is able to reliably or consistently harm you)."
-               },
-               "5": {
-                  "Value": "You may use soul shards for any of the following:"
-               },
-               "6": {
-                  "Options": {
-                     "1": "<i>Enhanced Conjuring</i>: You may spend one soul shard per spell level, and quicken any conjure spell of a casting time of 1 minute to cost only a 1 action. For until the beginning of your turn in the next round, your speed is 0.",
-                     "2": "<i>Enhanced Concentration</i>: When you cast a conjuration warlock spell that requires concentration, you may spend one soul shard to concentrate on the spell, instead of having to concentrate on it yourself. You cannot concentrate on more than two conjured creatures using this ability. When your concentration is threatened, you must roll to maintain both spells, however. This costs one soul shard per spell level.",
-                     "3": "<i>Soul Magic</i>: With a bonus action, you can force a living creature or an undead to take -4 to its saving throw of one of your warlock spells, or you can gain a +4 bonus to your own spell and attack rolls to such targets (including sigil rolls). This functions up to 5th level spells, and costs one soul shard per spell level. This bonus can be applied after knowing the result of the roll (whether failure or success)."
-                  }
-               }
-            }
-         },
-         "SoulVault": {
-            "Label": "Soul Vault",
-            "Description": {
-               "1": {
-                  "Value": "When you reach 20th level, you may gain two soul shards instead of one per every enemy reduced to 0 hit points as a result of your warlock spells."
-               },
-               "2": {
-                  "Value": "Also, you may stow your grimoire into the pocket realm (known as the soul vault) of your choosing by using 3 soul shards, and can draw it out using 1 soul shard. You do not need to physically possess the grimoire at that time, but must be within 100 feet of it, and spend 1 action to banish it into the realm or draw it back again."
-               },
-               "3": {
-                  "Value": "Only you can access the pocket realm, unless you choose a realm that multiple creatures can enter (in which case, you can designate the grimoire to appear at any point you previously conducted a 1- hour ritual to attune the book to the place)."
-               }
-            }
-         },
          "StillnessOfMind": {
             "Label": "Stillness of Mind",
             "Description": {
@@ -5037,6 +5072,17 @@
                   "Value": "<i>Note</i>: Since your Patent device cannot malfunction, it can only Superfunction at a natural 20 use."
                }
             }
+         },
+         "SuperiorMartialArts": {
+            "Label": "Superior Martial Arts",
+            "Description": {
+               "1": {
+                  "Value": "You may spend 2 Ki and deal a single unarmed attack roll as an area of effect (expending any number of attacks). You may choose to make it a 5-footburst around you (Hurricane Kick), a 10-foot cone (Fists of Fury), or a 15-foot line (Flying Serpent Kick). You may move within the specified area of effect without provoking reactions from the creatures in the area of effect (such as kicking through a line of enemies and landing behind them with a Flying Serpent Kick, or shifting 5 feet to the right after a Hurricane Kick, or moving 10 feet to one side after a Fists of Fury). Creatures affected can attempt an Agility saving throw against your Ki DC to half the damage."
+               },
+               "2": {
+                  "Value": "This action counts as if you made a single unarmed attack for the purposes of your Martial Arts feature and Flurry of Blows ability."
+               }
+           }
          },
          "SuperMutant": {
             "Label": "Super Mutant",
@@ -5306,6 +5352,14 @@
                },
                "3": {
                   "Value": "A creature cannot be subjected to this effect more than once for 24 hours. You can only affect one creature with this ability at any given time."
+               }
+            }
+         },
+         "WindwalkerGrace": {
+            "Label": "Windwalker Grace",
+            "Description": {
+               "1": {
+                  "Value": "Whenever you deal damage to a target, you can use your Step of the Wind Ki ability without spending a Ki point."
                }
             }
          },
