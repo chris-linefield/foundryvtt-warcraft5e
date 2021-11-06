@@ -1,0 +1,26 @@
+{
+   "_id": "oHPeTMriTPaUwPN0",
+   "name": "Enveloping Mist",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 84",
+      "requirements": "Monk (Mistweaver) 3"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.EnvelopingMist.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "systems/dnd5e/icons/spells/beam-blue-2.jpg",
+   "effects": [
+   ]
+}

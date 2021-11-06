@@ -438,21 +438,26 @@
                ]
             },
             {
-               "title": "WC5E.Class.Monk.Traditions.Fire.Title",
-               "description": "WC5E.Class.Monk.Traditions.Fire.Description",
+               "title": "WC5E.Class.Monk.Traditions.Mistweaver.Title",
+               "description": "WC5E.Class.Monk.Traditions.Mistweaver.Description",
                "featList": [
                   {
-                     "level": "2",
+                     "level": "3",
                      "feats": [
                         {
                            "pack": "warcraft5e.wc5e_class_feats",
-                           "node": "PY9zd0U6iN8zmSAG",
-                           "label": "WC5E.Feats.ControlledDestruction.Label"
+                           "node": "jdfAAeOUVjhJ1m3u",
+                           "label": "WC5E.Feats.SoothingMist.Label"
                         },
                         {
                            "pack": "warcraft5e.wc5e_class_feats",
-                           "node": "dS1lVTf8oxQrhEAa",
-                           "label": "WC5E.Feats.StudentOfFlame.Label"
+                           "node": "oHPeTMriTPaUwPN0",
+                           "label": "WC5E.Feats.EnvelopingMist.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "tMNIRBv5k9Gqlbsw",
+                           "label": "WC5E.Feats.MistweaversEnlightenment.Label"
                         }
                      ]
                   },
@@ -461,28 +466,38 @@
                      "feats": [
                         {
                            "pack": "warcraft5e.wc5e_class_feats",
-                           "node": "joU6dcGOc0r4wcqy",
-                           "label": "WC5E.Feats.Scorch.Label"
+                           "node": "zu4YXtf6wwCboEKM",
+                           "label": "WC5E.Feats.ControlKi.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "W1YyLCnBnHA3KdX0",
+                           "label": "WC5E.Feats.MistWeave.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "9wT2ExLJfcmGIaXc",
+                           "label": "WC5E.Feats.MistweaversPeace.Label"
                         }
                      ]
                   },
                   {
-                     "level": "10",
+                     "level": "11",
                      "feats": [
                         {
                            "pack": "warcraft5e.wc5e_class_feats",
-                           "node": "3raIynROpzVPFI5j",
-                           "label": "WC5E.Feats.BlackFire.Label"
+                           "node": "qUFj1O3jX1QONPeO",
+                           "label": "WC5E.Feats.LifeCocoon.Label"
                         }
                      ]
                   },
                   {
-                     "level": "14",
+                     "level": "17",
                      "feats": [
                         {
                            "pack": "warcraft5e.wc5e_class_feats",
-                           "node": "Ch4pExUv8jGYSjGx",
-                           "label": "WC5E.Feats.Pyromaniac.Label"
+                           "node": "0d7fgcywXZlymDvq",
+                           "label": "WC5E.Feats.Enlightenment.Label"
                         }
                      ]
                   }

@@ -1,0 +1,26 @@
+{
+   "_id": "9wT2ExLJfcmGIaXc",
+   "name": "Mistweaver's Peace",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 84",
+      "requirements": "Monk (Mistweaver) 6"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.MistweaversPeace.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/defensive/barrier-shield-dome-deflect-teal.webp",
+   "effects": [
+   ]
+}

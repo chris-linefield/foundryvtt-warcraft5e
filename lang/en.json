@@ -2397,6 +2397,17 @@
                }
             }
          },
+         "ControlKi": {
+            "Label": "Control Ki",
+            "Description": {
+               "1": {
+                  "Value": "You may spend 2 Ki to cast the mute spell. Upon reaching 9th level, you may also cast dispel magic as a 3rd level spell. You may either cast them with their normal ranges, use them as strike effects, or imbue them into your brews if you have the Brewer feat. In this case, they are the only imbued effect. You can spend Ki to heighten this effect."
+               },
+               "2": {
+                  "Value": "If the target of your mute spell fails their saving throw or if your dispel magic spell successfully dispels a spell, you regain 1 Ki."
+               }
+            }
+         },
          "ControlledDestruction": {
             "Label": "Controlled Destruction",
             "Description": {
@@ -2869,6 +2880,17 @@
                }
             }
          },
+         "Enlightenment": {
+            "Label": "Enlightenment",
+            "Description": {
+               "1": {
+                  "Value": "You may spend 7 Ki to cast the resurrection spell, or 4 Ki to cast the revivify spell. Once the resurrection spell is cast, you cannot cast it again until you complete a short rest, regardless if you have Ki remaining."
+               },
+               "2": {
+                  "Value": "Furthermore, your Life Cocoon ability grants 5d10 temporary hit points instead of 3d10, and a creature can benefit once per a short rest."
+               }
+            }
+         },
          "EntertainerRoutines": {
             "Label": "Entertainer Routines",
             "Description": {
@@ -2888,6 +2910,14 @@
                      "9": "Storyteller",
                      "10": "Tumbler"
                   }
+               }
+            }
+         },
+         "EnvelopingMist": {
+            "Label": "Enveloping Mist",
+            "Description": {
+               "1": {
+                  "Value": "you can spend 1 Ki to cast the rejuvenation or expeditious retreat spells as 1st level spells. These requires only verbal components. You can spend additional Ki to heighten the spells."
                }
             }
          },
@@ -3829,6 +3859,17 @@
                }
             }
          },
+         "LifeCocoon": {
+            "Label": "Life Cocoon",
+            "Description": {
+               "1": {
+                  "Value": "You may spend 2 Ki points designate an allied creature with a cocoon of Ki as an action, which remains for 1 minute. While invigorated this way, the creature gains 3d10 temporary hit points. So long as the temporary hit points remain, the target heals 50% more hit points from healing effects."
+               },
+               "2": {
+                  "Value": "A creature cannot benefit from life cocoon more than once every 24 hours. You may use this ability on yourself while stunned or asleep, but not while incapacitated."
+               }
+            }
+         },
          "LifeOfSeclusion": {
             "Label": "Life of Seclusion",
             "Description": {
@@ -3949,6 +3990,33 @@
             "Description": {
                "1": {
                   "Value": "You have a military rank from your career as a soldier. Soldiers loyal to your former military organization still recognize your authority and influence, and they defer to you if they are of a lower rank. You can invoke your rank to exert influence over other soldiers and requisition simple equipment or horses for temporary use. You can also usually gain access to friendly military encampments and fortresses where your rank is recognized."
+               }
+            }
+         },
+         "MistWeave": {
+            "Label": "Mist Weave",
+            "Description": {
+               "1": {
+                  "Value": "You can spend 2 Ki to cast the fog cloud and blink step spells as 2nd level spells. You can spend Ki to heighten this effect. If you use the blink step spell to end adjacent to an ally and target them with your Soothing Mist ability, you regain half the Ki you spend on the ability."
+               },
+               "2": {
+                  "Value": "Furthermore, so long as you have at least 2 Ki, you suffer only light obstruction, and never heavy obstruction from mist and fog."
+               }
+            }
+         },
+         "MistweaversEnlightenment": {
+            "Label": "Mistweaver's Enlightenment",
+            "Description": {
+               "1": {
+                  "Value": "Whenever you deal damage to a target, you are enhanced with enlightenment for until the end of your turn in the next round. You may either reduce the Ki cost of an ability you use by 1 point (minimum 1 point), or use the Soothing Mist Ki power with no expenditure of Ki. This heals as if you spent 1 Ki point only, but cannot heal a creature above its Bloodied value."
+               }
+            }
+         },
+         "MistweaversPeace": {
+            "Label": "Mistweaver's Peace",
+            "Description": {
+               "1": {
+                  "Value": "You can spend 3 Ki to cast the barrier ward spell as a 3rd level spell. Furthermore, if a creature fails to force its way through the barrier or attempts to deal damage to the barrier, it is pushed 10 feet away from the barrier. If attempting to damage the barrier, the target is pushed only if they fail a Strength saving throw against your Ki DC."
                }
             }
          },
@@ -4829,6 +4897,20 @@
                },
                "3": {
                   "Value": "After using this feature, you must finish a short rest before you can use it again. The DM has the wolves‘ statistics, and applies the spirit template appropriately. The dire wolves‘ Challenge is always of a value equal to one-eighth your shaman level (allowing you to enhance them, as described in the Monster Guide)."
+               }
+            }
+         },
+         "SoothingMist": {
+            "Label": "Soothing Mist",
+            "Description": {
+               "1": {
+                  "Value": "As an action, you may expend Ki and gain a cloud of healing mists. The creature gains 2d6 hit points for every Ki point invested. You may target a creature up to 15 feet away (or a number of creatures within 30 feet of one another), and distribute healing amongst as many creatures as you wish. If benefitting from Thunder Focus Tea, this ability heals 5 extra hit points."
+               },
+               "2": {
+                  "Value": "If you already used your action to attack a hostile creature and landed at least one successful hit on your turn in the last round, you may use this ability as a bonus action instead."
+               },
+               "3": {
+                  "Value": "You may alternatively expend hit points from your pool of healing to cure the target of one disease or neutralize one poison affecting it, with a number of hit points required equal to one-half the saving throw DC of the poison (round up). You can cure multiple diseases and neutralize multiple poisons with a single use of Soothing Mist, expending hit points separately for each one. This feature has no effect on constructs or undead."
                }
             }
          },
