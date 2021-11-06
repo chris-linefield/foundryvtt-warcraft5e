@@ -1,13 +1,13 @@
 {
-   "_id": "RHCM1SEVR8YGj71w",
-   "name": "Extra Attack",
+   "_id": "rllzAl0mdF4ZJMwK",
+   "name": "Ki-Empowered Strikes",
    "permission": {
       "default": 0
    },
    "type": "feat",
    "data": {
-      "source": "Core Rules page 49",
-      "requirements": "Death Knight 5, Monk 5"
+      "source": "Core Rules page 82",
+      "requirements": "Monk 6"
    },
    "flags": {
       "wc5e": {
@@ -15,12 +15,12 @@
          "category": "WC5E.SkillCategories.General",
          "description": [
             {
-               "value": "WC5E.Feats.ExtraAttack.Description.1.Value"
+               "value": "WC5E.Feats.KiEmpoweredStrikes.Description.1.Value"
             }
          ]
       }
    },
-   "img": "systems/dnd5e/icons/skills/weapon_08.jpg",
+   "img": "icons/magic/fire/flame-burning-fist-strike.webp",
    "effects": [
    ]
 }

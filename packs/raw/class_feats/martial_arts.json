@@ -1,0 +1,39 @@
+{
+   "_id": "LIM6tTwSTNKf2nhm",
+   "name": "Martial Arts",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 80",
+      "requirements": "Monk 1"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.MartialArts.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.MartialArts.Description.2.Value"
+            },
+            {
+               "options": [
+                  "WC5E.Feats.MartialArts.Description.3.Options.1",
+                  "WC5E.Feats.MartialArts.Description.3.Options.2",
+                  "WC5E.Feats.MartialArts.Description.3.Options.3"
+               ]
+            },
+            {
+               "value": "WC5E.Feats.MartialArts.Description.4.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/skills/melee/unarmed-punch-fist-yellow-red.webp",
+   "effects": [
+   ]
+}

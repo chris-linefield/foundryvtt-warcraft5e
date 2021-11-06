@@ -1,0 +1,29 @@
+{
+   "_id": "0Kc2J4FNAvU0M9rZ",
+   "name": "Purity of Body",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 82",
+      "requirements": "Monk 10"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.PurityOfBody.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.PurityOfBody.Description.2.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/life/heart-red-blue.webp",
+   "effects": [
+   ]
+}

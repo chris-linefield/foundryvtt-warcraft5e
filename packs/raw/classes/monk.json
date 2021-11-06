@@ -1,0 +1,545 @@
+{
+   "_id": "A3DwUhLjV3H2Ubub",
+   "name": "Monk",
+   "type": "class",
+   "img": "modules/warcraft5e/res/pics/classes/monk.jpg",
+   "data": {
+      "description": {
+         "value": "WC5E.Class.Monk.Description",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "",
+      "levels": 1,
+      "subclass": "",
+      "hitDice": "d8",
+      "hitDiceUsed": 0,
+      "saves": [
+         "str",
+         "dex"
+      ],
+      "skills": {
+         "number": 2,
+         "choices": [
+            "acr",
+            "ath",
+            "his",
+            "ins",
+            "rel",
+            "ste"
+         ],
+         "value": [
+         ]
+      },
+      "spellcasting": {
+         "progression": "none",
+         "ability": ""
+      },
+      "damage": {
+         "parts": [
+         ]
+      }
+   },
+   "effects": [
+   ],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+      "default": 0
+   },
+   "flags": {
+      "wc5e": {
+         "type": "class",
+         "artwork": {
+            "1": {
+               "src": "modules/warcraft5e/res/pics/classes/monk_artwork.jpg",
+               "url": "https://www.artstation.com/artwork/A9bzym",
+               "credit": "Gabriel Rubio"
+            },
+            "2": {
+               "src": "modules/warcraft5e/res/pics/classes/monk_artwork2.jpg",
+               "url": "https://www.deviantart.com/alexgarner/art/Barador-Wildhammer-Timewalker-328409476?q=gallery%3AAlexGarner%2F1667992&qo=15",
+               "credit": "AlexGarner"
+            }
+         },
+         "introduction": [
+            "WC5E.Class.Monk.Introduction.1",
+            "WC5E.Class.Monk.Introduction.2",
+            "WC5E.Class.Monk.Introduction.3"
+         ],
+         "blocks": [
+            {
+               "title": "WC5E.Class.Monk.Blocks.1.Title",
+               "content": [
+                  "WC5E.Class.Monk.Blocks.1.Content.1",
+                  "WC5E.Class.Monk.Blocks.1.Content.2"
+               ]
+            },
+            {
+               "title": "WC5E.Class.Monk.Blocks.2.Title",
+               "content": [
+                  "WC5E.Class.Monk.Blocks.2.Content.1",
+                  "WC5E.Class.Monk.Blocks.2.Content.2"
+               ]
+            },
+            {
+               "title": "WC5E.Class.Monk.Blocks.3.Title",
+               "content": [
+                  "WC5E.Class.Monk.Blocks.3.Content.1",
+                  "WC5E.Class.Monk.Blocks.3.Content.2"
+               ]
+            }
+         ],
+         "quickBuild": "WC5E.Class.Monk.QuickBuild",
+         "hitPoints1st": "8",
+         "hitPointsHalfed": "5",
+         "weaponProfs": [
+            "sim"
+         ],
+         "specificWeaponProfs": [
+            "shortswords",
+            "darts",
+            "quarterstaffs"
+         ],
+         "armorProfs": [],
+         "toolProfs": [
+            "art",
+            "instrument"
+         ],
+         "equipment": [
+            [
+               "a shortsword",
+               "any simple weapon"
+            ],
+            [
+               "a dungeoneer‘s pack",
+               "an explorer‘s pack"
+            ],
+            [
+               "10 darts"
+            ],
+            [
+               "a keg of brew",
+               "a keg of tea"
+            ]
+         ],
+         "specialCol": null,
+         "isCaster": true,
+         "progression": [
+            {
+               "level": "1",
+               "proficiency": "2",
+               "caster": "1 (1st)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "onB2GfF5CowTtYEG",
+                     "label": "WC5E.Feats.UnarmoredDefenseMonk.Label"
+                  },
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "LIM6tTwSTNKf2nhm",
+                     "label": "WC5E.Feats.MartialArts.Label"
+                  }
+               ]
+            },
+            {
+               "level": "2",
+               "proficiency": "2",
+               "caster": "2 (1st)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "at5RxuJOB2DHo1KU",
+                     "label": "WC5E.Feats.Ki.Label"
+                  },
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "T4gkKMhtCkfcTWpZ",
+                     "label": "WC5E.Feats.MonkTalent.Label"
+                  }
+               ]
+            },
+            {
+               "level": "3",
+               "proficiency": "2",
+               "caster": "3 (2nd)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "IXUQpWc3Wp2bkbyW",
+                     "label": "WC5E.Feats.MonkTradition.Label"
+                  }
+               ]
+            },
+            {
+               "level": "4",
+               "proficiency": "2",
+               "caster": "4 (2nd)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "pZ0s66jTVdto9Z3b",
+                     "label": "WC5E.Feats.AbilityScoreImprovement.Label"
+                  }
+               ]
+            },
+            {
+               "level": "5",
+               "proficiency": "3",
+               "caster": "5 (3rd)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "RHCM1SEVR8YGj71w",
+                     "label": "WC5E.Feats.ExtraAttack.Label"
+                  },
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "XkgjhmDXkMq3Sc9K",
+                     "label": "WC5E.Feats.StunningStrike.Label"
+                  }
+               ]
+            },
+            {
+               "level": "6",
+               "proficiency": "3",
+               "caster": "6 (3rd)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "IXUQpWc3Wp2bkbyW",
+                     "label": "WC5E.Feats.MonkTradition.Label"
+                  },
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "rllzAl0mdF4ZJMwK",
+                     "label": "WC5E.Feats.KiEmpoweredStrikes.Label"
+                  }
+               ]
+            },
+            {
+               "level": "7",
+               "proficiency": "3",
+               "caster": "7 (4th)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "Bz5KH5j7fDLo6YYr",
+                     "label": "WC5E.Feats.StillnessOfMind.Label"
+                  }
+               ]
+            },
+            {
+               "level": "8",
+               "proficiency": "3",
+               "caster": "8 (4th)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "pZ0s66jTVdto9Z3b",
+                     "label": "WC5E.Feats.AbilityScoreImprovement.Label"
+                  }
+               ]
+            },
+            {
+               "level": "9",
+               "proficiency": "4",
+               "caster": "9 (5th)",
+               "feats": []
+            },
+            {
+               "level": "10",
+               "proficiency": "4",
+               "caster": "10 (5th)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "0Kc2J4FNAvU0M9rZ",
+                     "label": "WC5E.Feats.PurityOfBody.Label"
+                  }
+               ]
+            },
+            {
+               "level": "11",
+               "proficiency": "4",
+               "caster": "11 (6th)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "IXUQpWc3Wp2bkbyW",
+                     "label": "WC5E.Feats.MonkTradition.Label"
+                  }
+               ]
+            },
+            {
+               "level": "12",
+               "proficiency": "4",
+               "caster": "12 (6th)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "pZ0s66jTVdto9Z3b",
+                     "label": "WC5E.Feats.AbilityScoreImprovement.Label"
+                  }
+               ]
+            },
+            {
+               "level": "13",
+               "proficiency": "5",
+               "caster": "13 (7th)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "iZzMcguzXWSwC4b8",
+                     "label": "WC5E.Feats.TongueOfTheSunAndMoon.Label"
+                  }
+               ]
+            },
+            {
+               "level": "14",
+               "proficiency": "5",
+               "caster": "14 (7th)",
+               "feats": []
+            },
+            {
+               "level": "15",
+               "proficiency": "5",
+               "caster": "15 (8th)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "60EMzrnk0RuiF2Y4",
+                     "label": "WC5E.Feats.TimelessBody.Label"
+                  }
+               ]
+            },
+            {
+               "level": "16",
+               "proficiency": "5",
+               "caster": "16 (8th)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "pZ0s66jTVdto9Z3b",
+                     "label": "WC5E.Feats.AbilityScoreImprovement.Label"
+                  }
+               ]
+            },
+            {
+               "level": "17",
+               "proficiency": "6",
+               "caster": "17 (9th)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "IXUQpWc3Wp2bkbyW",
+                     "label": "WC5E.Feats.MonkTradition.Label"
+                  }
+               ]
+            },
+            {
+               "level": "18",
+               "proficiency": "6",
+               "caster": "18 (9th)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "kIXryrIsjM41gtZz",
+                     "label": "WC5E.Feats.EmptyBody.Label"
+                  }
+               ]
+            },
+            {
+               "level": "19",
+               "proficiency": "6",
+               "caster": "19 (9th)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "pZ0s66jTVdto9Z3b",
+                     "label": "WC5E.Feats.AbilityScoreImprovement.Label"
+                  }
+               ]
+            },
+            {
+               "level": "20",
+               "proficiency": "6",
+               "caster": "20 (9th)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "tGeaOxjjZVNP9AS6",
+                     "label": "WC5E.Feats.PerfectSelf.Label"
+                  }
+               ]
+            }
+         ],
+         "archetypes": [
+            {
+               "title": "WC5E.Class.Monk.Traditions.Brewmaster.Title",
+               "description": "WC5E.Class.Monk.Traditions.Brewmaster.Description",
+               "featList": [
+                  {
+                     "level": "3",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "HREpIWCzSdX0ecB5",
+                           "label": "WC5E.Feats.BreathOfFire.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "ClAmGmm4eub8RZnv",
+                           "label": "WC5E.Feats.DrunkenStyleStance.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "6",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "tGeaOxjjZVNP9AS6",
+                           "label": "WC5E.Feats.PurifyingTouch.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "hAlSOBRs8arLXvml",
+                           "label": "WC5E.Feats.BrewmastersStagger.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "WyuwXnZAXJLubZwq",
+                           "label": "WC5E.Feats.BrewmastersSturdiness.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "11",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "jdfAAeOUVjhJ1m3u",
+                           "label": "WC5E.Feats.OxStance.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "17",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "qdwDldg8egpKa4kN",
+                           "label": "WC5E.Feats.ZenPose.Label"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "title": "WC5E.Class.Monk.Traditions.Fire.Title",
+               "description": "WC5E.Class.Monk.Traditions.Fire.Description",
+               "featList": [
+                  {
+                     "level": "2",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "PY9zd0U6iN8zmSAG",
+                           "label": "WC5E.Feats.ControlledDestruction.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "dS1lVTf8oxQrhEAa",
+                           "label": "WC5E.Feats.StudentOfFlame.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "6",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "joU6dcGOc0r4wcqy",
+                           "label": "WC5E.Feats.Scorch.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "10",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "3raIynROpzVPFI5j",
+                           "label": "WC5E.Feats.BlackFire.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "14",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "Ch4pExUv8jGYSjGx",
+                           "label": "WC5E.Feats.Pyromaniac.Label"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "title": "WC5E.Class.Monk.Traditions.Frost.Title",
+               "description": "WC5E.Class.Monk.Traditions.Frost.Description",
+               "featList": [
+                  {
+                     "level": "2",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "i7MIIGg4ucXKx6rq",
+                           "label": "WC5E.Feats.ChillingEffects.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "wCDvuUjTdfhXmc5D",
+                           "label": "WC5E.Feats.StudentOfFrost.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "6",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "Uuwlyr0o5sxbHN2H",
+                           "label": "WC5E.Feats.IceLance.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "10",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "JrSbJGFrbdkHzQjd",
+                           "label": "WC5E.Feats.WhiteIce.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "14",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "QsgvXKqyvq8YuiCh",
+                           "label": "WC5E.Feats.IceStatues.Label"
+                        }
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+   }
+}

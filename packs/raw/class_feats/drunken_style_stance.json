@@ -1,0 +1,29 @@
+{
+   "_id": "ClAmGmm4eub8RZnv",
+   "name": "Drunken Style Stance",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 82",
+      "requirements": "Monk 3 (Brewmaster)"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.Stance",
+         "description": [
+            {
+               "value": "WC5E.Feats.DrunkenStyleStance.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.DrunkenStyleStance.Description.2.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/containers/barrels/barrel-simple-damaged-green.webp",
+   "effects": [
+   ]
+}
