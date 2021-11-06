@@ -301,8 +301,8 @@ ClassFeatures.hunter = {
 ClassFeatures.mage = {
     "subclasses": {
         "arcane": {
-            "label": "Beast Master",
-            "source": "Core Rules page 67",
+            "label": "Arcane",
+            "source": "Core Rules page 74",
             "features": {
                 "2": [
                     "Compendium.warcraft5e.wc5e_class_feats.Kz94qdOAZhVicLfJ",
@@ -314,8 +314,8 @@ ClassFeatures.mage = {
             }
         },
         "fire": {
-            "label": "Marksman",
-            "source": "Core Rules page 68",
+            "label": "Fire",
+            "source": "Core Rules page 75",
             "features": {
                 "2": [
                     "Compendium.warcraft5e.wc5e_class_feats.PY9zd0U6iN8zmSAG",
@@ -327,8 +327,8 @@ ClassFeatures.mage = {
             }
         },
         "frost": {
-            "label": "Survival",
-            "source": "Core Rules page 69",
+            "label": "Frost",
+            "source": "Core Rules page 76",
             "features": {
                 "2": [
                     "Compendium.warcraft5e.wc5e_class_feats.i7MIIGg4ucXKx6rq",
@@ -356,6 +356,93 @@ ClassFeatures.mage = {
         "18": ["Compendium.warcraft5e.wc5e_class_feats.QzZQTZwjVQG0fdRv"],
         "19": ["Compendium.warcraft5e.wc5e_class_feats.pZ0s66jTVdto9Z3b"],
         "20": ["Compendium.warcraft5e.wc5e_class_feats.1wgi6bQJPMHJbymE"]
+    }
+}
+ClassFeatures.monk = {
+    "subclasses": {
+        "brewmaster": {
+            "label": "Brewmaster",
+            "source": "Core Rules page 82",
+            "features": {
+                "3": [
+                    "Compendium.warcraft5e.wc5e_class_feats.HREpIWCzSdX0ecB5",
+                    "Compendium.warcraft5e.wc5e_class_feats.ClAmGmm4eub8RZnv"
+                ],
+                "6": [
+                    "Compendium.warcraft5e.wc5e_class_feats.tGeaOxjjZVNP9AS6",
+                    "Compendium.warcraft5e.wc5e_class_feats.hAlSOBRs8arLXvml",
+                    "Compendium.warcraft5e.wc5e_class_feats.WyuwXnZAXJLubZwq"
+                ],
+                "11": ["Compendium.warcraft5e.wc5e_class_feats.jdfAAeOUVjhJ1m3u"],
+                "17": ["Compendium.warcraft5e.wc5e_class_feats.qdwDldg8egpKa4kN"]
+            }
+        },
+        "mistweaver": {
+            "label": "Mistweaver",
+            "source": "Core Rules page 84",
+            "features": {
+                "3": [
+                    "Compendium.warcraft5e.wc5e_class_feats.jdfAAeOUVjhJ1m3u",
+                    "Compendium.warcraft5e.wc5e_class_feats.oHPeTMriTPaUwPN0",
+                    "Compendium.warcraft5e.wc5e_class_feats.tMNIRBv5k9Gqlbsw"
+                ],
+                "6": [
+                    "Compendium.warcraft5e.wc5e_class_feats.zu4YXtf6wwCboEKM",
+                    "Compendium.warcraft5e.wc5e_class_feats.W1YyLCnBnHA3KdX0",
+                    "Compendium.warcraft5e.wc5e_class_feats.9wT2ExLJfcmGIaXc"
+                ],
+                "11": ["Compendium.warcraft5e.wc5e_class_feats.qUFj1O3jX1QONPeO"],
+                "17": ["Compendium.warcraft5e.wc5e_class_feats.0d7fgcywXZlymDvq"]
+            }
+        },
+        "frost": {
+            "label": "Windwalker",
+            "source": "Core Rules page 85",
+            "features": {
+                "3": [
+                    "Compendium.warcraft5e.wc5e_class_feats.zCH3QykOX0EMHTcu",
+                    "Compendium.warcraft5e.wc5e_class_feats.em3Ip3uS3H1pQy6R"
+                ],
+                "6": [
+                    "Compendium.warcraft5e.wc5e_class_feats.Hgvx8m6xTuBvEKoe",
+                    "Compendium.warcraft5e.wc5e_class_feats.CdML8DpmA8RQ4zPQ"
+                ],
+                "11": ["Compendium.warcraft5e.wc5e_class_feats.NQnoAHyBLWBnkOfi"],
+                "17": ["Compendium.warcraft5e.wc5e_class_feats.9fqPszK0DoHzxK6e"]
+            }
+        }
+    },
+    "features": {
+        "1": [
+            "Compendium.warcraft5e.wc5e_class_feats.onB2GfF5CowTtYEG",
+            "Compendium.warcraft5e.wc5e_class_feats.LIM6tTwSTNKf2nhm"
+        ],
+        "2": [
+            "Compendium.warcraft5e.wc5e_class_feats.at5RxuJOB2DHo1KU",
+            "Compendium.warcraft5e.wc5e_class_feats.T4gkKMhtCkfcTWpZ"
+        ],
+        "3": ["Compendium.warcraft5e.wc5e_class_feats.IXUQpWc3Wp2bkbyW"],
+        "4": ["Compendium.warcraft5e.wc5e_class_feats.pZ0s66jTVdto9Z3b"],
+        "5": [
+            "Compendium.warcraft5e.wc5e_class_feats.RHCM1SEVR8YGj71w",
+            "Compendium.warcraft5e.wc5e_class_feats.XkgjhmDXkMq3Sc9K"
+        ],
+        "6": [
+            "Compendium.warcraft5e.wc5e_class_feats.IXUQpWc3Wp2bkbyW",
+            "Compendium.warcraft5e.wc5e_class_feats.rllzAl0mdF4ZJMwK"
+        ],
+        "7": ["Compendium.warcraft5e.wc5e_class_feats.Bz5KH5j7fDLo6YYr"],
+        "8": ["Compendium.warcraft5e.wc5e_class_feats.pZ0s66jTVdto9Z3b"],
+        "10": ["Compendium.warcraft5e.wc5e_class_feats.0Kc2J4FNAvU0M9rZ"],
+        "11": ["Compendium.warcraft5e.wc5e_class_feats.IXUQpWc3Wp2bkbyW"],
+        "12": ["Compendium.warcraft5e.wc5e_class_feats.pZ0s66jTVdto9Z3b"],
+        "13": ["Compendium.warcraft5e.wc5e_class_feats.iZzMcguzXWSwC4b8"],
+        "15": ["Compendium.warcraft5e.wc5e_class_feats.60EMzrnk0RuiF2Y4"],
+        "16": ["Compendium.warcraft5e.wc5e_class_feats.pZ0s66jTVdto9Z3b"],
+        "17": ["Compendium.warcraft5e.wc5e_class_feats.IXUQpWc3Wp2bkbyW"],
+        "18": ["Compendium.warcraft5e.wc5e_class_feats.kIXryrIsjM41gtZz"],
+        "19": ["Compendium.warcraft5e.wc5e_class_feats.pZ0s66jTVdto9Z3b"],
+        "20": ["Compendium.warcraft5e.wc5e_class_feats.cA9AWTxYSiztfWlq"]
     }
 }
 ClassFeatures.shaman = {
