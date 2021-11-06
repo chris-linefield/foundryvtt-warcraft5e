@@ -1,0 +1,29 @@
+{
+   "_id": "WyuwXnZAXJLubZwq",
+   "name": "Brewmaster's Sturdiness",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 83",
+      "requirements": "Monk 6 (Brewmaster)"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.BrewmastersSturdiness.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.BrewmastersSturdiness.Description.2.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/creatures/abilities/bull-head-horns-glowing.webp",
+   "effects": [
+   ]
+}

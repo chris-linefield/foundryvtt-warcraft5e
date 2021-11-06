@@ -1495,6 +1495,57 @@
                }
             }
          },
+         "Monk": {
+            "Name": "Monk",
+            "Introduction": {
+               "1": "Witnessing an orc and a human locked in battle on his land, a pandaren intervenes. Expertly placing his staff between the two combatants and intercepting, he parries every one of their blows, using their own attacks against them. Without landing a single attack on his adversaries, he emerges triumphant.",
+               "2": "An ancient temple lays atop the snowy peak of a mountain, the violent winds cut away at the pandaren‘s face as she meditates. She can feel the balance of the world, the good and bad, the calm and the rage, the silence and the storm. The mists slowly curl around her paws, filling her shivering body with warmth, soothing her aching muscles and lifting her broken spirit.",
+               "3": "The wildhammer dwarf gathers power into himself, tattoos on his back shimmering. He then releases a single powerful blow that shatters a stone larger than he. He then turns to the three orcs hiding in the bushes, and smirks as they flee, leaving their weapons behind."
+            },
+            "Description": "When the pandaren were subjugated by the mogu centuries ago, it was the monks that brought hope to a seemingly dim future. Restricted from using weapons by their slave masters, these pandaren instead focused on harnessing their chi and learning weaponless combat. When the opportunity for revolution struck, they were well-trained to throw off the yoke of oppression. Dwarves and tauren are also familiar with the way of the monk, although they know it as runeweaving.",
+            "Blocks": {
+               "1": {
+                  "Title": "Masters of the Mind",
+                  "Content": {
+                     "1": "Experts of bare-handed combat, monks never rely solely on the need to have a weapon in their hands to defend against their enemies. Although most widely known to the outside world for their fearsome jabs and flying kicks, they refuse to limit themselves to a single method of combat.",
+                     "2": "Many monks prefer instead to ―soak it up‖ and seem to revel in the intoxicating effect of absorbing blow after blow while their companions press the attack. Other monks specialize in calling upon the restorative power of the mists to balance the good and bad energy within people, returning them to good health and fortune. Monks make careful study of a magical energy that most monastic traditions call chi.",
+                     "3": "This energy is an element of the magic that suffuses the multiverse—specifically, the element that flows through living bodies. Monks harness this power within themselves to create magical effects and exceed their bodies‘ physical capabilities, and some of their special attacks can hinder the flow of chi in their opponents. Using this energy, monks channel uncanny speed and strength into their unarmed strikes. As they gain experience, their martial training and their mastery of chi gives them more power over their bodies and the bodies of their foes."
+                  }
+               },
+               "2": {
+                  "Title": "Discipline and Harmony",
+                  "Content": {
+                     "1": "Monks bring a unique martial arts style to any fight, and harness an exotic form of magical energy that‘s unfamiliar to those who practice other arcane arts. They seek spiritual balance in life and in combat, and as dangerous as monks can be on the battlefield, they‘re rarely looking to pick a fight without just cause.",
+                     "2": "They view the world through a different lens, finding power through serenity and inner peace—then expressing it through artful combat techniques and powers that mend life. Perhaps most surprisingly, Monks are also adept at producing powerful brews they consume to aid them in battle.",
+                     "3": "Some monks live entirely apart from the surrounding population, secluded from anything that might impede their spiritual progress. Others are sworn to isolation, emerging only to serve as spies or assassins at the command of their leader, a noble patron, or some other mortal or divine power."
+                  }
+               },
+               "3": {
+                  "Title": "Creating a Monk",
+                  "Content": {
+                     "1": "The Monks of Azeroth usually follow Pandaren monastery tradition, ever since they were subjugated by the mogu. They usually act independently from factions, seeing the ebb and flow of right and wrong to belong with neither sides, and can be found in the most unusual of places, seeking wisdom or enlightenment.",
+                     "2": "As you make your monk character, think about your connection to the monastery where you learned your skills and spent your formative years. Were you an orphan or a child left on the monastery‘s threshold? Did your parents promise you to the monastery in gratitude for a service performed by the monks? Did you enter this secluded life to hide from a crime you committed? Or did you choose the monastic life for yourself?",
+                     "3": "Consider why you left. Did the head of your monastery choose you for a particularly important mission beyond the cloister? Perhaps you were cast out because of some violation of the community‘s rules. Did you dread leaving, or were you happy to go? Is there something you hope to accomplish outside the monastery? Are you eager to return to your home? If you are a dwarf or tauren, do you follow the old ways of rune-weaving? Why have you chosen this path over others, and how do you compare your ancient traditions with the more structured beliefs of the pandaren monks?",
+                     "4": "As a result of the structured life of a monastic community and the discipline required to harness chi, monks are almost always lawful in alignment."
+                  }
+               }
+            },
+            "QuickBuild": "You can make a monk quickly by following these suggestions. First, make Agility your highest ability score, followed by Spirit. Second, choose the hermit background.",
+            "Traditions": {
+               "Brewmaster": {
+                  "Title": "Brewmaster",
+                  "Description": "You are focused on evading blows and empowering themselves and your allies through your brews. Brewmasters make the most common of monk adventurers."
+               },
+               "Mistweaver": {
+                  "Title": "Mistweaver",
+                  "Description": "You are focused on empowering and supporting allies. Mistweavers are usually the most elusive of the monk disciplines."
+               },
+               "Windwalker": {
+                  "Title": "Windwalker",
+                  "Description": "You are focused on hand-to-hand combat and evasion of the enemy‘s blows. Windwalkers are usually the most confrontational of the monk disciplines."
+               }
+            }
+         },
          "Paladin": {
             "Name": "Paladin"
          },
@@ -2126,6 +2177,36 @@
                }
             }
          },
+         "BreathOfFire": {
+            "Label": "Breath of Fire",
+            "Description": {
+               "1": {
+                  "Value": "As an action, you can spend 1 Ki to cast the burning hands spell. This requires only verbal components. You can spend additional Ki to heighten the spell."
+               }
+            }
+         },
+         "BrewmastersStagger": {
+            "Label": "Brewmaster's Stagger",
+            "Description": {
+               "1": {
+                  "Value": "As a reaction, you may spend 2 Ki and stagger damage done to you, spreading the damage over multiple rounds. You suffer one-quarter the damage you would normally suffer. At the start of your turn in the next round, you suffer another one-quarter. This continues at the start of your turn every round until you spread the damage over a total of four rounds (suffering one-quarter every round). If you would stagger damage when at 0 hit points, you automatically fail your death saving throw. You cannot stagger damage unless you are benefitting from Unarmored Defense."
+               },
+               "2": {
+                  "Value": "Whenever you choose to stagger damage while in Drunken Style Stance, you may direct any excess healing you would benefit to the pool of staggered damage."
+               }
+            }
+         },
+         "BrewmastersSturdiness": {
+            "Label": "Brewmaster's Sturdiness",
+            "Description": {
+               "1": {
+                  "Value": "You can use your weight to enhance your blows and deflect attacks."
+               },
+               "2": {
+                  "Value": "Your AC increases by one-half your Strength modifier, and you may add 3 points of damage to all your melee attacks that are modified by Strength so long as you are above half your carrying capacity. You must benefit from Unarmored Defense to make use of this ability."
+               }
+            }
+         },
          "ByPopularDemand": {
             "Label": "By Popular Demand",
             "Description": {
@@ -2297,6 +2378,14 @@
                }
             }
          },
+         "ComboAttacks": {
+            "Label": "Combo Attacks",
+            "Description": {
+               "1": {
+                  "Value": "You score a critical hit with your weapon attacks on a 19-20. If you already possess this range, the range increases by 1 point to 18-20. When you score a critical hit, you may either use any one Ki ability with no action or Ki cost (such as flurry of blows, Rising Sun, your Superior Martial Arts abilities, or Quivering Palm once you gain it), or choose to regain 2 Ki."
+               }
+            }
+         },
          "ConduitOfSpirits": {
             "Label": "Conduit of Spirits",
             "Description": {
@@ -2313,6 +2402,17 @@
             "Description": {
                "1": {
                   "Value": "You have advantage to any tool check to maintain an innovated device, and the maximum duration increases from 5 minutes to 1 hour. You lessen the malfunction rate of innovated devices by 2 points (to a base increase of only 2 points)."
+               }
+            }
+         },
+         "ControlKi": {
+            "Label": "Control Ki",
+            "Description": {
+               "1": {
+                  "Value": "You may spend 2 Ki to cast the mute spell. Upon reaching 9th level, you may also cast dispel magic as a 3rd level spell. You may either cast them with their normal ranges, use them as strike effects, or imbue them into your brews if you have the Brewer feat. In this case, they are the only imbued effect. You can spend Ki to heighten this effect."
+               },
+               "2": {
+                  "Value": "If the target of your mute spell fails their saving throw or if your dispel magic spell successfully dispels a spell, you regain 1 Ki."
                }
             }
          },
@@ -2527,6 +2627,14 @@
                }
             }
          },
+         "DestroyMana": {
+            "Label": "Destroy Mana",
+            "Description": {
+               "1": {
+                  "Value": "As an action, you may spend 2 Ki to cast the mana burn spell. This requires touching the effect or creature that is subject to the effect, and does not require vocal components. You can choose to make this ability destroy Ki instead, in which case it removes half the mana points it would normally remove. You may treat this as a strike effect. You can spend Ki to heighten this effect."
+               }
+            }
+         },
          "DieByTheSword": {
             "Label": "Die by the Sword",
             "Description": {
@@ -2584,6 +2692,17 @@
             "Description": {
                "1": {
                   "Value": "You know druidic, the secret language of druids, fey, and spirits of the wild. You can speak the language and use it to leave hidden messages. You and others who know this language automatically spot such a message. Others spot the message‘s presence with a successful DC 15 Spirit (Perception) check but can‘t decipher it without magic. If you can speak druidic, you can communicate one-way with all other druids and fey creatures, even if you don‘t otherwise share a language. Natural beasts understand simple commands in druidic."
+               }
+            }
+         },
+         "DrunkenStyleStance": {
+            "Label": "Drunken Style Stance",
+            "Description": {
+               "1": {
+                  "Value": "You can use a bonus action to enter the drunken style stance. So long as you are in this stance, use of the Step of the Wind Ki ability does not spend Ki. Furthermore, due to your consistent drunken interventions, a target successfully  struck by one of your melee weapon attacks has have disadvantage to attack rolls to attacks that do not target you, and reduces its spell DCs and spell attack bonus by 4 points if the spell does not include you."
+               },
+               "2": {
+                  "Value": "This stance is broken if you move more than your normal speed in a single round."
                }
             }
          },
@@ -2743,6 +2862,17 @@
                }
             }
          },
+         "EmptyBody": {
+            "Label": "Empty Body",
+            "Description": {
+               "1": {
+                  "Value": "You can use your action to spend 4 ki points to become invisible for 1 minute. During that time, you also have resistance to all damage but arcane damage."
+               },
+               "2": {
+                  "Value": "Additionally, you can spend 8 ki points to cast the astral projection spell, without needing material components. When you do so, you can‘t take any other creatures with you."
+               }
+            }
+         },
          "Engineering": {
             "Label": "Engineering",
             "Description": {
@@ -2766,6 +2896,17 @@
                }
             }
          },
+         "Enlightenment": {
+            "Label": "Enlightenment",
+            "Description": {
+               "1": {
+                  "Value": "You may spend 7 Ki to cast the resurrection spell, or 4 Ki to cast the revivify spell. Once the resurrection spell is cast, you cannot cast it again until you complete a short rest, regardless if you have Ki remaining."
+               },
+               "2": {
+                  "Value": "Furthermore, your Life Cocoon ability grants 5d10 temporary hit points instead of 3d10, and a creature can benefit once per a short rest."
+               }
+            }
+         },
          "EntertainerRoutines": {
             "Label": "Entertainer Routines",
             "Description": {
@@ -2785,6 +2926,14 @@
                      "9": "Storyteller",
                      "10": "Tumbler"
                   }
+               }
+            }
+         },
+         "EnvelopingMist": {
+            "Label": "Enveloping Mist",
+            "Description": {
+               "1": {
+                  "Value": "you can spend 1 Ki to cast the rejuvenation or expeditious retreat spells as 1st level spells. These requires only verbal components. You can spend additional Ki to heighten the spells."
                }
             }
          },
@@ -3671,6 +3820,50 @@
                }
             }
          },
+         "Ki": {
+            "Label": "Ki",
+            "Description": {
+               "1": {
+                  "Value": "Your training allows you to harness the mystic energy of ki (or Chi within Pandaren circles). Your access to this energy is represented by a number of ki points. You have a number of Ki points equal to your monk level."
+               },
+               "2": {
+                  "Value": "You can spend these points to fuel various ki features. You start knowing three such features: Flurry of Blows, Patient Defense, and Step of the Wind. You learn more ki features as you gain levels in this class."
+               },
+               "3": {
+                  "Value": "When you spend a ki point, it is unavailable until you finish a short or long rest, at the end of which you draw all of your expended ki back into yourself."
+               },
+               "4": {
+                  "Value": "You must spend at least 30 minutes of the rest meditating to regain your ki points. Some of your ki features require your target to make a saving throw to resist the feature‘s effects. The saving throw DC is calculated as follows:"
+               },
+               "5": {
+                  "Value": "<i>Ki save DC</i> = 8 + your proficiency bonus + your Spirit modifier."
+               },
+               "6": {
+                  "Title": "Flurry of Blows",
+                  "Value": "Immediately after you take the Attack action on your turn, you can spend 1 ki point to make two unarmed strikes as a bonus action."
+               },
+               "7": {
+                  "Title": "Patient Defense",
+                  "Value": "You can spend 1 ki point to take the Dodge action as a bonus action on your turn."
+               },
+               "8": {
+                  "Title": "Step of the Wind",
+                  "Value": "You can spend 1 ki point to take the Disengage or Dash action as a bonus action on your turn, and your jump distance is doubled for the turn."
+               },
+               "9": {
+                  "Title": "Casting Ki Spells",
+                  "Value": "Some monk abilities allow you to cast spells. To cast one of these spells, you use its casting time and other rules, but you don‘t need to provide material components for it. You can spend additional ki points to the original value to increase the level of the spell that you cast, provided that the spell has an enhanced effect at a higher level, as burning hands does. The spell's level increases by 1 for each additional ki point you spend. For example, if you are a 5th-level Brewmaster and use Breath of Fire to cast burning hands, you can spend 2 ki points to cast it as a 2nd-level spell or 3 ki and cast it as a 3rd level spell. The maximum number of ki points you can spend to cast a spell in this way (including its base ki point cost and any additional ki points you spend to increase its level) is determined by your monk level, as shown in the Spells and Ki Points table. Your effective spellcasting ability score is Spirit."
+               }
+            }
+         },
+         "KiEmpoweredStrikes": {
+            "Label": "Ki-Empowered Strikes",
+            "Description": {
+               "1": {
+                  "Value": "Your unarmed strikes count as magical for the purpose of overcoming resistance and immunity to non-magical attacks and damage."
+               }
+            }
+         },
          "KnackForIt": {
             "Label": "Knack for It",
             "Description": {
@@ -3679,6 +3872,17 @@
                },
                "2": {
                   "Value": "Furthermore, you can choose to lower the malfunction rating of all devices you create by 2 points (minimum 1)."
+               }
+            }
+         },
+         "LifeCocoon": {
+            "Label": "Life Cocoon",
+            "Description": {
+               "1": {
+                  "Value": "You may spend 2 Ki points designate an allied creature with a cocoon of Ki as an action, which remains for 1 minute. While invigorated this way, the creature gains 3d10 temporary hit points. So long as the temporary hit points remain, the target heals 50% more hit points from healing effects."
+               },
+               "2": {
+                  "Value": "A creature cannot benefit from life cocoon more than once every 24 hours. You may use this ability on yourself while stunned or asleep, but not while incapacitated."
                }
             }
          },
@@ -3738,6 +3942,27 @@
                }
             }
          },
+         "MartialArts": {
+            "Label": "Martial Arts",
+            "Description": {
+               "1": {
+                  "Value": "Your practice of martial arts gives you mastery of combat styles that use unarmed strikes and monk weapons, which are shortswords and any simple melee weapons that don‘t have the twohanded or heavy property."
+               },
+               "2": {
+                  "Value": "You gain the following benefits while you are unarmed or wielding only monk weapons and you aren‘t wearing armor or wielding a shield:"
+               },
+               "3": {
+                  "Options": {
+                     "1": "You can use Agility instead of Strength for the attack and damage rolls of your unarmed strikes and monk weapons.",
+                     "2": "You can roll a d4 in place of the normal damage of your unarmed strike or monk weapon. This die changes as you gain monk levels, as shown in the Martial column of the Monk table. If you have a greater damage die, you may choose that instead.",
+                     "3": "When you use the Attack action with an unarmed strike or a monk weapon on your turn, you can make one unarmed strike as a bonus action. For example, if you take the Attack action and attack with a quarterstaff, you can also make an unarmed strike as a bonus action, assuming you haven't already taken a bonus action this turn."
+                  }
+               },
+               "4": {
+                  "Value": "Certain monasteries use specialized forms of the monk weapons. For example, you might use a nunchaku (club that is two lengths of wood connected by a short chain) or a kama (sickle with a shorter, straighter blade), or even a large tankard of alcohol (club). Whatever name you use for a monk weapon, you can use the game statistics provided for the weapon."
+               }
+            }
+         },
          "MasterOfArms": {
             "Label": "Master of Arms",
             "Description": {
@@ -3781,6 +4006,55 @@
             "Description": {
                "1": {
                   "Value": "You have a military rank from your career as a soldier. Soldiers loyal to your former military organization still recognize your authority and influence, and they defer to you if they are of a lower rank. You can invoke your rank to exert influence over other soldiers and requisition simple equipment or horses for temporary use. You can also usually gain access to friendly military encampments and fortresses where your rank is recognized."
+               }
+            }
+         },
+         "MistWeave": {
+            "Label": "Mist Weave",
+            "Description": {
+               "1": {
+                  "Value": "You can spend 2 Ki to cast the fog cloud and blink step spells as 2nd level spells. You can spend Ki to heighten this effect. If you use the blink step spell to end adjacent to an ally and target them with your Soothing Mist ability, you regain half the Ki you spend on the ability."
+               },
+               "2": {
+                  "Value": "Furthermore, so long as you have at least 2 Ki, you suffer only light obstruction, and never heavy obstruction from mist and fog."
+               }
+            }
+         },
+         "MistweaversEnlightenment": {
+            "Label": "Mistweaver's Enlightenment",
+            "Description": {
+               "1": {
+                  "Value": "Whenever you deal damage to a target, you are enhanced with enlightenment for until the end of your turn in the next round. You may either reduce the Ki cost of an ability you use by 1 point (minimum 1 point), or use the Soothing Mist Ki power with no expenditure of Ki. This heals as if you spent 1 Ki point only, but cannot heal a creature above its Bloodied value."
+               }
+            }
+         },
+         "MistweaversPeace": {
+            "Label": "Mistweaver's Peace",
+            "Description": {
+               "1": {
+                  "Value": "You can spend 3 Ki to cast the barrier ward spell as a 3rd level spell. Furthermore, if a creature fails to force its way through the barrier or attempts to deal damage to the barrier, it is pushed 10 feet away from the barrier. If attempting to damage the barrier, the target is pushed only if they fail a Strength saving throw against your Ki DC."
+               }
+            }
+         },
+         "MonkTalent": {
+            "Label": "Monk Talent",
+            "Description": {
+               "1": {
+                  "Value": "You gain a class talent, representing your various special abilities, either by use of Ki, natural grace in movement, or esoteric fighting techniques. See Class Talents at the end of the Chapter 3 for options."
+               },
+               "2": {
+                  "Value": "Whenever you qualify for another talent (as detailed in the talent column), you can choose another talent or gain another use of an existing talent."
+               }
+            }
+         },
+         "MonkTradition": {
+            "Label": "Monk Tradition",
+            "Description": {
+               "1": {
+                  "Value": "You commit yourself to a monk tradition: the way of the Brewmaster, who excels in mysterious drinks, the way of the Mistweaver, who heals themselves and others, or the way of the Windwalker, the adventurous and evasive combatant."
+               },
+               "2": {
+                  "Value": "All traditions are detailed at the end of the class description. Your tradition grants you features at 3rd level and again at 6th, 11th, and 17th level."
                }
             }
          },
@@ -3868,6 +4142,20 @@
                }
             }
          },
+         "OxStance": {
+            "Label": "Ox Stance",
+            "Description": {
+               "1": {
+                  "Value": "You may enter this stance as a bonus action by spending 2 Ki. While in this stance, you may add your Spirit modifier to all saving throws, and you are enhanced with greater resilience. You may stagger damage twice for no cost, and whenever you choose to stagger damage while in this stance, you suffer one less round of damage (suffering a total of three-quarters damage). Furthermore, you do not automatically fail death saving throws from triggered by staggered damage."
+               },
+               "2": {
+                  "Value": "Also, the first time you enter this stance, you gain temporary hit points equal to double your level. If you succeed on an Agility or Strength saving throw against an effect and take no damage, you may enter this stance for only 1 Ki point, as a reaction."
+               },
+               "3": {
+                  "Value": "This stance is also broken if you move more than your normal speed in a single round."
+               }
+            }
+         },
          "Patent": {
             "Label": "Patent",
             "Description": {
@@ -3879,6 +4167,14 @@
                },
                "3": {
                   "Value": "The device may malfunction condition from other circumstances or abilities. This bonus only applies to your Patent device, and does not extend to Innovated devices (even if they are of your Patented device)."
+               }
+            }
+         },
+         "PerfectSelf": {
+            "Label": "Perfect Self",
+            "Description": {
+               "1": {
+                  "Value": "When you roll for initiative and have no ki points remaining, you regain 4 ki points."
                }
             }
          },
@@ -3971,6 +4267,25 @@
                }
             }
          },
+         "PurifyingTouch": {
+            "Label": "Purifying Touch",
+            "Description": {
+               "1": {
+                  "Value": "As an action, you can spend 3 Ki and cast the dispel magic spell. This requires touching the effect or creature that is subject to the effect. You may use this as a touch or as a strike effect. You can spend additional Ki to heighten the spell. If you end a spell this way, you regain a number of Ki points equal to the dispelled spell‘s level (if dispelling multiple spells, choose only the highest-level spell). This cannot restore more Ki than double the amount spent on the ability."
+               }
+            }
+         },
+         "PurityOfBody": {
+            "Label": "Purity of Body",
+            "Description": {
+               "1": {
+                  "Value": "Your mastery of the ki flowing through you makes you immune to disease and poison."
+               },
+               "2": {
+                  "Value": "Furthermore, whenever you make a saving throw and fail, you can spend 1 ki point to reroll it and take the second result."
+               }
+            }
+         },
          "Pyromaniac": {
             "Label": "Pyromaniac",
             "Description": {
@@ -4003,6 +4318,17 @@
             "Description": {
                "1": {
                   "Value": "You may use your innovate ability on a device of equal rarity, and permanently alter the properties of the device. This device does not have to be built by you, nor does it have to be temporarily-created. This costs the same number of Crafting Points as well as the same time."
+               }
+            }
+         },
+         "QuiveringPalm": {
+            "Label": "Quivering Palm",
+            "Description": {
+               "1": {
+                  "Value": "You gain the ability to set up lethal vibrations in someone‘s body. When you hit a creature with an unarmed strike, you can use a bonus action and 3 Ki to start these imperceptible vibrations, which last for a number of days equal to your monk level. The vibrations are harmless unless you use your action to end them. To do so, you and the target must be on the same plane of existence. When you use this action, the creature must make a Stamina saving throw. If it fails, it is reduced to 0 hit points. If it succeeds, it takes 10d10 shadow damage instead. You may place these vibrations even with a harmless touch (which may require a Charisma (Deception) check contested to a Spirit (Insight) check)."
+               },
+               "2": {
+                  "Value": "You can have only one creature under the effect of this feature at a time. You can choose to end the vibrations harmlessly without using an action."
                }
             }
          },
@@ -4055,6 +4381,14 @@
                },
                "2": {
                   "Value": "You have the service of three retainers loyal to your family. These retainers can be attendants or messengers, and one might be a majordomo. Your retainers are commoners who can perform mundane tasks for you, but they do not fight for you, will not follow you into obviously dangerous areas (such as dungeons), and will leave if they are frequently endangered or abused."
+               }
+            }
+         },
+         "RisingSun": {
+            "Label": "Rising Sun",
+            "Description": {
+               "1": {
+                  "Value": "As a bonus action, you may perform an upwards kick, dealing unarmed damage and imposing an additional effect. You may also choose between dealing extra 2d6 damage, or adding 1d6 to any melee weapon attack you make against the target for the next minute. If the target succeeds on a Strength saving throw, they take half the 2d6 extra damage, or, if you chose the second option, ignore the extra damage."
                }
             }
          },
@@ -4245,6 +4579,20 @@
                }
             }
          },
+         "SoothingMist": {
+            "Label": "Soothing Mist",
+            "Description": {
+               "1": {
+                  "Value": "As an action, you may expend Ki and gain a cloud of healing mists. The creature gains 2d6 hit points for every Ki point invested. You may target a creature up to 15 feet away (or a number of creatures within 30 feet of one another), and distribute healing amongst as many creatures as you wish. If benefitting from Thunder Focus Tea, this ability heals 5 extra hit points."
+               },
+               "2": {
+                  "Value": "If you already used your action to attack a hostile creature and landed at least one successful hit on your turn in the last round, you may use this ability as a bonus action instead."
+               },
+               "3": {
+                  "Value": "You may alternatively expend hit points from your pool of healing to cure the target of one disease or neutralize one poison affecting it, with a number of hit points required equal to one-half the saving throw DC of the poison (round up). You can cure multiple diseases and neutralize multiple poisons with a single use of Soothing Mist, expending hit points separately for each one. This feature has no effect on constructs or undead."
+               }
+            }
+         },
          "SoulBurner": {
             "Label": "Soul Burner",
             "Description": {
@@ -4269,6 +4617,48 @@
                },
                "2": {
                   "Value": "If you are under the effects of the avatar form warlock spell and you choose to alter the target of the sigil spell with this ability, you may attempt a sigil roll on your original target before shifting the spell (possibly affecting two targets in the same turn)."
+               }
+            }
+         },
+         "SoulShards": {
+            "Label": "Soul Shards",
+            "Description": {
+               "1": {
+                  "Value": "You tap into a deep and mysterious magic of souls. This wellspring is represented by soul shards, which allow you to weaken your enemies or strengthen your own spells, by siphoning off a part of the opponent‘s lifeforce."
+               },
+               "2": {
+                  "Title": "Soul Shards",
+                  "Value": "Your magic can bind your opponent‘s lifeforce to your own. Whenever you deal damage by a spell, melee or ranged weapon or spell attack, or whenever a creature you summoned or bound deals damage to a creature that is not a construct, they are marked by your warlock magic until the beginning of your turn in the next round."
+               },
+               "3": {
+                  "Value": "If the creature dies or is reduced to 0 hit points while marked this way, you gain a soul shard. A creature cannot be marked by more than one warlock at a given time. Any new mark replaces the one before it, unless the previous mark was placed by a warlock of higher level."
+               },
+               "4": {
+                  "Value": "You can have a maximum number of soul shards equal to your Warlock level. Soul shards fade at a rate of 1 shard per hour (or 1 shard per short rest) if not used. The creature must be a qualifying threat to you (such as by having a Challenge comparable with your level, or if it is able to reliably or consistently harm you)."
+               },
+               "5": {
+                  "Value": "You may use soul shards for any of the following:"
+               },
+               "6": {
+                  "Options": {
+                     "1": "<i>Enhanced Conjuring</i>: You may spend one soul shard per spell level, and quicken any conjure spell of a casting time of 1 minute to cost only a 1 action. For until the beginning of your turn in the next round, your speed is 0.",
+                     "2": "<i>Enhanced Concentration</i>: When you cast a conjuration warlock spell that requires concentration, you may spend one soul shard to concentrate on the spell, instead of having to concentrate on it yourself. You cannot concentrate on more than two conjured creatures using this ability. When your concentration is threatened, you must roll to maintain both spells, however. This costs one soul shard per spell level.",
+                     "3": "<i>Soul Magic</i>: With a bonus action, you can force a living creature or an undead to take -4 to its saving throw of one of your warlock spells, or you can gain a +4 bonus to your own spell and attack rolls to such targets (including sigil rolls). This functions up to 5th level spells, and costs one soul shard per spell level. This bonus can be applied after knowing the result of the roll (whether failure or success)."
+                  }
+               }
+            }
+         },
+         "SoulVault": {
+            "Label": "Soul Vault",
+            "Description": {
+               "1": {
+                  "Value": "When you reach 20th level, you may gain two soul shards instead of one per every enemy reduced to 0 hit points as a result of your warlock spells."
+               },
+               "2": {
+                  "Value": "Also, you may stow your grimoire into the pocket realm (known as the soul vault) of your choosing by using 3 soul shards, and can draw it out using 1 soul shard. You do not need to physically possess the grimoire at that time, but must be within 100 feet of it, and spend 1 action to banish it into the realm or draw it back again."
+               },
+               "3": {
+                  "Value": "Only you can access the pocket realm, unless you choose a realm that multiple creatures can enter (in which case, you can designate the grimoire to appear at any point you previously conducted a 1- hour ritual to attune the book to the place)."
                }
             }
          },
@@ -4601,45 +4991,11 @@
                }
             }
          },
-         "SoulShards": {
-            "Label": "Soul Shards",
+         "StillnessOfMind": {
+            "Label": "Stillness of Mind",
             "Description": {
                "1": {
-                  "Value": "You tap into a deep and mysterious magic of souls. This wellspring is represented by soul shards, which allow you to weaken your enemies or strengthen your own spells, by siphoning off a part of the opponent‘s lifeforce."
-               },
-               "2": {
-                  "Title": "Soul Shards",
-                  "Value": "Your magic can bind your opponent‘s lifeforce to your own. Whenever you deal damage by a spell, melee or ranged weapon or spell attack, or whenever a creature you summoned or bound deals damage to a creature that is not a construct, they are marked by your warlock magic until the beginning of your turn in the next round."
-               },
-               "3": {
-                  "Value": "If the creature dies or is reduced to 0 hit points while marked this way, you gain a soul shard. A creature cannot be marked by more than one warlock at a given time. Any new mark replaces the one before it, unless the previous mark was placed by a warlock of higher level."
-               },
-               "4": {
-                  "Value": "You can have a maximum number of soul shards equal to your Warlock level. Soul shards fade at a rate of 1 shard per hour (or 1 shard per short rest) if not used. The creature must be a qualifying threat to you (such as by having a Challenge comparable with your level, or if it is able to reliably or consistently harm you)."
-               },
-               "5": {
-                  "Value": "You may use soul shards for any of the following:"
-               },
-               "6": {
-                  "Options": {
-                     "1": "<i>Enhanced Conjuring</i>: You may spend one soul shard per spell level, and quicken any conjure spell of a casting time of 1 minute to cost only a 1 action. For until the beginning of your turn in the next round, your speed is 0.",
-                     "2": "<i>Enhanced Concentration</i>: When you cast a conjuration warlock spell that requires concentration, you may spend one soul shard to concentrate on the spell, instead of having to concentrate on it yourself. You cannot concentrate on more than two conjured creatures using this ability. When your concentration is threatened, you must roll to maintain both spells, however. This costs one soul shard per spell level.",
-                     "3": "<i>Soul Magic</i>: With a bonus action, you can force a living creature or an undead to take -4 to its saving throw of one of your warlock spells, or you can gain a +4 bonus to your own spell and attack rolls to such targets (including sigil rolls). This functions up to 5th level spells, and costs one soul shard per spell level. This bonus can be applied after knowing the result of the roll (whether failure or success)."
-                  }
-               }
-            }
-         },
-         "SoulVault": {
-            "Label": "Soul Vault",
-            "Description": {
-               "1": {
-                  "Value": "When you reach 20th level, you may gain two soul shards instead of one per every enemy reduced to 0 hit points as a result of your warlock spells."
-               },
-               "2": {
-                  "Value": "Also, you may stow your grimoire into the pocket realm (known as the soul vault) of your choosing by using 3 soul shards, and can draw it out using 1 soul shard. You do not need to physically possess the grimoire at that time, but must be within 100 feet of it, and spend 1 action to banish it into the realm or draw it back again."
-               },
-               "3": {
-                  "Value": "Only you can access the pocket realm, unless you choose a realm that multiple creatures can enter (in which case, you can designate the grimoire to appear at any point you previously conducted a 1- hour ritual to attune the book to the place)."
+                  "Value": "You can use your action to end one effect on yourself that is causing you to be charmed or frightened."
                }
             }
          },
@@ -4667,6 +5023,14 @@
             "Description": {
                "1": {
                   "Value": "You may scribe evocation spells with other energy types as cold spells in your spellbook. The spells act the same way, unless the DM rules it is unreasonable (such as a burning effect on a cold spell). You also gain resistance to cold damage."
+               }
+            }
+         },
+         "StunningStrike": {
+            "Label": "Stunning Strike",
+            "Description": {
+               "1": {
+                  "Value": "You can interfere with the flow of ki in an opponent‘s body. When you hit another creature with a melee weapon attack, you can spend 1 ki point to attempt a stunning strike. The target must succeed on a Stamina saving throw or be stunned until the end of your next turn. Despite the name, this is not a strike effect."
                }
             }
          },
@@ -4708,6 +5072,17 @@
                   "Value": "<i>Note</i>: Since your Patent device cannot malfunction, it can only Superfunction at a natural 20 use."
                }
             }
+         },
+         "SuperiorMartialArts": {
+            "Label": "Superior Martial Arts",
+            "Description": {
+               "1": {
+                  "Value": "You may spend 2 Ki and deal a single unarmed attack roll as an area of effect (expending any number of attacks). You may choose to make it a 5-footburst around you (Hurricane Kick), a 10-foot cone (Fists of Fury), or a 15-foot line (Flying Serpent Kick). You may move within the specified area of effect without provoking reactions from the creatures in the area of effect (such as kicking through a line of enemies and landing behind them with a Flying Serpent Kick, or shifting 5 feet to the right after a Hurricane Kick, or moving 10 feet to one side after a Fists of Fury). Creatures affected can attempt an Agility saving throw against your Ki DC to half the damage."
+               },
+               "2": {
+                  "Value": "This action counts as if you made a single unarmed attack for the purposes of your Martial Arts feature and Flurry of Blows ability."
+               }
+           }
          },
          "SuperMutant": {
             "Label": "Super Mutant",
@@ -4753,6 +5128,14 @@
                }
             }
          },
+         "TimelessBody": {
+            "Label": "Timeless Body",
+            "Description": {
+               "1": {
+                  "Value": "Your ki sustains you so that you suffer none of the frailty of old age, and you can't be aged magically. You can still die of old age, however. In addition, you no longer need food or water."
+               }
+            }
+         },
          "TinkerPath": {
             "Label": "Tinker Path",
             "Description": {
@@ -4761,6 +5144,14 @@
                },
                "2": {
                   "Value": "Your path choice grants you features at 3rd level and then again at 6th, 10th, and 14th levels."
+               }
+            }
+         },
+         "TongueOfTheSunAndMoon": {
+            "Label": "Tongue of the Sun and Moon",
+            "Description": {
+               "1": {
+                  "Value": "You learn to touch the ki of other minds so that you understand all spoken languages. Moreover, any creature that can understand a language can understand what you say."
                }
             }
          },
@@ -4791,6 +5182,14 @@
             "Description": {
                "1": {
                   "Value": "While you are not wearing any armor, your Armor Class equals 10 + your Agility modifier + your Stamina modifier. You can use a shield and still gain this benefit."
+               }
+            }
+         },
+         "UnarmoredDefenseMonk": {
+            "Label": "Unarmored Defense",
+            "Description": {
+               "1": {
+                  "Value": "While you are wearing no armor and not wielding a shield, your AC equals 10 + your Agility modifier + your Spirit modifier."
                }
             }
          },
@@ -4956,6 +5355,14 @@
                }
             }
          },
+         "WindwalkerGrace": {
+            "Label": "Windwalker Grace",
+            "Description": {
+               "1": {
+                  "Value": "Whenever you deal damage to a target, you can use your Step of the Wind Ki ability without spending a Ki point."
+               }
+            }
+         },
          "WildShape": {
             "Label": "Wild Shape",
             "Description": {
@@ -5022,6 +5429,14 @@
                },
                "3": {
                   "Value": "<i>Lunar Eclipse (Night only)</i>: The moon‘s light is bright and cloaked in the shadow which blankets the earth in a 5-mile radius centered on the druid for one hour. The area becomes either dim or normal light (your choice), and creatures sensitive to moonlight or sunlight take penalties (depending on your wish) when in the area. All your druid spells that deal holy damage do so as if your Eclipse pool is full. You also gain one Eclipse Point per minute."
+               }
+            }
+         },
+         "ZenPose": {
+            "Label": "Zen Pose",
+            "Description": {
+               "1": {
+                  "Value": "Your Ox Stance is enhanced into Zen Pose. So long as you do not take damage from an attack and do not fail a saving throw, your enemies have disadvantage to attack rolls against you, and you have advantage to all saving throws. Whenever both rolls (from advantage or disadvantage) are resolved to your benefit while in the pose (such as an attack failing once normally and again due to disadvantage), you regain 1 Ki point."
                }
             }
          }

@@ -1,0 +1,29 @@
+{
+   "_id": "T4gkKMhtCkfcTWpZ",
+   "name": "Monk Talent",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 81",
+      "requirements": "Monk 2"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.MonkTalent.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.MonkTalent.Description.2.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/skills/melee/unarmed-punch-fist-yellow-red.webp",
+   "effects": [
+   ]
+}

@@ -1,0 +1,29 @@
+{
+   "_id": "zu4YXtf6wwCboEKM",
+   "name": "Control Ki",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 84",
+      "requirements": "Monk (Mistweaver) 6"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.ControlKi.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.ControlKi.Description.2.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/control/fear-fright-white.webp",
+   "effects": [
+   ]
+}

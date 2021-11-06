@@ -12,6 +12,10 @@ import { }       from "./config_class_features.js";
     "thi"  : "WC5E.ThievesTools"
 };*/
 
+DND5E.abilities.dex = "WC5E.Character.Agility";
+DND5E.abilities.con = "WC5E.Character.Stamina";
+DND5E.abilities.wis = "WC5E.Character.Spirit";
+
 DND5E.languages = {
     "common"    : "WC5E.Languages.Common",
     "dwarven"   : "WC5E.Languages.Dwarven",

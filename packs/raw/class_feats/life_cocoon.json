@@ -1,0 +1,29 @@
+{
+   "_id": "qUFj1O3jX1QONPeO",
+   "name": "Life Cocoon",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 85",
+      "requirements": "Monk (Mistweaver) 11"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.LifeCocoon.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.LifeCocoon.Description.2.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/life/heart-area-circle-red-green.webp",
+   "effects": [
+   ]
+}
