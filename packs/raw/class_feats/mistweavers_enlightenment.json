@@ -1,0 +1,26 @@
+{
+   "_id": "tMNIRBv5k9Gqlbsw",
+   "name": "Mistweaver's Enlightenment",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 84",
+      "requirements": "Monk (Mistweaver) 3"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.MistweaversEnlightenment.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/control/silhouette-hold-beam-blue.webp",
+   "effects": [
+   ]
+}

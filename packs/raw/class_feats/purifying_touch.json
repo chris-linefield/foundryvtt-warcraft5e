@@ -1,0 +1,26 @@
+{
+   "_id": "tGeaOxjjZVNP9AS6",
+   "name": "Purifying Touch",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 83",
+      "requirements": "Monk 6 (Brewmaster)"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.Strike",
+         "description": [
+            {
+               "value": "WC5E.Feats.PurifyingTouch.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/holy/prayer-hands-glowing-yellow.webp",
+   "effects": [
+   ]
+}

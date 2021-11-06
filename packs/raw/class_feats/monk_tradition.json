@@ -1,0 +1,29 @@
+{
+   "_id": "IXUQpWc3Wp2bkbyW",
+   "name": "Monk Tradition",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 81",
+      "requirements": "Monk 3"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.MonkTradition.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.MonkTradition.Description.2.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/sundries/books/book-worn-blue.webp",
+   "effects": [
+   ]
+}

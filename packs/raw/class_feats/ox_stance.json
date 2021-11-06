@@ -1,0 +1,32 @@
+{
+   "_id": "jdfAAeOUVjhJ1m3u",
+   "name": "Ox Stance",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 83",
+      "requirements": "Monk (Brewmaster) 11"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.Stance",
+         "description": [
+            {
+               "value": "WC5E.Feats.OxStance.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.OxStance.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Feats.OxStance.Description.3.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/creatures/mammals/bull-horns-eyes-glowin-orange.webp",
+   "effects": [
+   ]
+}

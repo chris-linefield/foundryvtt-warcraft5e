@@ -1,0 +1,29 @@
+{
+   "_id": "W1YyLCnBnHA3KdX0",
+   "name": "Mist Weave",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 84",
+      "requirements": "Monk (Mistweaver) 6"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.MistWeave.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.MistWeave.Description.2.Value"
+            }
+         ]
+      }
+   },
+   "img": "systems/dnd5e/icons/spells/fog-blue-2.jpg",
+   "effects": [
+   ]
+}
