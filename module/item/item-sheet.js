@@ -21,6 +21,9 @@ export class WcItemSheet extends ItemSheet5e {
         else if(wcType === 'feat' || wcType === "talent") {
             this.options.height = this.position.height = null;
         }
+        else if(wcType === 'rule' || wcType === "talent") {
+            this.options.width = this.position.width =  850;
+        }
     }
 
     get template() {

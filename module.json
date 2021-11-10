@@ -82,6 +82,14 @@
          "package": "warcraft5e"
       },
       {
+         "name": "wc5e_rules",
+         "label": "Wc5e | Rules",
+         "path": "./packs/rules.db",
+         "entity": "Item",
+         "system": "dnd5e",
+         "package": "warcraft5e"
+      },
+      {
          "name": "wc5e_spells",
          "label": "Wc5e | Spells",
          "path": "./packs/spells.db",

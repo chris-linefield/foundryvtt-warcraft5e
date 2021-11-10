@@ -1,0 +1,123 @@
+{
+   "_id": "8FMb36eUyacdaVnm",
+   "name": "Beyond 1st Level",
+   "permission": {
+      "default": 0
+   },
+   "type": "rule",
+   "data": {
+      "title": "WC5E.Rules.Mechanics.Beyond1stLevel.Label",
+      "content": "WC5E.Rules.Mechanics.Beyond1stLevel.Content",
+      "table": {
+         "class": "diagonal b1stlevel",
+         "heads": [
+            "WC5E.Character.Level",
+            "",
+            "WC5E.Rules.Mechanics.Beyond1stLevel.TypicalWealth",
+            "WC5E.Character.Level",
+            "",
+            "WC5E.Rules.Mechanics.Beyond1stLevel.TypicalWealth"
+         ],
+         "rows": [
+            [
+               "1",
+               "0",
+               "WC5E.UI.Units.Gp",
+               "11",
+               "24100",
+               "WC5E.UI.Units.Gp"
+            ],
+            [
+               "2",
+               "140",
+               "WC5E.UI.Units.Gp",
+               "12",
+               "42400",
+               "WC5E.UI.Units.Gp"
+            ],
+            [
+               "3",
+               "280",
+               "WC5E.UI.Units.Gp",
+               "13",
+               "60700",
+               "WC5E.UI.Units.Gp"
+            ],
+            [
+               "4",
+               "420",
+               "WC5E.UI.Units.Gp",
+               "14",
+               "79000",
+               "WC5E.UI.Units.Gp"
+            ],
+            [
+               "5",
+               "560",
+               "WC5E.UI.Units.Gp",
+               "15",
+               "97300",
+               "WC5E.UI.Units.Gp"
+            ],
+            [
+               "6",
+               "4500",
+               "WC5E.UI.Units.Gp",
+               "16",
+               "116000",
+               "WC5E.UI.Units.Gp"
+            ],
+            [
+               "7",
+               "8400",
+               "WC5E.UI.Units.Gp",
+               "17",
+               "134000",
+               "WC5E.UI.Units.Gp"
+            ],
+            [
+               "8",
+               "12300",
+               "WC5E.UI.Units.Gp",
+               "18",
+               "362000",
+               "WC5E.UI.Units.Gp"
+            ],
+            [
+               "9",
+               "16200",
+               "WC5E.UI.Units.Gp",
+               "19",
+               "590000",
+               "WC5E.UI.Units.Gp"
+            ],
+            [
+               "10",
+               "20100",
+               "WC5E.UI.Units.Gp",
+               "20",
+               "818000",
+               "WC5E.UI.Units.Gp"
+            ]
+         ]
+      },
+      "blocks2": [
+         {
+            "title": "WC5E.Rules.Mechanics.Beyond1stLevel.Blocks.1.Label",
+            "content": "WC5E.Rules.Mechanics.Beyond1stLevel.Blocks.1.Content"
+         },
+         {
+            "title": "WC5E.Rules.Mechanics.Beyond1stLevel.Blocks.2.Label",
+            "content": "WC5E.Rules.Mechanics.Beyond1stLevel.Blocks.2.Content"
+         }
+      ],
+      "prev": {
+         "pack": "rules",
+         "node": "wuIUIyFlx05iZIwR",
+         "label": "WC5E.Rules.Mechanics.DeterminingAbilityScores.Label"
+      }
+   },
+   "flags": {},
+   "img": "modules/warcraft5e/res/pics/items/inventory/scroll-blank.jpg",
+   "effects": []
+}
