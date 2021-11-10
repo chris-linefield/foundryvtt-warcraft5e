@@ -5669,6 +5669,9 @@
                   },
                   "6": {
                      "Value": "Measures: Confidence, eloquence, leadership<br>Important for: Warlock"
+                  },
+                  "7": {
+                     "Headline": "Racial Increases"
                   }
                }
             },
@@ -5676,19 +5679,22 @@
                "Label": "Determining Ability Scores",
                "Description": {
                   "1": {
+                     "Value": "When determining your ability scores (also known as attributes), there are two new methods to create them; the focused method, and the heroic method. Both yield higher attributes on average, suitable for the many challenges in the Warcraft universe."
+                  },
+                  "2": {
                      "Title": "Focus and Foible",
                      "Value": "This method leads to more focused characters with clearer weaknesses."
                   },
-                  "2": {
+                  "3": {
                      "Value": "Before applying modifiers, choose a one focus (an ability score you‘re good at) and one foible (an ability score you‘re bad at)."
                   },
-                  "3": {
+                  "4": {
                      "Value": "<i>Focus</i>: Mark this attribute as 18<br><i>Foible</i>: Mark this attribute as 8"
                   },
-                  "4": {
+                  "5": {
                      "Value": "Set your remaining attributes at 10, and distribute 16 points among the ability scores in any way you desire. You may reduce an existing attribute by up to 2 points to gain 2 points to add to another attribute."
                   },
-                  "5": {
+                  "6": {
                      "Title": "Heroic Roll",
                      "Value": "This method leads to generally stronger characters than by normal rolling. For each ability score, roll 2d6 + 6."
                   }
@@ -5696,15 +5702,38 @@
             },
             "Beyond1stLevel": {
                "Label": "Beyond 1st Level",
-               "Content": "<p>The rules in the World of Warcraft 5e RPG also include crafting sub-systems and classes (such as the Alchemist and Tinker), and various options (such as the <a class=\"entity-link inline\" data-pack=\"warcraft5e.feats\" data-id=\"enBseIfaasp0D7xv\">Infusionist</a> feat) that can translate wealth into character power. When creating a character from above 1st level, refer to the following guidelines for expected wealth for level to give a general idea how to keep characters on the same general level of wealth. Refer to the Item Creation Complexity and Cost Table on Chapter 7 to calculate item rarity. Note that crafting an item costs onehalf the cost of buying it.</p><p>The amount of wealth carried by a character can vary significantly depending on starting resources, unexpected loot gained in the campaign, whether or not characters have downtime to gather additional wealth, inherited gold, or even  ossessing companies and strongholds under their control.</p>",
-               "Blocks": {
+               "Description": {
                   "1": {
-                     "Label": "Magical Item Budget",
-                     "Content": "A DM may refer to the above chart to determine the total worth of magic items the characters have, without actually explicit magic items to be sold. In this case, the wealth is not the expected wealth of the character, but the cost of the magic items the player should have by the appropriate level. This can come in the form of quest gifts, a normal item improving into a magical one, or a permanent blessing or infusion upon a held item. The expected cost of magic items relative to rarity is present in Chapter 7."
+                     "Value": "The rules in the World of Warcraft 5e RPG also include crafting sub-systems and classes (such as the Alchemist and Tinker), and various options (such as the Infusionist feat) that can translate wealth into character power."
                   },
                   "2": {
-                     "Label": "Expected Downtime",
-                     "Content": "In case of crafting classes (Alchemist and Tinker), or in cases where characters can create magical items (taking the Infusionist feat), a good amount of downtime to allow the classes to function at a competitive rate is usually 5 days to 1 week between adventures (or the same time for every 3-5 combat encounters). That way, very complex projects (2 weeks) like building a mecha or vehicle can be done every two adventures. With such options available, players benefit more from wealth and time to build the exact items they need, from scrolls, potions, explosives, and more spells in a mage's spellbook, to advanced constructs and vehicles such as gyrocopters, so exercising judgment is key."
+                     "Value": "When creating a character from above 1st level, refer to the following guidelines for expected wealth for level to give a general idea how to keep characters on the same general level of wealth."
+                  },
+                  "3": {
+                     "Value": "Refer to the Item Creation Complexity and Cost Table on Chapter 7 to calculate item rarity. Note that crafting an item costs one half the cost of buying it."
+                  },
+                  "4": {
+                     "Value": "The amount of wealth carried by a character can vary significantly depending on starting resources, unexpected loot gained in the campaign, whether or not characters have downtime to gather additional wealth, inherited gold, or even possessing companies and strongholds under their control."
+                  },
+                  "5": {
+                     "Title": "Magical Item Budget",
+                     "Value": "The amount of wealth carried by a character can vary significantly depending on starting resources, unexpected loot gained in the campaign, whether or not characters have downtime to gather additional wealth, inherited gold, or even possessing companies and strongholds under their control."
+                  },
+                  "6": {
+                     "Value": "In this case, the wealth is not the expected wealth of the character, but the cost of the magic items the player should have by the appropriate level. This can come in the form of quest gifts, a normal item improving into a magical one, or a permanent blessing or infusion upon a held item."
+                  },
+                  "7": {
+                     "Value": "The expected cost of magic items relative to rarity is present in Chapter 7."
+                  },
+                  "8": {
+                     "Title": "Expected Downtime",
+                     "Value": "In case of crafting classes (Alchemist and Tinker), or in cases where characters can create magical items (taking the Infusionist feat), a good amount of downtime to allow the classes to function at a competitive rate is usually 5 days to 1 week between adventures (or the same time for every 3-5 combat encounters)."
+                  },
+                  "9": {
+                     "Value": "That way, very complex projects (2 weeks) like building a mecha or vehicle can be done every two adventures."
+                  },
+                  "10": {
+                     "Value": "With such options available, players benefit more from wealth and time to build the exact items they need, from scrolls, potions, explosives, and more spells in a mage's spellbook, to advanced constructs and vehicles such as gyrocopters, so exercising judgment is key."
                   }
                },
                "TypicalWealth": "Typical Wealth"

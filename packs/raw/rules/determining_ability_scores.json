@@ -11,10 +11,10 @@
          "title": "WC5E.Rules.Mechanics.DeterminingAbilityScores.Label",
          "content": [
             {
-               "title": "WC5E.Rules.Mechanics.DeterminingAbilityScores.Description.1.Title",
                "value": "WC5E.Rules.Mechanics.DeterminingAbilityScores.Description.1.Value"
             },
             {
+               "title": "WC5E.Rules.Mechanics.DeterminingAbilityScores.Description.2.Title",
                "value": "WC5E.Rules.Mechanics.DeterminingAbilityScores.Description.2.Value"
             },
             {
@@ -24,8 +24,11 @@
                "value": "WC5E.Rules.Mechanics.DeterminingAbilityScores.Description.4.Value"
             },
             {
-               "title": "WC5E.Rules.Mechanics.DeterminingAbilityScores.Description.5.Title",
                "value": "WC5E.Rules.Mechanics.DeterminingAbilityScores.Description.5.Value"
+            },
+            {
+               "title": "WC5E.Rules.Mechanics.DeterminingAbilityScores.Description.6.Title",
+               "value": "WC5E.Rules.Mechanics.DeterminingAbilityScores.Description.6.Value"
             }
          ],
          "prev": {

@@ -425,14 +425,3 @@
 .warcraft5e .nextlink {
     text-align: right;
 }
-
-.warcraft5e .b1stlevel td:nth-of-type(6n-5),
-.warcraft5e .b1stlevel td:nth-of-type(6n-2) {
-    text-align: center;
-}
-
-.warcraft5e .b1stlevel td:nth-of-type(6n-4),
-.warcraft5e .b1stlevel td:nth-of-type(6n-1) {
-    text-align: right;
-    padding-right: 5px;
-}
