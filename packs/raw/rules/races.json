@@ -1,0 +1,588 @@
+{
+   "_id": "fgQQsGoUZbTvFU3D",
+   "name": "Races",
+   "permission": {
+      "default": 0
+   },
+   "type": "class",
+   "flags": {
+      "wc5e": {
+         "type": "rule",
+         "title": "WC5E.Rules.Mechanics.AbilityScoreSummary.Label",
+         "content": [
+            {
+               "title": "WC5E.Character.Strength",
+               "value": "WC5E.Rules.Mechanics.AbilityScoreSummary.Description.1.Value"
+            },
+            {
+               "title": "WC5E.Character.Agility",
+               "value": "WC5E.Rules.Mechanics.AbilityScoreSummary.Description.2.Value"
+            },
+            {
+               "title": "WC5E.Character.Stamina",
+               "value": "WC5E.Rules.Mechanics.AbilityScoreSummary.Description.3.Value"
+            },
+            {
+               "title": "WC5E.Character.Intelligence",
+               "value": "WC5E.Rules.Mechanics.AbilityScoreSummary.Description.4.Value"
+            },
+            {
+               "title": "WC5E.Character.Spirit",
+               "value": "WC5E.Rules.Mechanics.AbilityScoreSummary.Description.5.Value"
+            },
+            {
+               "title": "WC5E.Character.Charisma",
+               "value": "WC5E.Rules.Mechanics.AbilityScoreSummary.Description.6.Value"
+            },
+            {
+               "headline": "WC5E.Rules.Mechanics.AbilityScoreSummary.Description.7.Headline"
+            },
+            {
+               "table": {
+                  "class": "diagonal",
+                  "head": [
+                     {
+                        "title": ""
+                     },
+                     {
+                        "wrap": true,
+                        "title": "WC5E.Character.Strength",
+                        "class": "numberCol"
+                     },
+                     {
+                        "wrap": true,
+                        "title": "WC5E.Character.Agility",
+                        "class": "numberCol"
+                     },
+                     {
+                        "wrap": true,
+                        "title": "WC5E.Character.Stamina",
+                        "class": "numberCol"
+                     },
+                     {
+                        "wrap": true,
+                        "title": "WC5E.Character.Intelligence",
+                        "class": "numberCol"
+                     },
+                     {
+                        "wrap": true,
+                        "title": "WC5E.Character.Spirit",
+                        "class": "numberCol"
+                     },
+                     {
+                        "wrap": true,
+                        "title": "WC5E.Character.Charisma",
+                        "class": "numberCol"
+                     }
+                  ],
+                  "rows": [
+                     [
+                        {
+                           "text": "WC5E.Race.Draenei.Name"
+                        },
+                        {
+                           "plus": true,
+                           "value": 2
+                        },
+                        {
+                           "value": null
+                        },
+                        {
+                           "value": null
+                        },
+                        {
+                           "value": null
+                        },
+                        {
+                           "plus": true,
+                           "value": 1
+                        },
+                        {
+                           "value": null
+                        }
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Race.Dwarf.Subraces.Bronzebeard.Name"
+                        },
+                        {
+                           "plus": true,
+                           "value": 1
+                        },
+                        {
+                           "value": null
+                        },
+                        {
+                           "plus": true,
+                           "value": 2
+                        },
+                        {
+                           "value": null
+                        },
+                        {
+                           "value": null
+                        },
+                        {
+                           "value": null
+                        }
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Race.Dwarf.Subraces.Wildhammer.Name"
+                        },
+                        {
+                           "value": null
+                        },
+                        {
+                           "value": null
+                        },
+                        {
+                           "plus": true,
+                           "value": 2
+                        },
+                        {
+                           "value": null
+                        },
+                        {
+                           "plus": true,
+                           "value": 1
+                        },
+                        {
+                           "value": null
+                        }
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Race.Dwarf.Subraces.DarkIron.Name"
+                        },
+                        {
+                           "value": null
+                        },
+                        {
+                           "value": null
+                        },
+                        {
+                           "plus": true,
+                           "value": 2
+                        },
+                        {
+                           "plus": true,
+                           "value": 1
+                        },
+                        {
+                           "value": null
+                        },
+                        {
+                           "value": null
+                        }
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Race.Elf.Subraces.HighElf.Name"
+                        },
+                        {
+                           "value": null
+                        },
+                        {
+                           "plus": true,
+                           "value": 2
+                        },
+                        {
+                           "value": null
+                        },
+                        {
+                           "plus": true,
+                           "value": 1
+                        },
+                        {
+                           "value": null
+                        },
+                        {
+                           "value": null
+                        }
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Race.Elf.Subraces.BloodElf.Name"
+                        },
+                        {
+                           "value": null
+                        },
+                        {
+                           "plus": true,
+                           "value": 2
+                        },
+                        {
+                           "value": null
+                        },
+                        {
+                           "plus": true,
+                           "value": 1
+                        },
+                        {
+                           "value": null
+                        },
+                        {
+                           "value": null
+                        }
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Race.Elf.Subraces.NightElf.Name"
+                        },
+                        {
+                           "value": null
+                        },
+                        {
+                           "plus": true,
+                           "value": 2
+                        },
+                        {
+                           "value": null
+                        },
+                        {
+                           "value": null
+                        },
+                        {
+                           "plus": true,
+                           "value": 1
+                        },
+                        {
+                           "value": null
+                        }
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Race.Elf.Subraces.Nightborne.Name"
+                        },
+                        {
+                           "value": null
+                        },
+                        {
+                           "plus": true,
+                           "value": 2
+                        },
+                        {
+                           "value": null
+                        },
+                        {
+                           "plus": true,
+                           "value": 1
+                        },
+                        {
+                           "value": null
+                        },
+                        {
+                           "value": null
+                        }
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Race.Elf.Subraces.VoidElf.Name"
+                        },
+                        {
+                           "value": null
+                        },
+                        {
+                           "plus": true,
+                           "value": 2
+                        },
+                        {
+                           "value": null
+                        },
+                        {
+                           "plus": true,
+                           "value": 1
+                        },
+                        {
+                           "value": null
+                        },
+                        {
+                           "plus": true,
+                           "value": 1
+                        }
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Race.Human.Name"
+                        },
+                        {
+                           "text": "(+1)"
+                        },
+                        {
+                           "text": "(+1)"
+                        },
+                        {
+                           "text": "(+1)"
+                        },
+                        {
+                           "text": "(+1)"
+                        },
+                        {
+                           "text": "(+1)"
+                        },
+                        {
+                           "text": "(+1)"
+                        }
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Race.Forsaken.Name"
+                        },
+                        {
+                           "text": "(+1)"
+                        },
+                        {
+                           "text": "(+1)"
+                        },
+                        {
+                           "text": "(+1)"
+                        },
+                        {
+                           "text": "(+1)"
+                        },
+                        {
+                           "text": "(+1)"
+                        },
+                        {
+                           "text": "(+1)"
+                        }
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Race.Gnome.Name"
+                        },
+                        {
+                           "value": null
+                        },
+                        {
+                           "value": null
+                        },
+                        {
+                           "plus": true,
+                           "value": 1
+                        },
+                        {
+                           "plus": true,
+                           "value": 2
+                        },
+                        {
+                           "value": null
+                        },
+                        {
+                           "value": null
+                        }
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Race.Goblin.Name"
+                        },
+                        {
+                           "value": null
+                        },
+                        {
+                           "value": null
+                        },
+                        {
+                           "value": null
+                        },
+                        {
+                           "plus": true,
+                           "value": 2
+                        },
+                        {
+                           "value": null
+                        },
+                        {
+                           "plus": true,
+                           "value": 1
+                        }
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Race.Orc.Name"
+                        },
+                        {
+                           "plus": true,
+                           "value": 2
+                        },
+                        {
+                           "text": "(+1)"
+                        },
+                        {
+                           "plus": true,
+                           "value": 1
+                        },
+                        {
+                           "text": "(+1)"
+                        },
+                        {
+                           "text": "(+1)"
+                        },
+                        {
+                           "text": "(+1)"
+                        }
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Race.Pandaren.Name"
+                        },
+                        {
+                           "value": null
+                        },
+                        {
+                           "value": null
+                        },
+                        {
+                           "plus": true,
+                           "value": 2
+                        },
+                        {
+                           "value": null
+                        },
+                        {
+                           "plus": true,
+                           "value": 1
+                        },
+                        {
+                           "value": null
+                        }
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Race.Tauren.Name"
+                        },
+                        {
+                           "plus": true,
+                           "value": 2
+                        },
+                        {
+                           "value": null
+                        },
+                        {
+                           "plus": true,
+                           "value": 1
+                        },
+                        {
+                           "value": null
+                        },
+                        {
+                           "plus": true,
+                           "value": 1
+                        },
+                        {
+                           "value": null
+                        }
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Race.Troll.Subrace.JungleTroll.Name"
+                        },
+                        {
+                           "text": "(+1)"
+                        },
+                        {
+                           "plus": true,
+                           "value": 2
+                        },
+                        {
+                           "plus": true,
+                           "value": 1
+                        },
+                        {
+                           "text": "(+1)"
+                        },
+                        {
+                           "text": "(+1)"
+                        },
+                        {
+                           "text": "(+1)"
+                        }
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Race.Troll.Subraces.IceTroll.Name"
+                        },
+                        {
+                           "text": "(+2)"
+                        },
+                        {
+                           "plus": true,
+                           "value": 1
+                        },
+                        {
+                           "plus": true,
+                           "value": 2
+                        },
+                        {
+                           "text": "(+1)"
+                        },
+                        {
+                           "text": "(+1)"
+                        },
+                        {
+                           "text": "(+1)"
+                        }
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Race.Troll.Subraces.SandTroll.Name"
+                        },
+                        {
+                           "text": "(+1)"
+                        },
+                        {
+                           "plus": true,
+                           "value": 2
+                        },
+                        {
+                           "plus": true,
+                           "value": 2
+                        },
+                        {
+                           "text": "(+1)"
+                        },
+                        {
+                           "text": "(+1)"
+                        },
+                        {
+                           "text": "(+1)"
+                        }
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Race.Worgen.Name"
+                        },
+                        {
+                           "plus": true,
+                           "value": 1
+                        },
+                        {
+                           "plus": true,
+                           "value": 2
+                        },
+                        {
+                           "value": null
+                        },
+                        {
+                           "value": null
+                        },
+                        {
+                           "value": null
+                        },
+                        {
+                           "value": null
+                        }
+                     ]
+                  ]
+               }
+            }
+         ],
+         "next": {
+            "pack": "wc5e_rules",
+            "node": "wuIUIyFlx05iZIwR",
+            "label": "WC5E.Rules.Mechanics.DeterminingAbilityScores.Label"
+         }
+      }
+   }
+}

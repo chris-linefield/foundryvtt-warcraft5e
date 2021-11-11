@@ -8,7 +8,7 @@ Join the discord if you want to support the development of the ruleset itself.
 
 https://discord.com/channels/410113488204070932/410113488204070934
 
-## Version: 0.0.18
+## Version: 0.0.20
 Feature | Description
 ------------ | -------------
 ![Classes Preview](http://www.hahn-webdesign.de/warcraft5e/classes_preview.jpg) | Features an overhauled class-sheet with lore and images. Features compendium entries for all classes.<br><br>Progress: <ul><li>[x] Alchemist + Class Feats and Spells</li><li>[x] Death Knight + Class Feats and Spells</li><li>[x] Druid + Class Feats and Spells</li><li>[x] Hunter + Class Feats</li><li>[x] Mage + Class Feats</li><li>[ ] Monk</li><li>[ ] Paladin</li><li>[ ] Priest</li><li>[ ] Rogue</li><li>[x] Shaman + Class Feats and Spells</li><li>[x] Tinker + Class Feats</li><li>[x] Warlock + Class Feats</li><li>[x] Warrior + Class Feats</li></ul>
@@ -26,6 +26,11 @@ Feature | Description
 Description | Feature
 ------------ | -------------
 Features 7 Compendiums for all Backgrounds, Background Features, Classes, Class Features, Class Talents, Races, Racial Features and Spells of fully implemented entities | ![Talents Preview](http://www.hahn-webdesign.de/warcraft5e/talents_preview.jpg)
+
+Feature | Description
+------------ | -------------
+!  |  Rules Implementation:<br><br> Progress:<ul><li>[x] Chapter 1 - Step by Step Characters</li><li>[ ] Chapter 2 - Races</li><li>[ ] Chapter 3 - Classes</li><li>[ ] Chapter 4 - Personality & Backgrounds</li><li>[ ] Chapter 5 - Equipment</li><li>[ ] Chapter 6 - Customization Options</li><li>[ ] Chapter 7 - Using Ability Scores, Skills & Tools</li><li>[ ] Chapter 8- Adventuring</li><li>[ ] Chapter 9 - Combat</li><li>[ ] Chapter 10 - Spellcasting</li><li>[ ] Chapter 11 - Spells</li><li>[ ] Appendix A</li><li>[ ] Appendix B</li><li>[ ] Appendix C</li></ul>
+
 
 
 ## Installation:

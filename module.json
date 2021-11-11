@@ -3,7 +3,7 @@
    "title": "Warcraft RPG - 5e",
    "description": "Conversion of the official Warcraft Role Playing Game: https://drive.google.com/drive/folders/0B1FoMHLY1oOtLUlNdTZXYzVNY0k.",
    "author": "ArthegaAsdweri",
-   "version": "0.0.19",
+   "version": "0.0.20",
    "esmodules": [
       "scripts/warcraft5e.js"
    ],
@@ -77,6 +77,14 @@
          "name": "wc5e_races",
          "label": "Wc5e | Races",
          "path": "./packs/races.db",
+         "entity": "Item",
+         "system": "dnd5e",
+         "package": "warcraft5e"
+      },
+      {
+         "name": "wc5e_rules",
+         "label": "Wc5e | Rules",
+         "path": "./packs/rules.db",
          "entity": "Item",
          "system": "dnd5e",
          "package": "warcraft5e"
