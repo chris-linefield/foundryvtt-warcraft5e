@@ -5738,6 +5738,40 @@
                },
                "TypicalWealth": "Typical Wealth"
             },
+            "Races": {
+               "Label": "Races",
+               "Description": {
+                  "1": {
+                     "Value": "The races of Warcraft are diverse and rich. Each race has a role in the world, and their deeds resonate through the ages. Members of each race view each other with assumptions formed by past conflicts and alliances. Warcraft‘s history is troubled and epic, and every aspect influences the races, their beliefs and their roles."
+                  },
+                  "2": {
+                     "Value": "The races described here are not the only races in the Warcraft world, but they are the most dominant, influential, and prone to adventuring. Other races can be found in the Monster Guide."
+                  },
+                  "3": {
+                     "Title": "Racial Mount",
+                     "Value": "Each race in Warcraft has affinity to one creature that serves as a primary mount, either to accommodate their skeletal and muscular structure, or for cultural reasons. Refer to the below table for details."
+                  }
+               },
+               "RacialMount": {
+                  "Elekk": "Elekk",
+                  "Rams": "Rams",
+                  "Gryphons": "Gryphons",
+                  "CoreHounds": "Core Hounds",
+                  "Horses": "Horses",
+                  "Hawkstrider": "Hawkstrider",
+                  "SaberCats": "Saber Cats",
+                  "SkeletalHorses": "Skeletal Horses",
+                  "SkeletalHorsesDesc": "(Horse with skeletal template)",
+                  "Mechanostriders": "Mechanostriders",
+                  "MechanostridersDesc": "(Tallstrider with mechanized template)",
+                  "TurboTrike": "Turbo-Trike",
+                  "TurboTrikeDesc": "(Vehicle)",
+                  "Wolves": "Wolves",
+                  "GiantTurtles": "Giant Turtles",
+                  "KodoBeasts": "Kodo Beasts",
+                  "Raptors": "Raptors"
+               }
+            },
             "Advantage": {
                "Label": "Advantages and Disadvantages",
                "Description": {
@@ -8137,6 +8171,7 @@
          "PersonalityTrait": "Personality Trait",
          "PersonalityTraits": "Personality Traits",
          "PointCost": "Point Cost",
+         "Race": "Race",
          "Rarities": {
             "Common": "Common",
             "Uncommon": "Uncommon",

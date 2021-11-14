@@ -21,7 +21,6 @@
             },
             {
                "table": {
-                  "class": "diagonal",
                   "head": [
                      {
                         "wrap": true,
@@ -259,7 +258,7 @@
          "next": {
             "pack": "wc5e_rules",
             "node": "fgQQsGoUZbTvFU3D",
-            "label": "WC5E.Rules.Races.Label"
+            "label": "WC5E.Rules.Mechanics.Races.Label"
          }
       }
    }
