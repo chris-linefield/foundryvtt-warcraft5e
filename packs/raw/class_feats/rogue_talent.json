@@ -1,0 +1,29 @@
+{
+   "_id": "3lH8HEn54RQyENCN",
+   "name": "Rogue Talent",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 111",
+      "requirements": "Rogue 2"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.RogueTalent.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.RogueTalent.Description.2.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/weapons/daggers/knife-kitchen-red.webp",
+   "effects": [
+   ]
+}

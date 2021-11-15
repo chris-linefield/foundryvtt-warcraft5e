@@ -1,0 +1,26 @@
+{
+   "_id": "CC7dhTLu1GPURbXT",
+   "name": "Vendetta",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 112",
+      "requirements": "Rogue (Assassin) 17"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.Vendetta.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/skills/targeting/crosshair-pointed-orange.webp",
+   "effects": [
+   ]
+}

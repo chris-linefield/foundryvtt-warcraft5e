@@ -1,0 +1,29 @@
+{
+   "_id": "JznOH8HR1MHE1nkE",
+   "name": "Stroke of Luck",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 111",
+      "requirements": "Rogue 20"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.StrokeOfLuck.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.StrokeOfLuck.Description.2.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/sundries/gaming/dice-pair-white-green.webp",
+   "effects": [
+   ]
+}

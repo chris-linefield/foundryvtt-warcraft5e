@@ -159,7 +159,13 @@
                "level": "2",
                "proficiency": "2",
                "special": "2",
-               "feats": []
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "lFVytL3t8utTKs2r",
+                     "label": "WC5E.Feats.WarriorTalent.Label"
+                  }
+               ]
             },
             {
                "level": "3",
@@ -279,7 +285,13 @@
                "level": "13",
                "proficiency": "5",
                "special": "4",
-               "feats": []
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "lFVytL3t8utTKs2r",
+                     "label": "WC5E.Feats.WarriorTalent.Label"
+                  }
+               ]
             },
             {
                "level": "14",
@@ -321,7 +333,13 @@
                "level": "17",
                "proficiency": "6",
                "special": "5",
-               "feats": []
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "lFVytL3t8utTKs2r",
+                     "label": "WC5E.Feats.WarriorTalent.Label"
+                  }
+               ]
             },
             {
                "level": "18",

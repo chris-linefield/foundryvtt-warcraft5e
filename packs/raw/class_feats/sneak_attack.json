@@ -1,0 +1,29 @@
+{
+   "_id": "EpwVYwGV2fvfjPlM",
+   "name": "Sneak Attack",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 111",
+      "requirements": "Rogue 1"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.SneakAttack.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.SneakAttack.Description.2.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/weapons/daggers/dagger-glowing-white.webp",
+   "effects": [
+   ]
+}

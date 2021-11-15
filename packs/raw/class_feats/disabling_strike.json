@@ -1,0 +1,36 @@
+{
+   "_id": "5YfBDix3LAyHniYr",
+   "name": "Disabling Strike",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 113",
+      "requirements": "Rogue (Outlaw) 13"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.DisablingStrike.Description.1.Value"
+            },
+            {
+               "options": [
+                  "WC5E.Feats.DisablingStrike.Description.2.Options.1",
+                  "WC5E.Feats.DisablingStrike.Description.2.Options.2",
+                  "WC5E.Feats.DisablingStrike.Description.2.Options.3"
+               ]
+            },
+            {
+               "value": "WC5E.Feats.DisablingStrike.Description.3.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/skills/wounds/injury-eyes-blood-red-pink.webp",
+   "effects": [
+   ]
+}

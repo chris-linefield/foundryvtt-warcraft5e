@@ -1,0 +1,26 @@
+{
+   "_id": "3x5iepuAIJ3b3ZCI",
+   "name": "Killing Spree",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 113",
+      "requirements": "Rogue (Outlaw) 17"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.KillingSpree.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/skills/movement/feet-winged-boots-brown.webp",
+   "effects": [
+   ]
+}

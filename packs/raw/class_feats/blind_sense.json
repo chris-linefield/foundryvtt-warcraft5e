@@ -1,0 +1,26 @@
+{
+   "_id": "x7depgHFRiQT3fdH",
+   "name": "Blind Sense",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 111",
+      "requirements": "Rogue 14"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.BlindSense.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/perception/eye-ringed-green.webp",
+   "effects": [
+   ]
+}

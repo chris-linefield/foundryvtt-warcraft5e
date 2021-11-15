@@ -175,6 +175,9 @@
                     {{#if item.flags.wc5e.specialCol}}
                         <th>{{item.flags.wc5e.specialCol}}</th>
                     {{/if}}
+                    {{#if item.flags.wc5e.specialCol2}}
+                        <th>{{item.flags.wc5e.specialCol2}}</th>
+                    {{/if}}
                     <th class="left">Features</th>
                     {{#if item.flags.wc5e.isCaster}}
                         <th>Caster (Spell)</th>
@@ -186,6 +189,9 @@
                         <td class="center">+{{this.proficiency}}</td>
                         {{#if this.special}}
                             <td class="center">{{this.special}}</td>
+                        {{/if}}
+                        {{#if this.special2}}
+                            <td class="center">{{this.special2}}</td>
                         {{/if}}
                         <td>
                             {{#if this.feats}}

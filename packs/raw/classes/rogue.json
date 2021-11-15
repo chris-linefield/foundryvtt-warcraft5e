@@ -1,0 +1,579 @@
+{
+   "_id": "rYtHFFKWkwpnv8zu",
+   "name": "Rogue",
+   "type": "class",
+   "img": "modules/warcraft5e/res/pics/classes/rogue.jpg",
+   "data": {
+      "description": {
+         "value": "WC5E.Class.Rogue.Description",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "",
+      "levels": 1,
+      "subclass": "",
+      "hitDice": "d8",
+      "hitDiceUsed": 0,
+      "saves": [
+         "dex",
+         "int"
+      ],
+      "skills": {
+         "number": 4,
+         "choices": [
+            "acr",
+            "ath",
+            "dec",
+            "ins",
+            "int",
+            "inv",
+            "prc",
+            "per",
+            "slt",
+            "ste"
+         ],
+         "value": [
+         ]
+      },
+      "spellcasting": {
+         "progression": "none",
+         "ability": ""
+      },
+      "damage": {
+         "parts": [
+         ]
+      }
+   },
+   "effects": [
+   ],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+      "default": 0
+   },
+   "flags": {
+      "wc5e": {
+         "type": "class",
+         "artwork": {
+            "1": {
+               "src": "modules/warcraft5e/res/pics/classes/rogue_artwork.jpg",
+               "url": "https://www.deviantart.com/draken4o/art/Captain-Vaelrin-Firestorm-640046075",
+               "credit": "draken4o"
+            },
+            "2": {
+               "src": "modules/warcraft5e/res/pics/classes/rogue_artwork2.jpg",
+               "url": "https://www.deviantart.com/eedenartwork/art/Thief-dive-373490402",
+               "credit": "Eedenartwork"
+            }
+         },
+         "introduction": [
+            "WC5E.Class.Rogue.Introduction.1",
+            "WC5E.Class.Rogue.Introduction.2",
+            "WC5E.Class.Rogue.Introduction.3"
+         ],
+         "blocks": [
+            {
+               "title": "WC5E.Class.Rogue.Blocks.1.Title",
+               "content": [
+                  "WC5E.Class.Rogue.Blocks.1.Content.1",
+                  "WC5E.Class.Rogue.Blocks.1.Content.2"
+               ]
+            },
+            {
+               "title": "WC5E.Class.Rogue.Blocks.2.Title",
+               "content": [
+                  "WC5E.Class.Rogue.Blocks.2.Content.1",
+                  "WC5E.Class.Rogue.Blocks.2.Content.2",
+                  "WC5E.Class.Rogue.Blocks.2.Content.3"
+               ]
+            },
+            {
+               "title": "WC5E.Class.Rogue.Blocks.3.Title",
+               "content": [
+                  "WC5E.Class.Rogue.Blocks.3.Content.1",
+                  "WC5E.Class.Rogue.Blocks.3.Content.2",
+                  "WC5E.Class.Rogue.Blocks.3.Content.3",
+                  "WC5E.Class.Rogue.Blocks.3.Content.4",
+                  "WC5E.Class.Rogue.Blocks.3.Content.5"
+               ]
+            }
+         ],
+         "quickBuild": "WC5E.Class.Rogue.QuickBuild",
+         "hitPoints1st": "8",
+         "hitPointsHalfed": "5",
+         "weaponProfs": [
+            "sim"
+         ],
+         "specificWeaponProfs": [
+            "hand crossbows",
+            "longswords",
+            "rapiers",
+            "scimitars",
+            "shortswords"
+         ],
+         "armorProfs": [
+            "lgt"
+         ],
+         "toolProfs": [
+            "thief",
+            "poisoners kit"
+         ],
+         "equipment": [
+            [
+               "a rapier",
+               "a shortsword"
+            ],
+            [
+               "a shortbow and quiver of 20 arrows",
+               "a shortsword"
+            ],
+            [
+               "a burglar‘s pack",
+               "a dungeoneer‘s pack",
+               "an explorer‘s pack"
+            ],
+            [
+               "leather armor, two daggers"
+            ],
+            [
+               "thieves‘ tools",
+               "poisoner‘s tools"
+            ]
+         ],
+         "specialCol": "Sneak Attack",
+         "specialCol2": "Talent",
+         "progression": [
+            {
+               "level": "1",
+               "proficiency": "2",
+               "special": "1d6",
+               "special2": "-",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "eGZHgFTQ6jpeGxpx",
+                     "label": "WC5E.Feats.Expertise.Label"
+                  },
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "EpwVYwGV2fvfjPlM",
+                     "label": "WC5E.Feats.SneakAttack.Label"
+                  },
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "BHLZAkGslbF7Zm2B",
+                     "label": "WC5E.Feats.ThievesCant.Label"
+                  }
+               ]
+            },
+            {
+               "level": "2",
+               "proficiency": "2",
+               "special": "1d6",
+               "special2": "1",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "3lH8HEn54RQyENCN",
+                     "label": "WC5E.Feats.RogueTalent.Label"
+                  }
+               ]
+            },
+            {
+               "level": "3",
+               "proficiency": "2",
+               "special": "2d6",
+               "special2": "1",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "Ati44swDcnfISD78",
+                     "label": "WC5E.Feats.RoguishArchetype.Label"
+                  }
+               ]
+            },
+            {
+               "level": "4",
+               "proficiency": "2",
+               "special": "2d6",
+               "special2": "1",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "pZ0s66jTVdto9Z3b",
+                     "label": "WC5E.Feats.AbilityScoreImprovement.Label"
+                  }
+               ]
+            },
+            {
+               "level": "5",
+               "proficiency": "3",
+               "special": "3d6",
+               "special2": "2",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "3lH8HEn54RQyENCN",
+                     "label": "WC5E.Feats.RogueTalent.Label"
+                  }
+               ]
+            },
+            {
+               "level": "6",
+               "proficiency": "3",
+               "special": "3d6",
+               "special2": "2",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "eGZHgFTQ6jpeGxpx",
+                     "label": "WC5E.Feats.Expertise.Label"
+                  }
+               ]
+            },
+            {
+               "level": "7",
+               "proficiency": "3",
+               "special": "4d6",
+               "special2": "3",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "3lH8HEn54RQyENCN",
+                     "label": "WC5E.Feats.RogueTalent.Label"
+                  }
+               ]
+            },
+            {
+               "level": "8",
+               "proficiency": "3",
+               "special": "4d6",
+               "special2": "3",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "pZ0s66jTVdto9Z3b",
+                     "label": "WC5E.Feats.AbilityScoreImprovement.Label"
+                  }
+               ]
+            },
+            {
+               "level": "9",
+               "proficiency": "4",
+               "special": "5d6",
+               "special2": "3",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "Ati44swDcnfISD78",
+                     "label": "WC5E.Feats.RoguishArchetype.Label"
+                  }
+               ]
+            },
+            {
+               "level": "10",
+               "proficiency": "4",
+               "special": "5d6",
+               "special2": "3",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "pZ0s66jTVdto9Z3b",
+                     "label": "WC5E.Feats.AbilityScoreImprovement.Label"
+                  }
+               ]
+            },
+            {
+               "level": "11",
+               "proficiency": "4",
+               "special": "6d6",
+               "special2": "4",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "3lH8HEn54RQyENCN",
+                     "label": "WC5E.Feats.RogueTalent.Label"
+                  }
+               ]
+            },
+            {
+               "level": "12",
+               "proficiency": "4",
+               "special": "6d6",
+               "special2": "4",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "pZ0s66jTVdto9Z3b",
+                     "label": "WC5E.Feats.AbilityScoreImprovement.Label"
+                  }
+               ]
+            },
+            {
+               "level": "13",
+               "proficiency": "5",
+               "special": "7d6",
+               "special2": "4",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "Ati44swDcnfISD78",
+                     "label": "WC5E.Feats.RoguishArchetype.Label"
+                  }
+               ]
+            },
+            {
+               "level": "14",
+               "proficiency": "5",
+               "special": "7d6",
+               "special2": "4",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "x7depgHFRiQT3fdH",
+                     "label": "WC5E.Feats.BlindSense.Label"
+                  }
+               ]
+            },
+            {
+               "level": "15",
+               "proficiency": "5",
+               "special": "8d6",
+               "special2": "5",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "3lH8HEn54RQyENCN",
+                     "label": "WC5E.Feats.RogueTalent.Label"
+                  }
+               ]
+            },
+            {
+               "level": "16",
+               "proficiency": "5",
+               "special": "8d6",
+               "special2": "5",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "pZ0s66jTVdto9Z3b",
+                     "label": "WC5E.Feats.AbilityScoreImprovement.Label"
+                  }
+               ]
+            },
+            {
+               "level": "17",
+               "proficiency": "6",
+               "special": "9d6",
+               "special2": "5",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "Ati44swDcnfISD78",
+                     "label": "WC5E.Feats.RoguishArchetype.Label"
+                  }
+               ]
+            },
+            {
+               "level": "18",
+               "proficiency": "6",
+               "special": "9d6",
+               "special2": "6",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "3lH8HEn54RQyENCN",
+                     "label": "WC5E.Feats.RogueTalent.Label"
+                  }
+               ]
+            },
+            {
+               "level": "19",
+               "proficiency": "6",
+               "special": "10d6",
+               "special2": "6",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "pZ0s66jTVdto9Z3b",
+                     "label": "WC5E.Feats.AbilityScoreImprovement.Label"
+                  }
+               ]
+            },
+            {
+               "level": "20",
+               "proficiency": "6",
+               "special": "10d6",
+               "special2": "6",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "JznOH8HR1MHE1nkE",
+                     "label": "WC5E.Feats.StrokeOfLuck.Label"
+                  }
+               ]
+            }
+         ],
+         "archetypes": [
+            {
+               "title": "WC5E.Class.Rogue.Archetypes.Assassination.Title",
+               "description": "WC5E.Class.Rogue.Archetypes.Assassination.Description",
+               "featList": [
+                  {
+                     "level": "3",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "oI0wCH7jMFKC8ip6",
+                           "label": "WC5E.Feats.Assassinate.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "AOZEW7HvF67rYdgw",
+                           "label": "WC5E.Feats.DisruptingStrike.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "9",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "VqmbJ0IiurDWitRA",
+                           "label": "WC5E.Feats.Dispatch.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "13",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "eHA6DPMKqchmrquO",
+                           "label": "WC5E.Feats.ExpertPoisoner.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "17",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "CC7dhTLu1GPURbXT",
+                           "label": "WC5E.Feats.Vendetta.Label"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "title": "WC5E.Class.Rogue.Archetypes.Outlaw.Title",
+               "description": "WC5E.Class.Rogue.Archetypes.Outlaw.Description",
+               "featList": [
+                  {
+                     "level": "3",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "SOupAvvP4QJxvsZp",
+                           "label": "WC5E.Feats.Riposte.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "b0AbARYDh5upr45h",
+                           "label": "WC5E.Feats.RevealingStrike.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "9",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "ys5bnmMxFhtN34Uh",
+                           "label": "WC5E.Feats.QuickCombatant.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "13",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "5YfBDix3LAyHniYr",
+                           "label": "WC5E.Feats.DisablingStrike.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "17",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "3x5iepuAIJ3b3ZCI",
+                           "label": "WC5E.Feats.KillingSpree.Label"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "title": "WC5E.Class.Rogue.Archetypes.Windwalker.Title",
+               "description": "WC5E.Class.Rogue.Archetypes.Windwalker.Description",
+               "featList": [
+                  {
+                     "level": "3",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "zCH3QykOX0EMHTcu",
+                           "label": "WC5E.Feats.SuperiorMartialArts.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "em3Ip3uS3H1pQy6R",
+                           "label": "WC5E.Feats.WindwalkerGrace.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "6",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "Hgvx8m6xTuBvEKoe",
+                           "label": "WC5E.Feats.DestroyMana.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "CdML8DpmA8RQ4zPQ",
+                           "label": "WC5E.Feats.RisingSun.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "11",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "NQnoAHyBLWBnkOfi",
+                           "label": "WC5E.Feats.ComboAttacks.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "17",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "9fqPszK0DoHzxK6e",
+                           "label": "WC5E.Feats.QuiveringPalm.Label"
+                        }
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+   }
+}
