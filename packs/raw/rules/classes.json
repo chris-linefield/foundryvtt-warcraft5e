@@ -1,0 +1,39 @@
+{
+   "_id": "mPnHb7U2hFWMPv8O",
+   "name": "Classes",
+   "permission": {
+      "default": 0
+   },
+   "type": "class",
+   "flags": {
+      "wc5e": {
+         "type": "rule",
+         "title": "WC5E.Rules.Mechanics.Classes.Label",
+         "content": [
+            {
+               "value": "WC5E.Rules.Mechanics.Classes.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Rules.Mechanics.Classes.Description.2.Value"
+            },
+            {
+               "title": "WC5E.Rules.Mechanics.Classes.Description.3.Title",
+               "value": "WC5E.Rules.Mechanics.Classes.Description.3.Value"
+            },
+            {
+               "value": "WC5E.Rules.Mechanics.Classes.Description.4.Value"
+            }
+         ],
+         "prev": {
+            "pack": "wc5e_rules",
+            "node": "",
+            "label": "TODO"
+         },
+         "next": {
+            "pack": "wc5e_classes",
+            "node": "2N1AG8nsF7paOAUx",
+            "label": "WC5E.Class.Alchemist.Name"
+         }
+      }
+   }
+}
