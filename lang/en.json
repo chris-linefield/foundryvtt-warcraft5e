@@ -2047,6 +2047,14 @@
                }
             }
          },
+         "Backstab": {
+            "Label": "Backstab",
+            "Description": {
+               "1": {
+                  "Value": "When you target a bloodied creature with a sneak attack, you may deal double the sneak attack damage. Once affected, the target is immune to this ability until they complete a short rest."
+               }
+            }
+         },
          "BadReputation": {
             "Label": "Bad Reputation",
             "Description": {
@@ -4370,6 +4378,14 @@
                }
             }
          },
+         "Premeditation": {
+            "Label": "Premeditation",
+            "Description": {
+               "1": {
+                  "Value": "You may use 3 rounds (counted as 3 actions) to study an enemy. If you do, you may always apply your sneak attack damage against them (even without advantage or an ally nearby) for one minute, unless the target moves more than their full speed in one round. In addition, any hit you score against a creature that is surprised is a critical hit."
+               }
+            }
+         },
          "PresenceOfMind": {
             "Label": "Presence of Mind",
             "Description": {
@@ -4678,6 +4694,39 @@
                      "1": "<i>Exploding Seed</i>: You may deal the sigil (or channel) damage again in a 30-foot burst. This does not count as an additional hit against the original target.",
                      "2": "<i>Store Seed</i>: You may recapture the spell‘s effects, regaining the spell. If you choose to do so, you can cast the spell again for no cost against another target within 1 minute. This acts as if you cast the spell again, for the purposes of actions required (but not for resources spent like mana or components), and for the purposes of talents that trigger off spell use (such as your Haunt talent). You can store one seed this way."
                   }
+               }
+            }
+         },
+         "ShadowDance": {
+            "Label": "Shadow Dance",
+            "Description": {
+               "1": {
+                  "Value": "You may initiate a shadow dance by moving more than 10 feet. While in this stance, you grant yourself concealment as per the blur spell. Also while in the stance, creatures affected or distracted by your mage spells (such as a summoned monster or an image illusion, but not the distracted condition) grant you advantage to your first attack at any round. This may be used once per short rest, and remains so long as you continue moving."
+               }
+            }
+         },
+         "ShadowSpellcasting": {
+            "Label": "Shadow Spellcasting",
+            "Description": {
+               "1": {
+                  "Value": "Drawing on mysterious shadow-magics, you can cast spells to shape that essence to your will. You cast spells drawn from the Mage spell list, and are restricted to spells from the Conjuration, Evocation, Enchantment, and Illusion schools. You may also scribe spells in Thieves‘ Cant. You also gain a spellbook as a 1st-level mage."
+               },
+               "2": {
+                  "Value": "You gain bonus spells on your 8th, 14th, and 20th level. These spells can be of any schools."
+               },
+               "3": {
+                  "Title": "Cantrips",
+                  "Value": "At 1st level, you know a number of cantrips equal to your proficiency bonus."
+               },
+               "4": {
+                  "Value": "One of your cantrips must be the mage hand cantrip."
+               },
+               "5": {
+                  "Title": "Preparing and Casting Spells",
+                  "Value": "Each rogue level provides you with 0.5 a caster level in the Mage class (minimum 0). You follow the normal progression to unlock spell levels (see the table under the Mana section)."
+               },
+               "6": {
+                  "Value": "You prepare the list of Mage spells that are available for you to cast, choosing from the mage spell list. Your spellcasting otherwise follows the same rules as the mage class (with regards to which creatures you can conjure, spellbooks, etc.). Your spellcasting ability is Intelligence."
                }
             }
          },
@@ -5465,6 +5514,14 @@
             "Description": {
                "1": {
                   "Value": "Whenever you start your round in a turn with below half your maximum hit points, and have no temporary hit points, you gain a number of temporary hit points equal to 1d12 + your Stamina modifier."
+               }
+            }
+         },
+         "Vanish": {
+            "Label": "Vanish",
+            "Description": {
+               "1": {
+                  "Value": "You may grant yourself invisibility as a reaction. This invisibility remains until the end of your next turn. This may be used once per point of Intelligence modifier, and replenishes after a short rest."
                }
             }
          },

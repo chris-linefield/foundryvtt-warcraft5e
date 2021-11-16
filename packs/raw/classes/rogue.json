@@ -518,46 +518,41 @@
                ]
             },
             {
-               "title": "WC5E.Class.Rogue.Archetypes.Windwalker.Title",
-               "description": "WC5E.Class.Rogue.Archetypes.Windwalker.Description",
+               "title": "WC5E.Class.Rogue.Archetypes.Subtlety.Title",
+               "description": "WC5E.Class.Rogue.Archetypes.Subtlety.Description",
                "featList": [
                   {
                      "level": "3",
                      "feats": [
                         {
                            "pack": "warcraft5e.wc5e_class_feats",
-                           "node": "zCH3QykOX0EMHTcu",
-                           "label": "WC5E.Feats.SuperiorMartialArts.Label"
+                           "node": "HdBCMDKhHcFg5K8E",
+                           "label": "WC5E.Feats.ShadowSpellcasting.Label"
                         },
                         {
                            "pack": "warcraft5e.wc5e_class_feats",
-                           "node": "em3Ip3uS3H1pQy6R",
-                           "label": "WC5E.Feats.WindwalkerGrace.Label"
+                           "node": "2K9BDwRekjipPJOd",
+                           "label": "WC5E.Feats.Premeditation.Label"
                         }
                      ]
                   },
                   {
-                     "level": "6",
+                     "level": "9",
                      "feats": [
                         {
                            "pack": "warcraft5e.wc5e_class_feats",
-                           "node": "Hgvx8m6xTuBvEKoe",
-                           "label": "WC5E.Feats.DestroyMana.Label"
-                        },
-                        {
-                           "pack": "warcraft5e.wc5e_class_feats",
-                           "node": "CdML8DpmA8RQ4zPQ",
-                           "label": "WC5E.Feats.RisingSun.Label"
+                           "node": "cKmRTcMPNTJZVBcB",
+                           "label": "WC5E.Feats.Vanish.Label"
                         }
                      ]
                   },
                   {
-                     "level": "11",
+                     "level": "13",
                      "feats": [
                         {
                            "pack": "warcraft5e.wc5e_class_feats",
-                           "node": "NQnoAHyBLWBnkOfi",
-                           "label": "WC5E.Feats.ComboAttacks.Label"
+                           "node": "AVqdNKWuX3fo0t6y",
+                           "label": "WC5E.Feats.ShadowDance.Label"
                         }
                      ]
                   },
@@ -566,8 +561,8 @@
                      "feats": [
                         {
                            "pack": "warcraft5e.wc5e_class_feats",
-                           "node": "9fqPszK0DoHzxK6e",
-                           "label": "WC5E.Feats.QuiveringPalm.Label"
+                           "node": "nzIko1AaRr8T5sDc",
+                           "label": "WC5E.Feats.Backstab.Label"
                         }
                      ]
                   }
