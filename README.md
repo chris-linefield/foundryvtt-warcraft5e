@@ -29,7 +29,7 @@ Features 7 Compendiums for all Backgrounds, Background Features, Classes, Class 
 
 Feature | Description
 ------------ | -------------
-!  |  Rules Implementation:<br><br> Progress:<ul><li>[x] Chapter 1 - Step by Step Characters</li><li>[x] Chapter 2 - Races</li><li>[ ] Chapter 3 - Classes</li><li>[ ] Chapter 4 - Personality & Backgrounds</li><li>[ ] Chapter 5 - Equipment</li><li>[ ] Chapter 6 - Customization Options</li><li>[ ] Chapter 7 - Using Ability Scores, Skills & Tools</li><li>[ ] Chapter 8- Adventuring</li><li>[ ] Chapter 9 - Combat</li><li>[ ] Chapter 10 - Spellcasting</li><li>[ ] Chapter 11 - Spells</li><li>[ ] Appendix A</li><li>[ ] Appendix B</li><li>[ ] Appendix C</li></ul>
+!  |  Rules Implementation:<br><br> Progress:<ul><li>[x] Chapter 1 - Step by Step Characters</li><li>[x] Chapter 2 - Races</li><li>[x] Chapter 3 - Classes</li><li>[ ] Chapter 4 - Personality & Backgrounds</li><li>[ ] Chapter 5 - Equipment</li><li>[ ] Chapter 6 - Customization Options</li><li>[ ] Chapter 7 - Using Ability Scores, Skills & Tools</li><li>[ ] Chapter 8- Adventuring</li><li>[ ] Chapter 9 - Combat</li><li>[ ] Chapter 10 - Spellcasting</li><li>[ ] Chapter 11 - Spells</li><li>[ ] Appendix A</li><li>[ ] Appendix B</li><li>[ ] Appendix C</li></ul>
 
 
 
