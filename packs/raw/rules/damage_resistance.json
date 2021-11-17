@@ -1,0 +1,15 @@
+{
+   "_id": "FuRFBklCArGIhci8",
+   "name": "Damage Resistance / Vulnerability",
+   "permission": {
+      "default": 0
+   },
+   "type": "rule",
+   "data": {
+      "title": "WC5E.Rules.Mechanics.Resistance.Label",
+      "content": "WC5E.Rules.Mechanics.Resistance.Content"
+   },
+   "flags": {},
+   "img": "modules/warcraft5e/res/pics/items/inventory/scroll-blank.jpg",
+   "effects": []
+}

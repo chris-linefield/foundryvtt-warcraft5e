@@ -1,0 +1,283 @@
+{
+   "_id": "fgQQsGoUZbTvFU3D",
+   "name": "Races",
+   "permission": {
+      "default": 0
+   },
+   "type": "class",
+   "flags": {
+      "wc5e": {
+         "type": "rule",
+         "title": "WC5E.Rules.Mechanics.Races.Label",
+         "content": [
+            {
+               "value": "WC5E.Rules.Mechanics.Races.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Rules.Mechanics.Races.Description.2.Value"
+            },
+            {
+               "title": "WC5E.Rules.Mechanics.Races.Description.3.Title",
+               "value": "WC5E.Rules.Mechanics.Races.Description.3.Value"
+            },
+            {
+               "table": {
+                  "head": [
+                     {
+                        "title": "WC5E.UI.Race",
+                        "class": "left"
+                     },
+                     {
+                        "class": "left"
+                     },
+                     {
+                        "title": "WC5E.Rules.Mechanics.Races.Description.3.Title",
+                        "class": "left"
+                     },
+                     {
+                        "class": "left"
+                     }
+                  ],
+                  "rows": [
+                     [
+                        {
+                           "text": "WC5E.Race.Draenei.Name"
+                        },
+                        {},
+                        {},
+                        {}
+                     ],
+                     [
+                        {},
+                        {
+                           "text": "WC5E.Race.Draenei.Subraces.Broken.Name"
+                        },
+                        {},
+                        {}
+                     ],
+                     [
+                        {},
+                        {
+                           "text": "WC5E.Race.Draenei.Subraces.Unbroken.Name"
+                        },
+                        {
+                           "text": "WC5E.Rules.Mechanics.Races.RacialMount.Elekk"
+                        },
+                        {}
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Race.Dwarf.Name"
+                        },
+                        {},
+                        {},
+                        {}
+                     ],
+                     [
+                        {},
+                        {
+                           "text": "WC5E.Race.Dwarf.Subraces.DarkIron.Name"
+                        },
+                        {
+                           "text": "WC5E.Rules.Mechanics.Races.RacialMount.CoreHounds"
+                        },
+                        {}
+                     ],
+                     [
+                        {},
+                        {
+                           "text": "WC5E.Race.Dwarf.Subraces.Wildhammer.Name"
+                        },
+                        {
+                           "text": "WC5E.Rules.Mechanics.Races.RacialMount.Gryphons"
+                        },
+                        {}
+                     ],
+                     [
+                        {},
+                        {
+                           "text": "WC5E.Race.Dwarf.Subraces.Bronzebeard.Name"
+                        },
+                        {
+                           "text": "WC5E.Rules.Mechanics.Races.RacialMount.Rams"
+                        },
+                        {}
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Race.Elf.Name"
+                        },
+                        {},
+                        {},
+                        {}
+                     ],
+                     [
+                        {},
+                        {
+                           "text": "WC5E.Race.Elf.Subraces.BloodElf.Name"
+                        },
+                        {
+                           "text": "WC5E.Rules.Mechanics.Races.RacialMount.Hawkstrider"
+                        },
+                        {}
+                     ],
+                     [
+                        {},
+                        {
+                           "text": "WC5E.Race.Elf.Subraces.HighElf.Name"
+                        },
+                        {
+                           "text": "WC5E.Rules.Mechanics.Races.RacialMount.Horses"
+                        },
+                        {}
+                     ],
+                     [
+                        {},
+                        {
+                           "text": "WC5E.Race.Elf.Subraces.Nightborne.Name"
+                        },
+                        {
+                           "text": "WC5E.Rules.Mechanics.Races.RacialMount.SaberCats"
+                        },
+                        {}
+                     ],
+                     [
+                        {},
+                        {
+                           "text": "WC5E.Race.Elf.Subraces.NightElf.Name"
+                        },
+                        {
+                           "text": "WC5E.Rules.Mechanics.Races.RacialMount.SaberCats"
+                        },
+                        {}
+                     ],
+                     [
+                        {},
+                        {
+                           "text": "WC5E.Race.Elf.Subraces.VoidElf.Name"
+                        },
+                        {
+                           "text": "WC5E.Rules.Mechanics.Races.RacialMount.Hawkstrider"
+                        },
+                        {}
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Race.Human.Name"
+                        },
+                        {},
+                        {
+                           "text": "WC5E.Rules.Mechanics.Races.RacialMount.Horses"
+                        },
+                        {}
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Race.Forsaken.Name"
+                        },
+                        {},
+                        {
+                           "text": "WC5E.Rules.Mechanics.Races.RacialMount.SkeletalHorses"
+                        },
+                        {
+                           "text": "WC5E.Rules.Mechanics.Races.RacialMount.SkeletalHorsesDesc"
+                        }
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Race.Gnome.Name"
+                        },
+                        {},
+                        {
+                           "text": "WC5E.Rules.Mechanics.Races.RacialMount.Mechanostriders"
+                        },
+                        {
+                           "text": "WC5E.Rules.Mechanics.Races.RacialMount.MechanostridersDesc"
+                        }
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Race.Gnome.Name"
+                        },
+                        {},
+                        {
+                           "text": "WC5E.Rules.Mechanics.Races.RacialMount.Mechanostriders"
+                        },
+                        {
+                           "text": "WC5E.Rules.Mechanics.Races.RacialMount.MechanostridersDesc"
+                        }
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Race.Goblin.Name"
+                        },
+                        {},
+                        {
+                           "text": "WC5E.Rules.Mechanics.Races.RacialMount.TurboTrike"
+                        },
+                        {
+                           "text": "WC5E.Rules.Mechanics.Races.RacialMount.TurboTrikeDesc"
+                        }
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Race.Orc.Name"
+                        },
+                        {},
+                        {
+                           "text": "WC5E.Rules.Mechanics.Races.RacialMount.Wolves"
+                        }
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Race.Pandaren.Name"
+                        },
+                        {},
+                        {
+                           "text": "WC5E.Rules.Mechanics.Races.RacialMount.GiantTurtles"
+                        }
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Race.Tauren.Name"
+                        },
+                        {},
+                        {
+                           "text": "WC5E.Rules.Mechanics.Races.RacialMount.KodoBeasts"
+                        }
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Race.Troll.Name"
+                        },
+                        {},
+                        {
+                           "text": "WC5E.Rules.Mechanics.Races.RacialMount.Raptors"
+                        }
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Race.Worgen.Name"
+                        },
+                        {},
+                        {
+                           "text": "WC5E.Rules.Mechanics.Races.RacialMount.Horses"
+                        }
+                     ]
+                  ]
+               }
+            }
+         ],
+         "prev": {
+            "pack": "wc5e_rules",
+            "node": "8FMb36eUyacdaVnm",
+            "label": "WC5E.Rules.Mechanics.Beyond1stLevel.Label"
+         },
+         "next": {
+            "pack": "wc5e_races",
+            "node": "EmMPa2zevjf6Pv36",
+            "label": "WC5E.Race.Draenei.Name"
+         }
+      }
+   }
+}

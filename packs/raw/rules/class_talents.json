@@ -1,0 +1,35 @@
+{
+   "_id": "OawPTo5di1JJJlAc",
+   "name": "Class Talents",
+   "permission": {
+      "default": 0
+   },
+   "type": "class",
+   "flags": {
+      "wc5e": {
+         "type": "rule",
+         "title": "WC5E.Rules.Mechanics.ClassTalents.Label",
+         "content": [
+            {
+               "value": "WC5E.Rules.Mechanics.ClassTalents.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Rules.Mechanics.ClassTalents.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Rules.Mechanics.ClassTalents.Description.3.Value"
+            }
+         ],
+         "prev": {
+            "pack": "wc5e_rules",
+            "node": "fMifhLOnQJNdMfCz",
+            "label": "WC5E.Rules.Mechanics.BoundCompanions.Label"
+         },
+         "next": {
+            "pack": "wc5e_classes",
+            "node": "tPwiVv4jB99YyxA6",
+            "label": "WC5E.Rules.Mechanics.CharacterDetails.Label"
+         }
+      }
+   }
+}

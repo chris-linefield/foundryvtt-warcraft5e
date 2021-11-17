@@ -5934,58 +5934,211 @@
          "Mechanics": {
             "AbilityScoreSummary": {
                "Label": "Ability Score Summary",
-               "Blocks": {
+               "Description": {
                   "1": {
-                     "Content": "Measures: Natural athleticism, bodily power<br>Important for: Death Knight, Paladin, and Warrior"
+                     "Value": "Measures: Natural athleticism, bodily power<br>Important for: Death Knight, Paladin, and Warrior"
                   },
                   "2": {
-                     "Content": "Measures: Physical agility, reflexes, balance, poise<br>Important for: Hunter, Monk, Rogue"
+                     "Value": "Measures: Physical agility, reflexes, balance, poise<br>Important for: Hunter, Monk, Rogue"
                   },
                   "3": {
-                     "Content": "Measures: Health, constitution, vital force<br>Important for: Everyone"
+                     "Value": "Measures: Health, constitution, vital force<br>Important for: Everyone"
                   },
                   "4": {
-                     "Content": "Measures: Mental acuity, information recall, analytical skill<br>Important for: Alchemist, Mage, Tinker"
+                     "Value": "Measures: Mental acuity, information recall, analytical skill<br>Important for: Alchemist, Mage, Tinker"
                   },
                   "5": {
-                     "Content": "Measures: Awareness, intuition, wisdom<br>Important for: Druid, Priest, Shaman"
+                     "Value": "Measures: Awareness, intuition, wisdom<br>Important for: Druid, Priest, Shaman"
                   },
                   "6": {
-                     "Content": "Measures: Confidence, eloquence, leadership<br>Important for: Warlock"
+                     "Value": "Measures: Confidence, eloquence, leadership<br>Important for: Warlock"
+                  },
+                  "7": {
+                     "Headline": "Racial Increases"
                   }
                }
             },
-            "DeterminingAbilityScores": {
-               "Label": "Determining Ability Scores",
-               "Blocks": {
+            "Advantage": {
+               "Label": "Advantages and Disadvantages",
+               "Description": {
                   "1": {
-                     "Label": "Focus and Foible",
-                     "Content": "This method leads to more focused characters with clearer weaknesses. Before applying modifiers, choose a one focus (an ability score you‘re good at) and one foible (an ability score you‘re bad at).<br><i>Focus</i>. Mark this attribute as 18<br><i>Foible</i>. Mark this attribute as 8<br><br>Set your remaining attributes at 10, and distribute 16 points among the ability scores in any way you desire. You may reduce an existing attribute by up to 2 points to gain 2 points to add to another attribute."
+                     "Value": "Sometimes a special ability or spell tells you that you have advantage or disadvantage on an ability check, a saving throw, or an attack roll. When that happens, you roll a second d20 when you make the roll. Use the higher of the two rolls if you have advantage, and use the lower roll if you have disadvantage. For example, if you have disadvantage and roll a 17 and a 5, you use the 5. If you instead have advantage and roll those numbers, you use the 17."
                   },
                   "2": {
-                     "Label": "Heroic Roll",
-                     "Content": "This method leads to generally stronger characters than by normal rolling. For each ability score, roll 2d6 + 6."
+                     "Value": "If multiple situations affect a roll and each one grants advantage or imposes disadvantage on it, you don't roll more than one additional d20. If two favorable situations grant advantage, for example, you still roll only one additional d20."
+                  },
+                  "3": {
+                     "Value": "If circumstances cause a roll to have both advantage and disadvantage, you are considered to have neither of them, and you roll one d20. This is true even if multiple circumstances impose disadvantage and only one grants advantage or vice versa. In such a situation, you have neither advantage nor disadvantage."
+                  },
+                  "4": {
+                     "Value": "When you have advantage or disadvantage and something in the game, such as the halfling's Lucky trait, lets you reroll the d20, you can reroll only one of the dice. You choose which one. For example, if a halfling has advantage or disadvantage on an ability check and rolls a 1 and a 13, the halfling could use the Lucky trait to reroll the 1."
+                  },
+                  "5": {
+                     "Value": "You usually gain advantage or disadvantage through the use of special abilities, actions, or spells. Inspiration can also give a character advantage. The GM can also decide that circumstances influence a roll in one direction or the other and grant advantage or impose disadvantage as a result."
                   }
                }
             },
             "Beyond1stLevel": {
                "Label": "Beyond 1st Level",
-               "Content": "<p>The rules in the World of Warcraft 5e RPG also include crafting sub-systems and classes (such as the Alchemist and Tinker), and various options (such as the <a class=\"entity-link inline\" data-pack=\"warcraft5e.feats\" data-id=\"enBseIfaasp0D7xv\">Infusionist</a> feat) that can translate wealth into character power. When creating a character from above 1st level, refer to the following guidelines for expected wealth for level to give a general idea how to keep characters on the same general level of wealth. Refer to the Item Creation Complexity and Cost Table on Chapter 7 to calculate item rarity. Note that crafting an item costs onehalf the cost of buying it.</p><p>The amount of wealth carried by a character can vary significantly depending on starting resources, unexpected loot gained in the campaign, whether or not characters have downtime to gather additional wealth, inherited gold, or even  ossessing companies and strongholds under their control.</p>",
-               "Blocks": {
+               "Description": {
                   "1": {
-                     "Label": "Magical Item Budget",
-                     "Content": "A DM may refer to the above chart to determine the total worth of magic items the characters have, without actually explicit magic items to be sold. In this case, the wealth is not the expected wealth of the character, but the cost of the magic items the player should have by the appropriate level. This can come in the form of quest gifts, a normal item improving into a magical one, or a permanent blessing or infusion upon a held item. The expected cost of magic items relative to rarity is present in Chapter 7."
+                     "Value": "The rules in the World of Warcraft 5e RPG also include crafting sub-systems and classes (such as the Alchemist and Tinker), and various options (such as the Infusionist feat) that can translate wealth into character power."
                   },
                   "2": {
-                     "Label": "Expected Downtime",
-                     "Content": "In case of crafting classes (Alchemist and Tinker), or in cases where characters can create magical items (taking the Infusionist feat), a good amount of downtime to allow the classes to function at a competitive rate is usually 5 days to 1 week between adventures (or the same time for every 3-5 combat encounters). That way, very complex projects (2 weeks) like building a mecha or vehicle can be done every two adventures. With such options available, players benefit more from wealth and time to build the exact items they need, from scrolls, potions, explosives, and more spells in a mage's spellbook, to advanced constructs and vehicles such as gyrocopters, so exercising judgment is key."
+                     "Value": "When creating a character from above 1st level, refer to the following guidelines for expected wealth for level to give a general idea how to keep characters on the same general level of wealth."
+                  },
+                  "3": {
+                     "Value": "Refer to the Item Creation Complexity and Cost Table on Chapter 7 to calculate item rarity. Note that crafting an item costs one half the cost of buying it."
+                  },
+                  "4": {
+                     "Value": "The amount of wealth carried by a character can vary significantly depending on starting resources, unexpected loot gained in the campaign, whether or not characters have downtime to gather additional wealth, inherited gold, or even possessing companies and strongholds under their control."
+                  },
+                  "5": {
+                     "Title": "Magical Item Budget",
+                     "Value": "The amount of wealth carried by a character can vary significantly depending on starting resources, unexpected loot gained in the campaign, whether or not characters have downtime to gather additional wealth, inherited gold, or even possessing companies and strongholds under their control."
+                  },
+                  "6": {
+                     "Value": "In this case, the wealth is not the expected wealth of the character, but the cost of the magic items the player should have by the appropriate level. This can come in the form of quest gifts, a normal item improving into a magical one, or a permanent blessing or infusion upon a held item."
+                  },
+                  "7": {
+                     "Value": "The expected cost of magic items relative to rarity is present in Chapter 7."
+                  },
+                  "8": {
+                     "Title": "Expected Downtime",
+                     "Value": "In case of crafting classes (Alchemist and Tinker), or in cases where characters can create magical items (taking the Infusionist feat), a good amount of downtime to allow the classes to function at a competitive rate is usually 5 days to 1 week between adventures (or the same time for every 3-5 combat encounters)."
+                  },
+                  "9": {
+                     "Value": "That way, very complex projects (2 weeks) like building a mecha or vehicle can be done every two adventures."
+                  },
+                  "10": {
+                     "Value": "With such options available, players benefit more from wealth and time to build the exact items they need, from scrolls, potions, explosives, and more spells in a mage's spellbook, to advanced constructs and vehicles such as gyrocopters, so exercising judgment is key."
                   }
                },
                "TypicalWealth": "Typical Wealth"
             },
-            "Advantage": {
-               "Label": "Advantages and Disadvantages",
-               "Content": "<p>Sometimes a special ability or spell tells you that you have advantage or disadvantage on an ability check, a saving throw, or an attack roll. When that happens, you roll a second d20 when you make the roll. Use the higher of the two rolls if you have advantage, and use the lower roll if you have disadvantage. For example, if you have disadvantage and roll a 17 and a 5, you use the 5. If you instead have advantage and roll those numbers, you use the 17.</p><p>If multiple situations affect a roll and each one grants advantage or imposes disadvantage on it, you don't roll more than one additional d20. If two favorable situations grant advantage, for example, you still roll only one additional d20.</p><p>If circumstances cause a roll to have both advantage and disadvantage, you are considered to have neither of them, and you roll one d20. This is true even if multiple circumstances impose disadvantage and only one grants advantage or vice versa. In such a situation, you have neither advantage nor disadvantage.</p><p>When you have advantage or disadvantage and something in the game, such as the halfling's Lucky trait, lets you reroll the d20, you can reroll only one of the dice. You choose which one. For example, if a halfling has advantage or disadvantage on an ability check and rolls a 1 and a 13, the halfling could use the Lucky trait to reroll the 1.</p><p>You usually gain advantage or disadvantage through the use of special abilities, actions, or spells. Inspiration can also give a character advantage. The GM can also decide that circumstances influence a roll in one direction or the other and grant advantage or impose disadvantage as a result.</p>"
+            "BoundCompanions": {
+               "Label": "Bound Companions",
+               "Description": {
+                  "1": {
+                     "Value": "Characters‘ class abilities sometimes provide companions. Companions are creatures that have lower challenge rating than the character, and join the character in their adventures free of charge."
+                  },
+                  "2": {
+                     "Value": "These creatures do not grant XP when killed, and do not consume XP when fighting, but are effectively bound to the character who has the ability, leveling up with them in some capacity (gaining hit dice, ability score increases, etc., as detailed in the class entry)."
+                  },
+                  "3": {
+                     "Value": "The ability that provides the bound companion determines the creature type (usually beast), the CR, and whether the companion gains special abilities."
+                  },
+                  "4": {
+                     "Value": "Some abilities allow you to increase the strength of your bond with your companion. In this case, you may be allowed to add your Proficiency bonus to the companion‘s attack rolls or saving throws (or other rolls). This does not stack with the creature‘s own Proficiency Bonus."
+                  },
+                  "5": {
+                     "Title": "Controlling the Companion",
+                     "Value": "The companion obeys its master‘s commands as best as it can. It takes its turn on its master‘s initiative."
+                  },
+                  "6": {
+                     "Value": "On the master‘s turn, the companion can be verbally commanded where to move (no action required by you) or what to do. If the creature has a special bond, the master may or may not be able to command it telepathically, depending on the bond‘s description."
+                  },
+                  "7": {
+                     "Value": "Bound companions otherwise act on their own, unless given a clear command from their master, in which case they fulfill the command as best as they can. Giving a bound companion a direct order (so long as they are not telepathically connected) costs an attack action."
+                  },
+                  "8": {
+                     "Value": "The master is always aware of the bound companion‘s normal course of action. If the master is incapacitated or absent, the companion acts as it normally would, but also protects its master and itself."
+                  },
+                  "9": {
+                     "Value": "For example, a hunter with a panther companion is attacked in an ambush. The panther, if commanded to fight, would normally attack the weakest enemy from behind. If the hunter uses an attack to command the panther to fight in sync with him, the panther obeys and fights as its master wishes."
+                  }
+               }
+            },
+            "Classes": {
+               "Label": "Classes",
+               "Description": {
+                  "1": {
+                     "Value": "Specializations in Warcraft act as sub-classes for most intents and purposes. Some subclasses are racially-locked, and thus can only be entered by fulfilling a racial requirement."
+                  },
+                  "2": {
+                     "Value": "Classes in Azeroth have different names (as noted in the introduction), and sometimes different abilities. These are noted below."
+                  },
+                  "3": {
+                     "Title": "Optional Rule: More Talents",
+                     "Value": "Talents allows customizing your character in a more freeform way than multiclassing."
+                  },
+                  "4": {
+                     "Value": "With this optional rule, you may exchange class features gained from archetypes (paths, circles, traditions, etc.) to grant access to a talent, but only if the class already has the ability to gain talents, and only once per level."
+                  }
+               }
+            },
+            "ClassTalents": {
+               "Label": "Class Talents",
+               "Description": {
+                  "1": {
+                     "Value": "Some classes allow you to take talents, which are customizable class features that can enrich and reinforce a certain character concept."
+                  },
+                  "2": {
+                     "Value": "All talent abilities have DCs of 8 + your proficiency bonus + your Strength or Agility modifier (your choice) if they allow a saving throw."
+                  },
+                  "3": {
+                     "Value": "For a detailed list of available Class Talents please consult the \"Wc5e | Class Talents\" Compendium."
+                  }
+               }
+            },
+            "DeterminingAbilityScores": {
+               "Label": "Determining Ability Scores",
+               "Description": {
+                  "1": {
+                     "Value": "When determining your ability scores (also known as attributes), there are two new methods to create them; the focused method, and the heroic method. Both yield higher attributes on average, suitable for the many challenges in the Warcraft universe."
+                  },
+                  "2": {
+                     "Title": "Focus and Foible",
+                     "Value": "This method leads to more focused characters with clearer weaknesses."
+                  },
+                  "3": {
+                     "Value": "Before applying modifiers, choose a one focus (an ability score you‘re good at) and one foible (an ability score you‘re bad at)."
+                  },
+                  "4": {
+                     "Value": "<i>Focus</i>: Mark this attribute as 18<br><i>Foible</i>: Mark this attribute as 8"
+                  },
+                  "5": {
+                     "Value": "Set your remaining attributes at 10, and distribute 16 points among the ability scores in any way you desire. You may reduce an existing attribute by up to 2 points to gain 2 points to add to another attribute."
+                  },
+                  "6": {
+                     "Title": "Heroic Roll",
+                     "Value": "This method leads to generally stronger characters than by normal rolling. For each ability score, roll 2d6 + 6."
+                  }
+               }
+            },
+            "Races": {
+               "Label": "Races",
+               "Description": {
+                  "1": {
+                     "Value": "The races of Warcraft are diverse and rich. Each race has a role in the world, and their deeds resonate through the ages. Members of each race view each other with assumptions formed by past conflicts and alliances. Warcraft‘s history is troubled and epic, and every aspect influences the races, their beliefs and their roles."
+                  },
+                  "2": {
+                     "Value": "The races described here are not the only races in the Warcraft world, but they are the most dominant, influential, and prone to adventuring. Other races can be found in the Monster Guide."
+                  },
+                  "3": {
+                     "Title": "Racial Mount",
+                     "Value": "Each race in Warcraft has affinity to one creature that serves as a primary mount, either to accommodate their skeletal and muscular structure, or for cultural reasons. Refer to the below table for details."
+                  }
+               },
+               "RacialMount": {
+                  "Elekk": "Elekk",
+                  "Rams": "Rams",
+                  "Gryphons": "Gryphons",
+                  "CoreHounds": "Core Hounds",
+                  "Horses": "Horses",
+                  "Hawkstrider": "Hawkstrider",
+                  "SaberCats": "Saber Cats",
+                  "SkeletalHorses": "Skeletal Horses",
+                  "SkeletalHorsesDesc": "(Horse with skeletal template)",
+                  "Mechanostriders": "Mechanostriders",
+                  "MechanostridersDesc": "(Tallstrider with mechanized template)",
+                  "TurboTrike": "Turbo-Trike",
+                  "TurboTrikeDesc": "(Vehicle)",
+                  "Wolves": "Wolves",
+                  "GiantTurtles": "Giant Turtles",
+                  "KodoBeasts": "Kodo Beasts",
+                  "Raptors": "Raptors"
+               }
             },
             "Resistance": {
                "Label": "Damage Resistance and Vulnerability",
@@ -8366,6 +8519,7 @@
          "PersonalityTrait": "Personality Trait",
          "PersonalityTraits": "Personality Traits",
          "PointCost": "Point Cost",
+         "Race": "Race",
          "Rarities": {
             "Common": "Common",
             "Uncommon": "Uncommon",
