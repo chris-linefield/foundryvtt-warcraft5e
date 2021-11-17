@@ -1,0 +1,26 @@
+{
+   "_id": "VqmbJ0IiurDWitRA",
+   "name": "Dispatch",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 112",
+      "requirements": "Rogue (Assassin) 9"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.Dispatch.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "systems/dnd5e/icons/skills/red_19.jpg",
+   "effects": [
+   ]
+}

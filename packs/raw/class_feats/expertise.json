@@ -1,0 +1,29 @@
+{
+   "_id": "eGZHgFTQ6jpeGxpx",
+   "name": "Expertise",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 110",
+      "requirements": "Rogue 1"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.Expertise.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.Expertise.Description.2.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/tools/hand/lockpicks-steel-grey.webp",
+   "effects": [
+   ]
+}

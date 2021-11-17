@@ -1,0 +1,26 @@
+{
+   "_id": "cKmRTcMPNTJZVBcB",
+   "name": "Vanish",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 114",
+      "requirements": "Rogue (Subtlety) 9"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.Vanish.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "systems/dnd5e/icons/spells/fog-water-air-1.jpg",
+   "effects": [
+   ]
+}

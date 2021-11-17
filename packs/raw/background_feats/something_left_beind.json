@@ -15,15 +15,15 @@
          "category": "WC5E.SkillCategories.General",
          "description": [
             {
-               "value": "WC5E.Feats.AgentOfSuspectLoyalty.Description.1.Value"
+               "value": "WC5E.Feats.SomethingLeftBehind.Description.1.Value"
             },
             {
-               "value": "WC5E.Feats.AgentOfSuspectLoyalty.Description.2.Value"
+               "value": "WC5E.Feats.SomethingLeftBehind.Description.2.Value"
             }
          ]
       }
    },
-   "img": "systems/dnd5e/icons/skills/light_07.jpg",
+   "img": "icons/sundries/scrolls/scroll-writing-brown-gold.webp",
    "effects": [
    ]
 }

@@ -1,0 +1,26 @@
+{
+   "_id": "AVqdNKWuX3fo0t6y",
+   "name": "Shadow Dance",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 114",
+      "requirements": "Rogue (Subtlety) 13"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.ShadowDance.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+   "effects": [
+   ]
+}

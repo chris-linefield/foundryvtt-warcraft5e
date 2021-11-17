@@ -1552,6 +1552,56 @@
          "Priest": {
             "Name": "Priest"
          },
+         "Rogue": {
+            "Name": "Rogue",
+            "Introduction": {
+               "1": "A hooded figure walks towards the entrance of a shop, as a crow as black as night flies from its rest above the shop‘s sign. The human shopkeeper studies the man carefully, before sliding a book from its shelf. The bookcase slowly creaks open and the hooded figure enters the dark passage. As the figure passes, they toss a single silver piece with an odd symbol to the counter top, which is quickly collected by the shopkeep.",
+               "2": "Lost, a traveler finds a mansion in the middle of the woods. Starving and cold, she approaches the manor. Inside the guests lay motionless, slumped over their dinner. She slowly walks up to the head of the table, where she sees the heavy frame of a man. She notices a wide cut in his neck, as a sharp pain is felt in her chest. As the traveler looks down, a black dagger protrudes from her abdomen. Falling to the ground she sees the rotten grin of a forsaken, as blood spills to the ground and she draws her last breath.",
+               "3": "In a run-down inn on the coast, a band of sailors drink and sing merrily into the night. Suddenly a goblin, clad in leather and armed with a shortsword and loaded pistol, strolls in. All faces turn to the wanted sign across the room mirroring the goblin intruder‘s face. With a grin the goblin cocks her pistol, and in a few moments, the goblin leaves the inn once more, swinging a few purses stained with blood."
+            },
+            "Blocks": {
+               "1": {
+                  "Title": "Skill and Precision",
+                  "Content": {
+                     "1": "Rogues possess a wide range of skills that allow them to accomplish feats from finding secret doors to smacking a magic item until it works. They are excellent in a fight, and if they can strike quickly or unseen — or are flanking an enemy with the help of a thoughtful ally — they can be truly deadly. Of course, they also excel at stealth.",
+                     "2": "The rogues of Azeroth are the masters of subterfuge, skilled and cunning adversaries of those who dare not look into the shadows to see what lurks there. Roguery is a profession for those who seek the adventures of stalking in silent forests, dimly lit halls, and heavily guarded strongholds. Using trickery in combat and able to vanish at the slightest distraction, the rogue is a welcome addition to any group of adventurers. Ideal spies, deadly to those they can catch unaware, rogues have no problem finding a place in the world. Deadly masters of stealth, rogues are the whispers in shadowy corners and the hooded figures crossing dark fields. Skilled with daggers and the art of silent death, these vagabonds and bandits skulk about Azeroth seeking targets and profit. A member of almost any race can learn the tricks necessary to become a skilled rogue. Still, for the tauren and draenei, such a profession is an alien concept and therefore rare among those peoples. Whether they are diplomats, spies, thieves, scoundrels, entertainers, or simply adventurers, they can be found plying just about any trade from Mount Hyjal to Ratchet."
+                  }
+               },
+               "2": {
+                  "Title": "A shady Living",
+                  "Content": {
+                     "1": "Rogues fend for themselves, looking for fights in which they dictate the terms. They‘re the shadows in the night that remain unseen until the right moment comes to strike—then they dispatch an opponent with quick blade work or a deadly toxin snuck acutely into the bloodstream. Rogues are opportunistic thieves, bandits, and assassins, but there‘s an unparalleled art to what they do.",
+                     "2": "From the high-contract assassin hired in secret by respected noblemen to the lowly street mugger, rogues are the ones called upon when maintaining the status quo requires a questionable solution — and by fulfilling it, they are branded as outcasts by the very society that calls upon their service.",
+                     "3": "In Azeroth, rogues are largely free agents, though some prefer to join an organization for safety and ease of employment. Ravenholdt and the Syndicate are examples. Other recognized rogue organizations include the Shattered Hand, the Deathstalkers, and SI:7."
+                  }
+               },
+               "3": {
+                  "Title": "Creating a Rogue",
+                  "Content": {
+                     "1": "As you create your rogue character, consider the character‘s relationship to the law. Do you have a criminal past—or present? Are you on the run from the law or from an angry thieves‘ guild master? Or did you leave your guild in search of bigger risks and bigger rewards? Is it greed that drives you in your adventures, or some other desire or ideal?",
+                     "2": "What was the trigger that led you away from your previous life? Did a great con or heist gone terribly wrong cause you to reevaluate your career? Maybe you were lucky and a successful robbery gave you the coin you needed to escape the squalor of your life.",
+                     "3": "Did wanderlust finally call you away from your home? Perhaps you suddenly found yourself out off from your family or your mentor, and you had to find a new means of support. Or maybe you made a new friend—another member of your adventuring party—who showed you new possibilities for earning a living and employing your particular talents.",
+                     "4": "Rogues represent thieves, treasure-hunters, cunning spies, and aspiring adventurers. Using their skills and cunning (and sometimes gifted with a knack for technology or strange magics), rogues are always welcome to any faction, and many works for more than two at any given time as scouts, double agents, and false merchants.",
+                     "5": "For rogues, the only code is the contract, and their honor is purchased in gold. Free from the constraints of a conscience, these mercenaries rely on brutal and efficient tactics. Lethal assassins and masters of stealth, they will approach their marks from behind, piercing a vital organ and vanishing into the shadows before the victim hits the ground."
+                  }
+               }
+            },
+            "QuickBuild": "You can make a rogue quickly by following these suggestions. First. Agility should be your highest ability score. Make Intelligence your next-highest if you want to excel at Investigation. Choose Charisma instead if you plan to emphasize deception and social interaction. Second, choose the charlatan background.",
+            "Archetypes": {
+               "Assassination": {
+                  "Title": "Assassination",
+                  "Description": "You are deadly master of poisons, who can dispatch various victims with vicious dagger strikes and amazing talents. Assassins are usually independent agents who perform contracts with various organizations to further their own goals."
+               },
+               "Outlaw": {
+                  "Title": "Outlaw",
+                  "Description": "You are a swashbuckler, duelists, or combatant who uses agility and guile to stand toe-to-toe with opponents. Outlaw rogues are usually pirates and highwaymen."
+               },
+               "Subtlety": {
+                  "Title": "Subtlety",
+                  "Description": "Your affinity with shadows reached beyond the mundane, tapping into shadowy arcane powers. Subtlety rogues are often spies who sell their secrets to the highest bidder."
+               }
+            }
+         },
          "Shaman": {
             "Name": "Shaman",
             "Introduction": {
@@ -1986,6 +2036,25 @@
                }
             }
          },
+         "Assassinate": {
+            "Label": "Assassinate",
+            "Description": {
+               "1": {
+                  "Value": "You are at your deadliest when you get the drop on your enemies. You have advantage on attack rolls against any creature that hasn‘t taken a turn in the combat yet. In addition, any hit you score against a creature that is surprised is a critical hit."
+               },
+               "2": {
+                  "Value": "Also, if you don‘t already have proficiency with a poisoner‘s kit, you gain proficiency in it, and you gain advantage to saving throws against your own poisons."
+               }
+            }
+         },
+         "Backstab": {
+            "Label": "Backstab",
+            "Description": {
+               "1": {
+                  "Value": "When you target a bloodied creature with a sneak attack, you may deal double the sneak attack damage. Once affected, the target is immune to this ability until they complete a short rest."
+               }
+            }
+         },
          "BadReputation": {
             "Label": "Bad Reputation",
             "Description": {
@@ -2101,6 +2170,14 @@
                      "7": "<i>Persistent beast</i>: Whenever you are in a wild shape, you have advantage to Stamina saving throws to maintain a concentration spell. Furthermore, if you lose concentration on a spell by taking damage while in wild shape, you regain half the mana spent on the spell. This does not count as a normal mana restorative effect.",
                      "8": "<i>Raking beast</i>: You gain the rogue‘s Sneak Attack ability as a 1st level rogue. If chosen again, your effective rogue level for this ability is equal to half your druid level."
                   }
+               }
+            }
+         },
+         "BlindSense": {
+            "Label": "Blind Sense",
+            "Description": {
+               "1": {
+                  "Value": "If you are able to hear, you are aware of the location of any hidden or invisible creature within 10 feet of you."
                }
             }
          },
@@ -2646,6 +2723,24 @@
                }
             }
          },
+         "DisablingStrike": {
+            "Label": "Disabling Strike",
+            "Description": {
+               "1": {
+                  "Value": "Your keen eye and calculating mind makes your Sneak Attacks even more potent. Whenever you succeed on an attack that deals Sneak Attack damage, you may elect to not deal sneak attack damage, and force your target to make an Agility saving throw contested by your own. If the target fails the saving throw, it gains one of the following conditions at your choice."
+               },
+               "2": {
+                  "Options": {
+                     "1": "Slowed by 1/2 their normal movement rate for until the end of its turn in the next round.",
+                     "2": "Blinded for until the end of its turn in the next round.",
+                     "3": "Stunned for until the end of its turn in the next round."
+                  }
+               },
+               "3": {
+                  "Value": "This is a strike effect that costs a bonus action. A creature cannot suffer more than once against your Disabling Strike in 24 hours. If you have the dire strike ability, you can deal half your sneak attack damage when applying a dire strike."
+               }
+            }
+         },
          "Discovery": {
             "Label": "Discovery",
             "Description": {
@@ -2657,11 +2752,30 @@
                }
             }
          },
+         "Dispatch": {
+            "Label": "Dispatch",
+            "Description": {
+               "1": {
+                  "Value": "Whenever attacking a target that is bloodied, your sneak attack dice improves from 1d6 to d10."
+               }
+            }
+         },
          "DispellingTouch": {
             "Label": "Dispelling Touch",
             "Description": {
                "1": {
                   "Value": "You can use your action to end one spell on yourself or on one willing creature that you touch. You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain expended uses when you finish a long rest."
+               }
+            }
+         },
+         "DisruptingStrike": {
+            "Label": "Disrupting Strike",
+            "Description": {
+               "1": {
+                  "Value": "You gain experience in fighting casters."
+               },
+               "2": {
+                  "Value": "Whenever you deal sneak attack damage with a melee weapon, you may give up a portion of the damage to inflict on the target the distracted condition for one round per 1d6 of sneak attack given up."
                }
             }
          },
@@ -2961,6 +3075,25 @@
             "Description": {
                "1": {
                   "Value": "Whenever you deliver a poison, disease, or potion, you the DC, damage, or duration of the effect increases by 2 points or two rounds (if possible)."
+               }
+            }
+         },
+         "Expertise": {
+            "Label": "Expertise",
+            "Description": {
+               "1": {
+                  "Value": "Choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with thieves‘ tools. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies."
+               },
+               "2": {
+                  "Value": "At 6th level, you can choose two more of your proficiencies (in skills or with thieves‘ tools) to gain this benefit."
+               }
+            }
+         },
+         "ExpertPoisoner": {
+            "Label": "Expert Poisoner",
+            "Description": {
+               "1": {
+                  "Value": "The Poisoned condition if delivered by you also inflicts disadvantage on one saving throw type you choose for the duration of the condition. You also gather triple the normal amount of crafting materials for poisons when harvesting (such as from raw materials or from creatures)."
                }
             }
          },
@@ -3864,6 +3997,14 @@
                }
             }
          },
+         "KillingSpree": {
+            "Label": "Killing Spree",
+            "Description": {
+               "1": {
+                  "Value": "you tap into your reserves of speed, going into a killing spree. While you are in this state, you may double your movement and gain advantage on your first attack at the beginning of every round. Your movement doesn't provoke opportunity attacks. This state remains for 1 minute, or until you spend one of your rounds without making an attack roll or if you are not targeted with an attack roll. This may be used once per short rest."
+               }
+            }
+         },
          "KnackForIt": {
             "Label": "Knack for It",
             "Description": {
@@ -4237,6 +4378,14 @@
                }
             }
          },
+         "Premeditation": {
+            "Label": "Premeditation",
+            "Description": {
+               "1": {
+                  "Value": "You may use 3 rounds (counted as 3 actions) to study an enemy. If you do, you may always apply your sneak attack damage against them (even without advantage or an ally nearby) for one minute, unless the target moves more than their full speed in one round. In addition, any hit you score against a creature that is surprised is a critical hit."
+               }
+            }
+         },
          "PresenceOfMind": {
             "Label": "Presence of Mind",
             "Description": {
@@ -4294,6 +4443,17 @@
                },
                "2": {
                   "Value": "Whenever you critically hit with a ranged fire spell, you may spend a bonus action to gain one round of concentration on the pyroblast spell for each critical hit. The pyromaniac bonus remains for one hour or until you cast the spell, and stacks with itself. It cannot exceed the maximum damage you can deal with spell, however. For this purpose, you count as if you critically hit if one of the targets of your fire spells fails by a natural 1-2 on a saving throw, or if you score a natural 19- 20 on a ranged attack with a fire spell."
+               }
+            }
+         },
+         "QuickCombatant": {
+            "Label": "Quick Combatant",
+            "Description": {
+               "1": {
+                  "Value": "You can attack twice, instead of once, whenever you take the Attack action on your turn."
+               },
+               "2": {
+                  "Value": "If you roll a successful attack roll with one of these attacks, you may forgo dealing damage with that attack to give yourself advantage on the next attack you make. This may only be done with melee attacks."
                }
             }
          },
@@ -4384,6 +4544,28 @@
                }
             }
          },
+         "RevealingStrike": {
+            "Label": "Revealing Strike",
+            "Description": {
+               "1": {
+                  "Value": "A target struck with this ability must make an Agility saving throw contested by your own. If you succeed, the target loses all increases to AC from a single type against all targets for until the end of your next round. This may be used to nullify armor bonuses, insight bonuses, or Agility bonuses, but not all three."
+               },
+               "2": {
+                  "Value": "A creature that suffers the effects of Revealing Strike cannot be targeted again for 24 hours. This is a strike effect that costs a bonus action."
+               }
+            }
+         },
+         "Riposte": {
+            "Label": "Riposte",
+            "Description": {
+               "1": {
+                  "Value": "You may deflect an incoming attack by using a reaction, thereby adding your Proficiency bonus to your AC. If your AC is then high enough to make the enemy miss after it would have been a success, you can make an attack of opportunity against the enemy."
+               },
+               "2": {
+                  "Value": "Outlaw rogues also gain proficiency with firearms and explosives."
+               }
+            }
+         },
          "RisingSun": {
             "Label": "Rising Sun",
             "Description": {
@@ -4397,6 +4579,28 @@
             "Description": {
                "1": {
                   "Value": "You passed many trials, such as the rite of adulthood and rite of glory. Your clan (and others) acknowledge your authority and influence, and you may utilize this influence to secure simple equipment such as temporary mounts or equipment. You are also honored by your clan, and you and your adventuring companions can find it easy to acquire shelter and food as guests, so long as you observe the customs of hospitality."
+               }
+            }
+         },
+         "RogueTalent": {
+            "Label": "Rogue Talent",
+            "Description": {
+               "1": {
+                  "Value": "You gain a class talent, representing your ability to function under pressure or perform specialized tasks, either by quick thinking, good use of skill, special aptitude towards magic, or by lightning-fast reflexes. See Class Talents at the end of the Chapter 3 for options."
+               },
+               "2": {
+                  "Value": "Whenever you qualify for another talent (as detailed in the talent column), you can choose another talent or gain another use of an existing talent."
+               }
+            }
+         },
+         "RoguishArchetype": {
+            "Label": "Roguish Archetype",
+            "Description": {
+               "1": {
+                  "Value": "You choose an archetype that you emulate in the exercise of your rogue abilities: Assassination, which focuses on capturing the opponent unawares a quickly dispatching of them, Outlaw, which focuses on dueling and swashbuckling, and Subtlety, which attunes one‘s self with shadows so much that they begin to aid him. All are detailed at the end of the class description."
+               },
+               "2": {
+                  "Value": "Your archetype choice grants you features at 3rd level and then again at 9th, 13th, and 17th level."
                }
             }
          },
@@ -4493,6 +4697,39 @@
                }
             }
          },
+         "ShadowDance": {
+            "Label": "Shadow Dance",
+            "Description": {
+               "1": {
+                  "Value": "You may initiate a shadow dance by moving more than 10 feet. While in this stance, you grant yourself concealment as per the blur spell. Also while in the stance, creatures affected or distracted by your mage spells (such as a summoned monster or an image illusion, but not the distracted condition) grant you advantage to your first attack at any round. This may be used once per short rest, and remains so long as you continue moving."
+               }
+            }
+         },
+         "ShadowSpellcasting": {
+            "Label": "Shadow Spellcasting",
+            "Description": {
+               "1": {
+                  "Value": "Drawing on mysterious shadow-magics, you can cast spells to shape that essence to your will. You cast spells drawn from the Mage spell list, and are restricted to spells from the Conjuration, Evocation, Enchantment, and Illusion schools. You may also scribe spells in Thieves‘ Cant. You also gain a spellbook as a 1st-level mage."
+               },
+               "2": {
+                  "Value": "You gain bonus spells on your 8th, 14th, and 20th level. These spells can be of any schools."
+               },
+               "3": {
+                  "Title": "Cantrips",
+                  "Value": "At 1st level, you know a number of cantrips equal to your proficiency bonus."
+               },
+               "4": {
+                  "Value": "One of your cantrips must be the mage hand cantrip."
+               },
+               "5": {
+                  "Title": "Preparing and Casting Spells",
+                  "Value": "Each rogue level provides you with 0.5 a caster level in the Mage class (minimum 0). You follow the normal progression to unlock spell levels (see the table under the Mana section)."
+               },
+               "6": {
+                  "Value": "You prepare the list of Mage spells that are available for you to cast, choosing from the mage spell list. Your spellcasting otherwise follows the same rules as the mage class (with regards to which creatures you can conjure, spellbooks, etc.). Your spellcasting ability is Intelligence."
+               }
+            }
+         },
          "ShamanisticArt": {
             "Label": "Shamanistic Art",
             "Description": {
@@ -4554,6 +4791,17 @@
                },
                "2": {
                   "Value": "If you want to cast either spell at a higher level, you must expend mana as normal."
+               }
+            }
+         },
+         "SneakAttack": {
+            "Label": "Sneak Attack",
+            "Description": {
+               "1": {
+                  "Value": "You know how to strike subtly and exploit a foe‘s distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon. You don‘t need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn‘t incapacitated, and you don‘t have disadvantage on the attack roll."
+               },
+               "2": {
+                  "Value": "The amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the Rogue table."
                }
             }
          },
@@ -5010,6 +5258,17 @@
                }
             }
          },
+         "StrokeOfLuck": {
+            "Label": "Stroke of Luck",
+            "Description": {
+               "1": {
+                  "Value": "You have an uncanny knack for succeeding when you need to. If your attack misses a target within range, you can turn the miss into a hit. Alternatively, if you fail an ability check, you can treat the d20 roll as a 20."
+               },
+               "2": {
+                  "Value": "Once you use this feature, you can‘t use it again until you finish a short or long rest."
+               }
+            }
+         },
          "StudentOfFlame": {
             "Label": "Student of Flame",
             "Description": {
@@ -5082,7 +5341,7 @@
                "2": {
                   "Value": "This action counts as if you made a single unarmed attack for the purposes of your Martial Arts feature and Flurry of Blows ability."
                }
-           }
+            }
          },
          "SuperMutant": {
             "Label": "Super Mutant",
@@ -5117,6 +5376,14 @@
                },
                "2": {
                   "Value": "You can possess an indefinite number of synthesized potions, but create only one every 24 hours."
+               }
+            }
+         },
+         "ThievesCant": {
+            "Label": "Thieves' Cant",
+            "Description": {
+               "1": {
+                  "Value": "During your rogue training you learned thieves‘ cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. Only another creature that knows thieves‘ cant understands such messages. It takes four times longer to convey such a message than it does to speak the same idea plainly. In addition, you understand a set of secret signs and symbols used to convey short, simple messages, such as whether an area is dangerous or the territory of a thieves‘ guild, whether loot is nearby, or whether the people in an area are easy marks or will provide a safe house for thieves on the run."
                }
             }
          },
@@ -5247,6 +5514,22 @@
             "Description": {
                "1": {
                   "Value": "Whenever you start your round in a turn with below half your maximum hit points, and have no temporary hit points, you gain a number of temporary hit points equal to 1d12 + your Stamina modifier."
+               }
+            }
+         },
+         "Vanish": {
+            "Label": "Vanish",
+            "Description": {
+               "1": {
+                  "Value": "You may grant yourself invisibility as a reaction. This invisibility remains until the end of your next turn. This may be used once per point of Intelligence modifier, and replenishes after a short rest."
+               }
+            }
+         },
+         "Vendetta": {
+            "Label": "Vendetta",
+            "Description": {
+               "1": {
+                  "Value": "You may mark one target within 100 feet with an action, and have advantage to all Perception checks to perceive them, as well as advantage to the first attack of every turn against them. The benefits remain for one minute, and may be used once before a short rest."
                }
             }
          },
@@ -5651,58 +5934,211 @@
          "Mechanics": {
             "AbilityScoreSummary": {
                "Label": "Ability Score Summary",
-               "Blocks": {
+               "Description": {
                   "1": {
-                     "Content": "Measures: Natural athleticism, bodily power<br>Important for: Death Knight, Paladin, and Warrior"
+                     "Value": "Measures: Natural athleticism, bodily power<br>Important for: Death Knight, Paladin, and Warrior"
                   },
                   "2": {
-                     "Content": "Measures: Physical agility, reflexes, balance, poise<br>Important for: Hunter, Monk, Rogue"
+                     "Value": "Measures: Physical agility, reflexes, balance, poise<br>Important for: Hunter, Monk, Rogue"
                   },
                   "3": {
-                     "Content": "Measures: Health, constitution, vital force<br>Important for: Everyone"
+                     "Value": "Measures: Health, constitution, vital force<br>Important for: Everyone"
                   },
                   "4": {
-                     "Content": "Measures: Mental acuity, information recall, analytical skill<br>Important for: Alchemist, Mage, Tinker"
+                     "Value": "Measures: Mental acuity, information recall, analytical skill<br>Important for: Alchemist, Mage, Tinker"
                   },
                   "5": {
-                     "Content": "Measures: Awareness, intuition, wisdom<br>Important for: Druid, Priest, Shaman"
+                     "Value": "Measures: Awareness, intuition, wisdom<br>Important for: Druid, Priest, Shaman"
                   },
                   "6": {
-                     "Content": "Measures: Confidence, eloquence, leadership<br>Important for: Warlock"
+                     "Value": "Measures: Confidence, eloquence, leadership<br>Important for: Warlock"
+                  },
+                  "7": {
+                     "Headline": "Racial Increases"
                   }
                }
             },
-            "DeterminingAbilityScores": {
-               "Label": "Determining Ability Scores",
-               "Blocks": {
+            "Advantage": {
+               "Label": "Advantages and Disadvantages",
+               "Description": {
                   "1": {
-                     "Label": "Focus and Foible",
-                     "Content": "This method leads to more focused characters with clearer weaknesses. Before applying modifiers, choose a one focus (an ability score you‘re good at) and one foible (an ability score you‘re bad at).<br><i>Focus</i>. Mark this attribute as 18<br><i>Foible</i>. Mark this attribute as 8<br><br>Set your remaining attributes at 10, and distribute 16 points among the ability scores in any way you desire. You may reduce an existing attribute by up to 2 points to gain 2 points to add to another attribute."
+                     "Value": "Sometimes a special ability or spell tells you that you have advantage or disadvantage on an ability check, a saving throw, or an attack roll. When that happens, you roll a second d20 when you make the roll. Use the higher of the two rolls if you have advantage, and use the lower roll if you have disadvantage. For example, if you have disadvantage and roll a 17 and a 5, you use the 5. If you instead have advantage and roll those numbers, you use the 17."
                   },
                   "2": {
-                     "Label": "Heroic Roll",
-                     "Content": "This method leads to generally stronger characters than by normal rolling. For each ability score, roll 2d6 + 6."
+                     "Value": "If multiple situations affect a roll and each one grants advantage or imposes disadvantage on it, you don't roll more than one additional d20. If two favorable situations grant advantage, for example, you still roll only one additional d20."
+                  },
+                  "3": {
+                     "Value": "If circumstances cause a roll to have both advantage and disadvantage, you are considered to have neither of them, and you roll one d20. This is true even if multiple circumstances impose disadvantage and only one grants advantage or vice versa. In such a situation, you have neither advantage nor disadvantage."
+                  },
+                  "4": {
+                     "Value": "When you have advantage or disadvantage and something in the game, such as the halfling's Lucky trait, lets you reroll the d20, you can reroll only one of the dice. You choose which one. For example, if a halfling has advantage or disadvantage on an ability check and rolls a 1 and a 13, the halfling could use the Lucky trait to reroll the 1."
+                  },
+                  "5": {
+                     "Value": "You usually gain advantage or disadvantage through the use of special abilities, actions, or spells. Inspiration can also give a character advantage. The GM can also decide that circumstances influence a roll in one direction or the other and grant advantage or impose disadvantage as a result."
                   }
                }
             },
             "Beyond1stLevel": {
                "Label": "Beyond 1st Level",
-               "Content": "<p>The rules in the World of Warcraft 5e RPG also include crafting sub-systems and classes (such as the Alchemist and Tinker), and various options (such as the <a class=\"entity-link inline\" data-pack=\"warcraft5e.feats\" data-id=\"enBseIfaasp0D7xv\">Infusionist</a> feat) that can translate wealth into character power. When creating a character from above 1st level, refer to the following guidelines for expected wealth for level to give a general idea how to keep characters on the same general level of wealth. Refer to the Item Creation Complexity and Cost Table on Chapter 7 to calculate item rarity. Note that crafting an item costs onehalf the cost of buying it.</p><p>The amount of wealth carried by a character can vary significantly depending on starting resources, unexpected loot gained in the campaign, whether or not characters have downtime to gather additional wealth, inherited gold, or even  ossessing companies and strongholds under their control.</p>",
-               "Blocks": {
+               "Description": {
                   "1": {
-                     "Label": "Magical Item Budget",
-                     "Content": "A DM may refer to the above chart to determine the total worth of magic items the characters have, without actually explicit magic items to be sold. In this case, the wealth is not the expected wealth of the character, but the cost of the magic items the player should have by the appropriate level. This can come in the form of quest gifts, a normal item improving into a magical one, or a permanent blessing or infusion upon a held item. The expected cost of magic items relative to rarity is present in Chapter 7."
+                     "Value": "The rules in the World of Warcraft 5e RPG also include crafting sub-systems and classes (such as the Alchemist and Tinker), and various options (such as the Infusionist feat) that can translate wealth into character power."
                   },
                   "2": {
-                     "Label": "Expected Downtime",
-                     "Content": "In case of crafting classes (Alchemist and Tinker), or in cases where characters can create magical items (taking the Infusionist feat), a good amount of downtime to allow the classes to function at a competitive rate is usually 5 days to 1 week between adventures (or the same time for every 3-5 combat encounters). That way, very complex projects (2 weeks) like building a mecha or vehicle can be done every two adventures. With such options available, players benefit more from wealth and time to build the exact items they need, from scrolls, potions, explosives, and more spells in a mage's spellbook, to advanced constructs and vehicles such as gyrocopters, so exercising judgment is key."
+                     "Value": "When creating a character from above 1st level, refer to the following guidelines for expected wealth for level to give a general idea how to keep characters on the same general level of wealth."
+                  },
+                  "3": {
+                     "Value": "Refer to the Item Creation Complexity and Cost Table on Chapter 7 to calculate item rarity. Note that crafting an item costs one half the cost of buying it."
+                  },
+                  "4": {
+                     "Value": "The amount of wealth carried by a character can vary significantly depending on starting resources, unexpected loot gained in the campaign, whether or not characters have downtime to gather additional wealth, inherited gold, or even possessing companies and strongholds under their control."
+                  },
+                  "5": {
+                     "Title": "Magical Item Budget",
+                     "Value": "The amount of wealth carried by a character can vary significantly depending on starting resources, unexpected loot gained in the campaign, whether or not characters have downtime to gather additional wealth, inherited gold, or even possessing companies and strongholds under their control."
+                  },
+                  "6": {
+                     "Value": "In this case, the wealth is not the expected wealth of the character, but the cost of the magic items the player should have by the appropriate level. This can come in the form of quest gifts, a normal item improving into a magical one, or a permanent blessing or infusion upon a held item."
+                  },
+                  "7": {
+                     "Value": "The expected cost of magic items relative to rarity is present in Chapter 7."
+                  },
+                  "8": {
+                     "Title": "Expected Downtime",
+                     "Value": "In case of crafting classes (Alchemist and Tinker), or in cases where characters can create magical items (taking the Infusionist feat), a good amount of downtime to allow the classes to function at a competitive rate is usually 5 days to 1 week between adventures (or the same time for every 3-5 combat encounters)."
+                  },
+                  "9": {
+                     "Value": "That way, very complex projects (2 weeks) like building a mecha or vehicle can be done every two adventures."
+                  },
+                  "10": {
+                     "Value": "With such options available, players benefit more from wealth and time to build the exact items they need, from scrolls, potions, explosives, and more spells in a mage's spellbook, to advanced constructs and vehicles such as gyrocopters, so exercising judgment is key."
                   }
                },
                "TypicalWealth": "Typical Wealth"
             },
-            "Advantage": {
-               "Label": "Advantages and Disadvantages",
-               "Content": "<p>Sometimes a special ability or spell tells you that you have advantage or disadvantage on an ability check, a saving throw, or an attack roll. When that happens, you roll a second d20 when you make the roll. Use the higher of the two rolls if you have advantage, and use the lower roll if you have disadvantage. For example, if you have disadvantage and roll a 17 and a 5, you use the 5. If you instead have advantage and roll those numbers, you use the 17.</p><p>If multiple situations affect a roll and each one grants advantage or imposes disadvantage on it, you don't roll more than one additional d20. If two favorable situations grant advantage, for example, you still roll only one additional d20.</p><p>If circumstances cause a roll to have both advantage and disadvantage, you are considered to have neither of them, and you roll one d20. This is true even if multiple circumstances impose disadvantage and only one grants advantage or vice versa. In such a situation, you have neither advantage nor disadvantage.</p><p>When you have advantage or disadvantage and something in the game, such as the halfling's Lucky trait, lets you reroll the d20, you can reroll only one of the dice. You choose which one. For example, if a halfling has advantage or disadvantage on an ability check and rolls a 1 and a 13, the halfling could use the Lucky trait to reroll the 1.</p><p>You usually gain advantage or disadvantage through the use of special abilities, actions, or spells. Inspiration can also give a character advantage. The GM can also decide that circumstances influence a roll in one direction or the other and grant advantage or impose disadvantage as a result.</p>"
+            "BoundCompanions": {
+               "Label": "Bound Companions",
+               "Description": {
+                  "1": {
+                     "Value": "Characters‘ class abilities sometimes provide companions. Companions are creatures that have lower challenge rating than the character, and join the character in their adventures free of charge."
+                  },
+                  "2": {
+                     "Value": "These creatures do not grant XP when killed, and do not consume XP when fighting, but are effectively bound to the character who has the ability, leveling up with them in some capacity (gaining hit dice, ability score increases, etc., as detailed in the class entry)."
+                  },
+                  "3": {
+                     "Value": "The ability that provides the bound companion determines the creature type (usually beast), the CR, and whether the companion gains special abilities."
+                  },
+                  "4": {
+                     "Value": "Some abilities allow you to increase the strength of your bond with your companion. In this case, you may be allowed to add your Proficiency bonus to the companion‘s attack rolls or saving throws (or other rolls). This does not stack with the creature‘s own Proficiency Bonus."
+                  },
+                  "5": {
+                     "Title": "Controlling the Companion",
+                     "Value": "The companion obeys its master‘s commands as best as it can. It takes its turn on its master‘s initiative."
+                  },
+                  "6": {
+                     "Value": "On the master‘s turn, the companion can be verbally commanded where to move (no action required by you) or what to do. If the creature has a special bond, the master may or may not be able to command it telepathically, depending on the bond‘s description."
+                  },
+                  "7": {
+                     "Value": "Bound companions otherwise act on their own, unless given a clear command from their master, in which case they fulfill the command as best as they can. Giving a bound companion a direct order (so long as they are not telepathically connected) costs an attack action."
+                  },
+                  "8": {
+                     "Value": "The master is always aware of the bound companion‘s normal course of action. If the master is incapacitated or absent, the companion acts as it normally would, but also protects its master and itself."
+                  },
+                  "9": {
+                     "Value": "For example, a hunter with a panther companion is attacked in an ambush. The panther, if commanded to fight, would normally attack the weakest enemy from behind. If the hunter uses an attack to command the panther to fight in sync with him, the panther obeys and fights as its master wishes."
+                  }
+               }
+            },
+            "Classes": {
+               "Label": "Classes",
+               "Description": {
+                  "1": {
+                     "Value": "Specializations in Warcraft act as sub-classes for most intents and purposes. Some subclasses are racially-locked, and thus can only be entered by fulfilling a racial requirement."
+                  },
+                  "2": {
+                     "Value": "Classes in Azeroth have different names (as noted in the introduction), and sometimes different abilities. These are noted below."
+                  },
+                  "3": {
+                     "Title": "Optional Rule: More Talents",
+                     "Value": "Talents allows customizing your character in a more freeform way than multiclassing."
+                  },
+                  "4": {
+                     "Value": "With this optional rule, you may exchange class features gained from archetypes (paths, circles, traditions, etc.) to grant access to a talent, but only if the class already has the ability to gain talents, and only once per level."
+                  }
+               }
+            },
+            "ClassTalents": {
+               "Label": "Class Talents",
+               "Description": {
+                  "1": {
+                     "Value": "Some classes allow you to take talents, which are customizable class features that can enrich and reinforce a certain character concept."
+                  },
+                  "2": {
+                     "Value": "All talent abilities have DCs of 8 + your proficiency bonus + your Strength or Agility modifier (your choice) if they allow a saving throw."
+                  },
+                  "3": {
+                     "Value": "For a detailed list of available Class Talents please consult the \"Wc5e | Class Talents\" Compendium."
+                  }
+               }
+            },
+            "DeterminingAbilityScores": {
+               "Label": "Determining Ability Scores",
+               "Description": {
+                  "1": {
+                     "Value": "When determining your ability scores (also known as attributes), there are two new methods to create them; the focused method, and the heroic method. Both yield higher attributes on average, suitable for the many challenges in the Warcraft universe."
+                  },
+                  "2": {
+                     "Title": "Focus and Foible",
+                     "Value": "This method leads to more focused characters with clearer weaknesses."
+                  },
+                  "3": {
+                     "Value": "Before applying modifiers, choose a one focus (an ability score you‘re good at) and one foible (an ability score you‘re bad at)."
+                  },
+                  "4": {
+                     "Value": "<i>Focus</i>: Mark this attribute as 18<br><i>Foible</i>: Mark this attribute as 8"
+                  },
+                  "5": {
+                     "Value": "Set your remaining attributes at 10, and distribute 16 points among the ability scores in any way you desire. You may reduce an existing attribute by up to 2 points to gain 2 points to add to another attribute."
+                  },
+                  "6": {
+                     "Title": "Heroic Roll",
+                     "Value": "This method leads to generally stronger characters than by normal rolling. For each ability score, roll 2d6 + 6."
+                  }
+               }
+            },
+            "Races": {
+               "Label": "Races",
+               "Description": {
+                  "1": {
+                     "Value": "The races of Warcraft are diverse and rich. Each race has a role in the world, and their deeds resonate through the ages. Members of each race view each other with assumptions formed by past conflicts and alliances. Warcraft‘s history is troubled and epic, and every aspect influences the races, their beliefs and their roles."
+                  },
+                  "2": {
+                     "Value": "The races described here are not the only races in the Warcraft world, but they are the most dominant, influential, and prone to adventuring. Other races can be found in the Monster Guide."
+                  },
+                  "3": {
+                     "Title": "Racial Mount",
+                     "Value": "Each race in Warcraft has affinity to one creature that serves as a primary mount, either to accommodate their skeletal and muscular structure, or for cultural reasons. Refer to the below table for details."
+                  }
+               },
+               "RacialMount": {
+                  "Elekk": "Elekk",
+                  "Rams": "Rams",
+                  "Gryphons": "Gryphons",
+                  "CoreHounds": "Core Hounds",
+                  "Horses": "Horses",
+                  "Hawkstrider": "Hawkstrider",
+                  "SaberCats": "Saber Cats",
+                  "SkeletalHorses": "Skeletal Horses",
+                  "SkeletalHorsesDesc": "(Horse with skeletal template)",
+                  "Mechanostriders": "Mechanostriders",
+                  "MechanostridersDesc": "(Tallstrider with mechanized template)",
+                  "TurboTrike": "Turbo-Trike",
+                  "TurboTrikeDesc": "(Vehicle)",
+                  "Wolves": "Wolves",
+                  "GiantTurtles": "Giant Turtles",
+                  "KodoBeasts": "Kodo Beasts",
+                  "Raptors": "Raptors"
+               }
             },
             "Resistance": {
                "Label": "Damage Resistance and Vulnerability",
@@ -8083,6 +8519,7 @@
          "PersonalityTrait": "Personality Trait",
          "PersonalityTraits": "Personality Traits",
          "PointCost": "Point Cost",
+         "Race": "Race",
          "Rarities": {
             "Common": "Common",
             "Uncommon": "Uncommon",

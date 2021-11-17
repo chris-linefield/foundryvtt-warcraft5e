@@ -1,0 +1,26 @@
+{
+   "_id": "BHLZAkGslbF7Zm2B",
+   "name": "Thieves' Cant",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 111",
+      "requirements": "Rogue 1"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.ThievesCant.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "systems/dnd5e/icons/skills/light_07.jpg",
+   "effects": [
+   ]
+}

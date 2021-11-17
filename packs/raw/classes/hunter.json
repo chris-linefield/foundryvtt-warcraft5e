@@ -180,6 +180,11 @@
                      "pack": "warcraft5e.wc5e_class_feats",
                      "node": "1bcAMQ0PaxViafja",
                      "label": "WC5E.Feats.HunterArchetype.Label"
+                  },
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "ZIozEthSXCRehlGw",
+                     "label": "WC5E.Feats.HunterTalent.Label"
                   }
                ]
             },
@@ -219,6 +224,11 @@
                      "pack": "warcraft5e.wc5e_class_feats",
                      "node": "wLNTBy9dMYT2CjGb",
                      "label": "WC5E.Feats.FavoredEnemy.Label"
+                  },
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "ZIozEthSXCRehlGw",
+                     "label": "WC5E.Feats.HunterTalent.Label"
                   }
                ]
             },
@@ -245,6 +255,11 @@
                      "pack": "warcraft5e.wc5e_class_feats",
                      "node": "pZ0s66jTVdto9Z3b",
                      "label": "WC5E.Feats.AbilityScoreImprovement.Label"
+                  },
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "ZIozEthSXCRehlGw",
+                     "label": "WC5E.Feats.HunterTalent.Label"
                   }
                ]
             },
@@ -265,6 +280,11 @@
                      "pack": "warcraft5e.wc5e_class_feats",
                      "node": "wLNTBy9dMYT2CjGb",
                      "label": "WC5E.Feats.HideInPlainSight.Label"
+                  },
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "ZIozEthSXCRehlGw",
+                     "label": "WC5E.Feats.HunterTalent.Label"
                   }
                ]
             },
@@ -311,6 +331,11 @@
                      "pack": "warcraft5e.wc5e_class_feats",
                      "node": "wLNTBy9dMYT2CjGb",
                      "label": "WC5E.Feats.FavoredEnemy.Label"
+                  },
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "ZIozEthSXCRehlGw",
+                     "label": "WC5E.Feats.HunterTalent.Label"
                   }
                ]
             },
@@ -352,7 +377,13 @@
                "proficiency": "6",
                "special": "7",
                "caster": "9 (5th)",
-               "feats": []
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "ZIozEthSXCRehlGw",
+                     "label": "WC5E.Feats.HunterTalent.Label"
+                  }
+               ]
             },
             {
                "level": "19",

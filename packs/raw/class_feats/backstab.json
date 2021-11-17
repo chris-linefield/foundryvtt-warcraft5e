@@ -1,0 +1,26 @@
+{
+   "_id": "nzIko1AaRr8T5sDc",
+   "name": "Backstab",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 114",
+      "requirements": "Rogue (Subtlety) 17"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.Backstab.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/skills/melee/blood-slash-foam-red.webp",
+   "effects": [
+   ]
+}

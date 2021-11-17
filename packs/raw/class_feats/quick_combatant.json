@@ -1,0 +1,29 @@
+{
+   "_id": "ys5bnmMxFhtN34Uh",
+   "name": "Quick Combatant",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 113",
+      "requirements": "Rogue (Outlaw) 9"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.QuickCombatant.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.QuickCombatant.Description.2.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/skills/melee/strike-weapons-orange.webp",
+   "effects": [
+   ]
+}
