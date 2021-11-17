@@ -445,6 +445,75 @@ ClassFeatures.monk = {
         "20": ["Compendium.warcraft5e.wc5e_class_feats.cA9AWTxYSiztfWlq"]
     }
 }
+ClassFeatures.rogue = {
+    "subclasses": {
+        "assassination": {
+            "label": "Assassination",
+            "source": "Core Rules page 112",
+            "features": {
+                "3": [
+                    "Compendium.warcraft5e.wc5e_class_feats.oI0wCH7jMFKC8ip6",
+                    "Compendium.warcraft5e.wc5e_class_feats.AOZEW7HvF67rYdgw"
+                ],
+                "9": ["Compendium.warcraft5e.wc5e_class_feats.VqmbJ0IiurDWitRA"],
+                "13": ["Compendium.warcraft5e.wc5e_class_feats.eHA6DPMKqchmrquO"],
+                "17": ["Compendium.warcraft5e.wc5e_class_feats.CC7dhTLu1GPURbXT"]
+            }
+        },
+        "outlaw": {
+            "label": "Outlaw",
+            "source": "Core Rules page 112",
+            "features": {
+                "3": [
+                    "Compendium.warcraft5e.wc5e_class_feats.SOupAvvP4QJxvsZp",
+                    "Compendium.warcraft5e.wc5e_class_feats.b0AbARYDh5upr45h"
+                ],
+                "9": ["Compendium.warcraft5e.wc5e_class_feats.ys5bnmMxFhtN34Uh"],
+                "13": ["Compendium.warcraft5e.wc5e_class_feats.5YfBDix3LAyHniYr"],
+                "17": ["Compendium.warcraft5e.wc5e_class_feats.3x5iepuAIJ3b3ZCI"]
+            }
+        },
+        "subtlety": {
+            "label": "Subtlety",
+            "source": "Core Rules page 113",
+            "features": {
+                "3": [
+                    "Compendium.warcraft5e.wc5e_class_feats.HdBCMDKhHcFg5K8E",
+                    "Compendium.warcraft5e.wc5e_class_feats.2K9BDwRekjipPJOd"
+                ],
+                "9": ["Compendium.warcraft5e.wc5e_class_feats.cKmRTcMPNTJZVBcB"],
+                "13": ["Compendium.warcraft5e.wc5e_class_feats.AVqdNKWuX3fo0t6y"],
+                "17": ["Compendium.warcraft5e.wc5e_class_feats.nzIko1AaRr8T5sDc"]
+            }
+        }
+    },
+    "features": {
+        "1": [
+            "Compendium.warcraft5e.wc5e_class_feats.eGZHgFTQ6jpeGxpx",
+            "Compendium.warcraft5e.wc5e_class_feats.EpwVYwGV2fvfjPlM",
+            "Compendium.warcraft5e.wc5e_class_feats.BHLZAkGslbF7Zm2B"
+        ],
+        "2": ["Compendium.warcraft5e.wc5e_class_feats.3lH8HEn54RQyENCN"],
+        "3": ["Compendium.warcraft5e.wc5e_class_feats.Ati44swDcnfISD78"],
+        "4": ["Compendium.warcraft5e.wc5e_class_feats.pZ0s66jTVdto9Z3b"],
+        "5": ["Compendium.warcraft5e.wc5e_class_feats.3lH8HEn54RQyENCN"],
+        "6": ["Compendium.warcraft5e.wc5e_class_feats.eGZHgFTQ6jpeGxpx"],
+        "7": ["Compendium.warcraft5e.wc5e_class_feats.3lH8HEn54RQyENCN"],
+        "8": ["Compendium.warcraft5e.wc5e_class_feats.pZ0s66jTVdto9Z3b"],
+        "9": ["Compendium.warcraft5e.wc5e_class_feats.Ati44swDcnfISD78"],
+        "10": ["Compendium.warcraft5e.wc5e_class_feats.pZ0s66jTVdto9Z3b"],
+        "11": ["Compendium.warcraft5e.wc5e_class_feats.3lH8HEn54RQyENCN"],
+        "12": ["Compendium.warcraft5e.wc5e_class_feats.pZ0s66jTVdto9Z3b"],
+        "13": ["Compendium.warcraft5e.wc5e_class_feats.Ati44swDcnfISD78"],
+        "14": ["Compendium.warcraft5e.wc5e_class_feats.x7depgHFRiQT3fdH"],
+        "15": ["Compendium.warcraft5e.wc5e_class_feats.3lH8HEn54RQyENCN"],
+        "16": ["Compendium.warcraft5e.wc5e_class_feats.pZ0s66jTVdto9Z3b"],
+        "17": ["Compendium.warcraft5e.wc5e_class_feats.Ati44swDcnfISD78"],
+        "18": ["Compendium.warcraft5e.wc5e_class_feats.3lH8HEn54RQyENCN"],
+        "19": ["Compendium.warcraft5e.wc5e_class_feats.pZ0s66jTVdto9Z3b"],
+        "20": ["Compendium.warcraft5e.wc5e_class_feats.JznOH8HR1MHE1nkE"]
+    }
+}
 ClassFeatures.shaman = {
     "subclasses": {
         "elemental": {

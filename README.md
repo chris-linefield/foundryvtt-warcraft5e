@@ -11,7 +11,7 @@ https://discord.com/channels/410113488204070932/410113488204070934
 ## Version: 0.0.18
 Feature | Description
 ------------ | -------------
-![Classes Preview](http://www.hahn-webdesign.de/warcraft5e/classes_preview.jpg) | Features an overhauled class-sheet with lore and images. Features compendium entries for all classes.<br><br>Progress: <ul><li>[x] Alchemist + Class Feats and Spells</li><li>[x] Death Knight + Class Feats and Spells</li><li>[x] Druid + Class Feats and Spells</li><li>[x] Hunter + Class Feats</li><li>[x] Mage + Class Feats</li><li>[ ] Monk</li><li>[ ] Paladin</li><li>[ ] Priest</li><li>[ ] Rogue</li><li>[x] Shaman + Class Feats and Spells</li><li>[x] Tinker + Class Feats</li><li>[x] Warlock + Class Feats</li><li>[x] Warrior + Class Feats</li></ul>
+![Classes Preview](http://www.hahn-webdesign.de/warcraft5e/classes_preview.jpg) | Features an overhauled class-sheet with lore and images. Features compendium entries for all classes.<br><br>Progress: <ul><li>[x] Alchemist + Class Feats and Spells</li><li>[x] Death Knight + Class Feats and Spells</li><li>[x] Druid + Class Feats and Spells</li><li>[x] Hunter + Class Feats</li><li>[x] Mage + Class Feats</li><li>[x] Monk + Class Feats</li><li>[ ] Paladin</li><li>[ ] Priest</li><li>[ ] Rogue</li><li>[x] Shaman + Class Feats and Spells</li><li>[x] Tinker + Class Feats</li><li>[x] Warlock + Class Feats</li><li>[x] Warrior + Class Feats</li></ul>
 
 
 Description | Feature
@@ -45,4 +45,3 @@ Automation of all possible skills by improving management and usage for foundry 
 - finish all the classes
 - Make races valid items for the character sheet so it automatically updates attributes and stuff
 - rework world and lore specific things - (like available languages, ...)
-
