@@ -2418,6 +2418,14 @@
                }
             }
          },
+         "ChannelDivinityLightOfDawn": {
+            "Label": "Channel Divinity: Light of Dawn",
+            "Description": {
+               "1": {
+                  "Value": "When you take this oath at 3rd level, you can spend a Channel Divinity use and an action, to present your holy symbol and release an outburst of the Holy Light of Creation, allowing one friendly creature within 30 feet to use a hit dice as if they rested. The ally also gains temporary hit points equal to double your Charisma modifier."
+               }
+            }
+         },
          "ChannelElements": {
             "Label": "Channel Elements",
             "Description": {
@@ -3788,6 +3796,17 @@
                }
             }
          },
+         "HolyAuras": {
+            "Label": "Holy Auras",
+            "Description": {
+               "1": {
+                  "Value": "Your auras increase in strength. You may maintain two aura spells at once as if they cost one case of concentration. Furthermore, your allies can benefit from two auras at a time."
+               },
+               "2": {
+                  "Value": "Also, whenever an ally is within one of your aura spells, they are more easily healed by you. If you are using a paladin healing spell, it can heal one additional dice of damage to them. If you are using the Lay on Hands feature, it can heal 25% extra hit points. If you are using the holy shock spell, it can heal or deal one additional dice of damage if the target is within one of your aura spells."
+               }
+            }
+         },
          "HolyOath": {
             "Label": "Holy Oath",
             "Description": {
@@ -3820,6 +3839,20 @@
                },
                "9": {
                   "Value": "If the creature fails its saving throw, it is turned for 1 minute or until it takes damage. A turned creature must spend its turns trying to move as far away from you as it can, and it can‘t willingly move to a space within 30 feet of you. It also can‘t take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there‘s nowhere to move, the creature can use the Dodge action."
+               }
+            }
+         },
+         "HolyVision": {
+            "Label": "Holy Vision",
+            "Description": {
+               "1": {
+                  "Value": "Whenever you cast a healing spell from the paladin spell list and the dice shows the maximum possible result (such as a 6 on a d6), you may roll the maximized dice again and add the amount healed to the total. This applies to healing spells that deal damage to undead."
+               },
+               "2": {
+                  "Value": "This does not stack with other similar abilities."
+               },
+               "3": {
+                  "Value": "This acts similarly to the Light‘s Insight ability of the holy priesthood. If having both features, and if the re-rolled dice results in a maximum result as well, you may roll a third time."
                }
             }
          },
@@ -3954,10 +3987,21 @@
             "Label": "Ice Statues",
             "Description": {
                "1": {
-                  "Value": "whenever you a target of your mage spells is restrained by having their speed reduced to 0 by the chilled condition, they are also incapacitated for the duration of the chilled condition. Against such targets, your frost bolt cantrip is automatically a critical hit if it successfully hits, but the chilled condition ends prematurely (and is not applied for frost bolt)."
+                  "Value": "Whenever you a target of your mage spells is restrained by having their speed reduced to 0 by the chilled condition, they are also incapacitated for the duration of the chilled condition. Against such targets, your frost bolt cantrip is automatically a critical hit if it successfully hits, but the chilled condition ends prematurely (and is not applied for frost bolt)."
                },
                "2": {
                   "Value": "Also, whenever you deal damage to a creature that exceeds one-half their maximum hit points at once, they are both restrained and incapacitated for one hour (or until they thaw out, whichever comes first). Both effects end prematurely if the target is hit."
+               }
+            }
+         },
+         "IlluminatedHealer": {
+            "Label": "Illuminated Healer",
+            "Description": {
+               "1": {
+                  "Value": "Whenever a creature that benefits from a healing effect (such as Light of Dawn, or healing spell) originating from you manifest a holy shield. This holy shield grants them temporary hit points equal to the amount they were healed by you."
+               },
+               "2": {
+                  "Value": "This shield remains until ten minutes have passed. A creature can benefit from a single holy shield only once every hour. When you benefit from maximized dice via your Holy Vision feature, you may roll again (up to twice per instance)."
                }
             }
          },
@@ -4201,6 +4245,17 @@
                },
                "2": {
                   "Value": "Furthermore, you can choose to lower the malfunction rating of all devices you create by 2 points (minimum 1)."
+               }
+            }
+         },
+         "LatentPrayer": {
+            "Label": "Latent Prayer",
+            "Description": {
+               "1": {
+                  "Value": "You may cast a healing spell on a creature that only activates whenever the creature wishes. This does not require concentration on your end, and the creature (or you) may declare use of the spell as a reaction. This effect remains for one day or until used, and leaves a holy mark that can be detected as the healing spell. A single creature can only benefit from one latent prayer until they take a long rest. This may also be applied to undead to harm them (if possible)."
+               },
+               "2": {
+                  "Value": "If you use this ability while under the effect of the avatar form paladin spell, you can affect a second time in the same period."
                }
             }
          },

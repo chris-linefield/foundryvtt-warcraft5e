@@ -1,0 +1,32 @@
+{
+   "_id": "1p5iixJWw8wzFxmi",
+   "name": "Holy Vision",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 92",
+      "requirements": "Paladin (Holiness) 3"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.HolyVision.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.HolyVision.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Feats.HolyVision.Description.3.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/life/heart-area-circle-red-green.webp",
+   "effects": [
+   ]
+}

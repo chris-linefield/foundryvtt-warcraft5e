@@ -397,51 +397,51 @@
          ],
          "archetypes": [
             {
-               "title": "WC5E.Class.Paladin.SacredOaths.OathOfHoliness.Title",
-               "description": "WC5E.Class.Paladin.SacredOaths.OathOfHoliness.Description",
+               "title": "WC5E.Class.Paladin.SacredOaths.Holiness.Title",
+               "description": "WC5E.Class.Paladin.SacredOaths.Holiness.Description",
                "featList": [
                   {
                      "level": "3",
                      "feats": [
                         {
                            "pack": "warcraft5e.wc5e_class_feats",
-                           "node": "oI0wCH7jMFKC8ip6",
-                           "label": "WC5E.Feats.Assassinate.Label"
+                           "node": "LZZZqJgcLeEvrs4e",
+                           "label": "WC5E.Feats.ChannelDivinityLightOfDawn.Label"
                         },
                         {
                            "pack": "warcraft5e.wc5e_class_feats",
-                           "node": "AOZEW7HvF67rYdgw",
-                           "label": "WC5E.Feats.DisruptingStrike.Label"
+                           "node": "1p5iixJWw8wzFxmi",
+                           "label": "WC5E.Feats.HolyVision.Label"
                         }
                      ]
                   },
                   {
-                     "level": "9",
+                     "level": "7",
                      "feats": [
                         {
                            "pack": "warcraft5e.wc5e_class_feats",
-                           "node": "VqmbJ0IiurDWitRA",
-                           "label": "WC5E.Feats.Dispatch.Label"
+                           "node": "wMqF34nMeFKTuKFa",
+                           "label": "WC5E.Feats.HolyAuras.Label"
                         }
                      ]
                   },
                   {
-                     "level": "13",
+                     "level": "15",
                      "feats": [
                         {
                            "pack": "warcraft5e.wc5e_class_feats",
-                           "node": "eHA6DPMKqchmrquO",
-                           "label": "WC5E.Feats.ExpertPoisoner.Label"
+                           "node": "nOZA907T3ntBSDy1",
+                           "label": "WC5E.Feats.LatentPrayer.Label"
                         }
                      ]
                   },
                   {
-                     "level": "17",
+                     "level": "20",
                      "feats": [
                         {
                            "pack": "warcraft5e.wc5e_class_feats",
-                           "node": "CC7dhTLu1GPURbXT",
-                           "label": "WC5E.Feats.Vendetta.Label"
+                           "node": "bNpeWGGYsWSY0Nnj",
+                           "label": "WC5E.Feats.IlluminatedHealer.Label"
                         }
                      ]
                   }

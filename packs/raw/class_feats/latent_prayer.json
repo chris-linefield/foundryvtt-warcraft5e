@@ -1,0 +1,26 @@
+{
+   "_id": "nOZA907T3ntBSDy1",
+   "name": "Latent Prayer",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 92",
+      "requirements": "Paladin (Holiness) 15"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.LatentPrayer.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/time/hourglass-brown-orange.webp",
+   "effects": [
+   ]
+}
