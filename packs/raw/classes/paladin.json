@@ -1,0 +1,555 @@
+{
+   "_id": "cbD4XUwZi8dgpdRo",
+   "name": "Paladin",
+   "type": "class",
+   "img": "modules/warcraft5e/res/pics/classes/paladin.jpg",
+   "data": {
+      "description": {
+         "value": "WC5E.Class.Paladin.Description",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "",
+      "levels": 1,
+      "subclass": "",
+      "hitDice": "d10",
+      "hitDiceUsed": 0,
+      "saves": [
+         "sta",
+         "cha"
+      ],
+      "skills": {
+         "number": 2,
+         "choices": [
+            "ath",
+            "ins",
+            "itm",
+            "med",
+            "dec",
+            "rel"
+         ],
+         "value": [
+         ]
+      },
+      "spellcasting": {
+         "progression": "none",
+         "ability": ""
+      },
+      "damage": {
+         "parts": [
+         ]
+      }
+   },
+   "effects": [
+   ],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+      "default": 0
+   },
+   "flags": {
+      "wc5e": {
+         "type": "class",
+         "artwork": {
+            "1": {
+               "src": "modules/warcraft5e/res/pics/classes/paladin_artwork.jpg",
+               "url": "https://www.artstation.com/artwork/D5Y3Oe",
+               "credit": "Kirill Stepanov"
+            },
+            "2": {
+               "src": "modules/warcraft5e/res/pics/classes/paladin_artwork2.jpg",
+               "url": "https://twitter.com/shirlero/status/1174693003023265792",
+               "credit": "shirlero"
+            }
+         },
+         "introduction": [
+            "WC5E.Class.Paladin.Introduction.1",
+            "WC5E.Class.Paladin.Introduction.2",
+            "WC5E.Class.Paladin.Introduction.3"
+         ],
+         "blocks": [
+            {
+               "title": "WC5E.Class.Paladin.Blocks.1.Title",
+               "content": [
+                  "WC5E.Class.Paladin.Blocks.1.Content.1",
+                  "WC5E.Class.Paladin.Blocks.1.Content.2",
+                  "WC5E.Class.Paladin.Blocks.1.Content.3",
+                  "WC5E.Class.Paladin.Blocks.1.Content.4"
+               ]
+            },
+            {
+               "title": "WC5E.Class.Paladin.Blocks.2.Title",
+               "content": [
+                  "WC5E.Class.Paladin.Blocks.2.Content.1",
+                  "WC5E.Class.Paladin.Blocks.2.Content.2"
+               ]
+            },
+            {
+               "title": "WC5E.Class.Paladin.Blocks.3.Title",
+               "content": [
+                  "WC5E.Class.Paladin.Blocks.3.Content.1",
+                  "WC5E.Class.Paladin.Blocks.3.Content.2"
+               ]
+            }
+         ],
+         "quickBuild": "WC5E.Class.Paladin.QuickBuild",
+         "specialFeats": [
+            {
+               "title": "WC5E.Class.Paladin.SpecialFeats.SealSpells.Label",
+               "description": "WC5E.Class.Paladin.SpecialFeats.SealSpells.Description"
+            }
+         ],
+         "hitPoints1st": "10",
+         "hitPointsHalfed": "6",
+         "weaponProfs": [
+            "sim",
+            "mar"
+         ],
+         "specificWeaponProfs": [],
+         "armorProfs": [
+            "lgt",
+            "med",
+            "hvy",
+            "shl"
+         ],
+         "toolProfs": [],
+         "equipment": [
+            [
+               "a martial weapon and a shield",
+               "two martial weapons"
+            ],
+            [
+               "five javelins",
+               "any simple melee weapon"
+            ],
+            [
+               "a priest‘s pack",
+               "an explorer‘s pack"
+            ],
+            [
+               "Chain mail, a holy symbol and a holy libram"
+            ]
+         ],
+         "isCaster": true,
+         "progression": [
+            {
+               "level": "1",
+               "proficiency": "2",
+               "caster": "-",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "E7MNYi17oWxoYV7d",
+                     "label": "WC5E.Feats.DivineSensePaladin.Label"
+                  },
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "mXkyJa3srztIf5nw",
+                     "label": "WC5E.Feats.LayOnHands.Label"
+                  }
+               ]
+            },
+            {
+               "level": "2",
+               "proficiency": "2",
+               "caster": "1 (1st)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "wmZWy2jB90V1Z1wv",
+                     "label": "WC5E.Feats.CrusaderStrike.Label"
+                  },
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "OC0UGQotskcBEwEt",
+                     "label": "WC5E.Feats.FightingStylePaladin.Label"
+                  },
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "rD6qGkafA0RgId3o",
+                     "label": "WC5E.Feats.SpellcastingPaladin.Label"
+                  }
+               ]
+            },
+            {
+               "level": "3",
+               "proficiency": "2",
+               "caster": "2 (1st)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "TViwFKLN6l28fJEy",
+                     "label": "WC5E.Feats.AuraPaladin.Label",
+                     "option": "Devotion"
+                  },
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "r4fuMB78XkTztxMu",
+                     "label": "WC5E.Feats.HolyOath.Label"
+                  }
+               ]
+            },
+            {
+               "level": "4",
+               "proficiency": "2",
+               "caster": "2 (1st)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "pZ0s66jTVdto9Z3b",
+                     "label": "WC5E.Feats.AbilityScoreImprovement.Label"
+                  }
+               ]
+            },
+            {
+               "level": "5",
+               "proficiency": "3",
+               "caster": "3 (2nd)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "RHCM1SEVR8YGj71w",
+                     "label": "WC5E.Feats.ExtraAttack.Label"
+                  }
+               ]
+            },
+            {
+               "level": "6",
+               "proficiency": "3",
+               "caster": "3 (2nd)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "5COVDSKwtxGH3Rb5",
+                     "label": "WC5E.Feats.DivineHealth.Label"
+                  },
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "TViwFKLN6l28fJEy",
+                     "label": "WC5E.Feats.AuraPaladin.Label",
+                     "option": "Retribution"
+                  }
+               ]
+            },
+            {
+               "level": "7",
+               "proficiency": "3",
+               "caster": "4 (2nd)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "r4fuMB78XkTztxMu",
+                     "label": "WC5E.Feats.HolyOath.Label"
+                  }
+               ]
+            },
+            {
+               "level": "8",
+               "proficiency": "3",
+               "caster": "4 (2nd)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "pZ0s66jTVdto9Z3b",
+                     "label": "WC5E.Feats.AbilityScoreImprovement.Label"
+                  }
+               ]
+            },
+            {
+               "level": "9",
+               "proficiency": "4",
+               "caster": "5 (3rd)",
+               "feats": []
+            },
+            {
+               "level": "10",
+               "proficiency": "4",
+               "caster": "5 (3rd)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "TViwFKLN6l28fJEy",
+                     "label": "WC5E.Feats.AuraPaladin.Label",
+                     "option": "Crusader"
+                  }
+               ]
+            },
+            {
+               "level": "11",
+               "proficiency": "4",
+               "caster": "6 (3rd)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "KC29DjqvQqdH0v7P",
+                     "label": "WC5E.Feats.ImprovedCrusaderStrike.Label"
+                  }
+               ]
+            },
+            {
+               "level": "12",
+               "proficiency": "4",
+               "caster": "6 (3rd)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "pZ0s66jTVdto9Z3b",
+                     "label": "WC5E.Feats.AbilityScoreImprovement.Label"
+                  }
+               ]
+            },
+            {
+               "level": "13",
+               "proficiency": "5",
+               "caster": "7 (4th)",
+               "feats": []
+            },
+            {
+               "level": "14",
+               "proficiency": "5",
+               "caster": "7 (4th)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "kWOJ0J9yTOOmYz1X",
+                     "label": "WC5E.Feats.CleansingTouch.Label"
+                  },
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "TViwFKLN6l28fJEy",
+                     "label": "WC5E.Feats.AuraPaladin.Label",
+                     "option": "Concentration"
+                  }
+               ]
+            },
+            {
+               "level": "15",
+               "proficiency": "5",
+               "caster": "8 (4th)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "r4fuMB78XkTztxMu",
+                     "label": "WC5E.Feats.HolyOath.Label"
+                  }
+               ]
+            },
+            {
+               "level": "16",
+               "proficiency": "5",
+               "caster": "8 (4th)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "pZ0s66jTVdto9Z3b",
+                     "label": "WC5E.Feats.AbilityScoreImprovement.Label"
+                  }
+               ]
+            },
+            {
+               "level": "17",
+               "proficiency": "6",
+               "caster": "9 (5th)",
+               "feats": []
+            },
+            {
+               "level": "18",
+               "proficiency": "6",
+               "caster": "9 (5th)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "8jbKibzJGsCpwxXB",
+                     "label": "WC5E.Feats.AuraImprovementPaladin.Label"
+                  },
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "TViwFKLN6l28fJEy",
+                     "label": "WC5E.Feats.AuraPaladin.Label",
+                     "option": "Resistance"
+                  }
+               ]
+            },
+            {
+               "level": "19",
+               "proficiency": "6",
+               "caster": "10 (5th)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "pZ0s66jTVdto9Z3b",
+                     "label": "WC5E.Feats.AbilityScoreImprovement.Label"
+                  }
+               ]
+            },
+            {
+               "level": "20",
+               "proficiency": "6",
+               "caster": "10 (5th)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "r4fuMB78XkTztxMu",
+                     "label": "WC5E.Feats.HolyOath.Label"
+                  }
+               ]
+            }
+         ],
+         "archetypes": [
+            {
+               "title": "WC5E.Class.Paladin.SacredOaths.OathOfHoliness.Title",
+               "description": "WC5E.Class.Paladin.SacredOaths.OathOfHoliness.Description",
+               "featList": [
+                  {
+                     "level": "3",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "oI0wCH7jMFKC8ip6",
+                           "label": "WC5E.Feats.Assassinate.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "AOZEW7HvF67rYdgw",
+                           "label": "WC5E.Feats.DisruptingStrike.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "9",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "VqmbJ0IiurDWitRA",
+                           "label": "WC5E.Feats.Dispatch.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "13",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "eHA6DPMKqchmrquO",
+                           "label": "WC5E.Feats.ExpertPoisoner.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "17",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "CC7dhTLu1GPURbXT",
+                           "label": "WC5E.Feats.Vendetta.Label"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "title": "WC5E.Class.Paladin.SacredOaths.Outlaw.Title",
+               "description": "WC5E.Class.Paladin.SacredOaths.Outlaw.Description",
+               "featList": [
+                  {
+                     "level": "3",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "SOupAvvP4QJxvsZp",
+                           "label": "WC5E.Feats.Riposte.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "b0AbARYDh5upr45h",
+                           "label": "WC5E.Feats.RevealingStrike.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "9",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "ys5bnmMxFhtN34Uh",
+                           "label": "WC5E.Feats.QuickCombatant.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "13",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "5YfBDix3LAyHniYr",
+                           "label": "WC5E.Feats.DisablingStrike.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "17",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "3x5iepuAIJ3b3ZCI",
+                           "label": "WC5E.Feats.KillingSpree.Label"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "title": "WC5E.Class.Paladin.SacredOaths.Subtlety.Title",
+               "description": "WC5E.Class.Paladin.SacredOaths.Subtlety.Description",
+               "featList": [
+                  {
+                     "level": "3",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "HdBCMDKhHcFg5K8E",
+                           "label": "WC5E.Feats.ShadowSpellcasting.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "2K9BDwRekjipPJOd",
+                           "label": "WC5E.Feats.Premeditation.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "9",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "cKmRTcMPNTJZVBcB",
+                           "label": "WC5E.Feats.Vanish.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "13",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "AVqdNKWuX3fo0t6y",
+                           "label": "WC5E.Feats.ShadowDance.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "17",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "nzIko1AaRr8T5sDc",
+                           "label": "WC5E.Feats.Backstab.Label"
+                        }
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+   }
+}

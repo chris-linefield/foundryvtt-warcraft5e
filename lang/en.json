@@ -1547,7 +1547,59 @@
             }
          },
          "Paladin": {
-            "Name": "Paladin"
+            "Name": "Paladin",
+            "Introduction": {
+               "1": "A draenei pores over an ancient libram, moving its pages by his mere will. Summoning a blessing, he shuts the tome as light arises from his hooves to the heavens. Hefting his crystalline greathammer, he exits, aware that his return is unlikely at best.",
+               "2": "Huddled together, two young orcs cower as a fierce dragon lands with a resounding crash atop the chieftain‘s hut. She roars before spewing liquid fire upon the great watchtower, revealing the orcs in the light. She releases a blast of flame at them—but then stops. The red inferno dissipates to reveal tauren clad in golden plate, holding aloft a mighty shield that blocked her fire. Telling the orcs to run, the tauren prepares himself to face the dragon alone, satisfied he has bought the young orcs the time they needed to escape.",
+               "3": "A human rides through haunted plague-lands on a wounded steed. As he nears an abandoned barn, hisses are from undead throats, as six ghouls skulk from the interior of the barn. The rider raises a bare hand, causing a burst of holy light to rise from the earth to burn the ghouls. After his deed is done, the rider continues on, the land still marked with his power, temporarily freed from unholy blight."
+            },
+            "Description": "This is the call of the paladin: to protect the weak, to bring justice to the unjust, and to vanquish evil from the darkest corners of the world. These holy warriors are equipped with plate armor so they can confront the toughest of foes, and the blessing of the Light allows them to heal wounds and, in some cases, even restore life to the dead.",
+            "Blocks": {
+               "1": {
+                  "Title": "The Cause of Righteousness",
+                  "Content": {
+                     "1": "Paladins are virtuous defenders of the weak, and tireless, unfaltering enemies of the undead.",
+                     "2": "Mixing elements of the warrior and the clerics of the Holy Light, the paladin is a tough melee fighter.",
+                     "3": "The paladin is a warrior of the Holy Light. They uphold all that is good and true in the world and revile all that is evil and sinister, especially undead and the Burning Legion. They offer succor to the beleaguered and smite their enemies with holy fervor. They are particularly potent against  undead, as these creatures threaten the goodly races and the Holy Light burns them terribly. The presence of any evil is reprehensible to paladins, but they focus their efforts on destroying undead and demons.",
+                     "4": "These warriors uphold the tenets of the Holy Light and defend their factions from the predations of any threat. Found in almost every corner of Azeroth fighting the forces of evil and barbarism, these stalwart warriors of faith ceaselessly uphold their vigil against demonic forces from beyond the Dark Portal. Paladins are the embodiment of good and selfless dedication to the protection of their peoples. They help the innocent and punish the wicked. As such, paladins are generally of good alignment."
+                  }
+               },
+               "2": {
+                  "Title": "Beyond the mundane Light",
+                  "Content": {
+                     "1": "Almost by definition, the life of a paladin is an adventuring life. Unless a lasting injury has taken him or her away from adventuring for a time, every paladin lives on the front lines of the cosmic struggle against evil.",
+                     "2": "Fighters are rare enough among the ranks of the militias and armies of the world, but even fewer people can claim the true calling of a paladin. When they do receive the call, these warriors turn from their former occupations and take up arms to fight evil. Sometimes their oaths lead them into the service of the crown as leaders of elite groups of knights, but even then their loyalty is first to the cause of righteousness, not to crown and country. Adventuring paladins take their work seriously. A delve into an ancient ruin or dusty crypt can be a quest driven by a higher purpose than the acquisition of treasure. Evil lurks in dungeons and primeval forests, and even the smallest victory against it can tilt the cosmic balance away from oblivion."
+                  }
+               },
+               "3": {
+                  "Title": "Creating the Paladin",
+                  "Content": {
+                     "1": "The most important aspect of a paladin character is the nature of his or her holy quest. Although the class features related to your oath don‘t appear until you reach 3rd level, plan ahead for that choice by reading the oath descriptions at the end of the class.",
+                     "2": "Are you a devoted servant of good, loyal to justice and honor, a holy knight in shining armor venturing forth to smite evil? Are you a glorious champion of the Light, cherishing everything beautiful that stands against the shadow? Are you a defender who can stand before sea of foes without flinching? Or are you an embittered loner sworn to deliver retribution on those who have done great evil?"
+                  }
+               }
+            },
+            "QuickBuild": "You can make a paladin quickly by following these suggestions. First, Strength should be your highest ability score, followed by Charisma. Second, choose the noble background. Third, choose the following 1st-level spells for your libram: compelled duel, holy light, and seal array (righteousness).",
+            "SpecialFeats": {
+               "SealSpells": {
+                  "Label":"Seal Spells",
+                  "Description": "Paladins are the only class that can access the seal array spell, and can prepare different seals for strike effects. Seals are magical enhancements that can enhance a paladin‘s weapon attacks, and can be released in coordination with the Crusader Strike ability to cause a devastating strike."
+               }
+            },
+            "SacredOaths": {
+               "Holiness": {
+                  "Title": "Oath of Holiness",
+                  "Description": "Your oath is to heal and inspire your allies. Holy paladins are common, and are usually wellregarded battle healers."
+               },
+               "Protection": {
+                  "Title": "Oath of Protection",
+                  "Description": "Your oath is to guard your allies and all friends of the Holy Light. Protection paladins are very tough foes who can survive hefty abuse."
+               },
+               "Retribution": {
+                  "Title": "Oath of Retribution",
+                  "Description": "Your oath is to bring retribution to the wicked, avenging wrongs made but not settled. Retribution paladins are often wandering knights, hunting down villains and depraved monsters."
+               }
+            }
          },
          "Priest": {
             "Name": "Priest"
@@ -1965,6 +2017,34 @@
             "Description": {
                "1": {
                   "Value": "You can no longer lose concentration on an aura from taking damage, and may extend the range of any aura spell by 100%. Any effect that would normally dispel the aura instead suppresses it for 1 minute instead."
+               }
+            }
+         },
+         "AuraPaladin": {
+            "Label": "Aura",
+            "Description": {
+               "1": {
+                  "Value": "Your mastery over aura spells begins to manifest. You always have the following aura spells prepared."
+               },
+               "2": {
+                  "Options": {
+                     "1": "At 3rd level, you always have the devotion aura spell prepared.",
+                     "2": "At 6th level, you always have the retribution aura spell prepared.",
+                     "3": "At 10th level, you always have the crusader aura spell prepared.",
+                     "4": "At 14th level, you always have the concentration aura spell prepared.",
+                     "5": "At 18th level, you always have the resistance aura spell prepared."
+                  }
+               },
+               "3": {
+                  "Value": "Furthermore, you may cast each of the above aura spells for no cost once upon reaching the described level. You regain all expended uses after a short rest."
+               }
+            }
+         },
+         "AuraImprovementPaladin": {
+            "Label": "Aura Improvement",
+            "Description": {
+               "1": {
+                  "Value": "You have advantage to any check to maintain an aura, and may extend the range of any aura spell by 100%. Any effect that would normally dispel the aura instead suppresses it for 1 minute instead."
                }
             }
          },
@@ -2447,6 +2527,17 @@
                }
             }
          },
+         "CleansingTouch": {
+            "Label": "Cleansing Touch",
+            "Description": {
+               "1": {
+                  "Value": "You can use your action to end one spell on yourself or on one willing creature that you touch."
+               },
+               "2": {
+                  "Value": "You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain expended uses when you finish a long rest."
+               }
+            }
+         },
          "CleavingStrike": {
             "Label": "Cleaving Strike",
             "Description": {
@@ -2573,6 +2664,17 @@
                      "7": "Pickpocket",
                      "8": "Smuggler"
                   }
+               }
+            }
+         },
+         "CrusaderStrike": {
+            "Label": "Crusader Strike",
+            "Description": {
+               "1": {
+                  "Value": "When you hit a creature with a melee weapon attack, you can expend mana as if you cast a spell to deal holy damage to the target, in addition to the weapon‘s damage. The extra damage is 1d8 plus 1d8 per spell level (maximum 6d8 with a 5th level spell). If the target is a fiend or an undead, you gain +5 to the strike‘s damage."
+               },
+               "2": {
+                  "Value": "If you have a seal active, you may also perform a Crusader Strike without expending mana (called Seal Release or Judgment), terminating the effects of the seal (plus an additional effect depending on the seal). Despite the name, Crusader Strike does not count as a Strike effect."
                }
             }
          },
@@ -2779,6 +2881,14 @@
                }
             }
          },
+         "DivineHealth": {
+            "Label": "Divine Health",
+            "Description": {
+               "1": {
+                  "Value": "The divine magics flowing within you grant you immunity to diseases and advantage against poison, as well as resistance against poison damage."
+               }
+            }
+         },
          "DivineSense": {
             "Label": "Divine Sense",
             "Description": {
@@ -2790,6 +2900,17 @@
                },
                "3": {
                   "Value": "You know the type (celestial, fiend, or undead) of any being whose presence you sense, but not its identity (the lich Kel‘Thuzad, for instance). Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the hallow spell. You can use this feature a number of times equal to 1 + your Charisma modifier. When you finish a long rest, you regain all expended uses."
+               }
+            }
+         },
+         "DivineSensePaladin": {
+            "Label": "Divine Sense",
+            "Description": {
+               "1": {
+                  "Value": "The presence of strong evil registers on your senses like a noxious odor, and powerful good rings like heavenly music in your ears. As an action, you can open your awareness to detect such forces."
+               },
+               "2": {
+                  "Value": "Until the end of your next turn, you know the location of any celestial, fiend, or undead within 60 feet of you that is not behind total cover. You know the type (celestial, fiend, or undead) of any being whose presence you sense, but not its identity (the lich Kel‘Thuzad, for instance). Within the same radius, you also detect the presence of any place or object that has been consecrated or  desecrated, as with the hallow spell. You can use this feature a number of times equal to 1 + your Charisma modifier. When you finish a long rest, you regain all expended uses."
                }
             }
          },
@@ -3292,6 +3413,30 @@
                }
             }
          },
+         "FightingStylePaladin": {
+            "Label": "Fighting Style",
+            "Description": {
+               "1": {
+                  "Value": "You adopt a style of fighting as your specialty. Choose one of the following options. You can‘t take a Fighting Style option more than once, even if you later get to choose again."
+               },
+               "2": {
+                  "Title": "Defense",
+                  "Value": "While you are wearing armor, you gain a +1 bonus to AC."
+               },
+               "3": {
+                  "Title": "Dueling",
+                  "Value": "When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon."
+               },
+               "4": {
+                  "Title": "Great Weapon Fighting",
+                  "Value": "When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll. The weapon must have the two-handed or versatile property for you to gain this benefit."
+               },
+               "5": {
+                  "Title": "Protection",
+                  "Value": "When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield."
+               }
+            }
+         },
          "FirearmImprovement": {
             "Label": "Firearm Improvement",
             "Description": {
@@ -3643,6 +3788,41 @@
                }
             }
          },
+         "HolyOath": {
+            "Label": "Holy Oath",
+            "Description": {
+               "1": {
+                  "Value": "You walk a path that defines you as a paladin forever. Up to this time you have been in a preparatory stage, committed to the path but not yet sworn to it."
+               },
+               "2": {
+                  "Value": "You may choose the Oath of Holiness to aid the helpless, Oath of Protection to guard the weak, or Oath of Retribution to smite the wicked, all detailed at the end of the class description."
+               },
+               "3": {
+                  "Value": "Your choice grants you features at 3rd level and again at 7th, 15th, and 20th level. Those features include oath spells and the Channel Divinity feature."
+               },
+               "4": {
+                  "Title": "Oath Spells",
+                  "Value": "Each oath has a list of associated spells. You gain access to these spells at the levels specified in the oath description. Once you gain access to an oath spell, you always have it prepared. Oath spells don‘t count against the number of spells you can prepare each day."
+               },
+               "5": {
+                  "Value": "If you gain an oath spell that doesn‘t appear on the paladin spell list, the spell is nonetheless a paladin spell for you."
+               },
+               "6": {
+                  "Title": "Channel Divinity",
+                  "Value": "Your path allows you to channel divine energy to fuel magical effects. Each Channel Divinity option provided by your path explains how to use it. When you use your Channel Divinity, you choose which option to use. You must then finish a short or long rest to use your Channel Divinity again. Some Channel Divinity effects require saving throws. When you use such an effect from this class, the DC equals your paladin spell save DC."
+               },
+               "7": {
+                  "Value": "You may always Turn Undead, and you gain an additional choice from your Path."
+               },
+               "8": {
+                  "Title": "Channel Divinity: Turn Undead",
+                  "Value": "As an action, you present your holy symbol and speak a prayer censuring fiends and undead, using your Channel Divinity. Each fiend or undead that can see or hear you within 30 feet of you must make a Spirit saving throw."
+               },
+               "9": {
+                  "Value": "If the creature fails its saving throw, it is turned for 1 minute or until it takes damage. A turned creature must spend its turns trying to move as far away from you as it can, and it can‘t willingly move to a space within 30 feet of you. It also can‘t take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there‘s nowhere to move, the creature can use the Dodge action."
+               }
+            }
+         },
          "HunterArchetype": {
             "Label": "Hunter Archetype",
             "Description": {
@@ -3778,6 +3958,14 @@
                },
                "2": {
                   "Value": "Also, whenever you deal damage to a creature that exceeds one-half their maximum hit points at once, they are both restrained and incapacitated for one hour (or until they thaw out, whichever comes first). Both effects end prematurely if the target is hit."
+               }
+            }
+         },
+         "ImprovedCrusaderStrike": {
+            "Label": "Improved Crusader Strike",
+            "Description": {
+               "1": {
+                  "Value": "You are so suffused with the might of the Light that all your melee weapon strikes carry its divine power with it. Whenever you hit a creature with a melee weapon, the creature takes an extra 1d8 holy damage. If you also use your Crusader Strike with an attack, you add this damage to the extra damage of your Crusader Strike."
                }
             }
          },
@@ -4013,6 +4201,20 @@
                },
                "2": {
                   "Value": "Furthermore, you can choose to lower the malfunction rating of all devices you create by 2 points (minimum 1)."
+               }
+            }
+         },
+         "LayOnHands": {
+            "Label": "Lay on Hands",
+            "Description": {
+               "1": {
+                  "Value": "Your blessed touch can cure wounds. As an action, you may lay your hands on a target, investing them with healing energies. For every mana point you spend for Lay on Hands, you heal a number of hit points equal to your proficiency bonus. Amount you heal is instead treated as holy damage for undead and fiends (in which case, this requires a melee spell attack). Excess hit points are lost, and you cannot heal or deal more damage than a value equal to your maximum hit points. When performing Lay on Hands on yourself, this is instead a bonus action."
+               },
+               "2": {
+                  "Value": "Alternatively, you can expend the mana to cure one disease or one poison of your choice. Each disease or poison requires spending mana points equal to one-quarter the saving throw DC of the poison or disease. You may cure multiple diseases or poisons this way. This feature has no effect on constructs."
+               },
+               "3": {
+                  "Value": "You gain a mana pool as if you were a second level paladin (see the Spellcasting feature below), with the pool size as if you had no access to 1st level spells."
                }
             }
          },
@@ -5106,6 +5308,43 @@
                "13": {
                   "Title": "Learning Spells of 1st Level and Higher",
                   "Value": "On your adventures, you might find other spells that you can add to your spellbook. You do not gain spells by default, and typically scribe spells from scrolls into your own spellbook, or purchase (or steal) the spellbooks of others, or research them yourself."
+               }
+            }
+         },
+         "SpellcastingPaladin": {
+            "Label": "Spellcasting",
+            "Description": {
+               "1": {
+                  "Value": "you have learned to draw on divine magic through meditation and prayer to cast spells as a priest does."
+               },
+               "2": {
+                  "Title": "Conjuring and Binding",
+                  "Value": "A paladin can conjure and bind celestials."
+               },
+               "3": {
+                  "Title": "Preparing and Casting Spells",
+                  "Value": "Each paladin level provides you with 0.5 caster levels in the paladin class (minimum 0). You follow the normal progression to unlock spell levels (see the table under the Mana section)."
+               },
+               "4": {
+                  "Value": "You can also change your list of prepared spells by consulting your libram (treat as a spellbook) after a long rest. Preparing a new list of paladin spells requires time spent in study: at least 1 minute per spell level for each spell on your list."
+               },
+               "5": {
+                  "Title": "Spellcasting Ability",
+                  "Value": "Charisma is your spellcasting ability for your paladin spells, since their power derives from the strength of your convictions. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a paladin spell you cast and when making an attack roll with one."
+               },
+               "6": {
+                  "Value": "<strong>Spell save DC</strong> = 8 + your proficiency bonus + your Charisma modifier<br><strong>Spell attack modifier</strong> = your proficiency bonus + your Charisma modifier"
+               },
+               "7": {
+                  "Title": "Spellbook - Libram",
+                  "Value": "At 2nd level, your libram contains three 1st-level paladin spells of your choice. When you level up, you gain 2 additional paladin spells of your choice. You may also acquire new spells by research, tutelage, or from the spellbooks and scrolls of spellcasters who have spells you can cast."
+               },
+               "8": {
+                  "Value": "Your libram is effectively your spellbook, and you may add spells by scribing it with new insights regarding the faith and how to protect and promote it."
+               },
+               "9": {
+                  "Title": "Spellcasting Focus",
+                  "Value": "You can use your holy libram as a spellcasting focus for your paladin spells, as well as the store for them."
                }
             }
          },

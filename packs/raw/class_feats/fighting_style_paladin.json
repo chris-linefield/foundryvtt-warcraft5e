@@ -1,0 +1,42 @@
+{
+   "_id": "OC0UGQotskcBEwEt",
+   "name": "Fighting Style (Paladin)",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 89",
+      "requirements": "Paladin 2"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.FightingStyle.Description.1.Value"
+            },
+            {
+               "title": "WC5E.Feats.FightingStyle.Description.2.Title",
+               "value": "WC5E.Feats.FightingStyle.Description.2.Value"
+            },
+            {
+               "title": "WC5E.Feats.FightingStyle.Description.3.Title",
+               "value": "WC5E.Feats.FightingStyle.Description.3.Value"
+            },
+            {
+               "title": "WC5E.Feats.FightingStyle.Description.4.Title",
+               "value": "WC5E.Feats.FightingStyle.Description.4.Value"
+            },
+            {
+               "title": "WC5E.Feats.FightingStyle.Description.5.Title",
+               "value": "WC5E.Feats.FightingStyle.Description.5.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/skills/melee/maneuver-daggers-paired-orange.webp",
+   "effects": [
+   ]
+}

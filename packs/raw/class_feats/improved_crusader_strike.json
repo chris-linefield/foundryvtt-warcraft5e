@@ -1,0 +1,26 @@
+{
+   "_id": "KC29DjqvQqdH0v7P",
+   "name": "Improved Crusader Strike",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 91",
+      "requirements": "Paladin 11"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.ImprovedCrusaderStrike.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/skills/melee/strike-sword-steel-yellow.webp",
+   "effects": [
+   ]
+}
