@@ -445,6 +445,83 @@
                         }
                      ]
                   }
+               ],
+               "spellList": [
+                  {
+                     "level": "3",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "6JrHTuhqsNHdqFuS",
+                           "label": "WC5E.Spells.ProtectionFromEvilAndGood.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "HZJu2RzrN79T6KnY",
+                           "label": "WC5E.Spells.Sanctuary.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "5",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "R4QvsF9ZhrYkbrlh",
+                           "label": "WC5E.Spells.LesserRestoration.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "zyyN1FcnPQkydGMg",
+                           "label": "WC5E.Spells.ZoneOfTruth.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "9",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "t7IwW2z8MelAsdV6",
+                           "label": "WC5E.Spells.BeaconOfHope.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "X7e3HjqB7LgLyfBx",
+                           "label": "WC5E.Spells.Revivify.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "13",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "7fkeb8FrhN2DavIM",
+                           "label": "WC5E.Spells.FreedomOfMovement.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "InRkVL2KNx3fVVtn",
+                           "label": "WC5E.Spells.GuardianOfFaith.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "17",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "KkS6MfFdPSKF7H3Q",
+                           "label": "WC5E.Spells.Commune.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "G95rl3cZGvSeiE6n",
+                           "label": "WC5E.Spells.MassRevivify.Label"
+                        }
+                     ]
+                  }
                ]
             },
             {

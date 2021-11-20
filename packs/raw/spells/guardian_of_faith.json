@@ -1,0 +1,96 @@
+{
+   "_id": "InRkVL2KNx3fVVtn",
+   "name": "Guardian of Faith",
+   "permission": {
+      "default": 0
+   },
+   "type": "spell",
+   "data": {
+      "source": "",
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": 8,
+         "units": "hour"
+      },
+      "target": {
+         "value": null,
+         "units": "any",
+         "type": "space"
+      },
+      "range": {
+         "value": 30,
+         "long": 0,
+         "units": "ft"
+      },
+      "uses": {
+         "value": 0,
+         "max": 0,
+         "per": ""
+      },
+      "ability": "",
+      "actionType": "save",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": null,
+      "damage": {
+         "parts": [
+            [
+               "20",
+               "radiant"
+            ]
+         ],
+         "versatile": "",
+         "value": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "dex",
+         "dc": null,
+         "value": "",
+         "scaling": "spell"
+      },
+      "level": 4,
+      "school": "con",
+      "components": {
+         "value": "",
+         "vocal": true,
+         "somatic": false,
+         "material": false,
+         "ritual": false,
+         "concentration": false
+      },
+      "materials": {
+         "value": "",
+         "consumed": false,
+         "cost": 0,
+         "supply": 0
+      },
+      "preparation": {
+         "mode": "prepared",
+         "prepared": false
+      },
+      "scaling": {
+         "mode": "none",
+         "formula": ""
+      }
+   },
+   "sort": 100001,
+   "flags": {
+      "wc5e": {
+         "type": "spell",
+         "description": [
+            {
+               "value": "WC5E.Spells.GuardianOfFaith.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Spells.GuardianOfFaith.Description.2.Value"
+            }
+         ]
+      }},
+   "img": "systems/dnd5e/icons/spells/haste-sky-3.jpg",
+   "effects": []
+}

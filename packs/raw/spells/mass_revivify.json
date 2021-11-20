@@ -1,0 +1,102 @@
+{
+   "_id": "G95rl3cZGvSeiE6n",
+   "name": "Mass Revivify",
+   "permission": {
+      "default": 0
+   },
+   "type": "spell",
+   "data": {
+      "source": "",
+      "activation": {
+         "type": "rounds",
+         "cost": 3,
+         "condition": ""
+      },
+      "duration": {
+         "value": null,
+         "units": "inst"
+      },
+      "target": {
+         "value": 6,
+         "units": "",
+         "type": "creature"
+      },
+      "range": {
+         "value": 30,
+         "long": null,
+         "units": "ft"
+      },
+      "uses": {
+         "value": 0,
+         "max": 0,
+         "per": ""
+      },
+      "ability": "",
+      "actionType": "heal",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": null,
+      "damage": {
+         "parts": [
+            [
+               "1",
+               "healing"
+            ]
+         ],
+         "versatile": "",
+         "value": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "value": "",
+         "scaling": "spell"
+      },
+      "level": 5,
+      "school": "nec",
+      "components": {
+         "value": "",
+         "vocal": true,
+         "somatic": true,
+         "material": true,
+         "ritual": false,
+         "concentration": false
+      },
+      "materials": {
+         "value": "Diamonds or alchemical reagents worth 300 gp per target, which the spell consumes",
+         "consumed": true,
+         "cost": 300,
+         "supply": 0
+      },
+      "preparation": {
+         "mode": "prepared",
+         "prepared": false
+      },
+      "scaling": {
+         "mode": "none",
+         "formula": ""
+      }
+   },
+   "sort": 100001,
+   "flags": {
+      "wc5e": {
+         "type": "spell",
+         "description": [
+            {
+               "value": "WC5E.Spells.MassRevivify.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Spells.MassRevivify.Description.2.Value"
+            },
+            {
+               "special": true,
+               "value": "WC5E.Spells.MassRevivify.Description.3.Value"
+            }
+         ]
+      }
+   },
+   "img": "systems/dnd5e/icons/spells/heal-sky-3.jpg",
+   "effects": [
+   ]
+}

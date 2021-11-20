@@ -1582,7 +1582,7 @@
             "QuickBuild": "You can make a paladin quickly by following these suggestions. First, Strength should be your highest ability score, followed by Charisma. Second, choose the noble background. Third, choose the following 1st-level spells for your libram: compelled duel, holy light, and seal array (righteousness).",
             "SpecialFeats": {
                "SealSpells": {
-                  "Label":"Seal Spells",
+                  "Label": "Seal Spells",
                   "Description": "Paladins are the only class that can access the seal array spell, and can prepare different seals for strike effects. Seals are magical enhancements that can enhance a paladin‘s weapon attacks, and can be released in coordination with the Crusader Strike ability to cause a devastating strike."
                }
             },
@@ -6747,6 +6747,14 @@
                }
             }
          },
+         "BeaconOfHope": {
+            "Label": "Beacon of Hope",
+            "Description": {
+               "1": {
+                  "Value": "This spell bestows hope and vitality. Choose any number of creatures within range. For the duration, each target has advantage on Wisdom saving throws and death saving throws, and regains the maximum number of hit points possible from any healing."
+               }
+            }
+         },
          "BerserkerRage": {
             "Label": "Berserker Rage",
             "Description": {
@@ -6934,6 +6942,20 @@
                },
                "2": {
                   "Value": "Additionally, when an affected creature succeeds on a saving throw made against a spell or magical effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throws."
+               }
+            }
+         },
+         "Commune": {
+            "Label": "Commune",
+            "Description": {
+               "1": {
+                  "Value": "You contact your deity or a divine proxy and ask up to three questions that can be answered with a yes or no. You must ask your questions before the spell ends. You receive a correct answer for each question."
+               },
+               "2": {
+                  "Value": "Divine beings aren’t necessarily omniscient, so you might receive “unclear” as an answer if a question pertains to information that lies beyond the deity’s knowledge. In a case where a one-word answer could be misleading or contrary to the deity’s interests, the DM might offer a short phrase as an answer instead."
+               },
+               "3": {
+                  "Value": "If you cast the spell two or more times before finishing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get no answer. The DM makes this roll in secret."
                }
             }
          },
@@ -7462,6 +7484,17 @@
                }
             }
          },
+         "GuardianOfFaith": {
+            "Label": "Guardian of Faith",
+            "Description": {
+               "1": {
+                  "Value": "A Large Spectral Guardian appears and hovers for the Duration in an unoccupied space of your choice that you can see within range. The guardian occupies that space and is indistinct except for a gleaming sword and shield emblazoned with the symbol of your deity."
+               },
+               "2": {
+                  "Value": "Any creature hostile to you that moves to a space within 10 feet of the guardian for the first time on a turn must succeed on a Dexterity saving throw. The creature takes 20 radiant damage on a failed save, or half as much damage on a successful one. The guardian vanishes when it has dealt a total of 60 damage."
+               }
+            }
+         },
          "GustOfWind": {
             "Label": "Gust of Wind",
             "Description": {
@@ -7619,6 +7652,20 @@
             "Description": "You target a creature that has mana within 30 feet. A ray of black-purple anti-magic leaps out, and strikes the target, draining them of mana. You must make a ranged spell attack with the ray. On a success, the target loses 1d4 + 1 mana points. For every mana point lost, the target takes two points of arcane damage. The target is entitled a Spirit saving throw. On a success, the mana and hit points lost are halved.",
             "Heightened": "The number of mana points drained increases by 1d4 points per every two levels above 2 (2d4 at level 4, 3d4 at level 6, 4d4 at level 8). Special: Demons always have active mana, and can always be targeted with mana burn. If they have no mana, they still take 2 points of arcane damage."
          },
+         "MassRevivify": {
+            "Label": "Mass Revivify",
+            "Description": {
+               "1": {
+                  "Value": "Choose up to 6 targets within 30 feet of a point you choose within range. Each creature that has died within the last minute returns to life with 1 hit point."
+               },
+               "2": {
+                  "Value": "This spell can't return to life a creature that has died of old age, nor can it restore any missing body parts."
+               },
+               "3": {
+                  "Value": "This spell can target any creature type except Constructs, Celestials, or Fiends."
+               }
+            }
+         },
          "ModifyMemory": {
             "Label": "Modify Memory",
             "Description": {
@@ -7708,6 +7755,17 @@
                "4": "You chill, warm, or flavor up to 1 cubic foot of nonliving material for 1 hour.",
                "5": "You make a color, a small mark, or a Symbol appear on an object or a surface for 1 hour.",
                "6": "You create a nonmagical trinket or an illusory image that can fit in your hand and that lasts until the end of your next turn."
+            }
+         },
+         "ProtectionFromEvilAndGood": {
+            "Label": "Protection from Evil and Good",
+            "Description": {
+               "1": {
+                  "Value": "Until the spell ends, one willing creature you touch is protected against certain types of creatures: aberrations, celestials, elementals, fey, fiends, and undead."
+               },
+               "2": {
+                  "Value": "The protection grants several benefits. Creatures of those types have disadvantage on attack rolls against the target. The target also can't be charmed, frightened, or possessed by them. If the target is already charmed, frightened, or possessed by such a creature, the target has advantage on any new saving throw against the relevant effect."
+               }
             }
          },
          "RayOfEnfeeblement": {
@@ -7812,6 +7870,17 @@
                      "1": "<i>Plague Rune</i>: The base damage increases by 1d6 damage per level above 1st.",
                      "2": "<i>Blood and Frozen Wastes Runes</i>: The damage taken per hit increases by 1d4 per spell level."
                   }
+               }
+            }
+         },
+         "Sanctuary": {
+            "Label": "Sanctuary",
+            "Description": {
+               "1": {
+                  "Value": "You ward a creature within range against attack. Until the spell ends, any creature who targets the warded creature with an attack or a harmful spell must first make a Wisdom saving throw. On a failed save, the creature must choose a new target or lose the attack or spell. This spell doesn't protect the warded creature from area effects, such as the explosion of a Fireball."
+               },
+               "2": {
+                  "Value": "If the warded creature makes an attack or casts a spell that affects an enemy creature, this spell ends."
                }
             }
          },
@@ -8026,6 +8095,17 @@
             "Heightened": {
                "1": {
                   "Value": "The required dice result to trigger the extra attack is 1 point less on the d20 for every two spell levels above 5th, to a result of a result of a 15 or higher on the d20."
+               }
+            }
+         },
+         "ZoneOfTruth": {
+            "Label": "Zone of Truth",
+            "Description": {
+               "1": {
+                  "Value": "You create a magical zone that guards against deception in a 15-foot-radius sphere centered on a point of your choice within range. Until the spell ends, a creature that enters the spell’s area for the first time on a turn or starts its turn there must make a Charisma saving throw. On a failed save, a creature can’t speak a deliberate lie while in the radius. You know whether each creature succeeds or fails on its saving throw."
+               },
+               "2": {
+                  "Value": "An affected creature is aware of the spell and can thus avoid answering questions to which it would normally respond with a lie. Such a creature can be evasive in its answers as long as it remains within the boundaries of the truth."
                }
             }
          }
