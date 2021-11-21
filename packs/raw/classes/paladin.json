@@ -525,51 +525,128 @@
                ]
             },
             {
-               "title": "WC5E.Class.Paladin.SacredOaths.Outlaw.Title",
-               "description": "WC5E.Class.Paladin.SacredOaths.Outlaw.Description",
+               "title": "WC5E.Class.Paladin.SacredOaths.Protection.Title",
+               "description": "WC5E.Class.Paladin.SacredOaths.Protection.Description",
                "featList": [
                   {
                      "level": "3",
                      "feats": [
                         {
                            "pack": "warcraft5e.wc5e_class_feats",
-                           "node": "SOupAvvP4QJxvsZp",
-                           "label": "WC5E.Feats.Riposte.Label"
+                           "node": "volLu7H7RUAnQiGU",
+                           "label": "WC5E.Feats.ChannelDivinityRooksMove.Label"
                         },
                         {
                            "pack": "warcraft5e.wc5e_class_feats",
-                           "node": "b0AbARYDh5upr45h",
-                           "label": "WC5E.Feats.RevealingStrike.Label"
+                           "node": "gTfFtLVddNp8jBd6",
+                           "label": "WC5E.Feats.AvengersShield.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "7",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "xhb24aculIGVmMPS",
+                           "label": "WC5E.Feats.OpportunePrayer.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "15",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "YQdKHLKBbjW4ld3C",
+                           "label": "WC5E.Feats.HolySentinel.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "20",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "hJBX1Z16CaBHgzAm",
+                           "label": "WC5E.Feats.ArdentDefender.Label"
+                        }
+                     ]
+                  }
+               ],
+               "spellList": [
+                  {
+                     "level": "3",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "HZJu2RzrN79T6KnY",
+                           "label": "WC5E.Spells.Sanctuary.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "VEiN0onKrAbdKBCE",
+                           "label": "WC5E.Spells.Shield.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "5",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "R4QvsF9ZhrYkbrlh",
+                           "label": "WC5E.Spells.LesserRestoration.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "hv0VGCxOmfQN13im",
+                           "label": "WC5E.Spells.WardingBond.Label"
                         }
                      ]
                   },
                   {
                      "level": "9",
-                     "feats": [
+                     "spells": [
                         {
-                           "pack": "warcraft5e.wc5e_class_feats",
-                           "node": "ys5bnmMxFhtN34Uh",
-                           "label": "WC5E.Feats.QuickCombatant.Label"
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "t7IwW2z8MelAsdV6",
+                           "label": "WC5E.Spells.BeaconOfHope.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "X7e3HjqB7LgLyfBx",
+                           "label": "WC5E.Spells.Revivify.Label"
                         }
                      ]
                   },
                   {
                      "level": "13",
-                     "feats": [
+                     "spells": [
                         {
-                           "pack": "warcraft5e.wc5e_class_feats",
-                           "node": "5YfBDix3LAyHniYr",
-                           "label": "WC5E.Feats.DisablingStrike.Label"
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "ohh2odAo1yAq8jkC",
+                           "label": "WC5E.Spells.AuraOfLife.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "i47iiZstrOY4lpwq",
+                           "label": "WC5E.Spells.DeathWard.Label"
                         }
                      ]
                   },
                   {
                      "level": "17",
-                     "feats": [
+                     "spells": [
                         {
-                           "pack": "warcraft5e.wc5e_class_feats",
-                           "node": "3x5iepuAIJ3b3ZCI",
-                           "label": "WC5E.Feats.KillingSpree.Label"
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "dcrDkgItYQCOBSS2",
+                           "label": "WC5E.Spells.MassCureWounds.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "dVKO98gUTMh94cfO",
+                           "label": "WC5E.Spells.WallOfForce.Label"
                         }
                      ]
                   }

@@ -1,0 +1,32 @@
+{
+   "_id": "xhb24aculIGVmMPS",
+   "name": "Opportune Prayer",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 94",
+      "requirements": "Paladin (Protection) 7"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.OpportunePrayer.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.OpportunePrayer.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Feats.OpportunePrayer.Description.3.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/light/projectile-stars-blue.webp",
+   "effects": [
+   ]
+}

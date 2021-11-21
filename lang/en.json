@@ -2102,6 +2102,17 @@
                }
             }
          },
+         "ArdentDefender": {
+            "Label": "Ardent Defender",
+            "Description": {
+               "1": {
+                  "Value": "You may, as a reaction, you may gain resistance to all damage for one round. Once this feature is used a number of times equal to your Charisma modifier, it cannot be used again until you complete a long rest."
+               },
+               "2": {
+                  "Value": "When you no longer have uses of this ability, your Opportune Prayer ability allows you to cast any paladin spell when it is triggered instead (subject to the same casting time restriction)."
+               }
+            }
+         },
          "ArmyOfTheDead": {
             "Label": "Army of the Dead",
             "Description": {
@@ -2124,6 +2135,17 @@
                },
                "2": {
                   "Value": "Also, if you don‘t already have proficiency with a poisoner‘s kit, you gain proficiency in it, and you gain advantage to saving throws against your own poisons."
+               }
+            }
+         },
+         "AvengersShield": {
+            "Label": "Avenger's Shield",
+            "Description": {
+               "1": {
+                  "Value": "You may throw a shield you are wearing as a ranged thrown attack (even if it is normally strapped to your arm). The shield acts as a light thrown weapon with a range of 30/60 feet that deals 1d4 + your Strength modifier in damage. The damage dealt is half holy and half bludgeoning, and furthermore the target gains the distracted condition for until the beginning of your turn in the next round. The shield returns instantaneously to your hand, and may be used again in the same round if you have multiple attacks."
+               },
+               "2": {
+                  "Value": "Also, so long as you are using a shield, you cannot lose concentration on an aura spell due to damage. The Improved Auras ability grants you advantage to any concentration spell from the Paladin spell list instead."
                }
             }
          },
@@ -2423,6 +2445,20 @@
             "Description": {
                "1": {
                   "Value": "When you take this oath at 3rd level, you can spend a Channel Divinity use and an action, to present your holy symbol and release an outburst of the Holy Light of Creation, allowing one friendly creature within 30 feet to use a hit dice as if they rested. The ally also gains temporary hit points equal to double your Charisma modifier."
+               }
+            }
+         },
+         "ChannelDivinityRooksMove": {
+            "Label": "Channel Divinity: Rook's Move",
+            "Description": {
+               "1": {
+                  "Value": "You may spend a Channel Divinity use to swap places with any ally as a reaction. Choose an ally that is about to be attacked by a weapon attack, or an ally who took damage from a weapon attack roll. The two of you change places, ignoring attacks of opportunity provoked as part of movement and difficult terrain. The ally must be within 30 feet of you, you must have a clear path to them, and the target must be of your size category or smaller."
+               },
+               "2": {
+                  "Value": "If you use this ability before the attack roll is made, but you must declare use of this ability before knowing whether the attack would hit the ally. The attack roll is made against your normal AC."
+               },
+               "3": {
+                  "Value": "If you declare this ability after the attack roll is successful, the attack is automatically successful, and you switch places, even if you would have otherwise been unharmed (it such as by having a higher AC value than the attacker‘s attack roll)."
                }
             }
          },
@@ -3842,6 +3878,17 @@
                }
             }
          },
+         "HolySentinel": {
+            "Label": "Holy Sentinel",
+            "Description": {
+               "1": {
+                  "Value": "your Avenger‘s Shield deals 2d4 points of damage instead of 1d4. Also, whenever you successfully strike a target with the shield, you gain a d4 dice (up to a maximum number of dice equal to 3d4). If you deal Holy damage or heal at least 1 hit point of damage with your Paladin spells or your Lay on Hands feature, you may expend the dice and add the result to your roll."
+               },
+               "2": {
+                  "Value": "This applies once per spell."
+               }
+            }
+         },
          "HolyVision": {
             "Label": "Holy Vision",
             "Description": {
@@ -4507,6 +4554,20 @@
             "Description": {
                "1": {
                   "Value": "You add all spells of the Necromancy school from the Mage spell list to the Alchemist spell list, and can make potions out of them."
+               }
+            }
+         },
+         "OpportunePrayer": {
+            "Label": "Opportune Prayer",
+            "Description": {
+               "1": {
+                  "Value": "Whenever you reduce an enemy to 0 hit points, you may cast a healing spell from the paladin spell list as a reaction (so long as the spell has a maximum casting time of 1 action). You may also do this whenever you score a critical hit, are hit with a critical hit, or when reduced to 0 hit points."
+               },
+               "2": {
+                  "Value": "Furthermore, so long as you have multiple attacks, you can spend them to allow your Avenger‘s Shield to target multiple creatures. Regardless if the shield hits or misses, it may target another creature within 30 feet of the first target (up to one target per attack action spent this way). When you no longer have any extra attacks or choose to stop the bounce, the shield returns to you."
+               },
+               "3": {
+                  "Value": "If you are under the effects of the avatar form paladin spell, you can bounce your shield at one extra target."
                }
             }
          },
@@ -6726,6 +6787,14 @@
                }
             }
          },
+         "AuraOfLife": {
+            "Label": "Aura of Life",
+            "Description": {
+               "1": {
+                  "Value": "Life-preserving energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. Each non-hostile creature in the aura (including you) has resistance to necrotic damage, and its hit point maximum can’t be reduced. In addition, a non-hostile, living creature regains 1 hit point when it starts its turn in the aura with 0 hit points."
+               }
+            }
+         },
          "Bane": {
             "Label": "Bane",
             "Description": {
@@ -7652,6 +7721,19 @@
             "Description": "You target a creature that has mana within 30 feet. A ray of black-purple anti-magic leaps out, and strikes the target, draining them of mana. You must make a ranged spell attack with the ray. On a success, the target loses 1d4 + 1 mana points. For every mana point lost, the target takes two points of arcane damage. The target is entitled a Spirit saving throw. On a success, the mana and hit points lost are halved.",
             "Heightened": "The number of mana points drained increases by 1d4 points per every two levels above 2 (2d4 at level 4, 3d4 at level 6, 4d4 at level 8). Special: Demons always have active mana, and can always be targeted with mana burn. If they have no mana, they still take 2 points of arcane damage."
          },
+         "MassCureWounds": {
+            "Label": "Mass Cure Wounds",
+            "Description": {
+               "1": {
+                  "Value": "A wave of Healing energy washes out from a point of your choice within range. Choose up to six creatures in a 30-foot-radius Sphere centered on that point. Each target regains Hit Points equal to 3d8 + your Spellcasting ability modifier. This spell has no effect on Undead or constructs."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "When you cast this spell using a spell slot of 6th level or higher, the Healing increases by 1d8 for each slot level above 5th."
+               }
+            }
+         },
          "MassRevivify": {
             "Label": "Mass Revivify",
             "Description": {
@@ -8082,6 +8164,28 @@
             "Heightened": {
                "1": {
                   "Value": "When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd."
+               }
+            }
+         },
+         "WallOfForce": {
+            "Label": "Wall of Force",
+            "Description": {
+               "1": {
+                  "Value": "An invisible wall of force springs into existence at a point you choose within range. The wall appears in any orientation you choose, as a horizontal or vertical barrier or at an angle. It can be free floating or resting on a solid surface. You can form it into a hemispherical dome or a sphere with a radius of up to 10 feet, or you can shape a flat surface made up of ten 10-foot-by-10-foot panels. Each panel must be contiguous with another panel. In any form, the wall is 1/4 inch thick. It lasts for the Duration. If the wall cuts through a creature's space when it appears, the creature is pushed to one side of the wall (your choice which side)."
+               },
+               "2": {
+                  "Value": "Nothing can physically pass through the wall. It is immune to all damage and can't be dispelled by Dispel Magic. A Disintegrate spell destroys the wall instantly, however. The wall also extends into the Ethereal Plane, blocking ethereal travel through the wall."
+               }
+            }
+         },
+         "WardingBond": {
+            "Label": "Warding Bond",
+            "Description": {
+               "1": {
+                  "Value": "This spell wards a willing creature you touch and creates a mystic connection between you and the target until the spell ends. While the target is within 60 feet of you, it gains a +1 bonus to AC and saving throws, and it has resistance to all damage. Also, each time it takes damage, you take the same amount of damage."
+               },
+               "2": {
+                  "Value": "The spell ends if you drop to 0 hit points or if you and the target become separated by more than 60 feet. It also ends if the spell is cast again on either of the connected creatures. You can also dismiss the spell as an action."
                }
             }
          },
