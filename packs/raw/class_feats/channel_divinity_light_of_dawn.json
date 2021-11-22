@@ -1,0 +1,26 @@
+{
+   "_id": "LZZZqJgcLeEvrs4e",
+   "name": "Channel Divinity: Light of Dawn",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 92",
+      "requirements": "Paladin (Holiness) 3"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.ChannelDivinityLightOfDawn.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/light/explosion-beam-impact-silhouette.webp",
+   "effects": [
+   ]
+}

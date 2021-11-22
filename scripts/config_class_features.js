@@ -395,7 +395,7 @@ ClassFeatures.monk = {
                 "17": ["Compendium.warcraft5e.wc5e_class_feats.0d7fgcywXZlymDvq"]
             }
         },
-        "frost": {
+        "windwalker": {
             "label": "Windwalker",
             "source": "Core Rules page 85",
             "features": {
@@ -443,6 +443,87 @@ ClassFeatures.monk = {
         "18": ["Compendium.warcraft5e.wc5e_class_feats.kIXryrIsjM41gtZz"],
         "19": ["Compendium.warcraft5e.wc5e_class_feats.pZ0s66jTVdto9Z3b"],
         "20": ["Compendium.warcraft5e.wc5e_class_feats.cA9AWTxYSiztfWlq"]
+    }
+}
+ClassFeatures.paladin = {
+    "subclasses": {
+        "holiness": {
+            "label": "Holiness",
+            "source": "Core Rules page 92",
+            "features": {
+                "3": [
+                    "Compendium.warcraft5e.wc5e_class_feats.LZZZqJgcLeEvrs4e",
+                    "Compendium.warcraft5e.wc5e_class_feats.1p5iixJWw8wzFxmi"
+                ],
+                "7": ["Compendium.warcraft5e.wc5e_class_feats.wMqF34nMeFKTuKFa"],
+                "15": ["Compendium.warcraft5e.wc5e_class_feats.nOZA907T3ntBSDy1"],
+                "20": ["Compendium.warcraft5e.wc5e_class_feats.bNpeWGGYsWSY0Nnj"]
+            }
+        },
+        "protection": {
+            "label": "Protection",
+            "source": "Core Rules page 93",
+            "features": {
+                "3": [
+                    "Compendium.warcraft5e.wc5e_class_feats.volLu7H7RUAnQiGU",
+                    "Compendium.warcraft5e.wc5e_class_feats.gTfFtLVddNp8jBd6"
+                ],
+                "7": ["Compendium.warcraft5e.wc5e_class_feats.xhb24aculIGVmMPS"],
+                "15": ["Compendium.warcraft5e.wc5e_class_feats.YQdKHLKBbjW4ld3C"],
+                "20": ["Compendium.warcraft5e.wc5e_class_feats.hJBX1Z16CaBHgzAm"]
+            }
+        },
+        "retribution": {
+            "label": "Retribution",
+            "source": "Core Rules page 94",
+            "features": {
+                "3": [
+                    "Compendium.warcraft5e.wc5e_class_feats.rwMznR2NEW8KHjsG",
+                    "Compendium.warcraft5e.wc5e_class_feats.EyeUgkAZ6vc3phLQ"
+                ],
+                "7": ["Compendium.warcraft5e.wc5e_class_feats.1LTJ0Z5PTXccvCHl"],
+                "15": ["Compendium.warcraft5e.wc5e_class_feats.XhI1yaClq0sWo7Yz"],
+                "20": ["Compendium.warcraft5e.wc5e_class_feats.ZORCjZSoe8L77dHz"]
+            }
+        }
+    },
+    "features": {
+        "1": [
+            "Compendium.warcraft5e.wc5e_class_feats.E7MNYi17oWxoYV7d",
+            "Compendium.warcraft5e.wc5e_class_feats.mXkyJa3srztIf5nw"
+        ],
+        "2": [
+            "Compendium.warcraft5e.wc5e_class_feats.wmZWy2jB90V1Z1wv",
+            "Compendium.warcraft5e.wc5e_class_feats.OC0UGQotskcBEwEt",
+            "Compendium.warcraft5e.wc5e_class_feats.rD6qGkafA0RgId3o"
+        ],
+        "3": [
+            "Compendium.warcraft5e.wc5e_class_feats.TViwFKLN6l28fJEy",
+            "Compendium.warcraft5e.wc5e_class_feats.r4fuMB78XkTztxMu"
+        ],
+        "4": ["Compendium.warcraft5e.wc5e_class_feats.pZ0s66jTVdto9Z3b"],
+        "5": ["Compendium.warcraft5e.wc5e_class_feats.RHCM1SEVR8YGj71w"],
+        "6": [
+            "Compendium.warcraft5e.wc5e_class_feats.5COVDSKwtxGH3Rb5",
+            "Compendium.warcraft5e.wc5e_class_feats.TViwFKLN6l28fJEy"
+        ],
+        "7": ["Compendium.warcraft5e.wc5e_class_feats.r4fuMB78XkTztxMu"],
+        "8": ["Compendium.warcraft5e.wc5e_class_feats.pZ0s66jTVdto9Z3b"],
+        "10": ["Compendium.warcraft5e.wc5e_class_feats.TViwFKLN6l28fJEy"],
+        "11": ["Compendium.warcraft5e.wc5e_class_feats.KC29DjqvQqdH0v7P"],
+        "12": ["Compendium.warcraft5e.wc5e_class_feats.pZ0s66jTVdto9Z3b"],
+        "14": [
+            "Compendium.warcraft5e.wc5e_class_feats.kWOJ0J9yTOOmYz1X",
+            "Compendium.warcraft5e.wc5e_class_feats.TViwFKLN6l28fJEy"
+        ],
+        "15": ["Compendium.warcraft5e.wc5e_class_feats.r4fuMB78XkTztxMu"],
+        "16": ["Compendium.warcraft5e.wc5e_class_feats.pZ0s66jTVdto9Z3b"],
+        "18": [
+            "Compendium.warcraft5e.wc5e_class_feats.8jbKibzJGsCpwxXB",
+            "Compendium.warcraft5e.wc5e_class_feats.TViwFKLN6l28fJEy"
+        ],
+        "19": ["Compendium.warcraft5e.wc5e_class_feats.pZ0s66jTVdto9Z3b"],
+        "20": ["Compendium.warcraft5e.wc5e_class_feats.r4fuMB78XkTztxMu"]
     }
 }
 ClassFeatures.rogue = {

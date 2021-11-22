@@ -1,0 +1,53 @@
+{
+   "_id": "r4fuMB78XkTztxMu",
+   "name": "Holy Oath",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 90",
+      "requirements": "Paladin 3"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.HolyOath.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.HolyOath.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Feats.HolyOath.Description.3.Value"
+            },
+            {
+               "title": "WC5E.Feats.HolyOath.Description.4.Title",
+               "value": "WC5E.Feats.HolyOath.Description.4.Value"
+            },
+            {
+               "value": "WC5E.Feats.HolyOath.Description.5.Value"
+            },
+            {
+               "title": "WC5E.Feats.HolyOath.Description.6.Title",
+               "value": "WC5E.Feats.HolyOath.Description.6.Value"
+            },
+            {
+               "value": "WC5E.Feats.HolyOath.Description.7.Value"
+            },
+            {
+               "title": "WC5E.Feats.HolyOath.Description.8.Title",
+               "value": "WC5E.Feats.HolyOath.Description.8.Value"
+            },
+            {
+               "value": "WC5E.Feats.HolyOath.Description.9.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/sundries/books/book-tooled-blue-yellow.webp",
+   "effects": [
+   ]
+}

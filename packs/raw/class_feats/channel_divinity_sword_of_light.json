@@ -1,0 +1,29 @@
+{
+   "_id": "rwMznR2NEW8KHjsG",
+   "name": "Channel Divnity: Sword of Light",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 94",
+      "requirements": "Paladin (Retribution) 3"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.ChannelDivinitySwordOfLight.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.ChannelDivinitySwordOfLight.Description.2.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/skills/melee/strike-sword-slashing-red.webp",
+   "effects": [
+   ]
+}

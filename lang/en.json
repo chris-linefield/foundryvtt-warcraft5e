@@ -1547,7 +1547,59 @@
             }
          },
          "Paladin": {
-            "Name": "Paladin"
+            "Name": "Paladin",
+            "Introduction": {
+               "1": "A draenei pores over an ancient libram, moving its pages by his mere will. Summoning a blessing, he shuts the tome as light arises from his hooves to the heavens. Hefting his crystalline greathammer, he exits, aware that his return is unlikely at best.",
+               "2": "Huddled together, two young orcs cower as a fierce dragon lands with a resounding crash atop the chieftain‘s hut. She roars before spewing liquid fire upon the great watchtower, revealing the orcs in the light. She releases a blast of flame at them—but then stops. The red inferno dissipates to reveal tauren clad in golden plate, holding aloft a mighty shield that blocked her fire. Telling the orcs to run, the tauren prepares himself to face the dragon alone, satisfied he has bought the young orcs the time they needed to escape.",
+               "3": "A human rides through haunted plague-lands on a wounded steed. As he nears an abandoned barn, hisses are from undead throats, as six ghouls skulk from the interior of the barn. The rider raises a bare hand, causing a burst of holy light to rise from the earth to burn the ghouls. After his deed is done, the rider continues on, the land still marked with his power, temporarily freed from unholy blight."
+            },
+            "Description": "This is the call of the paladin: to protect the weak, to bring justice to the unjust, and to vanquish evil from the darkest corners of the world. These holy warriors are equipped with plate armor so they can confront the toughest of foes, and the blessing of the Light allows them to heal wounds and, in some cases, even restore life to the dead.",
+            "Blocks": {
+               "1": {
+                  "Title": "The Cause of Righteousness",
+                  "Content": {
+                     "1": "Paladins are virtuous defenders of the weak, and tireless, unfaltering enemies of the undead.",
+                     "2": "Mixing elements of the warrior and the clerics of the Holy Light, the paladin is a tough melee fighter.",
+                     "3": "The paladin is a warrior of the Holy Light. They uphold all that is good and true in the world and revile all that is evil and sinister, especially undead and the Burning Legion. They offer succor to the beleaguered and smite their enemies with holy fervor. They are particularly potent against  undead, as these creatures threaten the goodly races and the Holy Light burns them terribly. The presence of any evil is reprehensible to paladins, but they focus their efforts on destroying undead and demons.",
+                     "4": "These warriors uphold the tenets of the Holy Light and defend their factions from the predations of any threat. Found in almost every corner of Azeroth fighting the forces of evil and barbarism, these stalwart warriors of faith ceaselessly uphold their vigil against demonic forces from beyond the Dark Portal. Paladins are the embodiment of good and selfless dedication to the protection of their peoples. They help the innocent and punish the wicked. As such, paladins are generally of good alignment."
+                  }
+               },
+               "2": {
+                  "Title": "Beyond the mundane Light",
+                  "Content": {
+                     "1": "Almost by definition, the life of a paladin is an adventuring life. Unless a lasting injury has taken him or her away from adventuring for a time, every paladin lives on the front lines of the cosmic struggle against evil.",
+                     "2": "Fighters are rare enough among the ranks of the militias and armies of the world, but even fewer people can claim the true calling of a paladin. When they do receive the call, these warriors turn from their former occupations and take up arms to fight evil. Sometimes their oaths lead them into the service of the crown as leaders of elite groups of knights, but even then their loyalty is first to the cause of righteousness, not to crown and country. Adventuring paladins take their work seriously. A delve into an ancient ruin or dusty crypt can be a quest driven by a higher purpose than the acquisition of treasure. Evil lurks in dungeons and primeval forests, and even the smallest victory against it can tilt the cosmic balance away from oblivion."
+                  }
+               },
+               "3": {
+                  "Title": "Creating the Paladin",
+                  "Content": {
+                     "1": "The most important aspect of a paladin character is the nature of his or her holy quest. Although the class features related to your oath don‘t appear until you reach 3rd level, plan ahead for that choice by reading the oath descriptions at the end of the class.",
+                     "2": "Are you a devoted servant of good, loyal to justice and honor, a holy knight in shining armor venturing forth to smite evil? Are you a glorious champion of the Light, cherishing everything beautiful that stands against the shadow? Are you a defender who can stand before sea of foes without flinching? Or are you an embittered loner sworn to deliver retribution on those who have done great evil?"
+                  }
+               }
+            },
+            "QuickBuild": "You can make a paladin quickly by following these suggestions. First, Strength should be your highest ability score, followed by Charisma. Second, choose the noble background. Third, choose the following 1st-level spells for your libram: compelled duel, holy light, and seal array (righteousness).",
+            "SpecialFeats": {
+               "SealSpells": {
+                  "Label": "Seal Spells",
+                  "Description": "Paladins are the only class that can access the seal array spell, and can prepare different seals for strike effects. Seals are magical enhancements that can enhance a paladin‘s weapon attacks, and can be released in coordination with the Crusader Strike ability to cause a devastating strike."
+               }
+            },
+            "SacredOaths": {
+               "Holiness": {
+                  "Title": "Oath of Holiness",
+                  "Description": "Your oath is to heal and inspire your allies. Holy paladins are common, and are usually wellregarded battle healers."
+               },
+               "Protection": {
+                  "Title": "Oath of Protection",
+                  "Description": "Your oath is to guard your allies and all friends of the Holy Light. Protection paladins are very tough foes who can survive hefty abuse."
+               },
+               "Retribution": {
+                  "Title": "Oath of Retribution",
+                  "Description": "Your oath is to bring retribution to the wicked, avenging wrongs made but not settled. Retribution paladins are often wandering knights, hunting down villains and depraved monsters."
+               }
+            }
          },
          "Priest": {
             "Name": "Priest"
@@ -1924,50 +1976,6 @@
                }
             }
          },
-         "Augmentation": {
-            "Label": "Augmentation",
-            "Description": {
-               "1": {
-                  "Value": "You can augment a potion you hold by spending 1 minute or an Bonus Action and 4 Crafting Points. An augmented potion remains augmented indefinitely, but you can only have up to one potion augmented at any given time. You can apply the following augmentations:"
-               },
-               "2": {
-                  "Options": {
-                     "1": "Every dice your potion rolls is maximized.",
-                     "2": "Every dice your potion rolls is minimized (lowest result on the roll).",
-                     "3": "When the potion is used, roll a d100. On a result of 50 or higher, the potion gives its full effects with only a fraction of the actual content, allowing the potion to be reused.",
-                     "4": "You alter your potion to activate in response to a trigger you choose and that can affect the potion‘s contents, such as time passed, being shaken a certain way, or being touched by an eligible target. This does not stack with the Internal Clock feature.<br>For instance, if you can create an exorcism potion, you can coat a sword with it to activate in response to touching an eligible target of the spell, or to activate after 1 minute to counter a possible possession."
-                  }
-               }
-            }
-         },
-         "AuraDeathKnight": {
-            "Label": "Aura",
-            "Description": {
-               "1": {
-                  "Value": "Your mastery over aura spells begins to manifest. You always have the following aura spells prepared."
-               },
-               "2": {
-                  "Options": {
-                     "1": "At 3rd level, you always have the abandonment aura spell prepared.",
-                     "2": "At 6th level, you always have the necrotic aura spell prepared.",
-                     "3": "At 10th level, you always have the unholy aura spell prepared.",
-                     "4": "At 14th level, you always have the distraction aura spell prepared.",
-                     "5": "At 18th level, you always have the vulnerability aura spell prepared."
-                  }
-               },
-               "3": {
-                  "Value": "Furthermore, you may cast each of the above aura spells for no cost once upon reaching the described level. You regain all expended uses after a short rest. You may expend a free aura use to cancel one successful turn undead attempt that affected your undead allies."
-               }
-            }
-         },
-         "AuraImprovementDeathKnight": {
-            "Label": "Aura Improvement",
-            "Description": {
-               "1": {
-                  "Value": "You can no longer lose concentration on an aura from taking damage, and may extend the range of any aura spell by 100%. Any effect that would normally dispel the aura instead suppresses it for 1 minute instead."
-               }
-            }
-         },
          "ArcanePower": {
             "Label": "Arcane Power",
             "Description": {
@@ -2022,6 +2030,28 @@
                }
             }
          },
+         "ArdentDefender": {
+            "Label": "Ardent Defender",
+            "Description": {
+               "1": {
+                  "Value": "You may, as a reaction, you may gain resistance to all damage for one round. Once this feature is used a number of times equal to your Charisma modifier, it cannot be used again until you complete a long rest."
+               },
+               "2": {
+                  "Value": "When you no longer have uses of this ability, your Opportune Prayer ability allows you to cast any paladin spell when it is triggered instead (subject to the same casting time restriction)."
+               }
+            }
+         },
+         "ArmOfTheLaw": {
+            "Label": "Arm of the Law",
+            "Description": {
+               "1": {
+                  "Value": "You may perform a Crusader Strike as a ranged spell attack. The attack has a range of 30 feet, and deals only the holy damage as well as any seal release effects. If you use a thrown weapon, you can use Crusader Strike at a range of up to 30 feet."
+               },
+               "2": {
+                  "Value": "Also, whenever you use Crusader Strike or release a seal, you can Dash as a bonus action, but only to approach the target of your Crusader Strike or an allied creature within 10 feet of the target."
+               }
+            }
+         },
          "ArmyOfTheDead": {
             "Label": "Army of the Dead",
             "Description": {
@@ -2044,6 +2074,89 @@
                },
                "2": {
                   "Value": "Also, if you don‘t already have proficiency with a poisoner‘s kit, you gain proficiency in it, and you gain advantage to saving throws against your own poisons."
+               }
+            }
+         },
+         "Augmentation": {
+            "Label": "Augmentation",
+            "Description": {
+               "1": {
+                  "Value": "You can augment a potion you hold by spending 1 minute or an Bonus Action and 4 Crafting Points. An augmented potion remains augmented indefinitely, but you can only have up to one potion augmented at any given time. You can apply the following augmentations:"
+               },
+               "2": {
+                  "Options": {
+                     "1": "Every dice your potion rolls is maximized.",
+                     "2": "Every dice your potion rolls is minimized (lowest result on the roll).",
+                     "3": "When the potion is used, roll a d100. On a result of 50 or higher, the potion gives its full effects with only a fraction of the actual content, allowing the potion to be reused.",
+                     "4": "You alter your potion to activate in response to a trigger you choose and that can affect the potion‘s contents, such as time passed, being shaken a certain way, or being touched by an eligible target. This does not stack with the Internal Clock feature.<br>For instance, if you can create an exorcism potion, you can coat a sword with it to activate in response to touching an eligible target of the spell, or to activate after 1 minute to counter a possible possession."
+                  }
+               }
+            }
+         },
+         "AuraDeathKnight": {
+            "Label": "Aura",
+            "Description": {
+               "1": {
+                  "Value": "Your mastery over aura spells begins to manifest. You always have the following aura spells prepared."
+               },
+               "2": {
+                  "Options": {
+                     "1": "At 3rd level, you always have the abandonment aura spell prepared.",
+                     "2": "At 6th level, you always have the necrotic aura spell prepared.",
+                     "3": "At 10th level, you always have the unholy aura spell prepared.",
+                     "4": "At 14th level, you always have the distraction aura spell prepared.",
+                     "5": "At 18th level, you always have the vulnerability aura spell prepared."
+                  }
+               },
+               "3": {
+                  "Value": "Furthermore, you may cast each of the above aura spells for no cost once upon reaching the described level. You regain all expended uses after a short rest. You may expend a free aura use to cancel one successful turn undead attempt that affected your undead allies."
+               }
+            }
+         },
+         "AuraImprovementDeathKnight": {
+            "Label": "Aura Improvement",
+            "Description": {
+               "1": {
+                  "Value": "You can no longer lose concentration on an aura from taking damage, and may extend the range of any aura spell by 100%. Any effect that would normally dispel the aura instead suppresses it for 1 minute instead."
+               }
+            }
+         },
+         "AuraPaladin": {
+            "Label": "Aura",
+            "Description": {
+               "1": {
+                  "Value": "Your mastery over aura spells begins to manifest. You always have the following aura spells prepared."
+               },
+               "2": {
+                  "Options": {
+                     "1": "At 3rd level, you always have the devotion aura spell prepared.",
+                     "2": "At 6th level, you always have the retribution aura spell prepared.",
+                     "3": "At 10th level, you always have the crusader aura spell prepared.",
+                     "4": "At 14th level, you always have the concentration aura spell prepared.",
+                     "5": "At 18th level, you always have the resistance aura spell prepared."
+                  }
+               },
+               "3": {
+                  "Value": "Furthermore, you may cast each of the above aura spells for no cost once upon reaching the described level. You regain all expended uses after a short rest."
+               }
+            }
+         },
+         "AuraImprovementPaladin": {
+            "Label": "Aura Improvement",
+            "Description": {
+               "1": {
+                  "Value": "You have advantage to any check to maintain an aura, and may extend the range of any aura spell by 100%. Any effect that would normally dispel the aura instead suppresses it for 1 minute instead."
+               }
+            }
+         },
+         "AvengersShield": {
+            "Label": "Avenger's Shield",
+            "Description": {
+               "1": {
+                  "Value": "You may throw a shield you are wearing as a ranged thrown attack (even if it is normally strapped to your arm). The shield acts as a light thrown weapon with a range of 30/60 feet that deals 1d4 + your Strength modifier in damage. The damage dealt is half holy and half bludgeoning, and furthermore the target gains the distracted condition for until the beginning of your turn in the next round. The shield returns instantaneously to your hand, and may be used again in the same round if you have multiple attacks."
+               },
+               "2": {
+                  "Value": "Also, so long as you are using a shield, you cannot lose concentration on an aura spell due to damage. The Improved Auras ability grants you advantage to any concentration spell from the Paladin spell list instead."
                }
             }
          },
@@ -2338,6 +2451,39 @@
                }
             }
          },
+         "ChannelDivinityLightOfDawn": {
+            "Label": "Channel Divinity: Light of Dawn",
+            "Description": {
+               "1": {
+                  "Value": "When you take this oath at 3rd level, you can spend a Channel Divinity use and an action, to present your holy symbol and release an outburst of the Holy Light of Creation, allowing one friendly creature within 30 feet to use a hit dice as if they rested. The ally also gains temporary hit points equal to double your Charisma modifier."
+               }
+            }
+         },
+         "ChannelDivinityRooksMove": {
+            "Label": "Channel Divinity: Rook's Move",
+            "Description": {
+               "1": {
+                  "Value": "You may spend a Channel Divinity use to swap places with any ally as a reaction. Choose an ally that is about to be attacked by a weapon attack, or an ally who took damage from a weapon attack roll. The two of you change places, ignoring attacks of opportunity provoked as part of movement and difficult terrain. The ally must be within 30 feet of you, you must have a clear path to them, and the target must be of your size category or smaller."
+               },
+               "2": {
+                  "Value": "If you use this ability before the attack roll is made, but you must declare use of this ability before knowing whether the attack would hit the ally. The attack roll is made against your normal AC."
+               },
+               "3": {
+                  "Value": "If you declare this ability after the attack roll is successful, the attack is automatically successful, and you switch places, even if you would have otherwise been unharmed (it such as by having a higher AC value than the attacker‘s attack roll)."
+               }
+            }
+         },
+         "ChannelDivinitySwordOfLight": {
+            "Label": "Channel Divinity: Sword of Light",
+            "Description": {
+               "1": {
+                  "Value": "You can spend a Channel Divinity use and an action to imbue one weapon that you are holding with positive energy. For 1 minute, you add your Charisma modifier to attack rolls made with that weapon (a minimum bonus of +1). The weapon also emits bright light in a 20-foot-radius and dim light 20 feet beyond that. If the weapon is not already magical, it becomes magical for the duration."
+               },
+               "2": {
+                  "Value": "You can end this effect on your turn as a bonus action. If you are no longer holding or carrying this weapon, or if you fall unconscious, this effect ends. The light is treated as a light spell of your highest-level paladin level for the purposes of dispelling darkness."
+               }
+            }
+         },
          "ChannelElements": {
             "Label": "Channel Elements",
             "Description": {
@@ -2444,6 +2590,17 @@
                      "2": "Deal 1d6 points of arcane damage for each spell level removed",
                      "3": "Reduce the target‘s speed by 10 feet for 1 minute"
                   }
+               }
+            }
+         },
+         "CleansingTouch": {
+            "Label": "Cleansing Touch",
+            "Description": {
+               "1": {
+                  "Value": "You can use your action to end one spell on yourself or on one willing creature that you touch."
+               },
+               "2": {
+                  "Value": "You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain expended uses when you finish a long rest."
                }
             }
          },
@@ -2573,6 +2730,17 @@
                      "7": "Pickpocket",
                      "8": "Smuggler"
                   }
+               }
+            }
+         },
+         "CrusaderStrike": {
+            "Label": "Crusader Strike",
+            "Description": {
+               "1": {
+                  "Value": "When you hit a creature with a melee weapon attack, you can expend mana as if you cast a spell to deal holy damage to the target, in addition to the weapon‘s damage. The extra damage is 1d8 plus 1d8 per spell level (maximum 6d8 with a 5th level spell). If the target is a fiend or an undead, you gain +5 to the strike‘s damage."
+               },
+               "2": {
+                  "Value": "If you have a seal active, you may also perform a Crusader Strike without expending mana (called Seal Release or Judgment), terminating the effects of the seal (plus an additional effect depending on the seal). Despite the name, Crusader Strike does not count as a Strike effect."
                }
             }
          },
@@ -2779,6 +2947,14 @@
                }
             }
          },
+         "DivineHealth": {
+            "Label": "Divine Health",
+            "Description": {
+               "1": {
+                  "Value": "The divine magics flowing within you grant you immunity to diseases and advantage against poison, as well as resistance against poison damage."
+               }
+            }
+         },
          "DivineSense": {
             "Label": "Divine Sense",
             "Description": {
@@ -2790,6 +2966,31 @@
                },
                "3": {
                   "Value": "You know the type (celestial, fiend, or undead) of any being whose presence you sense, but not its identity (the lich Kel‘Thuzad, for instance). Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the hallow spell. You can use this feature a number of times equal to 1 + your Charisma modifier. When you finish a long rest, you regain all expended uses."
+               }
+            }
+         },
+         "DivineSensePaladin": {
+            "Label": "Divine Sense",
+            "Description": {
+               "1": {
+                  "Value": "The presence of strong evil registers on your senses like a noxious odor, and powerful good rings like heavenly music in your ears. As an action, you can open your awareness to detect such forces."
+               },
+               "2": {
+                  "Value": "Until the end of your next turn, you know the location of any celestial, fiend, or undead within 60 feet of you that is not behind total cover. You know the type (celestial, fiend, or undead) of any being whose presence you sense, but not its identity (the lich Kel‘Thuzad, for instance). Within the same radius, you also detect the presence of any place or object that has been consecrated or  desecrated, as with the hallow spell. You can use this feature a number of times equal to 1 + your Charisma modifier. When you finish a long rest, you regain all expended uses."
+               }
+            }
+         },
+         "DivineStorm": {
+            "Label": "Divine Storm",
+            "Description": {
+               "1": {
+                  "Value": "Whenever you use a Crusader Strike, you may allow the holy energies to radiate from you in a blazing storm of holy radiance. All hostile creatures within 5 feet of you suffer the same holy damage dealt by the Crusader Strike ability. They may halve the damage on a successful Spirit saving throw against your Spell save DC."
+               },
+               "2": {
+                  "Value": "If you released a seal, the release effect is applied only to the initial creature. You also only regain hit points appropriate to the damage you dealt the initial target."
+               },
+               "3": {
+                  "Value": "If you are under the effects of the avatar form paladin spell, you may reroll any 1 or 2 on a damage dice for your Crusader Strike, and you must choose the new roll, even if the new roll is a 1 or a 2."
                }
             }
          },
@@ -2931,6 +3132,17 @@
                },
                "3": {
                   "Value": "If you are traveling overland with totems out, they move with you."
+               }
+            }
+         },
+         "Emancipate": {
+            "Label": "Emancipate",
+            "Description": {
+               "1": {
+                  "Value": "Your Cleansing Touch ability may be used at a range of 10 feet, and you may always cast it on yourself, even when otherwise incapacitated."
+               },
+               "2": {
+                  "Value": "Furthermore, whenever you have no mana points remaining or uses of Cleaning Touch, you may spend hit dice to fuel your Crusader Strike feature (up to one hit dice per spell level)."
                }
             }
          },
@@ -3292,6 +3504,30 @@
                }
             }
          },
+         "FightingStylePaladin": {
+            "Label": "Fighting Style",
+            "Description": {
+               "1": {
+                  "Value": "You adopt a style of fighting as your specialty. Choose one of the following options. You can‘t take a Fighting Style option more than once, even if you later get to choose again."
+               },
+               "2": {
+                  "Title": "Defense",
+                  "Value": "While you are wearing armor, you gain a +1 bonus to AC."
+               },
+               "3": {
+                  "Title": "Dueling",
+                  "Value": "When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon."
+               },
+               "4": {
+                  "Title": "Great Weapon Fighting",
+                  "Value": "When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll. The weapon must have the two-handed or versatile property for you to gain this benefit."
+               },
+               "5": {
+                  "Title": "Protection",
+                  "Value": "When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield."
+               }
+            }
+         },
          "FirearmImprovement": {
             "Label": "Firearm Improvement",
             "Description": {
@@ -3643,6 +3879,77 @@
                }
             }
          },
+         "HolyAuras": {
+            "Label": "Holy Auras",
+            "Description": {
+               "1": {
+                  "Value": "Your auras increase in strength. You may maintain two aura spells at once as if they cost one case of concentration. Furthermore, your allies can benefit from two auras at a time."
+               },
+               "2": {
+                  "Value": "Also, whenever an ally is within one of your aura spells, they are more easily healed by you. If you are using a paladin healing spell, it can heal one additional dice of damage to them. If you are using the Lay on Hands feature, it can heal 25% extra hit points. If you are using the holy shock spell, it can heal or deal one additional dice of damage if the target is within one of your aura spells."
+               }
+            }
+         },
+         "HolyOath": {
+            "Label": "Holy Oath",
+            "Description": {
+               "1": {
+                  "Value": "You walk a path that defines you as a paladin forever. Up to this time you have been in a preparatory stage, committed to the path but not yet sworn to it."
+               },
+               "2": {
+                  "Value": "You may choose the Oath of Holiness to aid the helpless, Oath of Protection to guard the weak, or Oath of Retribution to smite the wicked, all detailed at the end of the class description."
+               },
+               "3": {
+                  "Value": "Your choice grants you features at 3rd level and again at 7th, 15th, and 20th level. Those features include oath spells and the Channel Divinity feature."
+               },
+               "4": {
+                  "Title": "Oath Spells",
+                  "Value": "Each oath has a list of associated spells. You gain access to these spells at the levels specified in the oath description. Once you gain access to an oath spell, you always have it prepared. Oath spells don‘t count against the number of spells you can prepare each day."
+               },
+               "5": {
+                  "Value": "If you gain an oath spell that doesn‘t appear on the paladin spell list, the spell is nonetheless a paladin spell for you."
+               },
+               "6": {
+                  "Title": "Channel Divinity",
+                  "Value": "Your path allows you to channel divine energy to fuel magical effects. Each Channel Divinity option provided by your path explains how to use it. When you use your Channel Divinity, you choose which option to use. You must then finish a short or long rest to use your Channel Divinity again. Some Channel Divinity effects require saving throws. When you use such an effect from this class, the DC equals your paladin spell save DC."
+               },
+               "7": {
+                  "Value": "You may always Turn Undead, and you gain an additional choice from your Path."
+               },
+               "8": {
+                  "Title": "Channel Divinity: Turn Undead",
+                  "Value": "As an action, you present your holy symbol and speak a prayer censuring fiends and undead, using your Channel Divinity. Each fiend or undead that can see or hear you within 30 feet of you must make a Spirit saving throw."
+               },
+               "9": {
+                  "Value": "If the creature fails its saving throw, it is turned for 1 minute or until it takes damage. A turned creature must spend its turns trying to move as far away from you as it can, and it can‘t willingly move to a space within 30 feet of you. It also can‘t take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there‘s nowhere to move, the creature can use the Dodge action."
+               }
+            }
+         },
+         "HolySentinel": {
+            "Label": "Holy Sentinel",
+            "Description": {
+               "1": {
+                  "Value": "your Avenger‘s Shield deals 2d4 points of damage instead of 1d4. Also, whenever you successfully strike a target with the shield, you gain a d4 dice (up to a maximum number of dice equal to 3d4). If you deal Holy damage or heal at least 1 hit point of damage with your Paladin spells or your Lay on Hands feature, you may expend the dice and add the result to your roll."
+               },
+               "2": {
+                  "Value": "This applies once per spell."
+               }
+            }
+         },
+         "HolyVision": {
+            "Label": "Holy Vision",
+            "Description": {
+               "1": {
+                  "Value": "Whenever you cast a healing spell from the paladin spell list and the dice shows the maximum possible result (such as a 6 on a d6), you may roll the maximized dice again and add the amount healed to the total. This applies to healing spells that deal damage to undead."
+               },
+               "2": {
+                  "Value": "This does not stack with other similar abilities."
+               },
+               "3": {
+                  "Value": "This acts similarly to the Light‘s Insight ability of the holy priesthood. If having both features, and if the re-rolled dice results in a maximum result as well, you may roll a third time."
+               }
+            }
+         },
          "HunterArchetype": {
             "Label": "Hunter Archetype",
             "Description": {
@@ -3774,10 +4081,29 @@
             "Label": "Ice Statues",
             "Description": {
                "1": {
-                  "Value": "whenever you a target of your mage spells is restrained by having their speed reduced to 0 by the chilled condition, they are also incapacitated for the duration of the chilled condition. Against such targets, your frost bolt cantrip is automatically a critical hit if it successfully hits, but the chilled condition ends prematurely (and is not applied for frost bolt)."
+                  "Value": "Whenever you a target of your mage spells is restrained by having their speed reduced to 0 by the chilled condition, they are also incapacitated for the duration of the chilled condition. Against such targets, your frost bolt cantrip is automatically a critical hit if it successfully hits, but the chilled condition ends prematurely (and is not applied for frost bolt)."
                },
                "2": {
                   "Value": "Also, whenever you deal damage to a creature that exceeds one-half their maximum hit points at once, they are both restrained and incapacitated for one hour (or until they thaw out, whichever comes first). Both effects end prematurely if the target is hit."
+               }
+            }
+         },
+         "IlluminatedHealer": {
+            "Label": "Illuminated Healer",
+            "Description": {
+               "1": {
+                  "Value": "Whenever a creature that benefits from a healing effect (such as Light of Dawn, or healing spell) originating from you manifest a holy shield. This holy shield grants them temporary hit points equal to the amount they were healed by you."
+               },
+               "2": {
+                  "Value": "This shield remains until ten minutes have passed. A creature can benefit from a single holy shield only once every hour. When you benefit from maximized dice via your Holy Vision feature, you may roll again (up to twice per instance)."
+               }
+            }
+         },
+         "ImprovedCrusaderStrike": {
+            "Label": "Improved Crusader Strike",
+            "Description": {
+               "1": {
+                  "Value": "You are so suffused with the might of the Light that all your melee weapon strikes carry its divine power with it. Whenever you hit a creature with a melee weapon, the creature takes an extra 1d8 holy damage. If you also use your Crusader Strike with an attack, you add this damage to the extra damage of your Crusader Strike."
                }
             }
          },
@@ -4016,6 +4342,31 @@
                }
             }
          },
+         "LatentPrayer": {
+            "Label": "Latent Prayer",
+            "Description": {
+               "1": {
+                  "Value": "You may cast a healing spell on a creature that only activates whenever the creature wishes. This does not require concentration on your end, and the creature (or you) may declare use of the spell as a reaction. This effect remains for one day or until used, and leaves a holy mark that can be detected as the healing spell. A single creature can only benefit from one latent prayer until they take a long rest. This may also be applied to undead to harm them (if possible)."
+               },
+               "2": {
+                  "Value": "If you use this ability while under the effect of the avatar form paladin spell, you can affect a second time in the same period."
+               }
+            }
+         },
+         "LayOnHands": {
+            "Label": "Lay on Hands",
+            "Description": {
+               "1": {
+                  "Value": "Your blessed touch can cure wounds. As an action, you may lay your hands on a target, investing them with healing energies. For every mana point you spend for Lay on Hands, you heal a number of hit points equal to your proficiency bonus. Amount you heal is instead treated as holy damage for undead and fiends (in which case, this requires a melee spell attack). Excess hit points are lost, and you cannot heal or deal more damage than a value equal to your maximum hit points. When performing Lay on Hands on yourself, this is instead a bonus action."
+               },
+               "2": {
+                  "Value": "Alternatively, you can expend the mana to cure one disease or one poison of your choice. Each disease or poison requires spending mana points equal to one-quarter the saving throw DC of the poison or disease. You may cure multiple diseases or poisons this way. This feature has no effect on constructs."
+               },
+               "3": {
+                  "Value": "You gain a mana pool as if you were a second level paladin (see the Spellcasting feature below), with the pool size as if you had no access to 1st level spells."
+               }
+            }
+         },
          "LifeCocoon": {
             "Label": "Life Cocoon",
             "Description": {
@@ -4250,6 +4601,20 @@
             "Description": {
                "1": {
                   "Value": "You add all spells of the Necromancy school from the Mage spell list to the Alchemist spell list, and can make potions out of them."
+               }
+            }
+         },
+         "OpportunePrayer": {
+            "Label": "Opportune Prayer",
+            "Description": {
+               "1": {
+                  "Value": "Whenever you reduce an enemy to 0 hit points, you may cast a healing spell from the paladin spell list as a reaction (so long as the spell has a maximum casting time of 1 action). You may also do this whenever you score a critical hit, are hit with a critical hit, or when reduced to 0 hit points."
+               },
+               "2": {
+                  "Value": "Furthermore, so long as you have multiple attacks, you can spend them to allow your Avenger‘s Shield to target multiple creatures. Regardless if the shield hits or misses, it may target another creature within 30 feet of the first target (up to one target per attack action spent this way). When you no longer have any extra attacks or choose to stop the bounce, the shield returns to you."
+               },
+               "3": {
+                  "Value": "If you are under the effects of the avatar form paladin spell, you can bounce your shield at one extra target."
                }
             }
          },
@@ -5109,6 +5474,43 @@
                }
             }
          },
+         "SpellcastingPaladin": {
+            "Label": "Spellcasting",
+            "Description": {
+               "1": {
+                  "Value": "you have learned to draw on divine magic through meditation and prayer to cast spells as a priest does."
+               },
+               "2": {
+                  "Title": "Conjuring and Binding",
+                  "Value": "A paladin can conjure and bind celestials."
+               },
+               "3": {
+                  "Title": "Preparing and Casting Spells",
+                  "Value": "Each paladin level provides you with 0.5 caster levels in the paladin class (minimum 0). You follow the normal progression to unlock spell levels (see the table under the Mana section)."
+               },
+               "4": {
+                  "Value": "You can also change your list of prepared spells by consulting your libram (treat as a spellbook) after a long rest. Preparing a new list of paladin spells requires time spent in study: at least 1 minute per spell level for each spell on your list."
+               },
+               "5": {
+                  "Title": "Spellcasting Ability",
+                  "Value": "Charisma is your spellcasting ability for your paladin spells, since their power derives from the strength of your convictions. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a paladin spell you cast and when making an attack roll with one."
+               },
+               "6": {
+                  "Value": "<strong>Spell save DC</strong> = 8 + your proficiency bonus + your Charisma modifier<br><strong>Spell attack modifier</strong> = your proficiency bonus + your Charisma modifier"
+               },
+               "7": {
+                  "Title": "Spellbook - Libram",
+                  "Value": "At 2nd level, your libram contains three 1st-level paladin spells of your choice. When you level up, you gain 2 additional paladin spells of your choice. You may also acquire new spells by research, tutelage, or from the spellbooks and scrolls of spellcasters who have spells you can cast."
+               },
+               "8": {
+                  "Value": "Your libram is effectively your spellbook, and you may add spells by scribing it with new insights regarding the faith and how to protect and promote it."
+               },
+               "9": {
+                  "Title": "Spellcasting Focus",
+                  "Value": "You can use your holy libram as a spellcasting focus for your paladin spells, as well as the store for them."
+               }
+            }
+         },
          "SpellcastingShaman": {
             "Label": "Spellcasting",
             "Description": {
@@ -5365,6 +5767,17 @@
                },
                "2": {
                   "Value": "You also gain +10 feet to your speed when wearing medium armor or less, and when not using a shield."
+               }
+            }
+         },
+         "SwordOfTruth": {
+            "Label": "Sword of Truth",
+            "Description": {
+               "1": {
+                  "Value": "You add your Charisma modifier to your melee weapon damage rolls, and whenever you perform a Crusader Strike, you regain hit points equal to half the holy damage you dealt using the ability."
+               },
+               "2": {
+                  "Value": "Lastly, if you are under the effects of the avatar form paladin spell, you can choose one seal you can cast, and that seal is cast for no mana cost, and remains active until the avatar form spell ends."
                }
             }
          },
@@ -6432,6 +6845,14 @@
                }
             }
          },
+         "AuraOfLife": {
+            "Label": "Aura of Life",
+            "Description": {
+               "1": {
+                  "Value": "Life-preserving energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. Each non-hostile creature in the aura (including you) has resistance to necrotic damage, and its hit point maximum can’t be reduced. In addition, a non-hostile, living creature regains 1 hit point when it starts its turn in the aura with 0 hit points."
+               }
+            }
+         },
          "Bane": {
             "Label": "Bane",
             "Description": {
@@ -6450,6 +6871,14 @@
             "Description": {
                "1": {
                   "Value": "You touch a willing creature. Until the spell ends, the target's skin has a rough, bark-like appearance, and the target's AC can't be less than 16, regardless of what kind of armor it is wearing."
+               }
+            }
+         },
+         "BeaconOfHope": {
+            "Label": "Beacon of Hope",
+            "Description": {
+               "1": {
+                  "Value": "This spell bestows hope and vitality. Choose any number of creatures within range. For the duration, each target has advantage on Wisdom saving throws and death saving throws, and regains the maximum number of hit points possible from any healing."
                }
             }
          },
@@ -6575,6 +7004,19 @@
                }
             }
          },
+         "BrandingSmite": {
+            "Label": "Branding Smite",
+            "Description": {
+               "1": {
+                  "Value": "The next time you hit a creature with a weapon attack before this spell ends, the weapon gleams with astral radiance as you strike. The attack deals an extra 2d6 radiant damage to the target, which becomes visible if it's invisible, and the target sheds dim light in a 5-foot radius and can't become invisible until the spell ends."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "When you cast this spell using a spell slot of 3rd level or higher, the extra damage increases by 1d6 for each slot level above 2nd."
+               }
+            }
+         },
          "CarrionSwarm": {
             "Label": "Carrion Swarm",
             "Description": {
@@ -6643,6 +7085,20 @@
                }
             }
          },
+         "Commune": {
+            "Label": "Commune",
+            "Description": {
+               "1": {
+                  "Value": "You contact your deity or a divine proxy and ask up to three questions that can be answered with a yes or no. You must ask your questions before the spell ends. You receive a correct answer for each question."
+               },
+               "2": {
+                  "Value": "Divine beings aren’t necessarily omniscient, so you might receive “unclear” as an answer if a question pertains to information that lies beyond the deity’s knowledge. In a case where a one-word answer could be misleading or contrary to the deity’s interests, the DM might offer a short phrase as an answer instead."
+               },
+               "3": {
+                  "Value": "If you cast the spell two or more times before finishing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get no answer. The DM makes this roll in secret."
+               }
+            }
+         },
          "CommuneWithNature": {
             "Label": "Commune with Nature",
             "Description": {
@@ -6663,6 +7119,17 @@
                },
                "4": {
                   "Value": "For example, you could determine the location of powerful undead in the area, the location of major sources of safe drinking water, and the location of any nearby towns."
+               }
+            }
+         },
+         "CompelledDuel": {
+            "Label": "Compelled Duel",
+            "Description": {
+               "1": {
+                  "Value": "You attempt to compel a creature into a duel. One creature that you can see within range must make a Wisdom saving throw. On a failed save, the creature is drawn to you, compelled by your divine demand. For the duration, it has disadvantage on attack rolls against creatures other than you, and must make a Wisdom saving throw each time it attempts to move to a space that is more than 30 feet away from you; if it succeeds on this saving throw, this spell doesn’t restrict the target’s movement for that turn."
+               },
+               "2": {
+                  "Value": "The spell ends if you attack any other creature, if you cast a spell that targets a hostile creature other than the target, if a creature friendly to you damages the target or casts a harmful spell on it, or if you end your turn more than 30 feet away from the target."
                }
             }
          },
@@ -7100,6 +7567,19 @@
                }
             }
          },
+         "FlameStrike": {
+            "Label": "Flame Strike",
+            "Description": {
+               "1": {
+                  "Value": "A vertical column of divine fire roars down from the heavens in a location you specify. Each creature in a 10-foot-radius, 40-foot-high Cylinder centered on a point within range must make a Dexterity saving throw. A creature takes 4d6 fire damage and 4d6 radiant damage on a failed save, or half as much damage on a successful one."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "When you cast this spell using a spell slot of 6th level or higher, the fire damage or the radiant damage (your choice) increases by 1d6 for each slot level above 5th."
+               }
+            }
+         },
          "FleshToStone": {
             "Label": "Flesh to Stone",
             "Description": {
@@ -7168,6 +7648,17 @@
                }
             }
          },
+         "GuardianOfFaith": {
+            "Label": "Guardian of Faith",
+            "Description": {
+               "1": {
+                  "Value": "A Large Spectral Guardian appears and hovers for the Duration in an unoccupied space of your choice that you can see within range. The guardian occupies that space and is indistinct except for a gleaming sword and shield emblazoned with the symbol of your deity."
+               },
+               "2": {
+                  "Value": "Any creature hostile to you that moves to a space within 10 feet of the guardian for the first time on a turn must succeed on a Dexterity saving throw. The creature takes 20 radiant damage on a failed save, or half as much damage on a successful one. The guardian vanishes when it has dealt a total of 60 damage."
+               }
+            }
+         },
          "GustOfWind": {
             "Label": "Gust of Wind",
             "Description": {
@@ -7230,6 +7721,19 @@
             "Heightened": {
                "1": {
                   "Value": "The ward heals one additional hit point, or remains for one additional minute per spell level."
+               }
+            }
+         },
+         "Heroism": {
+            "Label": "Heroism",
+            "Description": {
+               "1": {
+                  "Value": "A willing creature you touch is imbued with bravery. Until the spell ends, the creature is immune to being Frightened and gains Temporary Hit Points equal to your Spellcasting ability modifier at the start of each of its turns. When the spell ends, the target loses any remaining temporary hit points from this spell."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st."
                }
             }
          },
@@ -7325,6 +7829,33 @@
             "Description": "You target a creature that has mana within 30 feet. A ray of black-purple anti-magic leaps out, and strikes the target, draining them of mana. You must make a ranged spell attack with the ray. On a success, the target loses 1d4 + 1 mana points. For every mana point lost, the target takes two points of arcane damage. The target is entitled a Spirit saving throw. On a success, the mana and hit points lost are halved.",
             "Heightened": "The number of mana points drained increases by 1d4 points per every two levels above 2 (2d4 at level 4, 3d4 at level 6, 4d4 at level 8). Special: Demons always have active mana, and can always be targeted with mana burn. If they have no mana, they still take 2 points of arcane damage."
          },
+         "MassCureWounds": {
+            "Label": "Mass Cure Wounds",
+            "Description": {
+               "1": {
+                  "Value": "A wave of Healing energy washes out from a point of your choice within range. Choose up to six creatures in a 30-foot-radius Sphere centered on that point. Each target regains Hit Points equal to 3d8 + your Spellcasting ability modifier. This spell has no effect on Undead or constructs."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "When you cast this spell using a spell slot of 6th level or higher, the Healing increases by 1d8 for each slot level above 5th."
+               }
+            }
+         },
+         "MassRevivify": {
+            "Label": "Mass Revivify",
+            "Description": {
+               "1": {
+                  "Value": "Choose up to 6 targets within 30 feet of a point you choose within range. Each creature that has died within the last minute returns to life with 1 hit point."
+               },
+               "2": {
+                  "Value": "This spell can't return to life a creature that has died of old age, nor can it restore any missing body parts."
+               },
+               "3": {
+                  "Value": "This spell can target any creature type except Constructs, Celestials, or Fiends."
+               }
+            }
+         },
          "ModifyMemory": {
             "Label": "Modify Memory",
             "Description": {
@@ -7414,6 +7945,17 @@
                "4": "You chill, warm, or flavor up to 1 cubic foot of nonliving material for 1 hour.",
                "5": "You make a color, a small mark, or a Symbol appear on an object or a surface for 1 hour.",
                "6": "You create a nonmagical trinket or an illusory image that can fit in your hand and that lasts until the end of your next turn."
+            }
+         },
+         "ProtectionFromEvilAndGood": {
+            "Label": "Protection from Evil and Good",
+            "Description": {
+               "1": {
+                  "Value": "Until the spell ends, one willing creature you touch is protected against certain types of creatures: aberrations, celestials, elementals, fey, fiends, and undead."
+               },
+               "2": {
+                  "Value": "The protection grants several benefits. Creatures of those types have disadvantage on attack rolls against the target. The target also can't be charmed, frightened, or possessed by them. If the target is already charmed, frightened, or possessed by such a creature, the target has advantage on any new saving throw against the relevant effect."
+               }
             }
          },
          "RayOfEnfeeblement": {
@@ -7518,6 +8060,17 @@
                      "1": "<i>Plague Rune</i>: The base damage increases by 1d6 damage per level above 1st.",
                      "2": "<i>Blood and Frozen Wastes Runes</i>: The damage taken per hit increases by 1d4 per spell level."
                   }
+               }
+            }
+         },
+         "Sanctuary": {
+            "Label": "Sanctuary",
+            "Description": {
+               "1": {
+                  "Value": "You ward a creature within range against attack. Until the spell ends, any creature who targets the warded creature with an attack or a harmful spell must first make a Wisdom saving throw. On a failed save, the creature must choose a new target or lose the attack or spell. This spell doesn't protect the warded creature from area effects, such as the explosion of a Fireball."
+               },
+               "2": {
+                  "Value": "If the warded creature makes an attack or casts a spell that affects an enemy creature, this spell ends."
                }
             }
          },
@@ -7722,6 +8275,28 @@
                }
             }
          },
+         "WallOfForce": {
+            "Label": "Wall of Force",
+            "Description": {
+               "1": {
+                  "Value": "An invisible wall of force springs into existence at a point you choose within range. The wall appears in any orientation you choose, as a horizontal or vertical barrier or at an angle. It can be free floating or resting on a solid surface. You can form it into a hemispherical dome or a sphere with a radius of up to 10 feet, or you can shape a flat surface made up of ten 10-foot-by-10-foot panels. Each panel must be contiguous with another panel. In any form, the wall is 1/4 inch thick. It lasts for the Duration. If the wall cuts through a creature's space when it appears, the creature is pushed to one side of the wall (your choice which side)."
+               },
+               "2": {
+                  "Value": "Nothing can physically pass through the wall. It is immune to all damage and can't be dispelled by Dispel Magic. A Disintegrate spell destroys the wall instantly, however. The wall also extends into the Ethereal Plane, blocking ethereal travel through the wall."
+               }
+            }
+         },
+         "WardingBond": {
+            "Label": "Warding Bond",
+            "Description": {
+               "1": {
+                  "Value": "This spell wards a willing creature you touch and creates a mystic connection between you and the target until the spell ends. While the target is within 60 feet of you, it gains a +1 bonus to AC and saving throws, and it has resistance to all damage. Also, each time it takes damage, you take the same amount of damage."
+               },
+               "2": {
+                  "Value": "The spell ends if you drop to 0 hit points or if you and the target become separated by more than 60 feet. It also ends if the spell is cast again on either of the connected creatures. You can also dismiss the spell as an action."
+               }
+            }
+         },
          "WindfuryTongue": {
             "Label": "Windfury Tongue",
             "Description": {
@@ -7732,6 +8307,17 @@
             "Heightened": {
                "1": {
                   "Value": "The required dice result to trigger the extra attack is 1 point less on the d20 for every two spell levels above 5th, to a result of a result of a 15 or higher on the d20."
+               }
+            }
+         },
+         "ZoneOfTruth": {
+            "Label": "Zone of Truth",
+            "Description": {
+               "1": {
+                  "Value": "You create a magical zone that guards against deception in a 15-foot-radius sphere centered on a point of your choice within range. Until the spell ends, a creature that enters the spell’s area for the first time on a turn or starts its turn there must make a Charisma saving throw. On a failed save, a creature can’t speak a deliberate lie while in the radius. You know whether each creature succeeds or fails on its saving throw."
+               },
+               "2": {
+                  "Value": "An affected creature is aware of the spell and can thus avoid answering questions to which it would normally respond with a lie. Such a creature can be evasive in its answers as long as it remains within the boundaries of the truth."
                }
             }
          }

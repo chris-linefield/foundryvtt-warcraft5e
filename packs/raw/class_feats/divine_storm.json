@@ -1,0 +1,32 @@
+{
+   "_id": "XhI1yaClq0sWo7Yz",
+   "name": "Divine Storm",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 95",
+      "requirements": "Paladin (Retribution) 15"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.DivineStorm.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.DivineStorm.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Feats.DivineStorm.Description.3.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/holy/projectiles-blades-salvo-yellow.webp",
+   "effects": [
+   ]
+}
