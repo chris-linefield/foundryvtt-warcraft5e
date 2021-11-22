@@ -1,0 +1,38 @@
+{
+   "_id": "TViwFKLN6l28fJEy",
+   "name": "Aura (Paladin)",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 90",
+      "requirements": "Paladin 3"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.AuraPaladin.Description.1.Value"
+            },
+            {
+               "options": [
+                  "WC5E.Feats.AuraPaladin.Description.2.Options.1",
+                  "WC5E.Feats.AuraPaladin.Description.2.Options.2",
+                  "WC5E.Feats.AuraPaladin.Description.2.Options.3",
+                  "WC5E.Feats.AuraPaladin.Description.2.Options.4",
+                  "WC5E.Feats.AuraPaladin.Description.2.Options.5"
+               ]
+            },
+            {
+               "value": "WC5E.Feats.AuraPaladin.Description.3.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/control/silhouette-hold-beam-blue.webp",
+   "effects": [
+   ]
+}

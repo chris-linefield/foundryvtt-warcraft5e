@@ -1,0 +1,55 @@
+{
+   "_id": "rD6qGkafA0RgId3o",
+   "name": "Spellcasting (Paladin)",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 137",
+      "requirements": "Warlock 1"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.SpellcastingPaladin.Description.1.Value"
+            },
+            {
+               "title": "WC5E.Feats.SpellcastingPaladin.Description.2.Title",
+               "value": "WC5E.Feats.SpellcastingPaladin.Description.2.Value"
+            },
+            {
+               "title": "WC5E.Feats.SpellcastingPaladin.Description.3.Title",
+               "value": "WC5E.Feats.SpellcastingPaladin.Description.3.Value"
+            },
+            {
+               "value": "WC5E.Feats.SpellcastingPaladin.Description.4.Value"
+            },
+            {
+               "title": "WC5E.Feats.SpellcastingPaladin.Description.5.Title",
+               "value": "WC5E.Feats.SpellcastingPaladin.Description.5.Value"
+            },
+            {
+               "value": "WC5E.Feats.SpellcastingPaladin.Description.6.Value"
+            },
+            {
+               "title": "WC5E.Feats.SpellcastingPaladin.Description.7.Title",
+               "value": "WC5E.Feats.SpellcastingPaladin.Description.7.Value"
+            },
+            {
+               "value": "WC5E.Feats.SpellcastingPaladin.Description.8.Value"
+            },
+            {
+               "title": "WC5E.Feats.SpellcastingPaladin.Description.9.Title",
+               "value": "WC5E.Feats.SpellcastingPaladin.Description.9.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/light/orbs-firefly-hand-yellow.webp",
+   "effects": [
+   ]
+}

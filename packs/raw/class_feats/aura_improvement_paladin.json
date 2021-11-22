@@ -1,0 +1,26 @@
+{
+   "_id": "8jbKibzJGsCpwxXB",
+   "name": "Aura Improvement (Paladin)",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 92",
+      "requirements": "Paladin 18"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.AuraImprovementPaladin.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/control/silhouette-hold-beam-blue.webp",
+   "effects": [
+   ]
+}

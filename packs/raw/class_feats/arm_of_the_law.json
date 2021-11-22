@@ -1,0 +1,29 @@
+{
+   "_id": "EyeUgkAZ6vc3phLQ",
+   "name": "Arm of the Law",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 94",
+      "requirements": "Paladin (Retribution) 3"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.ArmOfTheLaw.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.ArmOfTheLaw.Description.2.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/light/beam-strike-orange.webp",
+   "effects": [
+   ]
+}
