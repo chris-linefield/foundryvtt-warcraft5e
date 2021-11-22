@@ -653,51 +653,128 @@
                ]
             },
             {
-               "title": "WC5E.Class.Paladin.SacredOaths.Subtlety.Title",
-               "description": "WC5E.Class.Paladin.SacredOaths.Subtlety.Description",
+               "title": "WC5E.Class.Paladin.SacredOaths.Retribution.Title",
+               "description": "WC5E.Class.Paladin.SacredOaths.Retribution.Description",
                "featList": [
                   {
                      "level": "3",
                      "feats": [
                         {
                            "pack": "warcraft5e.wc5e_class_feats",
-                           "node": "HdBCMDKhHcFg5K8E",
-                           "label": "WC5E.Feats.ShadowSpellcasting.Label"
+                           "node": "rwMznR2NEW8KHjsG",
+                           "label": "WC5E.Feats.ChannelDivinitySwordOfLight.Label"
                         },
                         {
                            "pack": "warcraft5e.wc5e_class_feats",
-                           "node": "2K9BDwRekjipPJOd",
-                           "label": "WC5E.Feats.Premeditation.Label"
+                           "node": "EyeUgkAZ6vc3phLQ",
+                           "label": "WC5E.Feats.ArmOfTheLaw.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "7",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "1LTJ0Z5PTXccvCHl",
+                           "label": "WC5E.Feats.SwordOfTruth.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "15",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "XhI1yaClq0sWo7Yz",
+                           "label": "WC5E.Feats.DivineStorm.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "20",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "ZORCjZSoe8L77dHz",
+                           "label": "WC5E.Feats.Emancipate.Label"
+                        }
+                     ]
+                  }
+               ],
+               "spellList": [
+                  {
+                     "level": "3",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "yThFdnuHVZBtvh2K",
+                           "label": "WC5E.Spells.CompelledDuel.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "JTknVqdG6t8Q7gso",
+                           "label": "WC5E.Spells.Heroism.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "5",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "0NZ1OZRrklWHng6x",
+                           "label": "WC5E.Spells.BrandingSmite.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "hv0VGCxOmfQN13im",
+                           "label": "WC5E.Spells.WardingBond.Label"
                         }
                      ]
                   },
                   {
                      "level": "9",
-                     "feats": [
+                     "spells": [
                         {
-                           "pack": "warcraft5e.wc5e_class_feats",
-                           "node": "cKmRTcMPNTJZVBcB",
-                           "label": "WC5E.Feats.Vanish.Label"
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "grxHnsg8Z3WU6XET",
+                           "label": "WC5E.Spells.Daylight.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "EoUaosqnOerrwGeV",
+                           "label": "WC5E.Spells.Haste.Label"
                         }
                      ]
                   },
                   {
                      "level": "13",
-                     "feats": [
+                     "spells": [
                         {
-                           "pack": "warcraft5e.wc5e_class_feats",
-                           "node": "AVqdNKWuX3fo0t6y",
-                           "label": "WC5E.Feats.ShadowDance.Label"
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "i47iiZstrOY4lpwq",
+                           "label": "WC5E.Spells.DeathWard.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "InRkVL2KNx3fVVtn",
+                           "label": "WC5E.Spells.GuardianOfFaith.Label"
                         }
                      ]
                   },
                   {
                      "level": "17",
-                     "feats": [
+                     "spells": [
                         {
-                           "pack": "warcraft5e.wc5e_class_feats",
-                           "node": "nzIko1AaRr8T5sDc",
-                           "label": "WC5E.Feats.Backstab.Label"
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "R0PWgEOs3ktIUB9M",
+                           "label": "WC5E.Spells.AlignedWeapon.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "Q8zikWI7oe9SfkW5",
+                           "label": "WC5E.Spells.FlameStrike.Label"
                         }
                      ]
                   }

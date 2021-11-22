@@ -1,0 +1,29 @@
+{
+   "_id": "1LTJ0Z5PTXccvCHl",
+   "name": "Sword of Truth",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 95",
+      "requirements": "Paladin (Retribution) 7"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.SwordOfTruth.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.SwordOfTruth.Description.2.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/weapons/swords/sword-gold-holy.webp",
+   "effects": [
+   ]
+}

@@ -1976,6 +1976,107 @@
                }
             }
          },
+         "ArcanePower": {
+            "Label": "Arcane Power",
+            "Description": {
+               "1": {
+                  "Value": "You can open yourself to latent arcane energies with an action, channeling power you would normally be unable to channel. For the next minute, every mage spell you cast costs 1 less mana point (minimum 1 mana). If the spell is heightened from a lower spell level, it costs 2 less points instead. Once you use this ability, you cannot use it again until after a short or long rest, or unless you spend 4 Arcane spheres."
+               }
+            }
+         },
+         "ArcanePowerMastery": {
+            "Label": "Arcane Power Mastery",
+            "Description": {
+               "1": {
+                  "Value": "You gain the ability to unleash blasts of arcane force as an action. You gain the Mystic Blast feat. Unlike the normal Mystic Blast feat, this only deals arcane damage."
+               },
+               "2": {
+                  "Value": "You also always have the mana shield spell prepared, and whenever you cast the spell, you gain temporary hit points equal to your Arcane Blast damage until the spell ends."
+               }
+            }
+         },
+         "ArcaneSpheres": {
+            "Label": "Arcane Spheres",
+            "Description": {
+               "1": {
+                  "Value": "You gain one Arcane Sphere whenever one of the following happens to you:"
+               },
+               "2": {
+                  "Options": {
+                     "1": "You deal arcane damage to an enemy with a mage ability or spell from the mage list",
+                     "2": "You lose at least 4 mana points by being target of the mana burn or detonate mana spells or absorbing damage via the mana shield spell. If absorbing damage by the mana shield spell, you gain one Arcane Sphere for each 4 mana points lost this way.",
+                     "3": "You suffer an attack from another Mystic Blast or similar ability (usually called Mystic, Fire, Arcane, or Shadow Blasts), unless it is fel damage (in which case you do not gain a sphere)."
+                  }
+               },
+               "3": {
+                  "Value": "This applies once per spell. Arcane Spheres may be used to empower your abilities. Arcane Spheres may be spent for the following."
+               },
+               "4": {
+                  "Options": {
+                     "1": "<i>Augmenting Arcana</i>: Deal 1 additional point of arcane damage per damage dice with mage spells and abilities that deal arcane damage. This can be spent after rolling for damage, and applies once per spell. This does not stack with similar abilities.",
+                     "2": "<i>Mana Circulation</i>: You may substitute 1 Arcane Sphere for 1 mana point (cannot reduce mana point loss beyond 1) for effects that consume mana (such as spells or mana burn and similar effects)."
+                  }
+               },
+               "5": {
+                  "Value": "You may have a maximum number of spheres equal to 2 plus your Proficiency bonus, and they remain for one hour after being acquired."
+               }
+            }
+         },
+         "Archdruid": {
+            "Label": "Archdruid",
+            "Description": {
+               "1": {
+                  "Value": "You can use your Wild Shape an unlimited number of times. Additionally, you can ignore the verbal and somatic components of your druid spells, as well as any material components that lack a cost and aren‘t consumed by a spell. You gain this benefit in both your normal shape and your various Wild Shapes."
+               }
+            }
+         },
+         "ArdentDefender": {
+            "Label": "Ardent Defender",
+            "Description": {
+               "1": {
+                  "Value": "You may, as a reaction, you may gain resistance to all damage for one round. Once this feature is used a number of times equal to your Charisma modifier, it cannot be used again until you complete a long rest."
+               },
+               "2": {
+                  "Value": "When you no longer have uses of this ability, your Opportune Prayer ability allows you to cast any paladin spell when it is triggered instead (subject to the same casting time restriction)."
+               }
+            }
+         },
+         "ArmOfTheLaw": {
+            "Label": "Arm of the Law",
+            "Description": {
+               "1": {
+                  "Value": "You may perform a Crusader Strike as a ranged spell attack. The attack has a range of 30 feet, and deals only the holy damage as well as any seal release effects. If you use a thrown weapon, you can use Crusader Strike at a range of up to 30 feet."
+               },
+               "2": {
+                  "Value": "Also, whenever you use Crusader Strike or release a seal, you can Dash as a bonus action, but only to approach the target of your Crusader Strike or an allied creature within 10 feet of the target."
+               }
+            }
+         },
+         "ArmyOfTheDead": {
+            "Label": "Army of the Dead",
+            "Description": {
+               "1": {
+                  "Value": "Starting at 15th level, your conjure undead (animate undead) spells are inherently stronger than others. You may cast the conjure undead spell as an action instead of 1 minute when conjuring undead. Once this feature is used, it cannot be used again until after a short rest. If you cast the spell with its full casting time, a number of zombies arise to fight for you and protect you while you focus on casting the spell. The number of zombies is equal to 2 per spell level, so far as there are sufficient corpses within 30 feet."
+               },
+               "2": {
+                  "Value": "These temporary undead followers are friendly to you and your allies, and are controlled as normal summons, but do not count against your limit of summoned undead. The DM has the zombies‘ statistics. Once the spell‘s casting time ends and you successfully cast the conjure undead spell, you can use an action to maintain the additional zombies. The additional zombies cannot remain more than 10 minutes. If you lose concentration on the spell, you also lose concentration on the zombies, and they stop animating."
+               },
+               "3": {
+                  "Value": "Furthermore, if you do not have the required number of corpses (the required material focus) for animating undead, you use corpses from any place so long as you are within 1 mile of a graveyard, mass grave, battlefield, or any location with sufficient number of corpses so long as they are not on hallowed ground. The earth must be loose enough for the zombies to dig their way out. The temporary undead you create from casting conjure undead require the corpses to be within 30 feet, however."
+               }
+            }
+         },
+         "Assassinate": {
+            "Label": "Assassinate",
+            "Description": {
+               "1": {
+                  "Value": "You are at your deadliest when you get the drop on your enemies. You have advantage on attack rolls against any creature that hasn‘t taken a turn in the combat yet. In addition, any hit you score against a creature that is surprised is a critical hit."
+               },
+               "2": {
+                  "Value": "Also, if you don‘t already have proficiency with a poisoner‘s kit, you gain proficiency in it, and you gain advantage to saving throws against your own poisons."
+               }
+            }
+         },
          "Augmentation": {
             "Label": "Augmentation",
             "Description": {
@@ -2045,96 +2146,6 @@
             "Description": {
                "1": {
                   "Value": "You have advantage to any check to maintain an aura, and may extend the range of any aura spell by 100%. Any effect that would normally dispel the aura instead suppresses it for 1 minute instead."
-               }
-            }
-         },
-         "ArcanePower": {
-            "Label": "Arcane Power",
-            "Description": {
-               "1": {
-                  "Value": "You can open yourself to latent arcane energies with an action, channeling power you would normally be unable to channel. For the next minute, every mage spell you cast costs 1 less mana point (minimum 1 mana). If the spell is heightened from a lower spell level, it costs 2 less points instead. Once you use this ability, you cannot use it again until after a short or long rest, or unless you spend 4 Arcane spheres."
-               }
-            }
-         },
-         "ArcanePowerMastery": {
-            "Label": "Arcane Power Mastery",
-            "Description": {
-               "1": {
-                  "Value": "You gain the ability to unleash blasts of arcane force as an action. You gain the Mystic Blast feat. Unlike the normal Mystic Blast feat, this only deals arcane damage."
-               },
-               "2": {
-                  "Value": "You also always have the mana shield spell prepared, and whenever you cast the spell, you gain temporary hit points equal to your Arcane Blast damage until the spell ends."
-               }
-            }
-         },
-         "ArcaneSpheres": {
-            "Label": "Arcane Spheres",
-            "Description": {
-               "1": {
-                  "Value": "You gain one Arcane Sphere whenever one of the following happens to you:"
-               },
-               "2": {
-                  "Options": {
-                     "1": "You deal arcane damage to an enemy with a mage ability or spell from the mage list",
-                     "2": "You lose at least 4 mana points by being target of the mana burn or detonate mana spells or absorbing damage via the mana shield spell. If absorbing damage by the mana shield spell, you gain one Arcane Sphere for each 4 mana points lost this way.",
-                     "3": "You suffer an attack from another Mystic Blast or similar ability (usually called Mystic, Fire, Arcane, or Shadow Blasts), unless it is fel damage (in which case you do not gain a sphere)."
-                  }
-               },
-               "3": {
-                  "Value": "This applies once per spell. Arcane Spheres may be used to empower your abilities. Arcane Spheres may be spent for the following."
-               },
-               "4": {
-                  "Options": {
-                     "1": "<i>Augmenting Arcana</i>: Deal 1 additional point of arcane damage per damage dice with mage spells and abilities that deal arcane damage. This can be spent after rolling for damage, and applies once per spell. This does not stack with similar abilities.",
-                     "2": "<i>Mana Circulation</i>: You may substitute 1 Arcane Sphere for 1 mana point (cannot reduce mana point loss beyond 1) for effects that consume mana (such as spells or mana burn and similar effects)."
-                  }
-               },
-               "5": {
-                  "Value": "You may have a maximum number of spheres equal to 2 plus your Proficiency bonus, and they remain for one hour after being acquired."
-               }
-            }
-         },
-         "Archdruid": {
-            "Label": "Archdruid",
-            "Description": {
-               "1": {
-                  "Value": "You can use your Wild Shape an unlimited number of times. Additionally, you can ignore the verbal and somatic components of your druid spells, as well as any material components that lack a cost and aren‘t consumed by a spell. You gain this benefit in both your normal shape and your various Wild Shapes."
-               }
-            }
-         },
-         "ArdentDefender": {
-            "Label": "Ardent Defender",
-            "Description": {
-               "1": {
-                  "Value": "You may, as a reaction, you may gain resistance to all damage for one round. Once this feature is used a number of times equal to your Charisma modifier, it cannot be used again until you complete a long rest."
-               },
-               "2": {
-                  "Value": "When you no longer have uses of this ability, your Opportune Prayer ability allows you to cast any paladin spell when it is triggered instead (subject to the same casting time restriction)."
-               }
-            }
-         },
-         "ArmyOfTheDead": {
-            "Label": "Army of the Dead",
-            "Description": {
-               "1": {
-                  "Value": "Starting at 15th level, your conjure undead (animate undead) spells are inherently stronger than others. You may cast the conjure undead spell as an action instead of 1 minute when conjuring undead. Once this feature is used, it cannot be used again until after a short rest. If you cast the spell with its full casting time, a number of zombies arise to fight for you and protect you while you focus on casting the spell. The number of zombies is equal to 2 per spell level, so far as there are sufficient corpses within 30 feet."
-               },
-               "2": {
-                  "Value": "These temporary undead followers are friendly to you and your allies, and are controlled as normal summons, but do not count against your limit of summoned undead. The DM has the zombies‘ statistics. Once the spell‘s casting time ends and you successfully cast the conjure undead spell, you can use an action to maintain the additional zombies. The additional zombies cannot remain more than 10 minutes. If you lose concentration on the spell, you also lose concentration on the zombies, and they stop animating."
-               },
-               "3": {
-                  "Value": "Furthermore, if you do not have the required number of corpses (the required material focus) for animating undead, you use corpses from any place so long as you are within 1 mile of a graveyard, mass grave, battlefield, or any location with sufficient number of corpses so long as they are not on hallowed ground. The earth must be loose enough for the zombies to dig their way out. The temporary undead you create from casting conjure undead require the corpses to be within 30 feet, however."
-               }
-            }
-         },
-         "Assassinate": {
-            "Label": "Assassinate",
-            "Description": {
-               "1": {
-                  "Value": "You are at your deadliest when you get the drop on your enemies. You have advantage on attack rolls against any creature that hasn‘t taken a turn in the combat yet. In addition, any hit you score against a creature that is surprised is a critical hit."
-               },
-               "2": {
-                  "Value": "Also, if you don‘t already have proficiency with a poisoner‘s kit, you gain proficiency in it, and you gain advantage to saving throws against your own poisons."
                }
             }
          },
@@ -2459,6 +2470,17 @@
                },
                "3": {
                   "Value": "If you declare this ability after the attack roll is successful, the attack is automatically successful, and you switch places, even if you would have otherwise been unharmed (it such as by having a higher AC value than the attacker‘s attack roll)."
+               }
+            }
+         },
+         "ChannelDivinitySwordOfLight": {
+            "Label": "Channel Divinity: Sword of Light",
+            "Description": {
+               "1": {
+                  "Value": "You can spend a Channel Divinity use and an action to imbue one weapon that you are holding with positive energy. For 1 minute, you add your Charisma modifier to attack rolls made with that weapon (a minimum bonus of +1). The weapon also emits bright light in a 20-foot-radius and dim light 20 feet beyond that. If the weapon is not already magical, it becomes magical for the duration."
+               },
+               "2": {
+                  "Value": "You can end this effect on your turn as a bonus action. If you are no longer holding or carrying this weapon, or if you fall unconscious, this effect ends. The light is treated as a light spell of your highest-level paladin level for the purposes of dispelling darkness."
                }
             }
          },
@@ -2958,6 +2980,20 @@
                }
             }
          },
+         "DivineStorm": {
+            "Label": "Divine Storm",
+            "Description": {
+               "1": {
+                  "Value": "Whenever you use a Crusader Strike, you may allow the holy energies to radiate from you in a blazing storm of holy radiance. All hostile creatures within 5 feet of you suffer the same holy damage dealt by the Crusader Strike ability. They may halve the damage on a successful Spirit saving throw against your Spell save DC."
+               },
+               "2": {
+                  "Value": "If you released a seal, the release effect is applied only to the initial creature. You also only regain hit points appropriate to the damage you dealt the initial target."
+               },
+               "3": {
+                  "Value": "If you are under the effects of the avatar form paladin spell, you may reroll any 1 or 2 on a damage dice for your Crusader Strike, and you must choose the new roll, even if the new roll is a 1 or a 2."
+               }
+            }
+         },
          "DruidCircle": {
             "Label": "Druid Circle",
             "Description": {
@@ -3096,6 +3132,17 @@
                },
                "3": {
                   "Value": "If you are traveling overland with totems out, they move with you."
+               }
+            }
+         },
+         "Emancipate": {
+            "Label": "Emancipate",
+            "Description": {
+               "1": {
+                  "Value": "Your Cleansing Touch ability may be used at a range of 10 feet, and you may always cast it on yourself, even when otherwise incapacitated."
+               },
+               "2": {
+                  "Value": "Furthermore, whenever you have no mana points remaining or uses of Cleaning Touch, you may spend hit dice to fuel your Crusader Strike feature (up to one hit dice per spell level)."
                }
             }
          },
@@ -5723,6 +5770,17 @@
                }
             }
          },
+         "SwordOfTruth": {
+            "Label": "Sword of Truth",
+            "Description": {
+               "1": {
+                  "Value": "You add your Charisma modifier to your melee weapon damage rolls, and whenever you perform a Crusader Strike, you regain hit points equal to half the holy damage you dealt using the ability."
+               },
+               "2": {
+                  "Value": "Lastly, if you are under the effects of the avatar form paladin spell, you can choose one seal you can cast, and that seal is cast for no mana cost, and remains active until the avatar form spell ends."
+               }
+            }
+         },
          "SynthesizedPotions": {
             "Label": "Synthesized Potions",
             "Description": {
@@ -6946,6 +7004,19 @@
                }
             }
          },
+         "BrandingSmite": {
+            "Label": "Branding Smite",
+            "Description": {
+               "1": {
+                  "Value": "The next time you hit a creature with a weapon attack before this spell ends, the weapon gleams with astral radiance as you strike. The attack deals an extra 2d6 radiant damage to the target, which becomes visible if it's invisible, and the target sheds dim light in a 5-foot radius and can't become invisible until the spell ends."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "When you cast this spell using a spell slot of 3rd level or higher, the extra damage increases by 1d6 for each slot level above 2nd."
+               }
+            }
+         },
          "CarrionSwarm": {
             "Label": "Carrion Swarm",
             "Description": {
@@ -7048,6 +7119,17 @@
                },
                "4": {
                   "Value": "For example, you could determine the location of powerful undead in the area, the location of major sources of safe drinking water, and the location of any nearby towns."
+               }
+            }
+         },
+         "CompelledDuel": {
+            "Label": "Compelled Duel",
+            "Description": {
+               "1": {
+                  "Value": "You attempt to compel a creature into a duel. One creature that you can see within range must make a Wisdom saving throw. On a failed save, the creature is drawn to you, compelled by your divine demand. For the duration, it has disadvantage on attack rolls against creatures other than you, and must make a Wisdom saving throw each time it attempts to move to a space that is more than 30 feet away from you; if it succeeds on this saving throw, this spell doesn’t restrict the target’s movement for that turn."
+               },
+               "2": {
+                  "Value": "The spell ends if you attack any other creature, if you cast a spell that targets a hostile creature other than the target, if a creature friendly to you damages the target or casts a harmful spell on it, or if you end your turn more than 30 feet away from the target."
                }
             }
          },
@@ -7485,6 +7567,19 @@
                }
             }
          },
+         "FlameStrike": {
+            "Label": "Flame Strike",
+            "Description": {
+               "1": {
+                  "Value": "A vertical column of divine fire roars down from the heavens in a location you specify. Each creature in a 10-foot-radius, 40-foot-high Cylinder centered on a point within range must make a Dexterity saving throw. A creature takes 4d6 fire damage and 4d6 radiant damage on a failed save, or half as much damage on a successful one."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "When you cast this spell using a spell slot of 6th level or higher, the fire damage or the radiant damage (your choice) increases by 1d6 for each slot level above 5th."
+               }
+            }
+         },
          "FleshToStone": {
             "Label": "Flesh to Stone",
             "Description": {
@@ -7626,6 +7721,19 @@
             "Heightened": {
                "1": {
                   "Value": "The ward heals one additional hit point, or remains for one additional minute per spell level."
+               }
+            }
+         },
+         "Heroism": {
+            "Label": "Heroism",
+            "Description": {
+               "1": {
+                  "Value": "A willing creature you touch is imbued with bravery. Until the spell ends, the creature is immune to being Frightened and gains Temporary Hit Points equal to your Spellcasting ability modifier at the start of each of its turns. When the spell ends, the target loses any remaining temporary hit points from this spell."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st."
                }
             }
          },
