@@ -1,0 +1,741 @@
+{
+   "_id": "V2rI46PerTJS4ASD",
+   "name": "Priest",
+   "type": "class",
+   "img": "modules/warcraft5e/res/pics/classes/priest.jpg",
+   "data": {
+      "description": {
+         "value": "WC5E.Class.Priest.Description",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "",
+      "levels": 1,
+      "subclass": "",
+      "hitDice": "d8",
+      "hitDiceUsed": 0,
+      "saves": [
+         "spi",
+         "cha"
+      ],
+      "skills": {
+         "number": 2,
+         "choices": [
+            "his",
+            "ins",
+            "med",
+            "per",
+            "rel"
+         ],
+         "value": [
+         ]
+      },
+      "spellcasting": {
+         "progression": "none",
+         "ability": ""
+      },
+      "damage": {
+         "parts": [
+         ]
+      }
+   },
+   "effects": [
+   ],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+      "default": 0
+   },
+   "flags": {
+      "wc5e": {
+         "type": "class",
+         "artwork": {
+            "1": {
+               "src": "modules/warcraft5e/res/pics/classes/priest_artwork.jpg",
+               "url": "https://www.deviantart.com/seiorai/art/Air-Support-529528795",
+               "credit": "Seiorai"
+            },
+            "2": {
+               "src": "modules/warcraft5e/res/pics/classes/priest_artwork2.jpg",
+               "url": "https://www.deviantart.com/sulamoon/art/Isanusi-555268060",
+               "credit": "SulaMoon"
+            }
+         },
+         "introduction": [
+            "WC5E.Class.Priest.Introduction.1",
+            "WC5E.Class.Priest.Introduction.2",
+            "WC5E.Class.Priest.Introduction.3"
+         ],
+         "blocks": [
+            {
+               "title": "WC5E.Class.Priest.Blocks.1.Title",
+               "content": [
+                  "WC5E.Class.Priest.Blocks.1.Content.1",
+                  "WC5E.Class.Priest.Blocks.1.Content.2",
+                  "WC5E.Class.Priest.Blocks.1.Content.3"
+               ]
+            },
+            {
+               "title": "WC5E.Class.Priest.Blocks.2.Title",
+               "content": [
+                  "WC5E.Class.Priest.Blocks.2.Content.1",
+                  "WC5E.Class.Priest.Blocks.2.Content.2",
+                  "WC5E.Class.Priest.Blocks.2.Content.3",
+                  "WC5E.Class.Priest.Blocks.2.Content.4"
+               ]
+            },
+            {
+               "title": "WC5E.Class.Priest.Blocks.3.Title",
+               "content": [
+                  "WC5E.Class.Priest.Blocks.3.Content.1",
+                  "WC5E.Class.Priest.Blocks.3.Content.2",
+                  "WC5E.Class.Priest.Blocks.3.Content.3",
+                  "WC5E.Class.Priest.Blocks.3.Content.4",
+                  "WC5E.Class.Priest.Blocks.3.Content.5"
+               ]
+            }
+         ],
+         "quickBuild": "WC5E.Class.Priest.QuickBuild",
+         "hitPoints1st": "8",
+         "hitPointsHalfed": "5",
+         "weaponProfs": [
+            "sim"
+         ],
+         "specificWeaponProfs": [],
+         "armorProfs": [
+            "lgt"
+         ],
+         "toolProfs": [],
+         "equipment": [
+            [
+               "a club",
+               "a quarterstaff"
+            ],
+            [
+               "a leather armor",
+               "a chain shirt (when proficient)"
+            ],
+            [
+               "a light crossbow and 20 bolts",
+               "any simple weapon"
+            ],
+            [
+               "a priest's pack",
+               "an explorer's pack"
+            ],
+            [
+               "a holy (or unholy or neutral) symbol and libram"
+            ]
+         ],
+         "isCaster": true,
+         "progression": [
+            {
+               "level": "1",
+               "proficiency": "2",
+               "caster": "-",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "EUN8MjYR1F8GZ4ET",
+                     "label": "WC5E.Feats.Priesthood.Label"
+                  },
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "DmVapDswi1KbEY7L",
+                     "label": "WC5E.Feats.SpellcastingPriest.Label"
+                  },
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "onB2GfF5CowTtYEG",
+                     "label": "WC5E.Feats.UnarmoredDefense.Label"
+                  }
+               ]
+            },
+            {
+               "level": "2",
+               "proficiency": "2",
+               "caster": "1 (1st)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "dRIBqPhFZ3m1ZTkP",
+                     "label": "WC5E.Feats.ChannelDivinity.Label",
+                     "option": "1/rest"
+                  },
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "EUN8MjYR1F8GZ4ET",
+                     "label": "WC5E.Feats.Priesthood.Label"
+                  },
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "RiwL9ouurSGUdLmD",
+                     "label": "WC5E.Feats.DesperatePrayer.Label"
+                  }
+               ]
+            },
+            {
+               "level": "3",
+               "proficiency": "2",
+               "caster": "2 (1st)",
+               "feats": []
+            },
+            {
+               "level": "4",
+               "proficiency": "2",
+               "caster": "2 (1st)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "pZ0s66jTVdto9Z3b",
+                     "label": "WC5E.Feats.AbilityScoreImprovement.Label"
+                  }
+               ]
+            },
+            {
+               "level": "5",
+               "proficiency": "3",
+               "caster": "3 (2nd)",
+               "feats": []
+            },
+            {
+               "level": "6",
+               "proficiency": "3",
+               "caster": "3 (2nd)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "dRIBqPhFZ3m1ZTkP",
+                     "label": "WC5E.Feats.ChannelDivinity.Label",
+                     "option": "2/rest"
+                  },
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "EUN8MjYR1F8GZ4ET",
+                     "label": "WC5E.Feats.Priesthood.Label"
+                  }
+               ]
+            },
+            {
+               "level": "7",
+               "proficiency": "3",
+               "caster": "4 (2nd)",
+               "feats": []
+            },
+            {
+               "level": "8",
+               "proficiency": "3",
+               "caster": "4 (2nd)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "pZ0s66jTVdto9Z3b",
+                     "label": "WC5E.Feats.AbilityScoreImprovement.Label"
+                  },
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "EUN8MjYR1F8GZ4ET",
+                     "label": "WC5E.Feats.Priesthood.Label"
+                  }
+               ]
+            },
+            {
+               "level": "9",
+               "proficiency": "4",
+               "caster": "5 (3rd)",
+               "feats": []
+            },
+            {
+               "level": "10",
+               "proficiency": "4",
+               "caster": "5 (3rd)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "wK83bCyjth6JanA5",
+                     "label": "WC5E.Feats.DivineIntervention.Label"
+                  }
+               ]
+            },
+            {
+               "level": "11",
+               "proficiency": "4",
+               "caster": "6 (3rd)",
+               "feats": []
+            },
+            {
+               "level": "12",
+               "proficiency": "4",
+               "caster": "6 (3rd)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "pZ0s66jTVdto9Z3b",
+                     "label": "WC5E.Feats.AbilityScoreImprovement.Label"
+                  }
+               ]
+            },
+            {
+               "level": "13",
+               "proficiency": "5",
+               "caster": "7 (4th)",
+               "feats": []
+            },
+            {
+               "level": "14",
+               "proficiency": "5",
+               "caster": "7 (4th)",
+               "feats": []
+            },
+            {
+               "level": "15",
+               "proficiency": "5",
+               "caster": "8 (4th)",
+               "feats": []
+            },
+            {
+               "level": "16",
+               "proficiency": "5",
+               "caster": "8 (4th)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "pZ0s66jTVdto9Z3b",
+                     "label": "WC5E.Feats.AbilityScoreImprovement.Label"
+                  }
+               ]
+            },
+            {
+               "level": "17",
+               "proficiency": "6",
+               "caster": "9 (5th)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "EUN8MjYR1F8GZ4ET",
+                     "label": "WC5E.Feats.Priesthood.Label"
+                  }
+               ]
+            },
+            {
+               "level": "18",
+               "proficiency": "6",
+               "caster": "9 (5th)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "dRIBqPhFZ3m1ZTkP",
+                     "label": "WC5E.Feats.ChannelDivinity.Label",
+                     "option": "3/rest"
+                  }
+               ]
+            },
+            {
+               "level": "19",
+               "proficiency": "6",
+               "caster": "10 (5th)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "pZ0s66jTVdto9Z3b",
+                     "label": "WC5E.Feats.AbilityScoreImprovement.Label"
+                  }
+               ]
+            },
+            {
+               "level": "20",
+               "proficiency": "6",
+               "caster": "10 (5th)",
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "wK83bCyjth6JanA5",
+                     "label": "WC5E.Feats.DivineIntervention.Label"
+                  }
+               ]
+            }
+         ],
+         "archetypes": [
+            {
+               "title": "WC5E.Class.Priest.Priesthoods.Holiness.Title",
+               "description": "WC5E.Class.Priest.Priesthoods.Holiness.Description",
+               "featList": [
+                  {
+                     "level": "3",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "LZZZqJgcLeEvrs4e",
+                           "label": "WC5E.Feats.ChannelDivinityLightOfDawn.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "1p5iixJWw8wzFxmi",
+                           "label": "WC5E.Feats.HolyVision.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "7",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "wMqF34nMeFKTuKFa",
+                           "label": "WC5E.Feats.HolyAuras.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "15",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "nOZA907T3ntBSDy1",
+                           "label": "WC5E.Feats.LatentPrayer.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "20",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "bNpeWGGYsWSY0Nnj",
+                           "label": "WC5E.Feats.IlluminatedHealer.Label"
+                        }
+                     ]
+                  }
+               ],
+               "spellList": [
+                  {
+                     "level": "3",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "6JrHTuhqsNHdqFuS",
+                           "label": "WC5E.Spells.ProtectionFromEvilAndGood.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "HZJu2RzrN79T6KnY",
+                           "label": "WC5E.Spells.Sanctuary.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "5",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "R4QvsF9ZhrYkbrlh",
+                           "label": "WC5E.Spells.LesserRestoration.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "zyyN1FcnPQkydGMg",
+                           "label": "WC5E.Spells.ZoneOfTruth.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "9",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "t7IwW2z8MelAsdV6",
+                           "label": "WC5E.Spells.BeaconOfHope.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "X7e3HjqB7LgLyfBx",
+                           "label": "WC5E.Spells.Revivify.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "13",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "7fkeb8FrhN2DavIM",
+                           "label": "WC5E.Spells.FreedomOfMovement.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "InRkVL2KNx3fVVtn",
+                           "label": "WC5E.Spells.GuardianOfFaith.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "17",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "KkS6MfFdPSKF7H3Q",
+                           "label": "WC5E.Spells.Commune.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "G95rl3cZGvSeiE6n",
+                           "label": "WC5E.Spells.MassRevivify.Label"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "title": "WC5E.Class.Priest.Priesthoods.Protection.Title",
+               "description": "WC5E.Class.Priest.Priesthoods.Protection.Description",
+               "featList": [
+                  {
+                     "level": "3",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "volLu7H7RUAnQiGU",
+                           "label": "WC5E.Feats.ChannelDivinityRooksMove.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "gTfFtLVddNp8jBd6",
+                           "label": "WC5E.Feats.AvengersShield.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "7",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "xhb24aculIGVmMPS",
+                           "label": "WC5E.Feats.OpportunePrayer.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "15",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "YQdKHLKBbjW4ld3C",
+                           "label": "WC5E.Feats.HolySentinel.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "20",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "hJBX1Z16CaBHgzAm",
+                           "label": "WC5E.Feats.ArdentDefender.Label"
+                        }
+                     ]
+                  }
+               ],
+               "spellList": [
+                  {
+                     "level": "3",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "HZJu2RzrN79T6KnY",
+                           "label": "WC5E.Spells.Sanctuary.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "VEiN0onKrAbdKBCE",
+                           "label": "WC5E.Spells.Shield.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "5",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "R4QvsF9ZhrYkbrlh",
+                           "label": "WC5E.Spells.LesserRestoration.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "hv0VGCxOmfQN13im",
+                           "label": "WC5E.Spells.WardingBond.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "9",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "t7IwW2z8MelAsdV6",
+                           "label": "WC5E.Spells.BeaconOfHope.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "X7e3HjqB7LgLyfBx",
+                           "label": "WC5E.Spells.Revivify.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "13",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "ohh2odAo1yAq8jkC",
+                           "label": "WC5E.Spells.AuraOfLife.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "i47iiZstrOY4lpwq",
+                           "label": "WC5E.Spells.DeathWard.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "17",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "dcrDkgItYQCOBSS2",
+                           "label": "WC5E.Spells.MassCureWounds.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "dVKO98gUTMh94cfO",
+                           "label": "WC5E.Spells.WallOfForce.Label"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "title": "WC5E.Class.Priest.Priesthoods.Death.Title",
+               "description": "WC5E.Class.Priest.Priesthoods.Death.Description",
+               "featList": [
+                  {
+                     "level": "1",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "wURsbLUqrXhS7gC1",
+                           "label": "WC5E.Feats.DeathCanWait.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "2",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "1LTJ0Z5PTXccvCHl",
+                           "label": "WC5E.Feats.SwordOfTruth.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "15",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "XhI1yaClq0sWo7Yz",
+                           "label": "WC5E.Feats.DivineStorm.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "20",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "ZORCjZSoe8L77dHz",
+                           "label": "WC5E.Feats.Emancipate.Label"
+                        }
+                     ]
+                  }
+               ],
+               "spellList": [
+                  {
+                     "level": "3",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "yThFdnuHVZBtvh2K",
+                           "label": "WC5E.Spells.CompelledDuel.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "JTknVqdG6t8Q7gso",
+                           "label": "WC5E.Spells.Heroism.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "5",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "0NZ1OZRrklWHng6x",
+                           "label": "WC5E.Spells.BrandingSmite.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "hv0VGCxOmfQN13im",
+                           "label": "WC5E.Spells.WardingBond.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "9",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "grxHnsg8Z3WU6XET",
+                           "label": "WC5E.Spells.Daylight.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "EoUaosqnOerrwGeV",
+                           "label": "WC5E.Spells.Haste.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "13",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "i47iiZstrOY4lpwq",
+                           "label": "WC5E.Spells.DeathWard.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "InRkVL2KNx3fVVtn",
+                           "label": "WC5E.Spells.GuardianOfFaith.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "17",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "R0PWgEOs3ktIUB9M",
+                           "label": "WC5E.Spells.AlignedWeapon.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "Q8zikWI7oe9SfkW5",
+                           "label": "WC5E.Spells.FlameStrike.Label"
+                        }
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+   }
+}

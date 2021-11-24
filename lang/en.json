@@ -1603,7 +1603,65 @@
             }
          },
          "Priest": {
-            "Name": "Priest"
+            "Name": "Priest",
+            "Introduction": {
+               "1": "A human screams in agony as blood gushes from the wound in his chest. A night elf comes to his aid, whispering a prayer to Elune, before nocking an arrow to her bow. Moonlight breaks through the tree canopy above, as the gash in the human‘s chest heals closes. ",
+               "2": "As an orc receives arrow after arrow to the chest, he falls to the ground, motionless. Before long, a yellow-white light shines upon him, and climbs to his feet, revealing a blood elf behind, raising her staff high, bathed in a similar light.",
+               "3": "Testing the boundaries of his sanity, a forsaken taps into the power of his psyche and calls to the Forgotten Shadow, melting the mind of a fanatic bent on scourge his kin from the land."
+            },
+            "Description": "Through priests, the divine powers of the Light and Void channel into the world, mending wounds or wreaking havoc. True mastery of these forces comes through worship to greater beings, such as Elune, the Old Gods, or even the Holy Light itself. Whether devoted to the Light, or a servant of the Void Lords, a priest is an ambassador for their deity, imbued by the energies they deliver.",
+            "Blocks": {
+               "1": {
+                  "Title": "Agents of Light or Shadow",
+                  "Content": {
+                     "1": "Wielding the power of the Holy Light, priests can unleash powerful healing energies to restore their allies and undo harm. Manipulating the shadows from the Void equips a priest with devastating abilities, able to bring complete chaos, shattering the minds of their foes. Careful balance and discipline permits a priest to truly master the most absolute energies of the Universe, granting them the ability to heal through shadow, and harm through the light.",
+                     "2": "Comprehension of the light allows a priest to heal the most serious of wounds, and even undo death. The power to wield the light doesn‘t require extensive practice or study, instead relying on  the user‘s faith in their own abilities. Those who follow the ways of the Void were often once worshippers of the Light. As such, priests are among the most devout people in Azeroth.",
+                     "3": "A priest is incredibly useful in battle, no matter their discipline. Whether they heal their allies, protect them from harm altogether, or blast the minds of their enemies into submission, few are more effective than these devout followers of the Light and Shadow, especially when coupled with their influence in greater society. "
+                  }
+               },
+               "2": {
+                  "Title": "Servants and Acolytes",
+                  "Content": {
+                     "1": "Many across Azeroth practice divine magic, regardless of intermediaries, and as such many cults have formed. Servitude of the Light brings restorative healing powers, while giving oneself to the Shadow grants power over the mind, shadows and even insanity itself. A priestess of Elune taps into powers of nature and the balance of sun and moon, while a priest of death calls to the Lich King to curse his foes.",
+                     "2": "Whether good or evil, a priest will rarely abandon their cause, often fighting to the death, or sacrificing themselves in place of an ally. Finding someone as loyal as a priest is a rare thing indeed. Found all over Azeroth, a priest of the Church of the Holy Light brings healing and restorative powers in times of peace, and protection in times of war, a true advocate for good. A death priest of the Lich King or a follower of the Cult of the Forgotten Shadow manipulates the shadows to bring death and destruction to their enemies, warping their minds into madness, often serving evil purposes, though not always. A follower of Elune can serve her goddess‘s will, setting out to right wrongs or to retrieve articles of the faith.",
+                     "3": "It is not unheard of for servants of the Light to use it for evil. Since the Light responds to belief that one‘s actions are right, which makes it impossible to wield it in the knowledge that one‘s action are truly evil.",
+                     "4": "Absolute faith is crucial to harnessing the Light, which is why priests make excellent servants. Many priests that have abandoned the Light and have opted to harness darker energies retain their devotion, and while many question their motives, their faith is unwavering, and they continue to serve their deity."
+                  }
+               },
+               "3": {
+                  "Title": "Creating a Priest",
+                  "Content": {
+                     "1": "Priest of Azeroth are known as priests or clerics, depending on their domains and focus. They channel their power through their conviction, not through the direct power of their patrons. The Scarlet Crusade, for example, channel the Holy Light due to their belief in their cause, although many betray principles the Church of the Holy Light considers tenants of the faith.",
+                     "2": "As you create your priest, always remember the faith you serve and the ideals your character conveys. Decide how your character came into the service of that particular faith or cult, such as through divine intervention or through your character‘s own choosing. Are you renowned as a devout follower of your deity, a fanatic, a troublemaker? How do others of your faith perceive you?",
+                     "3": "If you have an ultimate goal, keep it in mind when you advance your character.",
+                     "4": "Priests may be of any alignment and allegiance.",
+                     "5": "Priests serve their faith--either that of the Light through the Holy priesthood, the Old Gods though the Shadow priesthood, the Lich King through the Death priesthood, taking a neutral stance between the forces of the world with Discipline priesthood, or serving the Moon goddess Elune through the universally-female Moon priesthood."
+                  }
+               }
+            },
+            "QuickBuild": "You can make a priest quickly by following these suggestions. First, Spirit should be your highest ability score, followed by Strength or Stamina. Second, choose the acolyte background. Third,  choose the light, smite, and word of radiance cantrips, along with the following 1st-level spells for your libram: inner fire, holy light (or death coil), mind blast, renewing light, sanctuary, and shield of faith.",
+            "Priesthoods": {
+               "Death": {
+                  "Title": "Death",
+                  "Description": "You follow the Lich King, gaining unholy powers from your devotion to the Dark Lord of the Dead. Death priesthoods are feared and reviled figures in civilized societies, as they are often seen as harbingers for a Scourge invasion."
+               },
+               "Discipline": {
+                  "Title": "Discipline",
+                  "Description": "You follow the tenets of balance and self-improvement, balancing the forces of Light and Shadow within you—a concept often called Chakra training. Your magics can shield allies from taking damage as well as heal their wounds. Discipline priests do not advertise themselves, but act as other priests."
+               },
+               "HolyLight": {
+                  "Title": "Holy Light",
+                  "Description": "You are a vessel of the Holy Light‘s will, a versatile healer who can reverse damage on individuals or groups and even heal from beyond the grave. Holy priests are well-adored and respected among the Alliance."
+               },
+               "Moon": {
+                  "Title": "Moon",
+                  "Description": "You are part of the ancient and well-respected sisterhood of the night-elven moon goddess Elune, and your path is of serenity, grace, and reflection. Moon priestesses favor using subtlety, the bow, and hit-and-run techniques to guard her flock, but act in accordance with the two faces of the moon."
+               },
+               "Shadow": {
+                  "Title": "Shadow",
+                  "Description": "You answered the call of the Old Gods, joining the Cult of the Forgotten Shadow, gaining powers over the eldritch mysteries and powers of the ancient changed beings. Shadow Priests use sinister shadow magic, especially sigil spells, to eradicate enemies."
+               }
+            }
          },
          "Rogue": {
             "Name": "Rogue",
@@ -2448,6 +2506,28 @@
                }
             }
          },
+         "ChannelDivinity": {
+            "Label": "Channel Divinity",
+            "Description": {
+               "1": {
+                  "Value": "You gain the ability to channel divine energy directly from your deity, using that energy to fuel magical effects. You start with two such effects: Invoke Power and an effect determined by your priesthood. Some domains grant you additional effects as you advance in levels, as noted in the domain description. When you use your Channel Divinity, you choose which effect to create. You must then finish a short or long rest to use your Channel Divinity again."
+               },
+               "2": {
+                  "Value": "Some Channel Divinity effects require saving throws. When you use such an effect from this class, the DC equals your priest spell save DC. Beginning at 6th level, you can use your Channel Divinity twice between rests, and beginning at 18th level you can use it three times between rests. When you finish a short or long rest, you regain your expended uses."
+               },
+               "3": {
+                  "Title": "Channel Divinity: Invoke Power",
+                  "Value": "As a bonus action, you present your symbol and speak a prayer to your patron power, filling you with mysterious strength. The next spell you cast within 1 minute has its mana cost reduced 2 points (minimum 0). At higher levels, the invocation further reduces the mana cost."
+               },
+               "4": {
+                  "Title": "Invoke Power Table"
+               },
+               "5": {
+                  "Title": "Priest Level",
+                  "Value": "Invocation Strength"
+               }
+            }
+         },
          "ChannelDivinityBloodWard": {
             "Label": "Channel Divinity: Blood Ward",
             "Description": {
@@ -2819,6 +2899,17 @@
                }
             }
          },
+         "DeathCanWait": {
+            "Label": "Death Can Wait",
+            "Description": {
+               "1": {
+                  "Value": "You gain advantage against all Death Saving Throws, attempts to stabilize, and saves against necromancy spell effects."
+               },
+               "2": {
+                  "Value": "You may also sacrifice yourself ritually to become a shade, gaining incorporeality (see Introduction), but becoming unable to cast spells. You gain telepathy with who sacrificed you, and may communicate with them and share what you see as an action from their part. This remains so long as you and your lord are in the same plane. The connection may be willingly transferred to another creature. The transformation is complete after one day of death, and cannot be reversed short of a wish spell or divine intervention."
+               }
+            }
+         },
          "DeepHealing": {
             "Label": "Deep Healing",
             "Description": {
@@ -2893,6 +2984,20 @@
                },
                "2": {
                   "Value": "When you are killed, your spirit is taken to an demiplane (see the spell) that is owned by you, where you return to life in the matter of 1d10 days, nurtured by any demonic allies you have employed, enslaved, or allied with."
+               }
+            }
+         },
+         "DesperatePrayer": {
+            "Label": "Desperate Prayer",
+            "Description": {
+               "1": {
+                  "Value": "You may rapidly recover your mana by invoking powers from beyond. You can use your action and bonus action on your turn to regain mana as if completed a short rest (or rested for one hour)."
+               },
+               "2": {
+                  "Value": "You can use this feature a number of times equal to half your proficiency bonus. You regain expended uses when you finish a long rest. While using this feature, your connection to your chosen power guards you, imposing disadvantage on attack rolls made against you, and granting you advantage to saving throws until the start of your turn in the next round."
+               },
+               "3": {
+                  "Value": "Alternatively, if you use this during a short rest or when you are below one-quarter your maximum mana point pool, you are treated as if you rested for two hours instead of one. This is atop the mana you regain for the normal rest."
                }
             }
          },
@@ -2976,6 +3081,23 @@
             "Description": {
                "1": {
                   "Value": "The divine magics flowing within you grant you immunity to diseases and advantage against poison, as well as resistance against poison damage."
+               }
+            }
+         },
+         "DivineIntervention": {
+            "Label": "Divine Intervention",
+            "Description": {
+               "1": {
+                  "Value": "You can call on your deity to intervene on your behalf when your need is great."
+               },
+               "2": {
+                  "Value": "Describe the assistance you seek, and roll percentile dice. If you roll a number equal to or lower than your priest level, your deity intervenes. The DM chooses the nature of the intervention; the effect of any priest spell or priesthood spell would be appropriate."
+               },
+               "3": {
+                  "Value": "Imploring your deity‘s aid requires you to use your action."
+               },
+               "4": {
+                  "Value": "If your deity intervenes, you can‘t use this feature again for 7 days. Otherwise, you can use it again after you finish a long rest. At 20th level, your call for intervention succeeds automatically, no roll required."
                }
             }
          },
@@ -4786,6 +4908,14 @@
                }
             }
          },
+         "Priesthood": {
+            "Label": "Priesthood",
+            "Description": {
+               "1": {
+                  "Value": "Choose one priesthood or domain related to your deity: Death (Lich King), Discipline (Balance), Holy (Holy Light), Moon (Elune), or Shadow (Forgotten Shadow). Each priesthood is detailed at the end of the class description. Your choice grants you domain spells and other features when you choose it at 1st level. It also grants you additional ways to use Channel Divinity when you gain that feature at 2nd level, and additional benefits at 6th, 8th, and 17th levels."
+               }
+            }
+         },
          "PrimalStrike": {
             "Label": "Primal Strike",
             "Description": {
@@ -5532,6 +5662,60 @@
                "9": {
                   "Title": "Spellcasting Focus",
                   "Value": "You can use your holy libram as a spellcasting focus for your paladin spells, as well as the store for them."
+               }
+            }
+         },
+         "SpellcastingPriest": {
+            "Label": "Spellcasting",
+            "Description": {
+               "1": {
+                  "Value": "As a practitioner of divine magic, you draw your power from the divines themselves, channeling their will through your body."
+               },
+               "2": {
+                  "Title": "Cantrips",
+                  "Value": "At 1st level, you know a number of cantrips equal to your proficiency bonus."
+               },
+               "3": {
+                  "Title": "Conjuring and Binding",
+                  "Value": "A priest can conjure and bind aberrations, beasts, celestials, elementals, fey, fiends, oozes, and undead, as well homunculi creatures (creatures with the homunculus template)."
+               },
+               "4": {
+                  "Title": "Preparing and Casting Spells",
+                  "Value": "Each priest level provides you with 1 caster level in the priest class. You follow the normal progression to unlock spell levels (see the table under the Mana section)."
+               },
+               "5": {
+                  "Value": "You prepare the list of priest spells that are available for you to cast, choosing from the priest spell list."
+               },
+               "6": {
+                  "Value": "You can also change your list of prepared spells by consulting your libram (treat as a spellbook) after a long rest. Preparing a new list of priest spells requires time spent in study: at least 1 minute per spell level for each spell on your list."
+               },
+               "7": {
+                  "Title": "Spellcasting Ability",
+                  "Value": "Spirit is your spellcasting ability for your priest spells, since you learn your priest spells through dedication to a higher force."
+               },
+               "8": {
+                  "Value": "You use your Spirit whenever a spell refers to your spellcasting ability. In addition, you use your Spirit modifier when setting the saving throw DC for a priest spell you cast and when making an attack roll with one."
+               },
+               "9": {
+                  "Value": "<strong>Spell save DC</strong> = 8 + your proficiency bonus + your Spirit modifier<br><strong>Spell attack modifier</strong> = your proficiency bonus + your Spirit modifier"
+               },
+               "10": {
+                  "Title": "Priesthood Spells",
+                  "Value": "Each priesthood has a list of spells—its priesthood spells—that you gain at the priest levels noted in the priesthood description. Once you gain a priesthood spell, you always have it prepared, and it doesn‘t count against the number of spells you can prepare each day."
+               },
+               "11": {
+                  "Value": "If you have a priesthood spell that doesn‘t appear on the priest spell list, the spell is nonetheless a priest spell for you."
+               },
+               "12": {
+                  "Title": "Spellbook - Libram",
+                  "Value": "At 1st level, your libram contains six 1st-level priest spells of your choice. When you level up, you gain 2 additional priest spells of your choice. You may also acquire new spells by research, tutelage, or from the spellbooks and scrolls of spellcasters who have spells you can cast."
+               },
+               "13": {
+                  "Value": "Your libram is effectively your spellbook, and you may add spells by scribing in your insights regarding the secrets of the powers you serve."
+               },
+               "14": {
+                  "Title": "Spellcasting Focus",
+                  "Value": "You can use your holy symbol as a spellcasting focus for your priest spells."
                }
             }
          },

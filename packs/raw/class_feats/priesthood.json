@@ -1,13 +1,13 @@
 {
-   "_id": "onB2GfF5CowTtYEG",
-   "name": "Unarmored Defense",
+   "_id": "EUN8MjYR1F8GZ4ET",
+   "name": "Priesthood",
    "permission": {
       "default": 0
    },
    "type": "feat",
    "data": {
-      "source": "Core Rules page 80",
-      "requirements": "Monk 1, Priest 1"
+      "source": "Core Rules page 98",
+      "requirements": "Priest 1"
    },
    "flags": {
       "wc5e": {
@@ -15,12 +15,12 @@
          "category": "WC5E.SkillCategories.General",
          "description": [
             {
-               "value": "WC5E.Feats.UnarmoredDefenseMonk.Description.1.Value"
+               "value": "WC5E.Feats.Priesthood.Description.1.Value"
             }
          ]
       }
    },
-   "img": "icons/magic/control/buff-strength-muscle-damage.webp",
+   "img": "icons/sundries/books/book-red-cross.webp",
    "effects": [
    ]
 }

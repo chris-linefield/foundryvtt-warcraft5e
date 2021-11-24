@@ -1,0 +1,29 @@
+{
+   "_id": "wURsbLUqrXhS7gC1",
+   "name": "Death Can Wait",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 100",
+      "requirements": "Priest (Death) 1"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.DeathCanWait.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.DeathCanWait.Description.2.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/death/undead-ghost-strike-white.webp",
+   "effects": [
+   ]
+}
