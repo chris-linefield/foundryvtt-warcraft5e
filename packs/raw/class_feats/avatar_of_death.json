@@ -1,0 +1,26 @@
+{
+   "_id": "QZYPjPxmn63Fn3hE",
+   "name": "Avatar of Death",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 101",
+      "requirements": "Priest (Death) 17"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.AvatarOfDeath.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/death/undead-skeleton-lich-armor.webp",
+   "effects": [
+   ]
+}

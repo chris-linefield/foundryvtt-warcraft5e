@@ -2231,6 +2231,14 @@
                }
             }
          },
+         "AvatarOfDeath": {
+            "Label": "Avatar of Death",
+            "Description": {
+               "1": {
+                  "Value": "You have the \"Command Undead\" ability as if you were a Necromancer equal to your priest level. Also, whenever you defeat a creature using a necromancy spell, they cannot be resurrected or reincarnated so long as you have not dropped to 0 hit points since you defeated them. They can however be raised as undead."
+               }
+            }
+         },
          "AvengersShield": {
             "Label": "Avenger's Shield",
             "Description": {
@@ -2588,6 +2596,20 @@
                }
             }
          },
+         "ChannelDivinityTurnLiving": {
+            "Label": "Channel Divinity: Turn Living",
+            "Description": {
+               "1": {
+                  "Value": "You can, as an action, present your symbol and speak a prayer censuring the living. Each living creature that can see or hear you within 30 feet of you must make a Spirit saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage."
+               },
+               "2": {
+                  "Value": "A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action."
+               },
+               "3": {
+                  "Value": "When you reach 5th level, you can also outright destroy the living you turn with this feature. When a living creature fails its saving throw against your Turn Living feature, the creature is instantly destroyed if its challenge rating is at or below a certain threshold, as shown in the Turn Living table. It disintegrates, leaving only a pile of dust, so commands the Lich King."
+               }
+            }
+         },
          "ChannelElements": {
             "Label": "Channel Elements",
             "Description": {
@@ -2848,6 +2870,14 @@
                }
             }
          },
+         "CultistOfTheDamned": {
+            "Label": "Cultist of the Damned",
+            "Description": {
+               "1": {
+                  "Value": "You can cast any Necromancy spell as a ritual even if it doesn't have the ritual tag. "
+               }
+            }
+         },
          "CursedCarrier": {
             "Label": "Cursed Carrier",
             "Description": {
@@ -2907,6 +2937,14 @@
                },
                "2": {
                   "Value": "You may also sacrifice yourself ritually to become a shade, gaining incorporeality (see Introduction), but becoming unable to cast spells. You gain telepathy with who sacrificed you, and may communicate with them and share what you see as an action from their part. This remains so long as you and your lord are in the same plane. The connection may be willingly transferred to another creature. The transformation is complete after one day of death, and cannot be reversed short of a wish spell or divine intervention."
+               }
+            }
+         },
+         "DeathsTouch": {
+            "Label": "Death's Touch",
+            "Description": {
+               "1": {
+                  "Value": "You may use an action to target any dying creature within 90 feet with a ranged spell attack. The creature fails one death saving throw instantly. You also have Resistance to shadow damage."
                }
             }
          },
@@ -4510,6 +4548,14 @@
                },
                "3": {
                   "Value": "You gain a mana pool as if you were a second level paladin (see the Spellcasting feature below), with the pool size as if you had no access to 1st level spells."
+               }
+            }
+         },
+         "LichKingsFavor": {
+            "Label": "Lich King's Favor",
+            "Description": {
+               "1": {
+                  "Value": "You add all necromancy spells from all spell lists to your spell list. Using necromancy spells that are not on your spell list cost 1 additional mana point."
                }
             }
          },
@@ -7433,10 +7479,18 @@
             }
          },
          "ConjureUndead": {
-            "Label": "Conjure Undead",
+            "Label": "Animate Undead",
             "Description": {
                "1": {
-                  "Value": "TODO: Spell missing"
+                  "Value": "You call forth an undead spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the Undead Spirit stat block. When you cast the spell, choose the creature’s form: Ghostly, Putrid, or Skeletal. The spirit resembles an undead creature with the chosen form, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends."
+               },
+               "2": {
+                  "Value": "The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don’t issue any, it takes the Dodge action and uses its move to avoid danger."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "When you cast this spell using a spell slot of 4th level or higher, use the higher level wherever the spell’s level appears in the stat block."
                }
             }
          },
@@ -7639,6 +7693,25 @@
                },
                "3": {
                   "Value": "If you cast the spell two or more times before finishing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get a random reading. The DM makes this roll in secret."
+               }
+            }
+         },
+         "DrainLife": {
+            "Label": "Drain Life",
+            "Description": {
+               "1": {
+                  "Value": "You can siphon life force from others to heal your wounds by tethering their life-force to yours, causing a stream of life-force to surge."
+               },
+               "2": {
+                  "Value": "Make a spell attack against a creature within 60 feet. On a hit, the target takes 4d4 fel damage, and you regain hit points equal to half the amount of fel damage dealt. If the target is Bloodied, the spell deals (and heals) double damage."
+               },
+               "3": {
+                  "Value": "The stream of life may be blocked by losing line of sight or effect, or moving at least 60  feet away from the target, at which case the spell is dispelled. Medium creatures or smaller cannot block the stream, but Large creatures generally do, as well as anything that blocks magical vision or effect (such as a sheet of lead, etc.)."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "When you cast this spell as a 5th level spell or higher, the damage increases by 1d4 for each spell level above 4th."
                }
             }
          },
@@ -7866,6 +7939,17 @@
                }
             }
          },
+         "GentleRepose": {
+            "Label": "Gentle Repose",
+            "Description": {
+               "1": {
+                  "Value": "You touch a corpse or other remains. For the duration, the target is protected from decay and can't become undead."
+               },
+               "2": {
+                  "Value": "The spell also effectively extends the time limit on raising the target from the dead, since days spent under the influence of this spell don't count against the time limit of spells such as raise dead."
+               }
+            }
+         },
          "GuardianOfFaith": {
             "Label": "Guardian of Faith",
             "Description": {
@@ -7891,6 +7975,81 @@
                },
                "4": {
                   "Value": "As a bonus action on each of your turns before the spell ends, you can change the direction in which the line blasts from you."
+               }
+            }
+         },
+         "HallowUnhallow": {
+            "Label": "Hallow / Unhallow",
+            "Description": {
+               "1": {
+                  "Value": "You touch a point and infuse an area around it with holy (or unholy, ancient, or elemental) power. The area can have a radius up to 60 feet, and the spell fails if the radius includes an area already under the effect a hallow spell."
+               },
+               "2": {
+                  "Value": "Depending on your casting class, you can rely on one power. You may repeat a hallowing on another area within the radius of the original hallow, in which case the chained spell costs less materials (375 gp per 60 feet of hallowed ground)."
+               },
+               "3": {
+                  "Value": "Druids rely on the power of ancients; priests can rely on holy or unholy power; paladins rely on holy power; death knights rely on unholy power; and shamans rely on elemental power. The affected area is subject to the following effects."
+               },
+               "4": {
+                  "Value": "First, celestials, elementals, fey, fiends, or undead (chosen by the caster) can‘t enter the area, nor can such creatures charm, frighten, or possess creatures within it. Any creature charmed, frightened, or possessed by such a creature is no longer charmed, frightened, or possessed upon entering the area. You can exclude one or more of those types of creatures from this effect. If such barred creature attempts to enter the area, it must succeed on three Charisma saving throws. If it fails on two saving throws, it cannot attempt re-entry for one week."
+               },
+               "5": {
+                  "Value": "Second, you can bind an extra effect to the area. Choose the effect from the following list, or choose an effect offered by the DM. Some of these effects apply to creatures in the area; you can designate whether the effect applies to all creatures, creatures that follow a specific deity or leader, or creatures of a specific sort, such as orcs or trolls. When a creature that would be affected enters the spell‘s area for the first time on a turn or starts its turn there, it can make a Charisma saving throw. On a success, the creature ignores the extra effect until it leaves the area."
+               },
+               "6": {
+                  "Value": "When hallowing inside a building, the spell‘s effects are limited by it, becoming a shapeable spell. So long as the spell‘s area of effect fills at least half the building, it can be treated as affecting all of it."
+               },
+               "7": {
+                  "Title": "Bloom (Ancient power only)",
+                  "Value": "The area blooms of plant life. It creates materials for herbalism and alchemy (equal to half the material components consumed by the spell), and it can support large trees. This can be even used in hostile environments (such as deserts or in the Outland), but it is more easily dispelled (dispeller gains advantage to dispel)."
+               },
+               "8": {
+                  "Title": "Blight (Unholy only)",
+                  "Value": "The area is blighted to kill plants and corrupt all life. It loses three-quarters of all herbalism and alchemy materials, and sterilizes the land (as if salted). In a blighted area, undead can rest  and restore hit dice normally without using magic or special abilities (such as cannibalism or vampirism). Binding undead in an area of blight costs only one-half the normal cost."
+               },
+               "9": {
+                  "Title": "Blessed (Holy only)",
+                  "Value": "The area is blessed to provide all allied creatures with the benefits of the Bless spell (useable up to three times at any given 24 hours)."
+               },
+               "10": {
+                  "Title": "Courage",
+                  "Value": "Affected creatures can‘t be frightened while in the area from any source."
+               },
+               "11": {
+                  "Title": "Darkness",
+                  "Value": "Darkness fills the area. Normal light, as well as magical light created by spells of a lower level than the level you used to cast this spell, can‘t illuminate the area."
+               },
+               "12": {
+                  "Title": "Daylight",
+                  "Value": "Bright light fills the area. Magical darkness created by spells of a lower level than the level you used to cast this spell can‘t extinguish the light."
+               },
+               "13": {
+                  "Title": "Energy Protection",
+                  "Value": "Affected creatures in the area have resistance to one damage type of your choice, except for bludgeoning, piercing, or slashing."
+               },
+               "14": {
+                  "Title": "Energy Vulnerability",
+                  "Value": "Affected creatures in the area have vulnerability to one damage type of your choice, except for bludgeoning, piercing, or slashing."
+               },
+               "15": {
+                  "Title": "Elemental Activity (Elemental power only).",
+                  "Value": "The hallowed area is attuned to elementals. It is treated as an inverted magic circle, but only for the purposes of binding elementals. If convinced to perform a task that serves the elemental powers, you gain advantage to Charisma checks to convince them, and the gold cost for the spell is reduced by three-fourths."
+               },
+               "16": {
+                  "Title": "Everlasting Rest",
+                  "Value": "Dead bodies interred in the area can‘t be turned into undead."
+               },
+               "17": {
+                  "Title": "Extradimensional Interference",
+                  "Value": "Affected creatures can‘t move or travel using teleportation or by extradimensional or interplanar means so long as they are within the area."
+               },
+               "18": {
+                  "Title": "Fear",
+                  "Value": "Affected creatures are frightened while in the area."
+               },
+               "19": {
+                  "Title": "Silence",
+                  "Value": "No sound can emanate from within the area, and no sound can reach into it. Tongues. Affected creatures can communicate with any other creature in the area, even if they don‘t share a common language."
                }
             }
          },
@@ -8322,6 +8481,36 @@
          "Silence": {
             "Label": "TODO: Silence",
             "Description": "For the Duration, no sound can be created within or pass through a 20-foot-radius Sphere centered on a point you choose within range. Any creature or object entirely inside the Sphere is immune to thunder damage, and creatures are Deafened while entirely inside it. Casting a Spell that includes a verbal component is impossible there."
+         },
+         "Sleep": {
+            "Label": "Sleep",
+            "Description": {
+               "1": {
+                  "Value": "This spell sends creatures into a magical slumber. Roll 5d8; the total is how many hit points of creatures this spell can affect. Creatures within 20 feet of a point you choose within range are affected in ascending order of their current hit points (ignoring unconscious creatures)."
+               },
+               "2": {
+                  "Value": "Starting with the creature that has the lowest current hit points, each creature affected by this spell falls unconscious until the spell ends, the sleeper takes damage, or someone uses an action to shake or slap the sleeper awake. Subtract each creature's hit points from the total before moving on to the creature with the next lowest hit points. A creature's hit points must be equal to or less than the remaining total for that creature to be affected."
+               },
+               "3": {
+                  "Value": "Undead and creatures immune to being charmed aren't affected by this spell."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "When you cast this spell using a spell slot of 2nd level or higher, roll an additional 2d8 for each slot level above 1st."
+               }
+            }
+         },
+         "SpeakWithDead": {
+            "Label": "Speak with Dead",
+            "Description": {
+               "1": {
+                  "Value": "You grant the semblance of life and intelligence to a corpse of your choice within range, allowing it to answer the questions you pose. The corpse must still have a mouth and can't be undead. The spell fails if the corpse was the target of this spell within the last 10 days."
+               },
+               "2": {
+                  "Value": "Until the spell ends, you can ask the corpse up to five questions. The corpse knows only what it knew in life, including the languages it knew. Answers are usually brief, cryptic, or repetitive, and the corpse is under no compulsion to offer a truthful answer if you are hostile to it or it recognizes you as an enemy. This spell doesn't return the creature's soul to its body, only its animating spirit. Thus, the corpse can't learn new information, doesn't comprehend anything that has happened since it died, and can't speculate about future events."
+               }
+            }
          },
          "SpiritInfusion": {
             "Label": "Spirit Infusion",

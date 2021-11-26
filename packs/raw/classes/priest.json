@@ -357,6 +357,144 @@
          ],
          "archetypes": [
             {
+               "title": "WC5E.Class.Priest.Priesthoods.Death.Title",
+               "description": "WC5E.Class.Priest.Priesthoods.Death.Description",
+               "featList": [
+                  {
+                     "level": "1",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "wURsbLUqrXhS7gC1",
+                           "label": "WC5E.Feats.DeathCanWait.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "2",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "WklcfVMMOJr5ok8R",
+                           "label": "WC5E.Feats.LichKingsFavor.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "94HnLkcnUE2Nes1f",
+                           "label": "WC5E.Feats.ChannelDivinityTurnLiving.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "6",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "pZ0s66jTVdto9Z3b",
+                           "label": "WC5E.Feats.CultistOfTheDamned.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "8",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "wC8QirAFNNRD8ML7",
+                           "label": "WC5E.Feats.DeathsTouch.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "17",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "QZYPjPxmn63Fn3hE",
+                           "label": "WC5E.Feats.AvatarOfDeath.Label"
+                        }
+                     ]
+                  }
+               ],
+               "spellList": [
+                  {
+                     "level": "1",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "Mmo2d86qCpdwNXvR",
+                           "label": "WC5E.Spells.Bane.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "edqc56e8oPzGTn1x",
+                           "label": "WC5E.Spells.Sleep.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "3",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "7KKSpOVVOfYyNpON",
+                           "label": "WC5E.Spells.GentleRepose.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "mRolapf20Lqc8KW1",
+                           "label": "WC5E.Spells.SeeInvisibility.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "5",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "oppMIXl9H5bf8yTl",
+                           "label": "WC5E.Spells.ConjureUndead.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "x4qS94BLOXKmNS8x",
+                           "label": "WC5E.Spells.SpeakWithDead.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "7",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "WQOwdqWBmgOGG9zs",
+                           "label": "WC5E.Spells.Blight.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "u76Ac0s0HNFE7SQB",
+                           "label": "WC5E.Spells.DrainLife.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "9",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "jHijqkawU6deHNR9",
+                           "label": "WC5E.Spells.Contagion.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "rGVJACrDtSvMfMam",
+                           "label": "WC5E.Spells.HallowUnhallow.Label"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
                "title": "WC5E.Class.Priest.Priesthoods.Holiness.Title",
                "description": "WC5E.Class.Priest.Priesthoods.Holiness.Description",
                "featList": [
@@ -607,129 +745,6 @@
                            "pack": "warcraft5e.wc5e_spells",
                            "node": "dVKO98gUTMh94cfO",
                            "label": "WC5E.Spells.WallOfForce.Label"
-                        }
-                     ]
-                  }
-               ]
-            },
-            {
-               "title": "WC5E.Class.Priest.Priesthoods.Death.Title",
-               "description": "WC5E.Class.Priest.Priesthoods.Death.Description",
-               "featList": [
-                  {
-                     "level": "1",
-                     "feats": [
-                        {
-                           "pack": "warcraft5e.wc5e_class_feats",
-                           "node": "wURsbLUqrXhS7gC1",
-                           "label": "WC5E.Feats.DeathCanWait.Label"
-                        }
-                     ]
-                  },
-                  {
-                     "level": "2",
-                     "feats": [
-                        {
-                           "pack": "warcraft5e.wc5e_class_feats",
-                           "node": "1LTJ0Z5PTXccvCHl",
-                           "label": "WC5E.Feats.SwordOfTruth.Label"
-                        }
-                     ]
-                  },
-                  {
-                     "level": "15",
-                     "feats": [
-                        {
-                           "pack": "warcraft5e.wc5e_class_feats",
-                           "node": "XhI1yaClq0sWo7Yz",
-                           "label": "WC5E.Feats.DivineStorm.Label"
-                        }
-                     ]
-                  },
-                  {
-                     "level": "20",
-                     "feats": [
-                        {
-                           "pack": "warcraft5e.wc5e_class_feats",
-                           "node": "ZORCjZSoe8L77dHz",
-                           "label": "WC5E.Feats.Emancipate.Label"
-                        }
-                     ]
-                  }
-               ],
-               "spellList": [
-                  {
-                     "level": "3",
-                     "spells": [
-                        {
-                           "pack": "warcraft5e.wc5e_spells",
-                           "node": "yThFdnuHVZBtvh2K",
-                           "label": "WC5E.Spells.CompelledDuel.Label"
-                        },
-                        {
-                           "pack": "warcraft5e.wc5e_spells",
-                           "node": "JTknVqdG6t8Q7gso",
-                           "label": "WC5E.Spells.Heroism.Label"
-                        }
-                     ]
-                  },
-                  {
-                     "level": "5",
-                     "spells": [
-                        {
-                           "pack": "warcraft5e.wc5e_spells",
-                           "node": "0NZ1OZRrklWHng6x",
-                           "label": "WC5E.Spells.BrandingSmite.Label"
-                        },
-                        {
-                           "pack": "warcraft5e.wc5e_spells",
-                           "node": "hv0VGCxOmfQN13im",
-                           "label": "WC5E.Spells.WardingBond.Label"
-                        }
-                     ]
-                  },
-                  {
-                     "level": "9",
-                     "spells": [
-                        {
-                           "pack": "warcraft5e.wc5e_spells",
-                           "node": "grxHnsg8Z3WU6XET",
-                           "label": "WC5E.Spells.Daylight.Label"
-                        },
-                        {
-                           "pack": "warcraft5e.wc5e_spells",
-                           "node": "EoUaosqnOerrwGeV",
-                           "label": "WC5E.Spells.Haste.Label"
-                        }
-                     ]
-                  },
-                  {
-                     "level": "13",
-                     "spells": [
-                        {
-                           "pack": "warcraft5e.wc5e_spells",
-                           "node": "i47iiZstrOY4lpwq",
-                           "label": "WC5E.Spells.DeathWard.Label"
-                        },
-                        {
-                           "pack": "warcraft5e.wc5e_spells",
-                           "node": "InRkVL2KNx3fVVtn",
-                           "label": "WC5E.Spells.GuardianOfFaith.Label"
-                        }
-                     ]
-                  },
-                  {
-                     "level": "17",
-                     "spells": [
-                        {
-                           "pack": "warcraft5e.wc5e_spells",
-                           "node": "R0PWgEOs3ktIUB9M",
-                           "label": "WC5E.Spells.AlignedWeapon.Label"
-                        },
-                        {
-                           "pack": "warcraft5e.wc5e_spells",
-                           "node": "Q8zikWI7oe9SfkW5",
-                           "label": "WC5E.Spells.FlameStrike.Label"
                         }
                      ]
                   }

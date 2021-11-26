@@ -1,0 +1,26 @@
+{
+   "_id": "pZ0s66jTVdto9Z3b",
+   "name": "Cultist of the Damned",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 101",
+      "requirements": "Priest (Death) 6"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.CultistOfTheDamned.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/death/skull-flames-white-blue.webp",
+   "effects": [
+   ]
+}

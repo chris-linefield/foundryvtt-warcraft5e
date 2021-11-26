@@ -1,0 +1,26 @@
+{
+   "_id": "wC8QirAFNNRD8ML7",
+   "name": "Death's Touch",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 101",
+      "requirements": "Priest (Death) 8"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.DeathsTouch.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/death/hand-withered-gray.webp",
+   "effects": [
+   ]
+}

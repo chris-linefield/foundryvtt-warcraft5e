@@ -1,6 +1,6 @@
 {
-   "_id": "oppMIXl9H5bf8yTl",
-   "name": "Animate Undead",
+   "_id": "x4qS94BLOXKmNS8x",
+   "name": "Speak with Dead",
    "permission": {
       "default": 0
    },
@@ -13,8 +13,8 @@
          "condition": ""
       },
       "duration": {
-         "value": 1,
-         "units": "hour"
+         "value": 10,
+         "units": "minute"
       },
       "target": {
          "value": 0,
@@ -22,8 +22,8 @@
          "type": ""
       },
       "range": {
-         "value": 90,
-         "long": null,
+         "value": 10,
+         "long": 0,
          "units": "ft"
       },
       "uses": {
@@ -32,32 +32,36 @@
          "per": ""
       },
       "ability": "",
-      "actionType": "save",
+      "actionType": "util",
       "attackBonus": 0,
       "chatFlavor": "",
-      "critical": null,
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
       "damage": {
          "parts": [],
-         "versatile": ""
+         "versatile": "",
+         "value": ""
       },
       "formula": "",
       "save": {
-         "ability": "wis",
-         "dc": 0,
-         "scaling": "spell"
+         "ability": "",
+         "dc": null,
+         "value": ""
       },
       "level": 3,
-      "school": "con",
+      "school": "nec",
       "components": {
          "value": "",
          "vocal": true,
          "somatic": true,
-         "material": false,
+         "material": true,
          "ritual": false,
-         "concentration": true
+         "concentration": false
       },
       "materials": {
-         "value": "a gilded skull worth at least 300 gp",
+         "value": "Burning incense",
          "consumed": false,
          "cost": 0,
          "supply": 0
@@ -67,8 +71,8 @@
          "prepared": false
       },
       "scaling": {
-         "mode": "level",
-         "formula": "1d6"
+         "mode": "none",
+         "formula": ""
       }
    },
    "sort": 100001,
@@ -77,20 +81,14 @@
          "type": "spell",
          "description": [
             {
-               "value": "WC5E.Spells.ConjureUndead.Description.1.Value"
+               "value": "WC5E.Spells.SpeakWithDead.Description.1.Value"
             },
             {
-               "value": "WC5E.Spells.ConjureUndead.Description.2.Value"
-            }
-         ],
-         "heightened": [
-            {
-               "value": "WC5E.Spells.ConjureUndead.Heightened.1.Value"
+               "value": "WC5E.Spells.SpeakWithDead.Description.2.Value"
             }
          ]
       }
    },
-   "img": "icons/magic/death/skeleton-eye-skull-glow-orange.webp",
-   "effects": [
-   ]
+   "img": "systems/dnd5e/icons/spells/horror-acid-1.jpg",
+   "effects": []
 }

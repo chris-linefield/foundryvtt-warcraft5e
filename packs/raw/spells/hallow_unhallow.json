@@ -1,0 +1,159 @@
+{
+   "_id": "rGVJACrDtSvMfMam",
+   "name": "Hallow / Unhallow",
+   "permission": {
+      "default": 0
+   },
+   "type": "spell",
+   "data": {
+      "source": "",
+      "activation": {
+         "type": "hours",
+         "cost": 24,
+         "condition": ""
+      },
+      "duration": {
+         "value": null,
+         "units": "until dispelled"
+      },
+      "target": {
+         "value": null,
+         "units": null,
+         "type": "area"
+      },
+      "range": {
+         "value": null,
+         "long": null,
+         "units": "touch"
+      },
+      "uses": {
+         "value": 0,
+         "max": 0,
+         "per": ""
+      },
+      "ability": "",
+      "actionType": "util",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": null,
+      "damage": {
+         "parts": [
+         ],
+         "versatile": "",
+         "value": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "value": "",
+         "scaling": "spell"
+      },
+      "level": 6,
+      "school": "div",
+      "components": {
+         "value": "",
+         "vocal": true,
+         "somatic": true,
+         "material": true,
+         "ritual": false,
+         "concentration": false
+      },
+      "materials": {
+         "value": "(500 gp in oils and incense, which the spell consumes",
+         "consumed": true,
+         "cost": 500,
+         "supply": 0
+      },
+      "preparation": {
+         "mode": "prepared",
+         "prepared": false
+      },
+      "scaling": {
+         "mode": "none",
+         "formula": ""
+      }
+   },
+   "sort": 100001,
+   "flags": {
+      "wc5e": {
+         "type": "spell",
+         "description": [
+            {
+               "value": "WC5E.Spells.HallowUnhallow.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Spells.HallowUnhallow.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Spells.HallowUnhallow.Description.3.Value"
+            },
+            {
+               "value": "WC5E.Spells.HallowUnhallow.Description.4.Value"
+            },
+            {
+               "value": "WC5E.Spells.HallowUnhallow.Description.5.Value"
+            },
+            {
+               "special": true,
+               "value": "WC5E.Spells.HallowUnhallow.Description.6.Value"
+            },
+            {
+               "title": "WC5E.Spells.HallowUnhallow.Description.7.Title",
+               "value": "WC5E.Spells.HallowUnhallow.Description.7.Value"
+            },
+            {
+               "title": "WC5E.Spells.HallowUnhallow.Description.8.Title",
+               "value": "WC5E.Spells.HallowUnhallow.Description.8.Value"
+            },
+            {
+               "title": "WC5E.Spells.HallowUnhallow.Description.9.Title",
+               "value": "WC5E.Spells.HallowUnhallow.Description.9.Value"
+            },
+            {
+               "title": "WC5E.Spells.HallowUnhallow.Description.10.Title",
+               "value": "WC5E.Spells.HallowUnhallow.Description.10.Value"
+            },
+            {
+               "title": "WC5E.Spells.HallowUnhallow.Description.11.Title",
+               "value": "WC5E.Spells.HallowUnhallow.Description.11.Value"
+            },
+            {
+               "title": "WC5E.Spells.HallowUnhallow.Description.12.Title",
+               "value": "WC5E.Spells.HallowUnhallow.Description.12.Value"
+            },
+            {
+               "title": "WC5E.Spells.HallowUnhallow.Description.13.Title",
+               "value": "WC5E.Spells.HallowUnhallow.Description.13.Value"
+            },
+            {
+               "title": "WC5E.Spells.HallowUnhallow.Description.14.Title",
+               "value": "WC5E.Spells.HallowUnhallow.Description.14.Value"
+            },
+            {
+               "title": "WC5E.Spells.HallowUnhallow.Description.15.Title",
+               "value": "WC5E.Spells.HallowUnhallow.Description.15.Value"
+            },
+            {
+               "title": "WC5E.Spells.HallowUnhallow.Description.16.Title",
+               "value": "WC5E.Spells.HallowUnhallow.Description.16.Value"
+            },
+            {
+               "title": "WC5E.Spells.HallowUnhallow.Description.17.Title",
+               "value": "WC5E.Spells.HallowUnhallow.Description.17.Value"
+            },
+            {
+               "title": "WC5E.Spells.HallowUnhallow.Description.18.Title",
+               "value": "WC5E.Spells.HallowUnhallow.Description.18.Value"
+            },
+            {
+               "title": "WC5E.Spells.HallowUnhallow.Description.19.Title",
+               "value": "WC5E.Spells.HallowUnhallow.Description.19.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/fire/barrier-wall-flame-ring-blue.webp",
+   "effects": [
+   ]
+}

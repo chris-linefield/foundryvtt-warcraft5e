@@ -1,6 +1,6 @@
 {
-   "_id": "oppMIXl9H5bf8yTl",
-   "name": "Animate Undead",
+   "_id": "u76Ac0s0HNFE7SQB",
+   "name": "Drain Life",
    "permission": {
       "default": 0
    },
@@ -14,15 +14,15 @@
       },
       "duration": {
          "value": 1,
-         "units": "hour"
+         "units": "minute"
       },
       "target": {
-         "value": 0,
+         "value": 1,
          "units": "",
-         "type": ""
+         "type": "creature"
       },
       "range": {
-         "value": 90,
+         "value": 60,
          "long": null,
          "units": "ft"
       },
@@ -37,27 +37,34 @@
       "chatFlavor": "",
       "critical": null,
       "damage": {
-         "parts": [],
-         "versatile": ""
+         "parts": [
+            [
+               "4d4",
+               "fel"
+            ]
+         ],
+         "versatile": "",
+         "value": ""
       },
       "formula": "",
       "save": {
          "ability": "wis",
-         "dc": 0,
+         "dc": null,
+         "value": "",
          "scaling": "spell"
       },
-      "level": 3,
-      "school": "con",
+      "level": 4,
+      "school": "nec",
       "components": {
          "value": "",
          "vocal": true,
          "somatic": true,
          "material": false,
          "ritual": false,
-         "concentration": true
+         "concentration": false
       },
       "materials": {
-         "value": "a gilded skull worth at least 300 gp",
+         "value": "",
          "consumed": false,
          "cost": 0,
          "supply": 0
@@ -67,8 +74,8 @@
          "prepared": false
       },
       "scaling": {
-         "mode": "level",
-         "formula": "1d6"
+         "mode": "none",
+         "formula": ""
       }
    },
    "sort": 100001,
@@ -77,20 +84,22 @@
          "type": "spell",
          "description": [
             {
-               "value": "WC5E.Spells.ConjureUndead.Description.1.Value"
+               "value": "WC5E.Spells.DrainLife.Description.1.Value"
             },
             {
-               "value": "WC5E.Spells.ConjureUndead.Description.2.Value"
+               "value": "WC5E.Spells.DrainLife.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Spells.DrainLife.Description.3.Value"
             }
          ],
          "heightened": [
             {
-               "value": "WC5E.Spells.ConjureUndead.Heightened.1.Value"
+               "value": "WC5E.Spells.DrainLife.Heightened.1.Value"
             }
          ]
       }
    },
-   "img": "icons/magic/death/skeleton-eye-skull-glow-orange.webp",
-   "effects": [
-   ]
+   "img": "systems/dnd5e/icons/spells/link-royal-2.jpg",
+   "effects": []
 }
