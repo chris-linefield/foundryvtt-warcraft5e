@@ -1,0 +1,26 @@
+{
+   "_id": "V60pVQs7xk96aaCk",
+   "name": "Chakra Ward",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 101",
+      "requirements": "Priest (Discipline) 1"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.ChakraWard.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/symbols/ring-circle-smoke-blue.webp",
+   "effects": [
+   ]
+}

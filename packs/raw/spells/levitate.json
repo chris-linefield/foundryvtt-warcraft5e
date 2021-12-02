@@ -1,0 +1,97 @@
+{
+   "_id": "VzBT8K5OQrczQgsH",
+   "name": "Levitate",
+   "permission": {
+      "default": 0
+   },
+   "type": "spell",
+   "data": {
+      "source": "",
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": 10,
+         "units": "minute"
+      },
+      "target": {
+         "value": 1,
+         "units": "",
+         "type": "creature"
+      },
+      "range": {
+         "value": 60,
+         "long": 0,
+         "units": "ft"
+      },
+      "uses": {
+         "value": 0,
+         "max": 0,
+         "per": ""
+      },
+      "ability": "",
+      "actionType": "save",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [],
+         "versatile": "",
+         "value": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "con",
+         "dc": 0,
+         "scaling": "spell"
+      },
+      "level": 2,
+      "school": "trs",
+      "components": {
+         "value": "",
+         "vocal": true,
+         "somatic": true,
+         "material": true,
+         "ritual": false,
+         "concentration": true
+      },
+      "materials": {
+         "value": "Either a small leather loop or a piece of golden wire bent into a cup shape with a long shank on one end",
+         "consumed": false,
+         "cost": 0,
+         "supply": 0
+      },
+      "preparation": {
+         "mode": "prepared",
+         "prepared": false
+      },
+      "scaling": {
+         "mode": "none",
+         "formula": ""
+      }
+   },
+   "sort": 100001,
+   "flags": {
+      "wc5e": {
+         "type": "spell",
+         "description": [
+            {
+               "value": "WC5E.Spells.Levitate.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Spells.Levitate.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Spells.Levitate.Description.3.Value"
+            }
+         ]
+      }
+   },
+   "img": "systems/dnd5e/icons/spells/wind-grasp-magenta-2.jpg",
+   "effects": []
+}

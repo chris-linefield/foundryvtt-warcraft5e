@@ -1,0 +1,26 @@
+{
+   "_id": "wgMVVAo1MuULM9ng",
+   "name": "Extended Wards",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 102",
+      "requirements": "Priest (Discipline) 1"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.ExtendedWards.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/time/hourglass-brown-orange.webp",
+   "effects": [
+   ]
+}

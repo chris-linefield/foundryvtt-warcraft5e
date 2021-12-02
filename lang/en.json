@@ -2514,6 +2514,28 @@
                }
             }
          },
+         "ChakraCleansing": {
+            "Label": "Chakra Cleansing",
+            "Description": {
+               "1": {
+                  "Value": "Whenever you cast a shielding spell, you may apply one of the two effects as a bonus action."
+               },
+               "2": {
+                  "Options": {
+                     "1": "You may dispel a magical effect the target suffers from. This acts as dispel magic with a spell level equal to the level of the shielding spell you cast.",
+                     "2": "You may grant additional temporary hit points equal to double the spell‘s level."
+                  }
+               }
+            }
+         },
+         "ChakraWard": {
+            "Label": "Chakra Ward",
+            "Description": {
+               "1": {
+                  "Value": "While you are wearing no armor and not wielding a shield, you take 3 less damage from all slashing, piercing, and bludgeoning damage (minimum 1)."
+               }
+            }
+         },
          "ChannelDivinity": {
             "Label": "Channel Divinity",
             "Description": {
@@ -2533,6 +2555,17 @@
                "5": {
                   "Title": "Priest Level",
                   "Value": "Invocation Strength"
+               }
+            }
+         },
+         "ChannelDivinityAtonement": {
+            "Label": "Channel Divinity: Atonement",
+            "Description": {
+               "1": {
+                  "Value": "You may, as an action, use a channel divinity attempt to grant any ally within 30 ft. a polar link to your spells. Whenever you deal damage via a priest spell to a target within 30 feet of the warded ally, the warded creature regains Hit Points equal to 2 + the spell‘s level (or only 2 for a cantrip). This effect remains for one minute."
+               },
+               "2": {
+                  "Value": "This feature has no effect if the mana cost of the spell has been reduced to 0."
                }
             }
          },
@@ -2568,6 +2601,14 @@
             "Description": {
                "1": {
                   "Value": "When you take this oath at 3rd level, you can spend a Channel Divinity use and an action, to present your holy symbol and release an outburst of the Holy Light of Creation, allowing one friendly creature within 30 feet to use a hit dice as if they rested. The ally also gains temporary hit points equal to double your Charisma modifier."
+               }
+            }
+         },
+         "ChannelDivinityPenance": {
+            "Label": "Channel Divinity: Penance",
+            "Description": {
+               "1": {
+                  "Value": "You may, as an action, use channel divinity to enhance up to 3 targets within 30 ft. with Penance until the end of your turn in the next round. If a target who benefits from Penance takes damage, you can choose to grant that target resistance against any damage type you specify, and end the Penance effect for the remaining targets. If all the targets suffer damage at the same time (such as from an area of effect ability or spell), they all benefit, and the effect ends for them."
                }
             }
          },
@@ -3520,6 +3561,14 @@
                }
             }
          },
+         "ExtendedWards": {
+            "Label": "Extended Wards",
+            "Description": {
+               "1": {
+                  "Value": "You double the duration of any active spell that grants temporary hit points and all Power Word spells."
+               }
+            }
+         },
          "ExtensiveDesigning": {
             "Label": "Extensive Designing",
             "Description": {
@@ -4307,6 +4356,17 @@
                }
             }
          },
+         "InfusedShield": {
+            "Label": "Infused Shield",
+            "Description": {
+               "1": {
+                  "Value": "Whenever you cast a healing or shielding spell, you may freely convert temporary hit points from your priest spells to actual hit points, or vice versa. A healing spell that grants temporary hit points is counted as a shielding spell, and benefits from the Chakra Cleansing and Extended Wards abilities."
+               },
+               "2": {
+                  "Value": "Furthermore, you may use your Channel Divinity: Penance ability as a reaction instead of an action."
+               }
+            }
+         },
          "Incinerate": {
             "Label": "Incinerate",
             "Description": {
@@ -5084,6 +5144,20 @@
             "Description": {
                "1": {
                   "Value": "When you attempt to learn or recall a piece of lore, if you do not know that information, you often know where and from whom you can obtain it. Usually, this information comes from a library, scriptorium, university, or a sage or other learned person or creature. Your DM might rule that the knowledge you seek is secreted away in an almost inaccessible place, or that it simply cannot be found. Unearthing the deepest secrets of the multiverse can require an adventure or even a whole campaign."
+               }
+            }
+         },
+         "Restitution": {
+            "Label": "Restitution",
+            "Description": {
+               "1": {
+                  "Value": "Whenever a creature benefitting from your Channel Divinity: Penance ability suffers damage; you may deflect a fraction of the damage back to the aggressor as a reaction if it is within 60 ft. If multiple targets are damaged at the same time (such as by suffering from an area of effect ability or spell), you can deflect the damage to the source, so long as it is within 60 ft."
+               },
+               "2": {
+                  "Value": "In both cases, this requires a successful ranged spell attack, and on a success, the creature damaging the warded targets take damage equal to half all the damage they dealt. This does not alter the type of damage dealt."
+               },
+               "3": {
+                  "Value": "Furthermore, if you use Channel Divinity: Penance a creature that is already a target of your Channel Divinity: Atonement, roll a d4. On a roll of 2 to 4, the Channel Divinity is not spent, and can be used again."
                }
             }
          },
@@ -7017,6 +7091,19 @@
                }
             }
          },
+         "Aid": {
+            "Label": "Power Word Fortitude",
+            "Description": {
+               "1": {
+                  "Value": "Your spell bolsters your allies with toughness and resolve. Choose up to three creatures within range. Each target's hit point maximum and current hit points increase by 5 for the duration."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "When you cast this spell using a spell slot of 3rd level or higher, a target's hit points increase by an additional 5 for each slot level above 2nd."
+               }
+            }
+         },
          "AlignedWeapon": {
             "Label": "Aligned Weapon",
             "Description": {
@@ -7106,6 +7193,28 @@
                },
                "3": {
                   "Value": "If you move so that an affected creature is forced to pass through the barrier, the spell ends."
+               }
+            }
+         },
+         "ArcaneArmor": {
+            "Label": "Arcane Armor",
+            "Description": {
+               "1": {
+                  "Value": "A protective field guards you. Upon casting this spell, you may choose one magic school or energy type, and gain advantage to all saves versus that school or resistance versus that damage type for the duration of the spell."
+               },
+               "2": {
+                  "Value": "You, however, gain disadvantage to saving throws that belong to spells that another school (see table below), or vulnerability to damage from its opposing type."
+               },
+               "3": {
+                  "Value": "You cannot gain resistance to an effect you are already resistant to, but you can gain resistance to an effect you are vulnerable against (becoming neutral). You cannot gain vulnerability to an effect you are immune to."
+               },
+               "4": {
+                  "Value": "If you become vulnerable to a school, you gain disadvantage to saving throws, and attackers that affect you using that school or energy type have advantage to attacks against you."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "When cast as a level 6 spell, you gain resistance to the damage type or advantage versus the school chosen without gaining vulnerability or disadvantage to the opposite type or school."
                }
             }
          },
@@ -8181,6 +8290,20 @@
                }
             }
          },
+         "Levitate": {
+            "Label": "Levitate",
+            "Description": {
+               "1": {
+                  "Value": "One creature or object of your choice that you can see within range rises vertically, up to 20 feet, and remains suspended there for the duration. The spell can levitate a target that weighs up to 500 pounds. An unwilling creature that succeeds on a Constitution saving throw is unaffected."
+               },
+               "2": {
+                  "Value": "The target can move only by pushing or pulling against a fixed object or surface within reach (such as a wall or a ceiling), which allows it to move as if it were climbing. You can change the target's altitude by up to 20 feet in either direction on your turn. If you are the target, you can move up or down as part of your move. Otherwise, you can use your action to move the target, which must remain within the spell's range."
+               },
+               "3": {
+                  "Value": "When the spell ends, the target floats gently to the ground if it is still aloft."
+               }
+            }
+         },
          "Maelstrom": {
             "Label": "Maelstrom",
             "Description": {
@@ -8357,6 +8480,14 @@
                },
                "3": {
                   "Value": "Undead and constructs gain no benefit from this spell."
+               }
+            }
+         },
+         "RemoveCurse": {
+            "Label": "Remove Curse",
+            "Description": {
+               "1": {
+                  "Value": "At your touch, all curses affecting one creature or object end. If the object is a cursed magic item, its curse remains, but the spell breaks its owner's Attunement to the object so it can be removed or discarded."
                }
             }
          },
@@ -8574,6 +8705,31 @@
                }
             }
          },
+         "Telekinesis": {
+            "Label": "Telekinesis",
+            "Description": {
+               "1": {
+                  "Value": "You gain the ability to move or manipulate creatures or objects by thought. When you cast the spell, and as your action each round for the Duration, you can exert your will on one creature or object that you can see within range, causing the appropriate effect below. You can affect the same target round after round, or choose a new one at any time. If you switch targets, the prior target is no longer affected by the spell."
+               },
+               "2": {
+                  "Title": "Creature",
+                  "Value": "You can try to move a Huge or smaller creature. Make an ability check with your spellcasting ability contested by the creature's Strength check. If you win the contest, you move the creature up to 30 feet in any direction, including upward but not beyond the range of this spell. Until the end of your next turn, the creature is Restrained in your telekinetic grip. A creature lifted upward is suspended in mid-air."
+               },
+               "3": {
+                  "Value": "On subsequent rounds, you can use your action to attempt to maintain your telekinetic grip on the creature by repeating the contest."
+               },
+               "4": {
+                  "Title": "Object",
+                  "Value": "You can try to move an object that weighs up to 1,000 pounds. If the object isn't being worn or carried, you automatically move it up to 30 feet in any direction, but not beyond the range of this spell."
+               },
+               "5": {
+                  "Value": "If the object is worn or carried by a creature, you must make an ability check with your Spellcasting ability contested by that creature's Strength check. If you succeed, you pull the object away from that creature and can move it up to 30 feet in any direction but not beyond the range of this spell."
+               },
+               "6": {
+                  "Value": "You can exert fine control on Objects with your telekinetic grip, such as manipulating a simple tool, opening a door or a container, stowing or retrieving an item from an open container, or pouring the contents from a vial."
+               }
+            }
+         },
          "TelepathicBond": {
             "Label": "Telepathic Bond",
             "Description": {
@@ -8730,6 +8886,14 @@
          }
       },
       "SpellRules": {
+         "Elements": {
+            "Acid": "Acid",
+            "Cold": "Cold",
+            "Fire": "Fire",
+            "Holy": "Holy",
+            "Lightning": "Lightning or Thunder",
+            "Shadow": "Shadow or Fel"
+         },
          "SpellSchools": {
             "Abjuration": "Abjuration",
             "Conjuration": "Conjuration",

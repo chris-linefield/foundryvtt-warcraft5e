@@ -1,0 +1,29 @@
+{
+   "_id": "TEL4vqN3R1pgnaaf",
+   "name": "Infused Shield",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 102",
+      "requirements": "Priest (Discipline) 17"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.InfusedShield.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.InfusedShield.Description.2.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/defensive/shield-barrier-deflect-gold.webp",
+   "effects": [
+   ]
+}

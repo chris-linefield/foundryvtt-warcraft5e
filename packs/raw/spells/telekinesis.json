@@ -1,0 +1,108 @@
+{
+   "_id": "9uN0SzmomPb1VikF",
+   "name": "Telekinesis",
+   "permission": {
+      "default": 0
+   },
+   "type": "spell",
+   "data": {
+      "source": "",
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": 10,
+         "units": "minute"
+      },
+      "target": {
+         "value": 1,
+         "units": "",
+         "type": "creature"
+      },
+      "range": {
+         "value": 60,
+         "long": 0,
+         "units": "ft"
+      },
+      "uses": {
+         "value": 0,
+         "max": 0,
+         "per": ""
+      },
+      "ability": "",
+      "actionType": "util",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [],
+         "versatile": "",
+         "value": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "value": ""
+      },
+      "level": 5,
+      "school": "trs",
+      "components": {
+         "value": "",
+         "vocal": true,
+         "somatic": true,
+         "material": false,
+         "ritual": false,
+         "concentration": true
+      },
+      "materials": {
+         "value": "",
+         "consumed": false,
+         "cost": 0,
+         "supply": 0
+      },
+      "preparation": {
+         "mode": "prepared",
+         "prepared": false
+      },
+      "scaling": {
+         "mode": "none",
+         "formula": ""
+      }
+   },
+   "sort": 100001,
+   "flags": {
+      "wc5e": {
+         "type": "spell",
+         "description": [
+            {
+               "value": "WC5E.Spells.Telekinesis.Description.1.Value"
+            },
+            {
+               "title": "WC5E.Spells.Telekinesis.Description.2.Title",
+               "value": "WC5E.Spells.Telekinesis.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Spells.Telekinesis.Description.3.Value"
+            },
+            {
+               "title": "WC5E.Spells.Telekinesis.Description.4.Title",
+               "value": "WC5E.Spells.Telekinesis.Description.4.Value"
+            },
+            {
+               "value": "WC5E.Spells.Telekinesis.Description.5.Value"
+            },
+            {
+               "value": "WC5E.Spells.Telekinesis.Description.6.Value"
+            }
+         ]
+      }
+   },
+   "img": "systems/dnd5e/icons/spells/wind-grasp-air-3.jpg",
+   "effects": []
+}

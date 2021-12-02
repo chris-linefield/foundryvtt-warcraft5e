@@ -495,63 +495,78 @@
                ]
             },
             {
-               "title": "WC5E.Class.Priest.Priesthoods.Holiness.Title",
-               "description": "WC5E.Class.Priest.Priesthoods.Holiness.Description",
+               "title": "WC5E.Class.Priest.Priesthoods.Discipline.Title",
+               "description": "WC5E.Class.Priest.Priesthoods.Discipline.Description",
                "featList": [
                   {
-                     "level": "3",
+                     "level": "1",
                      "feats": [
                         {
                            "pack": "warcraft5e.wc5e_class_feats",
-                           "node": "LZZZqJgcLeEvrs4e",
-                           "label": "WC5E.Feats.ChannelDivinityLightOfDawn.Label"
+                           "node": "V60pVQs7xk96aaCk",
+                           "label": "WC5E.Feats.ChakraWard.Label"
                         },
                         {
                            "pack": "warcraft5e.wc5e_class_feats",
-                           "node": "1p5iixJWw8wzFxmi",
-                           "label": "WC5E.Feats.HolyVision.Label"
+                           "node": "wgMVVAo1MuULM9ng",
+                           "label": "WC5E.Feats.ExtendedWards.Label"
                         }
                      ]
                   },
                   {
-                     "level": "7",
+                     "level": "2",
                      "feats": [
                         {
                            "pack": "warcraft5e.wc5e_class_feats",
-                           "node": "wMqF34nMeFKTuKFa",
-                           "label": "WC5E.Feats.HolyAuras.Label"
+                           "node": "CG9N2tgvj6DJCFnq",
+                           "label": "WC5E.Feats.ChannelDivinityAtonement.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "fH3Bk0DKTSj01D9J",
+                           "label": "WC5E.Feats.ChannelDivinityPenance.Label"
                         }
                      ]
                   },
                   {
-                     "level": "15",
+                     "level": "6",
                      "feats": [
                         {
                            "pack": "warcraft5e.wc5e_class_feats",
-                           "node": "nOZA907T3ntBSDy1",
-                           "label": "WC5E.Feats.LatentPrayer.Label"
+                           "node": "GmdcuYkgq4PjEOcM",
+                           "label": "WC5E.Feats.Restitution.Label"
                         }
                      ]
                   },
                   {
-                     "level": "20",
+                     "level": "8",
                      "feats": [
                         {
                            "pack": "warcraft5e.wc5e_class_feats",
-                           "node": "bNpeWGGYsWSY0Nnj",
-                           "label": "WC5E.Feats.IlluminatedHealer.Label"
+                           "node": "LNE36ekkggmScUJA",
+                           "label": "WC5E.Feats.ChakraCleansing.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "17",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "TEL4vqN3R1pgnaaf",
+                           "label": "WC5E.Feats.InfusedShield.Label"
                         }
                      ]
                   }
                ],
                "spellList": [
                   {
-                     "level": "3",
+                     "level": "1",
                      "spells": [
                         {
                            "pack": "warcraft5e.wc5e_spells",
-                           "node": "6JrHTuhqsNHdqFuS",
-                           "label": "WC5E.Spells.ProtectionFromEvilAndGood.Label"
+                           "node": "ZlIkbkY3IqOTWsQe",
+                           "label": "WC5E.Spells.ArcaneArmor.Label"
                         },
                         {
                            "pack": "warcraft5e.wc5e_spells",
@@ -561,17 +576,47 @@
                      ]
                   },
                   {
+                     "level": "3",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "EuIU8ZNaDuXG3uCs",
+                           "label": "WC5E.Spells.Aid.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "VzBT8K5OQrczQgsH",
+                           "label": "WC5E.Spells.Levitate.Label"
+                        }
+                     ]
+                  },
+                  {
                      "level": "5",
                      "spells": [
                         {
                            "pack": "warcraft5e.wc5e_spells",
-                           "node": "R4QvsF9ZhrYkbrlh",
-                           "label": "WC5E.Spells.LesserRestoration.Label"
+                           "node": "Q61JfXegY8Qbi5hV",
+                           "label": "WC5E.Spells.RemoveCurse.Label"
                         },
                         {
                            "pack": "warcraft5e.wc5e_spells",
-                           "node": "zyyN1FcnPQkydGMg",
-                           "label": "WC5E.Spells.ZoneOfTruth.Label"
+                           "node": "hv0VGCxOmfQN13im",
+                           "label": "WC5E.Spells.WardingBond.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "7",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "i47iiZstrOY4lpwq",
+                           "label": "WC5E.Spells.DeathWard.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "cQEvImie02ZJ1Mbg",
+                           "label": "WC5E.Spells.Stoneskin.Label"
                         }
                      ]
                   },
@@ -580,43 +625,14 @@
                      "spells": [
                         {
                            "pack": "warcraft5e.wc5e_spells",
-                           "node": "t7IwW2z8MelAsdV6",
-                           "label": "WC5E.Spells.BeaconOfHope.Label"
+                           "node": "l9SSGxRL5X5GVUYJ",
+                           "label": "WC5E.Spells.Hold.Label",
+                           "option": "up to 4 creature types"
                         },
                         {
                            "pack": "warcraft5e.wc5e_spells",
-                           "node": "X7e3HjqB7LgLyfBx",
-                           "label": "WC5E.Spells.Revivify.Label"
-                        }
-                     ]
-                  },
-                  {
-                     "level": "13",
-                     "spells": [
-                        {
-                           "pack": "warcraft5e.wc5e_spells",
-                           "node": "7fkeb8FrhN2DavIM",
-                           "label": "WC5E.Spells.FreedomOfMovement.Label"
-                        },
-                        {
-                           "pack": "warcraft5e.wc5e_spells",
-                           "node": "InRkVL2KNx3fVVtn",
-                           "label": "WC5E.Spells.GuardianOfFaith.Label"
-                        }
-                     ]
-                  },
-                  {
-                     "level": "17",
-                     "spells": [
-                        {
-                           "pack": "warcraft5e.wc5e_spells",
-                           "node": "KkS6MfFdPSKF7H3Q",
-                           "label": "WC5E.Spells.Commune.Label"
-                        },
-                        {
-                           "pack": "warcraft5e.wc5e_spells",
-                           "node": "G95rl3cZGvSeiE6n",
-                           "label": "WC5E.Spells.MassRevivify.Label"
+                           "node": "9uN0SzmomPb1VikF",
+                           "label": "WC5E.Spells.Telekinesis.Label"
                         }
                      ]
                   }

@@ -1,0 +1,32 @@
+{
+   "_id": "GmdcuYkgq4PjEOcM",
+   "name": "Restitution",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 102",
+      "requirements": "Priest (Discipline) 6"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.Restitution.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.Restitution.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Feats.Restitution.Description.3.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/defensive/shield-barrier-deflect-teal.webp",
+   "effects": [
+   ]
+}
