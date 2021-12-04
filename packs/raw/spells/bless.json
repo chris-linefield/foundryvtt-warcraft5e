@@ -1,0 +1,147 @@
+{
+   "_id": "etowZhcXCHUs2Ert",
+   "name": "Bless",
+   "type": "spell",
+   "img": "systems/dnd5e/icons/spells/haste-sky-1.jpg",
+   "data": {
+      "source": "",
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": 1,
+         "units": "minute"
+      },
+      "target": {
+         "value": 3,
+         "width": null,
+         "units": "",
+         "type": "creature"
+      },
+      "range": {
+         "value": 30,
+         "long": 0,
+         "units": "ft"
+      },
+      "uses": {
+         "value": 0,
+         "max": "0",
+         "per": ""
+      },
+      "consume": {
+         "type": "",
+         "target": "",
+         "amount": null
+      },
+      "ability": "",
+      "actionType": "util",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [],
+         "versatile": "",
+         "value": ""
+      },
+      "formula": "1d4",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "scaling": "spell",
+         "value": ""
+      },
+      "level": 1,
+      "school": "enc",
+      "components": {
+         "value": "",
+         "vocal": true,
+         "somatic": true,
+         "material": true,
+         "ritual": false,
+         "concentration": true
+      },
+      "materials": {
+         "value": "A sprinkling of holy water",
+         "consumed": false,
+         "cost": 0,
+         "supply": 0
+      },
+      "preparation": {
+         "mode": "prepared",
+         "prepared": false
+      },
+      "scaling": {
+         "mode": "level",
+         "formula": ""
+      }
+   },
+   "effects": [
+      {
+         "_id": "8rP3gwmXVTgZqYZE",
+         "flags": {},
+         "changes": [
+            {
+               "key": "data.bonuses.abilities.save",
+               "mode": 2,
+               "value": "+1d4"
+            },
+            {
+               "key": "data.bonuses.mwak.attack",
+               "mode": 2,
+               "value": "+1d4"
+            },
+            {
+               "key": "data.bonuses.msak.attack",
+               "mode": 2,
+               "value": "+1d4"
+            },
+            {
+               "key": "data.bonuses.rsak.attack",
+               "mode": 2,
+               "value": "+1d4"
+            },
+            {
+               "key": "data.bonuses.rwak.attack",
+               "mode": 2,
+               "value": "+1d4"
+            }
+         ],
+         "disabled": true,
+         "duration": {
+            "startTime": null,
+            "seconds": 60,
+            "rounds": 10
+         },
+         "icon": "systems/dnd5e/icons/spells/haste-sky-1.jpg",
+         "label": "Bless",
+         "origin": "Item.kZZAZ6kp9YzgPQEe",
+         "tint": null,
+         "transfer": true
+      }
+   ],
+   "folder": null,
+   "sort": 100001,
+   "permission": {
+      "default": 0
+   },
+   "flags": {
+      "wc5e": {
+         "type": "spell",
+         "description": [
+            {
+               "value": "WC5E.Spells.Bless.Description.1.Value"
+            }
+         ],
+         "heightened": [
+            {
+               "value": "WC5E.Spells.Bless.Heightened.1.Value"
+            }
+         ]
+      }
+   }
+}

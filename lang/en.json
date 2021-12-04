@@ -2009,6 +2009,23 @@
                }
             }
          },
+         "AngelicForm": {
+            "Label": "Angelic Form",
+            "Description": {
+               "1": {
+                  "Value": "You gain the avatar form priest spell for no cost if you didn‘t already have it. Furthermore, you augment the spell in the following ways:"
+               },
+               "2": {
+                  "Options": {
+                     "1": "You can cast the spell as a reaction when reduced to 0 hit points. When this happens, the spell also restores one-quarter your full hit points and mana. If you enter the avatar form this way cast healing, restorative, and domain spells so long as the form persists.",
+                     "2": "When you cast the spell, you can dispel one magical effect on you (as if by the dispel magic spell, spell level equal to the avatar form spell)."
+                  }
+               },
+               "3": {
+                  "Value": "After the spell‘s duration ends, you return to your normal form, and are reduced to 10% of your maximum hit points. You also learn celestial, if you don‘t already know how to speak it."
+               }
+            }
+         },
          "Alchemy": {
             "Label": "Alchemy",
             "Description": {
@@ -2588,6 +2605,14 @@
                }
             }
          },
+         "ChannelDivinityFocusedLight": {
+            "Label": "Channel Divinity: Focused Light",
+            "Description": {
+               "1": {
+                  "Value": "You may use a channel divinity to alter the target and refresh the duration of any healing sigil spell you cast on a target. This may be used  outside your turn, possibly recovering from a dispelled sigil by shifting it to another target. This requires a spell attack as normal. This costs a reaction if used outside your turn, and a bonus action if on your turn."
+               }
+            }
+         },
          "ChannelDivinityFreeze": {
             "Label": "Channel Divinity: Freeze",
             "Description": {
@@ -2609,6 +2634,14 @@
             "Description": {
                "1": {
                   "Value": "You may, as an action, use channel divinity to enhance up to 3 targets within 30 ft. with Penance until the end of your turn in the next round. If a target who benefits from Penance takes damage, you can choose to grant that target resistance against any damage type you specify, and end the Penance effect for the remaining targets. If all the targets suffer damage at the same time (such as from an area of effect ability or spell), they all benefit, and the effect ends for them."
+               }
+            }
+         },
+         "ChannelDivinityRestoreLife": {
+            "Label": "Channel Divinity: Restore Life",
+            "Description": {
+               "1": {
+                  "Value": "You may use your action while presenting your holy symbol to evoke healing energy that can restore a number of hit points equal to five times your priest level. Choose any creatures within 30 feet of you, and divide those hit points among them. This feature can restore a creature to no more than half of its hit point maximum. You can‘t use this feature on a construct, but may target undead to damage by expending healing, dealing holy damage instead of healing them."
                }
             }
          },
@@ -2648,6 +2681,20 @@
                },
                "3": {
                   "Value": "When you reach 5th level, you can also outright destroy the living you turn with this feature. When a living creature fails its saving throw against your Turn Living feature, the creature is instantly destroyed if its challenge rating is at or below a certain threshold, as shown in the Turn Living table. It disintegrates, leaving only a pile of dust, so commands the Lich King."
+               }
+            }
+         },
+         "ChannelDivinityTurnUndead": {
+            "Label": "Channel Divinity: Turn Undead",
+            "Description": {
+               "1": {
+                  "Value": "You can, as an action, present your holy Symbol and speak a prayer censuring the Undead. Each Undead that can see or hear you within 30 feet of you must make a Spirit saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage."
+               },
+               "2": {
+                  "Value": "A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action."
+               },
+               "3": {
+                  "Value": "When you reach 5th level, you can also outright destroy undead you turn with this feature. When an undead fails its saving throw against your Turn Undead feature, the creature is instantly destroyed if its challenge rating is at or below a certain threshold, as shown in the Turn Undead table."
                }
             }
          },
@@ -3970,6 +4017,14 @@
                }
             }
          },
+         "GuardianSpirit": {
+            "Label": "Guardian Spirit",
+            "Description": {
+               "1": {
+                  "Value": "You may target any ally within 30 ft., granting them a guardian angel spirit. This spirit increases the amount of healing taken from all your priest spells by 25%, and may be sacrificed to either grant resistance against any one attack the target, or automatically stabilize the target if they are reduced to 0 hit points. This does not affect constructs or undead. This may be used once per rest."
+               }
+            }
+         },
          "GuildBusiness": {
             "Label": "Guild Business",
             "Description": {
@@ -4658,6 +4713,25 @@
                },
                "2": {
                   "Value": "You may also instead tear the life from living targets within 30 ft. as a reaction, stealing a number of hit points equal to ¼ their current hit points, and restoring your hit points by the same amount. The target may resist with Stamina saving throw against your Spell Save DC. This may be used once per Charisma modifier (minimum 1) before requiring a long rest."
+               }
+            }
+         },
+         "LightsEmbrace": {
+            "Label": "Light's Embrace",
+            "Description": {
+               "1": {
+                  "Value": "Your healing spells are more effective. Whenever you use a priest spell of 1st level or higher to restore hit points to a creature, the creature regains additional hit points equal to 2 + the spell‘s level. If the spell heals multiple creatures, the additional healing is added to the total, not to each creature."
+               },
+               "2": {
+                  "Value": "You may also turn fiends when you use your Channel Divinity to turn undead."
+               }
+            }
+         },
+         "LightsInsight": {
+            "Label": "Light's Insight",
+            "Description": {
+               "1": {
+                  "Value": "Whenever you cast a healing spell from the priest spell list and the dice shows the maximum possible result (such as a 6 on a d6), you may roll the maximized dice again and add the amount healed to the total. This applies to healing spells that deal damage to undead. This acts similarly to the Holy Vision ability of the holy oath. If having both features, and if the re-rolled dice results in a maximum result as well, you may roll a third time."
                }
             }
          },
@@ -7328,6 +7402,19 @@
                }
             }
          },
+         "Bless": {
+            "Label": "Bless",
+            "Description": {
+               "1": {
+                  "Value": "You bless up to three creatures of your choice within range. Whenever a target makes an attack roll or a saving throw before the spell ends, the target can roll 1d4 and add the number rolled to the attack roll or saving throw."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st."
+               }
+            }
+         },
          "Blight": {
             "Label": "Blight",
             "Description": {
@@ -8672,6 +8759,25 @@
                },
                "3": {
                   "Value": "Unlike most totem spells, this is a concentration effect."
+               }
+            }
+         },
+         "SpiritualWeapon": {
+            "Label": "Spiritual Weapon",
+            "Description": {
+               "1": {
+                  "Value": "You create a floating, spectral weapon within range that lasts for the duration or until you cast this spell again. When you cast the spell, you can make a melee spell attack against a creature within 5 feet of the weapon. On a hit, the target takes force damage equal to 1d8 + your spellcasting ability modifier."
+               },
+               "2": {
+                  "Value": "As a bonus action on your turn, you can move the weapon up to 20 feet and repeat the attack against a creature within 5 feet of it."
+               },
+               "3": {
+                  "Value": "The weapon can take whatever form you choose. Clerics of deities who are associated with a particular weapon (as St. Cuthbert is known for his mace and Thor for his hammer) make this spell's effect resemble that weapon."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for every two slot levels above the 2nd."
                }
             }
          },

@@ -639,73 +639,88 @@
                ]
             },
             {
-               "title": "WC5E.Class.Priest.Priesthoods.Protection.Title",
-               "description": "WC5E.Class.Priest.Priesthoods.Protection.Description",
+               "title": "WC5E.Class.Priest.Priesthoods.HolyLight.Title",
+               "description": "WC5E.Class.Priest.Priesthoods.HolyLight.Description",
                "featList": [
                   {
-                     "level": "3",
+                     "level": "1",
                      "feats": [
                         {
                            "pack": "warcraft5e.wc5e_class_feats",
-                           "node": "volLu7H7RUAnQiGU",
-                           "label": "WC5E.Feats.ChannelDivinityRooksMove.Label"
+                           "node": "j7XAOqsHIKkFxHIg",
+                           "label": "WC5E.Feats.LightsInsight.Label"
                         },
                         {
                            "pack": "warcraft5e.wc5e_class_feats",
-                           "node": "gTfFtLVddNp8jBd6",
-                           "label": "WC5E.Feats.AvengersShield.Label"
+                           "node": "OwD73n82QUocvmjY",
+                           "label": "WC5E.Feats.LightsEmbrace.Label"
                         }
                      ]
                   },
                   {
-                     "level": "7",
+                     "level": "2",
                      "feats": [
                         {
                            "pack": "warcraft5e.wc5e_class_feats",
-                           "node": "xhb24aculIGVmMPS",
-                           "label": "WC5E.Feats.OpportunePrayer.Label"
+                           "node": "TLIMung7YOMWkgBC",
+                           "label": "WC5E.Feats.ChannelDivinityRestoreLife.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "n5jzGYcRRPrUOMth",
+                           "label": "WC5E.Feats.ChannelDivinityTurnUndead.Label"
                         }
                      ]
                   },
                   {
-                     "level": "15",
+                     "level": "6",
                      "feats": [
                         {
                            "pack": "warcraft5e.wc5e_class_feats",
-                           "node": "YQdKHLKBbjW4ld3C",
-                           "label": "WC5E.Feats.HolySentinel.Label"
+                           "node": "FCtN9terzd3Jbqkn",
+                           "label": "WC5E.Feats.ChannelDivinityFocusedLight.Label"
                         }
                      ]
                   },
                   {
-                     "level": "20",
+                     "level": "8",
                      "feats": [
                         {
                            "pack": "warcraft5e.wc5e_class_feats",
-                           "node": "hJBX1Z16CaBHgzAm",
-                           "label": "WC5E.Feats.ArdentDefender.Label"
+                           "node": "ifUhDJgiPut9Ey6y",
+                           "label": "WC5E.Feats.AngelicForm.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "17",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "s6o0DWfOKaBSwVXZ",
+                           "label": "WC5E.Feats.GuardianSpirit.Label"
                         }
                      ]
                   }
                ],
                "spellList": [
                   {
-                     "level": "3",
+                     "level": "1",
                      "spells": [
                         {
                            "pack": "warcraft5e.wc5e_spells",
-                           "node": "HZJu2RzrN79T6KnY",
-                           "label": "WC5E.Spells.Sanctuary.Label"
+                           "node": "etowZhcXCHUs2Ert",
+                           "label": "WC5E.Spells.Bless.Label"
                         },
                         {
                            "pack": "warcraft5e.wc5e_spells",
-                           "node": "VEiN0onKrAbdKBCE",
-                           "label": "WC5E.Spells.Shield.Label"
+                           "node": "q1Tz0ehvEIAffjsi",
+                           "label": "WC5E.Spells.HolyLight.Label"
                         }
                      ]
                   },
                   {
-                     "level": "5",
+                     "level": "3",
                      "spells": [
                         {
                            "pack": "warcraft5e.wc5e_spells",
@@ -714,18 +729,18 @@
                         },
                         {
                            "pack": "warcraft5e.wc5e_spells",
-                           "node": "hv0VGCxOmfQN13im",
-                           "label": "WC5E.Spells.WardingBond.Label"
+                           "node": "4DIEi36fhoaGD32H",
+                           "label": "WC5E.Spells.SpiritualWeapon.Label"
                         }
                      ]
                   },
                   {
-                     "level": "9",
+                     "level": "5",
                      "spells": [
                         {
                            "pack": "warcraft5e.wc5e_spells",
-                           "node": "t7IwW2z8MelAsdV6",
-                           "label": "WC5E.Spells.BeaconOfHope.Label"
+                           "node": "EoUaosqnOerrwGeV",
+                           "label": "WC5E.Spells.Haste.Label"
                         },
                         {
                            "pack": "warcraft5e.wc5e_spells",
@@ -735,22 +750,22 @@
                      ]
                   },
                   {
-                     "level": "13",
+                     "level": "7",
                      "spells": [
-                        {
-                           "pack": "warcraft5e.wc5e_spells",
-                           "node": "ohh2odAo1yAq8jkC",
-                           "label": "WC5E.Spells.AuraOfLife.Label"
-                        },
                         {
                            "pack": "warcraft5e.wc5e_spells",
                            "node": "i47iiZstrOY4lpwq",
                            "label": "WC5E.Spells.DeathWard.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "InRkVL2KNx3fVVtn",
+                           "label": "WC5E.Spells.GuardianOfFaith.Label"
                         }
                      ]
                   },
                   {
-                     "level": "17",
+                     "level": "9",
                      "spells": [
                         {
                            "pack": "warcraft5e.wc5e_spells",
@@ -759,8 +774,8 @@
                         },
                         {
                            "pack": "warcraft5e.wc5e_spells",
-                           "node": "dVKO98gUTMh94cfO",
-                           "label": "WC5E.Spells.WallOfForce.Label"
+                           "node": "G95rl3cZGvSeiE6n",
+                           "label": "WC5E.Spells.MassRevivify.Label"
                         }
                      ]
                   }

@@ -1,0 +1,26 @@
+{
+   "_id": "TLIMung7YOMWkgBC",
+   "name": "Channel Divinity: Restore Life",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 103",
+      "requirements": "Priest (Holy Light) 2"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.ChannelDivinityRestoreLife.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/life/cross-area-circle-green-white.webp",
+   "effects": [
+   ]
+}
