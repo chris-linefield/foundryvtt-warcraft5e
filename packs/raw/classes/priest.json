@@ -780,6 +780,149 @@
                      ]
                   }
                ]
+            },
+            {
+               "title": "WC5E.Class.Priest.Priesthoods.Moon.Title",
+               "description": "WC5E.Class.Priest.Priesthoods.Moon.Description",
+               "featList": [
+                  {
+                     "level": "1",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "L7x4apvUhlhGjOLA",
+                           "label": "WC5E.Feats.FacetsOfTheMoonGoddess.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "bXOPh4SQVfiV1n9k",
+                           "label": "WC5E.Feats.MightOfTheMoon.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "2yq4uOuwNghI4af8",
+                           "label": "WC5E.Feats.FavorOfElune.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "2",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "LEqiPm2PRvIXHx7t",
+                           "label": "WC5E.Feats.ChannelDivinityMoonlightCalm.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "6",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "2CR7Sd41zGchgEda",
+                           "label": "WC5E.Feats.ChannelDivinityMoonlightWard.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "8",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "dSp7L2gv6zC2Dnva",
+                           "label": "WC5E.Feats.ElunesGrace.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "17",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "qXGm3vy0JAuBTCfO",
+                           "label": "WC5E.Feats.MoonsLuck.Label"
+                        }
+                     ]
+                  }
+               ],
+               "spellList": [
+                  {
+                     "level": "1",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "etowZhcXCHUs2Ert",
+                           "label": "WC5E.Spells.Bless.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "q1Tz0ehvEIAffjsi",
+                           "label": "WC5E.Spells.HolyLight.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "3",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "R4QvsF9ZhrYkbrlh",
+                           "label": "WC5E.Spells.LesserRestoration.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "4DIEi36fhoaGD32H",
+                           "label": "WC5E.Spells.SpiritualWeapon.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "5",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "EoUaosqnOerrwGeV",
+                           "label": "WC5E.Spells.Haste.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "X7e3HjqB7LgLyfBx",
+                           "label": "WC5E.Spells.Revivify.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "7",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "i47iiZstrOY4lpwq",
+                           "label": "WC5E.Spells.DeathWard.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "InRkVL2KNx3fVVtn",
+                           "label": "WC5E.Spells.GuardianOfFaith.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "9",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "dcrDkgItYQCOBSS2",
+                           "label": "WC5E.Spells.MassCureWounds.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "G95rl3cZGvSeiE6n",
+                           "label": "WC5E.Spells.MassRevivify.Label"
+                        }
+                     ]
+                  }
+               ]
             }
          ]
       }

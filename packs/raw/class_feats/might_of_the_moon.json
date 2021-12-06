@@ -1,0 +1,29 @@
+{
+   "_id": "bXOPh4SQVfiV1n9k",
+   "name": "Might of the Moon",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 105",
+      "requirements": "Priest (Moon) 1"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.MightOfTheMoon.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.MightOfTheMoon.Description.2.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/nature/symbol-moon-stars-white.webp",
+   "effects": [
+   ]
+}

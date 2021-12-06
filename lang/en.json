@@ -2629,6 +2629,37 @@
                }
             }
          },
+         "ChannelDivinityMoonlightCalm": {
+            "Label": "Channel Divinity: Moonlight Calm",
+            "Description": {
+               "1": {
+                  "Value": "When you channel divinity, you may channel an aspect of Elune‘s grace to calm a creature within 30 feet of you. You may target a humanoid or beast, or a creature in another shape (such as a druid in wild shape or a shapeshifter)."
+               },
+               "2": {
+                  "Options": {
+                     "1": "If you target a beast or humanoid, the creature must succeed on a Charisma saving throw or it is charmed by you for 1 minute or until it takes damage. While it is charmed by you, it is friendly to you and other creatures you designate. If you treat them fairly, they do not revert to their original hostility after the duration ends.",
+                     "2": "If you target a Druid in their Wild Shape or a shapeshifting creature, they revert to their original shape if they fail a Charisma saving throw, and cannot shapeshift for one minute. They may repeat the saving throw at the end of their turn every round."
+                  }
+               }
+            }
+         },
+         "ChannelDivinityMoonlightWard": {
+            "Label": "Channel Divinity: Moonlight Ward",
+            "Description": {
+               "1": {
+                  "Value": "You may spend a Channel Divinity use as a bonus action and designate one ally within 30 feet as your moonlight ward. The ward remains for 1 minute. Depending on the phase of the moon, your ward has one of the following effects:"
+               },
+               "2": {
+                  "Options": {
+                     "1": "<i>Full Moon</i>: So long as the ally remains within range, you may use a bonus action to heal the target with any healing spell from the priest spell list that normally requires an action. If the spell normally costs a bonus action to cast (such as the flash of light spell), it may instead cast it as a reaction.",
+                     "2": "<i>New Moon</i>: So long as the ally within range, you can cast any spell that deals psychic or shadow damage as a bonus action so long as you target a creature who attacked your moonlit ward in the last round. If the spell normally costs a bonus action to cast (such as the flash of light spell), it may instead cost a reaction. You cannot cast sigil spells this way."
+                  }
+               },
+               "3": {
+                  "Value": "If you successfully dealt weapon damage to an enemy before using the moonlight ward, the mana cost of the spell (healing or damaging, respectively) is reduced by 1 (minimum 1). This can stack with the normal reduction for repeat-casting a spell."
+               }
+            }
+         },
          "ChannelDivinityPenance": {
             "Label": "Channel Divinity: Penance",
             "Description": {
@@ -3393,6 +3424,23 @@
                }
             }
          },
+         "ElunesGrace": {
+            "Label": "Elune's Grace",
+            "Description": {
+               "1": {
+                  "Value": "You can bless creatures with a shard of your goddess‘s grace. Depending on your chosen phase, you can grant a creature you affect by your spells one of the below blessings. Once you use the blessings three times, you cannot bless another creature until you complete a short rest. You may use multiple blessings per round (they do not require an action)."
+               },
+               "2": {
+                  "Options": {
+                     "1": "<i>Full Moon</i>: Your priest spells that restore hit points heal the maximum amount for the dice for one target.",
+                     "2": "<i>New Moon</i>: Your priest spells that deal psychic or shadow damage deal maximum damage for the dice for one target."
+                  }
+               },
+               "3": {
+                  "Value": "If you are under the effects of the avatar form priest spell, you can use the blessing two additional times before a short rest."
+               }
+            }
+         },
          "ElusiveTotems": {
             "Label": "Elusive Totems",
             "Description": {
@@ -3640,6 +3688,23 @@
                }
             }
          },
+         "FacetsOfTheMoonGoddess": {
+            "Label": "Facets of the Moon Goddess",
+            "Description": {
+               "1": {
+                  "Value": "You become attuned to the dual faces of Elune, the goddess of the moon. Whenever the moon (or one moon of your realm) enters a new phase, you may adapt that aspect of Elune. This choice is made at the end of a long rest. This changes how some of your priesthood features act."
+               },
+               "2": {
+                  "Options": {
+                     "1": "<i>Full Moon Aspect</i>: The full moon aspect of Elune is known as the Mother Moon. It is more adept with healing and providing support, as well as ranged combat, and represents calm wisdom and righteous, precise action.",
+                     "2": "<i>New Moon</i>: The new moon aspect of Elune is known as the Night Warrior. It is more adept with melee combat, and represents the furious savagery of nature, vengeful aspects of the goddess, and her shepherding the souls of the dead to beyond the stars."
+                  }
+               },
+               "3": {
+                  "Value": "You are also always able to see the moon (or its outline, if it if you have line of sight to it, even in daylight. In the new moon phase, you can see the moon‘s outline. You cannot gain normally benefits from observing it except at night, however, when Elune‘s power waxes, unless the power specifies so."
+               }
+            }
+         },
          "FalseIdentity": {
             "Label": "False Identity",
             "Description": {
@@ -3705,6 +3770,20 @@
                      "4": "I put on new identities like clothes.",
                      "5": "I run sleight-of-hand cons on street corners.",
                      "6": "I convince people that worthless junk is worth their hard-earned money."
+                  }
+               }
+            }
+         },
+         "FavorOfElune": {
+            "Label": "Favor of Elune",
+            "Description": {
+               "1": {
+                  "Value": "You gain the Favored by Elune talent, and gain proficiency with all ranged projectile weapons and medium armor. You also gain a one of the following blessings, depending on the lunar phase you have chosen."
+               },
+               "2": {
+                  "Options": {
+                     "1": "<i>Full Moon Priestess</i>: You may add your spirit modifier to damage rolls with bows of all types.",
+                     "2": "<i>New Moon Priestess</i>: You may choose one fighting style (chosen from the list of the warrior class)."
                   }
                }
             }
@@ -4811,6 +4890,17 @@
                }
             }
          },
+         "MightOfTheMoon": {
+            "Label": "Might of the Moon",
+            "Description": {
+               "1": {
+                  "Value": "So long as you can observe the moon and are at night, you are affected by the inner fire spell (level equal to highest spell level you can access). In other conditions, the bonus provided by the spell is halved (minimum 0)."
+               },
+               "2": {
+                  "Value": "You do not require have to be outdoors to benefit from this feature. If there are multiple moons in the realm you are in, any moon suffices."
+               }
+            }
+         },
          "MightOfTheWastes": {
             "Label": "Might of the Wastes",
             "Description": {
@@ -4884,6 +4974,23 @@
                },
                "2": {
                   "Value": "When in this form or while under the effects of the avatar form spell, such spells cost 1 mana less than normal. Once you gain the Beast Spells druid feature of 18th level, you can cast spells as normal, but you still benefit from the mana cost reduction for those specific spell schools."
+               }
+            }
+         },
+         "MoonsLuck": {
+            "Label": "Moon's Luck",
+            "Description": {
+               "1": {
+                  "Value": "You gain the Lucky feat. You have a number of Luck Points equal to half of your Priest level (rounded down) in the following conditions, depending on the phase you have chosen:"
+               },
+               "2": {
+                  "Options": {
+                     "1": "<i>Full Moon</i>: When you are under direct moonlight.",
+                     "2": "<i>New Moon</i>: When you are under the new moon."
+                  }
+               },
+               "3": {
+                  "Value": "You may use Luck Points to use your Elune‘s Grace feature instead of the number of limited blessings. In other conditions to the ones specified, each Luck Point has half the benefit (requiring spending two points instead of one for a benefit of the feat)."
                }
             }
          },

@@ -1,0 +1,35 @@
+{
+   "_id": "dSp7L2gv6zC2Dnva",
+   "name": "Elune's Grace",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 105",
+      "requirements": "Priest (Moon) 8"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.ElunesGrace.Description.1.Value"
+            },
+            {
+               "options": [
+                  "WC5E.Feats.ElunesGrace.Description.2.Options.1",
+                  "WC5E.Feats.ElunesGrace.Description.2.Options.2"
+               ]
+            },
+            {
+               "value": "WC5E.Feats.ElunesGrace.Description.3.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/life/heart-area-circle-red-green.webp",
+   "effects": [
+   ]
+}
