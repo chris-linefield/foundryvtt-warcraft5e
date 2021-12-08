@@ -7999,6 +7999,40 @@
                }
             }
          },
+         "Dominate": {
+            "Label": "Dominate",
+            "Description": {
+               "1": {
+                  "Value": "You attempt to beguile a creature you can see within range. When preparing this spell, you can choose to be able to dominate humanoids, beasts, or one creature type your class can bind (see binding under spellcasting)."
+               },
+               "2": {
+                  "Value": "It must succeed on a Spirit saving throw or be dominated by you for the duration (as Charm). If you or creatures that are friendly to you are fighting it, it has advantage on the saving throw."
+               },
+               "3": {
+                  "Value": "While the target is dominated, you have a telepathic link with it as long as the two of you are on the same plane of existence. You can use this telepathic link to issue commands to the creature while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as attack that creature, run over there, or fetch that object."
+               },
+               "4": {
+                  "Value": "If the creature completes the order and doesn't receive further direction from you, it defends and preserves itself to the best of its ability."
+               },
+               "5": {
+                  "Value": "You can use your action to take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose, and doesn't do anything that you don't allow it to do. During this time, you can also cause the creature to use a reaction, but this requires you to use your own reaction as well."
+               },
+               "6": {
+                  "Value": "Each time the target takes damage, it makes a new Spirit saving throw against the spell. If the saving throw succeeds, the spell ends."
+               },
+               "7": {
+                  "Value": "This only affects the creature type specified by the spell (a Dominate Undead cannot also dominate a humanoid)."
+               },
+               "8": {
+                  "Value": "If choosing to affect beasts only, the spell‘s level is decreased to 4th level instead, as their minds are more malleable."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "When you heighten this to a 6th-level spell, the maximum duration becomes 10 minutes. This increases to 1 hour to 8 hours as 7th and 8th spells, respectively. For each spell level the dominate spell is heightened, you can add one additional creature type to the dominate spell (level 6 dominate can dominate humanoids, elementals, or undead for up to 10 minutes)."
+               }
+            }
+         },
          "DrainLife": {
             "Label": "Drain Life",
             "Description": {
@@ -8356,6 +8390,17 @@
                }
             }
          },
+         "HallucinatoryTerrain": {
+            "Label": "Hallucinatory Terrain",
+            "Description": {
+               "1": {
+                  "Value": "You make natural terrain in a 150-foot cube in range look, sound, and smell like some other sort of natural terrain. Thus, open fields or a road can be made to resemble a swamp, hill, crevasse, or some other difficult or impassable terrain. A pond can be made to seem like a grassy meadow, a precipice like a gentle slope, or a rock-strewn gully like a wide and smooth road. Manufactured structures, Equipment, and creatures within the area aren't changed in appearance."
+               },
+               "2": {
+                  "Value": "The tactile characteristics of the terrain are unchanged, so creatures entering the area are likely to see through the Illusion. If the difference isn't obvious by touch, a creature carefully examining the Illusion can attempt an Intelligence (Investigation) check against your spell save DC to disbelieve it. A creature who discerns the Illusion for what it is, sees it as a vague image superimposed on the terrain."
+               }
+            }
+         },
          "Haste": {
             "Label": "Haste",
             "Description": {
@@ -8476,6 +8521,19 @@
                }
             }
          },
+         "Invisibility": {
+            "Label": "Invisibility",
+            "Description": {
+               "1": {
+                  "Value": "A creature you touch becomes invisible until the spell ends. Anything the target is wearing or carrying is invisible as long as it is on the target's person. The spell ends for a target that attacks or casts a spell."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd."
+               }
+            }
+         },
          "LesserRestoration": {
             "Label": "Lesser Restoration",
             "Description": {
@@ -8572,6 +8630,28 @@
             "Heightened": {
                "1": {
                   "Value": "If you cast this spell using a spell slot of 6th level or higher, you can alter the target’s memories of an event that took place up to 7 days ago (6th level), 30 days ago (7th level), 1 year ago (8th level), or any time in the creature’s past (9th level)."
+               }
+            }
+         },
+         "Moonbeam": {
+            "Label": "Moonbeam",
+            "Description": {
+               "1": {
+                  "Value": "A silvery beam of pale light shines down in a 5-foot-radius, 40-foot-high Cylinder centered on a point within range. Until the spell ends, dim light fills the cylinder."
+               },
+               "2": {
+                  "Value": "When a creature enters the spell's area for the first time on a turn or starts its turn there, it is engulfed in ghostly flames that cause searing pain, and it must make a Constitution saving throw. It takes 2d10 radiant damage on a failed save, or half as much damage on a successful one."
+               },
+               "3": {
+                  "Value": "A Shapechanger makes its saving throw with disadvantage. If it fails, it also instantly reverts to its original form and can't assume a different form until it leaves the spell's light."
+               },
+               "4": {
+                  "Value": "On each of your turns after you cast this spell, you can use an action to move the beam up to 60 feet in any direction."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d10 for each slot level above 2nd."
                }
             }
          },
@@ -8803,6 +8883,62 @@
                }
             }
          },
+         "ShootingStar": {
+            "Label": "Shooting Star",
+            "Description": {
+               "1": {
+                  "Value": "You point to the open sky, and bring your finger down in the span of 3 rounds, tracing a bright shooting star of pure energy to fall from the heavens. Choose one point you can see within range from the start of casting to the end (which must be the same point during casting). Each creature in a 10-foot radius sphere at the point of impact must make an Agility saving throw as a shooting star blazes down to smash into the area. On a failed saving throw, a creature or object struck by the star takes 5d6 damage. The damage is half arcane, and half magical bludgeoning damage. On a successful saving throw, the creature takes half damage."
+               },
+               "2": {
+                  "Value": "The area struck has debris of the shooting star (which is difficult terrain and is made of no special material). The debris sheds dim light in a 10-foot radius for 1 hour before cooling down."
+               },
+               "3": {
+                  "Value": "This spell requires line of sight to the sky, although it does not require a specific time. If the spell is cast at night, the shooting star deals the half damage as holy instead of arcane."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "When heightened to level 5, you summon an additional shooting star for every two spell levels above 3rd."
+               }
+            }
+         },
+         "ShotArray": {
+            "Label": "Shot Array",
+            "Description": {
+               "1": {
+                  "Value": "You gain one shot of the below array:"
+               },
+               "2": {
+                  "Options": {
+                     "1": "<i>Frost Shot (level 1)</i>: Your shots are infused with freezing cold. They deal 1d6 extra cold damage, and chill the target for until the start of your turn in the next round.",
+                     "2": "<i>Searing Shot (level 1)</i>: Your shots are infused with searing flame. They deal 1d6 extra fire damage. The searing shot adds +1 to your attack roll if shot at a target beyond optimal range of your weapon.",
+                     "3": "<i>Stopping Shot (level 1)</i>: If you use this shot as a held action, this deals damage normally, and reduces the creature‘s move speed to 0, and knocks them prone if they used the Dash action. On a successful Stamina saving throw, their speed is instead reduced by half.",
+                     "4": "<i>Tranquilizing Shot (level 1)</i>: Your shot are enhanced with a sleeping agent. If you strike an enemy with this hit, roll 5d8. A creature‘s hit points must be equal to or less than the remaining total for a creature to , fall unconscious for one minute. A sleeper may be awakened if taking damage or when targeted with an action (like shaking or slapping them). Undead and creatures immune to being charmed are immune to this effect. A creature may roll a Stamina saving throw to reduce the duration of sleep to one round.",
+                     "5": "<i>Venom Shot (level 1)</i>: Your arrow is enchanted with a poisonous agent. If you strike an enemy with this hit, you deal an additional 1d8 poison damage. This damage is halved on a successful Stamina saving throw.",
+                     "6": "<i>Viper Shot (level 1)</i>: Your arrow is enchanted with an anti-magic agent. If you strike an enemy with this hit, they lose 1d2 mana points. For every mana point lost, the target takes 2 points of arcane damage. This damage is halved on a successful Spirit saving throw. This is otherwise treated as mana burn (as the spell).",
+                     "7": "<i>Arcane Shot (level 2)</i>: Your shots are transformed into missiles made of pure force, dealing an additional 1d4 points of arcane damage. If the creature you successfully shoot has the benefits of a beneficial spell, it is also subjected to a 1st-level dispel magic spell. This allows you to remove 0-level spells, and must make an ability check versus a spell level of 1 or above. This dispel effect cannot dispel a spell level higher than that of Arcane Shot.",
+                     "8": "<i>Concussive Shot (level 2)</i>: Your arrows are destructively concussive. Targets hit by this shot spell must succeed on a Stamina saving throw or else take two of the following penalties until the end of their next round (the penalty is chosen by you).<ul><li>Speed is halved.</li><li>Target takes -2 to AC and Agility saving throws.</li><li>Target cannot take reactions.</li><li>Can use either an action or bonus action, and cannot make more than one attack every round.</li><li>If casting a spell, roll a d20. On an 11 or higher, the spell doesn‘t take effect until the creature‘s next turn, and the creature must use its action on said turn to complete the spell.</li></ul>",
+                     "9": "<i>Kill Shot (level 2)</i>: Your shot is unusually successful against wounded targets. If the target is bloodied, this attack is treated as a critical hit. After being affected by this critical hit, a creature cannot be affected again for 1 hour. If the hit was already a critical hit (such as by a dice roll or another ability), this shot is not expended, and you deal an extra 1d6 points of damage per spell level.",
+                     "10": "<i>Scorpid Shot (level 2)</i>: Your shot is enhanced with a venomous agent. If you strike an enemy with this shot, they are poisoned. The effect remains for one minute. On a successful Stamina saving throw, the enemy negates this effect.",
+                     "11": "<i>Wing Clip Shot (level 2)</i>: Your arrow is enchanted to strike a creature‘s hamstring or movement joint. If you strike an enemy with this hit, they take an additional 1d6 weapon damage, have their speed reduced by 10 feet, and can‘t take reactions until the start of their next turn.",
+                     "12": "<i>Black Arrow (level 3)</i>: Your shots are transformed into missiles made of unholy energy. The shot deals an additional 3d4 points of shadow damage to the target. If a creature is killed by this strike (or if most of the damage it took was shadow damage from this spell), they are animated as per the spell conjure undead (spell level 1). This raises the target from the fresh corpse. The killed creature is not raised if they are normally immune to the effect. Knowledge of this shot is typically a secret, and is usually used by the Forsaken, the Scourge, and ruthless independents.",
+                     "13": "<i>Wyvern Shot (level 3)</i>: Your arrow is enchanted with a debilitative agent. If you strike an enemy with this hit, you reduce the target‘s maximum hit points by 3d4 for one hour. This damage to hit points is halved on a successful Stamina saving throw. A creature cannot be affected by this more than once at any given hour, and when the duration ends, their maximum is restored. If a creature‘s maximum is reduced below their current hit points, the excess is treated as temporary hit points (if the maximum is restored, these temporary hit points return to be actual hit points)."
+                  }
+               }
+            },
+            "Heightened": {
+               "Options": {
+                  "1": "<i>Frost Shot and Searing Shot</i>: The extra damage increases by 1d6 for every two spell levels above 1st.",
+                  "2": "<i>Tranquilizing Shot</i>: You roll an additional 2d8 of tranquilizer per level above 1st.",
+                  "3": "<i>Venom Shot</i>: You roll an additional 1d8 poison damage per level above 1st.",
+                  "4": "<i>Viper Shot</i>: For every two spell levels above 2nd, you deal an additional 1d2 points of mana burn.",
+                  "5": "<i>Concussive Shot</i>: The duration remains for one round more per level above 2nd. At the end of the target‘s round, they are entitled another save to end the concussive effect.",
+                  "6": "<i>Arcane Shot</i>: The strike‘s damage increases by 1, and the dispel magic effect increases by 1 level per level above 2nd.",
+                  "7": "<i>Black Arrow</i>: The strike‘s damage increases by 1d4 per each two spell levels beyond 3rd. The spell level also increases by 1.",
+                  "8": "<i>Wyvern Shot</i>: You roll an additional 1d4 points per every two levels above 3rd."
+               }
+            }
+         },
          "Silence": {
             "Label": "TODO: Silence",
             "Description": "For the Duration, no sound can be created within or pass through a 20-foot-radius Sphere centered on a point you choose within range. Any creature or object entirely inside the Sphere is immune to thunder damage, and creatures are Deafened while entirely inside it. Casting a Spell that includes a verbal component is impossible there."
@@ -8885,6 +9021,31 @@
             "Heightened": {
                "1": {
                   "Value": "When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for every two slot levels above the 2nd."
+               }
+            }
+         },
+         "Starfall": {
+            "Label": "Starfall",
+            "Description": {
+               "1": {
+                  "Value": "You point to the open sky, calling down a cylinder of normal light centered on you, 60 feet wide, and 100 feet high."
+               },
+               "2": {
+                  "Value": "At the beginning of every round where you channel the spell (the first round does not count), choose any two points within the cylinder. Each creature in a 10-foot radius sphere at the point of impact must make an Agility saving throw as a shooting star blazes down to smash into the area. On a failed saving throw, a creature or object struck by the star takes 5d6 damage. The damage is half arcane, and half bludgeoning damage."
+               },
+               "3": {
+                  "Value": "On a successful saving throw, the creature takes half damage. A creature who fails the saving throw for half damage is also pushed 5 feet away from the center of the blast."
+               },
+               "4": {
+                  "Value": "This spell requires line of sight to the sky, although it does not require a specific time. If the spell is cast at night, the shooting star deals additional holy damage instead of arcane damage."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "When heightened to level 7, you can call three meteors instead of two."
+               },
+               "2": {
+                  "Value": "This increases by one meteor for every 2 spell levels beyond 7th (3 at level 7, 4 at level 9)."
                }
             }
          },
@@ -9027,6 +9188,22 @@
             "Description": {
                "1": {
                   "Value": "This spell gives the willing creature you touch the ability to see things as they actually are. For the duration, the creature has truesight, notices secret doors hidden by magic, and can see into the Ethereal Plane, all out to a range of 120 feet."
+               }
+            }
+         },
+         "TrueshotAura": {
+            "Label": "Trueshot Aura",
+            "Description": {
+               "1": {
+                  "Value": "An aura of clarity radiates from you in an aura with a 15-foot radius. Until the spell ends, the aura moves with you, centered on you. Each allied creature in the area deals 1 extra point of damage with their ranged weapon attacks."
+               },
+               "2": {
+                  "Value": "<i>Note</i>: This spell cannot affect creatures within the area of a devotion aura spell, or those under the effect of a protection from good and evil spell (or similar abjurations)."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "For each spell level above 1st, allied creatures deal 1 extra point of damage (up to 5 extra points of damage at spell level 5)."
                }
             }
          },

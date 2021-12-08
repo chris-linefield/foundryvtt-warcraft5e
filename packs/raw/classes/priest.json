@@ -852,13 +852,14 @@
                      "spells": [
                         {
                            "pack": "warcraft5e.wc5e_spells",
-                           "node": "etowZhcXCHUs2Ert",
-                           "label": "WC5E.Spells.Bless.Label"
+                           "node": "3NRJd2YuGHkNjgFF",
+                           "label": "WC5E.Spells.ShotArray.Label",
+                           "option": "all except black arrow"
                         },
                         {
                            "pack": "warcraft5e.wc5e_spells",
-                           "node": "q1Tz0ehvEIAffjsi",
-                           "label": "WC5E.Spells.HolyLight.Label"
+                           "node": "Lyw2NXDrRDGHwTYo",
+                           "label": "WC5E.Spells.TrueshotAura.Label"
                         }
                      ]
                   },
@@ -867,13 +868,13 @@
                      "spells": [
                         {
                            "pack": "warcraft5e.wc5e_spells",
-                           "node": "R4QvsF9ZhrYkbrlh",
-                           "label": "WC5E.Spells.LesserRestoration.Label"
+                           "node": "JrXDhFbm0uifGNu0",
+                           "label": "WC5E.Spells.Invisibility.Label"
                         },
                         {
                            "pack": "warcraft5e.wc5e_spells",
-                           "node": "4DIEi36fhoaGD32H",
-                           "label": "WC5E.Spells.SpiritualWeapon.Label"
+                           "node": "dYaBNVyqZFNEYaBT",
+                           "label": "WC5E.Spells.Moonbeam.Label"
                         }
                      ]
                   },
@@ -882,13 +883,13 @@
                      "spells": [
                         {
                            "pack": "warcraft5e.wc5e_spells",
-                           "node": "EoUaosqnOerrwGeV",
-                           "label": "WC5E.Spells.Haste.Label"
+                           "node": "Q61JfXegY8Qbi5hV",
+                           "label": "WC5E.Spells.RemoveCurse.Label"
                         },
                         {
                            "pack": "warcraft5e.wc5e_spells",
-                           "node": "X7e3HjqB7LgLyfBx",
-                           "label": "WC5E.Spells.Revivify.Label"
+                           "node": "2rWd0PXHzC3ugLgk",
+                           "label": "WC5E.Spells.ShootingStar.Label"
                         }
                      ]
                   },
@@ -897,13 +898,13 @@
                      "spells": [
                         {
                            "pack": "warcraft5e.wc5e_spells",
-                           "node": "i47iiZstrOY4lpwq",
-                           "label": "WC5E.Spells.DeathWard.Label"
+                           "node": "o46ZTwZMMrMME7v5",
+                           "label": "WC5E.Spells.Dominate.Label"
                         },
                         {
                            "pack": "warcraft5e.wc5e_spells",
-                           "node": "InRkVL2KNx3fVVtn",
-                           "label": "WC5E.Spells.GuardianOfFaith.Label"
+                           "node": "G8bVNj6ehd8IDdl1",
+                           "label": "WC5E.Spells.HallucinatoryTerrain.Label"
                         }
                      ]
                   },
@@ -912,13 +913,13 @@
                      "spells": [
                         {
                            "pack": "warcraft5e.wc5e_spells",
-                           "node": "dcrDkgItYQCOBSS2",
-                           "label": "WC5E.Spells.MassCureWounds.Label"
+                           "node": "9xmPkSs3dyVB3AXl",
+                           "label": "WC5E.Spells.Dream.Label"
                         },
                         {
                            "pack": "warcraft5e.wc5e_spells",
-                           "node": "G95rl3cZGvSeiE6n",
-                           "label": "WC5E.Spells.MassRevivify.Label"
+                           "node": "YpCrtQNtbh6ZXIVM",
+                           "label": "WC5E.Spells.Starfall.Label"
                         }
                      ]
                   }
