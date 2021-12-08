@@ -1,0 +1,88 @@
+{
+   "_id": "wXbK5HmDbCCFZChg",
+   "name": "Inspiration",
+   "permission": {
+      "default": 0
+   },
+   "type": "class",
+   "flags": {
+      "wc5e": {
+         "type": "rule",
+         "title": "WC5E.Rules.Mechanics.Inspiration.Label",
+         "content": [
+            {
+               "value": "WC5E.Rules.Mechanics.Inspiration.Description.1.Value"
+            },
+            {
+               "title": "WC5E.Rules.Mechanics.Inspiration.Description.2.Title",
+               "value": "WC5E.Rules.Mechanics.Inspiration.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Rules.Mechanics.Inspiration.Description.3.Value"
+            },
+            {
+               "value": "WC5E.Rules.Mechanics.Inspiration.Description.4.Value"
+            },
+            {
+               "value": "WC5E.Rules.Mechanics.Inspiration.Description.5.Value"
+            },
+            {
+               "title": "WC5E.Rules.Mechanics.Inspiration.Description.6.Title",
+               "value": "WC5E.Rules.Mechanics.Inspiration.Description.6.Value"
+            },
+            {
+               "options": [
+                  "WC5E.Rules.Mechanics.Inspiration.Description.7.Options.1",
+                  "WC5E.Rules.Mechanics.Inspiration.Description.7.Options.2",
+                  "WC5E.Rules.Mechanics.Inspiration.Description.7.Options.3"
+               ]
+            },
+            {
+               "special": true,
+               "value": "WC5E.Rules.Mechanics.Inspiration.Description.8.Value"
+            },
+            {
+               "value": "WC5E.Rules.Mechanics.Inspiration.Description.9.Value"
+            },
+            {
+               "value": "WC5E.Rules.Mechanics.Inspiration.Description.10.Value"
+            },
+            {
+               "title": "WC5E.Rules.Mechanics.Inspiration.Description.11.Title",
+               "value": "WC5E.Rules.Mechanics.Inspiration.Description.11.Value"
+            },
+            {
+               "value": "WC5E.Rules.Mechanics.Inspiration.Description.12.Value"
+            },
+            {
+               "value": "WC5E.Rules.Mechanics.Inspiration.Description.13.Value"
+            },
+            {
+               "value": "WC5E.Rules.Mechanics.Inspiration.Description.14.Value"
+            },
+            {
+               "value": "WC5E.Rules.Mechanics.Inspiration.Description.15.Value"
+            },
+            {
+               "value": "WC5E.Rules.Mechanics.Inspiration.Description.16.Value"
+            },
+            {
+               "value": "WC5E.Rules.Mechanics.Inspiration.Description.17.Value"
+            },
+            {
+               "value": "WC5E.Rules.Mechanics.Inspiration.Description.18.Value"
+            }
+         ],
+         "prev": {
+            "pack": "wc5e_rules",
+            "node": "tPwiVv4jB99YyxA6",
+            "label": "WC5E.Rules.Mechanics.StandardLanguages.Label"
+         },
+         "next": {
+            "pack": "wc5e_rules",
+            "node": "A8I9sZi7F9pfa1Xo",
+            "label": "WC5E.Rules.Mechanics.Backgrounds.Label"
+         }
+      }
+   }
+}

@@ -2,6 +2,7 @@
    "WC5E": {
       "Backgrounds": {
          "Acolyte": {
+            "Label": "Acolyte",
             "Description": {
                "1": "You are a religious devotee. Acolytes tend to live somewhat sheltered lives as priests and aides in major religions, until the call to adventure sounds. Acolytes serving in the Church of the Holy Light are most common, but there are also other faiths with established hierarchies, such as the Troll faith in the Loa."
             },
@@ -1853,6 +1854,29 @@
                   "Description": "You are the forward vanguard, decking yourself with heavy armors and a reliable shield. Protection warriors deflect and guarding their allies from attacks, and return damage with interest."
                }
             }
+         }
+      },
+      "Creature": {
+         "Dragon": {
+            "Name": "Dragon"
+         },
+         "Earthen": {
+            "Name": "Earthen"
+         },
+         "Elemental": {
+            "Name": "Elemental"
+         },
+         "Faceless": {
+            "Name": "Faceless"
+         },
+         "Ogre": {
+            "Name": "Ogre"
+         },
+         "Titan": {
+            "Name": "Titan"
+         },
+         "VoidBeing": {
+            "Name": "Void Being"
          }
       },
       "Feats": {
@@ -6204,7 +6228,7 @@
          "Orcish": "Orcish",
          "Ogre": "Ogre",
          "Pandaren": "Pandaren",
-         "ShatYar": "Shath'Yar",
+         "ShathYar": "Shath'Yar",
          "Taurahe": "Taur-ahe",
          "Titan": "Titan",
          "Troll": "Troll"
@@ -6341,6 +6365,33 @@
                   "Affiliation": "TODO"
                }
             }
+         },
+         "Forsaken": {
+            "Name": "Forsaken"
+         },
+         "Gnome": {
+            "Name": "Gnome"
+         },
+         "Goblin": {
+            "Name": "Goblin"
+         },
+         "Human": {
+            "Name": "Human"
+         },
+         "Orc": {
+            "Name": "Orc"
+         },
+         "Pandaren": {
+            "Name": "Pandaren"
+         },
+         "Tauren": {
+            "Name": "Tauren"
+         },
+         "Troll": {
+            "Name": "Troll"
+         },
+         "Worgen": {
+            "Name": "Worgen"
          }
       },
       "Rules": {
@@ -6388,6 +6439,17 @@
                   },
                   "5": {
                      "Value": "You usually gain advantage or disadvantage through the use of special abilities, actions, or spells. Inspiration can also give a character advantage. The GM can also decide that circumstances influence a roll in one direction or the other and grant advantage or impose disadvantage as a result."
+                  }
+               }
+            },
+            "Backgrounds": {
+               "Label": "Backgrounds",
+               "Description": {
+                  "1": {
+                     "Value": "The Warcraft universe has its own native twist on backgrounds. You may use any of the below backgrounds with the appropriate customization options."
+                  },
+                  "2": {
+                     "Value": "For a detailed list of available Backgrounds please consult the \"Wc5e | Backgrounds\" Compendium."
                   }
                }
             },
@@ -6519,6 +6581,72 @@
                   }
                }
             },
+            "Inspiration": {
+               "Label": "Inspiration",
+               "Description": {
+                  "1": {
+                     "Value": "Inspiration is a rule the player can use to grant them benefits for playing their character in a way that‘s true to his or her personality traits, ideal, bond, and flaw (collectively known as personality). By using inspiration, you can draw on a personality trait (compassion for the downtrodden) to give you an edge in negotiating with the Beggar Prince."
+                  },
+                  "2": {
+                     "Title": "Gaining Inspiration",
+                     "Value": "Gaining inspiration occurs when a character gives in to a flaw, reaffirms a bond, or otherwise suffers a narrative or mechanical penalty due to their personality (also known as a Setback)."
+                  },
+                  "3": {
+                     "Value": "A rogue with the flaw „I'm always in debt. I spend my ill-gotten gains on decadent luxuries faster than I bring them in‟ can invoke it when attempting to negotiate a favor. In this case, the DM may rule that the opposing character recognizes the character's flaw, and does not trust the character enough to aid them, thereby depriving them of a helpful ally and forcing them to find another one or to make due without aid."
+                  },
+                  "4": {
+                     "Value": "Any mechanical penalties must be equivalent to the benefit of inspiration, such as granting an enemy inspiration or disadvantage on a necessary skill check or saving throw."
+                  },
+                  "5": {
+                     "Value": "A character may also gain inspiration after suffering a setback (such as losing a loved one who was their bond, or betraying their ideal out of necessity or bitterness). If this occurs, a character may choose to change one of their traits, ideals, or bonds. By doing so, a character develops, and the character has another point of Inspiration (up to a maximum of 2)."
+                  },
+                  "6": {
+                     "Title": "Spending Inspiration",
+                     "Value": "When inspired, a character can gain a bonus to performing actions that fit their traits, support their ideals, or aid their bonds. A character with inspiration may spend it to gain one of the following effects:"
+                  },
+                  "7": {
+                     "Options": {
+                        "1": "Advantage to a single saving throw, ability check, or attack roll.",
+                        "2": "Roll a 1d6, and add the result to one d20 roll or your AC against one attack. You may declare this after you know the result of the attack.",
+                        "3": "Impose disadvantage to a single saving throw, ability check, or attack roll of a creature attacking you."
+                     }
+                  },
+                  "8": {
+                     "Value": "Upon hearing of the murder of his brother Muradin, King Magni Bronzebeard was inspired to forge Ashbringer, a blade he would have otherwise been unable to create."
+                  },
+                  "9": {
+                     "Value": "It was Mannoroth‘s taunt to Garrosh Hellscream that provoked him into a terrible fury, allowing him to land a blow that slew the demon king of the pit lords."
+                  },
+                  "10": {
+                     "Value": "A DM may allow spending Inspiration for a special benefit, such as temporary access to a feat (such as Infusionist) for one task or encounter, crafting an artifact, regaining a use of an ability with no remaining uses (Berserker Rage), or another appropriate effect."
+                  },
+                  "11": {
+                     "Title": "Personality",
+                     "Value": "It is always advisable to consult with the DM and other players on how your traits, ideals, bonds, and flaws synchronize with one another and your character concept, and to ensure that your character's personality is distinct enough to gain and spend inspiration reliably in situations where they are the narrative 'stars'. At the same time, it should be infrequent enough to not prove disruptive to normal gameplay (such as choosing to take a setback for inspiration)."
+                  },
+                  "12": {
+                     "Value": "If you play a mage, for example, you may choose to adopt the background of a scholarand choose the following personality."
+                  },
+                  "13": {
+                     "Value": "<i>Trait</i>: I'm used to helping out those who aren‘t as smart as I am, and I patiently explain anything and everything to others."
+                  },
+                  "14": {
+                     "Value": "<i>Ideal - Knowledge</i>: The path to power and self-improvement is through knowledge."
+                  },
+                  "15": {
+                     "Value": "<i>Bond</i>: I've been searching my whole life for the answer to a certain question."
+                  },
+                  "16": {
+                     "Value": "<i>Flaw</i>: I can‘t keep a secret to save my life, or anyone else‘s."
+                  },
+                  "17": {
+                     "Value": "The aspects of the mage's personality synchronize well. If you allow a critical secret to slip (flaw), risking an ally's career or life, you gain Inspiration, which can possibly be used to answer a question you spent your whole life studying (Bond)."
+                  },
+                  "18": {
+                     "Value": "If your ally loses their career or possibly even their life, your character is traumatized enough to warrant character development, changing your ideal from knowledge to either power (Knowledge is the path to power and domination) or friendship (depending on how you wish to handle the character‘s personality progression)."
+                  }
+               }
+            },
             "Races": {
                "Label": "Races",
                "Description": {
@@ -6556,152 +6684,58 @@
             "Resistance": {
                "Label": "Damage Resistance and Vulnerability",
                "Content": "<p>Some creatures and objects are exceedingly difficult or unusually easy to hurt with certain types of damage.</p><p>If a creature or an object has resistance to a damage type, damage of that type is halved against it. If a creature or an object has vulnerability to a damage type, damage of that type is doubled against it.</p><p>Resistance and then vulnerability are applied after all other modifiers to damage. For example, a creature has resistance to bludgeoning damage and is hit by an attack that deals 25 bludgeoning damage. The creature is also within a magical aura that reduces all damage by 5. The 25 damage is first reduced by 5 and then halved, so the creature takes 10 damage.</p><p>Multiple instances of resistance or vulnerability that affect the same damage type count as only one instance. For example, if a creature has resistance to fire damage as well as resistance to all nonmagical damage, the damage of a nonmagical fire is reduced by half against the creature, not reduced by three-quarters.</p>"
+            },
+            "StandardLanguages": {
+               "Label": "Standard Languages",
+               "Description": {
+                  "1": {
+                     "Special": "Dialects: Gutterspeech",
+                     "Value": "1: Gutterspeech is often known as the language of the forsaken, and is a dialect of Common influenced by dwarven, low common, and a hint of Thieves‘ Cant. Any creature that knows one component language of Gutterspeech can learn it with half the normal time of learning a language."
+                  },
+                  "2": {
+                     "Special": "Uncursed Eredun",
+                     "Value": "2: Demons of the Burning Legion speak the tongue of their kind, Eredun, which is a perversion of Titan using their own script. Any creature that is not also a fiend that deliberately speaks Eredun without being also bound to demons, must make a Spirit save every year (DC 15) or lose 1 point of Spirit, and shift one step towards Lawful Evil. If the character is Evil, the spirit loss remains until the character pledges themselves to the Burning Legion or a representative of them, such as by Calling them or serving them in a substantial way, in which case the attribute is restored."
+                  },
+                  "3": {
+                     "Value": "This is a Curse effect, and the Remove Curse removes this penalty forever. Characters who gain access to Eredun through special abilities (such as the warlock or demon hunter) do not suffer from this curse, although ones gained by training or by background do."
+                  },
+                  "4": {
+                     "Special": "Dialects: Darnassian, Thalassian, Nazja",
+                     "Value": "3: The elven tongue remains remarkably unchanged throughout the centuries, but many dialects have been born. Darnassian is spoken by night elves. A dialect of Darnassian is spoken by the Nightborne (known as Shalassian). Thalassian is spoken by Highborne, high elves, void elves, and blood elves. Nazja is spoken by naga. A debased sub-dialect of Nazja is Nerglish, the speech of murlocs."
+                  },
+                  "5": {
+                     "Special": "Aquan, Auran, Ignan, Terran",
+                     "Value": "4: Kalimag has four distinct dialects for the prime elementals, such as Aquan for water elementals, Auran for air elementals, Ignan for fire elementals, and Terran for earth elementals."
+                  },
+                  "6": {
+                     "Special": "Requires 1/4 the learn time for Common",
+                     "Value": "5: Low Common is often spoken by furbolgs, gnolls, kobolds, ogres, and most humanoids or giants with low Intelligence. It is also an easier language to learn, requiring only one-quarter the normal learning time."
+                  },
+                  "7": {
+                     "Value": "6: Orcish script is relatively new, and before adopting Common, they used pictograms (as Taur-ahe uses today)."
+                  },
+                  "8": {
+                     "Value": "7: The troll tongue is curiously close to Common. Knowing Common can learn Troll is one half the normal time of learning a language."
+                  }
+               },
+               "TypicalSpeakers": "Typical Speakers",
+               "Script": "Script",
+               "Fiend": "Fiend",
+               "Cursed": "Cursed"
             }
          }
       },
-      "Traits": {
-         "Adapter": {
-            "Label": "Adapter",
-            "Description": "You may always act when surprised at a combat encounter (even if you failed your Perception check to notice it). You also have <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"K4kXNTd9rJoZAHu5\">advantage</a> versus weather effects."
-         },
-         "ArcaneAffinity": {
-            "Label": "Arcane Affinity",
-            "Description": "You have increased affinity with arcane magic. You can choose one of the following two features:",
-            "Options": {
-               "1": "<i>Augment Weave</i>. You deal one additional point of arcane damage for each damage dice with your arcane spells. This applies once per spell. You may apply this to spells that do not deal arcane damage, but only once per short or long rest",
-               "2": "<i>Arcane Strike</i>. You can enhance your attacks with a blast of arcane damage. As a [strike] effect, you can add 1d6 points of arcane damage to your melee or ranged weapon attacks. For every four character levels you gain, you gain an additional dice of damage. You may choose to spend them all at once or one for each attack. You regain all spent dice at the end of a short rest",
-               "3": "<i>Energy Blast</i>. You can release a blast of arcane force as if you possessed the Mystic Blast feat (arcane damage only). You may use this blast number of times equal to your Intelligence modifier before replenishing at a long rest. This deals a number of d4 dice equal to onequarter your level (minimum 1d4)."
-            }
-         },
-         "ArcaneLegacy": {
-            "Label": "Arcane Legacy",
-            "Description": "The high elves are uniquely attuned to magic. You can choose one of the below abilities.",
-            "Options": {
-               "1": "You increase your mana pool size by 2 mana points.",
-               "2": "You add an additional cantrip to your High Magic ability, chosen from the mage spell list.",
-               "3": "You gain the Suffused Arrows talent. You may only take this if your first level is a hunter."
-            }
-         },
-         "BlessingOfTheNightwell": {
-            "Label": "Blessing of the Nightwell",
-            "Description": "You have resistance to arcane damage."
-         },
-         "BloodMagic": {
-            "Label": "Blood Magic",
-            "Description": "This acts as High Magic. While you use abilities granted by this ability, your eyes glow a pale fel green instead of High Elves‘ blue. Instead of the prestidigitation cantrip, you may choose the thaumaturgy cantrip instead, and may cast the mana burn spell instead of mute."
-         },
-         "Bravery": {
-            "Label": "Bravery",
-            "Description": "You have <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"K4kXNTd9rJoZAHu5\">advantage</a> to all saves against fear."
-         },
-         "BronzebeardCombatTraining": {
-            "Label": "Dwarven Combat Training",
-            "Description": "You have proficiency with firearms and explosives of all types, even if you do not have proficiency in engineering, and gain proficiency with light armor."
-         },
-         "BurningHeart": {
-            "Label": "Burning Heart",
-            "Description": "You know the produce flame cantrip (caster level equal to your character level). Intelligence is your spellcasting ability for it."
-         },
-         "Darkvision": {
-            "Label": "Darkvision",
-            "Description": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
-         },
-         "DraeneiCombatTraining": {
-            "Label": "Draenei Combat Training",
-            "Description": "You have proficiency with the longsword, greathammer, glaive, and the heavy crossbow."
-         },
-         "DwarvenCombatTraining": {
-            "Label": "Dwarven Combat Training",
-            "Description": "You have proficiency with the battleaxe, handaxe, light hammer, and warhammer."
-         },
-         "ElvenCombatTraining": {
-            "Label": "Elven Combat Training",
-            "Description": "You have proficiency with the longsword, longbow, rapier, and shortbow."
-         },
-         "ExtraLanguage": {
-            "Label": "Extra Language",
-            "Description": "You can speak, read and write one extra language of your choice."
-         },
-         "FelResistance": {
-            "Label": "Fel Resistance",
-            "Description": "You have <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"FuRFBklCArGIhci8\">resistance</a> to fel damage."
-         },
-         "FireLordsFavor": {
-            "Label": "Fire Lord's Favor",
-            "Description": "You have <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"FuRFBklCArGIhci8\">resistance</a> to fire damage."
-         },
-         "Gemcutting": {
-            "Label": "Gemcutting",
-            "Description": "You are proficient with artisan's tools (jewelcrafting kit)."
-         },
-         "GiftOfTheNaaru": {
-            "Label": "Gift of the Naaru",
-            "Description": "You can use your action to channel holy energy, casting the renewing light spell as if cast as a 1st level spell. This can be used once, replenishing on a short or long rest. While a creature benefits from this ability, they have a glowing blue mark above their forehead (shedding light equal to dancing lights). Your spellcasting ability modifier is Spirit or Charisma (your choice)."
-         },
-         "HeroicPresence": {
-            "Label": "Heroic Presence",
-            "Description": "You can spend 10 minutes inspiring your companions, shoring up their resolve to fight. When you do so, choose up to six friendly creatures (which can include yourself) within 30 feet of you who can see or hear you and who can understand you. Each creature can gain temporary hit points equal to your level + half your Charisma or Spirit modifier. A creature can't gain temporary hit points from this feature again until it has finished a long rest. Alternatively, you may declare use of this ability upon landing a critical hit."
-         },
-         "HighMagic": {
-            "Label": "High Magic",
-            "Description": "Magic. You know the prestidigitation cantrip and can cast it normally (caster level equal to your character level). When you reach 3rd level, you can also cast detect magic as a 1st level spell. When you reach 5th level, you can also cast the mute spell as a 2nd level spell. Intelligence is your spellcasting ability for these spells, and you use your mana pool for these abilities (even if you are not normally a spellcaster). While you use such abilities (and after using them for one hour), your eyes glow a pale blue. If you can already cast such spells (and have a sufficiently high caster level), they are always prepared for free."
-         },
-         "KeenSenses": {
-            "Label": "Keen Senses",
-            "Description": "You are proficient with the Perception skill."
-         },
-         "MaskOfTheWild": {
-            "Label": "Mask of the Wild",
-            "Description": "You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
-         },
-         "MountainBorn": {
-            "Label": "Mountain Born",
-            "Description": "You're acclimated to high altitude, including elevations above 20,000 feet. You're also naturally adapted to cold weather in the wilderness or while exploring."
-         },
-         "MysticSenses": {
-            "Label": "Mystic Senses",
-            "Description": "Whenever you make any check related to the origin of magical items, lore, or spells, you are treated as if you have Expertise in the Arcana skill."
-         },
-         "NaturalArmor": {
-            "Label": "Natural Armor",
-            "Description": "Your skin is as hardened leather in toughness. When you aren't wearing armor, your AC is 12 + your Agility modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor."
-         },
-         "NaturalHandler": {
-            "Label": "Natural Handler",
-            "Description": "You have proficiency with Animal Handling. If handling beasts that naturally live in mountains such as gryphons or mountain lions, you gain Expertise instead."
-         },
-         "NatureResistance": {
-            "Label": "Nature Resistance",
-            "Description": "You have <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"K4kXNTd9rJoZAHu5\">advantage</a> on saving throws against poisons, and have <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"FuRFBklCArGIhci8\">resistance</a> against lightning and poison damage."
-         },
-         "NightfallenMagic": {
-            "Label": "Nightfallen Magic",
-            "Description": "You know the mage hand cantrip and can cast it normally (caster level equal to your character level). When you reach 3rd level, you can also cast detect magic as a 1st level spell. When you reach 5th level, you can also cast the arcane explosion spell as a 2nd level spell. Intelligence is your spellcasting ability for these spells, and you use your mana pool for these abilities (even if you are not normally a spellcaster). While you use such abilities (and after using them for one hour), your eyes glow a light blue. If you can already cast such spells (and have a sufficiently high caster level), they are always prepared for free."
-         },
-         "Resilience": {
-            "Label": "Resilience",
-            "Description": "You have <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"K4kXNTd9rJoZAHu5\">advantage</a> against poisons and <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"FuRFBklCArGIhci8\">resistance</a> to poison damage."
-         },
-         "Shadowmeld": {
-            "Label": "Shadowmeld",
-            "Description": "When you are in dim or dark light, you gain <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"K4kXNTd9rJoZAHu5\">advantage</a> on Agility (Stealth) checks."
-         },
-         "Stalker": {
-            "Label": "Stalker",
-            "Description": "You have proficiency with the Perception and Stealth skills. If you already have proficiency with one of these skills, you gain Expertise instead."
-         },
-         "Stonecunning": {
-            "Label": "Stonecunning",
-            "Description": "Whenever you make an Intelligence (History) check or Mining checks related to stonework and minerals, you are considered both proficient and as if having Expertise in either History or Mining (choose one)."
-         },
-         "Stoneform": {
-            "Label": "Stoneform",
-            "Description": "You can focus yourself to occasionally shrug off injury. When you take damage, you can use your reaction to roll a d12. Add your Stamina modifier to the number rolled, and reduce the damage by that total. If the damage exceeds any ongoing bleed damage you take, you end the effect as well. After you use this trait, you can't use it again until you finish a short or long rest."
-         },
-         "ToolProficiency": {
-            "Label": "Tool Proficiency",
-            "Description": "You gain proficiency with one artisan's tool of your choice: smith's tools, brewer's supplies, mason's tools, or mining tools."
-         }
+      "Script": {
+         "Common": "Common",
+         "Runic": "Runic",
+         "Eredic": "Eredic",
+         "Elven": "Elven",
+         "Dwarven": "Dwarven",
+         "Ogre": "Ogre",
+         "Pandaren": "Pandaren",
+         "CorruptedRunic": "Corrupted Runic",
+         "Pictograms": "Pictograms",
+         "Zandali": "Zandali"
       },
       "SkillSheet": {
          "Category": "Category"
@@ -9074,6 +9108,150 @@
             }
          }
       },
+      "Traits": {
+         "Adapter": {
+            "Label": "Adapter",
+            "Description": "You may always act when surprised at a combat encounter (even if you failed your Perception check to notice it). You also have <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"K4kXNTd9rJoZAHu5\">advantage</a> versus weather effects."
+         },
+         "ArcaneAffinity": {
+            "Label": "Arcane Affinity",
+            "Description": "You have increased affinity with arcane magic. You can choose one of the following two features:",
+            "Options": {
+               "1": "<i>Augment Weave</i>. You deal one additional point of arcane damage for each damage dice with your arcane spells. This applies once per spell. You may apply this to spells that do not deal arcane damage, but only once per short or long rest",
+               "2": "<i>Arcane Strike</i>. You can enhance your attacks with a blast of arcane damage. As a [strike] effect, you can add 1d6 points of arcane damage to your melee or ranged weapon attacks. For every four character levels you gain, you gain an additional dice of damage. You may choose to spend them all at once or one for each attack. You regain all spent dice at the end of a short rest",
+               "3": "<i>Energy Blast</i>. You can release a blast of arcane force as if you possessed the Mystic Blast feat (arcane damage only). You may use this blast number of times equal to your Intelligence modifier before replenishing at a long rest. This deals a number of d4 dice equal to onequarter your level (minimum 1d4)."
+            }
+         },
+         "ArcaneLegacy": {
+            "Label": "Arcane Legacy",
+            "Description": "The high elves are uniquely attuned to magic. You can choose one of the below abilities.",
+            "Options": {
+               "1": "You increase your mana pool size by 2 mana points.",
+               "2": "You add an additional cantrip to your High Magic ability, chosen from the mage spell list.",
+               "3": "You gain the Suffused Arrows talent. You may only take this if your first level is a hunter."
+            }
+         },
+         "BlessingOfTheNightwell": {
+            "Label": "Blessing of the Nightwell",
+            "Description": "You have resistance to arcane damage."
+         },
+         "BloodMagic": {
+            "Label": "Blood Magic",
+            "Description": "This acts as High Magic. While you use abilities granted by this ability, your eyes glow a pale fel green instead of High Elves‘ blue. Instead of the prestidigitation cantrip, you may choose the thaumaturgy cantrip instead, and may cast the mana burn spell instead of mute."
+         },
+         "Bravery": {
+            "Label": "Bravery",
+            "Description": "You have <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"K4kXNTd9rJoZAHu5\">advantage</a> to all saves against fear."
+         },
+         "BronzebeardCombatTraining": {
+            "Label": "Dwarven Combat Training",
+            "Description": "You have proficiency with firearms and explosives of all types, even if you do not have proficiency in engineering, and gain proficiency with light armor."
+         },
+         "BurningHeart": {
+            "Label": "Burning Heart",
+            "Description": "You know the produce flame cantrip (caster level equal to your character level). Intelligence is your spellcasting ability for it."
+         },
+         "Darkvision": {
+            "Label": "Darkvision",
+            "Description": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+         },
+         "DraeneiCombatTraining": {
+            "Label": "Draenei Combat Training",
+            "Description": "You have proficiency with the longsword, greathammer, glaive, and the heavy crossbow."
+         },
+         "DwarvenCombatTraining": {
+            "Label": "Dwarven Combat Training",
+            "Description": "You have proficiency with the battleaxe, handaxe, light hammer, and warhammer."
+         },
+         "ElvenCombatTraining": {
+            "Label": "Elven Combat Training",
+            "Description": "You have proficiency with the longsword, longbow, rapier, and shortbow."
+         },
+         "ExtraLanguage": {
+            "Label": "Extra Language",
+            "Description": "You can speak, read and write one extra language of your choice."
+         },
+         "FelResistance": {
+            "Label": "Fel Resistance",
+            "Description": "You have <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"FuRFBklCArGIhci8\">resistance</a> to fel damage."
+         },
+         "FireLordsFavor": {
+            "Label": "Fire Lord's Favor",
+            "Description": "You have <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"FuRFBklCArGIhci8\">resistance</a> to fire damage."
+         },
+         "Gemcutting": {
+            "Label": "Gemcutting",
+            "Description": "You are proficient with artisan's tools (jewelcrafting kit)."
+         },
+         "GiftOfTheNaaru": {
+            "Label": "Gift of the Naaru",
+            "Description": "You can use your action to channel holy energy, casting the renewing light spell as if cast as a 1st level spell. This can be used once, replenishing on a short or long rest. While a creature benefits from this ability, they have a glowing blue mark above their forehead (shedding light equal to dancing lights). Your spellcasting ability modifier is Spirit or Charisma (your choice)."
+         },
+         "HeroicPresence": {
+            "Label": "Heroic Presence",
+            "Description": "You can spend 10 minutes inspiring your companions, shoring up their resolve to fight. When you do so, choose up to six friendly creatures (which can include yourself) within 30 feet of you who can see or hear you and who can understand you. Each creature can gain temporary hit points equal to your level + half your Charisma or Spirit modifier. A creature can't gain temporary hit points from this feature again until it has finished a long rest. Alternatively, you may declare use of this ability upon landing a critical hit."
+         },
+         "HighMagic": {
+            "Label": "High Magic",
+            "Description": "Magic. You know the prestidigitation cantrip and can cast it normally (caster level equal to your character level). When you reach 3rd level, you can also cast detect magic as a 1st level spell. When you reach 5th level, you can also cast the mute spell as a 2nd level spell. Intelligence is your spellcasting ability for these spells, and you use your mana pool for these abilities (even if you are not normally a spellcaster). While you use such abilities (and after using them for one hour), your eyes glow a pale blue. If you can already cast such spells (and have a sufficiently high caster level), they are always prepared for free."
+         },
+         "KeenSenses": {
+            "Label": "Keen Senses",
+            "Description": "You are proficient with the Perception skill."
+         },
+         "MaskOfTheWild": {
+            "Label": "Mask of the Wild",
+            "Description": "You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
+         },
+         "MountainBorn": {
+            "Label": "Mountain Born",
+            "Description": "You're acclimated to high altitude, including elevations above 20,000 feet. You're also naturally adapted to cold weather in the wilderness or while exploring."
+         },
+         "MysticSenses": {
+            "Label": "Mystic Senses",
+            "Description": "Whenever you make any check related to the origin of magical items, lore, or spells, you are treated as if you have Expertise in the Arcana skill."
+         },
+         "NaturalArmor": {
+            "Label": "Natural Armor",
+            "Description": "Your skin is as hardened leather in toughness. When you aren't wearing armor, your AC is 12 + your Agility modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor."
+         },
+         "NaturalHandler": {
+            "Label": "Natural Handler",
+            "Description": "You have proficiency with Animal Handling. If handling beasts that naturally live in mountains such as gryphons or mountain lions, you gain Expertise instead."
+         },
+         "NatureResistance": {
+            "Label": "Nature Resistance",
+            "Description": "You have <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"K4kXNTd9rJoZAHu5\">advantage</a> on saving throws against poisons, and have <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"FuRFBklCArGIhci8\">resistance</a> against lightning and poison damage."
+         },
+         "NightfallenMagic": {
+            "Label": "Nightfallen Magic",
+            "Description": "You know the mage hand cantrip and can cast it normally (caster level equal to your character level). When you reach 3rd level, you can also cast detect magic as a 1st level spell. When you reach 5th level, you can also cast the arcane explosion spell as a 2nd level spell. Intelligence is your spellcasting ability for these spells, and you use your mana pool for these abilities (even if you are not normally a spellcaster). While you use such abilities (and after using them for one hour), your eyes glow a light blue. If you can already cast such spells (and have a sufficiently high caster level), they are always prepared for free."
+         },
+         "Resilience": {
+            "Label": "Resilience",
+            "Description": "You have <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"K4kXNTd9rJoZAHu5\">advantage</a> against poisons and <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"FuRFBklCArGIhci8\">resistance</a> to poison damage."
+         },
+         "Shadowmeld": {
+            "Label": "Shadowmeld",
+            "Description": "When you are in dim or dark light, you gain <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"K4kXNTd9rJoZAHu5\">advantage</a> on Agility (Stealth) checks."
+         },
+         "Stalker": {
+            "Label": "Stalker",
+            "Description": "You have proficiency with the Perception and Stealth skills. If you already have proficiency with one of these skills, you gain Expertise instead."
+         },
+         "Stonecunning": {
+            "Label": "Stonecunning",
+            "Description": "Whenever you make an Intelligence (History) check or Mining checks related to stonework and minerals, you are considered both proficient and as if having Expertise in either History or Mining (choose one)."
+         },
+         "Stoneform": {
+            "Label": "Stoneform",
+            "Description": "You can focus yourself to occasionally shrug off injury. When you take damage, you can use your reaction to roll a d12. Add your Stamina modifier to the number rolled, and reduce the damage by that total. If the damage exceeds any ongoing bleed damage you take, you end the effect as well. After you use this trait, you can't use it again until you finish a short or long rest."
+         },
+         "ToolProficiency": {
+            "Label": "Tool Proficiency",
+            "Description": "You gain proficiency with one artisan's tool of your choice: smith's tools, brewer's supplies, mason's tools, or mining tools."
+         }
+      },
       "UI": {
          "Actions": {
             "NoToken": "You have not selected a valid token. Please select a valid token.",
@@ -9097,6 +9275,7 @@
          "Flaws": "Flaws",
          "Ideal": "Ideal",
          "Ideals": "Ideals",
+         "Language": "Language",
          "MaterialCost": "Material Cost",
          "Phrases": {
             "Skill": "skill",

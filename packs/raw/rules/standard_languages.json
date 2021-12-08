@@ -1,0 +1,283 @@
+{
+   "_id": "tPwiVv4jB99YyxA6",
+   "name": "Standard Languages",
+   "permission": {
+      "default": 0
+   },
+   "type": "class",
+   "flags": {
+      "wc5e": {
+         "type": "rule",
+         "title": "WC5E.Rules.Mechanics.StandardLanguages.Label",
+         "content": [
+            {
+               "table": {
+                  "head": [
+                     {
+                        "title": "WC5E.UI.Language"
+                     },
+                     {
+                        "title": "WC5E.Rules.Mechanics.StandardLanguages.TypicalSpeakers"
+                     },
+                     {
+                        "title": "WC5E.Rules.Mechanics.StandardLanguages.Script"
+                     },
+                     {}
+                  ],
+                  "rows": [
+                     [
+                        {
+                           "text": "WC5E.Languages.Common"
+                        },
+                        {
+                           "text": "WC5E.Race.Human.Name",
+                           "text2": "WC5E.Race.Worgen.Name"
+                        },
+                        {
+                           "text": "WC5E.Script.Common"
+                        },
+                        {
+                           "text": "WC5E.Rules.Mechanics.StandardLanguages.Description.1.Special",
+                           "sup": "1"
+                        }
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Languages.Dwarven"
+                        },
+                        {
+                           "text": "WC5E.Race.Dwarf.Name"
+                        },
+                        {
+                           "text": "WC5E.Script.Runic"
+                        }
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Languages.Draenei"
+                        },
+                        {
+                           "text": "WC5E.Race.Draenei.Name"
+                        },
+                        {
+                           "text": "WC5E.Script.Eredic"
+                        },
+                        {
+                           "text": "WC5E.Rules.Mechanics.StandardLanguages.Description.2.Special",
+                           "sup": "2"
+                        }
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Languages.Draconic"
+                        },
+                        {
+                           "text": "WC5E.Creature.Dragon.Name"
+                        },
+                        {
+                           "text": "WC5E.Script.Runic"
+                        }
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Languages.Elven",
+                           "sup": "3"
+                        },
+                        {
+                           "text": "WC5E.Race.Elf.Name"
+                        },
+                        {
+                           "text": "WC5E.Script.Elven"
+                        },
+                        {
+                           "text": "WC5E.Rules.Mechanics.StandardLanguages.Description.4.Special"
+                        }
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Languages.Eredun"
+                        },
+                        {
+                           "text": "WC5E.Rules.Mechanics.StandardLanguages.Fiend",
+                           "text2": "WC5E.Class.Warlock.Name"
+                        },
+                        {
+                           "text": "WC5E.Script.Eredic"
+                        },
+                        {
+                           "text": "WC5E.Rules.Mechanics.StandardLanguages.Cursed"
+                        }
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Languages.Gnomish"
+                        },
+                        {
+                           "text": "WC5E.Race.Gnome.Name"
+                        },
+                        {
+                           "text": "WC5E.Languages.Dwarven"
+                        }
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Languages.Goblin"
+                        },
+                        {
+                           "text": "WC5E.Race.Goblin.Name"
+                        },
+                        {
+                           "text": "WC5E.Script.Common"
+                        }
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Languages.Kalimag",
+                           "sup": "4"
+                        },
+                        {
+                           "text": "WC5E.Creature.Elemental.Name",
+                           "text2": "WC5E.Class.Shaman.Name"
+                        },
+                        {
+                           "text": "WC5E.Script.Runic"
+                        },
+                        {
+                           "text": "WC5E.Rules.Mechanics.StandardLanguages.Description.5.Special"
+                        }
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Languages.LowCommon",
+                           "sup": "5"
+                        },
+                        {},
+                        {
+                           "text": "WC5E.Script.Common"
+                        },
+                        {
+                           "text": "WC5E.Rules.Mechanics.StandardLanguages.Description.6.Special"
+                        }
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Languages.Orcish",
+                           "sup": "6"
+                        },
+                        {
+                           "text": "WC5E.Race.Orc.Name"
+                        },
+                        {
+                           "text": "WC5E.Script.Common"
+                        }
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Languages.Ogre"
+                        },
+                        {
+                           "text": "WC5E.Creature.Ogre.Name"
+                        },
+                        {
+                           "text": "WC5E.Script.Ogre"
+                        }
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Languages.Pandaren"
+                        },
+                        {
+                           "text": "WC5E.Race.Pandaren.Name"
+                        },
+                        {
+                           "text": "WC5E.Script.Pandaren"
+                        }
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Languages.ShathYar"
+                        },
+                        {
+                           "text": "WC5E.Creature.VoidBeing.Name",
+                           "text2": "WC5E.Creature.Faceless.Name"
+                        },
+                        {
+                           "text": "WC5E.Script.CorruptedRunic"
+                        }
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Languages.Taurahe"
+                        },
+                        {
+                           "text": "WC5E.Race.Tauren.Name"
+                        },
+                        {
+                           "text": "WC5E.Script.Pictograms"
+                        }
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Languages.Titan"
+                        },
+                        {
+                           "text": "WC5E.Creature.Titan.Name",
+                           "text2": "WC5E.Creature.Earthen.Name"
+                        },
+                        {
+                           "text": "WC5E.Script.Runic"
+                        }
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Languages.Troll",
+                           "sup": "7"
+                        },
+                        {
+                           "text": "WC5E.Race.Troll.Name"
+                        },
+                        {
+                           "text": "WC5E.Script.Zandali"
+                        }
+                     ]
+                  ]
+               }
+            },
+            {
+               "value": "WC5E.Rules.Mechanics.StandardLanguages.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Rules.Mechanics.StandardLanguages.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Rules.Mechanics.StandardLanguages.Description.3.Value"
+            },
+            {
+               "value": "WC5E.Rules.Mechanics.StandardLanguages.Description.4.Value"
+            },
+            {
+               "value": "WC5E.Rules.Mechanics.StandardLanguages.Description.5.Value"
+            },
+            {
+               "value": "WC5E.Rules.Mechanics.StandardLanguages.Description.6.Value"
+            },
+            {
+               "value": "WC5E.Rules.Mechanics.StandardLanguages.Description.7.Value"
+            },
+            {
+               "value": "WC5E.Rules.Mechanics.StandardLanguages.Description.8.Value"
+            }
+         ],
+         "prev": {
+            "pack": "wc5e_rules",
+            "node": "OawPTo5di1JJJlAc",
+            "label": "WC5E.Rules.Mechanics.ClassTalents.Label"
+         },
+         "next": {
+            "pack": "wc5e_rules",
+            "node": "wXbK5HmDbCCFZChg",
+            "label": "WC5E.Rules.Mechanics.Inspiration.Label"
+         }
+      }
+   }
+}
