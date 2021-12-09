@@ -1,0 +1,102 @@
+{
+   "_id": "P7lhT9AHELk1HO5z",
+   "name": "Dissonant Whispers",
+   "permission": {
+      "default": 0
+   },
+   "type": "spell",
+   "data": {
+      "source": "",
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": null,
+         "units": "inst"
+      },
+      "target": {
+         "value": 1,
+         "width": null,
+         "units": "",
+         "type": "creature"
+      },
+      "range": {
+         "value": 60,
+         "long": null,
+         "units": "ft"
+      },
+      "uses": {
+         "value": 0,
+         "max": "0",
+         "per": ""
+      },
+      "consume": {
+         "type": "",
+         "target": "",
+         "amount": null
+      },
+      "ability": "",
+      "actionType": "",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": null,
+      "damage": {
+         "parts": [
+            "3d6",
+            "psychic"
+         ],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "wis",
+         "dc": null,
+         "scaling": "spell"
+      },
+      "level": 1,
+      "school": "enc",
+      "components": {
+         "value": "",
+         "vocal": true,
+         "somatic": false,
+         "material": false,
+         "ritual": false,
+         "concentration": false
+      },
+      "materials": {
+         "value": "",
+         "consumed": false,
+         "cost": 0,
+         "supply": 0
+      },
+      "preparation": {
+         "mode": "prepared",
+         "prepared": false
+      },
+      "scaling": {
+         "mode": "none",
+         "formula": ""
+      }
+   },
+   "sort": 100001,
+   "flags": {
+      "wc5e": {
+         "type": "spell",
+         "description": [
+            {
+               "value": "WC5E.Spells.DissonantWhispers.Description.1.Value"
+            }
+         ],
+         "heightened": [
+            {
+               "value": "WC5E.Spells.DissonantWhispers.Heightened.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/control/hypnosis-mesmerism-eye.webp",
+   "effects": [
+   ]
+}

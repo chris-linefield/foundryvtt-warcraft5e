@@ -1,0 +1,32 @@
+{
+   "_id": "FWbuzWKehJuVdZPQ",
+   "name": "Channel Divinity: Devouring Plague",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 107",
+      "requirements": "Priest (Shadow) 2"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.ChannelDivinityDevouringPlague.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.ChannelDivinityDevouringPlague.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Feats.ChannelDivinityDevouringPlague.Description.3.Value"
+            }
+         ]
+      }
+   },
+   "img": "systems/dnd5e/icons/skills/shadow_19.jpg",
+   "effects": [
+   ]
+}

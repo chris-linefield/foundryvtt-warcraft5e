@@ -1,0 +1,90 @@
+{
+   "_id": "dRIBqPhFZ3m1ZTkP",
+   "name": "Channel Divinity",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 99",
+      "requirements": "Priest 2"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.ChannelDivinity.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.ChannelDivinity.Description.2.Value"
+            },
+            {
+               "title": "WC5E.Feats.ChannelDivinity.Description.3.Title",
+               "value": "WC5E.Feats.ChannelDivinity.Description.3.Value"
+            },
+            {
+               "title": "WC5E.Feats.ChannelDivinity.Description.4.Title"
+            },
+            {
+               "table": {
+                  "head": [
+                     {
+                        "title": "WC5E.Feats.ChannelDivinity.Description.5.Title"
+                     },
+                     {
+                        "title": "WC5E.Feats.ChannelDivinity.Description.5.Value"
+                     }
+                  ],
+                  "rows": [
+                     [
+                        {
+                           "value": 5
+                        },
+                        {
+                           "value": 3
+                        }
+                     ],
+                     [
+                        {
+                           "value": 8
+                        },
+                        {
+                           "value": 4
+                        }
+                     ],
+                     [
+                        {
+                           "value": 11
+                        },
+                        {
+                           "value": 5
+                        }
+                     ],
+                     [
+                        {
+                           "value": 14
+                        },
+                        {
+                           "value": 6
+                        }
+                     ],
+                     [
+                        {
+                           "value": 17
+                        },
+                        {
+                           "value": 7
+                        }
+                     ]
+                  ]
+               }
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/light/explosion-star-glow-blue-purple.webp",
+   "effects": [
+   ]
+}

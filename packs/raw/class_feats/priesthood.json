@@ -1,0 +1,26 @@
+{
+   "_id": "EUN8MjYR1F8GZ4ET",
+   "name": "Priesthood",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 98",
+      "requirements": "Priest 1"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.Priesthood.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/sundries/books/book-red-cross.webp",
+   "effects": [
+   ]
+}

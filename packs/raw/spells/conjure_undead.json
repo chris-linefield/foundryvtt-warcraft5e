@@ -1,17 +1,12 @@
 {
    "_id": "oppMIXl9H5bf8yTl",
-   "name": "Conjure Undead",
+   "name": "Animate Undead",
    "permission": {
       "default": 0
    },
    "type": "spell",
    "data": {
-      "description": {
-         "value": "WC5E.Spells.ConjureUndead.Description",
-         "chat": "",
-         "unidentified": ""
-      },
-      "source": "TODO - Spell missing",
+      "source": "",
       "activation": {
          "type": "action",
          "cost": 1,
@@ -19,17 +14,17 @@
       },
       "duration": {
          "value": 1,
-         "units": "minute"
+         "units": "hour"
       },
       "target": {
-         "value": 1,
+         "value": 0,
          "units": "",
-         "type": "creature"
+         "type": ""
       },
       "range": {
-         "value": null,
+         "value": 90,
          "long": null,
-         "units": "touch"
+         "units": "ft"
       },
       "uses": {
          "value": 0,
@@ -37,35 +32,32 @@
          "per": ""
       },
       "ability": "",
-      "actionType": "heal",
+      "actionType": "save",
       "attackBonus": 0,
       "chatFlavor": "",
       "critical": null,
       "damage": {
-         "parts": [
-            "2d4",
-            "healing"
-         ],
+         "parts": [],
          "versatile": ""
       },
       "formula": "",
       "save": {
-         "ability": "",
-         "dc": null,
-         "value": ""
+         "ability": "wis",
+         "dc": 0,
+         "scaling": "spell"
       },
-      "level": 2,
-      "school": "abj",
+      "level": 3,
+      "school": "con",
       "components": {
          "value": "",
          "vocal": true,
          "somatic": true,
          "material": false,
          "ritual": false,
-         "concentration": false
+         "concentration": true
       },
       "materials": {
-         "value": "",
+         "value": "a gilded skull worth at least 300 gp",
          "consumed": false,
          "cost": 0,
          "supply": 0
@@ -75,17 +67,30 @@
          "prepared": false
       },
       "scaling": {
-         "mode": "none",
-         "formula": ""
+         "mode": "level",
+         "formula": "1d6"
       }
    },
    "sort": 100001,
    "flags": {
       "wc5e": {
-         "type": "spell"
+         "type": "spell",
+         "description": [
+            {
+               "value": "WC5E.Spells.ConjureUndead.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Spells.ConjureUndead.Description.2.Value"
+            }
+         ],
+         "heightened": [
+            {
+               "value": "WC5E.Spells.ConjureUndead.Heightened.1.Value"
+            }
+         ]
       }
    },
-   "img": "icons/svg/stoned.svg",
+   "img": "icons/magic/death/skeleton-eye-skull-glow-orange.webp",
    "effects": [
    ]
 }

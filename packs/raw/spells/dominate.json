@@ -1,0 +1,118 @@
+{
+   "_id": "o46ZTwZMMrMME7v5",
+   "name": "Dominate",
+   "permission": {
+      "default": 0
+   },
+   "type": "spell",
+   "data": {
+      "source": "",
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": 1,
+         "units": "minute"
+      },
+      "target": {
+         "value": 1,
+         "units": "",
+         "type": "creature"
+      },
+      "range": {
+         "value": 60,
+         "long": 0,
+         "units": "ft"
+      },
+      "uses": {
+         "value": 0,
+         "max": 0,
+         "per": ""
+      },
+      "ability": "",
+      "actionType": "save",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [],
+         "versatile": "",
+         "value": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "wis",
+         "dc": 0,
+         "scaling": "spell"
+      },
+      "level": 5,
+      "school": "enc",
+      "components": {
+         "value": "",
+         "vocal": true,
+         "somatic": true,
+         "material": false,
+         "ritual": false,
+         "concentration": true
+      },
+      "materials": {
+         "value": "",
+         "consumed": false,
+         "cost": 0,
+         "supply": 0
+      },
+      "preparation": {
+         "mode": "prepared",
+         "prepared": false
+      },
+      "scaling": {
+         "mode": "level",
+         "formula": ""
+      }
+   },
+   "sort": 100001,
+   "flags": {
+      "wc5e": {
+         "type": "spell",
+         "description": [
+            {
+               "value": "WC5E.Spells.Dominate.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Spells.Dominate.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Spells.Dominate.Description.3.Value"
+            },
+            {
+               "value": "WC5E.Spells.Dominate.Description.4.Value"
+            },
+            {
+               "value": "WC5E.Spells.Dominate.Description.5.Value"
+            },
+            {
+               "value": "WC5E.Spells.Dominate.Description.6.Value"
+            },
+            {
+               "value": "WC5E.Spells.Dominate.Description.7.Value"
+            },
+            {
+               "special": true,
+               "value": "WC5E.Spells.Dominate.Description.8.Value"
+            }
+         ],
+         "heightened": [
+            {
+               "value": "WC5E.Spells.Dominate.Heightened.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "systems/dnd5e/icons/spells/air-burst-magenta-3.jpg",
+   "effects": []
+}

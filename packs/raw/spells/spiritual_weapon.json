@@ -1,0 +1,114 @@
+{
+   "_id": "4DIEi36fhoaGD32H",
+   "name": "Spiritual Weapon",
+   "type": "spell",
+   "img": "systems/dnd5e/icons/spells/enchant-magenta-2.jpg",
+   "data": {
+      "source": "",
+      "activation": {
+         "type": "bonus",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": 1,
+         "units": "minute"
+      },
+      "target": {
+         "value": 5,
+         "width": null,
+         "units": "ft",
+         "type": "square"
+      },
+      "range": {
+         "value": 60,
+         "long": 0,
+         "units": "ft"
+      },
+      "uses": {
+         "value": 0,
+         "max": "0",
+         "per": ""
+      },
+      "consume": {
+         "type": "",
+         "target": "",
+         "amount": null
+      },
+      "ability": "",
+      "actionType": "msak",
+      "attackBonus": "0",
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [
+            [
+               "floor(@item.level / 2)d8 + @mod",
+               "force"
+            ]
+         ],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "scaling": "spell",
+         "value": ""
+      },
+      "level": 2,
+      "school": "evo",
+      "components": {
+         "value": "",
+         "vocal": true,
+         "somatic": true,
+         "material": false,
+         "ritual": false,
+         "concentration": false
+      },
+      "materials": {
+         "value": "",
+         "consumed": false,
+         "cost": 0,
+         "supply": 0
+      },
+      "preparation": {
+         "mode": "prepared",
+         "prepared": false
+      },
+      "scaling": {
+         "mode": "none",
+         "formula": ""
+      }
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 100001,
+   "permission": {
+      "default": 0
+   },
+   "flags": {
+      "wc5e": {
+         "type": "spell",
+         "description": [
+            {
+               "value": "WC5E.Spells.SpiritualWeapon.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Spells.SpiritualWeapon.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Spells.SpiritualWeapon.Description.3.Value"
+            }
+         ],
+         "heightened": [
+            {
+               "value": "WC5E.Spells.SpiritualWeapon.Heightened.1.Value"
+            }
+         ]
+      }
+   }
+}

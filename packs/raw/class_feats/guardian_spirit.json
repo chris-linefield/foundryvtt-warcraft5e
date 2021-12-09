@@ -1,0 +1,26 @@
+{
+   "_id": "s6o0DWfOKaBSwVXZ",
+   "name": "Guardian Spirit",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 104",
+      "requirements": "Priest (Holy Light) 17"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.GuardianSpirit.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/holy/angel-wings-gray.webp",
+   "effects": [
+   ]
+}

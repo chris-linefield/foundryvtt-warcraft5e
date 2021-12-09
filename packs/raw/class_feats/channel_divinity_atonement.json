@@ -1,0 +1,29 @@
+{
+   "_id": "CG9N2tgvj6DJCFnq",
+   "name": "Channel Divinity: Atonement",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 102",
+      "requirements": "Priest (Discipline) 2"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.ChannelDivinityAtonement.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.ChannelDivinityAtonement.Description.2.Value"
+            }
+         ]
+      }
+   },
+   "img": "systems/dnd5e/icons/spells/link-blue-2.jpg",
+   "effects": [
+   ]
+}

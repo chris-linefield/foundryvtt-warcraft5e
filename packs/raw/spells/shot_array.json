@@ -1,0 +1,119 @@
+{
+   "_id": "3NRJd2YuGHkNjgFF",
+   "name": "Shot Array",
+   "permission": {
+      "default": 0
+   },
+   "type": "spell",
+   "data": {
+      "source": "Core Rules page 367",
+      "activation": {
+         "type": "bonus",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": 1,
+         "units": "minute"
+      },
+      "target": {
+         "value": null,
+         "units": null,
+         "type": "self"
+      },
+      "range": {
+         "value": null,
+         "long": null,
+         "units": "self"
+      },
+      "uses": {
+         "value": 0,
+         "max": 0,
+         "per": ""
+      },
+      "ability": "",
+      "actionType": "save",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": null,
+      "damage": {
+         "parts": [],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "wis",
+         "dc": 0,
+         "scaling": "spell"
+      },
+      "level": 1,
+      "school": "trs",
+      "components": {
+         "value": "",
+         "vocal": true,
+         "somatic": false,
+         "material": false,
+         "ritual": false,
+         "concentration": false
+      },
+      "materials": {
+         "value": "",
+         "consumed": false,
+         "cost": 0,
+         "supply": 0
+      },
+      "preparation": {
+         "mode": "prepared",
+         "prepared": false
+      },
+      "scaling": {
+         "mode": "level",
+         "formula": "1d6"
+      }
+   },
+   "sort": 100001,
+   "flags": {
+      "wc5e": {
+         "type": "spell",
+         "description": [
+            {
+               "value": "WC5E.Spells.ShotArray.Description.1.Value"
+            },
+            {
+               "options": [
+                  "WC5E.Spells.ShotArray.Description.2.Options.1",
+                  "WC5E.Spells.ShotArray.Description.2.Options.2",
+                  "WC5E.Spells.ShotArray.Description.2.Options.3",
+                  "WC5E.Spells.ShotArray.Description.2.Options.4",
+                  "WC5E.Spells.ShotArray.Description.2.Options.5",
+                  "WC5E.Spells.ShotArray.Description.2.Options.6",
+                  "WC5E.Spells.ShotArray.Description.2.Options.7",
+                  "WC5E.Spells.ShotArray.Description.2.Options.8",
+                  "WC5E.Spells.ShotArray.Description.2.Options.9",
+                  "WC5E.Spells.ShotArray.Description.2.Options.10",
+                  "WC5E.Spells.ShotArray.Description.2.Options.11",
+                  "WC5E.Spells.ShotArray.Description.2.Options.12",
+                  "WC5E.Spells.ShotArray.Description.2.Options.13"
+               ]
+            }
+         ],
+         "heightened": [
+            {
+               "options": [
+                  "WC5E.Spells.ShotArray.Heightened.2.Options.1",
+                  "WC5E.Spells.ShotArray.Heightened.2.Options.2",
+                  "WC5E.Spells.ShotArray.Heightened.2.Options.3",
+                  "WC5E.Spells.ShotArray.Heightened.2.Options.4",
+                  "WC5E.Spells.ShotArray.Heightened.2.Options.5",
+                  "WC5E.Spells.ShotArray.Heightened.2.Options.6",
+                  "WC5E.Spells.ShotArray.Heightened.2.Options.7",
+                  "WC5E.Spells.ShotArray.Heightened.2.Options.8"
+               ]
+            }
+         ]
+      }
+   },
+   "img": "icons/skills/ranged/arrows-flying-salvo-purple.webp",
+   "effects": [
+   ]
+}

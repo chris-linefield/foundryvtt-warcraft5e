@@ -1,0 +1,32 @@
+{
+   "_id": "2yq4uOuwNghI4af8",
+   "name": "Favor of Elune",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 105",
+      "requirements": "Priest (Moon) 1"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.FavorOfElune.Description.1.Value"
+            },
+            {
+               "options": [
+                  "WC5E.Feats.FavorOfElune.Description.2.Options.1",
+                  "WC5E.Feats.FavorOfElune.Description.2.Options.2"
+               ]
+            }
+         ]
+      }
+   },
+   "img": "icons/weapons/bows/shortbow-recurve-yellow.webp",
+   "effects": [
+   ]
+}

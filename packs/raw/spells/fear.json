@@ -1,0 +1,94 @@
+{
+   "_id": "uPBR91R2m5aOYwwh",
+   "name": "Fear",
+   "permission": {
+      "default": 0
+   },
+   "type": "spell",
+   "data": {
+      "source": "",
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": 1,
+         "units": "minute"
+      },
+      "target": {
+         "value": 30,
+         "units": "ft",
+         "type": "cone"
+      },
+      "range": {
+         "value": null,
+         "long": null,
+         "units": "self"
+      },
+      "uses": {
+         "value": 0,
+         "max": 0,
+         "per": ""
+      },
+      "ability": "",
+      "actionType": "save",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [],
+         "versatile": "",
+         "value": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "wis",
+         "dc": 0,
+         "scaling": "spell"
+      },
+      "level": 3,
+      "school": "ill",
+      "components": {
+         "value": "",
+         "vocal": true,
+         "somatic": true,
+         "material": true,
+         "ritual": false,
+         "concentration": true
+      },
+      "materials": {
+         "value": "A white feather or the heart of a hen.",
+         "consumed": false,
+         "cost": 0,
+         "supply": 0
+      },
+      "preparation": {
+         "mode": "prepared",
+         "prepared": false
+      },
+      "scaling": {
+         "mode": "none",
+         "formula": ""
+      }
+   },
+   "sort": 100001,
+   "flags": {
+      "wc5e": {
+         "type": "spell",
+         "description": [
+            {
+               "value": "WC5E.Spells.Fear.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Spells.Fear.Description.2.Value"
+            }
+         ]
+      }
+   },
+   "img": "systems/dnd5e/icons/spells/horror-eerie-2.jpg",
+   "effects": []
+}

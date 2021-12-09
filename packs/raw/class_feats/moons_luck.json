@@ -1,0 +1,35 @@
+{
+   "_id": "qXGm3vy0JAuBTCfO",
+   "name": "Moon's Luck",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 106",
+      "requirements": "Priest (Moon) 17"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.MoonsLuck.Description.1.Value"
+            },
+            {
+               "options": [
+                  "WC5E.Feats.MoonsLuck.Description.2.Options.1",
+                  "WC5E.Feats.MoonsLuck.Description.2.Options.2"
+               ]
+            },
+            {
+               "value": "WC5E.Feats.MoonsLuck.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/light/projectile-flare-blue.webp",
+   "effects": [
+   ]
+}

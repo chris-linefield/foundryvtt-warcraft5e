@@ -2,6 +2,7 @@
    "WC5E": {
       "Backgrounds": {
          "Acolyte": {
+            "Label": "Acolyte",
             "Description": {
                "1": "You are a religious devotee. Acolytes tend to live somewhat sheltered lives as priests and aides in major religions, until the call to adventure sounds. Acolytes serving in the Church of the Holy Light are most common, but there are also other faiths with established hierarchies, such as the Troll faith in the Loa."
             },
@@ -1602,7 +1603,65 @@
             }
          },
          "Priest": {
-            "Name": "Priest"
+            "Name": "Priest",
+            "Introduction": {
+               "1": "A human screams in agony as blood gushes from the wound in his chest. A night elf comes to his aid, whispering a prayer to Elune, before nocking an arrow to her bow. Moonlight breaks through the tree canopy above, as the gash in the human‘s chest heals closes. ",
+               "2": "As an orc receives arrow after arrow to the chest, he falls to the ground, motionless. Before long, a yellow-white light shines upon him, and climbs to his feet, revealing a blood elf behind, raising her staff high, bathed in a similar light.",
+               "3": "Testing the boundaries of his sanity, a forsaken taps into the power of his psyche and calls to the Forgotten Shadow, melting the mind of a fanatic bent on scourge his kin from the land."
+            },
+            "Description": "Through priests, the divine powers of the Light and Void channel into the world, mending wounds or wreaking havoc. True mastery of these forces comes through worship to greater beings, such as Elune, the Old Gods, or even the Holy Light itself. Whether devoted to the Light, or a servant of the Void Lords, a priest is an ambassador for their deity, imbued by the energies they deliver.",
+            "Blocks": {
+               "1": {
+                  "Title": "Agents of Light or Shadow",
+                  "Content": {
+                     "1": "Wielding the power of the Holy Light, priests can unleash powerful healing energies to restore their allies and undo harm. Manipulating the shadows from the Void equips a priest with devastating abilities, able to bring complete chaos, shattering the minds of their foes. Careful balance and discipline permits a priest to truly master the most absolute energies of the Universe, granting them the ability to heal through shadow, and harm through the light.",
+                     "2": "Comprehension of the light allows a priest to heal the most serious of wounds, and even undo death. The power to wield the light doesn‘t require extensive practice or study, instead relying on  the user‘s faith in their own abilities. Those who follow the ways of the Void were often once worshippers of the Light. As such, priests are among the most devout people in Azeroth.",
+                     "3": "A priest is incredibly useful in battle, no matter their discipline. Whether they heal their allies, protect them from harm altogether, or blast the minds of their enemies into submission, few are more effective than these devout followers of the Light and Shadow, especially when coupled with their influence in greater society. "
+                  }
+               },
+               "2": {
+                  "Title": "Servants and Acolytes",
+                  "Content": {
+                     "1": "Many across Azeroth practice divine magic, regardless of intermediaries, and as such many cults have formed. Servitude of the Light brings restorative healing powers, while giving oneself to the Shadow grants power over the mind, shadows and even insanity itself. A priestess of Elune taps into powers of nature and the balance of sun and moon, while a priest of death calls to the Lich King to curse his foes.",
+                     "2": "Whether good or evil, a priest will rarely abandon their cause, often fighting to the death, or sacrificing themselves in place of an ally. Finding someone as loyal as a priest is a rare thing indeed. Found all over Azeroth, a priest of the Church of the Holy Light brings healing and restorative powers in times of peace, and protection in times of war, a true advocate for good. A death priest of the Lich King or a follower of the Cult of the Forgotten Shadow manipulates the shadows to bring death and destruction to their enemies, warping their minds into madness, often serving evil purposes, though not always. A follower of Elune can serve her goddess‘s will, setting out to right wrongs or to retrieve articles of the faith.",
+                     "3": "It is not unheard of for servants of the Light to use it for evil. Since the Light responds to belief that one‘s actions are right, which makes it impossible to wield it in the knowledge that one‘s action are truly evil.",
+                     "4": "Absolute faith is crucial to harnessing the Light, which is why priests make excellent servants. Many priests that have abandoned the Light and have opted to harness darker energies retain their devotion, and while many question their motives, their faith is unwavering, and they continue to serve their deity."
+                  }
+               },
+               "3": {
+                  "Title": "Creating a Priest",
+                  "Content": {
+                     "1": "Priest of Azeroth are known as priests or clerics, depending on their domains and focus. They channel their power through their conviction, not through the direct power of their patrons. The Scarlet Crusade, for example, channel the Holy Light due to their belief in their cause, although many betray principles the Church of the Holy Light considers tenants of the faith.",
+                     "2": "As you create your priest, always remember the faith you serve and the ideals your character conveys. Decide how your character came into the service of that particular faith or cult, such as through divine intervention or through your character‘s own choosing. Are you renowned as a devout follower of your deity, a fanatic, a troublemaker? How do others of your faith perceive you?",
+                     "3": "If you have an ultimate goal, keep it in mind when you advance your character.",
+                     "4": "Priests may be of any alignment and allegiance.",
+                     "5": "Priests serve their faith--either that of the Light through the Holy priesthood, the Old Gods though the Shadow priesthood, the Lich King through the Death priesthood, taking a neutral stance between the forces of the world with Discipline priesthood, or serving the Moon goddess Elune through the universally-female Moon priesthood."
+                  }
+               }
+            },
+            "QuickBuild": "You can make a priest quickly by following these suggestions. First, Spirit should be your highest ability score, followed by Strength or Stamina. Second, choose the acolyte background. Third,  choose the light, smite, and word of radiance cantrips, along with the following 1st-level spells for your libram: inner fire, holy light (or death coil), mind blast, renewing light, sanctuary, and shield of faith.",
+            "Priesthoods": {
+               "Death": {
+                  "Title": "Death",
+                  "Description": "You follow the Lich King, gaining unholy powers from your devotion to the Dark Lord of the Dead. Death priesthoods are feared and reviled figures in civilized societies, as they are often seen as harbingers for a Scourge invasion."
+               },
+               "Discipline": {
+                  "Title": "Discipline",
+                  "Description": "You follow the tenets of balance and self-improvement, balancing the forces of Light and Shadow within you—a concept often called Chakra training. Your magics can shield allies from taking damage as well as heal their wounds. Discipline priests do not advertise themselves, but act as other priests."
+               },
+               "HolyLight": {
+                  "Title": "Holy Light",
+                  "Description": "You are a vessel of the Holy Light‘s will, a versatile healer who can reverse damage on individuals or groups and even heal from beyond the grave. Holy priests are well-adored and respected among the Alliance."
+               },
+               "Moon": {
+                  "Title": "Moon",
+                  "Description": "You are part of the ancient and well-respected sisterhood of the night-elven moon goddess Elune, and your path is of serenity, grace, and reflection. Moon priestesses favor using subtlety, the bow, and hit-and-run techniques to guard her flock, but act in accordance with the two faces of the moon."
+               },
+               "Shadow": {
+                  "Title": "Shadow",
+                  "Description": "You answered the call of the Old Gods, joining the Cult of the Forgotten Shadow, gaining powers over the eldritch mysteries and powers of the ancient changed beings. Shadow Priests use sinister shadow magic, especially sigil spells, to eradicate enemies."
+               }
+            }
          },
          "Rogue": {
             "Name": "Rogue",
@@ -1855,6 +1914,29 @@
             }
          }
       },
+      "Creature": {
+         "Dragon": {
+            "Name": "Dragon"
+         },
+         "Earthen": {
+            "Name": "Earthen"
+         },
+         "Elemental": {
+            "Name": "Elemental"
+         },
+         "Faceless": {
+            "Name": "Faceless"
+         },
+         "Ogre": {
+            "Name": "Ogre"
+         },
+         "Titan": {
+            "Name": "Titan"
+         },
+         "VoidBeing": {
+            "Name": "Void Being"
+         }
+      },
       "Feats": {
          "AbilityScoreImprovement": {
             "Label": "Ability Score Improvement",
@@ -1924,6 +2006,23 @@
                },
                "3": {
                   "Value": "Alternatively, if you use this during a short rest or when you are below one-quarter your maximum mana point pool, you are treated as if you rested for two hours instead of one. This is atop the mana you regain for the normal rest."
+               }
+            }
+         },
+         "AngelicForm": {
+            "Label": "Angelic Form",
+            "Description": {
+               "1": {
+                  "Value": "You gain the avatar form priest spell for no cost if you didn‘t already have it. Furthermore, you augment the spell in the following ways:"
+               },
+               "2": {
+                  "Options": {
+                     "1": "You can cast the spell as a reaction when reduced to 0 hit points. When this happens, the spell also restores one-quarter your full hit points and mana. If you enter the avatar form this way cast healing, restorative, and domain spells so long as the form persists.",
+                     "2": "When you cast the spell, you can dispel one magical effect on you (as if by the dispel magic spell, spell level equal to the avatar form spell)."
+                  }
+               },
+               "3": {
+                  "Value": "After the spell‘s duration ends, you return to your normal form, and are reduced to 10% of your maximum hit points. You also learn celestial, if you don‘t already know how to speak it."
                }
             }
          },
@@ -2077,6 +2176,17 @@
                }
             }
          },
+         "AttunedToTheVoid": {
+            "Label": "Attuned to the Void",
+            "Description": {
+               "1": {
+                  "Value": "You may dip your spells into the raw maddening power of the Void, coloring them permanently. Choose a number of priest spells equal to your proficiency bonus."
+               },
+               "2": {
+                  "Value": "You may scribe such spells that deal damage with other energy types as psychic or shadow spells in your spellbook. The spells act the same way, unless the DM rules it is unreasonable."
+               }
+            }
+         },
          "Augmentation": {
             "Label": "Augmentation",
             "Description": {
@@ -2146,6 +2256,14 @@
             "Description": {
                "1": {
                   "Value": "You have advantage to any check to maintain an aura, and may extend the range of any aura spell by 100%. Any effect that would normally dispel the aura instead suppresses it for 1 minute instead."
+               }
+            }
+         },
+         "AvatarOfDeath": {
+            "Label": "Avatar of Death",
+            "Description": {
+               "1": {
+                  "Value": "You have the \"Command Undead\" ability as if you were a Necromancer equal to your priest level. Also, whenever you defeat a creature using a necromancy spell, they cannot be resurrected or reincarnated so long as you have not dropped to 0 hit points since you defeated them. They can however be raised as undead."
                }
             }
          },
@@ -2424,6 +2542,61 @@
                }
             }
          },
+         "ChakraCleansing": {
+            "Label": "Chakra Cleansing",
+            "Description": {
+               "1": {
+                  "Value": "Whenever you cast a shielding spell, you may apply one of the two effects as a bonus action."
+               },
+               "2": {
+                  "Options": {
+                     "1": "You may dispel a magical effect the target suffers from. This acts as dispel magic with a spell level equal to the level of the shielding spell you cast.",
+                     "2": "You may grant additional temporary hit points equal to double the spell‘s level."
+                  }
+               }
+            }
+         },
+         "ChakraWard": {
+            "Label": "Chakra Ward",
+            "Description": {
+               "1": {
+                  "Value": "While you are wearing no armor and not wielding a shield, you take 3 less damage from all slashing, piercing, and bludgeoning damage (minimum 1)."
+               }
+            }
+         },
+         "ChannelDivinity": {
+            "Label": "Channel Divinity",
+            "Description": {
+               "1": {
+                  "Value": "You gain the ability to channel divine energy directly from your deity, using that energy to fuel magical effects. You start with two such effects: Invoke Power and an effect determined by your priesthood. Some domains grant you additional effects as you advance in levels, as noted in the domain description. When you use your Channel Divinity, you choose which effect to create. You must then finish a short or long rest to use your Channel Divinity again."
+               },
+               "2": {
+                  "Value": "Some Channel Divinity effects require saving throws. When you use such an effect from this class, the DC equals your priest spell save DC. Beginning at 6th level, you can use your Channel Divinity twice between rests, and beginning at 18th level you can use it three times between rests. When you finish a short or long rest, you regain your expended uses."
+               },
+               "3": {
+                  "Title": "Channel Divinity: Invoke Power",
+                  "Value": "As a bonus action, you present your symbol and speak a prayer to your patron power, filling you with mysterious strength. The next spell you cast within 1 minute has its mana cost reduced 2 points (minimum 0). At higher levels, the invocation further reduces the mana cost."
+               },
+               "4": {
+                  "Title": "Invoke Power Table"
+               },
+               "5": {
+                  "Title": "Priest Level",
+                  "Value": "Invocation Strength"
+               }
+            }
+         },
+         "ChannelDivinityAtonement": {
+            "Label": "Channel Divinity: Atonement",
+            "Description": {
+               "1": {
+                  "Value": "You may, as an action, use a channel divinity attempt to grant any ally within 30 ft. a polar link to your spells. Whenever you deal damage via a priest spell to a target within 30 feet of the warded ally, the warded creature regains Hit Points equal to 2 + the spell‘s level (or only 2 for a cantrip). This effect remains for one minute."
+               },
+               "2": {
+                  "Value": "This feature has no effect if the mana cost of the spell has been reduced to 0."
+               }
+            }
+         },
          "ChannelDivinityBloodWard": {
             "Label": "Channel Divinity: Blood Ward",
             "Description": {
@@ -2443,6 +2616,36 @@
                }
             }
          },
+         "ChannelDivinityDevouringPlague": {
+            "Label": "Channel Divinity: Devouring Plague",
+            "Description": {
+               "1": {
+                  "Value": "You may use an action while presenting your unholy symbol to evoke dark energy, dealing psychic damage equal to five times your priest level, halved with a Spirit saving throw. Choose any creatures within 30 feet of you, and divide the damage among them. This feature can reduce a creature to no more than half of its hit point maximum. You can‘t use this feature on undead or constructs. You regain hit points equal to the total damage you dealt."
+               },
+               "2": {
+                  "Value": "If you have at least one shadow orb before using this ability, you may choose to gain no shadow orbs from this ability‘s use for the round, and share the healing gained with them (costing one shadow orb to include one creature in the sharing)."
+               },
+               "3": {
+                  "Value": "You may reduce the amount of hit points you (and your chosen allies) can potentially gain from this ability and convert the healing energies to mana restoration. Every five hit points of healing are converted to one mana point (up to a maximum of half the healing potential). Once a creature benefits from this mana restoration, it cannot benefit again until it completes a long rest."
+               }
+            }
+         },
+         "ChannelDivinityFocusedLight": {
+            "Label": "Channel Divinity: Focused Light",
+            "Description": {
+               "1": {
+                  "Value": "You may use a channel divinity to alter the target and refresh the duration of any healing sigil spell you cast on a target. This may be used  outside your turn, possibly recovering from a dispelled sigil by shifting it to another target. This requires a spell attack as normal. This costs a reaction if used outside your turn, and a bonus action if on your turn."
+               }
+            }
+         },
+         "ChannelDivinityFocusedPsyche": {
+            "Label": "Channel Divinity: Focused Psyche",
+            "Description": {
+               "1": {
+                  "Value": "You may use a channel divinity to alter the target and refresh the duration of any damaging sigil spell you cast on a target. This may be used outside your turn, possibly recovering from a dispelled sigil by shifting it to another target. This requires a spell attack as normal. This costs a reaction if used outside your turn, and a bonus action if on your turn."
+               }
+            }
+         },
          "ChannelDivinityFreeze": {
             "Label": "Channel Divinity: Freeze",
             "Description": {
@@ -2456,6 +2659,53 @@
             "Description": {
                "1": {
                   "Value": "When you take this oath at 3rd level, you can spend a Channel Divinity use and an action, to present your holy symbol and release an outburst of the Holy Light of Creation, allowing one friendly creature within 30 feet to use a hit dice as if they rested. The ally also gains temporary hit points equal to double your Charisma modifier."
+               }
+            }
+         },
+         "ChannelDivinityMoonlightCalm": {
+            "Label": "Channel Divinity: Moonlight Calm",
+            "Description": {
+               "1": {
+                  "Value": "When you channel divinity, you may channel an aspect of Elune‘s grace to calm a creature within 30 feet of you. You may target a humanoid or beast, or a creature in another shape (such as a druid in wild shape or a shapeshifter)."
+               },
+               "2": {
+                  "Options": {
+                     "1": "If you target a beast or humanoid, the creature must succeed on a Charisma saving throw or it is charmed by you for 1 minute or until it takes damage. While it is charmed by you, it is friendly to you and other creatures you designate. If you treat them fairly, they do not revert to their original hostility after the duration ends.",
+                     "2": "If you target a Druid in their Wild Shape or a shapeshifting creature, they revert to their original shape if they fail a Charisma saving throw, and cannot shapeshift for one minute. They may repeat the saving throw at the end of their turn every round."
+                  }
+               }
+            }
+         },
+         "ChannelDivinityMoonlightWard": {
+            "Label": "Channel Divinity: Moonlight Ward",
+            "Description": {
+               "1": {
+                  "Value": "You may spend a Channel Divinity use as a bonus action and designate one ally within 30 feet as your moonlight ward. The ward remains for 1 minute. Depending on the phase of the moon, your ward has one of the following effects:"
+               },
+               "2": {
+                  "Options": {
+                     "1": "<i>Full Moon</i>: So long as the ally remains within range, you may use a bonus action to heal the target with any healing spell from the priest spell list that normally requires an action. If the spell normally costs a bonus action to cast (such as the flash of light spell), it may instead cast it as a reaction.",
+                     "2": "<i>New Moon</i>: So long as the ally within range, you can cast any spell that deals psychic or shadow damage as a bonus action so long as you target a creature who attacked your moonlit ward in the last round. If the spell normally costs a bonus action to cast (such as the flash of light spell), it may instead cost a reaction. You cannot cast sigil spells this way."
+                  }
+               },
+               "3": {
+                  "Value": "If you successfully dealt weapon damage to an enemy before using the moonlight ward, the mana cost of the spell (healing or damaging, respectively) is reduced by 1 (minimum 1). This can stack with the normal reduction for repeat-casting a spell."
+               }
+            }
+         },
+         "ChannelDivinityPenance": {
+            "Label": "Channel Divinity: Penance",
+            "Description": {
+               "1": {
+                  "Value": "You may, as an action, use channel divinity to enhance up to 3 targets within 30 ft. with Penance until the end of your turn in the next round. If a target who benefits from Penance takes damage, you can choose to grant that target resistance against any damage type you specify, and end the Penance effect for the remaining targets. If all the targets suffer damage at the same time (such as from an area of effect ability or spell), they all benefit, and the effect ends for them."
+               }
+            }
+         },
+         "ChannelDivinityRestoreLife": {
+            "Label": "Channel Divinity: Restore Life",
+            "Description": {
+               "1": {
+                  "Value": "You may use your action while presenting your holy symbol to evoke healing energy that can restore a number of hit points equal to five times your priest level. Choose any creatures within 30 feet of you, and divide those hit points among them. This feature can restore a creature to no more than half of its hit point maximum. You can‘t use this feature on a construct, but may target undead to damage by expending healing, dealing holy damage instead of healing them."
                }
             }
          },
@@ -2481,6 +2731,34 @@
                },
                "2": {
                   "Value": "You can end this effect on your turn as a bonus action. If you are no longer holding or carrying this weapon, or if you fall unconscious, this effect ends. The light is treated as a light spell of your highest-level paladin level for the purposes of dispelling darkness."
+               }
+            }
+         },
+         "ChannelDivinityTurnLiving": {
+            "Label": "Channel Divinity: Turn Living",
+            "Description": {
+               "1": {
+                  "Value": "You can, as an action, present your symbol and speak a prayer censuring the living. Each living creature that can see or hear you within 30 feet of you must make a Spirit saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage."
+               },
+               "2": {
+                  "Value": "A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action."
+               },
+               "3": {
+                  "Value": "When you reach 5th level, you can also outright destroy the living you turn with this feature. When a living creature fails its saving throw against your Turn Living feature, the creature is instantly destroyed if its challenge rating is at or below a certain threshold, as shown in the Turn Living table. It disintegrates, leaving only a pile of dust, so commands the Lich King."
+               }
+            }
+         },
+         "ChannelDivinityTurnUndead": {
+            "Label": "Channel Divinity: Turn Undead",
+            "Description": {
+               "1": {
+                  "Value": "You can, as an action, present your holy Symbol and speak a prayer censuring the Undead. Each Undead that can see or hear you within 30 feet of you must make a Spirit saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage."
+               },
+               "2": {
+                  "Value": "A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action."
+               },
+               "3": {
+                  "Value": "When you reach 5th level, you can also outright destroy undead you turn with this feature. When an undead fails its saving throw against your Turn Undead feature, the creature is instantly destroyed if its challenge rating is at or below a certain threshold, as shown in the Turn Undead table."
                }
             }
          },
@@ -2744,6 +3022,14 @@
                }
             }
          },
+         "CultistOfTheDamned": {
+            "Label": "Cultist of the Damned",
+            "Description": {
+               "1": {
+                  "Value": "You can cast any Necromancy spell as a ritual even if it doesn't have the ritual tag. "
+               }
+            }
+         },
          "CursedCarrier": {
             "Label": "Cursed Carrier",
             "Description": {
@@ -2792,6 +3078,25 @@
                },
                "2": {
                   "Value": "Furthermore, when you are under the effects of the avatar form warlock spell, you also gain resistance to all damage taken by fiends and weapons (magical or otherwise) wielded by creatures of evil alignment."
+               }
+            }
+         },
+         "DeathCanWait": {
+            "Label": "Death Can Wait",
+            "Description": {
+               "1": {
+                  "Value": "You gain advantage against all Death Saving Throws, attempts to stabilize, and saves against necromancy spell effects."
+               },
+               "2": {
+                  "Value": "You may also sacrifice yourself ritually to become a shade, gaining incorporeality (see Introduction), but becoming unable to cast spells. You gain telepathy with who sacrificed you, and may communicate with them and share what you see as an action from their part. This remains so long as you and your lord are in the same plane. The connection may be willingly transferred to another creature. The transformation is complete after one day of death, and cannot be reversed short of a wish spell or divine intervention."
+               }
+            }
+         },
+         "DeathsTouch": {
+            "Label": "Death's Touch",
+            "Description": {
+               "1": {
+                  "Value": "You may use an action to target any dying creature within 90 feet with a ranged spell attack. The creature fails one death saving throw instantly. You also have Resistance to shadow damage."
                }
             }
          },
@@ -2869,6 +3174,20 @@
                },
                "2": {
                   "Value": "When you are killed, your spirit is taken to an demiplane (see the spell) that is owned by you, where you return to life in the matter of 1d10 days, nurtured by any demonic allies you have employed, enslaved, or allied with."
+               }
+            }
+         },
+         "DesperatePrayer": {
+            "Label": "Desperate Prayer",
+            "Description": {
+               "1": {
+                  "Value": "You may rapidly recover your mana by invoking powers from beyond. You can use your action and bonus action on your turn to regain mana as if completed a short rest (or rested for one hour)."
+               },
+               "2": {
+                  "Value": "You can use this feature a number of times equal to half your proficiency bonus. You regain expended uses when you finish a long rest. While using this feature, your connection to your chosen power guards you, imposing disadvantage on attack rolls made against you, and granting you advantage to saving throws until the start of your turn in the next round."
+               },
+               "3": {
+                  "Value": "Alternatively, if you use this during a short rest or when you are below one-quarter your maximum mana point pool, you are treated as if you rested for two hours instead of one. This is atop the mana you regain for the normal rest."
                }
             }
          },
@@ -2952,6 +3271,23 @@
             "Description": {
                "1": {
                   "Value": "The divine magics flowing within you grant you immunity to diseases and advantage against poison, as well as resistance against poison damage."
+               }
+            }
+         },
+         "DivineIntervention": {
+            "Label": "Divine Intervention",
+            "Description": {
+               "1": {
+                  "Value": "You can call on your deity to intervene on your behalf when your need is great."
+               },
+               "2": {
+                  "Value": "Describe the assistance you seek, and roll percentile dice. If you roll a number equal to or lower than your priest level, your deity intervenes. The DM chooses the nature of the intervention; the effect of any priest spell or priesthood spell would be appropriate."
+               },
+               "3": {
+                  "Value": "Imploring your deity‘s aid requires you to use your action."
+               },
+               "4": {
+                  "Value": "If your deity intervenes, you can‘t use this feature again for 7 days. Otherwise, you can use it again after you finish a long rest. At 20th level, your call for intervention succeeds automatically, no roll required."
                }
             }
          },
@@ -3118,6 +3454,23 @@
                },
                "2": {
                   "Value": "Whenever you call the elemental cylinder, the dice damage is reduced by 2d6. When they reach 0d6, the storm ends prematurely (even if maintaining concentration), as the elemental spirits become calmer. Once used, this ability cannot be used again until after a long rest."
+               }
+            }
+         },
+         "ElunesGrace": {
+            "Label": "Elune's Grace",
+            "Description": {
+               "1": {
+                  "Value": "You can bless creatures with a shard of your goddess‘s grace. Depending on your chosen phase, you can grant a creature you affect by your spells one of the below blessings. Once you use the blessings three times, you cannot bless another creature until you complete a short rest. You may use multiple blessings per round (they do not require an action)."
+               },
+               "2": {
+                  "Options": {
+                     "1": "<i>Full Moon</i>: Your priest spells that restore hit points heal the maximum amount for the dice for one target.",
+                     "2": "<i>New Moon</i>: Your priest spells that deal psychic or shadow damage deal maximum damage for the dice for one target."
+                  }
+               },
+               "3": {
+                  "Value": "If you are under the effects of the avatar form priest spell, you can use the blessing two additional times before a short rest."
                }
             }
          },
@@ -3336,6 +3689,14 @@
                }
             }
          },
+         "ExtendedWards": {
+            "Label": "Extended Wards",
+            "Description": {
+               "1": {
+                  "Value": "You double the duration of any active spell that grants temporary hit points and all Power Word spells."
+               }
+            }
+         },
          "ExtensiveDesigning": {
             "Label": "Extensive Designing",
             "Description": {
@@ -3357,6 +3718,23 @@
             "Description": {
                "1": {
                   "Value": "You can attack twice, instead of once, whenever you take the Attack action on your turn. The number of attacks increases to three when you reach 11th level in this class and to four when you reach 20th level in this class."
+               }
+            }
+         },
+         "FacetsOfTheMoonGoddess": {
+            "Label": "Facets of the Moon Goddess",
+            "Description": {
+               "1": {
+                  "Value": "You become attuned to the dual faces of Elune, the goddess of the moon. Whenever the moon (or one moon of your realm) enters a new phase, you may adapt that aspect of Elune. This choice is made at the end of a long rest. This changes how some of your priesthood features act."
+               },
+               "2": {
+                  "Options": {
+                     "1": "<i>Full Moon Aspect</i>: The full moon aspect of Elune is known as the Mother Moon. It is more adept with healing and providing support, as well as ranged combat, and represents calm wisdom and righteous, precise action.",
+                     "2": "<i>New Moon</i>: The new moon aspect of Elune is known as the Night Warrior. It is more adept with melee combat, and represents the furious savagery of nature, vengeful aspects of the goddess, and her shepherding the souls of the dead to beyond the stars."
+                  }
+               },
+               "3": {
+                  "Value": "You are also always able to see the moon (or its outline, if it if you have line of sight to it, even in daylight. In the new moon phase, you can see the moon‘s outline. You cannot gain normally benefits from observing it except at night, however, when Elune‘s power waxes, unless the power specifies so."
                }
             }
          },
@@ -3425,6 +3803,20 @@
                      "4": "I put on new identities like clothes.",
                      "5": "I run sleight-of-hand cons on street corners.",
                      "6": "I convince people that worthless junk is worth their hard-earned money."
+                  }
+               }
+            }
+         },
+         "FavorOfElune": {
+            "Label": "Favor of Elune",
+            "Description": {
+               "1": {
+                  "Value": "You gain the Favored by Elune talent, and gain proficiency with all ranged projectile weapons and medium armor. You also gain a one of the following blessings, depending on the lunar phase you have chosen."
+               },
+               "2": {
+                  "Options": {
+                     "1": "<i>Full Moon Priestess</i>: You may add your spirit modifier to damage rolls with bows of all types.",
+                     "2": "<i>New Moon Priestess</i>: You may choose one fighting style (chosen from the list of the warrior class)."
                   }
                }
             }
@@ -3734,6 +4126,14 @@
                },
                "3": {
                   "Value": "Furthermore, you always count yourself as within your favored terrain for the purposes of travel (so long as you have the favored terrain talent), and whenever one of your traps harm a creature, you always treat it as if it is surprised against you, unless combat hasn‘t already started."
+               }
+            }
+         },
+         "GuardianSpirit": {
+            "Label": "Guardian Spirit",
+            "Description": {
+               "1": {
+                  "Value": "You may target any ally within 30 ft., granting them a guardian angel spirit. This spirit increases the amount of healing taken from all your priest spells by 25%, and may be sacrificed to either grant resistance against any one attack the target, or automatically stabilize the target if they are reduced to 0 hit points. This does not affect constructs or undead. This may be used once per rest."
                }
             }
          },
@@ -4123,6 +4523,17 @@
                }
             }
          },
+         "InfusedShield": {
+            "Label": "Infused Shield",
+            "Description": {
+               "1": {
+                  "Value": "Whenever you cast a healing or shielding spell, you may freely convert temporary hit points from your priest spells to actual hit points, or vice versa. A healing spell that grants temporary hit points is counted as a shielding spell, and benefits from the Chakra Cleansing and Extended Wards abilities."
+               },
+               "2": {
+                  "Value": "Furthermore, you may use your Channel Divinity: Penance ability as a reaction instead of an action."
+               }
+            }
+         },
          "Incinerate": {
             "Label": "Incinerate",
             "Description": {
@@ -4367,6 +4778,14 @@
                }
             }
          },
+         "LichKingsFavor": {
+            "Label": "Lich King's Favor",
+            "Description": {
+               "1": {
+                  "Value": "You add all necromancy spells from all spell lists to your spell list. Using necromancy spells that are not on your spell list cost 1 additional mana point."
+               }
+            }
+         },
          "LifeCocoon": {
             "Label": "Life Cocoon",
             "Description": {
@@ -4406,6 +4825,25 @@
                },
                "2": {
                   "Value": "You may also instead tear the life from living targets within 30 ft. as a reaction, stealing a number of hit points equal to ¼ their current hit points, and restoring your hit points by the same amount. The target may resist with Stamina saving throw against your Spell Save DC. This may be used once per Charisma modifier (minimum 1) before requiring a long rest."
+               }
+            }
+         },
+         "LightsEmbrace": {
+            "Label": "Light's Embrace",
+            "Description": {
+               "1": {
+                  "Value": "Your healing spells are more effective. Whenever you use a priest spell of 1st level or higher to restore hit points to a creature, the creature regains additional hit points equal to 2 + the spell‘s level. If the spell heals multiple creatures, the additional healing is added to the total, not to each creature."
+               },
+               "2": {
+                  "Value": "You may also turn fiends when you use your Channel Divinity to turn undead."
+               }
+            }
+         },
+         "LightsInsight": {
+            "Label": "Light's Insight",
+            "Description": {
+               "1": {
+                  "Value": "Whenever you cast a healing spell from the priest spell list and the dice shows the maximum possible result (such as a 6 on a d6), you may roll the maximized dice again and add the amount healed to the total. This applies to healing spells that deal damage to undead. This acts similarly to the Holy Vision ability of the holy oath. If having both features, and if the re-rolled dice results in a maximum result as well, you may roll a third time."
                }
             }
          },
@@ -4485,6 +4923,17 @@
                }
             }
          },
+         "MightOfTheMoon": {
+            "Label": "Might of the Moon",
+            "Description": {
+               "1": {
+                  "Value": "So long as you can observe the moon and are at night, you are affected by the inner fire spell (level equal to highest spell level you can access). In other conditions, the bonus provided by the spell is halved (minimum 0)."
+               },
+               "2": {
+                  "Value": "You do not require have to be outdoors to benefit from this feature. If there are multiple moons in the realm you are in, any moon suffices."
+               }
+            }
+         },
          "MightOfTheWastes": {
             "Label": "Might of the Wastes",
             "Description": {
@@ -4498,6 +4947,17 @@
             "Description": {
                "1": {
                   "Value": "You have a military rank from your career as a soldier. Soldiers loyal to your former military organization still recognize your authority and influence, and they defer to you if they are of a lower rank. You can invoke your rank to exert influence over other soldiers and requisition simple equipment or horses for temporary use. You can also usually gain access to friendly military encampments and fortresses where your rank is recognized."
+               }
+            }
+         },
+         "MindQuickening": {
+            "Label": "Mind Quickening",
+            "Description": {
+               "1": {
+                  "Value": "Your expanded mind gives you the ability to touch the minds of other creatures. You can communicate telepathically with any creature you can see within 30 feet of you. You don‘t need to share a language with the creature for it to understand your telepathic utterances, but the creature must be able to understand at least one language."
+               },
+               "2": {
+                  "Value": "You may also pronounce the verbal components of your priest spells mentally, so that only the target can hear them. This way, you cast spells in areas of silence or while muted, so long as at least one target of the spell is within 30 feet and within line of sight."
                }
             }
          },
@@ -4558,6 +5018,23 @@
                },
                "2": {
                   "Value": "When in this form or while under the effects of the avatar form spell, such spells cost 1 mana less than normal. Once you gain the Beast Spells druid feature of 18th level, you can cast spells as normal, but you still benefit from the mana cost reduction for those specific spell schools."
+               }
+            }
+         },
+         "MoonsLuck": {
+            "Label": "Moon's Luck",
+            "Description": {
+               "1": {
+                  "Value": "You gain the Lucky feat. You have a number of Luck Points equal to half of your Priest level (rounded down) in the following conditions, depending on the phase you have chosen:"
+               },
+               "2": {
+                  "Options": {
+                     "1": "<i>Full Moon</i>: When you are under direct moonlight.",
+                     "2": "<i>New Moon</i>: When you are under the new moon."
+                  }
+               },
+               "3": {
+                  "Value": "You may use Luck Points to use your Elune‘s Grace feature instead of the number of limited blessings. In other conditions to the ones specified, each Luck Point has half the benefit (requiring spending two points instead of one for a benefit of the feat)."
                }
             }
          },
@@ -4762,6 +5239,14 @@
                }
             }
          },
+         "Priesthood": {
+            "Label": "Priesthood",
+            "Description": {
+               "1": {
+                  "Value": "Choose one priesthood or domain related to your deity: Death (Lich King), Discipline (Balance), Holy (Holy Light), Moon (Elune), or Shadow (Forgotten Shadow). Each priesthood is detailed at the end of the class description. Your choice grants you domain spells and other features when you choose it at 1st level. It also grants you additional ways to use Channel Divinity when you gain that feature at 2nd level, and additional benefits at 6th, 8th, and 17th levels."
+               }
+            }
+         },
          "PrimalStrike": {
             "Label": "Primal Strike",
             "Description": {
@@ -4884,6 +5369,20 @@
             "Description": {
                "1": {
                   "Value": "When you attempt to learn or recall a piece of lore, if you do not know that information, you often know where and from whom you can obtain it. Usually, this information comes from a library, scriptorium, university, or a sage or other learned person or creature. Your DM might rule that the knowledge you seek is secreted away in an almost inaccessible place, or that it simply cannot be found. Unearthing the deepest secrets of the multiverse can require an adventure or even a whole campaign."
+               }
+            }
+         },
+         "Restitution": {
+            "Label": "Restitution",
+            "Description": {
+               "1": {
+                  "Value": "Whenever a creature benefitting from your Channel Divinity: Penance ability suffers damage; you may deflect a fraction of the damage back to the aggressor as a reaction if it is within 60 ft. If multiple targets are damaged at the same time (such as by suffering from an area of effect ability or spell), you can deflect the damage to the source, so long as it is within 60 ft."
+               },
+               "2": {
+                  "Value": "In both cases, this requires a successful ranged spell attack, and on a success, the creature damaging the warded targets take damage equal to half all the damage they dealt. This does not alter the type of damage dealt."
+               },
+               "3": {
+                  "Value": "Furthermore, if you use Channel Divinity: Penance a creature that is already a target of your Channel Divinity: Atonement, roll a d4. On a roll of 2 to 4, the Channel Divinity is not spent, and can be used again."
                }
             }
          },
@@ -5067,6 +5566,40 @@
             "Description": {
                "1": {
                   "Value": "You may initiate a shadow dance by moving more than 10 feet. While in this stance, you grant yourself concealment as per the blur spell. Also while in the stance, creatures affected or distracted by your mage spells (such as a summoned monster or an image illusion, but not the distracted condition) grant you advantage to your first attack at any round. This may be used once per short rest, and remains so long as you continue moving."
+               }
+            }
+         },
+         "ShadowForm": {
+            "Label": "Shadow Form",
+            "Description": {
+               "1": {
+                  "Value": "You gain the avatar form priest spell for no cost if you didn‘t already have it. Furthermore, you augment the spell in the following ways:"
+               },
+               "2": {
+                  "Options": {
+                     "1": "You can cast the spell as a reaction when reduced to 0 hit points. When this happens, the spell also restores one-quarter your full hit points and mana, and grants you 4 Shadow orbs. If you enter the avatar form this way, you can only cast psychic, sigil, and domain spells so long as the form persists.",
+                     "2": "When you cast the spell, you can dispel one magical effect on you (as if by the dispel magic spell, spell level equal to the avatar form spell)."
+                  }
+               },
+               "3": {
+                  "Value": "After the spell‘s duration ends, you return to your normal form, and are reduced to 10% of your maximum hit points. You also learn shath‘yar, if you don‘t already know how to speak it."
+               }
+            }
+         },
+         "ShadowOrbs": {
+            "Label": "Shadow Orbs",
+            "Description": {
+               "1": {
+                  "Value": "Whenever you successfully deal psychic damage to an enemy through a spell or ability, you gain one Shadow orb. This applies once per spell. Shadow orbs spheres may be used to empower your abilities. Shadow Orbs may be spent for the following."
+               },
+               "2": {
+                  "Options": {
+                     "1": "<i>Meld into Madness</i>: Reduce the mana cost of one priest spell you cast. The reduction in mana cost is one point per Shadow orb removed (minimum mana cost 1). For each level of madness you have, a single Shadow orb can reduce the mana cost by 0.5 points (round down).",
+                     "2": "<i>Prey on the Psyche</i>: Deal 1 additional point of psychic damage per damage dice with spells and abilities that deal psychic damage. This can be spent after rolling for damage, and applies once per spell. This does not stack with similar abilities."
+                  }
+               },
+               "3": {
+                  "Value": "You may have a maximum number of orbs equal to 2 plus your Proficiency bonus, and they remain for one hour after being acquired."
                }
             }
          },
@@ -5511,6 +6044,60 @@
                }
             }
          },
+         "SpellcastingPriest": {
+            "Label": "Spellcasting",
+            "Description": {
+               "1": {
+                  "Value": "As a practitioner of divine magic, you draw your power from the divines themselves, channeling their will through your body."
+               },
+               "2": {
+                  "Title": "Cantrips",
+                  "Value": "At 1st level, you know a number of cantrips equal to your proficiency bonus."
+               },
+               "3": {
+                  "Title": "Conjuring and Binding",
+                  "Value": "A priest can conjure and bind aberrations, beasts, celestials, elementals, fey, fiends, oozes, and undead, as well homunculi creatures (creatures with the homunculus template)."
+               },
+               "4": {
+                  "Title": "Preparing and Casting Spells",
+                  "Value": "Each priest level provides you with 1 caster level in the priest class. You follow the normal progression to unlock spell levels (see the table under the Mana section)."
+               },
+               "5": {
+                  "Value": "You prepare the list of priest spells that are available for you to cast, choosing from the priest spell list."
+               },
+               "6": {
+                  "Value": "You can also change your list of prepared spells by consulting your libram (treat as a spellbook) after a long rest. Preparing a new list of priest spells requires time spent in study: at least 1 minute per spell level for each spell on your list."
+               },
+               "7": {
+                  "Title": "Spellcasting Ability",
+                  "Value": "Spirit is your spellcasting ability for your priest spells, since you learn your priest spells through dedication to a higher force."
+               },
+               "8": {
+                  "Value": "You use your Spirit whenever a spell refers to your spellcasting ability. In addition, you use your Spirit modifier when setting the saving throw DC for a priest spell you cast and when making an attack roll with one."
+               },
+               "9": {
+                  "Value": "<strong>Spell save DC</strong> = 8 + your proficiency bonus + your Spirit modifier<br><strong>Spell attack modifier</strong> = your proficiency bonus + your Spirit modifier"
+               },
+               "10": {
+                  "Title": "Priesthood Spells",
+                  "Value": "Each priesthood has a list of spells—its priesthood spells—that you gain at the priest levels noted in the priesthood description. Once you gain a priesthood spell, you always have it prepared, and it doesn‘t count against the number of spells you can prepare each day."
+               },
+               "11": {
+                  "Value": "If you have a priesthood spell that doesn‘t appear on the priest spell list, the spell is nonetheless a priest spell for you."
+               },
+               "12": {
+                  "Title": "Spellbook - Libram",
+                  "Value": "At 1st level, your libram contains six 1st-level priest spells of your choice. When you level up, you gain 2 additional priest spells of your choice. You may also acquire new spells by research, tutelage, or from the spellbooks and scrolls of spellcasters who have spells you can cast."
+               },
+               "13": {
+                  "Value": "Your libram is effectively your spellbook, and you may add spells by scribing in your insights regarding the secrets of the powers you serve."
+               },
+               "14": {
+                  "Title": "Spellcasting Focus",
+                  "Value": "You can use your holy symbol as a spellcasting focus for your priest spells."
+               }
+            }
+         },
          "SpellcastingShaman": {
             "Label": "Spellcasting",
             "Description": {
@@ -5922,6 +6509,17 @@
                }
             }
          },
+         "VampiricEmbrace": {
+            "Label": "Vampiric Embrace",
+            "Description": {
+               "1": {
+                  "Value": "Whenever you deal damage with a damaging sigil or psychic effect, you may can count one-quarter the damage dealt and grant it as healing to allies within 30 feet of the target, dividing the healing evenly. You may instead divide the damage by ten, and grant it as mana restoration to the same number of targets."
+               },
+               "2": {
+                  "Value": "Unlike normal mana restoration effects, this can benefit a target up to three times before it cannot be used again for an hour, although you cannot restore more mana to yourself than the cost of the spell you used."
+               }
+            }
+         },
          "Vanguard": {
             "Label": "Vanguard",
             "Description": {
@@ -6204,7 +6802,7 @@
          "Orcish": "Orcish",
          "Ogre": "Ogre",
          "Pandaren": "Pandaren",
-         "ShatYar": "Shath'Yar",
+         "ShathYar": "Shath'Yar",
          "Taurahe": "Taur-ahe",
          "Titan": "Titan",
          "Troll": "Troll"
@@ -6341,6 +6939,33 @@
                   "Affiliation": "TODO"
                }
             }
+         },
+         "Forsaken": {
+            "Name": "Forsaken"
+         },
+         "Gnome": {
+            "Name": "Gnome"
+         },
+         "Goblin": {
+            "Name": "Goblin"
+         },
+         "Human": {
+            "Name": "Human"
+         },
+         "Orc": {
+            "Name": "Orc"
+         },
+         "Pandaren": {
+            "Name": "Pandaren"
+         },
+         "Tauren": {
+            "Name": "Tauren"
+         },
+         "Troll": {
+            "Name": "Troll"
+         },
+         "Worgen": {
+            "Name": "Worgen"
          }
       },
       "Rules": {
@@ -6388,6 +7013,17 @@
                   },
                   "5": {
                      "Value": "You usually gain advantage or disadvantage through the use of special abilities, actions, or spells. Inspiration can also give a character advantage. The GM can also decide that circumstances influence a roll in one direction or the other and grant advantage or impose disadvantage as a result."
+                  }
+               }
+            },
+            "Backgrounds": {
+               "Label": "Backgrounds",
+               "Description": {
+                  "1": {
+                     "Value": "The Warcraft universe has its own native twist on backgrounds. You may use any of the below backgrounds with the appropriate customization options."
+                  },
+                  "2": {
+                     "Value": "For a detailed list of available Backgrounds please consult the \"Wc5e | Backgrounds\" Compendium."
                   }
                }
             },
@@ -6519,6 +7155,72 @@
                   }
                }
             },
+            "Inspiration": {
+               "Label": "Inspiration",
+               "Description": {
+                  "1": {
+                     "Value": "Inspiration is a rule the player can use to grant them benefits for playing their character in a way that‘s true to his or her personality traits, ideal, bond, and flaw (collectively known as personality). By using inspiration, you can draw on a personality trait (compassion for the downtrodden) to give you an edge in negotiating with the Beggar Prince."
+                  },
+                  "2": {
+                     "Title": "Gaining Inspiration",
+                     "Value": "Gaining inspiration occurs when a character gives in to a flaw, reaffirms a bond, or otherwise suffers a narrative or mechanical penalty due to their personality (also known as a Setback)."
+                  },
+                  "3": {
+                     "Value": "A rogue with the flaw „I'm always in debt. I spend my ill-gotten gains on decadent luxuries faster than I bring them in‟ can invoke it when attempting to negotiate a favor. In this case, the DM may rule that the opposing character recognizes the character's flaw, and does not trust the character enough to aid them, thereby depriving them of a helpful ally and forcing them to find another one or to make due without aid."
+                  },
+                  "4": {
+                     "Value": "Any mechanical penalties must be equivalent to the benefit of inspiration, such as granting an enemy inspiration or disadvantage on a necessary skill check or saving throw."
+                  },
+                  "5": {
+                     "Value": "A character may also gain inspiration after suffering a setback (such as losing a loved one who was their bond, or betraying their ideal out of necessity or bitterness). If this occurs, a character may choose to change one of their traits, ideals, or bonds. By doing so, a character develops, and the character has another point of Inspiration (up to a maximum of 2)."
+                  },
+                  "6": {
+                     "Title": "Spending Inspiration",
+                     "Value": "When inspired, a character can gain a bonus to performing actions that fit their traits, support their ideals, or aid their bonds. A character with inspiration may spend it to gain one of the following effects:"
+                  },
+                  "7": {
+                     "Options": {
+                        "1": "Advantage to a single saving throw, ability check, or attack roll.",
+                        "2": "Roll a 1d6, and add the result to one d20 roll or your AC against one attack. You may declare this after you know the result of the attack.",
+                        "3": "Impose disadvantage to a single saving throw, ability check, or attack roll of a creature attacking you."
+                     }
+                  },
+                  "8": {
+                     "Value": "Upon hearing of the murder of his brother Muradin, King Magni Bronzebeard was inspired to forge Ashbringer, a blade he would have otherwise been unable to create."
+                  },
+                  "9": {
+                     "Value": "It was Mannoroth‘s taunt to Garrosh Hellscream that provoked him into a terrible fury, allowing him to land a blow that slew the demon king of the pit lords."
+                  },
+                  "10": {
+                     "Value": "A DM may allow spending Inspiration for a special benefit, such as temporary access to a feat (such as Infusionist) for one task or encounter, crafting an artifact, regaining a use of an ability with no remaining uses (Berserker Rage), or another appropriate effect."
+                  },
+                  "11": {
+                     "Title": "Personality",
+                     "Value": "It is always advisable to consult with the DM and other players on how your traits, ideals, bonds, and flaws synchronize with one another and your character concept, and to ensure that your character's personality is distinct enough to gain and spend inspiration reliably in situations where they are the narrative 'stars'. At the same time, it should be infrequent enough to not prove disruptive to normal gameplay (such as choosing to take a setback for inspiration)."
+                  },
+                  "12": {
+                     "Value": "If you play a mage, for example, you may choose to adopt the background of a scholarand choose the following personality."
+                  },
+                  "13": {
+                     "Value": "<i>Trait</i>: I'm used to helping out those who aren‘t as smart as I am, and I patiently explain anything and everything to others."
+                  },
+                  "14": {
+                     "Value": "<i>Ideal - Knowledge</i>: The path to power and self-improvement is through knowledge."
+                  },
+                  "15": {
+                     "Value": "<i>Bond</i>: I've been searching my whole life for the answer to a certain question."
+                  },
+                  "16": {
+                     "Value": "<i>Flaw</i>: I can‘t keep a secret to save my life, or anyone else‘s."
+                  },
+                  "17": {
+                     "Value": "The aspects of the mage's personality synchronize well. If you allow a critical secret to slip (flaw), risking an ally's career or life, you gain Inspiration, which can possibly be used to answer a question you spent your whole life studying (Bond)."
+                  },
+                  "18": {
+                     "Value": "If your ally loses their career or possibly even their life, your character is traumatized enough to warrant character development, changing your ideal from knowledge to either power (Knowledge is the path to power and domination) or friendship (depending on how you wish to handle the character‘s personality progression)."
+                  }
+               }
+            },
             "Races": {
                "Label": "Races",
                "Description": {
@@ -6556,152 +7258,58 @@
             "Resistance": {
                "Label": "Damage Resistance and Vulnerability",
                "Content": "<p>Some creatures and objects are exceedingly difficult or unusually easy to hurt with certain types of damage.</p><p>If a creature or an object has resistance to a damage type, damage of that type is halved against it. If a creature or an object has vulnerability to a damage type, damage of that type is doubled against it.</p><p>Resistance and then vulnerability are applied after all other modifiers to damage. For example, a creature has resistance to bludgeoning damage and is hit by an attack that deals 25 bludgeoning damage. The creature is also within a magical aura that reduces all damage by 5. The 25 damage is first reduced by 5 and then halved, so the creature takes 10 damage.</p><p>Multiple instances of resistance or vulnerability that affect the same damage type count as only one instance. For example, if a creature has resistance to fire damage as well as resistance to all nonmagical damage, the damage of a nonmagical fire is reduced by half against the creature, not reduced by three-quarters.</p>"
+            },
+            "StandardLanguages": {
+               "Label": "Standard Languages",
+               "Description": {
+                  "1": {
+                     "Special": "Dialects: Gutterspeech",
+                     "Value": "1: Gutterspeech is often known as the language of the forsaken, and is a dialect of Common influenced by dwarven, low common, and a hint of Thieves‘ Cant. Any creature that knows one component language of Gutterspeech can learn it with half the normal time of learning a language."
+                  },
+                  "2": {
+                     "Special": "Uncursed Eredun",
+                     "Value": "2: Demons of the Burning Legion speak the tongue of their kind, Eredun, which is a perversion of Titan using their own script. Any creature that is not also a fiend that deliberately speaks Eredun without being also bound to demons, must make a Spirit save every year (DC 15) or lose 1 point of Spirit, and shift one step towards Lawful Evil. If the character is Evil, the spirit loss remains until the character pledges themselves to the Burning Legion or a representative of them, such as by Calling them or serving them in a substantial way, in which case the attribute is restored."
+                  },
+                  "3": {
+                     "Value": "This is a Curse effect, and the Remove Curse removes this penalty forever. Characters who gain access to Eredun through special abilities (such as the warlock or demon hunter) do not suffer from this curse, although ones gained by training or by background do."
+                  },
+                  "4": {
+                     "Special": "Dialects: Darnassian, Thalassian, Nazja",
+                     "Value": "3: The elven tongue remains remarkably unchanged throughout the centuries, but many dialects have been born. Darnassian is spoken by night elves. A dialect of Darnassian is spoken by the Nightborne (known as Shalassian). Thalassian is spoken by Highborne, high elves, void elves, and blood elves. Nazja is spoken by naga. A debased sub-dialect of Nazja is Nerglish, the speech of murlocs."
+                  },
+                  "5": {
+                     "Special": "Aquan, Auran, Ignan, Terran",
+                     "Value": "4: Kalimag has four distinct dialects for the prime elementals, such as Aquan for water elementals, Auran for air elementals, Ignan for fire elementals, and Terran for earth elementals."
+                  },
+                  "6": {
+                     "Special": "Requires 1/4 the learn time for Common",
+                     "Value": "5: Low Common is often spoken by furbolgs, gnolls, kobolds, ogres, and most humanoids or giants with low Intelligence. It is also an easier language to learn, requiring only one-quarter the normal learning time."
+                  },
+                  "7": {
+                     "Value": "6: Orcish script is relatively new, and before adopting Common, they used pictograms (as Taur-ahe uses today)."
+                  },
+                  "8": {
+                     "Value": "7: The troll tongue is curiously close to Common. Knowing Common can learn Troll is one half the normal time of learning a language."
+                  }
+               },
+               "TypicalSpeakers": "Typical Speakers",
+               "Script": "Script",
+               "Fiend": "Fiend",
+               "Cursed": "Cursed"
             }
          }
       },
-      "Traits": {
-         "Adapter": {
-            "Label": "Adapter",
-            "Description": "You may always act when surprised at a combat encounter (even if you failed your Perception check to notice it). You also have <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"K4kXNTd9rJoZAHu5\">advantage</a> versus weather effects."
-         },
-         "ArcaneAffinity": {
-            "Label": "Arcane Affinity",
-            "Description": "You have increased affinity with arcane magic. You can choose one of the following two features:",
-            "Options": {
-               "1": "<i>Augment Weave</i>. You deal one additional point of arcane damage for each damage dice with your arcane spells. This applies once per spell. You may apply this to spells that do not deal arcane damage, but only once per short or long rest",
-               "2": "<i>Arcane Strike</i>. You can enhance your attacks with a blast of arcane damage. As a [strike] effect, you can add 1d6 points of arcane damage to your melee or ranged weapon attacks. For every four character levels you gain, you gain an additional dice of damage. You may choose to spend them all at once or one for each attack. You regain all spent dice at the end of a short rest",
-               "3": "<i>Energy Blast</i>. You can release a blast of arcane force as if you possessed the Mystic Blast feat (arcane damage only). You may use this blast number of times equal to your Intelligence modifier before replenishing at a long rest. This deals a number of d4 dice equal to onequarter your level (minimum 1d4)."
-            }
-         },
-         "ArcaneLegacy": {
-            "Label": "Arcane Legacy",
-            "Description": "The high elves are uniquely attuned to magic. You can choose one of the below abilities.",
-            "Options": {
-               "1": "You increase your mana pool size by 2 mana points.",
-               "2": "You add an additional cantrip to your High Magic ability, chosen from the mage spell list.",
-               "3": "You gain the Suffused Arrows talent. You may only take this if your first level is a hunter."
-            }
-         },
-         "BlessingOfTheNightwell": {
-            "Label": "Blessing of the Nightwell",
-            "Description": "You have resistance to arcane damage."
-         },
-         "BloodMagic": {
-            "Label": "Blood Magic",
-            "Description": "This acts as High Magic. While you use abilities granted by this ability, your eyes glow a pale fel green instead of High Elves‘ blue. Instead of the prestidigitation cantrip, you may choose the thaumaturgy cantrip instead, and may cast the mana burn spell instead of mute."
-         },
-         "Bravery": {
-            "Label": "Bravery",
-            "Description": "You have <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"K4kXNTd9rJoZAHu5\">advantage</a> to all saves against fear."
-         },
-         "BronzebeardCombatTraining": {
-            "Label": "Dwarven Combat Training",
-            "Description": "You have proficiency with firearms and explosives of all types, even if you do not have proficiency in engineering, and gain proficiency with light armor."
-         },
-         "BurningHeart": {
-            "Label": "Burning Heart",
-            "Description": "You know the produce flame cantrip (caster level equal to your character level). Intelligence is your spellcasting ability for it."
-         },
-         "Darkvision": {
-            "Label": "Darkvision",
-            "Description": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
-         },
-         "DraeneiCombatTraining": {
-            "Label": "Draenei Combat Training",
-            "Description": "You have proficiency with the longsword, greathammer, glaive, and the heavy crossbow."
-         },
-         "DwarvenCombatTraining": {
-            "Label": "Dwarven Combat Training",
-            "Description": "You have proficiency with the battleaxe, handaxe, light hammer, and warhammer."
-         },
-         "ElvenCombatTraining": {
-            "Label": "Elven Combat Training",
-            "Description": "You have proficiency with the longsword, longbow, rapier, and shortbow."
-         },
-         "ExtraLanguage": {
-            "Label": "Extra Language",
-            "Description": "You can speak, read and write one extra language of your choice."
-         },
-         "FelResistance": {
-            "Label": "Fel Resistance",
-            "Description": "You have <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"FuRFBklCArGIhci8\">resistance</a> to fel damage."
-         },
-         "FireLordsFavor": {
-            "Label": "Fire Lord's Favor",
-            "Description": "You have <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"FuRFBklCArGIhci8\">resistance</a> to fire damage."
-         },
-         "Gemcutting": {
-            "Label": "Gemcutting",
-            "Description": "You are proficient with artisan's tools (jewelcrafting kit)."
-         },
-         "GiftOfTheNaaru": {
-            "Label": "Gift of the Naaru",
-            "Description": "You can use your action to channel holy energy, casting the renewing light spell as if cast as a 1st level spell. This can be used once, replenishing on a short or long rest. While a creature benefits from this ability, they have a glowing blue mark above their forehead (shedding light equal to dancing lights). Your spellcasting ability modifier is Spirit or Charisma (your choice)."
-         },
-         "HeroicPresence": {
-            "Label": "Heroic Presence",
-            "Description": "You can spend 10 minutes inspiring your companions, shoring up their resolve to fight. When you do so, choose up to six friendly creatures (which can include yourself) within 30 feet of you who can see or hear you and who can understand you. Each creature can gain temporary hit points equal to your level + half your Charisma or Spirit modifier. A creature can't gain temporary hit points from this feature again until it has finished a long rest. Alternatively, you may declare use of this ability upon landing a critical hit."
-         },
-         "HighMagic": {
-            "Label": "High Magic",
-            "Description": "Magic. You know the prestidigitation cantrip and can cast it normally (caster level equal to your character level). When you reach 3rd level, you can also cast detect magic as a 1st level spell. When you reach 5th level, you can also cast the mute spell as a 2nd level spell. Intelligence is your spellcasting ability for these spells, and you use your mana pool for these abilities (even if you are not normally a spellcaster). While you use such abilities (and after using them for one hour), your eyes glow a pale blue. If you can already cast such spells (and have a sufficiently high caster level), they are always prepared for free."
-         },
-         "KeenSenses": {
-            "Label": "Keen Senses",
-            "Description": "You are proficient with the Perception skill."
-         },
-         "MaskOfTheWild": {
-            "Label": "Mask of the Wild",
-            "Description": "You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
-         },
-         "MountainBorn": {
-            "Label": "Mountain Born",
-            "Description": "You're acclimated to high altitude, including elevations above 20,000 feet. You're also naturally adapted to cold weather in the wilderness or while exploring."
-         },
-         "MysticSenses": {
-            "Label": "Mystic Senses",
-            "Description": "Whenever you make any check related to the origin of magical items, lore, or spells, you are treated as if you have Expertise in the Arcana skill."
-         },
-         "NaturalArmor": {
-            "Label": "Natural Armor",
-            "Description": "Your skin is as hardened leather in toughness. When you aren't wearing armor, your AC is 12 + your Agility modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor."
-         },
-         "NaturalHandler": {
-            "Label": "Natural Handler",
-            "Description": "You have proficiency with Animal Handling. If handling beasts that naturally live in mountains such as gryphons or mountain lions, you gain Expertise instead."
-         },
-         "NatureResistance": {
-            "Label": "Nature Resistance",
-            "Description": "You have <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"K4kXNTd9rJoZAHu5\">advantage</a> on saving throws against poisons, and have <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"FuRFBklCArGIhci8\">resistance</a> against lightning and poison damage."
-         },
-         "NightfallenMagic": {
-            "Label": "Nightfallen Magic",
-            "Description": "You know the mage hand cantrip and can cast it normally (caster level equal to your character level). When you reach 3rd level, you can also cast detect magic as a 1st level spell. When you reach 5th level, you can also cast the arcane explosion spell as a 2nd level spell. Intelligence is your spellcasting ability for these spells, and you use your mana pool for these abilities (even if you are not normally a spellcaster). While you use such abilities (and after using them for one hour), your eyes glow a light blue. If you can already cast such spells (and have a sufficiently high caster level), they are always prepared for free."
-         },
-         "Resilience": {
-            "Label": "Resilience",
-            "Description": "You have <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"K4kXNTd9rJoZAHu5\">advantage</a> against poisons and <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"FuRFBklCArGIhci8\">resistance</a> to poison damage."
-         },
-         "Shadowmeld": {
-            "Label": "Shadowmeld",
-            "Description": "When you are in dim or dark light, you gain <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"K4kXNTd9rJoZAHu5\">advantage</a> on Agility (Stealth) checks."
-         },
-         "Stalker": {
-            "Label": "Stalker",
-            "Description": "You have proficiency with the Perception and Stealth skills. If you already have proficiency with one of these skills, you gain Expertise instead."
-         },
-         "Stonecunning": {
-            "Label": "Stonecunning",
-            "Description": "Whenever you make an Intelligence (History) check or Mining checks related to stonework and minerals, you are considered both proficient and as if having Expertise in either History or Mining (choose one)."
-         },
-         "Stoneform": {
-            "Label": "Stoneform",
-            "Description": "You can focus yourself to occasionally shrug off injury. When you take damage, you can use your reaction to roll a d12. Add your Stamina modifier to the number rolled, and reduce the damage by that total. If the damage exceeds any ongoing bleed damage you take, you end the effect as well. After you use this trait, you can't use it again until you finish a short or long rest."
-         },
-         "ToolProficiency": {
-            "Label": "Tool Proficiency",
-            "Description": "You gain proficiency with one artisan's tool of your choice: smith's tools, brewer's supplies, mason's tools, or mining tools."
-         }
+      "Script": {
+         "Common": "Common",
+         "Runic": "Runic",
+         "Eredic": "Eredic",
+         "Elven": "Elven",
+         "Dwarven": "Dwarven",
+         "Ogre": "Ogre",
+         "Pandaren": "Pandaren",
+         "CorruptedRunic": "Corrupted Runic",
+         "Pictograms": "Pictograms",
+         "Zandali": "Zandali"
       },
       "SkillSheet": {
          "Category": "Category"
@@ -6750,6 +7358,19 @@
             "Heightened": {
                "1": {
                   "Value": "When you cast this spell using a spell slot of 2nd level or higher, the extra damage increases by 1d6 for each slot level above 1st."
+               }
+            }
+         },
+         "Aid": {
+            "Label": "Power Word Fortitude",
+            "Description": {
+               "1": {
+                  "Value": "Your spell bolsters your allies with toughness and resolve. Choose up to three creatures within range. Each target's hit point maximum and current hit points increase by 5 for the duration."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "When you cast this spell using a spell slot of 3rd level or higher, a target's hit points increase by an additional 5 for each slot level above 2nd."
                }
             }
          },
@@ -6842,6 +7463,28 @@
                },
                "3": {
                   "Value": "If you move so that an affected creature is forced to pass through the barrier, the spell ends."
+               }
+            }
+         },
+         "ArcaneArmor": {
+            "Label": "Arcane Armor",
+            "Description": {
+               "1": {
+                  "Value": "A protective field guards you. Upon casting this spell, you may choose one magic school or energy type, and gain advantage to all saves versus that school or resistance versus that damage type for the duration of the spell."
+               },
+               "2": {
+                  "Value": "You, however, gain disadvantage to saving throws that belong to spells that another school (see table below), or vulnerability to damage from its opposing type."
+               },
+               "3": {
+                  "Value": "You cannot gain resistance to an effect you are already resistant to, but you can gain resistance to an effect you are vulnerable against (becoming neutral). You cannot gain vulnerability to an effect you are immune to."
+               },
+               "4": {
+                  "Value": "If you become vulnerable to a school, you gain disadvantage to saving throws, and attackers that affect you using that school or energy type have advantage to attacks against you."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "When cast as a level 6 spell, you gain resistance to the damage type or advantage versus the school chosen without gaining vulnerability or disadvantage to the opposite type or school."
                }
             }
          },
@@ -6952,6 +7595,19 @@
                },
                "3": {
                   "Value": "A creature  Restrained by the tentacles can use its action to make a Strength or Dexterity check (its choice) against your spell save DC. On a success, it frees itself."
+               }
+            }
+         },
+         "Bless": {
+            "Label": "Bless",
+            "Description": {
+               "1": {
+                  "Value": "You bless up to three creatures of your choice within range. Whenever a target makes an attack roll or a saving throw before the spell ends, the target can roll 1d4 and add the number rolled to the attack roll or saving throw."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st."
                }
             }
          },
@@ -7215,10 +7871,18 @@
             }
          },
          "ConjureUndead": {
-            "Label": "Conjure Undead",
+            "Label": "Animate Undead",
             "Description": {
                "1": {
-                  "Value": "TODO: Spell missing"
+                  "Value": "You call forth an undead spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the Undead Spirit stat block. When you cast the spell, choose the creature’s form: Ghostly, Putrid, or Skeletal. The spirit resembles an undead creature with the chosen form, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends."
+               },
+               "2": {
+                  "Value": "The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don’t issue any, it takes the Dodge action and uses its move to avoid danger."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "When you cast this spell using a spell slot of 4th level or higher, use the higher level wherever the spell’s level appears in the stat block."
                }
             }
          },
@@ -7336,6 +8000,14 @@
                }
             }
          },
+         "CurseOfWeakness": {
+            "Label": "Curse of Weakness",
+            "Description": {
+               "1": {
+                  "Value": "Upon casting this spell, you must succeed on a ranged touch attack to affect a target. On a successful hit, you may curse them with weakness. The target deals only half damage with weapon and spells attacks (indirect damage such as sigils, bleeding effects, and other abilities are unaffected)."
+               }
+            }
+         },
          "Daylight": {
             "Label": "Daylight",
             "Description": {
@@ -7410,6 +8082,19 @@
                }
             }
          },
+         "DissonantWhispers": {
+            "Label": "Dissonant Whispers",
+            "Description": {
+               "1": {
+                  "Value": "You whisper a discordant melody that only one creature of your choice within range can hear, wracking it with terrible pain. The target must make a Wisdom saving throw. On a failed save, it takes 3d6 psychic damage and must immediately use its reaction, if available, to move as far as its speed allows away from you. The creature doesn’t move into obviously dangerous ground, such as a fire or a pit. On a successful save, the target takes half as much damage and doesn’t have to move away. A deafened creature automatically succeeds on the save."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st."
+               }
+            }
+         },
          "Divination": {
             "Label": "Divination",
             "Description": {
@@ -7421,6 +8106,78 @@
                },
                "3": {
                   "Value": "If you cast the spell two or more times before finishing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get a random reading. The DM makes this roll in secret."
+               }
+            }
+         },
+         "DivineShield": {
+            "Label": "Divine Shield",
+            "Description": {
+               "1": {
+                  "Value": "You raise your hand, and are protected by the grace of the Holy Light. A powerful shielding ward protects you, granting you 4d8 temporary hit points so long as the spell is active. Furthermore, the temporary hit points can also be spent to absorb spells (3 hit points per spell level)."
+               },
+               "2": {
+                  "Value": "If the shield manages to absorb all damage from an effect or absorb a spell, you are protected against any secondary effects (as if immune). This can be determined after a saving throw."
+               },
+               "3": {
+                  "Value": "The spell cannot be overwhelmed with one attack. If reduced to 0 temporary hit points with one attack, the spell ends with 1 hit point instead. This can occur only once for every instance of the spell being cast."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "For every spell level above 2nd, the number of temporary hit points increases by 2d8."
+               }
+            }
+         },
+         "Dominate": {
+            "Label": "Dominate",
+            "Description": {
+               "1": {
+                  "Value": "You attempt to beguile a creature you can see within range. When preparing this spell, you can choose to be able to dominate humanoids, beasts, or one creature type your class can bind (see binding under spellcasting)."
+               },
+               "2": {
+                  "Value": "It must succeed on a Spirit saving throw or be dominated by you for the duration (as Charm). If you or creatures that are friendly to you are fighting it, it has advantage on the saving throw."
+               },
+               "3": {
+                  "Value": "While the target is dominated, you have a telepathic link with it as long as the two of you are on the same plane of existence. You can use this telepathic link to issue commands to the creature while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as attack that creature, run over there, or fetch that object."
+               },
+               "4": {
+                  "Value": "If the creature completes the order and doesn't receive further direction from you, it defends and preserves itself to the best of its ability."
+               },
+               "5": {
+                  "Value": "You can use your action to take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose, and doesn't do anything that you don't allow it to do. During this time, you can also cause the creature to use a reaction, but this requires you to use your own reaction as well."
+               },
+               "6": {
+                  "Value": "Each time the target takes damage, it makes a new Spirit saving throw against the spell. If the saving throw succeeds, the spell ends."
+               },
+               "7": {
+                  "Value": "This only affects the creature type specified by the spell (a Dominate Undead cannot also dominate a humanoid)."
+               },
+               "8": {
+                  "Value": "If choosing to affect beasts only, the spell‘s level is decreased to 4th level instead, as their minds are more malleable."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "When you heighten this to a 6th-level spell, the maximum duration becomes 10 minutes. This increases to 1 hour to 8 hours as 7th and 8th spells, respectively. For each spell level the dominate spell is heightened, you can add one additional creature type to the dominate spell (level 6 dominate can dominate humanoids, elementals, or undead for up to 10 minutes)."
+               }
+            }
+         },
+         "DrainLife": {
+            "Label": "Drain Life",
+            "Description": {
+               "1": {
+                  "Value": "You can siphon life force from others to heal your wounds by tethering their life-force to yours, causing a stream of life-force to surge."
+               },
+               "2": {
+                  "Value": "Make a spell attack against a creature within 60 feet. On a hit, the target takes 4d4 fel damage, and you regain hit points equal to half the amount of fel damage dealt. If the target is Bloodied, the spell deals (and heals) double damage."
+               },
+               "3": {
+                  "Value": "The stream of life may be blocked by losing line of sight or effect, or moving at least 60  feet away from the target, at which case the spell is dispelled. Medium creatures or smaller cannot block the stream, but Large creatures generally do, as well as anything that blocks magical vision or effect (such as a sheet of lead, etc.)."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "When you cast this spell as a 5th level spell or higher, the damage increases by 1d4 for each spell level above 4th."
                }
             }
          },
@@ -7556,6 +8313,17 @@
                }
             }
          },
+         "Fear": {
+            "Label": "Fear",
+            "Description": {
+               "1": {
+                  "Value": "You project a phantasmal image of a creature's worst fears. Each creature in a 30-foot cone must succeed on a Wisdom saving throw or drop whatever it is holding and become Frightened for the duration."
+               },
+               "2": {
+                  "Value": "While Frightened by this spell, a creature must take the Dash action and move away from you by the safest available route on each of its turns, unless there is nowhere to move. If the creature ends its turn in a location where it doesn't have line of sight to you, the creature can make a Wisdom saving throw. On a successful save, the spell ends for that creature."
+               }
+            }
+         },
          "FeignDeath": {
             "Label": "Feign Death",
             "Description": {
@@ -7648,6 +8416,17 @@
                }
             }
          },
+         "GentleRepose": {
+            "Label": "Gentle Repose",
+            "Description": {
+               "1": {
+                  "Value": "You touch a corpse or other remains. For the duration, the target is protected from decay and can't become undead."
+               },
+               "2": {
+                  "Value": "The spell also effectively extends the time limit on raising the target from the dead, since days spent under the influence of this spell don't count against the time limit of spells such as raise dead."
+               }
+            }
+         },
          "GuardianOfFaith": {
             "Label": "Guardian of Faith",
             "Description": {
@@ -7673,6 +8452,92 @@
                },
                "4": {
                   "Value": "As a bonus action on each of your turns before the spell ends, you can change the direction in which the line blasts from you."
+               }
+            }
+         },
+         "HallowUnhallow": {
+            "Label": "Hallow / Unhallow",
+            "Description": {
+               "1": {
+                  "Value": "You touch a point and infuse an area around it with holy (or unholy, ancient, or elemental) power. The area can have a radius up to 60 feet, and the spell fails if the radius includes an area already under the effect a hallow spell."
+               },
+               "2": {
+                  "Value": "Depending on your casting class, you can rely on one power. You may repeat a hallowing on another area within the radius of the original hallow, in which case the chained spell costs less materials (375 gp per 60 feet of hallowed ground)."
+               },
+               "3": {
+                  "Value": "Druids rely on the power of ancients; priests can rely on holy or unholy power; paladins rely on holy power; death knights rely on unholy power; and shamans rely on elemental power. The affected area is subject to the following effects."
+               },
+               "4": {
+                  "Value": "First, celestials, elementals, fey, fiends, or undead (chosen by the caster) can‘t enter the area, nor can such creatures charm, frighten, or possess creatures within it. Any creature charmed, frightened, or possessed by such a creature is no longer charmed, frightened, or possessed upon entering the area. You can exclude one or more of those types of creatures from this effect. If such barred creature attempts to enter the area, it must succeed on three Charisma saving throws. If it fails on two saving throws, it cannot attempt re-entry for one week."
+               },
+               "5": {
+                  "Value": "Second, you can bind an extra effect to the area. Choose the effect from the following list, or choose an effect offered by the DM. Some of these effects apply to creatures in the area; you can designate whether the effect applies to all creatures, creatures that follow a specific deity or leader, or creatures of a specific sort, such as orcs or trolls. When a creature that would be affected enters the spell‘s area for the first time on a turn or starts its turn there, it can make a Charisma saving throw. On a success, the creature ignores the extra effect until it leaves the area."
+               },
+               "6": {
+                  "Value": "When hallowing inside a building, the spell‘s effects are limited by it, becoming a shapeable spell. So long as the spell‘s area of effect fills at least half the building, it can be treated as affecting all of it."
+               },
+               "7": {
+                  "Title": "Bloom (Ancient power only)",
+                  "Value": "The area blooms of plant life. It creates materials for herbalism and alchemy (equal to half the material components consumed by the spell), and it can support large trees. This can be even used in hostile environments (such as deserts or in the Outland), but it is more easily dispelled (dispeller gains advantage to dispel)."
+               },
+               "8": {
+                  "Title": "Blight (Unholy only)",
+                  "Value": "The area is blighted to kill plants and corrupt all life. It loses three-quarters of all herbalism and alchemy materials, and sterilizes the land (as if salted). In a blighted area, undead can rest  and restore hit dice normally without using magic or special abilities (such as cannibalism or vampirism). Binding undead in an area of blight costs only one-half the normal cost."
+               },
+               "9": {
+                  "Title": "Blessed (Holy only)",
+                  "Value": "The area is blessed to provide all allied creatures with the benefits of the Bless spell (useable up to three times at any given 24 hours)."
+               },
+               "10": {
+                  "Title": "Courage",
+                  "Value": "Affected creatures can‘t be frightened while in the area from any source."
+               },
+               "11": {
+                  "Title": "Darkness",
+                  "Value": "Darkness fills the area. Normal light, as well as magical light created by spells of a lower level than the level you used to cast this spell, can‘t illuminate the area."
+               },
+               "12": {
+                  "Title": "Daylight",
+                  "Value": "Bright light fills the area. Magical darkness created by spells of a lower level than the level you used to cast this spell can‘t extinguish the light."
+               },
+               "13": {
+                  "Title": "Energy Protection",
+                  "Value": "Affected creatures in the area have resistance to one damage type of your choice, except for bludgeoning, piercing, or slashing."
+               },
+               "14": {
+                  "Title": "Energy Vulnerability",
+                  "Value": "Affected creatures in the area have vulnerability to one damage type of your choice, except for bludgeoning, piercing, or slashing."
+               },
+               "15": {
+                  "Title": "Elemental Activity (Elemental power only).",
+                  "Value": "The hallowed area is attuned to elementals. It is treated as an inverted magic circle, but only for the purposes of binding elementals. If convinced to perform a task that serves the elemental powers, you gain advantage to Charisma checks to convince them, and the gold cost for the spell is reduced by three-fourths."
+               },
+               "16": {
+                  "Title": "Everlasting Rest",
+                  "Value": "Dead bodies interred in the area can‘t be turned into undead."
+               },
+               "17": {
+                  "Title": "Extradimensional Interference",
+                  "Value": "Affected creatures can‘t move or travel using teleportation or by extradimensional or interplanar means so long as they are within the area."
+               },
+               "18": {
+                  "Title": "Fear",
+                  "Value": "Affected creatures are frightened while in the area."
+               },
+               "19": {
+                  "Title": "Silence",
+                  "Value": "No sound can emanate from within the area, and no sound can reach into it. Tongues. Affected creatures can communicate with any other creature in the area, even if they don‘t share a common language."
+               }
+            }
+         },
+         "HallucinatoryTerrain": {
+            "Label": "Hallucinatory Terrain",
+            "Description": {
+               "1": {
+                  "Value": "You make natural terrain in a 150-foot cube in range look, sound, and smell like some other sort of natural terrain. Thus, open fields or a road can be made to resemble a swamp, hill, crevasse, or some other difficult or impassable terrain. A pond can be made to seem like a grassy meadow, a precipice like a gentle slope, or a rock-strewn gully like a wide and smooth road. Manufactured structures, Equipment, and creatures within the area aren't changed in appearance."
+               },
+               "2": {
+                  "Value": "The tactile characteristics of the terrain are unchanged, so creatures entering the area are likely to see through the Illusion. If the difference isn't obvious by touch, a creature carefully examining the Illusion can attempt an Intelligence (Investigation) check against your spell save DC to disbelieve it. A creature who discerns the Illusion for what it is, sees it as a vague image superimposed on the terrain."
                }
             }
          },
@@ -7737,6 +8602,32 @@
                }
             }
          },
+         "HexArray": {
+            "Label": "Hex Array",
+            "Description": {
+               "1": {
+                  "Value": "You inflict one hex of the below array."
+               },
+               "2": {
+                  "Options": {
+                     "1": "<i>Death Hex (level 1)</i>: You place a curse on a creature that you can see within range. Until the spell ends, you deal an extra 1d6 shadow damage to the target whenever you hit it with an attack. Also, choose one ability when you cast the spell. The target has disadvantage on ability checks made with the chosen ability. The duration of this effect is Concentration, up to 1 hour. You can maintain this hex and use another in the same array.",
+                     "2": "<i>Fortune (level 1)</i>: As the Bless spell.",
+                     "3": "<i>Love Hex (level 1)</i>: As the Charm spell, but can affect any creature type, so long as that finds you attractive.",
+                     "4": "<i>Misfortune (level 1)</i>: As the Bane spell.",
+                     "5": "<i>Dream Eat (level 2)</i>: You can deal 2d6 psychic damage to a sleeping target per spell level, healing one-half the damage you deal. If the target dies from this, they are instead trapped in eternal sleep (this is treated as a curse effect. Breaking the curse awakens the target normally).",
+                     "6": "<i>Bone Lock (level 3)</i>: As the slow spell.",
+                     "7": "<i>Spell Steal Hex (level 5)</i>: As the Spell Steal spell. This still requires you to prepare the dispel magic spell."
+                  }
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Options": {
+                     "1": "<i>Death Hex</i>: When you cast this spell as a spell of 3rd, you can maintain your concentration on the spell for up to 8 hours. When you cast this as a 5th level spell, you can maintain your concentration on the spell for up to 24 hours."
+                  }
+               }
+            }
+         },
          "Hold": {
             "Label": "Hold",
             "Description": {
@@ -7796,11 +8687,38 @@
                }
             }
          },
+         "Invisibility": {
+            "Label": "Invisibility",
+            "Description": {
+               "1": {
+                  "Value": "A creature you touch becomes invisible until the spell ends. Anything the target is wearing or carrying is invisible as long as it is on the target's person. The spell ends for a target that attacks or casts a spell."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd."
+               }
+            }
+         },
          "LesserRestoration": {
             "Label": "Lesser Restoration",
             "Description": {
                "1": {
                   "Value": "You touch a creature and can end either one disease or one condition afflicting it. The condition can be blinded, deafened, paralyzed, or poisoned."
+               }
+            }
+         },
+         "Levitate": {
+            "Label": "Levitate",
+            "Description": {
+               "1": {
+                  "Value": "One creature or object of your choice that you can see within range rises vertically, up to 20 feet, and remains suspended there for the duration. The spell can levitate a target that weighs up to 500 pounds. An unwilling creature that succeeds on a Constitution saving throw is unaffected."
+               },
+               "2": {
+                  "Value": "The target can move only by pushing or pulling against a fixed object or surface within reach (such as a wall or a ceiling), which allows it to move as if it were climbing. You can change the target's altitude by up to 20 feet in either direction on your turn. If you are the target, you can move up or down as part of your move. Otherwise, you can use your action to move the target, which must remain within the spell's range."
+               },
+               "3": {
+                  "Value": "When the spell ends, the target floats gently to the ground if it is still aloft."
                }
             }
          },
@@ -7878,6 +8796,28 @@
             "Heightened": {
                "1": {
                   "Value": "If you cast this spell using a spell slot of 6th level or higher, you can alter the target’s memories of an event that took place up to 7 days ago (6th level), 30 days ago (7th level), 1 year ago (8th level), or any time in the creature’s past (9th level)."
+               }
+            }
+         },
+         "Moonbeam": {
+            "Label": "Moonbeam",
+            "Description": {
+               "1": {
+                  "Value": "A silvery beam of pale light shines down in a 5-foot-radius, 40-foot-high Cylinder centered on a point within range. Until the spell ends, dim light fills the cylinder."
+               },
+               "2": {
+                  "Value": "When a creature enters the spell's area for the first time on a turn or starts its turn there, it is engulfed in ghostly flames that cause searing pain, and it must make a Constitution saving throw. It takes 2d10 radiant damage on a failed save, or half as much damage on a successful one."
+               },
+               "3": {
+                  "Value": "A Shapechanger makes its saving throw with disadvantage. If it fails, it also instantly reverts to its original form and can't assume a different form until it leaves the spell's light."
+               },
+               "4": {
+                  "Value": "On each of your turns after you cast this spell, you can use an action to move the beam up to 60 feet in any direction."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d10 for each slot level above 2nd."
                }
             }
          },
@@ -7980,6 +8920,14 @@
                },
                "3": {
                   "Value": "Undead and constructs gain no benefit from this spell."
+               }
+            }
+         },
+         "RemoveCurse": {
+            "Label": "Remove Curse",
+            "Description": {
+               "1": {
+                  "Value": "At your touch, all curses affecting one creature or object end. If the object is a cursed magic item, its curse remains, but the spell breaks its owner's Attunement to the object so it can be removed or discarded."
                }
             }
          },
@@ -8101,9 +9049,95 @@
                }
             }
          },
+         "ShootingStar": {
+            "Label": "Shooting Star",
+            "Description": {
+               "1": {
+                  "Value": "You point to the open sky, and bring your finger down in the span of 3 rounds, tracing a bright shooting star of pure energy to fall from the heavens. Choose one point you can see within range from the start of casting to the end (which must be the same point during casting). Each creature in a 10-foot radius sphere at the point of impact must make an Agility saving throw as a shooting star blazes down to smash into the area. On a failed saving throw, a creature or object struck by the star takes 5d6 damage. The damage is half arcane, and half magical bludgeoning damage. On a successful saving throw, the creature takes half damage."
+               },
+               "2": {
+                  "Value": "The area struck has debris of the shooting star (which is difficult terrain and is made of no special material). The debris sheds dim light in a 10-foot radius for 1 hour before cooling down."
+               },
+               "3": {
+                  "Value": "This spell requires line of sight to the sky, although it does not require a specific time. If the spell is cast at night, the shooting star deals the half damage as holy instead of arcane."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "When heightened to level 5, you summon an additional shooting star for every two spell levels above 3rd."
+               }
+            }
+         },
+         "ShotArray": {
+            "Label": "Shot Array",
+            "Description": {
+               "1": {
+                  "Value": "You gain one shot of the below array:"
+               },
+               "2": {
+                  "Options": {
+                     "1": "<i>Frost Shot (level 1)</i>: Your shots are infused with freezing cold. They deal 1d6 extra cold damage, and chill the target for until the start of your turn in the next round.",
+                     "2": "<i>Searing Shot (level 1)</i>: Your shots are infused with searing flame. They deal 1d6 extra fire damage. The searing shot adds +1 to your attack roll if shot at a target beyond optimal range of your weapon.",
+                     "3": "<i>Stopping Shot (level 1)</i>: If you use this shot as a held action, this deals damage normally, and reduces the creature‘s move speed to 0, and knocks them prone if they used the Dash action. On a successful Stamina saving throw, their speed is instead reduced by half.",
+                     "4": "<i>Tranquilizing Shot (level 1)</i>: Your shot are enhanced with a sleeping agent. If you strike an enemy with this hit, roll 5d8. A creature‘s hit points must be equal to or less than the remaining total for a creature to , fall unconscious for one minute. A sleeper may be awakened if taking damage or when targeted with an action (like shaking or slapping them). Undead and creatures immune to being charmed are immune to this effect. A creature may roll a Stamina saving throw to reduce the duration of sleep to one round.",
+                     "5": "<i>Venom Shot (level 1)</i>: Your arrow is enchanted with a poisonous agent. If you strike an enemy with this hit, you deal an additional 1d8 poison damage. This damage is halved on a successful Stamina saving throw.",
+                     "6": "<i>Viper Shot (level 1)</i>: Your arrow is enchanted with an anti-magic agent. If you strike an enemy with this hit, they lose 1d2 mana points. For every mana point lost, the target takes 2 points of arcane damage. This damage is halved on a successful Spirit saving throw. This is otherwise treated as mana burn (as the spell).",
+                     "7": "<i>Arcane Shot (level 2)</i>: Your shots are transformed into missiles made of pure force, dealing an additional 1d4 points of arcane damage. If the creature you successfully shoot has the benefits of a beneficial spell, it is also subjected to a 1st-level dispel magic spell. This allows you to remove 0-level spells, and must make an ability check versus a spell level of 1 or above. This dispel effect cannot dispel a spell level higher than that of Arcane Shot.",
+                     "8": "<i>Concussive Shot (level 2)</i>: Your arrows are destructively concussive. Targets hit by this shot spell must succeed on a Stamina saving throw or else take two of the following penalties until the end of their next round (the penalty is chosen by you).<ul><li>Speed is halved.</li><li>Target takes -2 to AC and Agility saving throws.</li><li>Target cannot take reactions.</li><li>Can use either an action or bonus action, and cannot make more than one attack every round.</li><li>If casting a spell, roll a d20. On an 11 or higher, the spell doesn‘t take effect until the creature‘s next turn, and the creature must use its action on said turn to complete the spell.</li></ul>",
+                     "9": "<i>Kill Shot (level 2)</i>: Your shot is unusually successful against wounded targets. If the target is bloodied, this attack is treated as a critical hit. After being affected by this critical hit, a creature cannot be affected again for 1 hour. If the hit was already a critical hit (such as by a dice roll or another ability), this shot is not expended, and you deal an extra 1d6 points of damage per spell level.",
+                     "10": "<i>Scorpid Shot (level 2)</i>: Your shot is enhanced with a venomous agent. If you strike an enemy with this shot, they are poisoned. The effect remains for one minute. On a successful Stamina saving throw, the enemy negates this effect.",
+                     "11": "<i>Wing Clip Shot (level 2)</i>: Your arrow is enchanted to strike a creature‘s hamstring or movement joint. If you strike an enemy with this hit, they take an additional 1d6 weapon damage, have their speed reduced by 10 feet, and can‘t take reactions until the start of their next turn.",
+                     "12": "<i>Black Arrow (level 3)</i>: Your shots are transformed into missiles made of unholy energy. The shot deals an additional 3d4 points of shadow damage to the target. If a creature is killed by this strike (or if most of the damage it took was shadow damage from this spell), they are animated as per the spell conjure undead (spell level 1). This raises the target from the fresh corpse. The killed creature is not raised if they are normally immune to the effect. Knowledge of this shot is typically a secret, and is usually used by the Forsaken, the Scourge, and ruthless independents.",
+                     "13": "<i>Wyvern Shot (level 3)</i>: Your arrow is enchanted with a debilitative agent. If you strike an enemy with this hit, you reduce the target‘s maximum hit points by 3d4 for one hour. This damage to hit points is halved on a successful Stamina saving throw. A creature cannot be affected by this more than once at any given hour, and when the duration ends, their maximum is restored. If a creature‘s maximum is reduced below their current hit points, the excess is treated as temporary hit points (if the maximum is restored, these temporary hit points return to be actual hit points)."
+                  }
+               }
+            },
+            "Heightened": {
+               "Options": {
+                  "1": "<i>Frost Shot and Searing Shot</i>: The extra damage increases by 1d6 for every two spell levels above 1st.",
+                  "2": "<i>Tranquilizing Shot</i>: You roll an additional 2d8 of tranquilizer per level above 1st.",
+                  "3": "<i>Venom Shot</i>: You roll an additional 1d8 poison damage per level above 1st.",
+                  "4": "<i>Viper Shot</i>: For every two spell levels above 2nd, you deal an additional 1d2 points of mana burn.",
+                  "5": "<i>Concussive Shot</i>: The duration remains for one round more per level above 2nd. At the end of the target‘s round, they are entitled another save to end the concussive effect.",
+                  "6": "<i>Arcane Shot</i>: The strike‘s damage increases by 1, and the dispel magic effect increases by 1 level per level above 2nd.",
+                  "7": "<i>Black Arrow</i>: The strike‘s damage increases by 1d4 per each two spell levels beyond 3rd. The spell level also increases by 1.",
+                  "8": "<i>Wyvern Shot</i>: You roll an additional 1d4 points per every two levels above 3rd."
+               }
+            }
+         },
          "Silence": {
             "Label": "TODO: Silence",
             "Description": "For the Duration, no sound can be created within or pass through a 20-foot-radius Sphere centered on a point you choose within range. Any creature or object entirely inside the Sphere is immune to thunder damage, and creatures are Deafened while entirely inside it. Casting a Spell that includes a verbal component is impossible there."
+         },
+         "Sleep": {
+            "Label": "Sleep",
+            "Description": {
+               "1": {
+                  "Value": "This spell sends creatures into a magical slumber. Roll 5d8; the total is how many hit points of creatures this spell can affect. Creatures within 20 feet of a point you choose within range are affected in ascending order of their current hit points (ignoring unconscious creatures)."
+               },
+               "2": {
+                  "Value": "Starting with the creature that has the lowest current hit points, each creature affected by this spell falls unconscious until the spell ends, the sleeper takes damage, or someone uses an action to shake or slap the sleeper awake. Subtract each creature's hit points from the total before moving on to the creature with the next lowest hit points. A creature's hit points must be equal to or less than the remaining total for that creature to be affected."
+               },
+               "3": {
+                  "Value": "Undead and creatures immune to being charmed aren't affected by this spell."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "When you cast this spell using a spell slot of 2nd level or higher, roll an additional 2d8 for each slot level above 1st."
+               }
+            }
+         },
+         "SpeakWithDead": {
+            "Label": "Speak with Dead",
+            "Description": {
+               "1": {
+                  "Value": "You grant the semblance of life and intelligence to a corpse of your choice within range, allowing it to answer the questions you pose. The corpse must still have a mouth and can't be undead. The spell fails if the corpse was the target of this spell within the last 10 days."
+               },
+               "2": {
+                  "Value": "Until the spell ends, you can ask the corpse up to five questions. The corpse knows only what it knew in life, including the languages it knew. Answers are usually brief, cryptic, or repetitive, and the corpse is under no compulsion to offer a truthful answer if you are hostile to it or it recognizes you as an enemy. This spell doesn't return the creature's soul to its body, only its animating spirit. Thus, the corpse can't learn new information, doesn't comprehend anything that has happened since it died, and can't speculate about future events."
+               }
+            }
          },
          "SpiritInfusion": {
             "Label": "Spirit Infusion",
@@ -8137,6 +9171,50 @@
                }
             }
          },
+         "SpiritualWeapon": {
+            "Label": "Spiritual Weapon",
+            "Description": {
+               "1": {
+                  "Value": "You create a floating, spectral weapon within range that lasts for the duration or until you cast this spell again. When you cast the spell, you can make a melee spell attack against a creature within 5 feet of the weapon. On a hit, the target takes force damage equal to 1d8 + your spellcasting ability modifier."
+               },
+               "2": {
+                  "Value": "As a bonus action on your turn, you can move the weapon up to 20 feet and repeat the attack against a creature within 5 feet of it."
+               },
+               "3": {
+                  "Value": "The weapon can take whatever form you choose. Clerics of deities who are associated with a particular weapon (as St. Cuthbert is known for his mace and Thor for his hammer) make this spell's effect resemble that weapon."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for every two slot levels above the 2nd."
+               }
+            }
+         },
+         "Starfall": {
+            "Label": "Starfall",
+            "Description": {
+               "1": {
+                  "Value": "You point to the open sky, calling down a cylinder of normal light centered on you, 60 feet wide, and 100 feet high."
+               },
+               "2": {
+                  "Value": "At the beginning of every round where you channel the spell (the first round does not count), choose any two points within the cylinder. Each creature in a 10-foot radius sphere at the point of impact must make an Agility saving throw as a shooting star blazes down to smash into the area. On a failed saving throw, a creature or object struck by the star takes 5d6 damage. The damage is half arcane, and half bludgeoning damage."
+               },
+               "3": {
+                  "Value": "On a successful saving throw, the creature takes half damage. A creature who fails the saving throw for half damage is also pushed 5 feet away from the center of the blast."
+               },
+               "4": {
+                  "Value": "This spell requires line of sight to the sky, although it does not require a specific time. If the spell is cast at night, the shooting star deals additional holy damage instead of arcane damage."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "When heightened to level 7, you can call three meteors instead of two."
+               },
+               "2": {
+                  "Value": "This increases by one meteor for every 2 spell levels beyond 7th (3 at level 7, 4 at level 9)."
+               }
+            }
+         },
          "StinkingCloud": {
             "Label": "Stinking Cloud",
             "Description": {
@@ -8164,6 +9242,31 @@
             "Description": {
                "1": {
                   "Value": "Choose a humanoid that you can see within range. The target must succeed on a Stamina saving throw or be paralyzed and lifted ten feet above the ground for the duration. On each of their turns, the target may make another saving throw. On a success, the spell ends for the target, and they drop without taking falling damage. While the creature is paralyzed this way, they are also choking. After the spell‘s effects end, the target is affected by the mute spell for one round per round of complete strangulation."
+               }
+            }
+         },
+         "Telekinesis": {
+            "Label": "Telekinesis",
+            "Description": {
+               "1": {
+                  "Value": "You gain the ability to move or manipulate creatures or objects by thought. When you cast the spell, and as your action each round for the Duration, you can exert your will on one creature or object that you can see within range, causing the appropriate effect below. You can affect the same target round after round, or choose a new one at any time. If you switch targets, the prior target is no longer affected by the spell."
+               },
+               "2": {
+                  "Title": "Creature",
+                  "Value": "You can try to move a Huge or smaller creature. Make an ability check with your spellcasting ability contested by the creature's Strength check. If you win the contest, you move the creature up to 30 feet in any direction, including upward but not beyond the range of this spell. Until the end of your next turn, the creature is Restrained in your telekinetic grip. A creature lifted upward is suspended in mid-air."
+               },
+               "3": {
+                  "Value": "On subsequent rounds, you can use your action to attempt to maintain your telekinetic grip on the creature by repeating the contest."
+               },
+               "4": {
+                  "Title": "Object",
+                  "Value": "You can try to move an object that weighs up to 1,000 pounds. If the object isn't being worn or carried, you automatically move it up to 30 feet in any direction, but not beyond the range of this spell."
+               },
+               "5": {
+                  "Value": "If the object is worn or carried by a creature, you must make an ability check with your Spellcasting ability contested by that creature's Strength check. If you succeed, you pull the object away from that creature and can move it up to 30 feet in any direction but not beyond the range of this spell."
+               },
+               "6": {
+                  "Value": "You can exert fine control on Objects with your telekinetic grip, such as manipulating a simple tool, opening a door or a container, stowing or retrieving an item from an open container, or pouring the contents from a vial."
                }
             }
          },
@@ -8254,6 +9357,22 @@
                }
             }
          },
+         "TrueshotAura": {
+            "Label": "Trueshot Aura",
+            "Description": {
+               "1": {
+                  "Value": "An aura of clarity radiates from you in an aura with a 15-foot radius. Until the spell ends, the aura moves with you, centered on you. Each allied creature in the area deals 1 extra point of damage with their ranged weapon attacks."
+               },
+               "2": {
+                  "Value": "<i>Note</i>: This spell cannot affect creatures within the area of a devotion aura spell, or those under the effect of a protection from good and evil spell (or similar abjurations)."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "For each spell level above 1st, allied creatures deal 1 extra point of damage (up to 5 extra points of damage at spell level 5)."
+               }
+            }
+         },
          "VampiricAura": {
             "Label": "Vampiric Aura",
             "Description": {
@@ -8323,6 +9442,14 @@
          }
       },
       "SpellRules": {
+         "Elements": {
+            "Acid": "Acid",
+            "Cold": "Cold",
+            "Fire": "Fire",
+            "Holy": "Holy",
+            "Lightning": "Lightning or Thunder",
+            "Shadow": "Shadow or Fel"
+         },
          "SpellSchools": {
             "Abjuration": "Abjuration",
             "Conjuration": "Conjuration",
@@ -9074,6 +10201,150 @@
             }
          }
       },
+      "Traits": {
+         "Adapter": {
+            "Label": "Adapter",
+            "Description": "You may always act when surprised at a combat encounter (even if you failed your Perception check to notice it). You also have <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"K4kXNTd9rJoZAHu5\">advantage</a> versus weather effects."
+         },
+         "ArcaneAffinity": {
+            "Label": "Arcane Affinity",
+            "Description": "You have increased affinity with arcane magic. You can choose one of the following two features:",
+            "Options": {
+               "1": "<i>Augment Weave</i>. You deal one additional point of arcane damage for each damage dice with your arcane spells. This applies once per spell. You may apply this to spells that do not deal arcane damage, but only once per short or long rest",
+               "2": "<i>Arcane Strike</i>. You can enhance your attacks with a blast of arcane damage. As a [strike] effect, you can add 1d6 points of arcane damage to your melee or ranged weapon attacks. For every four character levels you gain, you gain an additional dice of damage. You may choose to spend them all at once or one for each attack. You regain all spent dice at the end of a short rest",
+               "3": "<i>Energy Blast</i>. You can release a blast of arcane force as if you possessed the Mystic Blast feat (arcane damage only). You may use this blast number of times equal to your Intelligence modifier before replenishing at a long rest. This deals a number of d4 dice equal to onequarter your level (minimum 1d4)."
+            }
+         },
+         "ArcaneLegacy": {
+            "Label": "Arcane Legacy",
+            "Description": "The high elves are uniquely attuned to magic. You can choose one of the below abilities.",
+            "Options": {
+               "1": "You increase your mana pool size by 2 mana points.",
+               "2": "You add an additional cantrip to your High Magic ability, chosen from the mage spell list.",
+               "3": "You gain the Suffused Arrows talent. You may only take this if your first level is a hunter."
+            }
+         },
+         "BlessingOfTheNightwell": {
+            "Label": "Blessing of the Nightwell",
+            "Description": "You have resistance to arcane damage."
+         },
+         "BloodMagic": {
+            "Label": "Blood Magic",
+            "Description": "This acts as High Magic. While you use abilities granted by this ability, your eyes glow a pale fel green instead of High Elves‘ blue. Instead of the prestidigitation cantrip, you may choose the thaumaturgy cantrip instead, and may cast the mana burn spell instead of mute."
+         },
+         "Bravery": {
+            "Label": "Bravery",
+            "Description": "You have <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"K4kXNTd9rJoZAHu5\">advantage</a> to all saves against fear."
+         },
+         "BronzebeardCombatTraining": {
+            "Label": "Dwarven Combat Training",
+            "Description": "You have proficiency with firearms and explosives of all types, even if you do not have proficiency in engineering, and gain proficiency with light armor."
+         },
+         "BurningHeart": {
+            "Label": "Burning Heart",
+            "Description": "You know the produce flame cantrip (caster level equal to your character level). Intelligence is your spellcasting ability for it."
+         },
+         "Darkvision": {
+            "Label": "Darkvision",
+            "Description": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+         },
+         "DraeneiCombatTraining": {
+            "Label": "Draenei Combat Training",
+            "Description": "You have proficiency with the longsword, greathammer, glaive, and the heavy crossbow."
+         },
+         "DwarvenCombatTraining": {
+            "Label": "Dwarven Combat Training",
+            "Description": "You have proficiency with the battleaxe, handaxe, light hammer, and warhammer."
+         },
+         "ElvenCombatTraining": {
+            "Label": "Elven Combat Training",
+            "Description": "You have proficiency with the longsword, longbow, rapier, and shortbow."
+         },
+         "ExtraLanguage": {
+            "Label": "Extra Language",
+            "Description": "You can speak, read and write one extra language of your choice."
+         },
+         "FelResistance": {
+            "Label": "Fel Resistance",
+            "Description": "You have <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"FuRFBklCArGIhci8\">resistance</a> to fel damage."
+         },
+         "FireLordsFavor": {
+            "Label": "Fire Lord's Favor",
+            "Description": "You have <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"FuRFBklCArGIhci8\">resistance</a> to fire damage."
+         },
+         "Gemcutting": {
+            "Label": "Gemcutting",
+            "Description": "You are proficient with artisan's tools (jewelcrafting kit)."
+         },
+         "GiftOfTheNaaru": {
+            "Label": "Gift of the Naaru",
+            "Description": "You can use your action to channel holy energy, casting the renewing light spell as if cast as a 1st level spell. This can be used once, replenishing on a short or long rest. While a creature benefits from this ability, they have a glowing blue mark above their forehead (shedding light equal to dancing lights). Your spellcasting ability modifier is Spirit or Charisma (your choice)."
+         },
+         "HeroicPresence": {
+            "Label": "Heroic Presence",
+            "Description": "You can spend 10 minutes inspiring your companions, shoring up their resolve to fight. When you do so, choose up to six friendly creatures (which can include yourself) within 30 feet of you who can see or hear you and who can understand you. Each creature can gain temporary hit points equal to your level + half your Charisma or Spirit modifier. A creature can't gain temporary hit points from this feature again until it has finished a long rest. Alternatively, you may declare use of this ability upon landing a critical hit."
+         },
+         "HighMagic": {
+            "Label": "High Magic",
+            "Description": "Magic. You know the prestidigitation cantrip and can cast it normally (caster level equal to your character level). When you reach 3rd level, you can also cast detect magic as a 1st level spell. When you reach 5th level, you can also cast the mute spell as a 2nd level spell. Intelligence is your spellcasting ability for these spells, and you use your mana pool for these abilities (even if you are not normally a spellcaster). While you use such abilities (and after using them for one hour), your eyes glow a pale blue. If you can already cast such spells (and have a sufficiently high caster level), they are always prepared for free."
+         },
+         "KeenSenses": {
+            "Label": "Keen Senses",
+            "Description": "You are proficient with the Perception skill."
+         },
+         "MaskOfTheWild": {
+            "Label": "Mask of the Wild",
+            "Description": "You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
+         },
+         "MountainBorn": {
+            "Label": "Mountain Born",
+            "Description": "You're acclimated to high altitude, including elevations above 20,000 feet. You're also naturally adapted to cold weather in the wilderness or while exploring."
+         },
+         "MysticSenses": {
+            "Label": "Mystic Senses",
+            "Description": "Whenever you make any check related to the origin of magical items, lore, or spells, you are treated as if you have Expertise in the Arcana skill."
+         },
+         "NaturalArmor": {
+            "Label": "Natural Armor",
+            "Description": "Your skin is as hardened leather in toughness. When you aren't wearing armor, your AC is 12 + your Agility modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor."
+         },
+         "NaturalHandler": {
+            "Label": "Natural Handler",
+            "Description": "You have proficiency with Animal Handling. If handling beasts that naturally live in mountains such as gryphons or mountain lions, you gain Expertise instead."
+         },
+         "NatureResistance": {
+            "Label": "Nature Resistance",
+            "Description": "You have <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"K4kXNTd9rJoZAHu5\">advantage</a> on saving throws against poisons, and have <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"FuRFBklCArGIhci8\">resistance</a> against lightning and poison damage."
+         },
+         "NightfallenMagic": {
+            "Label": "Nightfallen Magic",
+            "Description": "You know the mage hand cantrip and can cast it normally (caster level equal to your character level). When you reach 3rd level, you can also cast detect magic as a 1st level spell. When you reach 5th level, you can also cast the arcane explosion spell as a 2nd level spell. Intelligence is your spellcasting ability for these spells, and you use your mana pool for these abilities (even if you are not normally a spellcaster). While you use such abilities (and after using them for one hour), your eyes glow a light blue. If you can already cast such spells (and have a sufficiently high caster level), they are always prepared for free."
+         },
+         "Resilience": {
+            "Label": "Resilience",
+            "Description": "You have <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"K4kXNTd9rJoZAHu5\">advantage</a> against poisons and <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"FuRFBklCArGIhci8\">resistance</a> to poison damage."
+         },
+         "Shadowmeld": {
+            "Label": "Shadowmeld",
+            "Description": "When you are in dim or dark light, you gain <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"K4kXNTd9rJoZAHu5\">advantage</a> on Agility (Stealth) checks."
+         },
+         "Stalker": {
+            "Label": "Stalker",
+            "Description": "You have proficiency with the Perception and Stealth skills. If you already have proficiency with one of these skills, you gain Expertise instead."
+         },
+         "Stonecunning": {
+            "Label": "Stonecunning",
+            "Description": "Whenever you make an Intelligence (History) check or Mining checks related to stonework and minerals, you are considered both proficient and as if having Expertise in either History or Mining (choose one)."
+         },
+         "Stoneform": {
+            "Label": "Stoneform",
+            "Description": "You can focus yourself to occasionally shrug off injury. When you take damage, you can use your reaction to roll a d12. Add your Stamina modifier to the number rolled, and reduce the damage by that total. If the damage exceeds any ongoing bleed damage you take, you end the effect as well. After you use this trait, you can't use it again until you finish a short or long rest."
+         },
+         "ToolProficiency": {
+            "Label": "Tool Proficiency",
+            "Description": "You gain proficiency with one artisan's tool of your choice: smith's tools, brewer's supplies, mason's tools, or mining tools."
+         }
+      },
       "UI": {
          "Actions": {
             "NoToken": "You have not selected a valid token. Please select a valid token.",
@@ -9097,6 +10368,7 @@
          "Flaws": "Flaws",
          "Ideal": "Ideal",
          "Ideals": "Ideals",
+         "Language": "Language",
          "MaterialCost": "Material Cost",
          "Phrases": {
             "Skill": "skill",

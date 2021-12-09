@@ -1,0 +1,109 @@
+{
+   "_id": "dYaBNVyqZFNEYaBT",
+   "name": "Moonbeam",
+   "permission": {
+      "default": 0
+   },
+   "type": "spell",
+   "data": {
+      "source": "",
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": 1,
+         "units": "minute"
+      },
+      "target": {
+         "value": 5,
+         "units": "ft",
+         "type": "cylinder"
+      },
+      "range": {
+         "value": 120,
+         "long": 0,
+         "units": "ft"
+      },
+      "uses": {
+         "value": 0,
+         "max": 0,
+         "per": ""
+      },
+      "ability": "",
+      "actionType": "save",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [
+            [
+               "2d10",
+               "radiant"
+            ]
+         ],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "con",
+         "dc": 0,
+         "scaling": "spell"
+      },
+      "level": 2,
+      "school": "evo",
+      "components": {
+         "value": "",
+         "vocal": true,
+         "somatic": true,
+         "material": true,
+         "ritual": false,
+         "concentration": true
+      },
+      "materials": {
+         "value": "Several seeds of any moonseed plant and a piece of opalescent feldspar",
+         "consumed": false,
+         "cost": 0,
+         "supply": 0
+      },
+      "preparation": {
+         "mode": "prepared",
+         "prepared": false
+      },
+      "scaling": {
+         "mode": "level",
+         "formula": "1d10"
+      }
+   },
+   "sort": 100001,
+   "flags": {
+      "wc5e": {
+         "type": "spell",
+         "description": [
+            {
+               "value": "WC5E.Spells.Moonbeam.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Spells.Moonbeam.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Spells.Moonbeam.Description.3.Value"
+            },
+            {
+               "value": "WC5E.Spells.Moonbeam.Description.4.Value"
+            }
+         ],
+         "heightened": [
+            {
+               "value": "WC5E.Spells.Moonbeam.Heightened.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "systems/dnd5e/icons/spells/beam-blue-3.jpg",
+   "effects": []
+}

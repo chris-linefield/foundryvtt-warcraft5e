@@ -30,7 +30,7 @@ DND5E.languages = {
     "orcish"    : "WC5E.Languages.Orcish",
     "ogre"      : "WC5E.Languages.Ogre",
     "pandaren"  : "WC5E.Languages.Pandaren",
-    "shathyar"  : "WC5E.Languages.ShatYar",
+    "shathyar"  : "WC5E.Languages.ShathYar",
     "taurahe"   : "WC5E.Languages.Taurahe",
     "titan"     : "WC5E.Languages.Titan",
     "troll"     : "WC5E.Languages.Troll"

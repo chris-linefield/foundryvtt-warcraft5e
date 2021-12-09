@@ -1,0 +1,105 @@
+{
+   "_id": "2rWd0PXHzC3ugLgk",
+   "name": "Shooting Star",
+   "permission": {
+      "default": 0
+   },
+   "type": "spell",
+   "data": {
+      "source": "",
+      "activation": {
+         "type": "rounds",
+         "cost": 3,
+         "condition": ""
+      },
+      "duration": {
+         "value": null,
+         "units": "inst"
+      },
+      "target": {
+         "value": 60,
+         "units": "ft",
+         "type": "cone"
+      },
+      "range": {
+         "value": 1,
+         "long": null,
+         "units": "mile"
+      },
+      "uses": {
+         "value": 0,
+         "max": 0,
+         "per": ""
+      },
+      "ability": "",
+      "actionType": "save",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": null,
+      "damage": {
+         "parts": [
+            [
+               "5d6",
+               "arcane",
+               "bludgeoning"
+            ]
+         ],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "dex",
+         "dc": 0,
+         "scaling": "spell"
+      },
+      "level": 3,
+      "school": "evo",
+      "components": {
+         "value": "",
+         "vocal": true,
+         "somatic": true,
+         "material": false,
+         "ritual": false,
+         "concentration": false
+      },
+      "materials": {
+         "value": "A small crystal or glass cone",
+         "consumed": false,
+         "cost": 0,
+         "supply": 0
+      },
+      "preparation": {
+         "mode": "prepared",
+         "prepared": false
+      },
+      "scaling": {
+         "mode": "level",
+         "formula": "1d8"
+      }
+   },
+   "sort": 100001,
+   "flags": {
+      "wc5e": {
+         "type": "spell",
+         "description": [
+            {
+               "value": "WC5E.Spells.ShootingStar.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Spells.ShootingStar.Description.2.Value"
+            },
+            {
+               "special": true,
+               "value": "WC5E.Spells.ShootingStar.Description.3.Value"
+            }
+         ],
+         "heightened": [
+            {
+               "value": "WC5E.Spells.ShootingStar.Heightened.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/nature/meteorite-purple.webp",
+   "effects": []
+}

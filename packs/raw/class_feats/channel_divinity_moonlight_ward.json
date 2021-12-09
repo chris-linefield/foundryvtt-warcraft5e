@@ -1,0 +1,35 @@
+{
+   "_id": "2CR7Sd41zGchgEda",
+   "name": "Channel Divinity: Moonlight Ward",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 105",
+      "requirements": "Priest (Moon) 6"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.ChannelDivinityMoonlightWard.Description.1.Value"
+            },
+            {
+               "options": [
+                  "WC5E.Feats.ChannelDivinityMoonlightWard.Description.2.Options.1",
+                  "WC5E.Feats.ChannelDivinityMoonlightWard.Description.2.Options.2"
+               ]
+            },
+            {
+               "value": "WC5E.Feats.ChannelDivinityMoonlightWard.Description.3.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/light/projectile-stars-blue.webp",
+   "effects": [
+   ]
+}

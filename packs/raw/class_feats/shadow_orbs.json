@@ -1,0 +1,35 @@
+{
+   "_id": "QTX7GT4x79gWUJbo",
+   "name": "Shadow Orbs",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 106",
+      "requirements": "Priest (Shadow) 1"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.ShadowOrbs.Description.1.Value"
+            },
+            {
+               "options": [
+                  "WC5E.Feats.ShadowOrbs.Description.2.Options.1",
+                  "WC5E.Feats.ShadowOrbs.Description.2.Options.2"
+               ]
+            },
+            {
+               "value": "WC5E.Feats.ShadowOrbs.Description.3.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/unholy/orb-swirling-pink.webp",
+   "effects": [
+   ]
+}

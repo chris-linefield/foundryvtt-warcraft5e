@@ -1,0 +1,86 @@
+{
+   "_id": "94HnLkcnUE2Nes1f",
+   "name": "Channel Divinity: Turn Living",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 100",
+      "requirements": "Priest (Death) 2"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.ChannelDivinityTurnLiving.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.ChannelDivinityTurnLiving.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Feats.ChannelDivinityTurnLiving.Description.3.Value"
+            },
+            {
+               "table": {
+                  "head": [
+                     {
+                        "title": "WC5E.Character.Level"
+                     },
+                     {
+                        "title": "CR"
+                     }
+                  ],
+                  "rows": [
+                     [
+                        {
+                           "value": 5
+                        },
+                        {
+                           "value": "1/2"
+                        }
+                     ],
+                     [
+                        {
+                           "value": 8
+                        },
+                        {
+                           "value": 1
+                        }
+                     ],
+                     [
+                        {
+                           "value": 11
+                        },
+                        {
+                           "value": 2
+                        }
+                     ],
+                     [
+                        {
+                           "value": 14
+                        },
+                        {
+                           "value": 3
+                        }
+                     ],
+                     [
+                        {
+                           "value": 17
+                        },
+                        {
+                           "value": 4
+                        }
+                     ]
+                  ]
+               }
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/control/hypnosis-mesmerism-eye.webp",
+   "effects": [
+   ]
+}

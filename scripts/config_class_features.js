@@ -526,6 +526,120 @@ ClassFeatures.paladin = {
         "20": ["Compendium.warcraft5e.wc5e_class_feats.r4fuMB78XkTztxMu"]
     }
 }
+ClassFeatures.priest = {
+    "subclasses": {
+        "death": {
+            "label": "Death",
+            "source": "Core Rules page 100",
+            "features": {
+                "1": ["Compendium.warcraft5e.wc5e_class_feats.wURsbLUqrXhS7gC1"],
+                "2": [
+                    "Compendium.warcraft5e.wc5e_class_feats.WklcfVMMOJr5ok8R",
+                    "Compendium.warcraft5e.wc5e_class_feats.94HnLkcnUE2Nes1f"
+                ],
+                "6": ["Compendium.warcraft5e.wc5e_class_feats.pZ0s66jTVdto9Z3b"],
+                "8": ["Compendium.warcraft5e.wc5e_class_feats.wC8QirAFNNRD8ML7"],
+                "17": ["Compendium.warcraft5e.wc5e_class_feats.QZYPjPxmn63Fn3hE"]
+            }
+        },
+        "discipline": {
+            "label": "Discipline",
+            "source": "Core Rules page 101",
+            "features": {
+                "1": [
+                    "Compendium.warcraft5e.wc5e_class_feats.V60pVQs7xk96aaCk",
+                    "Compendium.warcraft5e.wc5e_class_feats.wgMVVAo1MuULM9ng"
+                ],
+                "2": [
+                    "Compendium.warcraft5e.wc5e_class_feats.CG9N2tgvj6DJCFnq",
+                    "Compendium.warcraft5e.wc5e_class_feats.fH3Bk0DKTSj01D9J"
+                ],
+                "6": ["Compendium.warcraft5e.wc5e_class_feats.GmdcuYkgq4PjEOcM"],
+                "8": ["Compendium.warcraft5e.wc5e_class_feats.LNE36ekkggmScUJA"],
+                "17": ["Compendium.warcraft5e.wc5e_class_feats.TEL4vqN3R1pgnaaf"]
+            }
+        },
+        "holyLight": {
+            "label": "Holy Light",
+            "source": "Core Rules page 102",
+            "features": {
+                "1": [
+                    "Compendium.warcraft5e.wc5e_class_feats.j7XAOqsHIKkFxHIg",
+                    "Compendium.warcraft5e.wc5e_class_feats.OwD73n82QUocvmjY"
+                ],
+                "2": [
+                    "Compendium.warcraft5e.wc5e_class_feats.TLIMung7YOMWkgBC",
+                    "Compendium.warcraft5e.wc5e_class_feats.n5jzGYcRRPrUOMth"
+                ],
+                "6": ["Compendium.warcraft5e.wc5e_class_feats.FCtN9terzd3Jbqkn"],
+                "8": ["Compendium.warcraft5e.wc5e_class_feats.ifUhDJgiPut9Ey6y"],
+                "17": ["Compendium.warcraft5e.wc5e_class_feats.s6o0DWfOKaBSwVXZ"]
+            }
+        },
+        "moon": {
+            "label": "Moon",
+            "source": "Core Rules page 104",
+            "features": {
+                "1": [
+                    "Compendium.warcraft5e.wc5e_class_feats.L7x4apvUhlhGjOLA",
+                    "Compendium.warcraft5e.wc5e_class_feats.bXOPh4SQVfiV1n9k",
+                    "Compendium.warcraft5e.wc5e_class_feats.2yq4uOuwNghI4af8"
+                ],
+                "2": [
+                    "Compendium.warcraft5e.wc5e_class_feats.LEqiPm2PRvIXHx7t"
+                ],
+                "6": ["Compendium.warcraft5e.wc5e_class_feats.2CR7Sd41zGchgEda"],
+                "8": ["Compendium.warcraft5e.wc5e_class_feats.dSp7L2gv6zC2Dnva"],
+                "17": ["Compendium.warcraft5e.wc5e_class_feats.qXGm3vy0JAuBTCfO"]
+            }
+        },
+        "shadow": {
+            "label": "Shadow",
+            "source": "Core Rules page 106",
+            "features": {
+                "1": [
+                    "Compendium.warcraft5e.wc5e_class_feats.QTX7GT4x79gWUJbo",
+                    "Compendium.warcraft5e.wc5e_class_feats.1vo92gpgmxdjTAG8"
+                ],
+                "2": [
+                    "Compendium.warcraft5e.wc5e_class_feats.RKPOUYciFMDgkOlE",
+                    "Compendium.warcraft5e.wc5e_class_feats.FWbuzWKehJuVdZPQ"
+                ],
+                "6": ["Compendium.warcraft5e.wc5e_class_feats.QXFdCzK6APKion73"],
+                "8": ["Compendium.warcraft5e.wc5e_class_feats.vQwHVzc4EuY3toQM"],
+                "17": ["Compendium.warcraft5e.wc5e_class_feats.gSqHPTauSrMKntIT"]
+            }
+        }
+    },
+    "features": {
+        "1": [
+            "Compendium.warcraft5e.wc5e_class_feats.EUN8MjYR1F8GZ4ET",
+            "Compendium.warcraft5e.wc5e_class_feats.DmVapDswi1KbEY7L",
+            "Compendium.warcraft5e.wc5e_class_feats.onB2GfF5CowTtYEG"
+        ],
+        "2": [
+            "Compendium.warcraft5e.wc5e_class_feats.dRIBqPhFZ3m1ZTkP",
+            "Compendium.warcraft5e.wc5e_class_feats.EUN8MjYR1F8GZ4ET",
+            "Compendium.warcraft5e.wc5e_class_feats.RiwL9ouurSGUdLmD"
+        ],
+        "4": ["Compendium.warcraft5e.wc5e_class_feats.pZ0s66jTVdto9Z3b"],
+        "6": [
+            "Compendium.warcraft5e.wc5e_class_feats.dRIBqPhFZ3m1ZTkP",
+            "Compendium.warcraft5e.wc5e_class_feats.EUN8MjYR1F8GZ4ET"
+        ],
+        "8": [
+            "Compendium.warcraft5e.wc5e_class_feats.pZ0s66jTVdto9Z3b",
+            "Compendium.warcraft5e.wc5e_class_feats.EUN8MjYR1F8GZ4ET"
+        ],
+        "10": ["Compendium.warcraft5e.wc5e_class_feats.wK83bCyjth6JanA5"],
+        "12": ["Compendium.warcraft5e.wc5e_class_feats.pZ0s66jTVdto9Z3b"],
+        "16": ["Compendium.warcraft5e.wc5e_class_feats.pZ0s66jTVdto9Z3b"],
+        "17": ["Compendium.warcraft5e.wc5e_class_feats.EUN8MjYR1F8GZ4ET"],
+        "18": ["Compendium.warcraft5e.wc5e_class_feats.dRIBqPhFZ3m1ZTkP"],
+        "19": ["Compendium.warcraft5e.wc5e_class_feats.pZ0s66jTVdto9Z3b"],
+        "20": ["Compendium.warcraft5e.wc5e_class_feats.wK83bCyjth6JanA5"]
+    }
+}
 ClassFeatures.rogue = {
     "subclasses": {
         "assassination": {

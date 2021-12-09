@@ -90,6 +90,12 @@
                                     {{/if}}
                                     {{#if this.text}}
                                         {{localize this.text}}
+                                        {{#if this.sup}}
+                                            <sup>{{this.sup}}</sup>
+                                        {{/if}}
+                                    {{/if}}
+                                    {{#if this.text2}}
+                                        , {{localize this.text2}}
                                     {{/if}}
                                 </td>
                             {{/each}}

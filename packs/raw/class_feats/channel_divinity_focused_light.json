@@ -1,0 +1,26 @@
+{
+   "_id": "FCtN9terzd3Jbqkn",
+   "name": "Channel Divinity: Focused Light",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 103",
+      "requirements": "Priest (Holy Light) 6"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.ChannelDivinityFocusedLight.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/life/cross-explosion-burst-green.webp",
+   "effects": [
+   ]
+}

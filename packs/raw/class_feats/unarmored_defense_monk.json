@@ -1,13 +1,13 @@
 {
    "_id": "onB2GfF5CowTtYEG",
-   "name": "Unarmored Defense (Monk)",
+   "name": "Unarmored Defense",
    "permission": {
       "default": 0
    },
    "type": "feat",
    "data": {
       "source": "Core Rules page 80",
-      "requirements": "Monk 1"
+      "requirements": "Monk 1, Priest 1"
    },
    "flags": {
       "wc5e": {

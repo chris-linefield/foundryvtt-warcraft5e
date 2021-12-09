@@ -1,0 +1,35 @@
+{
+   "_id": "wK83bCyjth6JanA5",
+   "name": "Divine Intervention",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 100",
+      "requirements": "Priest 10"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.DivineIntervention.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.DivineIntervention.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Feats.DivineIntervention.Description.3.Value"
+            },
+            {
+               "value": "WC5E.Feats.DivineIntervention.Description.4.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/creatures/magical/spirit-undead-horned-blue.webp",
+   "effects": [
+   ]
+}

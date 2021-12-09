@@ -1,0 +1,105 @@
+{
+   "_id": "u76Ac0s0HNFE7SQB",
+   "name": "Drain Life",
+   "permission": {
+      "default": 0
+   },
+   "type": "spell",
+   "data": {
+      "source": "",
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": 1,
+         "units": "minute"
+      },
+      "target": {
+         "value": 1,
+         "units": "",
+         "type": "creature"
+      },
+      "range": {
+         "value": 60,
+         "long": null,
+         "units": "ft"
+      },
+      "uses": {
+         "value": 0,
+         "max": 0,
+         "per": ""
+      },
+      "ability": "",
+      "actionType": "save",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": null,
+      "damage": {
+         "parts": [
+            [
+               "4d4",
+               "fel"
+            ]
+         ],
+         "versatile": "",
+         "value": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "wis",
+         "dc": null,
+         "value": "",
+         "scaling": "spell"
+      },
+      "level": 4,
+      "school": "nec",
+      "components": {
+         "value": "",
+         "vocal": true,
+         "somatic": true,
+         "material": false,
+         "ritual": false,
+         "concentration": false
+      },
+      "materials": {
+         "value": "",
+         "consumed": false,
+         "cost": 0,
+         "supply": 0
+      },
+      "preparation": {
+         "mode": "prepared",
+         "prepared": false
+      },
+      "scaling": {
+         "mode": "none",
+         "formula": ""
+      }
+   },
+   "sort": 100001,
+   "flags": {
+      "wc5e": {
+         "type": "spell",
+         "description": [
+            {
+               "value": "WC5E.Spells.DrainLife.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Spells.DrainLife.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Spells.DrainLife.Description.3.Value"
+            }
+         ],
+         "heightened": [
+            {
+               "value": "WC5E.Spells.DrainLife.Heightened.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "systems/dnd5e/icons/spells/link-royal-2.jpg",
+   "effects": []
+}

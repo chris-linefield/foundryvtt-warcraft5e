@@ -1,0 +1,35 @@
+{
+   "_id": "L7x4apvUhlhGjOLA",
+   "name": "Facets of the Moon Goddess",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 104",
+      "requirements": "Priest (Moon) 1"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.FacetsOfTheMoonGoddess.Description.1.Value"
+            },
+            {
+               "options": [
+                  "WC5E.Feats.FacetsOfTheMoonGoddess.Description.2.Options.1",
+                  "WC5E.Feats.FacetsOfTheMoonGoddess.Description.2.Options.2"
+               ]
+            },
+            {
+               "value": "WC5E.Feats.FacetsOfTheMoonGoddess.Description.3.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/skills/melee/weapons-crossed-swords-white-blue.webp",
+   "effects": [
+   ]
+}
