@@ -8,10 +8,10 @@ Join the discord if you want to support the development of the ruleset itself.
 
 https://discord.com/channels/410113488204070932/410113488204070934
 
-## Version: 0.0.22
+## Version: 0.1.0
 Feature | Description
 ------------ | -------------
-![Classes Preview](http://www.hahn-webdesign.de/warcraft5e/classes_preview.jpg) | Features an overhauled class-sheet with lore and images. Features compendium entries for all classes.<br><br>Progress: <ul><li>[x] Alchemist + Class Feats and Spells</li><li>[x] Death Knight + Class Feats and Spells</li><li>[x] Druid + Class Feats and Spells</li><li>[x] Hunter + Class Feats</li><li>[x] Mage + Class Feats</li><li>[x] Monk + Class Feats</li><li>[x] Paladin + Class Feats</li><li>[x] Priest</li><li>[x] Rogue + Class Feats</li><li>[x] Shaman + Class Feats and Spells</li><li>[x] Tinker + Class Feats</li><li>[x] Warlock + Class Feats</li><li>[x] Warrior + Class Feats</li></ul>
+![Classes Preview](http://www.hahn-webdesign.de/warcraft5e/classes_preview.jpg) | Features an overhauled class-sheet with lore and images. Features compendium entries for 13 custom classes and their respective class feats and spells.<ul><li>Alchemist</li><li>Death Knight</li><li>Druid</li><li>Hunter</li><li>Mage</li><li>Monk</li><li>Paladin</li><li>Priest</li><li>Rogue</li><li>Shaman</li><li>Tinker</li><li>Warlock</li><li>Warrior</li></ul>
 
 
 Description | Feature
@@ -21,11 +21,11 @@ Features newly implemented race-items with their own sheet with lore and images.
 
 Feature | Description
 ------------ | -------------
-![Backgrounds Preview](http://www.hahn-webdesign.de/warcraft5e/backgrounds_preview.jpg) | Features newly implemented background-items with their own sheet with lore and images. Features compendium entries for all backgrounds.<br><br> Progress:<ul><li>[x] Acolyte + Variants and Feats</li><li>[x] Charlatan + Variants and Feats</li><li>[x] Criminal + Variants and Feats</li><li>[x] Entertainer + Variants and Feats</li><li>[x] Folk Hero + Variants and Feats</li><li>[x] Guild Artisan + Variants and Feats</li><li>[x] Haunted One + Variants and Feats</li><li>[x] Hermit + Variants and Feats</li><li>[x] Noble + Variants and Feats</li><li>[x] Outlander + Variants and Feats</li><li>[x] Sage + Variants and Feats</li><li>[x] Sailor + Variants and Feats</li><li>[x] Soldier + Variants and Feats</li><li>[x] Urchin + Variants and Feats</li></ul>
+![Backgrounds Preview](http://www.hahn-webdesign.de/warcraft5e/backgrounds_preview.jpg) | Features newly implemented background-items with their own sheet with lore and images. Features compendium entries for all backgrounds.<ul><li>Acolyte</li><li>Charlatan</li><li>Criminal</li><li>Entertainer</li><li>Folk Hero</li><li>Guild Artisan</li><li>Haunted One</li><li>Hermit</li><li>Noble</li><li>Outlander</li><li>Sage</li><li>Sailor</li><li>Soldier</li><li>Urchin</li></ul>
 
 Description | Feature
 ------------ | -------------
-Features 7 Compendiums for all Backgrounds, Background Features, Classes, Class Features, Class Talents, Races, Racial Features and Spells of fully implemented entities | ![Talents Preview](http://www.hahn-webdesign.de/warcraft5e/talents_preview.jpg)
+Features 8 custom Compendiums for the Warcraft Ruleset:<ul><li>Backgrounds</li><li>Background Features</li><li>Classes</li><li>Class Features</li><li>Class Talents</li><li>Races</li><li>Rules</li><li>Spells</li> | ![Talents Preview](http://www.hahn-webdesign.de/warcraft5e/talents_preview.jpg)
 
 Feature | Description
 ------------ | -------------
@@ -47,6 +47,5 @@ Automation of all possible skills by improving management and usage for foundry 
 
 ### Next steps:
 
-- finish all the classes
 - Make races valid items for the character sheet so it automatically updates attributes and stuff
 - rework world and lore specific things - (like available languages, ...)
