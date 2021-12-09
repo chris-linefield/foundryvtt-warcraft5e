@@ -1,0 +1,29 @@
+{
+   "_id": "gSqHPTauSrMKntIT",
+   "name": "Vampiric Embrace",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 107",
+      "requirements": "Priest (Shadow) 17"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.VampiricEmbrace.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.VampiricEmbrace.Description.2.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/death/mouth-bite-fangs-vampire.webp",
+   "effects": [
+   ]
+}

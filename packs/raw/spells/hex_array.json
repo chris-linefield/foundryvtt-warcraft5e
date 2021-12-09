@@ -1,6 +1,6 @@
 {
-   "_id": "YpCrtQNtbh6ZXIVM",
-   "name": "Starfall",
+   "_id": "WVp5nVUJZMgy8Cww",
+   "name": "Hex Array",
    "permission": {
       "default": 0
    },
@@ -17,53 +17,51 @@
          "units": "inst"
       },
       "target": {
-         "value": 60,
-         "units": "ft",
-         "type": "cylinder"
+         "value": 1,
+         "width": null,
+         "units": "",
+         "type": "creature"
       },
       "range": {
-         "value": null,
+         "value": 60,
          "long": null,
-         "units": "self"
+         "units": "ft"
       },
       "uses": {
          "value": 0,
-         "max": 0,
+         "max": "0",
          "per": ""
       },
+      "consume": {
+         "type": "",
+         "target": "",
+         "amount": null
+      },
       "ability": "",
-      "actionType": "save",
+      "actionType": "",
       "attackBonus": 0,
       "chatFlavor": "",
       "critical": null,
       "damage": {
          "parts": [
-            [
-               "5d6",
-               "arcane",
-               "bludgeoning"
-            ]
          ],
          "versatile": ""
       },
       "formula": "",
       "save": {
-         "ability": "dex",
-         "dc": 0,
-         "scaling": "spell"
       },
-      "level": 3,
-      "school": "evo",
+      "level": 1,
+      "school": "trs",
       "components": {
          "value": "",
          "vocal": true,
          "somatic": true,
          "material": false,
          "ritual": false,
-         "concentration": false
+         "concentration": true
       },
       "materials": {
-         "value": "A small crystal or glass cone",
+         "value": "",
          "consumed": false,
          "cost": 0,
          "supply": 0
@@ -73,8 +71,8 @@
          "prepared": false
       },
       "scaling": {
-         "mode": "level",
-         "formula": "1d8"
+         "mode": "none",
+         "formula": ""
       }
    },
    "sort": 100001,
@@ -83,29 +81,30 @@
          "type": "spell",
          "description": [
             {
-               "value": "WC5E.Spells.Starfall.Description.1.Value"
+               "value": "WC5E.Spells.HexArray.Description.1.Value"
             },
             {
-               "value": "WC5E.Spells.Starfall.Description.2.Value"
-            },
-            {
-               "value": "WC5E.Spells.Starfall.Description.3.Value"
-            },
-            {
-               "special": true,
-               "value": "WC5E.Spells.Starfall.Description.4.Value"
+               "options": [
+                  "WC5E.Spells.HexArray.Description.2.Options.1",
+                  "WC5E.Spells.HexArray.Description.2.Options.2",
+                  "WC5E.Spells.HexArray.Description.2.Options.3",
+                  "WC5E.Spells.HexArray.Description.2.Options.4",
+                  "WC5E.Spells.HexArray.Description.2.Options.5",
+                  "WC5E.Spells.HexArray.Description.2.Options.6",
+                  "WC5E.Spells.HexArray.Description.2.Options.7"
+               ]
             }
          ],
          "heightened": [
             {
-               "value": "WC5E.Spells.Starfall.Heightened.1.Value"
-            },
-            {
-               "value": "WC5E.Spells.Starfall.Heightened.2.Value"
+               "options": [
+                  "WC5E.Spells.HexArray.Heightened.1.Options.1"
+               ]
             }
          ]
       }
    },
-   "img": "icons/magic/light/projectiles-star-purple.webp",
-   "effects": []
+   "img": "icons/magic/unholy/hand-claw-glow-orange.webp",
+   "effects": [
+   ]
 }

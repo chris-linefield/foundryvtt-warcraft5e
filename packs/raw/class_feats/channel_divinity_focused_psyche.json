@@ -1,0 +1,26 @@
+{
+   "_id": "QXFdCzK6APKion73",
+   "name": "Channel Divinity: Focused Psyche",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 107",
+      "requirements": "Priest (Shadow) 6"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.ChannelDivinityFocusedPsyche.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/unholy/projectiles-binary-pink.webp",
+   "effects": [
+   ]
+}

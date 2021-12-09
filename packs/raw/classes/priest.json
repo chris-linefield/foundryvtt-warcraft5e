@@ -924,6 +924,151 @@
                      ]
                   }
                ]
+            },
+            {
+               "title": "WC5E.Class.Priest.Priesthoods.Shadow.Title",
+               "description": "WC5E.Class.Priest.Priesthoods.Shadow.Description",
+               "featList": [
+                  {
+                     "level": "1",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "QTX7GT4x79gWUJbo",
+                           "label": "WC5E.Feats.ShadowOrbs.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "1vo92gpgmxdjTAG8",
+                           "label": "WC5E.Feats.MindQuickening.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "2",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "RKPOUYciFMDgkOlE",
+                           "label": "WC5E.Feats.AttunedToTheVoid.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "FWbuzWKehJuVdZPQ",
+                           "label": "WC5E.Feats.ChannelDivinityDevouringPlague.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "6",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "QXFdCzK6APKion73",
+                           "label": "WC5E.Feats.ChannelDivinityFocusedPsyche.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "8",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "vQwHVzc4EuY3toQM",
+                           "label": "WC5E.Feats.ShadowForm.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "17",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "gSqHPTauSrMKntIT",
+                           "label": "WC5E.Feats.VampiricEmbrace.Label"
+                        }
+                     ]
+                  }
+               ],
+               "spellList": [
+                  {
+                     "level": "1",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "P7lhT9AHELk1HO5z",
+                           "label": "WC5E.Spells.DissonantWhispers.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "edqc56e8oPzGTn1x",
+                           "label": "WC5E.Spells.Sleep.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "3",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "uPBR91R2m5aOYwwh",
+                           "label": "WC5E.Spells.Fear.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "WVp5nVUJZMgy8Cww",
+                           "label": "WC5E.Spells.HexArray.Label",
+                           "option": "Dream Eat"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "5",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "WQOwdqWBmgOGG9zs",
+                           "label": "WC5E.Spells.Blight.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "e5hQ05ygZ2p9Mz2E",
+                           "label": "WC5E.Spells.CurseOfWeakness.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "7",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "lgmoBl0EMVO2Im5A",
+                           "label": "WC5E.Spells.BlackTentacles.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "dmjHOAmJKNVvLiZt",
+                           "label": "WC5E.Spells.Confusion.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "9",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "l9SSGxRL5X5GVUYJ",
+                           "label": "WC5E.Spells.Hold.Label",
+                           "option": "up to 4 creature types"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "Qbb36MemlLPDP9ps",
+                           "label": "WC5E.Spells.VampiricAura.Label"
+                        }
+                     ]
+                  }
+               ]
             }
          ]
       }

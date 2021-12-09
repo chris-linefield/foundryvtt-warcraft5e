@@ -2176,6 +2176,17 @@
                }
             }
          },
+         "AttunedToTheVoid": {
+            "Label": "Attuned to the Void",
+            "Description": {
+               "1": {
+                  "Value": "You may dip your spells into the raw maddening power of the Void, coloring them permanently. Choose a number of priest spells equal to your proficiency bonus."
+               },
+               "2": {
+                  "Value": "You may scribe such spells that deal damage with other energy types as psychic or shadow spells in your spellbook. The spells act the same way, unless the DM rules it is unreasonable."
+               }
+            }
+         },
          "Augmentation": {
             "Label": "Augmentation",
             "Description": {
@@ -2605,11 +2616,33 @@
                }
             }
          },
+         "ChannelDivinityDevouringPlague": {
+            "Label": "Channel Divinity: Devouring Plague",
+            "Description": {
+               "1": {
+                  "Value": "You may use an action while presenting your unholy symbol to evoke dark energy, dealing psychic damage equal to five times your priest level, halved with a Spirit saving throw. Choose any creatures within 30 feet of you, and divide the damage among them. This feature can reduce a creature to no more than half of its hit point maximum. You can‘t use this feature on undead or constructs. You regain hit points equal to the total damage you dealt."
+               },
+               "2": {
+                  "Value": "If you have at least one shadow orb before using this ability, you may choose to gain no shadow orbs from this ability‘s use for the round, and share the healing gained with them (costing one shadow orb to include one creature in the sharing)."
+               },
+               "3": {
+                  "Value": "You may reduce the amount of hit points you (and your chosen allies) can potentially gain from this ability and convert the healing energies to mana restoration. Every five hit points of healing are converted to one mana point (up to a maximum of half the healing potential). Once a creature benefits from this mana restoration, it cannot benefit again until it completes a long rest."
+               }
+            }
+         },
          "ChannelDivinityFocusedLight": {
             "Label": "Channel Divinity: Focused Light",
             "Description": {
                "1": {
                   "Value": "You may use a channel divinity to alter the target and refresh the duration of any healing sigil spell you cast on a target. This may be used  outside your turn, possibly recovering from a dispelled sigil by shifting it to another target. This requires a spell attack as normal. This costs a reaction if used outside your turn, and a bonus action if on your turn."
+               }
+            }
+         },
+         "ChannelDivinityFocusedPsyche": {
+            "Label": "Channel Divinity: Focused Psyche",
+            "Description": {
+               "1": {
+                  "Value": "You may use a channel divinity to alter the target and refresh the duration of any damaging sigil spell you cast on a target. This may be used outside your turn, possibly recovering from a dispelled sigil by shifting it to another target. This requires a spell attack as normal. This costs a reaction if used outside your turn, and a bonus action if on your turn."
                }
             }
          },
@@ -4917,6 +4950,17 @@
                }
             }
          },
+         "MindQuickening": {
+            "Label": "Mind Quickening",
+            "Description": {
+               "1": {
+                  "Value": "Your expanded mind gives you the ability to touch the minds of other creatures. You can communicate telepathically with any creature you can see within 30 feet of you. You don‘t need to share a language with the creature for it to understand your telepathic utterances, but the creature must be able to understand at least one language."
+               },
+               "2": {
+                  "Value": "You may also pronounce the verbal components of your priest spells mentally, so that only the target can hear them. This way, you cast spells in areas of silence or while muted, so long as at least one target of the spell is within 30 feet and within line of sight."
+               }
+            }
+         },
          "MistWeave": {
             "Label": "Mist Weave",
             "Description": {
@@ -5522,6 +5566,40 @@
             "Description": {
                "1": {
                   "Value": "You may initiate a shadow dance by moving more than 10 feet. While in this stance, you grant yourself concealment as per the blur spell. Also while in the stance, creatures affected or distracted by your mage spells (such as a summoned monster or an image illusion, but not the distracted condition) grant you advantage to your first attack at any round. This may be used once per short rest, and remains so long as you continue moving."
+               }
+            }
+         },
+         "ShadowForm": {
+            "Label": "Shadow Form",
+            "Description": {
+               "1": {
+                  "Value": "You gain the avatar form priest spell for no cost if you didn‘t already have it. Furthermore, you augment the spell in the following ways:"
+               },
+               "2": {
+                  "Options": {
+                     "1": "You can cast the spell as a reaction when reduced to 0 hit points. When this happens, the spell also restores one-quarter your full hit points and mana, and grants you 4 Shadow orbs. If you enter the avatar form this way, you can only cast psychic, sigil, and domain spells so long as the form persists.",
+                     "2": "When you cast the spell, you can dispel one magical effect on you (as if by the dispel magic spell, spell level equal to the avatar form spell)."
+                  }
+               },
+               "3": {
+                  "Value": "After the spell‘s duration ends, you return to your normal form, and are reduced to 10% of your maximum hit points. You also learn shath‘yar, if you don‘t already know how to speak it."
+               }
+            }
+         },
+         "ShadowOrbs": {
+            "Label": "Shadow Orbs",
+            "Description": {
+               "1": {
+                  "Value": "Whenever you successfully deal psychic damage to an enemy through a spell or ability, you gain one Shadow orb. This applies once per spell. Shadow orbs spheres may be used to empower your abilities. Shadow Orbs may be spent for the following."
+               },
+               "2": {
+                  "Options": {
+                     "1": "<i>Meld into Madness</i>: Reduce the mana cost of one priest spell you cast. The reduction in mana cost is one point per Shadow orb removed (minimum mana cost 1). For each level of madness you have, a single Shadow orb can reduce the mana cost by 0.5 points (round down).",
+                     "2": "<i>Prey on the Psyche</i>: Deal 1 additional point of psychic damage per damage dice with spells and abilities that deal psychic damage. This can be spent after rolling for damage, and applies once per spell. This does not stack with similar abilities."
+                  }
+               },
+               "3": {
+                  "Value": "You may have a maximum number of orbs equal to 2 plus your Proficiency bonus, and they remain for one hour after being acquired."
                }
             }
          },
@@ -6428,6 +6506,17 @@
                      "2": "You become resistant to damage from good aligned targets (or magical weapons) as well as to shadow damage.",
                      "3": "Any undead within any active aura you have regains 2d6 hit points every round. This cannot exceed half their total hit points."
                   }
+               }
+            }
+         },
+         "VampiricEmbrace": {
+            "Label": "Vampiric Embrace",
+            "Description": {
+               "1": {
+                  "Value": "Whenever you deal damage with a damaging sigil or psychic effect, you may can count one-quarter the damage dealt and grant it as healing to allies within 30 feet of the target, dividing the healing evenly. You may instead divide the damage by ten, and grant it as mana restoration to the same number of targets."
+               },
+               "2": {
+                  "Value": "Unlike normal mana restoration effects, this can benefit a target up to three times before it cannot be used again for an hour, although you cannot restore more mana to yourself than the cost of the spell you used."
                }
             }
          },
@@ -7911,6 +8000,14 @@
                }
             }
          },
+         "CurseOfWeakness": {
+            "Label": "Curse of Weakness",
+            "Description": {
+               "1": {
+                  "Value": "Upon casting this spell, you must succeed on a ranged touch attack to affect a target. On a successful hit, you may curse them with weakness. The target deals only half damage with weapon and spells attacks (indirect damage such as sigils, bleeding effects, and other abilities are unaffected)."
+               }
+            }
+         },
          "Daylight": {
             "Label": "Daylight",
             "Description": {
@@ -7985,6 +8082,19 @@
                }
             }
          },
+         "DissonantWhispers": {
+            "Label": "Dissonant Whispers",
+            "Description": {
+               "1": {
+                  "Value": "You whisper a discordant melody that only one creature of your choice within range can hear, wracking it with terrible pain. The target must make a Wisdom saving throw. On a failed save, it takes 3d6 psychic damage and must immediately use its reaction, if available, to move as far as its speed allows away from you. The creature doesn’t move into obviously dangerous ground, such as a fire or a pit. On a successful save, the target takes half as much damage and doesn’t have to move away. A deafened creature automatically succeeds on the save."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st."
+               }
+            }
+         },
          "Divination": {
             "Label": "Divination",
             "Description": {
@@ -7996,6 +8106,25 @@
                },
                "3": {
                   "Value": "If you cast the spell two or more times before finishing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get a random reading. The DM makes this roll in secret."
+               }
+            }
+         },
+         "DivineShield": {
+            "Label": "Divine Shield",
+            "Description": {
+               "1": {
+                  "Value": "You raise your hand, and are protected by the grace of the Holy Light. A powerful shielding ward protects you, granting you 4d8 temporary hit points so long as the spell is active. Furthermore, the temporary hit points can also be spent to absorb spells (3 hit points per spell level)."
+               },
+               "2": {
+                  "Value": "If the shield manages to absorb all damage from an effect or absorb a spell, you are protected against any secondary effects (as if immune). This can be determined after a saving throw."
+               },
+               "3": {
+                  "Value": "The spell cannot be overwhelmed with one attack. If reduced to 0 temporary hit points with one attack, the spell ends with 1 hit point instead. This can occur only once for every instance of the spell being cast."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "For every spell level above 2nd, the number of temporary hit points increases by 2d8."
                }
             }
          },
@@ -8181,6 +8310,17 @@
             "Heightened": {
                "1": {
                   "Value": "When you cast this spell using a spell slot of 2nd level or higher, you gain 5 additional Temporary Hit Points for each slot level above 1st."
+               }
+            }
+         },
+         "Fear": {
+            "Label": "Fear",
+            "Description": {
+               "1": {
+                  "Value": "You project a phantasmal image of a creature's worst fears. Each creature in a 30-foot cone must succeed on a Wisdom saving throw or drop whatever it is holding and become Frightened for the duration."
+               },
+               "2": {
+                  "Value": "While Frightened by this spell, a creature must take the Dash action and move away from you by the safest available route on each of its turns, unless there is nowhere to move. If the creature ends its turn in a location where it doesn't have line of sight to you, the creature can make a Wisdom saving throw. On a successful save, the spell ends for that creature."
                }
             }
          },
@@ -8459,6 +8599,32 @@
             "Heightened": {
                "1": {
                   "Value": "When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st."
+               }
+            }
+         },
+         "HexArray": {
+            "Label": "Hex Array",
+            "Description": {
+               "1": {
+                  "Value": "You inflict one hex of the below array."
+               },
+               "2": {
+                  "Options": {
+                     "1": "<i>Death Hex (level 1)</i>: You place a curse on a creature that you can see within range. Until the spell ends, you deal an extra 1d6 shadow damage to the target whenever you hit it with an attack. Also, choose one ability when you cast the spell. The target has disadvantage on ability checks made with the chosen ability. The duration of this effect is Concentration, up to 1 hour. You can maintain this hex and use another in the same array.",
+                     "2": "<i>Fortune (level 1)</i>: As the Bless spell.",
+                     "3": "<i>Love Hex (level 1)</i>: As the Charm spell, but can affect any creature type, so long as that finds you attractive.",
+                     "4": "<i>Misfortune (level 1)</i>: As the Bane spell.",
+                     "5": "<i>Dream Eat (level 2)</i>: You can deal 2d6 psychic damage to a sleeping target per spell level, healing one-half the damage you deal. If the target dies from this, they are instead trapped in eternal sleep (this is treated as a curse effect. Breaking the curse awakens the target normally).",
+                     "6": "<i>Bone Lock (level 3)</i>: As the slow spell.",
+                     "7": "<i>Spell Steal Hex (level 5)</i>: As the Spell Steal spell. This still requires you to prepare the dispel magic spell."
+                  }
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Options": {
+                     "1": "<i>Death Hex</i>: When you cast this spell as a spell of 3rd, you can maintain your concentration on the spell for up to 8 hours. When you cast this as a 5th level spell, you can maintain your concentration on the spell for up to 24 hours."
+                  }
                }
             }
          },
