@@ -85,7 +85,9 @@
                                         {{/if}}
                                     {{else}}
                                         {{#unless this.text}}
-                                            -
+                                            {{#unless this.link}}
+                                                -
+                                            {{/unless}}
                                         {{/unless}}
                                     {{/if}}
                                     {{#if this.text}}
@@ -97,6 +99,14 @@
                                     {{#if this.text2}}
                                         , {{localize this.text2}}
                                     {{/if}}
+                                    {{#if this.link}}
+                                        <a class="entity-link spellLink" data-pack="{{this.link.pack}}" data-id="{{this.link.node}}">
+                                            {{localize this.link.label}}
+                                            {{#if this.link.option}}
+                                                ({{this.link.option}})
+                                            {{/if}}
+                                        </a>
+                                    {{/if}}
                                 </td>
                             {{/each}}
                         </tr>
@@ -104,35 +114,6 @@
                 </table>
             {{/if}}
         {{/each}}
-
-        {{#if item.flags.wc5e.table}}
-            <br>
-            <table class="{{item.flags.wc5e.table.class}}">
-                <tr>
-                    {{#each item.flags.wc5e.table.heads}}
-                        <th><span>{{localize this}}</span></th>
-                    {{/each}}
-                </tr>
-                {{log item.flags.wc5e.table}}
-                {{#each item.flags.wc5e.table.rows}}
-                    <tr>
-                    {{#each this}}
-                        <td>{{localize this}}</td>
-                    {{/each}}
-                    </tr>
-                {{/each}}
-            </table>
-        {{/if}}
-
-        {{#if item.flags.wc5e.blocks2}}
-            <br>
-            {{#each item.flags.wc5e.blocks2}}
-                <p>
-                    <strong>{{localize this.title}}</strong><br>
-                    {{{localize this.content}}}
-                </p>
-            {{/each}}
-        {{/if}}
     </section>
 
     <div class="ruleNav bottom">
