@@ -1,0 +1,43 @@
+{
+   "_id": "zqfgT8VjFg8qpPRs",
+   "name": "Gas / Oil (Pint)",
+   "type": "backpack",
+   "img": "icons/containers/barrels/barrel-drum-steel-oil.webp",
+   "data": {
+      "source": "",
+      "quantity": 1,
+      "weight": 1,
+      "price": 0.064,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "common",
+      "identified": true,
+      "attributes": {
+         "spelldc": 10
+      },
+      "damage": {
+         "parts": []
+      }
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 600000,
+   "permission": {
+      "default": 0
+   },
+   "flags": {
+      "wc5e": {
+         "type": "item",
+         "cost": 6.4,
+         "unit": "WC5E.UI.Units.Sp",
+         "mass": 1,
+         "weightUnit": "WC5E.UI.Units.Pint",
+         "label": "WC5E.Items.GasOilPint.Label",
+         "description": [
+            {
+               "value": "WC5E.Items.GasOilPint.Description.1.Value"
+            }
+         ]
+      }
+   }
+}

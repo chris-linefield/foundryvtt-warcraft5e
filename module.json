@@ -74,6 +74,14 @@
          "package": "warcraft5e"
       },
       {
+         "name": "wc5e_items",
+         "label": "Wc5e | Items",
+         "path": "./packs/items.db",
+         "entity": "Item",
+         "system": "dnd5e",
+         "package": "warcraft5e"
+      },
+      {
          "name": "wc5e_races",
          "label": "Wc5e | Races",
          "path": "./packs/races.db",

@@ -1,0 +1,46 @@
+{
+   "_id": "9M0rjTLJYoExL669",
+   "name": "Powder (Horn)",
+   "type": "backpack",
+   "img": "icons/containers/ammunition/powder-horn-leather.webp",
+   "data": {
+      "source": "",
+      "quantity": 1,
+      "weight": 2,
+      "price": 24,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "common",
+      "identified": true,
+      "attributes": {
+         "spelldc": 10
+      },
+      "damage": {
+         "parts": []
+      }
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 600000,
+   "permission": {
+      "default": 0
+   },
+   "flags": {
+      "wc5e": {
+         "type": "item",
+         "cost": 24,
+         "unit": "WC5E.UI.Units.Gp",
+         "mass": 2,
+         "weightUnit": "WC5E.UI.Units.Lb",
+         "label": "WC5E.Items.PowderHorn.Label",
+         "description": [
+            {
+               "value": "WC5E.Items.PowderHorn.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Items.PowderHorn.Description.2.Value"
+            }
+         ]
+      }
+   }
+}

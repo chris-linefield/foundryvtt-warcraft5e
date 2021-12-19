@@ -6740,6 +6740,68 @@
          "AlchemistsSupplies": {
             "Label": "Alchemist‘s Supplies"
          },
+         "Battery": {
+            "Label": "Battery",
+            "Description": {
+               "1": {
+                  "Value": "5 fuel units for electrical engines, rechargeable"
+               }
+            }
+         },
+         "BatteryGreater": {
+            "Label": "Battery (Greater)",
+            "Description": {
+               "1": {
+                  "Value": "50 fuel units for electrical engines, rechargeable"
+               }
+            }
+         },
+         "Bullets": {
+            "Label": "Bullets (20)",
+            "Description": {
+               "1": {
+                  "Value": "Ammunition deals piercing damage"
+               },
+               "2": {
+                  "Value": "These pieces of ammunition are specially-prepared to include their own fuel. Such ammunition is resistant to water, but have a 10% chance to explode every round if exposed to direct flame. Bullets and pellets are both blacksmithing and engineering product for crafting purposes."
+               }
+            }
+         },
+         "BulletsPackaged": {
+            "Label": "Bullets (Packaged) (20)",
+            "Description": {
+               "1": {
+                  "Value": "Ammunition prepackaged with its fuel (gunpowder), water resistant"
+               },
+               "2": {
+                  "Value": "These pieces of ammunition are specially-prepared to include their own fuel. Such ammunition is resistant to water, but have a 10% chance to explode every round if exposed to direct flame. Bullets and pellets are both blacksmithing and engineering product for crafting purposes."
+               }
+            }
+         },
+         "CauldronCastIron": {
+            "Label": "Cauldron (Cast Iron)",
+            "Description": {
+               "1": {
+                  "Value": "A cast iron cauldron can be used in creating potion batches (see Chapter 7)"
+               }
+            }
+         },
+         "Coal": {
+            "Label": "Coal",
+            "Description": {
+               "1": {
+                  "Value": "1/4 a unit of fuel for steam engines"
+               }
+            }
+         },
+         "CoalShovel": {
+            "Label": "Coal (Shovel)",
+            "Description": {
+               "1": {
+                  "Value": "1 fuel unit for steam engines"
+               }
+            }
+         },
          "CommonClothes": {
             "Label": "Common Clothes"
          },
@@ -6755,6 +6817,14 @@
          "FineClothes": {
             "Label": "Fine Clothes"
          },
+         "GasOilPint": {
+            "Label": "Gas / Oil (Pint)",
+            "Description": {
+               "1": {
+                  "Value": "1 fuel unit for combustion engines, loud"
+               }
+            }
+         },
          "HolySymbol": {
             "Label": "Holy Symbol"
          },
@@ -6764,11 +6834,63 @@
          "MusicalInstrument": {
             "Label": "Musical Instrument"
          },
+         "Pellets": {
+            "Label": "Pellets (20)",
+            "Description": {
+               "1": {
+                  "Value": "Ammunition deals bludgeoning damage"
+               },
+               "2": {
+                  "Value": "These pieces of ammunition are specially-prepared to include their own fuel. Such ammunition is resistant to water, but have a 10% chance to explode every round if exposed to direct flame. Bullets and pellets are both blacksmithing and engineering product for crafting purposes."
+               }
+            }
+         },
+         "PelletsPackaged": {
+            "Label": "Pellets (Packaged) (20)",
+            "Description": {
+               "1": {
+                  "Value": "Ammunition prepackaged with its fuel (gunpowder), water and fire-resistant"
+               },
+               "2": {
+                  "Value": "These pieces of ammunition are specially-prepared to include their own fuel. Such ammunition is resistant to water, but have a 10% chance to explode every round if exposed to direct flame. Bullets and pellets are both blacksmithing and engineering product for crafting purposes."
+               }
+            }
+         },
          "PoisonersKit": {
             "Label": "Poisoner‘s Kit"
          },
          "Pouch": {
             "Label": "Pouch"
+         },
+         "PowderHorn": {
+            "Label": "Powder (Horn)",
+            "Description": {
+               "1": {
+                  "Value": "Has powder enough for 12 shots, water and fire-resistant"
+               },
+               "2": {
+                  "Value": "Carrying two pounds of gunpowder, this fire and water-resistant horn is required almost always for a tinker on the go. Gunpowder is both an alchemical and engineering product for crafting purposes."
+               }
+            }
+         },
+         "PowderKeg": {
+            "Label": "Powder (Keg)",
+            "Description": {
+               "1": {
+                  "Value": "Has powder enough for 120 shots"
+               },
+               "2": {
+                  "Value": "Containing twenty pounds of gunpowder, this keg is very flammable, but it is a sure sight for sore dwarven eyes. Gunpowder is both an alchemical and engineering product for crafting purposes."
+               }
+            }
+         },
+         "PowderPinch": {
+            "Label": "Powder (Pinch)",
+            "Description": {
+               "1": {
+                  "Value": "Can fuel one firearm shot"
+               }
+            }
          },
          "PrayerBook": {
             "Label": "Prayer Book"
@@ -10539,6 +10661,7 @@
          "BonusAction": "Bonus Action",
          "Class": "Class",
          "Consumable": "Consumable",
+         "Cost": "Cost",
          "Creature": "Creature",
          "Dialogs": {
             "CancelSkill": "Release",
@@ -10548,9 +10671,11 @@
          "Features": "Features",
          "Flaw": "Flaw",
          "Flaws": "Flaws",
+         "Gear": "Gear",
          "Ideal": "Ideal",
          "Ideals": "Ideals",
          "Language": "Language",
+         "Mass": "Mass",
          "MaterialCost": "Material Cost",
          "Phrases": {
             "Skill": "skill",
@@ -10559,6 +10684,7 @@
          "PersonalityTrait": "Personality Trait",
          "PersonalityTraits": "Personality Traits",
          "PointCost": "Point Cost",
+         "Properties": "Properties",
          "Race": "Race",
          "Rarities": {
             "Common": "Common",
@@ -10579,8 +10705,10 @@
             "Gp": "gp",
             "Hour": "hour",
             "Instant": "instant",
+            "Lb": "lb",
             "Minute": "minute",
             "Minutes": "minutes",
+            "Pint": "pint",
             "Sp": "silver",
             "Turn": "turn",
             "Turns": "turns"

@@ -2,6 +2,103 @@
 
     {{!-- Item Sheet Header --}}
     <header class="sheet-header flexrow">
-        ITEM SHEET
+        {{item.name}}
     </header>
+
+    <section>
+
+        {{#each item.flags.wc5e.description}}
+            {{#if this.headline}}
+                <br>
+                <h2>{{localize this.headline}}</h2>
+            {{/if}}
+            {{#if this.title}}
+                {{#unless this.headline}}
+                    <br>
+                {{/unless}}
+                <h3>{{localize this.title}}</h3>
+            {{/if}}
+            {{#if this.value}}
+                <p>
+                    {{#if this.special}}
+                        <i>Special:</i>
+                    {{/if}}
+                    {{{localize this.value}}}
+                </p>
+            {{/if}}
+            {{#if this.options}}
+                <ul>
+                    {{#each this.options}}
+                        <li>{{{localize this}}}</li>
+                    {{/each}}
+                </ul>
+            {{/if}}
+            {{#if this.table}}
+                <table class="{{this.table.class}}">
+                    <tr>
+                        {{#each this.table.head}}
+                            <th class="{{this.class}}">
+                                {{#if this.wrap}}
+                                    <span>
+                                {{/if}}
+                                {{localize this.title}}
+                                {{#if this.sup}}
+                                    <sup>{{this.sup}}</sup>
+                                {{/if}}
+                                {{#if this.wrap}}
+                                    </span>
+                                {{/if}}
+                            </th>
+                        {{/each}}
+                    </tr>
+                    {{#each this.table.rows}}
+                        <tr>
+                            {{#each this}}
+                                <td class="{{this.class}}">
+                                    {{#if this.value}}
+                                        {{#if this.plus}}
+                                            +
+                                        {{/if}}
+                                        {{#if this.minus}}
+                                            -
+                                        {{/if}}
+                                        {{this.value}}
+                                        {{#if this.unit}}
+                                            {{localize this.unit}}
+                                        {{/if}}
+                                        {{#if this.sup}}
+                                            <sup>{{this.sup}}</sup>
+                                        {{/if}}
+                                    {{else}}
+                                        {{#unless this.text}}
+                                            {{#unless this.link}}
+                                                -
+                                            {{/unless}}
+                                        {{/unless}}
+                                    {{/if}}
+                                    {{#if this.text}}
+                                        {{localize this.text}}
+                                        {{#if this.sup}}
+                                            <sup>{{this.sup}}</sup>
+                                        {{/if}}
+                                    {{/if}}
+                                    {{#if this.text2}}
+                                        , {{localize this.text2}}
+                                    {{/if}}
+                                    {{#if this.link}}
+                                        <a class="entity-link spellLink" data-pack="{{this.link.pack}}" data-id="{{this.link.node}}">
+                                            {{localize this.link.label}}
+                                            {{#if this.link.option}}
+                                                ({{this.link.option}})
+                                            {{/if}}
+                                        </a>
+                                    {{/if}}
+                                </td>
+                            {{/each}}
+                        </tr>
+                    {{/each}}
+                </table>
+            {{/if}}
+        {{/each}}
+    </section>
 </form>
