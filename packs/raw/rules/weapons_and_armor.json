@@ -1,0 +1,75 @@
+{
+   "_id": "wl2G6ghGhmHWPhRz",
+   "name": "Weapons and Armor",
+   "permission": {
+      "default": 0
+   },
+   "type": "class",
+   "flags": {
+      "wc5e": {
+         "type": "rule",
+         "title": "WC5E.Rules.Mechanics.WeaponsAndArmor.Label",
+         "content": [
+            {
+               "table": {
+                  "head": [
+                     {
+                        "title": "WC5E.UI.Name"
+                     },
+                     {
+                        "title": "WC5E.UI.Cost",
+                        "class": "numberCol"
+                     },
+                     {
+                        "title": "WC5E.UI.Damage",
+                        "class": "numberCol"
+                     },
+                     {
+                        "title": "WC5E.UI.Mass",
+                        "class": "numberCol"
+                     },
+                     {
+                        "title": "WC5E.UI.Properties"
+                     },
+                     {
+                        "title": "WC5E.UI.Proficiency"
+                     }
+                  ],
+                  "rows": [
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "H9mvCWwGzgmMWCVL",
+                              "label": "WC5E.Items.AttackClaws.Label"
+                           }
+                        },
+                        {
+                           "value": 50,
+                           "unit": "WC5E.UI.Units.Gp"
+                        },
+                        {
+                           "value": 1,
+                           "unit": "WC5E.UI.Units.Lb"
+                        },
+                        {
+                           "text": "WC5E.Items.Battery.Description.1.Value"
+                        }
+                     ]
+                  ]
+               }
+            }
+         ],
+         "prev": {
+            "pack": "wc5e_rules",
+            "node": "8a9UvmZT9MkLygR5",
+            "label": "WC5E.Rules.Mechanics.Wealth.Label"
+         },
+         "next": {
+            "pack": "wc5e_rules",
+            "node": "cq8YZHBjsac3LmSr",
+            "label": "WC5E.Rules.Mechanics.WeaponsAndArmor.Label"
+         }
+      }
+   }
+}

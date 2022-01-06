@@ -6740,6 +6740,38 @@
          "AlchemistsSupplies": {
             "Label": "Alchemist‘s Supplies"
          },
+         "AttackClaws": {
+            "Label": "Attack Claws",
+            "Description": {
+               "1": {
+                  "Value": "These claws may be attached to a hand, and allow for a user to perform somatic components without occupying the hand (as if a spellcasting focus). They are usually favored by orcish shamans who enter melee after conjuring elementals or placing totems. This is based on the dagger."
+               }
+            }
+         },
+         "BayonetHeavy": {
+            "Label": "Bayonet (Heavy)",
+            "Description": {
+               "1": {
+                  "Value": "This longsword-like blade can be attached to a heavy firearm or crossbow, allowing it to make melee weapon attacks. This requires the proficiency of the weapon described. Some firearms are modified with different weapons. The weapon cannot be heavier than the firearm itself. Weapons attached to firearms or crossbows can be enchanted (as normal weapons)."
+               }
+            }
+         },
+         "BayonetMedium": {
+            "Label": "Bayonet (Medium)",
+            "Description": {
+               "1": {
+                  "Value": "This shortsword-like blade can be attached to a medium firearm or crossbow, allowing it to make melee weapon attacks. This requires the proficiency of the weapon described. Some firearms are modified with different weapons. The weapon cannot be heavier than the firearm itself. Weapons attached to firearms or crossbows can be enchanted (as normal weapons)."
+               }
+            }
+         },
+         "BayonetSmall": {
+            "Label": "Bayonet (Small)",
+            "Description": {
+               "1": {
+                  "Value": "This dagger-like blade can be attached to a light firearm or crossbow, allowing it to make melee weapon attacks. This requires the proficiency of the weapon described. Some firearms are modified with different weapons. The weapon cannot be heavier than the firearm itself. Weapons attached to firearms or crossbows can be enchanted (as normal weapons)."
+               }
+            }
+         },
          "Battery": {
             "Label": "Battery",
             "Description": {
@@ -6816,6 +6848,14 @@
          },
          "FineClothes": {
             "Label": "Fine Clothes"
+         },
+         "GarroteWire": {
+            "Label": "GarroteWire",
+            "Description": {
+               "1": {
+                  "Value": "This weapon can be used to start a grapple with an attack roll instead of making a Strength (Athletics) check, but suffers disadvantage to the roll if the target is aware of the attacker. This is a simple weapon."
+               }
+            }
          },
          "GasOilPint": {
             "Label": "Gas / Oil (Pint)",
@@ -10663,6 +10703,7 @@
          "Consumable": "Consumable",
          "Cost": "Cost",
          "Creature": "Creature",
+         "Damage": "Damage",
          "Dialogs": {
             "CancelSkill": "Release",
             "CancelSkillDescription": "Do you really want to release the skill?"
@@ -10677,6 +10718,7 @@
          "Language": "Language",
          "Mass": "Mass",
          "MaterialCost": "Material Cost",
+         "Name": "Name",
          "Phrases": {
             "Skill": "skill",
             "Spell": "spell"
@@ -10684,6 +10726,7 @@
          "PersonalityTrait": "Personality Trait",
          "PersonalityTraits": "Personality Traits",
          "PointCost": "Point Cost",
+         "Proficiency": "Proficiency",
          "Properties": "Properties",
          "Race": "Race",
          "Rarities": {
