@@ -74,9 +74,25 @@
          "package": "warcraft5e"
       },
       {
+         "name": "wc5e_monsters",
+         "label": "Wc5e | Monsters",
+         "path": "./packs/monsters.db",
+         "entity": "Actor",
+         "system": "dnd5e",
+         "package": "warcraft5e"
+      },
+      {
          "name": "wc5e_races",
          "label": "Wc5e | Races",
          "path": "./packs/races.db",
+         "entity": "Item",
+         "system": "dnd5e",
+         "package": "warcraft5e"
+      },
+      {
+         "name": "wc5e_racial_feats",
+         "label": "Wc5e | Racial Features",
+         "path": "./packs/racial_feats.db",
          "entity": "Item",
          "system": "dnd5e",
          "package": "warcraft5e"

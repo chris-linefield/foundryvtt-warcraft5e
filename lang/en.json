@@ -1995,6 +1995,21 @@
                }
             }
          },
+         "AncientCulture": {
+            "Label": "Ancient Culture",
+            "Description": {
+               "1": {
+                  "Value": "You can gain one of the below abilities."
+               },
+               "2": {
+                  "Options": {
+                     "1": "<i>Berserker Warrior</i>: You can rage as if you had the berserker rage talent as a 1st level warrior. If you gain the talent, you increase the total times you can rage by 1. Your rage also increases the damage of ranged thrown attacks as if they were melee weapon attacks (so long as they use Strength).",
+                     "2": "<i>Blessed by Loa</i>: You know the vicious mockery cantrip. If you have the ability to cast spells, this consumes mana as normal. Otherwise, it has no cost to use.",
+                     "3": "<i>Naturally-Attuned</i>: You gain a favored terrain, as a 1st level hunter. If you ever become a hunter or gain a favored terrain, you may choose another while retaining this bonus."
+                  }
+               }
+            }
+         },
          "AncientPower": {
             "Label": "Ancient Power",
             "Description": {
@@ -4350,6 +4365,14 @@
                }
             }
          },
+         "HostileHomeland": {
+            "Label": "Hostile Homeland",
+            "Description": {
+               "1": {
+                  "Value": "You gain resistance to cold damage."
+               }
+            }
+         },
          "HunterArchetype": {
             "Label": "Hunter Archetype",
             "Description": {
@@ -4687,6 +4710,14 @@
             "Description": {
                "1": {
                   "Value": "You know Kalimag, the language of elementals and wind, earth, fire, and water spirits. You can speak the language and use it to leave hidden messages. You and others who know this language automatically spot such a message. If you can speak Kalimag, you can communicate with all other shamans and elementals, even if you don‘t otherwise share a language."
+               }
+            }
+         },
+         "KeenNose": {
+            "Label": "Keen Nose",
+            "Description": {
+               "1": {
+                  "Value": "You have advantage on all Spirit (Perception) tests related to smell."
                }
             }
          },
@@ -5339,6 +5370,17 @@
                },
                "2": {
                   "Value": "You can have only one creature under the effect of this feature at a time. You can choose to end the vibrations harmlessly without using an action."
+               }
+            }
+         },
+         "RapidRegeneration": {
+            "Label": "Rapid Regeneration",
+            "Description": {
+               "1": {
+                  "Value": "Whenever you rest or are subject to healing, you can roll twice and take the higher result of any roll to grant you hit points. If this dice has a special effect on a certain result (such as of the holy priest and paladins‘ Light‘s Insight ability), you may either choose to roll the healing twice or roll maximized dice, not both."
+               },
+               "2": {
+                  "Value": "You can also regrow a lost limb after a week of losing them, unless the limb was lost through your own will or through magic, so long as you have adequate rest and satiation."
                }
             }
          },
