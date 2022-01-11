@@ -6849,6 +6849,26 @@
          "Titan": "Titan",
          "Troll": "Troll"
       },
+      "MonsterFeats": {
+         "MaskMagic": {
+            "Label": "Mask Magic",
+            "Description": {
+               "1": {
+                  "Value": "The shadow hunter can spend a bonus action to wear one of the following masks, which grants them a special benefit."
+               },
+               "2": {
+                  "Options": {
+                     "1": "<i>Legba Mask</i>: The shadow hunter may cast the Haste spell.",
+                     "2": "<i>Lukou Mask</i>: The shadow hunter adds +3 to the final number of hit points healed by hunter or shaman spells. This can be added to the final damage to undead cured by said spells. This mask grants the benefit for one hour.",
+                     "3": "<i>Shango Mask</i>: The shadow hunter adds +3 to the final number of damage points dealt by his hunter or shaman lightning spells. This mask grants the benefit for one hour.",
+                     "4": "<i>Bwonsamdi Mask</i>: The shadow hunter treats the Exorcism spell as a bonus prepared spell (hunter spell list). He may cast the spell normally or apply it as a strike effect. This benefit remains for one hour. This affects all undead except undead shadows.",
+                     "5": "<i>Ogoun and Dambala Masks</i>: The shadow hunter casts the Polymorph spell for 5 mana points while the mask is active. This is usually used to turn into a snake, or turn an enemy into a frog or likewise helpless critter.",
+                     "6": "<i>The Dark Mask</i>: The shadow hunter casts the Big Bad Voodoo spell. This mask also costs 6 mana points to use."
+                  }
+               }
+            }
+         }
+      },
       "RaceSheet": {
          "AbilityScoreIncrease": "Ability Score Increase",
          "Age": "Age",

@@ -1,23 +1,24 @@
-console.log('>> Wc5e: Initializing Character Sheet');
+console.log('>> Wc5e: Initializing NPC Sheet');
 
-import ActorSheet5eCharacter from '../../../../systems/dnd5e/module/actor/sheets/character.js';
+import ActorSheet5eNPC from "../../../../systems/dnd5e/module/actor/sheets/npc.js";
 import {renderWcDescription} from "../util.js"
 
-/*
- * Actor Sheet for player characters
+/**
+ * An Actor sheet for NPC type characters.
+ * @extends {ActorSheet5eNPC}
  */
-export class WcCharacterSheet extends ActorSheet5eCharacter {
+export class WcNpcSheet extends ActorSheet5eNPC {
 
     constructor(...args) {
         super(...args);
-        this.options.classes = ['warcraft5e', 'dnd5e', 'sheet', 'actor', 'character'];
-        this.options.width = this.position.width = 850;
-        this.options.height = this.position.height = 800;
+        this.options.classes = ['warcraft5e', 'dnd5e', 'sheet', 'actor', 'npc'];
+        this.options.width = this.position.width = 600;
+        this.options.height = this.position.height = 680;
     }
 
     /** @override */
     get template() {
-        return `modules/warcraft5e/templates/actor/character-sheet.html`;
+        return `modules/warcraft5e/templates/actor/npc-sheet.html`;
     }
 
     /**
@@ -53,7 +54,7 @@ export class WcCharacterSheet extends ActorSheet5eCharacter {
     }
 }
 
-Actors.registerSheet('warcraft5e', WcCharacterSheet, {
-    label: 'Warcraft 5e - Character Sheet',
-    makeDefault: true
+Actors.registerSheet('warcraft5e', WcNpcSheet, {
+    label: 'Warcraft 5e - NPC Sheet',
+    makeDefault: false
 });
