@@ -6865,11 +6865,27 @@
                }
             }
          },
+         "Greathammer": {
+            "Label": "Greathammer",
+            "Description": {
+               "1": {
+                  "Value": "This iconic paladin weapon is favored by the Order of the Holy Light. This is based on the maul."
+               }
+            }
+         },
          "HolySymbol": {
             "Label": "Holy Symbol"
          },
          "MarkedCards": {
             "Label": "Marked Cards"
+         },
+         "Moonglaive": {
+            "Label": "Moonglaive",
+            "Description": {
+               "1": {
+                  "Value": "This circular blade has three dagger-like blades jutting from its sides. Uncommonly seen but easy to train with, Moonglaives are favored by the night elves of Kalimdor."
+               }
+            }
          },
          "MusicalInstrument": {
             "Label": "Musical Instrument"
@@ -6938,14 +6954,69 @@
          "PrayerWheel": {
             "Label": "Prayer Wheel"
          },
+         "SpikedChain": {
+            "Label": "Spiked Chain",
+            "Description": {
+               "1": {
+                  "Value": "A 10-foot chain marked with a large hook, this spiked chain is a dangerous and rare weapon to see in the battlefield."
+               },
+               "2": {
+                  "Value": "A hooked spiked chain can tether on a successful hit (see Chapter 9)."
+               }
+            }
+         },
          "StickOfIncense": {
             "Label": "Stick of Incense"
+         },
+         "SwordTwoBladed": {
+            "Label": "Sword, Two-Bladed",
+            "Description": {
+               "1": {
+                  "Value": "Typically used only by elven swordsmen of great agility, the two-bladed sword is almost iconic of the high elven military."
+               },
+               "2": {
+                  "Value": "This sword can be used to attack with both ends as if using two weapons, despite being a single melee weapon that is used in one hand. This otherwise acts as two-weapon fighting with all other respects."
+               },
+               "3": {
+                  "Value": "The weapon is also infused as if one weapon."
+               }
+            }
+         },
+         "Syringe": {
+            "Label": "Syringe",
+            "Description": {
+               "1": {
+                  "Value": "This needle is a specifically-designed weapon to inject injury poisons, plagues, and offensive potions into targets who are stabbed with it."
+               },
+               "2": {
+                  "Value": "After a successful attack roll, you may use a bonus action to inject the target with the contents of the syringe."
+               }
+            }
          },
          "ThievesTools": {
             "Label": "Thieves‘ Tools"
          },
+         "TotemTauren": {
+            "Label": "Totem, Tauren",
+            "Description": {
+               "1": {
+                  "Value": "Large, unwieldy, but very intricately-made, tauren totems are iconic of the tauren people."
+               },
+               "2": {
+                  "Value": "A tauren totem can be treated as a shaman‘s totem for the purposes of scribing spells."
+               }
+            }
+         },
          "Vestments": {
             "Label": "Vestments"
+         },
+         "Warglaive": {
+            "Label": "Warglaive",
+            "Description": {
+               "1": {
+                  "Value": "This night elf weapon is a crescent-shaped blade about 4 feet long with a hilt in the center of the back edge. Demon hunters favor these weapons."
+               }
+            }
          },
          "WeightedDice": {
             "Label": "Weighted Dice"
@@ -10756,7 +10827,14 @@
             "Turn": "turn",
             "Turns": "turns"
          },
-         "UseItem": "Use-Item"
+         "UseItem": "Use-Item",
+         "WeaponProps": {
+            "Finesse": "Finesse",
+            "Heavy": "Heavy",
+            "Light": "Light",
+            "Reach": "Reach",
+            "TwoHanded": "Two-Handed"
+         }
       }
    }
 }

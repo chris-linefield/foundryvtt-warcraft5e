@@ -1,13 +1,17 @@
 {
-   "_id": "eyvFAg8erypudPJZ",
-   "name": "Garotte Wire",
+   "name": "Totem, Tauren",
    "type": "weapon",
-   "img": "icons/sundries/survival/rope-wrapped-grey.webp",
+   "img": "modules/warcraft5e/res/pics/items/totem_tauren.webp",
    "data": {
-      "source": "",
+      "description": {
+         "value": "<p>Large, unwieldy, but very intricately-made, tauren totems are iconic of the tauren peoples.</p>\n<p>A tauren totem can be treated as a shaman‘s totem for the purposes of scribing spells.</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - P. 188",
       "quantity": 1,
-      "weight": 0,
-      "price": 0.1,
+      "weight": 10,
+      "price": 10,
       "attunement": 0,
       "equipped": false,
       "rarity": "common",
@@ -30,7 +34,7 @@
       "range": {
          "value": 5,
          "long": null,
-         "units": "ft"
+         "units": ""
       },
       "uses": {
          "value": null,
@@ -39,12 +43,12 @@
       },
       "consume": {
          "type": "",
-         "target": null,
+         "target": "",
          "amount": null
       },
-      "ability": null,
+      "ability": "",
       "actionType": "mwak",
-      "attackBonus": 0,
+      "attackBonus": "0",
       "chatFlavor": "",
       "critical": {
          "threshold": null,
@@ -53,8 +57,8 @@
       "damage": {
          "parts": [
             [
-               "1d4 + @mod",
-               "slashing"
+               "2d6 + @mod",
+               "bludgeoning"
             ]
          ],
          "versatile": ""
@@ -75,46 +79,49 @@
          "conditions": ""
       },
       "weaponType": "simpleM",
-      "baseItem": "",
+      "baseItem": "greatclub",
       "properties": {
-         "lgt": true,
+         "ada": false,
          "amm": false,
-         "hvy": false,
-         "fin": true,
+         "fin": false,
          "fir": false,
          "foc": false,
+         "hvy": true,
+         "lgt": false,
          "lod": false,
+         "mgc": false,
          "rch": false,
          "rel": false,
          "ret": false,
+         "sil": false,
          "spc": false,
          "thr": false,
          "two": true,
-         "ver": false,
-         "mgc": false
+         "ver": false
       },
-      "proficient": false,
-      "attributes": {
-         "spelldc": 10
-      }
+      "proficient": true
    },
    "effects": [],
    "folder": null,
-   "sort": 1700000,
+   "sort": 0,
    "permission": {
       "default": 0
    },
    "flags": {
       "wc5e": {
          "type": "item",
-         "unit": "WC5E.UI.Units.Sp",
+         "unit": "WC5E.UI.Units.Gp",
          "weightUnit": "WC5E.UI.Units.Lb",
-         "label": "WC5E.Items.GarroteWire.Label",
+         "label": "WC5E.Items.TotemTauren.Label",
          "description": [
             {
-               "value": "WC5E.Items.GarroteWire.Description.1.Value"
+               "value": "WC5E.Items.TotemTauren.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Items.TotemTauren.Description.2.Value"
             }
          ]
       }
-   }
+   },
+   "_id": "zlrpCPbb9qqy4Mcg"
 }

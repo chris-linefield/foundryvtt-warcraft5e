@@ -21,11 +21,11 @@
                         "class": "numberCol"
                      },
                      {
-                        "title": "WC5E.UI.Damage",
+                        "title": "WC5E.UI.Mass",
                         "class": "numberCol"
                      },
                      {
-                        "title": "WC5E.UI.Mass",
+                        "title": "WC5E.UI.Damage",
                         "class": "numberCol"
                      },
                      {
@@ -45,15 +45,48 @@
                            }
                         },
                         {
-                           "value": 50,
+                           "value": 2,
                            "unit": "WC5E.UI.Units.Gp"
                         },
                         {
-                           "value": 1,
+                           "value": 2,
                            "unit": "WC5E.UI.Units.Lb"
                         },
                         {
-                           "text": "WC5E.Items.Battery.Description.1.Value"
+                           "value": "1d4",
+                           "text": "WC5E.UI.WeaponProps.Finesse"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "lfZWUXGc3PPojAlI",
+                              "label": "WC5E.Items.Bayonet.Label"
+                           }
+                        },
+                        {
+                        },
+                        {
+                        },
+                        {
+                           "text": "WC5E.Items.Bayonet.Description.1.Value"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "lfZWUXGc3PPojAlI",
+                              "label": "WC5E.Items.GarroteWire.Label"
+                           }
+                        },
+                        {
+                        },
+                        {
+                        },
+                        {
+                           "text": "WC5E.Items.GarroteWire.Description.1.Value"
                         }
                      ]
                   ]
