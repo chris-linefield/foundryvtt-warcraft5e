@@ -1,0 +1,43 @@
+{
+   "_id": "aOqfd56pQ0JzZ7qx",
+   "name": "Cauldron (Cast Iron)",
+   "type": "backpack",
+   "img": "icons/tools/cooking/cauldron-empty.webp",
+   "data": {
+      "source": "",
+      "quantity": 1,
+      "weight": 5,
+      "price": 0.05,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "common",
+      "identified": true,
+      "attributes": {
+         "spelldc": 10
+      },
+      "damage": {
+         "parts": []
+      }
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 600000,
+   "permission": {
+      "default": 0
+   },
+   "flags": {
+      "wc5e": {
+         "type": "item",
+         "cost": 5,
+         "unit": "WC5E.UI.Units.Sp",
+         "mass": 5,
+         "weightUnit": "WC5E.UI.Units.Lb",
+         "label": "WC5E.Items.CauldronCastIron.Label",
+         "description": [
+            {
+               "value": "WC5E.Items.CauldronCastIron.Description.1.Value"
+            }
+         ]
+      }
+   }
+}

@@ -1,0 +1,118 @@
+{
+   "_id": "gp5kiV2AJLQh1eHQ",
+   "name": "Bayonet (Medium)",
+   "type": "weapon",
+   "img": "icons/weapons/guns/rifle-bayonet.webp",
+   "data": {
+      "source": "",
+      "quantity": 1,
+      "weight": 2,
+      "price": 10,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "common",
+      "identified": true,
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": null,
+         "units": ""
+      },
+      "target": {
+         "value": null,
+         "width": null,
+         "units": "",
+         "type": ""
+      },
+      "range": {
+         "value": 5,
+         "long": null,
+         "units": "ft"
+      },
+      "uses": {
+         "value": null,
+         "max": "",
+         "per": ""
+      },
+      "consume": {
+         "type": "",
+         "target": null,
+         "amount": null
+      },
+      "ability": null,
+      "actionType": "mwak",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [
+            [
+               "1d6 + @mod",
+               "piercing"
+            ]
+         ],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "scaling": "spell"
+      },
+      "armor": {
+         "value": 10
+      },
+      "hp": {
+         "value": 0,
+         "max": 0,
+         "dt": null,
+         "conditions": ""
+      },
+      "weaponType": "martialM",
+      "baseItem": "shortsword",
+      "properties": {
+         "fin": false,
+         "lgt": false,
+         "amm": false,
+         "hvy": false,
+         "fir": false,
+         "foc": false,
+         "lod": false,
+         "rch": false,
+         "rel": false,
+         "ret": false,
+         "spc": false,
+         "thr": false,
+         "two": true,
+         "ver": false
+      },
+      "proficient": false
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+      "default": 0
+   },
+   "flags": {
+      "wc5e": {
+         "type": "item",
+         "cost": 10,
+         "unit": "WC5E.UI.Units.Sp",
+         "mass": 2,
+         "weightUnit": "WC5E.UI.Units.Lb",
+         "label": "WC5E.Items.BayonetMedium.Label",
+         "description": [
+            {
+               "value": "WC5E.Items.BayonetMedium.Description.1.Value"
+            }
+         ]
+      }
+   }
+}

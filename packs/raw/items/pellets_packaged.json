@@ -1,0 +1,95 @@
+{
+   "_id": "mJglaLaAQKR8FNUO",
+   "name": "Pellets (Packaged)",
+   "type": "consumable",
+   "img": "icons/containers/ammunition/powder-horn-worn.webp",
+   "data": {
+      "source": "",
+      "quantity": 20,
+      "weight": 3,
+      "price": 35,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "common",
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": 0,
+         "units": ""
+      },
+      "target": {
+         "value": 0,
+         "width": null,
+         "units": "",
+         "type": ""
+      },
+      "range": {
+         "value": null,
+         "long": null,
+         "units": ""
+      },
+      "uses": {
+         "value": null,
+         "max": "",
+         "per": "",
+         "autoDestroy": false
+      },
+      "consume": {
+         "type": "",
+         "target": "",
+         "amount": 1
+      },
+      "ability": "",
+      "actionType": "rwak",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [
+            [
+               "0",
+               "piercing"
+            ]
+         ],
+         "versatile": "",
+         "value": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "scaling": "spell"
+      },
+      "consumableType": "ammo"
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 4000000,
+   "permission": {
+      "default": 0
+   },
+   "flags": {
+      "wc5e": {
+         "type": "item",
+         "cost": 35,
+         "unit": "WC5E.UI.Units.Gp",
+         "mass": 3,
+         "weightUnit": "WC5E.UI.Units.Lb",
+         "label": "WC5E.Items.PelletsPackaged.Label",
+         "description": [
+            {
+               "value": "WC5E.Items.PelletsPackaged.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Items.PelletsPackaged.Description.2.Value"
+            }
+         ]
+      }
+   }
+}

@@ -1147,6 +1147,7 @@
             }
          },
          "Urchin": {
+            "Label": "Urchin",
             "Description": {
                "1": "A child of the streets. Urchins can be found in the dirty streets begging for coin, pocketing what isn‘t theirs, and generally trying to grow up to be criminals or charlatans."
             },
@@ -6781,6 +6782,100 @@
          "AlchemistsSupplies": {
             "Label": "Alchemist‘s Supplies"
          },
+         "AttackClaws": {
+            "Label": "Attack Claws",
+            "Description": {
+               "1": {
+                  "Value": "These claws may be attached to a hand, and allow for a user to perform somatic components without occupying the hand (as if a spellcasting focus). They are usually favored by orcish shamans who enter melee after conjuring elementals or placing totems. This is based on the dagger."
+               }
+            }
+         },
+         "BayonetHeavy": {
+            "Label": "Bayonet (Heavy)",
+            "Description": {
+               "1": {
+                  "Value": "This longsword-like blade can be attached to a heavy firearm or crossbow, allowing it to make melee weapon attacks. This requires the proficiency of the weapon described. Some firearms are modified with different weapons. The weapon cannot be heavier than the firearm itself. Weapons attached to firearms or crossbows can be enchanted (as normal weapons)."
+               }
+            }
+         },
+         "BayonetMedium": {
+            "Label": "Bayonet (Medium)",
+            "Description": {
+               "1": {
+                  "Value": "This shortsword-like blade can be attached to a medium firearm or crossbow, allowing it to make melee weapon attacks. This requires the proficiency of the weapon described. Some firearms are modified with different weapons. The weapon cannot be heavier than the firearm itself. Weapons attached to firearms or crossbows can be enchanted (as normal weapons)."
+               }
+            }
+         },
+         "BayonetSmall": {
+            "Label": "Bayonet (Small)",
+            "Description": {
+               "1": {
+                  "Value": "This dagger-like blade can be attached to a light firearm or crossbow, allowing it to make melee weapon attacks. This requires the proficiency of the weapon described. Some firearms are modified with different weapons. The weapon cannot be heavier than the firearm itself. Weapons attached to firearms or crossbows can be enchanted (as normal weapons)."
+               }
+            }
+         },
+         "Battery": {
+            "Label": "Battery",
+            "Description": {
+               "1": {
+                  "Value": "5 fuel units for electrical engines, rechargeable"
+               }
+            }
+         },
+         "BatteryGreater": {
+            "Label": "Battery (Greater)",
+            "Description": {
+               "1": {
+                  "Value": "50 fuel units for electrical engines, rechargeable"
+               }
+            }
+         },
+         "Bullets": {
+            "Label": "Bullets (20)",
+            "Description": {
+               "1": {
+                  "Value": "Ammunition deals piercing damage"
+               },
+               "2": {
+                  "Value": "These pieces of ammunition are specially-prepared to include their own fuel. Such ammunition is resistant to water, but have a 10% chance to explode every round if exposed to direct flame. Bullets and pellets are both blacksmithing and engineering product for crafting purposes."
+               }
+            }
+         },
+         "BulletsPackaged": {
+            "Label": "Bullets (Packaged) (20)",
+            "Description": {
+               "1": {
+                  "Value": "Ammunition prepackaged with its fuel (gunpowder), water resistant"
+               },
+               "2": {
+                  "Value": "These pieces of ammunition are specially-prepared to include their own fuel. Such ammunition is resistant to water, but have a 10% chance to explode every round if exposed to direct flame. Bullets and pellets are both blacksmithing and engineering product for crafting purposes."
+               }
+            }
+         },
+         "CauldronCastIron": {
+            "Label": "Cauldron (Cast Iron)",
+            "Description": {
+               "1": {
+                  "Value": "A cast iron cauldron can be used in creating potion batches (see Chapter 7)"
+               }
+            }
+         },
+         "Coal": {
+            "Label": "Coal",
+            "Description": {
+               "1": {
+                  "Value": "1/4 a unit of fuel for steam engines"
+               }
+            }
+         },
+         "CoalShovel": {
+            "Label": "Coal (Shovel)",
+            "Description": {
+               "1": {
+                  "Value": "1 fuel unit for steam engines"
+               }
+            }
+         },
          "CommonClothes": {
             "Label": "Common Clothes"
          },
@@ -6796,14 +6891,68 @@
          "FineClothes": {
             "Label": "Fine Clothes"
          },
+         "GarroteWire": {
+            "Label": "GarroteWire",
+            "Description": {
+               "1": {
+                  "Value": "This weapon can be used to start a grapple with an attack roll instead of making a Strength (Athletics) check, but suffers disadvantage to the roll if the target is aware of the attacker. This is a simple weapon."
+               }
+            }
+         },
+         "GasOilPint": {
+            "Label": "Gas / Oil (Pint)",
+            "Description": {
+               "1": {
+                  "Value": "1 fuel unit for combustion engines, loud"
+               }
+            }
+         },
+         "Greathammer": {
+            "Label": "Greathammer",
+            "Description": {
+               "1": {
+                  "Value": "This iconic paladin weapon is favored by the Order of the Holy Light. This is based on the maul."
+               }
+            }
+         },
          "HolySymbol": {
             "Label": "Holy Symbol"
          },
          "MarkedCards": {
             "Label": "Marked Cards"
          },
+         "Moonglaive": {
+            "Label": "Moonglaive",
+            "Description": {
+               "1": {
+                  "Value": "This circular blade has three dagger-like blades jutting from its sides. Uncommonly seen but easy to train with, Moonglaives are favored by the night elves of Kalimdor."
+               }
+            }
+         },
          "MusicalInstrument": {
             "Label": "Musical Instrument"
+         },
+         "Pellets": {
+            "Label": "Pellets (20)",
+            "Description": {
+               "1": {
+                  "Value": "Ammunition deals bludgeoning damage"
+               },
+               "2": {
+                  "Value": "These pieces of ammunition are specially-prepared to include their own fuel. Such ammunition is resistant to water, but have a 10% chance to explode every round if exposed to direct flame. Bullets and pellets are both blacksmithing and engineering product for crafting purposes."
+               }
+            }
+         },
+         "PelletsPackaged": {
+            "Label": "Pellets (Packaged) (20)",
+            "Description": {
+               "1": {
+                  "Value": "Ammunition prepackaged with its fuel (gunpowder), water and fire-resistant"
+               },
+               "2": {
+                  "Value": "These pieces of ammunition are specially-prepared to include their own fuel. Such ammunition is resistant to water, but have a 10% chance to explode every round if exposed to direct flame. Bullets and pellets are both blacksmithing and engineering product for crafting purposes."
+               }
+            }
          },
          "PoisonersKit": {
             "Label": "Poisoner‘s Kit"
@@ -6811,20 +6960,105 @@
          "Pouch": {
             "Label": "Pouch"
          },
+         "PowderHorn": {
+            "Label": "Powder (Horn)",
+            "Description": {
+               "1": {
+                  "Value": "Has powder enough for 12 shots, water and fire-resistant"
+               },
+               "2": {
+                  "Value": "Carrying two pounds of gunpowder, this fire and water-resistant horn is required almost always for a tinker on the go. Gunpowder is both an alchemical and engineering product for crafting purposes."
+               }
+            }
+         },
+         "PowderKeg": {
+            "Label": "Powder (Keg)",
+            "Description": {
+               "1": {
+                  "Value": "Has powder enough for 120 shots"
+               },
+               "2": {
+                  "Value": "Containing twenty pounds of gunpowder, this keg is very flammable, but it is a sure sight for sore dwarven eyes. Gunpowder is both an alchemical and engineering product for crafting purposes."
+               }
+            }
+         },
+         "PowderPinch": {
+            "Label": "Powder (Pinch)",
+            "Description": {
+               "1": {
+                  "Value": "Can fuel one firearm shot"
+               }
+            }
+         },
          "PrayerBook": {
             "Label": "Prayer Book"
          },
          "PrayerWheel": {
             "Label": "Prayer Wheel"
          },
+         "SpikedChain": {
+            "Label": "Spiked Chain",
+            "Description": {
+               "1": {
+                  "Value": "A 10-foot chain marked with a large hook, this spiked chain is a dangerous and rare weapon to see in the battlefield."
+               },
+               "2": {
+                  "Value": "A hooked spiked chain can tether on a successful hit (see Chapter 9)."
+               }
+            }
+         },
          "StickOfIncense": {
             "Label": "Stick of Incense"
+         },
+         "SwordTwoBladed": {
+            "Label": "Sword, Two-Bladed",
+            "Description": {
+               "1": {
+                  "Value": "Typically used only by elven swordsmen of great agility, the two-bladed sword is almost iconic of the high elven military."
+               },
+               "2": {
+                  "Value": "This sword can be used to attack with both ends as if using two weapons, despite being a single melee weapon that is used in one hand. This otherwise acts as two-weapon fighting with all other respects."
+               },
+               "3": {
+                  "Value": "The weapon is also infused as if one weapon."
+               }
+            }
+         },
+         "Syringe": {
+            "Label": "Syringe",
+            "Description": {
+               "1": {
+                  "Value": "This needle is a specifically-designed weapon to inject injury poisons, plagues, and offensive potions into targets who are stabbed with it."
+               },
+               "2": {
+                  "Value": "After a successful attack roll, you may use a bonus action to inject the target with the contents of the syringe."
+               }
+            }
          },
          "ThievesTools": {
             "Label": "Thieves‘ Tools"
          },
+         "TotemTauren": {
+            "Label": "Totem, Tauren",
+            "Description": {
+               "1": {
+                  "Value": "Large, unwieldy, but very intricately-made, tauren totems are iconic of the tauren people."
+               },
+               "2": {
+                  "Value": "A tauren totem can be treated as a shaman‘s totem for the purposes of scribing spells."
+               }
+            }
+         },
          "Vestments": {
             "Label": "Vestments"
+         },
+         "Warglaive": {
+            "Label": "Warglaive",
+            "Description": {
+               "1": {
+                  "Value": "This night elf weapon is a crescent-shaped blade about 4 feet long with a hilt in the center of the back edge. Demon hunters favor these weapons."
+               }
+            }
          },
          "WeightedDice": {
             "Label": "Weighted Dice"
@@ -6889,7 +7123,6 @@
          "Draenei": {
             "Name": "Draenei",
             "Description": "The draenei are a powerfully-build alien race that originates from Argus. They are powerfully magically-attuned, and have the potential for exceptional good or evil. Draenei who succumb to fel magic form the ranks of the Eredar, the greatest generals of the Burning Legion, while draenei who serve the Holy Light are immortal crusaders for justice across the cosmos.",
-            "AbilityScoreIncrease": "Your Spirit or Intelligence increases by 1.",
             "Age": "A typical draenei claims adulthood around 100 years old, and can live to about ten thousand years old.",
             "Affiliation": "Each sub-race is inclined to its own affiliations.",
             "Size": "Their size is Medium. Males range anywhere from seven feet tall to eight feet tall and weigh on average around 300 or 400 pounds. Females stand at six to seven feet tall and only weigh around 170 or 250 pounds when fully grown.",
@@ -7075,6 +7308,14 @@
                   },
                   "5": {
                      "Value": "You usually gain advantage or disadvantage through the use of special abilities, actions, or spells. Inspiration can also give a character advantage. The GM can also decide that circumstances influence a roll in one direction or the other and grant advantage or impose disadvantage as a result."
+                  }
+               }
+            },
+            "AdventuringGear": {
+               "Label": "Adventuring Gear",
+               "Description": {
+                  "1": {
+                     "Value": "Sometimes a special ability or spell tells you that you have advantage or disadvantage on an ability check, a saving throw, or an attack roll. When that happens, you roll a second d20 when you make the roll. Use the higher of the two rolls if you have advantage, and use the lower roll if you have disadvantage. For example, if you have disadvantage and roll a 17 and a 5, you use the 5. If you instead have advantage and roll those numbers, you use the 17."
                   }
                }
             },
@@ -7358,6 +7599,179 @@
                "Script": "Script",
                "Fiend": "Fiend",
                "Cursed": "Cursed"
+            },
+            "StartingEquipment": {
+               "Label": "Starting Equipment",
+               "Description": {
+                  "1": {
+                     "Value": "As described in the Player‘s Handbook, you can start with a number of gold pieces based on your class and spend them on items from the lists in the equipment chapter. See the Starting Wealth by Class table to determine how much gold you have to spend."
+                  },
+                  "2": {
+                     "Value": "You decide how your character came by this starting equipment. It might have been an inheritance, or goods that the character purchased during his or her upbringing."
+                  }
+               },
+               "StartingWealth": "Starting Wealth by Class",
+               "Funds": "Funds",
+               "AlchemistBonus": "(plus 250 gp worth in alchemical components)",
+               "DeathKnightBonus": "(plus Runeblade(s))",
+               "TinkerBonus": "(plus 250 gp worth in alchemical components)"
+            },
+            "Wealth": {
+               "Label": "Wealth",
+               "Description": {
+                  "1": {
+                     "Value": "Material wealth in Azeroth was based on gold, silver, and copper coins. In many cases, however, barter takes place (such as in Booty Bay or other goblin strongholds), or is measured in other means (land, ownership of mines and other resource nodes, etc.)."
+                  },
+                  "2": {
+                     "Value": "Stormwind's coinage has traditionally been the copper penny, the silver groat, and the gold sovereign. For all purposes, however, coinage is nearly universal, with Stormwind-minted coin in equal circulation with coins minted in Ironforge, Orgrimmar, or Booty Bay. The Defias Brotherhood enjoys marring Stormwind minted coins creating \"cross-eyed coins‖ which is a sign of treason to the throne."
+                  },
+                  "3": {
+                     "Value": "Mined from the rich earth of Azeroth and Lordaeron, gold is commonly used as coins in exchange for goods and services. As a rare substance that is always in short supply, gold must be dug out from the rock and soil within established gold mines. Many of these mines were abandoned when the orc raids began (followed by the First and Second wars) and the workers fled for their very lives. Since the beginning of the Second War, many gold-mining sites are frequently operated while under the protection of military forces."
+                  },
+                  "4": {
+                     "Value": "Goblins call their currency macaroons, and they refer to money as moolah."
+                  },
+                  "5": {
+                     "Value": "Some other coins that are not minted any longer are worth more to some people. Gold coins from the fall of the Night Elf empire (Azshara-mint) often worth at least ten times the actual value of the same coin at the time of the empire‘s fall and drowning beneath the sea."
+                  },
+                  "6": {
+                     "Title": "Coinage",
+                     "Value": "The monetary system in the world of Warcraft operates on the scale described in the Player‘s Handbook. The only exception is that platinum pieces have yet to make an appearance in the world of Azeroth; though the value of platinum is recognized, it is rare enough that it is still used primarily as a decorative material rather than a type of coinage."
+                  },
+                  "7": {
+                     "Title": "Instances"
+                  },
+                  "8": {
+                     "Value": "offered by Patch to the first goblin making it to the deployment point in Nazmir."
+                  },
+                  "9": {
+                     "Value": "offered by Harlan Sweete to whoever brought him the head of Flynn Fairwind and an Alliance adventurer."
+                  },
+                  "10": {
+                     "Value": "wagered by Gazlowe on a single boat race."
+                  },
+                  "11": {
+                     "Value": "is made by Gazlowe per salvage haul for pirates."
+                  },
+                  "12": {
+                     "Value": "offered by Varok Saurfang per dead Alliance spy, though this was notably a bluff and no one was expected to, nor did anyone cash out."
+                  },
+                  "13": {
+                     "Value": "suggested by Helka Grimtotem as the worth of a gladiator champion like Valeera Sanguinar. Rehgar Earthfury agreed to sell Valeera to Helka for 2,000."
+                  },
+                  "14": {
+                     "Value": "offered by Varok Saurfang per captured Alliance spy, though this was notably a bluff and no one was expected to, nor did anyone cash out."
+                  },
+                  "15": {
+                     "Value": "the price of an immensely fast speed boat."
+                  },
+                  "16": {
+                     "Value": "the amount it costs the Alliance to train a foreman."
+                  },
+                  "17": {
+                     "Value": "the amount it costs the Alliance to train an engineer."
+                  },
+                  "18": {
+                     "Value": "the price offered to Valeera Sanguinar to purchase a fel dagger from an old woman in Menethil Harbor."
+                  },
+                  "19": {
+                     "Value": "given by an unnamed Stormwind Assassin's Guild member to Magatha Grimtotem in return for showing him a vision of his target, Lo'Gosh."
+                  },
+                  "20": {
+                     "Value": "bet by Renzik \"The Shiv\" on Nathanos Blightcaller winning a brawl against Varok Saurfang."
+                  },
+                  "21": {
+                     "Value": "the approximate amount it costs the Alliance to train a miner."
+                  },
+                  "22": {
+                     "Value": "lost by an unnamed Defias Brotherhood member in bets during a Crimson Ring tournament in Dire Maul."
+                  },
+                  "23": {
+                     "Value": "added onto an existing bet against Croc-Bait by an unknown audience member during the Crimson Ring tournament."
+                  },
+                  "24": {
+                     "Value": "the average cost of a salvage operation."
+                  },
+                  "25": {
+                     "Value": "19 pallets filled with jerky and codfish."
+                  },
+                  "26": {
+                     "Value": "During the invasion of Durotar, an unknown hunter in Daelin Proudmoore's army wanted to bet that amount that he could kill Vol'jin."
+                  },
+                  "27": {
+                     "Value": "bet by an unnamed troll on Giago during a Crimson Ring tournament."
+                  },
+                  "28": {
+                     "Value": "bet by an audience member on Two-Heads during a Crimson Ring tournament"
+                  },
+                  "29": {
+                     "Value": "the price for Scarlet Crusaders who want to receive absolution for the sin of punching someone in the groin."
+                  },
+                  "30": {
+                     "Value": "given by Horde adventurers to Boss Bazzelflange to allow her to get home to Brawl'gar Arena after being stranded in Area 52. After being given the gold, Bazzelflange could be seen running up to the flight master Krexcil, presumably to buy a ride using the money."
+                  },
+                  "31": {
+                     "Value": "the price for Scarlet Crusaders who want to receive absolution for the sin of punching someone in the chest."
+                  },
+                  "32": {
+                     "Title": "A mere handful of silver",
+                     "Value": "the price for Scarlet Crusaders who want to receive absolution for sins of \"harsh words\"."
+                  },
+                  "33": {
+                     "Value": "In Bilgewater Harbor, every vice one can imagine is available for that amount."
+                  },
+                  "34": {
+                     "Value": "offered by Sparkeye in a bet against Rehgar Earthfury's gladiator team."
+                  },
+                  "35": {
+                     "Value": "offered by Sparkeye in a \"small wager\" on a fight between his and Rehgar's gladiator teams. Rehgar doubled the bet to 80 silver."
+                  },
+                  "36": {
+                     "Value": "bet by an audience member on Croc-Bait during the Crimson Ring tournament."
+                  },
+                  "37": {
+                     "Value": "enough to purchase the ogre Throgg."
+                  },
+                  "38": {
+                     "Value": "bet by Spiketooth on Croc-Bait winning a fight against a crocolisk. As the fight progressed and Rokul refused to pay up, Spiketooth offered to raise the bet to 40, followed by Rehgar doubling it to 80."
+                  },
+                  "39": {
+                     "Value": "offered by an unnamed orc in a bet that Croc-Bait wouldn't last another two minutes during the Crimson Ring tournament."
+                  },
+                  "40": {
+                     "Value": "Yrel owes that amount to Maami."
+                  },
+                  "41": {
+                     "Value": "a few vegetables."
+                  },
+                  "42": {
+                     "Value": "asked of Lo'Gosh and his companions by an old woman in Menethil Harbor in exchange for telling them their fortune."
+                  },
+                  "43": {
+                     "Title": "Selling Treasure",
+                     "Value": "Opportunities abound to find treasure, equipment, weapons, armor, and more in the dungeons you explore. Normally, you can sell your treasures and trinkets when you return to a town or other settlement, provided that you can find buyers and merchants interested in your loot."
+                  },
+                  "44": {
+                     "Title": "Arms, Armor and Other Equipment",
+                     "Value": "As a general rule, undamaged weapons, armor, and other equipment fetch half their cost when sold in a market. Weapons and armor used by monsters are rarely in good enough condition to sell. Those in pristine condition (newly made) can sell for their normal value."
+                  },
+                  "45": {
+                     "Title": "Magic Items",
+                     "Value": "Selling magic items is usually problematic. Finding someone to buy a potion or a scroll isn‘t too hard, but other items are out of the realm of most but the wealthiest nobles. Major cities and faction capitals often have one or more shops (or institutions) that hire and retain professional infusionists. Such infusionists are often tied to their trade, training institutions, or faction, and require a certain degree of respect or clout to trade with strangers. People who are friendly with such organizations (or the mother faction) can expect fair trade (in the instance of Stormwind, humans who are considered heroes are fairly traded with, while wandering Pandaren might not be trusted with valuable items)."
+                  },
+                  "46": {
+                     "Title": "Gems, Jewelry and Art Objects",
+                     "Value": "These items retain their full value in the marketplace, and you can either trade them in for coin or use them as currency for other transactions. For exceptionally valuable treasures, the DM might require you to find a buyer in a large town or larger community first."
+                  },
+                  "47": {
+                     "Title": "Trade Goods",
+                     "Value": "On the borderlands, many people conduct transactions through barter. Like gems and art objects, trade goods (bars of iron, bags of salt, livestock, and so on, ...) retain their full value in the market and can be used as currency."
+                  },
+                  "48": {
+                     "Value": "In many instances, going to larger towns (or those with greater commercial and economic activity) increases the chance of both selling treasure at fair prices as well as finding rarer items. See the Codex Mandatum document for more details on settlement economic activity."
+                  }
+               },
+               "Currency": "Currency"
             }
          }
       },
@@ -10418,8 +10832,11 @@
          "Bond": "Bond",
          "Bonds": "Bonds",
          "BonusAction": "Bonus Action",
+         "Class": "Class",
          "Consumable": "Consumable",
+         "Cost": "Cost",
          "Creature": "Creature",
+         "Damage": "Damage",
          "Dialogs": {
             "CancelSkill": "Release",
             "CancelSkillDescription": "Do you really want to release the skill?"
@@ -10428,10 +10845,13 @@
          "Features": "Features",
          "Flaw": "Flaw",
          "Flaws": "Flaws",
+         "Gear": "Gear",
          "Ideal": "Ideal",
          "Ideals": "Ideals",
          "Language": "Language",
+         "Mass": "Mass",
          "MaterialCost": "Material Cost",
+         "Name": "Name",
          "Phrases": {
             "Skill": "skill",
             "Spell": "spell"
@@ -10439,6 +10859,8 @@
          "PersonalityTrait": "Personality Trait",
          "PersonalityTraits": "Personality Traits",
          "PointCost": "Point Cost",
+         "Proficiency": "Proficiency",
+         "Properties": "Properties",
          "Race": "Race",
          "Rarities": {
             "Common": "Common",
@@ -10454,16 +10876,27 @@
          "SuggestedCharacteristics": "Suggested Characteristics",
          "Units": {
             "Action": "action",
+            "Cp": "copper",
             "Ft": "ft",
             "Gp": "gp",
             "Hour": "hour",
             "Instant": "instant",
+            "Lb": "lb",
             "Minute": "minute",
             "Minutes": "minutes",
+            "Pint": "pint",
+            "Sp": "silver",
             "Turn": "turn",
             "Turns": "turns"
          },
-         "UseItem": "Use-Item"
+         "UseItem": "Use-Item",
+         "WeaponProps": {
+            "Finesse": "Finesse",
+            "Heavy": "Heavy",
+            "Light": "Light",
+            "Reach": "Reach",
+            "TwoHanded": "Two-Handed"
+         }
       }
    }
 }

@@ -1,0 +1,46 @@
+{
+   "_id": "CVccLCCr4Za593EX",
+   "name": "Powder (Keg)",
+   "type": "backpack",
+   "img": "icons/containers/barrels/barrel-oak-steel-brown.webp",
+   "data": {
+      "source": "",
+      "quantity": 1,
+      "weight": 20,
+      "price": 220,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "common",
+      "identified": true,
+      "attributes": {
+         "spelldc": 10
+      },
+      "damage": {
+         "parts": []
+      }
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 600000,
+   "permission": {
+      "default": 0
+   },
+   "flags": {
+      "wc5e": {
+         "type": "item",
+         "cost": 220,
+         "unit": "WC5E.UI.Units.Gp",
+         "mass": 20,
+         "weightUnit": "WC5E.UI.Units.Lb",
+         "label": "WC5E.Items.PowderKeg.Label",
+         "description": [
+            {
+               "value": "WC5E.Items.PowderKeg.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Items.PowderKeg.Description.2.Value"
+            }
+         ]
+      }
+   }
+}

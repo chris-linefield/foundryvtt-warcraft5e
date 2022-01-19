@@ -77,7 +77,7 @@
                                     {{#each item.flags.wc5e.equipment}}
                                         {{#each this}}
                                             {{#if this.pack}}
-                                                <a class="entity-link spellLink" data-pack="{{this.pack}}" data-id="{{this.node}}">
+                                                <a class="entity-link content-link spellLink" data-pack="{{this.pack}}" data-id="{{this.node}}">
                                                     {{this.amount}}x {{localize this.label}}
                                                     {{#if this.option}}
                                                         ({{this.option}})
@@ -106,7 +106,7 @@
                 <br>
                 <h3>{{localize "WC5E.UI.Features"}}</h3>
                 {{#each item.flags.wc5e.feats}}
-                    <a class="entity-link spellLink" data-pack="{{this.pack}}" data-id="{{this.node}}">
+                    <a class="entity-link content-link spellLink" data-pack="{{this.pack}}" data-id="{{this.node}}">
                         {{localize this.label}}
                     </a>
                 {{/each}}
@@ -229,7 +229,7 @@
                     <br>
                     <h4>{{localize "WC5E.UI.Features"}}</h4>
                     {{#each this.feats}}
-                        <a class="entity-link spellLink" data-pack="{{this.pack}}" data-id="{{this.node}}">
+                        <a class="entity-link content-link spellLink" data-pack="{{this.pack}}" data-id="{{this.node}}">
                             {{localize this.label}}
                         </a>
                     {{/each}}

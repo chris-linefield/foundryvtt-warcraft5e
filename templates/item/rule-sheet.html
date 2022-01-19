@@ -2,7 +2,7 @@
 
     <div class="ruleNav">
         {{#if item.flags.wc5e.prev}}
-            <a class="entity-link prevlink" data-pack="warcraft5e.{{item.flags.wc5e.prev.pack}}" data-id="{{item.flags.wc5e.prev.node}}">
+            <a class="entity-link content-link prevlink" data-pack="warcraft5e.{{item.flags.wc5e.prev.pack}}" data-id="{{item.flags.wc5e.prev.node}}">
                 <span>{{localize item.flags.wc5e.prev.label}}</span>
             </a>
             {{else}}
@@ -10,7 +10,7 @@
         {{/if}}
 
         {{#if item.flags.wc5e.next}}
-            <a class="entity-link prevlink nextlink" data-pack="warcraft5e.{{item.flags.wc5e.next.pack}}" data-id="{{item.flags.wc5e.next.node}}">
+            <a class="entity-link content-link prevlink nextlink" data-pack="warcraft5e.{{item.flags.wc5e.next.pack}}" data-id="{{item.flags.wc5e.next.node}}">
                 <span>{{localize item.flags.wc5e.next.label}}</span>
             </a>
         {{/if}}
@@ -21,6 +21,7 @@
     </header>
 
     <section>
+        {{> "modules/warcraft5e/templates/item/parts/table.html"}}
         {{#each item.flags.wc5e.content}}
             {{#if this.headline}}
                 <br>
@@ -48,96 +49,14 @@
                 </ul>
             {{/if}}
             {{#if this.table}}
-                <table class="{{this.table.class}}">
-                    <tr>
-                        {{#each this.table.head}}
-                            <th class="{{this.class}}">
-                                {{#if this.wrap}}
-                                    <span>
-                                {{/if}}
-                                {{localize this.title}}
-                                {{#if this.sup}}
-                                    <sup>{{this.sup}}</sup>
-                                {{/if}}
-                                {{#if this.wrap}}
-                                    </span>
-                                {{/if}}
-                            </th>
-                        {{/each}}
-                    </tr>
-                    {{#each this.table.rows}}
-                        <tr>
-                            {{#each this}}
-                                <td class="{{this.class}}">
-                                    {{#if this.value}}
-                                        {{#if this.plus}}
-                                            +
-                                        {{/if}}
-                                        {{#if this.minus}}
-                                            -
-                                        {{/if}}
-                                        {{this.value}}
-                                        {{#if this.unit}}
-                                            {{localize this.unit}}
-                                        {{/if}}
-                                        {{#if this.sup}}
-                                            <sup>{{this.sup}}</sup>
-                                        {{/if}}
-                                    {{else}}
-                                        {{#unless this.text}}
-                                            -
-                                        {{/unless}}
-                                    {{/if}}
-                                    {{#if this.text}}
-                                        {{localize this.text}}
-                                        {{#if this.sup}}
-                                            <sup>{{this.sup}}</sup>
-                                        {{/if}}
-                                    {{/if}}
-                                    {{#if this.text2}}
-                                        , {{localize this.text2}}
-                                    {{/if}}
-                                </td>
-                            {{/each}}
-                        </tr>
-                    {{/each}}
-                </table>
+                {{> "modules/warcraft5e/templates/item/parts/table.html"}}
             {{/if}}
         {{/each}}
-
-        {{#if item.flags.wc5e.table}}
-            <br>
-            <table class="{{item.flags.wc5e.table.class}}">
-                <tr>
-                    {{#each item.flags.wc5e.table.heads}}
-                        <th><span>{{localize this}}</span></th>
-                    {{/each}}
-                </tr>
-                {{log item.flags.wc5e.table}}
-                {{#each item.flags.wc5e.table.rows}}
-                    <tr>
-                    {{#each this}}
-                        <td>{{localize this}}</td>
-                    {{/each}}
-                    </tr>
-                {{/each}}
-            </table>
-        {{/if}}
-
-        {{#if item.flags.wc5e.blocks2}}
-            <br>
-            {{#each item.flags.wc5e.blocks2}}
-                <p>
-                    <strong>{{localize this.title}}</strong><br>
-                    {{{localize this.content}}}
-                </p>
-            {{/each}}
-        {{/if}}
     </section>
 
     <div class="ruleNav bottom">
         {{#if item.flags.wc5e.prev}}
-            <a class="entity-link prevlink" data-pack="warcraft5e.{{item.flags.wc5e.prev.pack}}" data-id="{{item.flags.wc5e.prev.node}}">
+            <a class="entity-link content-link prevlink" data-pack="warcraft5e.{{item.flags.wc5e.prev.pack}}" data-id="{{item.flags.wc5e.prev.node}}">
                 <span>{{localize item.flags.wc5e.prev.label}}</span>
             </a>
             {{else}}
@@ -145,7 +64,7 @@
         {{/if}}
 
         {{#if item.flags.wc5e.next}}
-            <a class="entity-link prevlink nextlink" data-pack="warcraft5e.{{item.flags.wc5e.next.pack}}" data-id="{{item.flags.wc5e.next.node}}">
+            <a class="entity-link content-link prevlink nextlink" data-pack="warcraft5e.{{item.flags.wc5e.next.pack}}" data-id="{{item.flags.wc5e.next.node}}">
                 <span>{{localize item.flags.wc5e.next.label}}</span>
             </a>
         {{/if}}
