@@ -6807,12 +6807,14 @@
             }
          },
          "BayonetSmall": {
+            "DefaultLabel": "Bayonet",
             "Label": "Bayonet (Small)",
             "Description": {
                "1": {
                   "Value": "This dagger-like blade can be attached to a light firearm or crossbow, allowing it to make melee weapon attacks. This requires the proficiency of the weapon described. Some firearms are modified with different weapons. The weapon cannot be heavier than the firearm itself. Weapons attached to firearms or crossbows can be enchanted (as normal weapons)."
                }
-            }
+            },
+            "Proficiency": "as original weapon"
          },
          "Battery": {
             "Label": "Battery",
@@ -6882,6 +6884,9 @@
          "CostumeClothes": {
             "Label": "Costume Clothes"
          },
+         "Dagger": {
+            "Label": "Dagger"
+         },
          "DisguiseKit": {
             "Label": "Disguise Kit"
          },
@@ -6892,7 +6897,7 @@
             "Label": "Fine Clothes"
          },
          "GarroteWire": {
-            "Label": "GarroteWire",
+            "Label": "Garrote Wire",
             "Description": {
                "1": {
                   "Value": "This weapon can be used to start a grapple with an attack roll instead of making a Strength (Athletics) check, but suffers disadvantage to the roll if the target is aware of the attacker. This is a simple weapon."
@@ -6907,6 +6912,9 @@
                }
             }
          },
+         "Greatclub": {
+            "Label": "Greatclub"
+         },
          "Greathammer": {
             "Label": "Greathammer",
             "Description": {
@@ -6918,8 +6926,14 @@
          "HolySymbol": {
             "Label": "Holy Symbol"
          },
+         "Longsword": {
+            "Label": "Longsword"
+         },
          "MarkedCards": {
             "Label": "Marked Cards"
+         },
+         "Maul": {
+            "Label": "Maul"
          },
          "Moonglaive": {
             "Label": "Moonglaive",
@@ -6995,6 +7009,12 @@
          },
          "PrayerWheel": {
             "Label": "Prayer Wheel"
+         },
+         "Scimitar": {
+            "Label": "Scimitar"
+         },
+         "Shortsword": {
+            "Label": "Shortsword"
          },
          "SpikedChain": {
             "Label": "Spiked Chain",
@@ -7772,6 +7792,20 @@
                   }
                },
                "Currency": "Currency"
+            },
+            "WeaponsAndArmor": {
+               "Label": "Weapons and Armor",
+               "Description": {
+                  "1": {
+                     "Value": "The Warcraft universe has several special varieties for existing weapons, as described below."
+                  },
+                  "2": {
+                     "Value": "Clothes can be infused as if armors (with armor-specific infusions). They do not count as armor for the purposes of class features that require you to be armored or unarmored (such as the Defense Fighting Style or Unarmored Defense feature) unless they alter your AC."
+                  },
+                  "3": {
+                     "Value": "Some weapons are described as if based off another weapon (for example, the greathammer and the maul). If proficient with the original weapon (the maul), one week of training confers proficiency to the second (greathammer). Firearms require one week of training to be counted as martial weapons, and proficiency with Engineer‘s Tools automatically confers proficiency."
+                  }
+                }
             }
          }
       },
@@ -10837,6 +10871,11 @@
          "Cost": "Cost",
          "Creature": "Creature",
          "Damage": "Damage",
+         "DamageTypes": {
+            "Bludgeoning": "Bludgeoning",
+            "Piercing": "Piercing",
+            "Slashing": "Slashing"
+         },
          "Dialogs": {
             "CancelSkill": "Release",
             "CancelSkillDescription": "Do you really want to release the skill?"
@@ -10890,6 +10929,10 @@
             "Turns": "turns"
          },
          "UseItem": "Use-Item",
+         "WeaponProfs": {
+            "MartialWeapons": "Martial Weapons",
+            "SimpleWeapons": "Simple Weapons"
+         },
          "WeaponProps": {
             "Finesse": "Finesse",
             "Heavy": "Heavy",

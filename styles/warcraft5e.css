@@ -366,6 +366,11 @@
     left: 15px;
 }
 
+.warcraft5e table td {
+    padding-left:10px;
+    padding-right:10px;
+}
+
 .warcraft5e .prevlink {
     display: grid;
     grid-template-columns:25px 1fr;

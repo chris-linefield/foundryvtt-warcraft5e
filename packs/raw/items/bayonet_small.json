@@ -4,7 +4,12 @@
    "type": "weapon",
    "img": "icons/weapons/guns/rifle-bayonet.webp",
    "data": {
-      "source": "",
+      "description": {
+         "value": "<p>This dagger-like blade can be attached to a light firearm or crossbow, allowing it to make melee weapon attacks. This requires the proficiency of the weapon described. Some firearms are modified with different weapons. The weapon cannot be heavier than the firearm itself. Weapons attached to firearms or crossbows can be enchanted (as normal weapons).</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - P. 187",
       "quantity": 1,
       "weight": 1,
       "price": 2,

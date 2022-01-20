@@ -4,7 +4,12 @@
    "type": "weapon",
    "img": "icons/weapons/fist/claw-cloth-brown.webp",
    "data": {
-      "source": "",
+      "description": {
+         "value": "<p>These claws may be attached to a hand, and allow for a user to perform somatic components without occupying the hand (as if a spellcasting focus). They are usually favored by orcish shamans who enter melee after conjuring elementals or placing totems.</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - P. 187",
       "quantity": 1,
       "weight": 2,
       "price": 2,

@@ -44,38 +44,7 @@
                     </ul>
                 {{/if}}
                 {{#if this.table}}
-                    <table>
-                        <tr>
-                            {{#each this.table.head}}
-                                <th>
-                                    {{localize this.title}}
-                                    {{#if this.sup}}
-                                        <sup>{{this.sup}}</sup>
-                                    {{/if}}
-                                </th>
-                            {{/each}}
-                        </tr>
-                        {{#each this.table.rows}}
-                            <tr>
-                                {{#each this}}
-                                    <td class="center">
-                                        {{#if this.value}}
-                                            {{this.value}}
-                                            {{#if this.unit}}
-                                                {{localize this.unit}}
-                                            {{/if}}
-                                            {{#if this.sup}}
-                                                <sup>{{this.sup}}</sup>
-                                            {{/if}}
-                                        {{/if}}
-                                        {{#if this.text}}
-                                            {{localize this.text}}
-                                        {{/if}}
-                                    </td>
-                                {{/each}}
-                            </tr>
-                        {{/each}}
-                    </table>
+                    {{> "modules/warcraft5e/templates/item/parts/table.html"}}
                 {{/if}}
             {{/each}}
         </div>

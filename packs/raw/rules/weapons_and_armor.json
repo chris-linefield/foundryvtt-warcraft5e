@@ -11,6 +11,15 @@
          "title": "WC5E.Rules.Mechanics.WeaponsAndArmor.Label",
          "content": [
             {
+               "value": "WC5E.Rules.Mechanics.WeaponsAndArmor.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Rules.Mechanics.WeaponsAndArmor.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Rules.Mechanics.WeaponsAndArmor.Description.3.Value"
+            },
+            {
                "table": {
                   "head": [
                      {
@@ -54,7 +63,16 @@
                         },
                         {
                            "value": "1d4",
-                           "text": "WC5E.UI.WeaponProps.Finesse"
+                           "unit": "WC5E.UI.DamageTypes.Slashing"
+                        },
+                        {
+                           "textParts": [
+                              "WC5E.UI.WeaponProps.Finesse",
+                              "WC5E.UI.WeaponProps.Light"
+                           ]
+                        },
+                        {
+                           "text": "WC5E.Items.Dagger.Label"
                         }
                      ],
                      [
@@ -62,7 +80,7 @@
                            "link": {
                               "pack": "warcraft5e.wc5e_items",
                               "node": "lfZWUXGc3PPojAlI",
-                              "label": "WC5E.Items.Bayonet.Label"
+                              "label": "WC5E.Items.BayonetSmall.DefaultLabel"
                            }
                         },
                         {
@@ -70,23 +88,248 @@
                         {
                         },
                         {
-                           "text": "WC5E.Items.Bayonet.Description.1.Value"
+                        },
+                        {
+                        },
+                        {
+                           "text": "WC5E.Items.BayonetSmall.Proficiency"
                         }
                      ],
                      [
                         {
                            "link": {
                               "pack": "warcraft5e.wc5e_items",
-                              "node": "lfZWUXGc3PPojAlI",
+                              "node": "atSpUdcT9VLCNnDs",
                               "label": "WC5E.Items.GarroteWire.Label"
                            }
                         },
                         {
+                           "value": 1,
+                           "unit": "WC5E.UI.Units.Sp"
                         },
                         {
                         },
                         {
-                           "text": "WC5E.Items.GarroteWire.Description.1.Value"
+                           "value": "1d4",
+                           "unit": "WC5E.UI.DamageTypes.Slashing"
+                        },
+                        {
+                           "textParts": [
+                              "WC5E.UI.WeaponProps.Finesse",
+                              "WC5E.UI.WeaponProps.Light",
+                              "WC5E.UI.WeaponProps.TwoHanded"
+                           ]
+                        },
+                        {
+                           "text": "WC5E.UI.WeaponProfs.SimpleWeapons"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "AYMQA0kbZqruIHB8",
+                              "label": "WC5E.Items.Greathammer.Label"
+                           }
+                        },
+                        {
+                           "value": 10,
+                           "unit": "WC5E.UI.Units.Gp"
+                        },
+                        {
+                           "value": 10,
+                           "unit": "WC5E.UI.Units.Lb"
+                        },
+                        {
+                           "value": "2d6",
+                           "unit": "WC5E.UI.DamageTypes.Bludgeoning"
+                        },
+                        {
+                           "textParts": [
+                              "WC5E.UI.WeaponProps.Heavy",
+                              "WC5E.UI.WeaponProps.TwoHanded"
+                           ]
+                        },
+                        {
+                           "text": "WC5E.Items.Maul.Label"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "r46AyerKUTcpyZoZ",
+                              "label": "WC5E.Items.Moonglaive.Label"
+                           }
+                        },
+                        {
+                           "value": 10,
+                           "unit": "WC5E.UI.Units.Gp"
+                        },
+                        {
+                           "value": 3,
+                           "unit": "WC5E.UI.Units.Lb"
+                        },
+                        {
+                           "value": "1d6",
+                           "unit": "WC5E.UI.DamageTypes.Slashing"
+                        },
+                        {
+                           "textParts": [
+                              "WC5E.UI.WeaponProps.Finesse"
+                           ]
+                        },
+                        {
+                           "text": "WC5E.Items.Shortsword.Label"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "M8TQJrST63gqIM7W",
+                              "label": "WC5E.Items.SpikedChain.Label"
+                           }
+                        },
+                        {
+                           "value": 15,
+                           "unit": "WC5E.UI.Units.Gp"
+                        },
+                        {
+                           "value": 10,
+                           "unit": "WC5E.UI.Units.Lb"
+                        },
+                        {
+                           "value": "1d6",
+                           "unit": "WC5E.UI.DamageTypes.Slashing"
+                        },
+                        {
+                           "textParts": [
+                              "WC5E.UI.WeaponProps.Finesse",
+                              "WC5E.UI.WeaponProps.Reach",
+                              "WC5E.UI.WeaponProps.TwoHanded"
+                           ]
+                        },
+                        {
+                           "text": "WC5E.UI.WeaponProfs.MartialWeapons"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "9ZEf4CnLp6qMFT1a",
+                              "label": "WC5E.Items.SwordTwoBladed.Label"
+                           }
+                        },
+                        {
+                           "value": 15,
+                           "unit": "WC5E.UI.Units.Gp"
+                        },
+                        {
+                           "value": 10,
+                           "unit": "WC5E.UI.Units.Lb"
+                        },
+                        {
+                           "value": "1d8",
+                           "unit": "WC5E.UI.DamageTypes.Slashing"
+                        },
+                        {
+                           "textParts": [
+                              "WC5E.UI.WeaponProps.Finesse"
+                           ]
+                        },
+                        {
+                           "text": "WC5E.Items.Longsword.Label"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "lUvmobFIhArw5qi3",
+                              "label": "WC5E.Items.Syringe.Label"
+                           }
+                        },
+                        {
+                           "value": 5,
+                           "unit": "WC5E.UI.Units.Gp"
+                        },
+                        {
+                           "value": 0.5,
+                           "unit": "WC5E.UI.Units.Lb"
+                        },
+                        {
+                           "value": "1",
+                           "unit": "WC5E.UI.DamageTypes.Piercing"
+                        },
+                        {
+                           "textParts": [
+                              "WC5E.UI.WeaponProps.Light"
+                           ]
+                        },
+                        {
+                           "text": "WC5E.Items.Dagger.Label"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "zlrpCPbb9qqy4Mcg",
+                              "label": "WC5E.Items.TotemTauren.Label"
+                           }
+                        },
+                        {
+                           "value": 10,
+                           "unit": "WC5E.UI.Units.Gp"
+                        },
+                        {
+                           "value": 10,
+                           "unit": "WC5E.UI.Units.Lb"
+                        },
+                        {
+                           "value": "2d6",
+                           "unit": "WC5E.UI.DamageTypes.Bludgeoning"
+                        },
+                        {
+                           "textParts": [
+                              "WC5E.UI.WeaponProps.Heavy",
+                              "WC5E.UI.WeaponProps.TwoHanded"
+                           ]
+                        },
+                        {
+                           "text": "WC5E.Items.Greatclub.Label"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "c6lf5OC2sX99ufzn",
+                              "label": "WC5E.Items.Warglaive.Label"
+                           }
+                        },
+                        {
+                           "value": 15,
+                           "unit": "WC5E.UI.Units.Gp"
+                        },
+                        {
+                           "value": 2,
+                           "unit": "WC5E.UI.Units.Lb"
+                        },
+                        {
+                           "value": "1d6",
+                           "unit": "WC5E.UI.DamageTypes.Slashing"
+                        },
+                        {
+                           "textParts": [
+                              "WC5E.UI.WeaponProps.Finesse",
+                              "WC5E.UI.WeaponProps.Light"
+                           ]
+                        },
+                        {
+                           "text": "WC5E.Items.Scimitar.Label"
                         }
                      ]
                   ]
@@ -95,13 +338,13 @@
          ],
          "prev": {
             "pack": "wc5e_rules",
-            "node": "8a9UvmZT9MkLygR5",
-            "label": "WC5E.Rules.Mechanics.Wealth.Label"
+            "node": "VGSm1qJQVXY0Ya6L",
+            "label": "WC5E.Rules.Mechanics.AdventuringGear.Label"
          },
          "next": {
             "pack": "wc5e_rules",
-            "node": "cq8YZHBjsac3LmSr",
-            "label": "WC5E.Rules.Mechanics.WeaponsAndArmor.Label"
+            "node": "yJQ5Zbr4wMp4nNb6",
+            "label": "WC5E.Rules.Mechanics.Tools.Label"
          }
       }
    }
