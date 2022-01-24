@@ -1,0 +1,33 @@
+{
+   "_id": "AgBnFtA4wCYWjasV",
+   "name": "Suffused Sight",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 150",
+      "requirements": "Rogue (Demon Hunter) 3"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.SuffusedSight.Description.1.Value"
+            },
+            {
+               "title": "WC5E.Feats.SuffusedSight.Description.2.Title",
+               "value": "WC5E.Feats.SuffusedSight.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Feats.SuffusedSight.Description.3.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/perception/eye-ringed-glow-angry-small-teal.webp",
+   "effects": [
+   ]
+}

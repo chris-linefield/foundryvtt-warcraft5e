@@ -35,3 +35,5 @@ DND5E.languages = {
     "titan"     : "WC5E.Languages.Titan",
     "troll"     : "WC5E.Languages.Troll"
 };
+
+//DND5E.toolIds.infusion = "oZ4szgJtQaSdG1qD";

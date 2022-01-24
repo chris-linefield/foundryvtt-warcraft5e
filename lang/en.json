@@ -1711,6 +1711,31 @@
                "Subtlety": {
                   "Title": "Subtlety",
                   "Description": "Your affinity with shadows reached beyond the mundane, tapping into shadowy arcane powers. Subtlety rogues are often spies who sell their secrets to the highest bidder."
+               },
+               "DemonHunter": {
+                  "Title": "Demon Hunter",
+                  "Description": {
+                     "1": {
+                        "Value": "Demon hunters are specialists in fighting demonic outsiders, and sacrifice both body and mind to gain alien and terrifying powers. Although most commonly found amongst the Night Elves (with the Night Elf Illidan Stormrage being the first known Demon Hunter) and the Illidari, the abilities can be learned by many who fight demons, such as secretive high elven organizations, human wizarding societies, or even draenei or orcish inquisitorial orders. Demon hunters typically utilize warglaives for combat (see equipment)."
+                     },
+                     "2": {
+                        "Value": "Warlocks who turn against the Burning Legion may exchange their class to demon hunter on a 1:1 ratio, such as death knights or warlocks do with their previous classes of paladin or mage and shaman (respectively). This still requires being blinded."
+                     },
+                     "3": {
+                        "Value": "Rogues wishing to become demon hunters usually take the leap, favored enemy (fiends), and dread ambusher talents."
+                     },
+                     "4": {
+                        "Title": "Prerequisites",
+                        "Value": "The demon hunter aspirant must be permanently blinded either by a spell, by a demon, or via use of a Mana Blade (see Equipment). The demon hunter must also have performed mana siphon against a demon."
+                     },
+                     "5": {
+                        "Title": "Corruption",
+                        "Value": "You may pledge your soul as well, turning yourself into a demonic creature (permanently gaining the below Demonic Nature ability, and counting as the demonic creature type)."
+                     },
+                     "6": {
+                        "Value": "Also, a draenei who takes on the mantle of demon hunter may alter their Gift of the Naaru ability, casting the mind blast spell instead, as the draenei takes on the psychic powers of the Eredar in exchange of the holy powers of the Naaru. This extremely uncommon sacrifice also takes its toll on the draenei‘s body, slowly morphing their appearance through extended exposure to fel magic to be more like the Eredar or a Broken Draenei."
+                     }
+                  }
                }
             }
          },
@@ -3054,6 +3079,50 @@
                }
             }
          },
+         "DarkMastery": {
+            "Label": "Dark Mastery",
+            "Description": {
+               "1": {
+                  "Value": "You can access the demonic doom, gate, and foresight warlock spells as if 6th level spells, and can cast them normally. If you can access higher-level spells, you can cast one of the aforementioned spells once every long rest for no cost instead."
+               },
+               "2": {
+                  "Value": "Also, you gain another Mystic Blast enhancement when in your avatar form."
+               }
+            }
+         },
+         "DarkMetamorphosis": {
+            "Label": "Dark Metamorphosis",
+            "Description": {
+               "1": {
+                  "Value": "Your suffusion with demonic power almost overwhelms your original potential. You can attack twice, instead of once, whenever you take the Attack action on your turn. Whenever you use a Bonus Action to attack with your offhand, you can make two attacks as well instead of only one."
+               },
+               "2": {
+                  "Value": "Furthermore, you gain the avatar form warlock spell for no cost if you didn‘t already have it, and always have it prepared for no cost. Furthermore, you augment the spell in the following ways:"
+               },
+               "3": {
+                  "Options": {
+                     "1": "You gain the benefits of the demon skin spell (spell level equal to the highest-level spell you can cast) for no cost.",
+                     "2": "Your Strength and Charisma scores increases by 2 points (up to a maximum of 18 each).",
+                     "3": "You gain wings, horns, and claws."
+                  }
+               },
+               "4": {
+                  "Options": {
+                     "1": "<i>Wings</i>: You can glide, and your jump distance is tripled (this can stack with the jump spell).<br>For every 10 feet of distance you fall, you can glide 30 feet in any direction. You can also instead take no fall damage so long as you can exercise your wings. If you are restrained or otherwise encumbered, you cannot make use of your wings.",
+                     "2": "<i>Horns and Claws</i>: You gain a horn and claw attack as an unarmed strike. These are light melee weapon attacks that deal 1d6 piercing and 1d4 slashing damage (respectively, plus your Strength or Agility as normal). These weapons are also magical (with +1 to attack and damage rolls)."
+                  }
+               },
+               "5": {
+                  "Value": "While your avatar form shape, you are treated as a fiend for all spell purposes (such as charm and dominate spells). This is considered a shapeshifting effect."
+               },
+               "6": {
+                  "Value": "You may choose one of the following features to remain in your normal form: wings, claws, or horns."
+               },
+               "7": {
+                  "Value": "The chosen feature remains indefinitely. You can retract claws (if you choose to keep them indefinitely), but you cannot hide your wings (besides wrapping them around you as a cloak) or horns. Upon 13th and 17th level, you can choose another feature to make permanent (in the end, having wings, claws, and horns)."
+               }
+            }
+         },
          "DarkPath": {
             "Label": "Dark Path",
             "Description": {
@@ -3171,6 +3240,17 @@
                },
                "3": {
                   "Value": "Alternatively, if you use this during a short rest or when you are below one-quarter your maximum mana point pool, you are treated as if you rested for two hours instead of one. This is atop the mana you regain for the normal rest."
+               }
+            }
+         },
+         "DemonicNature": {
+            "Label": "Demonic Nature",
+            "Description": {
+               "1": {
+                  "Value": "You don‘t require air, food, drink, or sleep. You are also immune to mundane and nonmagical poisons and diseases, and have advantage to effects that cause the exhausted and poisoned conditions."
+               },
+               "2": {
+                  "Value": "You can also speak Eredun and cannot be corrupted by it, as if the warlock feature of the same name."
                }
             }
          },
@@ -5782,6 +5862,20 @@
                }
             }
          },
+         "SorcerousThirst": {
+            "Label": "Sorcerous Thirst",
+            "Description": {
+               "1": {
+                  "Value": "Whenever you perform mana siphon versus demons to drain their mana, you gain double the normal mana, and they suffer disadvantage to saving throws against the effect."
+               },
+               "2": {
+                  "Value": "You also gain the Essence Touch talent, but can only affect demons with it. For instance, if you siphon a Felhound‘s mana, you can utilize their mana burn innate ability, or a succubus‘s sleep or modify memory spell if you siphon it instead."
+               },
+               "3": {
+                  "Value": "If you kill a target or reduce it to 0 hit points while it is affected by a warlock‘s mark ability (see Soul Shards under the Warlock class), you also regain 1d6 hit points. You cannot gain this more than 1/round. The warlock does not gain the soul shard in this case."
+               }
+            }
+         },
          "SoulBurner": {
             "Label": "Soul Burner",
             "Description": {
@@ -5950,6 +6044,31 @@
                "9": {
                   "Title": "Spellcasting Focus",
                   "Value": "You can use an unholy symbol as a spellcasting focus for your death knight spells, or you can treat your runeblade as your focus."
+               }
+            }
+         },
+         "SpellcastingDemonHunter": {
+            "Label": "Spellcasting",
+            "Description": {
+               "1": {
+                  "Value": "Drawing on fel magics not unlike those practiced by warlocks, you can cast spells that are normally cast by warlocks. You cast all spells drawn from the warlock spell list."
+               },
+               "2": {
+                  "Title": "Cantrips",
+                  "Value": "You know a number of cantrips equal to your proficiency bonus."
+               },
+               "3": {
+                  "Title": "Preparing and Casting Spells",
+                  "Value": "Each demon hunter level provides you with 0.5 a caster level in the Warlock class (1 at 3rd level). You follow the normal progression to unlock spell levels (see the table under the Mana section)."
+               },
+               "4": {
+                  "Value": "You prepare the list of Warlock spells that are available for you to cast, choosing from the Warlock spell list."
+               },
+               "5": {
+                  "Value": "You can also change your list of prepared spells when you finish a long rest by consulting your spellbook. You otherwise follow the warlock‘s rules for spellbooks, conjuring, and binding, however, most demon hunters inscribe their spells to their skin as tattoos rather than in grimoires, using expensive inks and difficult techniques. Your spellcasting ability is Charisma."
+               },
+               "6": {
+                  "Value": "Also, after mana siphoning a fiend, your weapons are treated as magical for 8 hours, as the residual fel energies are being used by you against the demons' defenses. If you ever kill a demon of CR 10 or above, any weapon you used for the deed can be treated as magical after 1 minute of focusing your power on it. This effect is permanent, but only manifests when the weapon is used by you."
                }
             }
          },
@@ -6322,6 +6441,21 @@
             "Description": {
                "1": {
                   "Value": "You can interfere with the flow of ki in an opponent‘s body. When you hit another creature with a melee weapon attack, you can spend 1 ki point to attempt a stunning strike. The target must succeed on a Stamina saving throw or be stunned until the end of your next turn. Despite the name, this is not a strike effect."
+               }
+            }
+         },
+         "SuffusedSight": {
+            "Label": "Suffused Sight",
+            "Description": {
+               "1": {
+                  "Value": "You may choose to either gain Darkvision 60 feet (or increase the range of existing darkvision by 60 feet), or gain the spectral sight ability."
+               },
+               "2": {
+                  "Title": "Spectral Sight",
+                  "Value": "Your sight is both enhanced and hindered. Within 100 feet, you have blindsight. Beyond this range, your sight is hazy, colorless, and unclear, imposing disadvantage on Spirit (Perception) checks. You can perceive certain things clearly (as if normal sight) regardless of distance, such as the following: celestials, fiends, undead, and any creature with an active mana pool. If a creature is disguised, you may roll a Spirit (Perception) check upon sight, and a successful check yields to you that you sense strange powers nearby (though it does not readily point out who without another ability check)."
+               },
+               "3": {
+                  "Value": "At will, you may concentrate your sight as an action, and cast the detect magic spell. The range of the spell increases up to your blindsight range."
                }
             }
          },
@@ -6925,6 +7059,17 @@
          },
          "HolySymbol": {
             "Label": "Holy Symbol"
+         },
+         "InfusionKit": {
+            "Label": "Infusion Kit",
+            "Description": {
+               "1": {
+                  "Value": "Used for infusing items with innate magic."
+               },
+               "2": {
+                  "Value": "These toolsets include an inscription plate, various brushes that can draw with magical ink, scales to measure infusion dusts, magnifying glasses of different sizes, and strips of vellum to help design and inscribe infusion matrices."
+               }
+            }
          },
          "Longsword": {
             "Label": "Longsword"
@@ -7636,6 +7781,14 @@
                "DeathKnightBonus": "(plus Runeblade(s))",
                "TinkerBonus": "(plus 250 gp worth in alchemical components)"
             },
+            "Tools": {
+               "Label": "Tools",
+               "Description": {
+                  "1": {
+                     "Value": "The Warcraft universe has its share of special tools, kits, and items."
+                  }
+               }
+            },
             "Wealth": {
                "Label": "Wealth",
                "Description": {
@@ -7805,7 +7958,7 @@
                   "3": {
                      "Value": "Some weapons are described as if based off another weapon (for example, the greathammer and the maul). If proficient with the original weapon (the maul), one week of training confers proficiency to the second (greathammer). Firearms require one week of training to be counted as martial weapons, and proficiency with Engineer‘s Tools automatically confers proficiency."
                   }
-                }
+               }
             }
          }
       },
@@ -10863,6 +11016,7 @@
             "CastSpellInvalidTarget": "Invalid Target. Please select one hostile token.",
             "OutOfRange": "The target is out of range. Distance:"
          },
+         "Archetype": "Archetype",
          "Bond": "Bond",
          "Bonds": "Bonds",
          "BonusAction": "Bonus Action",

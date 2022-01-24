@@ -22,34 +22,7 @@
 
     <section>
         {{#each item.flags.wc5e.content}}
-            {{#if this.headline}}
-                <br>
-                <h2>{{localize this.headline}}</h2>
-            {{/if}}
-            {{#if this.title}}
-                {{#unless this.headline}}
-                    <br>
-                {{/unless}}
-                <h3>{{localize this.title}}</h3>
-            {{/if}}
-            {{#if this.value}}
-                <p>
-                    {{#if this.special}}
-                        <i>Special:</i>
-                    {{/if}}
-                    {{{localize this.value}}}
-                </p>
-            {{/if}}
-            {{#if this.options}}
-                <ul>
-                    {{#each this.options}}
-                        <li>{{{localize this}}}</li>
-                    {{/each}}
-                </ul>
-            {{/if}}
-            {{#if this.table}}
-                {{> "modules/warcraft5e/templates/item/parts/table.html"}}
-            {{/if}}
+            {{> "modules/warcraft5e/templates/item/parts/description.html"}}
         {{/each}}
     </section>
 
