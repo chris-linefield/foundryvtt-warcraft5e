@@ -1936,6 +1936,23 @@
                "Protection": {
                   "Title": "Protection",
                   "Description": "You are the forward vanguard, decking yourself with heavy armors and a reliable shield. Protection warriors deflect and guarding their allies from attacks, and return damage with interest."
+               },
+               "MountainKing": {
+                  "Title": "Mountain King",
+                  "Description": {
+                     "1": {
+                        "Value": "The mountain kings, or thanes as they are known in Khaz Modan, are the mightiest dwarven warriors under the mountain. Wielding both enchanted warhammers and hand axes, these fierce fighters live to test themselves against worthy opponents. Unconcerned with their race's preoccupation with mechanical devices and mining precious minerals, Mountain Kings live only for battle. Dedicated to safeguarding the Alliance which saved their kingdom during the Second War, the mountain Kings can be counted upon to rally behind any banner that stands between freedom and the ever looming shadow of evil."
+                     },
+                     "2": {
+                        "Value": "Mountain kings boast prodigious combat abilities. They are ferocious in melee combat, wielding the traditional weapons of their race to decimate their foes. Their attacks leave opponents stunned and reeling."
+                     },
+                     "3": {
+                        "Value": "While they do not focus their efforts on discovering the secrets of the titans, they have long known of a powerful spark within every Ironforge dwarf - and mountain kings draw upon this spark and fan it into a raging flame. They conjure magic hammers and axes to hurl at their targets, stunning and slowing them so they can get close enough to use their real weapons. They transform themselves into silver-sheened creatures of living stone, shrugging off all attacks and hacking through flesh and bone with frightening ease."
+                     },
+                     "4": {
+                        "Value": "This archetype is restricted to dwarves and creatures who are of titanic descent."
+                     }
+                  }
                }
             }
          }
@@ -2422,6 +2439,17 @@
                },
                "3": {
                   "Value": "A creature cannot be subjected to this effect more than once for 24 hours. You can only affect one creature with this ability at any given time."
+               }
+            }
+         },
+         "BleedAndBash": {
+            "Label": "Bleed and Bash",
+            "Description": {
+               "1": {
+                  "Value": "You gain the Mutilate Strike and Stunning Slam talents, and can use either strike abilities when making an off-hand attack as part of the same action. You can also apply other strike effects as part of an off-hand attack, but you suffer a -2 penalty to your damage rolls."
+               },
+               "2": {
+                  "Value": "Lastly, you can make an attack of opportunity against any creature that critically hits you or successfully strikes an ally within 5 feet."
                }
             }
          },
@@ -4959,6 +4987,24 @@
                }
             }
          },
+         "LordOfTheMountain": {
+            "Label": "Lord of the Mountain",
+            "Description": {
+               "1": {
+                  "Value": "You can manifest your titanic heritage as a true avatar."
+               },
+               "2": {
+                  "Value": "You can use an action to cast the stoneskin spell (also benefitting from the enlarge spell as via Titanic Avatar) for no material cost. Also, your skin gains a silvery sheen, and you gain the following benefits while benefitting from the spell:"
+               },
+               "3": {
+                  "Options": {
+                     "1": "At the start of each of your turns, you regain 5 hit points (up until your Bloodied value).",
+                     "2": "You increase your weapons‘ reach by 5 feet.",
+                     "3": "You can make an attack of opportunity against any creature that successfully attacks an ally within 10 feet."
+                  }
+               }
+            }
+         },
          "MageTradition": {
             "Label": "Mage Tradition",
             "Description": {
@@ -6390,6 +6436,17 @@
                }
             }
          },
+         "StanceOfTheMountain": {
+            "Label": "Stance of the Mountain",
+            "Description": {
+               "1": {
+                  "Value": "You may enter a stance with a bonus action. So long as you are in this stance, you reduce the physical damage you take by 3 points, and gain 2 extra reactions. The stance ends if you choose to end it or if you move more than half your normal speed."
+               },
+               "2": {
+                  "Value": "When executing a melee attack of opportunity while under the effects of this stance, you push the target a number feet equal to your Strength score on a successful damage roll."
+               }
+            }
+         },
          "StillnessOfMind": {
             "Label": "Stillness of Mind",
             "Description": {
@@ -6564,6 +6621,17 @@
                }
             }
          },
+         "Thunderlord": {
+            "Label": "Thunderlord",
+            "Description": {
+               "1": {
+                  "Value": "You gain the Thunder Clap talent (if you didn‘t already have it), and can use it a number of times equal to your proficiency bonus before requiring a rest, not once per rest, and exclude a number of targets from the spell‘s area of effect equal to your Strength modifier."
+               },
+               "2": {
+                  "Value": "Also, you gain the Dual Wielder feat if you didn‘t already have it. If you already have it, you add +1 to your weapon damage rolls with either weapon."
+               }
+            }
+         },
          "Timeless": {
             "Label": "Timeless",
             "Description": {
@@ -6588,6 +6656,31 @@
                },
                "2": {
                   "Value": "Your path choice grants you features at 3rd level and then again at 6th, 10th, and 14th levels."
+               }
+            }
+         },
+         "TitanicAvatar": {
+            "Label": "Titanic Avatar",
+            "Description": {
+               "1": {
+                  "Value": "Whenever you cast the spell stoneskin through your Titanic Spark spellcasting feature, the cost of the material component (regardless of the target) is 25 gp instead of 100. You also gain the benefits of the enlarge spell without requiring concentration, and so long as you are wielding a weapon in both hands, you gain a +1 bonus to your AC."
+               },
+               "2": {
+                  "Value": "Furthermore, you may spend three days studying the defenses of a fortification, castle, or any type of defensive structure. At the end of the three days, you may use your Stance of the Mountain without spending a bonus action, and you may move your full speed without disrupting the stance, and ignore natural difficult terrain in the area with your movement, so long as it is part of the fortification (such as ignoring a natural barricade or debris)."
+               }
+            }
+         },
+         "TitanicSpark": {
+            "Label": "Titanic Spark",
+            "Description": {
+               "1": {
+                  "Value": "You gain the ability to cast spells as a mage of an effective caster level equal to 0.5 your Mountain King level (minimum 0). You do require spellbooks, however, as the spells manifest in the form of inscriptions and engravings on your armor, weapons, or runes that you draw at the spell‘s range (treat as tattoos), but otherwise use the same rules as the mage (effectively treating runes as mage tattoos). You also do not need to concentrate on the stoneskin spell."
+               },
+               "2": {
+                  "Value": "You may cast spells from the abjuration, evocation, and transmutation schools, although you may only choose lightning or thunder-based spells when preparing evocation spells. Your spellcasting ability is Intelligence."
+               },
+               "3": {
+                  "Value": "You may treat the investiture of stone spell as a 5th level spell instead of a 6th level spell, and stoneskin as a 3rd level spell instead of a 4th level spell. You also add the hammer of wrath paladin spell to your spell list."
                }
             }
          },

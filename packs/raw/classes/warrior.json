@@ -552,6 +552,82 @@
                   }
                ]
             }
+         ],
+         "special": [
+            {
+               "title": "WC5E.Class.Warrior.Archetypes.MountainKing.Title",
+               "description": [
+                  {
+                     "value": "WC5E.Class.Warrior.Archetypes.MountainKing.Description.1.Value"
+                  },
+                  {
+                     "value": "WC5E.Class.Warrior.Archetypes.MountainKing.Description.2.Value"
+                  },
+                  {
+                     "value": "WC5E.Class.Warrior.Archetypes.MountainKing.Description.3.Value"
+                  },
+                  {
+                     "value": "WC5E.Class.Warrior.Archetypes.MountainKing.Description.4.Value"
+                  }
+               ],
+               "featList": [
+                  {
+                     "level": "3",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "pZ0s66jTVdto9Z3b",
+                           "label": "WC5E.Feats.TitanicSpark.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "LIBxZd1LuMYxNlFd",
+                           "label": "WC5E.Feats.Thunderlord.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "7",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "mKhzHH4xGkv8sebk",
+                           "label": "WC5E.Feats.StanceOfTheMountain.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "10",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "3BOmqpPJW0VRAqXL",
+                           "label": "WC5E.Feats.BleedAndBash.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "15",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "rPa0FpBNArUqXvbC",
+                           "label": "WC5E.Feats.TitanicAvatar.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "18",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "tmAUFIkU7Xa0Sjfb",
+                           "label": "WC5E.Feats.LordOfTheMountain.Label"
+                        }
+                     ]
+                  }
+               ]
+            }
          ]
       }
    }
