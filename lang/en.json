@@ -1545,6 +1545,29 @@
                "Windwalker": {
                   "Title": "Windwalker",
                   "Description": "You are focused on hand-to-hand combat and evasion of the enemy‘s blows. Windwalkers are usually the most confrontational of the monk disciplines."
+               },
+               "Runeweaver": {
+                  "Title": "Runeweaver",
+                  "Description": {
+                     "1": {
+                        "Value": "Most monks are Pandaren, but others still have less structured beliefs, and channel runic power through tattoos or runes drawn upon their flesh. These runeweavers are rarely found, but have dwarven and tauren practitioners."
+                     },
+                     "2": {
+                        "Value": "The runeweaver is a mystic who sees the power and importance of ley lines. Moreover, those who study runes understand that these are not simply symbols of power — they are power. The runeweaver seeks to become one with the land, but not in the fashion of druids or shamans."
+                     },
+                     "3": {
+                        "Value": "Rather, the runeweaver desires to become a microcosm of the land, seeking to overlay his body with runes in the same fashion that the land itself is overlaid with patterns of ley lines and the echoes of the might of the great Titans."
+                     },
+                     "4": {
+                        "Value": "The tradition itself dates back to the times of the ancient titans, mastered by the dwarves who learned such arts from their creators. As the centuries rolled past, most dwarves lost their heritage and their knowledge of this art. Tauren claim ancient traditions when passing down runic attunements, bringing closer dwarf, tauren, and pandaren by sheer curiosity to learn the truth."
+                     },
+                     "5": {
+                        "Value": "Most runeweavers are heavily tattooed with runic patterns — not simply the unique ones that form the basis for rune families, but the so-called ―simple runes‖ as well. Simple runes mimic patterns of ley energy that appear, again and again, in the environment. These patterns occur in nature and are responsible for things such as the strength of a given type of stone, the ferocity of a given windstorm and the coolness of a given stream; when a runeweaver uses these patterns, he learns to channel his natural power into them at all times, attaining similar traits."
+                     },
+                     "6": {
+                        "Value": "Ki is commonly known as Runic Pulse with runeweavers, but functions the same way."
+                     }
+                  }
                }
             }
          },
@@ -2584,6 +2607,14 @@
                }
             }
          },
+         "BurningSpiritRune": {
+            "Label": "Burning Spirit Rune",
+            "Description": {
+               "1": {
+                  "Value": "You can spend 1 Ki point to cast the inner fire spell."
+               }
+            }
+         },
          "ByPopularDemand": {
             "Label": "By Popular Demand",
             "Description": {
@@ -3379,6 +3410,14 @@
                }
             }
          },
+         "DispelRune": {
+            "Label": "Dispel Rune",
+            "Description": {
+               "1": {
+                  "Value": "You can spend 3 Ki points to cast the dispel magic spell. You can spend 1 additional point to make this a strike effect that target a struck target. If you target a trap spell (such as glyph of warding or the symbol spell), you have advantage to your check. You also have advantage to checks to notice such runes. If you have the See Runes attunement, making the spell a strike effect costs no additional Ki."
+               }
+            }
+         },
          "DisruptingStrike": {
             "Label": "Disrupting Strike",
             "Description": {
@@ -3673,6 +3712,22 @@
                },
                "2": {
                   "Value": "Additionally, you can spend 8 ki points to cast the astral projection spell, without needing material components. When you do so, you can‘t take any other creatures with you."
+               }
+            }
+         },
+         "EnergyDispersalRune": {
+            "Label": "Energy Dispersal Rune",
+            "Description": {
+               "1": {
+                  "Value": "You can spend 3 Ki points to cast the protection from energy spell on yourself."
+               }
+            }
+         },
+         "EnergyWeavingRune": {
+            "Label": "Energy Weaving Rune",
+            "Description": {
+               "1": {
+                  "Value": "You can spend 1 Ki point to cast the absorb elements spell."
                }
             }
          },
@@ -4068,6 +4123,14 @@
                }
             }
          },
+         "FlowingWaterRune": {
+            "Label": "Flowing Water Rune",
+            "Description": {
+               "1": {
+                  "Value": "You can spend 3 Ki points to cast the haste spell."
+               }
+            }
+         },
          "Flurry": {
             "Label": "Flurry",
             "Description": {
@@ -4149,6 +4212,22 @@
             "Description": {
                "1": {
                   "Value": "When determining your maximum allowable CR to transform to, you divide your level by three, and not eight (round down), referring to the below table."
+               }
+            }
+         },
+         "GlyphRuneGreater": {
+            "Label": "Glyph Rune, Greater",
+            "Description": {
+               "1": {
+                  "Value": "You can spend 7 Ki points to cast the symbol spell. Once this rune is cast, you cannot cast it again until after a short rest, regardless if you have enough Ki."
+               }
+            }
+         },
+         "GlyphRuneLesser": {
+            "Label": "Glyph Rune, Lesser",
+            "Description": {
+               "1": {
+                  "Value": "You can spend 3 Ki points to cast the glyph of warding spell. If you choose a spell glyph, you can add any other rune you know to manifest upon triggering the glyph."
                }
             }
          },
@@ -4692,6 +4771,14 @@
                }
             }
          },
+         "InnerBeastRune": {
+            "Label": "Inner Beast Rune",
+            "Description": {
+               "1": {
+                  "Value": "You can spend 2 Ki points to cast the enhance ability spell."
+               }
+            }
+         },
          "Innovation": {
             "Label": "Innovation",
             "Description": {
@@ -4735,6 +4822,17 @@
                "11": {
                   "Title": "At Higher Levels",
                   "Value": "As you increase in levels, creations of certain rarity require less time and effort. The time it takes for you to innovate or craft temporary versions of your creations is reduced to a Bonus Action or 3 turns at the following levels for each rarity."
+               }
+            }
+         },
+         "InscribedRune": {
+            "Label": "Inscribed Rune",
+            "Description": {
+               "1": {
+                  "Value": "Choose a rune that you can cast, that has a casting time of 1 action, and that can target you. You cast that spell, called the inscribed spell, as part of this action, expending the cost the rune, but the inscribed rune doesn't come into effect. Instead, it takes effect when a certain circumstance occurs. You describe that circumstance."
+               },
+               "2": {
+                  "Value": "For example, a contingency cast with the Mangroves Rune might stipulate that it comes into effect when you are subject to the paralyzed condition (or any or all of the conditions). You can have only one inscribed rune upon yourself. Also, the inscribed rune ends on you if its material component is ever not on your person. You can specify a command word (requires no action by yourself to activate)."
                }
             }
          },
@@ -4918,6 +5016,30 @@
                }
             }
          },
+         "LeapingSparksRune": {
+            "Label": "Leaping Sparks Rune",
+            "Description": {
+               "1": {
+                  "Value": "You can spend 1 Ki point to cast the jump spell."
+               }
+            }
+         },
+         "LeyHealingRune": {
+            "Label": "Ley Healing Rune",
+            "Description": {
+               "1": {
+                  "Value": "You can spend 1 Ki point to cast the riptide spell."
+               }
+            }
+         },
+         "LeyLineLink": {
+            "Label": "Ley Line Link",
+            "Description": {
+               "1": {
+                  "Value": "You can spend 5 Ki points to cast the teleportation circle spell, and can also teleport back to any area you meditated for a ley attunement (treating it as a teleportation circle for the purposes of this ability). "
+               }
+            }
+         },
          "LichKingsFavor": {
             "Label": "Lich King's Favor",
             "Description": {
@@ -5027,6 +5149,14 @@
                },
                "3": {
                   "Value": "Alternatively, if you use this during a short rest or when you are below one-quarter your maximum mana point pool, you are treated as if you rested for two hours instead of one. This is atop the mana you regain for the normal rest."
+               }
+            }
+         },
+         "MangrovesRune": {
+            "Label": "Mangroves Rune",
+            "Description": {
+               "1": {
+                  "Value": "You can spend 2 Ki points to cast the lesser restoration spell. If you are 17th level, you can spend 6 Ki points to cast the restoration spell"
                }
             }
          },
@@ -5236,6 +5366,14 @@
             "Description": {
                "1": {
                   "Value": "You add all spells of the Necromancy school from the Mage spell list to the Alchemist spell list, and can make potions out of them."
+               }
+            }
+         },
+         "OaksRune": {
+            "Label": "Oaks Rune",
+            "Description": {
+               "1": {
+                  "Value": "You can spend 2 Ki points to cast the barkskin spell."
                }
             }
          },
@@ -5489,6 +5627,14 @@
                }
             }
          },
+         "QuietDemiseRune": {
+            "Label": "Quiet Demise Rune",
+            "Description": {
+               "1": {
+                  "Value": "You can spend 1 Ki point to gain the Sneak Attack feature as a 1st level Rogue for 1 minute. This requires concentration."
+               }
+            }
+         },
          "QuiveringPalm": {
             "Label": "Quivering Palm",
             "Description": {
@@ -5497,6 +5643,14 @@
                },
                "2": {
                   "Value": "You can have only one creature under the effect of this feature at a time. You can choose to end the vibrations harmlessly without using an action."
+               }
+            }
+         },
+         "RagingFlamesRune": {
+            "Label": "RagingFlamesRune",
+            "Description": {
+               "1": {
+                  "Value": "You can spend 1 Ki point to cast the longstrider spell."
                }
             }
          },
@@ -5637,6 +5791,45 @@
                }
             }
          },
+         "RunicAttunement": {
+            "Label": "Runic Attunement",
+            "Description": {
+               "1": {
+                  "Value": "When you choose this tradition at 3rd level, you learn magical disciplines that harness the power of the runic ley lines. An attunement requires you to spend ki points each time you use it. You know the Simple Runes discipline and one other runic attunement of your choice, which are detailed in the \"Runic Attunements‖ section below."
+               },
+               "2": {
+                  "Value": "You learn one additional runic attunement of your choice at 6th, 11th, and 17th level. Whenever you learn a new runic attunement, you can also replace one runic attunement that you already know with a different attunement. Some effects are strike effects, in which case they require a bonus action to manifest as well, and affect a target struck by you."
+               },
+               "3": {
+                  "Value": "<i>Ley Attunement</i>: You may also replace an existing runic attunement by meditating near a center of ley power, such as a mana fountain, place of elemental strength (a great volcano, on a mountain, or near the Maelstrom), or similar effect the DM specifies (such as where ancient Elven Runestones stand, or near the mechanisms of the Titans). In all cases, this can be changed at the end of a long rest. Each area of ley attunement grants its own Runic Attunement."
+               },
+               "4": {
+                  "Value": "You can also burn some of your life force to manifest a runic attunement instead of spending Ki."
+               },
+               "5": {
+                  "Value": "You can spend hit dice (as if healing), but you do not gain hit points. Instead, each hit dice of healing you expend acts as if you spend 1 Ki point for a runic attunement effect. This usually manifests as smoke rising from runes you draw on your body."
+               },
+               "6": {
+                  "Title": "Runic Attunements",
+                  "Value": "The runic attunements are presented in alphabetical order. If a discipline requires a level, you must be that level in this class to learn the attunement."
+               },
+               "7": {
+                  "Title": "Other Runic Attunements",
+                  "Value": "You may petition the DM to add further runic attunements, referring to the below table. After using a runic attunement that manifests 7th-level, you cannot use it again until after a short rest, regardless whether you have the Ki to cast it or not."
+               }
+            }
+         },
+         "RunicPattern": {
+            "Label": "Runic Pattern",
+            "Description": {
+               "1": {
+                  "Value": "You can cast the magic weapon spell, targeting yourself."
+               },
+               "2": {
+                  "Value": "You may also use the spell on your unarmed attacks. The bonus increases to +2 with 4 Ki, and +3 with 6 Ki (limited to the maximum number of Ki points you can spend)."
+               }
+            }
+         },
          "RunicStrike": {
             "Label": "Runic Strike",
             "Description": {
@@ -5656,6 +5849,14 @@
             "Description": {
                "1": {
                   "Value": "Since you come from the ranks of the common folk, you fit in among them with ease. You can find a place to hide, rest, or recuperate among other commoners, unless you have shown yourself to be a danger to them. They will shield you from the law or anyone else searching for you, though they will not risk their lives for you."
+               }
+            }
+         },
+         "SafefallRune": {
+            "Label": "Safefall Rune",
+            "Description": {
+               "1": {
+                  "Value": "You can spend 1 Ki point to cast the Feather Fall spell on yourself"
                }
             }
          },
@@ -5727,6 +5928,14 @@
                      "1": "<i>Exploding Seed</i>: You may deal the sigil (or channel) damage again in a 30-foot burst. This does not count as an additional hit against the original target.",
                      "2": "<i>Store Seed</i>: You may recapture the spell‘s effects, regaining the spell. If you choose to do so, you can cast the spell again for no cost against another target within 1 minute. This acts as if you cast the spell again, for the purposes of actions required (but not for resources spent like mana or components), and for the purposes of talents that trigger off spell use (such as your Haunt talent). You can store one seed this way."
                   }
+               }
+            }
+         },
+         "SeeRune": {
+            "Label": "See Rune",
+            "Description": {
+               "1": {
+                  "Value": "You can spend 1 Ki point to cast the detect magic spell."
                }
             }
          },
@@ -5812,6 +6021,14 @@
                }
             }
          },
+         "ShatteringRune": {
+            "Label": "Shattering Rune",
+            "Description": {
+               "1": {
+                  "Value": "You can spend 1 Ki point to cast shatter as a strike effect. You can also cast it normally."
+               }
+            }
+         },
          "ShelterOfTheFaithful": {
             "Label": "Shelter of the Faithful",
             "Description": {
@@ -5858,6 +6075,25 @@
                },
                "2": {
                   "Value": "If you want to cast either spell at a higher level, you must expend mana as normal."
+               }
+            }
+         },
+         "SimpleRunes": {
+            "Label": "Simple Runes",
+            "Description": {
+               "1": {
+                  "Value": "Choose one of the following families of cantrips. You can cast these for no cost. You can change your suite of simple runes at the end of a short or long rest."
+               },
+               "2": {
+                  "Options": {
+                     "1": "<i>Arcane</i>: Mage hand, true strike",
+                     "2": "<i>Earth</i>: Mending, mold earth",
+                     "3": "<i>Frost</i>: frostbolt (strike only), frostbite (strike only)",
+                     "4": "<i>Fire</i>: Fire bolt (strike only), create bonfire",
+                     "5": "<i>Light</i>: Light, dancing lights (maximum range 10 ft.)",
+                     "6": "<i>Ward</i>: Blade ward, resistance (self only)",
+                     "7": "<i>Wind</i>: Gust, shocking grasp (strike only)"
+                  }
                }
             }
          },
@@ -6711,6 +6947,14 @@
                },
                "2": {
                   "Value": "The trap needs only to be set by you, and not necessarily built by you. You may also add one additional explosive to any trap you set without triggering it (such as adding two mines, or one mine and a wagon clamp)."
+               }
+            }
+         },
+         "TwistedArcanaRune": {
+            "Label": "Twisted Arcana Rune",
+            "Description": {
+               "1": {
+                  "Value": "You can spend 3 Ki points to cast counterspell."
                }
             }
          },

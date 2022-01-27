@@ -1,0 +1,26 @@
+{
+   "_id": "EFCQWC9qXeyCs0qk",
+   "name": "Ley Healing Rune",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 154",
+      "requirements": "Monk (Runeweaver) 3"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.LeyHealingRune.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/symbols/runes-triangle-blue.webp",
+   "effects": [
+   ]
+}

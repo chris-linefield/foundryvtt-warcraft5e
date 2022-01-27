@@ -1,0 +1,26 @@
+{
+   "_id": "nX8whu72QVJrKh8e",
+   "name": "Shattering Rune",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 154",
+      "requirements": "Monk (Runeweaver) 3"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.ShatteringRune.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/symbols/rune-sigil-white-pink.webp",
+   "effects": [
+   ]
+}
