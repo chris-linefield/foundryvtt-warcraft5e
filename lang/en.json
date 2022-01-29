@@ -1444,6 +1444,26 @@
                "Survival": {
                   "Title": "Survival",
                   "Description": "You are a rugged tracker who uses animal venom, explosives, and traps as deadly weapons. Survival hunters usually walk alone, but make excellent advanced scouts and explorers who can handle nearly any terrain."
+               },
+               "ShadowHunter": {
+                  "Title": "Shadow Hunter",
+                  "Description": {
+                     "1": {
+                        "Value": "Troll shadow hunters are the highest authority of the jungle trolls. Their spirit powers both bless and curse, and they walk the line of dark and light in hope of saving the future of their people."
+                     },
+                     "2": {
+                        "Value": "Their dark gods, the Loa, channel themselves through the shadow hunters when they use their ceremonial Rush'kah masks. In some circles, Shadow Hunter is a title bestowed equally among hunters of this specialization and witch doctors."
+                     },
+                     "3": {
+                        "Value": "Like other practitioners of voodoo, shadow hunters deal with the darker aspects of the spirit world. Unlike witch doctors (who excel in channeling voodoo magic and alchemy), Shadow Hunters claim a strong bond with the Loa, animal spirits thought to be divine in nature."
+                     },
+                     "4": {
+                        "Value": "Able to channel the essence of some of these extremely potent beings - and often acting with their blessing, conduit, and mortal champions - shadow hunters gain special abilities only the Loa can grant. As they grow in experience, the shadow hunters' bond with the Loa strengthens and their connection to these powerful voodoo spirits eventually gives them the ability to curse and heal at a whim. The strongest shadow hunters can create a pit of shadow filled with terrible beings that can tear their enemies apart."
+                     },
+                     "5": {
+                        "Value": "This archetype is restricted to worshipers of the Loa, which are overwhelmingly trolls. Shadow hunters typically utilize Warglaives for combat (see equipment)."
+                     }
+                  }
                }
             }
          },
@@ -2036,6 +2056,21 @@
                },
                "2": {
                   "Value": "You are always counted as if you are inured to your own potions. If you could already roll twice on miscibility, you can roll three times instead."
+               }
+            }
+         },
+         "AdvancedMaskMagic": {
+            "Label": "Advanced Mask Magic",
+            "Description": {
+               "1": {
+                  "Value": "You can add new masks to your repertoire."
+               },
+               "2": {
+                  "Options": {
+                     "1": "<i>Bwonsamdi Mask</i>: You treat the exorcism spell as a bonus spell that you prepared (hunter spell list). You may cast the spell normally or apply it as a strike effect. This benefit remains for one hour. This affects all undead except undead shadows.",
+                     "2": "<i>Ogoun and Dambala Masks</i>: You can cast the polymorph spell. If you are later able to prepare the spell, it instead costs 2 less mana points (minimum 1) while the mask is active (this cancels out the penalty from the Loa spellcasting feature above). This is usually used to turn yourself into a snake, or turn your enemy into a frog or likewise helpless critter.",
+                     "3": "<i>The Dark Mask</i>: You cast the big bad voodoo spell. This mask also costs 6 mana points to use."
+                  }
                }
             }
          },
@@ -5109,6 +5144,17 @@
                }
             }
          },
+         "LoaSpellcasting": {
+            "Label": "Loa Spellcasting",
+            "Description": {
+               "1": {
+                  "Value": "Starting upon gaining this archetype, you access the shaman‘s spell list. You do not gain the increased spellcasting capabilities or access to higher spell levels, but you add all shaman spells of spell levels you can access to your hunter spell list (including totems, healing spells, and elemental spells). You may also add the darkness spell to your shared spell list. Your own sight is unaffected by your darkness spell."
+               },
+               "2": {
+                  "Value": "Your spellcasting otherwise follows the same rules as the shaman class, although your totems (or spellbooks) are your masks."
+               }
+            }
+         },
          "LordOfTheMountain": {
             "Label": "Lord of the Mountain",
             "Description": {
@@ -5178,6 +5224,24 @@
                },
                "4": {
                   "Value": "Certain monasteries use specialized forms of the monk weapons. For example, you might use a nunchaku (club that is two lengths of wood connected by a short chain) or a kama (sickle with a shorter, straighter blade), or even a large tankard of alcohol (club). Whatever name you use for a monk weapon, you can use the game statistics provided for the weapon."
+               }
+            }
+         },
+         "MaskMagic": {
+            "Label": "Mask Magic",
+            "Description": {
+               "1": {
+                  "Value": "You can wear various Rush'kah masks can provide blessings, channeling the power of chosen Loa. You can spend 6 hours creating a suite of these magic masks (up to all the ones you know), and they have nearly negligible weight. So long as you have such masks, you can wear them with a bonus action, applying a special benefit as described below. Once a mask is used, it cannot be used again until after a long rest."
+               },
+               "2": {
+                  "Options": {
+                     "1": "<i>Legba Mask</i>: You cast the haste spell.",
+                     "2": "<i>Lukou Mask</i>: You add your Spirit modifier to the final number of hit points healed by your hunter or shaman spells. This can be added to the final damage to undead cured by said spells. This mask grants the benefit for one hour.",
+                     "3": "<i>Shango Mask</i>: You add your Spirit modifier to the final number of damage points dealt by your hunter or shaman lightning spells. This mask grants the benefit for one hour."
+                  }
+               },
+               "3": {
+                  "Value": "If a mask is destroyed, it takes 1 hour per mask to create a new one from simple materials."
                }
             }
          },
@@ -5462,6 +5526,17 @@
             "Description": {
                "1": {
                   "Value": "Supernatural ice hangs heavy on your body. This increases your strength score by 4 to a max of 24 and your Stamina by 2 to a max of 22."
+               }
+            }
+         },
+         "PitOfShadows": {
+            "Label": "Pit of Shadows",
+            "Description": {
+               "1": {
+                  "Value": "Whenever you cast the darkness spell, you can reduce its duration to Concentration (Partial), up to 1 minute. While enhanced this way, however, all spells you cast that deal shadow damage or that conjure shadows cost one less mana point (minimum 0), so long the spell does not target an area or a creature outside the darkness. If the darkness spell was heightened by your Voodoo Ritualist ability (making it more resilient against being defeated by light spells), then spells that deal shadow damage or conjure shadows are similarly heightened (as described under the spells‘ descriptions)."
+               },
+               "2": {
+                  "Value": "Once this feature is used, it cannot be used again until after a long rest. Alternatively, this ability can consume one of the uses of a mask you didn‘t use yet."
                }
             }
          },
@@ -7074,6 +7149,14 @@
                }
             }
          },
+         "VoodooRitualist": {
+            "Label": "Voodoo Ritualist",
+            "Description": {
+               "1": {
+                  "Value": "You may triple the casting time of your hunter spells via a magical (and often noisy) mask-dance to heighten it by one spell level. This increase does not stack with itself, but can increase the spell level beyond your normal maximum (cannot exceed 9th level). You can use this ability to heighten the spell level of a spell cast through a mask (such as the Legba or Bwonsamdi masks). For instance, if the spell‘s casting time is 1 action, it costs 3 actions instead. If its casting time is 1 hour, it costs 3 hours, etc. This is applied to ritual spells normally."
+               }
+            }
+         },
          "Wanderer": {
             "Label": "Wanderer",
             "Description": {
@@ -7586,24 +7669,6 @@
          "Troll": "Troll"
       },
       "MonsterFeats": {
-         "MaskMagic": {
-            "Label": "Mask Magic",
-            "Description": {
-               "1": {
-                  "Value": "The shadow hunter can spend a bonus action to wear one of the following masks, which grants them a special benefit."
-               },
-               "2": {
-                  "Options": {
-                     "1": "<i>Legba Mask</i>: The shadow hunter may cast the Haste spell.",
-                     "2": "<i>Lukou Mask</i>: The shadow hunter adds +3 to the final number of hit points healed by hunter or shaman spells. This can be added to the final damage to undead cured by said spells. This mask grants the benefit for one hour.",
-                     "3": "<i>Shango Mask</i>: The shadow hunter adds +3 to the final number of damage points dealt by his hunter or shaman lightning spells. This mask grants the benefit for one hour.",
-                     "4": "<i>Bwonsamdi Mask</i>: The shadow hunter treats the Exorcism spell as a bonus prepared spell (hunter spell list). He may cast the spell normally or apply it as a strike effect. This benefit remains for one hour. This affects all undead except undead shadows.",
-                     "5": "<i>Ogoun and Dambala Masks</i>: The shadow hunter casts the Polymorph spell for 5 mana points while the mask is active. This is usually used to turn into a snake, or turn an enemy into a frog or likewise helpless critter.",
-                     "6": "<i>The Dark Mask</i>: The shadow hunter casts the Big Bad Voodoo spell. This mask also costs 6 mana points to use."
-                  }
-               }
-            }
-         }
       },
       "RaceSheet": {
          "AbilityScoreIncrease": "Ability Score Increase",
