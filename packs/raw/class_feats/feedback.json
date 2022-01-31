@@ -1,0 +1,35 @@
+{
+   "_id": "O5l1ncLROv4v8k4l",
+   "name": "Feedback",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 157",
+      "requirements": "Warrior (Spell Breaker) 10"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.Feedback.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.Feedback.Description.2.Value"
+            },
+            {
+               "options": [
+                  "WC5E.Feats.Feedback.Description.3.Options.1",
+                  "WC5E.Feats.Feedback.Description.3.Options.2"
+               ]
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/light/projectile-smoke-blue-light.webp",
+   "effects": [
+   ]
+}

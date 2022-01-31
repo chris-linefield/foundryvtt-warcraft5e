@@ -1,0 +1,29 @@
+{
+   "_id": "uvRSGZzHiZiQ5L6Y",
+   "name": "Greater Spell Steal",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 157",
+      "requirements": "Warrior (Spell Breaker) 18"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.AbjuringKnight.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.AbjuringKnight.Description.2.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/light/beams-explosion-blue.webp",
+   "effects": [
+   ]
+}

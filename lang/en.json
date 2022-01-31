@@ -1996,6 +1996,20 @@
                         "Value": "This archetype is restricted to dwarves and creatures who are of titanic descent."
                      }
                   }
+               },
+               "SpellBreaker": {
+                  "Title": "Spell Breaker",
+                  "Description": {
+                     "1": {
+                        "Value": "Elven warriors trained to disrupt and contort magical energies, the Spell Breakers are a valuable 5addition to the Alliance, and work well in concert with the High Elven magically-focused military."
+                     },
+                     "2": {
+                        "Value": "Spell Breakers can cast a small amount of spells, and mostly prefer abjurations such as shield and 5dispel magic, and evocations such as arcane missile, and mana burn."
+                     },
+                     "3": {
+                        "Value": "This warrior martial archetype is restricted to elves, commonly High Elves and Blood Elves."
+                     }
+                  }
                }
             }
          }
@@ -2037,6 +2051,17 @@
             "Description": {
                "1": {
                   "Value": "When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can‘t increase an ability score above 20 using this feature."
+               }
+            }
+         },
+         "AbjuringKnight": {
+            "Label": "Abjuring Knight",
+            "Description": {
+               "1": {
+                  "Value": "You may cast the dispel magic and counterspell spells with one less mana point, and always have it prepared. These do not count against the normal limit of spells prepared. Furthermore, if you target a creature with either spells, they suffer the distracted condition for 1 minute. They may attempt a Stamina saving throw against your spell DC to end the effect at the beginning of their turn every round."
+               },
+               "2": {
+                  "Value": "You may also throw a two-bladed sword, treating it as a thrown weapon with a range of 10/30 feet. This may deliver melee strikes at range, and the two-bladed sword returns after the attack roll is resolved, but allowing for only one melee strike every round."
                }
             }
          },
@@ -4035,6 +4060,23 @@
                }
             }
          },
+         "Feedback": {
+            "Label": "Feedback",
+            "Description": {
+               "1": {
+                  "Value": "Whenever you dispel or counterspell a magical effect from a creature, you destroy 1 point of mana per spell level you used. Each mana point burned deals 2 arcane damage to the target."
+               },
+               "2": {
+                  "Value": "If you dispel an effect from an ally, you may manifest one of the following effects:"
+               },
+               "3": {
+                  "Options": {
+                     "1": "Direct the mana-burning effect to any hostile creature within 30 feet of you. This is negated on a successful a Spirit saving throw against your Spell save DC.",
+                     "2": "Gain a bonus to melee and thrown weapon damage rolls equal to the highest-spell level your dispelled or counterspelled. The bonus decreases by 1 point at the end of your turn every round until it reaches 0."
+                  }
+               }
+            }
+         },
          "FelMind": {
             "Label": "Fel Mind",
             "Description": {
@@ -4350,6 +4392,17 @@
                },
                "3": {
                   "Value": "Lastly, you also gain proficiency in Strength saving throws."
+               }
+            }
+         },
+         "GreaterSpellSteal": {
+            "Label": "Greater Spell Steal",
+            "Description": {
+               "1": {
+                  "Value": "You always have the spell steal spell prepared, and does not count against the number of spells prepared. The spell also costs 1 less mana point for you."
+               },
+               "2": {
+                  "Value": "Furthermore, your spell resistance ability is permanent."
                }
             }
          },
@@ -6664,6 +6717,28 @@
                }
             }
          },
+         "SpellcastingSpellBreaker": {
+            "Label": "Spellcasting",
+            "Description": {
+               "1": {
+                  "Value": "You augment your martial prowess with the ability to cast spells."
+               },
+               "2": {
+                  "Title": "Cantrips",
+                  "Value": "You know a number of cantrips equal to your proficiency bonus."
+               },
+               "3": {
+                  "Title": "Preparing and Casting Spells",
+                  "Value": "Each spell breaker level provides you with 0.5 levels in the mage class (or level 1 at 3rd level). You follow the normal progression to unlock spell levels (see the table under the Mana section). You prepare spells from the mage spell list, but only spells from the Abjuration, Divination, Evocation, or Transmutation schools."
+               },
+               "4": {
+                  "Value": "When you reach 7th, 8th, 14, and 20 level in this class, you can alter one existing spell to be a spell from any other magic school."
+               },
+               "5": {
+                  "Value": "Your spellcasting otherwise follows the same rules as the mage class with regards to spellbooks, conjuring and binding, and other concerns. Your spellcasting ability is Intelligence."
+               }
+            }
+         },
          "SpellcastingWarlock": {
             "Label": "Spellcasting",
             "Description": {
@@ -6722,6 +6797,17 @@
                }
             }
          },
+         "SpellResistance": {
+            "Label": "Spell Resistance",
+            "Description": {
+               "1": {
+                  "Value": "When you choose this archetype at 3rd level, you can spend an action and 3 mana points to become exceptionally resistant to spells and spell-like abilities, gaining advantage versus all spells that allow for spell resistance. This lasts for 1 hour."
+               },
+               "2": {
+                  "Value": "If you succeed in saving against a spell with both saving throws (the one granted by advantage as well as your normal one, even without using the spell resistance feature), you may use a reaction to absorb residual mana, gaining mana points equal to the spell‘s level. This is a normal manarestorative effect."
+               }
+            }
+         },
          "SpiritBond": {
             "Label": "Spirit Bond",
             "Description": {
@@ -6755,6 +6841,17 @@
                },
                "2": {
                   "Value": "When executing a melee attack of opportunity while under the effects of this stance, you push the target a number feet equal to your Strength score on a successful damage roll."
+               }
+            }
+         },
+         "StealMagic": {
+            "Label": "Steal Magic",
+            "Description": {
+               "1": {
+                  "Value": "You may transfer a dispelled or counterspelled magical effect to another eligible creature within 30 ft. This does not require an action. The new target is entitled a saving throw, or you must succeed on an attack roll to affect them (as if you cast the initial spell)."
+               },
+               "2": {
+                  "Value": "Also, you can target spells cast by your allies with the dispel magic spell. If you would have successfully dispelled the spell, you can instead change its target or extend its duration."
                }
             }
          },
