@@ -808,6 +808,75 @@
                   }
                ]
             }
+         ],
+         "special": [
+
+            {
+               "title": "WC5E.Class.Shaman.Paths.WitchDoctor.Title",
+               "description": [
+                  {
+                     "value": "WC5E.Class.Shaman.Paths.WitchDoctor.Description.1.Value"
+                  },
+                  {
+                     "value": "WC5E.Class.Shaman.Paths.WitchDoctor.Description.2.Value"
+                  },
+                  {
+                     "value": "WC5E.Class.Shaman.Paths.WitchDoctor.Description.3.Value"
+                  }
+               ],
+               "featList": [
+                  {
+                     "level": "1",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "cDXXsqHMdUGdUOxB",
+                           "label": "WC5E.Feats.WeirdJuju.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "2",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "P2FA7qis7wk5DJrE",
+                           "label": "WC5E.Feats.ChannelElementsVoodooWitchery.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "6",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "nqEGQ1UorcNKi6Fm",
+                           "label": "WC5E.Feats.DarkSacrifice.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "8",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "YUdGKICKTd3k7REl",
+                           "label": "WC5E.Feats.PersonalMojo.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "17",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "Kl1S5Furyxqjp2RN",
+                           "label": "WC5E.Feats.SpiritualIntervention.Label"
+                        }
+                     ]
+                  }
+               ]
+            }
          ]
       }
    }

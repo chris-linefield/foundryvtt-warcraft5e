@@ -1,0 +1,35 @@
+{
+   "_id": "YUdGKICKTd3k7REl",
+   "name": "Personal Mojo",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 159",
+      "requirements": "Shaman (Witch Doctor) 8"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.PersonalMojo.Description.1.Value"
+            },
+            {
+               "options": [
+                  "WC5E.Feats.PersonalMojo.Description.2.Options.1",
+                  "WC5E.Feats.PersonalMojo.Description.2.Options.2",
+                  "WC5E.Feats.PersonalMojo.Description.2.Options.3",
+                  "WC5E.Feats.PersonalMojo.Description.2.Options.4",
+                  "WC5E.Feats.PersonalMojo.Description.2.Options.5"
+               ]
+            }
+         ]
+      }
+   },
+   "img": "icons/skills/toxins/poison-skull-herbs-bottle-pink.webp",
+   "effects": [
+   ]
+}
