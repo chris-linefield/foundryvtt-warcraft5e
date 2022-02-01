@@ -8746,6 +8746,25 @@
                }
             }
          },
+         "BansheesCurse": {
+            "Label": "Banshee's Curse",
+            "Description": {
+               "1": {
+                  "Value": "You suffuse the regretful curse of the banshee on a target within range. Make a ranged spell attack against the target. On a hit, the target takes 3d4 damage. The damage is half shadow, and half thunder. At the beginning of every round, the caster must succeed on a sigil roll to affect the target again."
+               },
+               "2": {
+                  "Value": "Also, so long as the spell is active, the target must roll a d6 whenever they declare an action. On a result of a 2 or lower, the action fails. On a result of 3 or higher, the action takes place as normal. This effect cannot trigger more than once per round."
+               },
+               "3": {
+                  "Value": "If the ranged spell attack misses, the spell deals half the initial damage and has no other effect. "
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "The damage increases by one dice per every spell level above 3rd."
+               }
+            }
+         },
          "Barkskin": {
             "Label": "Barkskin",
             "Description": {
@@ -8810,6 +8829,28 @@
             "Heightened": {
                "1": {
                   "Value": "If you cast this spell using a spell slot of 4th level or higher, the duration is concentration, up to 10 minutes. If you use a spell slot of 5th level or higher, the duration is 8 hours. If you use a spell slot of 7th level or higher, the duration is 24 hours. If you use a 9th level spell slot, the spell lasts until it is dispelled. Using a spell slot of 5th level or higher grants a duration that doesn't require concentration."
+               }
+            }
+         },
+         "BigBadVoodoo": {
+            "Label": "Big Bad Voodoo",
+            "Description": {
+               "1": {
+                  "Value": "You raise your hand, and are summon the strength of powerful Loa spirits. Choose up to six creatures in a 30-foot-radius sphere centered on you, granting them 6d8 temporary hit points so long as the spell is active. Furthermore, the temporary hit points can also be spent to absorb spells (3 hit points per spell level)."
+               },
+               "2": {
+                  "Value": "If the shield manages to absorb all damage from an effect or absorb a spell, the warded creatures are protected against any secondary effects (as if immune). This can be determined after a saving throw."
+               },
+               "3": {
+                  "Value": "The spell cannot be overwhelmed with one attack. If reduced to 0 temporary hit points with one attack, the spell ends with 1 hit point instead. This can occur only once for every instance of the spell being cast."
+               },
+               "4": {
+                  "Value": "You cannot include yourself in this spell‘s targets. You can channel this effect instead of merely concentrating, during which the shields regain 5 hit points per round of channeling. If you cannot maintain line of sight to a shielded ally, the effect fades from them (but returns should they return to your line of sight). A creature affected by this spell cannot benefit from it again for 24 hours."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "For every spell level above 6th, the number of temporary hit points increases by 2d8."
                }
             }
          },
@@ -9297,6 +9338,25 @@
                }
             }
          },
+         "DeathPact": {
+            "Label": "Death Pact",
+            "Description": {
+               "1": {
+                  "Value": "You siphon death magic from an undead or fiendish creature within range. The target (if intelligent) is entitled a Spirit saving throw to negate this effect."
+               },
+               "2": {
+                  "Value": "The target loses 3d6 hit points, which you regain as hit points. If the creature is reduced to 0 hit points, it is destroyed as normal for its type, and you are affected by the inner fire spell (spell equal to the death pact spell level). Instead of regaining hit points, you can cast the spell for no mana at all, and regain 1d4 mana points when draining the power from an undead or fiendish creature."
+               },
+               "3": {
+                  "Value": "If the target was bound to you or an ally, your benefit of the spell is increased by 100% (healing and mana)."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": " For each level above 1st, you drain 3d6 additional hit points (and regain the same), or regain 1d4 extra mana points."
+               }
+            }
+         },
          "DeathWard": {
             "Label": "Death Ward",
             "Description": {
@@ -9534,6 +9594,21 @@
                },
                "7": {
                   "Value": " If the spell is cast ritually, and if you expend double the normal mana cost, the target creature type suffers disadvantage to their saving throw, and any attempts to release the essence by contested rolls has disadvantage."
+               }
+            }
+         },
+         "Eyebite": {
+            "Label": "Eyebite",
+            "Description": {
+               "1": {
+                  "Value": "For the spell's Duration, your eyes become an inky void imbued with dread power. One creature of your choice within 60 feet of you that you can see must succeed on a Wisdom saving throw or be affected by one of the following Effects of your choice for the Duration. On each of your turns until the spell ends, you can use your action to target another creature but can't target a creature again if it has succeeded on a saving throw against this casting of eyebite."
+               },
+               "2": {
+                  "Options": {
+                     "1": "<i>Asleep</i>: The target falls Unconscious. It wakes up if it takes any damage or if another creature uses its action to shake the sleeper awake.",
+                     "2": "<i>Panicked</i>: The target is Frightened of you. On each of its turns, the frightened creature must take the Dash action and move away from you by the safest and shortest available route, unless there is nowhere to move. If the target moves to a place at least 60 feet away from you where it can no longer see you, this effect ends.",
+                     "3": "<i>Sickened</i>: The target has disadvantage on Attack rolls and Ability Checks. At the end of each of its turns, it can make another Wisdom saving throw. If it succeeds, the effect ends."
+                  }
                }
             }
          },
@@ -11602,6 +11677,7 @@
          "DamageTypes": {
             "Bludgeoning": "Bludgeoning",
             "Piercing": "Piercing",
+            "Shadow": "Shadow",
             "Slashing": "Slashing"
          },
          "Dialogs": {
