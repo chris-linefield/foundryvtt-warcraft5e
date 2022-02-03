@@ -1,0 +1,51 @@
+{
+   "_id": "84CWPL6CD7mV8TNK",
+   "name": "Engineer's Tools",
+   "type": "tool",
+   "img": "icons/tools/hand/wrench-iron-grey.webp",
+   "data": {
+      "description": {
+         "value": "<p>This toolset includes various tools such as a collection of fuses, wrenches, nails, wires, and assorted common spare parts.</p>\n<p>Proficiency with these tools confers proficiency in firearms and explosives.</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 189",
+      "quantity": 1,
+      "weight": 10,
+      "price": 50,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "common",
+      "identified": true,
+      "toolType": "art",
+      "baseItem": "",
+      "ability": "int",
+      "chatFlavor": "",
+      "proficient": 0,
+      "bonus": ""
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+      "default": 0
+   },
+   "flags": {
+      "wc5e": {
+         "type": "item",
+         "cost": 50,
+         "unit": "WC5E.UI.Units.Gp",
+         "mass": 10,
+         "weightUnit": "WC5E.UI.Units.Lb",
+         "label": "WC5E.Items.EngineersTools.Label",
+         "description": [
+            {
+               "value": "WC5E.Items.EngineersTools.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Items.EngineersTools.Description.2.Value"
+            }
+         ]
+      }
+   }
+}

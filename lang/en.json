@@ -7617,7 +7617,15 @@
             "Label": "Disguise Kit"
          },
          "EngineersTools": {
-            "Label": "Engineer‘s Tools"
+            "Label": "Engineer‘s Tools",
+            "Description": {
+               "1": {
+                  "Value": "Used for crafting technological devices such as explosives, gadgets, firearms, and constructs."
+               },
+               "2": {
+                  "Value": "This toolset includes various tools such as a collection of fuses, wrenches, nails, wires, and assorted common spare parts. Proficiency with these tools confers proficiency in firearms and explosives."
+               }
+            }
          },
          "FineClothes": {
             "Label": "Fine Clothes"

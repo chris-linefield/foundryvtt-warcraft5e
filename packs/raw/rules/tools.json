@@ -51,6 +51,26 @@
                         {
                            "text": "WC5E.Items.InfusionKit.Description.1.Value"
                         }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "84CWPL6CD7mV8TNK",
+                              "label": "WC5E.Items.EngineersTools.Label"
+                           }
+                        },
+                        {
+                           "value": 50,
+                           "unit": "WC5E.UI.Units.Gp"
+                        },
+                        {
+                           "value": 10,
+                           "unit": "WC5E.UI.Units.Lb"
+                        },
+                        {
+                           "text": "WC5E.Items.EngineersTools.Description.1.Value"
+                        }
                      ]
                   ]
                }
@@ -58,13 +78,13 @@
          ],
          "prev": {
             "pack": "wc5e_rules",
-            "node": "cq8YZHBjsac3LmSr",
+            "node": "wl2G6ghGhmHWPhRz",
             "label": "WC5E.Rules.Mechanics.WeaponsAndArmor.Label"
          },
          "next": {
             "pack": "wc5e_rules",
             "node": "cq8YZHBjsac3LmSr",
-            "label": "WC5E.Rules.Mechanics.WeaponsAndArmor.Label"
+            "label": "WC5E.Rules.Mechanics.Treasures.Label"
          }
       }
    }
