@@ -20,14 +20,12 @@
             {
                "table": {
                   "head": [
-                     [
-                        {
-                           "title": "Druid Level"
-                        },
-                        {
-                           "title": "Maximum CR"
-                        }
-                     ]
+                     {
+                        "title": "Druid Level"
+                     },
+                     {
+                        "title": "Maximum CR"
+                     }
                   ],
                   "rows": [
                      [
@@ -101,6 +99,5 @@
       }
    },
    "img": "icons/creatures/abilities/cougar-roar-rush-orange.webp",
-   "effects": [
-   ]
+   "effects": []
 }

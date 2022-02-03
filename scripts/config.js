@@ -35,3 +35,8 @@ DND5E.languages = {
     "titan"     : "WC5E.Languages.Titan",
     "troll"     : "WC5E.Languages.Troll"
 };
+
+DND5E.damageTypes.holy = "WC5E.UI.DamageTypes.Holy";
+DND5E.damageTypes.shadow = "WC5E.UI.DamageTypes.Shadow";
+
+//DND5E.toolIds.infusion = "oZ4szgJtQaSdG1qD";

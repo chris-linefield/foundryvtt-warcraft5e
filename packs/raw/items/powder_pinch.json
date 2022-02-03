@@ -1,0 +1,43 @@
+{
+   "_id": "zWW88ggqZFR8AZ7w",
+   "name": "Powder (Pinch)",
+   "type": "backpack",
+   "img": "icons/commodities/materials/bowl-powder-grey.webp",
+   "data": {
+      "source": "",
+      "quantity": 1,
+      "weight": 0.1,
+      "price": 2,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "common",
+      "identified": true,
+      "attributes": {
+         "spelldc": 10
+      },
+      "damage": {
+         "parts": []
+      }
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 600000,
+   "permission": {
+      "default": 0
+   },
+   "flags": {
+      "wc5e": {
+         "type": "item",
+         "cost": 2,
+         "unit": "WC5E.UI.Units.Gp",
+         "mass": 0.1,
+         "weightUnit": "WC5E.UI.Units.Lb",
+         "label": "WC5E.Items.PowderPinch.Label",
+         "description": [
+            {
+               "value": "WC5E.Items.PowderPinch.Description.1.Value"
+            }
+         ]
+      }
+   }
+}

@@ -43,7 +43,7 @@
  ********************************/
 
 .window-app .window-content {
-    background: url("/modules/warcraft5e/res/pics/parchment.jpg") top left;
+    background: url("/modules/warcraft5e/res/pics/parchment.jpg") top left repeat;
     font-family: 'Heuristica';
 }
 
@@ -69,7 +69,7 @@
  ********************************/
 
 .warcraft5e .window-content {
-    background: url("/modules/warcraft5e/res/pics/parchment.jpg") top left;
+    background: url("/modules/warcraft5e/res/pics/parchment.jpg") top left repeat;
     font-size: 16px;
     line-height: 20px;
     color: #191813;
@@ -364,6 +364,11 @@
     padding-left: 15px;
     position: relative;
     left: 15px;
+}
+
+.warcraft5e table td {
+    padding-left:10px;
+    padding-right:10px;
 }
 
 .warcraft5e .prevlink {

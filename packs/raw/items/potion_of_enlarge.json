@@ -1,0 +1,95 @@
+{
+   "_id": "ngTANPnP3aIC84uI",
+   "name": "Potion of Enlarge",
+   "type": "consumable",
+   "img": "icons/consumables/potions/bottle-conical-corked-yellow.webp",
+   "data": {
+      "description": {
+         "value": "<p>The target's size doubles in all dimensions, and its weight is multiplied by eight. This growth increases its size by one category—from Medium to Large, for example. If there isn't enough room for the target to double its size, the creature or object attains the maximum possible size in the space available. Until the spell ends, the target also has advantage on Strength Checks and Strength Saving Throws.</p>\n<p>The target's Weapons also grow to match its new size. While these Weapons are enlarged, the target's attacks with them deal 1d4 extra damage.</p>\n<p>Any item dropped by an affected creature returns to normal size at once.</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 247",
+      "quantity": 1,
+      "weight": 1,
+      "price": 80,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "uncommon",
+      "identified": true,
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": null,
+         "units": ""
+      },
+      "target": {
+         "value": null,
+         "width": null,
+         "units": "",
+         "type": ""
+      },
+      "range": {
+         "value": null,
+         "long": null,
+         "units": ""
+      },
+      "uses": {
+         "value": 1,
+         "max": "1",
+         "per": "charges",
+         "autoDestroy": false
+      },
+      "consume": {
+         "type": "",
+         "target": "",
+         "amount": null
+      },
+      "ability": "",
+      "actionType": "util",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "scaling": "spell"
+      },
+      "consumableType": "potion"
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+      "default": 0
+   },
+   "flags": {
+      "wc5e": {
+         "type": "item",
+         "cost": 80,
+         "unit": "WC5E.UI.Units.Gp",
+         "mass": 1,
+         "weightUnit": "WC5E.UI.Units.Lb",
+         "label": "WC5E.Items.PotionOfEnlarge.Label",
+         "description": [
+            {
+               "value": "WC5E.Spells.EnlargeReduce.Description.3.Value"
+            },
+            {
+               "value": "WC5E.Spells.EnlargeReduce.Description.2.Value"
+            }
+         ]
+      }
+   }
+}

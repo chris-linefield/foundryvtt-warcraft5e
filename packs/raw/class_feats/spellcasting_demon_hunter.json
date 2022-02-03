@@ -1,0 +1,43 @@
+{
+   "_id": "PRtVliSs4PtEjujq",
+   "name": "Spellcasting (Demon Hunter)",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 149",
+      "requirements": "Rogue (Demon Hunter) 1"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.SpellcastingDemonHunter.Description.1.Value"
+            },
+            {
+               "title": "WC5E.Feats.SpellcastingDemonHunter.Description.2.Title",
+               "value": "WC5E.Feats.SpellcastingDemonHunter.Description.2.Value"
+            },
+            {
+               "title": "WC5E.Feats.SpellcastingDemonHunter.Description.3.Title",
+               "value": "WC5E.Feats.SpellcastingDemonHunter.Description.3.Value"
+            },
+            {
+               "value": "WC5E.Feats.SpellcastingDemonHunter.Description.4.Value"
+            },
+            {
+               "value": "WC5E.Feats.SpellcastingDemonHunter.Description.5.Value"
+            },
+            {
+               "value": "WC5E.Feats.SpellcastingDemonHunter.Description.6.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/unholy/hand-light-green.webp",
+   "effects": [
+   ]
+}

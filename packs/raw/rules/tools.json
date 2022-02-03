@@ -1,0 +1,91 @@
+{
+   "_id": "yJQ5Zbr4wMp4nNb6",
+   "name": "Tools",
+   "permission": {
+      "default": 0
+   },
+   "type": "class",
+   "flags": {
+      "wc5e": {
+         "type": "rule",
+         "title": "WC5E.Rules.Mechanics.Tools.Label",
+         "content": [
+            {
+               "value": "WC5E.Rules.Mechanics.Tools.Description.1.Value"
+            },
+            {
+               "table": {
+                  "head": [
+                     {
+                        "title": "WC5E.UI.Name"
+                     },
+                     {
+                        "title": "WC5E.UI.Cost",
+                        "class": "numberCol"
+                     },
+                     {
+                        "title": "WC5E.UI.Mass",
+                        "class": "numberCol"
+                     },
+                     {
+                        "title": "WC5E.UI.Properties"
+                     }
+                  ],
+                  "rows": [
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "oZ4szgJtQaSdG1qD",
+                              "label": "WC5E.Items.InfusionKit.Label"
+                           }
+                        },
+                        {
+                           "value": 100,
+                           "unit": "WC5E.UI.Units.Gp"
+                        },
+                        {
+                           "value": 5,
+                           "unit": "WC5E.UI.Units.Lb"
+                        },
+                        {
+                           "text": "WC5E.Items.InfusionKit.Description.1.Value"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "84CWPL6CD7mV8TNK",
+                              "label": "WC5E.Items.EngineersTools.Label"
+                           }
+                        },
+                        {
+                           "value": 50,
+                           "unit": "WC5E.UI.Units.Gp"
+                        },
+                        {
+                           "value": 10,
+                           "unit": "WC5E.UI.Units.Lb"
+                        },
+                        {
+                           "text": "WC5E.Items.EngineersTools.Description.1.Value"
+                        }
+                     ]
+                  ]
+               }
+            }
+         ],
+         "prev": {
+            "pack": "wc5e_rules",
+            "node": "wl2G6ghGhmHWPhRz",
+            "label": "WC5E.Rules.Mechanics.WeaponsAndArmor.Label"
+         },
+         "next": {
+            "pack": "wc5e_rules",
+            "node": "cq8YZHBjsac3LmSr",
+            "label": "WC5E.Rules.Mechanics.Treasures.Label"
+         }
+      }
+   }
+}

@@ -617,7 +617,8 @@
                         {
                            "pack": "warcraft5e.wc5e_spells",
                            "node": "w2VgmRFblzgsPBf8",
-                           "label": "WC5E.Spells.ConjurePlants.Label"
+                           "label": "WC5E.Spells.Conjure.Label",
+                           "option": "Plants (level 3)"
                         }
                      ]
                   },

@@ -1,0 +1,1882 @@
+{
+   "name": "Troll - Drakkari Headhunter",
+   "type": "npc",
+   "img": "modules/warcraft5e/res/pics/portraits/monsters/trolls/frostmane_headhunter.webp",
+   "data": {
+      "abilities": {
+         "str": {
+            "value": 14,
+            "proficient": 0,
+            "bonuses": {
+               "check": "",
+               "save": ""
+            }
+         },
+         "dex": {
+            "value": 16,
+            "proficient": 0,
+            "bonuses": {
+               "check": "",
+               "save": ""
+            }
+         },
+         "con": {
+            "value": 14,
+            "proficient": 0,
+            "bonuses": {
+               "check": "",
+               "save": ""
+            }
+         },
+         "int": {
+            "value": 11,
+            "proficient": 0,
+            "bonuses": {
+               "check": "",
+               "save": ""
+            }
+         },
+         "wis": {
+            "value": 14,
+            "proficient": 0,
+            "bonuses": {
+               "check": "",
+               "save": ""
+            }
+         },
+         "cha": {
+            "value": 8,
+            "proficient": 0,
+            "bonuses": {
+               "check": "",
+               "save": ""
+            }
+         }
+      },
+      "attributes": {
+         "ac": {
+            "flat": null,
+            "calc": "default",
+            "formula": ""
+         },
+         "hp": {
+            "value": 32,
+            "min": 0,
+            "max": 32,
+            "temp": null,
+            "tempmax": null,
+            "formula": ""
+         },
+         "init": {
+            "value": 0,
+            "bonus": 0
+         },
+         "movement": {
+            "burrow": 0,
+            "climb": 0,
+            "fly": 0,
+            "swim": 0,
+            "walk": 30,
+            "units": "ft",
+            "hover": false
+         },
+         "senses": {
+            "darkvision": 60,
+            "blindsight": 0,
+            "tremorsense": 0,
+            "truesight": 0,
+            "units": "ft",
+            "special": ""
+         },
+         "spellcasting": "int",
+         "death": {
+            "success": null,
+            "failure": null
+         },
+         "exhaustion": null,
+         "inspiration": false
+      },
+      "details": {
+         "biography": {
+            "value": "",
+            "public": ""
+         },
+         "alignment": "Chaotic Neutral",
+         "race": "",
+         "type": {
+            "value": "",
+            "subtype": "",
+            "swarm": "",
+            "custom": ""
+         },
+         "environment": "",
+         "cr": 1,
+         "spellLevel": 0,
+         "xp": {
+            "value": 200
+         },
+         "source": "",
+         "appearance": "",
+         "trait": "",
+         "ideal": "",
+         "bond": "",
+         "flaw": ""
+      },
+      "traits": {
+         "size": "med",
+         "di": {
+            "value": [],
+            "custom": ""
+         },
+         "dr": {
+            "value": [
+               "cold"
+            ],
+            "custom": ""
+         },
+         "dv": {
+            "value": [],
+            "custom": ""
+         },
+         "ci": {
+            "value": [],
+            "custom": ""
+         },
+         "languages": {
+            "value": [
+               "common",
+               "troll"
+            ],
+            "custom": ""
+         }
+      },
+      "currency": {
+         "pp": 0,
+         "gp": 0,
+         "ep": 0,
+         "sp": 0,
+         "cp": 0
+      },
+      "skills": {
+         "acr": {
+            "value": 0,
+            "ability": "dex",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "ani": {
+            "value": 0,
+            "ability": "wis",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "arc": {
+            "value": 0,
+            "ability": "int",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "ath": {
+            "value": 0,
+            "ability": "str",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "dec": {
+            "value": 0,
+            "ability": "cha",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "his": {
+            "value": 0,
+            "ability": "int",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "ins": {
+            "value": 0,
+            "ability": "wis",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "itm": {
+            "value": 1,
+            "ability": "cha",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "inv": {
+            "value": 0,
+            "ability": "int",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "med": {
+            "value": 0,
+            "ability": "wis",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "nat": {
+            "value": 0,
+            "ability": "int",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "prc": {
+            "value": 1,
+            "ability": "wis",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "prf": {
+            "value": 0,
+            "ability": "cha",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "per": {
+            "value": 0,
+            "ability": "cha",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "rel": {
+            "value": 0,
+            "ability": "int",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "slt": {
+            "value": 0,
+            "ability": "dex",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "ste": {
+            "value": 1,
+            "ability": "dex",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "sur": {
+            "value": 0,
+            "ability": "wis",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         }
+      },
+      "spells": {
+         "spell1": {
+            "value": 0,
+            "override": null
+         },
+         "spell2": {
+            "value": 0,
+            "override": null
+         },
+         "spell3": {
+            "value": 0,
+            "override": null
+         },
+         "spell4": {
+            "value": 0,
+            "override": null
+         },
+         "spell5": {
+            "value": 0,
+            "override": null
+         },
+         "spell6": {
+            "value": 0,
+            "override": null
+         },
+         "spell7": {
+            "value": 0,
+            "override": null
+         },
+         "spell8": {
+            "value": 0,
+            "override": null
+         },
+         "spell9": {
+            "value": 0,
+            "override": null
+         },
+         "pact": {
+            "value": 0,
+            "override": null
+         }
+      },
+      "bonuses": {
+         "mwak": {
+            "attack": "",
+            "damage": ""
+         },
+         "rwak": {
+            "attack": "",
+            "damage": ""
+         },
+         "msak": {
+            "attack": "",
+            "damage": ""
+         },
+         "rsak": {
+            "attack": "",
+            "damage": ""
+         },
+         "abilities": {
+            "check": "",
+            "save": "",
+            "skill": ""
+         },
+         "spell": {
+            "dc": ""
+         }
+      },
+      "resources": {
+         "legact": {
+            "value": 0,
+            "max": 0
+         },
+         "legres": {
+            "value": 0,
+            "max": 0
+         },
+         "lair": {
+            "value": false,
+            "initiative": 0
+         },
+         "primary": {
+            "label": "",
+            "sr": false,
+            "value": null,
+            "max": null,
+            "lr": false
+         },
+         "secondary": {
+            "label": "",
+            "sr": false,
+            "value": null,
+            "max": null,
+            "lr": false
+         },
+         "tertiary": {
+            "label": "",
+            "sr": false,
+            "value": null,
+            "max": null,
+            "lr": false
+         }
+      }
+   },
+   "token": {
+      "name": "Drakkari Headhunter",
+      "img": "modules/warcraft5e/res/pics/tokens/monsters/trolls/frostmane_headhunter.webp",
+      "displayName": 0,
+      "actorLink": false,
+      "width": 1,
+      "height": 1,
+      "scale": 1.2,
+      "mirrorX": false,
+      "mirrorY": false,
+      "lockRotation": false,
+      "rotation": 0,
+      "alpha": 1,
+      "vision": false,
+      "dimSight": 0,
+      "brightSight": 0,
+      "dimLight": 0,
+      "brightLight": 0,
+      "sightAngle": 0,
+      "lightAngle": 0,
+      "lightAlpha": 0.25,
+      "lightAnimation": {
+         "speed": 5,
+         "intensity": 5
+      },
+      "disposition": -1,
+      "displayBars": 0,
+      "bar1": {
+         "attribute": "attributes.hp"
+      },
+      "bar2": {
+         "attribute": null
+      },
+      "flags": {},
+      "randomImg": false,
+      "tint": null,
+      "lightColor": null,
+      "x": null,
+      "y": null,
+      "elevation": null
+   },
+   "items": [
+      {
+         "_id": "KI3i72r21jxc88S3",
+         "name": "Ancient Culture (Berserker Warrior)",
+         "type": "feat",
+         "img": "icons/environment/wilderness/altar-hidden.webp",
+         "data": {
+            "description": {
+               "value": "",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "Core Rules page 26",
+            "activation": {
+               "type": "",
+               "cost": 0,
+               "condition": ""
+            },
+            "duration": {
+               "value": null,
+               "units": ""
+            },
+            "target": {
+               "value": null,
+               "width": null,
+               "units": "",
+               "type": ""
+            },
+            "range": {
+               "value": null,
+               "long": null,
+               "units": ""
+            },
+            "uses": {
+               "value": null,
+               "max": "",
+               "per": null
+            },
+            "consume": {
+               "type": "",
+               "target": null,
+               "amount": null
+            },
+            "ability": null,
+            "actionType": null,
+            "attackBonus": 0,
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell"
+            },
+            "requirements": "Troll",
+            "recharge": {
+               "value": null,
+               "charged": false
+            }
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 0,
+         "permission": {
+            "default": 0,
+            "BonBLPHtXp9sRrbq": 3
+         },
+         "flags": {
+            "wc5e": {
+               "type": "feat",
+               "category": "WC5E.SkillCategories.General",
+               "description": [
+                  {
+                     "value": "WC5E.Feats.AncientCulture.Description.1.Value"
+                  },
+                  {
+                     "options": [
+                        "WC5E.Feats.AncientCulture.Description.2.Options.1",
+                        "WC5E.Feats.AncientCulture.Description.2.Options.2",
+                        "WC5E.Feats.AncientCulture.Description.2.Options.3"
+                     ]
+                  }
+               ]
+            },
+            "core": {
+               "sourceId": "Compendium.warcraft5e.wc5e_racial_feats.Ty1nAMXBdw1NhaMb"
+            }
+         }
+      },
+      {
+         "_id": "xXmH446bhaRWV0To",
+         "name": "Hostile Homeland",
+         "type": "feat",
+         "img": "icons/magic/water/water-iceberg-bubbles.webp",
+         "data": {
+            "description": {
+               "value": "",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "Core Rules page 27",
+            "activation": {
+               "type": "",
+               "cost": 0,
+               "condition": ""
+            },
+            "duration": {
+               "value": null,
+               "units": ""
+            },
+            "target": {
+               "value": null,
+               "width": null,
+               "units": "",
+               "type": ""
+            },
+            "range": {
+               "value": null,
+               "long": null,
+               "units": ""
+            },
+            "uses": {
+               "value": null,
+               "max": "",
+               "per": null
+            },
+            "consume": {
+               "type": "",
+               "target": null,
+               "amount": null
+            },
+            "ability": null,
+            "actionType": null,
+            "attackBonus": 0,
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell"
+            },
+            "requirements": "Troll (Drakkari)",
+            "recharge": {
+               "value": null,
+               "charged": false
+            }
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 0,
+         "permission": {
+            "default": 0,
+            "BonBLPHtXp9sRrbq": 3
+         },
+         "flags": {
+            "wc5e": {
+               "type": "feat",
+               "category": "WC5E.SkillCategories.General",
+               "description": [
+                  {
+                     "value": "WC5E.Feats.HostileHomeland.Description.1.Value"
+                  }
+               ]
+            },
+            "core": {
+               "sourceId": "Compendium.warcraft5e.wc5e_racial_feats.UpbxLDVbqwnM8TfS"
+            }
+         }
+      },
+      {
+         "_id": "rbZ9ORduH1R0JtrZ",
+         "name": "Keen Nose",
+         "type": "feat",
+         "img": "icons/creatures/mammals/dog-husky-white-blue.webp",
+         "data": {
+            "description": {
+               "value": "",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "Core Rules page 26",
+            "activation": {
+               "type": "",
+               "cost": 0,
+               "condition": ""
+            },
+            "duration": {
+               "value": null,
+               "units": ""
+            },
+            "target": {
+               "value": null,
+               "width": null,
+               "units": "",
+               "type": ""
+            },
+            "range": {
+               "value": null,
+               "long": null,
+               "units": ""
+            },
+            "uses": {
+               "value": null,
+               "max": "",
+               "per": null
+            },
+            "consume": {
+               "type": "",
+               "target": null,
+               "amount": null
+            },
+            "ability": null,
+            "actionType": null,
+            "attackBonus": 0,
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell"
+            },
+            "requirements": "Troll",
+            "recharge": {
+               "value": null,
+               "charged": false
+            }
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 0,
+         "permission": {
+            "default": 0,
+            "BonBLPHtXp9sRrbq": 3
+         },
+         "flags": {
+            "wc5e": {
+               "type": "feat",
+               "category": "WC5E.SkillCategories.General",
+               "description": [
+                  {
+                     "value": "WC5E.Feats.KeenNose.Description.1.Value"
+                  }
+               ]
+            },
+            "core": {
+               "sourceId": "Compendium.warcraft5e.wc5e_racial_feats.Uuql2050ebB0a7JC"
+            }
+         }
+      },
+      {
+         "_id": "rF4UT6qlhZvnzym8",
+         "name": "Rapid Regeneration",
+         "type": "feat",
+         "img": "icons/skills/wounds/blood-cells-disease-green.webp",
+         "data": {
+            "description": {
+               "value": "",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "Core Rules page 37",
+            "activation": {
+               "type": "",
+               "cost": 0,
+               "condition": ""
+            },
+            "duration": {
+               "value": null,
+               "units": ""
+            },
+            "target": {
+               "value": null,
+               "width": null,
+               "units": "",
+               "type": ""
+            },
+            "range": {
+               "value": null,
+               "long": null,
+               "units": ""
+            },
+            "uses": {
+               "value": null,
+               "max": "",
+               "per": null
+            },
+            "consume": {
+               "type": "",
+               "target": null,
+               "amount": null
+            },
+            "ability": null,
+            "actionType": null,
+            "attackBonus": 0,
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell"
+            },
+            "requirements": "Troll",
+            "recharge": {
+               "value": null,
+               "charged": false
+            }
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 0,
+         "permission": {
+            "default": 0,
+            "BonBLPHtXp9sRrbq": 3
+         },
+         "flags": {
+            "wc5e": {
+               "type": "feat",
+               "category": "WC5E.SkillCategories.General",
+               "description": [
+                  {
+                     "value": "WC5E.Feats.RapidRegeneration.Description.1.Value"
+                  },
+                  {
+                     "value": "WC5E.Feats.RapidRegeneration.Description.2.Value"
+                  }
+               ]
+            },
+            "core": {
+               "sourceId": "Compendium.warcraft5e.wc5e_racial_feats.afp08dHRMnbFIW77"
+            }
+         }
+      },
+      {
+         "_id": "Ff88Uj2TbbRrSlCr",
+         "name": "Fighting Style (Archery)",
+         "type": "feat",
+         "img": "icons/skills/melee/maneuver-daggers-paired-orange.webp",
+         "data": {
+            "description": {
+               "value": "",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "Core Rules page 65",
+            "activation": {
+               "type": "",
+               "cost": 0,
+               "condition": ""
+            },
+            "duration": {
+               "value": null,
+               "units": ""
+            },
+            "target": {
+               "value": null,
+               "width": null,
+               "units": "",
+               "type": ""
+            },
+            "range": {
+               "value": null,
+               "long": null,
+               "units": ""
+            },
+            "uses": {
+               "value": null,
+               "max": "",
+               "per": null
+            },
+            "consume": {
+               "type": "",
+               "target": null,
+               "amount": null
+            },
+            "ability": null,
+            "actionType": null,
+            "attackBonus": 0,
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell"
+            },
+            "requirements": "Hunter 2",
+            "recharge": {
+               "value": null,
+               "charged": false
+            }
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 0,
+         "permission": {
+            "default": 0,
+            "BonBLPHtXp9sRrbq": 3
+         },
+         "flags": {
+            "wc5e": {
+               "type": "feat",
+               "category": "WC5E.SkillCategories.General",
+               "description": [
+                  {
+                     "value": "WC5E.Feats.FightingStyle.Description.1.Value"
+                  },
+                  {
+                     "title": "WC5E.Feats.FightingStyle.Description.2.Title",
+                     "value": "WC5E.Feats.FightingStyle.Description.2.Value"
+                  },
+                  {
+                     "title": "WC5E.Feats.FightingStyle.Description.3.Title",
+                     "value": "WC5E.Feats.FightingStyle.Description.3.Value"
+                  },
+                  {
+                     "title": "WC5E.Feats.FightingStyle.Description.4.Title",
+                     "value": "WC5E.Feats.FightingStyle.Description.4.Value"
+                  },
+                  {
+                     "title": "WC5E.Feats.FightingStyle.Description.7.Title",
+                     "value": "WC5E.Feats.FightingStyle.Description.7.Value"
+                  }
+               ]
+            },
+            "core": {
+               "sourceId": "Compendium.warcraft5e.wc5e_class_feats.zRalmH8DkBPR5vDk"
+            }
+         }
+      },
+      {
+         "_id": "asIPIaKRTbGm1fNa",
+         "name": "Natural Explorer",
+         "type": "feat",
+         "img": "icons/environment/wilderness/cave-entrance-rocky.webp",
+         "data": {
+            "description": {
+               "value": "",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "Core Rules page 167",
+            "activation": {
+               "type": "",
+               "cost": 0,
+               "condition": ""
+            },
+            "duration": {
+               "value": null,
+               "units": ""
+            },
+            "target": {
+               "value": null,
+               "width": null,
+               "units": "",
+               "type": ""
+            },
+            "range": {
+               "value": null,
+               "long": null,
+               "units": ""
+            },
+            "uses": {
+               "value": null,
+               "max": "",
+               "per": null
+            },
+            "consume": {
+               "type": "",
+               "target": null,
+               "amount": null
+            },
+            "ability": null,
+            "actionType": null,
+            "attackBonus": 0,
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell"
+            },
+            "requirements": "",
+            "recharge": {
+               "value": null,
+               "charged": false
+            }
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 0,
+         "permission": {
+            "default": 0,
+            "BonBLPHtXp9sRrbq": 3
+         },
+         "flags": {
+            "wc5e": {
+               "type": "talent",
+               "category": "WC5E.SkillCategories.General",
+               "description": [
+                  {
+                     "value": "WC5E.Talents.NaturalExplorer.Description.1.Value"
+                  },
+                  {
+                     "options": [
+                        "WC5E.Talents.NaturalExplorer.Description.2.Options.1",
+                        "WC5E.Talents.NaturalExplorer.Description.2.Options.2",
+                        "WC5E.Talents.NaturalExplorer.Description.2.Options.3",
+                        "WC5E.Talents.NaturalExplorer.Description.2.Options.4",
+                        "WC5E.Talents.NaturalExplorer.Description.2.Options.5",
+                        "WC5E.Talents.NaturalExplorer.Description.2.Options.6",
+                        "WC5E.Talents.NaturalExplorer.Description.2.Options.7"
+                     ]
+                  },
+                  {
+                     "value": "WC5E.Talents.NaturalExplorer.Description.3.Value"
+                  },
+                  {
+                     "options": [
+                        "WC5E.Talents.NaturalExplorer.Description.4.Options.1",
+                        "WC5E.Talents.NaturalExplorer.Description.4.Options.2",
+                        "WC5E.Talents.NaturalExplorer.Description.4.Options.3",
+                        "WC5E.Talents.NaturalExplorer.Description.4.Options.4"
+                     ]
+                  },
+                  {
+                     "value": "WC5E.Talents.NaturalExplorer.Description.5.Value"
+                  }
+               ]
+            },
+            "core": {
+               "sourceId": "Compendium.warcraft5e.wc5e_class_talents.TurhNevCevBv21mz"
+            }
+         }
+      },
+      {
+         "_id": "9pdFySxXWocSMdES",
+         "name": "Handaxe",
+         "type": "weapon",
+         "img": "icons/weapons/axes/axe-broad-black.webp",
+         "data": {
+            "description": {
+               "value": "<p>This one-handed axe is light and balanced for throwing while remaining useful in hand combat.</p>",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "PHB pg. 149",
+            "quantity": 1,
+            "weight": 2,
+            "price": 5,
+            "attunement": 0,
+            "equipped": true,
+            "rarity": "common",
+            "identified": true,
+            "activation": {
+               "type": "action",
+               "cost": 1,
+               "condition": ""
+            },
+            "duration": {
+               "value": null,
+               "units": ""
+            },
+            "target": {
+               "value": null,
+               "width": null,
+               "units": "",
+               "type": ""
+            },
+            "range": {
+               "value": 20,
+               "long": 60,
+               "units": "ft"
+            },
+            "uses": {
+               "value": null,
+               "max": "",
+               "per": ""
+            },
+            "consume": {
+               "type": "",
+               "target": "",
+               "amount": null
+            },
+            "ability": "",
+            "actionType": "mwak",
+            "attackBonus": "0",
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [
+                  [
+                     "1d6 + @mod",
+                     "slashing"
+                  ]
+               ],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell"
+            },
+            "armor": {
+               "value": 10
+            },
+            "hp": {
+               "value": 0,
+               "max": 0,
+               "dt": null,
+               "conditions": ""
+            },
+            "weaponType": "simpleM",
+            "baseItem": "handaxe",
+            "properties": {
+               "lgt": true,
+               "thr": true,
+               "amm": false,
+               "hvy": false,
+               "fin": false,
+               "fir": false,
+               "foc": false,
+               "lod": false,
+               "rch": false,
+               "rel": false,
+               "ret": false,
+               "spc": false,
+               "two": false,
+               "ver": false,
+               "ada": false,
+               "mgc": false,
+               "sil": false
+            },
+            "proficient": true,
+            "attributes": {
+               "spelldc": 10
+            }
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 3300000,
+         "permission": {
+            "default": 0,
+            "BonBLPHtXp9sRrbq": 3
+         },
+         "flags": {
+            "core": {
+               "sourceId": "Compendium.dnd5e.items.eO7Fbv5WBk5zvGOc"
+            }
+         }
+      },
+      {
+         "_id": "JKWQcm7d3ZJLrzAX",
+         "name": "Spear",
+         "type": "weapon",
+         "img": "icons/weapons/polearms/spear-flared-worn-grey.webp",
+         "data": {
+            "description": {
+               "value": "<p>A gleaming steel point mouted atop a stout wooden haft, the spear may be wielded in one hand or two and can puncture through the heaviest armor with deadly force.</p>",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "PHB pg. 149",
+            "quantity": 1,
+            "weight": 3,
+            "price": 1,
+            "attunement": 0,
+            "equipped": true,
+            "rarity": "common",
+            "identified": true,
+            "activation": {
+               "type": "action",
+               "cost": 1,
+               "condition": ""
+            },
+            "duration": {
+               "value": null,
+               "units": ""
+            },
+            "target": {
+               "value": null,
+               "width": null,
+               "units": "",
+               "type": ""
+            },
+            "range": {
+               "value": 20,
+               "long": 60,
+               "units": "ft"
+            },
+            "uses": {
+               "value": null,
+               "max": "",
+               "per": ""
+            },
+            "consume": {
+               "type": "",
+               "target": "",
+               "amount": null
+            },
+            "ability": "",
+            "actionType": "mwak",
+            "attackBonus": "0",
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [
+                  [
+                     "1d6 + @mod",
+                     "piercing"
+                  ]
+               ],
+               "versatile": "1d8 + @mod"
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell"
+            },
+            "armor": {
+               "value": 10
+            },
+            "hp": {
+               "value": 0,
+               "max": 0,
+               "dt": null,
+               "conditions": ""
+            },
+            "weaponType": "simpleM",
+            "baseItem": "spear",
+            "properties": {
+               "thr": true,
+               "ver": true,
+               "amm": false,
+               "hvy": false,
+               "fin": false,
+               "fir": false,
+               "foc": false,
+               "lgt": false,
+               "lod": false,
+               "rch": false,
+               "rel": false,
+               "ret": false,
+               "spc": false,
+               "two": false,
+               "ada": false,
+               "mgc": false,
+               "sil": false
+            },
+            "proficient": true,
+            "attributes": {
+               "spelldc": 10
+            }
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 2700000,
+         "permission": {
+            "default": 0,
+            "BonBLPHtXp9sRrbq": 3
+         },
+         "flags": {
+            "core": {
+               "sourceId": "Compendium.dnd5e.items.OG4nBBydvmfWYXIk"
+            }
+         }
+      },
+      {
+         "_id": "00wtzx3HWZ53HoSs",
+         "name": "Longbow",
+         "type": "weapon",
+         "img": "icons/weapons/bows/longbow-leather-green.webp",
+         "data": {
+            "description": {
+               "value": "<p>A thick shaft of laminated wood is bowed by a taut string capable of launching deadly arrows at long distances.</p>",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "PHB pg. 149",
+            "quantity": 1,
+            "weight": 2,
+            "price": 50,
+            "attunement": 0,
+            "equipped": true,
+            "rarity": "common",
+            "identified": true,
+            "activation": {
+               "type": "action",
+               "cost": 1,
+               "condition": ""
+            },
+            "duration": {
+               "value": 0,
+               "units": ""
+            },
+            "target": {
+               "value": 0,
+               "width": null,
+               "units": "",
+               "type": ""
+            },
+            "range": {
+               "value": 150,
+               "long": 600,
+               "units": "ft"
+            },
+            "uses": {
+               "value": null,
+               "max": "",
+               "per": ""
+            },
+            "consume": {
+               "type": "",
+               "target": "",
+               "amount": null
+            },
+            "ability": "",
+            "actionType": "rwak",
+            "attackBonus": "2",
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [
+                  [
+                     "1d8 + @mod",
+                     "piercing"
+                  ]
+               ],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell"
+            },
+            "armor": {
+               "value": 10
+            },
+            "hp": {
+               "value": 0,
+               "max": 0,
+               "dt": null,
+               "conditions": ""
+            },
+            "weaponType": "martialR",
+            "baseItem": "longbow",
+            "properties": {
+               "amm": true,
+               "hvy": true,
+               "two": true,
+               "fin": false,
+               "fir": false,
+               "foc": false,
+               "lgt": false,
+               "rch": false,
+               "rel": false,
+               "ret": false,
+               "spc": false,
+               "thr": false,
+               "ver": false,
+               "ada": false,
+               "lod": false,
+               "mgc": false,
+               "sil": false
+            },
+            "proficient": true
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 1900001,
+         "permission": {
+            "default": 0,
+            "BonBLPHtXp9sRrbq": 3
+         },
+         "flags": {
+            "core": {
+               "sourceId": "Compendium.dnd5e.items.3cymOVja8jXbzrdT"
+            }
+         }
+      },
+      {
+         "_id": "XRge2bc9EmKIZIaz",
+         "name": "Handaxe",
+         "type": "weapon",
+         "img": "icons/weapons/axes/axe-broad-black.webp",
+         "data": {
+            "description": {
+               "value": "<p>This one-handed axe is light and balanced for throwing while remaining useful in hand combat.</p>",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "PHB pg. 149",
+            "quantity": 1,
+            "weight": 2,
+            "price": 5,
+            "attunement": 0,
+            "equipped": true,
+            "rarity": "common",
+            "identified": true,
+            "activation": {
+               "type": "action",
+               "cost": 1,
+               "condition": ""
+            },
+            "duration": {
+               "value": null,
+               "units": ""
+            },
+            "target": {
+               "value": null,
+               "width": null,
+               "units": "",
+               "type": ""
+            },
+            "range": {
+               "value": 20,
+               "long": 60,
+               "units": "ft"
+            },
+            "uses": {
+               "value": null,
+               "max": "",
+               "per": ""
+            },
+            "consume": {
+               "type": "",
+               "target": "",
+               "amount": null
+            },
+            "ability": "",
+            "actionType": "mwak",
+            "attackBonus": "0",
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [
+                  [
+                     "1d6 + @mod",
+                     "slashing"
+                  ]
+               ],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell"
+            },
+            "armor": {
+               "value": 10
+            },
+            "hp": {
+               "value": 0,
+               "max": 0,
+               "dt": null,
+               "conditions": ""
+            },
+            "weaponType": "simpleM",
+            "baseItem": "handaxe",
+            "properties": {
+               "lgt": true,
+               "thr": true,
+               "amm": false,
+               "hvy": false,
+               "fin": false,
+               "fir": false,
+               "foc": false,
+               "lod": false,
+               "rch": false,
+               "rel": false,
+               "ret": false,
+               "spc": false,
+               "two": false,
+               "ver": false,
+               "ada": false,
+               "mgc": false,
+               "sil": false
+            },
+            "proficient": true,
+            "attributes": {
+               "spelldc": 10
+            }
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 3300000,
+         "permission": {
+            "default": 0,
+            "BonBLPHtXp9sRrbq": 3
+         },
+         "flags": {
+            "core": {
+               "sourceId": "Compendium.dnd5e.items.eO7Fbv5WBk5zvGOc"
+            }
+         }
+      },
+      {
+         "_id": "lsFdKFdq1ITodPIy",
+         "name": "Handaxe",
+         "type": "weapon",
+         "img": "icons/weapons/axes/axe-broad-black.webp",
+         "data": {
+            "description": {
+               "value": "<p>This one-handed axe is light and balanced for throwing while remaining useful in hand combat.</p>",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "PHB pg. 149",
+            "quantity": 1,
+            "weight": 2,
+            "price": 5,
+            "attunement": 0,
+            "equipped": true,
+            "rarity": "common",
+            "identified": true,
+            "activation": {
+               "type": "action",
+               "cost": 1,
+               "condition": ""
+            },
+            "duration": {
+               "value": null,
+               "units": ""
+            },
+            "target": {
+               "value": null,
+               "width": null,
+               "units": "",
+               "type": ""
+            },
+            "range": {
+               "value": 20,
+               "long": 60,
+               "units": "ft"
+            },
+            "uses": {
+               "value": null,
+               "max": "",
+               "per": ""
+            },
+            "consume": {
+               "type": "",
+               "target": "",
+               "amount": null
+            },
+            "ability": "",
+            "actionType": "mwak",
+            "attackBonus": "0",
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [
+                  [
+                     "1d6 + @mod",
+                     "slashing"
+                  ]
+               ],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell"
+            },
+            "armor": {
+               "value": 10
+            },
+            "hp": {
+               "value": 0,
+               "max": 0,
+               "dt": null,
+               "conditions": ""
+            },
+            "weaponType": "simpleM",
+            "baseItem": "handaxe",
+            "properties": {
+               "lgt": true,
+               "thr": true,
+               "amm": false,
+               "hvy": false,
+               "fin": false,
+               "fir": false,
+               "foc": false,
+               "lod": false,
+               "rch": false,
+               "rel": false,
+               "ret": false,
+               "spc": false,
+               "two": false,
+               "ver": false,
+               "ada": false,
+               "mgc": false,
+               "sil": false
+            },
+            "proficient": true,
+            "attributes": {
+               "spelldc": 10
+            }
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 3300000,
+         "permission": {
+            "default": 0,
+            "BonBLPHtXp9sRrbq": 3
+         },
+         "flags": {
+            "core": {
+               "sourceId": "Compendium.dnd5e.items.eO7Fbv5WBk5zvGOc"
+            }
+         }
+      },
+      {
+         "_id": "7fYLvfPb3V9hTM1F",
+         "name": "Handaxe (Ranged)",
+         "type": "weapon",
+         "img": "icons/weapons/axes/axe-broad-black.webp",
+         "data": {
+            "description": {
+               "value": "<p>This one-handed axe is light and balanced for throwing while remaining useful in hand combat.</p>",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "PHB pg. 149",
+            "quantity": 1,
+            "weight": 2,
+            "price": 5,
+            "attunement": 0,
+            "equipped": true,
+            "rarity": "common",
+            "identified": true,
+            "activation": {
+               "type": "action",
+               "cost": 1,
+               "condition": ""
+            },
+            "duration": {
+               "value": null,
+               "units": ""
+            },
+            "target": {
+               "value": null,
+               "width": null,
+               "units": "",
+               "type": ""
+            },
+            "range": {
+               "value": 20,
+               "long": 60,
+               "units": "ft"
+            },
+            "uses": {
+               "value": null,
+               "max": "",
+               "per": ""
+            },
+            "consume": {
+               "type": "",
+               "target": "",
+               "amount": null
+            },
+            "ability": "",
+            "actionType": "rwak",
+            "attackBonus": "2",
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [
+                  [
+                     "1d6 + @mod",
+                     "slashing"
+                  ]
+               ],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell"
+            },
+            "armor": {
+               "value": 10
+            },
+            "hp": {
+               "value": 0,
+               "max": 0,
+               "dt": null,
+               "conditions": ""
+            },
+            "weaponType": "simpleM",
+            "baseItem": "handaxe",
+            "properties": {
+               "lgt": true,
+               "thr": true,
+               "amm": false,
+               "hvy": false,
+               "fin": false,
+               "fir": false,
+               "foc": false,
+               "lod": false,
+               "rch": false,
+               "rel": false,
+               "ret": false,
+               "spc": false,
+               "two": false,
+               "ver": false,
+               "ada": false,
+               "mgc": false,
+               "sil": false
+            },
+            "proficient": true,
+            "attributes": {
+               "spelldc": 10
+            }
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 3300000,
+         "permission": {
+            "default": 0,
+            "BonBLPHtXp9sRrbq": 3
+         },
+         "flags": {
+            "core": {
+               "sourceId": "Compendium.dnd5e.items.eO7Fbv5WBk5zvGOc"
+            }
+         }
+      },
+      {
+         "_id": "GU7a1ZofSAM62CEI",
+         "name": "Spear (Ranged)",
+         "type": "weapon",
+         "img": "icons/weapons/polearms/spear-flared-worn-grey.webp",
+         "data": {
+            "description": {
+               "value": "<p>A gleaming steel point mouted atop a stout wooden haft, the spear may be wielded in one hand or two and can puncture through the heaviest armor with deadly force.</p>",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "PHB pg. 149",
+            "quantity": 1,
+            "weight": 3,
+            "price": 1,
+            "attunement": 0,
+            "equipped": true,
+            "rarity": "common",
+            "identified": true,
+            "activation": {
+               "type": "action",
+               "cost": 1,
+               "condition": ""
+            },
+            "duration": {
+               "value": null,
+               "units": ""
+            },
+            "target": {
+               "value": null,
+               "width": null,
+               "units": "",
+               "type": ""
+            },
+            "range": {
+               "value": 20,
+               "long": 60,
+               "units": "ft"
+            },
+            "uses": {
+               "value": null,
+               "max": "",
+               "per": ""
+            },
+            "consume": {
+               "type": "",
+               "target": "",
+               "amount": null
+            },
+            "ability": "",
+            "actionType": "rwak",
+            "attackBonus": "2",
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [
+                  [
+                     "1d6 + @mod",
+                     "piercing"
+                  ]
+               ],
+               "versatile": "1d8 + @mod"
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell"
+            },
+            "armor": {
+               "value": 10
+            },
+            "hp": {
+               "value": 0,
+               "max": 0,
+               "dt": null,
+               "conditions": ""
+            },
+            "weaponType": "simpleM",
+            "baseItem": "spear",
+            "properties": {
+               "thr": true,
+               "ver": true,
+               "amm": false,
+               "hvy": false,
+               "fin": false,
+               "fir": false,
+               "foc": false,
+               "lgt": false,
+               "lod": false,
+               "rch": false,
+               "rel": false,
+               "ret": false,
+               "spc": false,
+               "two": false,
+               "ada": false,
+               "mgc": false,
+               "sil": false
+            },
+            "proficient": true,
+            "attributes": {
+               "spelldc": 10
+            }
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 2700000,
+         "permission": {
+            "default": 0,
+            "BonBLPHtXp9sRrbq": 3
+         },
+         "flags": {
+            "core": {
+               "sourceId": "Compendium.dnd5e.items.OG4nBBydvmfWYXIk"
+            }
+         }
+      }
+   ],
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+      "default": 0,
+      "BonBLPHtXp9sRrbq": 3
+   },
+   "flags": {
+      "core": {
+         "sourceId": "Actor.GR7A0by5yFqifc62"
+      }
+   },
+   "_id": "WAwXnDR6LEDBLwf3"
+}

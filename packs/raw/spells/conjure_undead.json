@@ -1,12 +1,12 @@
 {
-   "_id": "oppMIXl9H5bf8yTl",
-   "name": "Animate Undead",
+   "_id": "gTXOsMFKSHJzLzoo",
+   "name": "Conjure Undead",
    "permission": {
       "default": 0
    },
    "type": "spell",
    "data": {
-      "source": "",
+      "source": "Wc5e - Core p. 331",
       "activation": {
          "type": "action",
          "cost": 1,
@@ -17,13 +17,13 @@
          "units": "hour"
       },
       "target": {
-         "value": 0,
-         "units": "",
-         "type": ""
+         "value": null,
+         "units": "any",
+         "type": "space"
       },
       "range": {
-         "value": 90,
-         "long": null,
+         "value": 30,
+         "long": 0,
          "units": "ft"
       },
       "uses": {
@@ -32,32 +32,37 @@
          "per": ""
       },
       "ability": "",
-      "actionType": "save",
+      "actionType": "util",
       "attackBonus": 0,
       "chatFlavor": "",
-      "critical": null,
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
       "damage": {
          "parts": [],
-         "versatile": ""
+         "versatile": "",
+         "value": ""
       },
       "formula": "",
       "save": {
-         "ability": "wis",
-         "dc": 0,
+         "ability": "",
+         "dc": null,
+         "value": "",
          "scaling": "spell"
       },
-      "level": 3,
-      "school": "con",
+      "level": 1,
+      "school": "nec",
       "components": {
          "value": "",
          "vocal": true,
          "somatic": true,
-         "material": false,
+         "material": true,
          "ritual": false,
          "concentration": true
       },
       "materials": {
-         "value": "a gilded skull worth at least 300 gp",
+         "value": "a focus related to the creature, or an object of specific rarity",
          "consumed": false,
          "cost": 0,
          "supply": 0
@@ -68,7 +73,7 @@
       },
       "scaling": {
          "mode": "level",
-         "formula": "1d6"
+         "formula": ""
       }
    },
    "sort": 100001,
@@ -77,20 +82,63 @@
          "type": "spell",
          "description": [
             {
-               "value": "WC5E.Spells.ConjureUndead.Description.1.Value"
+               "value": "WC5E.Spells.Conjure.Description.1.Value"
             },
             {
-               "value": "WC5E.Spells.ConjureUndead.Description.2.Value"
+               "options": [
+                  "WC5E.Spells.Conjure.Description.2.Options.1",
+                  "WC5E.Spells.Conjure.Description.2.Options.2",
+                  "WC5E.Spells.Conjure.Description.2.Options.3"
+               ]
+            },
+            {
+               "note": true,
+               "value": "WC5E.Spells.Conjure.Description.3.Value"
+            },
+            {
+               "title": "WC5E.Spells.Conjure.Description.4.Title",
+               "value": "WC5E.Spells.Conjure.Description.4.Value"
+            },
+            {
+               "value": "WC5E.Spells.Conjure.Description.5.Value"
+            },
+            {
+               "value": "WC5E.Spells.Conjure.Description.6.Value"
+            },
+            {
+               "value": "WC5E.Spells.Conjure.Description.7.Value"
+            },
+            {
+               "value": "WC5E.Spells.Conjure.Description.8.Value"
+            },
+            {
+               "value": "WC5E.Spells.Conjure.Description.9.Value"
+            },
+            {
+               "value": "WC5E.Spells.Conjure.Description.10.Value"
+            },
+            {
+               "title": "WC5E.Spells.Conjure.Description.11.Title",
+               "value": "WC5E.Spells.Conjure.Description.11.Value"
+            },
+            {
+               "value": "WC5E.Spells.Conjure.Description.12.Value"
+            },
+            {
+               "value": "WC5E.Spells.Conjure.Description.13.Value"
+            },
+            {
+               "title": "WC5E.Spells.Conjure.Description.14.Title",
+               "value": "WC5E.Spells.Conjure.Description.14.Value"
             }
          ],
          "heightened": [
             {
-               "value": "WC5E.Spells.ConjureUndead.Heightened.1.Value"
+               "value": "WC5E.Spells.Conjure.Heightened.1.Value"
             }
          ]
       }
    },
-   "img": "icons/magic/death/skeleton-eye-skull-glow-orange.webp",
-   "effects": [
-   ]
+   "img": "icons/magic/death/hand-dirt-undead-zombie.webp",
+   "effects": []
 }

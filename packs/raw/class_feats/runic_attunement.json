@@ -1,0 +1,182 @@
+{
+   "_id": "7Dc5IOSkJvJipWxp",
+   "name": "Runic Attunement",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 37",
+      "requirements": "Monk (Runeweaver) 3"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.RunicAttunement.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.RunicAttunement.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Feats.RunicAttunement.Description.3.Value"
+            },
+            {
+               "value": "WC5E.Feats.RunicAttunement.Description.4.Value"
+            },
+            {
+               "value": "WC5E.Feats.RunicAttunement.Description.5.Value"
+            },
+            {
+               "table": {
+                  "head": [
+                     {
+                        "title": "Monk Level"
+                     },
+                     {
+                        "title": "Maximum Ki"
+                     }
+                  ],
+                  "rows": [
+                     [
+                        {
+                           "text": "5-8"
+                        },
+                        {
+                           "value": 3
+                        }
+                     ],
+                     [
+                        {
+                           "text": "9-12"
+                        },
+                        {
+                           "value": 4
+                        }
+                     ],
+                     [
+                        {
+                           "text": "13-16"
+                        },
+                        {
+                           "value": 5
+                        }
+                     ],
+                     [
+                        {
+                           "text": "17-20"
+                        },
+                        {
+                           "value": 6
+                        }
+                     ]
+                  ]
+               }
+            },
+            {
+               "title": "WC5E.Feats.RunicAttunement.Description.7.Title",
+               "value": "WC5E.Feats.RunicAttunement.Description.7.Value"
+            },
+            {
+               "table": {
+                  "head": [
+                     {
+                        "title": "Spell Level"
+                     },
+                     {
+                        "title": "Ki"
+                     },
+                     {
+                        "title": "Minimum Level"
+                     }
+                  ],
+                  "rows": [
+                     [
+                        {
+                           "value": 1
+                        },
+                        {
+                           "value": 1
+                        },
+                        {
+                           "value": 3
+                        }
+                     ],
+                     [
+                        {
+                           "value": 2
+                        },
+                        {
+                           "value": 2
+                        },
+                        {
+                           "value": 6
+                        }
+                     ],
+                     [
+                        {
+                           "value": 3
+                        },
+                        {
+                           "value": 3
+                        },
+                        {
+                           "value": 6
+                        }
+                     ],
+                     [
+                        {
+                           "value": 4
+                        },
+                        {
+                           "value": 4
+                        },
+                        {
+                           "value": 11
+                        }
+                     ],
+                     [
+                        {
+                           "value": 5
+                        },
+                        {
+                           "value": 5
+                        },
+                        {
+                           "value": 11
+                        }
+                     ],
+                     [
+                        {
+                           "value": 6
+                        },
+                        {
+                           "value": 6
+                        },
+                        {
+                           "value": 17
+                        }
+                     ],
+                     [
+                        {
+                           "value": 7
+                        },
+                        {
+                           "value": 7
+                        },
+                        {
+                           "value": 17
+                        }
+                     ]
+                  ]
+               }
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+   "effects": [
+   ]
+}

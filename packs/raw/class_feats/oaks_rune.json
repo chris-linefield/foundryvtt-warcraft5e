@@ -1,0 +1,26 @@
+{
+   "_id": "UjRmu1Ni6r3P0u2m",
+   "name": "Oaks Rune",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 154",
+      "requirements": "Monk (Runeweaver) 6"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.OaksRune.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/symbols/cog-shield-white-blue.webp",
+   "effects": [
+   ]
+}

@@ -1,0 +1,29 @@
+{
+   "_id": "zm0bhehTGkTJKv8E",
+   "name": "Steal Magic",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 157",
+      "requirements": "Warrior (Spell Breaker) 15"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.StealMagic.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.StealMagic.Description.2.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/light/projectile-smoke-blue-white.webp",
+   "effects": [
+   ]
+}

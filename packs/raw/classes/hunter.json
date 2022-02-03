@@ -551,6 +551,75 @@
                   }
                ]
             }
+         ],
+         "special": [
+            {
+               "title": "WC5E.Class.Hunter.Archetypes.ShadowHunter.Title",
+               "description": [
+                  {
+                     "value": "WC5E.Class.Hunter.Archetypes.ShadowHunter.Description.1.Value"
+                  },
+                  {
+                     "value": "WC5E.Class.Hunter.Archetypes.ShadowHunter.Description.2.Value"
+                  },
+                  {
+                     "value": "WC5E.Class.Hunter.Archetypes.ShadowHunter.Description.3.Value"
+                  },
+                  {
+                     "value": "WC5E.Class.Hunter.Archetypes.ShadowHunter.Description.4.Value"
+                  },
+                  {
+                     "value": "WC5E.Class.Hunter.Archetypes.ShadowHunter.Description.5.Value"
+                  }
+               ],
+               "featList": [
+                  {
+                     "level": "3",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "cyFAyhrV669lufOO",
+                           "label": "WC5E.Feats.LoaSpellcasting.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "o4PSTskgVfeS7tHm",
+                           "label": "WC5E.Feats.MaskMagic.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "7",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "h22PkyNext4Ezblt",
+                           "label": "WC5E.Feats.VoodooRitualist.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "11",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "tpkszaJV0DBY13gm",
+                           "label": "WC5E.Feats.AdvancedMaskMagic.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "15",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "YMKp7vrHrNPGJZEA",
+                           "label": "WC5E.Feats.PitOfShadows.Label"
+                        }
+                     ]
+                  }
+               ]
+            }
          ]
       }
    }

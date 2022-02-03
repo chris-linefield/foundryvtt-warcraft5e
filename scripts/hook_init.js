@@ -1,7 +1,8 @@
-
 //---- ON INITIALIZATION
 
-Hooks.once('init', async function() {
+import {preloadWc5eTemplates} from "./config_templates.js";
+
+Hooks.once('init', async function () {
 
     if (typeof Babele !== 'undefined') {
 
@@ -115,4 +116,5 @@ Hooks.once('init', async function() {
 
     //game.system.template.Itme.setFlag('wc5e', 'wcType', 'feat');
     console.log(game);
+    return preloadWc5eTemplates();
 });

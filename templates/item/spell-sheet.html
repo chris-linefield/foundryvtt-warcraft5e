@@ -43,61 +43,8 @@
         <div class="spellDesc">
             {{{localize item.data.description.value}}}
             {{#each item.flags.wc5e.description}}
-                {{#if this.title}}
-                    <br>
-                    <h3>{{localize this.title}}</h3>
-                {{/if}}
-                {{#if this.value}}
-                    <p>
-                        {{#if this.special}}
-                            <i>Special:</i>
-                        {{/if}}
-                        {{{localize this.value}}}
-                    </p>
-                {{/if}}
-                {{#if this.options}}
-                    <ul>
-                        {{#each this.options}}
-                            <li>{{{localize this}}}</li>
-                        {{/each}}
-                    </ul>
-                {{/if}}
-                {{#if this.table}}
-                    <table>
-                        <tr>
-                            {{#each this.table.head}}
-                                <th>
-                                    {{localize this.title}}
-                                    {{#if this.sup}}
-                                        <sup>{{this.sup}}</sup>
-                                    {{/if}}
-                                </th>
-                            {{/each}}
-                        </tr>
-                        {{#each this.table.rows}}
-                            <tr>
-                                {{#each this}}
-                                    <td class="center">
-                                        {{#if this.value}}
-                                            {{this.value}}
-                                            {{#if this.unit}}
-                                                {{localize this.unit}}
-                                            {{/if}}
-                                            {{#if this.sup}}
-                                                <sup>{{this.sup}}</sup>
-                                            {{/if}}
-                                        {{/if}}
-                                        {{#if this.text}}
-                                            {{localize this.text}}
-                                        {{/if}}
-                                    </td>
-                                {{/each}}
-                            </tr>
-                        {{/each}}
-                    </table>
-                {{/if}}
+                {{> "modules/warcraft5e/templates/item/parts/description.html"}}
             {{/each}}
-
             {{#if item.flags.wc5e.heightened}}
                 <br>
                 <h4>{{localize "WC5E.SpellSheet.Heightened"}}:</h4>

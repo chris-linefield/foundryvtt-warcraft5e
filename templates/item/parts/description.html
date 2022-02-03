@@ -1,0 +1,55 @@
+{{#if this.headline}}
+    <br>
+    <h2>{{localize this.headline}}</h2>
+{{/if}}
+{{#if this.title}}
+    {{#unless this.headline}}
+        <br>
+    {{/unless}}
+    <h3>{{localize this.title}}</h3>
+{{/if}}
+{{#if this.subtitle}}
+    {{#unless this.title}}
+        <br>
+    {{/unless}}
+    <h4>{{localize this.subtitle}}</h4>
+{{/if}}
+{{#if this.value}}
+    <p>
+        {{#if this.special}}
+            <i>Special:</i>
+        {{/if}}
+        {{#if this.note}}
+            <i>Note:</i>
+        {{/if}}
+        {{{localize this.value}}}
+    </p>
+{{/if}}
+{{#if this.options}}
+    <ul>
+        {{#each this.options}}
+            <li>{{{localize this}}}</li>
+        {{/each}}
+    </ul>
+{{/if}}
+{{#if this.optionsArray}}
+    <ul>
+        {{#each this.optionsArray}}
+            {{#if this.value}}
+                <li>
+                    {{{localize this.value}}}
+                    {{#if this.options}}
+                        <ul>
+                            {{#each this.options}}
+                                <li>{{{localize this}}}</li>
+                            {{/each}}
+                        </ul>
+                    {{/if}}
+                </li>
+            {{/if}}
+        {{/each}}
+    </ul>
+{{/if}}
+{{#if this.table}}
+    {{> "modules/warcraft5e/templates/item/parts/table.html"}}
+{{/if}}

@@ -30,8 +30,10 @@
                            "text": "WC5E.Languages.Common"
                         },
                         {
-                           "text": "WC5E.Race.Human.Name",
-                           "text2": "WC5E.Race.Worgen.Name"
+                           "textParts": [
+                              "WC5E.Race.Human.Name",
+                              "WC5E.Race.Worgen.Name"
+                           ]
                         },
                         {
                            "text": "WC5E.Script.Common"
@@ -98,8 +100,10 @@
                            "text": "WC5E.Languages.Eredun"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.StandardLanguages.Fiend",
-                           "text2": "WC5E.Class.Warlock.Name"
+                           "textParts": [
+                              "WC5E.Rules.Mechanics.StandardLanguages.Fiend",
+                              "WC5E.Class.Warlock.Name"
+                           ]
                         },
                         {
                            "text": "WC5E.Script.Eredic"
@@ -136,8 +140,10 @@
                            "sup": "4"
                         },
                         {
-                           "text": "WC5E.Creature.Elemental.Name",
-                           "text2": "WC5E.Class.Shaman.Name"
+                           "textParts": [
+                              "WC5E.Creature.Elemental.Name",
+                              "WC5E.Class.Shaman.Name"
+                           ]
                         },
                         {
                            "text": "WC5E.Script.Runic"
@@ -198,8 +204,10 @@
                            "text": "WC5E.Languages.ShathYar"
                         },
                         {
-                           "text": "WC5E.Creature.VoidBeing.Name",
-                           "text2": "WC5E.Creature.Faceless.Name"
+                           "textParts": [
+                              "WC5E.Creature.VoidBeing.Name",
+                              "WC5E.Creature.Faceless.Name"
+                           ]
                         },
                         {
                            "text": "WC5E.Script.CorruptedRunic"
@@ -221,8 +229,10 @@
                            "text": "WC5E.Languages.Titan"
                         },
                         {
-                           "text": "WC5E.Creature.Titan.Name",
-                           "text2": "WC5E.Creature.Earthen.Name"
+                           "textParts": [
+                              "WC5E.Creature.Titan.Name",
+                              "WC5E.Creature.Earthen.Name"
+                           ]
                         },
                         {
                            "text": "WC5E.Script.Runic"

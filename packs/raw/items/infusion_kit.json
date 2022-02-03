@@ -1,0 +1,49 @@
+{
+   "name": "Infusion Kit",
+   "type": "tool",
+   "img": "icons/containers/chest/chest-reinforced-box-brown.webp",
+   "data": {
+      "description": {
+         "value": "<p>Used for infusing items with innate magic.</p>\n<p>These toolsets include an inscription plate, various brushes that can draw with magical ink, scales to measure infusion dusts, magnifying glasses of different sizes, and strips of vellum to help design and inscribe infusion matrices.</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - P. 189",
+      "quantity": 1,
+      "weight": 5,
+      "price": 100,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "common",
+      "identified": true,
+      "toolType": "art",
+      "baseItem": "",
+      "ability": "int",
+      "chatFlavor": "",
+      "proficient": 0,
+      "bonus": ""
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+      "default": 0
+   },
+   "flags": {
+      "wc5e": {
+         "type": "tool",
+         "unit": "WC5E.UI.Units.Gp",
+         "weightUnit": "WC5E.UI.Units.Lb",
+         "label": "WC5E.Items.InfusionKit.Label",
+         "description": [
+            {
+               "value": "WC5E.Items.InfusionKit.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Items.InfusionKit.Description.2.Value"
+            }
+         ]
+      }
+   },
+   "_id": "oZ4szgJtQaSdG1qD"
+}

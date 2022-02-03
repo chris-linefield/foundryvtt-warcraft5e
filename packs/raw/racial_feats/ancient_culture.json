@@ -1,0 +1,33 @@
+{
+   "_id": "Ty1nAMXBdw1NhaMb",
+   "name": "Ancient Culture",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 26",
+      "requirements": "Troll"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.AncientCulture.Description.1.Value"
+            },
+            {
+               "options": [
+                  "WC5E.Feats.AncientCulture.Description.2.Options.1",
+                  "WC5E.Feats.AncientCulture.Description.2.Options.2",
+                  "WC5E.Feats.AncientCulture.Description.2.Options.3"
+               ]
+            }
+         ]
+      }
+   },
+   "img": "icons/environment/wilderness/altar-hidden.webp",
+   "effects": [
+   ]
+}

@@ -196,7 +196,7 @@
                         <td>
                             {{#if this.feats}}
                                 {{#each this.feats}}
-                                    <a class="entity-link spellLink" data-pack="{{this.pack}}" data-id="{{this.node}}">
+                                    <a class="entity-link content-link spellLink" data-pack="{{this.pack}}" data-id="{{this.node}}">
                                         {{localize this.label}}
                                         {{#if this.option}}
                                             ({{this.option}})
@@ -229,7 +229,7 @@
                             <td class="center">{{this.level}}</td>
                             <td>
                                 {{#each this.feats}}
-                                    <a class="entity-link spellLink" data-pack="{{this.pack}}" data-id="{{this.node}}">
+                                    <a class="entity-link content-link spellLink" data-pack="{{this.pack}}" data-id="{{this.node}}">
                                         {{localize this.label}}
                                         {{#if this.option}}
                                             ({{this.option}})
@@ -251,7 +251,7 @@
                                 <td class="center">{{this.level}}</td>
                                 <td>
                                     {{#each this.spells}}
-                                        <a class="entity-link spellLink" data-pack="{{this.pack}}" data-id="{{this.node}}">
+                                        <a class="entity-link content-link spellLink" data-pack="{{this.pack}}" data-id="{{this.node}}">
                                             {{localize this.label}}
                                             {{#if this.option}}
                                                 ({{this.option}})
@@ -267,6 +267,67 @@
                     <hr class="double full">
                 {{/unless}}
             {{/each}}
+
+            {{#if item.flags.wc5e.special}}
+                <hr class="double full">
+                <br>
+                <h2>Special and Racial Specializations</h2>
+                {{#each item.flags.wc5e.special}}
+                    <h3>{{localize this.title}}</h3>
+                    {{#each this.description}}
+                        {{> "modules/warcraft5e/templates/item/parts/description.html"}}
+                    {{/each}}
+                    <br>
+                    <h4>{{localize "WC5E.UI.Archetype"}}</h4>
+                    <table>
+                        <tr>
+                            <th class="numberCol">Level</th>
+                            <th class="left">Features</th>
+                        </tr>
+                        {{#each this.featList}}
+                            <tr>
+                                <td class="center">{{this.level}}</td>
+                                <td>
+                                    {{#each this.feats}}
+                                        <a class="entity-link content-link spellLink" data-pack="{{this.pack}}" data-id="{{this.node}}">
+                                            {{localize this.label}}
+                                            {{#if this.option}}
+                                                ({{this.option}})
+                                            {{/if}}
+                                        </a>
+                                    {{/each}}
+                                </td>
+                            </tr>
+                        {{/each}}
+                    </table>
+                    {{#if this.spellList}}
+                        <table>
+                            <tr>
+                                <th class="numberCol">Level</th>
+                                <th class="left">Spells</th>
+                            </tr>
+                            {{#each this.spellList}}
+                                <tr>
+                                    <td class="center">{{this.level}}</td>
+                                    <td>
+                                        {{#each this.spells}}
+                                            <a class="entity-link content-link spellLink" data-pack="{{this.pack}}" data-id="{{this.node}}">
+                                                {{localize this.label}}
+                                                {{#if this.option}}
+                                                    ({{this.option}})
+                                                {{/if}}
+                                            </a>
+                                        {{/each}}
+                                    </td>
+                                </tr>
+                            {{/each}}
+                        </table>
+                    {{/if}}
+                    {{#unless @last}}
+                        <hr class="double full">
+                    {{/unless}}
+                {{/each}}
+            {{/if}}
         </div>
     </section>
 </form>

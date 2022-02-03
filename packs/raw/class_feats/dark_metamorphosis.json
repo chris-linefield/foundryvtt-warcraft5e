@@ -1,0 +1,55 @@
+{
+   "_id": "nec8411z460TojJY",
+   "name": "Dark Metamorphosis",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 150",
+      "requirements": "Rogue (Demon Hunter) 9"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.DarkMetamorphosis.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.DarkMetamorphosis.Description.2.Value"
+            },
+            {
+               "optionsArray": [
+                  {
+                     "value": "WC5E.Feats.DarkMetamorphosis.Description.3.Options.1"
+                  },
+                  {
+                     "value": "WC5E.Feats.DarkMetamorphosis.Description.3.Options.2"
+                  },
+                  {
+                     "value": "WC5E.Feats.DarkMetamorphosis.Description.3.Options.3",
+                     "options": [
+                        "WC5E.Feats.DarkMetamorphosis.Description.4.Options.1",
+                        "WC5E.Feats.DarkMetamorphosis.Description.4.Options.2"
+                     ]
+                  }
+               ]
+            },
+            {
+               "value": "WC5E.Feats.DarkMetamorphosis.Description.5.Value"
+            },
+            {
+               "value": "WC5E.Feats.DarkMetamorphosis.Description.6.Value"
+            },
+            {
+               "value": "WC5E.Feats.DarkMetamorphosis.Description.7.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/creatures/unholy/demon-fire-horned-winged-roar.webp",
+   "effects": [
+   ]
+}

@@ -1,0 +1,121 @@
+{
+   "_id": "DCwXn7NJvjUDYjmf",
+   "name": "Lightning Bolt (Line)",
+   "type": "spell",
+   "img": "icons/magic/lightning/bolt-strike-sparks-blue.webp",
+   "data": {
+      "description": {
+         "value": "",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 351",
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": null,
+         "units": "inst"
+      },
+      "target": {
+         "value": null,
+         "width": null,
+         "units": "",
+         "type": "self"
+      },
+      "range": {
+         "value": 100,
+         "long": null,
+         "units": "ft"
+      },
+      "uses": {
+         "value": null,
+         "max": "",
+         "per": ""
+      },
+      "consume": {
+         "type": "",
+         "target": "",
+         "amount": null
+      },
+      "ability": "",
+      "actionType": "rsak",
+      "attackBonus": "0",
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [
+            [
+               "8d6",
+               "lightning"
+            ]
+         ],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "dex",
+         "dc": null,
+         "scaling": "spell"
+      },
+      "level": 3,
+      "school": "evo",
+      "components": {
+         "value": "",
+         "vocal": true,
+         "somatic": true,
+         "material": true,
+         "ritual": false,
+         "concentration": false
+      },
+      "materials": {
+         "value": "a bit of fur and a rod of amber, crystal, or glass",
+         "consumed": false,
+         "cost": 0,
+         "supply": 0
+      },
+      "preparation": {
+         "mode": "prepared",
+         "prepared": false
+      },
+      "scaling": {
+         "mode": "none",
+         "formula": ""
+      }
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+      "default": 0
+   },
+   "flags": {
+      "wc5e": {
+         "type": "spell",
+         "description": [
+            {
+               "value": "WC5E.Spells.LightningBolt.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Spells.LightningBolt.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Spells.LightningBolt.Description.3.Value"
+            }
+         ],
+         "heightened": [
+            {
+               "value": "WC5E.Spells.LightningBolt.Heightened.1.Value"
+            },
+            {
+               "value": "WC5E.Spells.LightningBolt.Heightened.2.Value"
+            }
+         ]
+      }
+   }
+}

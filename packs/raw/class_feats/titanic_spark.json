@@ -1,0 +1,32 @@
+{
+   "_id": "pZ0s66jTVdto9Z3b",
+   "name": "Titanic Spark",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 151",
+      "requirements": "Warrior (Mountain King) 3"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.TitanicSpark.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.TitanicSpark.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Feats.TitanicSpark.Description.3.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/symbols/runes-carved-stone-purple.webp",
+   "effects": [
+   ]
+}

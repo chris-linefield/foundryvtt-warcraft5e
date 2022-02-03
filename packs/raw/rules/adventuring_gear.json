@@ -1,0 +1,308 @@
+{
+   "_id": "VGSm1qJQVXY0Ya6L",
+   "name": "Adventuring Gear",
+   "permission": {
+      "default": 0
+   },
+   "type": "class",
+   "flags": {
+      "wc5e": {
+         "type": "rule",
+         "title": "WC5E.Rules.Mechanics.AdventuringGear.Label",
+         "content": [
+            {
+               "table": {
+                  "head": [
+                     {
+                        "title": "WC5E.UI.Gear"
+                     },
+                     {
+                        "title": "WC5E.UI.Cost",
+                        "class": "numberCol"
+                     },
+                     {
+                        "title": "WC5E.UI.Mass",
+                        "class": "numberCol"
+                     },
+                     {
+                        "title": "WC5E.UI.Properties"
+                     }
+                  ],
+                  "rows": [
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "6hHcAY8FGDNtVynQ",
+                              "label": "WC5E.Items.Battery.Label"
+                           }
+                        },
+                        {
+                           "value": 50,
+                           "unit": "WC5E.UI.Units.Gp"
+                        },
+                        {
+                           "value": 1,
+                           "unit": "WC5E.UI.Units.Lb"
+                        },
+                        {
+                           "text": "WC5E.Items.Battery.Description.1.Value"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "v8gsF7byg0DDDp2S",
+                              "label": "WC5E.Items.BatteryGreater.Label"
+                           }
+                        },
+                        {
+                           "value": 450,
+                           "unit": "WC5E.UI.Units.Gp"
+                        },
+                        {
+                           "value": 10,
+                           "unit": "WC5E.UI.Units.Lb"
+                        },
+                        {
+                           "text": "WC5E.Items.BatteryGreater.Description.1.Value"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "0NDqiMNzPfvpBQfk",
+                              "label": "WC5E.Items.Bullets.Label"
+                           }
+                        },
+                        {
+                           "value": 1,
+                           "unit": "WC5E.UI.Units.Gp"
+                        },
+                        {
+                           "value": 1,
+                           "unit": "WC5E.UI.Units.Lb"
+                        },
+                        {
+                           "text": "WC5E.Items.Bullets.Description.1.Value"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "fJg0OHRJW792zQZa",
+                              "label": "WC5E.Items.BulletsPackaged.Label"
+                           }
+                        },
+                        {
+                           "value": 35,
+                           "unit": "WC5E.UI.Units.Gp"
+                        },
+                        {
+                           "value": 3,
+                           "unit": "WC5E.UI.Units.Lb"
+                        },
+                        {
+                           "text": "WC5E.Items.BulletsPackaged.Description.1.Value"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "aOqfd56pQ0JzZ7qx",
+                              "label": "WC5E.Items.CauldronCastIron.Label"
+                           }
+                        },
+                        {
+                           "value": 5,
+                           "unit": "WC5E.UI.Units.Sp"
+                        },
+                        {
+                           "value": 5,
+                           "unit": "WC5E.UI.Units.Lb"
+                        },
+                        {
+                           "text": "WC5E.Items.CauldronCastIron.Description.1.Value"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "9g7eYGEsHULuZRAJ",
+                              "label": "WC5E.Items.Coal.Label"
+                           }
+                        },
+                        {
+                           "value": 2,
+                           "unit": "WC5E.UI.Units.Cp"
+                        },
+                        {
+                           "value": 1,
+                           "unit": "WC5E.UI.Units.Lb"
+                        },
+                        {
+                           "text": "WC5E.Items.Coal.Description.1.Value"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "9g7eYGEsHULuZRAJ",
+                              "label": "WC5E.Items.CoalShovel.Label"
+                           }
+                        },
+                        {
+                           "value": 8,
+                           "unit": "WC5E.UI.Units.Cp"
+                        },
+                        {
+                           "value": 4,
+                           "unit": "WC5E.UI.Units.Lb"
+                        },
+                        {
+                           "text": "WC5E.Items.CoalShovel.Description.1.Value"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "zqfgT8VjFg8qpPRs",
+                              "label": "WC5E.Items.GasOilPint.Label"
+                           }
+                        },
+                        {
+                           "value": 6.4,
+                           "unit": "WC5E.UI.Units.Sp"
+                        },
+                        {
+                           "value": 1,
+                           "unit": "WC5E.UI.Units.Pint"
+                        },
+                        {
+                           "text": "WC5E.Items.GasOilPint.Description.1.Value"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "Ru4k4ZtKC9eVYplU",
+                              "label": "WC5E.Items.Pellets.Label"
+                           }
+                        },
+                        {
+                           "value": 1,
+                           "unit": "WC5E.UI.Units.Gp"
+                        },
+                        {
+                           "value": 1,
+                           "unit": "WC5E.UI.Units.Lb"
+                        },
+                        {
+                           "text": "WC5E.Items.Pellets.Description.1.Value"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "mJglaLaAQKR8FNUO",
+                              "label": "WC5E.Items.PelletsPackaged.Label"
+                           }
+                        },
+                        {
+                           "value": 35,
+                           "unit": "WC5E.UI.Units.Gp"
+                        },
+                        {
+                           "value": 3,
+                           "unit": "WC5E.UI.Units.Lb"
+                        },
+                        {
+                           "text": "WC5E.Items.PelletsPackaged.Description.1.Value"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "zWW88ggqZFR8AZ7w",
+                              "label": "WC5E.Items.PowderPinch.Label"
+                           }
+                        },
+                        {
+                           "value": 2,
+                           "unit": "WC5E.UI.Units.Gp"
+                        },
+                        {
+                           "value": 0.1,
+                           "unit": "WC5E.UI.Units.Lb"
+                        },
+                        {
+                           "text": "WC5E.Items.PowderPinch.Description.1.Value"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "9M0rjTLJYoExL669",
+                              "label": "WC5E.Items.PowderHorn.Label"
+                           }
+                        },
+                        {
+                           "value": 24,
+                           "unit": "WC5E.UI.Units.Gp"
+                        },
+                        {
+                           "value": 2,
+                           "unit": "WC5E.UI.Units.Lb"
+                        },
+                        {
+                           "text": "WC5E.Items.PowderHorn.Description.1.Value"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "CVccLCCr4Za593EX",
+                              "label": "WC5E.Items.PowderKeg.Label"
+                           }
+                        },
+                        {
+                           "value": 220,
+                           "unit": "WC5E.UI.Units.Gp"
+                        },
+                        {
+                           "value": 20,
+                           "unit": "WC5E.UI.Units.Lb"
+                        },
+                        {
+                           "text": "WC5E.Items.PowderKeg.Description.1.Value"
+                        }
+                     ]
+                  ]
+               }
+            }
+         ],
+         "prev": {
+            "pack": "wc5e_rules",
+            "node": "8a9UvmZT9MkLygR5",
+            "label": "WC5E.Rules.Mechanics.Wealth.Label"
+         },
+         "next": {
+            "pack": "wc5e_rules",
+            "node": "cq8YZHBjsac3LmSr",
+            "label": "WC5E.Rules.Mechanics.WeaponsAndArmor.Label"
+         }
+      }
+   }
+}
