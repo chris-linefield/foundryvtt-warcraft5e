@@ -102,6 +102,14 @@
          "system": "dnd5e"
       },
       {
+         "name": "wc5e_racial_feats",
+         "label": "Wc5e | Racial Features",
+         "path": "./packs/racial_feats.db",
+         "private": false,
+         "entity": "Item",
+         "system": "dnd5e"
+      },
+      {
          "name": "wc5e_rules",
          "label": "Wc5e | Rules",
          "path": "./packs/rules.db",

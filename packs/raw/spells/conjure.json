@@ -1,6 +1,6 @@
 {
-   "_id": "gTXOsMFKSHJzLzoo",
-   "name": "Conjure Undead",
+   "_id": "Tnn2TvuQ3YICEm5S",
+   "name": "Conjure",
    "permission": {
       "default": 0
    },
@@ -52,7 +52,7 @@
          "scaling": "spell"
       },
       "level": 1,
-      "school": "nec",
+      "school": "con",
       "components": {
          "value": "",
          "vocal": true,
@@ -139,6 +139,6 @@
          ]
       }
    },
-   "img": "icons/magic/death/hand-dirt-undead-zombie.webp",
+   "img": "systems/dnd5e/icons/spells/wild-orange-3.jpg",
    "effects": []
 }

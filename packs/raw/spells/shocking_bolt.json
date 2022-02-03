@@ -1,35 +1,38 @@
 {
-   "_id": "UQgZF2OONzIZAc4D",
-   "name": "Divine Shield",
-   "permission": {
-      "default": 0
-   },
+   "_id": "fOtx2T5PfsSJzEP4",
+   "name": "Shocking Bolt",
    "type": "spell",
+   "img": "icons/magic/lightning/bolt-blue.webp",
    "data": {
-      "source": "",
+      "description": {
+         "value": "",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 366",
       "activation": {
          "type": "action",
          "cost": 1,
          "condition": ""
       },
       "duration": {
-         "value": 1,
-         "units": "minute"
+         "value": null,
+         "units": "inst"
       },
       "target": {
-         "value": null,
+         "value": 1,
          "width": null,
          "units": "",
-         "type": "self"
+         "type": "creature"
       },
       "range": {
-         "value": null,
+         "value": 60,
          "long": null,
-         "units": "self"
+         "units": "ft"
       },
       "uses": {
-         "value": 0,
-         "max": "0",
+         "value": null,
+         "max": "",
          "per": ""
       },
       "consume": {
@@ -38,27 +41,37 @@
          "amount": null
       },
       "ability": "",
-      "actionType": "",
-      "attackBonus": 0,
+      "actionType": "rsak",
+      "attackBonus": "0",
       "chatFlavor": "",
-      "critical": null,
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
       "damage": {
          "parts": [
+            [
+               "1d8",
+               "lightning"
+            ]
          ],
          "versatile": ""
       },
       "formula": "",
       "save": {
+         "ability": "",
+         "dc": null,
+         "scaling": "spell"
       },
-      "level": 2,
-      "school": "enc",
+      "level": 0,
+      "school": "evo",
       "components": {
          "value": "",
          "vocal": true,
          "somatic": true,
          "material": false,
          "ritual": false,
-         "concentration": true
+         "concentration": false
       },
       "materials": {
          "value": "",
@@ -75,29 +88,23 @@
          "formula": ""
       }
    },
-   "sort": 100001,
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+      "default": 0
+   },
    "flags": {
       "wc5e": {
          "type": "spell",
          "description": [
             {
-               "value": "WC5E.Spells.DivineShield.Description.1.Value"
+               "value": "WC5E.Spells.ShockingBolt.Description.1.Value"
             },
             {
-               "value": "WC5E.Spells.DivineShield.Description.2.Value"
-            },
-            {
-               "value": "WC5E.Spells.DivineShield.Description.3.Value"
-            }
-         ],
-         "heightened": [
-            {
-               "value": "WC5E.Spells.DivineShield.Heightened.1.Value"
+               "value": "WC5E.Spells.ShockingBolt.Description.2.Value"
             }
          ]
       }
-   },
-   "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
-   "effects": [
-   ]
+   }
 }

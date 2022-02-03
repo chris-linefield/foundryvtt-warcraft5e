@@ -1,11 +1,14 @@
 {
-   "_id": "UQgZF2OONzIZAc4D",
-   "name": "Divine Shield",
-   "permission": {
-      "default": 0
-   },
+   "_id": "ms4OjIZxSAmJYdfn",
+   "name": "Elemental Armor",
    "type": "spell",
+   "img": "icons/magic/defensive/shield-barrier-flaming-diamond-acid.webp",
    "data": {
+      "description": {
+         "value": "",
+         "chat": "",
+         "unidentified": ""
+      },
       "source": "",
       "activation": {
          "type": "action",
@@ -14,7 +17,7 @@
       },
       "duration": {
          "value": 1,
-         "units": "minute"
+         "units": "hour"
       },
       "target": {
          "value": null,
@@ -28,8 +31,8 @@
          "units": "self"
       },
       "uses": {
-         "value": 0,
-         "max": "0",
+         "value": null,
+         "max": "",
          "per": ""
       },
       "consume": {
@@ -37,31 +40,36 @@
          "target": "",
          "amount": null
       },
-      "ability": "",
+      "ability": null,
       "actionType": "",
       "attackBonus": 0,
       "chatFlavor": "",
-      "critical": null,
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
       "damage": {
-         "parts": [
-         ],
+         "parts": [],
          "versatile": ""
       },
       "formula": "",
       "save": {
+         "ability": "",
+         "dc": null,
+         "scaling": "spell"
       },
-      "level": 2,
-      "school": "enc",
+      "level": 1,
+      "school": "abj",
       "components": {
          "value": "",
          "vocal": true,
          "somatic": true,
-         "material": false,
+         "material": true,
          "ritual": false,
-         "concentration": true
+         "concentration": false
       },
       "materials": {
-         "value": "",
+         "value": "an object struck by the element",
          "consumed": false,
          "cost": 0,
          "supply": 0
@@ -75,29 +83,33 @@
          "formula": ""
       }
    },
-   "sort": 100001,
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+      "default": 0
+   },
    "flags": {
       "wc5e": {
          "type": "spell",
          "description": [
             {
-               "value": "WC5E.Spells.DivineShield.Description.1.Value"
+               "value": "WC5E.Spells.ElementalArmor.Description.1.Value"
             },
             {
-               "value": "WC5E.Spells.DivineShield.Description.2.Value"
-            },
-            {
-               "value": "WC5E.Spells.DivineShield.Description.3.Value"
+               "options": [
+                  "WC5E.Spells.ElementalArmor.Description.2.Options.1",
+                  "WC5E.Spells.ElementalArmor.Description.2.Options.2",
+                  "WC5E.Spells.ElementalArmor.Description.2.Options.3",
+                  "WC5E.Spells.ElementalArmor.Description.2.Options.4"
+               ]
             }
          ],
          "heightened": [
             {
-               "value": "WC5E.Spells.DivineShield.Heightened.1.Value"
+               "value": "WC5E.Spells.ElementalArmor.Heightened.1.Value"
             }
          ]
       }
-   },
-   "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
-   "effects": [
-   ]
+   }
 }

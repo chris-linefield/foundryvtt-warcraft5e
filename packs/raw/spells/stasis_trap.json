@@ -1,54 +1,64 @@
 {
-   "_id": "Tnn2TvuQ3YICEm5S",
-   "name": "Conjure Spirit Dire Wolf",
-   "permission": {
-      "default": 0
-   },
+   "_id": "6O9gLOIs7UHjSuKU",
+   "name": "Stasis Trap",
    "type": "spell",
+   "img": "icons/tools/instruments/drum-standing-glowing-green.webp",
    "data": {
-      "source": "",
+      "description": {
+         "value": null,
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 372",
       "activation": {
          "type": "action",
          "cost": 1,
          "condition": ""
       },
       "duration": {
-         "value": 1,
-         "units": "hour"
+         "value": 10,
+         "units": "minute"
       },
       "target": {
          "value": null,
-         "units": "any",
-         "type": "space"
+         "width": null,
+         "units": "",
+         "type": ""
       },
       "range": {
-         "value": 60,
-         "long": 0,
+         "value": 30,
+         "long": null,
          "units": "ft"
       },
       "uses": {
-         "value": 0,
-         "max": 0,
+         "value": null,
+         "max": "",
          "per": ""
       },
+      "consume": {
+         "type": "",
+         "target": "",
+         "amount": null
+      },
       "ability": "",
-      "actionType": "util",
-      "attackBonus": 0,
+      "actionType": "",
+      "attackBonus": "0",
       "chatFlavor": "",
-      "critical": null,
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
       "damage": {
          "parts": [],
-         "versatile": "",
-         "value": ""
+         "versatile": ""
       },
       "formula": "",
       "save": {
-         "ability": "",
+         "ability": "dex",
          "dc": null,
-         "value": "",
          "scaling": "spell"
       },
-      "level": 3,
+      "level": 1,
       "school": "con",
       "components": {
          "value": "",
@@ -56,7 +66,7 @@
          "somatic": true,
          "material": false,
          "ritual": false,
-         "concentration": true
+         "concentration": false
       },
       "materials": {
          "value": "",
@@ -69,29 +79,32 @@
          "prepared": false
       },
       "scaling": {
-         "mode": "level",
+         "mode": "none",
          "formula": ""
       }
    },
-   "sort": 100001,
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+      "default": 0
+   },
    "flags": {
       "wc5e": {
          "type": "spell",
          "description": [
             {
-               "value": "WC5E.Spells.ConjureSpiritDireWolf.Description.1.Value"
+               "value": "WC5E.Spells.StasisTrap.Description.1.Value"
             },
             {
-               "value": "WC5E.Spells.ConjureSpiritDireWolf.Description.2.Value"
+               "value": "WC5E.Spells.StasisTrap.Description.2.Value"
             }
          ],
          "heightened": [
             {
-               "value": "WC5E.Spells.ConjureSpiritDireWolf.Heightened.1.Value"
+               "value": "WC5E.Spells.StasisTrap.Heightened.1.Value"
             }
          ]
       }
-   },
-   "img": "systems/dnd5e/icons/spells/wild-orange-3.jpg",
-   "effects": []
+   }
 }

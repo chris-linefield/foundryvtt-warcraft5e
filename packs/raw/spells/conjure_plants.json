@@ -6,7 +6,7 @@
    },
    "type": "spell",
    "data": {
-      "source": "",
+      "source": "Wc5e - Core p. 331",
       "activation": {
          "type": "action",
          "cost": 1,
@@ -17,13 +17,13 @@
          "units": "hour"
       },
       "target": {
-         "value": 0,
-         "units": "",
-         "type": ""
+         "value": null,
+         "units": "any",
+         "type": "space"
       },
       "range": {
-         "value": 60,
-         "long": null,
+         "value": 30,
+         "long": 0,
          "units": "ft"
       },
       "uses": {
@@ -32,32 +32,37 @@
          "per": ""
       },
       "ability": "",
-      "actionType": "save",
+      "actionType": "util",
       "attackBonus": 0,
       "chatFlavor": "",
-      "critical": null,
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
       "damage": {
          "parts": [],
-         "versatile": ""
+         "versatile": "",
+         "value": ""
       },
       "formula": "",
       "save": {
-         "ability": "wis",
-         "dc": 0,
+         "ability": "",
+         "dc": null,
+         "value": "",
          "scaling": "spell"
       },
-      "level": 3,
-      "school": "con",
+      "level": 1,
+      "school": "trs",
       "components": {
          "value": "",
          "vocal": true,
          "somatic": true,
-         "material": false,
+         "material": true,
          "ritual": false,
          "concentration": true
       },
       "materials": {
-         "value": "",
+         "value": "a focus related to the creature, or an object of specific rarity",
          "consumed": false,
          "cost": 0,
          "supply": 0
@@ -68,7 +73,7 @@
       },
       "scaling": {
          "mode": "level",
-         "formula": "1d6"
+         "formula": ""
       }
    },
    "sort": 100001,
@@ -77,34 +82,63 @@
          "type": "spell",
          "description": [
             {
-               "value": "WC5E.Spells.ConjurePlants.Description.1.Value"
+               "value": "WC5E.Spells.Conjure.Description.1.Value"
             },
             {
                "options": [
-                  "WC5E.Spells.ConjurePlants.Description.2.Options.1",
-                  "WC5E.Spells.ConjurePlants.Description.2.Options.2",
-                  "WC5E.Spells.ConjurePlants.Description.2.Options.3",
-                  "WC5E.Spells.ConjurePlants.Description.2.Options.4"
+                  "WC5E.Spells.Conjure.Description.2.Options.1",
+                  "WC5E.Spells.Conjure.Description.2.Options.2",
+                  "WC5E.Spells.Conjure.Description.2.Options.3"
                ]
             },
             {
-               "value": "WC5E.Spells.ConjurePlants.Description.3.Value"
+               "note": true,
+               "value": "WC5E.Spells.Conjure.Description.3.Value"
             },
             {
-               "value": "WC5E.Spells.ConjurePlants.Description.4.Value"
+               "title": "WC5E.Spells.Conjure.Description.4.Title",
+               "value": "WC5E.Spells.Conjure.Description.4.Value"
             },
             {
-               "value": "WC5E.Spells.ConjurePlants.Description.5.Value"
+               "value": "WC5E.Spells.Conjure.Description.5.Value"
+            },
+            {
+               "value": "WC5E.Spells.Conjure.Description.6.Value"
+            },
+            {
+               "value": "WC5E.Spells.Conjure.Description.7.Value"
+            },
+            {
+               "value": "WC5E.Spells.Conjure.Description.8.Value"
+            },
+            {
+               "value": "WC5E.Spells.Conjure.Description.9.Value"
+            },
+            {
+               "value": "WC5E.Spells.Conjure.Description.10.Value"
+            },
+            {
+               "title": "WC5E.Spells.Conjure.Description.11.Title",
+               "value": "WC5E.Spells.Conjure.Description.11.Value"
+            },
+            {
+               "value": "WC5E.Spells.Conjure.Description.12.Value"
+            },
+            {
+               "value": "WC5E.Spells.Conjure.Description.13.Value"
+            },
+            {
+               "title": "WC5E.Spells.Conjure.Description.14.Title",
+               "value": "WC5E.Spells.Conjure.Description.14.Value"
             }
          ],
          "heightened": [
             {
-               "value": "WC5E.Spells.ConjurePlants.Heightened.1.Value"
+               "value": "WC5E.Spells.Conjure.Heightened.1.Value"
             }
          ]
       }
    },
    "img": "icons/magic/nature/plant-venus-flytrap-blood.webp",
-   "effects": [
-   ]
+   "effects": []
 }

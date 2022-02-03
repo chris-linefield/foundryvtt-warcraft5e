@@ -1,0 +1,121 @@
+{
+   "name": "Voodoo Doll",
+   "type": "equipment",
+   "img": "icons/magic/control/voodoo-doll-pain-damage-red.webp",
+   "data": {
+      "description": {
+         "value": "<p><em>Wondrous item, rare (requires attunement by any spellcaster who can cast Speak with Dead)</em></p>\n<p>A voodoo doll seems innocent, but it is actually a house of a Hexer spirit. Hexer spirits bound to a voodoo doll are servitors to whoever is attuned to the doll, serving them in return for favors.</p>\n<p>A voodoo doll may be attuned with a target with one hour of contact with a remaining body part or piece (such as a finger, hair, or fingernail). So long as the target does not take the measures to end the bond (such as by replacing the finger or removing a hand, cutting all their hair, or clipping all their fingernails, as determined by the DM), the Hexer spirit is always aware of where the target is, as if under the effects of a locate creature spell.</p>\n<p>The Hexer spirit can be allowed to leave the voodoo doll to use its Carry Voodoo power, which allows the owner of the doll to cast a spell for the Hexer to carry, or harm the doll and order the hexer spirit to use its Withering Touch ability on the target (usually until they die, or the victim is at the point where the witch doctor wants them).</p>\n<p>The DM has the Hexer Spirit‘s statistics (Monster Guide).</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core P. 205",
+      "quantity": 1,
+      "weight": 0,
+      "price": 0,
+      "attunement": 1,
+      "equipped": false,
+      "rarity": "rare",
+      "identified": true,
+      "activation": {
+         "type": "",
+         "cost": 0,
+         "condition": ""
+      },
+      "duration": {
+         "value": null,
+         "units": ""
+      },
+      "target": {
+         "value": null,
+         "width": null,
+         "units": "",
+         "type": ""
+      },
+      "range": {
+         "value": null,
+         "long": null,
+         "units": ""
+      },
+      "uses": {
+         "value": null,
+         "max": "",
+         "per": null
+      },
+      "consume": {
+         "type": "",
+         "target": null,
+         "amount": null
+      },
+      "ability": null,
+      "actionType": "",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "scaling": "spell"
+      },
+      "armor": {
+         "value": null,
+         "type": "",
+         "dex": null
+      },
+      "hp": {
+         "value": 0,
+         "max": 0,
+         "dt": null,
+         "conditions": ""
+      },
+      "baseItem": "",
+      "speed": {
+         "value": null,
+         "conditions": ""
+      },
+      "strength": 0,
+      "stealth": false,
+      "proficient": true
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+      "default": 0
+   },
+   "flags": {
+      "wc5e": {
+         "type": "item",
+         "cost": 0,
+         "unit": "WC5E.UI.Units.Gp",
+         "mass": 1,
+         "weightUnit": "WC5E.UI.Units.Lb",
+         "label": "WC5E.Items.VoodooDoll.Label",
+         "description": [
+            {
+               "value": "WC5E.Items.VoodooDoll.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Items.VoodooDoll.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Items.VoodooDoll.Description.3.Value"
+            },
+            {
+               "value": "WC5E.Items.VoodooDoll.Description.4.Value"
+            },
+            {
+               "value": "WC5E.Items.VoodooDoll.Description.5.Value"
+            }
+         ]
+      }
+   },
+   "_id": "yzZCakXNwD7pGEy9"
+}

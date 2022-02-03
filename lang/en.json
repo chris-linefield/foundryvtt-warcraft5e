@@ -7649,6 +7649,14 @@
                }
             }
          },
+         "HealingPotion": {
+            "Label": "Healing Potion",
+            "Description": {
+               "1": {
+                  "Value": "By using this potion, character regains 1d8 + 4 hit points (if living), or takes 1d8 + 4 holy damage (if undead or fiend)."
+               }
+            }
+         },
          "HolySymbol": {
             "Label": "Holy Symbol"
          },
@@ -7707,6 +7715,9 @@
          },
          "PoisonersKit": {
             "Label": "Poisoner‘s Kit"
+         },
+         "PotionOfEnlarge": {
+            "Label": "Potion of Enlarge"
          },
          "Pouch": {
             "Label": "Pouch"
@@ -7808,6 +7819,26 @@
          },
          "Vestments": {
             "Label": "Vestments"
+         },
+         "VoodooDoll": {
+            "Label": "Voodoo Doll",
+            "Description": {
+               "1": {
+                  "Value": "<i>Wondrous item, rare (requires attunement by any spellcaster who can cast Speak with Dead)</i>"
+               },
+               "2": {
+                  "Value": "A voodoo doll seems innocent, but it is actually a house of a Hexer spirit. Hexer spirits bound to a voodoo doll are servitors to whoever is attuned to the doll, serving them in return for favors."
+               },
+               "3": {
+                  "Value": "A voodoo doll may be attuned with a target with one hour of contact with a remaining body part or piece (such as a finger, hair, or fingernail). So long as the target does not take the measures to end the bond (such as by replacing the finger or removing a hand, cutting all their hair, or clipping all their fingernails, as determined by the DM), the Hexer spirit is always aware of where the target is, as if under the effects of a locate creature spell."
+               },
+               "4": {
+                  "Value": "The Hexer spirit can be allowed to leave the voodoo doll to use its Carry Voodoo power, which allows the owner of the doll to cast a spell for the Hexer to carry, or harm the doll and order the hexer spirit to use its Withering Touch ability on the target (usually until they die, or the victim is at the point where the witch doctor wants them)."
+               },
+               "5": {
+                  "Value": "The DM has the Hexer Spirit‘s statistics (Monster Guide)."
+               }
+            }
          },
          "Warglaive": {
             "Label": "Warglaive",
@@ -9102,65 +9133,62 @@
                }
             }
          },
-         "ConjurePlants": {
-            "Label": "Conjure Plants",
+         "Conjure": {
+            "Label": "Conjure",
             "Description": {
                "1": {
-                  "Value": "You summon fey spirits that take the form of plant creatures and appear in unoccupied spaces that you can see within range. Choose one of the following options for what appears:"
+                  "Value": "When preparing this spell, you must choose a specific creature type tied to your spellcasting list (see Conjuring and Binding under your class‘s spellcasting entry). You can conjure a creature of that type when casting this spell. Choose one of the following options when preparing this spell:"
                },
                "2": {
                   "Options": {
-                     "1": "One plant of challenge rating 2 or lower",
-                     "2": "Two plants of challenge rating 1 or lower",
-                     "3": "Four plants of challenge rating 1/2 or lower",
-                     "4": "Eight plants of challenge rating 1/4 or lower"
+                     "1": "One creature of Challenge 1/2 (or one half the spell's level)",
+                     "2": "Two creatures of Challenge 1/4 (or one quarter the spell's level)",
+                     "3": "Four creatures of Challenge 1/8 (or the spell's level divided by 8)"
                   }
                },
                "3": {
-                  "Value": "Each plant is also considered fey, and it disappears when it drops to 0 hit points or when the spell ends."
+                  "Value": "The conjured creature is not an actual creature, but is more a spell construct animated by the creature's personality (formed of magic, ectoplasm, or temporarily bonded to the realm). Killing it does not reward XP or hurt it in any real way. If you wish to conjure a permanent and 'real' ally, see the bind spell. If choosing a focus material for a construct, it must not bound to anything (such as nailed to a wall), not be harder than iron, nor be sophisticated in design (cannot be a gadget or vehicle)."
                },
                "4": {
-                  "Value": "The summoned creatures are friendly to you and your companions. Roll initiative for the summoned creatures as a group, which has its own turns. They obey any verbal commands that you issue to them (no action required by you). If you don't issue any commands to them, they defend themselves from hostile creatures, but otherwise take no actions."
+                  "Title": "Specialized Preparation",
+                  "Value": "If you prepare the spell to conjure a specific creature (such as conjure imp instead of conjure fiends), you may double the maximum CR you can conjure. For instance, a 1st level mage preparing his spells may choose to either prepare conjure elemental or conjure minor water elemental. If the former, he can conjure any elemental of CR 1/2 or lower. If the latter, he can conjure a Minor Water Elemental (CR 1)."
                },
                "5": {
-                  "Value": "The GM has the creatures' statistics."
-               }
-            },
-            "Heightened": {
-               "1": {
-                  "Value": "When you cast this spell using certain higher-level spell slots, you choose one of the summoning options above, and more creatures appear: twice as many with a 5th-level slot, three times as many with a 7th-level slot, and four times as many with a 9th-level slot."
-               }
-            }
-         },
-         "ConjureSpiritDireWolf": {
-            "Label": "Conjure Spirit Dire Wolf",
-            "Description": {
-               "1": {
-                  "Value": "You summon fey spirits that take the form of dire wolfes and appear in unoccupied spaces that you can see within range."
+                  "Value": "After casting the prepared spell, the creature manifests in an unoccupied space you can see within range, and is friendly to you and your companions for the duration. Roll initiative for the creature, which has its own turns. The creature can telepathically understand any command, and will execute them (no action required by you), so long as it doesn't violate its alignment or nature."
                },
-               "2": {
-                  "Value": "The summoned creatures are friendly to you and your companions. Roll initiative for the summoned creatures as a group, which has its own turns. They obey any verbal commands that you issue to them (no action required by you). If you don’t issue any commands to them, they defend themselves from hostile creatures, but otherwise take no actions."
-               }
-            },
-            "Heightened": {
-               "1": {
-                  "Value": "When you cast this spell using certain higher-level spell slots, you choose one of the summoning options above, and more creatures appear: twice as many with a 5th-level slot, three times as many with a 7th-level."
-               }
-            }
-         },
-         "ConjureUndead": {
-            "Label": "Animate Undead",
-            "Description": {
-               "1": {
-                  "Value": "You call forth an undead spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the Undead Spirit stat block. When you cast the spell, choose the creature’s form: Ghostly, Putrid, or Skeletal. The spirit resembles an undead creature with the chosen form, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends."
+               "6": {
+                  "Value": "If you don‘t issue any commands to the creature, it defends itself from hostile creatures but otherwise takes no actions. The telepathy only functions if you maintain line of sight to the creature or if you remain within 100 feet."
                },
-               "2": {
-                  "Value": "The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don’t issue any, it takes the Dodge action and uses its move to avoid danger."
+               "7": {
+                  "Value": "A conjured creature is dimensionally unstable, and cannot conjure or summon others (including via abilities such as the Shadow‘s ability to spawn new shadows) even if they have spells that normally allow them to. Despite them obeying their conjurer‘s commands, they take their own actions and are controlled by the DM when not given specific instructions (such as which spells or ability to use, etc.)."
+               },
+               "8": {
+                  "Value": "Once the duration of the spell ends, if creature is reduced to 0 hit points, or if the creature is forcefully dismissed (see below), the magic dissipates, ending all the spell‘s effects. If the focus was an object (such as a couch targeted with animate constructs), it resumes the object‘s original purpose."
+               },
+               "9": {
+                  "Value": "If you cease concentrating on this spell or if your concentration breaks before the duration ends, the creature (or creatures) becomes independent in its actions, and is controlled by the DM. Typically this means that undead and elementals rampage and attack without discrimination; constructs and plants act like the objects of their focus; fey and animals defend themselves and seek refuge; and celestials and fiends promote their far-reaching aims. You may attempt to forcefully dismiss the conjured creature."
+               },
+               "10": {
+                  "Value": "If you attempt to cast this spell again while an wild conjured creature has not yet been dismissed, the conjured creature must attempt a Charisma saving throw against your spell save DC (as if you spent an action to dismiss an unwilling summoned creature)."
+               },
+               "11": {
+                  "Title": "Forceful Dismissal",
+                  "Value": "You may use an Action to dismiss a conjured creature. The creature may choose to resist being dismissed (such as if it enjoys combat or is acting according to its nature), in which case they must attempt a Charisma saving throw against your spell save DC. If it fails the saving throw, it is forcefully dismissed and sent away to its original realm."
+               },
+               "12": {
+                  "Value": "If it succeeds, it is no longer friendly to you nor your companions, and no longer is compelled to obey your orders (although it retains the telepathic link, unless it is bound by another spellcaster). If you fail to dismiss a creature, you can only attempt it again by casting the conjure spell again to specifically dismiss the creature."
+               },
+               "13": {
+                  "Value": "A conjure spell remains until the duration of the spell ends or until the creature is defeated or forcefully dismissed. If the spell ends this way, the creature(s) all disappear at once."
+               },
+               "14": {
+                  "Title": "Material Component",
+                  "Value": "The spell requires a material component or focus that is related to the conjured creature. A celestial may require a page from a holy book, a fire elemental may require burning incense, and a focus for the magic is required with undead, constructs, and plants of similar size  (corpses or disembodied limbs, tables or chairs, and trees or bushes, respectively). The DM describes the required material component for spells that conjure specific creatures."
                }
             },
             "Heightened": {
                "1": {
-                  "Value": "When you cast this spell using a spell slot of 4th level or higher, use the higher level wherever the spell’s level appears in the stat block."
+                  "Value": "The maximum Challenge of conjured creatures increase, equal to one-half the spell‘s level. This either allows you to conjure stronger creatures of the same type, or more creatures of the same CR."
                }
             }
          },
@@ -9511,6 +9539,27 @@
                }
             }
          },
+         "ElementalArmor": {
+            "Label": "Elemental Armor",
+            "Description": {
+               "1": {
+                  "Value": "A protective magical field surrounds you, manifesting as a spectral element. You gain 5 temporary hit points for the duration of the spell. If a creature hits you with a weapon or spell attack while these hit points remain, they may manifest one of the following effects, depending on whether the element is Fire, Frost, or Lightning."
+               },
+               "2": {
+                  "Options": {
+                     "1": "<i>All</i>: The attacker takes 1 point of elemental per point of damage they deal (maximum equal to the remaining temporary  hit points). The target must be within melee reach.",
+                     "2": "<i>All</i>: You may gain resistance against the damage (only if the armor‘s element matches the damaging element). This reduces the temporary hit points by 5.",
+                     "3": "<i>Frost or Lightning</i>: The target is chilled for one round.",
+                     "4": "<i>Fire</i>: Target is scorched for one round."
+                  }
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "The temporary hit points increase by 5 for every level above 1st."
+               }
+            }
+         },
          "ElementalShock": {
             "Label": "Elemental Shock",
             "Description": {
@@ -9548,6 +9597,30 @@
             "Heightened": {
                "1": {
                   "Value": "You deal an additional 1d6 elemental damage or one additional use from any of the above elements per level above 1st."
+               }
+            }
+         },
+         "EnlargeReduce": {
+            "Label": "Enlarge / Reduce",
+            "Description": {
+               "1": {
+                  "Value": "You cause a creature or an object you can see within range to grow larger or smaller for the Duration. Choose either a creature or an object that is neither worn nor carried. If the target is unwilling, it can make a Constitution saving throw. On a success, the spell has no effect."
+               },
+               "2": {
+                  "Value": "If the target is a creature, everything it is wearing and carrying changes size with it. Any item dropped by an affected creature returns to normal size at once."
+               },
+               "3": {
+                  "Title": "Enlarge",
+                  "Value": "The target's size doubles in all dimensions, and its weight is multiplied by eight. This growth increases its size by one category—from Medium to Large, for example. If there isn't enough room for the target to double its size, the creature or object attains the maximum possible size in the space available. Until the spell ends, the target also has advantage on Strength Checks and Strength Saving Throws. The target's Weapons also grow to match its new size. While these Weapons are enlarged, the target's attacks with them deal 1d4 extra damage."
+               },
+               "4": {
+                  "Title": "Reduce",
+                  "Value": "The target's size is halved in all dimensions, and its weight is reduced to one-eighth of normal. This reduction decreases its size by one category—from Medium to Small, for example. Until the spell ends, the target also has disadvantage on Strength Checks and Strength Saving Throws. The target's Weapons also shrink to match its new size. While these Weapons are reduced, the target's attacks with them deal 1d4 less damage (this can't reduce the damage below 1)."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "The damage dealt increases by 1d4 per level above 1st and can entangle another creature within 5 feet."
                }
             }
          },
@@ -10012,6 +10085,27 @@
                }
             }
          },
+         "InvokeElements": {
+            "Label": "Invoke Elements",
+            "Description": {
+               "1": {
+                  "Value": "You can create one of the following effects:"
+               },
+               "2": {
+                  "Options": {
+                     "1": "You create a tiny, harmless illusion that predicts the weather for the next 24 hours.",
+                     "2": "Your voice booms three times as loud.",
+                     "3": "You conjure a spark of lightning or flame that can light or snuff a small campfire, torch, or candle.",
+                     "4": "Cause such flames to flicker and change color for 1 minute.",
+                     "5": "You cause harmless tremors for 1 minute.",
+                     "6": "You chill, warm, a small amount of liquid, or freeze it for 1 minute."
+                  }
+               },
+               "3": {
+                  "Value": "You can have up to three of these 1-minute effects active at once."
+               }
+            }
+         },
          "LesserRestoration": {
             "Label": "Lesser Restoration",
             "Description": {
@@ -10031,6 +10125,28 @@
                },
                "3": {
                   "Value": "When the spell ends, the target floats gently to the ground if it is still aloft."
+               }
+            }
+         },
+         "LightningBolt": {
+            "Label": "Lightning Bolt",
+            "Description": {
+               "1": {
+                  "Value": "A stroke of lightning forming a line of 100 feet long and 5 feet wide blasts out from you in a direction you choose. Each creature in the line must make an Agility saving throw. A creature takes 8d6 lightning damage on a failed save, or half as much damage on a successful one."
+               },
+               "2": {
+                  "Value": "Alternatively, you may cause the lightning bolt to lance and jump between multiple targets instead of affecting creatures in a line. The spell affects up to two targets within 150 feet. Creatures struck by this take the damage as normal."
+               },
+               "3": {
+                  "Value": "The lightning ignites flammable objects in the area that aren‘t being worn or carried."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "When cast this spell as a 4th level spell or higher, the damage increases by 1d6 per spell level above 3rd."
+               },
+               "2": {
+                  "Value": "If casting the spell to leap between targets, the spell can affect an additional target per every two levels heightened above 3rd (3 at 5th, 4 at 7th, and 5 at 9th)."
                }
             }
          },
@@ -10353,11 +10469,30 @@
                }
             }
          },
+         "SerpentWard": {
+            "Label": "Serpent Ward",
+            "Description": {
+               "1": {
+                  "Value": "Once you place this totem, you may use a reaction to have it cast the fire bolt cantrip. This manifests as a snake-head that releases the bolt of flame, as the cantrip of the same name. The cantrip treats your character level as if 5 levels lower for the purposes of damage (minimum 1d10 as normal)."
+               }
+            }
+         },
          "Shield": {
             "Label": "Shield",
             "Description": {
                "1": {
                   "Value": "An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from magic missile."
+               }
+            }
+         },
+         "ShockingBolt": {
+            "Label": "Shocking Bolt",
+            "Description": {
+               "1": {
+                  "Value": "You release a blast of lightning towards any creature or object within range. Make a ranged spell attack. On a hit, the target takes 1d8 lightning damage. Roll a d4. On the result of a 4, the target loses their reaction for that round."
+               },
+               "2": {
+                  "Value": "When you reach 5th, 11th, and 17th level, you can release an additional shocking bolt with the same action (up to four at 17th level). Each blast can target the same target or others within 30 feet of one another. For each additional attack against the same target, the range of success on the d4 increases by 1 (up to automatically losing their reaction on four attacks)."
                }
             }
          },
@@ -10524,6 +10659,22 @@
                },
                "2": {
                   "Value": "This increases by one meteor for every 2 spell levels beyond 7th (3 at level 7, 4 at level 9)."
+               }
+            }
+         },
+         "StasisTrap": {
+            "Label": "Stasis Trap",
+            "Description": {
+               "1": {
+                  "Value": "You plant the totem in the ground anywhere within 30 feet. It is visible for 1 round, before becoming invisible for the rest of its duration (gaining advantage to Stealth, with a Stealth bonus equal to yours). Once invisible, it is effectively active. If a creature moves within 10 feet of the totem during its activity, you are notified of the presence, and you are aware of their creature type and direction of movement (but nothing more)."
+               },
+               "2": {
+                  "Value": "If you use your reaction to send the mental command, the totem explodes into a shower of sparks easily seen from up to a mile, lighting up the totem and the area for one round. All creatures 10 feet away from the totem must make an Agility saving throw or be stunned until the beginning of their turn the next round."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "The trap remains for ten more minutes more per every level, to a maximum of 100 minutes."
                }
             }
          },
@@ -11676,6 +11827,7 @@
          "Damage": "Damage",
          "DamageTypes": {
             "Bludgeoning": "Bludgeoning",
+            "Holy": "Holy",
             "Piercing": "Piercing",
             "Shadow": "Shadow",
             "Slashing": "Slashing"

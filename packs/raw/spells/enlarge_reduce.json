@@ -1,6 +1,6 @@
 {
-   "_id": "UQgZF2OONzIZAc4D",
-   "name": "Divine Shield",
+   "_id": "gaQSjoP2FfS4P3ie",
+   "name": "Enlarge/Reduce",
    "permission": {
       "default": 0
    },
@@ -17,51 +17,51 @@
          "units": "minute"
       },
       "target": {
-         "value": null,
-         "width": null,
+         "value": 1,
          "units": "",
-         "type": "self"
+         "type": "creature"
       },
       "range": {
-         "value": null,
-         "long": null,
-         "units": "self"
+         "value": 30,
+         "long": 0,
+         "units": "ft"
       },
       "uses": {
          "value": 0,
-         "max": "0",
+         "max": 0,
          "per": ""
       },
-      "consume": {
-         "type": "",
-         "target": "",
-         "amount": null
-      },
       "ability": "",
-      "actionType": "",
+      "actionType": "save",
       "attackBonus": 0,
       "chatFlavor": "",
-      "critical": null,
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
       "damage": {
-         "parts": [
-         ],
-         "versatile": ""
+         "parts": [],
+         "versatile": "",
+         "value": ""
       },
       "formula": "",
       "save": {
+         "ability": "con",
+         "dc": null,
+         "scaling": "spell"
       },
       "level": 2,
-      "school": "enc",
+      "school": "trs",
       "components": {
          "value": "",
          "vocal": true,
          "somatic": true,
-         "material": false,
+         "material": true,
          "ritual": false,
          "concentration": true
       },
       "materials": {
-         "value": "",
+         "value": "A pinch of powdered iron",
          "consumed": false,
          "cost": 0,
          "supply": 0
@@ -81,23 +81,22 @@
          "type": "spell",
          "description": [
             {
-               "value": "WC5E.Spells.DivineShield.Description.1.Value"
+               "value": "WC5E.Spells.EnlargeReduce.Description.1.Value"
             },
             {
-               "value": "WC5E.Spells.DivineShield.Description.2.Value"
+               "value": "WC5E.Spells.EnlargeReduce.Description.2.Value"
             },
             {
-               "value": "WC5E.Spells.DivineShield.Description.3.Value"
-            }
-         ],
-         "heightened": [
+               "title": "WC5E.Spells.EnlargeReduce.Description.3.Title",
+               "value": "WC5E.Spells.EnlargeReduce.Description.3.Value"
+            },
             {
-               "value": "WC5E.Spells.DivineShield.Heightened.1.Value"
+               "title": "WC5E.Spells.EnlargeReduce.Description.4.Title",
+               "value": "WC5E.Spells.EnlargeReduce.Description.4.Value"
             }
          ]
       }
    },
-   "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
-   "effects": [
-   ]
+   "img": "systems/dnd5e/icons/spells/link-blue-2.jpg",
+   "effects": []
 }

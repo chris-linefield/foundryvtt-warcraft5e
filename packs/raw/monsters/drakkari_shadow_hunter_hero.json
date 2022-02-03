@@ -1,0 +1,3193 @@
+{
+   "_id": "6G546ExTRR12m6ZR",
+   "name": "Troll - Drakkari Shadow Hunter (Hero)",
+   "type": "npc",
+   "img": "modules/warcraft5e/res/pics/portraits/monsters/trolls/drakkari-shadow-hunter-hero.webp",
+   "data": {
+      "abilities": {
+         "str": {
+            "value": 14,
+            "proficient": 1,
+            "bonuses": {
+               "check": "",
+               "save": ""
+            }
+         },
+         "dex": {
+            "value": 20,
+            "proficient": 1,
+            "bonuses": {
+               "check": "",
+               "save": ""
+            }
+         },
+         "con": {
+            "value": 14,
+            "proficient": 0,
+            "bonuses": {
+               "check": "",
+               "save": ""
+            }
+         },
+         "int": {
+            "value": 11,
+            "proficient": 0,
+            "bonuses": {
+               "check": "",
+               "save": ""
+            }
+         },
+         "wis": {
+            "value": 17,
+            "proficient": 0,
+            "bonuses": {
+               "check": "",
+               "save": ""
+            }
+         },
+         "cha": {
+            "value": 14,
+            "proficient": 0,
+            "bonuses": {
+               "check": "",
+               "save": ""
+            }
+         }
+      },
+      "attributes": {
+         "ac": {
+            "flat": null,
+            "calc": "default",
+            "formula": ""
+         },
+         "hp": {
+            "value": 82,
+            "min": 0,
+            "max": 82,
+            "temp": 0,
+            "tempmax": 0,
+            "formula": "11d10 + 22"
+         },
+         "init": {
+            "value": 0,
+            "bonus": 0
+         },
+         "movement": {
+            "burrow": 0,
+            "climb": 0,
+            "fly": 0,
+            "swim": 0,
+            "walk": 30,
+            "units": "ft",
+            "hover": false
+         },
+         "senses": {
+            "darkvision": 0,
+            "blindsight": 0,
+            "tremorsense": 0,
+            "truesight": 0,
+            "units": "ft",
+            "special": ""
+         },
+         "spellcasting": "wis",
+         "death": {
+            "success": 0,
+            "failure": 0
+         }
+      },
+      "details": {
+         "biography": {
+            "value": "<p><em>\"Want to see somethin' real scary?\"</em> </p>\n<p>These reclusive, wily jungle trolls are considered to be the highest authority within their respective warbands. They are masters of strange voodoo magics who can use their spirit-powers to both heal their allies and place curses upon their hapless enemies, while being an excellent scout and combatant. The Shadow Hunters walk the line between darkness and light in hopes of salvaging the future for their savage brethren. </p>",
+            "public": ""
+         },
+         "alignment": "Chaotic Neutral",
+         "race": "",
+         "type": {
+            "value": "humanoid",
+            "subtype": "Troll",
+            "swarm": "",
+            "custom": ""
+         },
+         "environment": "",
+         "cr": 7,
+         "spellLevel": 6,
+         "xp": {
+            "value": 10
+         },
+         "source": "Wc5e - MC p. 206"
+      },
+      "traits": {
+         "size": "med",
+         "di": {
+            "value": [],
+            "custom": ""
+         },
+         "dr": {
+            "value": [
+               "cold"
+            ],
+            "custom": ""
+         },
+         "dv": {
+            "value": [],
+            "custom": ""
+         },
+         "ci": {
+            "value": [],
+            "custom": ""
+         },
+         "languages": {
+            "value": [
+               "common",
+               "troll"
+            ],
+            "custom": ""
+         }
+      },
+      "currency": {
+         "pp": 0,
+         "gp": 0,
+         "ep": 0,
+         "sp": 0,
+         "cp": 0
+      },
+      "skills": {
+         "acr": {
+            "value": 1,
+            "ability": "dex",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "ani": {
+            "value": 0,
+            "ability": "wis",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "arc": {
+            "value": 0,
+            "ability": "int",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "ath": {
+            "value": 1,
+            "ability": "str",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "dec": {
+            "value": 0,
+            "ability": "cha",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "his": {
+            "value": 0,
+            "ability": "int",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "ins": {
+            "value": 0,
+            "ability": "wis",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "itm": {
+            "value": 1,
+            "ability": "cha",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "inv": {
+            "value": 0,
+            "ability": "int",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "med": {
+            "value": 0,
+            "ability": "wis",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "nat": {
+            "value": 0,
+            "ability": "int",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "prc": {
+            "value": 0,
+            "ability": "wis",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "prf": {
+            "value": 0,
+            "ability": "cha",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "per": {
+            "value": 0,
+            "ability": "cha",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "rel": {
+            "value": 0,
+            "ability": "int",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "slt": {
+            "value": 0,
+            "ability": "dex",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "ste": {
+            "value": 1,
+            "ability": "dex",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "sur": {
+            "value": 1,
+            "ability": "wis",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         }
+      },
+      "spells": {
+         "spell1": {
+            "value": 4,
+            "override": 4
+         },
+         "spell2": {
+            "value": 3,
+            "override": null
+         },
+         "spell3": {
+            "value": 3,
+            "override": null
+         },
+         "spell4": {
+            "value": 0,
+            "override": null
+         },
+         "spell5": {
+            "value": 0,
+            "override": null
+         },
+         "spell6": {
+            "value": 0,
+            "override": null
+         },
+         "spell7": {
+            "value": 0,
+            "override": null
+         },
+         "spell8": {
+            "value": 0,
+            "override": null
+         },
+         "spell9": {
+            "value": 0,
+            "override": null
+         },
+         "pact": {
+            "value": 0,
+            "override": null
+         }
+      },
+      "bonuses": {
+         "mwak": {
+            "attack": "",
+            "damage": ""
+         },
+         "rwak": {
+            "attack": "",
+            "damage": ""
+         },
+         "msak": {
+            "attack": "",
+            "damage": ""
+         },
+         "rsak": {
+            "attack": "",
+            "damage": ""
+         },
+         "abilities": {
+            "check": "",
+            "save": "",
+            "skill": ""
+         },
+         "spell": {
+            "dc": ""
+         }
+      },
+      "resources": {
+         "legact": {
+            "value": 0,
+            "max": 0
+         },
+         "legres": {
+            "value": 0,
+            "max": 0
+         },
+         "lair": {
+            "value": false,
+            "initiative": 0
+         }
+      }
+   },
+   "token": {
+      "name": "Troll - Drakkari Shadow Hunter (Hero)",
+      "img": "modules/warcraft5e/res/pics/tokens/monsters/trolls/drakkari-shadow-hunter-hero.webp",
+      "displayName": 0,
+      "actorLink": false,
+      "width": 1,
+      "height": 1,
+      "scale": 1.3,
+      "mirrorX": false,
+      "mirrorY": false,
+      "lockRotation": false,
+      "rotation": 0,
+      "alpha": 1,
+      "vision": false,
+      "dimSight": 0,
+      "brightSight": 0,
+      "dimLight": 0,
+      "brightLight": 0,
+      "sightAngle": 0,
+      "lightAngle": 0,
+      "lightAlpha": 0.25,
+      "lightAnimation": {
+         "speed": 5,
+         "intensity": 5
+      },
+      "disposition": -1,
+      "displayBars": 0,
+      "bar1": {
+         "attribute": "attributes.hp"
+      },
+      "bar2": {
+         "attribute": ""
+      },
+      "flags": {},
+      "randomImg": false,
+      "tint": null,
+      "lightColor": null,
+      "x": null,
+      "y": null,
+      "elevation": null,
+      "light": {
+         "alpha": 0.5,
+         "angle": 0,
+         "bright": 0,
+         "coloration": 1,
+         "dim": 0,
+         "gradual": true,
+         "luminosity": 0.5,
+         "saturation": 0,
+         "contrast": 0,
+         "shadows": 0,
+         "animation": {
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+         },
+         "darkness": {
+            "min": 0,
+            "max": 1
+         },
+         "color": null
+      }
+   },
+   "items": [
+      {
+         "_id": "ziofz7p7g2bNflV3",
+         "name": "Ancient Culture",
+         "type": "feat",
+         "img": "icons/environment/wilderness/altar-hidden.webp",
+         "data": {
+            "description": {
+               "value": "",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "Core Rules page 26",
+            "activation": {
+               "type": "",
+               "cost": 0,
+               "condition": ""
+            },
+            "duration": {
+               "value": null,
+               "units": ""
+            },
+            "target": {
+               "value": null,
+               "width": null,
+               "units": "",
+               "type": ""
+            },
+            "range": {
+               "value": null,
+               "long": null,
+               "units": ""
+            },
+            "uses": {
+               "value": null,
+               "max": "",
+               "per": null
+            },
+            "consume": {
+               "type": "",
+               "target": null,
+               "amount": null
+            },
+            "ability": null,
+            "actionType": "",
+            "attackBonus": 0,
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell"
+            },
+            "requirements": "Troll",
+            "recharge": {
+               "value": null,
+               "charged": false
+            }
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 0,
+         "permission": {
+            "default": 0
+         },
+         "flags": {
+            "wc5e": {
+               "type": "feat",
+               "category": "WC5E.SkillCategories.General",
+               "description": [
+                  {
+                     "value": "WC5E.Feats.AncientCulture.Description.1.Value"
+                  },
+                  {
+                     "options": [
+                        "WC5E.Feats.AncientCulture.Description.2.Options.1",
+                        "WC5E.Feats.AncientCulture.Description.2.Options.2",
+                        "WC5E.Feats.AncientCulture.Description.2.Options.3"
+                     ]
+                  }
+               ]
+            },
+            "core": {
+               "sourceId": "Compendium.warcraft5e.wc5e_racial_feats.Ty1nAMXBdw1NhaMb",
+               "sheetClass": "warcraft5e.WcItemSheet"
+            }
+         }
+      },
+      {
+         "_id": "QsZ2P1wFTdXvOPQl",
+         "name": "Hostile Homeland",
+         "type": "feat",
+         "img": "icons/magic/water/water-iceberg-bubbles.webp",
+         "data": {
+            "description": {
+               "value": "",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "Core Rules page 27",
+            "activation": {
+               "type": "",
+               "cost": 0,
+               "condition": ""
+            },
+            "duration": {
+               "value": null,
+               "units": ""
+            },
+            "target": {
+               "value": null,
+               "width": null,
+               "units": "",
+               "type": ""
+            },
+            "range": {
+               "value": null,
+               "long": null,
+               "units": ""
+            },
+            "uses": {
+               "value": null,
+               "max": "",
+               "per": null
+            },
+            "consume": {
+               "type": "",
+               "target": null,
+               "amount": null
+            },
+            "ability": null,
+            "actionType": null,
+            "attackBonus": 0,
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell"
+            },
+            "requirements": "Troll (Drakkari)",
+            "recharge": {
+               "value": null,
+               "charged": false
+            }
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 900000,
+         "permission": {
+            "default": 0
+         },
+         "flags": {
+            "wc5e": {
+               "type": "feat",
+               "category": "WC5E.SkillCategories.General",
+               "description": [
+                  {
+                     "value": "WC5E.Feats.HostileHomeland.Description.1.Value"
+                  }
+               ]
+            },
+            "core": {
+               "sourceId": "Compendium.warcraft5e.wc5e_racial_feats.UpbxLDVbqwnM8TfS"
+            }
+         }
+      },
+      {
+         "_id": "zSS2uhFzKJs3FpvK",
+         "name": "Keen Nose",
+         "type": "feat",
+         "img": "icons/creatures/mammals/dog-husky-white-blue.webp",
+         "data": {
+            "description": {
+               "value": "",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "Core Rules page 26",
+            "activation": {
+               "type": "",
+               "cost": 0,
+               "condition": ""
+            },
+            "duration": {
+               "value": null,
+               "units": ""
+            },
+            "target": {
+               "value": null,
+               "width": null,
+               "units": "",
+               "type": ""
+            },
+            "range": {
+               "value": null,
+               "long": null,
+               "units": ""
+            },
+            "uses": {
+               "value": null,
+               "max": "",
+               "per": null
+            },
+            "consume": {
+               "type": "",
+               "target": null,
+               "amount": null
+            },
+            "ability": null,
+            "actionType": null,
+            "attackBonus": 0,
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell"
+            },
+            "requirements": "Troll",
+            "recharge": {
+               "value": null,
+               "charged": false
+            }
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 1000000,
+         "permission": {
+            "default": 0
+         },
+         "flags": {
+            "wc5e": {
+               "type": "feat",
+               "category": "WC5E.SkillCategories.General",
+               "description": [
+                  {
+                     "value": "WC5E.Feats.KeenNose.Description.1.Value"
+                  }
+               ]
+            },
+            "core": {
+               "sourceId": "Compendium.warcraft5e.wc5e_racial_feats.Uuql2050ebB0a7JC"
+            }
+         }
+      },
+      {
+         "_id": "iCXFjgUak5FYpA2e",
+         "name": "Rapid Regeneration",
+         "type": "feat",
+         "img": "icons/skills/wounds/blood-cells-disease-green.webp",
+         "data": {
+            "description": {
+               "value": "",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "Core Rules page 37",
+            "activation": {
+               "type": "",
+               "cost": 0,
+               "condition": ""
+            },
+            "duration": {
+               "value": null,
+               "units": ""
+            },
+            "target": {
+               "value": null,
+               "width": null,
+               "units": "",
+               "type": ""
+            },
+            "range": {
+               "value": null,
+               "long": null,
+               "units": ""
+            },
+            "uses": {
+               "value": null,
+               "max": "",
+               "per": null
+            },
+            "consume": {
+               "type": "",
+               "target": null,
+               "amount": null
+            },
+            "ability": null,
+            "actionType": null,
+            "attackBonus": 0,
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell"
+            },
+            "requirements": "Troll",
+            "recharge": {
+               "value": null,
+               "charged": false
+            }
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 1100000,
+         "permission": {
+            "default": 0
+         },
+         "flags": {
+            "wc5e": {
+               "type": "feat",
+               "category": "WC5E.SkillCategories.General",
+               "description": [
+                  {
+                     "value": "WC5E.Feats.RapidRegeneration.Description.1.Value"
+                  },
+                  {
+                     "value": "WC5E.Feats.RapidRegeneration.Description.2.Value"
+                  }
+               ]
+            },
+            "core": {
+               "sourceId": "Compendium.warcraft5e.wc5e_racial_feats.afp08dHRMnbFIW77"
+            }
+         }
+      },
+      {
+         "_id": "F7QcXjmhFnFWtLiR",
+         "name": "Dread Ambusher",
+         "type": "feat",
+         "img": "icons/magic/nature/stealth-hide-eyes-green.webp",
+         "data": {
+            "description": {
+               "value": "",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "Core Rules page 163",
+            "activation": {
+               "type": "",
+               "cost": 0,
+               "condition": ""
+            },
+            "duration": {
+               "value": null,
+               "units": ""
+            },
+            "target": {
+               "value": null,
+               "width": null,
+               "units": "",
+               "type": ""
+            },
+            "range": {
+               "value": null,
+               "long": null,
+               "units": ""
+            },
+            "uses": {
+               "value": null,
+               "max": "",
+               "per": null
+            },
+            "consume": {
+               "type": "",
+               "target": null,
+               "amount": null
+            },
+            "ability": null,
+            "actionType": "",
+            "attackBonus": 0,
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell"
+            },
+            "requirements": "",
+            "recharge": {
+               "value": null,
+               "charged": false
+            }
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 75000,
+         "permission": {
+            "default": 0
+         },
+         "flags": {
+            "wc5e": {
+               "type": "talent",
+               "category": "WC5E.SkillCategories.General",
+               "description": [
+                  {
+                     "value": "WC5E.Talents.DreadAmbusher.Description.1.Value"
+                  }
+               ]
+            },
+            "core": {
+               "sourceId": "Compendium.warcraft5e.wc5e_class_talents.rDIopkzNgtYXqS3q"
+            }
+         }
+      },
+      {
+         "_id": "9xuQRjua98snk0CY",
+         "name": "Natural Explorer",
+         "type": "feat",
+         "img": "icons/environment/wilderness/cave-entrance-rocky.webp",
+         "data": {
+            "description": {
+               "value": "",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "Core Rules page 167",
+            "activation": {
+               "type": "",
+               "cost": 0,
+               "condition": ""
+            },
+            "duration": {
+               "value": null,
+               "units": ""
+            },
+            "target": {
+               "value": null,
+               "width": null,
+               "units": "",
+               "type": ""
+            },
+            "range": {
+               "value": null,
+               "long": null,
+               "units": ""
+            },
+            "uses": {
+               "value": null,
+               "max": "",
+               "per": null
+            },
+            "consume": {
+               "type": "",
+               "target": null,
+               "amount": null
+            },
+            "ability": null,
+            "actionType": null,
+            "attackBonus": 0,
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell"
+            },
+            "requirements": "",
+            "recharge": {
+               "value": null,
+               "charged": false
+            },
+            "attunement": null
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 950000,
+         "permission": {
+            "default": 0
+         },
+         "flags": {
+            "wc5e": {
+               "type": "talent",
+               "category": "WC5E.SkillCategories.General",
+               "description": [
+                  {
+                     "value": "WC5E.Talents.NaturalExplorer.Description.1.Value"
+                  },
+                  {
+                     "options": [
+                        "WC5E.Talents.NaturalExplorer.Description.2.Options.1",
+                        "WC5E.Talents.NaturalExplorer.Description.2.Options.2",
+                        "WC5E.Talents.NaturalExplorer.Description.2.Options.3",
+                        "WC5E.Talents.NaturalExplorer.Description.2.Options.4",
+                        "WC5E.Talents.NaturalExplorer.Description.2.Options.5",
+                        "WC5E.Talents.NaturalExplorer.Description.2.Options.6",
+                        "WC5E.Talents.NaturalExplorer.Description.2.Options.7"
+                     ]
+                  },
+                  {
+                     "value": "WC5E.Talents.NaturalExplorer.Description.3.Value"
+                  },
+                  {
+                     "options": [
+                        "WC5E.Talents.NaturalExplorer.Description.4.Options.1",
+                        "WC5E.Talents.NaturalExplorer.Description.4.Options.2",
+                        "WC5E.Talents.NaturalExplorer.Description.4.Options.3",
+                        "WC5E.Talents.NaturalExplorer.Description.4.Options.4"
+                     ]
+                  },
+                  {
+                     "value": "WC5E.Talents.NaturalExplorer.Description.5.Value"
+                  }
+               ]
+            },
+            "core": {
+               "sourceId": "Compendium.warcraft5e.wc5e_class_talents.TurhNevCevBv21mz"
+            }
+         }
+      },
+      {
+         "_id": "YKfFLc2NV1Lf9klU",
+         "name": "Vicious Mockery",
+         "type": "spell",
+         "img": "icons/skills/toxins/cup-goblet-poisoned-spilled.webp",
+         "data": {
+            "description": {
+               "value": "<p>You unleash a string of insults laced with subtle enchantments at a creature you can see within range. If the target can hear you (though it need not understand you), it must succeed on a Wisdom saving throw or take 1d4 psychic damage and have disadvantage on the next attack roll it makes before the end of its next turn.</p><p>This spell's damage increases by 1d4 when you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4).</p>",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "PHB pg. 285",
+            "activation": {
+               "type": "action",
+               "cost": 1,
+               "condition": ""
+            },
+            "duration": {
+               "value": null,
+               "units": "inst"
+            },
+            "target": {
+               "value": 1,
+               "width": null,
+               "units": "",
+               "type": "creature"
+            },
+            "range": {
+               "value": 60,
+               "long": 0,
+               "units": "ft"
+            },
+            "uses": {
+               "value": 0,
+               "max": 0,
+               "per": ""
+            },
+            "consume": {
+               "type": "",
+               "target": null,
+               "amount": null
+            },
+            "ability": "",
+            "actionType": "save",
+            "attackBonus": 0,
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [
+                  [
+                     "1d4",
+                     "psychic"
+                  ]
+               ],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "wis",
+               "dc": 0,
+               "scaling": "spell"
+            },
+            "level": 0,
+            "school": "enc",
+            "components": {
+               "value": "",
+               "vocal": true,
+               "somatic": false,
+               "material": false,
+               "ritual": false,
+               "concentration": false
+            },
+            "materials": {
+               "value": "",
+               "consumed": false,
+               "cost": 0,
+               "supply": 0
+            },
+            "preparation": {
+               "mode": "prepared",
+               "prepared": false
+            },
+            "scaling": {
+               "mode": "cantrip",
+               "formula": ""
+            },
+            "attunement": null
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 100000,
+         "permission": {
+            "default": 0
+         },
+         "flags": {
+            "core": {
+               "sourceId": "Compendium.dnd5e.spells.cdrYKaFi98YWaBMw"
+            }
+         }
+      },
+      {
+         "_id": "lb6r5ZzWVyTnYmZh",
+         "name": "Darkness",
+         "type": "spell",
+         "img": "systems/dnd5e/icons/spells/evil-eye-red-2.jpg",
+         "data": {
+            "description": {
+               "value": "<p>Magical darkness spreads from a point you choose within range to fill a 15-foot-radius sphere for the duration. The darkness spreads around corners. A creature with darkvision can't see through this darkness, and nonmagical light can't illuminate it.</p><p>If the point you choose is on an object you are holding or one that isn't being worn or carried, the darkness emanates from the object and moves with it. Completely covering the source of the darkness with an opaque object, such as a bowl or a helm, blocks the darkness.</p><p>If any of this spell's area overlaps with an area of light created by a spell of 2nd level or lower, the spell that created the light is dispelled.</p>",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "PHB pg. 230",
+            "activation": {
+               "type": "action",
+               "cost": 1,
+               "condition": ""
+            },
+            "duration": {
+               "value": 10,
+               "units": "minute"
+            },
+            "target": {
+               "value": 15,
+               "width": null,
+               "units": "ft",
+               "type": "sphere"
+            },
+            "range": {
+               "value": 60,
+               "long": 0,
+               "units": "ft"
+            },
+            "uses": {
+               "value": 0,
+               "max": 0,
+               "per": ""
+            },
+            "consume": {
+               "type": "",
+               "target": null,
+               "amount": null
+            },
+            "ability": "",
+            "actionType": "util",
+            "attackBonus": 0,
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [],
+               "versatile": "",
+               "value": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell",
+               "value": ""
+            },
+            "level": 2,
+            "school": "evo",
+            "components": {
+               "value": "",
+               "vocal": true,
+               "somatic": false,
+               "material": true,
+               "ritual": false,
+               "concentration": true
+            },
+            "materials": {
+               "value": "Bat fur and a drop of pitch or piece of coal",
+               "consumed": false,
+               "cost": 0,
+               "supply": 0
+            },
+            "preparation": {
+               "mode": "prepared",
+               "prepared": false
+            },
+            "scaling": {
+               "mode": "none",
+               "formula": ""
+            },
+            "attunement": null
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 200000,
+         "permission": {
+            "default": 0
+         },
+         "flags": {
+            "core": {
+               "sourceId": "Compendium.dnd5e.spells.S7VbUetIfVT7B6Eq"
+            }
+         }
+      },
+      {
+         "_id": "4UZw2dMtf2g0mXEB",
+         "name": "Healing Stream",
+         "type": "spell",
+         "img": "icons/magic/life/crosses-trio-red.webp",
+         "data": {
+            "description": {
+               "value": "",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "Core Rules page 347",
+            "activation": {
+               "type": "action",
+               "cost": 1,
+               "condition": ""
+            },
+            "duration": {
+               "value": null,
+               "units": "inst"
+            },
+            "target": {
+               "value": 1,
+               "width": null,
+               "units": "",
+               "type": "creature"
+            },
+            "range": {
+               "value": 40,
+               "long": null,
+               "units": "ft"
+            },
+            "uses": {
+               "value": 0,
+               "max": 0,
+               "per": ""
+            },
+            "consume": {
+               "type": "",
+               "target": null,
+               "amount": null
+            },
+            "ability": "",
+            "actionType": "heal",
+            "attackBonus": 0,
+            "chatFlavor": "",
+            "critical": null,
+            "damage": {
+               "parts": [
+                  "5d4",
+                  "healing"
+               ],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell",
+               "value": ""
+            },
+            "level": 3,
+            "school": "evo",
+            "components": {
+               "value": "",
+               "vocal": true,
+               "somatic": true,
+               "material": false,
+               "ritual": false,
+               "concentration": false
+            },
+            "materials": {
+               "value": "",
+               "consumed": false,
+               "cost": 0,
+               "supply": 0
+            },
+            "preparation": {
+               "mode": "prepared",
+               "prepared": false
+            },
+            "scaling": {
+               "mode": "none",
+               "formula": ""
+            },
+            "attunement": null
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 300000,
+         "permission": {
+            "default": 0
+         },
+         "flags": {
+            "wc5e": {
+               "type": "spell",
+               "description": [
+                  {
+                     "value": "WC5E.Spells.HealingStream.Description.1.Value"
+                  },
+                  {
+                     "value": "WC5E.Spells.HealingStream.Description.2.Value"
+                  }
+               ],
+               "heightened": [
+                  {
+                     "value": "WC5E.Spells.HealingStream.Heightened.1.Value"
+                  }
+               ]
+            },
+            "core": {
+               "sourceId": "Compendium.warcraft5e.wc5e_spells.iaOCR8jwS4OP6NI3"
+            }
+         }
+      },
+      {
+         "_id": "6plG6zQNJOETCcmS",
+         "name": "Shot Array (Black)",
+         "type": "spell",
+         "img": "icons/skills/ranged/arrows-flying-salvo-purple.webp",
+         "data": {
+            "description": {
+               "value": "",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "Core Rules page 367",
+            "activation": {
+               "type": "bonus",
+               "cost": 1,
+               "condition": ""
+            },
+            "duration": {
+               "value": 1,
+               "units": "minute"
+            },
+            "target": {
+               "value": null,
+               "width": null,
+               "units": "",
+               "type": "self"
+            },
+            "range": {
+               "value": null,
+               "long": null,
+               "units": "self"
+            },
+            "uses": {
+               "value": 0,
+               "max": "0",
+               "per": ""
+            },
+            "consume": {
+               "type": "",
+               "target": "",
+               "amount": null
+            },
+            "ability": "",
+            "actionType": "save",
+            "attackBonus": 0,
+            "chatFlavor": "",
+            "critical": null,
+            "damage": {
+               "parts": [],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "wis",
+               "dc": 0,
+               "scaling": "spell"
+            },
+            "level": 3,
+            "school": "trs",
+            "components": {
+               "value": "",
+               "vocal": true,
+               "somatic": false,
+               "material": false,
+               "ritual": false,
+               "concentration": false
+            },
+            "materials": {
+               "value": "",
+               "consumed": false,
+               "cost": 0,
+               "supply": 0
+            },
+            "preparation": {
+               "mode": "prepared",
+               "prepared": false
+            },
+            "scaling": {
+               "mode": "level",
+               "formula": "1d6"
+            },
+            "attunement": null
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 500000,
+         "permission": {
+            "default": 0
+         },
+         "flags": {
+            "wc5e": {
+               "type": "spell",
+               "description": [
+                  {
+                     "value": "WC5E.Spells.ShotArray.Description.1.Value"
+                  },
+                  {
+                     "options": [
+                        "WC5E.Spells.ShotArray.Description.2.Options.1",
+                        "WC5E.Spells.ShotArray.Description.2.Options.2",
+                        "WC5E.Spells.ShotArray.Description.2.Options.3",
+                        "WC5E.Spells.ShotArray.Description.2.Options.4",
+                        "WC5E.Spells.ShotArray.Description.2.Options.5",
+                        "WC5E.Spells.ShotArray.Description.2.Options.6",
+                        "WC5E.Spells.ShotArray.Description.2.Options.7",
+                        "WC5E.Spells.ShotArray.Description.2.Options.8",
+                        "WC5E.Spells.ShotArray.Description.2.Options.9",
+                        "WC5E.Spells.ShotArray.Description.2.Options.10",
+                        "WC5E.Spells.ShotArray.Description.2.Options.11",
+                        "WC5E.Spells.ShotArray.Description.2.Options.12",
+                        "WC5E.Spells.ShotArray.Description.2.Options.13"
+                     ]
+                  }
+               ],
+               "heightened": [
+                  {
+                     "options": [
+                        "WC5E.Spells.ShotArray.Heightened.2.Options.1",
+                        "WC5E.Spells.ShotArray.Heightened.2.Options.2",
+                        "WC5E.Spells.ShotArray.Heightened.2.Options.3",
+                        "WC5E.Spells.ShotArray.Heightened.2.Options.4",
+                        "WC5E.Spells.ShotArray.Heightened.2.Options.5",
+                        "WC5E.Spells.ShotArray.Heightened.2.Options.6",
+                        "WC5E.Spells.ShotArray.Heightened.2.Options.7",
+                        "WC5E.Spells.ShotArray.Heightened.2.Options.8"
+                     ]
+                  }
+               ]
+            },
+            "core": {
+               "sourceId": "Compendium.warcraft5e.wc5e_spells.3NRJd2YuGHkNjgFF"
+            }
+         }
+      },
+      {
+         "_id": "ZVAQwvPSfsIlM3Ki",
+         "name": "Mask Magic",
+         "type": "feat",
+         "img": "icons/equipment/head/mask-wooden-feathered-blue.webp",
+         "data": {
+            "description": {
+               "value": "",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "Core Rules page 155",
+            "activation": {
+               "type": "",
+               "cost": 0,
+               "condition": ""
+            },
+            "duration": {
+               "value": null,
+               "units": ""
+            },
+            "target": {
+               "value": null,
+               "width": null,
+               "units": "",
+               "type": ""
+            },
+            "range": {
+               "value": null,
+               "long": null,
+               "units": ""
+            },
+            "uses": {
+               "value": null,
+               "max": "",
+               "per": null
+            },
+            "consume": {
+               "type": "",
+               "target": null,
+               "amount": null
+            },
+            "ability": null,
+            "actionType": null,
+            "attackBonus": 0,
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell"
+            },
+            "requirements": "Hunter (Shadow Hunter) 3",
+            "recharge": {
+               "value": null,
+               "charged": false
+            },
+            "attunement": null
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 25000,
+         "permission": {
+            "default": 0
+         },
+         "flags": {
+            "wc5e": {
+               "type": "feat",
+               "category": "WC5E.SkillCategories.General",
+               "description": [
+                  {
+                     "value": "WC5E.Feats.MaskMagic.Description.1.Value"
+                  },
+                  {
+                     "options": [
+                        "WC5E.Feats.MaskMagic.Description.2.Options.1",
+                        "WC5E.Feats.MaskMagic.Description.2.Options.2",
+                        "WC5E.Feats.MaskMagic.Description.2.Options.3"
+                     ]
+                  }
+               ]
+            },
+            "core": {
+               "sourceId": "Compendium.warcraft5e.wc5e_class_feats.o4PSTskgVfeS7tHm"
+            }
+         }
+      },
+      {
+         "_id": "4Jq1f2BUYPz3rae5",
+         "name": "Voodoo Ritualist",
+         "type": "feat",
+         "img": "icons/magic/control/voodoo-doll-pain-damage-yellow.webp",
+         "data": {
+            "description": {
+               "value": "",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "Core Rules page 156",
+            "activation": {
+               "type": "",
+               "cost": 0,
+               "condition": ""
+            },
+            "duration": {
+               "value": null,
+               "units": ""
+            },
+            "target": {
+               "value": null,
+               "width": null,
+               "units": "",
+               "type": ""
+            },
+            "range": {
+               "value": null,
+               "long": null,
+               "units": ""
+            },
+            "uses": {
+               "value": null,
+               "max": "",
+               "per": null
+            },
+            "consume": {
+               "type": "",
+               "target": null,
+               "amount": null
+            },
+            "ability": null,
+            "actionType": null,
+            "attackBonus": 0,
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell"
+            },
+            "requirements": "Hunter (Shadow Hunter) 7",
+            "recharge": {
+               "value": null,
+               "charged": false
+            },
+            "attunement": null
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 1200000,
+         "permission": {
+            "default": 0
+         },
+         "flags": {
+            "wc5e": {
+               "type": "feat",
+               "category": "WC5E.SkillCategories.General",
+               "description": [
+                  {
+                     "value": "WC5E.Feats.VoodooRitualist.Description.1.Value"
+                  }
+               ]
+            },
+            "core": {
+               "sourceId": "Compendium.warcraft5e.wc5e_class_feats.h22PkyNext4Ezblt"
+            }
+         }
+      },
+      {
+         "_id": "1Fo6aWGqKxRzSQyG",
+         "name": "Riptide",
+         "type": "spell",
+         "img": "icons/magic/water/bubbles-air-water-blue.webp",
+         "data": {
+            "description": {
+               "value": "",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "Core Rules page 363",
+            "activation": {
+               "type": "action",
+               "cost": 1,
+               "condition": ""
+            },
+            "duration": {
+               "value": 1,
+               "units": "minute"
+            },
+            "target": {
+               "value": 1,
+               "width": null,
+               "units": "",
+               "type": "creature"
+            },
+            "range": {
+               "value": 60,
+               "long": null,
+               "units": "ft"
+            },
+            "uses": {
+               "value": 0,
+               "max": 0,
+               "per": ""
+            },
+            "consume": {
+               "type": "",
+               "target": null,
+               "amount": null
+            },
+            "ability": "",
+            "actionType": "heal",
+            "attackBonus": 0,
+            "chatFlavor": "",
+            "critical": null,
+            "damage": {
+               "parts": [
+                  "1d4",
+                  "healing"
+               ],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell",
+               "value": ""
+            },
+            "level": 1,
+            "school": "evo",
+            "components": {
+               "value": "",
+               "vocal": true,
+               "somatic": true,
+               "material": false,
+               "ritual": false,
+               "concentration": false
+            },
+            "materials": {
+               "value": "",
+               "consumed": false,
+               "cost": 0,
+               "supply": 0
+            },
+            "preparation": {
+               "mode": "prepared",
+               "prepared": false
+            },
+            "scaling": {
+               "mode": "none",
+               "formula": ""
+            },
+            "attunement": null
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 600000,
+         "permission": {
+            "default": 0
+         },
+         "flags": {
+            "wc5e": {
+               "type": "spell",
+               "description": [
+                  {
+                     "value": "WC5E.Spells.Riptide.Description.1.Value"
+                  },
+                  {
+                     "value": "WC5E.Spells.Riptide.Description.2.Value"
+                  },
+                  {
+                     "value": "WC5E.Spells.Riptide.Description.3.Value"
+                  }
+               ],
+               "heightened": [
+                  {
+                     "value": "WC5E.Spells.Riptide.Heightened.1.Value"
+                  }
+               ]
+            },
+            "core": {
+               "sourceId": "Compendium.warcraft5e.wc5e_spells.lJwvdoJbW7adgEsg"
+            }
+         }
+      },
+      {
+         "_id": "1xNDPqmLL6zZCO2v",
+         "name": "Charm (Undead)",
+         "type": "spell",
+         "img": "icons/magic/control/hypnosis-mesmerism-eye.webp",
+         "data": {
+            "description": {
+               "value": "",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "Core Rules page 330",
+            "activation": {
+               "type": "action",
+               "cost": 1,
+               "condition": ""
+            },
+            "duration": {
+               "value": 1,
+               "units": "hour"
+            },
+            "target": {
+               "value": 1,
+               "width": null,
+               "units": "",
+               "type": "creature"
+            },
+            "range": {
+               "value": 60,
+               "long": 0,
+               "units": "ft"
+            },
+            "uses": {
+               "value": 0,
+               "max": "0",
+               "per": ""
+            },
+            "consume": {
+               "type": "",
+               "target": "",
+               "amount": null
+            },
+            "ability": "",
+            "actionType": "save",
+            "attackBonus": 0,
+            "chatFlavor": "",
+            "critical": null,
+            "damage": {
+               "parts": [],
+               "versatile": "",
+               "value": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "wis",
+               "dc": 0,
+               "scaling": "spell"
+            },
+            "level": 1,
+            "school": "enc",
+            "components": {
+               "value": "",
+               "vocal": true,
+               "somatic": true,
+               "material": false,
+               "ritual": false,
+               "concentration": false
+            },
+            "materials": {
+               "value": "",
+               "consumed": false,
+               "cost": 0,
+               "supply": 0
+            },
+            "preparation": {
+               "mode": "prepared",
+               "prepared": false
+            },
+            "scaling": {
+               "mode": "level",
+               "formula": ""
+            },
+            "attunement": null
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 550000,
+         "permission": {
+            "default": 0
+         },
+         "flags": {
+            "wc5e": {
+               "type": "spell",
+               "description": [
+                  {
+                     "value": "WC5E.Spells.Charm.Description.1.Value"
+                  },
+                  {
+                     "value": "WC5E.Spells.Charm.Description.2.Value"
+                  }
+               ],
+               "heightened": [
+                  {
+                     "value": "WC5E.Spells.Charm.Heightened.1.Value"
+                  }
+               ]
+            },
+            "core": {
+               "sourceId": "Compendium.warcraft5e.wc5e_spells.ToJbmA0sBv2Fri8R"
+            }
+         }
+      },
+      {
+         "_id": "nUHP8K6gq0ldzPGr",
+         "name": "Warglaive",
+         "type": "weapon",
+         "img": "icons/weapons/swords/sword-hooked-worn.webp",
+         "data": {
+            "description": {
+               "value": "<p>This night elf weapon is a crescent-shaped blade about 4 feet long with a hilt in the center of the back edge. Demon hunters favor these weapons.</p>",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "Wc5e - P. 188",
+            "quantity": 1,
+            "weight": 2,
+            "price": 15,
+            "attunement": 0,
+            "equipped": true,
+            "rarity": "common",
+            "identified": true,
+            "activation": {
+               "type": "action",
+               "cost": 1,
+               "condition": ""
+            },
+            "duration": {
+               "value": null,
+               "units": ""
+            },
+            "target": {
+               "value": null,
+               "width": null,
+               "units": "",
+               "type": ""
+            },
+            "range": {
+               "value": 5,
+               "long": null,
+               "units": "ft"
+            },
+            "uses": {
+               "value": null,
+               "max": "",
+               "per": ""
+            },
+            "consume": {
+               "type": "",
+               "target": "",
+               "amount": null
+            },
+            "ability": "",
+            "actionType": "mwak",
+            "attackBonus": "0",
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [
+                  [
+                     "1d6 + @mod",
+                     "slashing"
+                  ]
+               ],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell"
+            },
+            "armor": {
+               "value": 10
+            },
+            "hp": {
+               "value": 0,
+               "max": 0,
+               "dt": null,
+               "conditions": ""
+            },
+            "weaponType": "martialM",
+            "baseItem": "scimitar",
+            "properties": {
+               "ada": false,
+               "amm": false,
+               "fin": true,
+               "fir": false,
+               "foc": false,
+               "hvy": false,
+               "lgt": true,
+               "lod": false,
+               "mgc": false,
+               "rch": false,
+               "rel": false,
+               "ret": false,
+               "sil": false,
+               "spc": false,
+               "thr": false,
+               "two": false,
+               "ver": false
+            },
+            "proficient": true
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 0,
+         "permission": {
+            "default": 0
+         },
+         "flags": {
+            "wc5e": {
+               "type": "item",
+               "unit": "WC5E.UI.Units.Gp",
+               "weightUnit": "WC5E.UI.Units.Lb",
+               "label": "WC5E.Items.Warglaive.Label",
+               "description": [
+                  {
+                     "value": "WC5E.Items.Warglaive.Description.1.Value"
+                  }
+               ]
+            },
+            "core": {
+               "sourceId": "Compendium.warcraft5e.wc5e_items.c6lf5OC2sX99ufzn"
+            }
+         }
+      },
+      {
+         "_id": "5XlO7FpHlvkmLBLc",
+         "name": "Longbow",
+         "type": "weapon",
+         "img": "icons/weapons/bows/longbow-leather-green.webp",
+         "data": {
+            "description": {
+               "value": "<p>A thick shaft of laminated wood is bowed by a taut string capable of launching deadly arrows at long distances.</p>",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "PHB pg. 149",
+            "quantity": 1,
+            "weight": 2,
+            "price": 50,
+            "attunement": 0,
+            "equipped": true,
+            "rarity": "common",
+            "identified": true,
+            "activation": {
+               "type": "action",
+               "cost": 1,
+               "condition": ""
+            },
+            "duration": {
+               "value": 0,
+               "units": ""
+            },
+            "target": {
+               "value": 0,
+               "width": null,
+               "units": "",
+               "type": ""
+            },
+            "range": {
+               "value": 150,
+               "long": 600,
+               "units": "ft"
+            },
+            "uses": {
+               "value": null,
+               "max": "",
+               "per": ""
+            },
+            "consume": {
+               "type": "",
+               "target": null,
+               "amount": null
+            },
+            "ability": null,
+            "actionType": "rwak",
+            "attackBonus": 0,
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [
+                  [
+                     "1d8 + @mod",
+                     "piercing"
+                  ]
+               ],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell"
+            },
+            "armor": {
+               "value": 10
+            },
+            "hp": {
+               "value": 0,
+               "max": 0,
+               "dt": null,
+               "conditions": ""
+            },
+            "weaponType": "martialR",
+            "baseItem": "longbow",
+            "properties": {
+               "amm": true,
+               "hvy": true,
+               "two": true,
+               "fin": false,
+               "fir": false,
+               "foc": false,
+               "lgt": false,
+               "rch": false,
+               "rel": false,
+               "ret": false,
+               "spc": false,
+               "thr": false,
+               "ver": false
+            },
+            "proficient": true
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 1900001,
+         "permission": {
+            "default": 0
+         },
+         "flags": {
+            "core": {
+               "sourceId": "Compendium.dnd5e.items.3cymOVja8jXbzrdT"
+            }
+         }
+      },
+      {
+         "_id": "hnWA0hAPgc1sajM4",
+         "name": "Witch Blast",
+         "type": "weapon",
+         "img": "icons/magic/lightning/orb-ball-purple.webp",
+         "data": {
+            "description": {
+               "value": "<p>Ranged Spell Attack: +6 to hit, range 50 ft., one target. Hit: 10 (3d6) lightning damage. This requires at least 1 mana in reserve for each d6.</p>",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "Wc5e - MC P. 207",
+            "quantity": 1,
+            "weight": 0,
+            "price": 0,
+            "attunement": 0,
+            "equipped": true,
+            "rarity": "",
+            "identified": true,
+            "activation": {
+               "type": "action",
+               "cost": 1,
+               "condition": ""
+            },
+            "duration": {
+               "value": null,
+               "units": ""
+            },
+            "target": {
+               "value": 1,
+               "width": null,
+               "units": "",
+               "type": "creature"
+            },
+            "range": {
+               "value": null,
+               "long": 50,
+               "units": "ft"
+            },
+            "uses": {
+               "value": null,
+               "max": "",
+               "per": ""
+            },
+            "consume": {
+               "type": "",
+               "target": "",
+               "amount": null
+            },
+            "ability": "",
+            "actionType": "rsak",
+            "attackBonus": "6",
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [
+                  [
+                     "3d6",
+                     "lightning"
+                  ]
+               ],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell"
+            },
+            "armor": {
+               "value": 10
+            },
+            "hp": {
+               "value": 0,
+               "max": 0,
+               "dt": null,
+               "conditions": ""
+            },
+            "weaponType": "natural",
+            "baseItem": "",
+            "properties": {
+               "ada": false,
+               "amm": false,
+               "fin": false,
+               "fir": false,
+               "foc": false,
+               "hvy": false,
+               "lgt": false,
+               "lod": false,
+               "mgc": false,
+               "rch": false,
+               "rel": false,
+               "ret": false,
+               "sil": false,
+               "spc": false,
+               "thr": false,
+               "two": false,
+               "ver": false
+            },
+            "proficient": true
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 2000001,
+         "permission": {
+            "default": 0
+         },
+         "flags": {}
+      },
+      {
+         "_id": "4IG74iyola3f4m0a",
+         "name": "Multiattack",
+         "type": "feat",
+         "img": "icons/skills/melee/blade-tips-triple-steel.webp",
+         "data": {
+            "description": {
+               "value": "<p>The shadow hunter can make two attacks. Only one can be a witch blast. If attacking with the warglaive, the shadow hunter can make an extra attack with the warglaive as a bonus action, and can add his ability modifier to the damage of the attack.</p>",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "Wc5e - MC P. 207",
+            "activation": {
+               "type": "action",
+               "cost": 0,
+               "condition": ""
+            },
+            "duration": {
+               "value": null,
+               "units": ""
+            },
+            "target": {
+               "value": null,
+               "width": null,
+               "units": "",
+               "type": ""
+            },
+            "range": {
+               "value": null,
+               "long": null,
+               "units": ""
+            },
+            "uses": {
+               "value": null,
+               "max": "",
+               "per": ""
+            },
+            "consume": {
+               "type": "",
+               "target": "",
+               "amount": null
+            },
+            "ability": null,
+            "actionType": "",
+            "attackBonus": 0,
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell"
+            },
+            "requirements": "",
+            "recharge": {
+               "value": null,
+               "charged": false
+            }
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 500000,
+         "permission": {
+            "default": 0
+         },
+         "flags": {}
+      },
+      {
+         "_id": "LSJED8efUdshBFcg",
+         "name": "Leather Armor",
+         "type": "equipment",
+         "img": "icons/equipment/chest/breastplate-quilted-brown.webp",
+         "data": {
+            "description": {
+               "value": "<p>The breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being boiled in oil. The rest of the armor is made of softer and more flexible materials.</p>",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "PHB pg. 144",
+            "quantity": 1,
+            "weight": 10,
+            "price": 10,
+            "attunement": 0,
+            "equipped": true,
+            "rarity": "common",
+            "identified": true,
+            "activation": {
+               "type": "",
+               "cost": 0,
+               "condition": ""
+            },
+            "duration": {
+               "value": null,
+               "units": ""
+            },
+            "target": {
+               "value": null,
+               "width": null,
+               "units": "",
+               "type": ""
+            },
+            "range": {
+               "value": null,
+               "long": null,
+               "units": ""
+            },
+            "uses": {
+               "value": null,
+               "max": "",
+               "per": null
+            },
+            "consume": {
+               "type": "",
+               "target": null,
+               "amount": null
+            },
+            "ability": null,
+            "actionType": "",
+            "attackBonus": 0,
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell"
+            },
+            "armor": {
+               "value": 11,
+               "type": "light",
+               "dex": null
+            },
+            "hp": {
+               "value": 0,
+               "max": 0,
+               "dt": null,
+               "conditions": ""
+            },
+            "baseItem": "leather",
+            "speed": {
+               "value": null,
+               "conditions": ""
+            },
+            "strength": null,
+            "stealth": false,
+            "proficient": true
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 200000,
+         "permission": {
+            "default": 0
+         },
+         "flags": {
+            "core": {
+               "sourceId": "Compendium.dnd5e.items.WwdpHLXGX5r8uZu5"
+            }
+         }
+      },
+      {
+         "_id": "n3TXldKlbqr0u5i0",
+         "name": "Voodoo Doll",
+         "type": "equipment",
+         "img": "icons/magic/control/voodoo-doll-pain-damage-red.webp",
+         "data": {
+            "description": {
+               "value": "<p><em>Wondrous item, rare (requires attunement by any spellcaster who can cast Speak with Dead)</em></p>\n<p>A voodoo doll seems innocent, but it is actually a house of a Hexer spirit. Hexer spirits bound to a voodoo doll are servitors to whoever is attuned to the doll, serving them in return for favors.</p>\n<p>A voodoo doll may be attuned with a target with one hour of contact with a remaining body part or piece (such as a finger, hair, or fingernail). So long as the target does not take the measures to end the bond (such as by replacing the finger or removing a hand, cutting all their hair, or clipping all their fingernails, as determined by the DM), the Hexer spirit is always aware of where the target is, as if under the effects of a locate creature spell.</p>\n<p>The Hexer spirit can be allowed to leave the voodoo doll to use its Carry Voodoo power, which allows the owner of the doll to cast a spell for the Hexer to carry, or harm the doll and order the hexer spirit to use its Withering Touch ability on the target (usually until they die, or the victim is at the point where the witch doctor wants them).</p>\n<p>The DM has the Hexer Spirit‘s statistics (Monster Guide).</p>",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "Wc5e - Core P. 205",
+            "quantity": 1,
+            "weight": 0,
+            "price": 0,
+            "attunement": 1,
+            "equipped": true,
+            "rarity": "rare",
+            "identified": true,
+            "activation": {
+               "type": "",
+               "cost": 0,
+               "condition": ""
+            },
+            "duration": {
+               "value": null,
+               "units": ""
+            },
+            "target": {
+               "value": null,
+               "width": null,
+               "units": "",
+               "type": ""
+            },
+            "range": {
+               "value": null,
+               "long": null,
+               "units": ""
+            },
+            "uses": {
+               "value": null,
+               "max": "",
+               "per": null
+            },
+            "consume": {
+               "type": "",
+               "target": null,
+               "amount": null
+            },
+            "ability": null,
+            "actionType": "",
+            "attackBonus": 0,
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell"
+            },
+            "armor": {
+               "value": null,
+               "type": "",
+               "dex": null
+            },
+            "hp": {
+               "value": 0,
+               "max": 0,
+               "dt": null,
+               "conditions": ""
+            },
+            "baseItem": "",
+            "speed": {
+               "value": null,
+               "conditions": ""
+            },
+            "strength": 0,
+            "stealth": false,
+            "proficient": true
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 0,
+         "permission": {
+            "default": 0
+         },
+         "flags": {
+            "wc5e": {
+               "type": "item",
+               "cost": 0,
+               "unit": "WC5E.UI.Units.Gp",
+               "mass": 1,
+               "weightUnit": "WC5E.UI.Units.Lb",
+               "label": "WC5E.Items.VoodooDoll.Label",
+               "description": [
+                  {
+                     "value": "WC5E.Items.VoodooDoll.Description.1.Value"
+                  },
+                  {
+                     "value": "WC5E.Items.VoodooDoll.Description.2.Value"
+                  },
+                  {
+                     "value": "WC5E.Items.VoodooDoll.Description.3.Value"
+                  },
+                  {
+                     "value": "WC5E.Items.VoodooDoll.Description.4.Value"
+                  },
+                  {
+                     "value": "WC5E.Items.VoodooDoll.Description.5.Value"
+                  }
+               ]
+            },
+            "core": {
+               "sourceId": "Compendium.warcraft5e.wc5e_items.yzZCakXNwD7pGEy9"
+            }
+         }
+      },
+      {
+         "_id": "Z04JgNRvr7I1hS7G",
+         "name": "Spellcasting",
+         "type": "feat",
+         "img": "icons/magic/control/voodoo-doll-pain-damage-pink.webp",
+         "data": {
+            "description": {
+               "value": "<p>The shadow hunter is a 6th level spellcaster. Its spellcasting ability is Spirit (spell save DC 14, +6 to hit with spell attacks). The shadow hunter can always see in the area of his own darkness spell.</p>",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "",
+            "activation": {
+               "type": "",
+               "cost": 0,
+               "condition": ""
+            },
+            "duration": {
+               "value": null,
+               "units": ""
+            },
+            "target": {
+               "value": null,
+               "width": null,
+               "units": "",
+               "type": ""
+            },
+            "range": {
+               "value": null,
+               "long": null,
+               "units": ""
+            },
+            "uses": {
+               "value": null,
+               "max": "",
+               "per": null
+            },
+            "consume": {
+               "type": "",
+               "target": null,
+               "amount": null
+            },
+            "ability": null,
+            "actionType": "",
+            "attackBonus": 0,
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell"
+            },
+            "requirements": "",
+            "recharge": {
+               "value": null,
+               "charged": false
+            }
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 1150000,
+         "permission": {
+            "default": 0
+         },
+         "flags": {}
+      },
+      {
+         "_id": "HJx7a7UpWRIsRwxe",
+         "name": "Conjure Undead (Shadows)",
+         "type": "spell",
+         "img": "icons/magic/death/hand-dirt-undead-zombie.webp",
+         "data": {
+            "description": {
+               "value": "",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "Wc5e - Core p. 331",
+            "activation": {
+               "type": "action",
+               "cost": 1,
+               "condition": ""
+            },
+            "duration": {
+               "value": 1,
+               "units": "hour"
+            },
+            "target": {
+               "value": null,
+               "width": null,
+               "units": "any",
+               "type": "space"
+            },
+            "range": {
+               "value": 30,
+               "long": 0,
+               "units": "ft"
+            },
+            "uses": {
+               "value": 0,
+               "max": "0",
+               "per": ""
+            },
+            "consume": {
+               "type": "",
+               "target": "",
+               "amount": null
+            },
+            "ability": "",
+            "actionType": "util",
+            "attackBonus": 0,
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [],
+               "versatile": "",
+               "value": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell",
+               "value": ""
+            },
+            "level": 1,
+            "school": "nec",
+            "components": {
+               "value": "",
+               "vocal": true,
+               "somatic": true,
+               "material": true,
+               "ritual": false,
+               "concentration": true
+            },
+            "materials": {
+               "value": "a focus related to the creature, or an object of specific rarity",
+               "consumed": false,
+               "cost": 0,
+               "supply": 0
+            },
+            "preparation": {
+               "mode": "prepared",
+               "prepared": false
+            },
+            "scaling": {
+               "mode": "level",
+               "formula": ""
+            },
+            "attunement": null
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 575000,
+         "permission": {
+            "default": 0
+         },
+         "flags": {
+            "wc5e": {
+               "type": "spell",
+               "description": [
+                  {
+                     "value": "WC5E.Spells.Conjure.Description.1.Value"
+                  },
+                  {
+                     "options": [
+                        "WC5E.Spells.Conjure.Description.2.Options.1",
+                        "WC5E.Spells.Conjure.Description.2.Options.2",
+                        "WC5E.Spells.Conjure.Description.2.Options.3"
+                     ]
+                  },
+                  {
+                     "note": true,
+                     "value": "WC5E.Spells.Conjure.Description.3.Value"
+                  },
+                  {
+                     "title": "WC5E.Spells.Conjure.Description.4.Title",
+                     "value": "WC5E.Spells.Conjure.Description.4.Value"
+                  },
+                  {
+                     "value": "WC5E.Spells.Conjure.Description.5.Value"
+                  },
+                  {
+                     "value": "WC5E.Spells.Conjure.Description.6.Value"
+                  },
+                  {
+                     "value": "WC5E.Spells.Conjure.Description.7.Value"
+                  },
+                  {
+                     "value": "WC5E.Spells.Conjure.Description.8.Value"
+                  },
+                  {
+                     "value": "WC5E.Spells.Conjure.Description.9.Value"
+                  },
+                  {
+                     "value": "WC5E.Spells.Conjure.Description.10.Value"
+                  },
+                  {
+                     "title": "WC5E.Spells.Conjure.Description.11.Title",
+                     "value": "WC5E.Spells.Conjure.Description.11.Value"
+                  },
+                  {
+                     "value": "WC5E.Spells.Conjure.Description.12.Value"
+                  },
+                  {
+                     "value": "WC5E.Spells.Conjure.Description.13.Value"
+                  },
+                  {
+                     "title": "WC5E.Spells.Conjure.Description.14.Title",
+                     "value": "WC5E.Spells.Conjure.Description.14.Value"
+                  }
+               ],
+               "heightened": [
+                  {
+                     "value": "WC5E.Spells.Conjure.Heightened.1.Value"
+                  }
+               ]
+            },
+            "core": {
+               "sourceId": "Compendium.warcraft5e.wc5e_spells.gTXOsMFKSHJzLzoo"
+            }
+         }
+      },
+      {
+         "_id": "uKaZSVXeJqiJFPqY",
+         "name": "Stasis Trap",
+         "type": "spell",
+         "img": "icons/tools/instruments/drum-standing-glowing-green.webp",
+         "data": {
+            "description": {
+               "value": null,
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "Wc5e - Core p. 372",
+            "activation": {
+               "type": "action",
+               "cost": 1,
+               "condition": ""
+            },
+            "duration": {
+               "value": 10,
+               "units": "minute"
+            },
+            "target": {
+               "value": null,
+               "width": null,
+               "units": "",
+               "type": ""
+            },
+            "range": {
+               "value": 30,
+               "long": null,
+               "units": "ft"
+            },
+            "uses": {
+               "value": null,
+               "max": "",
+               "per": ""
+            },
+            "consume": {
+               "type": "",
+               "target": "",
+               "amount": null
+            },
+            "ability": "",
+            "actionType": "",
+            "attackBonus": "0",
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "dex",
+               "dc": null,
+               "scaling": "spell"
+            },
+            "level": 1,
+            "school": "con",
+            "components": {
+               "value": "",
+               "vocal": true,
+               "somatic": true,
+               "material": false,
+               "ritual": false,
+               "concentration": false
+            },
+            "materials": {
+               "value": "",
+               "consumed": false,
+               "cost": 0,
+               "supply": 0
+            },
+            "preparation": {
+               "mode": "prepared",
+               "prepared": false
+            },
+            "scaling": {
+               "mode": "none",
+               "formula": ""
+            },
+            "attunement": null
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 800000,
+         "permission": {
+            "default": 0
+         },
+         "flags": {
+            "wc5e": {
+               "type": "spell",
+               "description": [
+                  {
+                     "value": "WC5E.Spells.StasisTrap.Description.1.Value"
+                  },
+                  {
+                     "value": "WC5E.Spells.StasisTrap.Description.2.Value"
+                  }
+               ],
+               "heightened": [
+                  {
+                     "value": "WC5E.Spells.StasisTrap.Heightened.1.Value"
+                  }
+               ]
+            },
+            "core": {
+               "sourceId": "Compendium.warcraft5e.wc5e_spells.6O9gLOIs7UHjSuKU"
+            }
+         }
+      },
+      {
+         "_id": "e0iMGASjEJor5e8U",
+         "name": "Serpent Ward",
+         "type": "spell",
+         "img": "icons/creatures/reptiles/lizard-mouth-glowing-red.webp",
+         "data": {
+            "description": {
+               "value": "",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "",
+            "activation": {
+               "type": "action",
+               "cost": 1,
+               "condition": ""
+            },
+            "duration": {
+               "value": 1,
+               "units": "minute"
+            },
+            "target": {
+               "value": null,
+               "width": null,
+               "units": "any",
+               "type": "space"
+            },
+            "range": {
+               "value": 30,
+               "long": null,
+               "units": "ft"
+            },
+            "uses": {
+               "value": null,
+               "max": "",
+               "per": ""
+            },
+            "consume": {
+               "type": "",
+               "target": "",
+               "amount": null
+            },
+            "ability": null,
+            "actionType": "",
+            "attackBonus": 0,
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell"
+            },
+            "level": 2,
+            "school": "evo",
+            "components": {
+               "value": "",
+               "vocal": true,
+               "somatic": true,
+               "material": false,
+               "ritual": false,
+               "concentration": false
+            },
+            "materials": {
+               "value": "",
+               "consumed": false,
+               "cost": 0,
+               "supply": 0
+            },
+            "preparation": {
+               "mode": "prepared",
+               "prepared": false
+            },
+            "scaling": {
+               "mode": "none",
+               "formula": ""
+            },
+            "attunement": null
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 0,
+         "permission": {
+            "default": 0
+         },
+         "flags": {
+            "wc5e": {
+               "type": "spell",
+               "description": [
+                  {
+                     "value": "WC5E.Spells.SerpentWard.Description.1.Value"
+                  }
+               ]
+            },
+            "core": {
+               "sourceId": "Compendium.warcraft5e.wc5e_spells.OgQwaqknTBcJnUjg"
+            }
+         }
+      },
+      {
+         "_id": "5uTTNMirTLUsEEBz",
+         "name": "Polymorph",
+         "type": "spell",
+         "img": "systems/dnd5e/icons/spells/link-eerie-2.jpg",
+         "data": {
+            "description": {
+               "value": "",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "",
+            "activation": {
+               "type": "action",
+               "cost": 1,
+               "condition": ""
+            },
+            "duration": {
+               "value": 1,
+               "units": "hour"
+            },
+            "target": {
+               "value": 1,
+               "width": null,
+               "units": "",
+               "type": "creature"
+            },
+            "range": {
+               "value": 60,
+               "long": 0,
+               "units": "ft"
+            },
+            "uses": {
+               "value": 0,
+               "max": 0,
+               "per": ""
+            },
+            "consume": {
+               "type": "",
+               "target": null,
+               "amount": null
+            },
+            "ability": "",
+            "actionType": "save",
+            "attackBonus": 0,
+            "chatFlavor": "",
+            "critical": null,
+            "damage": {
+               "parts": [],
+               "versatile": "",
+               "value": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "wis",
+               "dc": 0,
+               "scaling": "spell"
+            },
+            "level": 4,
+            "school": "trs",
+            "components": {
+               "value": "",
+               "vocal": true,
+               "somatic": true,
+               "material": true,
+               "ritual": false,
+               "concentration": true
+            },
+            "materials": {
+               "value": "A caterpillar cocoon",
+               "consumed": false,
+               "cost": 0,
+               "supply": 0
+            },
+            "preparation": {
+               "mode": "prepared",
+               "prepared": false
+            },
+            "scaling": {
+               "mode": "none",
+               "formula": ""
+            },
+            "attunement": null
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 100001,
+         "permission": {
+            "default": 0
+         },
+         "flags": {
+            "wc5e": {
+               "type": "spell",
+               "description": [
+                  {
+                     "value": "WC5E.Spells.Polymorph.Description.1.Value"
+                  },
+                  {
+                     "value": "WC5E.Spells.Polymorph.Description.2.Value"
+                  },
+                  {
+                     "value": "WC5E.Spells.Polymorph.Description.3.Value"
+                  },
+                  {
+                     "value": "WC5E.Spells.Polymorph.Description.4.Value"
+                  },
+                  {
+                     "value": "WC5E.Spells.Polymorph.Description.5.Value"
+                  }
+               ]
+            },
+            "core": {
+               "sourceId": "Compendium.warcraft5e.wc5e_spells.QylDS2rNkT5WGaaA"
+            }
+         }
+      },
+      {
+         "_id": "LQ51vVc0DYurYwPR",
+         "name": "Advanced Mask Magic",
+         "type": "feat",
+         "img": "icons/equipment/head/mask-wooden-feathered-blue.webp",
+         "data": {
+            "description": {
+               "value": "",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "Core Rules page 156",
+            "activation": {
+               "type": "",
+               "cost": 0,
+               "condition": ""
+            },
+            "duration": {
+               "value": null,
+               "units": ""
+            },
+            "target": {
+               "value": null,
+               "width": null,
+               "units": "",
+               "type": ""
+            },
+            "range": {
+               "value": null,
+               "long": null,
+               "units": ""
+            },
+            "uses": {
+               "value": null,
+               "max": "",
+               "per": null
+            },
+            "consume": {
+               "type": "",
+               "target": null,
+               "amount": null
+            },
+            "ability": null,
+            "actionType": null,
+            "attackBonus": 0,
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell"
+            },
+            "requirements": "Hunter (Shadow Hunter) 11",
+            "recharge": {
+               "value": null,
+               "charged": false
+            },
+            "attunement": null
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 50000,
+         "permission": {
+            "default": 0
+         },
+         "flags": {
+            "wc5e": {
+               "type": "feat",
+               "category": "WC5E.SkillCategories.General",
+               "description": [
+                  {
+                     "value": "WC5E.Feats.AdvancedMaskMagic.Description.1.Value"
+                  },
+                  {
+                     "options": [
+                        "WC5E.Feats.AdvancedMaskMagic.Description.2.Options.1",
+                        "WC5E.Feats.AdvancedMaskMagic.Description.2.Options.2",
+                        "WC5E.Feats.AdvancedMaskMagic.Description.2.Options.3"
+                     ]
+                  }
+               ]
+            },
+            "core": {
+               "sourceId": "Compendium.warcraft5e.wc5e_class_feats.tpkszaJV0DBY13gm"
+            }
+         }
+      }
+   ],
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+      "default": 0
+   },
+   "flags": {
+   }
+}

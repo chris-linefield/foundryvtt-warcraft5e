@@ -1,11 +1,14 @@
 {
-   "_id": "UQgZF2OONzIZAc4D",
-   "name": "Divine Shield",
-   "permission": {
-      "default": 0
-   },
+   "_id": "OgQwaqknTBcJnUjg",
+   "name": "Serpent Ward",
    "type": "spell",
+   "img": "icons/creatures/reptiles/lizard-mouth-glowing-red.webp",
    "data": {
+      "description": {
+         "value": "",
+         "chat": "",
+         "unidentified": ""
+      },
       "source": "",
       "activation": {
          "type": "action",
@@ -19,17 +22,17 @@
       "target": {
          "value": null,
          "width": null,
-         "units": "",
-         "type": "self"
+         "units": "any",
+         "type": "space"
       },
       "range": {
-         "value": null,
+         "value": 30,
          "long": null,
-         "units": "self"
+         "units": "ft"
       },
       "uses": {
-         "value": 0,
-         "max": "0",
+         "value": null,
+         "max": "",
          "per": ""
       },
       "consume": {
@@ -37,28 +40,33 @@
          "target": "",
          "amount": null
       },
-      "ability": "",
+      "ability": null,
       "actionType": "",
       "attackBonus": 0,
       "chatFlavor": "",
-      "critical": null,
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
       "damage": {
-         "parts": [
-         ],
+         "parts": [],
          "versatile": ""
       },
       "formula": "",
       "save": {
+         "ability": "",
+         "dc": null,
+         "scaling": "spell"
       },
       "level": 2,
-      "school": "enc",
+      "school": "evo",
       "components": {
          "value": "",
          "vocal": true,
          "somatic": true,
          "material": false,
          "ritual": false,
-         "concentration": true
+         "concentration": false
       },
       "materials": {
          "value": "",
@@ -75,29 +83,20 @@
          "formula": ""
       }
    },
-   "sort": 100001,
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+      "default": 0
+   },
    "flags": {
       "wc5e": {
          "type": "spell",
          "description": [
             {
-               "value": "WC5E.Spells.DivineShield.Description.1.Value"
-            },
-            {
-               "value": "WC5E.Spells.DivineShield.Description.2.Value"
-            },
-            {
-               "value": "WC5E.Spells.DivineShield.Description.3.Value"
-            }
-         ],
-         "heightened": [
-            {
-               "value": "WC5E.Spells.DivineShield.Heightened.1.Value"
+               "value": "WC5E.Spells.SerpentWard.Description.1.Value"
             }
          ]
       }
-   },
-   "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
-   "effects": [
-   ]
+   }
 }

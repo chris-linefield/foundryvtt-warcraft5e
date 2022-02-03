@@ -614,7 +614,8 @@
                         {
                            "pack": "warcraft5e.wc5e_spells",
                            "node": "Tnn2TvuQ3YICEm5S",
-                           "label": "WC5E.Spells.ConjureSpiritDireWolf.Label"
+                           "label": "WC5E.Spells.Conjure.Label",
+                           "option": "Spirit Dire Wolf"
                         },
                         {
                            "pack": "warcraft5e.wc5e_spells",
