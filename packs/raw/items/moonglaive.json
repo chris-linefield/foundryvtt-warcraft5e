@@ -1,0 +1,124 @@
+{
+   "name": "Moonglaive",
+   "type": "weapon",
+   "img": "modules/warcraft5e/res/pics/items/moonglaive.webp",
+   "data": {
+      "description": {
+         "value": "<p>This circular blade has three dagger-like blades jutting from its sides. Uncommonly seen but easy to train with, Moonglaives are favored by the night elves of Kalimdor.</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - P. 187",
+      "quantity": 1,
+      "weight": 3,
+      "price": 10,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "common",
+      "identified": true,
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": null,
+         "units": ""
+      },
+      "target": {
+         "value": null,
+         "width": null,
+         "units": "",
+         "type": ""
+      },
+      "range": {
+         "value": 5,
+         "long": null,
+         "units": "ft"
+      },
+      "uses": {
+         "value": null,
+         "max": "",
+         "per": ""
+      },
+      "consume": {
+         "type": "",
+         "target": "",
+         "amount": null
+      },
+      "ability": "",
+      "actionType": "mwak",
+      "attackBonus": "0",
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [
+            [
+               "1d6 + @mod",
+               "slashing"
+            ]
+         ],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "scaling": "spell"
+      },
+      "armor": {
+         "value": 10
+      },
+      "hp": {
+         "value": 0,
+         "max": 0,
+         "dt": null,
+         "conditions": ""
+      },
+      "weaponType": "martialM",
+      "baseItem": "shortsword",
+      "properties": {
+         "ada": false,
+         "amm": false,
+         "fin": true,
+         "fir": false,
+         "foc": false,
+         "hvy": false,
+         "lgt": false,
+         "lod": false,
+         "mgc": false,
+         "rch": false,
+         "rel": false,
+         "ret": false,
+         "sil": false,
+         "spc": false,
+         "thr": false,
+         "two": false,
+         "ver": false
+      },
+      "proficient": true
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+      "default": 0
+   },
+   "flags": {
+      "wc5e": {
+         "type": "item",
+         "unit": "WC5E.UI.Units.Gp",
+         "weightUnit": "WC5E.UI.Units.Lb",
+         "label": "WC5E.Items.Moonglaive.Label",
+         "description": [
+            {
+               "value": "WC5E.Items.Moonglaive.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "_id": "r46AyerKUTcpyZoZ"
+}

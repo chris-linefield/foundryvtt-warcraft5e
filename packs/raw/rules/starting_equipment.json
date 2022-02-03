@@ -1,0 +1,189 @@
+{
+   "_id": "AVxD9q0AdN5mmmZC",
+   "name": "Starting Equipment",
+   "permission": {
+      "default": 0
+   },
+   "type": "class",
+   "flags": {
+      "wc5e": {
+         "type": "rule",
+         "title": "WC5E.Rules.Mechanics.StartingEquipment.Label",
+         "content": [
+            {
+               "value": "WC5E.Rules.Mechanics.StartingEquipment.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Rules.Mechanics.StartingEquipment.Description.2.Value"
+            },
+            {
+               "title": "WC5E.Rules.Mechanics.StartingEquipment.StartingWealth"
+            },
+            {
+               "table": {
+                  "head": [
+                     {
+                        "title": "WC5E.UI.Class",
+                        "class": "left"
+                     },
+                     {
+                        "title": "WC5E.Rules.Mechanics.StartingEquipment.Funds",
+                        "class": "left"
+                     },
+                     {
+                     }
+                  ],
+                  "rows": [
+                     [
+                        {
+                           "text": "WC5E.Class.Alchemist.Name"
+                        },
+                        {
+                           "value": "5d4 x 10",
+                           "unit": "WC5E.UI.Units.Gp"
+                        },
+                        {
+                           "text": "WC5E.Rules.Mechanics.StartingEquipment.AlchemistBonus"
+                        }
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Class.DeathKnight.Name"
+                        },
+                        {
+                           "value": "5d4 x 10",
+                           "unit": "WC5E.UI.Units.Gp"
+                        },
+                        {
+                           "text": "WC5E.Rules.Mechanics.StartingEquipment.DeathKnightBonus"
+                        }
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Class.Druid.Name"
+                        },
+                        {
+                           "value": "2d4 x 10",
+                           "unit": "WC5E.UI.Units.Gp"
+                        },
+                        {}
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Class.Hunter.Name"
+                        },
+                        {
+                           "value": "5d4 x 10",
+                           "unit": "WC5E.UI.Units.Gp"
+                        },
+                        {}
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Class.Mage.Name"
+                        },
+                        {
+                           "value": "4d4 x 10",
+                           "unit": "WC5E.UI.Units.Gp"
+                        },
+                        {}
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Class.Monk.Name"
+                        },
+                        {
+                           "value": "5d4",
+                           "unit": "WC5E.UI.Units.Gp"
+                        },
+                        {}
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Class.Paladin.Name"
+                        },
+                        {
+                           "value": "5d4 x 10",
+                           "unit": "WC5E.UI.Units.Gp"
+                        },
+                        {}
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Class.Priest.Name"
+                        },
+                        {
+                           "value": "5d4 x 10",
+                           "unit": "WC5E.UI.Units.Gp"
+                        },
+                        {}
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Class.Rogue.Name"
+                        },
+                        {
+                           "value": "4d4 x 10",
+                           "unit": "WC5E.UI.Units.Gp"
+                        },
+                        {}
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Class.Shaman.Name"
+                        },
+                        {
+                           "value": "5d4 x 10",
+                           "unit": "WC5E.UI.Units.Gp"
+                        },
+                        {}
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Class.Tinker.Name"
+                        },
+                        {
+                           "value": "4d4 x 10",
+                           "unit": "WC5E.UI.Units.Gp"
+                        },
+                        {
+                           "text": "WC5E.Rules.Mechanics.StartingEquipment.TinkerBonus"
+                        }
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Class.Warlock.Name"
+                        },
+                        {
+                           "value": "4d4 x 10",
+                           "unit": "WC5E.UI.Units.Gp"
+                        },
+                        {}
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Class.Warrior.Name"
+                        },
+                        {
+                           "value": "5d4 x 10",
+                           "unit": "WC5E.UI.Units.Gp"
+                        },
+                        {}
+                     ]
+                  ]
+               }
+            }
+         ],
+         "prev": {
+            "pack": "wc5e_backgrounds",
+            "node": "OhC6Hywr4bR9eaZT",
+            "label": "WC5E.Backgrounds.Urchin.Label"
+         },
+         "next": {
+            "pack": "wc5e_rules",
+            "node": "8a9UvmZT9MkLygR5",
+            "label": "WC5E.Rules.Mechanics.Wealth.Label"
+         }
+      }
+   }
+}

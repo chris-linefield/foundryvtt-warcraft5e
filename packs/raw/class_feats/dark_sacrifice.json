@@ -1,0 +1,29 @@
+{
+   "_id": "nqEGQ1UorcNKi6Fm",
+   "name": "Dark Sacrifice",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 158",
+      "requirements": "Shaman (Witch Doctor) 6"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.DarkSacrifice.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.DarkSacrifice.Description.2.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/unholy/strike-body-life-soul-green.webp",
+   "effects": [
+   ]
+}

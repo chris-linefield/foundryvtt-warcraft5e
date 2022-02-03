@@ -1,0 +1,26 @@
+{
+   "_id": "cDXXsqHMdUGdUOxB",
+   "name": "Weird Juju",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 158",
+      "requirements": "Shaman (Witch Doctor) 1"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.WeirdJuju.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/consumables/potions/bottle-conical-fumes-green.webp",
+   "effects": [
+   ]
+}

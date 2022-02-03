@@ -1,0 +1,31 @@
+{
+   "_id": "o4PSTskgVfeS7tHm",
+   "name": "Mask Magic",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 155",
+      "requirements": "Hunter (Shadow Hunter) 3"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.MaskMagic.Description.1.Value"
+            },
+            {
+               "options": [
+                  "WC5E.Feats.MaskMagic.Description.2.Options.1",
+                  "WC5E.Feats.MaskMagic.Description.2.Options.2",
+                  "WC5E.Feats.MaskMagic.Description.2.Options.3"
+               ]
+            }
+         ]
+      }
+   },
+   "img": "icons/equipment/head/mask-wooden-feathered-blue.webp"
+}

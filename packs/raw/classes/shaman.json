@@ -614,7 +614,8 @@
                         {
                            "pack": "warcraft5e.wc5e_spells",
                            "node": "Tnn2TvuQ3YICEm5S",
-                           "label": "WC5E.Spells.ConjureSpiritDireWolf.Label"
+                           "label": "WC5E.Spells.Conjure.Label",
+                           "option": "Spirit Dire Wolf"
                         },
                         {
                            "pack": "warcraft5e.wc5e_spells",
@@ -803,6 +804,153 @@
                            "pack": "warcraft5e.wc5e_spells",
                            "node": "o5cuZMx3xL952iub",
                            "label": "WC5E.Spells.Tranquility.Label"
+                        }
+                     ]
+                  }
+               ]
+            }
+         ],
+         "special": [
+            {
+               "title": "WC5E.Class.Shaman.Paths.WitchDoctor.Title",
+               "description": [
+                  {
+                     "value": "WC5E.Class.Shaman.Paths.WitchDoctor.Description.1.Value"
+                  },
+                  {
+                     "value": "WC5E.Class.Shaman.Paths.WitchDoctor.Description.2.Value"
+                  },
+                  {
+                     "value": "WC5E.Class.Shaman.Paths.WitchDoctor.Description.3.Value"
+                  }
+               ],
+               "featList": [
+                  {
+                     "level": "1",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "cDXXsqHMdUGdUOxB",
+                           "label": "WC5E.Feats.WeirdJuju.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "2",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "P2FA7qis7wk5DJrE",
+                           "label": "WC5E.Feats.ChannelElementsVoodooWitchery.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "6",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "nqEGQ1UorcNKi6Fm",
+                           "label": "WC5E.Feats.DarkSacrifice.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "8",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "YUdGKICKTd3k7REl",
+                           "label": "WC5E.Feats.PersonalMojo.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "17",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "Kl1S5Furyxqjp2RN",
+                           "label": "WC5E.Feats.SpiritualIntervention.Label"
+                        }
+                     ]
+                  }
+               ],
+               "spellList": [
+                  {
+                     "level": "1",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "qiuwzwMwVgAkBqjX",
+                           "label": "WC5E.Spells.DeathPact.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "P7lhT9AHELk1HO5z",
+                           "label": "WC5E.Spells.DissonantWhispers.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "3",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "YKa1ZAK22A5NhcFn",
+                           "label": "WC5E.Spells.BerserkerRage.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "UQgZF2OONzIZAc4D",
+                           "label": "WC5E.Spells.DivineShield.Label",
+                           "option": "Big Voodoo"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "5",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "R9QJbKBZSVoIhrue",
+                           "label": "WC5E.Spells.BansheesCurse.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "uPBR91R2m5aOYwwh",
+                           "label": "WC5E.Spells.Fear.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "7",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "u76Ac0s0HNFE7SQB",
+                           "label": "WC5E.Spells.DrainLife.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "QylDS2rNkT5WGaaA",
+                           "label": "WC5E.Spells.Polymorph.Label",
+                           "option": "Ghost Wolf"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "9",
+                     "spells": [
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "dKPdZyEHaQyGKBYf",
+                           "label": "WC5E.Spells.BigBadVoodoo.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_spells",
+                           "node": "ohYkl2Otv7Ls3ufh",
+                           "label": "WC5E.Spells.Eyebite.Label"
                         }
                      ]
                   }

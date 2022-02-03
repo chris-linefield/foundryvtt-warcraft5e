@@ -1,0 +1,29 @@
+{
+   "_id": "cyFAyhrV669lufOO",
+   "name": "Loa Spellcasting",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 155",
+      "requirements": "Hunter (Shadow Hunter) 3"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.LoaSpellcasting.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.LoaSpellcasting.Description.2.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/control/voodoo-doll-pain-damage-pink.webp",
+   "effects": [
+   ]
+}

@@ -1,0 +1,29 @@
+{
+   "_id": "LIBxZd1LuMYxNlFd",
+   "name": "Thunderlord",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 152",
+      "requirements": "Warrior (Mountain King) 3"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.Thunderlord.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.Thunderlord.Description.2.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/lightning/fist-unarmed-strike-blue-green.webp",
+   "effects": [
+   ]
+}

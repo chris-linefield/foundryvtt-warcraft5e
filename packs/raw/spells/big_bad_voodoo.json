@@ -1,0 +1,117 @@
+{
+   "_id": "dKPdZyEHaQyGKBYf",
+   "name": "Big Bad Voodoo",
+   "type": "spell",
+   "img": "icons/creatures/magical/spirit-fear-energy-pink.webp",
+   "data": {
+      "description": {
+         "value": "",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "",
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": 1,
+         "units": "minute"
+      },
+      "target": {
+         "value": 30,
+         "width": null,
+         "units": "ft",
+         "type": "sphere"
+      },
+      "range": {
+         "value": null,
+         "long": null,
+         "units": "self"
+      },
+      "uses": {
+         "value": null,
+         "max": "",
+         "per": ""
+      },
+      "consume": {
+         "type": "",
+         "target": "",
+         "amount": null
+      },
+      "ability": "",
+      "actionType": "util",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "scaling": "spell"
+      },
+      "level": 6,
+      "school": "abj",
+      "components": {
+         "value": "",
+         "vocal": true,
+         "somatic": true,
+         "material": false,
+         "ritual": false,
+         "concentration": true
+      },
+      "materials": {
+         "value": "",
+         "consumed": false,
+         "cost": 0,
+         "supply": 0
+      },
+      "preparation": {
+         "mode": "prepared",
+         "prepared": false
+      },
+      "scaling": {
+         "mode": "none",
+         "formula": ""
+      }
+   },
+   "effects": [
+   ],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+      "default": 0
+   },
+   "flags": {
+      "wc5e": {
+         "type": "spell",
+         "description": [
+            {
+               "value": "WC5E.Spells.BigBadVoodoo.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Spells.BigBadVoodoo.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Spells.BigBadVoodoo.Description.3.Value"
+            },
+            {
+               "value": "WC5E.Spells.BigBadVoodoo.Description.4.Value"
+            }
+         ],
+         "heightened": [
+            {
+               "value": "WC5E.Spells.BigBadVoodoo.Heightened.1.Value"
+            }
+         ]
+      }
+   }
+}

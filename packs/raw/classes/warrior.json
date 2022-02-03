@@ -552,6 +552,153 @@
                   }
                ]
             }
+         ],
+         "special": [
+            {
+               "title": "WC5E.Class.Warrior.Archetypes.MountainKing.Title",
+               "description": [
+                  {
+                     "value": "WC5E.Class.Warrior.Archetypes.MountainKing.Description.1.Value"
+                  },
+                  {
+                     "value": "WC5E.Class.Warrior.Archetypes.MountainKing.Description.2.Value"
+                  },
+                  {
+                     "value": "WC5E.Class.Warrior.Archetypes.MountainKing.Description.3.Value"
+                  },
+                  {
+                     "value": "WC5E.Class.Warrior.Archetypes.MountainKing.Description.4.Value"
+                  }
+               ],
+               "featList": [
+                  {
+                     "level": "3",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "pZ0s66jTVdto9Z3b",
+                           "label": "WC5E.Feats.TitanicSpark.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "LIBxZd1LuMYxNlFd",
+                           "label": "WC5E.Feats.Thunderlord.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "7",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "mKhzHH4xGkv8sebk",
+                           "label": "WC5E.Feats.StanceOfTheMountain.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "10",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "3BOmqpPJW0VRAqXL",
+                           "label": "WC5E.Feats.BleedAndBash.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "15",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "rPa0FpBNArUqXvbC",
+                           "label": "WC5E.Feats.TitanicAvatar.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "18",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "tmAUFIkU7Xa0Sjfb",
+                           "label": "WC5E.Feats.LordOfTheMountain.Label"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "title": "WC5E.Class.Warrior.Archetypes.SpellBreaker.Title",
+               "description": [
+                  {
+                     "value": "WC5E.Class.Warrior.Archetypes.SpellBreaker.Description.1.Value"
+                  },
+                  {
+                     "value": "WC5E.Class.Warrior.Archetypes.SpellBreaker.Description.2.Value"
+                  },
+                  {
+                     "value": "WC5E.Class.Warrior.Archetypes.SpellBreaker.Description.3.Value"
+                  }
+               ],
+               "featList": [
+                  {
+                     "level": "3",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "GjtzXWVzLNLAqGAI",
+                           "label": "WC5E.Feats.SpellcastingSpellBreaker.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "t08w1G13EgcyZljT",
+                           "label": "WC5E.Feats.SpellResistance.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "7",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "sHuCuvbNTtWZyhIU",
+                           "label": "WC5E.Feats.AbjuringKnight.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "10",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "O5l1ncLROv4v8k4l",
+                           "label": "WC5E.Feats.Feedback.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "15",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "zm0bhehTGkTJKv8E",
+                           "label": "WC5E.Feats.StealMagic.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "18",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "uvRSGZzHiZiQ5L6Y",
+                           "label": "WC5E.Feats.GreaterSpellSteal.Label"
+                        }
+                     ]
+                  }
+               ]
+            }
          ]
       }
    }

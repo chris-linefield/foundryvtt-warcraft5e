@@ -1,0 +1,26 @@
+{
+   "_id": "Uuql2050ebB0a7JC",
+   "name": "Keen Nose",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 26",
+      "requirements": "Troll"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.KeenNose.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/creatures/mammals/dog-husky-white-blue.webp",
+   "effects": [
+   ]
+}

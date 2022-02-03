@@ -77,7 +77,7 @@
                                     {{#each item.flags.wc5e.equipment}}
                                         {{#each this}}
                                             {{#if this.pack}}
-                                                <a class="entity-link spellLink" data-pack="{{this.pack}}" data-id="{{this.node}}">
+                                                <a class="entity-link content-link spellLink" data-pack="{{this.pack}}" data-id="{{this.node}}">
                                                     {{this.amount}}x {{localize this.label}}
                                                     {{#if this.option}}
                                                         ({{this.option}})
@@ -106,7 +106,7 @@
                 <br>
                 <h3>{{localize "WC5E.UI.Features"}}</h3>
                 {{#each item.flags.wc5e.feats}}
-                    <a class="entity-link spellLink" data-pack="{{this.pack}}" data-id="{{this.node}}">
+                    <a class="entity-link content-link spellLink" data-pack="{{this.pack}}" data-id="{{this.node}}">
                         {{localize this.label}}
                     </a>
                 {{/each}}
@@ -190,33 +190,7 @@
                         </p>
                     {{/if~}}
                     {{#if this.table~}}
-                        <table>
-                            <tr>
-                                {{#each this.table.head}}
-                                    <th>{{this.title}}</th>
-                                {{/each}}
-                            </tr>
-                            {{#each this.table.rows}}
-                                <tr>
-                                    {{#each this}}
-                                        <td class="center">
-                                            {{#if this.value}}
-                                                {{this.value}}
-                                                {{#if this.unit}}
-                                                    {{localize this.unit}}
-                                                {{/if}}
-                                                {{#if this.sup}}
-                                                    <sup>{{this.sup}}</sup>
-                                                {{/if}}
-                                            {{/if}}
-                                            {{#if this.text}}
-                                                {{localize this.text}}
-                                            {{/if}}
-                                        </td>
-                                    {{/each}}
-                                </tr>
-                            {{/each}}
-                        </table>
+                        {{> "modules/warcraft5e/templates/item/parts/table.html"}}
                     {{/if}}
                 {{/each}}
                 {{#if this.changes~}}
@@ -229,7 +203,7 @@
                     <br>
                     <h4>{{localize "WC5E.UI.Features"}}</h4>
                     {{#each this.feats}}
-                        <a class="entity-link spellLink" data-pack="{{this.pack}}" data-id="{{this.node}}">
+                        <a class="entity-link content-link spellLink" data-pack="{{this.pack}}" data-id="{{this.node}}">
                             {{localize this.label}}
                         </a>
                     {{/each}}

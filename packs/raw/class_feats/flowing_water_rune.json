@@ -1,0 +1,26 @@
+{
+   "_id": "noWkLlkBoOMMlvFQ",
+   "name": "Flowing Water Rune",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 154",
+      "requirements": "Monk (Runeweaver) 6"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.FlowingWaterRune.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/symbols/rune-sigil-horned-blue.webp",
+   "effects": [
+   ]
+}

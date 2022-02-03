@@ -1147,6 +1147,7 @@
             }
          },
          "Urchin": {
+            "Label": "Urchin",
             "Description": {
                "1": "A child of the streets. Urchins can be found in the dirty streets begging for coin, pocketing what isn‘t theirs, and generally trying to grow up to be criminals or charlatans."
             },
@@ -1443,6 +1444,26 @@
                "Survival": {
                   "Title": "Survival",
                   "Description": "You are a rugged tracker who uses animal venom, explosives, and traps as deadly weapons. Survival hunters usually walk alone, but make excellent advanced scouts and explorers who can handle nearly any terrain."
+               },
+               "ShadowHunter": {
+                  "Title": "Shadow Hunter",
+                  "Description": {
+                     "1": {
+                        "Value": "Troll shadow hunters are the highest authority of the jungle trolls. Their spirit powers both bless and curse, and they walk the line of dark and light in hope of saving the future of their people."
+                     },
+                     "2": {
+                        "Value": "Their dark gods, the Loa, channel themselves through the shadow hunters when they use their ceremonial Rush'kah masks. In some circles, Shadow Hunter is a title bestowed equally among hunters of this specialization and witch doctors."
+                     },
+                     "3": {
+                        "Value": "Like other practitioners of voodoo, shadow hunters deal with the darker aspects of the spirit world. Unlike witch doctors (who excel in channeling voodoo magic and alchemy), Shadow Hunters claim a strong bond with the Loa, animal spirits thought to be divine in nature."
+                     },
+                     "4": {
+                        "Value": "Able to channel the essence of some of these extremely potent beings - and often acting with their blessing, conduit, and mortal champions - shadow hunters gain special abilities only the Loa can grant. As they grow in experience, the shadow hunters' bond with the Loa strengthens and their connection to these powerful voodoo spirits eventually gives them the ability to curse and heal at a whim. The strongest shadow hunters can create a pit of shadow filled with terrible beings that can tear their enemies apart."
+                     },
+                     "5": {
+                        "Value": "This archetype is restricted to worshipers of the Loa, which are overwhelmingly trolls. Shadow hunters typically utilize Warglaives for combat (see equipment)."
+                     }
+                  }
                }
             }
          },
@@ -1544,6 +1565,29 @@
                "Windwalker": {
                   "Title": "Windwalker",
                   "Description": "You are focused on hand-to-hand combat and evasion of the enemy‘s blows. Windwalkers are usually the most confrontational of the monk disciplines."
+               },
+               "Runeweaver": {
+                  "Title": "Runeweaver",
+                  "Description": {
+                     "1": {
+                        "Value": "Most monks are Pandaren, but others still have less structured beliefs, and channel runic power through tattoos or runes drawn upon their flesh. These runeweavers are rarely found, but have dwarven and tauren practitioners."
+                     },
+                     "2": {
+                        "Value": "The runeweaver is a mystic who sees the power and importance of ley lines. Moreover, those who study runes understand that these are not simply symbols of power — they are power. The runeweaver seeks to become one with the land, but not in the fashion of druids or shamans."
+                     },
+                     "3": {
+                        "Value": "Rather, the runeweaver desires to become a microcosm of the land, seeking to overlay his body with runes in the same fashion that the land itself is overlaid with patterns of ley lines and the echoes of the might of the great Titans."
+                     },
+                     "4": {
+                        "Value": "The tradition itself dates back to the times of the ancient titans, mastered by the dwarves who learned such arts from their creators. As the centuries rolled past, most dwarves lost their heritage and their knowledge of this art. Tauren claim ancient traditions when passing down runic attunements, bringing closer dwarf, tauren, and pandaren by sheer curiosity to learn the truth."
+                     },
+                     "5": {
+                        "Value": "Most runeweavers are heavily tattooed with runic patterns — not simply the unique ones that form the basis for rune families, but the so-called ―simple runes‖ as well. Simple runes mimic patterns of ley energy that appear, again and again, in the environment. These patterns occur in nature and are responsible for things such as the strength of a given type of stone, the ferocity of a given windstorm and the coolness of a given stream; when a runeweaver uses these patterns, he learns to channel his natural power into them at all times, attaining similar traits."
+                     },
+                     "6": {
+                        "Value": "Ki is commonly known as Runic Pulse with runeweavers, but functions the same way."
+                     }
+                  }
                }
             }
          },
@@ -1710,6 +1754,31 @@
                "Subtlety": {
                   "Title": "Subtlety",
                   "Description": "Your affinity with shadows reached beyond the mundane, tapping into shadowy arcane powers. Subtlety rogues are often spies who sell their secrets to the highest bidder."
+               },
+               "DemonHunter": {
+                  "Title": "Demon Hunter",
+                  "Description": {
+                     "1": {
+                        "Value": "Demon hunters are specialists in fighting demonic outsiders, and sacrifice both body and mind to gain alien and terrifying powers. Although most commonly found amongst the Night Elves (with the Night Elf Illidan Stormrage being the first known Demon Hunter) and the Illidari, the abilities can be learned by many who fight demons, such as secretive high elven organizations, human wizarding societies, or even draenei or orcish inquisitorial orders. Demon hunters typically utilize warglaives for combat (see equipment)."
+                     },
+                     "2": {
+                        "Value": "Warlocks who turn against the Burning Legion may exchange their class to demon hunter on a 1:1 ratio, such as death knights or warlocks do with their previous classes of paladin or mage and shaman (respectively). This still requires being blinded."
+                     },
+                     "3": {
+                        "Value": "Rogues wishing to become demon hunters usually take the leap, favored enemy (fiends), and dread ambusher talents."
+                     },
+                     "4": {
+                        "Title": "Prerequisites",
+                        "Value": "The demon hunter aspirant must be permanently blinded either by a spell, by a demon, or via use of a Mana Blade (see Equipment). The demon hunter must also have performed mana siphon against a demon."
+                     },
+                     "5": {
+                        "Title": "Corruption",
+                        "Value": "You may pledge your soul as well, turning yourself into a demonic creature (permanently gaining the below Demonic Nature ability, and counting as the demonic creature type)."
+                     },
+                     "6": {
+                        "Value": "Also, a draenei who takes on the mantle of demon hunter may alter their Gift of the Naaru ability, casting the mind blast spell instead, as the draenei takes on the psychic powers of the Eredar in exchange of the holy powers of the Naaru. This extremely uncommon sacrifice also takes its toll on the draenei‘s body, slowly morphing their appearance through extended exposure to fel magic to be more like the Eredar or a Broken Draenei."
+                     }
+                  }
                }
             }
          },
@@ -1760,6 +1829,23 @@
                "Restoration": {
                   "Title": "Restoration",
                   "Description": "You focus on magic that heals and divines the future - your totems, as a consequence, are stronger than that of other paths. Restoration shamans are often thought of as more spiritual than others, and are known as witch-shamans or spirit-walkers."
+               },
+               "WitchDoctor": {
+                  "Title": "Witch Doctor",
+                  "Description": {
+                     "1": {
+                        "Value": "A curious blend of alchemy and shamanistic spirit magic, witch doctors are most common among trolls, though few orcs take up the art, especially those who wish to broaden their skill set with the power of alchemy. Skilled at not only simply brewing potions and alchemical goods, but also at awakening the spirits of the ingredients that go into his goods, a witch doctor at work can be unsettling. Between crooning and chanting to the herbs and animal parts that go into their brew, shaking rattles to supposedly ‗wake up the spirits‘, to bursting into dance to appease them and make them favor him, a witch doctor inspires fear, respect, and confusion."
+                     },
+                     "2": {
+                        "Value": "The witch doctor's arcane magical art is formed from the ability to twist and turn nature through a crude yet effective science called juju."
+                     },
+                     "3": {
+                        "Value": "Witch doctors teach that worthy trolls receive dominion over various aspects of nature upon their death - whether plants, weather, beasts, or even disease. When witch doctors exhibit their supernatural powers to cure the sick, control nature, or assist in battle, it is said that ancestral spirits are riding them."
+                     },
+                     "4": {
+                        "Value": "Witch doctors usually name their totems ‗Wards‘, and use masks as their spellbooks, although their mask mojo is not as strong as shadow hunters, who are more martial in nature."
+                     }
+                  }
                }
             }
          },
@@ -1910,6 +1996,37 @@
                "Protection": {
                   "Title": "Protection",
                   "Description": "You are the forward vanguard, decking yourself with heavy armors and a reliable shield. Protection warriors deflect and guarding their allies from attacks, and return damage with interest."
+               },
+               "MountainKing": {
+                  "Title": "Mountain King",
+                  "Description": {
+                     "1": {
+                        "Value": "The mountain kings, or thanes as they are known in Khaz Modan, are the mightiest dwarven warriors under the mountain. Wielding both enchanted warhammers and hand axes, these fierce fighters live to test themselves against worthy opponents. Unconcerned with their race's preoccupation with mechanical devices and mining precious minerals, Mountain Kings live only for battle. Dedicated to safeguarding the Alliance which saved their kingdom during the Second War, the mountain Kings can be counted upon to rally behind any banner that stands between freedom and the ever looming shadow of evil."
+                     },
+                     "2": {
+                        "Value": "Mountain kings boast prodigious combat abilities. They are ferocious in melee combat, wielding the traditional weapons of their race to decimate their foes. Their attacks leave opponents stunned and reeling."
+                     },
+                     "3": {
+                        "Value": "While they do not focus their efforts on discovering the secrets of the titans, they have long known of a powerful spark within every Ironforge dwarf - and mountain kings draw upon this spark and fan it into a raging flame. They conjure magic hammers and axes to hurl at their targets, stunning and slowing them so they can get close enough to use their real weapons. They transform themselves into silver-sheened creatures of living stone, shrugging off all attacks and hacking through flesh and bone with frightening ease."
+                     },
+                     "4": {
+                        "Value": "This archetype is restricted to dwarves and creatures who are of titanic descent."
+                     }
+                  }
+               },
+               "SpellBreaker": {
+                  "Title": "Spell Breaker",
+                  "Description": {
+                     "1": {
+                        "Value": "Elven warriors trained to disrupt and contort magical energies, the Spell Breakers are a valuable 5addition to the Alliance, and work well in concert with the High Elven magically-focused military."
+                     },
+                     "2": {
+                        "Value": "Spell Breakers can cast a small amount of spells, and mostly prefer abjurations such as shield and 5dispel magic, and evocations such as arcane missile, and mana burn."
+                     },
+                     "3": {
+                        "Value": "This warrior martial archetype is restricted to elves, commonly High Elves and Blood Elves."
+                     }
+                  }
                }
             }
          }
@@ -1954,6 +2071,17 @@
                }
             }
          },
+         "AbjuringKnight": {
+            "Label": "Abjuring Knight",
+            "Description": {
+               "1": {
+                  "Value": "You may cast the dispel magic and counterspell spells with one less mana point, and always have it prepared. These do not count against the normal limit of spells prepared. Furthermore, if you target a creature with either spells, they suffer the distracted condition for 1 minute. They may attempt a Stamina saving throw against your spell DC to end the effect at the beginning of their turn every round."
+               },
+               "2": {
+                  "Value": "You may also throw a two-bladed sword, treating it as a thrown weapon with a range of 10/30 feet. This may deliver melee strikes at range, and the two-bladed sword returns after the attack roll is resolved, but allowing for only one melee strike every round."
+               }
+            }
+         },
          "Acclimation": {
             "Label": "Acclimation",
             "Description": {
@@ -1970,6 +2098,21 @@
                },
                "2": {
                   "Value": "You are always counted as if you are inured to your own potions. If you could already roll twice on miscibility, you can roll three times instead."
+               }
+            }
+         },
+         "AdvancedMaskMagic": {
+            "Label": "Advanced Mask Magic",
+            "Description": {
+               "1": {
+                  "Value": "You can add new masks to your repertoire."
+               },
+               "2": {
+                  "Options": {
+                     "1": "<i>Bwonsamdi Mask</i>: You treat the exorcism spell as a bonus spell that you prepared (hunter spell list). You may cast the spell normally or apply it as a strike effect. This benefit remains for one hour. This affects all undead except undead shadows.",
+                     "2": "<i>Ogoun and Dambala Masks</i>: You can cast the polymorph spell. If you are later able to prepare the spell, it instead costs 2 less mana points (minimum 1) while the mask is active (this cancels out the penalty from the Loa spellcasting feature above). This is usually used to turn yourself into a snake, or turn your enemy into a frog or likewise helpless critter.",
+                     "3": "<i>The Dark Mask</i>: You cast the big bad voodoo spell. This mask also costs 6 mana points to use."
+                  }
                }
             }
          },
@@ -1992,6 +2135,21 @@
                },
                "2": {
                   "Value": "Also, any healing totem costs 1 less mana point to cast (minimum 1)."
+               }
+            }
+         },
+         "AncientCulture": {
+            "Label": "Ancient Culture",
+            "Description": {
+               "1": {
+                  "Value": "You can gain one of the below abilities."
+               },
+               "2": {
+                  "Options": {
+                     "1": "<i>Berserker Warrior</i>: You can rage as if you had the berserker rage talent as a 1st level warrior. If you gain the talent, you increase the total times you can rage by 1. Your rage also increases the damage of ranged thrown attacks as if they were melee weapon attacks (so long as they use Strength).",
+                     "2": "<i>Blessed by Loa</i>: You know the vicious mockery cantrip. If you have the ability to cast spells, this consumes mana as normal. Otherwise, it has no cost to use.",
+                     "3": "<i>Naturally-Attuned</i>: You gain a favored terrain, as a 1st level hunter. If you ever become a hunter or gain a favored terrain, you may choose another while retaining this bonus."
+                  }
                }
             }
          },
@@ -2384,6 +2542,17 @@
                }
             }
          },
+         "BleedAndBash": {
+            "Label": "Bleed and Bash",
+            "Description": {
+               "1": {
+                  "Value": "You gain the Mutilate Strike and Stunning Slam talents, and can use either strike abilities when making an off-hand attack as part of the same action. You can also apply other strike effects as part of an off-hand attack, but you suffer a -2 penalty to your damage rolls."
+               },
+               "2": {
+                  "Value": "Lastly, you can make an attack of opportunity against any creature that critically hits you or successfully strikes an ally within 5 feet."
+               }
+            }
+         },
          "BlessedBeast": {
             "Label": "Blessed Beast",
             "Description": {
@@ -2512,6 +2681,14 @@
                },
                "2": {
                   "Value": "Your AC increases by one-half your Strength modifier, and you may add 3 points of damage to all your melee attacks that are modified by Strength so long as you are above half your carrying capacity. You must benefit from Unarmored Defense to make use of this ability."
+               }
+            }
+         },
+         "BurningSpiritRune": {
+            "Label": "Burning Spirit Rune",
+            "Description": {
+               "1": {
+                  "Value": "You can spend 1 Ki point to cast the inner fire spell."
                }
             }
          },
@@ -2799,6 +2976,17 @@
                }
             }
          },
+         "ChannelElementsVoodooWitchery": {
+            "Label": "Channel Elements: Voodoo Witchery",
+            "Description": {
+               "1": {
+                  "Value": "You can spend a Channel Elements use to reawaken fading magics. This can extend concentration spells for one more round, and reset the durations of a spell or potion whose duration ended or was dispelled, including sigils or totems, but not strikes or shots. If the duration ended normally, it regains half the duration it once had. This cannot affect instantaneous spells or spells with a duration more than 24 hours."
+               },
+               "2": {
+                  "Value": "This usually involves dancing and waving fetishes at the target."
+               }
+            }
+         },
          "ChannelElementsWrath": {
             "Label": "Channel Elements: Wrath",
             "Description": {
@@ -3038,6 +3226,50 @@
                }
             }
          },
+         "DarkMastery": {
+            "Label": "Dark Mastery",
+            "Description": {
+               "1": {
+                  "Value": "You can access the demonic doom, gate, and foresight warlock spells as if 6th level spells, and can cast them normally. If you can access higher-level spells, you can cast one of the aforementioned spells once every long rest for no cost instead."
+               },
+               "2": {
+                  "Value": "Also, you gain another Mystic Blast enhancement when in your avatar form."
+               }
+            }
+         },
+         "DarkMetamorphosis": {
+            "Label": "Dark Metamorphosis",
+            "Description": {
+               "1": {
+                  "Value": "Your suffusion with demonic power almost overwhelms your original potential. You can attack twice, instead of once, whenever you take the Attack action on your turn. Whenever you use a Bonus Action to attack with your offhand, you can make two attacks as well instead of only one."
+               },
+               "2": {
+                  "Value": "Furthermore, you gain the avatar form warlock spell for no cost if you didn‘t already have it, and always have it prepared for no cost. Furthermore, you augment the spell in the following ways:"
+               },
+               "3": {
+                  "Options": {
+                     "1": "You gain the benefits of the demon skin spell (spell level equal to the highest-level spell you can cast) for no cost.",
+                     "2": "Your Strength and Charisma scores increases by 2 points (up to a maximum of 18 each).",
+                     "3": "You gain wings, horns, and claws."
+                  }
+               },
+               "4": {
+                  "Options": {
+                     "1": "<i>Wings</i>: You can glide, and your jump distance is tripled (this can stack with the jump spell).<br>For every 10 feet of distance you fall, you can glide 30 feet in any direction. You can also instead take no fall damage so long as you can exercise your wings. If you are restrained or otherwise encumbered, you cannot make use of your wings.",
+                     "2": "<i>Horns and Claws</i>: You gain a horn and claw attack as an unarmed strike. These are light melee weapon attacks that deal 1d6 piercing and 1d4 slashing damage (respectively, plus your Strength or Agility as normal). These weapons are also magical (with +1 to attack and damage rolls)."
+                  }
+               },
+               "5": {
+                  "Value": "While your avatar form shape, you are treated as a fiend for all spell purposes (such as charm and dominate spells). This is considered a shapeshifting effect."
+               },
+               "6": {
+                  "Value": "You may choose one of the following features to remain in your normal form: wings, claws, or horns."
+               },
+               "7": {
+                  "Value": "The chosen feature remains indefinitely. You can retract claws (if you choose to keep them indefinitely), but you cannot hide your wings (besides wrapping them around you as a cloak) or horns. Upon 13th and 17th level, you can choose another feature to make permanent (in the end, having wings, claws, and horns)."
+               }
+            }
+         },
          "DarkPath": {
             "Label": "Dark Path",
             "Description": {
@@ -3067,6 +3299,17 @@
                },
                "8": {
                   "Value": "If the creature fails its saving throw, it is turned for 1 minute or until it takes damage. A turned creature must spend its turns trying to move as far away from you as it can, and it can‘t willingly move to a space within 30 feet of you. It also can‘t take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there‘s nowhere to move, the creature can use the Dodge action."
+               }
+            }
+         },
+         "DarkSacrifice": {
+            "Label": "Dark Sacrifice",
+            "Description": {
+               "1": {
+                  "Value": "You may end any conjure spell you have active with a bonus action, and ignite the residual magic. You may center an explosion with a radius of 10 feet at the point where your conjured creature was last present that deals 1d8 damage per spell level, halved on a successful Stamina saving throw. Half the damage is acid, and the other half is poison. You may use this ability on a target of a successful death pact spell."
+               },
+               "2": {
+                  "Value": "If you conjured multiple creatures, the explosion takes place at each of the spaces. The damage does not stack. If you used Voodoo Witchery on the same concentration spell, the saving throw is done with disadvantage."
                }
             }
          },
@@ -3155,6 +3398,17 @@
                },
                "3": {
                   "Value": "Alternatively, if you use this during a short rest or when you are below one-quarter your maximum mana point pool, you are treated as if you rested for two hours instead of one. This is atop the mana you regain for the normal rest."
+               }
+            }
+         },
+         "DemonicNature": {
+            "Label": "Demonic Nature",
+            "Description": {
+               "1": {
+                  "Value": "You don‘t require air, food, drink, or sleep. You are also immune to mundane and nonmagical poisons and diseases, and have advantage to effects that cause the exhausted and poisoned conditions."
+               },
+               "2": {
+                  "Value": "You can also speak Eredun and cannot be corrupted by it, as if the warlock feature of the same name."
                }
             }
          },
@@ -3252,6 +3506,14 @@
             "Description": {
                "1": {
                   "Value": "You can use your action to end one spell on yourself or on one willing creature that you touch. You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain expended uses when you finish a long rest."
+               }
+            }
+         },
+         "DispelRune": {
+            "Label": "Dispel Rune",
+            "Description": {
+               "1": {
+                  "Value": "You can spend 3 Ki points to cast the dispel magic spell. You can spend 1 additional point to make this a strike effect that target a struck target. If you target a trap spell (such as glyph of warding or the symbol spell), you have advantage to your check. You also have advantage to checks to notice such runes. If you have the See Runes attunement, making the spell a strike effect costs no additional Ki."
                }
             }
          },
@@ -3552,6 +3814,22 @@
                }
             }
          },
+         "EnergyDispersalRune": {
+            "Label": "Energy Dispersal Rune",
+            "Description": {
+               "1": {
+                  "Value": "You can spend 3 Ki points to cast the protection from energy spell on yourself."
+               }
+            }
+         },
+         "EnergyWeavingRune": {
+            "Label": "Energy Weaving Rune",
+            "Description": {
+               "1": {
+                  "Value": "You can spend 1 Ki point to cast the absorb elements spell."
+               }
+            }
+         },
          "Engineering": {
             "Label": "Engineering",
             "Description": {
@@ -3821,6 +4099,23 @@
                }
             }
          },
+         "Feedback": {
+            "Label": "Feedback",
+            "Description": {
+               "1": {
+                  "Value": "Whenever you dispel or counterspell a magical effect from a creature, you destroy 1 point of mana per spell level you used. Each mana point burned deals 2 arcane damage to the target."
+               },
+               "2": {
+                  "Value": "If you dispel an effect from an ally, you may manifest one of the following effects:"
+               },
+               "3": {
+                  "Options": {
+                     "1": "Direct the mana-burning effect to any hostile creature within 30 feet of you. This is negated on a successful a Spirit saving throw against your Spell save DC.",
+                     "2": "Gain a bonus to melee and thrown weapon damage rolls equal to the highest-spell level your dispelled or counterspelled. The bonus decreases by 1 point at the end of your turn every round until it reaches 0."
+                  }
+               }
+            }
+         },
          "FelMind": {
             "Label": "Fel Mind",
             "Description": {
@@ -3944,6 +4239,14 @@
                }
             }
          },
+         "FlowingWaterRune": {
+            "Label": "Flowing Water Rune",
+            "Description": {
+               "1": {
+                  "Value": "You can spend 3 Ki points to cast the haste spell."
+               }
+            }
+         },
          "Flurry": {
             "Label": "Flurry",
             "Description": {
@@ -4025,6 +4328,22 @@
             "Description": {
                "1": {
                   "Value": "When determining your maximum allowable CR to transform to, you divide your level by three, and not eight (round down), referring to the below table."
+               }
+            }
+         },
+         "GlyphRuneGreater": {
+            "Label": "Glyph Rune, Greater",
+            "Description": {
+               "1": {
+                  "Value": "You can spend 7 Ki points to cast the symbol spell. Once this rune is cast, you cannot cast it again until after a short rest, regardless if you have enough Ki."
+               }
+            }
+         },
+         "GlyphRuneLesser": {
+            "Label": "Glyph Rune, Lesser",
+            "Description": {
+               "1": {
+                  "Value": "You can spend 3 Ki points to cast the glyph of warding spell. If you choose a spell glyph, you can add any other rune you know to manifest upon triggering the glyph."
                }
             }
          },
@@ -4112,6 +4431,17 @@
                },
                "3": {
                   "Value": "Lastly, you also gain proficiency in Strength saving throws."
+               }
+            }
+         },
+         "GreaterSpellSteal": {
+            "Label": "Greater Spell Steal",
+            "Description": {
+               "1": {
+                  "Value": "You always have the spell steal spell prepared, and does not count against the number of spells prepared. The spell also costs 1 less mana point for you."
+               },
+               "2": {
+                  "Value": "Furthermore, your spell resistance ability is permanent."
                }
             }
          },
@@ -4350,6 +4680,14 @@
                }
             }
          },
+         "HostileHomeland": {
+            "Label": "Hostile Homeland",
+            "Description": {
+               "1": {
+                  "Value": "You gain resistance to cold damage."
+               }
+            }
+         },
          "HunterArchetype": {
             "Label": "Hunter Archetype",
             "Description": {
@@ -4560,6 +4898,14 @@
                }
             }
          },
+         "InnerBeastRune": {
+            "Label": "Inner Beast Rune",
+            "Description": {
+               "1": {
+                  "Value": "You can spend 2 Ki points to cast the enhance ability spell."
+               }
+            }
+         },
          "Innovation": {
             "Label": "Innovation",
             "Description": {
@@ -4603,6 +4949,17 @@
                "11": {
                   "Title": "At Higher Levels",
                   "Value": "As you increase in levels, creations of certain rarity require less time and effort. The time it takes for you to innovate or craft temporary versions of your creations is reduced to a Bonus Action or 3 turns at the following levels for each rarity."
+               }
+            }
+         },
+         "InscribedRune": {
+            "Label": "Inscribed Rune",
+            "Description": {
+               "1": {
+                  "Value": "Choose a rune that you can cast, that has a casting time of 1 action, and that can target you. You cast that spell, called the inscribed spell, as part of this action, expending the cost the rune, but the inscribed rune doesn't come into effect. Instead, it takes effect when a certain circumstance occurs. You describe that circumstance."
+               },
+               "2": {
+                  "Value": "For example, a contingency cast with the Mangroves Rune might stipulate that it comes into effect when you are subject to the paralyzed condition (or any or all of the conditions). You can have only one inscribed rune upon yourself. Also, the inscribed rune ends on you if its material component is ever not on your person. You can specify a command word (requires no action by yourself to activate)."
                }
             }
          },
@@ -4687,6 +5044,14 @@
             "Description": {
                "1": {
                   "Value": "You know Kalimag, the language of elementals and wind, earth, fire, and water spirits. You can speak the language and use it to leave hidden messages. You and others who know this language automatically spot such a message. If you can speak Kalimag, you can communicate with all other shamans and elementals, even if you don‘t otherwise share a language."
+               }
+            }
+         },
+         "KeenNose": {
+            "Label": "Keen Nose",
+            "Description": {
+               "1": {
+                  "Value": "You have advantage on all Spirit (Perception) tests related to smell."
                }
             }
          },
@@ -4778,6 +5143,30 @@
                }
             }
          },
+         "LeapingSparksRune": {
+            "Label": "Leaping Sparks Rune",
+            "Description": {
+               "1": {
+                  "Value": "You can spend 1 Ki point to cast the jump spell."
+               }
+            }
+         },
+         "LeyHealingRune": {
+            "Label": "Ley Healing Rune",
+            "Description": {
+               "1": {
+                  "Value": "You can spend 1 Ki point to cast the riptide spell."
+               }
+            }
+         },
+         "LeyLineLink": {
+            "Label": "Ley Line Link",
+            "Description": {
+               "1": {
+                  "Value": "You can spend 5 Ki points to cast the teleportation circle spell, and can also teleport back to any area you meditated for a ley attunement (treating it as a teleportation circle for the purposes of this ability). "
+               }
+            }
+         },
          "LichKingsFavor": {
             "Label": "Lich King's Favor",
             "Description": {
@@ -4847,6 +5236,35 @@
                }
             }
          },
+         "LoaSpellcasting": {
+            "Label": "Loa Spellcasting",
+            "Description": {
+               "1": {
+                  "Value": "Starting upon gaining this archetype, you access the shaman‘s spell list. You do not gain the increased spellcasting capabilities or access to higher spell levels, but you add all shaman spells of spell levels you can access to your hunter spell list (including totems, healing spells, and elemental spells). You may also add the darkness spell to your shared spell list. Your own sight is unaffected by your darkness spell."
+               },
+               "2": {
+                  "Value": "Your spellcasting otherwise follows the same rules as the shaman class, although your totems (or spellbooks) are your masks."
+               }
+            }
+         },
+         "LordOfTheMountain": {
+            "Label": "Lord of the Mountain",
+            "Description": {
+               "1": {
+                  "Value": "You can manifest your titanic heritage as a true avatar."
+               },
+               "2": {
+                  "Value": "You can use an action to cast the stoneskin spell (also benefitting from the enlarge spell as via Titanic Avatar) for no material cost. Also, your skin gains a silvery sheen, and you gain the following benefits while benefitting from the spell:"
+               },
+               "3": {
+                  "Options": {
+                     "1": "At the start of each of your turns, you regain 5 hit points (up until your Bloodied value).",
+                     "2": "You increase your weapons‘ reach by 5 feet.",
+                     "3": "You can make an attack of opportunity against any creature that successfully attacks an ally within 10 feet."
+                  }
+               }
+            }
+         },
          "MageTradition": {
             "Label": "Mage Tradition",
             "Description": {
@@ -4872,6 +5290,14 @@
                }
             }
          },
+         "MangrovesRune": {
+            "Label": "Mangroves Rune",
+            "Description": {
+               "1": {
+                  "Value": "You can spend 2 Ki points to cast the lesser restoration spell. If you are 17th level, you can spend 6 Ki points to cast the restoration spell"
+               }
+            }
+         },
          "MartialArts": {
             "Label": "Martial Arts",
             "Description": {
@@ -4890,6 +5316,24 @@
                },
                "4": {
                   "Value": "Certain monasteries use specialized forms of the monk weapons. For example, you might use a nunchaku (club that is two lengths of wood connected by a short chain) or a kama (sickle with a shorter, straighter blade), or even a large tankard of alcohol (club). Whatever name you use for a monk weapon, you can use the game statistics provided for the weapon."
+               }
+            }
+         },
+         "MaskMagic": {
+            "Label": "Mask Magic",
+            "Description": {
+               "1": {
+                  "Value": "You can wear various Rush'kah masks can provide blessings, channeling the power of chosen Loa. You can spend 6 hours creating a suite of these magic masks (up to all the ones you know), and they have nearly negligible weight. So long as you have such masks, you can wear them with a bonus action, applying a special benefit as described below. Once a mask is used, it cannot be used again until after a long rest."
+               },
+               "2": {
+                  "Options": {
+                     "1": "<i>Legba Mask</i>: You cast the haste spell.",
+                     "2": "<i>Lukou Mask</i>: You add your Spirit modifier to the final number of hit points healed by your hunter or shaman spells. This can be added to the final damage to undead cured by said spells. This mask grants the benefit for one hour.",
+                     "3": "<i>Shango Mask</i>: You add your Spirit modifier to the final number of damage points dealt by your hunter or shaman lightning spells. This mask grants the benefit for one hour."
+                  }
+               },
+               "3": {
+                  "Value": "If a mask is destroyed, it takes 1 hour per mask to create a new one from simple materials."
                }
             }
          },
@@ -5081,6 +5525,14 @@
                }
             }
          },
+         "OaksRune": {
+            "Label": "Oaks Rune",
+            "Description": {
+               "1": {
+                  "Value": "You can spend 2 Ki points to cast the barkskin spell."
+               }
+            }
+         },
          "OpportunePrayer": {
             "Label": "Opportune Prayer",
             "Description": {
@@ -5161,11 +5613,39 @@
                }
             }
          },
+         "PersonalMojo": {
+            "Label": "Personal Mojo",
+            "Description": {
+               "1": {
+                  "Value": "You gain proficiency in magically-infused potions beyond regular science. You gain the following abilities, which you can bestow upon any potion you make or handle for at least 1 minute."
+               },
+               "2": {
+                  "Options": {
+                     "1": "<i>Personalized Mojo</i>: You can personalize a potion for a specific creature by mixing a part of them (hair, nail clippings, a tear, etc.) into it. This potion functions only for the target, and is treated as if heightened one spell level (this can exceed your normal maximum spell level). If the potion has no benefit when targeting a creature (such as an area of effect spell or a potion that conjures a creature), or when heightened, the potion can instead be reused with a successful DC 15 Intelligence check with Alchemist‘s Supplies, so far as you use an action when adjacent to the potion (or target) within 1 minute of it being used. This can be attempted once.",
+                     "2": "<i>Rage Mojo</i>: You imbue your potion a spirit of rage and battle. When the potion is consumed, the target is also enraged, as the berserker rage spell, for the full duration (or until you command it to end as a bonus action or reaction). The target does not suffer a level of exhaustion if it succeeds on a Stamina saving throw against your Spell DC at the end of the rage.",
+                     "3": "<i>Spirit Mojo</i>: You augment the potion with a spirit of balance, allowing you to mix two potions to retain the benefits of both (as the Proper Sync miscibility result), so long as both potions have the same quality. This can be done once per short rest",
+                     "4": "<i>Shaka Mojo</i>: You augment the potion with a spirit of might. When you roll for damage or healing with the potion, it deals the maximum effect instead, so long as you use it. You may have only one shaka mojo potion active at any given time.",
+                     "5": "<i>Strange Mojo</i>: This potion houses a tiny, wild spirit. When this potion is consumed with other ones, roll twice for miscibility and choose your favored result. This stacks with other re-rolls of miscibility. You can only have one strange mojo potion active at any given time."
+                  }
+               }
+            }
+         },
          "PillarOfFrost": {
             "Label": "Pillar of Frost",
             "Description": {
                "1": {
                   "Value": "Supernatural ice hangs heavy on your body. This increases your strength score by 4 to a max of 24 and your Stamina by 2 to a max of 22."
+               }
+            }
+         },
+         "PitOfShadows": {
+            "Label": "Pit of Shadows",
+            "Description": {
+               "1": {
+                  "Value": "Whenever you cast the darkness spell, you can reduce its duration to Concentration (Partial), up to 1 minute. While enhanced this way, however, all spells you cast that deal shadow damage or that conjure shadows cost one less mana point (minimum 0), so long the spell does not target an area or a creature outside the darkness. If the darkness spell was heightened by your Voodoo Ritualist ability (making it more resilient against being defeated by light spells), then spells that deal shadow damage or conjure shadows are similarly heightened (as described under the spells‘ descriptions)."
+               },
+               "2": {
+                  "Value": "Once this feature is used, it cannot be used again until after a long rest. Alternatively, this ability can consume one of the uses of a mask you didn‘t use yet."
                }
             }
          },
@@ -5331,6 +5811,14 @@
                }
             }
          },
+         "QuietDemiseRune": {
+            "Label": "Quiet Demise Rune",
+            "Description": {
+               "1": {
+                  "Value": "You can spend 1 Ki point to gain the Sneak Attack feature as a 1st level Rogue for 1 minute. This requires concentration."
+               }
+            }
+         },
          "QuiveringPalm": {
             "Label": "Quivering Palm",
             "Description": {
@@ -5339,6 +5827,25 @@
                },
                "2": {
                   "Value": "You can have only one creature under the effect of this feature at a time. You can choose to end the vibrations harmlessly without using an action."
+               }
+            }
+         },
+         "RagingFlamesRune": {
+            "Label": "RagingFlamesRune",
+            "Description": {
+               "1": {
+                  "Value": "You can spend 1 Ki point to cast the longstrider spell."
+               }
+            }
+         },
+         "RapidRegeneration": {
+            "Label": "Rapid Regeneration",
+            "Description": {
+               "1": {
+                  "Value": "Whenever you rest or are subject to healing, you can roll twice and take the higher result of any roll to grant you hit points. If this dice has a special effect on a certain result (such as of the holy priest and paladins‘ Light‘s Insight ability), you may either choose to roll the healing twice or roll maximized dice, not both."
+               },
+               "2": {
+                  "Value": "You can also regrow a lost limb after a week of losing them, unless the limb was lost through your own will or through magic, so long as you have adequate rest and satiation."
                }
             }
          },
@@ -5468,6 +5975,45 @@
                }
             }
          },
+         "RunicAttunement": {
+            "Label": "Runic Attunement",
+            "Description": {
+               "1": {
+                  "Value": "When you choose this tradition at 3rd level, you learn magical disciplines that harness the power of the runic ley lines. An attunement requires you to spend ki points each time you use it. You know the Simple Runes discipline and one other runic attunement of your choice, which are detailed in the \"Runic Attunements‖ section below."
+               },
+               "2": {
+                  "Value": "You learn one additional runic attunement of your choice at 6th, 11th, and 17th level. Whenever you learn a new runic attunement, you can also replace one runic attunement that you already know with a different attunement. Some effects are strike effects, in which case they require a bonus action to manifest as well, and affect a target struck by you."
+               },
+               "3": {
+                  "Value": "<i>Ley Attunement</i>: You may also replace an existing runic attunement by meditating near a center of ley power, such as a mana fountain, place of elemental strength (a great volcano, on a mountain, or near the Maelstrom), or similar effect the DM specifies (such as where ancient Elven Runestones stand, or near the mechanisms of the Titans). In all cases, this can be changed at the end of a long rest. Each area of ley attunement grants its own Runic Attunement."
+               },
+               "4": {
+                  "Value": "You can also burn some of your life force to manifest a runic attunement instead of spending Ki."
+               },
+               "5": {
+                  "Value": "You can spend hit dice (as if healing), but you do not gain hit points. Instead, each hit dice of healing you expend acts as if you spend 1 Ki point for a runic attunement effect. This usually manifests as smoke rising from runes you draw on your body."
+               },
+               "6": {
+                  "Title": "Runic Attunements",
+                  "Value": "The runic attunements are presented in alphabetical order. If a discipline requires a level, you must be that level in this class to learn the attunement."
+               },
+               "7": {
+                  "Title": "Other Runic Attunements",
+                  "Value": "You may petition the DM to add further runic attunements, referring to the below table. After using a runic attunement that manifests 7th-level, you cannot use it again until after a short rest, regardless whether you have the Ki to cast it or not."
+               }
+            }
+         },
+         "RunicPattern": {
+            "Label": "Runic Pattern",
+            "Description": {
+               "1": {
+                  "Value": "You can cast the magic weapon spell, targeting yourself."
+               },
+               "2": {
+                  "Value": "You may also use the spell on your unarmed attacks. The bonus increases to +2 with 4 Ki, and +3 with 6 Ki (limited to the maximum number of Ki points you can spend)."
+               }
+            }
+         },
          "RunicStrike": {
             "Label": "Runic Strike",
             "Description": {
@@ -5487,6 +6033,14 @@
             "Description": {
                "1": {
                   "Value": "Since you come from the ranks of the common folk, you fit in among them with ease. You can find a place to hide, rest, or recuperate among other commoners, unless you have shown yourself to be a danger to them. They will shield you from the law or anyone else searching for you, though they will not risk their lives for you."
+               }
+            }
+         },
+         "SafefallRune": {
+            "Label": "Safefall Rune",
+            "Description": {
+               "1": {
+                  "Value": "You can spend 1 Ki point to cast the Feather Fall spell on yourself"
                }
             }
          },
@@ -5558,6 +6112,14 @@
                      "1": "<i>Exploding Seed</i>: You may deal the sigil (or channel) damage again in a 30-foot burst. This does not count as an additional hit against the original target.",
                      "2": "<i>Store Seed</i>: You may recapture the spell‘s effects, regaining the spell. If you choose to do so, you can cast the spell again for no cost against another target within 1 minute. This acts as if you cast the spell again, for the purposes of actions required (but not for resources spent like mana or components), and for the purposes of talents that trigger off spell use (such as your Haunt talent). You can store one seed this way."
                   }
+               }
+            }
+         },
+         "SeeRune": {
+            "Label": "See Rune",
+            "Description": {
+               "1": {
+                  "Value": "You can spend 1 Ki point to cast the detect magic spell."
                }
             }
          },
@@ -5643,6 +6205,14 @@
                }
             }
          },
+         "ShatteringRune": {
+            "Label": "Shattering Rune",
+            "Description": {
+               "1": {
+                  "Value": "You can spend 1 Ki point to cast shatter as a strike effect. You can also cast it normally."
+               }
+            }
+         },
          "ShelterOfTheFaithful": {
             "Label": "Shelter of the Faithful",
             "Description": {
@@ -5692,6 +6262,25 @@
                }
             }
          },
+         "SimpleRunes": {
+            "Label": "Simple Runes",
+            "Description": {
+               "1": {
+                  "Value": "Choose one of the following families of cantrips. You can cast these for no cost. You can change your suite of simple runes at the end of a short or long rest."
+               },
+               "2": {
+                  "Options": {
+                     "1": "<i>Arcane</i>: Mage hand, true strike",
+                     "2": "<i>Earth</i>: Mending, mold earth",
+                     "3": "<i>Frost</i>: frostbolt (strike only), frostbite (strike only)",
+                     "4": "<i>Fire</i>: Fire bolt (strike only), create bonfire",
+                     "5": "<i>Light</i>: Light, dancing lights (maximum range 10 ft.)",
+                     "6": "<i>Ward</i>: Blade ward, resistance (self only)",
+                     "7": "<i>Wind</i>: Gust, shocking grasp (strike only)"
+                  }
+               }
+            }
+         },
          "SneakAttack": {
             "Label": "Sneak Attack",
             "Description": {
@@ -5736,6 +6325,20 @@
                },
                "3": {
                   "Value": "You may alternatively expend hit points from your pool of healing to cure the target of one disease or neutralize one poison affecting it, with a number of hit points required equal to one-half the saving throw DC of the poison (round up). You can cure multiple diseases and neutralize multiple poisons with a single use of Soothing Mist, expending hit points separately for each one. This feature has no effect on constructs or undead."
+               }
+            }
+         },
+         "SorcerousThirst": {
+            "Label": "Sorcerous Thirst",
+            "Description": {
+               "1": {
+                  "Value": "Whenever you perform mana siphon versus demons to drain their mana, you gain double the normal mana, and they suffer disadvantage to saving throws against the effect."
+               },
+               "2": {
+                  "Value": "You also gain the Essence Touch talent, but can only affect demons with it. For instance, if you siphon a Felhound‘s mana, you can utilize their mana burn innate ability, or a succubus‘s sleep or modify memory spell if you siphon it instead."
+               },
+               "3": {
+                  "Value": "If you kill a target or reduce it to 0 hit points while it is affected by a warlock‘s mark ability (see Soul Shards under the Warlock class), you also regain 1d6 hit points. You cannot gain this more than 1/round. The warlock does not gain the soul shard in this case."
                }
             }
          },
@@ -5907,6 +6510,31 @@
                "9": {
                   "Title": "Spellcasting Focus",
                   "Value": "You can use an unholy symbol as a spellcasting focus for your death knight spells, or you can treat your runeblade as your focus."
+               }
+            }
+         },
+         "SpellcastingDemonHunter": {
+            "Label": "Spellcasting",
+            "Description": {
+               "1": {
+                  "Value": "Drawing on fel magics not unlike those practiced by warlocks, you can cast spells that are normally cast by warlocks. You cast all spells drawn from the warlock spell list."
+               },
+               "2": {
+                  "Title": "Cantrips",
+                  "Value": "You know a number of cantrips equal to your proficiency bonus."
+               },
+               "3": {
+                  "Title": "Preparing and Casting Spells",
+                  "Value": "Each demon hunter level provides you with 0.5 a caster level in the Warlock class (1 at 3rd level). You follow the normal progression to unlock spell levels (see the table under the Mana section)."
+               },
+               "4": {
+                  "Value": "You prepare the list of Warlock spells that are available for you to cast, choosing from the Warlock spell list."
+               },
+               "5": {
+                  "Value": "You can also change your list of prepared spells when you finish a long rest by consulting your spellbook. You otherwise follow the warlock‘s rules for spellbooks, conjuring, and binding, however, most demon hunters inscribe their spells to their skin as tattoos rather than in grimoires, using expensive inks and difficult techniques. Your spellcasting ability is Charisma."
+               },
+               "6": {
+                  "Value": "Also, after mana siphoning a fiend, your weapons are treated as magical for 8 hours, as the residual fel energies are being used by you against the demons' defenses. If you ever kill a demon of CR 10 or above, any weapon you used for the deed can be treated as magical after 1 minute of focusing your power on it. This effect is permanent, but only manifests when the weapon is used by you."
                }
             }
          },
@@ -6145,6 +6773,28 @@
                }
             }
          },
+         "SpellcastingSpellBreaker": {
+            "Label": "Spellcasting",
+            "Description": {
+               "1": {
+                  "Value": "You augment your martial prowess with the ability to cast spells."
+               },
+               "2": {
+                  "Title": "Cantrips",
+                  "Value": "You know a number of cantrips equal to your proficiency bonus."
+               },
+               "3": {
+                  "Title": "Preparing and Casting Spells",
+                  "Value": "Each spell breaker level provides you with 0.5 levels in the mage class (or level 1 at 3rd level). You follow the normal progression to unlock spell levels (see the table under the Mana section). You prepare spells from the mage spell list, but only spells from the Abjuration, Divination, Evocation, or Transmutation schools."
+               },
+               "4": {
+                  "Value": "When you reach 7th, 8th, 14, and 20 level in this class, you can alter one existing spell to be a spell from any other magic school."
+               },
+               "5": {
+                  "Value": "Your spellcasting otherwise follows the same rules as the mage class with regards to spellbooks, conjuring and binding, and other concerns. Your spellcasting ability is Intelligence."
+               }
+            }
+         },
          "SpellcastingWarlock": {
             "Label": "Spellcasting",
             "Description": {
@@ -6203,6 +6853,17 @@
                }
             }
          },
+         "SpellResistance": {
+            "Label": "Spell Resistance",
+            "Description": {
+               "1": {
+                  "Value": "When you choose this archetype at 3rd level, you can spend an action and 3 mana points to become exceptionally resistant to spells and spell-like abilities, gaining advantage versus all spells that allow for spell resistance. This lasts for 1 hour."
+               },
+               "2": {
+                  "Value": "If you succeed in saving against a spell with both saving throws (the one granted by advantage as well as your normal one, even without using the spell resistance feature), you may use a reaction to absorb residual mana, gaining mana points equal to the spell‘s level. This is a normal manarestorative effect."
+               }
+            }
+         },
          "SpiritBond": {
             "Label": "Spirit Bond",
             "Description": {
@@ -6211,6 +6872,17 @@
                },
                "2": {
                   "Value": "You may also empower the spirit link to your beast. Doing so takes 1 minute of physical contact with a magic weapon (such as placing a magic sword against its paw, tapping it with a magic staff, or resting a magic bow on it). Once the task is completed, the beast‘s weapon attacks are treated as magical as well for 1 hour. You may use weapons that belong to others, but not if they are attuned to others. If the weapon is attuned to you, it takes only 1 round of physical contact."
+               }
+            }
+         },
+         "SpiritualIntervention": {
+            "Label": "Spiritual Intervention",
+            "Description": {
+               "1": {
+                  "Value": "You can invoke the spirits of Loa to aid you. You may spend your action and bonus action in a ritualistic dance. At the start of your turn in the next round, you can change a prepared spell you have to any other spell on the shaman spell list of a level you can cast. Once this feature is used a number of times equal to your Spirit bonus, it cannot be used again until you complete a long rest."
+               },
+               "2": {
+                  "Value": "If you use of your elemental intervention ability, you can choose any other spell list instead of only the shaman spell list, but the spell you choose must be one spell level lower than the spell you altered. This costs the same mana cost as the original spell. This spell remains prepared for 8 hours or until cast, after which it fades and your original altered spell returns. This counts as a successful use of the elemental intervention ability, and does not require a roll to succeed."
                }
             }
          },
@@ -6225,6 +6897,28 @@
                },
                "3": {
                   "Value": "After using this feature, you must finish a short rest before you can use it again. The DM has the wolves‘ statistics, and applies the spirit template appropriately. The dire wolves‘ Challenge is always of a value equal to one-eighth your shaman level (allowing you to enhance them, as described in the Monster Guide)."
+               }
+            }
+         },
+         "StanceOfTheMountain": {
+            "Label": "Stance of the Mountain",
+            "Description": {
+               "1": {
+                  "Value": "You may enter a stance with a bonus action. So long as you are in this stance, you reduce the physical damage you take by 3 points, and gain 2 extra reactions. The stance ends if you choose to end it or if you move more than half your normal speed."
+               },
+               "2": {
+                  "Value": "When executing a melee attack of opportunity while under the effects of this stance, you push the target a number feet equal to your Strength score on a successful damage roll."
+               }
+            }
+         },
+         "StealMagic": {
+            "Label": "Steal Magic",
+            "Description": {
+               "1": {
+                  "Value": "You may transfer a dispelled or counterspelled magical effect to another eligible creature within 30 ft. This does not require an action. The new target is entitled a saving throw, or you must succeed on an attack roll to affect them (as if you cast the initial spell)."
+               },
+               "2": {
+                  "Value": "Also, you can target spells cast by your allies with the dispel magic spell. If you would have successfully dispelled the spell, you can instead change its target or extend its duration."
                }
             }
          },
@@ -6279,6 +6973,21 @@
             "Description": {
                "1": {
                   "Value": "You can interfere with the flow of ki in an opponent‘s body. When you hit another creature with a melee weapon attack, you can spend 1 ki point to attempt a stunning strike. The target must succeed on a Stamina saving throw or be stunned until the end of your next turn. Despite the name, this is not a strike effect."
+               }
+            }
+         },
+         "SuffusedSight": {
+            "Label": "Suffused Sight",
+            "Description": {
+               "1": {
+                  "Value": "You may choose to either gain Darkvision 60 feet (or increase the range of existing darkvision by 60 feet), or gain the spectral sight ability."
+               },
+               "2": {
+                  "Title": "Spectral Sight",
+                  "Value": "Your sight is both enhanced and hindered. Within 100 feet, you have blindsight. Beyond this range, your sight is hazy, colorless, and unclear, imposing disadvantage on Spirit (Perception) checks. You can perceive certain things clearly (as if normal sight) regardless of distance, such as the following: celestials, fiends, undead, and any creature with an active mana pool. If a creature is disguised, you may roll a Spirit (Perception) check upon sight, and a successful check yields to you that you sense strange powers nearby (though it does not readily point out who without another ability check)."
+               },
+               "3": {
+                  "Value": "At will, you may concentrate your sight as an action, and cast the detect magic spell. The range of the spell increases up to your blindsight range."
                }
             }
          },
@@ -6387,6 +7096,17 @@
                }
             }
          },
+         "Thunderlord": {
+            "Label": "Thunderlord",
+            "Description": {
+               "1": {
+                  "Value": "You gain the Thunder Clap talent (if you didn‘t already have it), and can use it a number of times equal to your proficiency bonus before requiring a rest, not once per rest, and exclude a number of targets from the spell‘s area of effect equal to your Strength modifier."
+               },
+               "2": {
+                  "Value": "Also, you gain the Dual Wielder feat if you didn‘t already have it. If you already have it, you add +1 to your weapon damage rolls with either weapon."
+               }
+            }
+         },
          "Timeless": {
             "Label": "Timeless",
             "Description": {
@@ -6411,6 +7131,31 @@
                },
                "2": {
                   "Value": "Your path choice grants you features at 3rd level and then again at 6th, 10th, and 14th levels."
+               }
+            }
+         },
+         "TitanicAvatar": {
+            "Label": "Titanic Avatar",
+            "Description": {
+               "1": {
+                  "Value": "Whenever you cast the spell stoneskin through your Titanic Spark spellcasting feature, the cost of the material component (regardless of the target) is 25 gp instead of 100. You also gain the benefits of the enlarge spell without requiring concentration, and so long as you are wielding a weapon in both hands, you gain a +1 bonus to your AC."
+               },
+               "2": {
+                  "Value": "Furthermore, you may spend three days studying the defenses of a fortification, castle, or any type of defensive structure. At the end of the three days, you may use your Stance of the Mountain without spending a bonus action, and you may move your full speed without disrupting the stance, and ignore natural difficult terrain in the area with your movement, so long as it is part of the fortification (such as ignoring a natural barricade or debris)."
+               }
+            }
+         },
+         "TitanicSpark": {
+            "Label": "Titanic Spark",
+            "Description": {
+               "1": {
+                  "Value": "You gain the ability to cast spells as a mage of an effective caster level equal to 0.5 your Mountain King level (minimum 0). You do require spellbooks, however, as the spells manifest in the form of inscriptions and engravings on your armor, weapons, or runes that you draw at the spell‘s range (treat as tattoos), but otherwise use the same rules as the mage (effectively treating runes as mage tattoos). You also do not need to concentrate on the stoneskin spell."
+               },
+               "2": {
+                  "Value": "You may cast spells from the abjuration, evocation, and transmutation schools, although you may only choose lightning or thunder-based spells when preparing evocation spells. Your spellcasting ability is Intelligence."
+               },
+               "3": {
+                  "Value": "You may treat the investiture of stone spell as a 5th level spell instead of a 6th level spell, and stoneskin as a 3rd level spell instead of a 4th level spell. You also add the hammer of wrath paladin spell to your spell list."
                }
             }
          },
@@ -6441,6 +7186,14 @@
                },
                "2": {
                   "Value": "The trap needs only to be set by you, and not necessarily built by you. You may also add one additional explosive to any trap you set without triggering it (such as adding two mines, or one mine and a wagon clamp)."
+               }
+            }
+         },
+         "TwistedArcanaRune": {
+            "Label": "Twisted Arcana Rune",
+            "Description": {
+               "1": {
+                  "Value": "You can spend 3 Ki points to cast counterspell."
                }
             }
          },
@@ -6560,6 +7313,14 @@
                }
             }
          },
+         "VoodooRitualist": {
+            "Label": "Voodoo Ritualist",
+            "Description": {
+               "1": {
+                  "Value": "You may triple the casting time of your hunter spells via a magical (and often noisy) mask-dance to heighten it by one spell level. This increase does not stack with itself, but can increase the spell level beyond your normal maximum (cannot exceed 9th level). You can use this ability to heighten the spell level of a spell cast through a mask (such as the Legba or Bwonsamdi masks). For instance, if the spell‘s casting time is 1 action, it costs 3 actions instead. If its casting time is 1 hour, it costs 3 hours, etc. This is applied to ritual spells normally."
+               }
+            }
+         },
          "Wanderer": {
             "Label": "Wanderer",
             "Description": {
@@ -6616,6 +7377,14 @@
                },
                "2": {
                   "Value": "Whenever you qualify for another talent (as detailed in the talent column), you can choose another talent or gain another use of an existing talent."
+               }
+            }
+         },
+         "WeirdJuju": {
+            "Label": "Weird Juju",
+            "Description": {
+               "1": {
+                  "Value": "You gain the Alchemy ability, and proficiency in both Alchemist‘s Supplies and the Poisoner‘s Kit. You can choose up to one alchemist spells to cast as a potion, and gain access to another alchemist spell whenever you level up. These spells can only be made into potions (as if you were an alchemist). You can scribe potion formulae into your totem, and do not require a formula book."
                }
             }
          },
@@ -6739,35 +7508,257 @@
          "AlchemistsSupplies": {
             "Label": "Alchemist‘s Supplies"
          },
+         "AttackClaws": {
+            "Label": "Attack Claws",
+            "Description": {
+               "1": {
+                  "Value": "These claws may be attached to a hand, and allow for a user to perform somatic components without occupying the hand (as if a spellcasting focus). They are usually favored by orcish shamans who enter melee after conjuring elementals or placing totems. This is based on the dagger."
+               }
+            }
+         },
+         "BayonetHeavy": {
+            "Label": "Bayonet (Heavy)",
+            "Description": {
+               "1": {
+                  "Value": "This longsword-like blade can be attached to a heavy firearm or crossbow, allowing it to make melee weapon attacks. This requires the proficiency of the weapon described. Some firearms are modified with different weapons. The weapon cannot be heavier than the firearm itself. Weapons attached to firearms or crossbows can be enchanted (as normal weapons)."
+               }
+            }
+         },
+         "BayonetMedium": {
+            "Label": "Bayonet (Medium)",
+            "Description": {
+               "1": {
+                  "Value": "This shortsword-like blade can be attached to a medium firearm or crossbow, allowing it to make melee weapon attacks. This requires the proficiency of the weapon described. Some firearms are modified with different weapons. The weapon cannot be heavier than the firearm itself. Weapons attached to firearms or crossbows can be enchanted (as normal weapons)."
+               }
+            }
+         },
+         "BayonetSmall": {
+            "DefaultLabel": "Bayonet",
+            "Label": "Bayonet (Small)",
+            "Description": {
+               "1": {
+                  "Value": "This dagger-like blade can be attached to a light firearm or crossbow, allowing it to make melee weapon attacks. This requires the proficiency of the weapon described. Some firearms are modified with different weapons. The weapon cannot be heavier than the firearm itself. Weapons attached to firearms or crossbows can be enchanted (as normal weapons)."
+               }
+            },
+            "Proficiency": "as original weapon"
+         },
+         "Battery": {
+            "Label": "Battery",
+            "Description": {
+               "1": {
+                  "Value": "5 fuel units for electrical engines, rechargeable"
+               }
+            }
+         },
+         "BatteryGreater": {
+            "Label": "Battery (Greater)",
+            "Description": {
+               "1": {
+                  "Value": "50 fuel units for electrical engines, rechargeable"
+               }
+            }
+         },
+         "Bullets": {
+            "Label": "Bullets (20)",
+            "Description": {
+               "1": {
+                  "Value": "Ammunition deals piercing damage"
+               },
+               "2": {
+                  "Value": "These pieces of ammunition are specially-prepared to include their own fuel. Such ammunition is resistant to water, but have a 10% chance to explode every round if exposed to direct flame. Bullets and pellets are both blacksmithing and engineering product for crafting purposes."
+               }
+            }
+         },
+         "BulletsPackaged": {
+            "Label": "Bullets (Packaged) (20)",
+            "Description": {
+               "1": {
+                  "Value": "Ammunition prepackaged with its fuel (gunpowder), water resistant"
+               },
+               "2": {
+                  "Value": "These pieces of ammunition are specially-prepared to include their own fuel. Such ammunition is resistant to water, but have a 10% chance to explode every round if exposed to direct flame. Bullets and pellets are both blacksmithing and engineering product for crafting purposes."
+               }
+            }
+         },
+         "CauldronCastIron": {
+            "Label": "Cauldron (Cast Iron)",
+            "Description": {
+               "1": {
+                  "Value": "A cast iron cauldron can be used in creating potion batches (see Chapter 7)"
+               }
+            }
+         },
+         "Coal": {
+            "Label": "Coal",
+            "Description": {
+               "1": {
+                  "Value": "1/4 a unit of fuel for steam engines"
+               }
+            }
+         },
+         "CoalShovel": {
+            "Label": "Coal (Shovel)",
+            "Description": {
+               "1": {
+                  "Value": "1 fuel unit for steam engines"
+               }
+            }
+         },
          "CommonClothes": {
             "Label": "Common Clothes"
          },
          "CostumeClothes": {
             "Label": "Costume Clothes"
          },
+         "Dagger": {
+            "Label": "Dagger"
+         },
          "DisguiseKit": {
             "Label": "Disguise Kit"
          },
          "EngineersTools": {
-            "Label": "Engineer‘s Tools"
+            "Label": "Engineer‘s Tools",
+            "Description": {
+               "1": {
+                  "Value": "Used for crafting technological devices such as explosives, gadgets, firearms, and constructs."
+               },
+               "2": {
+                  "Value": "This toolset includes various tools such as a collection of fuses, wrenches, nails, wires, and assorted common spare parts. Proficiency with these tools confers proficiency in firearms and explosives."
+               }
+            }
          },
          "FineClothes": {
             "Label": "Fine Clothes"
          },
+         "GarroteWire": {
+            "Label": "Garrote Wire",
+            "Description": {
+               "1": {
+                  "Value": "This weapon can be used to start a grapple with an attack roll instead of making a Strength (Athletics) check, but suffers disadvantage to the roll if the target is aware of the attacker. This is a simple weapon."
+               }
+            }
+         },
+         "GasOilPint": {
+            "Label": "Gas / Oil (Pint)",
+            "Description": {
+               "1": {
+                  "Value": "1 fuel unit for combustion engines, loud"
+               }
+            }
+         },
+         "Greatclub": {
+            "Label": "Greatclub"
+         },
+         "Greathammer": {
+            "Label": "Greathammer",
+            "Description": {
+               "1": {
+                  "Value": "This iconic paladin weapon is favored by the Order of the Holy Light. This is based on the maul."
+               }
+            }
+         },
+         "HealingPotion": {
+            "Label": "Healing Potion",
+            "Description": {
+               "1": {
+                  "Value": "By using this potion, character regains 1d8 + 4 hit points (if living), or takes 1d8 + 4 holy damage (if undead or fiend)."
+               }
+            }
+         },
          "HolySymbol": {
             "Label": "Holy Symbol"
+         },
+         "InfusionKit": {
+            "Label": "Infusion Kit",
+            "Description": {
+               "1": {
+                  "Value": "Used for infusing items with innate magic."
+               },
+               "2": {
+                  "Value": "These toolsets include an inscription plate, various brushes that can draw with magical ink, scales to measure infusion dusts, magnifying glasses of different sizes, and strips of vellum to help design and inscribe infusion matrices."
+               }
+            }
+         },
+         "Longsword": {
+            "Label": "Longsword"
          },
          "MarkedCards": {
             "Label": "Marked Cards"
          },
+         "Maul": {
+            "Label": "Maul"
+         },
+         "Moonglaive": {
+            "Label": "Moonglaive",
+            "Description": {
+               "1": {
+                  "Value": "This circular blade has three dagger-like blades jutting from its sides. Uncommonly seen but easy to train with, Moonglaives are favored by the night elves of Kalimdor."
+               }
+            }
+         },
          "MusicalInstrument": {
             "Label": "Musical Instrument"
+         },
+         "Pellets": {
+            "Label": "Pellets (20)",
+            "Description": {
+               "1": {
+                  "Value": "Ammunition deals bludgeoning damage"
+               },
+               "2": {
+                  "Value": "These pieces of ammunition are specially-prepared to include their own fuel. Such ammunition is resistant to water, but have a 10% chance to explode every round if exposed to direct flame. Bullets and pellets are both blacksmithing and engineering product for crafting purposes."
+               }
+            }
+         },
+         "PelletsPackaged": {
+            "Label": "Pellets (Packaged) (20)",
+            "Description": {
+               "1": {
+                  "Value": "Ammunition prepackaged with its fuel (gunpowder), water and fire-resistant"
+               },
+               "2": {
+                  "Value": "These pieces of ammunition are specially-prepared to include their own fuel. Such ammunition is resistant to water, but have a 10% chance to explode every round if exposed to direct flame. Bullets and pellets are both blacksmithing and engineering product for crafting purposes."
+               }
+            }
          },
          "PoisonersKit": {
             "Label": "Poisoner‘s Kit"
          },
+         "PotionOfEnlarge": {
+            "Label": "Potion of Enlarge"
+         },
          "Pouch": {
             "Label": "Pouch"
+         },
+         "PowderHorn": {
+            "Label": "Powder (Horn)",
+            "Description": {
+               "1": {
+                  "Value": "Has powder enough for 12 shots, water and fire-resistant"
+               },
+               "2": {
+                  "Value": "Carrying two pounds of gunpowder, this fire and water-resistant horn is required almost always for a tinker on the go. Gunpowder is both an alchemical and engineering product for crafting purposes."
+               }
+            }
+         },
+         "PowderKeg": {
+            "Label": "Powder (Keg)",
+            "Description": {
+               "1": {
+                  "Value": "Has powder enough for 120 shots"
+               },
+               "2": {
+                  "Value": "Containing twenty pounds of gunpowder, this keg is very flammable, but it is a sure sight for sore dwarven eyes. Gunpowder is both an alchemical and engineering product for crafting purposes."
+               }
+            }
+         },
+         "PowderPinch": {
+            "Label": "Powder (Pinch)",
+            "Description": {
+               "1": {
+                  "Value": "Can fuel one firearm shot"
+               }
+            }
          },
          "PrayerBook": {
             "Label": "Prayer Book"
@@ -6775,14 +7766,95 @@
          "PrayerWheel": {
             "Label": "Prayer Wheel"
          },
+         "Scimitar": {
+            "Label": "Scimitar"
+         },
+         "Shortsword": {
+            "Label": "Shortsword"
+         },
+         "SpikedChain": {
+            "Label": "Spiked Chain",
+            "Description": {
+               "1": {
+                  "Value": "A 10-foot chain marked with a large hook, this spiked chain is a dangerous and rare weapon to see in the battlefield."
+               },
+               "2": {
+                  "Value": "A hooked spiked chain can tether on a successful hit (see Chapter 9)."
+               }
+            }
+         },
          "StickOfIncense": {
             "Label": "Stick of Incense"
+         },
+         "SwordTwoBladed": {
+            "Label": "Sword, Two-Bladed",
+            "Description": {
+               "1": {
+                  "Value": "Typically used only by elven swordsmen of great agility, the two-bladed sword is almost iconic of the high elven military."
+               },
+               "2": {
+                  "Value": "This sword can be used to attack with both ends as if using two weapons, despite being a single melee weapon that is used in one hand. This otherwise acts as two-weapon fighting with all other respects."
+               },
+               "3": {
+                  "Value": "The weapon is also infused as if one weapon."
+               }
+            }
+         },
+         "Syringe": {
+            "Label": "Syringe",
+            "Description": {
+               "1": {
+                  "Value": "This needle is a specifically-designed weapon to inject injury poisons, plagues, and offensive potions into targets who are stabbed with it."
+               },
+               "2": {
+                  "Value": "After a successful attack roll, you may use a bonus action to inject the target with the contents of the syringe."
+               }
+            }
          },
          "ThievesTools": {
             "Label": "Thieves‘ Tools"
          },
+         "TotemTauren": {
+            "Label": "Totem, Tauren",
+            "Description": {
+               "1": {
+                  "Value": "Large, unwieldy, but very intricately-made, tauren totems are iconic of the tauren people."
+               },
+               "2": {
+                  "Value": "A tauren totem can be treated as a shaman‘s totem for the purposes of scribing spells."
+               }
+            }
+         },
          "Vestments": {
             "Label": "Vestments"
+         },
+         "VoodooDoll": {
+            "Label": "Voodoo Doll",
+            "Description": {
+               "1": {
+                  "Value": "<i>Wondrous item, rare (requires attunement by any spellcaster who can cast Speak with Dead)</i>"
+               },
+               "2": {
+                  "Value": "A voodoo doll seems innocent, but it is actually a house of a Hexer spirit. Hexer spirits bound to a voodoo doll are servitors to whoever is attuned to the doll, serving them in return for favors."
+               },
+               "3": {
+                  "Value": "A voodoo doll may be attuned with a target with one hour of contact with a remaining body part or piece (such as a finger, hair, or fingernail). So long as the target does not take the measures to end the bond (such as by replacing the finger or removing a hand, cutting all their hair, or clipping all their fingernails, as determined by the DM), the Hexer spirit is always aware of where the target is, as if under the effects of a locate creature spell."
+               },
+               "4": {
+                  "Value": "The Hexer spirit can be allowed to leave the voodoo doll to use its Carry Voodoo power, which allows the owner of the doll to cast a spell for the Hexer to carry, or harm the doll and order the hexer spirit to use its Withering Touch ability on the target (usually until they die, or the victim is at the point where the witch doctor wants them)."
+               },
+               "5": {
+                  "Value": "The DM has the Hexer Spirit‘s statistics (Monster Guide)."
+               }
+            }
+         },
+         "Warglaive": {
+            "Label": "Warglaive",
+            "Description": {
+               "1": {
+                  "Value": "This night elf weapon is a crescent-shaped blade about 4 feet long with a hilt in the center of the back edge. Demon hunters favor these weapons."
+               }
+            }
          },
          "WeightedDice": {
             "Label": "Weighted Dice"
@@ -6807,6 +7879,8 @@
          "Titan": "Titan",
          "Troll": "Troll"
       },
+      "MonsterFeats": {
+      },
       "RaceSheet": {
          "AbilityScoreIncrease": "Ability Score Increase",
          "Age": "Age",
@@ -6827,7 +7901,6 @@
          "Draenei": {
             "Name": "Draenei",
             "Description": "The draenei are a powerfully-build alien race that originates from Argus. They are powerfully magically-attuned, and have the potential for exceptional good or evil. Draenei who succumb to fel magic form the ranks of the Eredar, the greatest generals of the Burning Legion, while draenei who serve the Holy Light are immortal crusaders for justice across the cosmos.",
-            "AbilityScoreIncrease": "Your Spirit or Intelligence increases by 1.",
             "Age": "A typical draenei claims adulthood around 100 years old, and can live to about ten thousand years old.",
             "Affiliation": "Each sub-race is inclined to its own affiliations.",
             "Size": "Their size is Medium. Males range anywhere from seven feet tall to eight feet tall and weigh on average around 300 or 400 pounds. Females stand at six to seven feet tall and only weigh around 170 or 250 pounds when fully grown.",
@@ -7013,6 +8086,14 @@
                   },
                   "5": {
                      "Value": "You usually gain advantage or disadvantage through the use of special abilities, actions, or spells. Inspiration can also give a character advantage. The GM can also decide that circumstances influence a roll in one direction or the other and grant advantage or impose disadvantage as a result."
+                  }
+               }
+            },
+            "AdventuringGear": {
+               "Label": "Adventuring Gear",
+               "Description": {
+                  "1": {
+                     "Value": "Sometimes a special ability or spell tells you that you have advantage or disadvantage on an ability check, a saving throw, or an attack roll. When that happens, you roll a second d20 when you make the roll. Use the higher of the two rolls if you have advantage, and use the lower roll if you have disadvantage. For example, if you have disadvantage and roll a 17 and a 5, you use the 5. If you instead have advantage and roll those numbers, you use the 17."
                   }
                }
             },
@@ -7296,6 +8377,201 @@
                "Script": "Script",
                "Fiend": "Fiend",
                "Cursed": "Cursed"
+            },
+            "StartingEquipment": {
+               "Label": "Starting Equipment",
+               "Description": {
+                  "1": {
+                     "Value": "As described in the Player‘s Handbook, you can start with a number of gold pieces based on your class and spend them on items from the lists in the equipment chapter. See the Starting Wealth by Class table to determine how much gold you have to spend."
+                  },
+                  "2": {
+                     "Value": "You decide how your character came by this starting equipment. It might have been an inheritance, or goods that the character purchased during his or her upbringing."
+                  }
+               },
+               "StartingWealth": "Starting Wealth by Class",
+               "Funds": "Funds",
+               "AlchemistBonus": "(plus 250 gp worth in alchemical components)",
+               "DeathKnightBonus": "(plus Runeblade(s))",
+               "TinkerBonus": "(plus 250 gp worth in alchemical components)"
+            },
+            "Tools": {
+               "Label": "Tools",
+               "Description": {
+                  "1": {
+                     "Value": "The Warcraft universe has its share of special tools, kits, and items."
+                  }
+               }
+            },
+            "Wealth": {
+               "Label": "Wealth",
+               "Description": {
+                  "1": {
+                     "Value": "Material wealth in Azeroth was based on gold, silver, and copper coins. In many cases, however, barter takes place (such as in Booty Bay or other goblin strongholds), or is measured in other means (land, ownership of mines and other resource nodes, etc.)."
+                  },
+                  "2": {
+                     "Value": "Stormwind's coinage has traditionally been the copper penny, the silver groat, and the gold sovereign. For all purposes, however, coinage is nearly universal, with Stormwind-minted coin in equal circulation with coins minted in Ironforge, Orgrimmar, or Booty Bay. The Defias Brotherhood enjoys marring Stormwind minted coins creating \"cross-eyed coins‖ which is a sign of treason to the throne."
+                  },
+                  "3": {
+                     "Value": "Mined from the rich earth of Azeroth and Lordaeron, gold is commonly used as coins in exchange for goods and services. As a rare substance that is always in short supply, gold must be dug out from the rock and soil within established gold mines. Many of these mines were abandoned when the orc raids began (followed by the First and Second wars) and the workers fled for their very lives. Since the beginning of the Second War, many gold-mining sites are frequently operated while under the protection of military forces."
+                  },
+                  "4": {
+                     "Value": "Goblins call their currency macaroons, and they refer to money as moolah."
+                  },
+                  "5": {
+                     "Value": "Some other coins that are not minted any longer are worth more to some people. Gold coins from the fall of the Night Elf empire (Azshara-mint) often worth at least ten times the actual value of the same coin at the time of the empire‘s fall and drowning beneath the sea."
+                  },
+                  "6": {
+                     "Title": "Coinage",
+                     "Value": "The monetary system in the world of Warcraft operates on the scale described in the Player‘s Handbook. The only exception is that platinum pieces have yet to make an appearance in the world of Azeroth; though the value of platinum is recognized, it is rare enough that it is still used primarily as a decorative material rather than a type of coinage."
+                  },
+                  "7": {
+                     "Title": "Instances"
+                  },
+                  "8": {
+                     "Value": "offered by Patch to the first goblin making it to the deployment point in Nazmir."
+                  },
+                  "9": {
+                     "Value": "offered by Harlan Sweete to whoever brought him the head of Flynn Fairwind and an Alliance adventurer."
+                  },
+                  "10": {
+                     "Value": "wagered by Gazlowe on a single boat race."
+                  },
+                  "11": {
+                     "Value": "is made by Gazlowe per salvage haul for pirates."
+                  },
+                  "12": {
+                     "Value": "offered by Varok Saurfang per dead Alliance spy, though this was notably a bluff and no one was expected to, nor did anyone cash out."
+                  },
+                  "13": {
+                     "Value": "suggested by Helka Grimtotem as the worth of a gladiator champion like Valeera Sanguinar. Rehgar Earthfury agreed to sell Valeera to Helka for 2,000."
+                  },
+                  "14": {
+                     "Value": "offered by Varok Saurfang per captured Alliance spy, though this was notably a bluff and no one was expected to, nor did anyone cash out."
+                  },
+                  "15": {
+                     "Value": "the price of an immensely fast speed boat."
+                  },
+                  "16": {
+                     "Value": "the amount it costs the Alliance to train a foreman."
+                  },
+                  "17": {
+                     "Value": "the amount it costs the Alliance to train an engineer."
+                  },
+                  "18": {
+                     "Value": "the price offered to Valeera Sanguinar to purchase a fel dagger from an old woman in Menethil Harbor."
+                  },
+                  "19": {
+                     "Value": "given by an unnamed Stormwind Assassin's Guild member to Magatha Grimtotem in return for showing him a vision of his target, Lo'Gosh."
+                  },
+                  "20": {
+                     "Value": "bet by Renzik \"The Shiv\" on Nathanos Blightcaller winning a brawl against Varok Saurfang."
+                  },
+                  "21": {
+                     "Value": "the approximate amount it costs the Alliance to train a miner."
+                  },
+                  "22": {
+                     "Value": "lost by an unnamed Defias Brotherhood member in bets during a Crimson Ring tournament in Dire Maul."
+                  },
+                  "23": {
+                     "Value": "added onto an existing bet against Croc-Bait by an unknown audience member during the Crimson Ring tournament."
+                  },
+                  "24": {
+                     "Value": "the average cost of a salvage operation."
+                  },
+                  "25": {
+                     "Value": "19 pallets filled with jerky and codfish."
+                  },
+                  "26": {
+                     "Value": "During the invasion of Durotar, an unknown hunter in Daelin Proudmoore's army wanted to bet that amount that he could kill Vol'jin."
+                  },
+                  "27": {
+                     "Value": "bet by an unnamed troll on Giago during a Crimson Ring tournament."
+                  },
+                  "28": {
+                     "Value": "bet by an audience member on Two-Heads during a Crimson Ring tournament"
+                  },
+                  "29": {
+                     "Value": "the price for Scarlet Crusaders who want to receive absolution for the sin of punching someone in the groin."
+                  },
+                  "30": {
+                     "Value": "given by Horde adventurers to Boss Bazzelflange to allow her to get home to Brawl'gar Arena after being stranded in Area 52. After being given the gold, Bazzelflange could be seen running up to the flight master Krexcil, presumably to buy a ride using the money."
+                  },
+                  "31": {
+                     "Value": "the price for Scarlet Crusaders who want to receive absolution for the sin of punching someone in the chest."
+                  },
+                  "32": {
+                     "Title": "A mere handful of silver",
+                     "Value": "the price for Scarlet Crusaders who want to receive absolution for sins of \"harsh words\"."
+                  },
+                  "33": {
+                     "Value": "In Bilgewater Harbor, every vice one can imagine is available for that amount."
+                  },
+                  "34": {
+                     "Value": "offered by Sparkeye in a bet against Rehgar Earthfury's gladiator team."
+                  },
+                  "35": {
+                     "Value": "offered by Sparkeye in a \"small wager\" on a fight between his and Rehgar's gladiator teams. Rehgar doubled the bet to 80 silver."
+                  },
+                  "36": {
+                     "Value": "bet by an audience member on Croc-Bait during the Crimson Ring tournament."
+                  },
+                  "37": {
+                     "Value": "enough to purchase the ogre Throgg."
+                  },
+                  "38": {
+                     "Value": "bet by Spiketooth on Croc-Bait winning a fight against a crocolisk. As the fight progressed and Rokul refused to pay up, Spiketooth offered to raise the bet to 40, followed by Rehgar doubling it to 80."
+                  },
+                  "39": {
+                     "Value": "offered by an unnamed orc in a bet that Croc-Bait wouldn't last another two minutes during the Crimson Ring tournament."
+                  },
+                  "40": {
+                     "Value": "Yrel owes that amount to Maami."
+                  },
+                  "41": {
+                     "Value": "a few vegetables."
+                  },
+                  "42": {
+                     "Value": "asked of Lo'Gosh and his companions by an old woman in Menethil Harbor in exchange for telling them their fortune."
+                  },
+                  "43": {
+                     "Title": "Selling Treasure",
+                     "Value": "Opportunities abound to find treasure, equipment, weapons, armor, and more in the dungeons you explore. Normally, you can sell your treasures and trinkets when you return to a town or other settlement, provided that you can find buyers and merchants interested in your loot."
+                  },
+                  "44": {
+                     "Title": "Arms, Armor and Other Equipment",
+                     "Value": "As a general rule, undamaged weapons, armor, and other equipment fetch half their cost when sold in a market. Weapons and armor used by monsters are rarely in good enough condition to sell. Those in pristine condition (newly made) can sell for their normal value."
+                  },
+                  "45": {
+                     "Title": "Magic Items",
+                     "Value": "Selling magic items is usually problematic. Finding someone to buy a potion or a scroll isn‘t too hard, but other items are out of the realm of most but the wealthiest nobles. Major cities and faction capitals often have one or more shops (or institutions) that hire and retain professional infusionists. Such infusionists are often tied to their trade, training institutions, or faction, and require a certain degree of respect or clout to trade with strangers. People who are friendly with such organizations (or the mother faction) can expect fair trade (in the instance of Stormwind, humans who are considered heroes are fairly traded with, while wandering Pandaren might not be trusted with valuable items)."
+                  },
+                  "46": {
+                     "Title": "Gems, Jewelry and Art Objects",
+                     "Value": "These items retain their full value in the marketplace, and you can either trade them in for coin or use them as currency for other transactions. For exceptionally valuable treasures, the DM might require you to find a buyer in a large town or larger community first."
+                  },
+                  "47": {
+                     "Title": "Trade Goods",
+                     "Value": "On the borderlands, many people conduct transactions through barter. Like gems and art objects, trade goods (bars of iron, bags of salt, livestock, and so on, ...) retain their full value in the market and can be used as currency."
+                  },
+                  "48": {
+                     "Value": "In many instances, going to larger towns (or those with greater commercial and economic activity) increases the chance of both selling treasure at fair prices as well as finding rarer items. See the Codex Mandatum document for more details on settlement economic activity."
+                  }
+               },
+               "Currency": "Currency"
+            },
+            "WeaponsAndArmor": {
+               "Label": "Weapons and Armor",
+               "Description": {
+                  "1": {
+                     "Value": "The Warcraft universe has several special varieties for existing weapons, as described below."
+                  },
+                  "2": {
+                     "Value": "Clothes can be infused as if armors (with armor-specific infusions). They do not count as armor for the purposes of class features that require you to be armored or unarmored (such as the Defense Fighting Style or Unarmored Defense feature) unless they alter your AC."
+                  },
+                  "3": {
+                     "Value": "Some weapons are described as if based off another weapon (for example, the greathammer and the maul). If proficient with the original weapon (the maul), one week of training confers proficiency to the second (greathammer). Firearms require one week of training to be counted as martial weapons, and proficiency with Engineer‘s Tools automatically confers proficiency."
+                  }
+               }
             }
          }
       },
@@ -7509,6 +8785,25 @@
                }
             }
          },
+         "BansheesCurse": {
+            "Label": "Banshee's Curse",
+            "Description": {
+               "1": {
+                  "Value": "You suffuse the regretful curse of the banshee on a target within range. Make a ranged spell attack against the target. On a hit, the target takes 3d4 damage. The damage is half shadow, and half thunder. At the beginning of every round, the caster must succeed on a sigil roll to affect the target again."
+               },
+               "2": {
+                  "Value": "Also, so long as the spell is active, the target must roll a d6 whenever they declare an action. On a result of a 2 or lower, the action fails. On a result of 3 or higher, the action takes place as normal. This effect cannot trigger more than once per round."
+               },
+               "3": {
+                  "Value": "If the ranged spell attack misses, the spell deals half the initial damage and has no other effect. "
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "The damage increases by one dice per every spell level above 3rd."
+               }
+            }
+         },
          "Barkskin": {
             "Label": "Barkskin",
             "Description": {
@@ -7573,6 +8868,28 @@
             "Heightened": {
                "1": {
                   "Value": "If you cast this spell using a spell slot of 4th level or higher, the duration is concentration, up to 10 minutes. If you use a spell slot of 5th level or higher, the duration is 8 hours. If you use a spell slot of 7th level or higher, the duration is 24 hours. If you use a 9th level spell slot, the spell lasts until it is dispelled. Using a spell slot of 5th level or higher grants a duration that doesn't require concentration."
+               }
+            }
+         },
+         "BigBadVoodoo": {
+            "Label": "Big Bad Voodoo",
+            "Description": {
+               "1": {
+                  "Value": "You raise your hand, and are summon the strength of powerful Loa spirits. Choose up to six creatures in a 30-foot-radius sphere centered on you, granting them 6d8 temporary hit points so long as the spell is active. Furthermore, the temporary hit points can also be spent to absorb spells (3 hit points per spell level)."
+               },
+               "2": {
+                  "Value": "If the shield manages to absorb all damage from an effect or absorb a spell, the warded creatures are protected against any secondary effects (as if immune). This can be determined after a saving throw."
+               },
+               "3": {
+                  "Value": "The spell cannot be overwhelmed with one attack. If reduced to 0 temporary hit points with one attack, the spell ends with 1 hit point instead. This can occur only once for every instance of the spell being cast."
+               },
+               "4": {
+                  "Value": "You cannot include yourself in this spell‘s targets. You can channel this effect instead of merely concentrating, during which the shields regain 5 hit points per round of channeling. If you cannot maintain line of sight to a shielded ally, the effect fades from them (but returns should they return to your line of sight). A creature affected by this spell cannot benefit from it again for 24 hours."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "For every spell level above 6th, the number of temporary hit points increases by 2d8."
                }
             }
          },
@@ -7824,65 +9141,62 @@
                }
             }
          },
-         "ConjurePlants": {
-            "Label": "Conjure Plants",
+         "Conjure": {
+            "Label": "Conjure",
             "Description": {
                "1": {
-                  "Value": "You summon fey spirits that take the form of plant creatures and appear in unoccupied spaces that you can see within range. Choose one of the following options for what appears:"
+                  "Value": "When preparing this spell, you must choose a specific creature type tied to your spellcasting list (see Conjuring and Binding under your class‘s spellcasting entry). You can conjure a creature of that type when casting this spell. Choose one of the following options when preparing this spell:"
                },
                "2": {
                   "Options": {
-                     "1": "One plant of challenge rating 2 or lower",
-                     "2": "Two plants of challenge rating 1 or lower",
-                     "3": "Four plants of challenge rating 1/2 or lower",
-                     "4": "Eight plants of challenge rating 1/4 or lower"
+                     "1": "One creature of Challenge 1/2 (or one half the spell's level)",
+                     "2": "Two creatures of Challenge 1/4 (or one quarter the spell's level)",
+                     "3": "Four creatures of Challenge 1/8 (or the spell's level divided by 8)"
                   }
                },
                "3": {
-                  "Value": "Each plant is also considered fey, and it disappears when it drops to 0 hit points or when the spell ends."
+                  "Value": "The conjured creature is not an actual creature, but is more a spell construct animated by the creature's personality (formed of magic, ectoplasm, or temporarily bonded to the realm). Killing it does not reward XP or hurt it in any real way. If you wish to conjure a permanent and 'real' ally, see the bind spell. If choosing a focus material for a construct, it must not bound to anything (such as nailed to a wall), not be harder than iron, nor be sophisticated in design (cannot be a gadget or vehicle)."
                },
                "4": {
-                  "Value": "The summoned creatures are friendly to you and your companions. Roll initiative for the summoned creatures as a group, which has its own turns. They obey any verbal commands that you issue to them (no action required by you). If you don't issue any commands to them, they defend themselves from hostile creatures, but otherwise take no actions."
+                  "Title": "Specialized Preparation",
+                  "Value": "If you prepare the spell to conjure a specific creature (such as conjure imp instead of conjure fiends), you may double the maximum CR you can conjure. For instance, a 1st level mage preparing his spells may choose to either prepare conjure elemental or conjure minor water elemental. If the former, he can conjure any elemental of CR 1/2 or lower. If the latter, he can conjure a Minor Water Elemental (CR 1)."
                },
                "5": {
-                  "Value": "The GM has the creatures' statistics."
-               }
-            },
-            "Heightened": {
-               "1": {
-                  "Value": "When you cast this spell using certain higher-level spell slots, you choose one of the summoning options above, and more creatures appear: twice as many with a 5th-level slot, three times as many with a 7th-level slot, and four times as many with a 9th-level slot."
-               }
-            }
-         },
-         "ConjureSpiritDireWolf": {
-            "Label": "Conjure Spirit Dire Wolf",
-            "Description": {
-               "1": {
-                  "Value": "You summon fey spirits that take the form of dire wolfes and appear in unoccupied spaces that you can see within range."
+                  "Value": "After casting the prepared spell, the creature manifests in an unoccupied space you can see within range, and is friendly to you and your companions for the duration. Roll initiative for the creature, which has its own turns. The creature can telepathically understand any command, and will execute them (no action required by you), so long as it doesn't violate its alignment or nature."
                },
-               "2": {
-                  "Value": "The summoned creatures are friendly to you and your companions. Roll initiative for the summoned creatures as a group, which has its own turns. They obey any verbal commands that you issue to them (no action required by you). If you don’t issue any commands to them, they defend themselves from hostile creatures, but otherwise take no actions."
-               }
-            },
-            "Heightened": {
-               "1": {
-                  "Value": "When you cast this spell using certain higher-level spell slots, you choose one of the summoning options above, and more creatures appear: twice as many with a 5th-level slot, three times as many with a 7th-level."
-               }
-            }
-         },
-         "ConjureUndead": {
-            "Label": "Animate Undead",
-            "Description": {
-               "1": {
-                  "Value": "You call forth an undead spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the Undead Spirit stat block. When you cast the spell, choose the creature’s form: Ghostly, Putrid, or Skeletal. The spirit resembles an undead creature with the chosen form, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends."
+               "6": {
+                  "Value": "If you don‘t issue any commands to the creature, it defends itself from hostile creatures but otherwise takes no actions. The telepathy only functions if you maintain line of sight to the creature or if you remain within 100 feet."
                },
-               "2": {
-                  "Value": "The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don’t issue any, it takes the Dodge action and uses its move to avoid danger."
+               "7": {
+                  "Value": "A conjured creature is dimensionally unstable, and cannot conjure or summon others (including via abilities such as the Shadow‘s ability to spawn new shadows) even if they have spells that normally allow them to. Despite them obeying their conjurer‘s commands, they take their own actions and are controlled by the DM when not given specific instructions (such as which spells or ability to use, etc.)."
+               },
+               "8": {
+                  "Value": "Once the duration of the spell ends, if creature is reduced to 0 hit points, or if the creature is forcefully dismissed (see below), the magic dissipates, ending all the spell‘s effects. If the focus was an object (such as a couch targeted with animate constructs), it resumes the object‘s original purpose."
+               },
+               "9": {
+                  "Value": "If you cease concentrating on this spell or if your concentration breaks before the duration ends, the creature (or creatures) becomes independent in its actions, and is controlled by the DM. Typically this means that undead and elementals rampage and attack without discrimination; constructs and plants act like the objects of their focus; fey and animals defend themselves and seek refuge; and celestials and fiends promote their far-reaching aims. You may attempt to forcefully dismiss the conjured creature."
+               },
+               "10": {
+                  "Value": "If you attempt to cast this spell again while an wild conjured creature has not yet been dismissed, the conjured creature must attempt a Charisma saving throw against your spell save DC (as if you spent an action to dismiss an unwilling summoned creature)."
+               },
+               "11": {
+                  "Title": "Forceful Dismissal",
+                  "Value": "You may use an Action to dismiss a conjured creature. The creature may choose to resist being dismissed (such as if it enjoys combat or is acting according to its nature), in which case they must attempt a Charisma saving throw against your spell save DC. If it fails the saving throw, it is forcefully dismissed and sent away to its original realm."
+               },
+               "12": {
+                  "Value": "If it succeeds, it is no longer friendly to you nor your companions, and no longer is compelled to obey your orders (although it retains the telepathic link, unless it is bound by another spellcaster). If you fail to dismiss a creature, you can only attempt it again by casting the conjure spell again to specifically dismiss the creature."
+               },
+               "13": {
+                  "Value": "A conjure spell remains until the duration of the spell ends or until the creature is defeated or forcefully dismissed. If the spell ends this way, the creature(s) all disappear at once."
+               },
+               "14": {
+                  "Title": "Material Component",
+                  "Value": "The spell requires a material component or focus that is related to the conjured creature. A celestial may require a page from a holy book, a fire elemental may require burning incense, and a focus for the magic is required with undead, constructs, and plants of similar size  (corpses or disembodied limbs, tables or chairs, and trees or bushes, respectively). The DM describes the required material component for spells that conjure specific creatures."
                }
             },
             "Heightened": {
                "1": {
-                  "Value": "When you cast this spell using a spell slot of 4th level or higher, use the higher level wherever the spell’s level appears in the stat block."
+                  "Value": "The maximum Challenge of conjured creatures increase, equal to one-half the spell‘s level. This either allows you to conjure stronger creatures of the same type, or more creatures of the same CR."
                }
             }
          },
@@ -8060,6 +9374,25 @@
                }
             }
          },
+         "DeathPact": {
+            "Label": "Death Pact",
+            "Description": {
+               "1": {
+                  "Value": "You siphon death magic from an undead or fiendish creature within range. The target (if intelligent) is entitled a Spirit saving throw to negate this effect."
+               },
+               "2": {
+                  "Value": "The target loses 3d6 hit points, which you regain as hit points. If the creature is reduced to 0 hit points, it is destroyed as normal for its type, and you are affected by the inner fire spell (spell equal to the death pact spell level). Instead of regaining hit points, you can cast the spell for no mana at all, and regain 1d4 mana points when draining the power from an undead or fiendish creature."
+               },
+               "3": {
+                  "Value": "If the target was bound to you or an ally, your benefit of the spell is increased by 100% (healing and mana)."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": " For each level above 1st, you drain 3d6 additional hit points (and regain the same), or regain 1d4 extra mana points."
+               }
+            }
+         },
          "DeathWard": {
             "Label": "Death Ward",
             "Description": {
@@ -8214,6 +9547,27 @@
                }
             }
          },
+         "ElementalArmor": {
+            "Label": "Elemental Armor",
+            "Description": {
+               "1": {
+                  "Value": "A protective magical field surrounds you, manifesting as a spectral element. You gain 5 temporary hit points for the duration of the spell. If a creature hits you with a weapon or spell attack while these hit points remain, they may manifest one of the following effects, depending on whether the element is Fire, Frost, or Lightning."
+               },
+               "2": {
+                  "Options": {
+                     "1": "<i>All</i>: The attacker takes 1 point of elemental per point of damage they deal (maximum equal to the remaining temporary  hit points). The target must be within melee reach.",
+                     "2": "<i>All</i>: You may gain resistance against the damage (only if the armor‘s element matches the damaging element). This reduces the temporary hit points by 5.",
+                     "3": "<i>Frost or Lightning</i>: The target is chilled for one round.",
+                     "4": "<i>Fire</i>: Target is scorched for one round."
+                  }
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "The temporary hit points increase by 5 for every level above 1st."
+               }
+            }
+         },
          "ElementalShock": {
             "Label": "Elemental Shock",
             "Description": {
@@ -8251,6 +9605,30 @@
             "Heightened": {
                "1": {
                   "Value": "You deal an additional 1d6 elemental damage or one additional use from any of the above elements per level above 1st."
+               }
+            }
+         },
+         "EnlargeReduce": {
+            "Label": "Enlarge / Reduce",
+            "Description": {
+               "1": {
+                  "Value": "You cause a creature or an object you can see within range to grow larger or smaller for the Duration. Choose either a creature or an object that is neither worn nor carried. If the target is unwilling, it can make a Constitution saving throw. On a success, the spell has no effect."
+               },
+               "2": {
+                  "Value": "If the target is a creature, everything it is wearing and carrying changes size with it. Any item dropped by an affected creature returns to normal size at once."
+               },
+               "3": {
+                  "Title": "Enlarge",
+                  "Value": "The target's size doubles in all dimensions, and its weight is multiplied by eight. This growth increases its size by one category—from Medium to Large, for example. If there isn't enough room for the target to double its size, the creature or object attains the maximum possible size in the space available. Until the spell ends, the target also has advantage on Strength Checks and Strength Saving Throws. The target's Weapons also grow to match its new size. While these Weapons are enlarged, the target's attacks with them deal 1d4 extra damage."
+               },
+               "4": {
+                  "Title": "Reduce",
+                  "Value": "The target's size is halved in all dimensions, and its weight is reduced to one-eighth of normal. This reduction decreases its size by one category—from Medium to Small, for example. Until the spell ends, the target also has disadvantage on Strength Checks and Strength Saving Throws. The target's Weapons also shrink to match its new size. While these Weapons are reduced, the target's attacks with them deal 1d4 less damage (this can't reduce the damage below 1)."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "The damage dealt increases by 1d4 per level above 1st and can entangle another creature within 5 feet."
                }
             }
          },
@@ -8297,6 +9675,21 @@
                },
                "7": {
                   "Value": " If the spell is cast ritually, and if you expend double the normal mana cost, the target creature type suffers disadvantage to their saving throw, and any attempts to release the essence by contested rolls has disadvantage."
+               }
+            }
+         },
+         "Eyebite": {
+            "Label": "Eyebite",
+            "Description": {
+               "1": {
+                  "Value": "For the spell's Duration, your eyes become an inky void imbued with dread power. One creature of your choice within 60 feet of you that you can see must succeed on a Wisdom saving throw or be affected by one of the following Effects of your choice for the Duration. On each of your turns until the spell ends, you can use your action to target another creature but can't target a creature again if it has succeeded on a saving throw against this casting of eyebite."
+               },
+               "2": {
+                  "Options": {
+                     "1": "<i>Asleep</i>: The target falls Unconscious. It wakes up if it takes any damage or if another creature uses its action to shake the sleeper awake.",
+                     "2": "<i>Panicked</i>: The target is Frightened of you. On each of its turns, the frightened creature must take the Dash action and move away from you by the safest and shortest available route, unless there is nowhere to move. If the target moves to a place at least 60 feet away from you where it can no longer see you, this effect ends.",
+                     "3": "<i>Sickened</i>: The target has disadvantage on Attack rolls and Ability Checks. At the end of each of its turns, it can make another Wisdom saving throw. If it succeeds, the effect ends."
+                  }
                }
             }
          },
@@ -8700,6 +10093,27 @@
                }
             }
          },
+         "InvokeElements": {
+            "Label": "Invoke Elements",
+            "Description": {
+               "1": {
+                  "Value": "You can create one of the following effects:"
+               },
+               "2": {
+                  "Options": {
+                     "1": "You create a tiny, harmless illusion that predicts the weather for the next 24 hours.",
+                     "2": "Your voice booms three times as loud.",
+                     "3": "You conjure a spark of lightning or flame that can light or snuff a small campfire, torch, or candle.",
+                     "4": "Cause such flames to flicker and change color for 1 minute.",
+                     "5": "You cause harmless tremors for 1 minute.",
+                     "6": "You chill, warm, a small amount of liquid, or freeze it for 1 minute."
+                  }
+               },
+               "3": {
+                  "Value": "You can have up to three of these 1-minute effects active at once."
+               }
+            }
+         },
          "LesserRestoration": {
             "Label": "Lesser Restoration",
             "Description": {
@@ -8719,6 +10133,28 @@
                },
                "3": {
                   "Value": "When the spell ends, the target floats gently to the ground if it is still aloft."
+               }
+            }
+         },
+         "LightningBolt": {
+            "Label": "Lightning Bolt",
+            "Description": {
+               "1": {
+                  "Value": "A stroke of lightning forming a line of 100 feet long and 5 feet wide blasts out from you in a direction you choose. Each creature in the line must make an Agility saving throw. A creature takes 8d6 lightning damage on a failed save, or half as much damage on a successful one."
+               },
+               "2": {
+                  "Value": "Alternatively, you may cause the lightning bolt to lance and jump between multiple targets instead of affecting creatures in a line. The spell affects up to two targets within 150 feet. Creatures struck by this take the damage as normal."
+               },
+               "3": {
+                  "Value": "The lightning ignites flammable objects in the area that aren‘t being worn or carried."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "When cast this spell as a 4th level spell or higher, the damage increases by 1d6 per spell level above 3rd."
+               },
+               "2": {
+                  "Value": "If casting the spell to leap between targets, the spell can affect an additional target per every two levels heightened above 3rd (3 at 5th, 4 at 7th, and 5 at 9th)."
                }
             }
          },
@@ -9041,11 +10477,30 @@
                }
             }
          },
+         "SerpentWard": {
+            "Label": "Serpent Ward",
+            "Description": {
+               "1": {
+                  "Value": "Once you place this totem, you may use a reaction to have it cast the fire bolt cantrip. This manifests as a snake-head that releases the bolt of flame, as the cantrip of the same name. The cantrip treats your character level as if 5 levels lower for the purposes of damage (minimum 1d10 as normal)."
+               }
+            }
+         },
          "Shield": {
             "Label": "Shield",
             "Description": {
                "1": {
                   "Value": "An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from magic missile."
+               }
+            }
+         },
+         "ShockingBolt": {
+            "Label": "Shocking Bolt",
+            "Description": {
+               "1": {
+                  "Value": "You release a blast of lightning towards any creature or object within range. Make a ranged spell attack. On a hit, the target takes 1d8 lightning damage. Roll a d4. On the result of a 4, the target loses their reaction for that round."
+               },
+               "2": {
+                  "Value": "When you reach 5th, 11th, and 17th level, you can release an additional shocking bolt with the same action (up to four at 17th level). Each blast can target the same target or others within 30 feet of one another. For each additional attack against the same target, the range of success on the d4 increases by 1 (up to automatically losing their reaction on four attacks)."
                }
             }
          },
@@ -9212,6 +10667,22 @@
                },
                "2": {
                   "Value": "This increases by one meteor for every 2 spell levels beyond 7th (3 at level 7, 4 at level 9)."
+               }
+            }
+         },
+         "StasisTrap": {
+            "Label": "Stasis Trap",
+            "Description": {
+               "1": {
+                  "Value": "You plant the totem in the ground anywhere within 30 feet. It is visible for 1 round, before becoming invisible for the rest of its duration (gaining advantage to Stealth, with a Stealth bonus equal to yours). Once invisible, it is effectively active. If a creature moves within 10 feet of the totem during its activity, you are notified of the presence, and you are aware of their creature type and direction of movement (but nothing more)."
+               },
+               "2": {
+                  "Value": "If you use your reaction to send the mental command, the totem explodes into a shower of sparks easily seen from up to a mile, lighting up the totem and the area for one round. All creatures 10 feet away from the totem must make an Agility saving throw or be stunned until the beginning of their turn the next round."
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "The trap remains for ten more minutes more per every level, to a maximum of 100 minutes."
                }
             }
          },
@@ -10353,11 +11824,22 @@
             "CastSpellInvalidTarget": "Invalid Target. Please select one hostile token.",
             "OutOfRange": "The target is out of range. Distance:"
          },
+         "Archetype": "Archetype",
          "Bond": "Bond",
          "Bonds": "Bonds",
          "BonusAction": "Bonus Action",
+         "Class": "Class",
          "Consumable": "Consumable",
+         "Cost": "Cost",
          "Creature": "Creature",
+         "Damage": "Damage",
+         "DamageTypes": {
+            "Bludgeoning": "Bludgeoning",
+            "Holy": "Holy",
+            "Piercing": "Piercing",
+            "Shadow": "Shadow",
+            "Slashing": "Slashing"
+         },
          "Dialogs": {
             "CancelSkill": "Release",
             "CancelSkillDescription": "Do you really want to release the skill?"
@@ -10366,10 +11848,13 @@
          "Features": "Features",
          "Flaw": "Flaw",
          "Flaws": "Flaws",
+         "Gear": "Gear",
          "Ideal": "Ideal",
          "Ideals": "Ideals",
          "Language": "Language",
+         "Mass": "Mass",
          "MaterialCost": "Material Cost",
+         "Name": "Name",
          "Phrases": {
             "Skill": "skill",
             "Spell": "spell"
@@ -10377,6 +11862,8 @@
          "PersonalityTrait": "Personality Trait",
          "PersonalityTraits": "Personality Traits",
          "PointCost": "Point Cost",
+         "Proficiency": "Proficiency",
+         "Properties": "Properties",
          "Race": "Race",
          "Rarities": {
             "Common": "Common",
@@ -10392,16 +11879,31 @@
          "SuggestedCharacteristics": "Suggested Characteristics",
          "Units": {
             "Action": "action",
+            "Cp": "copper",
             "Ft": "ft",
             "Gp": "gp",
             "Hour": "hour",
             "Instant": "instant",
+            "Lb": "lb",
             "Minute": "minute",
             "Minutes": "minutes",
+            "Pint": "pint",
+            "Sp": "silver",
             "Turn": "turn",
             "Turns": "turns"
          },
-         "UseItem": "Use-Item"
+         "UseItem": "Use-Item",
+         "WeaponProfs": {
+            "MartialWeapons": "Martial Weapons",
+            "SimpleWeapons": "Simple Weapons"
+         },
+         "WeaponProps": {
+            "Finesse": "Finesse",
+            "Heavy": "Heavy",
+            "Light": "Light",
+            "Reach": "Reach",
+            "TwoHanded": "Two-Handed"
+         }
       }
    }
 }

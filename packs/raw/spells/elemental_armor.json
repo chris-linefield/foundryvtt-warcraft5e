@@ -1,0 +1,115 @@
+{
+   "_id": "ms4OjIZxSAmJYdfn",
+   "name": "Elemental Armor",
+   "type": "spell",
+   "img": "icons/magic/defensive/shield-barrier-flaming-diamond-acid.webp",
+   "data": {
+      "description": {
+         "value": "",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "",
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": 1,
+         "units": "hour"
+      },
+      "target": {
+         "value": null,
+         "width": null,
+         "units": "",
+         "type": "self"
+      },
+      "range": {
+         "value": null,
+         "long": null,
+         "units": "self"
+      },
+      "uses": {
+         "value": null,
+         "max": "",
+         "per": ""
+      },
+      "consume": {
+         "type": "",
+         "target": "",
+         "amount": null
+      },
+      "ability": null,
+      "actionType": "",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "scaling": "spell"
+      },
+      "level": 1,
+      "school": "abj",
+      "components": {
+         "value": "",
+         "vocal": true,
+         "somatic": true,
+         "material": true,
+         "ritual": false,
+         "concentration": false
+      },
+      "materials": {
+         "value": "an object struck by the element",
+         "consumed": false,
+         "cost": 0,
+         "supply": 0
+      },
+      "preparation": {
+         "mode": "prepared",
+         "prepared": false
+      },
+      "scaling": {
+         "mode": "none",
+         "formula": ""
+      }
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+      "default": 0
+   },
+   "flags": {
+      "wc5e": {
+         "type": "spell",
+         "description": [
+            {
+               "value": "WC5E.Spells.ElementalArmor.Description.1.Value"
+            },
+            {
+               "options": [
+                  "WC5E.Spells.ElementalArmor.Description.2.Options.1",
+                  "WC5E.Spells.ElementalArmor.Description.2.Options.2",
+                  "WC5E.Spells.ElementalArmor.Description.2.Options.3",
+                  "WC5E.Spells.ElementalArmor.Description.2.Options.4"
+               ]
+            }
+         ],
+         "heightened": [
+            {
+               "value": "WC5E.Spells.ElementalArmor.Heightened.1.Value"
+            }
+         ]
+      }
+   }
+}

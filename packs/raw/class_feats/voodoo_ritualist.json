@@ -1,0 +1,26 @@
+{
+   "_id": "h22PkyNext4Ezblt",
+   "name": "Voodoo Ritualist",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 156",
+      "requirements": "Hunter (Shadow Hunter) 7"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.VoodooRitualist.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/control/voodoo-doll-pain-damage-yellow.webp",
+   "effects": [
+   ]
+}

@@ -1,0 +1,26 @@
+{
+   "_id": "1M01kJHavTS0Cuud",
+   "name": "Ley Line Link",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 154",
+      "requirements": "Monk (Runeweaver) 11"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.LeyLineLink.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/symbols/runes-carved-stone-purple.webp",
+   "effects": [
+   ]
+}

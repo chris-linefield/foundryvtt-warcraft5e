@@ -1,0 +1,26 @@
+{
+   "_id": "dOtMr6UGJQ562IzF",
+   "name": "Raging Flames Rune",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 154",
+      "requirements": "Monk (Runeweaver) 3"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.RagingFlamesRune.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/symbols/runes-carved-stone-red.webp",
+   "effects": [
+   ]
+}

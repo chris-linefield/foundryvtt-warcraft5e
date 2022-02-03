@@ -1,0 +1,26 @@
+{
+   "_id": "UpbxLDVbqwnM8TfS",
+   "name": "Hostile Homeland",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 27",
+      "requirements": "Troll (Drakkari)"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.HostileHomeland.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/water/water-iceberg-bubbles.webp",
+   "effects": [
+   ]
+}

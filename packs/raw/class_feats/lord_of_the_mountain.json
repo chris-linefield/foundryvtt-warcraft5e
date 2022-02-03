@@ -1,0 +1,36 @@
+{
+   "_id": "tmAUFIkU7Xa0Sjfb",
+   "name": "Lord of the Mountain",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 152",
+      "requirements": "Warrior (Mountain King) 18"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.LordOfTheMountain.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.LordOfTheMountain.Description.2.Value"
+            },
+            {
+               "options": [
+                  "WC5E.Feats.LordOfTheMountain.Description.3.Options.1",
+                  "WC5E.Feats.LordOfTheMountain.Description.3.Options.2",
+                  "WC5E.Feats.LordOfTheMountain.Description.3.Options.3"
+               ]
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/earth/construct-stone.webp",
+   "effects": [
+   ]
+}

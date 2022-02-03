@@ -559,6 +559,168 @@
                   }
                ]
             }
+         ],
+         "special": [
+            {
+               "title": "WC5E.Class.Monk.Traditions.Runeweaver.Title",
+               "description": [
+                  {
+                     "value": "WC5E.Class.Monk.Traditions.Runeweaver.Description.1.Value"
+                  },
+                  {
+                     "value": "WC5E.Class.Monk.Traditions.Runeweaver.Description.2.Value"
+                  },
+                  {
+                     "value": "WC5E.Class.Monk.Traditions.Runeweaver.Description.3.Value"
+                  },
+                  {
+                     "value": "WC5E.Class.Monk.Traditions.Runeweaver.Description.4.Value"
+                  },
+                  {
+                     "value": "WC5E.Class.Monk.Traditions.Runeweaver.Description.5.Value"
+                  },
+                  {
+                     "value": "WC5E.Class.Monk.Traditions.Runeweaver.Description.6.Value"
+                  }
+               ],
+               "featList": [
+                  {
+                     "level": "3",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "7Dc5IOSkJvJipWxp",
+                           "label": "WC5E.Feats.RunicAttunement.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "Ko2HbUQJL2ecDTgc",
+                           "label": "WC5E.Feats.BurningSpiritRune.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "odxqsSn759ud9767",
+                           "label": "WC5E.Feats.EnergyWeavingRune.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "NiX3zmRwuEcXZg9W",
+                           "label": "WC5E.Feats.InscribedRune.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "Xm6tHl3X3uhVh1ON",
+                           "label": "WC5E.Feats.LeapingSparksRune.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "EFCQWC9qXeyCs0qk",
+                           "label": "WC5E.Feats.LeyHealingRune.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "omLHUGD0dBBLqjWc",
+                           "label": "WC5E.Feats.QuietDemiseRune.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "dOtMr6UGJQ562IzF",
+                           "label": "WC5E.Feats.RagingFlamesRune.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "9qdDFsGcSnxnXpCM",
+                           "label": "WC5E.Feats.SafefallRune.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "xPTgp5r4ql46te0v",
+                           "label": "WC5E.Feats.SeeRune.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "nX8whu72QVJrKh8e",
+                           "label": "WC5E.Feats.ShatteringRune.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "dkJD4A19hGssPKs2",
+                           "label": "WC5E.Feats.SimpleRunes.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "6",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "xu0N5gwTH8mvOpzJ",
+                           "label": "WC5E.Feats.DispelRune.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "f4IXE2WhFxd0DcIq",
+                           "label": "WC5E.Feats.EnergyDispersalRune.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "noWkLlkBoOMMlvFQ",
+                           "label": "WC5E.Feats.FlowingWaterRune.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "elzN7RGayLGQvjD9",
+                           "label": "WC5E.Feats.GlyphRuneLesser.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "JeuhThjamOVv6osX",
+                           "label": "WC5E.Feats.InnerBeastRune.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "n63yQSAKBBPKafOx",
+                           "label": "WC5E.Feats.MangrovesRune.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "UjRmu1Ni6r3P0u2m",
+                           "label": "WC5E.Feats.OaksRune.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "jWphYs8hi0t7Znhp",
+                           "label": "WC5E.Feats.RunicPattern.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "yDydnrESs7wSHvNS",
+                           "label": "WC5E.Feats.TwistedArcanaRune.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "11",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "1M01kJHavTS0Cuud",
+                           "label": "WC5E.Feats.LeyLineLink.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "17",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "EZ6Kmu3tQpaZbcDN",
+                           "label": "WC5E.Feats.GlyphRuneGreater.Label"
+                        }
+                     ]
+                  }
+               ]
+            }
          ]
       }
    }

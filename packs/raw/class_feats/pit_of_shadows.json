@@ -1,0 +1,26 @@
+{
+   "_id": "YMKp7vrHrNPGJZEA",
+   "name": "Pit of Shadows",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Core Rules page 156",
+      "requirements": "Hunter (Shadow Hunter) 15"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.PitOfShadows.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/unholy/barrier-shield-glowing-pink.webp",
+   "effects": [
+   ]
+}

@@ -1,0 +1,43 @@
+{
+   "_id": "v8gsF7byg0DDDp2S",
+   "name": "Battery (Greater)",
+   "type": "backpack",
+   "img": "icons/commodities/tech/cylinder-blue.webp",
+   "data": {
+      "source": "",
+      "quantity": 1,
+      "weight": 10,
+      "price": 450,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "common",
+      "identified": true,
+      "attributes": {
+         "spelldc": 10
+      },
+      "damage": {
+         "parts": []
+      }
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 600000,
+   "permission": {
+      "default": 0
+   },
+   "flags": {
+      "wc5e": {
+         "type": "item",
+         "cost": 450,
+         "unit": "WC5E.UI.Units.Gp",
+         "mass": 10,
+         "weightUnit": "WC5E.UI.Units.Lb",
+         "label": "WC5E.Items.BatteryGreater.Label",
+         "description": [
+            {
+               "value": "WC5E.Items.BatteryGreater.Description.1.Value"
+            }
+         ]
+      }
+   }
+}

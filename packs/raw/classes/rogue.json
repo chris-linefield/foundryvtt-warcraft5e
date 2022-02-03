@@ -568,6 +568,85 @@
                   }
                ]
             }
+         ],
+         "special": [
+            {
+               "title": "WC5E.Class.Rogue.Archetypes.DemonHunter.Title",
+               "description": [
+                  {
+                     "value": "WC5E.Class.Rogue.Archetypes.DemonHunter.Description.1.Value"
+                  },
+                  {
+                     "value": "WC5E.Class.Rogue.Archetypes.DemonHunter.Description.2.Value"
+                  },
+                  {
+                     "value": "WC5E.Class.Rogue.Archetypes.DemonHunter.Description.3.Value"
+                  },
+                  {
+                     "value": "WC5E.Class.Rogue.Archetypes.DemonHunter.Description.4.Value"
+                  },
+                  {
+                     "subtitle": "WC5E.Class.Rogue.Archetypes.DemonHunter.Description.5.Title",
+                     "value": "WC5E.Class.Rogue.Archetypes.DemonHunter.Description.5.Value"
+                  },
+                  {
+                     "value": "WC5E.Class.Rogue.Archetypes.DemonHunter.Description.6.Value"
+                  }
+               ],
+               "featList": [
+                  {
+                     "level": "3",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "PRtVliSs4PtEjujq",
+                           "label": "WC5E.Feats.SpellcastingDemonHunter.Label"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "x3veS7XevvU8o3ZJ",
+                           "label": "WC5E.Feats.DemonicNature.Label",
+                           "option": "optional"
+                        },
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "AgBnFtA4wCYWjasV",
+                           "label": "WC5E.Feats.SuffusedSight.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "9",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "nec8411z460TojJY",
+                           "label": "WC5E.Feats.DarkMetamorphosis.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "13",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "q1lPCWVOGGGympPr",
+                           "label": "WC5E.Feats.SorcerousThirst.Label"
+                        }
+                     ]
+                  },
+                  {
+                     "level": "17",
+                     "feats": [
+                        {
+                           "pack": "warcraft5e.wc5e_class_feats",
+                           "node": "SMB1RK8YdBrrDGHe",
+                           "label": "WC5E.Feats.DarkMastery.Label"
+                        }
+                     ]
+                  }
+               ]
+            }
          ]
       }
    }
