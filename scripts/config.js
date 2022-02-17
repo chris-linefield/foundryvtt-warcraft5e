@@ -39,4 +39,6 @@ DND5E.languages = {
 DND5E.damageTypes.holy = "WC5E.UI.DamageTypes.Holy";
 DND5E.damageTypes.shadow = "WC5E.UI.DamageTypes.Shadow";
 
+DND5E.creatureTypes.mecha = "WC5E.Creature.Mecha.Name";
+
 //DND5E.toolIds.infusion = "oZ4szgJtQaSdG1qD";

@@ -1,0 +1,29 @@
+{
+   "_id": "MUdeADNuv8orwpGr",
+   "name": "Crafting Creature CR1",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Wc5e - MC p. 34",
+      "requirements": "Creature CR1"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.MonsterFeats.CraftingCreatureCr1.Description.1.Value"
+            },
+            {
+               "value": "WC5E.MonsterFeats.CraftingCreatureCr1.Description.2.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/tools/hand/hammer-simple-stone.webp",
+   "effects": [
+   ]
+}
