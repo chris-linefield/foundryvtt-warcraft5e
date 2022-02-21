@@ -1,0 +1,115 @@
+{
+   "name": "Prismatic Blade",
+   "type": "weapon",
+   "img": "icons/weapons/swords/sword-guard-serrated.webp",
+   "data": {
+      "description": {
+         "value": "<p><em>requires attunement</em></p>\n<p>While wielding this longsword, you can add your Agility modifier to attack and damage rolls instead of your Strength modifier.</p>\n<p>If you are wielding this sword and not benefiting from a shield, add a +2 bonus to your AC.</p>\n<p>This magic weapon has 4 charges, regaining 1d4 charges daily at dawn. It may have one of the following abilities.</p>\n<ul>\n<li><em>Augment.</em> With an action, you may cast the enhance ability spell. This can affect anything touching the blade (including yourself or any ally you touch). This costs 1 charge.</li>\n<li><em>Guard.</em> With an action, you can cast the power word shield spell. This can affect anything touching the blade (including yourself or an ally you touch). This costs 1 charge.</li>\n<li><em>Weave.</em> With an action, you may cast the prismatic spray spell. This costs 4 charges.</li>\n<li><em>Unweave.</em> You may cast the dispel magic spell as part of drawing the blade (free action), or with an action if it is already drawn. This spell is limited to touch range, however, and can affect anything touching the blade (including yourself, an ally you touch, or any spell targeting you). This costs 2 charges. The spell‘s level is equal to 4 if the rarity is Rare, 6 if Epic, and 8 if Legendary.</li>\n</ul>\n<p>There are many Prismatic Blades. Three of the best known are Quel'Serrar, Quel‘Zaram, and Quel'delar. All such blades are ancient, forged by dragons long ago and gifted to the kaldorei to aid them in the War of the Ancients.</p>\n<p>Currently, most remain dull and forgotten, though it can be re-forged by heating in dragon-fire, and being quenched in dragon blood (which gives it the reputation of being a dragon-slaying blade).</p>\n<p>A dulled Prismatic Blade has 0 charges, but otherwise acts otherwise same way.</p>\n<p>The greater the rarity of the prismatic blade, the more abilities it may have.</p>\n<p>You gain +1 to attack and damage rolls while using this magic weapon.</p>\n<p>Epic blades (such as Quel‘Zaram) has three abilities, and has a +2 bonus to attack and damage.</p>\n<p> </p>\n<p><strong>Secrets of the Prismatic Blades</strong></p>\n<p><em>Awakening and Reforging</em></p>\n<p>\"What I offer to you now is one such blade, unfired, unheated, untreated - the most raw and basic form. Now you merely need to find a dragon that will willing enchant the blade…\" </p>\n<p>A dulled Prismatic Blade must be re-ignited to act in its full capacity.</p>\n<p>When subject to a true dragon's breath weapon by itself (such as by being in the area of the breath weapon and not being wielded, tricking a dragon to breathe upon it, or leaving it in the mouth of a dying dragon), there is a chance the blade is re-enchanted.</p>\n<p>This depends on the age of the dragon. On a failed enchantment, the dragon cannot try again until it advances to the next age category.</p>\n<table border=\"1\">\n<tbody>\n<tr>\n<td>Age</td>\n<td>Chance of Enchantment</td>\n</tr>\n<tr>\n<td>Wyrmling</td>\n<td>1%</td>\n</tr>\n<tr>\n<td>Young</td>\n<td>25%</td>\n</tr>\n<tr>\n<td>Adult</td>\n<td>50%</td>\n</tr>\n<tr>\n<td>Ancient</td>\n<td>100%</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<p><em>Merging</em></p>\n<p>Prismatic blades can be merged together in very rare instances, such as the blades Shalla'tor and Ellemayne merging into Shalamayne.</p>\n<p>If a character manages to merge two prismatic blades, the blade turns into a greatsword (such as Quel‘Zaram), and occupies only one attunement slot. The rarity of the merged blade is one step higher than the average of the two, and gains a +1 additional bonus to attack and damage.</p>\n<p>Shalla‘tor and Ellemayne act as normal Prismatic Blades, but are Epic in quality and have a +2 bonus to attack and damage. They have the Augment, Guard, and Unweave abilities. By merging together, Shalamayne becomes legendary rarity, has a +3 bonus to attack and damage rolls, and its Unweave ability functions as spell level 8. </p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 197",
+      "quantity": 1,
+      "weight": 3,
+      "price": 100000,
+      "attunement": 1,
+      "equipped": false,
+      "rarity": "rare",
+      "identified": true,
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": null,
+         "units": ""
+      },
+      "target": {
+         "value": null,
+         "width": null,
+         "units": "",
+         "type": ""
+      },
+      "range": {
+         "value": 5,
+         "long": null,
+         "units": "ft"
+      },
+      "uses": {
+         "value": null,
+         "max": "",
+         "per": ""
+      },
+      "consume": {
+         "type": "",
+         "target": "",
+         "amount": null
+      },
+      "ability": "",
+      "actionType": "mwak",
+      "attackBonus": "1",
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [
+            [
+               "1d8 + @mod +1",
+               "slashing"
+            ]
+         ],
+         "versatile": "1d10 + @mod +1"
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "scaling": "spell"
+      },
+      "armor": {
+         "value": 10
+      },
+      "hp": {
+         "value": 0,
+         "max": 0,
+         "dt": null,
+         "conditions": ""
+      },
+      "weaponType": "martialM",
+      "baseItem": "longsword",
+      "properties": {
+         "ver": true,
+         "amm": false,
+         "hvy": false,
+         "fin": false,
+         "fir": false,
+         "foc": false,
+         "lgt": false,
+         "lod": false,
+         "rch": false,
+         "rel": false,
+         "ret": false,
+         "spc": false,
+         "thr": false,
+         "two": false,
+         "mgc": true,
+         "ada": false,
+         "sil": false
+      },
+      "proficient": false,
+      "attributes": {
+         "spelldc": 10
+      }
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+   },
+   "flags": {
+   },
+   "_id": "wDadg82dciP8bhGh"
+}

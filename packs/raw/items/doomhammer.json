@@ -1,20 +1,20 @@
 {
-   "name": "Greathammer",
+   "name": "Doomhammer",
    "type": "weapon",
-   "img": "icons/weapons/hammers/hammer-double-engraved-green.webp",
+   "img": "icons/weapons/hammers/hammer-double-stone.webp",
    "data": {
       "description": {
-         "value": "<p>This iconic paladin weapon is favored by the Order of the Holy Light.</p>",
+         "value": "<p>Beyond the bonuses of the weapon upon attunement (see Greater Attunement), this weapon is treated as a thrown weapon (20/60 feet). Also, the elemental tongue spell costs instead one less point of mana.</p>\n<p>If you cannot cast the spell, it can be cast two times (spell level 1) before uses are replenished at dawn.</p>\n<p>The Doomhammer is a powerful enormous hammer that was crafted long ago in a pool of elemental lava on the orc homeworld of Draenor. It is a namesake relic passed down from father to son, and was given to Thrall as a testament of faith and honor during the salvation of the orcs. Although the hilt of the hammer has been replaced, the actual hammerhead itself, crafted of elementallytreated black granite, has endured as a testament of the crafter's skill.</p>",
          "chat": "",
          "unidentified": ""
       },
-      "source": "Wc5e - P. 187",
+      "source": "Wc5e - Core p. 195",
       "quantity": 1,
-      "weight": 10,
-      "price": 10,
-      "attunement": 0,
+      "weight": 2,
+      "price": 0,
+      "attunement": 3,
       "equipped": false,
-      "rarity": "common",
+      "rarity": "varies",
       "identified": true,
       "activation": {
          "type": "action",
@@ -57,11 +57,11 @@
       "damage": {
          "parts": [
             [
-               "2d6 + @mod",
+               "1d8 + @mod",
                "bludgeoning"
             ]
          ],
-         "versatile": ""
+         "versatile": "1d10 + @mod"
       },
       "formula": "",
       "save": {
@@ -79,46 +79,37 @@
          "conditions": ""
       },
       "weaponType": "martialM",
-      "baseItem": "maul",
+      "baseItem": "warhammer",
       "properties": {
-         "ada": false,
+         "ver": true,
          "amm": false,
+         "hvy": false,
          "fin": false,
          "fir": false,
          "foc": false,
-         "hvy": true,
          "lgt": false,
          "lod": false,
-         "mgc": false,
          "rch": false,
          "rel": false,
          "ret": false,
-         "sil": false,
          "spc": false,
          "thr": false,
-         "two": true,
-         "ver": false
+         "two": false,
+         "ada": false,
+         "mgc": false,
+         "sil": false
       },
-      "proficient": true
+      "proficient": false,
+      "attributes": {
+         "spelldc": 10
+      }
    },
    "effects": [],
    "folder": null,
    "sort": 0,
    "permission": {
-      "default": 0
    },
    "flags": {
-      "wc5e": {
-         "type": "item",
-         "unit": "WC5E.UI.Units.Gp",
-         "weightUnit": "WC5E.UI.Units.Lb",
-         "label": "WC5E.Items.Greathammer.Label",
-         "description": [
-            {
-               "value": "WC5E.Items.Greathammer.Description.1.Value"
-            }
-         ]
-      }
    },
-   "_id": "AYMQA0kbZqruIHB8"
+   "_id": "GnIIeOCZtoGmfYG4"
 }

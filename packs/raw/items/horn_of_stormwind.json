@@ -1,0 +1,31 @@
+{
+   "name": "Horn of Stormwind",
+   "type": "loot",
+   "img": "icons/commodities/treasure/horn-carved-banded.webp",
+   "data": {
+      "description": {
+         "value": "<p><em>Woundrous Item</em></p>\n<p>This lion-emblazed horn can be blown as a bonus action to cast the devotion aura spell (as a 3rd level spell). The horn performs the required concentration. Once used two times, it cannot be used again until the next dawn.</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 196",
+      "quantity": 1,
+      "weight": 3,
+      "price": 2000,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "rare",
+      "identified": true,
+      "damage": {
+         "parts": []
+      }
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+   },
+   "flags": {
+   },
+   "_id": "NyuoINJeVHze2jvT"
+}

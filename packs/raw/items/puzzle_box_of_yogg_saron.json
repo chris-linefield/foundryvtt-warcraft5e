@@ -1,0 +1,31 @@
+{
+   "name": "Puzzle Box of Yogg-Saron",
+   "type": "loot",
+   "img": "icons/commodities/treasure/puzzle-cube.webp",
+   "data": {
+      "description": {
+         "value": "<p><em>Woundrous Item, requires attunement</em></p>\n<p>This cube of metallic-like material is actually a puzzle box. Its sides can be manipulated by pushing and twisting, though it is unknown of anyone managed to solve it.</p>\n<p>The user may attempt a DC 25 Intelligence check to begin cracking the puzzle box. Upon each success, the bearer of the box gains an additional ability as they make significant advancement to opening the puzzle-box. The user should record successes and failures simultaneously.</p>\n<p> </p>\n<p><em>Successes Ability</em></p>\n<table style=\"width:100%;height:102px\" border=\"1\">\n<tbody>\n<tr style=\"height:17px\">\n<td style=\"width:6.01521%;height:17px\">1</td>\n<td style=\"width:93.9848%;height:17px\">Can cast confusion 1/day</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:6.01521%;height:17px\">2</td>\n<td style=\"width:93.9848%;height:17px\">Advantage to saving throws versus mind-affecting effects3</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:6.01521%;height:17px\">3</td>\n<td style=\"width:93.9848%;height:17px\">Gain +1 to your Intelligence score</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:6.01521%;height:17px\">4</td>\n<td style=\"width:93.9848%;height:17px\">Can cast mind blank 1/long rest</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:6.01521%;height:17px\">5</td>\n<td style=\"width:93.9848%;height:17px\">Gain +1 to your Intelligence score</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:6.01521%;height:17px\">6</td>\n<td style=\"width:93.9848%;height:17px\">Gain immunity to Confusion effects, and has a permanent tongues effect</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<p><em>Failures Ability</em></p>\n<p>You gain a madness level, with a Spirit DC of 25 to negate.</p>\n<p>Also, instead of having to choose a coping mechanism and being bound to it, you can instead take a -1 penalty to your Spirit score and gain a +2 bonus to future rolls to use the puzzle box. This stacks to a maximum of -5 penalty to your Spirit score and +10 to your Intelligence rolls at level 5 of madness.</p>\n<p>If you gained more than three levels of madness from the puzzle box, you also have disadvantage to all saving throws versus illusions and effects that deal psychic damage. Whenever attempting to solve the puzzle-box, the user hears one of the below quotes in their mind (as telepathy, choose randomly). </p>\n<p> </p>\n<table style=\"width:100%\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width:8.04878%\">d20</td>\n<td style=\"width:91.9512%\">Verse</td>\n</tr>\n<tr>\n<td style=\"width:8.04878%\">1</td>\n<td style=\"width:91.9512%\">At the bottom of the ocean even light must die.</td>\n</tr>\n<tr>\n<td style=\"width:8.04878%\">2</td>\n<td style=\"width:91.9512%\">The silent, sleeping, staring houses in the backwoods always dream. It would be merciful to tear them down.</td>\n</tr>\n<tr>\n<td style=\"width:8.04878%\">3</td>\n<td style=\"width:91.9512%\">There is no sharp distinction between the real and the unreal.</td>\n</tr>\n<tr>\n<td style=\"width:8.04878%\">4</td>\n<td style=\"width:91.9512%\">Even death may die.</td>\n</tr>\n<tr>\n<td style=\"width:8.04878%\">5</td>\n<td style=\"width:91.9512%\">There is a little lamb lost in dark woods.</td>\n</tr>\n<tr>\n<td style=\"width:8.04878%\">6</td>\n<td style=\"width:91.9512%\">All places, all things have souls. All souls can be devoured.</td>\n</tr>\n<tr>\n<td style=\"width:8.04878%\">7</td>\n<td style=\"width:91.9512%\">What can change the nature of a man? </td>\n</tr>\n<tr>\n<td style=\"width:8.04878%\">8</td>\n<td style=\"width:91.9512%\">Do you dream while you sleep or is it an escape from the horrors of reality?</td>\n</tr>\n<tr>\n<td style=\"width:8.04878%\">9</td>\n<td style=\"width:91.9512%\">Look around. They will all betray you. Flee screaming into the black forest. </td>\n</tr>\n<tr>\n<td style=\"width:8.04878%\">10</td>\n<td style=\"width:91.9512%\">In the land of Ny'alotha there is only sleep. </td>\n</tr>\n<tr>\n<td style=\"width:8.04878%\">11</td>\n<td style=\"width:91.9512%\">Y'knath k'th'rygg k'yi mrr'ungha gr'mula.</td>\n</tr>\n<tr>\n<td style=\"width:8.04878%\">12</td>\n<td style=\"width:91.9512%\">The void sucks at your soul. It is content to feast slowly.</td>\n</tr>\n<tr>\n<td style=\"width:8.04878%\">13</td>\n<td style=\"width:91.9512%\">The drowned god's heart is black ice.</td>\n</tr>\n<tr>\n<td style=\"width:8.04878%\">14</td>\n<td style=\"width:91.9512%\">It is standing right behind you. Do not move. Do not breathe.</td>\n</tr>\n<tr>\n<td style=\"width:8.04878%\">15</td>\n<td style=\"width:91.9512%\">Have you had the dream again? A black goat with seven eyes that watches from the outside. In the sunken city, he lays dreaming.</td>\n</tr>\n<tr>\n<td style=\"width:8.04878%\">16</td>\n<td style=\"width:91.9512%\">Open me! Open me! Open me! Then only will you know peace.</td>\n</tr>\n<tr>\n<td style=\"width:8.04878%\">17</td>\n<td style=\"width:91.9512%\">You resist. You cling to your life as if it actually matters. You will learn. </td>\n</tr>\n<tr>\n<td style=\"width:8.04878%\">18</td>\n<td style=\"width:91.9512%\">The tortured spirits of your ancestors cling to you, screaming in silence. Apparently they are quite numerous.</td>\n</tr>\n<tr>\n<td style=\"width:8.04878%\">19</td>\n<td style=\"width:91.9512%\">Beneath the shadow of the darkened spire, there is no light, no mercy, only void, and the chaos within. </td>\n</tr>\n<tr>\n<td style=\"width:8.04878%\">20</td>\n<td style=\"width:91.9512%\">You will all be alone in the end.</td>\n</tr>\n</tbody>\n</table>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 199",
+      "quantity": 1,
+      "weight": 3,
+      "price": 20000,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "veryRare",
+      "identified": true,
+      "damage": {
+         "parts": []
+      }
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+   },
+   "flags": {
+   },
+   "_id": "yeYHiO5R3NITDiiR"
+}

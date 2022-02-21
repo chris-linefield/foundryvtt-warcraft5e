@@ -1,20 +1,20 @@
 {
-   "name": "Greathammer",
+   "name": "Great Fel Blade",
    "type": "weapon",
-   "img": "icons/weapons/hammers/hammer-double-engraved-green.webp",
+   "img": "modules/warcraft5e/res/pics/items/sword_two_bladed.webp",
    "data": {
       "description": {
-         "value": "<p>This iconic paladin weapon is favored by the Order of the Holy Light.</p>",
+         "value": "<p><em>attunement required</em></p>\n<p>While attuned to it, you may use this blade to cleave in a quarter-circle (90-degree sphere) within your reach. Creatures in the area take damage as if hit with the sword, with an Agility check to half damage. The DC is 8 + your proficiency bonus + your Strength modifier. If you have multiple attacks, you can spend up to two attacks to make the area a half-circle.</p>\n<p>Furthermore, if you are a fiend or wield fel magic, you deal extra 7 (2d6) damage. Half this damage is fire, and the other half is fel damage. </p>\n<p>You have +1 to attack and damage rolls with this magic weapon. </p>",
          "chat": "",
          "unidentified": ""
       },
-      "source": "Wc5e - P. 187",
+      "source": "Wc5e - Core p. 196",
       "quantity": 1,
       "weight": 10,
-      "price": 10,
-      "attunement": 0,
+      "price": 4000,
+      "attunement": 1,
       "equipped": false,
-      "rarity": "common",
+      "rarity": "rare",
       "identified": true,
       "activation": {
          "type": "action",
@@ -48,7 +48,7 @@
       },
       "ability": "",
       "actionType": "mwak",
-      "attackBonus": "0",
+      "attackBonus": "1",
       "chatFlavor": "",
       "critical": {
          "threshold": null,
@@ -57,8 +57,8 @@
       "damage": {
          "parts": [
             [
-               "2d6 + @mod",
-               "bludgeoning"
+               "1d8 + @mod +1",
+               "slashing"
             ]
          ],
          "versatile": ""
@@ -79,24 +79,24 @@
          "conditions": ""
       },
       "weaponType": "martialM",
-      "baseItem": "maul",
+      "baseItem": "longsword",
       "properties": {
          "ada": false,
          "amm": false,
-         "fin": false,
+         "fin": true,
          "fir": false,
          "foc": false,
-         "hvy": true,
+         "hvy": false,
          "lgt": false,
          "lod": false,
-         "mgc": false,
+         "mgc": true,
          "rch": false,
          "rel": false,
          "ret": false,
          "sil": false,
          "spc": false,
          "thr": false,
-         "two": true,
+         "two": false,
          "ver": false
       },
       "proficient": true
@@ -105,20 +105,8 @@
    "folder": null,
    "sort": 0,
    "permission": {
-      "default": 0
    },
    "flags": {
-      "wc5e": {
-         "type": "item",
-         "unit": "WC5E.UI.Units.Gp",
-         "weightUnit": "WC5E.UI.Units.Lb",
-         "label": "WC5E.Items.Greathammer.Label",
-         "description": [
-            {
-               "value": "WC5E.Items.Greathammer.Description.1.Value"
-            }
-         ]
-      }
    },
-   "_id": "AYMQA0kbZqruIHB8"
+   "_id": "yoibdTp36AYj8PMd"
 }

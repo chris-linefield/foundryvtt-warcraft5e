@@ -1,0 +1,31 @@
+{
+   "name": "Relic of Power",
+   "type": "loot",
+   "img": "icons/commodities/treasure/statue-runed-blue-grey.webp",
+   "data": {
+      "description": {
+         "value": "<p><em>Woundrous Item, requires attunement</em></p>\n<p>Relics are items that hold minor abilities that strengthen specific spells the relic is attuned to. Relics can always double spellbooks or similar manuals (such as totems, idols, etc.). Relics must be carried to convey their bonus.</p>\n<p><strong>Bones Relic.</strong> The earth shield spell remains for double the normal duration.</p>\n<p><strong>Corpses Relic</strong>. The corpse explosion spell costs one less mana point, and does not affect you or your allies. </p>\n<p><strong>Cosmic Relic</strong>. The moonfire and sunfire spells cost one less mana point.</p>\n<p><strong>Despair Relic</strong>. The rune array spell costs one less mana point.</p>\n<p><strong>Divinity Relic</strong>. The flash of light spell costs one less mana point.</p>\n<p><strong>Claw Relic</strong>. You may add your Spirit modifier to damage rolls with strike spells on the druid spell list. </p>\n<p><strong>Crying Wind Relic</strong>. The carrion swarm spell costs one less mana point.</p>\n<p><strong>Eternal Rest Relic</strong>. The consecration spell costs one less mana point, and restrains fiends and undead who fail a Stamina saving throw for until the beginning of your turn in the next round.</p>\n<p><strong>Guarded Evil Relic</strong>. The death coil spell grants temporary hit points equal to your Spirit modifier to whoever it heals for one hour.</p>\n<p><strong>Grace Relic</strong>. The dispel magic spell has advantage to dispel necromancy and conjuration spells.</p>\n<p><strong>Health Relic</strong>. The rejuvenation spell costs one less mana point.</p>\n<p><strong>Hope Relic</strong>. The seal array spell costs one less mana point.</p>\n<p><strong>Impact Relic</strong>. The elemental shock spell costs one less mana point.</p>\n<p><strong>Inner Passion Relic</strong>. The holy fire spell costs one less mana point.</p>\n<p><strong>Lifebringer Relic</strong>. The holy light spell costs one less mana point.</p>\n<p><strong>Righteous Relic</strong>. The holy fire spells remains for double the normal duration.</p>\n<p><strong>Solar Relic</strong>. The sunfire and sunbeam spells cost one less mana point.</p>\n<p><strong>Steamcaller Relic</strong>. The healing stream spell costs one less mana point.</p>\n<p><strong>Storm Relic</strong>. The lightning bolt and lightning storm spells cost one less mana point.</p>\n<p><strong>Surging Seas Relic</strong>. The riptide spell costs one less mana point.</p>\n<p><strong>Vengeful Heart Relic</strong>. The death coil spell costs one less mana point.</p>\n<p><strong>Walking Dead Relic</strong>. The conjure undead spell retains telepathic communication up to ten times the normal distance.</p>\n<p><strong>Wracking Relic</strong>. The holy nova and exorcism spells cost one less mana point.</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 200",
+      "quantity": 1,
+      "weight": 3,
+      "price": 4000,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "rare",
+      "identified": true,
+      "damage": {
+         "parts": []
+      }
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+   },
+   "flags": {
+   },
+   "_id": "PaBH24yftHfUFees"
+}

@@ -1,20 +1,20 @@
 {
-   "name": "Greathammer",
+   "name": "Sulfuron Hammer",
    "type": "weapon",
-   "img": "icons/weapons/hammers/hammer-double-engraved-green.webp",
+   "img": "icons/weapons/hammers/hammer-double-studded.webp",
    "data": {
       "description": {
-         "value": "<p>This iconic paladin weapon is favored by the Order of the Holy Light.</p>",
+         "value": "<p><em>requires attunement</em></p>\n<p>This weapon can be perfected into Sulfuras, Hand of Ragnaros, a legendary weapon (see above).</p>\n<p>You gain a +3 bonus to attack and damage rolls made with this magic weapon.</p>",
          "chat": "",
          "unidentified": ""
       },
-      "source": "Wc5e - P. 187",
+      "source": "Wc5e - Core p. 202",
       "quantity": 1,
       "weight": 10,
-      "price": 10,
+      "price": 16000,
       "attunement": 0,
       "equipped": false,
-      "rarity": "common",
+      "rarity": "veryRare",
       "identified": true,
       "activation": {
          "type": "action",
@@ -48,7 +48,7 @@
       },
       "ability": "",
       "actionType": "mwak",
-      "attackBonus": "0",
+      "attackBonus": "3",
       "chatFlavor": "",
       "critical": {
          "threshold": null,
@@ -57,7 +57,7 @@
       "damage": {
          "parts": [
             [
-               "2d6 + @mod",
+               "2d6 + @mod +3",
                "bludgeoning"
             ]
          ],
@@ -81,44 +81,35 @@
       "weaponType": "martialM",
       "baseItem": "maul",
       "properties": {
-         "ada": false,
+         "hvy": true,
+         "two": true,
          "amm": false,
          "fin": false,
          "fir": false,
          "foc": false,
-         "hvy": true,
          "lgt": false,
          "lod": false,
-         "mgc": false,
          "rch": false,
          "rel": false,
          "ret": false,
-         "sil": false,
          "spc": false,
          "thr": false,
-         "two": true,
-         "ver": false
+         "ver": false,
+         "mgc": true,
+         "ada": false,
+         "sil": false
       },
-      "proficient": true
+      "proficient": false,
+      "attributes": {
+         "spelldc": 10
+      }
    },
    "effects": [],
    "folder": null,
    "sort": 0,
    "permission": {
-      "default": 0
    },
    "flags": {
-      "wc5e": {
-         "type": "item",
-         "unit": "WC5E.UI.Units.Gp",
-         "weightUnit": "WC5E.UI.Units.Lb",
-         "label": "WC5E.Items.Greathammer.Label",
-         "description": [
-            {
-               "value": "WC5E.Items.Greathammer.Description.1.Value"
-            }
-         ]
-      }
    },
-   "_id": "AYMQA0kbZqruIHB8"
+   "_id": "WsdphoL3Riig7dKI"
 }
