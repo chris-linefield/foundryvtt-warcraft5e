@@ -2044,6 +2044,9 @@
          "Faceless": {
             "Name": "Faceless"
          },
+         "Mecha": {
+            "Name": "Mecha"
+         },
          "Ogre": {
             "Name": "Ogre"
          },
@@ -7871,6 +7874,7 @@
          "Goblin": "Goblin",
          "Kalimag": "Kalimag",
          "LowCommon": "Low Common",
+         "Necril": "Necril",
          "Orcish": "Orcish",
          "Ogre": "Ogre",
          "Pandaren": "Pandaren",
@@ -7880,6 +7884,25 @@
          "Troll": "Troll"
       },
       "MonsterFeats": {
+         "CraftingCreatureCr1": {
+            "Label": "Crafting",
+            "Description": {
+               "1": {
+                  "Value": "This construct can be crafted and has a rarity of Uncommon. As a creature of CR 1, it has a total cost of 1,000 gp (80 gp base cost x 25 for creatures, halved for lower range of CR) in engineering materials. The engineering materials required is 500 gp to craft it with a competent craftsperson, who has a minimum Proficiency Bonus of +2 (as an Apprentice craftsperson)."
+               },
+               "2": {
+                  "Value": "As a device, it has a malfunction rating of 1-2."
+               }
+            }
+         },
+         "Mecha": {
+            "Label": "Mecha",
+            "Description": {
+               "1": {
+                  "Value": "This construct may be controlled by sitting in the compartment, but only if the user is of Small or smaller size (otherwise it is a suit). When in the compartment, the user may use their action to access the construct‘s attack (or multiattack), and move with the construct‘s speed. Any damage taken by the construct is divided between the user and the construct itself."
+               }
+            }
+         }
       },
       "RaceSheet": {
          "AbilityScoreIncrease": "Ability Score Increase",
@@ -10136,6 +10159,17 @@
                }
             }
          },
+         "Light": {
+            "Label": "Light",
+            "Description": {
+               "1": {
+                  "Value": "You touch one object that is no larger than 10 feet in any dimension. Until the spell ends, the object sheds bright light in a 20-foot radius and dim light for an additional 20 feet. The light can be colored as you like. Completely covering the object with something opaque blocks the light. The spell ends if you cast it again or dismiss it as an action."
+               },
+               "2": {
+                  "Value": "If you target an object held or worn by a hostile creature, that creature must succeed on a Dexterity saving throw to avoid the spell."
+               }
+            }
+         },
          "LightningBolt": {
             "Label": "Lightning Bolt",
             "Description": {
@@ -10580,6 +10614,17 @@
             "Heightened": {
                "1": {
                   "Value": "When you cast this spell using a spell slot of 2nd level or higher, roll an additional 2d8 for each slot level above 1st."
+               }
+            }
+         },
+         "Smite": {
+            "Label": "Smite",
+            "Description": {
+               "1": {
+                  "Value": "Flame-like radiance descends on a creature that you can see within range. The target must succeed on a Dexterity saving throw or take 1d8 radiant damage. The target gains no benefit from cover for this saving throw."
+               },
+               "2": {
+                  "Value": "The spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8)."
                }
             }
          },
