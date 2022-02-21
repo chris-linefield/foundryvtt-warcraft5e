@@ -7511,6 +7511,12 @@
          "AlchemistsSupplies": {
             "Label": "Alchemist‘s Supplies"
          },
+         "Annihilator": {
+            "Label": "Annihilator"
+         },
+         "ArcaniteReaper": {
+            "Label": "Arcanite Reaper"
+         },
          "AttackClaws": {
             "Label": "Attack Claws",
             "Description": {
@@ -7561,6 +7567,21 @@
                }
             }
          },
+         "BlackGraspOfTheDestroyer": {
+            "Label": "Black Grasp of the Destroyer"
+         },
+         "Bladefist": {
+            "Label": "Bladefist"
+         },
+         "Blight": {
+            "Label": "Blight"
+         },
+         "BookOfTheDead": {
+            "Label": "Book of the Dead"
+         },
+         "Brainsplinter": {
+            "Label": "Brainsplinter"
+         },
          "Bullets": {
             "Label": "Bullets (20)",
             "Description": {
@@ -7591,6 +7612,21 @@
                }
             }
          },
+         "CauldronLadleOfWackyExperimentation": {
+            "Label": "Cauldron Ladle of Wacky Experimentation"
+         },
+         "CauldronOfDimensionalParallelism": {
+            "Label": "Cauldron of Dimensional Parallelism"
+         },
+         "CauldronOfLight": {
+            "Label": "Cauldron of Light"
+         },
+         "CauldronOfTheMadAlchemist": {
+            "Label": "Cauldron of the Mad Alchemist"
+         },
+         "ChainsOfTheUndyingMage": {
+            "Label": "Chains of the Undying Mage"
+         },
          "Coal": {
             "Label": "Coal",
             "Description": {
@@ -7613,11 +7649,26 @@
          "CostumeClothes": {
             "Label": "Costume Clothes"
          },
+         "CrystalBall": {
+            "Label": "Crystal Ball"
+         },
          "Dagger": {
             "Label": "Dagger"
          },
+         "DawnsEdge": {
+            "Label": "Dawn's Edge"
+         },
+         "DemonicFigurine": {
+            "Label": "Demonic Figurine"
+         },
          "DisguiseKit": {
             "Label": "Disguise Kit"
+         },
+         "Doomhammer": {
+            "Label": "Doomhammer"
+         },
+         "EmbraceOfTheTwistingNether": {
+            "Label": "Embrace of the Twisting Nether"
          },
          "EngineersTools": {
             "Label": "Engineer‘s Tools",
@@ -7629,6 +7680,12 @@
                   "Value": "This toolset includes various tools such as a collection of fuses, wrenches, nails, wires, and assorted common spare parts. Proficiency with these tools confers proficiency in firearms and explosives."
                }
             }
+         },
+         "Fearbreaker": {
+            "Label": "Fearbreaker"
+         },
+         "Felomelorn": {
+            "Label": "Felo'melorn"
          },
          "FineClothes": {
             "Label": "Fine Clothes"
@@ -7649,8 +7706,14 @@
                }
             }
          },
+         "Gorehowl": {
+            "Label": "Gorehowl"
+         },
          "Greatclub": {
             "Label": "Greatclub"
+         },
+         "GreatFelBlade": {
+            "Label": "Great Fel Blade"
          },
          "Greathammer": {
             "Label": "Greathammer",
@@ -7660,6 +7723,9 @@
                }
             }
          },
+         "HammerOfTheTitans": {
+            "Label": "Hammer of the Titans"
+         },
          "HealingPotion": {
             "Label": "Healing Potion",
             "Description": {
@@ -7668,8 +7734,14 @@
                }
             }
          },
+         "Hearthstone": {
+            "Label": "Hearthstone"
+         },
          "HolySymbol": {
             "Label": "Holy Symbol"
+         },
+         "HornOfStormwind": {
+            "Label": "Horn of Stormwind"
          },
          "InfusionKit": {
             "Label": "Infusion Kit",
@@ -7682,8 +7754,20 @@
                }
             }
          },
+         "JainasLocket": {
+            "Label": "Jaina's Locket"
+         },
+         "LightsVengeance": {
+            "Label": "Light's Vengeance"
+         },
          "Longsword": {
             "Label": "Longsword"
+         },
+         "ManaBlade": {
+            "Label": "Mana Blade"
+         },
+         "ManaStone": {
+            "Label": "Mana Stone"
          },
          "MarkedCards": {
             "Label": "Marked Cards"
@@ -7701,6 +7785,12 @@
          },
          "MusicalInstrument": {
             "Label": "Musical Instrument"
+         },
+         "MysticWand": {
+            "Label": "Mystic Wand"
+         },
+         "Orkenblade": {
+            "Label": "Orkenblade"
          },
          "Pellets": {
             "Label": "Pellets (20)",
@@ -7723,6 +7813,12 @@
                   "Value": "These pieces of ammunition are specially-prepared to include their own fuel. Such ammunition is resistant to water, but have a 10% chance to explode every round if exposed to direct flame. Bullets and pellets are both blacksmithing and engineering product for crafting purposes."
                }
             }
+         },
+         "PhantomBlade": {
+            "Label": "Phantom Blade"
+         },
+         "PhilosophersStone": {
+            "Label": "Philosopher's Stone"
          },
          "PoisonersKit": {
             "Label": "Poisoner‘s Kit"
@@ -7769,11 +7865,41 @@
          "PrayerWheel": {
             "Label": "Prayer Wheel"
          },
+         "PrismaticBlade": {
+            "Label": "Prismatic Blade"
+         },
+         "PuzzleBoxOfYoggSaron": {
+            "Label": "Puzzle Box of Yogg-Saron"
+         },
+         "QuilenStatuette": {
+            "Label": "Quilen Statuette"
+         },
+         "RelicOfPower": {
+            "Label": "Relic of Power"
+         },
+         "RoyalSwordOfStormwind": {
+            "Label": "Royal Sword of Stormwind"
+         },
+         "Runespear": {
+            "Label": "Runespear"
+         },
+         "Sageblade": {
+            "Label": "Sageblade"
+         },
+         "SaroniteMindcrusher": {
+            "Label": "Saronite Mindcrusher"
+         },
          "Scimitar": {
             "Label": "Scimitar"
          },
+         "ScimitarOfSirocco": {
+            "Label": "Scimitar of the Sirocco"
+         },
          "Shortsword": {
             "Label": "Shortsword"
+         },
+         "SpellShieldAmulet": {
+            "Label": "Spell Shield Amulet"
          },
          "SpikedChain": {
             "Label": "Spiked Chain",
@@ -7786,8 +7912,23 @@
                }
             }
          },
+         "SpiritualEssence": {
+            "Label": "Spiritual Essence"
+         },
+         "StaffOfSorcererThaneThaurissan": {
+            "Label": "Staff of Sorcerer-Thane Thaurissan"
+         },
          "StickOfIncense": {
             "Label": "Stick of Incense"
+         },
+         "SulfurasHandOfRagnaros": {
+            "Label": "Sulfuras, HandOfRagnaros"
+         },
+         "SulfuronHammer": {
+            "Label": "Sulfuron Hammer"
+         },
+         "SunstriderLongbow": {
+            "Label": "Sunstrider Longbow"
          },
          "SwordTwoBladed": {
             "Label": "Sword, Two-Bladed",
@@ -7814,8 +7955,14 @@
                }
             }
          },
+         "ThePlanarEdge": {
+            "Label": "The Planar Edge"
+         },
          "ThievesTools": {
             "Label": "Thieves‘ Tools"
+         },
+         "TirioshNightmareOfAges": {
+            "Label": "Tiriosh, Nightmare of Ages"
          },
          "TotemTauren": {
             "Label": "Totem, Tauren",
@@ -7827,6 +7974,21 @@
                   "Value": "A tauren totem can be treated as a shaman‘s totem for the purposes of scribing spells."
                }
             }
+         },
+         "Trolkalar": {
+            "Label": "Trol'kalar"
+         },
+         "TruesilverChampion": {
+            "Label": "Truesilver Champion"
+         },
+         "TwinBladesOfAzzinoth": {
+            "Label": "Twin Blades of Azzinoth"
+         },
+         "ValanyrHammerOfAncientKings": {
+            "Label": "Val'Anyr, Hammer of Ancient Kings"
+         },
+         "VerdantSphere": {
+            "Label": "Verdant Sphere"
          },
          "Vestments": {
             "Label": "Vestments"
@@ -7851,6 +8013,9 @@
                }
             }
          },
+         "WardensCloak": {
+            "Label": "Warden's Cloak"
+         },
          "Warglaive": {
             "Label": "Warglaive",
             "Description": {
@@ -7861,6 +8026,9 @@
          },
          "WeightedDice": {
             "Label": "Weighted Dice"
+         },
+         "WispAmulet": {
+            "Label": "Wisp Amulet"
          }
       },
       "Languages": {
@@ -8422,6 +8590,17 @@
                "Description": {
                   "1": {
                      "Value": "The Warcraft universe has its share of special tools, kits, and items."
+                  }
+               }
+            },
+            "Treasures": {
+               "Label": "Treasures",
+               "Description": {
+                  "1": {
+                     "Value": "The Warcraft universe has many treasures, ranging from items infused with magic (such as named weapons and the Hearthstone), to armor sets that grant features when used together, to enhancements and epic boons."
+                  },
+                  "2": {
+                     "Title": "Infused Items"
                   }
                }
             },
