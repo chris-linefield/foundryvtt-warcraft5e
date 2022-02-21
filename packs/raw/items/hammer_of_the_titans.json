@@ -1,20 +1,20 @@
 {
-   "name": "Greathammer",
+   "name": "Hammer of the Titans",
    "type": "weapon",
-   "img": "icons/weapons/hammers/hammer-double-engraved-green.webp",
+   "img": "icons/weapons/hammers/hammer-double-engraved-ruby.webp",
    "data": {
       "description": {
-         "value": "<p>This iconic paladin weapon is favored by the Order of the Holy Light.</p>",
+         "value": "<p>The greathammer may be swung hard at the ground as an action. All creatures within 10 feet suffer the damage of a normal attack and must pass a Strength saving throw of 15 or fall prone.</p>\n<p>You gain a +1 bonus to attack and damage rolls made with this magic weapon.</p>",
          "chat": "",
          "unidentified": ""
       },
-      "source": "Wc5e - P. 187",
+      "source": "Wc5e - Core p. 196",
       "quantity": 1,
       "weight": 10,
-      "price": 10,
+      "price": 4000,
       "attunement": 0,
       "equipped": false,
-      "rarity": "common",
+      "rarity": "rare",
       "identified": true,
       "activation": {
          "type": "action",
@@ -48,7 +48,7 @@
       },
       "ability": "",
       "actionType": "mwak",
-      "attackBonus": "0",
+      "attackBonus": "1",
       "chatFlavor": "",
       "critical": {
          "threshold": null,
@@ -57,7 +57,7 @@
       "damage": {
          "parts": [
             [
-               "2d6 + @mod",
+               "2d6 + @mod +1",
                "bludgeoning"
             ]
          ],
@@ -89,7 +89,7 @@
          "hvy": true,
          "lgt": false,
          "lod": false,
-         "mgc": false,
+         "mgc": true,
          "rch": false,
          "rel": false,
          "ret": false,
@@ -105,20 +105,8 @@
    "folder": null,
    "sort": 0,
    "permission": {
-      "default": 0
    },
    "flags": {
-      "wc5e": {
-         "type": "item",
-         "unit": "WC5E.UI.Units.Gp",
-         "weightUnit": "WC5E.UI.Units.Lb",
-         "label": "WC5E.Items.Greathammer.Label",
-         "description": [
-            {
-               "value": "WC5E.Items.Greathammer.Description.1.Value"
-            }
-         ]
-      }
    },
-   "_id": "AYMQA0kbZqruIHB8"
+   "_id": "A23xftlnPaWG0Gah"
 }

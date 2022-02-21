@@ -1,0 +1,31 @@
+{
+   "name": "Mana Stone",
+   "type": "loot",
+   "img": "icons/commodities/gems/gem-shattered-blue.webp",
+   "data": {
+      "description": {
+         "value": "<p><em>Woundrous Item</em></p>\n<p>This cerulean-blue semi-solid stone is nearly translucent, and shines with an internal blue light. While the mana stone is in the possession of a character with a mana pool, their passive regeneration increases by 50% (round down).</p>\n<p>A character who benefitted from the stone for at least four hours can crush it, and absorbing the latent energies. This restores mana as if the user rested for three hours.</p>\n<p>These stones are said to be shards of enchanted runestones that are dipped in mana fountains, but such rumors are unsubstantiated, as the secret of creation is in the elusive hands of the most talented infusionists. This item is not treated as a consumable for the purposes of crafting.</p>\n<p>Like mana potions, consuming the mana stone does not count against the normal limit of mana restorative abilities of once per hour.</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 197",
+      "quantity": 1,
+      "weight": 3,
+      "price": 2000,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "rare",
+      "identified": true,
+      "damage": {
+         "parts": []
+      }
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+   },
+   "flags": {
+   },
+   "_id": "M1bZyeEWrS3as6Jj"
+}

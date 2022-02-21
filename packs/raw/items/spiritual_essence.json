@@ -1,0 +1,31 @@
+{
+   "name": "Spiritual Essence",
+   "type": "loot",
+   "img": "icons/commodities/materials/bowl-powder-grey.webp",
+   "data": {
+      "description": {
+         "value": "<p><em>rarity varies (based on the target's level)</em></p>\n<p>Spiritual essence can be consumed to add experience points equal to 1/5th the target's total experience points value (if possessing class levels), or their XP appropriate to their challenge (if a monster).</p>\n<p>Spiritual essence can never be found, and can be created by casting an essence seal spell that is equal in spell level to half the target's HD or Challenge, succeeding in capturing the essence (as per the spell) and then casting the wish spell, or using divine intervention or similar abilities to draw out spiritual essence.</p>\n<p>A creature turned into Spirit Essence does not give experience to whoever defeated it.</p>\n<p>Each attempt to draw spiritual essence has a 25% chance of succeeding, otherwise the creature must be resurrected, fully healed, and then subjected to the same experience again.</p>\n<p>The entity that created the spiritual essence cannot also use it. A single given creature can only benefit once from consuming spiritual essence, as consuming it also bestows a shard of the consumed creature's mind to the one who consumed it, usually warping their thoughts and inflicting a minor type of insanity, or causing them to hear hallucinations (usually as if the consumed creature is speaking to them). A creature whose essence is consumed cannot be resurrected, as their soul is obliterated and consumed.</p>\n<p>Demons of great power usually make spiritual essence of particularly tenacious victims to torment them, as the creature is always aware of what is around it, but cannot communicate (is treated as if beyond death, so Speak with Dead cannot function either). This represents artifacts such as the Skull of Gul‘dan.</p>\n<p>For this purpose, if Gul'dan is a 20th level warlock, then his Spirit Essence will yield 71,000 XP (one-fifth of 355,000), usually enough to raise the level of a Demon Hunter.</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 201",
+      "quantity": 1,
+      "weight": 3,
+      "price": 4000,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "rare",
+      "identified": true,
+      "damage": {
+         "parts": []
+      }
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+   },
+   "flags": {
+   },
+   "_id": "quv14hZaVmh1rvtN"
+}

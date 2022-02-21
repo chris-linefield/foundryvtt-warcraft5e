@@ -1,0 +1,31 @@
+{
+   "name": "Verdant Sphere",
+   "type": "loot",
+   "img": "icons/commodities/gems/pearl-water.webp",
+   "data": {
+      "description": {
+         "value": "<p><em>Woundrous Item, requires attunement</em></p>\n<p>Verdant spheres are mana stones attuned to ley lines to the point of drawing power from them. Many types of verdant spheres exist, each with different powers drawn upon the ley line's attunements. Legend has it the orb siphons a portion of the essence of every evil outsider slain by its owner. The orb draws on the essence of these demons for its own powers, the spirits writhing in torment within it for all eternity. The truth of the matter, however, is that there are simply powerful arcane tools, sometimes known as mooncrystals in Quel‘Thalas. The Blood Mage Prince Kael'thas Sunstrider is known to have the largest collection on Verdant Spheres, possessing the Attunement, Fire, and Demonic Drain spheres.</p>\n<p>When inactive, they appear to be fist-sized orbs of opaque glass. When activated by a caster's command, they burst into flame of a color attuned to the user and hover above their heads. Some casters prefer to disguise them behind an illusion, however, or keep them inactive until needed. When you use an action to toss one of these spheres into the air, the sphere orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Agility (Acrobatics) check. You can use an action to seize and stow the stone, ending its effect.</p>\n<p>A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head and shoulders, and is thus only subject to being damaged when it is specifically targeted.</p>\n<p><strong>Absorption (Epic)</strong>. You can use your reaction to cancel a spell of 4th level or lower cast by a creature you can see and targeting only you. Once the stone has canceled 20 levels of spells, it burns out and loses its magic. If you are targeted by a spell whose level is higher than the number of spell levels the stone has left, the stone can't cancel it. </p>\n<p><strong>Agility (Epic)</strong>. Your Agility score increases by 2, to a maximum of 20.</p>\n<p><strong>Attunement (Epic)</strong>. You can attune yourself to two other infused items. This sphere itself does not require attunement. </p>\n<p><strong>Awareness (Rare)</strong>. You can't be surprised.</p>\n<p><strong>Demonic Drain (Rare).</strong> Draining mana from demons grants double the normal mana amount possible.</p>\n<p><strong>Fortitude (Epic).</strong> Your Stamina score increases by 2, to a maximum of 20. </p>\n<p><strong>Fire (Epic).</strong> The area of your fire spells is doubled.</p>\n<p><strong>Frost (Epic)</strong>. The area of your cold spells is doubled. </p>\n<p><strong>Greater Absorption (Legendary)</strong>. You can use your reaction to cancel a spell of 8th level or lower cast by a creature you can see and targeting only you. Once the stone has canceled 50 levels of spells, it burns out and loses its magic. If you are targeted by a spell whose level is higher than the number of spell levels the stone has left, the stone can't cancel it.</p>\n<p><strong>Insight (Epic)</strong>. Your Spirit score increases by 2, to a maximum of 20.</p>\n<p><strong>Intellect (Epic).</strong> Your Intelligence score increases by 2, to a maximum of 20. </p>\n<p><strong>Leadership (Epic)</strong>. Your Charisma score increases by 2, to a maximum of 20.</p>\n<p><strong>Mastery (Legendary)</strong>. Your proficiency bonus increases by 1.</p>\n<p><strong>Protection (Rare)</strong>. You gain a +1 bonus to AC.</p>\n<p><strong>Regeneration (Legendary)</strong>. You regain 15 hit points at the end of each hour, provided that you have at least 1 hit point.</p>\n<p><strong>Reserve (Rare)</strong>. This sphere spells cast into it, holding them until you use them. It can store up to 3 levels worth of spells at a time. When found, it contains 1d4 - 1 levels of stored spells chosen by the DM.</p>\n<p>Any creature can cast a spell of 1st through 3rd level into the sphere by touching it as the spell is cast. The spell has no effect, other than to be stored in the sphere. If the sphere can't hold the spell, the spell is expended without effect. The level of the spell determines how much space it uses.</p>\n<p>This uses the spell‘s level, save DC, attack bonus, and spellcasting ability of the original caster, but is otherwise treated as if you cast the spell. The spell cast from the sphere is no longer stored in it, freeing up space.</p>\n<p><strong>Strength (Epic)</strong>. Your Strength score increases by 2, to a maximum of 20.</p>\n<p><strong>Sustenance (Rare)</strong>. You don't need to eat or drink.</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 205",
+      "quantity": 1,
+      "weight": 3,
+      "price": 0,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "varies",
+      "identified": true,
+      "damage": {
+         "parts": []
+      }
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+   },
+   "flags": {
+   },
+   "_id": "KaGzDSV6UtWOjRry"
+}

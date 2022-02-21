@@ -1,0 +1,31 @@
+{
+   "name": "Crystal Ball",
+   "type": "loot",
+   "img": "icons/commodities/gems/pearl-swirl-blue.webp",
+   "data": {
+      "description": {
+         "value": "<p><em>Woundrous Item</em></p>\n<p>This sphere of green glass is inlaid with a golden base, and may be pointed at a direction to see distant events up to a mile away as clear as if one is adjacent to it. When activated, the crystal ball may scry up to any point of sight within a mile that you can see, or allows you to see an obvious location that is unfamiliar to you and is obstructed by an object (such as behind a corner, behind a door, below a trapdoor). This orb functions as long as you can expend a bonus action, up to a maximum of ten minutes. The orb creates an invisible magical sensor on the location it observes, which can be seen if observers can see invisibility or have truesight, and cannot be attacked or interacted with (though it can be dispelled as a 3rd level spell). Once used, this cannot be used again until the next dawn.</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 194",
+      "quantity": 1,
+      "weight": 3,
+      "price": 0,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "uncommon",
+      "identified": true,
+      "damage": {
+         "parts": []
+      }
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+   },
+   "flags": {
+   },
+   "_id": "Ff2bCzBGluk2OsUn"
+}

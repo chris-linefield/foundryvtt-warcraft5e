@@ -1,0 +1,31 @@
+{
+   "name": "Demonic Figurine",
+   "type": "loot",
+   "img": "icons/commodities/treasure/statuette-gargoyle-green-gold.webp",
+   "data": {
+      "description": {
+         "value": "<p><em>Woundrous Item</em></p>\n<p>This onyx figurine is told of in legends as powerful artifacts send by the Burning Legion to pave the world for its inevitable return. Featuring a baleful demon with claws outstretched and a single hoof raised, the figurine can be pointed to a creature, unleashing a ray of doom. This is treated as the demonic doom spell, and the figurine maintains the sigil until the entire duration has ended without fail. The figurine possesses malevolent cunning, and uses the spell to wreak the most devastation it could before it is ended. Destroying a figurine unleashes the Doomguard, which is fully present (as if by an uncontrolled bind spell).</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 194",
+      "quantity": 1,
+      "weight": 3,
+      "price": 0,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "legendary",
+      "identified": true,
+      "damage": {
+         "parts": []
+      }
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+   },
+   "flags": {
+   },
+   "_id": "XuMNaohvlRu3tMes"
+}

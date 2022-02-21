@@ -1,20 +1,20 @@
 {
-   "name": "Greathammer",
+   "name": "Annihilator",
    "type": "weapon",
-   "img": "icons/weapons/hammers/hammer-double-engraved-green.webp",
+   "img": "icons/weapons/axes/axe-double-evil.webp",
    "data": {
       "description": {
-         "value": "<p>This iconic paladin weapon is favored by the Order of the Holy Light.</p>",
+         "value": "<p>Whenever this wicked-looking, dark purple battleaxe deals damage to a creature benefitting from an armor bonus to AC, it reduces their bonus to AC by 1 point. The penalty to armor remains for until the target creature completes a short rest. This reduction can stack (until the armor grants no bonus).</p>\n<p>You gain a +1 bonus to attack and damage rolls made with this magic weapon</p>",
          "chat": "",
          "unidentified": ""
       },
-      "source": "Wc5e - P. 187",
+      "source": "Wc5e - Core p. 192",
       "quantity": 1,
-      "weight": 10,
-      "price": 10,
+      "weight": 4,
+      "price": 1000,
       "attunement": 0,
       "equipped": false,
-      "rarity": "common",
+      "rarity": "rare",
       "identified": true,
       "activation": {
          "type": "action",
@@ -48,7 +48,7 @@
       },
       "ability": "",
       "actionType": "mwak",
-      "attackBonus": "0",
+      "attackBonus": "1",
       "chatFlavor": "",
       "critical": {
          "threshold": null,
@@ -57,11 +57,11 @@
       "damage": {
          "parts": [
             [
-               "2d6 + @mod",
-               "bludgeoning"
+               "1d8 + @mod +1",
+               "slashing"
             ]
          ],
-         "versatile": ""
+         "versatile": "1d10 + @mod +1"
       },
       "formula": "",
       "save": {
@@ -79,46 +79,37 @@
          "conditions": ""
       },
       "weaponType": "martialM",
-      "baseItem": "maul",
+      "baseItem": "battleaxe",
       "properties": {
-         "ada": false,
+         "ver": true,
          "amm": false,
+         "hvy": false,
          "fin": false,
          "fir": false,
          "foc": false,
-         "hvy": true,
          "lgt": false,
          "lod": false,
-         "mgc": false,
          "rch": false,
          "rel": false,
          "ret": false,
-         "sil": false,
          "spc": false,
          "thr": false,
-         "two": true,
-         "ver": false
+         "two": false,
+         "mgc": true,
+         "ada": false,
+         "sil": false
       },
-      "proficient": true
+      "proficient": false,
+      "attributes": {
+         "spelldc": 10
+      }
    },
    "effects": [],
    "folder": null,
    "sort": 0,
    "permission": {
-      "default": 0
    },
    "flags": {
-      "wc5e": {
-         "type": "item",
-         "unit": "WC5E.UI.Units.Gp",
-         "weightUnit": "WC5E.UI.Units.Lb",
-         "label": "WC5E.Items.Greathammer.Label",
-         "description": [
-            {
-               "value": "WC5E.Items.Greathammer.Description.1.Value"
-            }
-         ]
-      }
    },
-   "_id": "AYMQA0kbZqruIHB8"
+   "_id": "QZYkMlTfA8Vs0iL8"
 }

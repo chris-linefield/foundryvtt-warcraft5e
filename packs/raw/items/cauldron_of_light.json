@@ -1,0 +1,29 @@
+{
+   "name": "Cauldron of Light",
+   "type": "loot",
+   "img": "icons/tools/cooking/pot-camping-iron-black.webp",
+   "data": {
+      "description": {
+         "value": "<p><em>Woundrous Item</em></p>\n<p>You gain +1 to alchemy crafting rolls made with this cauldron for making batches of potions.</p>\n<p>Also, while this cauldron is at full capacity (5 potions), and you succeed on crafting the potions, your potions also shed light equal to a candle. When consumed or used, they also shed light equal to the light cantrip.</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 193",
+      "quantity": 1,
+      "weight": 5,
+      "price": 400,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "common",
+      "identified": true
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+      "default": 0
+   },
+   "flags": {
+   },
+   "_id": "3YF9BjTNYbd3QkDP"
+}

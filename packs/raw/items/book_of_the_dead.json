@@ -1,0 +1,31 @@
+{
+   "name": "Book of the Dead",
+   "type": "loot",
+   "img": "icons/sundries/books/book-symbol-skull-grey.webp",
+   "data": {
+      "description": {
+         "value": "<p><em>Woundrous Item</em></p>\n<p>This ancient, musty tome is decorated with inlaid bones from various creatures. The cover and spine are made from dried skin stretched and treated to remain flexible. The ink used to write the magical words and runes inside is blood drawn from the veins of living creatures killed as sacrifices when the book was completed. Activating this book requires tearing out some of its pages.</p>\n<p>When a page is torn, it turns to dust, and animates a skeleton or zombie. These undead can be animated with a longsword and shield or with a bow and twenty arrows (undead warriors and archers, respectively). You may tear out multiple pages as an action, but only have up to ten undead creatures under your control at any given time. After 24 hours of being animated, the undead disintegrate.</p>\n<p>So long as you possess the book, you may command the animated undead mentally with a bonus action as long as they are within 60 feet of you. The book has 100 pages, and the spells animating the undead otherwise acts as a 5th level conjure undead spell.</p>\n<p>You may attune yourself to the book and keep as a spellbook, in which case all necromancy spells written it cost one less mana point when cast by you. You may still spend pages of it to conjure undead.</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 193",
+      "quantity": 1,
+      "weight": 3,
+      "price": 0,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "rare",
+      "identified": true,
+      "damage": {
+         "parts": []
+      }
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+   },
+   "flags": {
+   },
+   "_id": "WIAPh1jlPSM9rXAc"
+}

@@ -1,20 +1,20 @@
 {
-   "name": "Greathammer",
+   "name": "Twin Blade of Azzinoth",
    "type": "weapon",
-   "img": "icons/weapons/hammers/hammer-double-engraved-green.webp",
+   "img": "modules/warcraft5e/res/pics/items/sword_two_bladed.webp",
    "data": {
       "description": {
-         "value": "<p>This iconic paladin weapon is favored by the Order of the Holy Light.</p>",
+         "value": "<p>Beyond the bonuses of the weapon upon attunement (see Greater Attunement), whenever you cast the mage armor spell, you gain 1 additional point of AC.</p>\n<p>Furthermore, upon a successful attack against a creature, you may declare that the weapons‘ mana burn ability activates as a bonus action as a strike effect. Once used, this property cannot be used again until the next dawn. The spell level of the mana burn spell depends on the current rarity of the weapon.</p>\n<table border=\"1\">\n<tbody>\n<tr>\n<td>Rarity</td>\n<td>Spell Level (Mana Burned)</td>\n</tr>\n<tr>\n<td>Uncommon</td>\n<td>2 (1d4 + 1)</td>\n</tr>\n<tr>\n<td>Rare</td>\n<td>6 (2d4 + 1)</td>\n</tr>\n<tr>\n<td>Epic</td>\n<td>8 (3d4 + 1)</td>\n</tr>\n<tr>\n<td>Legendary</td>\n<td>11 (4d4 + 1)</td>\n</tr>\n</tbody>\n</table>\n<p>The most well-known twin-blade is that that once belonged to the doom guard Azzinoth, whose blades were claimed by Illidan Stormrage. Twin-blades are warglaives employed by demonic felguards, and are specifically created to increase in power with the demon. As demon hunters often count as demons, twin-blades can increase in power in the hands of demon hunters as well.</p>",
          "chat": "",
          "unidentified": ""
       },
-      "source": "Wc5e - P. 187",
+      "source": "Wc5e - Core p. 203",
       "quantity": 1,
       "weight": 10,
-      "price": 10,
-      "attunement": 0,
+      "price": 0,
+      "attunement": 3,
       "equipped": false,
-      "rarity": "common",
+      "rarity": "varies",
       "identified": true,
       "activation": {
          "type": "action",
@@ -48,7 +48,7 @@
       },
       "ability": "",
       "actionType": "mwak",
-      "attackBonus": "0",
+      "attackBonus": "1",
       "chatFlavor": "",
       "critical": {
          "threshold": null,
@@ -57,8 +57,8 @@
       "damage": {
          "parts": [
             [
-               "2d6 + @mod",
-               "bludgeoning"
+               "1d8 + @mod +1",
+               "slashing"
             ]
          ],
          "versatile": ""
@@ -79,24 +79,24 @@
          "conditions": ""
       },
       "weaponType": "martialM",
-      "baseItem": "maul",
+      "baseItem": "longsword",
       "properties": {
          "ada": false,
          "amm": false,
-         "fin": false,
+         "fin": true,
          "fir": false,
          "foc": false,
-         "hvy": true,
+         "hvy": false,
          "lgt": false,
          "lod": false,
-         "mgc": false,
+         "mgc": true,
          "rch": false,
          "rel": false,
          "ret": false,
          "sil": false,
          "spc": false,
          "thr": false,
-         "two": true,
+         "two": false,
          "ver": false
       },
       "proficient": true
@@ -105,20 +105,8 @@
    "folder": null,
    "sort": 0,
    "permission": {
-      "default": 0
    },
    "flags": {
-      "wc5e": {
-         "type": "item",
-         "unit": "WC5E.UI.Units.Gp",
-         "weightUnit": "WC5E.UI.Units.Lb",
-         "label": "WC5E.Items.Greathammer.Label",
-         "description": [
-            {
-               "value": "WC5E.Items.Greathammer.Description.1.Value"
-            }
-         ]
-      }
    },
-   "_id": "AYMQA0kbZqruIHB8"
+   "_id": "MaLjsX3nw6AFDwdp"
 }

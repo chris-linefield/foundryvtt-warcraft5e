@@ -1,0 +1,115 @@
+{
+   "name": "Felo'melorn",
+   "type": "weapon",
+   "img": "icons/skills/melee/strike-sword-steel-yellow.webp",
+   "data": {
+      "description": {
+         "value": "<p><em>requires attunement</em></p>\n<p>This sword has 3 charges. While attuned to it, you can expend 1 charge and cast any one of the following spells as an action:</p>\n<ul>\n<li>Flame Strike</li>\n<li>Elemental Tongue (Fire only), spell level 4</li>\n</ul>\n<p><em>Special.</em> Felo'melorn can always be remade when destroyed, and gains an additional charge if destroyed by a foe and reforged by who was attuned to it. It can have a maximum number of charges equal to 6. If the blade itself is used to kill who it is attuned to, it loses all extra charges and returns to its original number of charges.</p>\n<p>Flamestrike in common, Felo‘melorn is an ancient Highborne runeblade once wielded by Dath'Remar Sunstrider, even before the War of the Ancients. It is rumored to have once been his favored weapon, and over many generations was passed down through the Sunstrider dynasty. During the Third War, Anasterian Sunstrider wielded the sword in battle against Arthas Menethil, but Frostmourne severed the blade and he was defeated. Later, Kael'thas Sunstrider, last of the Sunstrider line, recovered it and had it reforged, with ‗magic, hatred and a burning need of revenge.‘</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 195",
+      "quantity": 1,
+      "weight": 3,
+      "price": 0,
+      "attunement": 1,
+      "equipped": false,
+      "rarity": "legendary",
+      "identified": true,
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": null,
+         "units": ""
+      },
+      "target": {
+         "value": null,
+         "width": null,
+         "units": "",
+         "type": ""
+      },
+      "range": {
+         "value": 5,
+         "long": null,
+         "units": "ft"
+      },
+      "uses": {
+         "value": null,
+         "max": "",
+         "per": ""
+      },
+      "consume": {
+         "type": "",
+         "target": "",
+         "amount": null
+      },
+      "ability": "",
+      "actionType": "mwak",
+      "attackBonus": "3",
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [
+            [
+               "1d8 + @mod +3",
+               "slashing"
+            ]
+         ],
+         "versatile": "1d10 + @mod +3"
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "scaling": "spell"
+      },
+      "armor": {
+         "value": 10
+      },
+      "hp": {
+         "value": 0,
+         "max": 0,
+         "dt": null,
+         "conditions": ""
+      },
+      "weaponType": "martialM",
+      "baseItem": "longsword",
+      "properties": {
+         "ver": true,
+         "amm": false,
+         "hvy": false,
+         "fin": false,
+         "fir": false,
+         "foc": false,
+         "lgt": false,
+         "lod": false,
+         "rch": false,
+         "rel": false,
+         "ret": false,
+         "spc": false,
+         "thr": false,
+         "two": false,
+         "mgc": true,
+         "ada": false,
+         "sil": false
+      },
+      "proficient": false,
+      "attributes": {
+         "spelldc": 10
+      }
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+   },
+   "flags": {
+   },
+   "_id": "rfNafH8RrUsLCThH"
+}

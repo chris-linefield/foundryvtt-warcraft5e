@@ -16,6 +16,14 @@ DND5E.abilities.dex = "WC5E.Character.Agility";
 DND5E.abilities.con = "WC5E.Character.Stamina";
 DND5E.abilities.wis = "WC5E.Character.Spirit";
 
+DND5E.attunements[3] = "WC5E.UI.Attunements.GreaterAttunement";
+
+DND5E.damageTypes.holy = "WC5E.UI.DamageTypes.Holy";
+DND5E.damageTypes.shadow = "WC5E.UI.DamageTypes.Shadow";
+
+DND5E.itemRarity.veryRare = "WC5E.UI.ItemRarity.Epic";
+DND5E.itemRarity.varies = "WC5E.UI.ItemRarity.Varies";
+
 DND5E.languages = {
     "common"    : "WC5E.Languages.Common",
     "dwarven"   : "WC5E.Languages.Dwarven",
@@ -36,7 +44,6 @@ DND5E.languages = {
     "troll"     : "WC5E.Languages.Troll"
 };
 
-DND5E.damageTypes.holy = "WC5E.UI.DamageTypes.Holy";
-DND5E.damageTypes.shadow = "WC5E.UI.DamageTypes.Shadow";
+
 
 //DND5E.toolIds.infusion = "oZ4szgJtQaSdG1qD";

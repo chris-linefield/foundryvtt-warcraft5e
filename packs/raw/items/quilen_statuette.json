@@ -1,0 +1,31 @@
+{
+   "name": "Quilen Statuette",
+   "type": "loot",
+   "img": "icons/commodities/treasure/figurine-rhino.webp",
+   "data": {
+      "description": {
+         "value": "<p><em>Woundrous Item</em></p>\n<p>You can use an action to hold the statuette aloft and speak the command word. Doing so conjures a Quilen, as if you had cast the conjure construct spell (spell level 5). The statuette can't be used this way again until the next dawn.</p>\n<p>This statuette, carved during the brief reign of Mogu emperor Kang of Pandaria, was part of an experiment to bind Quilen servants in small stones. This experiment was abandoned as the Quilen thus bound were greatly diminished in power and thus deemed unworthy.</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 199",
+      "quantity": 1,
+      "weight": 3,
+      "price": 4000,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "rare",
+      "identified": true,
+      "damage": {
+         "parts": []
+      }
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+   },
+   "flags": {
+   },
+   "_id": "W8meMB9czfHcv3J9"
+}

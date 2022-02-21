@@ -11825,6 +11825,9 @@
             "OutOfRange": "The target is out of range. Distance:"
          },
          "Archetype": "Archetype",
+         "Attunements": {
+            "GreaterAttunement": "Greater Attunement"
+         },
          "Bond": "Bond",
          "Bonds": "Bonds",
          "BonusAction": "Bonus Action",
@@ -11851,6 +11854,10 @@
          "Gear": "Gear",
          "Ideal": "Ideal",
          "Ideals": "Ideals",
+         "ItemRarity" : {
+            "Epic": "Epic",
+            "Varies": "Varies"
+         },
          "Language": "Language",
          "Mass": "Mass",
          "MaterialCost": "Material Cost",

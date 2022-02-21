@@ -1,20 +1,20 @@
 {
-   "name": "Greathammer",
+   "name": "Val'Anyr, Hammer of Ancient Kings",
    "type": "weapon",
-   "img": "icons/weapons/hammers/hammer-double-engraved-green.webp",
+   "img": "icons/weapons/hammers/hammer-double-engraved-gold.webp",
    "data": {
       "description": {
-         "value": "<p>This iconic paladin weapon is favored by the Order of the Holy Light.</p>",
+         "value": "<p>You may use the power word shield spell as a bonus action, but only at a range of touch, or to a target of a healing spell you cast. Once this feature is used three times, it cannot be used again until the next dawn.</p>\n<p>You gain +2 to attack and damage rolls made with this magic weapon. </p>",
          "chat": "",
          "unidentified": ""
       },
-      "source": "Wc5e - P. 187",
+      "source": "Wc5e - Core p. 204",
       "quantity": 1,
-      "weight": 10,
-      "price": 10,
+      "weight": 4,
+      "price": 10000,
       "attunement": 0,
       "equipped": false,
-      "rarity": "common",
+      "rarity": "veryRare",
       "identified": true,
       "activation": {
          "type": "action",
@@ -22,18 +22,18 @@
          "condition": ""
       },
       "duration": {
-         "value": null,
+         "value": 0,
          "units": ""
       },
       "target": {
-         "value": null,
+         "value": 0,
          "width": null,
          "units": "",
          "type": ""
       },
       "range": {
          "value": 5,
-         "long": null,
+         "long": 0,
          "units": "ft"
       },
       "uses": {
@@ -48,7 +48,7 @@
       },
       "ability": "",
       "actionType": "mwak",
-      "attackBonus": "0",
+      "attackBonus": "2",
       "chatFlavor": "",
       "critical": {
          "threshold": null,
@@ -57,7 +57,7 @@
       "damage": {
          "parts": [
             [
-               "2d6 + @mod",
+               "1d6 + @mod +2",
                "bludgeoning"
             ]
          ],
@@ -78,47 +78,39 @@
          "dt": null,
          "conditions": ""
       },
-      "weaponType": "martialM",
-      "baseItem": "maul",
+      "weaponType": "simpleM",
+      "baseItem": "mace",
       "properties": {
-         "ada": false,
+         "value": "",
          "amm": false,
+         "hvy": false,
          "fin": false,
          "fir": false,
          "foc": false,
-         "hvy": true,
          "lgt": false,
-         "lod": false,
-         "mgc": false,
          "rch": false,
          "rel": false,
          "ret": false,
-         "sil": false,
          "spc": false,
          "thr": false,
-         "two": true,
-         "ver": false
+         "two": false,
+         "ver": false,
+         "lod": false,
+         "mgc": true,
+         "ada": false,
+         "sil": false
       },
-      "proficient": true
+      "proficient": false,
+      "attributes": {
+         "spelldc": 10
+      }
    },
    "effects": [],
    "folder": null,
    "sort": 0,
    "permission": {
-      "default": 0
    },
    "flags": {
-      "wc5e": {
-         "type": "item",
-         "unit": "WC5E.UI.Units.Gp",
-         "weightUnit": "WC5E.UI.Units.Lb",
-         "label": "WC5E.Items.Greathammer.Label",
-         "description": [
-            {
-               "value": "WC5E.Items.Greathammer.Description.1.Value"
-            }
-         ]
-      }
    },
-   "_id": "AYMQA0kbZqruIHB8"
+   "_id": "Q5k3alMRM64zfL9k"
 }

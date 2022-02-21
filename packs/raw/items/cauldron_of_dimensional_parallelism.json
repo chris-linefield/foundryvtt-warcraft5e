@@ -1,0 +1,29 @@
+{
+   "name": "Cauldron of Dimensional Parallelism",
+   "type": "loot",
+   "img": "icons/tools/cooking/pot-camping-iron-black.webp",
+   "data": {
+      "description": {
+         "value": "<p><em>Woundrous Item</em></p>\n<p>You gain +5 to alchemy crafting rolls made with this cauldron for making batches of potions.</p>\n<p>Also, this cauldron can hold the materials to craft up to 20 potions. By turning a dial, the cauldron creates a compartment that can host different potions.</p>\n<p>The cauldron can have a total of four chambers (5 potions each), and you can craft all such potions in parallel. If some potions are of higher rarity than others, any potions that mature during your crafting time can be removed (or replaced) without affecting your crafting process.</p>\n<p>Also, if your crafting roll exceeds the DC by 5 or more, you get 20% extra potions.</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 193",
+      "quantity": 1,
+      "weight": 5,
+      "price": 16000,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "veryRare",
+      "identified": true
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+      "default": 0
+   },
+   "flags": {
+   },
+   "_id": "xOeGkODCnpCAxBaz"
+}
