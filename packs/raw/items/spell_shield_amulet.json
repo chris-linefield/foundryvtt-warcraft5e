@@ -1,0 +1,31 @@
+{
+   "name": "Spell Shield Amulet",
+   "type": "loot",
+   "img": "icons/equipment/neck/amulet-round-silver-teal.webp",
+   "data": {
+      "description": {
+         "value": "<p><em>Woundrous Item</em></p>\n<p>You can cast a 3rd-level counterspell, but the spell you choose must include you as a target. Once used, it cannot be used again until the next dawn.</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 201",
+      "quantity": 1,
+      "weight": 3,
+      "price": 4000,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "uncommon",
+      "identified": true,
+      "damage": {
+         "parts": []
+      }
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+   },
+   "flags": {
+   },
+   "_id": "unaC4X27QyANLw4U"
+}

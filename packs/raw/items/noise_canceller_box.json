@@ -1,29 +1,29 @@
 {
-   "name": "Greathammer",
+   "name": "Noise Canceller Box",
    "type": "weapon",
-   "img": "icons/weapons/hammers/hammer-double-engraved-green.webp",
+   "img": "icons/commodities/tech/antenna-powered-purple.webp",
    "data": {
       "description": {
-         "value": "<p>This iconic paladin weapon is favored by the Order of the Holy Light.</p>",
+         "value": "<p>5 lb., one-handed, light, engine (electrical)</p>\n<p>MR: 1-2</p>\n<p>This device instantly counters any noise with active noise control, creating counter-waves to remove any semblance of sound and replicating the silence spell.</p>",
          "chat": "",
          "unidentified": ""
       },
-      "source": "Wc5e - P. 187",
+      "source": "Wc5e - Core p. 232",
       "quantity": 1,
-      "weight": 10,
-      "price": 10,
+      "weight": 5,
+      "price": 800,
       "attunement": 0,
       "equipped": false,
-      "rarity": "common",
+      "rarity": "uncommon",
       "identified": true,
       "activation": {
-         "type": "action",
-         "cost": 1,
+         "type": "",
+         "cost": null,
          "condition": ""
       },
       "duration": {
-         "value": null,
-         "units": ""
+         "value": 10,
+         "units": "minute"
       },
       "target": {
          "value": null,
@@ -32,7 +32,7 @@
          "type": ""
       },
       "range": {
-         "value": 5,
+         "value": 120,
          "long": null,
          "units": "ft"
       },
@@ -47,7 +47,7 @@
          "amount": null
       },
       "ability": "",
-      "actionType": "mwak",
+      "actionType": "",
       "attackBonus": "0",
       "chatFlavor": "",
       "critical": {
@@ -55,12 +55,7 @@
          "damage": ""
       },
       "damage": {
-         "parts": [
-            [
-               "2d6 + @mod",
-               "bludgeoning"
-            ]
-         ],
+         "parts": [],
          "versatile": ""
       },
       "formula": "",
@@ -78,16 +73,16 @@
          "dt": null,
          "conditions": ""
       },
-      "weaponType": "martialM",
-      "baseItem": "maul",
+      "weaponType": "improv",
+      "baseItem": "",
       "properties": {
          "ada": false,
          "amm": false,
-         "fin": false,
+         "fin": true,
          "fir": false,
          "foc": false,
-         "hvy": true,
-         "lgt": false,
+         "hvy": false,
+         "lgt": true,
          "lod": false,
          "mgc": false,
          "rch": false,
@@ -96,7 +91,7 @@
          "sil": false,
          "spc": false,
          "thr": false,
-         "two": true,
+         "two": false,
          "ver": false
       },
       "proficient": true
@@ -108,17 +103,6 @@
       "default": 0
    },
    "flags": {
-      "wc5e": {
-         "type": "item",
-         "unit": "WC5E.UI.Units.Gp",
-         "weightUnit": "WC5E.UI.Units.Lb",
-         "label": "WC5E.Items.Greathammer.Label",
-         "description": [
-            {
-               "value": "WC5E.Items.Greathammer.Description.1.Value"
-            }
-         ]
-      }
    },
-   "_id": "AYMQA0kbZqruIHB8"
+   "_id": "2qdZu9uN3hAhqlzu"
 }

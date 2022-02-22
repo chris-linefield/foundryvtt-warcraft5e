@@ -1,0 +1,31 @@
+{
+   "name": "Hearthstone",
+   "type": "loot",
+   "img": "icons/commodities/gems/gem-rough-spiral-teal.webp",
+   "data": {
+      "description": {
+         "value": "<p><em>Woundrous Item</em></p>\n<p>A user may have only one hearthstone at any given time, and it is attuned as a Teleport Circle. Requiring 3 actions (object interaction) to activate, the hearthstone teleports the user to where they last called home. When used, it takes a day to recharge. An adventurer may alter his hearthstone‘s location to any indoor building he has spent more than 24 hours in, which replaces the teleport circle‘s location.</p>\n<p>This stone is given to every adventurer who leaves his city.</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 196",
+      "quantity": 1,
+      "weight": 3,
+      "price": 2000,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "rare",
+      "identified": true,
+      "damage": {
+         "parts": []
+      }
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+   },
+   "flags": {
+   },
+   "_id": "gOtAZ9bLPbOvcyVq"
+}

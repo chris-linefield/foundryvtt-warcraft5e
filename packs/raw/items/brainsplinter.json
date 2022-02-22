@@ -1,20 +1,20 @@
 {
-   "name": "Greathammer",
+   "name": "Brainsplinter",
    "type": "weapon",
-   "img": "icons/weapons/hammers/hammer-double-engraved-green.webp",
+   "img": "icons/weapons/daggers/dagger-jeweled-purple.webp",
    "data": {
       "description": {
-         "value": "<p>This iconic paladin weapon is favored by the Order of the Holy Light.</p>",
+         "value": "<p><em>requires attunement</em></p>\n<p>When striking a spellcaster, the dagger‘s damage lingers and disrupts concentration (DC 10 or half damage as normal) for 1d4 rounds after being hit. If hit again, the counter resets. Activating this quality costs a bonus action, and is a strike effect.</p>\n<p>You gain a +2 bonus to attack and damage rolls made with this magic weapon.</p>",
          "chat": "",
          "unidentified": ""
       },
-      "source": "Wc5e - P. 187",
+      "source": "DMG pg. 213",
       "quantity": 1,
-      "weight": 10,
-      "price": 10,
-      "attunement": 0,
+      "weight": 1,
+      "price": 4000,
+      "attunement": 1,
       "equipped": false,
-      "rarity": "common",
+      "rarity": "veryRare",
       "identified": true,
       "activation": {
          "type": "action",
@@ -22,18 +22,18 @@
          "condition": ""
       },
       "duration": {
-         "value": null,
+         "value": 0,
          "units": ""
       },
       "target": {
-         "value": null,
+         "value": 0,
          "width": null,
          "units": "",
          "type": ""
       },
       "range": {
-         "value": 5,
-         "long": null,
+         "value": 20,
+         "long": 60,
          "units": "ft"
       },
       "uses": {
@@ -48,7 +48,7 @@
       },
       "ability": "",
       "actionType": "mwak",
-      "attackBonus": "0",
+      "attackBonus": "2",
       "chatFlavor": "",
       "critical": {
          "threshold": null,
@@ -57,8 +57,8 @@
       "damage": {
          "parts": [
             [
-               "2d6 + @mod",
-               "bludgeoning"
+               "1d4 + @mod +2",
+               "piercing"
             ]
          ],
          "versatile": ""
@@ -78,47 +78,38 @@
          "dt": null,
          "conditions": ""
       },
-      "weaponType": "martialM",
-      "baseItem": "maul",
+      "weaponType": "simpleM",
+      "baseItem": "dagger",
       "properties": {
-         "ada": false,
+         "fin": true,
+         "lgt": true,
+         "thr": true,
          "amm": false,
-         "fin": false,
+         "hvy": false,
          "fir": false,
          "foc": false,
-         "hvy": true,
-         "lgt": false,
          "lod": false,
-         "mgc": false,
          "rch": false,
          "rel": false,
          "ret": false,
-         "sil": false,
          "spc": false,
-         "thr": false,
-         "two": true,
-         "ver": false
+         "two": false,
+         "ver": false,
+         "mgc": true,
+         "ada": false,
+         "sil": false
       },
-      "proficient": true
+      "proficient": false,
+      "attributes": {
+         "spelldc": 10
+      }
    },
    "effects": [],
    "folder": null,
    "sort": 0,
    "permission": {
-      "default": 0
    },
    "flags": {
-      "wc5e": {
-         "type": "item",
-         "unit": "WC5E.UI.Units.Gp",
-         "weightUnit": "WC5E.UI.Units.Lb",
-         "label": "WC5E.Items.Greathammer.Label",
-         "description": [
-            {
-               "value": "WC5E.Items.Greathammer.Description.1.Value"
-            }
-         ]
-      }
    },
-   "_id": "AYMQA0kbZqruIHB8"
+   "_id": "ZG2oaN7bnX4eUGaN"
 }

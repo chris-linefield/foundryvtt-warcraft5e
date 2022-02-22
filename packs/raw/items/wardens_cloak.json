@@ -1,0 +1,98 @@
+{
+   "name": "Warden's Cloak",
+   "type": "equipment",
+   "img": "icons/equipment/back/cloak-layered-green-brown.webp",
+   "data": {
+      "description": {
+         "value": "<p><em>Wondrous item, requires attunement</em></p>\n<p>Specially constructed for the night elves' wardens, these green velvet cloaks bear a fringe of deadly, razor-sharp blades along the hem, resembling the wings of an owl. While wearing it, you gain the following benefits:</p>\n<ul>\n<li>You gain a +1 bonus to AC.</li>\n<li>You ignore damage by falling, as if under the effects of the feather fall spell.</li>\n<li>You may conjure two daggers from the cloak‘s folds. This does not cost an action, but the daggers remain until the end of your turn, afterwards they disappear.</li>\n</ul>\n<p>Wardens who don this cloak are usually talented with knife-throwing (taking the fan of knives talent). </p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 205",
+      "quantity": 1,
+      "weight": 3,
+      "price": 5000,
+      "attunement": 1,
+      "equipped": false,
+      "rarity": "rare",
+      "identified": true,
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": 1,
+         "units": "hour"
+      },
+      "target": {
+         "value": 40,
+         "width": null,
+         "units": "ft",
+         "type": "cube"
+      },
+      "range": {
+         "value": 60,
+         "long": 0,
+         "units": "ft"
+      },
+      "uses": {
+         "value": 1,
+         "max": "1",
+         "per": "day"
+      },
+      "consume": {
+         "type": "",
+         "target": "",
+         "amount": null
+      },
+      "ability": "",
+      "actionType": "save",
+      "attackBonus": 5,
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "dex",
+         "dc": 13,
+         "scaling": "flat"
+      },
+      "armor": {
+         "value": 0,
+         "type": "clothing",
+         "dex": 0
+      },
+      "hp": {
+         "value": 0,
+         "max": 0,
+         "dt": null,
+         "conditions": ""
+      },
+      "baseItem": "",
+      "speed": {
+         "value": null,
+         "conditions": ""
+      },
+      "strength": 0,
+      "stealth": false,
+      "proficient": false,
+      "attributes": {
+         "spelldc": 10
+      }
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+   },
+   "flags": {
+   },
+   "_id": "VfHcQ6aAe5kjqGKs"
+}

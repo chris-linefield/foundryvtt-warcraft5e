@@ -1,0 +1,31 @@
+{
+   "name": "Jaina's Locket",
+   "type": "loot",
+   "img": "icons/equipment/neck/amulet-round-blue.webp",
+   "data": {
+      "description": {
+         "value": "<p><em>Woundrous Item, requires attunement</em></p>\n<p>You may use this locket to cast the teleport spell, but only to a destination inside the borders of Dalaran. The locket treats Dalaran as a place with 'permanent circle' familiarity for the purposes of the teleport spell, and if no specific location is specified in Dalaran, it teleports the user directly to the Central Square, under the statue of Archmage Antonidas.</p>\n<p>Other magical lockets like Jaina's Locket exist, usually providing one-way teleportation to a specific city or region.</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 196",
+      "quantity": 1,
+      "weight": 3,
+      "price": 2000,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "rare",
+      "identified": true,
+      "damage": {
+         "parts": []
+      }
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+   },
+   "flags": {
+   },
+   "_id": "7FlSlDVsXQpGq3Xe"
+}

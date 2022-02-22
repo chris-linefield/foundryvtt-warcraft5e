@@ -1,20 +1,20 @@
 {
-   "name": "Greathammer",
+   "name": "Gorehowl",
    "type": "weapon",
-   "img": "icons/weapons/hammers/hammer-double-engraved-green.webp",
+   "img": "icons/weapons/axes/axe-battle-skull-black.webp",
    "data": {
       "description": {
-         "value": "<p>This iconic paladin weapon is favored by the Order of the Holy Light.</p>",
+         "value": "<p><em>attunement required</em></p>\n<p>You may swing the axe as an action to cast the Fear spell. Furthermore, once attuned to this axe, you may choose to gain one of the following talents:</p>\n<ul>\n<li>Brutal Critical</li>\n<li>Weapon Mastery</li>\n</ul>\n<p>Gorehowl, the axe of Hellscream, has a heavy blade that is notched and stained, with sharp, wicked curves. Small holes dot the blade near the handle; when the wielder swings the axe, air whistles through these holes. The sound keens over the battlefield, magically strengthened and imbued with otherworldly power. Gorehowl is one of Azeroth's most feared and notorious weapons.</p>\n<p>You gain a +3 bonus to attack and damage rolls made with this magic weapon.</p>",
          "chat": "",
          "unidentified": ""
       },
-      "source": "Wc5e - P. 187",
+      "source": "Wc5e - Core p. 195",
       "quantity": 1,
-      "weight": 10,
-      "price": 10,
-      "attunement": 0,
+      "weight": 7,
+      "price": 16000,
+      "attunement": 1,
       "equipped": false,
-      "rarity": "common",
+      "rarity": "legendary",
       "identified": true,
       "activation": {
          "type": "action",
@@ -48,7 +48,7 @@
       },
       "ability": "",
       "actionType": "mwak",
-      "attackBonus": "0",
+      "attackBonus": "3",
       "chatFlavor": "",
       "critical": {
          "threshold": null,
@@ -57,8 +57,8 @@
       "damage": {
          "parts": [
             [
-               "2d6 + @mod",
-               "bludgeoning"
+               "1d12 + @mod +3",
+               "slashing"
             ]
          ],
          "versatile": ""
@@ -79,46 +79,37 @@
          "conditions": ""
       },
       "weaponType": "martialM",
-      "baseItem": "maul",
+      "baseItem": "greataxe",
       "properties": {
-         "ada": false,
+         "hvy": true,
+         "two": true,
          "amm": false,
          "fin": false,
          "fir": false,
          "foc": false,
-         "hvy": true,
          "lgt": false,
          "lod": false,
-         "mgc": false,
          "rch": false,
          "rel": false,
          "ret": false,
-         "sil": false,
          "spc": false,
          "thr": false,
-         "two": true,
-         "ver": false
+         "ver": false,
+         "mgc": true,
+         "ada": false,
+         "sil": false
       },
-      "proficient": true
+      "proficient": false,
+      "attributes": {
+         "spelldc": 10
+      }
    },
    "effects": [],
    "folder": null,
    "sort": 0,
    "permission": {
-      "default": 0
    },
    "flags": {
-      "wc5e": {
-         "type": "item",
-         "unit": "WC5E.UI.Units.Gp",
-         "weightUnit": "WC5E.UI.Units.Lb",
-         "label": "WC5E.Items.Greathammer.Label",
-         "description": [
-            {
-               "value": "WC5E.Items.Greathammer.Description.1.Value"
-            }
-         ]
-      }
    },
-   "_id": "AYMQA0kbZqruIHB8"
+   "_id": "KpRF8Q58ERZvdfl8"
 }

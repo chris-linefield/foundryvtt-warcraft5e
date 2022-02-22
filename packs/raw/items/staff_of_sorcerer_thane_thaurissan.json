@@ -1,0 +1,115 @@
+{
+   "name": "Staff of Sorcerer-Thane Thaurissan",
+   "type": "weapon",
+   "img": "icons/weapons/staves/staff-ornate-red.webp",
+   "data": {
+      "description": {
+         "value": "<p><em>requires attunement by a druid, mage, shaman or warlock</em></p>\n<p>You have resistance to fire damage while you hold this magic staff. If you already have resistance, you are immune to fire damage.</p>\n<p>The staff has 10 Charges. While holding it, you can use an action to expend 1 or more of its Charges to cast one of the following Spells from it, using your spell save DC: burning hands (1 charge), fireball (3 charges), or wall of fire (4 charges).</p>\n<p>The staff regains 1d6 + 4 expended Charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff blackens, crumbles into cinders, and is destroyed.</p>\n<p>Sorcerer-Thane Thaurissan was the leader of the Dark Iron dwarves during the War of the Three Hammers. When he lost Ironforge to the Bronzebeard clan, Thaurissan retreated to the Redridge Mountains and founded a city in his name. In a desperate attempt to defeat his enemies, Thaurissan accidentally summoned the demigod Ragnaros, which resulted in the sorcerer-thane's immediate death and the formation of the volcanic peak of Blackrock Mountain. </p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 202",
+      "quantity": 1,
+      "weight": 4,
+      "price": 10000,
+      "attunement": 1,
+      "equipped": false,
+      "rarity": "veryRare",
+      "identified": true,
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": null,
+         "units": ""
+      },
+      "target": {
+         "value": null,
+         "width": null,
+         "units": "",
+         "type": ""
+      },
+      "range": {
+         "value": 5,
+         "long": null,
+         "units": "ft"
+      },
+      "uses": {
+         "value": null,
+         "max": "",
+         "per": ""
+      },
+      "consume": {
+         "type": "",
+         "target": "",
+         "amount": null
+      },
+      "ability": "",
+      "actionType": "mwak",
+      "attackBonus": "",
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [
+            [
+               "1d6 + @mod",
+               "bludgeoning"
+            ]
+         ],
+         "versatile": "1d8 + @mod"
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "scaling": "spell"
+      },
+      "armor": {
+         "value": 10
+      },
+      "hp": {
+         "value": 0,
+         "max": 0,
+         "dt": null,
+         "conditions": ""
+      },
+      "weaponType": "simpleM",
+      "baseItem": "",
+      "properties": {
+         "amm": false,
+         "hvy": false,
+         "fin": false,
+         "fir": false,
+         "foc": false,
+         "lgt": false,
+         "lod": false,
+         "rch": false,
+         "rel": false,
+         "ret": false,
+         "spc": false,
+         "thr": false,
+         "two": false,
+         "ver": true,
+         "mgc": true,
+         "ada": false,
+         "sil": false
+      },
+      "proficient": false,
+      "attributes": {
+         "spelldc": 10
+      }
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+   },
+   "flags": {
+   },
+   "_id": "787XQHK1nm1WyeMr"
+}
