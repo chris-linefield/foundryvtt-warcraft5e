@@ -1,14 +1,12 @@
 # Warcraft Ruleset for FoundryVTT
 
 based on the 5e Conversion of the official Warcraft Role Playing Game:
-
 https://drive.google.com/drive/folders/0B1FoMHLY1oOtLUlNdTZXYzVNY0k
 
 Join the discord if you want to support the development of the ruleset itself.
-
 https://discord.com/channels/410113488204070932/410113488204070934
 
-## Version: 0.1.1
+## Version: 0.1.2
 Feature | Description
 ------------ | -------------
 ![Classes Preview](http://www.hahn-webdesign.de/warcraft5e/classes_preview.jpg) | Features an overhauled class-sheet with lore and images. Features compendium entries for 13 custom classes and their respective class feats and spells.<ul><li>Alchemist</li><li>Death Knight</li><li>Druid</li><li>Hunter</li><li>Mage</li><li>Monk</li><li>Paladin</li><li>Priest</li><li>Rogue</li><li>Shaman</li><li>Tinker</li><li>Warlock</li><li>Warrior</li></ul>
@@ -25,7 +23,7 @@ Feature | Description
 
 Description | Feature
 ------------ | -------------
-Features 8 custom Compendiums for the Warcraft Ruleset:<ul><li>Backgrounds</li><li>Background Features</li><li>Classes</li><li>Class Features</li><li>Class Talents</li><li>Races</li><li>Rules</li><li>Spells</li> | ![Talents Preview](http://www.hahn-webdesign.de/warcraft5e/talents_preview.jpg)
+Features 10 custom Compendiums for the Warcraft Ruleset:<ul><li>Backgrounds</li><li>Background Features</li><li>Classes</li><li>Class Features</li><li>Class Talents</li><li>Monsters</li><li>Monster Features</li><li>Races</li><li>Rules</li><li>Spells</li> | ![Talents Preview](http://www.hahn-webdesign.de/warcraft5e/talents_preview.jpg)
 
 Feature | Description
 ------------ | -------------
@@ -44,8 +42,3 @@ https://github.com/ArthegaAsdweri/foundryvtt-warcraft5e/raw/master/module.json
 ## Goals
 The module aims for a complete implementation of the ruleset with all it's addons (Codex Mandatum, Monster Compendium, ...)
 Automation of all possible skills by improving management and usage for foundry VTT.
-
-### Next steps:
-
-- Make races valid items for the character sheet so it automatically updates attributes and stuff
-- rework world and lore specific things - (like available languages, ...)
