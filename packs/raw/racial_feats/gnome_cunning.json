@@ -1,0 +1,26 @@
+{
+   "_id": "6JeBlpoUz49bqgc4",
+   "name": "Gnome Cunning",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Wc5e - Core p. 20",
+      "requirements": "Gnome"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.GnomeCunning.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "systems/dnd5e/icons/skills/light_07.jpg",
+   "effects": [
+   ]
+}

@@ -3,7 +3,6 @@
     {{!------ SHEET HEADER ------}}
     <header>
         <h1>{{localize item.name}}</h1>
-        {{localize item.flags.wc5e.description}}
     </header>
 
     <!--
@@ -31,14 +30,76 @@
       }
     -->
 
-    <hr >
-
     <section>
-        <h2>{{localize "WC5E.RaceSheet.Traits"}}</h2>
+        {{#each item.flags.wc5e.entries}}
+            <div class="artwork">
+                <img src="{{this.artwork.src}}"/>
+                <a href="{{this.artwork.url}}" target="_blank">&copy; {{this.artwork.credit}}</a>
+            </div>
+            <div class="raceDescription">
+                {{#each this.description}}
+                    {{> "modules/warcraft5e/templates/item/parts/description.html"}}
+                {{/each}}
+            </div>
+            <br>
+            <h2>{{localize "WC5E.UI.Traits"}}</h2>
+            {{#if this.abilityMod}}
+                <p><strong><i>{{localize "WC5E.UI.AbilityScoreIncrease"}}:</i></strong><br>
+                    {{#each this.abilityMod}}
+                        {{#unless @first}}
+                            ,
+                        {{/unless}}
+                        Your {{lookup ../../config.abilities this.ability}} score
+                        {{#if (isPositive this.mod)}}
+                            increases
+                        {{else}}
+                            decreases
+                        {{/if}}
+                        by {{this.mod}}
+                    {{/each}}
+                </p>
+            {{/if}}
+            {{#if this.age}}
+                <p>
+                    <strong><i>{{localize "WC5E.UI.Age"}}:</i></strong><br> {{localize this.age}}
+                </p>
+            {{/if}}
+            {{#if this.size}}
+                <p>
+                    <strong><i>{{localize "WC5E.UI.Size"}}:</i></strong><br> {{localize this.size}}
+                </p>
+            {{/if}}
+            {{#if this.speed}}
+                <p>
+                    <strong><i>{{localize "WC5E.UI.Speed"}}:</i></strong><br> {{localize this.speed}}
+                </p>
+            {{/if}}
+            {{#if this.languages}}
+                <p>
+                    <strong><i>{{localize "WC5E.UI.Languages"}}:</i></strong><br> {{localize this.languages}}
+                </p>
+            {{/if}}
+            {{#if this.affiliation}}
+                <p>
+                    <strong><i>{{localize "WC5E.UI.Affiliation"}}:</i></strong>
+                    {{#each this.affiliation}}
+                        {{> "modules/warcraft5e/templates/item/parts/description.html"}}
+                    {{/each}}
+                </p>
+            {{/if}}
+            {{#if this.traits}}
+                <br>
+                <h2>{{localize "WC5E.UI.RacialFeatures"}}</h2>
+                {{#each this.traits}}
+                    <a class="entity-link content-link spellLink" data-pack="{{this.pack}}" data-id="{{this.node}}">
+                        {{localize this.label}}
+                    </a>
+                {{/each}}
+            {{/if}}
+        {{/each}}
+        <!--
         <div class="raceGrid">
-            <strong><i>{{localize "WC5E.RaceSheet.AbilityScoreIncrease"}}:</i></strong>{{localize item.flags.wc5e.abilityMod}}
             <hr>
-            <strong><i>{{localize "WC5E.RaceSheet.Age"}}:</i></strong> {{localize item.flags.wc5e.age}}
             <hr>
             <strong><i>{{localize "WC5E.RaceSheet.Affiliation"}}:</i></strong> {{localize item.flags.wc5e.affiliation}}
             <hr>
@@ -192,6 +253,7 @@
                 <br>
             {{/each}}
         {{/if}}
+        -->
 
     </section>
 </form>

@@ -43,3 +43,7 @@ Handlebars.registerHelper('isClassSkill', function (data, skill) {
 Handlebars.registerHelper("increment", function (value) {
     return parseInt(value) + 1;
 });
+
+Handlebars.registerHelper("isPositive", function (value) {
+    return parseInt(value) > 0;
+});

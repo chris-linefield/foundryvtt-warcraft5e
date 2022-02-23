@@ -2326,6 +2326,14 @@
                }
             }
          },
+         "ArtificersLore": {
+            "Label": "Artificer's Lore",
+            "Description": {
+               "1": {
+                  "Value": "Whenever you make an Intelligence (History) check related to magic items, alchemical objects, or technological devices, you have expertise instead of just proficiency."
+               }
+            }
+         },
          "Assassinate": {
             "Label": "Assassinate",
             "Description": {
@@ -3908,6 +3916,14 @@
                }
             }
          },
+         "EscapeArtist": {
+            "Label": "Escape Artist",
+            "Description": {
+               "1": {
+                  "Value": "You have advantage on all saving throws to escape grapples, bonds, or other movement-restricting abilities or effects that hamper your freedom of movement."
+               }
+            }
+         },
          "Evasion": {
             "Label": "Evasion",
             "Description": {
@@ -3999,6 +4015,14 @@
             "Description": {
                "1": {
                   "Value": "You can attack twice, instead of once, whenever you take the Attack action on your turn. The number of attacks increases to three when you reach 11th level in this class and to four when you reach 20th level in this class."
+               }
+            }
+         },
+         "ExtraLanguage": {
+            "Label": "Extra Language",
+            "Description": {
+               "1": {
+                  "Value": "You can speak, read, and write one extra language of your choice."
                }
             }
          },
@@ -4347,6 +4371,14 @@
             "Description": {
                "1": {
                   "Value": "You can spend 3 Ki points to cast the glyph of warding spell. If you choose a spell glyph, you can add any other rune you know to manifest upon triggering the glyph."
+               }
+            }
+         },
+         "GnomeCunning": {
+            "Label": "Gnome Cunning",
+            "Description": {
+               "1": {
+                  "Value": "You have advantage on all Intelligence, Spirit, and Charisma saving throws against magic."
                }
             }
          },
@@ -5517,6 +5549,22 @@
             "Description": {
                "1": {
                   "Value": "You can spend 4 Crafting Points to change any potion you have into the rejuvenation spell of the same spell level (up to the maximum spell level of the spell you can access). You memorize the rejuvenation spell."
+               }
+            }
+         },
+         "NaturallyStealthy": {
+            "Label": "Naturally Stealthy",
+            "Description": {
+               "1": {
+                  "Value": "You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you."
+               }
+            }
+         },
+         "NaturalTinker": {
+            "Label": "Natural Tinker",
+            "Description": {
+               "1": {
+                  "Value": "You have proficiency with Engineer‘s Tools, but it is treated as if your proficiency bonus is +1. If you later gain proficiency in Engineer‘s Tools by another way, you gain expertise in the skill instead."
                }
             }
          },
@@ -8072,22 +8120,6 @@
             }
          }
       },
-      "RaceSheet": {
-         "AbilityScoreIncrease": "Ability Score Increase",
-         "Age": "Age",
-         "Traits": "Traits",
-         "Affiliation": "Affiliation",
-         "Size": "Size",
-         "Appearance": "Appearance",
-         "Speed": "Speed",
-         "SpeedVal": "Your base walking speed is ",
-         "Languages": "Languages",
-         "Subrace": "Subrace",
-         "SubraceChoice": "Choose one of these subraces.",
-         "MaleNames": "Male Names",
-         "FemaleNames": "Female Names",
-         "FamilyNames": "Family Names"
-      },
       "Race": {
          "Draenei": {
             "Name": "Draenei",
@@ -8208,7 +8240,22 @@
             "Name": "Forsaken"
          },
          "Gnome": {
-            "Name": "Gnome"
+            "Name": "Gnome",
+            "Description": {
+               "1": {
+                  "Italic": "“Up and away!”",
+                  "Value": "As one of the gnomish peoples of the Alliance, you are comfortable standing with your more physically and politically-apt allies to cover you as you go about your businesses. Proficient in the higher arts of engineering and arcana, gnomes are behind many developments in the intellectual and creative sides of the Alliance, creating spells, gadgets, and vehicles to propel their human, elven, and dwarven friends (as well as their new allies in the Alliance) to a better tomorrow."
+               }
+            },
+            "Age": "Adulthood at 40, can live up to be 500.",
+            "Affiliation": {
+               "1": {
+                  "Value": "Alliance. Gnomes are great friends of the Ironforge dwarves and have fought and died alongside human soldiers. They are wary of the high elves, but so is everyone else, so they don‘t feel too bad about that. They battled the Horde in the Second War and have a bit of a grudge against orcs, but gnomes are a kindly and forgiving lot and are willing to give the orcs a second chance. Gnomes and goblins have always been rivals — though whether this rivalry is a friendly or brutal one depends on the individuals involved. Gnomes have not been on Kalimdor long enough to form proper opinions about its denizens. Tauren and night elves both seem rather rustic for gnome sensibilities — but they can make friends with anyone."
+               }
+            },
+            "Size": "Gnomes range from between 3 to 4 feet tall and average around 40 pounds. Your size is Small.",
+            "Speed": "Your base walking speed is 25 feet.",
+            "Languages": "You can speak, read, and write Common and Gnomish. The Gnomish language, which uses the Dwarven script, is renowned for its technical treatises and its catalogs of knowledge about the natural world."
          },
          "Goblin": {
             "Name": "Goblin"
@@ -12041,6 +12088,7 @@
          }
       },
       "UI": {
+         "AbilityScoreIncrease": "Ability Score Increase",
          "Actions": {
             "NoToken": "You have not selected a valid token. Please select a valid token.",
             "CastSpell": "You cast the Spell",
@@ -12048,6 +12096,8 @@
             "CastSpellInvalidTarget": "Invalid Target. Please select one hostile token.",
             "OutOfRange": "The target is out of range. Distance:"
          },
+         "Affiliation": "Affiliation",
+         "Age": "Age",
          "Archetype": "Archetype",
          "Attunements": {
             "GreaterAttunement": "Greater Attunement"
@@ -12078,11 +12128,12 @@
          "Gear": "Gear",
          "Ideal": "Ideal",
          "Ideals": "Ideals",
-         "ItemRarity" : {
+         "ItemRarity": {
             "Epic": "Epic",
             "Varies": "Varies"
          },
          "Language": "Language",
+         "Languages": "Languages",
          "Mass": "Mass",
          "MaterialCost": "Material Cost",
          "Name": "Name",
@@ -12096,6 +12147,7 @@
          "Proficiency": "Proficiency",
          "Properties": "Properties",
          "Race": "Race",
+         "RacialFeatures": "Racial Features",
          "Rarities": {
             "Common": "Common",
             "Uncommon": "Uncommon",
@@ -12106,8 +12158,11 @@
          },
          "Rarity": "Rarity",
          "Scam": "Scam",
+         "Size": "Size",
          "Specialty": "Specialty",
+         "Speed": "Speed",
          "SuggestedCharacteristics": "Suggested Characteristics",
+         "Traits": "Traits",
          "Units": {
             "Action": "action",
             "Cp": "copper",
