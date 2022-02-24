@@ -10,76 +10,71 @@
    "flags": {
       "wc5e": {
          "type": "race",
-         "entries": [
+         "name": "Gnome",
+         "artwork": {
+            "src": "modules/warcraft5e/res/pics/races/gnome_artwork.webp",
+            "url": "https://hdwallpapers.cat/wallpaper/world-of-warcraft-gnomes-fan-art-by-tooth-SSRb.jpg",
+            "credit": "Tooth"
+         },
+         "description": [
             {
-               "artwork": {
-                  "src": "modules/warcraft5e/res/pics/races/gnome_artwork.webp",
-                  "url": "https://hdwallpapers.cat/wallpaper/world-of-warcraft-gnomes-fan-art-by-tooth-SSRb.jpg",
-                  "credit": "Tooth"
-               },
-               "description": [
-                  {
-                     "italic": "WC5E.Race.Gnome.Description.1.Italic",
-                     "value": "WC5E.Race.Gnome.Description.1.Value"
-                  }
-               ],
-               "abilityMod": [
-                  {
-                     "ability": "int",
-                     "mod": 2
-                  },
-                  {
-                     "ability": "con",
-                     "mod": 1
-                  }
-               ],
-               "age": "WC5E.Race.Gnome.Age",
-               "affiliation": [
-                  {
-                     "value": "WC5E.Race.Gnome.Affiliation.1.Value"
-                  }
-               ],
-               "size": "WC5E.Race.Gnome.Size",
-               "speed": "WC5E.Race.Gnome.Speed",
-               "languages": "WC5E.Race.Gnome.Languages",
-               "languageEntries": [
-                  "common",
-                  "gnomish"
-               ],
-               "traits": [
-                  {
-                     "pack": "warcraft5e.wc5e_racial_feats",
-                     "node": "Pp1OAVhgOFluTfsm",
-                     "label": "WC5E.Feats.ArtificersLore.Label"
-                  },
-                  {
-                     "pack": "warcraft5e.wc5e_racial_feats",
-                     "node": "JCTVwAHJKMtzKZUD",
-                     "label": "WC5E.Feats.EscapeArtist.Label"
-                  },
-                  {
-                     "pack": "warcraft5e.wc5e_racial_feats",
-                     "node": "F4YEEH0GNtCHe7O3",
-                     "label": "WC5E.Feats.ExtraLanguage.Label"
-                  },
-                  {
-                     "pack": "warcraft5e.wc5e_racial_feats",
-                     "node": "6JeBlpoUz49bqgc4",
-                     "label": "WC5E.Feats.GnomeCunning.Label"
-                  },
-                  {
-                     "pack": "warcraft5e.wc5e_racial_feats",
-                     "node": "18KIxS8F8w8y7q0L",
-                     "label": "WC5E.Feats.NaturallyStealthy.Label"
-                  },
-                  {
-                     "pack": "warcraft5e.wc5e_racial_feats",
-                     "node": "aO69W7Z3Y7OiEkoh",
-                     "label": "WC5E.Feats.NaturalTinker.Label"
-                  }
-               ]
+               "italic": "WC5E.Race.Gnome.Description.1.Italic",
+               "value": "WC5E.Race.Gnome.Description.1.Value"
             }
-         ]
+         ],
+         "age": "WC5E.Race.Gnome.Age",
+         "affiliation": [
+            {
+               "value": "WC5E.Race.Gnome.Affiliation.1.Value"
+            }
+         ],
+         "size": "WC5E.Race.Gnome.Size",
+         "speed": "WC5E.Race.Gnome.Speed",
+         "languages": "WC5E.Race.Gnome.Languages",
+         "traits": [
+            {
+               "pack": "warcraft5e.wc5e_racial_feats",
+               "node": "Pp1OAVhgOFluTfsm",
+               "label": "WC5E.Feats.ArtificersLore.Label"
+            },
+            {
+               "pack": "warcraft5e.wc5e_racial_feats",
+               "node": "JCTVwAHJKMtzKZUD",
+               "label": "WC5E.Feats.EscapeArtist.Label"
+            },
+            {
+               "pack": "warcraft5e.wc5e_racial_feats",
+               "node": "F4YEEH0GNtCHe7O3",
+               "label": "WC5E.Feats.ExtraLanguage.Label"
+            },
+            {
+               "pack": "warcraft5e.wc5e_racial_feats",
+               "node": "6JeBlpoUz49bqgc4",
+               "label": "WC5E.Feats.GnomeCunning.Label"
+            },
+            {
+               "pack": "warcraft5e.wc5e_racial_feats",
+               "node": "18KIxS8F8w8y7q0L",
+               "label": "WC5E.Feats.NaturallyStealthy.Label"
+            },
+            {
+               "pack": "warcraft5e.wc5e_racial_feats",
+               "node": "aO69W7Z3Y7OiEkoh",
+               "label": "WC5E.Feats.NaturalTinker.Label"
+            }
+         ],
+         "values": {
+            "abilities": {
+               "int": 2,
+               "con": 1
+            },
+            "language": [
+               "common",
+               "gnomish"
+            ],
+            "speed": 25,
+            "size": "sm"
+         }
       }
    },
    "img": "modules/warcraft5e/res/pics/races/gnome.webp",
