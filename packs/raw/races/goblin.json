@@ -1,0 +1,109 @@
+{
+   "_id": "37WwD9aozfJrRjB2",
+   "name": "Goblin",
+   "permission": {
+      "default": 0
+   },
+   "type": "class",
+   "data": {
+   },
+   "flags": {
+      "wc5e": {
+         "type": "race",
+         "name": "Goblin",
+         "artwork": {
+            "src": "modules/warcraft5e/res/pics/races/goblin_artwork.webp",
+            "url": "https://www.deviantart.com/liesetiawan/art/Mad-goblin-technician-498245060",
+            "credit": "LieSetiawan"
+         },
+         "description": [
+            {
+               "italic": "WC5E.Race.Goblin.Description.1.Italic",
+               "value": "WC5E.Race.Goblin.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Race.Goblin.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Race.Goblin.Description.3.Value"
+            }
+         ],
+         "age": "WC5E.Race.Goblin.Age",
+         "affiliation": [
+            {
+               "value": "WC5E.Race.Goblin.Affiliation.1.Value"
+            }
+         ],
+         "size": "WC5E.Race.Goblin.Size",
+         "speed": "WC5E.Race.Goblin.Speed",
+         "languages": "WC5E.Race.Goblin.Languages",
+         "traits": [
+            {
+               "pack": "warcraft5e.wc5e_racial_feats",
+               "node": "jdAYeyOa1jUqbPRO",
+               "label": "WC5E.Feats.BestDealsAnywhere.Label"
+            },
+            {
+               "pack": "warcraft5e.wc5e_racial_feats",
+               "node": "JEcbFR94edcZ1Chm",
+               "label": "WC5E.Feats.Darkvision.Label"
+            },
+            {
+               "pack": "warcraft5e.wc5e_racial_feats",
+               "node": "CEDuJo4Vs2zkBcEV",
+               "label": "WC5E.Feats.ExtraLanguage3.Label"
+            },
+            {
+               "pack": "warcraft5e.wc5e_racial_feats",
+               "node": "rdMS9gZbDDZWWtFE",
+               "label": "WC5E.Feats.InuredToExplosions.Label"
+            },
+            {
+               "pack": "warcraft5e.wc5e_racial_feats",
+               "node": "CM8Su8oZBpsMjLBq",
+               "label": "WC5E.Feats.LivingBetter.Label"
+            },
+            {
+               "pack": "warcraft5e.wc5e_racial_feats",
+               "node": "4P1Z18vMx3MbDsu0",
+               "label": "WC5E.Feats.TradersLore.Label"
+            }
+         ],
+         "names": {
+            "male": [
+               "Zautso",
+               "Beedle",
+               "Chizbolt",
+               "Nuzak",
+               "Jastor",
+               "Jareth"
+            ],
+            "female": [
+               "Lystis",
+               "Mefeero",
+               "Sazai",
+               "Rossa"
+            ],
+            "family": "WC5E.Race.Goblin.FamilyNames"
+         },
+         "values": {
+            "abilities": {
+               "int": 2,
+               "cha": 1
+            },
+            "language": [
+               "common",
+               "goblin"
+            ],
+            "resistance": [
+               "thunder"
+            ],
+            "speed": 25,
+            "size": "sm"
+         }
+      }
+   },
+   "img": "modules/warcraft5e/res/pics/races/goblin.webp",
+   "effects": [
+   ]
+}

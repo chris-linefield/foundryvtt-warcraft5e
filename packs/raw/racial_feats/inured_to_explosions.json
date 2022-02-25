@@ -1,0 +1,26 @@
+{
+   "_id": "rdMS9gZbDDZWWtFE",
+   "name": "Inured to Explosions",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Wc5e - Core p. 21",
+      "requirements": "Goblin"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.InuredToExplosions.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/fire/explosion-embers-evade-silhouette.webp",
+   "effects": [
+   ]
+}

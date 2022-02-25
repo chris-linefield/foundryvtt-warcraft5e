@@ -67,7 +67,8 @@ async function replaceRace(document, race) {
             ['data.details.race']: race,
             ['data.attributes.movement.walk']: race.values.speed,
             ['data.traits.size']: race.values.size,
-            ['data.traits.languages.value']: race.values.language
+            ['data.traits.languages.value']: race.values.language,
+            ['data.traits.dr.value']: race.values.resistance
         });
 
         console.log(targetActor);

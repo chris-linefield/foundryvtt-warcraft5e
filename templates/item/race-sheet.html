@@ -65,6 +65,27 @@
             <strong><i>{{localize "WC5E.UI.Languages"}}:</i></strong>
             <div>{{localize item.flags.wc5e.languages}}</div>
             <hr>
+            {{#if item.flags.wc5e.names}}
+                {{#if item.flags.wc5e.names.male}}
+                    <strong><i>{{localize "WC5E.UI.MaleNames"}}:</i></strong>
+                    {{#each item.flags.wc5e.names.male}}
+                        {{this}}{{#unless @last}},{{/unless}}
+                    {{/each}}
+                    <hr>
+                {{/if}}
+                {{#if item.flags.wc5e.names.female}}
+                    <strong><i>{{localize "WC5E.UI.FemaleNames"}}:</i></strong>
+                    {{#each item.flags.wc5e.names.female}}
+                        {{this}}{{#unless @last}},{{/unless}}
+                    {{/each}}
+                    <hr>
+                {{/if}}
+                {{#if item.flags.wc5e.names.family}}
+                    <strong><i>{{localize "WC5E.UI.FamilyNames"}}:</i></strong>
+                        {{localize item.flags.wc5e.names.family}}
+                    <hr>
+                {{/if}}
+            {{/if}}
         </div>
         <br>
 

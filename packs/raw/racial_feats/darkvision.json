@@ -1,0 +1,26 @@
+{
+   "_id": "JEcbFR94edcZ1Chm",
+   "name": "Darkvision",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "",
+      "requirements": "Gnome, Goblin"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.Darkvision.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/perception/eye-ringed-glow-angry-small-teal.webp",
+   "effects": [
+   ]
+}

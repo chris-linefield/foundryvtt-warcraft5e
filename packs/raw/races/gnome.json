@@ -39,6 +39,11 @@
             },
             {
                "pack": "warcraft5e.wc5e_racial_feats",
+               "node": "JEcbFR94edcZ1Chm",
+               "label": "WC5E.Feats.Darkvision.Label"
+            },
+            {
+               "pack": "warcraft5e.wc5e_racial_feats",
                "node": "JCTVwAHJKMtzKZUD",
                "label": "WC5E.Feats.EscapeArtist.Label"
             },
@@ -63,6 +68,22 @@
                "label": "WC5E.Feats.NaturalTinker.Label"
             }
          ],
+         "names": {
+            "male": [
+               "Kiggle",
+               "Grobnick",
+               "Kazbo",
+               "Hagin",
+               "Snoonose"
+            ],
+            "female": [
+               "Beggra",
+               "Nefti",
+               "Sorassa",
+               "Gamash"
+            ],
+            "family": "WC5E.Race.Gnome.FamilyNames"
+         },
          "values": {
             "abilities": {
                "int": 2,

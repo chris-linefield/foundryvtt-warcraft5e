@@ -2521,6 +2521,14 @@
                }
             }
          },
+         "BestDealsAnywhere": {
+            "Label": "Best Deals Anywhere",
+            "Description": {
+               "1": {
+                  "Value": "Anything you purchase costs 10% less, and anything you sell grants you 10% more of its value. You gain proficiency with the Charisma (Persuasion) skill."
+               }
+            }
+         },
          "Biohazard": {
             "Label": "Biohazard",
             "Description": {
@@ -3335,6 +3343,14 @@
                }
             }
          },
+         "Darkvision": {
+            "Label": "Darkvision",
+            "Description": {
+               "1": {
+                  "Value": "You have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can‘t discern color in darkness, only shades of gray."
+               }
+            }
+         },
          "DeathCanWait": {
             "Label": "Death Can Wait",
             "Description": {
@@ -4023,6 +4039,14 @@
             "Description": {
                "1": {
                   "Value": "You can speak, read, and write one extra language of your choice."
+               }
+            }
+         },
+         "ExtraLanguage3": {
+            "Label": "Extra Language",
+            "Description": {
+               "1": {
+                  "Value": "You can speak, read, and write three extra languages of your choice."
                }
             }
          },
@@ -4896,17 +4920,6 @@
                }
             }
          },
-         "InfusedShield": {
-            "Label": "Infused Shield",
-            "Description": {
-               "1": {
-                  "Value": "Whenever you cast a healing or shielding spell, you may freely convert temporary hit points from your priest spells to actual hit points, or vice versa. A healing spell that grants temporary hit points is counted as a shielding spell, and benefits from the Chakra Cleansing and Extended Wards abilities."
-               },
-               "2": {
-                  "Value": "Furthermore, you may use your Channel Divinity: Penance ability as a reaction instead of an action."
-               }
-            }
-         },
          "Incinerate": {
             "Label": "Incinerate",
             "Description": {
@@ -4930,6 +4943,17 @@
                },
                "2": {
                   "Value": "A single creature cannot be affected by this more than once in the same 24 hours period."
+               }
+            }
+         },
+         "InfusedShield": {
+            "Label": "Infused Shield",
+            "Description": {
+               "1": {
+                  "Value": "Whenever you cast a healing or shielding spell, you may freely convert temporary hit points from your priest spells to actual hit points, or vice versa. A healing spell that grants temporary hit points is counted as a shielding spell, and benefits from the Chakra Cleansing and Extended Wards abilities."
+               },
+               "2": {
+                  "Value": "Furthermore, you may use your Channel Divinity: Penance ability as a reaction instead of an action."
                }
             }
          },
@@ -5006,6 +5030,14 @@
                },
                "2": {
                   "Value": "Starting at 18th level, activating a potion on your internal clock costs no reaction."
+               }
+            }
+         },
+         "InuredToExplosions": {
+            "Label": "Inured to Explosions",
+            "Description": {
+               "1": {
+                  "Value": "You have resistance to thunder damage."
                }
             }
          },
@@ -5268,6 +5300,21 @@
             "Description": {
                "1": {
                   "Value": "Whenever you cast a healing spell from the priest spell list and the dice shows the maximum possible result (such as a 6 on a d6), you may roll the maximized dice again and add the amount healed to the total. This applies to healing spells that deal damage to undead. This acts similarly to the Holy Vision ability of the holy oath. If having both features, and if the re-rolled dice results in a maximum result as well, you may roll a third time."
+               }
+            }
+         },
+         "LivingBetter": {
+            "Label": "Living Better",
+            "Description": {
+               "1": {
+                  "Value": "You can gain one of the below abilities."
+               },
+               "2": {
+                  "Options": {
+                     "1": "You gain proficiency with any two skills of your choice.",
+                     "2": "You have proficiency with Engineer‘s Tools, but it is treated as if your proficiency bonus is +1. If you later gain proficiency in Engineer‘s Tools by another way, you gain expertise in the skill instead.",
+                     "3": "You have proficiency with Alchemist‘s Supplies and the Alchemy ability as a 1st level Alchemist. You have to store alchemical formula in a formula book, which you may start out with at 1st level. If you gain later proficiency, you gain expertise to the roll instead."
+                  }
                }
             }
          },
@@ -7229,6 +7276,14 @@
                }
             }
          },
+         "TradersLore": {
+            "Label": "Trader's Lore",
+            "Description": {
+               "1": {
+                  "Value": "Whenever you make an Intelligence (History) check related to magic items, alchemical objects, or technological devices, you can add twice your proficiency bonus, instead of any proficiency bonus you normally apply."
+               }
+            }
+         },
          "TrapExpert": {
             "Label": "Trap Expert",
             "Description": {
@@ -8255,10 +8310,33 @@
             },
             "Size": "Gnomes range from between 3 to 4 feet tall and average around 40 pounds. Your size is Small.",
             "Speed": "Your base walking speed is 25 feet.",
-            "Languages": "You can speak, read, and write Common and Gnomish. The Gnomish language, which uses the Dwarven script, is renowned for its technical treatises and its catalogs of knowledge about the natural world."
+            "Languages": "You can speak, read, and write Common and Gnomish. The Gnomish language, which uses the Dwarven script, is renowned for its technical treatises and its catalogs of knowledge about the natural world.",
+            "FamilyNames": "Spinpistol, Airslicer, Bombtosser, Greatgear, Mekkatorque"
          },
          "Goblin": {
-            "Name": "Goblin"
+            "Name": "Goblin",
+            "Description": {
+               "1": {
+                  "Italic": "“Time is Money, Friend!”",
+                  "Value": "Goblins value technology as a useful aspect of commerce. Some say that their advantage — and their curse — is to be the primary users of technology in a world governed by magic. While dwarves and gnomes share focused aspects of this gift, goblin technology is more far-reaching and sinister and makes a larger impact on the natural world, and mixes with alchemy in a gloriously unstable blend. They employ vast teams of engineers and alchemists who expand on current technology and produce gadgets and potions to suit a wide array of applications. They constantly build and repair machines and work on new formulae. Unfortunately, goblins are both passionately genius yet suffer from undisciplined minds. Their lack of focus means that many creations end up half-finished as something else catches their attention. "
+               },
+               "2": {
+                  "Value": "Goblins hired themselves out to the Horde in the Second War, but now they belong only to themselves and whoever pays the most. Constantly building and inventing requires massive resources, both for creating the machines themselves and maintaining those that actually work. Cannibalizing old machines only partially sustains this fervent activity of creation, so goblins rely on trade with as many races and cultures as possible. They are the quintessential merchants, peddling all manner of exotic goods for the highest possible prices."
+               },
+               "3": {
+                  "Value": "As one of the goblin-folk, you have a reputation for money-grabbing, dishonest work, and unreliability, yet being loyal to money means you always have customers (and a place) in a war-torn world."
+               }
+            },
+            "Age": "Goblins typically reach adulthood around 20 years old, and live to be 100 years old.",
+            "Affiliation": {
+               "1": {
+                  "Value": "Independent or Horde. Goblin cartels serve as political bodies, and so far, the only cartel that chose to join the Horde was the Bilgewater cartel."
+               }
+            },
+            "Size": "Goblins range from between 3 to 4 feet tall and average around 40 pounds. Your size is Small.",
+            "Speed": "Your base walking speed is 25 feet.",
+            "Languages": "You can speak, read, and write Common and Goblin. The Goblin language sounds as if it were a Troll dialect, but borrows from dozens of other languages.",
+            "FamilyNames": "Steamgear, Boltnose, Manclamp, Leafgrinder, Gringott, Gallywix"
          },
          "Human": {
             "Name": "Human"
@@ -11943,150 +12021,6 @@
             }
          }
       },
-      "Traits": {
-         "Adapter": {
-            "Label": "Adapter",
-            "Description": "You may always act when surprised at a combat encounter (even if you failed your Perception check to notice it). You also have <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"K4kXNTd9rJoZAHu5\">advantage</a> versus weather effects."
-         },
-         "ArcaneAffinity": {
-            "Label": "Arcane Affinity",
-            "Description": "You have increased affinity with arcane magic. You can choose one of the following two features:",
-            "Options": {
-               "1": "<i>Augment Weave</i>. You deal one additional point of arcane damage for each damage dice with your arcane spells. This applies once per spell. You may apply this to spells that do not deal arcane damage, but only once per short or long rest",
-               "2": "<i>Arcane Strike</i>. You can enhance your attacks with a blast of arcane damage. As a [strike] effect, you can add 1d6 points of arcane damage to your melee or ranged weapon attacks. For every four character levels you gain, you gain an additional dice of damage. You may choose to spend them all at once or one for each attack. You regain all spent dice at the end of a short rest",
-               "3": "<i>Energy Blast</i>. You can release a blast of arcane force as if you possessed the Mystic Blast feat (arcane damage only). You may use this blast number of times equal to your Intelligence modifier before replenishing at a long rest. This deals a number of d4 dice equal to onequarter your level (minimum 1d4)."
-            }
-         },
-         "ArcaneLegacy": {
-            "Label": "Arcane Legacy",
-            "Description": "The high elves are uniquely attuned to magic. You can choose one of the below abilities.",
-            "Options": {
-               "1": "You increase your mana pool size by 2 mana points.",
-               "2": "You add an additional cantrip to your High Magic ability, chosen from the mage spell list.",
-               "3": "You gain the Suffused Arrows talent. You may only take this if your first level is a hunter."
-            }
-         },
-         "BlessingOfTheNightwell": {
-            "Label": "Blessing of the Nightwell",
-            "Description": "You have resistance to arcane damage."
-         },
-         "BloodMagic": {
-            "Label": "Blood Magic",
-            "Description": "This acts as High Magic. While you use abilities granted by this ability, your eyes glow a pale fel green instead of High Elves‘ blue. Instead of the prestidigitation cantrip, you may choose the thaumaturgy cantrip instead, and may cast the mana burn spell instead of mute."
-         },
-         "Bravery": {
-            "Label": "Bravery",
-            "Description": "You have <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"K4kXNTd9rJoZAHu5\">advantage</a> to all saves against fear."
-         },
-         "BronzebeardCombatTraining": {
-            "Label": "Dwarven Combat Training",
-            "Description": "You have proficiency with firearms and explosives of all types, even if you do not have proficiency in engineering, and gain proficiency with light armor."
-         },
-         "BurningHeart": {
-            "Label": "Burning Heart",
-            "Description": "You know the produce flame cantrip (caster level equal to your character level). Intelligence is your spellcasting ability for it."
-         },
-         "Darkvision": {
-            "Label": "Darkvision",
-            "Description": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
-         },
-         "DraeneiCombatTraining": {
-            "Label": "Draenei Combat Training",
-            "Description": "You have proficiency with the longsword, greathammer, glaive, and the heavy crossbow."
-         },
-         "DwarvenCombatTraining": {
-            "Label": "Dwarven Combat Training",
-            "Description": "You have proficiency with the battleaxe, handaxe, light hammer, and warhammer."
-         },
-         "ElvenCombatTraining": {
-            "Label": "Elven Combat Training",
-            "Description": "You have proficiency with the longsword, longbow, rapier, and shortbow."
-         },
-         "ExtraLanguage": {
-            "Label": "Extra Language",
-            "Description": "You can speak, read and write one extra language of your choice."
-         },
-         "FelResistance": {
-            "Label": "Fel Resistance",
-            "Description": "You have <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"FuRFBklCArGIhci8\">resistance</a> to fel damage."
-         },
-         "FireLordsFavor": {
-            "Label": "Fire Lord's Favor",
-            "Description": "You have <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"FuRFBklCArGIhci8\">resistance</a> to fire damage."
-         },
-         "Gemcutting": {
-            "Label": "Gemcutting",
-            "Description": "You are proficient with artisan's tools (jewelcrafting kit)."
-         },
-         "GiftOfTheNaaru": {
-            "Label": "Gift of the Naaru",
-            "Description": "You can use your action to channel holy energy, casting the renewing light spell as if cast as a 1st level spell. This can be used once, replenishing on a short or long rest. While a creature benefits from this ability, they have a glowing blue mark above their forehead (shedding light equal to dancing lights). Your spellcasting ability modifier is Spirit or Charisma (your choice)."
-         },
-         "HeroicPresence": {
-            "Label": "Heroic Presence",
-            "Description": "You can spend 10 minutes inspiring your companions, shoring up their resolve to fight. When you do so, choose up to six friendly creatures (which can include yourself) within 30 feet of you who can see or hear you and who can understand you. Each creature can gain temporary hit points equal to your level + half your Charisma or Spirit modifier. A creature can't gain temporary hit points from this feature again until it has finished a long rest. Alternatively, you may declare use of this ability upon landing a critical hit."
-         },
-         "HighMagic": {
-            "Label": "High Magic",
-            "Description": "Magic. You know the prestidigitation cantrip and can cast it normally (caster level equal to your character level). When you reach 3rd level, you can also cast detect magic as a 1st level spell. When you reach 5th level, you can also cast the mute spell as a 2nd level spell. Intelligence is your spellcasting ability for these spells, and you use your mana pool for these abilities (even if you are not normally a spellcaster). While you use such abilities (and after using them for one hour), your eyes glow a pale blue. If you can already cast such spells (and have a sufficiently high caster level), they are always prepared for free."
-         },
-         "KeenSenses": {
-            "Label": "Keen Senses",
-            "Description": "You are proficient with the Perception skill."
-         },
-         "MaskOfTheWild": {
-            "Label": "Mask of the Wild",
-            "Description": "You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
-         },
-         "MountainBorn": {
-            "Label": "Mountain Born",
-            "Description": "You're acclimated to high altitude, including elevations above 20,000 feet. You're also naturally adapted to cold weather in the wilderness or while exploring."
-         },
-         "MysticSenses": {
-            "Label": "Mystic Senses",
-            "Description": "Whenever you make any check related to the origin of magical items, lore, or spells, you are treated as if you have Expertise in the Arcana skill."
-         },
-         "NaturalArmor": {
-            "Label": "Natural Armor",
-            "Description": "Your skin is as hardened leather in toughness. When you aren't wearing armor, your AC is 12 + your Agility modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor."
-         },
-         "NaturalHandler": {
-            "Label": "Natural Handler",
-            "Description": "You have proficiency with Animal Handling. If handling beasts that naturally live in mountains such as gryphons or mountain lions, you gain Expertise instead."
-         },
-         "NatureResistance": {
-            "Label": "Nature Resistance",
-            "Description": "You have <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"K4kXNTd9rJoZAHu5\">advantage</a> on saving throws against poisons, and have <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"FuRFBklCArGIhci8\">resistance</a> against lightning and poison damage."
-         },
-         "NightfallenMagic": {
-            "Label": "Nightfallen Magic",
-            "Description": "You know the mage hand cantrip and can cast it normally (caster level equal to your character level). When you reach 3rd level, you can also cast detect magic as a 1st level spell. When you reach 5th level, you can also cast the arcane explosion spell as a 2nd level spell. Intelligence is your spellcasting ability for these spells, and you use your mana pool for these abilities (even if you are not normally a spellcaster). While you use such abilities (and after using them for one hour), your eyes glow a light blue. If you can already cast such spells (and have a sufficiently high caster level), they are always prepared for free."
-         },
-         "Resilience": {
-            "Label": "Resilience",
-            "Description": "You have <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"K4kXNTd9rJoZAHu5\">advantage</a> against poisons and <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"FuRFBklCArGIhci8\">resistance</a> to poison damage."
-         },
-         "Shadowmeld": {
-            "Label": "Shadowmeld",
-            "Description": "When you are in dim or dark light, you gain <a class=\"entity-link inline\" data-pack=\"warcraft5e.rules\" data-id=\"K4kXNTd9rJoZAHu5\">advantage</a> on Agility (Stealth) checks."
-         },
-         "Stalker": {
-            "Label": "Stalker",
-            "Description": "You have proficiency with the Perception and Stealth skills. If you already have proficiency with one of these skills, you gain Expertise instead."
-         },
-         "Stonecunning": {
-            "Label": "Stonecunning",
-            "Description": "Whenever you make an Intelligence (History) check or Mining checks related to stonework and minerals, you are considered both proficient and as if having Expertise in either History or Mining (choose one)."
-         },
-         "Stoneform": {
-            "Label": "Stoneform",
-            "Description": "You can focus yourself to occasionally shrug off injury. When you take damage, you can use your reaction to roll a d12. Add your Stamina modifier to the number rolled, and reduce the damage by that total. If the damage exceeds any ongoing bleed damage you take, you end the effect as well. After you use this trait, you can't use it again until you finish a short or long rest."
-         },
-         "ToolProficiency": {
-            "Label": "Tool Proficiency",
-            "Description": "You gain proficiency with one artisan's tool of your choice: smith's tools, brewer's supplies, mason's tools, or mining tools."
-         }
-      },
       "UI": {
          "AbilityScoreIncrease": "Ability Score Increase",
          "Actions": {
@@ -12122,7 +12056,9 @@
             "CancelSkillDescription": "Do you really want to release the skill?"
          },
          "EntertainerRoutine": "Entertainer Routine",
+         "FamilyNames": "Family Names",
          "Features": "Features",
+         "FemaleNames": "Female Names",
          "Flaw": "Flaw",
          "Flaws": "Flaws",
          "Gear": "Gear",
@@ -12134,6 +12070,7 @@
          },
          "Language": "Language",
          "Languages": "Languages",
+         "MaleNames": "Male Names",
          "Mass": "Mass",
          "MaterialCost": "Material Cost",
          "Name": "Name",
