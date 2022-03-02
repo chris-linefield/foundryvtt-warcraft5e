@@ -1,13 +1,13 @@
 {
-   "_id": "JEcbFR94edcZ1Chm",
-   "name": "Darkvision",
+   "_id": "HO6c0EyT5RT0grB8",
+   "name": "Troll Combat Training",
    "permission": {
       "default": 0
    },
    "type": "feat",
    "data": {
-      "source": "",
-      "requirements": "Gnome, Goblin, Troll"
+      "source": "Wc5e - Core p. 26",
+      "requirements": "Troll"
    },
    "flags": {
       "wc5e": {
@@ -15,12 +15,12 @@
          "category": "WC5E.SkillCategories.General",
          "description": [
             {
-               "value": "WC5E.Feats.Darkvision.Description.1.Value"
+               "value": "WC5E.Feats.TrollCombatTraining.Description.1.Value"
             }
          ]
       }
    },
-   "img": "icons/magic/perception/eye-ringed-glow-angry-small-teal.webp",
+   "img": "icons/weapons/axes/axe-crooked-blackened.webp",
    "effects": [
    ]
 }

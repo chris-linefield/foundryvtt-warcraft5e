@@ -1,0 +1,32 @@
+{
+   "_id": "M1QswI7zczs8PeRU",
+   "name": "Dark Promise",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Wc5e - Core p. 27",
+      "requirements": "Troll"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.DarkPromise.Description.1.Value"
+            },
+            {
+               "options": [
+                  "WC5E.Feats.DarkPromise.Description.2.Options.1",
+                  "WC5E.Feats.DarkPromise.Description.2.Options.2"
+               ]
+            }
+         ]
+      }
+   },
+   "img": "icons/consumables/potions/potion-jug-corked-skull-poison-brown-green.webp",
+   "effects": [
+   ]
+}

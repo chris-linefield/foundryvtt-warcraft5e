@@ -231,28 +231,7 @@ export class WcSkillHandler {
                     if(this.releasable === true) {
                         let dialog = new Dialog({
                             title: "Select a way to end the spell",
-                            content: "<p>Do you wish to release the skill or use it for offense?</p>",
-                            buttons: {
-                                one: {
-                                    icon: '<i class="fas fa-check"></i>',
-                                    label: "Release",
-                                    callback: () => this.deactivate()
-                                },
-                                two: {
-                                    icon: '<i class="fas fa-check"></i>',
-                                    label: "Attack",
-                                    callback: () => {
-                                        if(this.verifyTargets()) {
-                                            this.deactivate();
-                                            this.useOffensiveSkill();
-                                        }
-                                    }
-                                },
-                                three: {
-                                    icon: '<i class="fas fa-times"></i>',
-                                    label: "Cancel",
-                                }
-                            },
+                            content: "<p>Do you wish to release the skill or use it for offense?</p>"
                         });
                         dialog.render(true);
                     }

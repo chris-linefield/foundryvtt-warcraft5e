@@ -3321,6 +3321,20 @@
                }
             }
          },
+         "DarkPromise": {
+            "Label": "Dark Promise",
+            "Description": {
+               "1": {
+                  "Value": "Jungle trolls have innate aptitudes that usually only show when they develop. Choose one of the below abilities:"
+               },
+               "2": {
+                  "Options": {
+                     "1": "You have proficiency with Alchemist‘s Supplies and the Alchemy ability as a 1st level Alchemist. You have to store alchemical formula in a formula book, which you may start out with at 1st level. If you later gain Alchemy, you gain expertise in the skill instead.",
+                     "2": "You gain proficiency with the Charisma (Intimidation) and Agility (Stealth) skills."
+                  }
+               }
+            }
+         },
          "DarkSacrifice": {
             "Label": "Dark Sacrifice",
             "Description": {
@@ -4743,7 +4757,7 @@
             "Label": "Hostile Homeland",
             "Description": {
                "1": {
-                  "Value": "You gain resistance to cold damage."
+                  "Value": "Depending on your homeland you gain resistance to cold or fire damage."
                }
             }
          },
@@ -7295,6 +7309,14 @@
                }
             }
          },
+         "TrollCombatTraining": {
+            "Label": "Troll Combat Training",
+            "Description": {
+               "1": {
+                  "Value": "You have proficiency with the battleaxe, handaxe, and all weapons that have the thrown or ammunition properties, except firearms (unless proficient otherwise)."
+               }
+            }
+         },
          "TwistedArcanaRune": {
             "Label": "Twisted Arcana Rune",
             "Description": {
@@ -8351,7 +8373,96 @@
             "Name": "Tauren"
          },
          "Troll": {
-            "Name": "Troll"
+            "Name": "Troll",
+            "Description": {
+               "1": {
+                  "Value": "Several troll subspecies exist, and they are — almost universally – considered depraved by the civilized peoples of the world due to their brutality, cannibalistic ways, and use of dark magic. Jungle trolls are humanoids that live in Azeroth‘s wilderness, and Ice trolls are known as the descendants of a vicious civilization that (to this day) resists the Lich King‘s dominion in Northrend."
+               },
+               "2": {
+                  "Value": "During Thrall‘s exodus from Lordaeron, the Horde rescued the Darkspear tribe, jungle trolls who lived on one of the many islands in the great sea from the mysterious Sea Witch. The Darkspear tribe owes Thrall and the orcs a great debt, and allied themselves with the Horde in gratitude. Their relationship with the noble orcs and tauren has begun to change the Darkspear trolls‘ dark ways."
+               },
+               "3": {
+                  "Value": "Jungle trolls are sly and cunning, and their society is tribal yet highly regimented."
+               },
+               "4": {
+                  "Value": "Each tribe includes a chieftain, who is either the most powerful warrior in the tribe (called Shadow Hunters) or the most accomplished spellcaster (called Witch Doctors); the chieftain leads his soldiers in raids against other creatures."
+               },
+               "5": {
+                  "Value": "As a troll, you are often viewed as vicious, brutal and evil, and history lends credence to this reputation. Waging constant wars against civilization and attempt to reclaim past glories is a fervent call for your people, who are seen (and commonly are) a lurking menace in any wilderness area and willingly ally themselves with other dark powers to achieve their goals."
+               },
+               "6": {
+                  "Value": "Darkspear trolls of the Horde, however, deny this legacy. The Horde has taught them camaraderie, restraint and, to a lesser extent, kindness. Zandalari trolls are also a new addition to the Horde, and unlike most trolls, they have a continuous unbroken legacy of civilization—the Empire of Zandalar, a political entity that stood since the War of the Ancients. This lends them great clout among the other trolls, making their empire act as mediator in inter-troll affairs or when times of great troubles arise."
+               }
+            },
+            "Age": "Trolls reach adulthood at the age of 18 and live up to be 80 years old.",
+            "Affiliation": {
+               "1": {
+                  "Value": "Troll affiliations are wildly different ever since the great Troll empires fell."
+               }
+            },
+            "Size": "Trolls are larger and bulkier than humans, and they average around 7 feet tall and 200 pounds, although their lanky build and slouched pose undermines their height. Your size is Medium.",
+            "Speed": "Your base walking speed is 30 feet.",
+            "Languages": "You can speak, read, and write Common and Troll.",
+            "FamilyNames": "Trolls usually employ titles rather than family names, but commonly take their tribe name as a family name.",
+            "Subrace": "Ancient divides among the troll-folk resulted in several subraces. Choose one of these following:",
+            "Subraces": {
+               "Amani": {
+                  "Name": "Forest Troll (Amani)",
+                  "Description": {
+                     "1": {
+                        "Italic": "Coming Soon",
+                        "Value": "Coming Soon"
+                     }
+                  },
+                  "Affiliation": {
+                     "1": {
+                        "Value": "Coming Soon"
+                     }
+                  }
+               },
+               "Darkspear": {
+                  "Name": "Jungle Troll (Darkspear)",
+                  "Description": {
+                     "1": {
+                        "Italic": "What'cha want me do?",
+                        "Value": "As a forest troll, you belong to the Darkspear tribe, the Zandalari, or their associates (such as most trolls who inhabit the isles of the Great Sea)."
+                     }
+                  },
+                  "Affiliation": {
+                     "1": {
+                        "Value": "Horde or Independent. Darkspear jungle trolls are steadfastly loyal to the orcs. Though they practice voodoo and many retain their savage natures, Thrall lets them live in his borders and generally do what they want. They feel a great debt to the orcs, and their time fighting alongside the tauren has made them friends of these creatures as well. They are suspicious of the Forsaken, but so is everyone else."
+                     }
+                  }
+               },
+               "Drakkari": {
+                  "Name": "Ice Troll (Drakkari)",
+                  "Description": {
+                     "1": {
+                        "Italic": "You got it... heh heh eh...",
+                        "Value": "As an ice troll, you belong to the tribes in Northrend or high mountains in Azeroth (such as Khaz Modan), commonly the Drakkari or Frostmane tribe, respectively. Ice trolls average one foot taller than other trolls."
+                     }
+                  },
+                  "Affiliation": {
+                     "1": {
+                        "Value": "Independent. Ice trolls are steadfastly loyal to themselves above all others, and typically show loyalty to their tribes and kings, although they often also see the uses of allying with the Horde (especially those who might share their ancestral hate to the Alliance‘s dwarves, elves, and humans)."
+                     }
+                  }
+               },
+               "Farraki": {
+                  "Name": "Sand Troll (Farraki)",
+                  "Description": {
+                     "1": {
+                        "Italic": "Feel the fury of the sands!",
+                        "Value": "As a sand troll, you belong to the Sandfury (Farraki) or Sandscalp tribes. Sand trolls average one foot shorter than other trolls."
+                     }
+                  },
+                  "Affiliation": {
+                     "1": {
+                        "Value": "Independent. Sand trolls are loyal to their clans, and resist intruders by conducting hitand-run raids from the depths of the desert while astride swift raptors. Some sand trolls have chosen to ally with the Horde, usually after extended interaction with goblin holds at the shores of Tanaris."
+                     }
+                  }
+               }
+            }
          },
          "Worgen": {
             "Name": "Worgen"
@@ -12053,7 +12164,8 @@
          },
          "Dialogs": {
             "CancelSkill": "Release",
-            "CancelSkillDescription": "Do you really want to release the skill?"
+            "CancelSkillDescription": "Do you really want to release the skill?",
+            "SelectSubrace": "Please select a Subrace:"
          },
          "EntertainerRoutine": "Entertainer Routine",
          "FamilyNames": "Family Names",

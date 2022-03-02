@@ -89,8 +89,12 @@
         </div>
         <br>
 
-        {{!------ SUBRACES ------}}
-        {{#if item.flags.wc5e.subrace}}
+        {{#if item.flags.wc5e.subraces}}
+            <hr>
+            <h2>Subraces</h2>
+            {{#if item.flags.wc5e.subrace}}
+                {{localize item.flags.wc5e.subrace}}
+            {{/if}}
             <br>
             {{#each item.flags.wc5e.subraces}}
                 <hr class="full">
@@ -101,80 +105,51 @@
                 </div>
                 <div class="raceDescription">
                     <h3>{{localize this.name}}</h3>
-                    <i>“{{localize this.quote}}”</i>
-                    <br>
-                    <br>
-                    <p>
-                    {{localize this.description}}
-                    </p>
-                    <br>
-                    <p>
+                    {{#each this.description}}
+                        {{> "modules/warcraft5e/templates/item/parts/description.html"}}
+                    {{/each}}
                     {{#if this.affiliation}}
-                        <strong><i>{{localize "WC5E.RaceSheet.Affiliation"}}:</i></strong> {{localize this.affiliation}}
-                        <hr>
+                        <p>
+                            <strong><i>{{localize "WC5E.UI.Affiliation"}}:</i></strong>
+                            {{#each this.affiliation}}
+                                {{> "modules/warcraft5e/templates/item/parts/description.html"}}
+                            {{/each}}
+                        </p>
                     {{/if}}
-                    </p>
                 </div>
+                <hr class="full">
                 <div class="raceGrid">
-                    {{#if this.abilityMod}}
-                        <strong><i>{{localize "WC5E.RaceSheet.AbilityScoreIncrease"}}:</i></strong> {{localize this.abilityMod}}
+                    {{#if this.values.abilities}}
+                        <strong><i>{{localize "WC5E.UI.AbilityScoreIncrease"}}:</i></strong>
+                        <div>
+                            {{#each this.values.abilities}}
+                                {{#unless @first}}
+                                    ,
+                                {{/unless}}
+                                Your {{lookup ../../config.abilities @key}} score
+                                {{#if (isPositive this)}}
+                                    increases
+                                {{else}}
+                                    decreases
+                                {{/if}}
+                                by {{this}}
+                            {{/each}}
+                        </div>
                         <hr>
                     {{/if}}
 
-                    {{!------ TRAITS ------}}
                     {{#if this.traits}}
                         {{#each this.traits}}
-                            <strong><i>{{localize this.key}}:</i></strong>
+                            <strong><i>{{localize this.label}}:</i></strong>
                             <div>
-                                {{{localize this.value}}}
-                                {{#if this.options}}
-                                    <ul>
-                                        {{#each this.options}}
-                                            <li>{{{localize this}}}</li>
-                                        {{/each}}
-                                    </ul>
-                                {{/if}}
-                                {{#if this.target}}
-                                    {{#unless this.options}}
-                                        <br>
-                                    {{/unless}}
-                                    {{#each this.target}}
-                                        <a class="entity-link content-link spellLink" data-pack="{{this.pack}}" data-id="{{this.node}}">
-                                            {{localize this.label}}
-                                        </a>
-                                    {{/each}}
-                                {{/if}}
+                                <a class="entity-link content-link spellLink" data-pack="{{this.pack}}" data-id="{{this.node}}">
+                                    {{localize this.label}}
+                                </a>
                             </div>
                             <hr>
                         {{/each}}
                     {{/if}}
-
-                    {{!------ NAMES ------}}
-                    {{#if this.names}}
-                        {{#if this.names}}
-                            <strong><i>{{localize "WC5E.RaceSheet.MaleNames"}}:</i></strong>
-                            {{#each this.names.male}}
-                                {{this}}{{#unless @last}},{{/unless}}
-                            {{/each}}
-                            <hr>
-                        {{/if}}
-                        {{#if this.names.female}}
-                            <strong><i>{{localize "WC5E.RaceSheet.FemaleNames"}}:</i></strong>
-                            {{#each this.names.female}}
-                                {{this}}{{#unless @last}},{{/unless}}
-                            {{/each}}
-                            <hr>
-                        {{/if}}
-                        {{#if this.names.family}}
-                            <strong><i>{{localize "WC5E.RaceSheet.FamilyNames"}}:</i></strong>
-                            {{#each this.names.family}}
-                                {{localize this}}{{#unless @last}},{{/unless}}
-                            {{/each}}
-                            <hr>
-                        {{/if}}
-                    {{/if}}
                 </div>
-                <br>
             {{/each}}
         {{/if}}
 
