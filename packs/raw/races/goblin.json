@@ -10,7 +10,7 @@
    "flags": {
       "wc5e": {
          "type": "race",
-         "name": "Goblin",
+         "name": "WC5E.Race.Goblin.Name",
          "artwork": {
             "src": "modules/warcraft5e/res/pics/races/goblin_artwork.webp",
             "url": "https://www.deviantart.com/liesetiawan/art/Mad-goblin-technician-498245060",
@@ -98,8 +98,10 @@
             "resistance": [
                "thunder"
             ],
-            "speed": 25,
-            "size": "sm"
+            "skills": [
+            ],
+            "size": "sm",
+            "speed": 25
          }
       }
    },

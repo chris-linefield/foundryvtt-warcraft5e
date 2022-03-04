@@ -149,6 +149,28 @@
                             <hr>
                         {{/each}}
                     {{/if}}
+
+                    {{#if this.names}}
+                        {{#if this.names.male}}
+                            <strong><i>{{localize "WC5E.UI.MaleNames"}}:</i></strong>
+                            {{#each this.names.male}}
+                                {{this}}{{#unless @last}},{{/unless}}
+                            {{/each}}
+                            <hr>
+                        {{/if}}
+                        {{#if this.names.female}}
+                            <strong><i>{{localize "WC5E.UI.FemaleNames"}}:</i></strong>
+                            {{#each this.names.female}}
+                                {{this}}{{#unless @last}},{{/unless}}
+                            {{/each}}
+                            <hr>
+                        {{/if}}
+                        {{#if this.names.family}}
+                            <strong><i>{{localize "WC5E.UI.FamilyNames"}}:</i></strong>
+                                {{localize this.names.family}}
+                            <hr>
+                        {{/if}}
+                    {{/if}}
                 </div>
             {{/each}}
         {{/if}}

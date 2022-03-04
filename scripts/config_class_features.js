@@ -10,7 +10,6 @@ delete ClassFeatures.ranger;
 delete ClassFeatures.sorcerer;
 delete ClassFeatures.wizard;
 
-
 ClassFeatures.alchemist = {
     "subclasses": {
         "apothecary": {

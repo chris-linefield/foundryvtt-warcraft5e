@@ -1,13 +1,13 @@
 {
-   "_id": "JEcbFR94edcZ1Chm",
-   "name": "Darkvision",
+   "_id": "UAeVCEMxc1t2opdJ",
+   "name": "Dwarven Combat Training",
    "permission": {
       "default": 0
    },
    "type": "feat",
    "data": {
-      "source": "",
-      "requirements": "Dwarf, Gnome, Goblin, Troll"
+      "source": "Wc5e - Core p. 11",
+      "requirements": "Dwarf"
    },
    "flags": {
       "wc5e": {
@@ -15,12 +15,12 @@
          "category": "WC5E.SkillCategories.General",
          "description": [
             {
-               "value": "WC5E.Feats.Darkvision.Description.1.Value"
+               "value": "WC5E.Feats.DwarvenCombatTraining.Description.1.Value"
             }
          ]
       }
    },
-   "img": "icons/magic/perception/eye-ringed-glow-angry-small-teal.webp",
+   "img": "icons/weapons/hammers/hammer-double-stone.webp",
    "effects": [
    ]
 }

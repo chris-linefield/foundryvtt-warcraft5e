@@ -53,13 +53,19 @@ async function replaceRace(document, race) {
     }
     targetActor.createEmbeddedDocuments("Item", entries);
 
+    let weaponProfs = [];
+    if(race.values.weaponProficiencies) {
+        weaponProfs = race.values.weaponProficiencies;
+    }
+
     //update the actor-props
     targetActor.update({
-        ['data.details.race']: race.name,
+        ['data.details.race']: game.i18n.localize(race.name),
         ['data.attributes.movement.walk']: race.values.speed,
         ['data.traits.size']: race.values.size,
         ['data.traits.languages.value']: race.values.language,
         ['data.traits.dr.value']: race.values.resistance,
+        ['data.traits.weaponProf.value']: weaponProfs,
         ['flags.wc5e']: {}
     });
 
@@ -84,7 +90,17 @@ async function replaceRace(document, race) {
                         if (subrace.values.resistance) {
                             resistance.push(subrace.values.resistance);
                         }
-                        console.log(resistance);
+
+                        let skills = race.values.skills;
+                        if (subrace.values.skills) {
+                            skills.push(subrace.values.skills);
+                        }
+
+                        for(let skill of skills) {
+                            targetActor.update({
+                                ['data.skills.'+skill+'.value']: 1
+                            });
+                        }
 
                         targetActor.update({
                             ['data.details.race']: game.i18n.localize(subrace.name),
@@ -94,7 +110,6 @@ async function replaceRace(document, race) {
                 }
             }
         }
-        console.log(buttons);
         const html = await renderTemplate("modules/warcraft5e/templates/dialogs/select-subrace.html", {
             "subraces": subraces
         });

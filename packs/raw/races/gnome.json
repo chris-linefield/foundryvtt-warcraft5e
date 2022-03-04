@@ -10,7 +10,7 @@
    "flags": {
       "wc5e": {
          "type": "race",
-         "name": "Gnome",
+         "name": "WC5E.Race.Gnome.Name",
          "artwork": {
             "src": "modules/warcraft5e/res/pics/races/gnome_artwork.webp",
             "url": "https://hdwallpapers.cat/wallpaper/world-of-warcraft-gnomes-fan-art-by-tooth-SSRb.jpg",
@@ -93,8 +93,12 @@
                "common",
                "gnomish"
             ],
-            "speed": 25,
-            "size": "sm"
+            "resistance": [
+            ],
+            "skills": [
+            ],
+            "size": "sm",
+            "speed": 25
          }
       }
    },

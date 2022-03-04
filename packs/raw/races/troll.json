@@ -10,7 +10,7 @@
    "flags": {
       "wc5e": {
          "type": "race",
-         "name": "Troll",
+         "name": "WC5E.Race.Troll.Name",
          "description": [
             {
                "value": "WC5E.Race.Troll.Description.1.Value"
@@ -229,8 +229,23 @@
             ],
             "resistance": [
             ],
+            "size": "med",
+            "skills": [
+            ],
             "speed": 30,
-            "size": "md"
+            "weaponProficiencies": [
+               "battleaxe",
+               "blowgun",
+               "dagger",
+               "dart",
+               "handaxe",
+               "javelin",
+               "longbow",
+               "net",
+               "sling",
+               "shortbow",
+               "spear"
+            ]
          }
       }
    },

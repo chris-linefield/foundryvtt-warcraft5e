@@ -50,3 +50,5 @@ DND5E.languages = {
 DND5E.creatureTypes.mecha = "WC5E.Creature.Mecha.Name";
 
 //DND5E.toolIds.infusion = "oZ4szgJtQaSdG1qD";
+
+DND5E.weaponIds.blunderbuss = "NDTLQbQwBSCd3nei";
