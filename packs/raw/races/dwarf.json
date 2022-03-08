@@ -115,6 +115,9 @@
                   },
                   "armorProficiencies": [
                      "lgt"
+                  ],
+                  "weaponProficiencies": [
+                     "generalFirearm"
                   ]
                }
             },
@@ -177,6 +180,84 @@
                   },
                   "skills": [
                      "ani"
+                  ]
+               }
+            },
+            {
+               "artwork": {
+                  "src": "modules/warcraft5e/res/pics/races/darkiron_artwork.webp",
+                  "url": "https://www.deviantart.com/mydeads/art/Dark-Iron-Dwarf-714042501",
+                  "credit": "MyDeads"
+               },
+               "name": "WC5E.Race.Dwarf.Subraces.DarkIron.Name",
+               "description": [
+                  {
+                     "italic": "WC5E.Race.Dwarf.Subraces.DarkIron.Description.1.Italic",
+                     "value": "WC5E.Race.Dwarf.Subraces.DarkIron.Description.1.Value"
+                  },
+                  {
+                     "value": "WC5E.Race.Dwarf.Subraces.DarkIron.Description.2.Value"
+                  },
+                  {
+                     "value": "WC5E.Race.Dwarf.Subraces.DarkIron.Description.3.Value"
+                  }
+               ],
+               "affiliation": [
+                  {
+                     "value": "WC5E.Race.Dwarf.Subraces.DarkIron.Affiliation.1.Value"
+                  }
+               ],
+               "traits": [
+                  {
+                     "pack": "warcraft5e.wc5e_racial_feats",
+                     "node": "M5fOHZXmhBfYOVNt",
+                     "label": "WC5E.Feats.BurningHeart.Label"
+                  },
+                  {
+                     "pack": "warcraft5e.wc5e_racial_feats",
+                     "node": "NinT8sntLWkcdoQQ",
+                     "label": "WC5E.Feats.DwarvenCombatTrainingBB.Label"
+                  },
+                  {
+                     "pack": "warcraft5e.wc5e_racial_feats",
+                     "node": "Uej2lHlNNFmCem39",
+                     "label": "WC5E.Feats.FireLordsFavor.Label"
+                  }
+               ],
+               "spells": [
+                  {
+                     "pack": "warcraft5e.wc5e_spells",
+                     "node": "a6NcDxilIbWrQ0jg",
+                     "label": "WC5E.Spells.ProduceFlame.Label"
+                  }
+               ],
+               "names": {
+                  "male": [
+                     "Beld",
+                     "Franclorn",
+                     "Lokhtos",
+                     "Grall"
+                  ],
+                  "female": [
+                     "Aster",
+                     "Channis",
+                     "Mogran",
+                     "Wellia"
+                  ],
+                  "family": "WC5E.Race.Dwarf.Subraces.DarkIron.FamilyNames"
+               },
+               "values": {
+                  "abilities": {
+                     "int": 1
+                  },
+                  "armorProficiencies": [
+                     "lgt"
+                  ],
+                  "resistance": [
+                     "fire"
+                  ],
+                  "weaponProficiencies": [
+                     "generalFirearm"
                   ]
                }
             }

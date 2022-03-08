@@ -1,0 +1,126 @@
+{
+   "name": "Blunderbuss",
+   "type": "weapon",
+   "img": "icons/weapons/guns/gun-blunderbuss-gold.webp",
+   "data": {
+      "description": {
+         "value": "<p>A heavy and powerful firearm favored by richer dwarves, the long muzzle blunderbuss is a heavy hitter with great history on the battlefield and a revered position in a dwarven household.</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 223",
+      "quantity": 1,
+      "weight": 15,
+      "price": 800,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "uncommon",
+      "identified": true,
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": null,
+         "units": ""
+      },
+      "target": {
+         "value": 1,
+         "width": null,
+         "units": "",
+         "type": "creature"
+      },
+      "range": {
+         "value": 200,
+         "long": 800,
+         "units": "ft"
+      },
+      "uses": {
+         "value": null,
+         "max": "",
+         "per": ""
+      },
+      "consume": {
+         "type": "ammo",
+         "target": "",
+         "amount": 2
+      },
+      "ability": "",
+      "actionType": "rwak",
+      "attackBonus": "0",
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [
+            [
+               "3d8",
+               "piercing"
+            ]
+         ],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "scaling": "spell"
+      },
+      "armor": {
+         "value": 10
+      },
+      "hp": {
+         "value": 0,
+         "max": 0,
+         "dt": null,
+         "conditions": ""
+      },
+      "weaponType": "martialR",
+      "baseItem": "generalFirearm",
+      "properties": {
+         "ada": false,
+         "amm": false,
+         "fin": false,
+         "fir": true,
+         "foc": false,
+         "hvy": true,
+         "lgt": false,
+         "lod": false,
+         "mgc": false,
+         "rch": false,
+         "rel": true,
+         "ret": false,
+         "sil": false,
+         "spc": false,
+         "thr": false,
+         "two": true,
+         "ver": false,
+         "hvyplus": false
+      },
+      "proficient": true
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+   },
+   "flags": {
+      "wc5e": {
+         "type": "item",
+         "cost": 800,
+         "unit": "WC5E.UI.Units.Gp",
+         "mass": 15,
+         "weightUnit": "WC5E.UI.Units.Lb",
+         "label": "WC5E.Items.Blunderbuss.Label",
+         "description": [
+            {
+               "value": "WC5E.Items.Blunderbuss.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "_id": "OzTYZwO6dbdY8nOg"
+}

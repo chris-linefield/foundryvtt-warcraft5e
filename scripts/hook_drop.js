@@ -27,8 +27,10 @@ async function replaceRace(document, race) {
 
     console.log(targetActor);
 
-    const pack = game.packs.get('warcraft5e.wc5e_racial_feats');
-    let possibleFeats = await pack.getDocuments();
+    const featPack = game.packs.get('warcraft5e.wc5e_racial_feats');
+    const spellPack = game.packs.get('warcraft5e.wc5e_spells');
+    let possibleFeats = await featPack.getDocuments();
+    let possibleSpells = await spellPack.getDocuments();
 
     //get names of all compendium skills
     let compendiumFeats = [];
@@ -48,14 +50,28 @@ async function replaceRace(document, race) {
     let traits = race.traits;
     let entries = [];
     for (let trait of traits) {
-        let entry = await pack.get(trait.node);
+        let entry = await featPack.get(trait.node);
         entries.push(entry.data);
+    }
+
+    //add new race spells
+    let spells = race.spells;
+    if (spells) {
+        for (let spell of spells) {
+            let entry = await spellPack.get(spell.node);
+            entries.push(entry.data);
+        }
     }
     targetActor.createEmbeddedDocuments("Item", entries);
 
     let weaponProfs = [];
-    if(race.values.weaponProficiencies) {
+    if (race.values.weaponProficiencies) {
         weaponProfs = race.values.weaponProficiencies;
+    }
+
+    let armorProfs = [];
+    if (race.values.armorProficiencies) {
+        armorProfs = race.values.armorProficiencies;
     }
 
     //update the actor-props
@@ -65,6 +81,7 @@ async function replaceRace(document, race) {
         ['data.traits.size']: race.values.size,
         ['data.traits.languages.value']: race.values.language,
         ['data.traits.dr.value']: race.values.resistance,
+        ['data.traits.armorProf.value']: armorProfs,
         ['data.traits.weaponProf.value']: weaponProfs,
         ['flags.wc5e']: {}
     });
@@ -77,36 +94,59 @@ async function replaceRace(document, race) {
                 icon: '<i class="fas fa-user-plus"></i>',
                 label: game.i18n.localize(subrace.name),
                 callback: async () => {
-                    let traits = subrace.traits;
                     let entries = [];
+
+                    let traits = subrace.traits;
                     if (traits && traits.length > 0) {
                         for (let trait of traits) {
-                            let entry = await pack.get(trait.node);
+                            let entry = await featPack.get(trait.node);
                             entries.push(entry.data);
                         }
-                        targetActor.createEmbeddedDocuments("Item", entries);
+                    }
 
-                        let resistance = race.values.resistance;
-                        if (subrace.values.resistance) {
-                            resistance.push(subrace.values.resistance);
+                    let spells = subrace.spells;
+                    if (spells && spells.length > 0) {
+                        for (let spell of spells) {
+                            let entry = await spellPack.get(spell.node);
+                            entries.push(entry.data);
                         }
+                    }
+                    targetActor.createEmbeddedDocuments("Item", entries);
 
-                        let skills = race.values.skills;
-                        if (subrace.values.skills) {
-                            skills.push(subrace.values.skills);
-                        }
+                    let resistance = race.values.resistance;
+                    if (subrace.values.resistance) {
+                        resistance.push(subrace.values.resistance);
+                    }
 
-                        for(let skill of skills) {
-                            targetActor.update({
-                                ['data.skills.'+skill+'.value']: 1
-                            });
-                        }
+                    let skills = race.values.skills;
+                    if (subrace.values.skills) {
+                        skills.push(subrace.values.skills);
+                    }
 
+                    for (let skill of skills) {
                         targetActor.update({
-                            ['data.details.race']: game.i18n.localize(subrace.name),
-                            ['data.traits.dr.value']: resistance
+                            ['data.skills.' + skill + '.value']: 1
                         });
                     }
+
+                    if (subrace.values.weaponProficiencies) {
+                        for (let wp of subrace.values.weaponProficiencies) {
+                            weaponProfs.push(wp);
+                        }
+                    }
+
+                    if (subrace.values.armorProficiencies) {
+                        for (let ap of subrace.values.armorProficiencies) {
+                            armorProfs.push(ap);
+                        }
+                    }
+
+                    targetActor.update({
+                        ['data.details.race']: game.i18n.localize(subrace.name),
+                        ['data.traits.dr.value']: resistance,
+                        ['data.traits.armorProf.value']: armorProfs,
+                        ['data.traits.weaponProf.value']: weaponProfs,
+                    });
                 }
             }
         }

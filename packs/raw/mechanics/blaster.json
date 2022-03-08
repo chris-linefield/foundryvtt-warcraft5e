@@ -1,0 +1,25 @@
+{
+   "_id": "Lvy4WK5R2sdCyqqk",
+   "name": "Blaster",
+   "permission": {
+      "default": 0
+   },
+   "type": "class",
+   "flags": {
+      "wc5e": {
+         "type": "rule",
+         "title": "WC5E.Rules.Mechanics.Blaster.Label",
+         "content": [
+            {
+               "value": "WC5E.Rules.Mechanics.Blaster.Description.1.Value"
+            },
+            {
+               "options": [
+                  "WC5E.Rules.Mechanics.Blaster.Description.2.Options.1",
+                  "WC5E.Rules.Mechanics.Blaster.Description.2.Options.2"
+               ]
+            }
+         ]
+      }
+   }
+}

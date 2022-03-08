@@ -1,13 +1,13 @@
 {
-   "_id": "NinT8sntLWkcdoQQ",
-   "name": "Combat Training",
+   "_id": "Uej2lHlNNFmCem39",
+   "name": "Fire Lord's Favor",
    "permission": {
       "default": 0
    },
    "type": "feat",
    "data": {
-      "source": "Wc5e - Core p. 12",
-      "requirements": "Dwarf (Bronzebeard, Dark Iron)"
+      "source": "Wc5e - Core p. 13",
+      "requirements": "Dwarf (Dark Iron)"
    },
    "flags": {
       "wc5e": {
@@ -15,12 +15,12 @@
          "category": "WC5E.SkillCategories.General",
          "description": [
             {
-               "value": "WC5E.Feats.DwarvenCombatTrainingBB.Description.1.Value"
+               "value": "WC5E.Feats.FireLordsFavor.Description.1.Value"
             }
          ]
       }
    },
-   "img": "icons/weapons/guns/gun-blunderbuss-gold.webp",
+   "img": "icons/magic/fire/flame-burning-eye.webp",
    "effects": [
    ]
 }

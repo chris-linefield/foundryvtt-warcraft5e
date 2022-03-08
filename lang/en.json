@@ -2711,6 +2711,14 @@
                }
             }
          },
+         "BurningHeart": {
+            "Label": "Burning Heart",
+            "Description": {
+               "1": {
+                  "Value": "You know the produce flame cantrip (caster level equal to your character level). Intelligence is your spellcasting ability for it."
+               }
+            }
+         },
          "BurningSpiritRune": {
             "Label": "Burning Spirit Rune",
             "Description": {
@@ -3677,7 +3685,7 @@
             }
          },
          "DwarvenCombatTrainingBB": {
-            "Label": "Dwarven Combat Training (Bronzebeard)",
+            "Label": "Combat Training",
             "Description": {
                "1": {
                   "Value": "You have proficiency with firearms and explosives of all types, even if you do not have proficiency in engineering, and gain proficiency with light armor."
@@ -4309,6 +4317,14 @@
             "Description": {
                "1": {
                   "Value": "Firearms you create always benefit from one free modification (equivalent to 1 EP point), chosen from any modification that applies to firearms. Also, whenever you apply an add-on to your firearms and suffer a malfunction, you can choose to let only the add-on suffer the condition."
+               }
+            }
+         },
+         "FireLordsFavor": {
+            "Label": "Fire Lords Favor",
+            "Description": {
+               "1": {
+                  "Value": "You have resistance to fire damage."
                }
             }
          },
@@ -7781,8 +7797,32 @@
          "Blight": {
             "Label": "Blight"
          },
+         "Blunderbuss": {
+            "Label": "Blunderbuss",
+            "Description": {
+               "1": {
+                  "Value": "A heavy and powerful firearm favored by richer dwarves, the long muzzle blunderbuss is a heavy hitter with great history on the battlefield and a revered position in a dwarven household."
+               }
+            }
+         },
+         "BlunderbussScattershot": {
+            "Label": "Blunderbuss, Scattershot",
+            "Description": {
+               "1": {
+                  "Value": "An easier-to-use blunderbuss, the scattershot blunderbuss can be altered to shoot a cone of bullets in a 15-foot cone, dealing 2d8 damage, with an Agility save to half. As scattershot blunderbusses do not require attack rolls, they do not require proficiency to use, and can be used while adjacent to an enemy without penalty."
+               }
+            }
+         },
          "BookOfTheDead": {
             "Label": "Book of the Dead"
+         },
+         "Boomstick": {
+            "Label": "Boomstick",
+            "Description": {
+               "1": {
+                  "Value": "Known as a favored dwarven weapon, boomsticks are intricately designed with special markings to denote the company, issue date, and a small piece of war advice in dwarven."
+               }
+            }
          },
          "Brainsplinter": {
             "Label": "Brainsplinter"
@@ -8340,10 +8380,23 @@
                },
                "DarkIron": {
                   "Name": "Dark Iron",
-                  "Quote": "You shall serve.",
-                  "Description": "You hail from the Dark Iron clans, lead by the Sorcerer-thane Thaurissan. Reviled as betrayers of their fellow dwarves, and living in the mountain-halls of Blackrock Mountain, Dark Iron dwarves are slaves to the great elemental Firelord Ragnaros, and serve him in the latent volcanic mountain. Dark Irons seem identical to Ironforge dwarves, except that their skin tones are ashen and gray, and their eyes are golden-red. Dark Irons who adventure can often reach into the power in their bloodline and spontaneously conjure flames. Hoarse of voice and prone to undertone muttering, Dark Irons do not inspire trust easily.",
-                  "AbilityScoreIncrease": "Your Intelligence score increases by 1.",
-                  "Affiliation": "Alliance or Independent. Hatred comes to Dark Iron dwarves against all races, and in their service to Ragnaros, they see only rivals, thralls, and enemies. Some dark irons have found kinship with their cousins the Wildhammers and the Bronzebeards, and chose to join the Alliance.",
+                  "Description": {
+                     "1": {
+                        "Italic": "You shall Serve!",
+                        "Value": "As a darklands dwarf, you probably hail from the Dark Iron clans, lead by the Sorcerer-thane Thaurissan. Reviled as betrayers of their fellow dwarves, and living in the mountain-halls of Blackrock Mountain, Dark Iron dwarves are slaves to the great elemental Firelord Ragnaros, and serve him in the latent volcanic mountain."
+                     },
+                     "2": {
+                        "Value": "Dark Irons seem identical to Ironforge dwarves, except that their skin tones are ashen and gray, and their eyes are golden-red. Dark Irons who adventure can often reach into the power in their bloodline and spontaneously conjure flames."
+                     },
+                     "3": {
+                        "Value": "Hoarse of voice and prone to undertone muttering, Dark Irons do not inspire trust easily."
+                     }
+                  },
+                  "Affiliation": {
+                     "1": {
+                        "Value": "Alliance or Independent. Hatred comes to Dark Iron dwarves against all races, and in their service to Ragnaros, they see only rivals, thralls, and enemies. Some dark irons have found kinship with their cousins the Wildhammers and the Bronzebeards, and chose to join the Alliance."
+                     }
+                  },
                   "FamilyNames": "Angerforge, Darkbargainer, Firesmite, Forgewright"
                },
                "Wildhammer": {
@@ -8573,32 +8626,6 @@
       },
       "Rules": {
          "Mechanics": {
-            "AbilityScoreSummary": {
-               "Label": "Ability Score Summary",
-               "Description": {
-                  "1": {
-                     "Value": "Measures: Natural athleticism, bodily power<br>Important for: Death Knight, Paladin, and Warrior"
-                  },
-                  "2": {
-                     "Value": "Measures: Physical agility, reflexes, balance, poise<br>Important for: Hunter, Monk, Rogue"
-                  },
-                  "3": {
-                     "Value": "Measures: Health, constitution, vital force<br>Important for: Everyone"
-                  },
-                  "4": {
-                     "Value": "Measures: Mental acuity, information recall, analytical skill<br>Important for: Alchemist, Mage, Tinker"
-                  },
-                  "5": {
-                     "Value": "Measures: Awareness, intuition, wisdom<br>Important for: Druid, Priest, Shaman"
-                  },
-                  "6": {
-                     "Value": "Measures: Confidence, eloquence, leadership<br>Important for: Warlock"
-                  },
-                  "7": {
-                     "Headline": "Racial Increases"
-                  }
-               }
-            },
             "Advantage": {
                "Label": "Advantages and Disadvantages",
                "Description": {
@@ -8619,499 +8646,571 @@
                   }
                }
             },
-            "AdventuringGear": {
-               "Label": "Adventuring Gear",
+            "Blaster": {
+               "Label": "Blaster",
                "Description": {
                   "1": {
-                     "Value": "Sometimes a special ability or spell tells you that you have advantage or disadvantage on an ability check, a saving throw, or an attack roll. When that happens, you roll a second d20 when you make the roll. Use the higher of the two rolls if you have advantage, and use the lower roll if you have disadvantage. For example, if you have disadvantage and roll a 17 and a 5, you use the 5. If you instead have advantage and roll those numbers, you use the 17."
-                  }
-               }
-            },
-            "Backgrounds": {
-               "Label": "Backgrounds",
-               "Description": {
-                  "1": {
-                     "Value": "The Warcraft universe has its own native twist on backgrounds. You may use any of the below backgrounds with the appropriate customization options."
+                     "Value": "The firearm‘s range is quartered, but whenever it successfully hits an enemy, you may choose one of two special effects:"
                   },
                   "2": {
-                     "Value": "For a detailed list of available Backgrounds please consult the \"Wc5e | Backgrounds\" Compendium."
-                  }
-               }
-            },
-            "Beyond1stLevel": {
-               "Label": "Beyond 1st Level",
-               "Description": {
-                  "1": {
-                     "Value": "The rules in the World of Warcraft 5e RPG also include crafting sub-systems and classes (such as the Alchemist and Tinker), and various options (such as the Infusionist feat) that can translate wealth into character power."
-                  },
-                  "2": {
-                     "Value": "When creating a character from above 1st level, refer to the following guidelines for expected wealth for level to give a general idea how to keep characters on the same general level of wealth."
-                  },
-                  "3": {
-                     "Value": "Refer to the Item Creation Complexity and Cost Table on Chapter 7 to calculate item rarity. Note that crafting an item costs one half the cost of buying it."
-                  },
-                  "4": {
-                     "Value": "The amount of wealth carried by a character can vary significantly depending on starting resources, unexpected loot gained in the campaign, whether or not characters have downtime to gather additional wealth, inherited gold, or even possessing companies and strongholds under their control."
-                  },
-                  "5": {
-                     "Title": "Magical Item Budget",
-                     "Value": "The amount of wealth carried by a character can vary significantly depending on starting resources, unexpected loot gained in the campaign, whether or not characters have downtime to gather additional wealth, inherited gold, or even possessing companies and strongholds under their control."
-                  },
-                  "6": {
-                     "Value": "In this case, the wealth is not the expected wealth of the character, but the cost of the magic items the player should have by the appropriate level. This can come in the form of quest gifts, a normal item improving into a magical one, or a permanent blessing or infusion upon a held item."
-                  },
-                  "7": {
-                     "Value": "The expected cost of magic items relative to rarity is present in Chapter 7."
-                  },
-                  "8": {
-                     "Title": "Expected Downtime",
-                     "Value": "In case of crafting classes (Alchemist and Tinker), or in cases where characters can create magical items (taking the Infusionist feat), a good amount of downtime to allow the classes to function at a competitive rate is usually 5 days to 1 week between adventures (or the same time for every 3-5 combat encounters)."
-                  },
-                  "9": {
-                     "Value": "That way, very complex projects (2 weeks) like building a mecha or vehicle can be done every two adventures."
-                  },
-                  "10": {
-                     "Value": "With such options available, players benefit more from wealth and time to build the exact items they need, from scrolls, potions, explosives, and more spells in a mage's spellbook, to advanced constructs and vehicles such as gyrocopters, so exercising judgment is key."
-                  }
-               },
-               "TypicalWealth": "Typical Wealth"
-            },
-            "BoundCompanions": {
-               "Label": "Bound Companions",
-               "Description": {
-                  "1": {
-                     "Value": "Characters‘ class abilities sometimes provide companions. Companions are creatures that have lower challenge rating than the character, and join the character in their adventures free of charge."
-                  },
-                  "2": {
-                     "Value": "These creatures do not grant XP when killed, and do not consume XP when fighting, but are effectively bound to the character who has the ability, leveling up with them in some capacity (gaining hit dice, ability score increases, etc., as detailed in the class entry)."
-                  },
-                  "3": {
-                     "Value": "The ability that provides the bound companion determines the creature type (usually beast), the CR, and whether the companion gains special abilities."
-                  },
-                  "4": {
-                     "Value": "Some abilities allow you to increase the strength of your bond with your companion. In this case, you may be allowed to add your Proficiency bonus to the companion‘s attack rolls or saving throws (or other rolls). This does not stack with the creature‘s own Proficiency Bonus."
-                  },
-                  "5": {
-                     "Title": "Controlling the Companion",
-                     "Value": "The companion obeys its master‘s commands as best as it can. It takes its turn on its master‘s initiative."
-                  },
-                  "6": {
-                     "Value": "On the master‘s turn, the companion can be verbally commanded where to move (no action required by you) or what to do. If the creature has a special bond, the master may or may not be able to command it telepathically, depending on the bond‘s description."
-                  },
-                  "7": {
-                     "Value": "Bound companions otherwise act on their own, unless given a clear command from their master, in which case they fulfill the command as best as they can. Giving a bound companion a direct order (so long as they are not telepathically connected) costs an attack action."
-                  },
-                  "8": {
-                     "Value": "The master is always aware of the bound companion‘s normal course of action. If the master is incapacitated or absent, the companion acts as it normally would, but also protects its master and itself."
-                  },
-                  "9": {
-                     "Value": "For example, a hunter with a panther companion is attacked in an ambush. The panther, if commanded to fight, would normally attack the weakest enemy from behind. If the hunter uses an attack to command the panther to fight in sync with him, the panther obeys and fights as its master wishes."
-                  }
-               }
-            },
-            "Classes": {
-               "Label": "Classes",
-               "Description": {
-                  "1": {
-                     "Value": "Specializations in Warcraft act as sub-classes for most intents and purposes. Some subclasses are racially-locked, and thus can only be entered by fulfilling a racial requirement."
-                  },
-                  "2": {
-                     "Value": "Classes in Azeroth have different names (as noted in the introduction), and sometimes different abilities. These are noted below."
-                  },
-                  "3": {
-                     "Title": "Optional Rule: More Talents",
-                     "Value": "Talents allows customizing your character in a more freeform way than multiclassing."
-                  },
-                  "4": {
-                     "Value": "With this optional rule, you may exchange class features gained from archetypes (paths, circles, traditions, etc.) to grant access to a talent, but only if the class already has the ability to gain talents, and only once per level."
-                  }
-               }
-            },
-            "ClassTalents": {
-               "Label": "Class Talents",
-               "Description": {
-                  "1": {
-                     "Value": "Some classes allow you to take talents, which are customizable class features that can enrich and reinforce a certain character concept."
-                  },
-                  "2": {
-                     "Value": "All talent abilities have DCs of 8 + your proficiency bonus + your Strength or Agility modifier (your choice) if they allow a saving throw."
-                  },
-                  "3": {
-                     "Value": "For a detailed list of available Class Talents please consult the \"Wc5e | Class Talents\" Compendium."
-                  }
-               }
-            },
-            "DeterminingAbilityScores": {
-               "Label": "Determining Ability Scores",
-               "Description": {
-                  "1": {
-                     "Value": "When determining your ability scores (also known as attributes), there are two new methods to create them; the focused method, and the heroic method. Both yield higher attributes on average, suitable for the many challenges in the Warcraft universe."
-                  },
-                  "2": {
-                     "Title": "Focus and Foible",
-                     "Value": "This method leads to more focused characters with clearer weaknesses."
-                  },
-                  "3": {
-                     "Value": "Before applying modifiers, choose a one focus (an ability score you‘re good at) and one foible (an ability score you‘re bad at)."
-                  },
-                  "4": {
-                     "Value": "<i>Focus</i>: Mark this attribute as 18<br><i>Foible</i>: Mark this attribute as 8"
-                  },
-                  "5": {
-                     "Value": "Set your remaining attributes at 10, and distribute 16 points among the ability scores in any way you desire. You may reduce an existing attribute by up to 2 points to gain 2 points to add to another attribute."
-                  },
-                  "6": {
-                     "Title": "Heroic Roll",
-                     "Value": "This method leads to generally stronger characters than by normal rolling. For each ability score, roll 2d6 + 6."
-                  }
-               }
-            },
-            "Inspiration": {
-               "Label": "Inspiration",
-               "Description": {
-                  "1": {
-                     "Value": "Inspiration is a rule the player can use to grant them benefits for playing their character in a way that‘s true to his or her personality traits, ideal, bond, and flaw (collectively known as personality). By using inspiration, you can draw on a personality trait (compassion for the downtrodden) to give you an edge in negotiating with the Beggar Prince."
-                  },
-                  "2": {
-                     "Title": "Gaining Inspiration",
-                     "Value": "Gaining inspiration occurs when a character gives in to a flaw, reaffirms a bond, or otherwise suffers a narrative or mechanical penalty due to their personality (also known as a Setback)."
-                  },
-                  "3": {
-                     "Value": "A rogue with the flaw „I'm always in debt. I spend my ill-gotten gains on decadent luxuries faster than I bring them in‟ can invoke it when attempting to negotiate a favor. In this case, the DM may rule that the opposing character recognizes the character's flaw, and does not trust the character enough to aid them, thereby depriving them of a helpful ally and forcing them to find another one or to make due without aid."
-                  },
-                  "4": {
-                     "Value": "Any mechanical penalties must be equivalent to the benefit of inspiration, such as granting an enemy inspiration or disadvantage on a necessary skill check or saving throw."
-                  },
-                  "5": {
-                     "Value": "A character may also gain inspiration after suffering a setback (such as losing a loved one who was their bond, or betraying their ideal out of necessity or bitterness). If this occurs, a character may choose to change one of their traits, ideals, or bonds. By doing so, a character develops, and the character has another point of Inspiration (up to a maximum of 2)."
-                  },
-                  "6": {
-                     "Title": "Spending Inspiration",
-                     "Value": "When inspired, a character can gain a bonus to performing actions that fit their traits, support their ideals, or aid their bonds. A character with inspiration may spend it to gain one of the following effects:"
-                  },
-                  "7": {
                      "Options": {
-                        "1": "Advantage to a single saving throw, ability check, or attack roll.",
-                        "2": "Roll a 1d6, and add the result to one d20 roll or your AC against one attack. You may declare this after you know the result of the attack.",
-                        "3": "Impose disadvantage to a single saving throw, ability check, or attack roll of a creature attacking you."
+                        "1": "You may deal one additional dice of damage of the firearm‘s type.",
+                        "2": "You may push the target up to 5 feet per Rarity of the firearm (up to a maximum of 30 feet away from you)."
                      }
-                  },
-                  "8": {
-                     "Value": "Upon hearing of the murder of his brother Muradin, King Magni Bronzebeard was inspired to forge Ashbringer, a blade he would have otherwise been unable to create."
-                  },
-                  "9": {
-                     "Value": "It was Mannoroth‘s taunt to Garrosh Hellscream that provoked him into a terrible fury, allowing him to land a blow that slew the demon king of the pit lords."
-                  },
-                  "10": {
-                     "Value": "A DM may allow spending Inspiration for a special benefit, such as temporary access to a feat (such as Infusionist) for one task or encounter, crafting an artifact, regaining a use of an ability with no remaining uses (Berserker Rage), or another appropriate effect."
-                  },
-                  "11": {
-                     "Title": "Personality",
-                     "Value": "It is always advisable to consult with the DM and other players on how your traits, ideals, bonds, and flaws synchronize with one another and your character concept, and to ensure that your character's personality is distinct enough to gain and spend inspiration reliably in situations where they are the narrative 'stars'. At the same time, it should be infrequent enough to not prove disruptive to normal gameplay (such as choosing to take a setback for inspiration)."
-                  },
-                  "12": {
-                     "Value": "If you play a mage, for example, you may choose to adopt the background of a scholarand choose the following personality."
-                  },
-                  "13": {
-                     "Value": "<i>Trait</i>: I'm used to helping out those who aren‘t as smart as I am, and I patiently explain anything and everything to others."
-                  },
-                  "14": {
-                     "Value": "<i>Ideal - Knowledge</i>: The path to power and self-improvement is through knowledge."
-                  },
-                  "15": {
-                     "Value": "<i>Bond</i>: I've been searching my whole life for the answer to a certain question."
-                  },
-                  "16": {
-                     "Value": "<i>Flaw</i>: I can‘t keep a secret to save my life, or anyone else‘s."
-                  },
-                  "17": {
-                     "Value": "The aspects of the mage's personality synchronize well. If you allow a critical secret to slip (flaw), risking an ally's career or life, you gain Inspiration, which can possibly be used to answer a question you spent your whole life studying (Bond)."
-                  },
-                  "18": {
-                     "Value": "If your ally loses their career or possibly even their life, your character is traumatized enough to warrant character development, changing your ideal from knowledge to either power (Knowledge is the path to power and domination) or friendship (depending on how you wish to handle the character‘s personality progression)."
                   }
-               }
-            },
-            "Races": {
-               "Label": "Races",
-               "Description": {
-                  "1": {
-                     "Value": "The races of Warcraft are diverse and rich. Each race has a role in the world, and their deeds resonate through the ages. Members of each race view each other with assumptions formed by past conflicts and alliances. Warcraft‘s history is troubled and epic, and every aspect influences the races, their beliefs and their roles."
-                  },
-                  "2": {
-                     "Value": "The races described here are not the only races in the Warcraft world, but they are the most dominant, influential, and prone to adventuring. Other races can be found in the Monster Guide."
-                  },
-                  "3": {
-                     "Title": "Racial Mount",
-                     "Value": "Each race in Warcraft has affinity to one creature that serves as a primary mount, either to accommodate their skeletal and muscular structure, or for cultural reasons. Refer to the below table for details."
-                  }
-               },
-               "RacialMount": {
-                  "Elekk": "Elekk",
-                  "Rams": "Rams",
-                  "Gryphons": "Gryphons",
-                  "CoreHounds": "Core Hounds",
-                  "Horses": "Horses",
-                  "Hawkstrider": "Hawkstrider",
-                  "SaberCats": "Saber Cats",
-                  "SkeletalHorses": "Skeletal Horses",
-                  "SkeletalHorsesDesc": "(Horse with skeletal template)",
-                  "Mechanostriders": "Mechanostriders",
-                  "MechanostridersDesc": "(Tallstrider with mechanized template)",
-                  "TurboTrike": "Turbo-Trike",
-                  "TurboTrikeDesc": "(Vehicle)",
-                  "Wolves": "Wolves",
-                  "GiantTurtles": "Giant Turtles",
-                  "KodoBeasts": "Kodo Beasts",
-                  "Raptors": "Raptors"
                }
             },
             "Resistance": {
                "Label": "Damage Resistance and Vulnerability",
                "Content": "<p>Some creatures and objects are exceedingly difficult or unusually easy to hurt with certain types of damage.</p><p>If a creature or an object has resistance to a damage type, damage of that type is halved against it. If a creature or an object has vulnerability to a damage type, damage of that type is doubled against it.</p><p>Resistance and then vulnerability are applied after all other modifiers to damage. For example, a creature has resistance to bludgeoning damage and is hit by an attack that deals 25 bludgeoning damage. The creature is also within a magical aura that reduces all damage by 5. The 25 damage is first reduced by 5 and then halved, so the creature takes 10 damage.</p><p>Multiple instances of resistance or vulnerability that affect the same damage type count as only one instance. For example, if a creature has resistance to fire damage as well as resistance to all nonmagical damage, the damage of a nonmagical fire is reduced by half against the creature, not reduced by three-quarters.</p>"
             },
-            "StandardLanguages": {
-               "Label": "Standard Languages",
+            "Sapper": {
+               "Label": "Sapper",
                "Description": {
                   "1": {
-                     "Special": "Dialects: Gutterspeech",
-                     "Value": "1: Gutterspeech is often known as the language of the forsaken, and is a dialect of Common influenced by dwarven, low common, and a hint of Thieves‘ Cant. Any creature that knows one component language of Gutterspeech can learn it with half the normal time of learning a language."
-                  },
-                  "2": {
-                     "Special": "Uncursed Eredun",
-                     "Value": "2: Demons of the Burning Legion speak the tongue of their kind, Eredun, which is a perversion of Titan using their own script. Any creature that is not also a fiend that deliberately speaks Eredun without being also bound to demons, must make a Spirit save every year (DC 15) or lose 1 point of Spirit, and shift one step towards Lawful Evil. If the character is Evil, the spirit loss remains until the character pledges themselves to the Burning Legion or a representative of them, such as by Calling them or serving them in a substantial way, in which case the attribute is restored."
-                  },
-                  "3": {
-                     "Value": "This is a Curse effect, and the Remove Curse removes this penalty forever. Characters who gain access to Eredun through special abilities (such as the warlock or demon hunter) do not suffer from this curse, although ones gained by training or by background do."
-                  },
-                  "4": {
-                     "Special": "Dialects: Darnassian, Thalassian, Nazja",
-                     "Value": "3: The elven tongue remains remarkably unchanged throughout the centuries, but many dialects have been born. Darnassian is spoken by night elves. A dialect of Darnassian is spoken by the Nightborne (known as Shalassian). Thalassian is spoken by Highborne, high elves, void elves, and blood elves. Nazja is spoken by naga. A debased sub-dialect of Nazja is Nerglish, the speech of murlocs."
-                  },
-                  "5": {
-                     "Special": "Aquan, Auran, Ignan, Terran",
-                     "Value": "4: Kalimag has four distinct dialects for the prime elementals, such as Aquan for water elementals, Auran for air elementals, Ignan for fire elementals, and Terran for earth elementals."
-                  },
-                  "6": {
-                     "Special": "Requires 1/4 the learn time for Common",
-                     "Value": "5: Low Common is often spoken by furbolgs, gnolls, kobolds, ogres, and most humanoids or giants with low Intelligence. It is also an easier language to learn, requiring only one-quarter the normal learning time."
-                  },
-                  "7": {
-                     "Value": "6: Orcish script is relatively new, and before adopting Common, they used pictograms (as Taur-ahe uses today)."
-                  },
-                  "8": {
-                     "Value": "7: The troll tongue is curiously close to Common. Knowing Common can learn Troll is one half the normal time of learning a language."
-                  }
-               },
-               "TypicalSpeakers": "Typical Speakers",
-               "Script": "Script",
-               "Fiend": "Fiend",
-               "Cursed": "Cursed"
-            },
-            "StartingEquipment": {
-               "Label": "Starting Equipment",
-               "Description": {
-                  "1": {
-                     "Value": "As described in the Player‘s Handbook, you can start with a number of gold pieces based on your class and spend them on items from the lists in the equipment chapter. See the Starting Wealth by Class table to determine how much gold you have to spend."
-                  },
-                  "2": {
-                     "Value": "You decide how your character came by this starting equipment. It might have been an inheritance, or goods that the character purchased during his or her upbringing."
-                  }
-               },
-               "StartingWealth": "Starting Wealth by Class",
-               "Funds": "Funds",
-               "AlchemistBonus": "(plus 250 gp worth in alchemical components)",
-               "DeathKnightBonus": "(plus Runeblade(s))",
-               "TinkerBonus": "(plus 250 gp worth in alchemical components)"
-            },
-            "Tools": {
-               "Label": "Tools",
-               "Description": {
-                  "1": {
-                     "Value": "The Warcraft universe has its share of special tools, kits, and items."
+                     "Value": "The explosive (any type) deals double damage to structures, but half to creatures (constructs are creatures for this purpose)."
                   }
                }
             },
-            "Treasures": {
-               "Label": "Treasures",
+            "Scattershot": {
+               "Label": "Scattershot",
                "Description": {
                   "1": {
-                     "Value": "The Warcraft universe has many treasures, ranging from items infused with magic (such as named weapons and the Hearthstone), to armor sets that grant features when used together, to enhancements and epic boons."
-                  },
-                  "2": {
-                     "Title": "Infused Items"
+                     "Value": "The firearm can deal damage in a cone instead of a direct attack. This is treated as an area attack in a cone with a length of one-tenth the firearm‘s initial range. Creatures in the area can attempt an Agility saving throw against the Device save DC to halve the damage. The firearm uses two pieces of ammunition when making an attack. You can make a normal or area attack with a firearm, but not both, in a given round."
                   }
                }
             },
-            "Wealth": {
-               "Label": "Wealth",
+            "Sniper": {
+               "Label": "Sniper",
                "Description": {
                   "1": {
-                     "Value": "Material wealth in Azeroth was based on gold, silver, and copper coins. In many cases, however, barter takes place (such as in Booty Bay or other goblin strongholds), or is measured in other means (land, ownership of mines and other resource nodes, etc.)."
-                  },
-                  "2": {
-                     "Value": "Stormwind's coinage has traditionally been the copper penny, the silver groat, and the gold sovereign. For all purposes, however, coinage is nearly universal, with Stormwind-minted coin in equal circulation with coins minted in Ironforge, Orgrimmar, or Booty Bay. The Defias Brotherhood enjoys marring Stormwind minted coins creating \"cross-eyed coins‖ which is a sign of treason to the throne."
-                  },
-                  "3": {
-                     "Value": "Mined from the rich earth of Azeroth and Lordaeron, gold is commonly used as coins in exchange for goods and services. As a rare substance that is always in short supply, gold must be dug out from the rock and soil within established gold mines. Many of these mines were abandoned when the orc raids began (followed by the First and Second wars) and the workers fled for their very lives. Since the beginning of the Second War, many gold-mining sites are frequently operated while under the protection of military forces."
-                  },
-                  "4": {
-                     "Value": "Goblins call their currency macaroons, and they refer to money as moolah."
-                  },
-                  "5": {
-                     "Value": "Some other coins that are not minted any longer are worth more to some people. Gold coins from the fall of the Night Elf empire (Azshara-mint) often worth at least ten times the actual value of the same coin at the time of the empire‘s fall and drowning beneath the sea."
-                  },
-                  "6": {
-                     "Title": "Coinage",
-                     "Value": "The monetary system in the world of Warcraft operates on the scale described in the Player‘s Handbook. The only exception is that platinum pieces have yet to make an appearance in the world of Azeroth; though the value of platinum is recognized, it is rare enough that it is still used primarily as a decorative material rather than a type of coinage."
-                  },
-                  "7": {
-                     "Title": "Instances"
-                  },
-                  "8": {
-                     "Value": "offered by Patch to the first goblin making it to the deployment point in Nazmir."
-                  },
-                  "9": {
-                     "Value": "offered by Harlan Sweete to whoever brought him the head of Flynn Fairwind and an Alliance adventurer."
-                  },
-                  "10": {
-                     "Value": "wagered by Gazlowe on a single boat race."
-                  },
-                  "11": {
-                     "Value": "is made by Gazlowe per salvage haul for pirates."
-                  },
-                  "12": {
-                     "Value": "offered by Varok Saurfang per dead Alliance spy, though this was notably a bluff and no one was expected to, nor did anyone cash out."
-                  },
-                  "13": {
-                     "Value": "suggested by Helka Grimtotem as the worth of a gladiator champion like Valeera Sanguinar. Rehgar Earthfury agreed to sell Valeera to Helka for 2,000."
-                  },
-                  "14": {
-                     "Value": "offered by Varok Saurfang per captured Alliance spy, though this was notably a bluff and no one was expected to, nor did anyone cash out."
-                  },
-                  "15": {
-                     "Value": "the price of an immensely fast speed boat."
-                  },
-                  "16": {
-                     "Value": "the amount it costs the Alliance to train a foreman."
-                  },
-                  "17": {
-                     "Value": "the amount it costs the Alliance to train an engineer."
-                  },
-                  "18": {
-                     "Value": "the price offered to Valeera Sanguinar to purchase a fel dagger from an old woman in Menethil Harbor."
-                  },
-                  "19": {
-                     "Value": "given by an unnamed Stormwind Assassin's Guild member to Magatha Grimtotem in return for showing him a vision of his target, Lo'Gosh."
-                  },
-                  "20": {
-                     "Value": "bet by Renzik \"The Shiv\" on Nathanos Blightcaller winning a brawl against Varok Saurfang."
-                  },
-                  "21": {
-                     "Value": "the approximate amount it costs the Alliance to train a miner."
-                  },
-                  "22": {
-                     "Value": "lost by an unnamed Defias Brotherhood member in bets during a Crimson Ring tournament in Dire Maul."
-                  },
-                  "23": {
-                     "Value": "added onto an existing bet against Croc-Bait by an unknown audience member during the Crimson Ring tournament."
-                  },
-                  "24": {
-                     "Value": "the average cost of a salvage operation."
-                  },
-                  "25": {
-                     "Value": "19 pallets filled with jerky and codfish."
-                  },
-                  "26": {
-                     "Value": "During the invasion of Durotar, an unknown hunter in Daelin Proudmoore's army wanted to bet that amount that he could kill Vol'jin."
-                  },
-                  "27": {
-                     "Value": "bet by an unnamed troll on Giago during a Crimson Ring tournament."
-                  },
-                  "28": {
-                     "Value": "bet by an audience member on Two-Heads during a Crimson Ring tournament"
-                  },
-                  "29": {
-                     "Value": "the price for Scarlet Crusaders who want to receive absolution for the sin of punching someone in the groin."
-                  },
-                  "30": {
-                     "Value": "given by Horde adventurers to Boss Bazzelflange to allow her to get home to Brawl'gar Arena after being stranded in Area 52. After being given the gold, Bazzelflange could be seen running up to the flight master Krexcil, presumably to buy a ride using the money."
-                  },
-                  "31": {
-                     "Value": "the price for Scarlet Crusaders who want to receive absolution for the sin of punching someone in the chest."
-                  },
-                  "32": {
-                     "Title": "A mere handful of silver",
-                     "Value": "the price for Scarlet Crusaders who want to receive absolution for sins of \"harsh words\"."
-                  },
-                  "33": {
-                     "Value": "In Bilgewater Harbor, every vice one can imagine is available for that amount."
-                  },
-                  "34": {
-                     "Value": "offered by Sparkeye in a bet against Rehgar Earthfury's gladiator team."
-                  },
-                  "35": {
-                     "Value": "offered by Sparkeye in a \"small wager\" on a fight between his and Rehgar's gladiator teams. Rehgar doubled the bet to 80 silver."
-                  },
-                  "36": {
-                     "Value": "bet by an audience member on Croc-Bait during the Crimson Ring tournament."
-                  },
-                  "37": {
-                     "Value": "enough to purchase the ogre Throgg."
-                  },
-                  "38": {
-                     "Value": "bet by Spiketooth on Croc-Bait winning a fight against a crocolisk. As the fight progressed and Rokul refused to pay up, Spiketooth offered to raise the bet to 40, followed by Rehgar doubling it to 80."
-                  },
-                  "39": {
-                     "Value": "offered by an unnamed orc in a bet that Croc-Bait wouldn't last another two minutes during the Crimson Ring tournament."
-                  },
-                  "40": {
-                     "Value": "Yrel owes that amount to Maami."
-                  },
-                  "41": {
-                     "Value": "a few vegetables."
-                  },
-                  "42": {
-                     "Value": "asked of Lo'Gosh and his companions by an old woman in Menethil Harbor in exchange for telling them their fortune."
-                  },
-                  "43": {
-                     "Title": "Selling Treasure",
-                     "Value": "Opportunities abound to find treasure, equipment, weapons, armor, and more in the dungeons you explore. Normally, you can sell your treasures and trinkets when you return to a town or other settlement, provided that you can find buyers and merchants interested in your loot."
-                  },
-                  "44": {
-                     "Title": "Arms, Armor and Other Equipment",
-                     "Value": "As a general rule, undamaged weapons, armor, and other equipment fetch half their cost when sold in a market. Weapons and armor used by monsters are rarely in good enough condition to sell. Those in pristine condition (newly made) can sell for their normal value."
-                  },
-                  "45": {
-                     "Title": "Magic Items",
-                     "Value": "Selling magic items is usually problematic. Finding someone to buy a potion or a scroll isn‘t too hard, but other items are out of the realm of most but the wealthiest nobles. Major cities and faction capitals often have one or more shops (or institutions) that hire and retain professional infusionists. Such infusionists are often tied to their trade, training institutions, or faction, and require a certain degree of respect or clout to trade with strangers. People who are friendly with such organizations (or the mother faction) can expect fair trade (in the instance of Stormwind, humans who are considered heroes are fairly traded with, while wandering Pandaren might not be trusted with valuable items)."
-                  },
-                  "46": {
-                     "Title": "Gems, Jewelry and Art Objects",
-                     "Value": "These items retain their full value in the marketplace, and you can either trade them in for coin or use them as currency for other transactions. For exceptionally valuable treasures, the DM might require you to find a buyer in a large town or larger community first."
-                  },
-                  "47": {
-                     "Title": "Trade Goods",
-                     "Value": "On the borderlands, many people conduct transactions through barter. Like gems and art objects, trade goods (bars of iron, bags of salt, livestock, and so on, ...) retain their full value in the market and can be used as currency."
-                  },
-                  "48": {
-                     "Value": "In many instances, going to larger towns (or those with greater commercial and economic activity) increases the chance of both selling treasure at fair prices as well as finding rarer items. See the Codex Mandatum document for more details on settlement economic activity."
+                     "Value": "The firearm‘s range doubles. This can be made into an add-on."
+                  }
+               }
+            },
+            "Weakened": {
+               "Label": "Weakened",
+               "Description": {
+                  "1": {
+                     "Value": "The device deals 1 less base dice of damage. This is applied before accounting for size changes to damage dice."
+                  }
+               }
+            }
+         },
+         "AbilityScoreSummary": {
+            "Label": "Ability Score Summary",
+            "Description": {
+               "1": {
+                  "Value": "Measures: Natural athleticism, bodily power<br>Important for: Death Knight, Paladin, and Warrior"
+               },
+               "2": {
+                  "Value": "Measures: Physical agility, reflexes, balance, poise<br>Important for: Hunter, Monk, Rogue"
+               },
+               "3": {
+                  "Value": "Measures: Health, constitution, vital force<br>Important for: Everyone"
+               },
+               "4": {
+                  "Value": "Measures: Mental acuity, information recall, analytical skill<br>Important for: Alchemist, Mage, Tinker"
+               },
+               "5": {
+                  "Value": "Measures: Awareness, intuition, wisdom<br>Important for: Druid, Priest, Shaman"
+               },
+               "6": {
+                  "Value": "Measures: Confidence, eloquence, leadership<br>Important for: Warlock"
+               },
+               "7": {
+                  "Headline": "Racial Increases"
+               }
+            }
+         },
+         "AdventuringGear": {
+            "Label": "Adventuring Gear",
+            "Description": {
+               "1": {
+                  "Value": "Sometimes a special ability or spell tells you that you have advantage or disadvantage on an ability check, a saving throw, or an attack roll. When that happens, you roll a second d20 when you make the roll. Use the higher of the two rolls if you have advantage, and use the lower roll if you have disadvantage. For example, if you have disadvantage and roll a 17 and a 5, you use the 5. If you instead have advantage and roll those numbers, you use the 17."
+               }
+            }
+         },
+         "Backgrounds": {
+            "Label": "Backgrounds",
+            "Description": {
+               "1": {
+                  "Value": "The Warcraft universe has its own native twist on backgrounds. You may use any of the below backgrounds with the appropriate customization options."
+               },
+               "2": {
+                  "Value": "For a detailed list of available Backgrounds please consult the \"Wc5e | Backgrounds\" Compendium."
+               }
+            }
+         },
+         "Beyond1stLevel": {
+            "Label": "Beyond 1st Level",
+            "Description": {
+               "1": {
+                  "Value": "The rules in the World of Warcraft 5e RPG also include crafting sub-systems and classes (such as the Alchemist and Tinker), and various options (such as the Infusionist feat) that can translate wealth into character power."
+               },
+               "2": {
+                  "Value": "When creating a character from above 1st level, refer to the following guidelines for expected wealth for level to give a general idea how to keep characters on the same general level of wealth."
+               },
+               "3": {
+                  "Value": "Refer to the Item Creation Complexity and Cost Table on Chapter 7 to calculate item rarity. Note that crafting an item costs one half the cost of buying it."
+               },
+               "4": {
+                  "Value": "The amount of wealth carried by a character can vary significantly depending on starting resources, unexpected loot gained in the campaign, whether or not characters have downtime to gather additional wealth, inherited gold, or even possessing companies and strongholds under their control."
+               },
+               "5": {
+                  "Title": "Magical Item Budget",
+                  "Value": "The amount of wealth carried by a character can vary significantly depending on starting resources, unexpected loot gained in the campaign, whether or not characters have downtime to gather additional wealth, inherited gold, or even possessing companies and strongholds under their control."
+               },
+               "6": {
+                  "Value": "In this case, the wealth is not the expected wealth of the character, but the cost of the magic items the player should have by the appropriate level. This can come in the form of quest gifts, a normal item improving into a magical one, or a permanent blessing or infusion upon a held item."
+               },
+               "7": {
+                  "Value": "The expected cost of magic items relative to rarity is present in Chapter 7."
+               },
+               "8": {
+                  "Title": "Expected Downtime",
+                  "Value": "In case of crafting classes (Alchemist and Tinker), or in cases where characters can create magical items (taking the Infusionist feat), a good amount of downtime to allow the classes to function at a competitive rate is usually 5 days to 1 week between adventures (or the same time for every 3-5 combat encounters)."
+               },
+               "9": {
+                  "Value": "That way, very complex projects (2 weeks) like building a mecha or vehicle can be done every two adventures."
+               },
+               "10": {
+                  "Value": "With such options available, players benefit more from wealth and time to build the exact items they need, from scrolls, potions, explosives, and more spells in a mage's spellbook, to advanced constructs and vehicles such as gyrocopters, so exercising judgment is key."
+               }
+            },
+            "TypicalWealth": "Typical Wealth"
+         },
+         "BoundCompanions": {
+            "Label": "Bound Companions",
+            "Description": {
+               "1": {
+                  "Value": "Characters‘ class abilities sometimes provide companions. Companions are creatures that have lower challenge rating than the character, and join the character in their adventures free of charge."
+               },
+               "2": {
+                  "Value": "These creatures do not grant XP when killed, and do not consume XP when fighting, but are effectively bound to the character who has the ability, leveling up with them in some capacity (gaining hit dice, ability score increases, etc., as detailed in the class entry)."
+               },
+               "3": {
+                  "Value": "The ability that provides the bound companion determines the creature type (usually beast), the CR, and whether the companion gains special abilities."
+               },
+               "4": {
+                  "Value": "Some abilities allow you to increase the strength of your bond with your companion. In this case, you may be allowed to add your Proficiency bonus to the companion‘s attack rolls or saving throws (or other rolls). This does not stack with the creature‘s own Proficiency Bonus."
+               },
+               "5": {
+                  "Title": "Controlling the Companion",
+                  "Value": "The companion obeys its master‘s commands as best as it can. It takes its turn on its master‘s initiative."
+               },
+               "6": {
+                  "Value": "On the master‘s turn, the companion can be verbally commanded where to move (no action required by you) or what to do. If the creature has a special bond, the master may or may not be able to command it telepathically, depending on the bond‘s description."
+               },
+               "7": {
+                  "Value": "Bound companions otherwise act on their own, unless given a clear command from their master, in which case they fulfill the command as best as they can. Giving a bound companion a direct order (so long as they are not telepathically connected) costs an attack action."
+               },
+               "8": {
+                  "Value": "The master is always aware of the bound companion‘s normal course of action. If the master is incapacitated or absent, the companion acts as it normally would, but also protects its master and itself."
+               },
+               "9": {
+                  "Value": "For example, a hunter with a panther companion is attacked in an ambush. The panther, if commanded to fight, would normally attack the weakest enemy from behind. If the hunter uses an attack to command the panther to fight in sync with him, the panther obeys and fights as its master wishes."
+               }
+            }
+         },
+         "Classes": {
+            "Label": "Classes",
+            "Description": {
+               "1": {
+                  "Value": "Specializations in Warcraft act as sub-classes for most intents and purposes. Some subclasses are racially-locked, and thus can only be entered by fulfilling a racial requirement."
+               },
+               "2": {
+                  "Value": "Classes in Azeroth have different names (as noted in the introduction), and sometimes different abilities. These are noted below."
+               },
+               "3": {
+                  "Title": "Optional Rule: More Talents",
+                  "Value": "Talents allows customizing your character in a more freeform way than multiclassing."
+               },
+               "4": {
+                  "Value": "With this optional rule, you may exchange class features gained from archetypes (paths, circles, traditions, etc.) to grant access to a talent, but only if the class already has the ability to gain talents, and only once per level."
+               }
+            }
+         },
+         "ClassTalents": {
+            "Label": "Class Talents",
+            "Description": {
+               "1": {
+                  "Value": "Some classes allow you to take talents, which are customizable class features that can enrich and reinforce a certain character concept."
+               },
+               "2": {
+                  "Value": "All talent abilities have DCs of 8 + your proficiency bonus + your Strength or Agility modifier (your choice) if they allow a saving throw."
+               },
+               "3": {
+                  "Value": "For a detailed list of available Class Talents please consult the \"Wc5e | Class Talents\" Compendium."
+               }
+            }
+         },
+         "DeterminingAbilityScores": {
+            "Label": "Determining Ability Scores",
+            "Description": {
+               "1": {
+                  "Value": "When determining your ability scores (also known as attributes), there are two new methods to create them; the focused method, and the heroic method. Both yield higher attributes on average, suitable for the many challenges in the Warcraft universe."
+               },
+               "2": {
+                  "Title": "Focus and Foible",
+                  "Value": "This method leads to more focused characters with clearer weaknesses."
+               },
+               "3": {
+                  "Value": "Before applying modifiers, choose a one focus (an ability score you‘re good at) and one foible (an ability score you‘re bad at)."
+               },
+               "4": {
+                  "Value": "<i>Focus</i>: Mark this attribute as 18<br><i>Foible</i>: Mark this attribute as 8"
+               },
+               "5": {
+                  "Value": "Set your remaining attributes at 10, and distribute 16 points among the ability scores in any way you desire. You may reduce an existing attribute by up to 2 points to gain 2 points to add to another attribute."
+               },
+               "6": {
+                  "Title": "Heroic Roll",
+                  "Value": "This method leads to generally stronger characters than by normal rolling. For each ability score, roll 2d6 + 6."
+               }
+            }
+         },
+         "Inspiration": {
+            "Label": "Inspiration",
+            "Description": {
+               "1": {
+                  "Value": "Inspiration is a rule the player can use to grant them benefits for playing their character in a way that‘s true to his or her personality traits, ideal, bond, and flaw (collectively known as personality). By using inspiration, you can draw on a personality trait (compassion for the downtrodden) to give you an edge in negotiating with the Beggar Prince."
+               },
+               "2": {
+                  "Title": "Gaining Inspiration",
+                  "Value": "Gaining inspiration occurs when a character gives in to a flaw, reaffirms a bond, or otherwise suffers a narrative or mechanical penalty due to their personality (also known as a Setback)."
+               },
+               "3": {
+                  "Value": "A rogue with the flaw „I'm always in debt. I spend my ill-gotten gains on decadent luxuries faster than I bring them in‟ can invoke it when attempting to negotiate a favor. In this case, the DM may rule that the opposing character recognizes the character's flaw, and does not trust the character enough to aid them, thereby depriving them of a helpful ally and forcing them to find another one or to make due without aid."
+               },
+               "4": {
+                  "Value": "Any mechanical penalties must be equivalent to the benefit of inspiration, such as granting an enemy inspiration or disadvantage on a necessary skill check or saving throw."
+               },
+               "5": {
+                  "Value": "A character may also gain inspiration after suffering a setback (such as losing a loved one who was their bond, or betraying their ideal out of necessity or bitterness). If this occurs, a character may choose to change one of their traits, ideals, or bonds. By doing so, a character develops, and the character has another point of Inspiration (up to a maximum of 2)."
+               },
+               "6": {
+                  "Title": "Spending Inspiration",
+                  "Value": "When inspired, a character can gain a bonus to performing actions that fit their traits, support their ideals, or aid their bonds. A character with inspiration may spend it to gain one of the following effects:"
+               },
+               "7": {
+                  "Options": {
+                     "1": "Advantage to a single saving throw, ability check, or attack roll.",
+                     "2": "Roll a 1d6, and add the result to one d20 roll or your AC against one attack. You may declare this after you know the result of the attack.",
+                     "3": "Impose disadvantage to a single saving throw, ability check, or attack roll of a creature attacking you."
                   }
                },
-               "Currency": "Currency"
+               "8": {
+                  "Value": "Upon hearing of the murder of his brother Muradin, King Magni Bronzebeard was inspired to forge Ashbringer, a blade he would have otherwise been unable to create."
+               },
+               "9": {
+                  "Value": "It was Mannoroth‘s taunt to Garrosh Hellscream that provoked him into a terrible fury, allowing him to land a blow that slew the demon king of the pit lords."
+               },
+               "10": {
+                  "Value": "A DM may allow spending Inspiration for a special benefit, such as temporary access to a feat (such as Infusionist) for one task or encounter, crafting an artifact, regaining a use of an ability with no remaining uses (Berserker Rage), or another appropriate effect."
+               },
+               "11": {
+                  "Title": "Personality",
+                  "Value": "It is always advisable to consult with the DM and other players on how your traits, ideals, bonds, and flaws synchronize with one another and your character concept, and to ensure that your character's personality is distinct enough to gain and spend inspiration reliably in situations where they are the narrative 'stars'. At the same time, it should be infrequent enough to not prove disruptive to normal gameplay (such as choosing to take a setback for inspiration)."
+               },
+               "12": {
+                  "Value": "If you play a mage, for example, you may choose to adopt the background of a scholarand choose the following personality."
+               },
+               "13": {
+                  "Value": "<i>Trait</i>: I'm used to helping out those who aren‘t as smart as I am, and I patiently explain anything and everything to others."
+               },
+               "14": {
+                  "Value": "<i>Ideal - Knowledge</i>: The path to power and self-improvement is through knowledge."
+               },
+               "15": {
+                  "Value": "<i>Bond</i>: I've been searching my whole life for the answer to a certain question."
+               },
+               "16": {
+                  "Value": "<i>Flaw</i>: I can‘t keep a secret to save my life, or anyone else‘s."
+               },
+               "17": {
+                  "Value": "The aspects of the mage's personality synchronize well. If you allow a critical secret to slip (flaw), risking an ally's career or life, you gain Inspiration, which can possibly be used to answer a question you spent your whole life studying (Bond)."
+               },
+               "18": {
+                  "Value": "If your ally loses their career or possibly even their life, your character is traumatized enough to warrant character development, changing your ideal from knowledge to either power (Knowledge is the path to power and domination) or friendship (depending on how you wish to handle the character‘s personality progression)."
+               }
+            }
+         },
+         "Races": {
+            "Label": "Races",
+            "Description": {
+               "1": {
+                  "Value": "The races of Warcraft are diverse and rich. Each race has a role in the world, and their deeds resonate through the ages. Members of each race view each other with assumptions formed by past conflicts and alliances. Warcraft‘s history is troubled and epic, and every aspect influences the races, their beliefs and their roles."
+               },
+               "2": {
+                  "Value": "The races described here are not the only races in the Warcraft world, but they are the most dominant, influential, and prone to adventuring. Other races can be found in the Monster Guide."
+               },
+               "3": {
+                  "Title": "Racial Mount",
+                  "Value": "Each race in Warcraft has affinity to one creature that serves as a primary mount, either to accommodate their skeletal and muscular structure, or for cultural reasons. Refer to the below table for details."
+               }
             },
-            "WeaponsAndArmor": {
-               "Label": "Weapons and Armor",
-               "Description": {
-                  "1": {
-                     "Value": "The Warcraft universe has several special varieties for existing weapons, as described below."
-                  },
-                  "2": {
-                     "Value": "Clothes can be infused as if armors (with armor-specific infusions). They do not count as armor for the purposes of class features that require you to be armored or unarmored (such as the Defense Fighting Style or Unarmored Defense feature) unless they alter your AC."
-                  },
-                  "3": {
-                     "Value": "Some weapons are described as if based off another weapon (for example, the greathammer and the maul). If proficient with the original weapon (the maul), one week of training confers proficiency to the second (greathammer). Firearms require one week of training to be counted as martial weapons, and proficiency with Engineer‘s Tools automatically confers proficiency."
-                  }
+            "RacialMount": {
+               "Elekk": "Elekk",
+               "Rams": "Rams",
+               "Gryphons": "Gryphons",
+               "CoreHounds": "Core Hounds",
+               "Horses": "Horses",
+               "Hawkstrider": "Hawkstrider",
+               "SaberCats": "Saber Cats",
+               "SkeletalHorses": "Skeletal Horses",
+               "SkeletalHorsesDesc": "(Horse with skeletal template)",
+               "Mechanostriders": "Mechanostriders",
+               "MechanostridersDesc": "(Tallstrider with mechanized template)",
+               "TurboTrike": "Turbo-Trike",
+               "TurboTrikeDesc": "(Vehicle)",
+               "Wolves": "Wolves",
+               "GiantTurtles": "Giant Turtles",
+               "KodoBeasts": "Kodo Beasts",
+               "Raptors": "Raptors"
+            }
+         },
+         "StandardLanguages": {
+            "Label": "Standard Languages",
+            "Description": {
+               "1": {
+                  "Special": "Dialects: Gutterspeech",
+                  "Value": "1: Gutterspeech is often known as the language of the forsaken, and is a dialect of Common influenced by dwarven, low common, and a hint of Thieves‘ Cant. Any creature that knows one component language of Gutterspeech can learn it with half the normal time of learning a language."
+               },
+               "2": {
+                  "Special": "Uncursed Eredun",
+                  "Value": "2: Demons of the Burning Legion speak the tongue of their kind, Eredun, which is a perversion of Titan using their own script. Any creature that is not also a fiend that deliberately speaks Eredun without being also bound to demons, must make a Spirit save every year (DC 15) or lose 1 point of Spirit, and shift one step towards Lawful Evil. If the character is Evil, the spirit loss remains until the character pledges themselves to the Burning Legion or a representative of them, such as by Calling them or serving them in a substantial way, in which case the attribute is restored."
+               },
+               "3": {
+                  "Value": "This is a Curse effect, and the Remove Curse removes this penalty forever. Characters who gain access to Eredun through special abilities (such as the warlock or demon hunter) do not suffer from this curse, although ones gained by training or by background do."
+               },
+               "4": {
+                  "Special": "Dialects: Darnassian, Thalassian, Nazja",
+                  "Value": "3: The elven tongue remains remarkably unchanged throughout the centuries, but many dialects have been born. Darnassian is spoken by night elves. A dialect of Darnassian is spoken by the Nightborne (known as Shalassian). Thalassian is spoken by Highborne, high elves, void elves, and blood elves. Nazja is spoken by naga. A debased sub-dialect of Nazja is Nerglish, the speech of murlocs."
+               },
+               "5": {
+                  "Special": "Aquan, Auran, Ignan, Terran",
+                  "Value": "4: Kalimag has four distinct dialects for the prime elementals, such as Aquan for water elementals, Auran for air elementals, Ignan for fire elementals, and Terran for earth elementals."
+               },
+               "6": {
+                  "Special": "Requires 1/4 the learn time for Common",
+                  "Value": "5: Low Common is often spoken by furbolgs, gnolls, kobolds, ogres, and most humanoids or giants with low Intelligence. It is also an easier language to learn, requiring only one-quarter the normal learning time."
+               },
+               "7": {
+                  "Value": "6: Orcish script is relatively new, and before adopting Common, they used pictograms (as Taur-ahe uses today)."
+               },
+               "8": {
+                  "Value": "7: The troll tongue is curiously close to Common. Knowing Common can learn Troll is one half the normal time of learning a language."
+               }
+            },
+            "TypicalSpeakers": "Typical Speakers",
+            "Script": "Script",
+            "Fiend": "Fiend",
+            "Cursed": "Cursed"
+         },
+         "StartingEquipment": {
+            "Label": "Starting Equipment",
+            "Description": {
+               "1": {
+                  "Value": "As described in the Player‘s Handbook, you can start with a number of gold pieces based on your class and spend them on items from the lists in the equipment chapter. See the Starting Wealth by Class table to determine how much gold you have to spend."
+               },
+               "2": {
+                  "Value": "You decide how your character came by this starting equipment. It might have been an inheritance, or goods that the character purchased during his or her upbringing."
+               }
+            },
+            "StartingWealth": "Starting Wealth by Class",
+            "Funds": "Funds",
+            "AlchemistBonus": "(plus 250 gp worth in alchemical components)",
+            "DeathKnightBonus": "(plus Runeblade(s))",
+            "TinkerBonus": "(plus 250 gp worth in alchemical components)"
+         },
+         "Tools": {
+            "Label": "Tools",
+            "Description": {
+               "1": {
+                  "Value": "The Warcraft universe has its share of special tools, kits, and items."
+               }
+            }
+         },
+         "Treasures": {
+            "Label": "Treasures",
+            "Description": {
+               "1": {
+                  "Value": "The Warcraft universe has many treasures, ranging from items infused with magic (such as named weapons and the Hearthstone), to armor sets that grant features when used together, to enhancements and epic boons."
+               },
+               "2": {
+                  "Title": "Infused Items"
+               }
+            }
+         },
+         "Wealth": {
+            "Label": "Wealth",
+            "Description": {
+               "1": {
+                  "Value": "Material wealth in Azeroth was based on gold, silver, and copper coins. In many cases, however, barter takes place (such as in Booty Bay or other goblin strongholds), or is measured in other means (land, ownership of mines and other resource nodes, etc.)."
+               },
+               "2": {
+                  "Value": "Stormwind's coinage has traditionally been the copper penny, the silver groat, and the gold sovereign. For all purposes, however, coinage is nearly universal, with Stormwind-minted coin in equal circulation with coins minted in Ironforge, Orgrimmar, or Booty Bay. The Defias Brotherhood enjoys marring Stormwind minted coins creating \"cross-eyed coins‖ which is a sign of treason to the throne."
+               },
+               "3": {
+                  "Value": "Mined from the rich earth of Azeroth and Lordaeron, gold is commonly used as coins in exchange for goods and services. As a rare substance that is always in short supply, gold must be dug out from the rock and soil within established gold mines. Many of these mines were abandoned when the orc raids began (followed by the First and Second wars) and the workers fled for their very lives. Since the beginning of the Second War, many gold-mining sites are frequently operated while under the protection of military forces."
+               },
+               "4": {
+                  "Value": "Goblins call their currency macaroons, and they refer to money as moolah."
+               },
+               "5": {
+                  "Value": "Some other coins that are not minted any longer are worth more to some people. Gold coins from the fall of the Night Elf empire (Azshara-mint) often worth at least ten times the actual value of the same coin at the time of the empire‘s fall and drowning beneath the sea."
+               },
+               "6": {
+                  "Title": "Coinage",
+                  "Value": "The monetary system in the world of Warcraft operates on the scale described in the Player‘s Handbook. The only exception is that platinum pieces have yet to make an appearance in the world of Azeroth; though the value of platinum is recognized, it is rare enough that it is still used primarily as a decorative material rather than a type of coinage."
+               },
+               "7": {
+                  "Title": "Instances"
+               },
+               "8": {
+                  "Value": "offered by Patch to the first goblin making it to the deployment point in Nazmir."
+               },
+               "9": {
+                  "Value": "offered by Harlan Sweete to whoever brought him the head of Flynn Fairwind and an Alliance adventurer."
+               },
+               "10": {
+                  "Value": "wagered by Gazlowe on a single boat race."
+               },
+               "11": {
+                  "Value": "is made by Gazlowe per salvage haul for pirates."
+               },
+               "12": {
+                  "Value": "offered by Varok Saurfang per dead Alliance spy, though this was notably a bluff and no one was expected to, nor did anyone cash out."
+               },
+               "13": {
+                  "Value": "suggested by Helka Grimtotem as the worth of a gladiator champion like Valeera Sanguinar. Rehgar Earthfury agreed to sell Valeera to Helka for 2,000."
+               },
+               "14": {
+                  "Value": "offered by Varok Saurfang per captured Alliance spy, though this was notably a bluff and no one was expected to, nor did anyone cash out."
+               },
+               "15": {
+                  "Value": "the price of an immensely fast speed boat."
+               },
+               "16": {
+                  "Value": "the amount it costs the Alliance to train a foreman."
+               },
+               "17": {
+                  "Value": "the amount it costs the Alliance to train an engineer."
+               },
+               "18": {
+                  "Value": "the price offered to Valeera Sanguinar to purchase a fel dagger from an old woman in Menethil Harbor."
+               },
+               "19": {
+                  "Value": "given by an unnamed Stormwind Assassin's Guild member to Magatha Grimtotem in return for showing him a vision of his target, Lo'Gosh."
+               },
+               "20": {
+                  "Value": "bet by Renzik \"The Shiv\" on Nathanos Blightcaller winning a brawl against Varok Saurfang."
+               },
+               "21": {
+                  "Value": "the approximate amount it costs the Alliance to train a miner."
+               },
+               "22": {
+                  "Value": "lost by an unnamed Defias Brotherhood member in bets during a Crimson Ring tournament in Dire Maul."
+               },
+               "23": {
+                  "Value": "added onto an existing bet against Croc-Bait by an unknown audience member during the Crimson Ring tournament."
+               },
+               "24": {
+                  "Value": "the average cost of a salvage operation."
+               },
+               "25": {
+                  "Value": "19 pallets filled with jerky and codfish."
+               },
+               "26": {
+                  "Value": "During the invasion of Durotar, an unknown hunter in Daelin Proudmoore's army wanted to bet that amount that he could kill Vol'jin."
+               },
+               "27": {
+                  "Value": "bet by an unnamed troll on Giago during a Crimson Ring tournament."
+               },
+               "28": {
+                  "Value": "bet by an audience member on Two-Heads during a Crimson Ring tournament"
+               },
+               "29": {
+                  "Value": "the price for Scarlet Crusaders who want to receive absolution for the sin of punching someone in the groin."
+               },
+               "30": {
+                  "Value": "given by Horde adventurers to Boss Bazzelflange to allow her to get home to Brawl'gar Arena after being stranded in Area 52. After being given the gold, Bazzelflange could be seen running up to the flight master Krexcil, presumably to buy a ride using the money."
+               },
+               "31": {
+                  "Value": "the price for Scarlet Crusaders who want to receive absolution for the sin of punching someone in the chest."
+               },
+               "32": {
+                  "Title": "A mere handful of silver",
+                  "Value": "the price for Scarlet Crusaders who want to receive absolution for sins of \"harsh words\"."
+               },
+               "33": {
+                  "Value": "In Bilgewater Harbor, every vice one can imagine is available for that amount."
+               },
+               "34": {
+                  "Value": "offered by Sparkeye in a bet against Rehgar Earthfury's gladiator team."
+               },
+               "35": {
+                  "Value": "offered by Sparkeye in a \"small wager\" on a fight between his and Rehgar's gladiator teams. Rehgar doubled the bet to 80 silver."
+               },
+               "36": {
+                  "Value": "bet by an audience member on Croc-Bait during the Crimson Ring tournament."
+               },
+               "37": {
+                  "Value": "enough to purchase the ogre Throgg."
+               },
+               "38": {
+                  "Value": "bet by Spiketooth on Croc-Bait winning a fight against a crocolisk. As the fight progressed and Rokul refused to pay up, Spiketooth offered to raise the bet to 40, followed by Rehgar doubling it to 80."
+               },
+               "39": {
+                  "Value": "offered by an unnamed orc in a bet that Croc-Bait wouldn't last another two minutes during the Crimson Ring tournament."
+               },
+               "40": {
+                  "Value": "Yrel owes that amount to Maami."
+               },
+               "41": {
+                  "Value": "a few vegetables."
+               },
+               "42": {
+                  "Value": "asked of Lo'Gosh and his companions by an old woman in Menethil Harbor in exchange for telling them their fortune."
+               },
+               "43": {
+                  "Title": "Selling Treasure",
+                  "Value": "Opportunities abound to find treasure, equipment, weapons, armor, and more in the dungeons you explore. Normally, you can sell your treasures and trinkets when you return to a town or other settlement, provided that you can find buyers and merchants interested in your loot."
+               },
+               "44": {
+                  "Title": "Arms, Armor and Other Equipment",
+                  "Value": "As a general rule, undamaged weapons, armor, and other equipment fetch half their cost when sold in a market. Weapons and armor used by monsters are rarely in good enough condition to sell. Those in pristine condition (newly made) can sell for their normal value."
+               },
+               "45": {
+                  "Title": "Magic Items",
+                  "Value": "Selling magic items is usually problematic. Finding someone to buy a potion or a scroll isn‘t too hard, but other items are out of the realm of most but the wealthiest nobles. Major cities and faction capitals often have one or more shops (or institutions) that hire and retain professional infusionists. Such infusionists are often tied to their trade, training institutions, or faction, and require a certain degree of respect or clout to trade with strangers. People who are friendly with such organizations (or the mother faction) can expect fair trade (in the instance of Stormwind, humans who are considered heroes are fairly traded with, while wandering Pandaren might not be trusted with valuable items)."
+               },
+               "46": {
+                  "Title": "Gems, Jewelry and Art Objects",
+                  "Value": "These items retain their full value in the marketplace, and you can either trade them in for coin or use them as currency for other transactions. For exceptionally valuable treasures, the DM might require you to find a buyer in a large town or larger community first."
+               },
+               "47": {
+                  "Title": "Trade Goods",
+                  "Value": "On the borderlands, many people conduct transactions through barter. Like gems and art objects, trade goods (bars of iron, bags of salt, livestock, and so on, ...) retain their full value in the market and can be used as currency."
+               },
+               "48": {
+                  "Value": "In many instances, going to larger towns (or those with greater commercial and economic activity) increases the chance of both selling treasure at fair prices as well as finding rarer items. See the Codex Mandatum document for more details on settlement economic activity."
+               }
+            },
+            "Currency": "Currency"
+         },
+         "WeaponsAndArmor": {
+            "Label": "Weapons and Armor",
+            "Description": {
+               "1": {
+                  "Value": "The Warcraft universe has several special varieties for existing weapons, as described below."
+               },
+               "2": {
+                  "Value": "Clothes can be infused as if armors (with armor-specific infusions). They do not count as armor for the purposes of class features that require you to be armored or unarmored (such as the Defense Fighting Style or Unarmored Defense feature) unless they alter your AC."
+               },
+               "3": {
+                  "Value": "Some weapons are described as if based off another weapon (for example, the greathammer and the maul). If proficient with the original weapon (the maul), one week of training confers proficiency to the second (greathammer). Firearms require one week of training to be counted as martial weapons, and proficiency with Engineer‘s Tools automatically confers proficiency."
                }
             }
          }
@@ -10875,6 +10974,20 @@
                "6": "You create a nonmagical trinket or an illusory image that can fit in your hand and that lasts until the end of your next turn."
             }
          },
+         "ProduceFlame": {
+            "Label": "Produce Flame",
+            "Description": {
+               "1": {
+                  "Value": "A flickering flame appears in your hand. The flame remains there for the Duration and harms neither you nor your Equipment. The flame sheds bright light in a 10-foot radius and dim light for an additional 10 feet. The spell ends if you dismiss it as an action or if you cast it again."
+               },
+               "2": {
+                  "Value": "You can also Attack with the flame, although doing so ends the spell. When you cast this spell, or as an action on a later turn, you can hurl the flame at a creature within 30 feet of you. Make a ranged spell Attack. On a hit, the target takes 1d8 fire damage."
+               },
+               "3": {
+                  "Value": "This spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8)."
+               }
+            }
+         },
          "ProtectionFromEvilAndGood": {
             "Label": "Protection from Evil and Good",
             "Description": {
@@ -12338,6 +12451,7 @@
          "WeaponProps": {
             "Finesse": "Finesse",
             "Heavy": "Heavy",
+            "HeavyPlus": "Heavy++",
             "Light": "Light",
             "Reach": "Reach",
             "TwoHanded": "Two-Handed"

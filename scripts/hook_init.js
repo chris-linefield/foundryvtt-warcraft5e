@@ -64,13 +64,17 @@ Hooks.once('init', async function () {
 
         // Build the extended index and return a promise for the data
         const packObject = game.packs.get(pack);
-        if (!packObject) return ;
+        if (!packObject) return;
 
         return game.packs.get(pack)?.getIndex({
             fields: ["data.armor.type", "data.toolType", "data.weaponType"]
         }).then(index => {
             ProficiencySelector._cachedIndices[pack] = index;
-            return index.get(id);
+            let check = index.get(id);
+            if(typeof(check) !== 'undefined') {
+                return index.get(id);
+            }
+            return wrapped(...args);
         });
 
         let result = wrapped(...args);

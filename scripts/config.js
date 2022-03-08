@@ -3,15 +3,6 @@ console.log('>> Wc5e: Adjusting 5e Config');
 import {DND5E} from "../../../systems/dnd5e/module/config.js";
 import {} from "./config_class_features.js";
 
-/*DND5E.toolProficiencies = {
-    "alc"  : "WC5E.AlchemistsSupplies",
-    "disg" : "WC5E.DisguiseKit",
-    "eng"  : "WC5E.EngineersTools",
-    "forg" : "WC5E.ForgeryKit",
-    "poi"  : "WC5E.PoisonersKit",
-    "thi"  : "WC5E.ThievesTools"
-};*/
-
 DND5E.abilities.dex = "WC5E.Character.Agility";
 DND5E.abilities.con = "WC5E.Character.Stamina";
 DND5E.abilities.wis = "WC5E.Character.Spirit";
@@ -51,4 +42,16 @@ DND5E.creatureTypes.mecha = "WC5E.Creature.Mecha.Name";
 
 //DND5E.toolIds.infusion = "oZ4szgJtQaSdG1qD";
 
-DND5E.weaponIds.blunderbuss = "NDTLQbQwBSCd3nei";
+/*DND5E.toolProficiencies = {
+    "alc"  : "WC5E.AlchemistsSupplies",
+    "disg" : "WC5E.DisguiseKit",
+    "eng"  : "WC5E.EngineersTools",
+    "forg" : "WC5E.ForgeryKit",
+    "poi"  : "WC5E.PoisonersKit",
+    "thi"  : "WC5E.ThievesTools"
+};*/
+
+
+DND5E.weaponIds.generalFirearm = "HjmGaC8pYCUTMLpV";
+
+DND5E.weaponProperties.hvyplus = "WC5E.UI.WeaponProps.HeavyPlus";
