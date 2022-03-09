@@ -52,6 +52,7 @@ DND5E.creatureTypes.mecha = "WC5E.Creature.Mecha.Name";
 };*/
 
 
+DND5E.weaponIds.attackClaws = "H9mvCWwGzgmMWCVL";
 DND5E.weaponIds.generalFirearm = "HjmGaC8pYCUTMLpV";
 
 DND5E.weaponProperties.hvyplus = "WC5E.UI.WeaponProps.HeavyPlus";

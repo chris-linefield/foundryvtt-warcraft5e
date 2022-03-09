@@ -1,0 +1,113 @@
+{
+   "_id": "cjU9nr2GQKl0EYOW",
+   "name": "Orc",
+   "permission": {
+      "default": 0
+   },
+   "type": "class",
+   "data": {
+   },
+   "flags": {
+      "wc5e": {
+         "type": "race",
+         "name": "WC5E.Race.Orc.Name",
+         "artwork": {
+            "src": "modules/warcraft5e/res/pics/races/orc_artwork.webp",
+            "url": "https://www.artstation.com/artwork/XXBl0",
+            "credit": "Tony Sart"
+         },
+         "description": [
+            {
+               "italic": "WC5E.Race.Orc.Description.1.Italic",
+               "value": "WC5E.Race.Orc.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Race.Orc.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Race.Orc.Description.3.Value"
+            },
+            {
+               "value": "WC5E.Race.Orc.Description.4.Value"
+            }
+         ],
+         "age": "WC5E.Race.Orc.Age",
+         "affiliation": [
+            {
+               "value": "WC5E.Race.Orc.Affiliation.1.Value"
+            }
+         ],
+         "size": "WC5E.Race.Orc.Size",
+         "speed": "WC5E.Race.Orc.Speed",
+         "languages": "WC5E.Race.Orc.Languages",
+         "traits": [
+            {
+               "pack": "warcraft5e.wc5e_racial_feats",
+               "node": "JEcbFR94edcZ1Chm",
+               "label": "WC5E.Feats.Darkvision.Label"
+            },
+            {
+               "pack": "warcraft5e.wc5e_racial_feats",
+               "node": "XOjTCCMhAH6MTR2n",
+               "label": "WC5E.Feats.Menacing.Label"
+            },
+            {
+               "pack": "warcraft5e.wc5e_racial_feats",
+               "node": "kcnD0uwkR0hV47TF",
+               "label": "WC5E.Feats.OrcishCombatTraining.Label"
+            },
+            {
+               "pack": "warcraft5e.wc5e_racial_feats",
+               "node": "OWpuDWur7k7OyoNr",
+               "label": "WC5E.Feats.WarriorTradition.Label"
+            }
+         ],
+         "names": {
+            "male": [
+               "Grom",
+               "Thrum",
+               "Drog",
+               "Gorrum",
+               "Harg",
+               "Thurg",
+               "Karg"
+            ],
+            "female": [
+               "Groma",
+               "Hargu",
+               "Igrim",
+               "Agra",
+               "Dragga",
+               "Grima"
+            ],
+            "family": "WC5E.Race.Orc.FamilyNames"
+         },
+         "values": {
+            "abilities": {
+               "str": 2,
+               "con": 1,
+               "bonus": 1
+            },
+            "language": [
+               "common",
+               "orcish"
+            ],
+            "resistance": [
+            ],
+            "skills": [
+            ],
+            "size": "med",
+            "speed": 30,
+            "weaponProficiencies": [
+               "battleaxe",
+               "handaxe",
+               "attackClaws",
+               "shortbow"
+            ]
+         }
+      }
+   },
+   "img": "modules/warcraft5e/res/pics/races/orc.webp",
+   "effects": [
+   ]
+}

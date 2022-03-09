@@ -5492,6 +5492,14 @@
                }
             }
          },
+         "Menacing": {
+            "Label": "Menacing",
+            "Description": {
+               "1": {
+                  "Value": "You gain proficiency in the Intimidation or Insight skills, and may use Strength or Stamina for Intimidation checks instead of Charisma for Intimidation checks."
+               }
+            }
+         },
          "Mettle": {
             "Label": "Mettle",
             "Description": {
@@ -5720,6 +5728,14 @@
                },
                "3": {
                   "Value": "If you are under the effects of the avatar form paladin spell, you can bounce your shield at one extra target."
+               }
+            }
+         },
+         "OrcishCombatTraining": {
+            "Label": "Orcish Combat Training",
+            "Description": {
+               "1": {
+                  "Value": "You have proficiency with the battleaxe, handaxe, attack claws, and the shortbow."
                }
             }
          },
@@ -7604,6 +7620,23 @@
                }
             }
          },
+         "WarriorTradition": {
+            "Label": "Warrior Tradition",
+            "Description": {
+               "1": {
+                  "Value": "You may choose two of the below talents. You are treated as a 1st level warrior for these effects (unless you later take a level in warrior):"
+               },
+               "2": {
+                  "Options": {
+                     "1": "<i>Aggressive</i>: You gain the Aggressive talent.",
+                     "2": "<i>Berserker Rage</i>: You gain the Berserker Rage talent. If you later gain the talent, increase the total times you can rage before a long rest by 1. You may also choose one spellcasting class, and cast spells from that class while raging.",
+                     "3": "<i>Brutal Critical</i>: You gain the Brutal Critical talent.",
+                     "4": "<i>Relentless</i>: You gain the Relentless talent. If you later gain the talent, you reduce the base DC by 5.",
+                     "5": "<i>Shock Resistant</i>: You gain the Shock Resistant talent."
+                  }
+               }
+            }
+         },
          "WeirdJuju": {
             "Label": "Weird Juju",
             "Description": {
@@ -8520,7 +8553,32 @@
             "Name": "Human"
          },
          "Orc": {
-            "Name": "Orc"
+            "Name": "Orc",
+            "Description": {
+               "1": {
+                  "Italic": "“Lok'tar ogar“",
+                  "Value": "To their enemies, they are brutal and fearsome opponents, without parallel in their ferocity and cunning. To their allies, they are noble and honorable, following the traditions of a rediscovered past."
+               },
+               "2": {
+                  "Value": "The orcs of Azeroth are part of a race that has once again found its true spirit, shunning the cruel practices of arcane and demonic magic for the paths of wisdom and power. Some orcs still hang on to the arcane practices of the past, but their time is fading."
+               },
+               "3": {
+                  "Value": "The concept of honor pervades all echelons of orcish society. Even the naming of an orc is temporary until he has performed a rite of passage. Once an orc has brought honor to his name and the name of his clan, the elders give him a second name based upon his deed. For an orc, honor is as important as his clan, and most will die defending either clan or personal reputation. This is a new development for the orcs; before, when led by the forces tainted by the Burning Legion, the orcs were a bestial force barely controlled by demonic magic. "
+               },
+               "4": {
+                  "Value": "As one of the orcish people, you may hail from the exodus lead by Warchiefs Thrall and Grom Hellscream, and belong to the core tribes that form the new Horde, such as the Warsong Clan, Frostwolf, and Bleeding Hollow Clan, or you may belong to one of the sinister demon-worshipping tribes, such as the Laughing Skull or the Burning Blade Clans. Alternatively, you may belong to one of the clans who have never left their homeland of Draenor, such as the Mag‘har, who are brown in color. The greater the influence of fel on orcs, the brighter green their skin becomes. Some other clans have differently-colored skins, such as gray with yellow eyes (Dragonmaw Clan) or pale white (Shattered Hand Clan)."
+               }
+            },
+            "Age": "Orcs mature and age a little faster than humans, reaching adulthood around the age of 20 and rarely live up to be 100 years old.",
+            "Affiliation": {
+               "1": {
+                  "Value": "Horde. Thrall formed the Horde with determination and sheer will and created an alliance of races that has shaken the foundations of the world to its core. Having destroyed the legacy of Grom Hellscream by bringing the orcs out of the depths of demon worship and servitude to unseen powers, Thrall rules the Horde in Kalimdor with wisdom and temperance. The orcs are as much a part of the Horde as the Horde is part of what the orcs have become."
+               }
+            },
+            "Size": "Orcs are somewhat larger and bulkier than humans, and they range from 5 to well over 6 feet tall. Your size is Medium.",
+            "Speed": "Your base walking speed is 30 feet.",
+            "Languages": "You can speak, read, and write Common and Orcish. Orcish is a harsh, grating language with hard consonants.",
+            "FamilyNames": "Doomhammer, Deadeye, Foebinder, Elfkiller, Skullsplitter, Axeripper, Tearshorn, Fistcrusher"
          },
          "Pandaren": {
             "Name": "Pandaren"
