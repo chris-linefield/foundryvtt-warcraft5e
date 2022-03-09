@@ -1,13 +1,13 @@
 {
-   "_id": "XOjTCCMhAH6MTR2n",
-   "name": "Menacing",
+   "_id": "MYZh6w6ElheGM21u",
+   "name": "Warstomp",
    "permission": {
       "default": 0
    },
    "type": "feat",
    "data": {
-      "source": "Wc5e - Core p. 23",
-      "requirements": "Orc"
+      "source": "Wc5e - Core p. 25",
+      "requirements": "Tauren"
    },
    "flags": {
       "wc5e": {
@@ -15,12 +15,12 @@
          "category": "WC5E.SkillCategories.General",
          "description": [
             {
-               "value": "WC5E.Feats.Menacing.Description.1.Value"
+               "value": "WC5E.Feats.Warstomp.Description.1.Value"
             }
          ]
       }
    },
-   "img": "icons/skills/social/intimidation-impressing.webp",
+   "img": "icons/skills/melee/strike-flail-destructive-yellow.webp",
    "effects": [
    ]
 }

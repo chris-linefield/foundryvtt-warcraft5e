@@ -1,13 +1,13 @@
 {
-   "_id": "XOjTCCMhAH6MTR2n",
-   "name": "Menacing",
+   "_id": "6OX5tHzQDWUwldfw",
+   "name": "Endurance",
    "permission": {
       "default": 0
    },
    "type": "feat",
    "data": {
-      "source": "Wc5e - Core p. 23",
-      "requirements": "Orc"
+      "source": "Wc5e - Core p. 25",
+      "requirements": "Tauren"
    },
    "flags": {
       "wc5e": {
@@ -15,12 +15,12 @@
          "category": "WC5E.SkillCategories.General",
          "description": [
             {
-               "value": "WC5E.Feats.Menacing.Description.1.Value"
+               "value": "WC5E.Feats.Endurance.Description.1.Value"
             }
          ]
       }
    },
-   "img": "icons/skills/social/intimidation-impressing.webp",
+   "img": "icons/magic/life/heart-glowing-red.webp",
    "effects": [
    ]
 }

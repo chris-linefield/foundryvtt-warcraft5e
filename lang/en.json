@@ -3887,6 +3887,14 @@
                }
             }
          },
+         "Endurance": {
+            "Label": "Endurance",
+            "Description": {
+               "1": {
+                  "Value": "Your hit point maximum increases by 1, and it increases by 1 every time you gain a level. You also have resistance against poison damage."
+               }
+            }
+         },
          "EnergyDispersalRune": {
             "Label": "Energy Dispersal Rune",
             "Description": {
@@ -4465,6 +4473,14 @@
             "Description": {
                "1": {
                   "Value": "When you need to, you can secure free passage on a goblin balloon for yourself and your adventuring companions. You might sail on the balloon you served on, or another balloon you have good relations with (perhaps one captained by a former crewmate). Because you‘re calling in a favor, you can‘t be certain o f a schedule or route that will meet your every need. Your Dungeon Master will determine how long it takes to get where you need to go. In return for your free passage, you and your companions are expected to assist the crew during the voyage, but you do not require a permanent pass."
+               }
+            }
+         },
+         "Gore": {
+            "Label": "Gore",
+            "Description": {
+               "1": {
+                  "Value": "You can use an attack action to make a gore attack with your horns. It is a melee unarmed attack that deals 1d8 piercing damage plus your Strength modifier. If you used the Dash action before the attack (such as spending last round to approach or having the ability to use it as a bonus action), you may also use the Shove action. This is a strike effect."
                }
             }
          },
@@ -5860,6 +5876,14 @@
                }
             }
          },
+         "Plainswalker": {
+            "Label": "Plainswalker",
+            "Description": {
+               "1": {
+                  "Value": "Tauren can reach prodigious speed when continually moving. If you use the Dash action once per round for at least three rounds, you gather enough momentum to add a +10 bonus to your land speed, allowing you to travel as fast as a wolf (Speed 40). This bonus ends if you stop moving for any purpose. While benefitting from this speed, you are treated as if you are dashing for the purposes of the gore ability, and also have advantage to saving throws versus exhaustion from forced marches."
+               }
+            }
+         },
          "PoisonScience": {
             "Label": "Poison Science",
             "Description": {
@@ -5873,6 +5897,14 @@
             "Description": {
                "1": {
                   "Value": "Thanks to your noble birth, people are inclined to think the best of you. You are welcome in high society, and people assume you have the right to be wherever you are. The common folk make every effort to accommodate you and avoid your displeasure, and other people of high birth treat you as a member of the same social sphere. You can secure an audience with a local noble if you need to."
+               }
+            }
+         },
+         "PowerfulBuild": {
+            "Label": "Powerful Build",
+            "Description": {
+               "1": {
+                  "Value": "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
                }
             }
          },
@@ -6320,6 +6352,20 @@
             "Description": {
                "1": {
                   "Value": "You can spend 1 Ki point to cast the detect magic spell."
+               }
+            }
+         },
+         "SelfMastery": {
+            "Label": "Self Mastery",
+            "Description": {
+               "1": {
+                  "Value": "You have proficiency with one of the following skills and one of the following tools:"
+               },
+               "2": {
+                  "Options": {
+                     "1": "Spirit (Nature) or Spirit (Perception)",
+                     "2": "Mining tools or Herbalism kit"
+                  }
                }
             }
          },
@@ -7637,6 +7683,14 @@
                }
             }
          },
+         "Warstomp": {
+            "Label": "Warstomp",
+            "Description": {
+               "1": {
+                  "Value": "You gain the Tremor talent as a 1st level warrior. If you later gain the talent, you can use the talent two additional times."
+               }
+            }
+         },
          "WeirdJuju": {
             "Label": "Weird Juju",
             "Description": {
@@ -8584,7 +8638,29 @@
             "Name": "Pandaren"
          },
          "Tauren": {
-            "Name": "Tauren"
+            "Name": "Tauren",
+            "Description": {
+               "1": {
+                  "Italic": "“Walk with the earth mother.”",
+                  "Value": "The plains of Kalimdor have long been a home to these tremendous nomads. The tauren are a race of shamans, hunters and warriors who long ago developed a complex culture and system of living without the aid of stonework, steel or conquest. This is not to say that the tauren are a race of pacifists, for when they are angered they are capable of retaliating with swift and decisive brutality."
+               },
+               "2": {
+                  "Value": "As a Tauren of Kalimdor, you prefer to act instead of talk, and seem to be brooding for most observers. Tauren rarely speak unless there is a true reason to, preferring to act instead of talk."
+               },
+               "3": {
+                  "Value": "However, once a tauren has learned to interact with a companion, there seems to be a more open and enthusiastic exchange of words."
+               }
+            },
+            "Age": "A Tauren typically claims adulthood around the age of 50 and can live to be 150 years old.",
+            "Affiliation": {
+               "1": {
+                  "Value": "Horde. When the tauren first encountered the orcs of Thrall‘s Horde, the tauren recognized the orcs as spiritual brethren. No other race shared such a similar outlook on the world, and the shamans of both races met frequently to discuss the matters of the spirit world. While the tauren see the orcs and trolls as potential friends to welcome, they rarely trust the Forsaken with more than a nod and a place to set their withered feet."
+               }
+            },
+            "Size": "Tauren are much larger than other races. Males average 7 1/2 feet tall and 400 pounds, while females are usually a bit shorter and lighter. Tauren are mostly muscle, having incredibly developed physiques and brawny frames most suitable for combat. They are medium sized.",
+            "Speed": "Your base walking speed is 30 feet.",
+            "Languages": "Common, Taur-ahe. The language of the tauren is often harsh and slow-sounding, which is reflected in the names of their children.",
+            "FamilyNames": "Darkthorn, Thunderhoof, Stormhorn, Quillsplitter, Stonebreaker, Plainstalker, Spiritwalker"
          },
          "Troll": {
             "Name": "Troll",
