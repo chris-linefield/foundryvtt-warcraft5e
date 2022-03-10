@@ -1,0 +1,107 @@
+{
+   "_id": "t6i4JNN6LkYyb1ND",
+   "name": "Forsaken",
+   "permission": {
+      "default": 0
+   },
+   "type": "class",
+   "data": {
+   },
+   "flags": {
+      "wc5e": {
+         "type": "race",
+         "name": "WC5E.Race.Forsaken.Name",
+         "artwork": {
+            "src": "modules/warcraft5e/res/pics/races/forsaken_artwork.webp",
+            "url": "https://www.artstation.com/artwork/wKvVX",
+            "credit": "Alex Charleux"
+         },
+         "description": [
+            {
+               "italic": "WC5E.Race.Forsaken.Description.1.Italic",
+               "value": "WC5E.Race.Forsaken.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Race.Forsaken.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Race.Forsaken.Description.3.Value"
+            },
+            {
+               "value": "WC5E.Race.Forsaken.Description.4.Value"
+            }
+         ],
+         "age": "WC5E.Race.Forsaken.Age",
+         "affiliation": [
+            {
+               "value": "WC5E.Race.Forsaken.Affiliation.1.Value"
+            }
+         ],
+         "size": "WC5E.Race.Forsaken.Size",
+         "speed": "WC5E.Race.Forsaken.Speed",
+         "languages": "WC5E.Race.Forsaken.Languages",
+         "traits": [
+            {
+               "pack": "warcraft5e.wc5e_racial_feats",
+               "node": "MBXPlCmTnOQBVwY3",
+               "label": "WC5E.Feats.Cannibalize.Label"
+            },
+            {
+               "pack": "warcraft5e.wc5e_racial_feats",
+               "node": "JEcbFR94edcZ1Chm",
+               "label": "WC5E.Feats.Darkvision.Label"
+            },
+            {
+               "pack": "warcraft5e.wc5e_racial_feats",
+               "node": "q7XUGhIdYEGen1u1",
+               "label": "WC5E.Feats.KnowledgeFromBeyond.Label"
+            },
+            {
+               "pack": "warcraft5e.wc5e_racial_feats",
+               "node": "V0VdS6Z0bp1tGAoP",
+               "label": "WC5E.Feats.UndeadNature.Label"
+            },
+            {
+               "pack": "warcraft5e.wc5e_racial_feats",
+               "node": "ZcFIvWEMA29y1goy",
+               "label": "WC5E.Feats.WillOfTheForsaken.Label"
+            }
+         ],
+         "names": {
+            "male": [
+               "Roderick",
+               "Magan",
+               "Danforth",
+               "Lansire"
+            ],
+            "female": [
+               "Yellen",
+               "Limmy",
+               "Sarias",
+               "Mierelle"
+            ],
+            "family": "WC5E.Race.Forsaken.FamilyNames"
+         },
+         "values": {
+            "abilities": {
+               "bonus": 2
+            },
+            "language": [
+               "common",
+               "gutterspeech"
+            ],
+            "resistance": [
+            ],
+            "skills": [
+            ],
+            "size": "med",
+            "speed": 30,
+            "weaponProficiencies": [
+            ]
+         }
+      }
+   },
+   "img": "modules/warcraft5e/res/pics/races/forsaken.webp",
+   "effects": [
+   ]
+}

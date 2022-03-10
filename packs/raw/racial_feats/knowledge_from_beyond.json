@@ -1,0 +1,51 @@
+{
+   "_id": "q7XUGhIdYEGen1u1",
+   "name": "Knowledge from Beyond",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "",
+      "requirements": "Forsaken"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.KnowledgeFromBeyond.Description.1.Value"
+            },
+            {
+               "optionsArray": [
+                  {
+                     "value": "WC5E.Feats.KnowledgeFromBeyond.Description.2.Options.1.1.Value",
+                     "options": [
+                        "WC5E.Feats.KnowledgeFromBeyond.Description.2.Options.1.2.Options.1",
+                        "WC5E.Feats.KnowledgeFromBeyond.Description.2.Options.1.2.Options.2",
+                        "WC5E.Feats.KnowledgeFromBeyond.Description.2.Options.1.2.Options.3",
+                        "WC5E.Feats.KnowledgeFromBeyond.Description.2.Options.1.2.Options.4"
+                     ]
+                  },
+                  {
+                     "value": "WC5E.Feats.KnowledgeFromBeyond.Description.2.Options.2"
+                  },
+                  {
+                     "value": "WC5E.Feats.KnowledgeFromBeyond.Description.2.Options.3"
+                  },
+                  {
+                     "value": "WC5E.Feats.KnowledgeFromBeyond.Description.2.Options.4"
+                  },
+                  {
+                     "value": "WC5E.Feats.KnowledgeFromBeyond.Description.2.Options.5"
+                  }
+               ]
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/death/skeleton-skull-soul-blue.webp",
+   "effects": [
+   ]
+}

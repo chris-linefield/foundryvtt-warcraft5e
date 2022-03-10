@@ -24,6 +24,7 @@ DND5E.languages = {
     "eredun": "WC5E.Languages.Eredun",
     "gnomish": "WC5E.Languages.Gnomish",
     "goblin": "WC5E.Languages.Goblin",
+    "gutterspeech": "WC5E.Languages.Gutterspeech",
     "kalimag": "WC5E.Languages.Kalimag",
     "necril": "WC5E.Languages.Necril",
     "lowcommon": "WC5E.Languages.LowCommon",
@@ -35,7 +36,6 @@ DND5E.languages = {
     "titan": "WC5E.Languages.Titan",
     "troll": "WC5E.Languages.Troll"
 };
-
 
 
 DND5E.creatureTypes.mecha = "WC5E.Creature.Mecha.Name";

@@ -2743,6 +2743,14 @@
                }
             }
          },
+         "Cannibalize": {
+            "Label": "Cannibalize",
+            "Description": {
+               "1": {
+                  "Value": "You can consume the corpse of any natural creature. When you use this ability, you can spend hit dice to heal as if you completed a short rest. You can also mana siphon at the same time. Consuming a corpse takes 1 minute (instead of 1 hour for a short rest). You do not have the other benefits of rest, however (such as regaining ability uses). A natural creature may be fully cannibalized once before their corpse becomes unusable and without sufficient benefit for another cannibalism."
+               }
+            }
+         },
          "CarefulAim": {
             "Label": "Careful Aim",
             "Description": {
@@ -5255,6 +5263,35 @@
                }
             }
          },
+         "KnowledgeFromBeyond": {
+            "Label": "Knowledge from Beyond",
+            "Description": {
+               "1": {
+                  "Value": "The forsaken are uniquely acquainted with death. You can choose one of the below abilities."
+               },
+               "2": {
+                  "Options": {
+                     "1": {
+                        "1": {
+                           "Value": "<i>Elven Blood (must have been an elf)</i>: You have lingering elven blood in your veins. You have proficiency with the Perception skill, and can gain one of the following racial traits, depending on your elven subrace."
+                        },
+                        "2": {
+                           "Options": {
+                              "1": "Arcane Legacy (high elf or blood elf)",
+                              "2": "Blessing of the Nightwell (Nightborne)",
+                              "3": "Preternatural Calm (void elf)",
+                              "4": "Shadowmeld (night elf)"
+                           }
+                        }
+                     },
+                     "2": "<i>Human Blood (must have been a human)</i>: You have lingering human blood in your veins. You gain the Skillful racial trait and a +1 bonus to a third ability score of your choice.",
+                     "3": "<i>Orcish Blood (must have been an orc)</i>: You have lingering orcish blood in your veins. You can choose one talent as per the Warrior Tradition racial trait and gain a +1 bonus to your Strength score.",
+                     "4": "<i>Necrotic Touch</i>: You can cast the plague rune spell. This can be used once until a short or long rest. At 6th level, you gain another use of the ability or choose to heighten the spell‘s level to a 3rd level spell. You can make the same choice at the 11th and 16th levels (4th or 5th level, or additional uses). While you use this ability, your hand and eyes emit an eerie green glow.",
+                     "5": "<i>Natural Alchemist</i>: You have proficiency with Alchemist‘s Supplies and the Alchemy ability as a 1st level Alchemist. You have to store alchemical formula in a formula book, which you may start out with at 1st level. If you gain later proficiency, you gain expertise to the roll instead."
+                  }
+               }
+            }
+         },
          "LatentPrayer": {
             "Label": "Latent Prayer",
             "Description": {
@@ -7522,6 +7559,20 @@
                }
             }
          },
+         "UndeadNature": {
+            "Label": "Undead Nature",
+            "Description": {
+               "1": {
+                  "Value": "You don‘t require air, food, drink, or sleep. You are also immune to non-magical poisons and diseases, and have advantage to effects that cause the exhausted and poisoned conditions."
+               },
+               "2": {
+                  "Value": "You also count as undead for the purposes of healing spells and effects that target undead. For this purpose, you cannot be healed by the holy light spell, but are healed with the death coil spell, and can be targeted by the death pact and protection from good and evil spells, although you are unaffected by charm person (but charm undead instead)."
+               },
+               "3": {
+                  "Value": "You may also declare your racial origin before you rose (human, elf, orc, etc.) and are counted as being that race much for all intents and purposes that specify race (such as gaining use of elf, human, or orc specific weapons and feats)."
+               }
+            }
+         },
          "UndeadStalker": {
             "Label": "Undead Stalker",
             "Description": {
@@ -7726,6 +7777,14 @@
                },
                "3": {
                   "Value": "A creature cannot be subjected to this effect more than once for 24 hours. You can only affect one creature with this ability at any given time."
+               }
+            }
+         },
+         "WillOfTheForsaken": {
+            "Label": "Will of the Forsaken",
+            "Description": {
+               "1": {
+                  "Value": "You have advantage against fear effects."
                }
             }
          },
@@ -8372,6 +8431,7 @@
          "Eredun": "Eredun",
          "Gnomish": "Gnomish",
          "Goblin": "Goblin",
+         "Gutterspeech": "Gutterspeech",
          "Kalimag": "Kalimag",
          "LowCommon": "Low Common",
          "Necril": "Necril",
@@ -8557,7 +8617,32 @@
             }
          },
          "Forsaken": {
-            "Name": "Forsaken"
+            "Name": "Forsaken",
+            "Description": {
+               "1": {
+                  "Italic": "“We are the Forsaken. We will slaughter anyone who stands in our way.”",
+                  "Value": "Undead humans and elves freed from the Lich King‘s control during the second stage of the Third War, the Forsaken are a strange and dark force. Hailing from the twisted, skittering darkness of Undercity, the Forsaken are nominally allied with the Horde but serve only themselves. Their objectives are twofold: eliminate the Scourge, and establish a place for themselves on Azeroth."
+               },
+               "2": {
+                  "Value": "Four years ago, the high elven Ranger General Sylvanas Windrunner fell in combat against the Scourge. Prince Arthas raised her as a banshee and compelled her to follow his command. When the Lich King‘s power waned in the incidents surrounding the Frozen Throne, Sylvanas harnessed her fury and tore herself free from his skeletal grasp. She freed many other undead as well, and recruited powerful allies from the Burning Legion and the surrounding ogre clans. Sylvanas dubbed her new force the Forsaken, and the undead established their capital in the labyrinthine crypts beneath Lordaeron‘s capital city. Their sprawling, subterranean realm is called Undercity."
+               },
+               "3": {
+                  "Value": "As a forsaken undead, your alliance with the Horde started out as necessity and convenience, and your previous life bears witness to the many tragedies of Azeroth‘s reality. Needing both time and help to fight against their former Scourge masters, the Forsaken have a reputation of utter ruthlessness, human experimentation, and moral ambiguity."
+               },
+               "4": {
+                  "Value": "Although humans make the vast population of Forsaken, there is also a population of high elves (usually becoming dark rangers), and other races, which leaves a lingering bit of their abilities."
+               }
+            },
+            "Age": "Forsaken are undead, and thus do not age, and only die of violence or poisons and diseases that can affect the undead.",
+            "Affiliation": {
+               "1": {
+                  "Value": "Horde, or independent. Though the Forsaken do not trust anyone and no one trusts them, they are members of the Horde and, for now, do their best to help their allies and placate their ambassadors. Forsaken have even less love for the Alliance, particularly because they clash constantly with the human organization called the Scarlet Crusade. Some have thrown their lot with the Burning Legion, believing that only it is potent enough to defeat the Lich King."
+               }
+            },
+            "Size": "Forsaken vary based on their original form before death—those who were medium before death are medium.",
+            "Speed": "Your base walking speed is 30 feet.",
+            "Languages": "You can speak, read, and write Common, Gutterspeech, and one extra language of your choice, typically based upon the language you spoke before being turned into a Forsaken.",
+            "FamilyNames": "Dartfall, Blacksling, Ghoulhunter, Blastlich"
          },
          "Gnome": {
             "Name": "Gnome",
@@ -11091,10 +11176,6 @@
                   "Value": "The target’s gear melds into the new form. The creature can’t activate, use, wield, or otherwise benefit from any of its Equipment."
                }
             }
-         },
-         "ProduceFlame": {
-            "Label": "TODO: Produce Flame",
-            "Description": "A flickering flame appears in your hand. The flame remains there for the Duration and harms neither you nor your Equipment. The flame sheds bright light in a 10-foot radius and dim light for an additional 10 feet. The spell ends if you dismiss it as an action or if you cast it again. You can also Attack with the flame, although doing so ends the spell. When you cast this spell, or as an action on a later turn, you can hurl the flame at a creature within 30 feet of you. Make a ranged spell Attack. On a hit, the target takes 1d8 fire damage. This spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8)."
          },
          "Prestidigitation": {
             "Label": "TODO: Prestidigitation",
