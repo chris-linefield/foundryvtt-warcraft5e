@@ -47,18 +47,15 @@
     font-family: 'Heuristica';
 }
 
-.directory .directory-list .directory-item {
+.directory .directory-list .directory-item,
+.directory .directory-list .directory-item.document {
     line-height: 80px;
     font-size: 16px;
     border-bottom: 1px solid #cab87a;
     padding: 2px 0 3px;
 }
 
-.directory .directory-list .entry-name {
-    font-weight: bold;
-}
-
-.directory .directory-list .directory-item img {
+.directory .directory-list .directory-item.document img {
     width: 80px;
     height: 80px;
     border: 3px double #cab87a;
