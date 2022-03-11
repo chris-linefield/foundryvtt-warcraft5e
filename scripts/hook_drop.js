@@ -25,8 +25,6 @@ Hooks.on('preCreateItem', function (document, data, options, userId) {
 async function replaceRace(document, race) {
     let targetActor = game.actors.get(document.parent.id);
 
-    console.log(targetActor);
-
     const featPack = game.packs.get('warcraft5e.wc5e_racial_feats');
     const spellPack = game.packs.get('warcraft5e.wc5e_spells');
     let possibleFeats = await featPack.getDocuments();

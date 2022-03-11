@@ -2058,6 +2058,14 @@
          }
       },
       "Feats": {
+         "Aberration": {
+            "Label": "Aberration",
+            "Description": {
+               "1": {
+                  "Value": "You have advantage to saves against poisons and resistance against poison damage."
+               }
+            }
+         },
          "AbilityScoreImprovement": {
             "Label": "Ability Score Improvement",
             "Description": {
@@ -7888,6 +7896,37 @@
                }
             }
          },
+         "WorgenCurse": {
+            "Label": "Worgen Curse",
+            "Description": {
+               "1": {
+                  "Value": "Depending on your mental acuity, willpower, or predilections in combat, the curse is either a major or minor part of your identity. You can modify your Worgen Form ability with one of the following modifiers."
+               },
+               "2": {
+                  "Options": {
+                     "1": "<i>Embrace the Beast</i>: The curse more heavily affects your body than your mind or abilities of perception. You can shift as a bonus action instead of an action.<br>While shifting, you gain temporary hit points equal to your level + your Stamina modifier (minimum of +1), although you can only gain temporary hit points once per long rest, regardless of how many times you shift to worgen form.<br>Furthermore, when you use the Attack action with an unarmed strike with your natural weapon on your turn, you can make another unarmed strike as a bonus action. For example, if you take the Attack action and attack with your claws, you can also make an unarmed strike (bite) as a bonus action, assuming you haven't already taken a bonus action this turn.",
+                     "2": "<i>Reject the Beast</i>: The curse more heavily affects your mind and spirit, enhancing your abilities to track and perceive, but is unable to fully take hold of you. At the end of a long rest, you gain temporary hit points equal to your level. When you are in Worgen Form, these temporary hit points are suppressed, but you gain keen senses, and have advantage on Perception checks that involve scent.<br>You are also proficient in the Insight and Perception skills, and gain expertise in one of them if you are already proficient in both.<br>Lastly, so long as you are not shifting, you have advantage to contested checks to track (as if you had the Favored Enemy ability, but not restricted to a creature type)."
+                  }
+               }
+            }
+         },
+         "WorgenForm": {
+            "Label": "Worgen Form",
+            "Description": {
+               "1": {
+                  "Value": "On your turn, you can shift from human form to worgen form as an action. Shifting lasts until you end it on your turn as a bonus action. You also gain the features described below."
+               },
+               "2": {
+                  "Options": {
+                     "1": "You can roll a 1d6 dice for your unarmed attack when you bite (piercing damage), and a 1d4 for your unarmed attack if you use your claws (slashing damage). These can replace your original human natural attacks.",
+                     "2": "You can use the Dash action as a bonus action.",
+                     "3": "Any attack you make with your claw can grapple a target if they are your size or smaller.",
+                     "4": "Your natural weapon dice increases in strength as if you were a monk equal to your level for your claw attack, or a monk four levels higher for your bite attack (up to a maximum of 2d6 damage if at level 17 or above). For example, a 7th level Worgen warrior‘s claws deal 1d6 damage (from 1d4), and their bite deals 1d8 damage.",
+                     "5": "If you have a magic weapon, you can fold its power into your form while you are shifting. While shifted, you cannot use the magic weapon, but can treat your unarmed attacks as if magical."
+                  }
+               }
+            }
+         },
          "WorksAsIntended": {
             "Label": "Works as Intended",
             "Description": {
@@ -8938,7 +8977,33 @@
             }
          },
          "Worgen": {
-            "Name": "Worgen"
+            "Name": "Worgen",
+            "Description": {
+               "1": {
+                  "Italic": "“Get gabbin‟ or get going.”",
+                  "Value": "The worgen's first verified appearance in the Eastern Kingdoms has been traced back to the Third War, when the archmage Arugal utilized the wolf-beasts as a weapon against the Scourge. Arugal's weapons soon turned against him, however, as the curse of the worgen rapidly spread among the human population, transforming ordinary men and women into ravenous, feral creatures. Arugal adopted many of the worgen as his own and retreated to the former mansion of Baron Silverlaine, the estate now known as Shadowfang Keep. The curse, however, was not contained. It persisted in the lands of Silverpine and extended even into the walled nation of Gilneas, where the curse rapidly reached pandemic levels."
+               },
+               "2": {
+                  "Value": "The citizens of the human nation of Gilneas found themselves trapped, with no hope of escape. They retreated deeper within the isolated domain, and there they survived, fearful of the savage presence that lurked just outside the barricades. Tensions among the displaced citizens escalated over time, resulting in a civil war that now threatens to destabilize the embattled nation even more. Records indicate that the worgen, a race of lupine humanoids, existed for a time in Kalimdor. Other evidence also suggested that the Worgen were from a different world that came through portals by Archmage Arugal. More recent evidence suggested that their true origin might have a connection to the night elves and a secretive druidic order from Kalimdor's distant past."
+               },
+               "3": {
+                  "Value": "It was the night elves who (by happenstance) created the curse in the first place. Obligated to help their newfound allies, they re-introduced them to the Alliance."
+               },
+               "4": {
+                  "Value": "There are those among the Gilneans, however, who cling to hope. Many believe that a cure for the worgen curse may exist, although others have nearly given up, fearful that if they should lose hope, their humanity will be lost forever."
+               }
+            },
+            "Age": "As humans.",
+            "Affiliation": {
+               "1": {
+                  "Value": "Independent or Alliance. The Worgen of Gilneas re-joined their brethren of the Alliance once the Worgen Curse spread through their people, but in most cases, Worgen prefer to cater to their own hungers and ambitions."
+               }
+            },
+            "Size": "Worgens are about the same size as humans when in humanoid and Worgen form. Your size is Medium.",
+            "Speed": "Your base walking speed is 30 feet.",
+            "Languages": "You can speak, read, and write Common and one other language of your choice.",
+            "Names": "Worgen Names follow the same conventions as human names.",
+            "FamilyNames": "Renn, Townguard, Silversmith, Runetouch"
          }
       },
       "Rules": {
