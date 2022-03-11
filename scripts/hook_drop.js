@@ -74,6 +74,13 @@ async function replaceRace(document, race) {
         armorProfs = race.values.armorProficiencies;
     }
 
+    let skills = race.values.skills;
+    for (let skill of skills) {
+        targetActor.update({
+            ['data.skills.' + skill + '.value']: 1
+        });
+    }
+
     //update the actor-props
     targetActor.update({
         ['data.details.race']: game.i18n.localize(race.name),
@@ -118,11 +125,7 @@ async function replaceRace(document, race) {
                         resistance.push(subrace.values.resistance);
                     }
 
-                    let skills = race.values.skills;
-                    if (subrace.values.skills) {
-                        skills.push(subrace.values.skills);
-                    }
-
+                    let skills = subrace.values.skills;
                     for (let skill of skills) {
                         targetActor.update({
                             ['data.skills.' + skill + '.value']: 1

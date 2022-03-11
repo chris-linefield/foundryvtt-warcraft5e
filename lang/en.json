@@ -2673,6 +2673,14 @@
                }
             }
          },
+         "Bouncy": {
+            "Label": "Bouncy",
+            "Description": {
+               "1": {
+                  "Value": "You can use your reaction when you fall to reduce any falling damage you take by an amount equal to five times your Stamina modifier."
+               }
+            }
+         },
          "Bravery": {
             "Label": "Bravery",
             "Description": {
@@ -4220,6 +4228,14 @@
                }
             }
          },
+         "FeatPandaren": {
+            "Label": "Feat",
+            "Description": {
+               "1": {
+                  "Value": "You may choose one of the following feats of your choice: Tavern Brawler, Grappler, or Brew Mastery (if your starting class is monk)."
+               }
+            }
+         },
          "Feedback": {
             "Label": "Feedback",
             "Description": {
@@ -5056,6 +5072,14 @@
             "Description": {
                "1": {
                   "Value": "You can spend 2 Ki points to cast the enhance ability spell."
+               }
+            }
+         },
+         "InnerPeace": {
+            "Label": "Inner Peace",
+            "Description": {
+               "1": {
+                  "Value": "You have proficiency with the Insight and Perception skills. In addition, while you are wearing light or no armor, you gain a +1 bonus to Armor Class."
                }
             }
          },
@@ -8766,7 +8790,35 @@
             "FamilyNames": "Doomhammer, Deadeye, Foebinder, Elfkiller, Skullsplitter, Axeripper, Tearshorn, Fistcrusher"
          },
          "Pandaren": {
-            "Name": "Pandaren"
+            "Name": "Pandaren",
+            "Description": {
+               "1": {
+                  "Italic": "“You seem a little parched.”",
+                  "Value": "As a Pandaren, you are honorable and filled with a love of good company, good food – and every now and then, a good friendly brawl. The pandaren have been content to live in seclusion, allowing their culture to flourish and thrive away from the influence of the outside world."
+               },
+               "2": {
+                  "Value": "However, every now and then, a pandaren is born with a thirst for adventure that rivals his or her thirst for a strong drink, and he or she strikes out to explore beyond Pandaria‘s shores. One of the most famous of such wanderers was the brewmaster Chen Stormstout, who set out looking for exotic ingredients for his special ale and wound up an integral part of the founding of the Horde."
+               },
+               "3": {
+                  "Value": "During the bleak days that preceded the sundering of the world, when demons flooded onto Azeroth and threw the entirety of the mortal realm into jeopardy, the last Emperor of the pandaren discovered a way to protect his land from devastation. His deal with fate shrouded his land within an impenetrable mist for ten thousand years, but the nature of his transaction has left Pandaria haunted ever since."
+               },
+               "4": {
+                  "Value": "As a Pandaren, you may have been one of the wanderers that left the misty island to explore the outside world and bring news back home."
+               },
+               "5": {
+                  "Value": "Your allies might wonder from where you came and whether they could visit your home, you know that the mists shall only lift when the time is right."
+               }
+            },
+            "Age": "Pandaren reach adulthood at about the age of 80, and can live up to be 350.",
+            "Affiliation": {
+               "1": {
+                  "Value": "Independent, Horde, or Alliance. Pandaren drift across affiliations, doing whatever they wish and making friends on either side."
+               }
+            },
+            "Size": "Your size is medium. Pandaren average 5 1/2 feet in height, and make assured and precise movements, despite them often reaching the weight of 400 pounds.",
+            "Speed": "Your base walking speed is 30 feet.",
+            "Languages": "You can speak, read, and write Common and Pandaren.",
+            "FamilyNames": "Stoneclaw, Firespear, Silentrunner, Winterwalker, Rainsword, Brewscroll, Whitebrow"
          },
          "Tauren": {
             "Name": "Tauren",
