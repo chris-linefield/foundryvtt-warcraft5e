@@ -152,6 +152,23 @@
 }
 
 /*********************************
+ * CHARACTER SHEET
+ ********************************/
+
+.warcraft5e .raceArea li {
+    position:relative;
+}
+
+.warcraft5e.actor .config-button.raceButton {
+    position:absolute; top:-5px; right:5px;
+    display:none;
+}
+
+.warcraft5e .raceArea:hover .raceButton {
+    display:block;
+}
+
+/*********************************
  * RACE SHEET
  ********************************/
 
