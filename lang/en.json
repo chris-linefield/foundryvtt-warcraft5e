@@ -2112,6 +2112,14 @@
                }
             }
          },
+         "Adapter": {
+            "Label": "Adapter",
+            "Description": {
+               "1": {
+                  "Value": "You may always act when surprised at a combat encounter (even if you failed your Perception check to notice it). You also have advantage versus weather effects."
+               }
+            }
+         },
          "AdvancedMaskMagic": {
             "Label": "Advanced Mask Magic",
             "Description": {
@@ -3727,6 +3735,14 @@
                }
             }
          },
+         "DraeneiCombatTraining": {
+            "Label": "Draenei Combat Training",
+            "Description": {
+               "1": {
+                  "Value": "You have proficiency with the longsword, greathammer, glaive, and the heavy crossbow."
+               }
+            }
+         },
          "DruidCircle": {
             "Label": "Druid Circle",
             "Description": {
@@ -4331,6 +4347,14 @@
                }
             }
          },
+         "FelResistance": {
+            "Label": "Fel Resistance",
+            "Description": {
+               "1": {
+                  "Value": "You have resistance to fel damage."
+               }
+            }
+         },
          "FiendishBarter": {
             "Label": "Fiendish Barter",
             "Description": {
@@ -4543,6 +4567,25 @@
             "Description": {
                "1": {
                   "Value": "When determining your maximum allowable CR to transform to, you divide your level by three, and not eight (round down), referring to the below table."
+               }
+            }
+         },
+         "Gemcutting": {
+            "Label": "Gemcutting",
+            "Description": {
+               "1": {
+                  "Value": "You are proficient with artisan‘s tools (jewelcrafting kit)."
+               }
+            }
+         },
+         "GiftOfTheNaaru": {
+            "Label": "Gift of the Naaru",
+            "Description": {
+               "1": {
+                  "Value": "You can use your action to channel holy energy, casting the renewing light spell as if cast as a 1st level spell. This can be used once, replenishing on a short or long rest."
+               },
+               "2": {
+                  "Value": "While a creature benefits from this ability, they have a glowing blue mark above their forehead (shedding light equal to dancing lights). Your spellcasting ability modifier is Spirit or Charisma (your choice)."
                }
             }
          },
@@ -4826,6 +4869,14 @@
                },
                "2": {
                   "Value": "Also, your critical range for your Strike the Wound ability becomes 15-20."
+               }
+            }
+         },
+         "HeroicPresence": {
+            "Label": "Heroic Presence",
+            "Description": {
+               "1": {
+                  "Value": "You can spend 10 minutes inspiring your companions, shoring up their resolve to fight. When you do so, choose up to six friendly creatures (which can include yourself) within 30 feet of you who can see or hear you and who can understand you. Each creature can gain temporary hit points equal to your level + half your Charisma or Spirit modifier. A creature can‘t gain temporary hit points from this feature again until it has finished a long rest. Alternatively, you may declare use of this ability upon landing a critical hit."
                }
             }
          },
@@ -7388,6 +7439,14 @@
                }
             }
          },
+         "Stalker": {
+            "Label": "Stalker",
+            "Description": {
+               "1": {
+                  "Value": "You have proficiency with the Perception and Stealth skills. If you already have proficiency with one of these skills, you gain Expertise instead."
+               }
+            }
+         },
          "StanceOfTheMountain": {
             "Label": "Stance of the Mountain",
             "Description": {
@@ -7859,10 +7918,10 @@
             "Label": "Void Magic",
             "Description": {
                "1": {
-                  "Value": "You know the chill touch cantrip and can cast it normally (caster level equal to your\ncharacter level). When you reach 3rd level, you can also cast detect magic as a 1st level spell. When\nyou reach 5th level, you can also cast the shadow word pain spell as a 2nd level spell. Charisma or\nIntelligence (your choice) is your spellcasting ability for these spells, and you use your mana pool for\nthese abilities (even if you are not normally a spellcaster). While you use such abilities (and after\nusing them for one hour), your eyes glow a pale white."
+                  "Value": "You know the chill touch cantrip and can cast it normally (caster level equal to your character level). When you reach 3rd level, you can also cast detect magic as a 1st level spell. When you reach 5th level, you can also cast the shadow word pain spell as a 2nd level spell. Charisma or Intelligence (your choice) is your spellcasting ability for these spells, and you use your mana pool for these abilities (even if you are not normally a spellcaster). While you use such abilities (and after using them for one hour), your eyes glow a pale white."
                },
                "2": {
-                  "Value": "If you can already cast such spells (and have a sufficiently high caster level), they are always prepared\nfor free."
+                  "Value": "If you can already cast such spells (and have a sufficiently high caster level), they are always prepared for free."
                }
             }
          },
@@ -8714,28 +8773,51 @@
       "Race": {
          "Draenei": {
             "Name": "Draenei",
-            "Description": "The draenei are a powerfully-build alien race that originates from Argus. They are powerfully magically-attuned, and have the potential for exceptional good or evil. Draenei who succumb to fel magic form the ranks of the Eredar, the greatest generals of the Burning Legion, while draenei who serve the Holy Light are immortal crusaders for justice across the cosmos.",
+            "Description": {
+               "1": {
+                  "Value": "The draenei are a powerfully-build alien race that originates from Argus. They are powerfully magically-attuned, and have the potential for exceptional good or evil. Draenei who succumb to fel magic form the ranks of the Eredar, the greatest generals of the Burning Legion, while draenei who serve the Holy Light are immortal crusaders for justice across the cosmos."
+               }
+            },
             "Age": "A typical draenei claims adulthood around 100 years old, and can live to about ten thousand years old.",
-            "Affiliation": "Each sub-race is inclined to its own affiliations.",
-            "Size": "Their size is Medium. Males range anywhere from seven feet tall to eight feet tall and weigh on average around 300 or 400 pounds. Females stand at six to seven feet tall and only weigh around 170 or 250 pounds when fully grown.",
-            "Appearance": "As befitting their Eredar heritage, Draenei have hooved feet, tendrils that grow from the neck and short tails, and their skin color is affected by the magic they naturally absorb (with fel magic reddening them, holy magic rendering their skins blue to violet, and void magic darkening them to brown). Males' skulls are rigid (giving the appearance of a bone plate under their skin), while females grow foot-long, graceful curved horns. Broken draenei look distinctly different from normal Draenei, having flat, noseless faces and having thick, three-fingered hands, and lose their bone-like plates.",
-            "Language": "The Eredun Draenei speak is an altered dialect that is less corrupt, and thus does not impose penalties when speaking, but is perfectly understandable by fiends.",
+            "Affiliation": {
+               "1": {
+                  "Value": "Each sub-race is inclined to its own affiliations."
+               }
+            },
+            "Size": "Draenei stand between 7 and 8 feet tall and average about 300 pounds. Your size is Medium. As befitting their Eredar heritage, Draenei have hooved feet, tendrils that grow from the neck and short tails, and their skin color is affected by the magic they naturally absorb (with fel magic reddening them, holy magic rendering their skins blue to violet, and void magic darkening them to brown). Males‘ skulls are rigid (giving the appearance of a bone plate under their skin), while females grow foot-long, graceful curved horns. Males range anywhere from seven feet tall to eight feet tall and weigh on average around 300 or 400 pounds. Females stand at six to seven feet tall and only weigh around 170 or 250 pounds when fully grown.",
+            "Speed": "Your base walking speed is 30 feet.",
+            "Languages": "You can speak, read, and write Common and Eredun. The Eredun Draenei speak is an altered dialect that is less corrupt, and thus does not impose penalties when speaking, but is perfectly understandable by fiends.",
             "FamilyNames": "Draenei do not have family names, but take a title according to their deeds.",
-            "Subrace": "Ancient events divide the draenei into two sub-races: unbroken and broken.",
+            "Subrace": "Ancient events divide the draenei into two sub-races: unbroken and broken, Choose one of these subraces",
             "Subraces": {
                "Broken": {
                   "Name": "Broken (Krokul)",
-                  "Quote": "You will learn our ways...",
-                  "Description": "The Broken, also known as Krokul in Draenei, are a mutated and devolved subrace of draenei who lived in Outland. They, like most of the orcs, fell prey to the demons' sinister influence and were changed by the corruption. Though they lost some of their former powers, the Broken still present a clear danger to all races through Outland. The largest known faction of Broken in Outland, the Ashtongue Deathsworn, is currently led by Akama. They are supposedly allied with Illidan Stormrage.",
-                  "AbilityScoreIncrease": "Your Agility increases by 2.",
-                  "Affiliation": "Independent. Despite the (mostly) accidental regression into broken, many unbroken draenei not only distrust them but despise them. Although understandable of those broken who remain corrupted or in service to the Legion, one would think that the unbroken would be willing to welcome any of their people that survived the orcs' genocide. Most broken are independent as a result, although the Prophet Velen, the leader of the unbroken, does extend a hand to broken to help them find their way back."
+                  "Description": {
+                     "1": {
+                        "Italic": "You will learn our ways...",
+                        "Value": "The Broken, also known as Krokul in Draenei, are a mutated and devolved subrace of draenei who lived in Outland. They, like most of the orcs, fell prey to the demons' sinister influence and were changed by the corruption. Though they lost some of their former powers, the Broken still present a clear danger to all races through Outland. The largest known faction of Broken in Outland, the Ashtongue Deathsworn, is currently led by Akama. They are supposedly allied with Illidan Stormrage."
+                     }
+                  },
+                  "Affiliation": {
+                     "1": {
+                        "Value": "Independent. Despite the (mostly) accidental regression into broken, many unbroken draenei not only distrust them but despise them. Although understandable of those broken who remain corrupted or in service to the Legion, one would think that the unbroken would be willing to welcome any of their people that survived the orcs' genocide. Most broken are independent as a result, although the Prophet Velen, the leader of the unbroken, does extend a hand to broken to help them find their way back."
+                     }
+                  },
+                  "Size": "Broken draenei look distinctly different from normal Draenei, having flat, noseless faces and having thick, three-fingered hands, and lose their bone-like plates."
                },
                "Unbroken": {
                   "Name": "Unbroken (True Draenei)",
-                  "Quote": "The Legion's end draws near.",
-                  "Description": "As one of the enlightened cousins of the Eredar, the Draenei arrived in Azeroth after the reopening of the Dark Portal. Living out the last centuries in exile and escape from the Burning Legion, the Draenei are steadfast champions of the Light, and will do anything in their power to prevent another world from falling to the Flame.",
-                  "AbilityScoreIncrease": "Your Strength increases by 2.",
-                  "Affiliation": "Alliance. Unbroken draenei have found that they have strong bonds with humanity and dwarvenkind due to their shared worship of the Light, and kinship with the now-mortal night elves."
+                  "Description": {
+                     "1": {
+                        "Italic": "The Legion's end draws near.",
+                        "Value": "As one of the enlightened cousins of the Eredar, the Draenei arrived in Azeroth after the reopening of the Dark Portal. Living out the last centuries in exile and escape from the Burning Legion, the Draenei are steadfast champions of the Light, and will do anything in their power to prevent another world from falling to the Flame."
+                     }
+                  },
+                  "Affiliation": {
+                     "1": {
+                        "Value": "Alliance. Unbroken draenei have found that they have strong bonds with humanity and dwarvenkind due to their shared worship of the Light, and kinship with the now-mortal night elves."
+                     }
+                  }
                }
             }
          },
@@ -12979,6 +13061,7 @@
          "DamageTypes": {
             "Arcane": "Arcane",
             "Bludgeoning": "Bludgeoning",
+            "Fel": "Fel",
             "Holy": "Holy",
             "Piercing": "Piercing",
             "Shadow": "Shadow",

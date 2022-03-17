@@ -7,7 +7,7 @@
    "type": "feat",
    "data": {
       "source": "",
-      "requirements": "Dwarf, Forsaken, Gnome, Goblin, Orc, Troll, Worgen"
+      "requirements": "Draenei, Dwarf, Elf, Forsaken, Gnome, Goblin, Orc, Troll, Worgen"
    },
    "flags": {
       "wc5e": {

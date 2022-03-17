@@ -137,8 +137,6 @@ export default class RaceSelector extends DocumentSheet {
             }
         }
 
-        console.log(race);
-
         //update the actor-props
         targetActor.update({
             ['data.details.race']: game.i18n.localize(race.name),
@@ -178,14 +176,11 @@ export default class RaceSelector extends DocumentSheet {
                         }
                         targetActor.createEmbeddedDocuments("Item", entries);
 
-                        let resArray = [];
                         if (subrace.values.resistance) {
                             for (let res of subrace.values.resistance) {
                                 resArray.push(res);
                             }
                         }
-
-                        console.log(resArray);
 
                         let skills = subrace.values.skills;
                         if (skills) {

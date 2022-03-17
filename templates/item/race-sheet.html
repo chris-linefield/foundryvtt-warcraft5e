@@ -28,18 +28,29 @@
         <div class="raceGrid">
             <strong><i>{{localize "WC5E.UI.AbilityScoreIncrease"}}:</i></strong>
             <div>
-                {{#each item.flags.wc5e.values.abilities}}
-                    {{#unless @first}}
-                        ,
-                    {{/unless}}
-                    Your {{lookup ../config.abilities @key}} score
-                    {{#if (isPositive this)}}
-                        increases
-                    {{else}}
-                        decreases
-                    {{/if}}
-                    by {{this}}
-                {{/each}}
+                {{#if (isChoice item.flags.wc5e.values.abilities.choice)}}
+                    Your
+                    {{#each item.flags.wc5e.values.abilities.choice.keys}}
+                        {{lookup ../config.abilities this}}
+                        {{#unless @last}}
+                            or
+                        {{/unless}}
+                    {{/each}}
+                    score increases by {{item.flags.wc5e.values.abilities.choice.value}}
+                {{else}}
+                    {{#each item.flags.wc5e.values.abilities}}
+                        {{#unless @first}}
+                            ,
+                        {{/unless}}
+                        Your {{lookup ../config.abilities @key}} score
+                        {{#if (isPositive this)}}
+                            increases
+                        {{else}}
+                            decreases
+                        {{/if}}
+                        by {{this}}
+                    {{/each}}
+                {{/if}}
             </div>
             <hr>
             <strong><i>{{localize "WC5E.UI.Age"}}:</i></strong>
@@ -146,6 +157,12 @@
                                 {{/each}}
                             {{/if}}
                         </div>
+                        <hr>
+                    {{/if}}
+
+                    {{#if this.size}}
+                        <strong><i>{{localize "WC5E.UI.Size"}}:</i></strong>
+                        <div>{{localize this.size}}</div>
                         <hr>
                     {{/if}}
 

@@ -1,0 +1,26 @@
+{
+   "_id": "3wPSJICynealZ3cV",
+   "name": "Gemcutting",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Wc5e - Core p. 10",
+      "requirements": "Draenei (Unbroken)"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.Gemcutting.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/commodities/gems/gem-cut-faceted-princess-purple.webp",
+   "effects": [
+   ]
+}

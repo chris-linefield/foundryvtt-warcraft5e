@@ -1,0 +1,26 @@
+{
+   "_id": "IMlk9JyfkfY7Z4O6",
+   "name": "Fel Resistance",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Wc5e - Core p. 9",
+      "requirements": "Draenei"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.FelResistance.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/unholy/orb-colllecting-energy-green.webp",
+   "effects": [
+   ]
+}
