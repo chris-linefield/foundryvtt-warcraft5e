@@ -8,16 +8,16 @@
    "flags": {
       "wc5e": {
          "type": "rule",
-         "title": "WC5E.Rules.Mechanics.Beyond1stLevel.Label",
+         "title": "WC5E.Rules.Beyond1stLevel.Label",
          "content": [
             {
-               "value": "WC5E.Rules.Mechanics.Beyond1stLevel.Description.1.Value"
+               "value": "WC5E.Rules.Beyond1stLevel.Description.1.Value"
             },
             {
-               "value": "WC5E.Rules.Mechanics.Beyond1stLevel.Description.2.Value"
+               "value": "WC5E.Rules.Beyond1stLevel.Description.2.Value"
             },
             {
-               "value": "WC5E.Rules.Mechanics.Beyond1stLevel.Description.3.Value"
+               "value": "WC5E.Rules.Beyond1stLevel.Description.3.Value"
             },
             {
                "table": {
@@ -29,7 +29,7 @@
                      },
                      {
                         "wrap": true,
-                        "title": "WC5E.Rules.Mechanics.Beyond1stLevel.TypicalWealth",
+                        "title": "WC5E.Rules.Beyond1stLevel.TypicalWealth",
                         "class": "numberCol"
                      },
                      {},
@@ -40,7 +40,7 @@
                      },
                      {
                         "wrap": true,
-                        "title": "WC5E.Rules.Mechanics.Beyond1stLevel.TypicalWealth",
+                        "title": "WC5E.Rules.Beyond1stLevel.TypicalWealth",
                         "class": "numberCol"
                      },
                      {},
@@ -51,7 +51,7 @@
                      },
                      {
                         "wrap": true,
-                        "title": "WC5E.Rules.Mechanics.Beyond1stLevel.TypicalWealth",
+                        "title": "WC5E.Rules.Beyond1stLevel.TypicalWealth",
                         "class": "numberCol"
                      }
                   ],
@@ -227,38 +227,38 @@
                }
             },
             {
-               "value": "WC5E.Rules.Mechanics.Beyond1stLevel.Description.4.Value"
+               "value": "WC5E.Rules.Beyond1stLevel.Description.4.Value"
             },
             {
-               "title": "WC5E.Rules.Mechanics.Beyond1stLevel.Description.5.Title",
-               "value": "WC5E.Rules.Mechanics.Beyond1stLevel.Description.5.Value"
+               "title": "WC5E.Rules.Beyond1stLevel.Description.5.Title",
+               "value": "WC5E.Rules.Beyond1stLevel.Description.5.Value"
             },
             {
-               "value": "WC5E.Rules.Mechanics.Beyond1stLevel.Description.6.Value"
+               "value": "WC5E.Rules.Beyond1stLevel.Description.6.Value"
             },
             {
-               "value": "WC5E.Rules.Mechanics.Beyond1stLevel.Description.7.Value"
+               "value": "WC5E.Rules.Beyond1stLevel.Description.7.Value"
             },
             {
-               "title": "WC5E.Rules.Mechanics.Beyond1stLevel.Description.8.Title",
-               "value": "WC5E.Rules.Mechanics.Beyond1stLevel.Description.8.Value"
+               "title": "WC5E.Rules.Beyond1stLevel.Description.8.Title",
+               "value": "WC5E.Rules.Beyond1stLevel.Description.8.Value"
             },
             {
-               "value": "WC5E.Rules.Mechanics.Beyond1stLevel.Description.9.Value"
+               "value": "WC5E.Rules.Beyond1stLevel.Description.9.Value"
             },
             {
-               "value": "WC5E.Rules.Mechanics.Beyond1stLevel.Description.10.Value"
+               "value": "WC5E.Rules.Beyond1stLevel.Description.10.Value"
             }
          ],
          "prev": {
             "pack": "wc5e_rules",
             "node": "wuIUIyFlx05iZIwR",
-            "label": "WC5E.Rules.Mechanics.DeterminingAbilityScores.Label"
+            "label": "WC5E.Rules.DeterminingAbilityScores.Label"
          },
          "next": {
             "pack": "wc5e_rules",
             "node": "fgQQsGoUZbTvFU3D",
-            "label": "WC5E.Rules.Mechanics.Races.Label"
+            "label": "WC5E.Rules.Races.Label"
          }
       }
    }

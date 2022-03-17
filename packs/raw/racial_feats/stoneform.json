@@ -1,0 +1,26 @@
+{
+   "_id": "OCHoS2vPCHnQz1lh",
+   "name": "Stoneform",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Wc5e - Core p. 11",
+      "requirements": "Dwarf"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.Stoneform.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/earth/strike-fist-stone-light.webp",
+   "effects": [
+   ]
+}

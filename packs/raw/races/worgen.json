@@ -1,0 +1,103 @@
+{
+   "_id": "7oN37lJL4Ou0Vjsr",
+   "name": "Worgen",
+   "permission": {
+      "default": 0
+   },
+   "type": "class",
+   "data": {
+   },
+   "flags": {
+      "wc5e": {
+         "type": "race",
+         "name": "WC5E.Race.Worgen.Name",
+         "artwork": {
+            "src": "modules/warcraft5e/res/pics/races/worgen_artwork.webp",
+            "url": "https://www.artstation.com/artwork/wN4qV",
+            "credit": "jialin Z"
+         },
+         "description": [
+            {
+               "italic": "WC5E.Race.Worgen.Description.1.Italic",
+               "value": "WC5E.Race.Worgen.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Race.Worgen.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Race.Worgen.Description.3.Value"
+            },
+            {
+               "value": "WC5E.Race.Worgen.Description.4.Value"
+            }
+         ],
+         "age": "WC5E.Race.Worgen.Age",
+         "affiliation": [
+            {
+               "value": "WC5E.Race.Worgen.Affiliation.1.Value"
+            }
+         ],
+         "size": "WC5E.Race.Worgen.Size",
+         "speed": "WC5E.Race.Worgen.Speed",
+         "languages": "WC5E.Race.Worgen.Languages",
+         "traits": [
+            {
+               "pack": "warcraft5e.wc5e_racial_feats",
+               "node": "Ty1nAMXBdw1NhaMb",
+               "label": "WC5E.Feats.Aberration.Label"
+            },
+            {
+               "pack": "warcraft5e.wc5e_racial_feats",
+               "node": "JEcbFR94edcZ1Chm",
+               "label": "WC5E.Feats.Darkvision.Label"
+            },
+            {
+               "pack": "warcraft5e.wc5e_racial_feats",
+               "node": "B8lndof6Y2UVVBfN",
+               "label": "WC5E.Feats.WorgenCurse.Label"
+            },
+            {
+               "pack": "warcraft5e.wc5e_racial_feats",
+               "node": "VZo6hScAIyVC2ctd",
+               "label": "WC5E.Feats.WorgenForm.Label"
+            }
+         ],
+         "names": {
+            "male": [
+               "Merander",
+               "Gyram",
+               "Derrick",
+               "Henry"
+            ],
+            "female": [
+               "Lilla",
+               "Merian",
+               "Richelle",
+               "Ammi"
+            ],
+            "family": "WC5E.Race.Worgen.FamilyNames"
+         },
+         "values": {
+            "abilities": {
+               "dex": 2,
+               "str": 1
+            },
+            "language": [
+               "common"
+            ],
+            "resistance": [
+               "poison"
+            ],
+            "skills": [
+            ],
+            "size": "med",
+            "speed": 30,
+            "weaponProficiencies": [
+            ]
+         }
+      }
+   },
+   "img": "modules/warcraft5e/res/pics/races/worgen.webp",
+   "effects": [
+   ]
+}

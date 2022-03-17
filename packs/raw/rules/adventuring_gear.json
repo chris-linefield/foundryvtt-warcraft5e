@@ -8,7 +8,7 @@
    "flags": {
       "wc5e": {
          "type": "rule",
-         "title": "WC5E.Rules.Mechanics.AdventuringGear.Label",
+         "title": "WC5E.Rules.AdventuringGear.Label",
          "content": [
             {
                "table": {
@@ -296,12 +296,12 @@
          "prev": {
             "pack": "wc5e_rules",
             "node": "8a9UvmZT9MkLygR5",
-            "label": "WC5E.Rules.Mechanics.Wealth.Label"
+            "label": "WC5E.Rules.Wealth.Label"
          },
          "next": {
             "pack": "wc5e_rules",
             "node": "cq8YZHBjsac3LmSr",
-            "label": "WC5E.Rules.Mechanics.WeaponsAndArmor.Label"
+            "label": "WC5E.Rules.WeaponsAndArmor.Label"
          }
       }
    }

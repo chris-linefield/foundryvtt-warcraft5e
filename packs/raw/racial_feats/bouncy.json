@@ -1,0 +1,26 @@
+{
+   "_id": "hh9UT5hyCrgUdZ6b",
+   "name": "Bouncy",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Wc5e - Core p. 24",
+      "requirements": "Pandaren"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.Bouncy.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/creatures/abilities/paw-print-yellow.webp",
+   "effects": [
+   ]
+}

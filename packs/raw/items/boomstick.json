@@ -1,0 +1,114 @@
+{
+   "name": "Boomstick",
+   "type": "weapon",
+   "img": "icons/weapons/guns/rifle-white.webp",
+   "data": {
+      "description": {
+         "value": "<p>Known as a favored dwarven weapon, boomsticks are intricately designed with special markings to denote the company, issue date, and a small piece of war advice in dwarven.</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 223",
+      "quantity": 1,
+      "weight": 10,
+      "price": 200,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "common",
+      "identified": true,
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": null,
+         "units": ""
+      },
+      "target": {
+         "value": 1,
+         "width": null,
+         "units": "",
+         "type": "creature"
+      },
+      "range": {
+         "value": 150,
+         "long": 600,
+         "units": "ft"
+      },
+      "uses": {
+         "value": null,
+         "max": "",
+         "per": ""
+      },
+      "consume": {
+         "type": "ammo",
+         "target": "",
+         "amount": 2
+      },
+      "ability": "",
+      "actionType": "rwak",
+      "attackBonus": "0",
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [
+            [
+               "2d6",
+               "piercing"
+            ]
+         ],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "scaling": "spell"
+      },
+      "armor": {
+         "value": 10
+      },
+      "hp": {
+         "value": 0,
+         "max": 0,
+         "dt": null,
+         "conditions": ""
+      },
+      "weaponType": "martialR",
+      "baseItem": "generalFirearm",
+      "properties": {
+         "ada": false,
+         "amm": false,
+         "fin": false,
+         "fir": true,
+         "foc": false,
+         "hvy": false,
+         "lgt": false,
+         "lod": false,
+         "mgc": false,
+         "rch": false,
+         "rel": true,
+         "ret": false,
+         "sil": false,
+         "spc": false,
+         "thr": false,
+         "two": false,
+         "ver": false,
+         "hvyplus": false
+      },
+      "proficient": true
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+      "default": 0
+   },
+   "flags": {
+   },
+   "_id": "nMCFcST6Sq9pb0wo"
+}

@@ -1,0 +1,26 @@
+{
+   "_id": "uwuUYcwtxQbsnfaS",
+   "name": "Plainswalker",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Wc5e - Core p. 25",
+      "requirements": "Tauren"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.Plainswalker.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/skills/movement/figure-running-gray.webp",
+   "effects": [
+   ]
+}

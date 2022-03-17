@@ -1,0 +1,26 @@
+{
+   "_id": "tAY6OUJ96wtKr3ij",
+   "name": "Stalker",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Wc5e - Core p. 10",
+      "requirements": "Draenei (Broken)"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.Stalker.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/nature/stealth-hide-eyes-pink.webp",
+   "effects": [
+   ]
+}

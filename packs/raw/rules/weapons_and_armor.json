@@ -8,16 +8,16 @@
    "flags": {
       "wc5e": {
          "type": "rule",
-         "title": "WC5E.Rules.Mechanics.WeaponsAndArmor.Label",
+         "title": "WC5E.Rules.WeaponsAndArmor.Label",
          "content": [
             {
-               "value": "WC5E.Rules.Mechanics.WeaponsAndArmor.Description.1.Value"
+               "value": "WC5E.Rules.WeaponsAndArmor.Description.1.Value"
             },
             {
-               "value": "WC5E.Rules.Mechanics.WeaponsAndArmor.Description.2.Value"
+               "value": "WC5E.Rules.WeaponsAndArmor.Description.2.Value"
             },
             {
-               "value": "WC5E.Rules.Mechanics.WeaponsAndArmor.Description.3.Value"
+               "value": "WC5E.Rules.WeaponsAndArmor.Description.3.Value"
             },
             {
                "table": {
@@ -339,12 +339,12 @@
          "prev": {
             "pack": "wc5e_rules",
             "node": "VGSm1qJQVXY0Ya6L",
-            "label": "WC5E.Rules.Mechanics.AdventuringGear.Label"
+            "label": "WC5E.Rules.AdventuringGear.Label"
          },
          "next": {
             "pack": "wc5e_rules",
             "node": "yJQ5Zbr4wMp4nNb6",
-            "label": "WC5E.Rules.Mechanics.Tools.Label"
+            "label": "WC5E.Rules.Tools.Label"
          }
       }
    }

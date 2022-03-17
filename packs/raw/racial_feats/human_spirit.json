@@ -1,0 +1,26 @@
+{
+   "_id": "Eax344yF4GUNG1IN",
+   "name": "Human Spirit",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Wc5e - Core p. 22",
+      "requirements": "Human"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.HumanSpirit.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/control/control-influence-crown-gold.webp",
+   "effects": [
+   ]
+}

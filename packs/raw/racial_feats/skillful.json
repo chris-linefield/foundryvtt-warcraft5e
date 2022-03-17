@@ -1,0 +1,26 @@
+{
+   "_id": "eXEtFVvTeFJBLVy6",
+   "name": "Skillful",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Wc5e - Core p. 22",
+      "requirements": "Human"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.Skillful.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/skills/trades/smithing-tongs-metal-red.webp",
+   "effects": [
+   ]
+}

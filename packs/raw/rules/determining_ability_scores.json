@@ -8,38 +8,38 @@
    "flags": {
       "wc5e": {
          "type": "rule",
-         "title": "WC5E.Rules.Mechanics.DeterminingAbilityScores.Label",
+         "title": "WC5E.Rules.DeterminingAbilityScores.Label",
          "content": [
             {
-               "value": "WC5E.Rules.Mechanics.DeterminingAbilityScores.Description.1.Value"
+               "value": "WC5E.Rules.DeterminingAbilityScores.Description.1.Value"
             },
             {
-               "title": "WC5E.Rules.Mechanics.DeterminingAbilityScores.Description.2.Title",
-               "value": "WC5E.Rules.Mechanics.DeterminingAbilityScores.Description.2.Value"
+               "title": "WC5E.Rules.DeterminingAbilityScores.Description.2.Title",
+               "value": "WC5E.Rules.DeterminingAbilityScores.Description.2.Value"
             },
             {
-               "value": "WC5E.Rules.Mechanics.DeterminingAbilityScores.Description.3.Value"
+               "value": "WC5E.Rules.DeterminingAbilityScores.Description.3.Value"
             },
             {
-               "value": "WC5E.Rules.Mechanics.DeterminingAbilityScores.Description.4.Value"
+               "value": "WC5E.Rules.DeterminingAbilityScores.Description.4.Value"
             },
             {
-               "value": "WC5E.Rules.Mechanics.DeterminingAbilityScores.Description.5.Value"
+               "value": "WC5E.Rules.DeterminingAbilityScores.Description.5.Value"
             },
             {
-               "title": "WC5E.Rules.Mechanics.DeterminingAbilityScores.Description.6.Title",
-               "value": "WC5E.Rules.Mechanics.DeterminingAbilityScores.Description.6.Value"
+               "title": "WC5E.Rules.DeterminingAbilityScores.Description.6.Title",
+               "value": "WC5E.Rules.DeterminingAbilityScores.Description.6.Value"
             }
          ],
          "prev": {
             "pack": "wc5e_rules",
             "node": "TcENfzq00aaPt8Hp",
-            "label": "WC5E.Rules.Mechanics.AbilityScoreSummary.Label"
+            "label": "WC5E.Rules.AbilityScoreSummary.Label"
          },
          "next": {
             "pack": "wc5e_rules",
             "node": "8FMb36eUyacdaVnm",
-            "label": "WC5E.Rules.Mechanics.Beyond1stLevel.Label"
+            "label": "WC5E.Rules.Beyond1stLevel.Label"
          }
       }
    },

@@ -1,0 +1,26 @@
+{
+   "_id": "HO6c0EyT5RT0grB8",
+   "name": "Troll Combat Training",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Wc5e - Core p. 26",
+      "requirements": "Troll"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.TrollCombatTraining.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/weapons/axes/axe-crooked-blackened.webp",
+   "effects": [
+   ]
+}

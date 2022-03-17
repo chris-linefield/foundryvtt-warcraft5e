@@ -1,0 +1,93 @@
+{
+   "_id": "g1T9Bcr4AqadghDd",
+   "name": "Human",
+   "permission": {
+      "default": 0
+   },
+   "type": "class",
+   "data": {
+   },
+   "flags": {
+      "wc5e": {
+         "type": "race",
+         "name": "WC5E.Race.Human.Name",
+         "artwork": {
+            "src": "modules/warcraft5e/res/pics/races/human_artwork.webp",
+            "url": "https://www.deviantart.com/x-celebril-x/art/Lost-in-Memories-Commission-767593119",
+            "credit": "x-Celebril-x"
+         },
+         "description": [
+            {
+               "italic": "WC5E.Race.Human.Description.1.Italic",
+               "value": "WC5E.Race.Human.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Race.Human.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Race.Human.Description.3.Value"
+            }
+         ],
+         "age": "WC5E.Race.Human.Age",
+         "affiliation": [
+            {
+               "value": "WC5E.Race.Human.Affiliation.1.Value"
+            }
+         ],
+         "size": "WC5E.Race.Human.Size",
+         "speed": "WC5E.Race.Human.Speed",
+         "languages": "WC5E.Race.Human.Languages",
+         "traits": [
+            {
+               "pack": "warcraft5e.wc5e_racial_feats",
+               "node": "206lxrChCay4At6O",
+               "label": "WC5E.Feats.Feat.Label"
+            },
+            {
+               "pack": "warcraft5e.wc5e_racial_feats",
+               "node": "Eax344yF4GUNG1IN",
+               "label": "WC5E.Feats.HumanSpirit.Label"
+            },
+            {
+               "pack": "warcraft5e.wc5e_racial_feats",
+               "node": "eXEtFVvTeFJBLVy6",
+               "label": "WC5E.Feats.Skillful.Label"
+            }
+         ],
+         "names": {
+            "male": [
+               "Merander",
+               "Gyram",
+               "Derrick",
+               "Henry"
+            ],
+            "female": [
+               "Lilla",
+               "Merian",
+               "Richelle",
+               "Ammi"
+            ],
+            "family": "WC5E.Race.Human.FamilyNames"
+         },
+         "values": {
+            "abilities": {
+               "bonus": 2
+            },
+            "language": [
+               "common"
+            ],
+            "resistance": [
+            ],
+            "skills": [
+            ],
+            "size": "med",
+            "speed": 30,
+            "weaponProficiencies": [
+            ]
+         }
+      }
+   },
+   "img": "modules/warcraft5e/res/pics/races/human.webp",
+   "effects": [
+   ]
+}

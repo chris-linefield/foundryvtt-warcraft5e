@@ -8,35 +8,35 @@
    "flags": {
       "wc5e": {
          "type": "rule",
-         "title": "WC5E.Rules.Mechanics.BoundCompanions.Label",
+         "title": "WC5E.Rules.BoundCompanions.Label",
          "content": [
             {
-               "value": "WC5E.Rules.Mechanics.BoundCompanions.Description.1.Value"
+               "value": "WC5E.Rules.BoundCompanions.Description.1.Value"
             },
             {
-               "value": "WC5E.Rules.Mechanics.BoundCompanions.Description.2.Value"
+               "value": "WC5E.Rules.BoundCompanions.Description.2.Value"
             },
             {
-               "value": "WC5E.Rules.Mechanics.BoundCompanions.Description.3.Value"
+               "value": "WC5E.Rules.BoundCompanions.Description.3.Value"
             },
             {
-               "value": "WC5E.Rules.Mechanics.BoundCompanions.Description.4.Value"
+               "value": "WC5E.Rules.BoundCompanions.Description.4.Value"
             },
             {
-               "title": "WC5E.Rules.Mechanics.BoundCompanions.Description.5.Title",
-               "value": "WC5E.Rules.Mechanics.BoundCompanions.Description.5.Value"
+               "title": "WC5E.Rules.BoundCompanions.Description.5.Title",
+               "value": "WC5E.Rules.BoundCompanions.Description.5.Value"
             },
             {
-               "value": "WC5E.Rules.Mechanics.BoundCompanions.Description.6.Value"
+               "value": "WC5E.Rules.BoundCompanions.Description.6.Value"
             },
             {
-               "value": "WC5E.Rules.Mechanics.BoundCompanions.Description.7.Value"
+               "value": "WC5E.Rules.BoundCompanions.Description.7.Value"
             },
             {
-               "value": "WC5E.Rules.Mechanics.BoundCompanions.Description.8.Value"
+               "value": "WC5E.Rules.BoundCompanions.Description.8.Value"
             },
             {
-               "value": "WC5E.Rules.Mechanics.BoundCompanions.Description.9.Value"
+               "value": "WC5E.Rules.BoundCompanions.Description.9.Value"
             }
          ],
          "prev": {
@@ -47,7 +47,7 @@
          "next": {
             "pack": "wc5e_rules",
             "node": "OawPTo5di1JJJlAc",
-            "label": "WC5E.Rules.Mechanics.ClassTalents.Label"
+            "label": "WC5E.Rules.ClassTalents.Label"
          }
       }
    }

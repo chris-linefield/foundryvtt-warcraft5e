@@ -8,27 +8,27 @@
    "flags": {
       "wc5e": {
          "type": "rule",
-         "title": "WC5E.Rules.Mechanics.ClassTalents.Label",
+         "title": "WC5E.Rules.ClassTalents.Label",
          "content": [
             {
-               "value": "WC5E.Rules.Mechanics.ClassTalents.Description.1.Value"
+               "value": "WC5E.Rules.ClassTalents.Description.1.Value"
             },
             {
-               "value": "WC5E.Rules.Mechanics.ClassTalents.Description.2.Value"
+               "value": "WC5E.Rules.ClassTalents.Description.2.Value"
             },
             {
-               "value": "WC5E.Rules.Mechanics.ClassTalents.Description.3.Value"
+               "value": "WC5E.Rules.ClassTalents.Description.3.Value"
             }
          ],
          "prev": {
             "pack": "wc5e_rules",
             "node": "fMifhLOnQJNdMfCz",
-            "label": "WC5E.Rules.Mechanics.BoundCompanions.Label"
+            "label": "WC5E.Rules.BoundCompanions.Label"
          },
          "next": {
             "pack": "wc5e_classes",
             "node": "tPwiVv4jB99YyxA6",
-            "label": "WC5E.Rules.Mechanics.CharacterDetails.Label"
+            "label": "WC5E.Rules.CharacterDetails.Label"
          }
       }
    }

@@ -1,0 +1,32 @@
+{
+   "_id": "V0VdS6Z0bp1tGAoP",
+   "name": "Undead Nature",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Wc5e - Core p. 19",
+      "requirements": "Forsaken"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.UndeadNature.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.UndeadNature.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Feats.UndeadNature.Description.3.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/death/hand-dirt-undead-zombie.webp",
+   "effects": [
+   ]
+}

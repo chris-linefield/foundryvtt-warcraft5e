@@ -1,0 +1,26 @@
+{
+   "_id": "jwuJswyw8KAOnh1V",
+   "name": "Adapter",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Wc5e - Core p. 10",
+      "requirements": "Draenei (Broken)"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.Adapter.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/environment/wilderness/statue-hound-horned.webp",
+   "effects": [
+   ]
+}

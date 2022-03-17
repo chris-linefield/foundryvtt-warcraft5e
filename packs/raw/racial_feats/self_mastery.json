@@ -1,0 +1,32 @@
+{
+   "_id": "lz9ZfDutJlq4l48m",
+   "name": "Self Mastery",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Wc5e - Core p. 25",
+      "requirements": "Tauren"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.SelfMastery.Description.1.Value"
+            },
+            {
+               "options": [
+                  "WC5E.Feats.SelfMastery.Description.2.Options.1",
+                  "WC5E.Feats.SelfMastery.Description.2.Options.2"
+               ]
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/nature/plant-sproud-hands-dirt-green.webp",
+   "effects": [
+   ]
+}

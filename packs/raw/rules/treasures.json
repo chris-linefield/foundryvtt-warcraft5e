@@ -8,13 +8,13 @@
    "flags": {
       "wc5e": {
          "type": "rule",
-         "title": "WC5E.Rules.Mechanics.Treasures.Label",
+         "title": "WC5E.Rules.Treasures.Label",
          "content": [
             {
-               "value": "WC5E.Rules.Mechanics.Treasures.Description.1.Value"
+               "value": "WC5E.Rules.Treasures.Description.1.Value"
             },
             {
-               "title": "WC5E.Rules.Mechanics.Treasures.Description.2.Title"
+               "title": "WC5E.Rules.Treasures.Description.2.Title"
             },
             {
                "table": {
@@ -498,12 +498,12 @@
          "prev": {
             "pack": "wc5e_rules",
             "node": "yJQ5Zbr4wMp4nNb6",
-            "label": "WC5E.Rules.Mechanics.Tools.Label"
+            "label": "WC5E.Rules.Tools.Label"
          },
          "next": {
             "pack": "wc5e_rules",
             "node": "gapBYzbuF6qevYSy",
-            "label": "WC5E.Rules.Mechanics.Artifacts.Label"
+            "label": "WC5E.Rules.Artifacts.Label"
          }
       }
    }

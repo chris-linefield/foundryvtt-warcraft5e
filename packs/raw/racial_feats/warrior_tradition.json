@@ -1,0 +1,35 @@
+{
+   "_id": "OWpuDWur7k7OyoNr",
+   "name": "Warrior Tradition",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Wc5e - Core p. 23",
+      "requirements": "Orc"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.WarriorTradition.Description.1.Value"
+            },
+            {
+               "options": [
+                  "WC5E.Feats.WarriorTradition.Description.2.Options.1",
+                  "WC5E.Feats.WarriorTradition.Description.2.Options.2",
+                  "WC5E.Feats.WarriorTradition.Description.2.Options.3",
+                  "WC5E.Feats.WarriorTradition.Description.2.Options.4",
+                  "WC5E.Feats.WarriorTradition.Description.2.Options.5"
+               ]
+            }
+         ]
+      }
+   },
+   "img": "icons/weapons/axes/axe-double-white-red.webp",
+   "effects": [
+   ]
+}

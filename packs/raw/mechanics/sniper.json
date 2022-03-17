@@ -1,0 +1,19 @@
+{
+   "_id": "boZtlCbeqYuTsDVa",
+   "name": "Sniper",
+   "permission": {
+      "default": 0
+   },
+   "type": "class",
+   "flags": {
+      "wc5e": {
+         "type": "rule",
+         "title": "WC5E.Rules.Mechanics.Sniper.Label",
+         "content": [
+            {
+               "value": "WC5E.Rules.Mechanics.Sniper.Description.1.Value"
+            }
+         ]
+      }
+   }
+}

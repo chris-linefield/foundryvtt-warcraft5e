@@ -1,0 +1,114 @@
+{
+   "_id": "uS11FAuJ4grsMU87",
+   "name": "Tauren",
+   "permission": {
+      "default": 0
+   },
+   "type": "class",
+   "data": {
+   },
+   "flags": {
+      "wc5e": {
+         "type": "race",
+         "name": "WC5E.Race.Tauren.Name",
+         "artwork": {
+            "src": "modules/warcraft5e/res/pics/races/tauren_artwork.webp",
+            "url": "https://www.artstation.com/artwork/18WJ2X",
+            "credit": "Anastasia Balashova"
+         },
+         "description": [
+            {
+               "italic": "WC5E.Race.Tauren.Description.1.Italic",
+               "value": "WC5E.Race.Tauren.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Race.Tauren.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Race.Tauren.Description.3.Value"
+            }
+         ],
+         "age": "WC5E.Race.Tauren.Age",
+         "affiliation": [
+            {
+               "value": "WC5E.Race.Tauren.Affiliation.1.Value"
+            }
+         ],
+         "size": "WC5E.Race.Tauren.Size",
+         "speed": "WC5E.Race.Tauren.Speed",
+         "languages": "WC5E.Race.Tauren.Languages",
+         "traits": [
+            {
+               "pack": "warcraft5e.wc5e_racial_feats",
+               "node": "6OX5tHzQDWUwldfw",
+               "label": "WC5E.Feats.Endurance.Label"
+            },
+            {
+               "pack": "warcraft5e.wc5e_racial_feats",
+               "node": "yUIOklcHpv2lXJpe",
+               "label": "WC5E.Feats.Gore.Label"
+            },
+            {
+               "pack": "warcraft5e.wc5e_racial_feats",
+               "node": "Rld852pXR8ctpxyB",
+               "label": "WC5E.Feats.PowerfulBuild.Label"
+            },
+            {
+               "pack": "warcraft5e.wc5e_racial_feats",
+               "node": "uwuUYcwtxQbsnfaS",
+               "label": "WC5E.Feats.Plainswalker.Label"
+            },
+            {
+               "pack": "warcraft5e.wc5e_racial_feats",
+               "node": "lz9ZfDutJlq4l48m",
+               "label": "WC5E.Feats.SelfMastery.Label"
+            },
+            {
+               "pack": "warcraft5e.wc5e_racial_feats",
+               "node": "MYZh6w6ElheGM21u",
+               "label": "WC5E.Feats.Warstomp.Label"
+            }
+         ],
+         "names": {
+            "male": [
+               "Azok",
+               "Bron",
+               "Turok",
+               "Garaddon",
+               "Hruon",
+               "Jeddek"
+            ],
+            "female": [
+               "Argo",
+               "Serga",
+               "Grenda",
+               "Beruna",
+               "Halfa"
+            ],
+            "family": "WC5E.Race.Tauren.FamilyNames"
+         },
+         "values": {
+            "abilities": {
+               "str": 2,
+               "con": 1,
+               "wis": 1
+            },
+            "language": [
+               "common",
+               "taurahe"
+            ],
+            "resistance": [
+            ],
+            "skills": [
+            ],
+            "size": "med",
+            "speed": 30,
+            "weaponProficiencies": [
+            ]
+         }
+      }
+   },
+   "img": "modules/warcraft5e/res/pics/races/tauren.webp",
+   "effects": [
+   ]
+}

@@ -1,0 +1,26 @@
+{
+   "_id": "aO69W7Z3Y7OiEkoh",
+   "name": "Natural Tinker",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Wc5e - Core p. 20",
+      "requirements": "Gnome"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.NaturalTinker.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/tools/fasteners/bolt-brass-yellow.webp",
+   "effects": [
+   ]
+}

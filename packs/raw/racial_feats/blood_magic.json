@@ -1,0 +1,26 @@
+{
+   "_id": "vh6uuAgew86AF2mF",
+   "name": "Blood Magic",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Wc5e - Core p. 14",
+      "requirements": "Elf (Blood Elf)"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.BloodMagic.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/skills/wounds/blood-drip-droplet-red.webp",
+   "effects": [
+   ]
+}
