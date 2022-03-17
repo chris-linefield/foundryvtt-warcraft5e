@@ -1,0 +1,26 @@
+{
+   "_id": "LYqjFrLPcvTGbzU8",
+   "name": "Blessing of the Nightwell",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Wc5e - Core p. 16",
+      "requirements": "Elf (Nightborne)"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.BlessingOfTheNightwell.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/sonic/explosion-shock-wave-teal.webp",
+   "effects": [
+   ]
+}

@@ -1,0 +1,26 @@
+{
+   "_id": "YtrP07v2BIZP0CNf",
+   "name": "Spatial Rift",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Wc5e - Core p. 17",
+      "requirements": "Elf (Void Elf)"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.SpatialRift.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/lightning/orb-ball-purple.webp",
+   "effects": [
+   ]
+}

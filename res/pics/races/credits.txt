@@ -8,10 +8,4 @@ forsaken.webp - https://www.deviantart.com/hazelgee/art/Jaime-the-Hunter-5752039
 human.webp - https://www.deviantart.com/arhiee/art/Sabrina-Defleur-685225661
 pandaren.webp - https://www.deviantart.com/lowly-owly/art/111419-820202163
 worgen.webp - https://www.artstation.com/artwork/owa1J
-
-elf.jpg - https://www.patreon.com/naarielart
-highelf_artwork.jpg - https://www.deviantart.com/liberlibelula/art/Commission-In-the-Eversong-Woods-451489200
-bloodelf_artwork.jpg - http://jasonchanart.blogspot.com
-nightelf_artwork.jpg - https://www.deviantart.com/coalaroo/art/Feyawen-and-Nylann-by-Mihai-Radu-560928679
-nightborne_artwork.jpg - https://www.deviantart.com/x-celebril-x/art/Dancing-in-the-Moonlight-Commission-784071503
-
+elf.webp - https://www.deviantart.com/purrmia/art/Naeryssa-Dreamseed-765769390

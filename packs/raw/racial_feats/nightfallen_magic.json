@@ -1,0 +1,35 @@
+{
+   "_id": "FY96ff6uYCbHHBWx",
+   "name": "Nightfallen Magic",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Wc5e - Core p. 16",
+      "requirements": "Elf (Nightborne)"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.NightfallenMagic.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.NightfallenMagic.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Feats.NightfallenMagic.Description.3.Value"
+            },
+            {
+               "value": "WC5E.Feats.NightfallenMagic.Description.4.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/air/wind-vortex-swirl-blue.webp",
+   "effects": [
+   ]
+}

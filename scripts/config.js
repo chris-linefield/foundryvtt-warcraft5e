@@ -9,6 +9,10 @@ DND5E.abilities.wis = "WC5E.Character.Spirit";
 
 DND5E.attunements[3] = "WC5E.UI.Attunements.GreaterAttunement";
 
+DND5E.damageResistanceTypes.arcane = "WC5E.UI.DamageTypes.Arcane";
+DND5E.damageResistanceTypes.holy = "WC5E.UI.DamageTypes.Holy";
+DND5E.damageResistanceTypes.shadow = "WC5E.UI.DamageTypes.Shadow";
+DND5E.damageTypes.arcane = "WC5E.UI.DamageTypes.Arcane";
 DND5E.damageTypes.holy = "WC5E.UI.DamageTypes.Holy";
 DND5E.damageTypes.shadow = "WC5E.UI.DamageTypes.Shadow";
 

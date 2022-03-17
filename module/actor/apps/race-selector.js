@@ -9,7 +9,7 @@ export default class RaceSelector extends DocumentSheet {
         return foundry.utils.mergeObject(super.defaultOptions, {
             id: "actor-armor-config",
             classes: ["dnd5e", "actor-armor-config"],
-            template: "modules/warcraft5e/templates/dialogs/select-race.html",
+            template: "modules/warcraft5e/templates/dialogs/race-selector.html",
             width: 320,
             height: "auto"
         });
@@ -121,6 +121,13 @@ export default class RaceSelector extends DocumentSheet {
             armorProfs = race.values.armorProficiencies;
         }
 
+        let resArray = [];
+        if (race.values.resistance) {
+            for (let res of race.values.resistance) {
+                resArray.push(res);
+            }
+        }
+
         let skills = race.values.skills;
         if (skills) {
             for (let skill of skills) {
@@ -130,13 +137,15 @@ export default class RaceSelector extends DocumentSheet {
             }
         }
 
+        console.log(race);
+
         //update the actor-props
         targetActor.update({
             ['data.details.race']: game.i18n.localize(race.name),
             ['data.attributes.movement.walk']: race.values.speed,
             ['data.traits.size']: race.values.size,
             ['data.traits.languages.value']: race.values.language,
-            ['data.traits.dr.value']: race.values.resistance,
+            ['data.traits.dr.value']: resArray,
             ['data.traits.armorProf.value']: armorProfs,
             ['data.traits.weaponProf.value']: weaponProfs,
             ['flags.wc5e']: {}
@@ -169,10 +178,14 @@ export default class RaceSelector extends DocumentSheet {
                         }
                         targetActor.createEmbeddedDocuments("Item", entries);
 
-                        let resistance = race.values.resistance;
+                        let resArray = [];
                         if (subrace.values.resistance) {
-                            resistance.push(subrace.values.resistance);
+                            for (let res of subrace.values.resistance) {
+                                resArray.push(res);
+                            }
                         }
+
+                        console.log(resArray);
 
                         let skills = subrace.values.skills;
                         if (skills) {
@@ -197,14 +210,14 @@ export default class RaceSelector extends DocumentSheet {
 
                         targetActor.update({
                             ['data.details.race']: game.i18n.localize(subrace.name),
-                            ['data.traits.dr.value']: resistance,
+                            ['data.traits.dr.value']: resArray,
                             ['data.traits.armorProf.value']: armorProfs,
                             ['data.traits.weaponProf.value']: weaponProfs,
                         });
                     }
                 }
             }
-            const html = await renderTemplate("modules/warcraft5e/templates/dialogs/select-subrace.html", {
+            const html = await renderTemplate("modules/warcraft5e/templates/dialogs/subrace-selector.html", {
                 "subraces": subraces
             });
             return new Promise(resolve => {

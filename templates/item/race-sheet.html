@@ -122,18 +122,29 @@
                     {{#if this.values.abilities}}
                         <strong><i>{{localize "WC5E.UI.AbilityScoreIncrease"}}:</i></strong>
                         <div>
-                            {{#each this.values.abilities}}
-                                {{#unless @first}}
-                                    ,
-                                {{/unless}}
-                                Your {{lookup ../../config.abilities @key}} score
-                                {{#if (isPositive this)}}
-                                    increases
-                                {{else}}
-                                    decreases
-                                {{/if}}
-                                by {{this}}
-                            {{/each}}
+                            {{#if (isChoice this.values.abilities.choice)}}
+                                Your
+                                {{#each this.values.abilities.choice.keys}}
+                                    {{lookup ../../config.abilities this}}
+                                    {{#unless @last}}
+                                        or
+                                    {{/unless}}
+                                {{/each}}
+                                score increases by {{this.values.abilities.choice.value}}
+                            {{else}}
+                                {{#each this.values.abilities}}
+                                    {{#unless @first}}
+                                        ,
+                                    {{/unless}}
+                                    Your {{lookup ../../config.abilities @key}} score
+                                    {{#if (isPositive this)}}
+                                        increases
+                                    {{else}}
+                                        decreases
+                                    {{/if}}
+                                    by {{this}}
+                                {{/each}}
+                            {{/if}}
                         </div>
                         <hr>
                     {{/if}}

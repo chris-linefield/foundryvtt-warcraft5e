@@ -1,0 +1,26 @@
+{
+   "_id": "5AKyYIsadUDWh2aY",
+   "name": "Chill of Night",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Wc5e - Core p. 17",
+      "requirements": "Elf (Void Elf)"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.ChillOfNight.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/nature/moon-crescent.webp",
+   "effects": [
+   ]
+}

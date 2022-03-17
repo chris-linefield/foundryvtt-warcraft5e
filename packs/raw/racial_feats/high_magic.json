@@ -1,0 +1,32 @@
+{
+   "_id": "nTWfQyjDkmzIF6Th",
+   "name": "High Magic",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Wc5e - Core p. 14",
+      "requirements": "Elf (High Elf)"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.HighMagic.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Feats.HighMagic.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Feats.HighMagic.Description.3.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/light/explosion-impact-purple.webp",
+   "effects": [
+   ]
+}

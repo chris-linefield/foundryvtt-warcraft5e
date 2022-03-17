@@ -1,0 +1,26 @@
+{
+   "_id": "CZflZTcBrAAzFO8A",
+   "name": "Elven Combat Training",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Wc5e - Core p. 13",
+      "requirements": "Elf"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.ElvenCombatTraining.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/weapons/bows/bow-ornamental-gold-blue.webp",
+   "effects": [
+   ]
+}
