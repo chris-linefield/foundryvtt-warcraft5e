@@ -1,0 +1,33 @@
+{
+   "_id": "8e05IsX2fHdTnDPC",
+   "name": "Arcane Affinity",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Wc5e - Core p. 16",
+      "requirements": "Elf (Nightborne)"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.ArcaneAffinity.Description.1.Value"
+            },
+            {
+               "options": [
+                  "WC5E.Feats.ArcaneAffinity.Description.2.Options.1",
+                  "WC5E.Feats.ArcaneAffinity.Description.2.Options.2",
+                  "WC5E.Feats.ArcaneAffinity.Description.2.Options.3"
+               ]
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/air/air-burst-spiral-pink.webp",
+   "effects": [
+   ]
+}

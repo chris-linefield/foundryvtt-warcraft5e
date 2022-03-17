@@ -1,0 +1,32 @@
+{
+   "_id": "B8lndof6Y2UVVBfN",
+   "name": "Worgen Curse",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Wc5e - Core p. 29",
+      "requirements": "Worgen"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.WorgenCurse.Description.1.Value"
+            },
+            {
+               "options": [
+                  "WC5E.Feats.WorgenCurse.Description.2.Options.1",
+                  "WC5E.Feats.WorgenCurse.Description.2.Options.2"
+               ]
+            }
+         ]
+      }
+   },
+   "img": "icons/creatures/mammals/wolf-howl-moon-black.webp",
+   "effects": [
+   ]
+}

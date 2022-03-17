@@ -10,36 +10,42 @@
    "flags": {
       "wc5e": {
          "type": "race",
-         "description": "WC5E.Race.Draenei.Description",
-         "abilityMod": "WC5E.Race.Draenei.AbilityScoreIncrease",
-         "age": "WC5E.Race.Draenei.Age",
-         "affiliation": "WC5E.Race.Draenei.Affiliation",
-         "size": "WC5E.Race.Draenei.Size",
-         "appearance": "WC5E.Race.Draenei.Appearance",
-         "speed": "30",
-         "traits": [
+         "description": [
             {
-               "key": "WC5E.Traits.Darkvision.Label",
-               "value": "WC5E.Traits.Darkvision.Description"
-            },
-            {
-               "key": "WC5E.Traits.FelResistance.Label",
-               "value": "WC5E.Traits.FelResistance.Description"
-            },
-            {
-               "key": "WC5E.Traits.HeroicPresence.Label",
-               "value": "WC5E.Traits.HeroicPresence.Description"
-            },
-            {
-               "key": "WC5E.Traits.DraeneiCombatTraining.Label",
-               "value": "WC5E.Traits.DraeneiCombatTraining.Description"
+               "value": "WC5E.Race.Draenei.Description.1.Value"
             }
          ],
-         "languages": [
-            "WC5E.Languages.Common",
-            "WC5E.Languages.Eredun"
+         "age": "WC5E.Race.Draenei.Age",
+         "affiliation": [
+            {
+               "value": "WC5E.Race.Draenei.Affiliation.1.Value"
+            }
          ],
-         "languageDescription": "WC5E.Race.Draenei.Language",
+         "size": "WC5E.Race.Draenei.Size",
+         "speed": "WC5E.Race.Draenei.Speed",
+         "languages": "WC5E.Race.Draenei.Languages",
+         "traits": [
+            {
+               "pack": "warcraft5e.wc5e_racial_feats",
+               "node": "JEcbFR94edcZ1Chm",
+               "label": "WC5E.Feats.Darkvision.Label"
+            },
+            {
+               "pack": "warcraft5e.wc5e_racial_feats",
+               "node": "3TS6xsEzovSigLyx",
+               "label": "WC5E.Feats.DraeneiCombatTraining.Label"
+            },
+            {
+               "pack": "warcraft5e.wc5e_racial_feats",
+               "node": "IMlk9JyfkfY7Z4O6",
+               "label": "WC5E.Feats.FelResistance.Label"
+            },
+            {
+               "pack": "warcraft5e.wc5e_racial_feats",
+               "node": "kRLBWBF1eDMMak5Q",
+               "label": "WC5E.Feats.HeroicPresence.Label"
+            }
+         ],
          "subrace": "WC5E.Race.Draenei.Subrace",
          "names": {
             "male": [
@@ -60,49 +66,118 @@
                "Me‘era",
                "Tanmatra"
             ],
-            "family": [
-               "WC5E.Race.Draenei.FamilyNames"
-            ]
+            "family": "WC5E.Race.Draenei.FamilyNames"
          },
          "subraces": [
             {
+               "artwork": {
+                  "src": "modules/warcraft5e/res/pics/races/broken_artwork.webp",
+                  "url": "https://diealdor.fandom.com/wiki/Akama?file=Akama.jpg",
+                  "credit": "???"
+               },
                "name": "WC5E.Race.Draenei.Subraces.Broken.Name",
-               "quote": "WC5E.Race.Draenei.Subraces.Broken.Quote",
-               "description": "WC5E.Race.Draenei.Subraces.Broken.Description",
-               "abilityMod": "WC5E.Race.Draenei.Subraces.Broken.AbilityScoreIncrease",
-               "affiliation": "WC5E.Race.Draenei.Subraces.Broken.Affiliation",
+               "description": [
+                  {
+                     "italic": "WC5E.Race.Draenei.Subraces.Broken.Description.1.Italic",
+                     "value": "WC5E.Race.Draenei.Subraces.Broken.Description.1.Value"
+                  }
+               ],
+               "affiliation": [
+                  {
+                     "value": "WC5E.Race.Draenei.Subraces.Broken.Affiliation.1.Value"
+                  }
+               ],
+               "size": "WC5E.Race.Draenei.Subraces.Broken.Size",
                "traits": [
                   {
-                     "key": "WC5E.Traits.Adapter.Label",
-                     "value": "WC5E.Traits.Adapter.Description"
+                     "pack": "warcraft5e.wc5e_racial_feats",
+                     "node": "jwuJswyw8KAOnh1V",
+                     "label": "WC5E.Feats.Adapter.Label"
                   },
                   {
-                     "key": "WC5E.Traits.Stalker.Label",
-                     "value": "WC5E.Traits.Stalker.Description"
+                     "pack": "warcraft5e.wc5e_racial_feats",
+                     "node": "tAY6OUJ96wtKr3ij",
+                     "label": "WC5E.Feats.Stalker.Label"
                   }
-               ]
+               ],
+               "values": {
+                  "abilities": {
+                     "dex": 2
+                  },
+                  "skills": [
+                     "prc",
+                     "ste"
+                  ]
+               }
             },
             {
+               "artwork": {
+                  "src": "modules/warcraft5e/res/pics/races/unbroken_artwork.webp",
+                  "url": "https://www.deviantart.com/eddy-shinjuku/art/JOULE-World-of-Warcraft-Commission-655388272",
+                  "credit": "Eddy-Shinjuku"
+               },
                "name": "WC5E.Race.Draenei.Subraces.Unbroken.Name",
-               "quote": "WC5E.Race.Draenei.Subraces.Unbroken.Quote",
-               "description": "WC5E.Race.Draenei.Subraces.Unbroken.Description",
-               "abilityMod": "WC5E.Race.Draenei.Subraces.Unbroken.AbilityScoreIncrease",
-               "affiliation": "WC5E.Race.Draenei.Subraces.Unbroken.Affiliation",
+               "description": [
+                  {
+                     "italic": "WC5E.Race.Draenei.Subraces.Unbroken.Description.1.Italic",
+                     "value": "WC5E.Race.Draenei.Subraces.Unbroken.Description.1.Value"
+                  }
+               ],
+               "affiliation": [
+                  {
+                     "value": "WC5E.Race.Draenei.Subraces.Unbroken.Affiliation.1.Value"
+                  }
+               ],
                "traits": [
                   {
-                     "key": "WC5E.Traits.GiftOfTheNaaru.Label",
-                     "value": "WC5E.Traits.GiftOfTheNaaru.Description"
+                     "pack": "warcraft5e.wc5e_racial_feats",
+                     "node": "l2Ckw7j6mN8GwyK2",
+                     "label": "WC5E.Feats.GiftOfTheNaaru.Label"
                   },
                   {
-                     "key": "WC5E.Traits.Gemcutting.Label",
-                     "value": "WC5E.Traits.Gemcutting.Description"
+                     "pack": "warcraft5e.wc5e_racial_feats",
+                     "node": "3wPSJICynealZ3cV",
+                     "label": "WC5E.Feats.Gemcutting.Label"
                   }
-               ]
+               ],
+               "values": {
+                  "abilities": {
+                     "str": 2
+                  }
+               }
             }
-         ]
+         ],
+         "values": {
+            "abilities": {
+               "choice": {
+                  "keys": [
+                     "wis",
+                     "int"
+                  ],
+                  "value": 1
+               }
+            },
+            "language": [
+               "common",
+               "eredun"
+            ],
+            "resistance": [
+               "fel"
+            ],
+            "skills": [
+            ],
+            "size": "med",
+            "speed": 30,
+            "weaponProficiencies": [
+               "longsword",
+               "longbow",
+               "rapier",
+               "shortbow"
+            ]
+         }
       }
    },
-   "img": "modules/warcraft5e/res/pics/races/draenei.jpg",
+   "img": "modules/warcraft5e/res/pics/races/draenei.webp",
    "effects": [
    ]
 }

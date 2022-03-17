@@ -1,0 +1,26 @@
+{
+   "_id": "MBXPlCmTnOQBVwY3",
+   "name": "Cannibalize",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Wc5e - Core p. 18",
+      "requirements": "Forsaken"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.Cannibalize.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/skills/wounds/bone-broken-marrow-red.webp",
+   "effects": [
+   ]
+}

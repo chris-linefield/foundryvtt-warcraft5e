@@ -8,20 +8,20 @@
    "flags": {
       "wc5e": {
          "type": "rule",
-         "title": "WC5E.Rules.Mechanics.Classes.Label",
+         "title": "WC5E.Rules.Classes.Label",
          "content": [
             {
-               "value": "WC5E.Rules.Mechanics.Classes.Description.1.Value"
+               "value": "WC5E.Rules.Classes.Description.1.Value"
             },
             {
-               "value": "WC5E.Rules.Mechanics.Classes.Description.2.Value"
+               "value": "WC5E.Rules.Classes.Description.2.Value"
             },
             {
-               "title": "WC5E.Rules.Mechanics.Classes.Description.3.Title",
-               "value": "WC5E.Rules.Mechanics.Classes.Description.3.Value"
+               "title": "WC5E.Rules.Classes.Description.3.Title",
+               "value": "WC5E.Rules.Classes.Description.3.Value"
             },
             {
-               "value": "WC5E.Rules.Mechanics.Classes.Description.4.Value"
+               "value": "WC5E.Rules.Classes.Description.4.Value"
             }
          ],
          "prev": {

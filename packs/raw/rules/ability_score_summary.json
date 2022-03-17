@@ -8,34 +8,34 @@
    "flags": {
       "wc5e": {
          "type": "rule",
-         "title": "WC5E.Rules.Mechanics.AbilityScoreSummary.Label",
+         "title": "WC5E.Rules.AbilityScoreSummary.Label",
          "content": [
             {
                "title": "WC5E.Character.Strength",
-               "value": "WC5E.Rules.Mechanics.AbilityScoreSummary.Description.1.Value"
+               "value": "WC5E.Rules.AbilityScoreSummary.Description.1.Value"
             },
             {
                "title": "WC5E.Character.Agility",
-               "value": "WC5E.Rules.Mechanics.AbilityScoreSummary.Description.2.Value"
+               "value": "WC5E.Rules.AbilityScoreSummary.Description.2.Value"
             },
             {
                "title": "WC5E.Character.Stamina",
-               "value": "WC5E.Rules.Mechanics.AbilityScoreSummary.Description.3.Value"
+               "value": "WC5E.Rules.AbilityScoreSummary.Description.3.Value"
             },
             {
                "title": "WC5E.Character.Intelligence",
-               "value": "WC5E.Rules.Mechanics.AbilityScoreSummary.Description.4.Value"
+               "value": "WC5E.Rules.AbilityScoreSummary.Description.4.Value"
             },
             {
                "title": "WC5E.Character.Spirit",
-               "value": "WC5E.Rules.Mechanics.AbilityScoreSummary.Description.5.Value"
+               "value": "WC5E.Rules.AbilityScoreSummary.Description.5.Value"
             },
             {
                "title": "WC5E.Character.Charisma",
-               "value": "WC5E.Rules.Mechanics.AbilityScoreSummary.Description.6.Value"
+               "value": "WC5E.Rules.AbilityScoreSummary.Description.6.Value"
             },
             {
-               "headline": "WC5E.Rules.Mechanics.AbilityScoreSummary.Description.7.Headline"
+               "headline": "WC5E.Rules.AbilityScoreSummary.Description.7.Headline"
             },
             {
                "table": {
@@ -476,7 +476,32 @@
                      ],
                      [
                         {
-                           "text": "WC5E.Race.Troll.Subrace.JungleTroll.Name"
+                           "text": "WC5E.Race.Troll.Subraces.Amani.Name"
+                        },
+                        {
+                           "text": "TODO"
+                        },
+                        {
+                           "plus": true,
+                           "value": 2
+                        },
+                        {
+                           "plus": true,
+                           "value": 1
+                        },
+                        {
+                           "text": "TODO"
+                        },
+                        {
+                           "text": "TODO"
+                        },
+                        {
+                           "text": "TODO"
+                        }
+                     ],
+                     [
+                        {
+                           "text": "WC5E.Race.Troll.Subraces.Darkspear.Name"
                         },
                         {
                            "text": "(+1)"
@@ -501,7 +526,7 @@
                      ],
                      [
                         {
-                           "text": "WC5E.Race.Troll.Subraces.IceTroll.Name"
+                           "text": "WC5E.Race.Troll.Subraces.Drakkari.Name"
                         },
                         {
                            "text": "(+2)"
@@ -526,7 +551,7 @@
                      ],
                      [
                         {
-                           "text": "WC5E.Race.Troll.Subraces.SandTroll.Name"
+                           "text": "WC5E.Race.Troll.Subraces.Farraki.Name"
                         },
                         {
                            "text": "(+1)"
@@ -581,7 +606,7 @@
          "next": {
             "pack": "wc5e_rules",
             "node": "wuIUIyFlx05iZIwR",
-            "label": "WC5E.Rules.Mechanics.DeterminingAbilityScores.Label"
+            "label": "WC5E.Rules.DeterminingAbilityScores.Label"
          }
       }
    }

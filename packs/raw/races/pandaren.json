@@ -1,0 +1,102 @@
+{
+   "_id": "bt33P6H6IwOYsrCH",
+   "name": "Pandaren",
+   "permission": {
+      "default": 0
+   },
+   "type": "class",
+   "data": {
+   },
+   "flags": {
+      "wc5e": {
+         "type": "race",
+         "name": "WC5E.Race.Pandaren.Name",
+         "artwork": {
+            "src": "modules/warcraft5e/res/pics/races/pandaren_artwork.webp",
+            "url": "https://www.deviantart.com/siakim/art/Pandaren-289553252",
+            "credit": "SiaKim"
+         },
+         "description": [
+            {
+               "italic": "WC5E.Race.Pandaren.Description.1.Italic",
+               "value": "WC5E.Race.Pandaren.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Race.Pandaren.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Race.Pandaren.Description.3.Value"
+            },
+            {
+               "value": "WC5E.Race.Pandaren.Description.4.Value"
+            },
+            {
+               "value": "WC5E.Race.Pandaren.Description.5.Value"
+            }
+         ],
+         "age": "WC5E.Race.Pandaren.Age",
+         "affiliation": [
+            {
+               "value": "WC5E.Race.Pandaren.Affiliation.1.Value"
+            }
+         ],
+         "size": "WC5E.Race.Pandaren.Size",
+         "speed": "WC5E.Race.Pandaren.Speed",
+         "languages": "WC5E.Race.Pandaren.Languages",
+         "traits": [
+            {
+               "pack": "warcraft5e.wc5e_racial_feats",
+               "node": "hh9UT5hyCrgUdZ6b",
+               "label": "WC5E.Feats.Bouncy.Label"
+            },
+            {
+               "pack": "warcraft5e.wc5e_racial_feats",
+               "node": "db4l56pPXtdiRUvH",
+               "label": "WC5E.Feats.InnerPeace.Label"
+            },
+            {
+               "pack": "warcraft5e.wc5e_racial_feats",
+               "node": "NAFAd88dg74agNtY",
+               "label": "WC5E.Feats.FeatPandaren.Label"
+            }
+         ],
+         "names": {
+            "male": [
+               "Huojin",
+               "Aiguo",
+               "Dac Kien"
+            ],
+            "female": [
+               "Jinjing",
+               "Xueyou",
+               "Ling",
+               "Vuong"
+            ],
+            "family": "WC5E.Race.Pandaren.FamilyNames"
+         },
+         "values": {
+            "abilities": {
+               "con": 2,
+               "wis": 1
+            },
+            "language": [
+               "common",
+               "pandaren"
+            ],
+            "resistance": [
+            ],
+            "skills": [
+               "ins",
+               "prc"
+            ],
+            "size": "med",
+            "speed": 30,
+            "weaponProficiencies": [
+            ]
+         }
+      }
+   },
+   "img": "modules/warcraft5e/res/pics/races/pandaren.webp",
+   "effects": [
+   ]
+}

@@ -8,17 +8,17 @@
    "flags": {
       "wc5e": {
          "type": "rule",
-         "title": "WC5E.Rules.Mechanics.Races.Label",
+         "title": "WC5E.Rules.Races.Label",
          "content": [
             {
-               "value": "WC5E.Rules.Mechanics.Races.Description.1.Value"
+               "value": "WC5E.Rules.Races.Description.1.Value"
             },
             {
-               "value": "WC5E.Rules.Mechanics.Races.Description.2.Value"
+               "value": "WC5E.Rules.Races.Description.2.Value"
             },
             {
-               "title": "WC5E.Rules.Mechanics.Races.Description.3.Title",
-               "value": "WC5E.Rules.Mechanics.Races.Description.3.Value"
+               "title": "WC5E.Rules.Races.Description.3.Title",
+               "value": "WC5E.Rules.Races.Description.3.Value"
             },
             {
                "table": {
@@ -31,7 +31,7 @@
                         "class": "left"
                      },
                      {
-                        "title": "WC5E.Rules.Mechanics.Races.Description.3.Title",
+                        "title": "WC5E.Rules.Races.Description.3.Title",
                         "class": "left"
                      },
                      {
@@ -61,7 +61,7 @@
                            "text": "WC5E.Race.Draenei.Subraces.Unbroken.Name"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.Races.RacialMount.Elekk"
+                           "text": "WC5E.Rules.Races.RacialMount.Elekk"
                         },
                         {}
                      ],
@@ -79,7 +79,7 @@
                            "text": "WC5E.Race.Dwarf.Subraces.DarkIron.Name"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.Races.RacialMount.CoreHounds"
+                           "text": "WC5E.Rules.Races.RacialMount.CoreHounds"
                         },
                         {}
                      ],
@@ -89,7 +89,7 @@
                            "text": "WC5E.Race.Dwarf.Subraces.Wildhammer.Name"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.Races.RacialMount.Gryphons"
+                           "text": "WC5E.Rules.Races.RacialMount.Gryphons"
                         },
                         {}
                      ],
@@ -99,7 +99,7 @@
                            "text": "WC5E.Race.Dwarf.Subraces.Bronzebeard.Name"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.Races.RacialMount.Rams"
+                           "text": "WC5E.Rules.Races.RacialMount.Rams"
                         },
                         {}
                      ],
@@ -117,7 +117,7 @@
                            "text": "WC5E.Race.Elf.Subraces.BloodElf.Name"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.Races.RacialMount.Hawkstrider"
+                           "text": "WC5E.Rules.Races.RacialMount.Hawkstrider"
                         },
                         {}
                      ],
@@ -127,7 +127,7 @@
                            "text": "WC5E.Race.Elf.Subraces.HighElf.Name"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.Races.RacialMount.Horses"
+                           "text": "WC5E.Rules.Races.RacialMount.Horses"
                         },
                         {}
                      ],
@@ -137,7 +137,7 @@
                            "text": "WC5E.Race.Elf.Subraces.Nightborne.Name"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.Races.RacialMount.SaberCats"
+                           "text": "WC5E.Rules.Races.RacialMount.SaberCats"
                         },
                         {}
                      ],
@@ -147,7 +147,7 @@
                            "text": "WC5E.Race.Elf.Subraces.NightElf.Name"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.Races.RacialMount.SaberCats"
+                           "text": "WC5E.Rules.Races.RacialMount.SaberCats"
                         },
                         {}
                      ],
@@ -157,7 +157,7 @@
                            "text": "WC5E.Race.Elf.Subraces.VoidElf.Name"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.Races.RacialMount.Hawkstrider"
+                           "text": "WC5E.Rules.Races.RacialMount.Hawkstrider"
                         },
                         {}
                      ],
@@ -167,7 +167,7 @@
                         },
                         {},
                         {
-                           "text": "WC5E.Rules.Mechanics.Races.RacialMount.Horses"
+                           "text": "WC5E.Rules.Races.RacialMount.Horses"
                         },
                         {}
                      ],
@@ -177,10 +177,10 @@
                         },
                         {},
                         {
-                           "text": "WC5E.Rules.Mechanics.Races.RacialMount.SkeletalHorses"
+                           "text": "WC5E.Rules.Races.RacialMount.SkeletalHorses"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.Races.RacialMount.SkeletalHorsesDesc"
+                           "text": "WC5E.Rules.Races.RacialMount.SkeletalHorsesDesc"
                         }
                      ],
                      [
@@ -189,10 +189,10 @@
                         },
                         {},
                         {
-                           "text": "WC5E.Rules.Mechanics.Races.RacialMount.Mechanostriders"
+                           "text": "WC5E.Rules.Races.RacialMount.Mechanostriders"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.Races.RacialMount.MechanostridersDesc"
+                           "text": "WC5E.Rules.Races.RacialMount.MechanostridersDesc"
                         }
                      ],
                      [
@@ -201,10 +201,10 @@
                         },
                         {},
                         {
-                           "text": "WC5E.Rules.Mechanics.Races.RacialMount.Mechanostriders"
+                           "text": "WC5E.Rules.Races.RacialMount.Mechanostriders"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.Races.RacialMount.MechanostridersDesc"
+                           "text": "WC5E.Rules.Races.RacialMount.MechanostridersDesc"
                         }
                      ],
                      [
@@ -213,10 +213,10 @@
                         },
                         {},
                         {
-                           "text": "WC5E.Rules.Mechanics.Races.RacialMount.TurboTrike"
+                           "text": "WC5E.Rules.Races.RacialMount.TurboTrike"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.Races.RacialMount.TurboTrikeDesc"
+                           "text": "WC5E.Rules.Races.RacialMount.TurboTrikeDesc"
                         }
                      ],
                      [
@@ -225,7 +225,7 @@
                         },
                         {},
                         {
-                           "text": "WC5E.Rules.Mechanics.Races.RacialMount.Wolves"
+                           "text": "WC5E.Rules.Races.RacialMount.Wolves"
                         }
                      ],
                      [
@@ -234,7 +234,7 @@
                         },
                         {},
                         {
-                           "text": "WC5E.Rules.Mechanics.Races.RacialMount.GiantTurtles"
+                           "text": "WC5E.Rules.Races.RacialMount.GiantTurtles"
                         }
                      ],
                      [
@@ -243,7 +243,7 @@
                         },
                         {},
                         {
-                           "text": "WC5E.Rules.Mechanics.Races.RacialMount.KodoBeasts"
+                           "text": "WC5E.Rules.Races.RacialMount.KodoBeasts"
                         }
                      ],
                      [
@@ -252,7 +252,7 @@
                         },
                         {},
                         {
-                           "text": "WC5E.Rules.Mechanics.Races.RacialMount.Raptors"
+                           "text": "WC5E.Rules.Races.RacialMount.Raptors"
                         }
                      ],
                      [
@@ -261,7 +261,7 @@
                         },
                         {},
                         {
-                           "text": "WC5E.Rules.Mechanics.Races.RacialMount.Horses"
+                           "text": "WC5E.Rules.Races.RacialMount.Horses"
                         }
                      ]
                   ]
@@ -271,7 +271,7 @@
          "prev": {
             "pack": "wc5e_rules",
             "node": "8FMb36eUyacdaVnm",
-            "label": "WC5E.Rules.Mechanics.Beyond1stLevel.Label"
+            "label": "WC5E.Rules.Beyond1stLevel.Label"
          },
          "next": {
             "pack": "wc5e_races",

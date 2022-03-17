@@ -1,0 +1,26 @@
+{
+   "_id": "XOjTCCMhAH6MTR2n",
+   "name": "Menacing",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Wc5e - Core p. 23",
+      "requirements": "Orc"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.Menacing.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/skills/social/intimidation-impressing.webp",
+   "effects": [
+   ]
+}

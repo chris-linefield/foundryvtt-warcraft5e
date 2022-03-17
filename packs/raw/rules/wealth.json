@@ -8,35 +8,35 @@
    "flags": {
       "wc5e": {
          "type": "rule",
-         "title": "WC5E.Rules.Mechanics.Wealth.Label",
+         "title": "WC5E.Rules.Wealth.Label",
          "content": [
             {
-               "value": "WC5E.Rules.Mechanics.Wealth.Description.1.Value"
+               "value": "WC5E.Rules.Wealth.Description.1.Value"
             },
             {
-               "value": "WC5E.Rules.Mechanics.Wealth.Description.2.Value"
+               "value": "WC5E.Rules.Wealth.Description.2.Value"
             },
             {
-               "value": "WC5E.Rules.Mechanics.Wealth.Description.3.Value"
+               "value": "WC5E.Rules.Wealth.Description.3.Value"
             },
             {
-               "value": "WC5E.Rules.Mechanics.Wealth.Description.4.Value"
+               "value": "WC5E.Rules.Wealth.Description.4.Value"
             },
             {
-               "value": "WC5E.Rules.Mechanics.Wealth.Description.5.Value"
+               "value": "WC5E.Rules.Wealth.Description.5.Value"
             },
             {
-               "title": "WC5E.Rules.Mechanics.Wealth.Description.6.Title",
-               "value": "WC5E.Rules.Mechanics.Wealth.Description.6.Value"
+               "title": "WC5E.Rules.Wealth.Description.6.Title",
+               "value": "WC5E.Rules.Wealth.Description.6.Value"
             },
             {
-               "title": "WC5E.Rules.Mechanics.Wealth.Description.7.Title"
+               "title": "WC5E.Rules.Wealth.Description.7.Title"
             },
             {
                "table": {
                   "head": [
                      {
-                        "title": "WC5E.Rules.Mechanics.Wealth.Currency",
+                        "title": "WC5E.Rules.Wealth.Currency",
                         "class": "left"
                      },
                      {}
@@ -48,7 +48,7 @@
                            "unit": "WC5E.UI.Units.Gp"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.Wealth.Description.8.Value"
+                           "text": "WC5E.Rules.Wealth.Description.8.Value"
                         }
                      ],
                      [
@@ -57,7 +57,7 @@
                            "unit": "WC5E.UI.Units.Gp"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.Wealth.Description.9.Value"
+                           "text": "WC5E.Rules.Wealth.Description.9.Value"
                         }
                      ],
                      [
@@ -66,7 +66,7 @@
                            "unit": "WC5E.UI.Units.Gp"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.Wealth.Description.10.Value"
+                           "text": "WC5E.Rules.Wealth.Description.10.Value"
                         }
                      ],
                      [
@@ -75,7 +75,7 @@
                            "unit": "WC5E.UI.Units.Gp"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.Wealth.Description.11.Value"
+                           "text": "WC5E.Rules.Wealth.Description.11.Value"
                         }
                      ],
                      [
@@ -84,7 +84,7 @@
                            "unit": "WC5E.UI.Units.Gp"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.Wealth.Description.12.Value"
+                           "text": "WC5E.Rules.Wealth.Description.12.Value"
                         }
                      ],
                      [
@@ -93,7 +93,7 @@
                            "unit": "WC5E.UI.Units.Gp"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.Wealth.Description.13.Value"
+                           "text": "WC5E.Rules.Wealth.Description.13.Value"
                         }
                      ],
                      [
@@ -102,7 +102,7 @@
                            "unit": "WC5E.UI.Units.Gp"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.Wealth.Description.14.Value"
+                           "text": "WC5E.Rules.Wealth.Description.14.Value"
                         }
                      ],
                      [
@@ -111,7 +111,7 @@
                            "unit": "WC5E.UI.Units.Gp"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.Wealth.Description.15.Value"
+                           "text": "WC5E.Rules.Wealth.Description.15.Value"
                         }
                      ],
                      [
@@ -120,7 +120,7 @@
                            "unit": "WC5E.UI.Units.Gp"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.Wealth.Description.16.Value"
+                           "text": "WC5E.Rules.Wealth.Description.16.Value"
                         }
                      ],
                      [
@@ -129,7 +129,7 @@
                            "unit": "WC5E.UI.Units.Gp"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.Wealth.Description.17.Value"
+                           "text": "WC5E.Rules.Wealth.Description.17.Value"
                         }
                      ],
                      [
@@ -138,7 +138,7 @@
                            "unit": "WC5E.UI.Units.Gp"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.Wealth.Description.18.Value"
+                           "text": "WC5E.Rules.Wealth.Description.18.Value"
                         }
                      ],
                      [
@@ -147,7 +147,7 @@
                            "unit": "WC5E.UI.Units.Gp"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.Wealth.Description.19.Value"
+                           "text": "WC5E.Rules.Wealth.Description.19.Value"
                         }
                      ],
                      [
@@ -156,7 +156,7 @@
                            "unit": "WC5E.UI.Units.Gp"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.Wealth.Description.20.Value"
+                           "text": "WC5E.Rules.Wealth.Description.20.Value"
                         }
                      ],
                      [
@@ -165,7 +165,7 @@
                            "unit": "WC5E.UI.Units.Gp"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.Wealth.Description.21.Value"
+                           "text": "WC5E.Rules.Wealth.Description.21.Value"
                         }
                      ],
                      [
@@ -174,7 +174,7 @@
                            "unit": "WC5E.UI.Units.Gp"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.Wealth.Description.22.Value"
+                           "text": "WC5E.Rules.Wealth.Description.22.Value"
                         }
                      ],
                      [
@@ -183,7 +183,7 @@
                            "unit": "WC5E.UI.Units.Gp"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.Wealth.Description.23.Value"
+                           "text": "WC5E.Rules.Wealth.Description.23.Value"
                         }
                      ],
                      [
@@ -192,7 +192,7 @@
                            "unit": "WC5E.UI.Units.Gp"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.Wealth.Description.24.Value"
+                           "text": "WC5E.Rules.Wealth.Description.24.Value"
                         }
                      ],
                      [
@@ -201,7 +201,7 @@
                            "unit": "WC5E.UI.Units.Gp"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.Wealth.Description.25.Value"
+                           "text": "WC5E.Rules.Wealth.Description.25.Value"
                         }
                      ],
                      [
@@ -210,7 +210,7 @@
                            "unit": "WC5E.UI.Units.Gp"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.Wealth.Description.26.Value"
+                           "text": "WC5E.Rules.Wealth.Description.26.Value"
                         }
                      ],
                      [
@@ -219,7 +219,7 @@
                            "unit": "WC5E.UI.Units.Gp"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.Wealth.Description.27.Value"
+                           "text": "WC5E.Rules.Wealth.Description.27.Value"
                         }
                      ],
                      [
@@ -228,7 +228,7 @@
                            "unit": "WC5E.UI.Units.Gp"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.Wealth.Description.28.Value"
+                           "text": "WC5E.Rules.Wealth.Description.28.Value"
                         }
                      ],
                      [
@@ -237,7 +237,7 @@
                            "unit": "WC5E.UI.Units.Gp"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.Wealth.Description.29.Value"
+                           "text": "WC5E.Rules.Wealth.Description.29.Value"
                         }
                      ],
                      [
@@ -246,7 +246,7 @@
                            "unit": "WC5E.UI.Units.Gp"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.Wealth.Description.30.Value"
+                           "text": "WC5E.Rules.Wealth.Description.30.Value"
                         }
                      ],
                      [
@@ -255,23 +255,23 @@
                            "unit": "WC5E.UI.Units.Gp"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.Wealth.Description.31.Value"
+                           "text": "WC5E.Rules.Wealth.Description.31.Value"
                         }
                      ],
                      [
                         {
-                           "text": "WC5E.Rules.Mechanics.Wealth.Description.32.Title"
+                           "text": "WC5E.Rules.Wealth.Description.32.Title"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.Wealth.Description.32.Value"
+                           "text": "WC5E.Rules.Wealth.Description.32.Value"
                         }
                      ],
                      [
                         {
-                           "text": "WC5E.Rules.Mechanics.Wealth.Description.32.Title"
+                           "text": "WC5E.Rules.Wealth.Description.32.Title"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.Wealth.Description.33.Value"
+                           "text": "WC5E.Rules.Wealth.Description.33.Value"
                         }
                      ],
                      [
@@ -280,7 +280,7 @@
                            "unit": "WC5E.UI.Units.Sp"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.Wealth.Description.34.Value"
+                           "text": "WC5E.Rules.Wealth.Description.34.Value"
                         }
                      ],
                      [
@@ -289,7 +289,7 @@
                            "unit": "WC5E.UI.Units.Sp"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.Wealth.Description.35.Value"
+                           "text": "WC5E.Rules.Wealth.Description.35.Value"
                         }
                      ],
                      [
@@ -298,7 +298,7 @@
                            "unit": "WC5E.UI.Units.Sp"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.Wealth.Description.36.Value"
+                           "text": "WC5E.Rules.Wealth.Description.36.Value"
                         }
                      ],
                      [
@@ -307,7 +307,7 @@
                            "unit": "WC5E.UI.Units.Sp"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.Wealth.Description.37.Value"
+                           "text": "WC5E.Rules.Wealth.Description.37.Value"
                         }
                      ],
                      [
@@ -316,7 +316,7 @@
                            "unit": "WC5E.UI.Units.Sp"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.Wealth.Description.38.Value"
+                           "text": "WC5E.Rules.Wealth.Description.38.Value"
                         }
                      ],
                      [
@@ -325,7 +325,7 @@
                            "unit": "WC5E.UI.Units.Sp"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.Wealth.Description.39.Value"
+                           "text": "WC5E.Rules.Wealth.Description.39.Value"
                         }
                      ],
                      [
@@ -334,7 +334,7 @@
                            "unit": "WC5E.UI.Units.Cp"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.Wealth.Description.40.Value"
+                           "text": "WC5E.Rules.Wealth.Description.40.Value"
                         }
                      ],
                      [
@@ -343,7 +343,7 @@
                            "unit": "WC5E.UI.Units.Cp"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.Wealth.Description.41.Value"
+                           "text": "WC5E.Rules.Wealth.Description.41.Value"
                         }
                      ],
                      [
@@ -352,45 +352,45 @@
                            "unit": "WC5E.UI.Units.Cp"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.Wealth.Description.42.Value"
+                           "text": "WC5E.Rules.Wealth.Description.42.Value"
                         }
                      ]
                   ]
                }
             },
             {
-               "title": "WC5E.Rules.Mechanics.Wealth.Description.43.Title",
-               "value": "WC5E.Rules.Mechanics.Wealth.Description.43.Value"
+               "title": "WC5E.Rules.Wealth.Description.43.Title",
+               "value": "WC5E.Rules.Wealth.Description.43.Value"
             },
             {
-               "title": "WC5E.Rules.Mechanics.Wealth.Description.44.Title",
-               "value": "WC5E.Rules.Mechanics.Wealth.Description.44.Value"
+               "title": "WC5E.Rules.Wealth.Description.44.Title",
+               "value": "WC5E.Rules.Wealth.Description.44.Value"
             },
             {
-               "title": "WC5E.Rules.Mechanics.Wealth.Description.45.Title",
-               "value": "WC5E.Rules.Mechanics.Wealth.Description.45.Value"
+               "title": "WC5E.Rules.Wealth.Description.45.Title",
+               "value": "WC5E.Rules.Wealth.Description.45.Value"
             },
             {
-               "title": "WC5E.Rules.Mechanics.Wealth.Description.46.Title",
-               "value": "WC5E.Rules.Mechanics.Wealth.Description.46.Value"
+               "title": "WC5E.Rules.Wealth.Description.46.Title",
+               "value": "WC5E.Rules.Wealth.Description.46.Value"
             },
             {
-               "title": "WC5E.Rules.Mechanics.Wealth.Description.47.Title",
-               "value": "WC5E.Rules.Mechanics.Wealth.Description.47.Value"
+               "title": "WC5E.Rules.Wealth.Description.47.Title",
+               "value": "WC5E.Rules.Wealth.Description.47.Value"
             },
             {
-               "value": "WC5E.Rules.Mechanics.Wealth.Description.48.Value"
+               "value": "WC5E.Rules.Wealth.Description.48.Value"
             }
          ],
          "prev": {
             "pack": "wc5e_rules",
             "node": "AVxD9q0AdN5mmmZC",
-            "label": "WC5E.Rules.Mechanics.StartingEquipment.Label"
+            "label": "WC5E.Rules.StartingEquipment.Label"
          },
          "next": {
             "pack": "wc5e_rules",
             "node": "VGSm1qJQVXY0Ya6L",
-            "label": "WC5E.Rules.Mechanics.AdventuringGear.Label"
+            "label": "WC5E.Rules.AdventuringGear.Label"
          }
       }
    }

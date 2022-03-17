@@ -1,111 +1,111 @@
 <form class="{{cssClass}} flexcol" autocomplete="off">
 
-    {{!------ SHEET HEADER ------}}
     <header>
         <h1>{{localize item.name}}</h1>
-        {{localize item.flags.wc5e.description}}
     </header>
 
-    <!--
-    this.form.ondrop = event => this._onDrop(event);
-
-    async _onDrop(event) {
-        event.preventDefault();
-        event.stopPropagation();
-        let data;
-        try {
-          data = JSON.parse(event.dataTransfer.getData('text/plain'));
-        }
-        catch(err) {
-          console.log("Drop error");
-          console.log(event.dataTransfoer.getData('text/plain'));
-          console.log(err);
-          return false;
-        }
-
-        let item = game.items.get(data.id);
-        await this.object.addItem(item.data);
-        console.log("Drop completed");
-        console.log(item.data)
-        return false;
-      }
-    -->
-
-    <hr >
-
     <section>
-        <h2>{{localize "WC5E.RaceSheet.Traits"}}</h2>
-        <div class="raceGrid">
-            <strong><i>{{localize "WC5E.RaceSheet.AbilityScoreIncrease"}}:</i></strong>{{localize item.flags.wc5e.abilityMod}}
-            <hr>
-            <strong><i>{{localize "WC5E.RaceSheet.Age"}}:</i></strong> {{localize item.flags.wc5e.age}}
-            <hr>
-            <strong><i>{{localize "WC5E.RaceSheet.Affiliation"}}:</i></strong> {{localize item.flags.wc5e.affiliation}}
-            <hr>
-            <strong><i>{{localize "WC5E.RaceSheet.Size"}}:</i></strong> {{localize item.flags.wc5e.size}}
-            <hr>
-            <strong><i>{{localize "WC5E.RaceSheet.Appearance"}}:</i></strong> {{localize item.flags.wc5e.appearance}}
-            <hr>
-            <strong><i>{{localize "WC5E.RaceSheet.Speed"}}:</i></strong> {{localize "WC5E.RaceSheet.SpeedVal"}} {{item.flags.wc5e.speed}}. {{#if item.flags.wc5e.speedAddition}} {{localize item.flags.wc5e.speedAddition}} {{/if}}
-            <hr>
-
-            {{!------ TRAITS ------}}
-            {{#each item.flags.wc5e.traits}}
-                <strong><i>{{localize this.key}}:</i></strong>
-                <div>
-                    {{{localize this.value}}}
-                    {{#if this.options}}
-                        <ul>
-                            {{#each this.options}}
-                                <li>{{localize this}}</li>
-                            {{/each}}
-                        </ul>
-                    {{/if}}
-                </div>
-                <hr>
+        {{#if item.flags.wc5e.artwork}}
+            <div class="artwork">
+                <img src="{{item.flags.wc5e.artwork.src}}"/>
+                <a href="{{item.flags.wc5e.artwork.url}}" target="_blank">&copy; {{item.flags.wc5e.artwork.credit}}</a>
+            </div>
+        {{/if}}
+        <div class="raceDescription">
+            {{#each item.flags.wc5e.description}}
+                {{> "modules/warcraft5e/templates/item/parts/description.html"}}
             {{/each}}
-
-            {{!------ LANGUAGES ------}}
-            <strong><i>{{localize "WC5E.RaceSheet.Languages"}}:</i></strong>
-            {{#each item.flags.wc5e.languages}}
-                {{localize this}},
-            {{/each}}.
-            {{localize item.flags.wc5e.languageDescription}}
+            {{#if item.flags.wc5e.affiliation}}
+                <p>
+                    <strong><i>{{localize "WC5E.UI.Affiliation"}}:</i></strong>
+                    {{#each item.flags.wc5e.affiliation}}
+                        {{> "modules/warcraft5e/templates/item/parts/description.html"}}
+                    {{/each}}
+                </p>
+            {{/if}}
+        </div>
+        <hr class="full">
+        <div class="raceGrid">
+            <strong><i>{{localize "WC5E.UI.AbilityScoreIncrease"}}:</i></strong>
+            <div>
+                {{#if (isChoice item.flags.wc5e.values.abilities.choice)}}
+                    Your
+                    {{#each item.flags.wc5e.values.abilities.choice.keys}}
+                        {{lookup ../config.abilities this}}
+                        {{#unless @last}}
+                            or
+                        {{/unless}}
+                    {{/each}}
+                    score increases by {{item.flags.wc5e.values.abilities.choice.value}}
+                {{else}}
+                    {{#each item.flags.wc5e.values.abilities}}
+                        {{#unless @first}}
+                            ,
+                        {{/unless}}
+                        Your {{lookup ../config.abilities @key}} score
+                        {{#if (isPositive this)}}
+                            increases
+                        {{else}}
+                            decreases
+                        {{/if}}
+                        by {{this}}
+                    {{/each}}
+                {{/if}}
+            </div>
             <hr>
-
-            {{!------ NAMES ------}}
+            <strong><i>{{localize "WC5E.UI.Age"}}:</i></strong>
+            <div>{{localize item.flags.wc5e.age}}</div>
+            <hr>
+            <strong><i>{{localize "WC5E.UI.Size"}}:</i></strong>
+            <div>{{localize item.flags.wc5e.size}}</div>
+            <hr>
+            <strong><i>{{localize "WC5E.UI.Speed"}}:</i></strong>
+            <div>{{localize item.flags.wc5e.speed}}</div>
+            <hr>
+            {{#if item.flags.wc5e.traits}}
+                {{#each item.flags.wc5e.traits}}
+                    <strong><i>{{localize this.label}}:</i></strong>
+                    <div>
+                        <a class="entity-link content-link spellLink" data-pack="{{this.pack}}" data-id="{{this.node}}">
+                            {{localize this.label}}
+                        </a>
+                    </div>
+                    <hr>
+                {{/each}}
+            {{/if}}
+            <strong><i>{{localize "WC5E.UI.Languages"}}:</i></strong>
+            <div>{{localize item.flags.wc5e.languages}}</div>
+            <hr>
             {{#if item.flags.wc5e.names}}
-                {{#if item.flags.wc5e.names}}
-                    <strong><i>{{localize "WC5E.RaceSheet.MaleNames"}}:</i></strong>
+                {{#if item.flags.wc5e.names.male}}
+                    <strong><i>{{localize "WC5E.UI.MaleNames"}}:</i></strong>
                     {{#each item.flags.wc5e.names.male}}
                         {{this}}{{#unless @last}},{{/unless}}
                     {{/each}}
                     <hr>
                 {{/if}}
                 {{#if item.flags.wc5e.names.female}}
-                    <strong><i>{{localize "WC5E.RaceSheet.FemaleNames"}}:</i></strong>
+                    <strong><i>{{localize "WC5E.UI.FemaleNames"}}:</i></strong>
                     {{#each item.flags.wc5e.names.female}}
                         {{this}}{{#unless @last}},{{/unless}}
                     {{/each}}
                     <hr>
                 {{/if}}
                 {{#if item.flags.wc5e.names.family}}
-                    <strong><i>{{localize "WC5E.RaceSheet.FamilyNames"}}:</i></strong>
-                    {{#each item.flags.wc5e.names.family}}
-                        {{localize this}}{{#unless @last}},{{/unless}}
-                    {{/each}}
+                    <strong><i>{{localize "WC5E.UI.FamilyNames"}}:</i></strong>
+                        {{localize item.flags.wc5e.names.family}}
                     <hr>
                 {{/if}}
             {{/if}}
-            {{#if item.flags.wc5e.subrace}}
-                <strong><i>{{localize "WC5E.RaceSheet.Subrace"}}:</i></strong> {{localize item.flags.wc5e.subrace}} {{localize "WC5E.RaceSheet.SubraceChoice"}}
-                <hr>
-            {{/if}}
         </div>
+        <br>
 
-
-        {{!------ SUBRACES ------}}
-        {{#if item.flags.wc5e.subrace}}
+        {{#if item.flags.wc5e.subraces}}
+            <hr>
+            <h2>Subraces</h2>
+            {{#if item.flags.wc5e.subrace}}
+                {{localize item.flags.wc5e.subrace}}
+            {{/if}}
             <br>
             {{#each item.flags.wc5e.subraces}}
                 <hr class="full">
@@ -116,80 +116,90 @@
                 </div>
                 <div class="raceDescription">
                     <h3>{{localize this.name}}</h3>
-                    <i>“{{localize this.quote}}”</i>
-                    <br>
-                    <br>
-                    <p>
-                    {{localize this.description}}
-                    </p>
-                    <br>
-                    <p>
+                    {{#each this.description}}
+                        {{> "modules/warcraft5e/templates/item/parts/description.html"}}
+                    {{/each}}
                     {{#if this.affiliation}}
-                        <strong><i>{{localize "WC5E.RaceSheet.Affiliation"}}:</i></strong> {{localize this.affiliation}}
-                        <hr>
+                        <p>
+                            <strong><i>{{localize "WC5E.UI.Affiliation"}}:</i></strong>
+                            {{#each this.affiliation}}
+                                {{> "modules/warcraft5e/templates/item/parts/description.html"}}
+                            {{/each}}
+                        </p>
                     {{/if}}
-                    </p>
                 </div>
+                <hr class="full">
                 <div class="raceGrid">
-                    {{#if this.abilityMod}}
-                        <strong><i>{{localize "WC5E.RaceSheet.AbilityScoreIncrease"}}:</i></strong> {{localize this.abilityMod}}
+                    {{#if this.values.abilities}}
+                        <strong><i>{{localize "WC5E.UI.AbilityScoreIncrease"}}:</i></strong>
+                        <div>
+                            {{#if (isChoice this.values.abilities.choice)}}
+                                Your
+                                {{#each this.values.abilities.choice.keys}}
+                                    {{lookup ../../config.abilities this}}
+                                    {{#unless @last}}
+                                        or
+                                    {{/unless}}
+                                {{/each}}
+                                score increases by {{this.values.abilities.choice.value}}
+                            {{else}}
+                                {{#each this.values.abilities}}
+                                    {{#unless @first}}
+                                        ,
+                                    {{/unless}}
+                                    Your {{lookup ../../config.abilities @key}} score
+                                    {{#if (isPositive this)}}
+                                        increases
+                                    {{else}}
+                                        decreases
+                                    {{/if}}
+                                    by {{this}}
+                                {{/each}}
+                            {{/if}}
+                        </div>
                         <hr>
                     {{/if}}
 
-                    {{!------ TRAITS ------}}
+                    {{#if this.size}}
+                        <strong><i>{{localize "WC5E.UI.Size"}}:</i></strong>
+                        <div>{{localize this.size}}</div>
+                        <hr>
+                    {{/if}}
+
                     {{#if this.traits}}
                         {{#each this.traits}}
-                            <strong><i>{{localize this.key}}:</i></strong>
+                            <strong><i>{{localize this.label}}:</i></strong>
                             <div>
-                                {{{localize this.value}}}
-                                {{#if this.options}}
-                                    <ul>
-                                        {{#each this.options}}
-                                            <li>{{{localize this}}}</li>
-                                        {{/each}}
-                                    </ul>
-                                {{/if}}
-                                {{#if this.target}}
-                                    {{#unless this.options}}
-                                        <br>
-                                    {{/unless}}
-                                    {{#each this.target}}
-                                        <a class="entity-link content-link spellLink" data-pack="{{this.pack}}" data-id="{{this.node}}">
-                                            {{localize this.label}}
-                                        </a>
-                                    {{/each}}
-                                {{/if}}
+                                <a class="entity-link content-link spellLink" data-pack="{{this.pack}}" data-id="{{this.node}}">
+                                    {{localize this.label}}
+                                </a>
                             </div>
                             <hr>
                         {{/each}}
                     {{/if}}
 
-                    {{!------ NAMES ------}}
                     {{#if this.names}}
-                        {{#if this.names}}
-                            <strong><i>{{localize "WC5E.RaceSheet.MaleNames"}}:</i></strong>
+                        {{#if this.names.male}}
+                            <strong><i>{{localize "WC5E.UI.MaleNames"}}:</i></strong>
                             {{#each this.names.male}}
                                 {{this}}{{#unless @last}},{{/unless}}
                             {{/each}}
                             <hr>
                         {{/if}}
                         {{#if this.names.female}}
-                            <strong><i>{{localize "WC5E.RaceSheet.FemaleNames"}}:</i></strong>
+                            <strong><i>{{localize "WC5E.UI.FemaleNames"}}:</i></strong>
                             {{#each this.names.female}}
                                 {{this}}{{#unless @last}},{{/unless}}
                             {{/each}}
                             <hr>
                         {{/if}}
                         {{#if this.names.family}}
-                            <strong><i>{{localize "WC5E.RaceSheet.FamilyNames"}}:</i></strong>
-                            {{#each this.names.family}}
-                                {{localize this}}{{#unless @last}},{{/unless}}
-                            {{/each}}
+                            <strong><i>{{localize "WC5E.UI.FamilyNames"}}:</i></strong>
+                                {{localize this.names.family}}
                             <hr>
                         {{/if}}
                     {{/if}}
                 </div>
-                <br>
             {{/each}}
         {{/if}}
 

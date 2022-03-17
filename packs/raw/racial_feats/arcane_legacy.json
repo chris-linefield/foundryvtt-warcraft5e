@@ -1,0 +1,33 @@
+{
+   "_id": "hDyhn5NTyKyIVT53",
+   "name": "Arcane Legacy",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Wc5e - Core p. 14",
+      "requirements": "Elf (High Elf)"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.ArcaneLegacy.Description.1.Value"
+            },
+            {
+               "options": [
+                  "WC5E.Feats.ArcaneLegacy.Description.2.Options.1",
+                  "WC5E.Feats.ArcaneLegacy.Description.2.Options.2",
+                  "WC5E.Feats.ArcaneLegacy.Description.2.Options.3"
+               ]
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/light/explosion-glow-spiral-teal.webp",
+   "effects": [
+   ]
+}

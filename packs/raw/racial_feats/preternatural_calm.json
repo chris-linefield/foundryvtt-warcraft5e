@@ -1,0 +1,26 @@
+{
+   "_id": "aaWkt1T4Bkz68Lyf",
+   "name": "Preternatural Calm",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Wc5e - Core p. 17",
+      "requirements": "Elf (Void Elf)"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.PreternaturalCalm.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/nature/tree-spirit-glow-black-yellow.webp",
+   "effects": [
+   ]
+}

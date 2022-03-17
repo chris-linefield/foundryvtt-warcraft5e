@@ -10,86 +10,84 @@
    "flags": {
       "wc5e": {
          "type": "race",
-         "description": "WC5E.Race.Elf.Description",
-         "abilityMod": "WC5E.Race.Elf.AbilityScoreIncrease",
-         "age": "WC5E.Race.Elf.Age",
-         "affiliation": "WC5E.Race.Elf.Affiliation",
-         "size": "WC5E.Race.Elf.Size",
-         "appearance": "WC5E.Race.Elf.Appearance",
-         "speed": "30",
-         "traits": [
+         "name": "WC5E.Race.Elf.Name",
+         "description": [
             {
-               "key": "WC5E.Traits.MysticSenses.Label",
-               "value": "WC5E.Traits.MysticSenses.Description"
-            },
-            {
-               "key": "WC5E.Traits.KeenSenses.Label",
-               "value": "WC5E.Traits.KeenSenses.Description"
-            },
-            {
-               "key": "WC5E.Traits.ElvenCombatTraining.Label",
-               "value": "WC5E.Traits.ElvenCombatTraining.Description"
+               "value": "WC5E.Race.Elf.Description.1.Value"
             }
          ],
-         "languages": [
-            "WC5E.Languages.Common",
-            "WC5E.Languages.Elven"
+         "age": "WC5E.Race.Elf.Age",
+         "affiliation": [
+            {
+               "value": "WC5E.Race.Elf.Affiliation.1.Value"
+            }
          ],
-         "languageDescription": "WC5E.Race.Elf.Language",
+         "size": "WC5E.Race.Elf.Size",
+         "speed": "WC5E.Race.Elf.Speed",
+         "languages": "WC5E.Race.Elf.Languages",
+         "traits": [
+            {
+               "pack": "warcraft5e.wc5e_racial_feats",
+               "node": "JEcbFR94edcZ1Chm",
+               "label": "WC5E.Feats.Darkvision.Label"
+            },
+            {
+               "pack": "warcraft5e.wc5e_racial_feats",
+               "node": "B5vvK9mmzFWf8u7R",
+               "label": "WC5E.Feats.MysticSenses.Label"
+            },
+            {
+               "pack": "warcraft5e.wc5e_racial_feats",
+               "node": "gVlaq3MIvk55xaeX",
+               "label": "WC5E.Feats.KeenSenses.Label"
+            },
+            {
+               "pack": "warcraft5e.wc5e_racial_feats",
+               "node": "CZflZTcBrAAzFO8A",
+               "label": "WC5E.Feats.ElvenCombatTraining.Label"
+            }
+         ],
          "subrace": "WC5E.Race.Elf.Subrace",
          "subraces": [
             {
-               "name": "WC5E.Race.Elf.Subraces.HighElf.Name",
                "artwork": {
                   "src": "modules/warcraft5e/res/pics/races/highelf_artwork.jpg",
                   "url": "https://www.deviantart.com/liberlibelula/art/Commission-In-the-Eversong-Woods-451489200",
                   "credit": "LiberLibelula"
                },
-               "quote": "WC5E.Race.Elf.Subraces.HighElf.Quote",
-               "description": "WC5E.Race.Elf.Subraces.HighElf.Description",
-               "abilityMod": "WC5E.Race.Elf.Subraces.HighElf.AbilityScoreIncrease",
-               "affiliation": "WC5E.Race.Elf.Subraces.HighElf.Affiliation",
+               "name": "WC5E.Race.Elf.Subraces.HighElf.Name",
+               "description": [
+                  {
+                     "italic": "WC5E.Race.Elf.Subraces.HighElf.Description.1.Italic",
+                     "value": "WC5E.Race.Elf.Subraces.HighElf.Description.1.Value"
+                  },
+                  {
+                     "value": "WC5E.Race.Elf.Subraces.HighElf.Description.2.Value"
+                  }
+               ],
+               "affiliation": [
+                  {
+                     "value": "WC5E.Race.Elf.Subraces.HighElf.Affiliation.1.Value"
+                  },
+                  {
+                     "value": "WC5E.Race.Elf.Subraces.HighElf.Affiliation.2.Value"
+                  }
+               ],
                "traits": [
                   {
-                     "key": "WC5E.Traits.HighMagic.Label",
-                     "value": "WC5E.Traits.HighMagic.Description",
-                     "target": [
-                        {
-                           "pack": "warcraft5e.spells",
-                           "node": "jTjuRjOSPiiaGdHf",
-                           "label": "WC5E.Spells.Prestidigitation.Label"
-                        },
-                        {
-                           "pack": "warcraft5e.spells",
-                           "node": "LEObnsVNrgU1xyGe",
-                           "label": "WC5E.Spells.DetectMagic.Label"
-                        },
-                        {
-                           "pack": "warcraft5e.spells",
-                           "node": "a1ETdr99xMIsahjL",
-                           "label": "WC5E.Spells.Mute.Label"
-                        }
-                     ]
+                     "pack": "warcraft5e.wc5e_racial_feats",
+                     "node": "hDyhn5NTyKyIVT53",
+                     "label": "WC5E.Feats.ArcaneLegacy.Label"
                   },
                   {
-                     "key": "WC5E.Traits.ArcaneLegacy.Label",
-                     "value": "WC5E.Traits.ArcaneLegacy.Description",
-                     "options": [
-                        "WC5E.Traits.ArcaneLegacy.Options.1",
-                        "WC5E.Traits.ArcaneLegacy.Options.2",
-                        "WC5E.Traits.ArcaneLegacy.Options.3"
-                     ],
-                     "target": [
-                        {
-                           "pack": "warcraft5e.skills",
-                           "node": "A7RdPATxDXJzCAn8",
-                           "label": "WC5E.Skills.SuffusedArrows.Label"
-                        }
-                     ]
+                     "pack": "warcraft5e.wc5e_racial_feats",
+                     "node": "F4YEEH0GNtCHe7O3",
+                     "label": "WC5E.Feats.ExtraLanguage.Label"
                   },
                   {
-                     "key": "WC5E.Traits.ExtraLanguage.Label",
-                     "value": "WC5E.Traits.ExtraLanguage.Description"
+                     "pack": "warcraft5e.wc5e_racial_feats",
+                     "node": "nTWfQyjDkmzIF6Th",
+                     "label": "WC5E.Feats.HighMagic.Label"
                   }
                ],
                "names": {
@@ -109,62 +107,119 @@
                      "Alanassori",
                      "Azshara"
                   ],
-                  "family": [
-                     "WC5E.Race.Elf.Subraces.HighElf.FamilyNames"
-                  ]
+                  "family": "WC5E.Race.Elf.Subraces.HighElf.FamilyNames"
+               },
+               "values": {
+                  "abilities": {
+                     "int": 1
+                  }
                }
             },
             {
-               "name": "WC5E.Race.Elf.Subraces.BloodElf.Name",
                "artwork": {
                   "src": "modules/warcraft5e/res/pics/races/bloodelf_artwork.jpg",
                   "url": "http://jasonchanart.blogspot.com/",
                   "credit": "Jason Chan Art"
                },
-               "quote": "WC5E.Race.Elf.Subraces.BloodElf.Quote",
-               "description": "WC5E.Race.Elf.Subraces.BloodElf.Description",
-               "affiliation": "WC5E.Race.Elf.Subraces.BloodElf.Affiliation",
+               "name": "WC5E.Race.Elf.Subraces.BloodElf.Name",
+               "description": [
+                  {
+                     "italic": "WC5E.Race.Elf.Subraces.BloodElf.Description.1.Italic",
+                     "value": "WC5E.Race.Elf.Subraces.BloodElf.Description.1.Value"
+                  },
+                  {
+                     "value": "WC5E.Race.Elf.Subraces.BloodElf.Description.2.Value"
+                  },
+                  {
+                     "value": "WC5E.Race.Elf.Subraces.BloodElf.Description.3.Value"
+                  },
+                  {
+                     "value": "WC5E.Race.Elf.Subraces.BloodElf.Description.4.Value"
+                  }
+               ],
+               "affiliation": [
+                  {
+                     "value": "WC5E.Race.Elf.Subraces.BloodElf.Affiliation.1.Value"
+                  }
+               ],
                "traits": [
                   {
-                     "key": "WC5E.Traits.BloodMagic.Label",
-                     "value": "WC5E.Traits.BloodMagic.Description",
-                     "target": [
-                        {
-                           "pack": "warcraft5e.spells",
-                           "node": "HkFZRBPQCijtxMDS",
-                           "label": "WC5E.Spells.Thaumaturgy.Label"
-                        },
-                        {
-                           "pack": "warcraft5e.spells",
-                           "node": "Uuvr870LGLz3VPPs",
-                           "label": "WC5E.Spells.ManaBurn.Label"
-                        }
-                     ]
+                     "pack": "warcraft5e.wc5e_racial_feats",
+                     "node": "hDyhn5NTyKyIVT53",
+                     "label": "WC5E.Feats.ArcaneLegacy.Label"
+                  },
+                  {
+                     "pack": "warcraft5e.wc5e_racial_feats",
+                     "node": "vh6uuAgew86AF2mF",
+                     "label": "WC5E.Feats.BloodMagic.Label"
+                  },
+                  {
+                     "pack": "warcraft5e.wc5e_racial_feats",
+                     "node": "F4YEEH0GNtCHe7O3",
+                     "label": "WC5E.Feats.ExtraLanguage.Label"
                   }
-               ]
+               ],
+               "names": {
+                  "male": [
+                     "Mariel",
+                     "Athaniar",
+                     "Anandor",
+                     "Tharama",
+                     "Viridiel",
+                     "Malanior"
+                  ],
+                  "female": [
+                     "Anarial",
+                     "Freja",
+                     "Driana",
+                     "Coria",
+                     "Alanassori",
+                     "Azshara"
+                  ],
+                  "family": "WC5E.Race.Elf.Subraces.HighElf.FamilyNames"
+               },
+               "values": {
+                  "abilities": {
+                     "int": 1
+                  }
+               }
             },
             {
-               "name": "WC5E.Race.Elf.Subraces.NightElf.Name",
                "artwork": {
                   "src": "modules/warcraft5e/res/pics/races/nightelf_artwork.jpg",
                   "url": "https://www.deviantart.com/coalaroo/art/Feyawen-and-Nylann-by-Mihai-Radu-560928679",
                   "credit": "Coalaroo"
                },
-               "quote": "WC5E.Race.Elf.Subraces.NightElf.Quote",
-               "description": "WC5E.Race.Elf.Subraces.NightElf.Description",
-               "affiliation": "WC5E.Race.Elf.Subraces.NightElf.Affiliation",
+               "name": "WC5E.Race.Elf.Subraces.NightElf.Name",
+               "description": [
+                  {
+                     "italic": "WC5E.Race.Elf.Subraces.NightElf.Description.1.Italic",
+                     "value": "WC5E.Race.Elf.Subraces.NightElf.Description.1.Value"
+                  }
+               ],
+               "affiliation": [
+                  {
+                     "value": "WC5E.Race.Elf.Subraces.NightElf.Affiliation.1.Value"
+                  },
+                  {
+                     "value": "WC5E.Race.Elf.Subraces.NightElf.Affiliation.2.Value"
+                  }
+               ],
                "traits": [
                   {
-                     "key": "WC5E.Traits.NatureResistance.Label",
-                     "value": "WC5E.Traits.NatureResistance.Description"
+                     "pack": "warcraft5e.wc5e_racial_feats",
+                     "node": "C4ZX4zgN80I32yiy",
+                     "label": "WC5E.Feats.MaskOfTheWild.Label"
                   },
                   {
-                     "key": "WC5E.Traits.MaskOfTheWild.Label",
-                     "value": "WC5E.Traits.MaskOfTheWild.Description"
+                     "pack": "warcraft5e.wc5e_racial_feats",
+                     "node": "KDuZezkPCIB6ZaA5",
+                     "label": "WC5E.Feats.NatureResistance.Label"
                   },
                   {
-                     "key": "WC5E.Traits.Shadowmeld.Label",
-                     "value": "WC5E.Traits.Shadowmeld.Description"
+                     "pack": "warcraft5e.wc5e_racial_feats",
+                     "node": "NjEMO9y2l744DJ1c",
+                     "label": "WC5E.Feats.Shadowmeld.Label"
                   }
                ],
                "names": {
@@ -184,42 +239,56 @@
                      "Alannaria",
                      "Nevarial"
                   ],
-                  "family": [
-                     "WC5E.Race.Elf.Subraces.NightElf.FamilyNames"
+                  "family": "WC5E.Race.Elf.Subraces.NightElf.FamilyNames"
+               },
+               "values": {
+                  "abilities": {
+                     "wis": 1
+                  },
+                  "resistance": [
+                     "lightning",
+                     "poison"
                   ]
                }
             },
             {
-               "name": "WC5E.Race.Elf.Subraces.Nightborne.Name",
                "artwork": {
                   "src": "modules/warcraft5e/res/pics/races/nightborne_artwork.jpg",
                   "url": "https://www.deviantart.com/x-celebril-x/art/Dancing-in-the-Moonlight-Commission-784071503",
                   "credit": "x-Celebril-x"
                },
-               "quote": "WC5E.Race.Elf.Subraces.Nightborne.Quote",
-               "description": "WC5E.Race.Elf.Subraces.Nightborne.Description",
-               "affiliation": "WC5E.Race.Elf.Subraces.Nightborne.Affiliation",
+               "name": "WC5E.Race.Elf.Subraces.Nightborne.Name",
+               "description": [
+                  {
+                     "italic": "WC5E.Race.Elf.Subraces.Nightborne.Description.1.Italic",
+                     "value": "WC5E.Race.Elf.Subraces.Nightborne.Description.1.Value"
+                  }
+               ],
+               "affiliation": [
+                  {
+                     "value": "WC5E.Race.Elf.Subraces.Nightborne.Affiliation.1.Value"
+                  }
+               ],
                "traits": [
                   {
-                     "key": "WC5E.Traits.ArcaneAffinity.Label",
-                     "value": "WC5E.Traits.ArcaneAffinity.Description",
-                     "options": [
-                        "WC5E.Traits.ArcaneAffinity.Options.1",
-                        "WC5E.Traits.ArcaneAffinity.Options.2",
-                        "WC5E.Traits.ArcaneAffinity.Options.3"
-                     ]
+                     "pack": "warcraft5e.wc5e_racial_feats",
+                     "node": "8e05IsX2fHdTnDPC",
+                     "label": "WC5E.Feats.ArcaneAffinity.Label"
                   },
                   {
-                     "key": "WC5E.Traits.BlessingOfTheNightwell.Label",
-                     "value": "WC5E.Traits.BlessingOfTheNightwell.Description"
+                     "pack": "warcraft5e.wc5e_racial_feats",
+                     "node": "LYqjFrLPcvTGbzU8",
+                     "label": "WC5E.Feats.BlessingOfTheNightwell.Label"
                   },
                   {
-                     "key": "WC5E.Traits.NightfallenMagic.Label",
-                     "value": "WC5E.Traits.NightfallenMagic.Description"
+                     "pack": "warcraft5e.wc5e_racial_feats",
+                     "node": "F4YEEH0GNtCHe7O3",
+                     "label": "WC5E.Feats.ExtraLanguage.Label"
                   },
                   {
-                     "key": "WC5E.Traits.ExtraLanguage.Label",
-                     "value": "WC5E.Traits.ExtraLanguage.Description"
+                     "pack": "warcraft5e.wc5e_racial_feats",
+                     "node": "FY96ff6uYCbHHBWx",
+                     "label": "WC5E.Feats.NightfallenMagic.Label"
                   }
                ],
                "names": {
@@ -239,44 +308,123 @@
                      "Alannaria",
                      "Macianne"
                   ],
-                  "family": [
-                     "Margaux",
-                     "Babineaux",
-                     "Gillette",
-                     "Clarent",
-                     "Roux",
-                     "Prideux"
+                  "family": "Margaux, Babineaux, Gillette, Clarent, Roux, Prideux"
+               },
+               "values": {
+                  "abilities": {
+                     "int": 1
+                  },
+                  "resistance": [
+                     "arcane"
                   ]
                }
             },
             {
-               "name": "WC5E.Race.Elf.Subraces.VoidElf.Name",
                "artwork": {
-                  "src": "modules/warcraft5e/res/pics/races/voidelf_artwork.jpg",
-                  "url": "",
-                  "credit": ""
+                  "src": "modules/warcraft5e/res/pics/races/voidelf_artwork.webp",
+                  "url": "https://www.deviantart.com/x-celebril-x/art/Al-thoras-Sunreach-Collector-of-Knowledge-796622229",
+                  "credit": "x-Celebril-x"
                },
-               "quote": "WC5E.Race.Elf.Subraces.VoidElf.Quote",
-               "description": "WC5E.Race.Elf.Subraces.VoidElf.Description",
-               "affiliation": "WC5E.Race.Elf.Subraces.VoidElf.Affiliation",
+               "name": "WC5E.Race.Elf.Subraces.VoidElf.Name",
+               "description": [
+                  {
+                     "italic": "WC5E.Race.Elf.Subraces.VoidElf.Description.1.Italic",
+                     "value": "WC5E.Race.Elf.Subraces.VoidElf.Description.1.Value"
+                  },
+                  {
+                     "value": "WC5E.Race.Elf.Subraces.VoidElf.Description.2.Value"
+                  },
+                  {
+                     "value": "WC5E.Race.Elf.Subraces.VoidElf.Description.3.Value"
+                  }
+               ],
+               "affiliation": [
+                  {
+                     "value": "WC5E.Race.Elf.Subraces.VoidElf.Affiliation.1.Value"
+                  }
+               ],
                "traits": [
+                  {
+                     "pack": "warcraft5e.wc5e_racial_feats",
+                     "node": "5AKyYIsadUDWh2aY",
+                     "label": "WC5E.Feats.ChillOfNight.Label"
+                  },
+                  {
+                     "pack": "warcraft5e.wc5e_racial_feats",
+                     "node": "aaWkt1T4Bkz68Lyf",
+                     "label": "WC5E.Feats.PreternaturalCalm.Label"
+                  },
+                  {
+                     "pack": "warcraft5e.wc5e_racial_feats",
+                     "node": "YtrP07v2BIZP0CNf",
+                     "label": "WC5E.Feats.SpatialRift.Label"
+                  },
+                  {
+                     "pack": "warcraft5e.wc5e_racial_feats",
+                     "node": "WmyW7iYpbWIp7MP6",
+                     "label": "WC5E.Feats.VoidMagic.Label"
+                  }
                ],
                "names": {
                   "male": [
-                     ""
+                     "Mariel",
+                     "Athaniar",
+                     "Anandor",
+                     "Tharama",
+                     "Viridiel",
+                     "Malanior"
                   ],
                   "female": [
-                     ""
+                     "Anarial",
+                     "Freja",
+                     "Driana",
+                     "Coria",
+                     "Alanassori",
+                     "Azshara"
                   ],
-                  "family": [
-                     ""
+                  "family": "WC5E.Race.Elf.Subraces.VoidElf.FamilyNames"
+               },
+               "values": {
+                  "abilities": {
+                     "choice": {
+                        "keys": [
+                           "int",
+                           "cha"
+                        ],
+                        "value": 1
+                     }
+                  },
+                  "resistance": [
+                     "shadow"
                   ]
                }
             }
-         ]
+         ],
+         "values": {
+            "abilities": {
+               "dex": 2
+            },
+            "language": [
+               "common",
+               "elven"
+            ],
+            "resistance": [
+            ],
+            "skills": [
+               "prc"
+            ],
+            "size": "med",
+            "speed": 30,
+            "weaponProficiencies": [
+               "longsword",
+               "longbow",
+               "rapier",
+               "shortbow"
+            ]
+         }
       }
    },
-   "img": "modules/warcraft5e/res/pics/races/elf.jpg",
+   "img": "modules/warcraft5e/res/pics/races/elf.webp",
    "effects": [
    ]
 }

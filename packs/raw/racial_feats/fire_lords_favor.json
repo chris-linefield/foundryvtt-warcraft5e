@@ -1,0 +1,26 @@
+{
+   "_id": "Uej2lHlNNFmCem39",
+   "name": "Fire Lord's Favor",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Wc5e - Core p. 13",
+      "requirements": "Dwarf (Dark Iron)"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.FireLordsFavor.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/fire/flame-burning-eye.webp",
+   "effects": [
+   ]
+}

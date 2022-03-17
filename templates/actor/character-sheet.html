@@ -31,10 +31,13 @@
             </aside>
 
             {{!-- Character Summary --}}
-            <ul class="summary flexrow">
+            <ul class="summary flexrow raceArea">
                 <li>
-                    <input type="text" disabled="disabled" name="data.details.race" value="{{data.details.race.name}}"
+                    <input type="text" disabled="disabled" name="data.details.race" value="{{data.details.race}}"
                            placeholder="{{ localize 'DND5E.Race' }}"/>
+                    <a class="config-button raceButton" data-action="race" title="{{localize 'DND5E.ArmorConfig'}}">
+                        <i class="fas fa-cog"></i>
+                    </a>
                 </li>
                 <li>
                     <input type="text" disabled="disabled" name="data.details.background"

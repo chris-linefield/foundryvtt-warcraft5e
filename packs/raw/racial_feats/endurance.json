@@ -1,0 +1,26 @@
+{
+   "_id": "6OX5tHzQDWUwldfw",
+   "name": "Endurance",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Wc5e - Core p. 25",
+      "requirements": "Tauren"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.Endurance.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/life/heart-glowing-red.webp",
+   "effects": [
+   ]
+}

@@ -1,0 +1,26 @@
+{
+   "_id": "KDuZezkPCIB6ZaA5",
+   "name": "Nature Resistance",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Wc5e - Core p. 15",
+      "requirements": "Elf (Night Elf)"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.NatureResistance.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/defensive/shield-barrier-glowing-triangle-blue-yellow.webp",
+   "effects": [
+   ]
+}

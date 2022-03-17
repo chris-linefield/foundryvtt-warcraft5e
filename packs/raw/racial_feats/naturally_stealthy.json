@@ -1,0 +1,26 @@
+{
+   "_id": "18KIxS8F8w8y7q0L",
+   "name": "Naturally Stealthy",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Wc5e - Core p. 20",
+      "requirements": "Gnome"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.NaturallyStealthy.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/control/silhouette-grow-shrink-tan.webp",
+   "effects": [
+   ]
+}

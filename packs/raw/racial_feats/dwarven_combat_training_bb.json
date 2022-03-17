@@ -1,0 +1,26 @@
+{
+   "_id": "NinT8sntLWkcdoQQ",
+   "name": "Combat Training",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Wc5e - Core p. 12",
+      "requirements": "Dwarf (Bronzebeard, Dark Iron)"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.DwarvenCombatTrainingBB.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/weapons/guns/gun-blunderbuss-gold.webp",
+   "effects": [
+   ]
+}

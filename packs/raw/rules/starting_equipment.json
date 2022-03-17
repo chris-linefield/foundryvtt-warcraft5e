@@ -8,16 +8,16 @@
    "flags": {
       "wc5e": {
          "type": "rule",
-         "title": "WC5E.Rules.Mechanics.StartingEquipment.Label",
+         "title": "WC5E.Rules.StartingEquipment.Label",
          "content": [
             {
-               "value": "WC5E.Rules.Mechanics.StartingEquipment.Description.1.Value"
+               "value": "WC5E.Rules.StartingEquipment.Description.1.Value"
             },
             {
-               "value": "WC5E.Rules.Mechanics.StartingEquipment.Description.2.Value"
+               "value": "WC5E.Rules.StartingEquipment.Description.2.Value"
             },
             {
-               "title": "WC5E.Rules.Mechanics.StartingEquipment.StartingWealth"
+               "title": "WC5E.Rules.StartingEquipment.StartingWealth"
             },
             {
                "table": {
@@ -27,7 +27,7 @@
                         "class": "left"
                      },
                      {
-                        "title": "WC5E.Rules.Mechanics.StartingEquipment.Funds",
+                        "title": "WC5E.Rules.StartingEquipment.Funds",
                         "class": "left"
                      },
                      {
@@ -43,7 +43,7 @@
                            "unit": "WC5E.UI.Units.Gp"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.StartingEquipment.AlchemistBonus"
+                           "text": "WC5E.Rules.StartingEquipment.AlchemistBonus"
                         }
                      ],
                      [
@@ -55,7 +55,7 @@
                            "unit": "WC5E.UI.Units.Gp"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.StartingEquipment.DeathKnightBonus"
+                           "text": "WC5E.Rules.StartingEquipment.DeathKnightBonus"
                         }
                      ],
                      [
@@ -147,7 +147,7 @@
                            "unit": "WC5E.UI.Units.Gp"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.StartingEquipment.TinkerBonus"
+                           "text": "WC5E.Rules.StartingEquipment.TinkerBonus"
                         }
                      ],
                      [
@@ -182,7 +182,7 @@
          "next": {
             "pack": "wc5e_rules",
             "node": "8a9UvmZT9MkLygR5",
-            "label": "WC5E.Rules.Mechanics.Wealth.Label"
+            "label": "WC5E.Rules.Wealth.Label"
          }
       }
    }

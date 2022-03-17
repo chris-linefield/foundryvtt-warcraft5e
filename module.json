@@ -6,7 +6,7 @@
    "authors": [],
    "url": "https://github.com/ArthegaAsdweri/foundryvtt-warcraft5e",
    "flags": {},
-   "version": "0.1.3",
+   "version": "0.1.4",
    "minimumCoreVersion": "0.8.2",
    "compatibleCoreVersion": "9",
    "scripts": [],
@@ -34,7 +34,7 @@
          "label": "Wc5e | Backgrounds",
          "path": "./packs/backgrounds.db",
          "private": false,
-         "entity": "Item",
+         "type": "Item",
          "system": "dnd5e"
       },
       {
@@ -42,7 +42,7 @@
          "label": "Wc5e | Background Feats",
          "path": "./packs/background_feats.db",
          "private": false,
-         "entity": "Item",
+         "type": "Item",
          "system": "dnd5e"
       },
       {
@@ -50,7 +50,7 @@
          "label": "Wc5e | Classes",
          "path": "./packs/classes.db",
          "private": false,
-         "entity": "Item",
+         "type": "Item",
          "system": "dnd5e"
       },
       {
@@ -58,7 +58,23 @@
          "label": "Wc5e | Class Features",
          "path": "./packs/class_feats.db",
          "private": false,
-         "entity": "Item",
+         "type": "Item",
+         "system": "dnd5e"
+      },
+      {
+         "name": "wc5e_copy_compendium",
+         "label": "Wc5e | Copy Compendium",
+         "path": "./packs/copy.db",
+         "type": "Item",
+         "system": "dnd5e",
+         "package": "warcraft5e"
+      },
+      {
+         "name": "wc5e_mechanics",
+         "label": "Wc5e | Mechanics",
+         "path": "./packs/mechanics.db",
+         "private": false,
+         "type": "Item",
          "system": "dnd5e"
       },
       {
@@ -66,7 +82,7 @@
          "label": "Wc5e | Monsters",
          "path": "./packs/monsters.db",
          "private": false,
-         "entity": "Actor",
+         "type": "Actor",
          "system": "dnd5e"
       },
       {
@@ -74,22 +90,14 @@
          "label": "Wc5e | Monster Features",
          "path": "./packs/monster_feats.db",
          "private": false,
-         "entity": "Item",
+         "type": "Item",
          "system": "dnd5e"
-      },
-      {
-         "name": "wc5e_copy_compendium",
-         "label": "Wc5e | Copy Compendium",
-         "path": "./packs/copy.db",
-         "entity": "Item",
-         "system": "dnd5e",
-         "package": "warcraft5e"
       },
       {
          "name": "wc5e_items",
          "label": "Wc5e | Items",
          "path": "./packs/items.db",
-         "entity": "Item",
+         "type": "Item",
          "system": "dnd5e",
          "package": "warcraft5e"
       },
@@ -98,7 +106,7 @@
          "label": "Wc5e | Races",
          "path": "./packs/races.db",
          "private": false,
-         "entity": "Item",
+         "type": "Item",
          "system": "dnd5e"
       },
       {
@@ -106,7 +114,7 @@
          "label": "Wc5e | Racial Features",
          "path": "./packs/racial_feats.db",
          "private": false,
-         "entity": "Item",
+         "type": "Item",
          "system": "dnd5e"
       },
       {
@@ -114,7 +122,7 @@
          "label": "Wc5e | Rules",
          "path": "./packs/rules.db",
          "private": false,
-         "entity": "Item",
+         "type": "Item",
          "system": "dnd5e"
       },
       {
@@ -122,7 +130,7 @@
          "label": "Wc5e | Spells",
          "path": "./packs/spells.db",
          "private": false,
-         "entity": "Item",
+         "type": "Item",
          "system": "dnd5e"
       },
       {
@@ -130,7 +138,7 @@
          "label": "Wc5e | Class Talents",
          "path": "./packs/class_talents.db",
          "private": false,
-         "entity": "Item",
+         "type": "Item",
          "system": "dnd5e"
       }
    ],

@@ -8,19 +8,19 @@
    "flags": {
       "wc5e": {
          "type": "rule",
-         "title": "WC5E.Rules.Mechanics.Backgrounds.Label",
+         "title": "WC5E.Rules.Backgrounds.Label",
          "content": [
             {
-               "value": "WC5E.Rules.Mechanics.Backgrounds.Description.1.Value"
+               "value": "WC5E.Rules.Backgrounds.Description.1.Value"
             },
             {
-               "value": "WC5E.Rules.Mechanics.Backgrounds.Description.2.Value"
+               "value": "WC5E.Rules.Backgrounds.Description.2.Value"
             }
          ],
          "prev": {
             "pack": "wc5e_rules",
             "node": "wXbK5HmDbCCFZChg",
-            "label": "WC5E.Rules.Mechanics.Inspiration.Label"
+            "label": "WC5E.Rules.Inspiration.Label"
          },
          "next": {
             "pack": "wc5e_backgrounds",

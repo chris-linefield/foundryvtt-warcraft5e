@@ -1,0 +1,114 @@
+{
+   "name": "Cannon, Siege",
+   "type": "weapon",
+   "img": "icons/weapons/artillery/cannon-engraved-gold.webp",
+   "data": {
+      "description": {
+         "value": "<p><em>reload (5 actions)</em></p>\n<p>This huge-sized piece of artillery can blast through walls like paper (dealing double damage to objects). This acts as a large-sized rifle, and increases in dice from 1d6 to 2d6. Due to its size, it must be mounted on a solid surface (and weighs 225 lbs.), and cannot be carried.</p>\n<p>@Compendium[warcraft5e.wc5e_mechanics.VXKn1GHEf9WcvFv5]{Sapper}</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 223",
+      "quantity": 1,
+      "weight": 225,
+      "price": 3200,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "rare",
+      "identified": true,
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": null,
+         "units": ""
+      },
+      "target": {
+         "value": null,
+         "width": null,
+         "units": "any",
+         "type": ""
+      },
+      "range": {
+         "value": 400,
+         "long": 1600,
+         "units": "ft"
+      },
+      "uses": {
+         "value": null,
+         "max": "",
+         "per": ""
+      },
+      "consume": {
+         "type": "ammo",
+         "target": "",
+         "amount": 1
+      },
+      "ability": "",
+      "actionType": "rwak",
+      "attackBonus": "0",
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [
+            [
+               "8d6",
+               ""
+            ]
+         ],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "scaling": "spell"
+      },
+      "armor": {
+         "value": 10
+      },
+      "hp": {
+         "value": 0,
+         "max": 0,
+         "dt": null,
+         "conditions": ""
+      },
+      "weaponType": "martialR",
+      "baseItem": "generalFirearm",
+      "properties": {
+         "ada": false,
+         "amm": false,
+         "fin": false,
+         "fir": true,
+         "foc": false,
+         "hvy": false,
+         "lgt": false,
+         "lod": false,
+         "mgc": false,
+         "rch": false,
+         "rel": true,
+         "ret": false,
+         "sil": false,
+         "spc": false,
+         "thr": false,
+         "two": false,
+         "ver": false,
+         "hvyplus": true
+      },
+      "proficient": true
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+      "default": 0
+   },
+   "flags": {
+   },
+   "_id": "H69xwiJWidCwmWju"
+}

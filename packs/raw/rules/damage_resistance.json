@@ -6,8 +6,8 @@
    },
    "type": "rule",
    "data": {
-      "title": "WC5E.Rules.Mechanics.Resistance.Label",
-      "content": "WC5E.Rules.Mechanics.Resistance.Content"
+      "title": "WC5E.Rules.Resistance.Label",
+      "content": "WC5E.Rules.Resistance.Content"
    },
    "flags": {},
    "img": "modules/warcraft5e/res/pics/items/inventory/scroll-blank.jpg",

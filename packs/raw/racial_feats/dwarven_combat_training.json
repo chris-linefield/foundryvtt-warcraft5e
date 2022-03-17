@@ -1,0 +1,26 @@
+{
+   "_id": "UAeVCEMxc1t2opdJ",
+   "name": "Dwarven Combat Training",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Wc5e - Core p. 11",
+      "requirements": "Dwarf"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.DwarvenCombatTraining.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/weapons/hammers/hammer-double-stone.webp",
+   "effects": [
+   ]
+}

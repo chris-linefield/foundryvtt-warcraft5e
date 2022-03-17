@@ -1,0 +1,26 @@
+{
+   "_id": "Pp1OAVhgOFluTfsm",
+   "name": "Artificer's Lore",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Wc5e - Core p. 20",
+      "requirements": "Gnome"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.ArtificersLore.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/sundries/documents/document-official-capital.webp",
+   "effects": [
+   ]
+}

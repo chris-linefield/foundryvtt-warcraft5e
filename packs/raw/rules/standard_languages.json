@@ -8,7 +8,7 @@
    "flags": {
       "wc5e": {
          "type": "rule",
-         "title": "WC5E.Rules.Mechanics.StandardLanguages.Label",
+         "title": "WC5E.Rules.StandardLanguages.Label",
          "content": [
             {
                "table": {
@@ -17,10 +17,10 @@
                         "title": "WC5E.UI.Language"
                      },
                      {
-                        "title": "WC5E.Rules.Mechanics.StandardLanguages.TypicalSpeakers"
+                        "title": "WC5E.Rules.StandardLanguages.TypicalSpeakers"
                      },
                      {
-                        "title": "WC5E.Rules.Mechanics.StandardLanguages.Script"
+                        "title": "WC5E.Rules.StandardLanguages.Script"
                      },
                      {}
                   ],
@@ -39,7 +39,7 @@
                            "text": "WC5E.Script.Common"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.StandardLanguages.Description.1.Special",
+                           "text": "WC5E.Rules.StandardLanguages.Description.1.Special",
                            "sup": "1"
                         }
                      ],
@@ -65,7 +65,7 @@
                            "text": "WC5E.Script.Eredic"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.StandardLanguages.Description.2.Special",
+                           "text": "WC5E.Rules.StandardLanguages.Description.2.Special",
                            "sup": "2"
                         }
                      ],
@@ -92,7 +92,7 @@
                            "text": "WC5E.Script.Elven"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.StandardLanguages.Description.4.Special"
+                           "text": "WC5E.Rules.StandardLanguages.Description.4.Special"
                         }
                      ],
                      [
@@ -101,7 +101,7 @@
                         },
                         {
                            "textParts": [
-                              "WC5E.Rules.Mechanics.StandardLanguages.Fiend",
+                              "WC5E.Rules.StandardLanguages.Fiend",
                               "WC5E.Class.Warlock.Name"
                            ]
                         },
@@ -109,7 +109,7 @@
                            "text": "WC5E.Script.Eredic"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.StandardLanguages.Cursed"
+                           "text": "WC5E.Rules.StandardLanguages.Cursed"
                         }
                      ],
                      [
@@ -149,7 +149,7 @@
                            "text": "WC5E.Script.Runic"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.StandardLanguages.Description.5.Special"
+                           "text": "WC5E.Rules.StandardLanguages.Description.5.Special"
                         }
                      ],
                      [
@@ -162,7 +162,7 @@
                            "text": "WC5E.Script.Common"
                         },
                         {
-                           "text": "WC5E.Rules.Mechanics.StandardLanguages.Description.6.Special"
+                           "text": "WC5E.Rules.StandardLanguages.Description.6.Special"
                         }
                      ],
                      [
@@ -254,39 +254,39 @@
                }
             },
             {
-               "value": "WC5E.Rules.Mechanics.StandardLanguages.Description.1.Value"
+               "value": "WC5E.Rules.StandardLanguages.Description.1.Value"
             },
             {
-               "value": "WC5E.Rules.Mechanics.StandardLanguages.Description.2.Value"
+               "value": "WC5E.Rules.StandardLanguages.Description.2.Value"
             },
             {
-               "value": "WC5E.Rules.Mechanics.StandardLanguages.Description.3.Value"
+               "value": "WC5E.Rules.StandardLanguages.Description.3.Value"
             },
             {
-               "value": "WC5E.Rules.Mechanics.StandardLanguages.Description.4.Value"
+               "value": "WC5E.Rules.StandardLanguages.Description.4.Value"
             },
             {
-               "value": "WC5E.Rules.Mechanics.StandardLanguages.Description.5.Value"
+               "value": "WC5E.Rules.StandardLanguages.Description.5.Value"
             },
             {
-               "value": "WC5E.Rules.Mechanics.StandardLanguages.Description.6.Value"
+               "value": "WC5E.Rules.StandardLanguages.Description.6.Value"
             },
             {
-               "value": "WC5E.Rules.Mechanics.StandardLanguages.Description.7.Value"
+               "value": "WC5E.Rules.StandardLanguages.Description.7.Value"
             },
             {
-               "value": "WC5E.Rules.Mechanics.StandardLanguages.Description.8.Value"
+               "value": "WC5E.Rules.StandardLanguages.Description.8.Value"
             }
          ],
          "prev": {
             "pack": "wc5e_rules",
             "node": "OawPTo5di1JJJlAc",
-            "label": "WC5E.Rules.Mechanics.ClassTalents.Label"
+            "label": "WC5E.Rules.ClassTalents.Label"
          },
          "next": {
             "pack": "wc5e_rules",
             "node": "wXbK5HmDbCCFZChg",
-            "label": "WC5E.Rules.Mechanics.Inspiration.Label"
+            "label": "WC5E.Rules.Inspiration.Label"
          }
       }
    }

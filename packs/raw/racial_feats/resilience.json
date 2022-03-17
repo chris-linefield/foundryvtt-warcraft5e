@@ -1,0 +1,26 @@
+{
+   "_id": "u3COzbJouLIFFY73",
+   "name": "Resilience",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Wc5e - Core p. 12",
+      "requirements": "Dwarf (Bronzebeard)"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.Feats.Resilience.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/skills/wounds/blood-cells-vessel-red-orange.webp",
+   "effects": [
+   ]
+}

@@ -47,18 +47,15 @@
     font-family: 'Heuristica';
 }
 
-.directory .directory-list .directory-item {
+.directory .directory-list .directory-item,
+.directory .directory-list .directory-item.document {
     line-height: 80px;
     font-size: 16px;
     border-bottom: 1px solid #cab87a;
     padding: 2px 0 3px;
 }
 
-.directory .directory-list .entry-name {
-    font-weight: bold;
-}
-
-.directory .directory-list .directory-item img {
+.directory .directory-list .directory-item.document img {
     width: 80px;
     height: 80px;
     border: 3px double #cab87a;
@@ -152,6 +149,23 @@
 
 .warcraft5e section {
     padding-bottom: 10px;
+}
+
+/*********************************
+ * CHARACTER SHEET
+ ********************************/
+
+.warcraft5e .raceArea li {
+    position:relative;
+}
+
+.warcraft5e.actor .config-button.raceButton {
+    position:absolute; top:-5px; right:5px;
+    display:none;
+}
+
+.warcraft5e .raceArea:hover .raceButton {
+    display:block;
 }
 
 /*********************************
