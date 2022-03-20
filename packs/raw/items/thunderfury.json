@@ -1,0 +1,116 @@
+{
+   "name": "Thunderfury, Blessed Blade of the Windseeker",
+   "type": "weapon",
+   "img": "modules/warcraft5e/res/pics/items/thunderfury.webp",
+   "data": {
+      "description": {
+         "value": "<p><em>requires attunement</em></p>\n<p>Thunderfury, Blessed Blade of the Windseeker is the legendary sword once wielded by Thunderaan, Prince of Air. The prince, son of Al'Akir the Windlord, was attacked by Ragnaros the Firelord, in an attempt to heighten the already impressive power that the fire elemental held.</p>\n<p>Ragnaros succeeded; however, Thunderaan's power could not be completely taken into his form. What remained of Thunderaan was placed in a talisman of elemental binding, which was broken into two pieces. The pieces were then given to the Firelord's two lieutenants, Baron Geddon and Garr, respectively the left and right halves. These two halves are known as the Bindings of the Windseeker.</p>\n<p>While attuned to this sword, you can cast the absorb elements spell at will, but only against lightning and thunder damage as a 7th level spell. The sword has 8 charges. You can spend charges to manifest one of the following effects:</p>\n<ul>\n<li><em>Discharge (2 charges):</em> You cast the lightning bolt spell, heightened to 7th level.</li>\n<li><em>Lightning Rod (1 charge):</em> You can choose a point within 10 feet of you. Any effect that deals lightning damage and includes the point you chosen allows you to absorb elements and reduce the damage dealt by the effect by the amount you absorbed, even to other targets.</li>\n</ul>\n<p>The sword replenishes 1d4+2 charges every dawn.</p>\n<p>You have +3 to attack and damage rolls with this magic weapon.</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 208",
+      "quantity": 1,
+      "weight": 3,
+      "price": null,
+      "attunement": 1,
+      "equipped": false,
+      "rarity": "artifact",
+      "identified": true,
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": null,
+         "units": ""
+      },
+      "target": {
+         "value": null,
+         "width": null,
+         "units": "",
+         "type": ""
+      },
+      "range": {
+         "value": 5,
+         "long": null,
+         "units": "ft"
+      },
+      "uses": {
+         "value": null,
+         "max": "",
+         "per": ""
+      },
+      "consume": {
+         "type": "",
+         "target": "",
+         "amount": null
+      },
+      "ability": "",
+      "actionType": "mwak",
+      "attackBonus": "3",
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [
+            [
+               "1d8 + @mod +3",
+               "slashing"
+            ]
+         ],
+         "versatile": "1d10 + @mod +3"
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "scaling": "spell"
+      },
+      "armor": {
+         "value": 10
+      },
+      "hp": {
+         "value": 0,
+         "max": 0,
+         "dt": null,
+         "conditions": ""
+      },
+      "weaponType": "martialM",
+      "baseItem": "longsword",
+      "properties": {
+         "ver": true,
+         "amm": false,
+         "hvy": false,
+         "fin": false,
+         "fir": false,
+         "foc": false,
+         "lgt": false,
+         "lod": false,
+         "rch": false,
+         "rel": false,
+         "ret": false,
+         "spc": false,
+         "thr": false,
+         "two": false,
+         "mgc": true,
+         "ada": false,
+         "hvyplus": false,
+         "sil": false
+      },
+      "proficient": false,
+      "attributes": {
+         "spelldc": 10
+      }
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+   },
+   "flags": {
+   },
+   "_id": "seRmzDIiDt5cPkD1"
+}

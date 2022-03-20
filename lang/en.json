@@ -8184,11 +8184,20 @@
          "AlchemistsSupplies": {
             "Label": "Alchemist‘s Supplies"
          },
+         "AnathemaAndBenediction": {
+            "Label": "Anathema and Benediction"
+         },
          "Annihilator": {
             "Label": "Annihilator"
          },
          "ArcaniteReaper": {
             "Label": "Arcanite Reaper"
+         },
+         "Ashbringer": {
+            "Label": "Ashbringer"
+         },
+         "Atiesh": {
+            "Label": "Atiesh, Greatstaff of the Guardian"
          },
          "AttackClaws": {
             "Label": "Attack Claws",
@@ -8386,6 +8395,9 @@
          },
          "FineClothes": {
             "Label": "Fine Clothes"
+         },
+         "Frostmourne": {
+            "Label": "Frostmourne"
          },
          "GarroteWire": {
             "Label": "Garrote Wire",
@@ -8592,6 +8604,9 @@
          "ScimitarOfSirocco": {
             "Label": "Scimitar of the Sirocco"
          },
+         "Shadowmourne": {
+            "Label": "Shadowmourne"
+         },
          "Shortsword": {
             "Label": "Shortsword"
          },
@@ -8657,6 +8672,12 @@
          },
          "ThievesTools": {
             "Label": "Thieves‘ Tools"
+         },
+         "Thoridal": {
+            "Label": "Thoridal, the Stars' Fury"
+         },
+         "Thunderfury": {
+            "Label": "Thunderfury, Blessed Blade of the Windseeker"
          },
          "TirioshNightmareOfAges": {
             "Label": "Tiriosh, Nightmare of Ages"
@@ -9421,6 +9442,9 @@
                   "Value": "Sometimes a special ability or spell tells you that you have advantage or disadvantage on an ability check, a saving throw, or an attack roll. When that happens, you roll a second d20 when you make the roll. Use the higher of the two rolls if you have advantage, and use the lower roll if you have disadvantage. For example, if you have disadvantage and roll a 17 and a 5, you use the 5. If you instead have advantage and roll those numbers, you use the 17."
                }
             }
+         },
+         "Artifacts": {
+            "Label": "Artifacts"
          },
          "Backgrounds": {
             "Label": "Backgrounds",
