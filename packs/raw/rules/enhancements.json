@@ -1,0 +1,78 @@
+{
+   "_id": "5mqqgrGbFZK7V4z9",
+   "name": "Enhancements",
+   "permission": {
+      "default": 0
+   },
+   "type": "class",
+   "flags": {
+      "wc5e": {
+         "type": "rule",
+         "title": "WC5E.Rules.Enhancements.Label",
+         "content": [
+            {
+               "table": {
+                  "head": [
+                     {
+                        "title": ""
+                     },
+                     {
+                        "title": ""
+                     },
+                     {
+                        "title": ""
+                     },
+                     {
+                        "title": ""
+                     }
+                  ],
+                  "rows": [
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "3oACU5ZiSHiSQ6wP",
+                              "label": "WC5E.Items.AvatarRaimentArmWraps.Label"
+                           }
+                        },
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "uac9IAso35jQzKBq",
+                              "label": "WC5E.Items.AvatarRaimentGloves.Label"
+                           }
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "0ykgBHOVrZCF7bCD",
+                              "label": "WC5E.Items.AvatarRaimentMantle.Label"
+                           }
+                        },
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "dzikPMoBTSgsphCC",
+                              "label": "WC5E.Items.AvatarRaimentVestments.Label"
+                           }
+                        }
+                     ]
+                  ]
+               }
+            }
+         ],
+         "prev": {
+            "pack": "wc5e_rules",
+            "node": "gapBYzbuF6qevYSy",
+            "label": "WC5E.Rules.Artifacts.Label"
+         },
+         "next": {
+            "pack": "wc5e_rules",
+            "node": "5mqqgrGbFZK7V4z9",
+            "label": "WC5E.Rules.Enhancements.Label"
+         }
+      }
+   }
+}

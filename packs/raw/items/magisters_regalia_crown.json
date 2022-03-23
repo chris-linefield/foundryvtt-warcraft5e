@@ -1,0 +1,95 @@
+{
+   "name": "Magister's Regalia Crown",
+   "type": "equipment",
+   "img": "icons/equipment/head/crown-gold-red.webp",
+   "data": {
+      "description": {
+         "value": "<p><em>requires attunement</em></p>\n<p>These enchanted vestments were originally fashioned by the master craftsmen of the Kirin Tor, the reigning magical council of Dalaran before the Third War. Only Dalaran's most elite archmagi are deemed worthy to don this astonishing attire.</p>\n<p>The Regalia itself is crafted of fine crimson silk, purple velvet, and gold cord. Its belt has emeralds within, and the robes are set with a single emerald above the heart. Within the flared sleeves lies space for small pouches of spell components. To retrieve and manipulate these spell components, the gloves are open-fingered.</p>\n<ul>\n<li><em>Uncommon:</em> If possessing one set piece, your spell save DC and spell attack bonus each increase by 2.</li>\n<li><em>Rare:</em> If possessing two to three set pieces, your base Armor Class is 15 + your Agility modifier. Although altering your AC, using the set does not count as if you are armored.</li>\n<li><em>Epic:</em> If possessing all set pieces, you have advantage on saving throws against spells and other magical effects.</li>\n</ul>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 211",
+      "quantity": 1,
+      "weight": 0,
+      "price": 0,
+      "attunement": 1,
+      "equipped": false,
+      "rarity": "varies",
+      "identified": true,
+      "activation": {
+         "type": "",
+         "cost": 0,
+         "condition": ""
+      },
+      "duration": {
+         "value": null,
+         "units": ""
+      },
+      "target": {
+         "value": null,
+         "width": null,
+         "units": "",
+         "type": ""
+      },
+      "range": {
+         "value": null,
+         "long": null,
+         "units": ""
+      },
+      "uses": {
+         "value": null,
+         "max": "",
+         "per": null
+      },
+      "consume": {
+         "type": "",
+         "target": null,
+         "amount": null
+      },
+      "ability": null,
+      "actionType": "",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "scaling": "spell"
+      },
+      "armor": {
+         "value": null,
+         "type": "clothing",
+         "dex": null
+      },
+      "hp": {
+         "value": 0,
+         "max": 0,
+         "dt": null,
+         "conditions": ""
+      },
+      "baseItem": "",
+      "speed": {
+         "value": null,
+         "conditions": ""
+      },
+      "strength": 0,
+      "stealth": false,
+      "proficient": true
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+   },
+   "flags": {
+   },
+   "_id": "GJ52YZHrvpDLQpeZ"
+}

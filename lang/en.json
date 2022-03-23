@@ -8207,6 +8207,18 @@
                }
             }
          },
+         "AvatarRaimentArmWraps": {
+            "Label": "Avatar Raiment Arm Wraps"
+         },
+         "AvatarRaimentGloves": {
+            "Label": "Avatar Raiment Gloves"
+         },
+         "AvatarRaimentMantle": {
+            "Label": "Avatar Raiment Mantle"
+         },
+         "AvatarRaimentVestments": {
+            "Label": "Avatar Raiment Vestments"
+         },
          "BayonetHeavy": {
             "Label": "Bayonet (Heavy)",
             "Description": {
@@ -8248,6 +8260,18 @@
                   "Value": "50 fuel units for electrical engines, rechargeable"
                }
             }
+         },
+         "BlackenedDefiasArmor": {
+            "Label": "Blackened Defias Armor"
+         },
+         "BlackenedDefiasBelt": {
+            "Label": "Blackened Defias Belt"
+         },
+         "BlackenedDefiasBoots": {
+            "Label": "Blackened Defias Boots"
+         },
+         "BlackenedDefiasGloves": {
+            "Label": "Blackened Defias Gloves"
          },
          "BlackGraspOfTheDestroyer": {
             "Label": "Black Grasp of the Destroyer"
@@ -8330,6 +8354,18 @@
          "CauldronOfTheMadAlchemist": {
             "Label": "Cauldron of the Mad Alchemist"
          },
+         "CenarionRaimentBelt": {
+            "Label": "Cenarion Raiment Belt"
+         },
+         "CenarionRaimentBracers": {
+            "Label": "Cenarion Raiment Bracers"
+         },
+         "CenarionRaimentHelm": {
+            "Label": "Cenarion Raiment Helm"
+         },
+         "CenarionRaimentVestments": {
+            "Label": "Cenarion Raiment Vestments"
+         },
          "ChainsOfTheUndyingMage": {
             "Label": "Chains of the Undying Mage"
          },
@@ -8367,11 +8403,35 @@
          "DemonicFigurine": {
             "Label": "Demonic Figurine"
          },
+         "DestroyerArmorBreastplate": {
+            "Label": "Destroyer Armor Breastplate"
+         },
+         "DestroyerArmorGauntlets": {
+            "Label": "Destroyer Armor Gauntlets"
+         },
+         "DestroyerArmorGirdle": {
+            "Label": "Destroyer Armor Girdle"
+         },
+         "DestroyerArmorGreatHelm": {
+            "Label": "Destroyer Armor Great Helm"
+         },
          "DisguiseKit": {
             "Label": "Disguise Kit"
          },
          "Doomhammer": {
             "Label": "Doomhammer"
+         },
+         "DragonstalkerArmorBeastplate": {
+            "Label": "Dragonstalker Armor Beastplate"
+         },
+         "DragonstalkerArmorBracers": {
+            "Label": "Dragonstalker Armor Bracers"
+         },
+         "DragonstalkerArmorHelm": {
+            "Label": "Dragonstalker Armor Helm"
+         },
+         "DragonstalkerArmorLegguards": {
+            "Label": "Dragonstalker Armor Legguards"
          },
          "EmbraceOfTheTwistingNether": {
             "Label": "Embrace of the Twisting Nether"
@@ -8466,11 +8526,35 @@
          "JainasLocket": {
             "Label": "Jaina's Locket"
          },
+         "JudgementArmorBelt": {
+            "Label": "Judgement Armor Belt"
+         },
+         "JudgementArmorBindings": {
+            "Label": "Judgement Armor Bindings"
+         },
+         "JudgementArmorCrown": {
+            "Label": "Judgement Armor Crown"
+         },
+         "JudgementArmorPlate": {
+            "Label": "Judgement Armor Plate"
+         },
          "LightsVengeance": {
             "Label": "Light's Vengeance"
          },
          "Longsword": {
             "Label": "Longsword"
+         },
+         "MagistersRegaliaBindings": {
+            "Label": "Magister's Regalia Bindings"
+         },
+         "MagistersRegaliaCrown": {
+            "Label": "Magister's Regalia Crown"
+         },
+         "MagistersRegaliaMantle": {
+            "Label": "Magister's Regalia Mantle"
+         },
+         "MagistersRegaliaRobe": {
+            "Label": "Magister's Regalia Robe"
          },
          "ManaBlade": {
             "Label": "Mana Blade"
@@ -8528,6 +8612,18 @@
          },
          "PhilosophersStone": {
             "Label": "Philosopher's Stone"
+         },
+         "PlagueheartRaimentMask": {
+            "Label": "Plagueheart Raiment Mask"
+         },
+         "PlagueheartRaimentGloves": {
+            "Label": "Plagueheart Raiment Gloves"
+         },
+         "PlagueheartRaimentRobe": {
+            "Label": "Plagueheart Raiment Robe"
+         },
+         "PlagueheartRaimentSandals": {
+            "Label": "Plagueheart Raiment Sandals"
          },
          "PoisonersKit": {
             "Label": "Poisoner‘s Kit"
@@ -8609,6 +8705,18 @@
          },
          "Shortsword": {
             "Label": "Shortsword"
+         },
+         "SilverHandBlessedBelt": {
+            "Label": "Silver Hand Blessed Belt"
+         },
+         "SilverHandBlessedGauntlets": {
+            "Label": "Silver Hand Blessed Gauntlets"
+         },
+         "SilverHandBlessedGreaves": {
+            "Label": "Silver Hand Blessed Greaves"
+         },
+         "SilverHandBlessedPlate": {
+            "Label": "Silver Hand Blessed Plate"
          },
          "SpellShieldAmulet": {
             "Label": "Spell Shield Amulet"
@@ -8710,6 +8818,18 @@
          },
          "Vestments": {
             "Label": "Vestments"
+         },
+         "VioletCitadelBoots": {
+            "Label": "Violet Citadel Boots"
+         },
+         "VioletCitadelGloves": {
+            "Label": "Violet Citadel Gloves"
+         },
+         "VioletCitadelHood": {
+            "Label": "Violet Citadel Hood"
+         },
+         "VioletCitadelRobe": {
+            "Label": "Violet Citadel Robe"
          },
          "VoodooDoll": {
             "Label": "Voodoo Doll",
@@ -9442,6 +9562,19 @@
                   "Value": "Sometimes a special ability or spell tells you that you have advantage or disadvantage on an ability check, a saving throw, or an attack roll. When that happens, you roll a second d20 when you make the roll. Use the higher of the two rolls if you have advantage, and use the lower roll if you have disadvantage. For example, if you have disadvantage and roll a 17 and a 5, you use the 5. If you instead have advantage and roll those numbers, you use the 17."
                }
             }
+         },
+         "ArmorSets": {
+            "Label": "Armor Sets",
+            "AvatarRaimentArmor": "Avatar Raiment Armor",
+            "BlackenedDefiasArmor": "Blackened Defias Armor",
+            "CenarionRaiment": "Cenarion Raiment",
+            "DestroyerArmor": "Destroyer Armor",
+            "DragonstalkerArmor": "Dragonstalker Armor",
+            "JudgementArmor": "Judgement Armor",
+            "MagistersRegalia": "Magister's Regalia",
+            "PlagueheartRaiment": "Plagueheart Raiment",
+            "RobesOfTheVioletCitadel": "Robes of the Violet Citadel",
+            "SilverHandBlessedPlate": "Silver Hand Blessed Plate"
          },
          "Artifacts": {
             "Label": "Artifacts"

@@ -1,0 +1,95 @@
+{
+   "name": "Silver Hand Blessed Plate",
+   "type": "equipment",
+   "img": "icons/equipment/chest/breastplate-gorget-steel-white.webp",
+   "data": {
+      "description": {
+         "value": "<p><em>requires attunement</em></p>\n<p>This set of armor is worn by the Knights of the Silver Hand in battle, this armor is blessed by the Holy Light to aid the righteous men and women of the Order against evil influences.</p>\n<p>Made of steel and silver and gold, and mantled with a blue cloak on one shoulder, the knights of the order fight with the full righteous cause of the Holy Light.</p>\n<ul>\n<li><em>Uncommon:</em> If possessing one set piece, you gain 15 temporary hit points at the beginning of every day. These temporary hit points may only be used to reduce damage to your maximum hit points (such as by the draining attacks of undead), and do not apply against normal damage.</li>\n<li><em>Rare:</em> If possessing two or three set pieces, you add the sunbeam spell to your spell list. It is always prepared so long as you wear the armor. If you cannot cast spells, or cannot cast the sunbeam spell yet, you can instead cast it once before a short rest.</li>\n<li><em>Epic:</em> If possessing all set pieces, when you heal a creature with a holy light spell or with your Lay on Hands feature, a radiant burst of light protects them. Hostile creatures within 5 feet of a creature healed by this spell must make an Agility saving throw or be blinded for 1 round. If the hostile creatures are fiends or undead, they may instead take holy damage equal to double the spell‘s level or one-quarter of the number of hit points your target regained (your choice for either).</li>\n</ul>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 212",
+      "quantity": 1,
+      "weight": 65,
+      "price": null,
+      "attunement": 1,
+      "equipped": false,
+      "rarity": "varies",
+      "identified": true,
+      "activation": {
+         "type": "",
+         "cost": 0,
+         "condition": ""
+      },
+      "duration": {
+         "value": null,
+         "units": ""
+      },
+      "target": {
+         "value": null,
+         "width": null,
+         "units": "",
+         "type": ""
+      },
+      "range": {
+         "value": null,
+         "long": null,
+         "units": ""
+      },
+      "uses": {
+         "value": null,
+         "max": "",
+         "per": null
+      },
+      "consume": {
+         "type": "",
+         "target": null,
+         "amount": null
+      },
+      "ability": null,
+      "actionType": "",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "scaling": "spell"
+      },
+      "armor": {
+         "value": 18,
+         "type": "heavy",
+         "dex": 0
+      },
+      "hp": {
+         "value": 0,
+         "max": 0,
+         "dt": null,
+         "conditions": ""
+      },
+      "baseItem": "plate",
+      "speed": {
+         "value": null,
+         "conditions": ""
+      },
+      "strength": 15,
+      "stealth": true,
+      "proficient": false
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+   },
+   "flags": {
+   },
+   "_id": "8dcStjz2DnVL0Pki"
+}
