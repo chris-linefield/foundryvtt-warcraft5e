@@ -110,6 +110,7 @@
    "flags": {
       "wc5e": {
          "type": "item",
+         "enhancement": "",
          "unit": "WC5E.UI.Units.Gp",
          "weightUnit": "WC5E.UI.Units.Lb",
          "label": "WC5E.Items.Moonglaive.Label",

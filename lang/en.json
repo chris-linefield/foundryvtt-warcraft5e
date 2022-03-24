@@ -9718,6 +9718,52 @@
                }
             }
          },
+         "Enhancements": {
+            "Label": "Enhancements",
+            "Description": {
+               "1": {
+                  "Value": "Weapons and armors may be enhanced with the secret knowledge of infusionists. Enhancements can be applied to any weapon, and take up one step of rarity. An infusionist can stack many different enhancements on a single weapon or armor, increasing the bonus. This costs the same for the difference between the two steps of rarity."
+               },
+               "2": {
+                  "Title": "Ricochet Weapon",
+                  "Italic": "Weapon (thrown weapons), one step",
+                  "Value": "This weapon can be thrown to ricochet off one target and into another. If it does not normally have the thrown property, it becomes a thrown weapon 20/60 ft."
+               },
+               "3": {
+                  "Value": "When you make a ranged attack with this weapon, it can fly out and target another creature within range, counting its current target as its point of attack for the purposes of range. This costs an attack action. When the weapon cannot make any more attacks (such as you running out of attack actions), it returns to your hand at the end of your turn in the same round. You can make an attack with a bonus weapon as if using two-weapon fighting if the weapon normally qualifies."
+               },
+               "4": {
+                  "Value": "The weapon can ricochet up to a maximum number of times equal to once per rarity grade (twice if uncommon, six times if legendary, etc.), so long as you have the attacks to expend."
+               },
+               "5": {
+                  "Value": "Night elven huntresses often enhance their moonglaives with this weapon."
+               },
+               "6": {
+                  "Title": "Storm Weapon",
+                  "Value": "This weapon deals extra thunder damage equal to 1 per step of rarity. Furthermore, when thrown, the storm weapon returns at the same round, and may be used again with another attack action."
+               },
+               "7": {
+                  "Value": "Wildhammer dwarves often enhance their light hammers with this enhancement for use atop their flying gryphons."
+               },
+               "8": {
+                  "Title": "Single-Use Enhancements",
+                  "Value": "Temporary enhancements to weapons or ammunition can also be infused to contain a strike or shot effect if it is prepared specifically to hold it with an Infusion Kit. As this is infused with the ammunition itself, using it does not require a bonus action (but cannot be joined with another shot spell)."
+               },
+               "9": {
+                  "Value": "Ammunition are treated as both consumables and ammunition (enchanting 20 pieces of ammunition costs one-half the normal cost of the same quality). Despite the names below, ammunition infusions can be used interchangeably between ammunition such as arrows, crossbow bolts, bullets, and more. Ammunition infusions fade after a successful hit, and can be reused if they missed."
+               },
+               "10": {
+                  "Value": "For the purposes of spellcasting ability rolls for strike effects, treat the bonus as +4. Single use enhancements may be also stored into stones or gems, which can be sold by themselves."
+               }
+            },
+            "Rarity": "+1 to rarity step",
+            "RicochetShort": "Bounces per attack action, and returns",
+            "StormShort": "Extra thunder damage, returns",
+            "ArcaneShort": "Shot Array (Arcane); or 1d4 arcane damage, dispel magic (1st level)",
+            "BlackShort": "Shot Array (Black); or 3d4 shadow damage, conjure undead I",
+            "FireShort": "Shot Array (Searing); or 1d6 fire damage",
+            "SleepShort": "Shot Array (Tranquilizing); or 5d8 hit points of sleep"
+         },
          "Inspiration": {
             "Label": "Inspiration",
             "Description": {
@@ -13229,6 +13275,7 @@
             "CancelSkillDescription": "Do you really want to release the skill?",
             "SelectSubrace": "Please select a Subrace:"
          },
+         "Enhancement": "Enhancement",
          "EntertainerRoutine": "Entertainer Routine",
          "FamilyNames": "Family Names",
          "Features": "Features",
@@ -13268,10 +13315,12 @@
             "Artifact": "Artifact"
          },
          "Rarity": "Rarity",
+         "RarityEp": "Rarity / EP",
          "Scam": "Scam",
          "Size": "Size",
          "Specialty": "Specialty",
          "Speed": "Speed",
+         "SpellSpellLevel": "Spell (Spell Level)",
          "SuggestedCharacteristics": "Suggested Characteristics",
          "Traits": "Traits",
          "Units": {
@@ -13290,6 +13339,14 @@
             "Turns": "turns"
          },
          "UseItem": "Use-Item",
+         "WeaponEnhancements": {
+            "Arcane": "Arcane",
+            "Black": "Black",
+            "Fire": "Fire",
+            "Ricochet": "Ricochet",
+            "Sleep": "Sleep",
+            "Storm": "Storm"
+         },
          "WeaponProfs": {
             "MartialWeapons": "Martial Weapons",
             "SimpleWeapons": "Simple Weapons"

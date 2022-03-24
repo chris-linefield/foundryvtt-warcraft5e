@@ -103,6 +103,10 @@
       "default": 0
    },
    "flags": {
+      "wc5e": {
+         "type": "item",
+         "enhancement": ""
+      }
    },
    "_id": "2qdZu9uN3hAhqlzu"
 }

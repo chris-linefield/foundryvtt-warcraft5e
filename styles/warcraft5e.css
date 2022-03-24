@@ -366,6 +366,7 @@
     border: none;
 }
 
+
 .warcraft5e table.diagonal {
     margin-top: 20px;
 }
@@ -380,7 +381,9 @@
     left: 15px;
 }
 
-.warcraft5e table td {
+.warcraft5e table td,
+.warcraft5e table th {
+    text-align: left;
     padding-left:10px;
     padding-right:10px;
 }

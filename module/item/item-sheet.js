@@ -10,7 +10,14 @@ export class WcItemSheet extends ItemSheet5e {
         let wcType = 'dnd5e';
         if(typeof(this.object.data.flags.wc5e) !== 'undefined') {
             wcType = this.object.data.flags.wc5e.type;
-            this.options.classes   = ['warcraft5e', 'sheet', 'item'];
+            let classes = ['sheet', 'item'];
+            if(wcType !== 'item') {
+                classes.push('warcraft5e');
+            }
+            else {
+                classes.push('dnd5e');
+            }
+            this.options.classes   = classes;
             this.options.resizable = false;
         }
 

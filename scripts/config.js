@@ -58,6 +58,15 @@ DND5E.creatureTypes.mecha = "WC5E.Creature.Mecha.Name";
 };*/
 
 
+DND5E.weaponEnhancements = {
+    arcane: "WC5E.UI.WeaponEnhancements.Arcane",
+    black: "WC5E.UI.WeaponEnhancements.Black",
+    fire: "WC5E.UI.WeaponEnhancements.Fire",
+    ricochet: "WC5E.UI.WeaponEnhancements.Ricochet",
+    sleep: "WC5E.UI.WeaponEnhancements.Sleep",
+    storm: "WC5E.UI.WeaponEnhancements.Storm"
+};
+
 DND5E.weaponIds.attackClaws = "H9mvCWwGzgmMWCVL";
 DND5E.weaponIds.generalFirearm = "HjmGaC8pYCUTMLpV";
 

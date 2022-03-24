@@ -11,52 +11,135 @@
          "title": "WC5E.Rules.Enhancements.Label",
          "content": [
             {
+               "value": "WC5E.Rules.Enhancements.Description.1.Value"
+            },
+            {
                "table": {
                   "head": [
                      {
-                        "title": ""
+                        "title": "WC5E.UI.Name"
                      },
                      {
-                        "title": ""
+                        "title": "WC5E.UI.RarityEp"
                      },
                      {
-                        "title": ""
-                     },
-                     {
-                        "title": ""
+                        "title": "WC5E.UI.SpellSpellLevel"
                      }
                   ],
                   "rows": [
                      [
                         {
-                           "link": {
-                              "pack": "warcraft5e.wc5e_items",
-                              "node": "3oACU5ZiSHiSQ6wP",
-                              "label": "WC5E.Items.AvatarRaimentArmWraps.Label"
-                           }
+                           "text": "WC5E.UI.WeaponEnhancements.Ricochet"
                         },
                         {
-                           "link": {
-                              "pack": "warcraft5e.wc5e_items",
-                              "node": "uac9IAso35jQzKBq",
-                              "label": "WC5E.Items.AvatarRaimentGloves.Label"
-                           }
+                           "text": "WC5E.Rules.Enhancements.Rarity"
+                        },
+                        {
+                           "text": "WC5E.Rules.Enhancements.RicochetShort"
                         }
                      ],
                      [
                         {
-                           "link": {
-                              "pack": "warcraft5e.wc5e_items",
-                              "node": "0ykgBHOVrZCF7bCD",
-                              "label": "WC5E.Items.AvatarRaimentMantle.Label"
-                           }
+                           "text": "WC5E.UI.WeaponEnhancements.Storm"
                         },
                         {
-                           "link": {
-                              "pack": "warcraft5e.wc5e_items",
-                              "node": "dzikPMoBTSgsphCC",
-                              "label": "WC5E.Items.AvatarRaimentVestments.Label"
-                           }
+                           "text": "WC5E.Rules.Enhancements.Rarity"
+                        },
+                        {
+                           "text": "WC5E.Rules.Enhancements.StormShort"
+                        }
+                     ]
+                  ]
+               }
+            },
+            {
+               "title": "WC5E.Rules.Enhancements.Description.2.Title",
+               "italic": "WC5E.Rules.Enhancements.Description.2.Italic",
+               "value": "WC5E.Rules.Enhancements.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Rules.Enhancements.Description.3.Value"
+            },
+            {
+               "value": "WC5E.Rules.Enhancements.Description.4.Value"
+            },
+            {
+               "value": "WC5E.Rules.Enhancements.Description.5.Value"
+            },
+            {
+               "title": "WC5E.Rules.Enhancements.Description.6.Title",
+               "italic": "WC5E.Rules.Enhancements.Description.2.Italic",
+               "value": "WC5E.Rules.Enhancements.Description.6.Value"
+            },
+            {
+               "value": "WC5E.Rules.Enhancements.Description.7.Value"
+            },
+            {
+               "title": "WC5E.Rules.Enhancements.Description.8.Title",
+               "value": "WC5E.Rules.Enhancements.Description.8.Value"
+            },
+            {
+               "value": "WC5E.Rules.Enhancements.Description.9.Value"
+            },
+            {
+               "value": "WC5E.Rules.Enhancements.Description.10.Value"
+            },
+            {
+               "table": {
+                  "head": [
+                     {
+                        "title": "WC5E.UI.Name"
+                     },
+                     {
+                        "title": "WC5E.UI.RarityEp"
+                     },
+                     {
+                        "title": "WC5E.UI.SpellSpellLevel"
+                     }
+                  ],
+                  "rows": [
+                     [
+                        {
+                           "text": "WC5E.UI.WeaponEnhancements.Arcane"
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Uncommon"
+                        },
+                        {
+                           "text": "WC5E.Rules.Enhancements.ArcaneShort"
+                        }
+                     ],
+                     [
+                        {
+                           "text": "WC5E.UI.WeaponEnhancements.Black"
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Rare"
+                        },
+                        {
+                           "text": "WC5E.Rules.Enhancements.BlackShort"
+                        }
+                     ],
+                     [
+                        {
+                           "text": "WC5E.UI.WeaponEnhancements.Fire"
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Uncommon"
+                        },
+                        {
+                           "text": "WC5E.Rules.Enhancements.FireShort"
+                        }
+                     ],
+                     [
+                        {
+                           "text": "WC5E.UI.WeaponEnhancements.Sleep"
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Uncommon"
+                        },
+                        {
+                           "text": "WC5E.Rules.Enhancements.SleepShort"
                         }
                      ]
                   ]
@@ -65,13 +148,13 @@
          ],
          "prev": {
             "pack": "wc5e_rules",
-            "node": "gapBYzbuF6qevYSy",
-            "label": "WC5E.Rules.Artifacts.Label"
+            "node": "gV0CPKmFQUQ2clYt",
+            "label": "WC5E.Rules.ArmorSets.Label"
          },
          "next": {
             "pack": "wc5e_rules",
-            "node": "5mqqgrGbFZK7V4z9",
-            "label": "WC5E.Rules.Enhancements.Label"
+            "node": "OOlxzDS5IPFCrOF0",
+            "label": "WC5E.Rules.EpicBoons.Label"
          }
       }
    }

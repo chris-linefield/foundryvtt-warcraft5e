@@ -29,6 +29,10 @@ Handlebars.registerHelper("isPositive", function (value) {
 });
 
 Handlebars.registerHelper("isChoice", function (value) {
-    console.log(value);
     return typeof (value) === "object";
+});
+
+Handlebars.registerHelper("selected", function (value, comparison) {
+    console.log("enter:" + value+ ' - ' + comparison);
+    if(value === comparison) return "selected";
 });

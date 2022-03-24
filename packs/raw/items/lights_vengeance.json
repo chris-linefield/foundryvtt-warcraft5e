@@ -107,6 +107,10 @@
    "permission": {
    },
    "flags": {
+      "wc5e": {
+         "type": "item",
+         "enhancement": ""
+      }
    },
    "_id": "p85YtgQ5Yc3cIu7T"
 }
