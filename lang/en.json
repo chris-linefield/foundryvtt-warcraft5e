@@ -2057,6 +2057,240 @@
             "Name": "Void Being"
          }
       },
+      "EpicBoons": {
+         "AlienTechnology": {
+            "Label": "Boon of Alien Technology",
+            "Description": {
+               "1": {
+                  "Value": "Your effective proficiency bonus for Engineer‘s Tools increases by 1. This does not stack with other proficiency-increasing effects. This can allow you to access a rarity grade 1 point higher than normal, or apply 1 EP worth for no cost."
+               }
+            }
+         },
+         "CombatProwess": {
+            "Label": "Boon of Combat Prowess",
+            "Description": {
+               "1": {
+                  "Value": "When you miss with a melee weapon attack, you can choose to hit instead. Once you use this boon, you can't use it again until you finish a short rest."
+               }
+            }
+         },
+         "DimensionalTravel": {
+            "Label": "Boon of Dimensional Travel",
+            "Description": {
+               "1": {
+                  "Value": "As an action, you can cast the Misty Step spell, without using a spell slot or any components. Once you do so, you can't use this boon again until you finish a short rest."
+               }
+            }
+         },
+         "Fate": {
+            "Label": "Boon of Fate",
+            "Description": {
+               "1": {
+                  "Value": "When another creature that you can see within 60 feet of you makes an ability check, an attack roll, or a saving throw, you can roll a d10 and apply the result as a bonus or penalty to the roll. Once you use this boon, you can't use it again until you finish a short rest."
+               }
+            }
+         },
+         "Fortitude": {
+            "Label": "Boon of Fortitude",
+            "Description": {
+               "1": {
+                  "Value": "Your hit point maximum increases by 40."
+               }
+            }
+         },
+         "GrandSorcery": {
+            "Label": "Boon of Grand Sorcery",
+            "Description": {
+               "1": {
+                  "Value": "Your caster level increases by 1."
+               }
+            }
+         },
+         "HighMagic": {
+            "Label": "Boon of High Magic",
+            "Description": {
+               "1": {
+                  "Value": "You gain additional mana points equal to a 9th-level spell slot, provided that you already have one."
+               }
+            }
+         },
+         "Immortality": {
+            "Label": "Boon of Immortality",
+            "Description": {
+               "1": {
+                  "Value": "You stop aging. You are immune to any effect that would age you, and you can't die from old age."
+               }
+            }
+         },
+         "Invincibility": {
+            "Label": "Boon of Invincibility",
+            "Description": {
+               "1": {
+                  "Value": "When you take damage from any source, you can reduce that damage to 0. Once you use this boon, you can't use it again until you finish a short rest."
+               }
+            }
+         },
+         "IrresistibleOffense": {
+            "Label": "Boon of Irresistible Offense",
+            "Description": {
+               "1": {
+                  "Value": "You can bypass the damage resistances of any creature."
+               }
+            }
+         },
+         "Luck": {
+            "Label": "Boon of Luck",
+            "Description": {
+               "1": {
+                  "Value": "You can add a d10 roll to any ability check, attack roll, or saving throw you make. Once you use this boon, you can't use it again until you finish a short rest."
+               }
+            }
+         },
+         "MagicResistance": {
+            "Label": "Boon of Magic Resistance",
+            "Description": {
+               "1": {
+                  "Value": "You have advantage on saving throws against spells and other magical effects."
+               }
+            }
+         },
+         "PeerlessAim": {
+            "Label": "Boon of Peerless Aim",
+            "Description": {
+               "1": {
+                  "Value": "You can give yourself a +20 bonus to a ranged attack roll you make. Once you use this boon, you can't use it again until you finish a short rest."
+               }
+            }
+         },
+         "PerfectHealth": {
+            "Label": "Boon of Perfect Health",
+            "Description": {
+               "1": {
+                  "Value": "You are immune to all diseases and poisons, and you have advantage on Constitution saving throws."
+               }
+            }
+         },
+         "PlanarTravel": {
+            "Label": "Boon of Planar Travel",
+            "Description": {
+               "1": {
+                  "Value": "When you gain this boon, choose a plane of existence other than the Material Plane. You can now use an action to cast the Plane Shift spell (no spell slot or components required), targeting yourself only, and travel to the chosen plane, or from that plane back to the Material Plane. Once you use this boon, you can't use it again until you finish a short rest."
+               }
+            }
+         },
+         "QuickCasting": {
+            "Label": "Boon of Quick Casting",
+            "Description": {
+               "1": {
+                  "Value": "Choose one of your spells of 1st through 3rd level that has a casting time of 1 action. That spell's casting time is now 1 bonus action for you."
+               }
+            }
+         },
+         "Recovery": {
+            "Label": "Boon of Recovery",
+            "Description": {
+               "1": {
+                  "Value": "You can use a bonus action to regain a number of hit points equal to half your hit point maximum. Once you use this boon, you can't use it again until you finish a long rest."
+               }
+            }
+         },
+         "Resilience": {
+            "Label": "Boon of Resilience",
+            "Description": {
+               "1": {
+                  "Value": "You have resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons."
+               }
+            }
+         },
+         "SkillProficiency": {
+            "Label": "Boon of Skill Proficiency",
+            "Description": {
+               "1": {
+                  "Value": "You gain proficiency in all skills."
+               }
+            }
+         },
+         "Speed": {
+            "Label": "Boon of Speed",
+            "Description": {
+               "1": {
+                  "Value": "Your walking speed increases by 30 feet. In addition, you can use a bonus action to take the Dash or Disengage action. Once you do so, you can't do so again until you finish a short rest."
+               }
+            }
+         },
+         "SpellMastery": {
+            "Label": "Boon of Spell Mastery",
+            "Description": {
+               "1": {
+                  "Value": "Choose one 1st-level sorcerer, warlock, or wizard spell that you can cast. You can now cast that spell at its lowest level without expending a spell slot."
+               }
+            }
+         },
+         "SpellRecall": {
+            "Label": "Boon of Spell Recall",
+            "Description": {
+               "1": {
+                  "Value": "You can cast any spell you know or have prepared without expending a spell slot. Once you do so, you can't use this boon again until you finish a long rest."
+               }
+            }
+         },
+         "FireSoul": {
+            "Label": "Boon of the Fire Soul",
+            "Description": {
+               "1": {
+                  "Value": "You have immunity to fire damage. You can also cast Burning Hands (save DC 15) at will, without using a spell slot or any components."
+               }
+            }
+         },
+         "NightSpirit": {
+            "Label": "Boon of the Night Spirit",
+            "Description": {
+               "1": {
+                  "Value": "While completely in an area of dim light or darkness, you can become invisible as an action. You remain invisible until you take an action or a reaction."
+               }
+            }
+         },
+         "Stormborn": {
+            "Label": "Boon of the Stormborn",
+            "Description": {
+               "1": {
+                  "Value": "You have immunity to lightning and thunder damage. You can also cast Thunderwave (save DC 15) at will, without using a spell slot or any components."
+               }
+            }
+         },
+         "Unfettered": {
+            "Label": "Boon of the Unfettered",
+            "Description": {
+               "1": {
+                  "Value": "You have advantage on ability checks made to resist being grappled. In addition, you can use an action to automatically escape a grapple or free yourself of restraints of any kind."
+               }
+            }
+         },
+         "TrueCelerity": {
+            "Label": "Boon of True Celerity",
+            "Description": {
+               "1": {
+                  "Value": "Your mana pool increases by 5 points, provided you have an active mana pool."
+               }
+            }
+         },
+         "Truesight": {
+            "Label": "Boon of Truesight",
+            "Description": {
+               "1": {
+                  "Value": "You have truesight out to a range of 60 feet."
+               }
+            }
+         },
+         "Undetectability": {
+            "Label": "Boon of Undetectability",
+            "Description": {
+               "1": {
+                  "Value": "You gain a +10 bonus to Dexterity (Stealth) checks, and you can't be detected or targeted by divination magic, including scrying sensors."
+               }
+            }
+         }
+      },
       "Feats": {
          "Aberration": {
             "Label": "Aberration",
@@ -9563,6 +9797,14 @@
                }
             }
          },
+         "Alchemy": {
+            "Label": "Alchemy",
+            "Description": {
+               "1": {
+                  "Value": "Sometimes a special ability or spell tells you that you have advantage or disadvantage on an ability check, a saving throw, or an attack roll. When that happens, you roll a second d20 when you make the roll. Use the higher of the two rolls if you have advantage, and use the lower roll if you have disadvantage. For example, if you have disadvantage and roll a 17 and a 5, you use the 5. If you instead have advantage and roll those numbers, you use the 17."
+               }
+            }
+         },
          "ArmorSets": {
             "Label": "Armor Sets",
             "AvatarRaimentArmor": "Avatar Raiment Armor",
@@ -9763,6 +10005,14 @@
             "BlackShort": "Shot Array (Black); or 3d4 shadow damage, conjure undead I",
             "FireShort": "Shot Array (Searing); or 1d6 fire damage",
             "SleepShort": "Shot Array (Tranquilizing); or 5d8 hit points of sleep"
+         },
+         "EpicBoons": {
+            "Label": "Epic Boons",
+            "Description": {
+               "1": {
+                  "Value": "The Warcraft Universe has its own share of epic boons."
+               }
+            }
          },
          "Inspiration": {
             "Label": "Inspiration",

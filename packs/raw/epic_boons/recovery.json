@@ -1,0 +1,84 @@
+{
+   "_id": "QrJpdLWFc3dzjyWY",
+   "name": "Boon of Recovery",
+   "type": "feat",
+   "data": {
+      "description": {
+         "value": "",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "",
+      "activation": {
+         "type": "bonus",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": null,
+         "units": ""
+      },
+      "target": {
+         "value": null,
+         "width": null,
+         "units": "",
+         "type": ""
+      },
+      "range": {
+         "value": null,
+         "long": null,
+         "units": ""
+      },
+      "uses": {
+         "value": 1,
+         "max": "1",
+         "per": "lr"
+      },
+      "consume": {
+         "type": "",
+         "target": "",
+         "amount": null
+      },
+      "ability": null,
+      "actionType": "",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "scaling": "spell"
+      },
+      "requirements": "Character Level 20",
+      "recharge": {
+         "value": null,
+         "charged": false
+      }
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+      "default": 0
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.EpicBoons.Recovery.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/magic/life/heart-area-circle-red-green.webp"
+}

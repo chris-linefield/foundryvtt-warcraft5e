@@ -70,6 +70,14 @@
          "package": "warcraft5e"
       },
       {
+         "name": "wc5e_epic_boons",
+         "label": "Wc5e | Epic Boons",
+         "path": "./packs/epic_boons.db",
+         "type": "Item",
+         "system": "dnd5e",
+         "package": "warcraft5e"
+      },
+      {
          "name": "wc5e_mechanics",
          "label": "Wc5e | Mechanics",
          "path": "./packs/mechanics.db",

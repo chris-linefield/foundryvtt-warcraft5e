@@ -33,6 +33,5 @@ Handlebars.registerHelper("isChoice", function (value) {
 });
 
 Handlebars.registerHelper("selected", function (value, comparison) {
-    console.log("enter:" + value+ ' - ' + comparison);
     if(value === comparison) return "selected";
 });
