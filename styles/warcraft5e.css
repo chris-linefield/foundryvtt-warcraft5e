@@ -42,7 +42,8 @@
  * UI - COMPENDIUM LIST
  ********************************/
 
-.window-app .window-content {
+.window-app .window-content,
+.directory .directory-list {
     background: url("/modules/warcraft5e/res/pics/parchment.jpg") top left repeat;
     font-family: 'Heuristica';
 }
@@ -51,7 +52,9 @@
 .directory .directory-list .directory-item.document {
     line-height: 80px;
     font-size: 16px;
-    border-bottom: 1px solid #cab87a;
+    border-top:none !important;
+    border-bottom: 1px solid #cab87a !important;
+    color:#191813;
     padding: 2px 0 3px;
 }
 
@@ -59,6 +62,48 @@
     width: 80px;
     height: 80px;
     border: 3px double #cab87a;
+    background:rgba(255,255,255,0.5);
+}
+
+.sidebar-tab .directory-list {
+    padding-left:10px;
+    padding-right:10px;
+}
+
+#compendium h3 {
+    color:#1b456b;
+    border:none;
+    border-bottom:1px solid #cab87a;
+    font-size:20px;
+    font-weight:bold;
+    position: relative;
+}
+
+#compendium h3::after {
+    content: '';
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px solid #cab87a;
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+}
+
+#compendium li.compendium-pack .compendium-footer {
+    color:#1b456b;
+}
+
+#compendium ol.compendium-list {
+    margin-left:5px;
+    margin-right:5px;
+}
+
+.pack-title {
+    margin-bottom:0;
+}
+
+.fa-folder:before {
+    color:#cab87a;
 }
 
 /*********************************
@@ -366,6 +411,7 @@
     border: none;
 }
 
+
 .warcraft5e table.diagonal {
     margin-top: 20px;
 }
@@ -380,7 +426,9 @@
     left: 15px;
 }
 
-.warcraft5e table td {
+.warcraft5e table td,
+.warcraft5e table th {
+    text-align: left;
     padding-left:10px;
     padding-right:10px;
 }

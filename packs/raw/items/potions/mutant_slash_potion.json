@@ -1,0 +1,79 @@
+{
+   "_id": "ooeJzYHU0GwB22K4",
+   "name": "Mutant Slash Potion",
+   "type": "consumable",
+   "img": "icons/consumables/potions/bottle-conical-corked-cyan.webp",
+   "data": {
+      "description": {
+         "value": "<p>By using this potion, you manifest a monster‘s slash or attack from a creature of CR 1 or lower. The attack can be any attack it can make, but so long as it costs an action to make. The creature must be one of the creature types on the alchemist‘s conjure and bind list (such as an ooze‘s pseudopod or an elemental‘s slam attack).</p>\n<p><em>Conjure Strike (1st level)</em></p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 215",
+      "quantity": 1,
+      "weight": 1,
+      "price": 80,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "uncommon",
+      "identified": true,
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": 1,
+         "units": "minute"
+      },
+      "target": {
+         "value": 1,
+         "width": null,
+         "units": "",
+         "type": "creature"
+      },
+      "range": {
+         "value": 20,
+         "long": 60,
+         "units": "ft"
+      },
+      "uses": {
+         "value": 1,
+         "max": "1",
+         "per": "charges",
+         "autoDestroy": false
+      },
+      "consume": {
+         "type": "charges",
+         "target": "",
+         "amount": 1
+      },
+      "ability": null,
+      "actionType": "",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "scaling": "spell"
+      },
+      "consumableType": "potion"
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+      "default": 0
+   },
+   "flags": {
+   }
+}

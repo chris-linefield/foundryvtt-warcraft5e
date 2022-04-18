@@ -1,0 +1,122 @@
+{
+   "_id": "YrrTh6X3tPvQdbjq",
+   "name": "Mutate",
+   "type": "spell",
+   "img": "icons/creatures/claws/claw-talons-glowing-orange.webp",
+   "data": {
+      "description": {
+         "value": "",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 356",
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": 10,
+         "units": "minute"
+      },
+      "target": {
+         "value": 1,
+         "width": null,
+         "units": "",
+         "type": "creature"
+      },
+      "range": {
+         "value": null,
+         "long": null,
+         "units": "touch"
+      },
+      "uses": {
+         "value": null,
+         "max": "",
+         "per": ""
+      },
+      "consume": {
+         "type": "",
+         "target": "",
+         "amount": null
+      },
+      "ability": "",
+      "actionType": "util",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "scaling": "spell"
+      },
+      "level": 1,
+      "school": "trs",
+      "components": {
+         "value": "",
+         "vocal": true,
+         "somatic": true,
+         "material": true,
+         "ritual": false,
+         "concentration": false
+      },
+      "materials": {
+         "value": "(hair, nail clip, or a piece of the target‘s body)",
+         "consumed": false,
+         "cost": 0,
+         "supply": 0
+      },
+      "preparation": {
+         "mode": "prepared",
+         "prepared": false
+      },
+      "scaling": {
+         "mode": "none",
+         "formula": ""
+      }
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+      "default": 0
+   },
+   "flags": {
+      "wc5e": {
+         "type": "spell",
+         "description": [
+            {
+               "value": "WC5E.Spells.Mutate.Description.1.Value"
+            },
+            {
+               "options": [
+                  "WC5E.Spells.Mutate.Description.2.Options.1",
+                  "WC5E.Spells.Mutate.Description.2.Options.2",
+                  "WC5E.Spells.Mutate.Description.2.Options.3",
+                  "WC5E.Spells.Mutate.Description.2.Options.4",
+                  "WC5E.Spells.Mutate.Description.2.Options.5",
+                  "WC5E.Spells.Mutate.Description.2.Options.6",
+                  "WC5E.Spells.Mutate.Description.2.Options.7",
+                  "WC5E.Spells.Mutate.Description.2.Options.8"
+               ]
+            }
+         ],
+         "heightened": [
+            {
+               "value": "WC5E.Spells.Mutate.Heightened.1.Value"
+            },
+            {
+               "value": "WC5E.Spells.Mutate.Heightened.2.Value"
+            }
+         ]
+      }
+   }
+}

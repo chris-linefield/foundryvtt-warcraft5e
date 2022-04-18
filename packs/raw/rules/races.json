@@ -197,18 +197,6 @@
                      ],
                      [
                         {
-                           "text": "WC5E.Race.Gnome.Name"
-                        },
-                        {},
-                        {
-                           "text": "WC5E.Rules.Races.RacialMount.Mechanostriders"
-                        },
-                        {
-                           "text": "WC5E.Rules.Races.RacialMount.MechanostridersDesc"
-                        }
-                     ],
-                     [
-                        {
                            "text": "WC5E.Race.Goblin.Name"
                         },
                         {},
@@ -226,7 +214,8 @@
                         {},
                         {
                            "text": "WC5E.Rules.Races.RacialMount.Wolves"
-                        }
+                        },
+                        {}
                      ],
                      [
                         {
@@ -235,7 +224,8 @@
                         {},
                         {
                            "text": "WC5E.Rules.Races.RacialMount.GiantTurtles"
-                        }
+                        },
+                        {}
                      ],
                      [
                         {
@@ -244,7 +234,8 @@
                         {},
                         {
                            "text": "WC5E.Rules.Races.RacialMount.KodoBeasts"
-                        }
+                        },
+                        {}
                      ],
                      [
                         {
@@ -253,7 +244,40 @@
                         {},
                         {
                            "text": "WC5E.Rules.Races.RacialMount.Raptors"
-                        }
+                        },
+                        {}
+                     ],
+                     [
+                        {},
+                        {
+                           "text": "WC5E.Race.Troll.Subraces.Amani.Name"
+                        },
+                        {},
+                        {}
+                     ],
+                     [
+                        {},
+                        {
+                           "text": "WC5E.Race.Troll.Subraces.Darkspear.Name"
+                        },
+                        {},
+                        {}
+                     ],
+                     [
+                        {},
+                        {
+                           "text": "WC5E.Race.Troll.Subraces.Drakkari.Name"
+                        },
+                        {},
+                        {}
+                     ],
+                     [
+                        {},
+                        {
+                           "text": "WC5E.Race.Troll.Subraces.Farraki.Name"
+                        },
+                        {},
+                        {}
                      ],
                      [
                         {
@@ -262,7 +286,8 @@
                         {},
                         {
                            "text": "WC5E.Rules.Races.RacialMount.Horses"
-                        }
+                        },
+                        {}
                      ]
                   ]
                }

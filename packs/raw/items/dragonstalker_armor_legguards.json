@@ -1,0 +1,95 @@
+{
+   "_id": "3Cs0CJ8aB7qZcdWp",
+   "name": "Dragonstalker Armor Legguards",
+   "type": "equipment",
+   "img": "icons/equipment/leg/pants-cloth-tasset-blue.webp",
+   "data": {
+      "description": {
+         "value": "<p><em>requires attunement</em></p>\n<p>Woven from the scales and leather of wyrms and dragons, this armor set is usually golden or red, but can be any color (depending on the dragonflight origin). Most sets were made during the Second War, and from the Red Dragonflight. Special. Other armor sets exist in the world of Azeroth, keyed to other creature types. Such sets act similarly, but change the target of the favored enemy talent to another creature type. Such as rarer than normal sets, however.</p>\n<ul>\n<li><em>Uncommon:</em> If you score a critical hit on a ranged attack, you are hasted (as the spell) for until the beginning of your turn in the next round. If you have a bonded companion, it is similarly hasted.</li>\n<li><em>Rare:</em> If possessing two to three set pieces, you gain an accuracy die when you successfully score a hit with a hunter [strike] spell (even if only using infused ammunition). An accuracy dice can be spent to increase your attack roll result by 1d4, reduce the mana cost of a hunter [strike] by the same amount, or be added to a roll to use a firearm or crossbow to avoid a malfunction. You cannot have more than 3 accuracy dice at a given time. Unused accuracy dice are lost after 1 hour.</li>\n<li><em>Epic:</em> If possessing all set pieces, you can‘t be surprised while you are conscious, and you gain the favored enemy (dragons) talent. If you already have that talent, you instead gain a +5 bonus to your initiative.</li>\n</ul>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 210",
+      "quantity": 1,
+      "weight": 0,
+      "price": null,
+      "attunement": 1,
+      "equipped": false,
+      "rarity": "varies",
+      "identified": true,
+      "activation": {
+         "type": "",
+         "cost": 0,
+         "condition": ""
+      },
+      "duration": {
+         "value": null,
+         "units": ""
+      },
+      "target": {
+         "value": null,
+         "width": null,
+         "units": "",
+         "type": ""
+      },
+      "range": {
+         "value": null,
+         "long": null,
+         "units": ""
+      },
+      "uses": {
+         "value": null,
+         "max": "",
+         "per": null
+      },
+      "consume": {
+         "type": "",
+         "target": null,
+         "amount": null
+      },
+      "ability": null,
+      "actionType": "",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "scaling": "spell"
+      },
+      "armor": {
+         "value": 12,
+         "type": "clothing",
+         "dex": null
+      },
+      "hp": {
+         "value": 0,
+         "max": 0,
+         "dt": null,
+         "conditions": ""
+      },
+      "baseItem": "",
+      "speed": {
+         "value": null,
+         "conditions": ""
+      },
+      "strength": null,
+      "stealth": false,
+      "proficient": false
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+   },
+   "flags": {
+   }
+}

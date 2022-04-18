@@ -1,0 +1,99 @@
+{
+   "name": "Destroyer Armor Gauntlets",
+   "type": "equipment",
+   "img": "icons/equipment/hand/gauntlet-armored-leather-teal.webp",
+   "data": {
+      "description": {
+         "value": "<p><em>requires attunement</em></p>\n<p>Worn by great mercenary captains, this plate of gold, rust-red, and pale blue armor casts an ominous shadow.</p>\n<ul>\n<li><em>Uncommon:</em> If possessing one set piece, whenever you deal or suffer a critical hit, you are hasted (as the spell of the same name) for until the end of your turn in the next round.</li>\n<li><em>Rare:</em> If possessing two to three set pieces, whenever you use your action to Dash, you can use a bonus action to make one melee weapon attack or to shove a creature. If you move at least 10 feet in a straight line immediately before taking this bonus action, you either gain a +5 bonus to the attack‘s damage roll (if you chose to make a melee attack and hit) or push the target up to 10 feet away from you (if you chose to shove and you succeed).</li>\n<li><em>Epic:</em> If possessing all set pieces, whenever you suffer a critical hit, it turns into a normal hit. You still gain the haste effect (as the bonus at Uncommon quality). You also gain the Aggressive talent if you don't already have it. If you do, you can gain one talent of your choice so long you wear the armor.</li>\n</ul>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 210",
+      "quantity": 1,
+      "weight": 0,
+      "price": null,
+      "attunement": 1,
+      "equipped": false,
+      "rarity": "varies",
+      "identified": true,
+      "activation": {
+         "type": "",
+         "cost": 0,
+         "condition": ""
+      },
+      "duration": {
+         "value": null,
+         "units": ""
+      },
+      "target": {
+         "value": null,
+         "width": null,
+         "units": "",
+         "type": ""
+      },
+      "range": {
+         "value": null,
+         "long": null,
+         "units": ""
+      },
+      "uses": {
+         "value": null,
+         "max": "",
+         "per": null
+      },
+      "consume": {
+         "type": "",
+         "target": null,
+         "amount": null
+      },
+      "ability": null,
+      "actionType": "",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "scaling": "spell"
+      },
+      "armor": {
+         "value": 18,
+         "type": "clothing",
+         "dex": 0
+      },
+      "hp": {
+         "value": 0,
+         "max": 0,
+         "dt": null,
+         "conditions": ""
+      },
+      "baseItem": "",
+      "speed": {
+         "value": null,
+         "conditions": ""
+      },
+      "strength": 15,
+      "stealth": true,
+      "proficient": false
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+   },
+   "flags": {
+      "wc5e": {
+         "type": "item",
+         "enhancement": ""
+      }
+   },
+   "_id": "UCrkBLOBYmfbuscf"
+}

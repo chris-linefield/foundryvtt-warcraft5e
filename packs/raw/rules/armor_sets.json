@@ -1,0 +1,576 @@
+{
+   "_id": "gV0CPKmFQUQ2clYt",
+   "name": "Armor Sets",
+   "permission": {
+      "default": 0
+   },
+   "type": "class",
+   "flags": {
+      "wc5e": {
+         "type": "rule",
+         "title": "WC5E.Rules.ArmorSets.Label",
+         "content": [
+            {
+               "title": "WC5E.Rules.ArmorSets.AvatarRaimentArmor"
+            },
+            {
+               "table": {
+                  "head": [
+                     {
+                        "title": ""
+                     },
+                     {
+                        "title": ""
+                     },
+                     {
+                        "title": ""
+                     },
+                     {
+                        "title": ""
+                     }
+                  ],
+                  "rows": [
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "3oACU5ZiSHiSQ6wP",
+                              "label": "WC5E.Items.AvatarRaimentArmWraps.Label"
+                           }
+                        },
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "uac9IAso35jQzKBq",
+                              "label": "WC5E.Items.AvatarRaimentGloves.Label"
+                           }
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "0ykgBHOVrZCF7bCD",
+                              "label": "WC5E.Items.AvatarRaimentMantle.Label"
+                           }
+                        },
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "dzikPMoBTSgsphCC",
+                              "label": "WC5E.Items.AvatarRaimentVestments.Label"
+                           }
+                        }
+                     ]
+                  ]
+               }
+            },
+            {
+               "title": "WC5E.Rules.ArmorSets.BlackenedDefiasArmor"
+            },
+            {
+               "table": {
+                  "head": [
+                     {
+                        "title": ""
+                     },
+                     {
+                        "title": ""
+                     },
+                     {
+                        "title": ""
+                     },
+                     {
+                        "title": ""
+                     }
+                  ],
+                  "rows": [
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "b1NLkp3JG79xraEk",
+                              "label": "WC5E.Items.BlackenedDefiasArmor.Label"
+                           }
+                        },
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "C0QYXGldova86YWS",
+                              "label": "WC5E.Items.BlackenedDefiasBelt.Label"
+                           }
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "vOzCjGYa3SIHA3Pc",
+                              "label": "WC5E.Items.BlackenedDefiasBoots.Label"
+                           }
+                        },
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "2pCgAkBqEcES8DeJ",
+                              "label": "WC5E.Items.BlackenedDefiasGloves.Label"
+                           }
+                        }
+                     ]
+                  ]
+               }
+            },
+            {
+               "title": "WC5E.Rules.ArmorSets.CenarionRaiment"
+            },
+            {
+               "table": {
+                  "head": [
+                     {
+                        "title": ""
+                     },
+                     {
+                        "title": ""
+                     },
+                     {
+                        "title": ""
+                     },
+                     {
+                        "title": ""
+                     }
+                  ],
+                  "rows": [
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "cOzVPtnh369hmerd",
+                              "label": "WC5E.Items.CenarionRaimentBelt.Label"
+                           }
+                        },
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "RE49d7raNQPcJCul",
+                              "label": "WC5E.Items.CenarionRaimentBracers.Label"
+                           }
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "cV8nefHUoQNSrA7Y",
+                              "label": "WC5E.Items.CenarionRaimentHelm.Label"
+                           }
+                        },
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "UZIky01Xc34sk28j",
+                              "label": "WC5E.Items.CenarionRaimentVestments.Label"
+                           }
+                        }
+                     ]
+                  ]
+               }
+            },
+            {
+               "title": "WC5E.Rules.ArmorSets.DestroyerArmor"
+            },
+            {
+               "table": {
+                  "head": [
+                     {
+                        "title": ""
+                     },
+                     {
+                        "title": ""
+                     },
+                     {
+                        "title": ""
+                     },
+                     {
+                        "title": ""
+                     }
+                  ],
+                  "rows": [
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "aIcVSXrcEWgITnuC",
+                              "label": "WC5E.Items.DestroyerArmorBreastplate.Label"
+                           }
+                        },
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "UCrkBLOBYmfbuscf",
+                              "label": "WC5E.Items.DestroyerArmorGauntlets.Label"
+                           }
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "SHYY1va9Iv9vQbo2",
+                              "label": "WC5E.Items.DestroyerArmorGirdle.Label"
+                           }
+                        },
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "dJxHlEA2UktB452H",
+                              "label": "WC5E.Items.DestroyerArmorGreatHelm.Label"
+                           }
+                        }
+                     ]
+                  ]
+               }
+            },
+            {
+               "title": "WC5E.Rules.ArmorSets.DragonstalkerArmor"
+            },
+            {
+               "table": {
+                  "head": [
+                     {
+                        "title": ""
+                     },
+                     {
+                        "title": ""
+                     },
+                     {
+                        "title": ""
+                     },
+                     {
+                        "title": ""
+                     }
+                  ],
+                  "rows": [
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "YNjXp18I6cu5hr9O",
+                              "label": "WC5E.Items.DragonstalkerArmorBeastplate.Label"
+                           }
+                        },
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "yzGlk1NYXhuRuYva",
+                              "label": "WC5E.Items.DragonstalkerArmorBracers.Label"
+                           }
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "zYbPbL0Ev6d1VGDk",
+                              "label": "WC5E.Items.DragonstalkerArmorHelm.Label"
+                           }
+                        },
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "3Cs0CJ8aB7qZcdWp",
+                              "label": "WC5E.Items.DragonstalkerArmorLegguards.Label"
+                           }
+                        }
+                     ]
+                  ]
+               }
+            },
+            {
+               "title": "WC5E.Rules.ArmorSets.JudgementArmor"
+            },
+            {
+               "table": {
+                  "head": [
+                     {
+                        "title": ""
+                     },
+                     {
+                        "title": ""
+                     },
+                     {
+                        "title": ""
+                     },
+                     {
+                        "title": ""
+                     }
+                  ],
+                  "rows": [
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "Nkav322etFTAXQT5",
+                              "label": "WC5E.Items.JudgementArmorBelt.Label"
+                           }
+                        },
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "Zq5RAm9xQpS2R1sH",
+                              "label": "WC5E.Items.JudgementArmorBindings.Label"
+                           }
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "Ty0CBVpmV1utRKsO",
+                              "label": "WC5E.Items.JudgementArmorCrown.Label"
+                           }
+                        },
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "fJcbl5230khJtbxj",
+                              "label": "WC5E.Items.JudgementArmorPlate.Label"
+                           }
+                        }
+                     ]
+                  ]
+               }
+            },
+            {
+               "title": "WC5E.Rules.ArmorSets.MagistersRegalia"
+            },
+            {
+               "table": {
+                  "head": [
+                     {
+                        "title": ""
+                     },
+                     {
+                        "title": ""
+                     },
+                     {
+                        "title": ""
+                     },
+                     {
+                        "title": ""
+                     }
+                  ],
+                  "rows": [
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "ARiU4EzobR9gaVBU",
+                              "label": "WC5E.Items.MagistersRegaliaBindings.Label"
+                           }
+                        },
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "GJ52YZHrvpDLQpeZ",
+                              "label": "WC5E.Items.MagistersRegaliaCrown.Label"
+                           }
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "56fwN4ByQ3RX9n1G",
+                              "label": "WC5E.Items.MagistersRegaliaMantle.Label"
+                           }
+                        },
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "zkEyutqOZ8KF3bsF",
+                              "label": "WC5E.Items.MagistersRegaliaRobe.Label"
+                           }
+                        }
+                     ]
+                  ]
+               }
+            },
+            {
+               "title": "WC5E.Rules.ArmorSets.PlagueheartRaiment"
+            },
+            {
+               "table": {
+                  "head": [
+                     {
+                        "title": ""
+                     },
+                     {
+                        "title": ""
+                     },
+                     {
+                        "title": ""
+                     },
+                     {
+                        "title": ""
+                     }
+                  ],
+                  "rows": [
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "b8cpItQuS0VoiONg",
+                              "label": "WC5E.Items.PlagueheartRaimentGloves.Label"
+                           }
+                        },
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "poEswVexHb85MFgw",
+                              "label": "WC5E.Items.PlagueheartRaimentMask.Label"
+                           }
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "SyAsHVLV2ziNPlCh",
+                              "label": "WC5E.Items.PlagueheartRaimentRobe.Label"
+                           }
+                        },
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "DovwxOofNHuWjtCd",
+                              "label": "WC5E.Items.PlagueheartRaimentSandals.Label"
+                           }
+                        }
+                     ]
+                  ]
+               }
+            },
+            {
+               "title": "WC5E.Rules.ArmorSets.RobesOfTheVioletCitadel"
+            },
+            {
+               "table": {
+                  "head": [
+                     {
+                        "title": ""
+                     },
+                     {
+                        "title": ""
+                     },
+                     {
+                        "title": ""
+                     },
+                     {
+                        "title": ""
+                     }
+                  ],
+                  "rows": [
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "a4xOsC7Me8NL7Hlp",
+                              "label": "WC5E.Items.VioletCitadelBoots.Label"
+                           }
+                        },
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "xPJMea3TSIsLPyvW",
+                              "label": "WC5E.Items.VioletCitadelGloves.Label"
+                           }
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "DzZfwQxKK3LUkUAl",
+                              "label": "WC5E.Items.VioletCitadelHood.Label"
+                           }
+                        },
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "LgBVSU10p7LDYPWz",
+                              "label": "WC5E.Items.VioletCitadelRobe.Label"
+                           }
+                        }
+                     ]
+                  ]
+               }
+            },
+            {
+               "title": "WC5E.Rules.ArmorSets.SilverHandBlessedPlate"
+            },
+            {
+               "table": {
+                  "head": [
+                     {
+                        "title": ""
+                     },
+                     {
+                        "title": ""
+                     },
+                     {
+                        "title": ""
+                     },
+                     {
+                        "title": ""
+                     }
+                  ],
+                  "rows": [
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "tdM6uOD7lSSLtctU",
+                              "label": "WC5E.Items.SilverHandBlessedBelt.Label"
+                           }
+                        },
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "lAu3TMPbnxApzHme",
+                              "label": "WC5E.Items.SilverHandBlessedGauntlets.Label"
+                           }
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "rMfUjKtrRsyBRqWR",
+                              "label": "WC5E.Items.SilverHandBlessedGreaves.Label"
+                           }
+                        },
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items",
+                              "node": "8dcStjz2DnVL0Pki",
+                              "label": "WC5E.Items.SilverHandBlessedPlate.Label"
+                           }
+                        }
+                     ]
+                  ]
+               }
+            }
+         ],
+         "prev": {
+            "pack": "wc5e_rules",
+            "node": "gapBYzbuF6qevYSy",
+            "label": "WC5E.Rules.Artifacts.Label"
+         },
+         "next": {
+            "pack": "wc5e_rules",
+            "node": "5mqqgrGbFZK7V4z9",
+            "label": "WC5E.Rules.Enhancements.Label"
+         }
+      }
+   }
+}

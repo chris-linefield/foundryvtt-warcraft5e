@@ -6,7 +6,7 @@
    "authors": [],
    "url": "https://github.com/ArthegaAsdweri/foundryvtt-warcraft5e",
    "flags": {},
-   "version": "0.1.4",
+   "version": "0.1.6",
    "minimumCoreVersion": "0.8.2",
    "compatibleCoreVersion": "9",
    "scripts": [],
@@ -70,6 +70,14 @@
          "package": "warcraft5e"
       },
       {
+         "name": "wc5e_epic_boons",
+         "label": "Wc5e | Epic Boons",
+         "path": "./packs/epic_boons.db",
+         "type": "Item",
+         "system": "dnd5e",
+         "package": "warcraft5e"
+      },
+      {
          "name": "wc5e_mechanics",
          "label": "Wc5e | Mechanics",
          "path": "./packs/mechanics.db",
@@ -97,6 +105,14 @@
          "name": "wc5e_items",
          "label": "Wc5e | Items",
          "path": "./packs/items.db",
+         "type": "Item",
+         "system": "dnd5e",
+         "package": "warcraft5e"
+      },
+      {
+         "name": "wc5e_items_potions",
+         "label": "Wc5e | Items - Potions",
+         "path": "./packs/items_potions.db",
          "type": "Item",
          "system": "dnd5e",
          "package": "warcraft5e"

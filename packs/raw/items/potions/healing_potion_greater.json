@@ -1,0 +1,108 @@
+{
+   "_id": "mkUrzeHOh2mamFqC",
+   "name": "Healing Potion, Greater",
+   "type": "consumable",
+   "img": "icons/consumables/potions/vial-cork-red.webp",
+   "data": {
+      "description": {
+         "value": "<p>By using this potion, character regains 2d8 + 4 hit points (if living), or takes 2d8 + 4 holy damage (if undead or fiend).</p>\n<p><em>Holy light (2nd level)</em></p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 215",
+      "quantity": 1,
+      "weight": 1,
+      "price": 80,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "uncommon",
+      "identified": true,
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": null,
+         "units": "inst"
+      },
+      "target": {
+         "value": 1,
+         "width": null,
+         "units": "",
+         "type": "creature"
+      },
+      "range": {
+         "value": null,
+         "long": null,
+         "units": "ft"
+      },
+      "uses": {
+         "value": 1,
+         "max": "1",
+         "per": "charges",
+         "autoDestroy": true,
+         "autoUse": true
+      },
+      "consume": {
+         "type": "",
+         "target": "",
+         "amount": null,
+         "value": "",
+         "_deprecated": true
+      },
+      "ability": "",
+      "actionType": "heal",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [
+            [
+               "2d8 + 4",
+               "healing"
+            ]
+         ],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "scaling": "spell"
+      },
+      "consumableType": "potion",
+      "attributes": {
+         "spelldc": 10
+      },
+      "consumes": {
+         "type": "",
+         "target": null,
+         "amount": null
+      },
+      "charges": {
+         "value": 1,
+         "max": 1,
+         "_deprecated": true
+      },
+      "autoUse": {
+         "value": true,
+         "_deprecated": true
+      },
+      "autoDestroy": {
+         "value": true,
+         "_deprecated": true
+      }
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+      "default": 0
+   },
+   "flags": {
+   }
+}

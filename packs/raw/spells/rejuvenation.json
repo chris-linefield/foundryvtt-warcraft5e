@@ -32,7 +32,7 @@
          "per": ""
       },
       "ability": "",
-      "actionType": "util",
+      "actionType": "heal",
       "attackBonus": 0,
       "chatFlavor": "",
       "critical": null,

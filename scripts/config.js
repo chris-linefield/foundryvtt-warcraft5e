@@ -18,6 +18,8 @@ DND5E.damageTypes.fel = "WC5E.UI.DamageTypes.Fel";
 DND5E.damageTypes.holy = "WC5E.UI.DamageTypes.Holy";
 DND5E.damageTypes.shadow = "WC5E.UI.DamageTypes.Shadow";
 
+DND5E.healingTypes.healingMana = "WC5E.UI.HealingTypes.HealingMana";
+
 DND5E.itemRarity.veryRare = "WC5E.UI.ItemRarity.Epic";
 DND5E.itemRarity.varies = "WC5E.UI.ItemRarity.Varies";
 
@@ -57,6 +59,15 @@ DND5E.creatureTypes.mecha = "WC5E.Creature.Mecha.Name";
     "thi"  : "WC5E.ThievesTools"
 };*/
 
+
+DND5E.weaponEnhancements = {
+    arcane: "WC5E.UI.WeaponEnhancements.Arcane",
+    black: "WC5E.UI.WeaponEnhancements.Black",
+    fire: "WC5E.UI.WeaponEnhancements.Fire",
+    ricochet: "WC5E.UI.WeaponEnhancements.Ricochet",
+    sleep: "WC5E.UI.WeaponEnhancements.Sleep",
+    storm: "WC5E.UI.WeaponEnhancements.Storm"
+};
 
 DND5E.weaponIds.attackClaws = "H9mvCWwGzgmMWCVL";
 DND5E.weaponIds.generalFirearm = "HjmGaC8pYCUTMLpV";

@@ -1,6 +1,6 @@
 {
    "_id": "gapBYzbuF6qevYSy",
-   "name": "Treasures",
+   "name": "Artifacts",
    "permission": {
       "default": 0
    },
@@ -8,14 +8,8 @@
    "flags": {
       "wc5e": {
          "type": "rule",
-         "title": "WC5E.Rules.Treasures.Label",
+         "title": "WC5E.Rules.Artifacts.Label",
          "content": [
-            {
-               "value": "WC5E.Rules.Treasures.Description.1.Value"
-            },
-            {
-               "title": "WC5E.Rules.Treasures.Description.2.Title"
-            },
             {
                "table": {
                   "head": [
@@ -37,15 +31,15 @@
                         {
                            "link": {
                               "pack": "warcraft5e.wc5e_items",
-                              "node": "QZYkMlTfA8Vs0iL8",
-                              "label": "WC5E.Items.Annihilator.Label"
+                              "node": "XalExDqMQoFD162i",
+                              "label": "WC5E.Items.AnathemaAndBenediction.Label"
                            }
                         },
                         {
                            "link": {
                               "pack": "warcraft5e.wc5e_items",
-                              "node": "2ajRYUbcGTGiQxyX",
-                              "label": "WC5E.Items.ArcaniteReaper.Label"
+                              "node": "SIZkZtYNELPbkRJf",
+                              "label": "WC5E.Items.Ashbringer.Label"
                            }
                         }
                      ],
@@ -53,15 +47,15 @@
                         {
                            "link": {
                               "pack": "warcraft5e.wc5e_items",
-                              "node": "EvNm1laLUIKXGxpZ",
-                              "label": "WC5E.Items.BlackGraspOfTheDestroyer.Label"
+                              "node": "GN2KhsyyT9nKb2tc",
+                              "label": "WC5E.Items.Atiesh.Label"
                            }
                         },
                         {
                            "link": {
                               "pack": "warcraft5e.wc5e_items",
-                              "node": "NDTLQbQwBSCd3nei",
-                              "label": "WC5E.Items.Bladefist.Label"
+                              "node": "TusdUj6s3EPhF9M2",
+                              "label": "WC5E.Items.Frostmourne.Label"
                            }
                         }
                      ],
@@ -69,15 +63,15 @@
                         {
                            "link": {
                               "pack": "warcraft5e.wc5e_items",
-                              "node": "TkOEJQQ9aiz0N7Kj",
-                              "label": "WC5E.Items.Blight.Label"
+                              "node": "BtWpTE4aJCWzq7sG",
+                              "label": "WC5E.Items.Shadowmourne.Label"
                            }
                         },
                         {
                            "link": {
                               "pack": "warcraft5e.wc5e_items",
-                              "node": "WIAPh1jlPSM9rXAc",
-                              "label": "WC5E.Items.BookOfTheDead.Label"
+                              "node": "6cyw29uLT8ytun1B",
+                              "label": "WC5E.Items.Thoridal.Label"
                            }
                         }
                      ],
@@ -85,411 +79,12 @@
                         {
                            "link": {
                               "pack": "warcraft5e.wc5e_items",
-                              "node": "ZG2oaN7bnX4eUGaN",
-                              "label": "WC5E.Items.Brainsplinter.Label"
+                              "node": "seRmzDIiDt5cPkD1",
+                              "label": "WC5E.Items.Thunderfury.Label"
                            }
                         },
                         {
-                           "link": {
-                              "pack": "warcraft5e.wc5e_items",
-                              "node": "PHd8YtWTRssKdBXN",
-                              "label": "WC5E.Items.CauldronLadleOfWackyExperimentation.Label"
-                           }
                         }
-                     ],
-                     [
-                        {
-                           "link": {
-                              "pack": "warcraft5e.wc5e_items",
-                              "node": "xOeGkODCnpCAxBaz",
-                              "label": "WC5E.Items.CauldronOfDimensionalParallelism.Label"
-                           }
-                        },
-                        {
-                           "link": {
-                              "pack": "warcraft5e.wc5e_items",
-                              "node": "3YF9BjTNYbd3QkDP",
-                              "label": "WC5E.Items.CauldronOfLight.Label"
-                           }
-                        }
-                     ],
-                     [
-                        {
-                           "link": {
-                              "pack": "warcraft5e.wc5e_items",
-                              "node": "yMQnYOdVYdqXHlOh",
-                              "label": "WC5E.Items.CauldronOfTheMadAlchemist.Label"
-                           }
-                        },
-                        {
-                           "link": {
-                              "pack": "warcraft5e.wc5e_items",
-                              "node": "8nZ2uVqNLqHLN62Z",
-                              "label": "WC5E.Items.ChainsOfTheUndyingMage.Label"
-                           }
-                        }
-                     ],
-                     [
-                        {
-                           "link": {
-                              "pack": "warcraft5e.wc5e_items",
-                              "node": "Ff2bCzBGluk2OsUn",
-                              "label": "WC5E.Items.CrystalBall.Label"
-                           }
-                        },
-                        {
-                           "link": {
-                              "pack": "warcraft5e.wc5e_items",
-                              "node": "x5MWYgNyhCALnAAT",
-                              "label": "WC5E.Items.DawnsEdge.Label"
-                           }
-                        }
-                     ],
-                     [
-                        {
-                           "link": {
-                              "pack": "warcraft5e.wc5e_items",
-                              "node": "XuMNaohvlRu3tMes",
-                              "label": "WC5E.Items.DemonicFigurine.Label"
-                           }
-                        },
-                        {
-                           "link": {
-                              "pack": "warcraft5e.wc5e_items",
-                              "node": "GnIIeOCZtoGmfYG4",
-                              "label": "WC5E.Items.Doomhammer.Label"
-                           }
-                        }
-                     ],
-                     [
-                        {
-                           "link": {
-                              "pack": "warcraft5e.wc5e_items",
-                              "node": "V8zMWrVfJKvGirjV",
-                              "label": "WC5E.Items.EmbraceOfTheTwistingNether.Label"
-                           }
-                        },
-                        {
-                           "link": {
-                              "pack": "warcraft5e.wc5e_items",
-                              "node": "okoXCupwDyG4cuNZ",
-                              "label": "WC5E.Items.Fearbreaker.Label"
-                           }
-                        }
-                     ],
-                     [
-                        {
-                           "link": {
-                              "pack": "warcraft5e.wc5e_items",
-                              "node": "rfNafH8RrUsLCThH",
-                              "label": "WC5E.Items.Felomelorn.Label"
-                           }
-                        },
-                        {
-                           "link": {
-                              "pack": "warcraft5e.wc5e_items",
-                              "node": "KpRF8Q58ERZvdfl8",
-                              "label": "WC5E.Items.Gorehowl.Label"
-                           }
-                        }
-                     ],
-                     [
-                        {
-                           "link": {
-                              "pack": "warcraft5e.wc5e_items",
-                              "node": "yoibdTp36AYj8PMd",
-                              "label": "WC5E.Items.GreatFelBlade.Label"
-                           }
-                        },
-                        {
-                           "link": {
-                              "pack": "warcraft5e.wc5e_items",
-                              "node": "A23xftlnPaWG0Gah",
-                              "label": "WC5E.Items.HammerOfTheTitans.Label"
-                           }
-                        }
-                     ],
-                     [
-                        {
-                           "link": {
-                              "pack": "warcraft5e.wc5e_items",
-                              "node": "gOtAZ9bLPbOvcyVq",
-                              "label": "WC5E.Items.Hearthstone.Label"
-                           }
-                        },
-                        {
-                           "link": {
-                              "pack": "warcraft5e.wc5e_items",
-                              "node": "NyuoINJeVHze2jvT",
-                              "label": "WC5E.Items.HornOfStormwind.Label"
-                           }
-                        }
-                     ],
-                     [
-                        {
-                           "link": {
-                              "pack": "warcraft5e.wc5e_items",
-                              "node": "7FlSlDVsXQpGq3Xe",
-                              "label": "WC5E.Items.JainasLocket.Label"
-                           }
-                        },
-                        {
-                           "link": {
-                              "pack": "warcraft5e.wc5e_items",
-                              "node": "p85YtgQ5Yc3cIu7T",
-                              "label": "WC5E.Items.LightsVengeance.Label"
-                           }
-                        }
-                     ],
-                     [
-                        {
-                           "link": {
-                              "pack": "warcraft5e.wc5e_items",
-                              "node": "gzVKMxpdOyPSuLB7",
-                              "label": "WC5E.Items.ManaBlade.Label"
-                           }
-                        },
-                        {
-                           "link": {
-                              "pack": "warcraft5e.wc5e_items",
-                              "node": "M1bZyeEWrS3as6Jj",
-                              "label": "WC5E.Items.ManaStone.Label"
-                           }
-                        }
-                     ],
-                     [
-                        {
-                           "link": {
-                              "pack": "warcraft5e.wc5e_items",
-                              "node": "wtTj7VY2bAjstgwI",
-                              "label": "WC5E.Items.MysticWand.Label"
-                           }
-                        },
-                        {
-                           "link": {
-                              "pack": "warcraft5e.wc5e_items",
-                              "node": "f3F35XR44BdsmpES",
-                              "label": "WC5E.Items.Orkenblade.Label"
-                           }
-                        }
-                     ],
-                     [
-                        {
-                           "link": {
-                              "pack": "warcraft5e.wc5e_items",
-                              "node": "iqFxr7eCo9USa7S0",
-                              "label": "WC5E.Items.PhantomBlade.Label"
-                           }
-                        },
-                        {
-                           "link": {
-                              "pack": "warcraft5e.wc5e_items",
-                              "node": "5vrfkJIcCwDBM644",
-                              "label": "WC5E.Items.PhilosophersStone.Label"
-                           }
-                        }
-                     ],
-                     [
-                        {
-                           "link": {
-                              "pack": "warcraft5e.wc5e_items",
-                              "node": "wDadg82dciP8bhGh",
-                              "label": "WC5E.Items.PrismaticBlade.Label"
-                           }
-                        },
-                        {
-                           "link": {
-                              "pack": "warcraft5e.wc5e_items",
-                              "node": "yeYHiO5R3NITDiiR",
-                              "label": "WC5E.Items.PuzzleBoxOfYoggSaron.Label"
-                           }
-                        }
-                     ],
-                     [
-                        {
-                           "link": {
-                              "pack": "warcraft5e.wc5e_items",
-                              "node": "W8meMB9czfHcv3J9",
-                              "label": "WC5E.Items.QuilenStatuette.Label"
-                           }
-                        },
-                        {
-                           "link": {
-                              "pack": "warcraft5e.wc5e_items",
-                              "node": "PaBH24yftHfUFees",
-                              "label": "WC5E.Items.RelicOfPower.Label"
-                           }
-                        }
-                     ],
-                     [
-                        {
-                           "link": {
-                              "pack": "warcraft5e.wc5e_items",
-                              "node": "QyIIMiuT00gzR6on",
-                              "label": "WC5E.Items.RoyalSwordOfStormwind.Label"
-                           }
-                        },
-                        {
-                           "link": {
-                              "pack": "warcraft5e.wc5e_items",
-                              "node": "AV2cxfIQzoSs962M",
-                              "label": "WC5E.Items.Runespear.Label"
-                           }
-                        }
-                     ],
-                     [
-                        {
-                           "link": {
-                              "pack": "warcraft5e.wc5e_items",
-                              "node": "l9Zz24OR9pEDzR6Y",
-                              "label": "WC5E.Items.Sageblade.Label"
-                           }
-                        },
-                        {
-                           "link": {
-                              "pack": "warcraft5e.wc5e_items",
-                              "node": "En3zf9Fh1FzVcLm7",
-                              "label": "WC5E.Items.SaroniteMindcrusher.Label"
-                           }
-                        }
-                     ],
-                     [
-                        {
-                           "link": {
-                              "pack": "warcraft5e.wc5e_items",
-                              "node": "Nu6TzB66FYg8oJXO",
-                              "label": "WC5E.Items.ScimitarOfSirocco.Label"
-                           }
-                        },
-                        {
-                           "link": {
-                              "pack": "warcraft5e.wc5e_items",
-                              "node": "unaC4X27QyANLw4U",
-                              "label": "WC5E.Items.SpellShieldAmulet.Label"
-                           }
-                        }
-                     ],
-                     [
-                        {
-                           "link": {
-                              "pack": "warcraft5e.wc5e_items",
-                              "node": "quv14hZaVmh1rvtN",
-                              "label": "WC5E.Items.SpiritualEssence.Label"
-                           }
-                        },
-                        {
-                           "link": {
-                              "pack": "warcraft5e.wc5e_items",
-                              "node": "787XQHK1nm1WyeMr",
-                              "label": "WC5E.Items.StaffOfSorcererThaneThaurissan.Label"
-                           }
-                        }
-                     ],
-                     [
-                        {
-                           "link": {
-                              "pack": "warcraft5e.wc5e_items",
-                              "node": "BVJJOkbhNplfemcS",
-                              "label": "WC5E.Items.SulfurasHandOfRagnaros.Label"
-                           }
-                        },
-                        {
-                           "link": {
-                              "pack": "warcraft5e.wc5e_items",
-                              "node": "WsdphoL3Riig7dKI",
-                              "label": "WC5E.Items.SulfuronHammer.Label"
-                           }
-                        }
-                     ],
-                     [
-                        {
-                           "link": {
-                              "pack": "warcraft5e.wc5e_items",
-                              "node": "Xx5XZ93k2ojeX7Az",
-                              "label": "WC5E.Items.SunstriderLongbow.Label"
-                           }
-                        },
-                        {
-                           "link": {
-                              "pack": "warcraft5e.wc5e_items",
-                              "node": "1kbhJodfmZ2wr5xu",
-                              "label": "WC5E.Items.ThePlanarEdge.Label"
-                           }
-                        }
-                     ],
-                     [
-                        {
-                           "link": {
-                              "pack": "warcraft5e.wc5e_items",
-                              "node": "1JSa1pFwJjSLZfNL",
-                              "label": "WC5E.Items.TirioshNightmareOfAges.Label"
-                           }
-                        },
-                        {
-                           "link": {
-                              "pack": "warcraft5e.wc5e_items",
-                              "node": "U2GUsgXDQbH0cVLV",
-                              "label": "WC5E.Items.Trolkalar.Label"
-                           }
-                        }
-                     ],
-                     [
-                        {
-                           "link": {
-                              "pack": "warcraft5e.wc5e_items",
-                              "node": "hciImZ6Et6peeKtY",
-                              "label": "WC5E.Items.TruesilverChampion.Label"
-                           }
-                        },
-                        {
-                           "link": {
-                              "pack": "warcraft5e.wc5e_items",
-                              "node": "MaLjsX3nw6AFDwdp",
-                              "label": "WC5E.Items.TwinBladesOfAzzinoth.Label"
-                           }
-                        }
-                     ],
-                     [
-                        {
-                           "link": {
-                              "pack": "warcraft5e.wc5e_items",
-                              "node": "Q5k3alMRM64zfL9k",
-                              "label": "WC5E.Items.ValanyrHammerOfAncientKings.Label"
-                           }
-                        },
-                        {
-                           "link": {
-                              "pack": "warcraft5e.wc5e_items",
-                              "node": "KaGzDSV6UtWOjRry",
-                              "label": "WC5E.Items.VerdantSphere.Label"
-                           }
-                        }
-                     ],
-                     [
-                        {
-                           "link": {
-                              "pack": "warcraft5e.wc5e_items",
-                              "node": "yzZCakXNwD7pGEy9",
-                              "label": "WC5E.Items.VoodooDoll.Label"
-                           }
-                        },
-                        {
-                           "link": {
-                              "pack": "warcraft5e.wc5e_items",
-                              "node": "VfHcQ6aAe5kjqGKs",
-                              "label": "WC5E.Items.WardensCloak.Label"
-                           }
-                        }
-                     ],
-                     [
-                        {
-                           "link": {
-                              "pack": "warcraft5e.wc5e_items",
-                              "node": "Q0aV42A7bMAlwkiL",
-                              "label": "WC5E.Items.WispAmulet.Label"
-                           }
-                        },
-                        {}
                      ]
                   ]
                }
@@ -497,13 +92,13 @@
          ],
          "prev": {
             "pack": "wc5e_rules",
-            "node": "yJQ5Zbr4wMp4nNb6",
-            "label": "WC5E.Rules.Tools.Label"
+            "node": "CEps1QP2aTnqepnR",
+            "label": "WC5E.Rules.Treasures.Label"
          },
          "next": {
             "pack": "wc5e_rules",
-            "node": "gapBYzbuF6qevYSy",
-            "label": "WC5E.Rules.Artifacts.Label"
+            "node": "gV0CPKmFQUQ2clYt",
+            "label": "WC5E.Rules.ArmorSets.Label"
          }
       }
    }
