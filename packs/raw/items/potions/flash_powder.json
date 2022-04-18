@@ -1,0 +1,79 @@
+{
+   "_id": "t33AsBnfqBOw2Wn8",
+   "name": "Flash Powder",
+   "type": "consumable",
+   "img": "icons/commodities/materials/bowl-powder-grey.webp",
+   "data": {
+      "description": {
+         "value": "<p>This pinch of powder is a mixture of protogunpowder and alchemical flares. It can be thrown at a range of 30/60 ft. Creatures 5 feet away from the point of impact are blinded on a failed Agility saving throw against a DC of 10. If thrown further than 30 feet, creatures have advantage to the saving throw. A creature can repeat the saving throw at the end of its turn every round.</p>\n<p>Alchemists, rogues, and hunters often use this cheap product as a distraction to hide or for a quick combat advantage if they have the Flash Bomber talent.</p>\n<p>Unlike most potions, flash powder also counts as an explosive, and can be crafted by those proficient with Engineer‘s Tools, and can‘t be consumed by an alchemical engine.</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 216",
+      "quantity": 1,
+      "weight": 1,
+      "price": 20,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "common",
+      "identified": true,
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": null,
+         "units": "inst"
+      },
+      "target": {
+         "value": 5,
+         "width": null,
+         "units": "ft",
+         "type": "radius"
+      },
+      "range": {
+         "value": 30,
+         "long": 60,
+         "units": "ft"
+      },
+      "uses": {
+         "value": 1,
+         "max": "1",
+         "per": "charges",
+         "autoDestroy": false
+      },
+      "consume": {
+         "type": "charges",
+         "target": "",
+         "amount": 1
+      },
+      "ability": "",
+      "actionType": "save",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "dex",
+         "dc": null,
+         "scaling": "spell"
+      },
+      "consumableType": "potion"
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+      "default": 0
+   },
+   "flags": {
+   }
+}

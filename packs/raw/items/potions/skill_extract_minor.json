@@ -1,0 +1,79 @@
+{
+   "_id": "qzrtdcfzqps8cJNe",
+   "name": "Skill Extract, Minor",
+   "type": "consumable",
+   "img": "icons/consumables/potions/potion-bottle-corked-white.webp",
+   "data": {
+      "description": {
+         "value": "<p>By using this potion, the creature‘s skill becomes greater, gaining a +2 bonus to a single skill check.</p>\n<p><em>Shift Skill (1st level)</em></p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 215",
+      "quantity": 1,
+      "weight": 1,
+      "price": 20,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "common",
+      "identified": true,
+      "activation": {
+         "type": "",
+         "cost": 0,
+         "condition": ""
+      },
+      "duration": {
+         "value": null,
+         "units": ""
+      },
+      "target": {
+         "value": null,
+         "width": null,
+         "units": "",
+         "type": ""
+      },
+      "range": {
+         "value": null,
+         "long": null,
+         "units": ""
+      },
+      "uses": {
+         "value": null,
+         "max": "",
+         "per": null,
+         "autoDestroy": false
+      },
+      "consume": {
+         "type": "",
+         "target": null,
+         "amount": null
+      },
+      "ability": null,
+      "actionType": "",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "scaling": "spell"
+      },
+      "consumableType": "potion"
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+      "default": 0
+   },
+   "flags": {
+   }
+}

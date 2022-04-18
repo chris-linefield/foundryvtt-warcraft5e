@@ -18,6 +18,8 @@ DND5E.damageTypes.fel = "WC5E.UI.DamageTypes.Fel";
 DND5E.damageTypes.holy = "WC5E.UI.DamageTypes.Holy";
 DND5E.damageTypes.shadow = "WC5E.UI.DamageTypes.Shadow";
 
+DND5E.healingTypes.healingMana = "WC5E.UI.HealingTypes.HealingMana";
+
 DND5E.itemRarity.veryRare = "WC5E.UI.ItemRarity.Epic";
 DND5E.itemRarity.varies = "WC5E.UI.ItemRarity.Varies";
 

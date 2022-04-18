@@ -1,6 +1,6 @@
 {
-   "_id": "PKmONelNw0wui1SU",
-   "name": "Rejuvenation",
+   "_id": "PrjHiIMi4PkQR1bq",
+   "name": "Frost Bolt",
    "permission": {
       "default": 0
    },
@@ -13,17 +13,17 @@
          "condition": ""
       },
       "duration": {
-         "value": 1,
-         "units": "minute"
+         "value": null,
+         "units": "inst"
       },
       "target": {
-         "value": null,
-         "units": null,
-         "type": "self"
+         "value": 1,
+         "units": "",
+         "type": "creature"
       },
       "range": {
          "value": 60,
-         "long": null,
+         "long": 0,
          "units": "ft"
       },
       "uses": {
@@ -32,14 +32,19 @@
          "per": ""
       },
       "ability": "",
-      "actionType": "heal",
+      "actionType": "rsak",
       "attackBonus": 0,
       "chatFlavor": "",
-      "critical": null,
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
       "damage": {
          "parts": [
-            "1d4",
-            "healing"
+            [
+               "1d8",
+               "cold"
+            ]
          ],
          "versatile": ""
       },
@@ -47,10 +52,9 @@
       "save": {
          "ability": "",
          "dc": null,
-         "value": "",
-         "scaling": "spell"
+         "value": ""
       },
-      "level": 1,
+      "level": 0,
       "school": "evo",
       "components": {
          "value": "",
@@ -62,7 +66,7 @@
       },
       "materials": {
          "value": "",
-         "consumed": true,
+         "consumed": false,
          "cost": 0,
          "supply": 0
       },
@@ -71,7 +75,7 @@
          "prepared": false
       },
       "scaling": {
-         "mode": "none",
+         "mode": "cantrip",
          "formula": ""
       }
    },
@@ -81,17 +85,14 @@
          "type": "spell",
          "description": [
             {
-               "value": "WC5E.Spells.Rejuvenation.Description.1.Value"
+               "value": "WC5E.Spells.FrostBolt.Description.1.Value"
             },
             {
-               "value": "WC5E.Spells.Rejuvenation.Description.2.Value"
-            },
-            {
-               "value": "WC5E.Spells.Rejuvenation.Description.3.Value"
+               "value": "WC5E.Spells.FrostBolt.Description.2.Value"
             }
          ]
       }
    },
-   "img": "systems/dnd5e/icons/spells/beam-blue-2.jpg",
+   "img": "systems/dnd5e/icons/spells/beam-blue-1.jpg",
    "effects": []
 }

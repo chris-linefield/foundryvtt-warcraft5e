@@ -1,0 +1,79 @@
+{
+   "_id": "VbBDgarwXIrh4FxV",
+   "name": "Crackle Powder",
+   "type": "consumable",
+   "img": "icons/commodities/materials/bowl-powder-gold.webp",
+   "data": {
+      "description": {
+         "value": "<p>This alchemical powder creates a loud crackling noise, like a snapping branch, whenever it is jostled or struck. A dose of the powder covers a 10-foot-radius area with an action, and imposes disadvantage on Agility (Stealth) checks.</p>\n<p>The powder remains active for 4 hours.</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 216",
+      "quantity": 1,
+      "weight": 1,
+      "price": 20,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "common",
+      "identified": true,
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": 4,
+         "units": "hour"
+      },
+      "target": {
+         "value": 10,
+         "width": null,
+         "units": "ft",
+         "type": "radius"
+      },
+      "range": {
+         "value": 20,
+         "long": 60,
+         "units": "ft"
+      },
+      "uses": {
+         "value": 1,
+         "max": "1",
+         "per": "charges",
+         "autoDestroy": false
+      },
+      "consume": {
+         "type": "charges",
+         "target": "",
+         "amount": 1
+      },
+      "ability": null,
+      "actionType": "",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "scaling": "spell"
+      },
+      "consumableType": "potion"
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+      "default": 0
+   },
+   "flags": {
+   }
+}

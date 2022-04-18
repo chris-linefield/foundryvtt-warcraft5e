@@ -8415,6 +8415,22 @@
          }
       },
       "Items": {
+         "AcidNeutralizer": {
+            "Label": "Acid Neutralizer",
+            "ShortDescription": "Reduce acid damage by 1d6 + 3 once/round"
+         },
+         "AlarmStick": {
+            "Label": "Alarm Stick"
+         },
+         "AlchemistsAcid": {
+            "Label": "Alchemist‘s Acid"
+         },
+         "AlchemistsFire": {
+            "Label": "Alchemist‘s Fire"
+         },
+         "AlchemistsFrost": {
+            "Label": "Alchemist‘s Frost"
+         },
          "AlchemistsSupplies": {
             "Label": "Alchemist‘s Supplies"
          },
@@ -8423,6 +8439,17 @@
          },
          "Annihilator": {
             "Label": "Annihilator"
+         },
+         "AntimagicPotion": {
+            "Label": "Antimagic Potion"
+         },
+         "Antiodor": {
+            "Label": "Antiodor",
+            "ShortDescription": "Suppresses odor and scent"
+         },
+         "AntitoxinAntiplague": {
+            "Label": "Antitoxin / Antiplague",
+            "ShortDescription": "Advantage vs. poisons (or plagues)"
          },
          "ArcaniteReaper": {
             "Label": "Arcanite Reaper"
@@ -8625,14 +8652,30 @@
          "CostumeClothes": {
             "Label": "Costume Clothes"
          },
+         "CracklePowder": {
+            "Label": "Crackle Powder",
+            "ShortDescription": "When stepped on, creates loud crack"
+         },
          "CrystalBall": {
             "Label": "Crystal Ball"
+         },
+         "CrystallizedAir": {
+            "Label": "Crystallized Air",
+            "ShortDescription": "Provides 1 hour of breathable air"
          },
          "Dagger": {
             "Label": "Dagger"
          },
+         "DarkLightPowder": {
+            "Label": "Dark Light Powder",
+            "ShortDescription": "Seen only with darkvision"
+         },
          "DawnsEdge": {
             "Label": "Dawn's Edge"
+         },
+         "Defoliant": {
+            "Label": "Defoliant",
+            "ShortDescription": "Destroys plant life and weakens plant-type creatures"
          },
          "DemonicFigurine": {
             "Label": "Demonic Figurine"
@@ -8667,6 +8710,9 @@
          "DragonstalkerArmorLegguards": {
             "Label": "Dragonstalker Armor Legguards"
          },
+         "ElementalArmorIcon": {
+            "Label": "Elemental Armor Icon"
+         },
          "EmbraceOfTheTwistingNether": {
             "Label": "Embrace of the Twisting Nether"
          },
@@ -8681,6 +8727,9 @@
                }
             }
          },
+         "FalseLifeSpray": {
+            "Label": "False Life Spray"
+         },
          "Fearbreaker": {
             "Label": "Fearbreaker"
          },
@@ -8689,6 +8738,10 @@
          },
          "FineClothes": {
             "Label": "Fine Clothes"
+         },
+         "FlashPowder": {
+            "Label": "Flash Powder",
+            "ShortDescription": "Causes blindness, can repeat saving throw 1/round"
          },
          "Frostmourne": {
             "Label": "Frostmourne"
@@ -8726,22 +8779,39 @@
                }
             }
          },
+         "Gunpowder": {
+            "Label": "Gunpowder",
+            "ShortDescription": "Fuel for explosives, can burn for 1d6/pound"
+         },
          "HammerOfTheTitans": {
             "Label": "Hammer of the Titans"
          },
-         "HealingPotion": {
-            "Label": "Healing Potion",
+         "HealingPotionMinor": {
+            "Label": "Healing Potion, Minor",
             "Description": {
                "1": {
                   "Value": "By using this potion, character regains 1d8 + 4 hit points (if living), or takes 1d8 + 4 holy damage (if undead or fiend)."
                }
             }
          },
+         "HealingPotionGreater": {
+            "Label": "Healing Potion, Greater"
+         },
+         "HealingPotionMajor": {
+            "Label": "Healing Potion, Major"
+         },
          "Hearthstone": {
             "Label": "Hearthstone"
          },
+         "HeroismPill": {
+            "Label": "Heroism Pill"
+         },
          "HolySymbol": {
             "Label": "Holy Symbol"
+         },
+         "HolyWater": {
+            "Label": "Holy Water",
+            "ShortDescription": "Deals 2d6 points of holy damage to fiends and undead"
          },
          "HornOfStormwind": {
             "Label": "Horn of Stormwind"
@@ -8772,6 +8842,12 @@
          "JudgementArmorPlate": {
             "Label": "Judgement Armor Plate"
          },
+         "LifePotion": {
+            "Label": "Life Potion"
+         },
+         "LightStick": {
+            "Label": "Light Stick"
+         },
          "LightsVengeance": {
             "Label": "Light's Vengeance"
          },
@@ -8793,6 +8869,16 @@
          "ManaBlade": {
             "Label": "Mana Blade"
          },
+         "ManaPotionMajor": {
+            "Label": "Mana Potion, Major"
+         },
+         "ManaPotionMinor": {
+            "Label": "Mana Potion, Minor",
+            "ShortDescription": "Restores mana points as if you rested"
+         },
+         "ManaPotionModerate": {
+            "Label": "Mana Potion, Moderate"
+         },
          "ManaStone": {
             "Label": "Mana Stone"
          },
@@ -8801,6 +8887,9 @@
          },
          "Maul": {
             "Label": "Maul"
+         },
+         "MindScreamSpray": {
+            "Label": "Mind Scream Spray"
          },
          "Moonglaive": {
             "Label": "Moonglaive",
@@ -8813,8 +8902,17 @@
          "MusicalInstrument": {
             "Label": "Musical Instrument"
          },
+         "MutantSlashPotion": {
+            "Label": "Mutant Slash Potion"
+         },
+         "MutationPotion": {
+            "Label": "Mutation Potion"
+         },
          "MysticWand": {
             "Label": "Mystic Wand"
+         },
+         "NoxiousFumes": {
+            "Label": "Noxious Fumes"
          },
          "Orkenblade": {
             "Label": "Orkenblade"
@@ -8847,6 +8945,10 @@
          "PhilosophersStone": {
             "Label": "Philosopher's Stone"
          },
+         "Phlogiston": {
+            "Label": "Phlogiston",
+            "ShortDescription": "Fuel for combustion engines, provides more charges"
+         },
          "PlagueheartRaimentMask": {
             "Label": "Plagueheart Raiment Mask"
          },
@@ -8864,6 +8966,27 @@
          },
          "PotionOfEnlarge": {
             "Label": "Potion of Enlarge"
+         },
+         "PotionOfRest": {
+            "Label": "Potion of Rest",
+            "ShortDescription": "Provides a short rest‘s worth of rejuvenation"
+         },
+         "PotionOfRestGreater": {
+            "Label": "Potion of Rest, Greater",
+            "ShortDescription": "Provides a long rest‘s worth of rejuvenation"
+         },
+         "PotionOfYouthGreater": {
+            "Label": "Potion of Youth, Greater"
+         },
+         "PotionOfYouthMajor": {
+            "Label": "Potion of Youth, Major"
+         },
+         "PotionOfYouthMinor": {
+            "Label": "Potion of Youth, Minor",
+            "ShortDescription": "Can reduce (or increase) current age"
+         },
+         "PotionOfYouthModerate": {
+            "Label": "Potion of Youth, Moderate"
          },
          "Pouch": {
             "Label": "Pouch"
@@ -8913,6 +9036,9 @@
          "QuilenStatuette": {
             "Label": "Quilen Statuette"
          },
+         "RejuvenationPill": {
+            "Label": "Rejuvenation Pill"
+         },
          "RelicOfPower": {
             "Label": "Relic of Power"
          },
@@ -8951,6 +9077,15 @@
          },
          "SilverHandBlessedPlate": {
             "Label": "Silver Hand Blessed Plate"
+         },
+         "SkillExtract": {
+            "Label": "Skill Extract"
+         },
+         "SmokeBomb": {
+            "Label": "Smoke Bomb"
+         },
+         "SparingPotion": {
+            "Label": "Sparing Potion"
          },
          "SpellShieldAmulet": {
             "Label": "Spell Shield Amulet"
@@ -9798,10 +9933,21 @@
             }
          },
          "Alchemy": {
-            "Label": "Alchemy",
+            "Label": "Alchemy: Potions",
             "Description": {
                "1": {
-                  "Value": "Sometimes a special ability or spell tells you that you have advantage or disadvantage on an ability check, a saving throw, or an attack roll. When that happens, you roll a second d20 when you make the roll. Use the higher of the two rolls if you have advantage, and use the lower roll if you have disadvantage. For example, if you have disadvantage and roll a 17 and a 5, you use the 5. If you instead have advantage and roll those numbers, you use the 17."
+                  "Value": "All potions (regardless of form) weigh 1 pound (unless the container is heavier), and can be used by imbibing or pouring on a creature or object (whichever applies better). Potions are described in more detail in Chapter 7 under Alchemist‘s Supplies."
+               },
+               "2": {
+                  "Title": "Spell Potions",
+                  "Value": "Most potions are based off spells, which cast the spell upon being consumed or used."
+               },
+               "3": {
+                  "Title": "Special Potions",
+                  "Value": "Most potions are based on spells as described in Chapter 7. Some potions diverge from this rule, however, and cover areas that are beyond the strength of spells, such as providing rest. Often times, such potions have their own prices instead of conforming to the Item Creation Complexity and Cost Table on Chapter 7."
+               },
+               "4": {
+                  "Value": "The DCs described under each potion are the default, but any creature with the Alchemy ability can increase the DC to be equal to their potion DCs."
                }
             }
          },
@@ -9959,6 +10105,9 @@
                   "Value": "This method leads to generally stronger characters than by normal rolling. For each ability score, roll 2d6 + 6."
                }
             }
+         },
+         "EngineeringDevices": {
+            "Label": "Engineering: Devices"
          },
          "Enhancements": {
             "Label": "Enhancements",
@@ -11579,6 +11728,17 @@
                }
             }
          },
+         "FrostBolt": {
+            "Label": "Frost Bolt",
+            "Description": {
+               "1": {
+                  "Value": "A frigid beam of blue-white light streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, it takes 1d8 cold damage, and its speed is reduced by 10 feet until the start of your next turn."
+               },
+               "2": {
+                  "Value": "The spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8)."
+               }
+            }
+         },
          "GaseousForm": {
             "Label": "Gaseous Form",
             "Description": {
@@ -12049,6 +12209,34 @@
             "Heightened": {
                "1": {
                   "Value": "When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d10 for each slot level above 2nd."
+               }
+            }
+         },
+         "Mutate": {
+            "Label": "Mutate",
+            "Description": {
+               "1": {
+                  "Value": "You transmute the touched target to gain one of the below mutations. You can choose one of the following mutations in the array:"
+               },
+               "2": {
+                  "Options": {
+                     "1": "<i>Adhesive</i>: The target becomes stickier. They gain advantage to grapple checks and checks related to climbing or holding.",
+                     "2": "<i>Ability Score Boost</i>: The target gains +2 to one attribute, but -2 to the opposite attribute. Strength is opposed to Intelligence, Agility to Spirit, and Stamina to Charisma.",
+                     "3": "<i>Bite</i>: The target gains a bite melee weapon attack. Bite is treated as a light natural attack, and deals piercing damage as a dagger of the target‘s size (1d4 for medium creatures).",
+                     "4": "<i>Claws</i>: This is treated as Bite, but instead deals slashing damage, and is treated as a shortsword of the target‘s size (1d6 for medium creatures).",
+                     "5": "<i>Longer Limbs</i>: One of the target‘s limbs lengthen. This increases the target‘s reach by 5 feet for attack rolls done through that limb (bite, kick, armed melee attacks, etc.) or movement speed (if legs or tails) by 10 feet.",
+                     "6": "<i>Resistant Skin</i>: The target reduces damage taken from one damage type of the target‘s choice by 3 points (minimum 0 damage).",
+                     "7": "<i>Thicker Skin</i>: The target gains a natural armor bonus equal to +2. This does not stack with normal armor.",
+                     "8": "<i>Sensitive Eyes</i>: The target‘s eyes become more sensitive. They gain darkvision 60 feet, or increase the range of existing darkvision by 30 feet."
+                  }
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "You can increase the bonus and penalty to attribute mutation or armor by +1 for every spell level above 1st level, or energy resistance by 5 points above level 1."
+               },
+               "2": {
+                  "Value": "Alternatively, you may add another mutation for every two spell levels this is heightened."
                }
             }
          },
@@ -13506,6 +13694,7 @@
          "Bond": "Bond",
          "Bonds": "Bonds",
          "BonusAction": "Bonus Action",
+         "ChangeRace": "Change Race",
          "Class": "Class",
          "Consumable": "Consumable",
          "Cost": "Cost",
@@ -13525,6 +13714,7 @@
             "CancelSkillDescription": "Do you really want to release the skill?",
             "SelectSubrace": "Please select a Subrace:"
          },
+         "Effect": "Effect",
          "Enhancement": "Enhancement",
          "EntertainerRoutine": "Entertainer Routine",
          "FamilyNames": "Family Names",
@@ -13533,6 +13723,9 @@
          "Flaw": "Flaw",
          "Flaws": "Flaws",
          "Gear": "Gear",
+         "HealingTypes": {
+            "HealingMana": "Healing (Mana)"
+         },
          "Ideal": "Ideal",
          "Ideals": "Ideals",
          "ItemRarity": {
@@ -13542,6 +13735,7 @@
          "Language": "Language",
          "Languages": "Languages",
          "MaleNames": "Male Names",
+         "ManaPoints": "Mana Points",
          "Mass": "Mass",
          "MaterialCost": "Material Cost",
          "Name": "Name",

@@ -1,0 +1,79 @@
+{
+   "_id": "rDmBiw3kWPZBxs96",
+   "name": "Potion of Youth, Moderate",
+   "type": "consumable",
+   "img": "icons/consumables/potions/vial-ornet-silver-black.webp",
+   "data": {
+      "description": {
+         "value": "<p>When you drink this potion, your physical age is reduced by 2d10% in years. You can reach a lower age threshold via this potion (such as from being venerable to middle age, or adulthood to childhood). Your mental scores and abilities are unchanged, but the DM may rule that your physical body changed enough to warrant change in physical ability scores (such as increasing Agility but reducing Strength).</p>\n<p>When created, the potion of youth can be instead a potion of aging, in which case it increases your physical age instead of decreasing it. If the physical age is increased beyond your maximum age, you die of old age. Whenever this potion is used, there is a cumulative 10% chance that the potion inverts the intended result.</p>\n<p>For instance, an aging wizard that used 3 potions of youth (for 30% chance to invert) could consume another potion of youth but increase their age by 2d10% years.</p>\n<p><br />If an artifact, an inversion causes instant death of old age. </p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 216",
+      "quantity": 1,
+      "weight": 1,
+      "price": 1280,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "veryRare",
+      "identified": true,
+      "activation": {
+         "type": "",
+         "cost": 0,
+         "condition": ""
+      },
+      "duration": {
+         "value": null,
+         "units": ""
+      },
+      "target": {
+         "value": null,
+         "width": null,
+         "units": "",
+         "type": ""
+      },
+      "range": {
+         "value": null,
+         "long": null,
+         "units": ""
+      },
+      "uses": {
+         "value": null,
+         "max": "",
+         "per": null,
+         "autoDestroy": false
+      },
+      "consume": {
+         "type": "",
+         "target": null,
+         "amount": null
+      },
+      "ability": null,
+      "actionType": "",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "scaling": "spell"
+      },
+      "consumableType": "potion"
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+      "default": 0
+   },
+   "flags": {
+   }
+}

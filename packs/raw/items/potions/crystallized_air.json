@@ -1,0 +1,79 @@
+{
+   "_id": "5hEO8vdHWMfVYdUH",
+   "name": "Crystallized Air",
+   "type": "consumable",
+   "img": "icons/commodities/gems/gem-rough-heart-teal.webp",
+   "data": {
+      "description": {
+         "value": "<p>This alchemical item crystallizes breathable air. When consumed, the potion grants 1 hours‘ worth of breath in one dosage.</p>\n<p>Crystallized air is waterproof if unused, but spoils when the creature otherwise opens their mouth or allows new air entry into the body (such as by breathing normally or talking).</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 216",
+      "quantity": 1,
+      "weight": 1,
+      "price": 80,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "uncommon",
+      "identified": true,
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": 1,
+         "units": "hour"
+      },
+      "target": {
+         "value": 1,
+         "width": null,
+         "units": "",
+         "type": "creature"
+      },
+      "range": {
+         "value": 20,
+         "long": 60,
+         "units": "ft"
+      },
+      "uses": {
+         "value": 1,
+         "max": "1",
+         "per": "charges",
+         "autoDestroy": false
+      },
+      "consume": {
+         "type": "charges",
+         "target": "",
+         "amount": 1
+      },
+      "ability": "",
+      "actionType": "util",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "scaling": "spell"
+      },
+      "consumableType": "potion"
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+      "default": 0
+   },
+   "flags": {
+   }
+}

@@ -1,0 +1,79 @@
+{
+   "_id": "9nIhhzgjTsXcpBy6",
+   "name": "Gunpowder",
+   "type": "consumable",
+   "img": "icons/commodities/materials/bowl-powder-grey.webp",
+   "data": {
+      "description": {
+         "value": "<p>This potent combustible powder is the fuel for most firearms and explosives, and some combustion engines. Unlike most uncommon alchemical products, gunpowder costs 12 gp per pound in most stores, and costs 6 gp to craft if not a specialist.</p>\n<p>When set aflame gunpowder combusts and deals 1d6 fire damage to each creature in 10 feet per 1 pound of mass (up to 10d6 points of fire damage). Setting an ounce of gunpowder causes it to burn brightly, shedding bright light in 30 feet for 1 round, and dim light in the same radius for another round, before extinguishing. A creature in the area of effect can attempt a DC 10 Agility saving throw to half the damage taken.</p>\n<p>If set aflame in a container, gunpowder instead deals the damage in concussive damage, and its radius increases by 10 feet for every pound of mass.</p>\n<p>Unlike most potions, gunpowder also counts as an explosive, and can be crafted by those proficient with Engineer‘s Tools, and can‘t be consumed by an alchemical engine.</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 216",
+      "quantity": 1,
+      "weight": 1,
+      "price": 12,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "uncommon",
+      "identified": true,
+      "activation": {
+         "type": "",
+         "cost": 0,
+         "condition": ""
+      },
+      "duration": {
+         "value": null,
+         "units": ""
+      },
+      "target": {
+         "value": null,
+         "width": null,
+         "units": "",
+         "type": ""
+      },
+      "range": {
+         "value": null,
+         "long": null,
+         "units": ""
+      },
+      "uses": {
+         "value": null,
+         "max": "",
+         "per": null,
+         "autoDestroy": false
+      },
+      "consume": {
+         "type": "",
+         "target": null,
+         "amount": null
+      },
+      "ability": null,
+      "actionType": "",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "scaling": "spell"
+      },
+      "consumableType": "potion"
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+      "default": 0
+   },
+   "flags": {
+   }
+}

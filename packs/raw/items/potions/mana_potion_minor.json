@@ -1,0 +1,84 @@
+{
+   "_id": "OTLqrAKPlaixJRvw",
+   "name": "Mana Potion, Minor",
+   "type": "consumable",
+   "img": "icons/consumables/potions/potion-tube-corked-blue.webp",
+   "data": {
+      "description": {
+         "value": "<p>By imbibing this blue potion, a spellcaster‘s mental fog is cleared as their mind is flooded with a torrent of raw power. By drinking a mana potion, the character regains mana points.</p>\n<p>You regain mana as if you rested for 1 hour.</p>\n<p>Mana potions are specifically exempt from the mana restoration limit of 1 per hour, but still run the risk of miscibility if used in succession.</p>\n<p><em>Side effects may include dry mouth, nausea, vomiting, water retention, painful rectal itch, hallucination, dementia, psychosis, coma, death, and halitosis. Magic is not for everyone. Consult your doctor before.</em></p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 216",
+      "quantity": 1,
+      "weight": 1,
+      "price": 80,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "uncommon",
+      "identified": true,
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": null,
+         "units": ""
+      },
+      "target": {
+         "value": 1,
+         "width": null,
+         "units": "",
+         "type": "creature"
+      },
+      "range": {
+         "value": 20,
+         "long": 60,
+         "units": "ft"
+      },
+      "uses": {
+         "value": 1,
+         "max": "1",
+         "per": "charges",
+         "autoDestroy": false
+      },
+      "consume": {
+         "type": "charges",
+         "target": "",
+         "amount": 1
+      },
+      "ability": "",
+      "actionType": "heal",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [
+            [
+               "",
+               "healingMana"
+            ]
+         ],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "scaling": "spell"
+      },
+      "consumableType": "potion"
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+      "default": 0
+   },
+   "flags": {
+   }
+}

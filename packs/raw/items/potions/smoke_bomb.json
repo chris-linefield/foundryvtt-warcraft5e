@@ -1,0 +1,79 @@
+{
+   "_id": "05xp2DAUEhTge99y",
+   "name": "Smoke Bomb",
+   "type": "consumable",
+   "img": "icons/consumables/potions/bottle-round-empty-glass.webp",
+   "data": {
+      "description": {
+         "value": "<p>By using this potion, a 20-footradius sphere of fog arises from the point of use. The sphere spreads around corners, and its area is heavily obscured. It lasts for 1d6 x 10 minutes (30 minutes) or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it. The rarity can be treated as if the spell‘s level is ½ by reducing the sphere‘s radius to 5 feet.</p>\n<p><em>Fog cloud (1st level)</em></p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 215",
+      "quantity": 1,
+      "weight": 1,
+      "price": 80,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "uncommon",
+      "identified": true,
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": 1,
+         "units": "hour"
+      },
+      "target": {
+         "value": 20,
+         "width": null,
+         "units": "ft",
+         "type": "sphere"
+      },
+      "range": {
+         "value": 20,
+         "long": 60,
+         "units": "ft"
+      },
+      "uses": {
+         "value": 1,
+         "max": "1",
+         "per": "charges",
+         "autoDestroy": false
+      },
+      "consume": {
+         "type": "charges",
+         "target": "",
+         "amount": 1
+      },
+      "ability": "",
+      "actionType": "util",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "scaling": "spell"
+      },
+      "consumableType": "potion"
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+      "default": 0
+   },
+   "flags": {
+   }
+}
