@@ -1,0 +1,83 @@
+{
+   "_id": "Z2Dwnfzkz9bGBarK",
+   "name": "Boon of Combat Prowess",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "description": {
+         "value": "",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "",
+      "activation": {
+         "type": "none",
+         "cost": null,
+         "condition": ""
+      },
+      "duration": {
+         "value": null,
+         "units": ""
+      },
+      "target": {
+         "value": null,
+         "width": null,
+         "units": "",
+         "type": ""
+      },
+      "range": {
+         "value": null,
+         "long": null,
+         "units": ""
+      },
+      "uses": {
+         "value": 1,
+         "max": "1",
+         "per": "sr"
+      },
+      "consume": {
+         "type": "",
+         "target": "",
+         "amount": null
+      },
+      "ability": null,
+      "actionType": "",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "scaling": "spell"
+      },
+      "requirements": "Character Level 20",
+      "recharge": {
+         "value": null,
+         "charged": false
+      }
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.EpicBoons.CombatProwess.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/skills/melee/blade-tips-double-blue.webp",
+   "effects": [
+   ]
+}

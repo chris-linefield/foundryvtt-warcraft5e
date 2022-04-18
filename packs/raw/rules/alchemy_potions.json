@@ -1,0 +1,772 @@
+{
+   "_id": "ABTjvMps1gDvjoJM",
+   "name": "Alchemy: Potions",
+   "permission": {
+      "default": 0
+   },
+   "type": "class",
+   "flags": {
+      "wc5e": {
+         "type": "rule",
+         "title": "WC5E.Rules.Alchemy.Label",
+         "content": [
+            {
+               "value": "WC5E.Rules.Alchemy.Description.1.Value"
+            },
+            {
+               "title": "WC5E.Rules.Alchemy.Description.2.Title",
+               "value": "WC5E.Rules.Alchemy.Description.2.Value"
+            },
+            {
+               "table": {
+                  "head": [
+                     {
+                        "title": "WC5E.UI.Name"
+                     },
+                     {
+                        "title": "WC5E.UI.RarityEp"
+                     },
+                     {
+                        "title": "WC5E.UI.SpellSpellLevel"
+                     }
+                  ],
+                  "rows": [
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_potions",
+                              "node": "qrReP72F9OAAluwJ",
+                              "label": "WC5E.Items.AlarmStick.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Uncommon",
+                           "brackets": "+2"
+                        },
+                        {
+                           "text": "Alarm (1st Level) TODO"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_potions",
+                              "node": "mkefdoZWtkb1QQQc",
+                              "label": "WC5E.Items.AlchemistsAcid.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Common",
+                           "brackets": "+2"
+                        },
+                        {
+                           "text": "Acid Splash (Cantrip) TODO"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_potions",
+                              "node": "Z1EN3V9H3FRQmuao",
+                              "label": "WC5E.Items.AlchemistsFire.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Common",
+                           "brackets": "+2"
+                        },
+                        {
+                           "text": "Fire Bolt (Cantrip) TODO"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_potions",
+                              "node": "AXgFy0behBP4jfDK",
+                              "label": "WC5E.Items.AlchemistsFrost.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Common",
+                           "brackets": "+2"
+                        },
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_spells",
+                              "node": "PrjHiIMi4PkQR1bq",
+                              "label": "WC5E.Spells.FrostBolt.Label",
+                              "option": "Cantrip"
+                           }
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_potions",
+                              "node": "ytDXPEx9YlvVhYVq",
+                              "label": "WC5E.Items.AntimagicPotion.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Rare",
+                           "brackets": "+3"
+                        },
+                        {
+                           "text": "Globe of Invulnerability (4th Level) TODO"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_potions",
+                              "node": "xBB8FnZxcJokRGXT",
+                              "label": "WC5E.Items.ElementalArmorIcon.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Uncommon",
+                           "brackets": "+2"
+                        },
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_spells",
+                              "node": "ms4OjIZxSAmJYdfn",
+                              "label": "WC5E.Spells.ElementalArmor.Label",
+                              "option": "1st Level"
+                           }
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_potions",
+                              "node": "Fox5tJ2dDGvAHSXv",
+                              "label": "WC5E.Items.FalseLifeSpray.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Uncommon",
+                           "brackets": "+2"
+                        },
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_spells",
+                              "node": "wu9lDAhvE637vRyK",
+                              "label": "WC5E.Spells.FalseLife.Label",
+                              "option": "1st Level"
+                           }
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_potions",
+                              "node": "iJJ9g3jFKNBmHJDo",
+                              "label": "WC5E.Items.HealingPotionMinor.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Uncommon",
+                           "brackets": "+2"
+                        },
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_spells",
+                              "node": "q1Tz0ehvEIAffjsi",
+                              "label": "WC5E.Spells.HolyLight.Label",
+                              "option": "1st Level"
+                           }
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_potions",
+                              "node": "mkUrzeHOh2mamFqC",
+                              "label": "WC5E.Items.HealingPotionGreater.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Uncommon",
+                           "brackets": "+2"
+                        },
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_spells",
+                              "node": "q1Tz0ehvEIAffjsi",
+                              "label": "WC5E.Spells.HolyLight.Label",
+                              "option": "2nd Level"
+                           }
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_potions",
+                              "node": "nI3BkPWoM8poj2J1",
+                              "label": "WC5E.Items.HealingPotionMajor.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Rare",
+                           "brackets": "+3"
+                        },
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_spells",
+                              "node": "q1Tz0ehvEIAffjsi",
+                              "label": "WC5E.Spells.HolyLight.Label",
+                              "option": "3rd Level"
+                           }
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_potions",
+                              "node": "d9yOO7ZSg1v0v9rF",
+                              "label": "WC5E.Items.HeroismPill.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Uncommon",
+                           "brackets": "+2"
+                        },
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_spells",
+                              "node": "JTknVqdG6t8Q7gso",
+                              "label": "WC5E.Spells.Heroism.Label",
+                              "option": "1st Level"
+                           }
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_potions",
+                              "node": "d2nGLr1i3qNSBVgw",
+                              "label": "WC5E.Items.LifePotion.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Rare",
+                           "brackets": "+3"
+                        },
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_spells",
+                              "node": "X7e3HjqB7LgLyfBx",
+                              "label": "WC5E.Spells.Revivify.Label",
+                              "option": "3rd Level"
+                           }
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_potions",
+                              "node": "jrEttVEJKmbUdNNq",
+                              "label": "WC5E.Items.LightStick.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Common",
+                           "brackets": "+2"
+                        },
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_spells",
+                              "node": "sJu9K8hwpESGf4lr",
+                              "label": "WC5E.Spells.Light.Label",
+                              "option": "Cantrip"
+                           }
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_potions",
+                              "node": "eVgLpFrtIIOpDjkP",
+                              "label": "WC5E.Items.MindScreamSpray.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Common",
+                           "brackets": "+2"
+                        },
+                        {
+                           "text": "Vicious Mockery (Cantrip) TODO"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_potions",
+                              "node": "ooeJzYHU0GwB22K4",
+                              "label": "WC5E.Items.MutantSlashPotion.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Uncommon",
+                           "brackets": "+2"
+                        },
+                        {
+                           "text": "Conjure Strike (1st Level) TODO"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_potions",
+                              "node": "curwKuJowVSwPwt0",
+                              "label": "WC5E.Items.MutationPotion.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Uncommon",
+                           "brackets": "+2"
+                        },
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_spells",
+                              "node": "YrrTh6X3tPvQdbjq",
+                              "label": "WC5E.Spells.Mutate.Label",
+                              "option": "1st Level"
+                           }
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_potions",
+                              "node": "9IUUxY1aang41jtr",
+                              "label": "WC5E.Items.NoxiousFumes.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Common",
+                           "brackets": "+2"
+                        },
+                        {
+                           "text": "Poison Spray (Cantrip) TODO"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_potions",
+                              "node": "dIeKJDDEERuGBL64",
+                              "label": "WC5E.Items.RejuvenationPill.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Uncommon",
+                           "brackets": "+2"
+                        },
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_spells",
+                              "node": "PKmONelNw0wui1SU",
+                              "label": "WC5E.Spells.Rejuvenation.Label",
+                              "option": "1st Level"
+                           }
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_potions",
+                              "node": "iEsVZvPoKh91YCaQ",
+                              "label": "WC5E.Items.SkillExtract.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Uncommon",
+                           "brackets": "+2"
+                        },
+                        {
+                           "text": "Shift Skill (1st Level) TODO"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_potions",
+                              "node": "05xp2DAUEhTge99y",
+                              "label": "WC5E.Items.SmokeBomb.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Uncommon",
+                           "brackets": "+2"
+                        },
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_spells",
+                              "node": "gwYBPryPgEq9zACW",
+                              "label": "WC5E.Spells.FogCloud.Label",
+                              "option": "1st Level"
+                           }
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_potions",
+                              "node": "cguGM9DQH6tYvxJy",
+                              "label": "WC5E.Items.SparingPotion.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Common",
+                           "brackets": "+2"
+                        },
+                        {
+                           "text": "Spare the dying (Cantrip) TODO"
+                        }
+                     ]
+                  ]
+               }
+            },
+            {
+               "title": "WC5E.Rules.Alchemy.Description.3.Title",
+               "value": "WC5E.Rules.Alchemy.Description.3.Value"
+            },
+            {
+               "value": "WC5E.Rules.Alchemy.Description.4.Value"
+            },
+            {
+               "table": {
+                  "head": [
+                     {
+                        "title": "WC5E.UI.Name"
+                     },
+                     {
+                        "title": "WC5E.UI.Rarity"
+                     },
+                     {
+                        "title": "WC5E.UI.Effect"
+                     }
+                  ],
+                  "rows": [
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_potions",
+                              "node": "mpu43O6kF3uY6ydp",
+                              "label": "WC5E.Items.AcidNeutralizer.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Common"
+                        },
+                        {
+                           "text": "WC5E.Items.AcidNeutralizer.ShortDescription"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_potions",
+                              "node": "gUfmz6ClRZsV5ijk",
+                              "label": "WC5E.Items.Antiodor.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Common"
+                        },
+                        {
+                           "text": "WC5E.Items.Antiodor.ShortDescription"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_potions",
+                              "node": "PoPpwlDQ3DRlY8K0",
+                              "label": "WC5E.Items.AntitoxinAntiplague.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Common"
+                        },
+                        {
+                           "text": "WC5E.Items.AntitoxinAntiplague.ShortDescription"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_potions",
+                              "node": "VbBDgarwXIrh4FxV",
+                              "label": "WC5E.Items.CracklePowder.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Common"
+                        },
+                        {
+                           "text": "WC5E.Items.CracklePowder.ShortDescription"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_potions",
+                              "node": "5hEO8vdHWMfVYdUH",
+                              "label": "WC5E.Items.CrystallizedAir.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Uncommon"
+                        },
+                        {
+                           "text": "WC5E.Items.CrystallizedAir.ShortDescription"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_potions",
+                              "node": "jarlWBUdnjey9O0r",
+                              "label": "WC5E.Items.DarkLightPowder.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Common"
+                        },
+                        {
+                           "text": "WC5E.Items.DarkLightPowder.ShortDescription"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_potions",
+                              "node": "Vk8VJbbyqQjHc5In",
+                              "label": "WC5E.Items.Defoliant.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Common"
+                        },
+                        {
+                           "text": "WC5E.Items.Defoliant.ShortDescription"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_potions",
+                              "node": "t33AsBnfqBOw2Wn8",
+                              "label": "WC5E.Items.FlashPowder.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Common"
+                        },
+                        {
+                           "text": "WC5E.Items.FlashPowder.ShortDescription"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_potions",
+                              "node": "t33AsBnfqBOw2Wn8",
+                              "label": "WC5E.Items.Gunpowder.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Uncommon",
+                           "brackets": "12gp"
+                        },
+                        {
+                           "text": "WC5E.Items.Gunpowder.ShortDescription"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_potions",
+                              "node": "xUezb3ropKDXqkhE",
+                              "label": "WC5E.Items.HolyWater.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Common"
+                        },
+                        {
+                           "text": "WC5E.Items.HolyWater.ShortDescription"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_potions",
+                              "node": "OTLqrAKPlaixJRvw",
+                              "label": "WC5E.Items.ManaPotionMinor.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Uncommon"
+                        },
+                        {
+                           "text": "WC5E.Items.ManaPotionMinor.ShortDescription"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_potions",
+                              "node": "f4VTX9EG8Jpceail",
+                              "label": "WC5E.Items.ManaPotionModerate.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Rare"
+                        },
+                        {
+                           "text": "WC5E.Items.ManaPotionMinor.ShortDescription"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_potions",
+                              "node": "QQwWBXjgDpvefs5V",
+                              "label": "WC5E.Items.ManaPotionMajor.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Legendary"
+                        },
+                        {
+                           "text": "WC5E.Items.ManaPotionMinor.ShortDescription"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_potions",
+                              "node": "sIFv5z5jWQwG4rBW",
+                              "label": "WC5E.Items.Phlogiston.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Uncommon",
+                           "brackets": "10gp"
+                        },
+                        {
+                           "text": "WC5E.Items.Phlogiston.ShortDescription"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_potions",
+                              "node": "EV1DR0s1U7pfpuGA",
+                              "label": "WC5E.Items.PotionOfRest.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Rare"
+                        },
+                        {
+                           "text": "WC5E.Items.PotionOfRest.ShortDescription"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_potions",
+                              "node": "0Lc8IaU90VgOk1dX",
+                              "label": "WC5E.Items.PotionOfRestGreater.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Legendary"
+                        },
+                        {
+                           "text": "WC5E.Items.PotionOfRest.ShortDescription"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_potions",
+                              "node": "YXUEUi4UbQnyJxWX",
+                              "label": "WC5E.Items.PotionOfYouthMinor.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Rare"
+                        },
+                        {
+                           "text": "WC5E.Items.PotionOfYouthMinor.ShortDescription"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_potions",
+                              "node": "YXUEUi4UbQnyJxWX",
+                              "label": "WC5E.Items.PotionOfYouthModerate.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Epic"
+                        },
+                        {
+                           "text": "WC5E.Items.PotionOfYouthMinor.ShortDescription"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_potions",
+                              "node": "YXUEUi4UbQnyJxWX",
+                              "label": "WC5E.Items.PotionOfYouthGreater.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Legendary"
+                        },
+                        {
+                           "text": "WC5E.Items.PotionOfYouthMinor.ShortDescription"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_potions",
+                              "node": "YXUEUi4UbQnyJxWX",
+                              "label": "WC5E.Items.PotionOfYouthMajor.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Artifact"
+                        },
+                        {
+                           "text": "WC5E.Items.PotionOfYouthMinor.ShortDescription"
+                        }
+                     ]
+                  ]
+               }
+            }
+         ],
+         "prev": {
+            "pack": "wc5e_rules",
+            "node": "OOlxzDS5IPFCrOF0",
+            "label": "WC5E.Rules.EpicBoons.Label"
+         },
+         "next": {
+            "pack": "wc5e_rules",
+            "node": "scLYNnD9op9r3dtd",
+            "label": "WC5E.Rules.EngineeringDevices.Label"
+         }
+      }
+   }
+}

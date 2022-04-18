@@ -1,0 +1,120 @@
+{
+   "name": "Anathema and Benediction",
+   "type": "weapon",
+   "img": "modules/warcraft5e/res/pics/items/benediction.webp",
+   "data": {
+      "description": {
+         "value": "<p><em>requires attunement</em></p>\n<p>The staff has 50 charges. It regains 4d6 + 2 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the ancient wood that keeps the Anathema and Benediction heads away from one another crumble, and the two gravitate towards one another, before clashing, and disappearing. On a 20, the staff regains 1d6 charges. After one year of disappearing, the staff re-forms elsewhere in Azeroth with full charges.</p>\n<ul>\n<li><em>Strike of the Cursed and Blessed:</em> When you hit with a melee attack using the staff and use 1 charge, you can expend 1 charge to cause one of the two opposing heads to strike. If choosing Anathema, the staff deals an extra 2d8 shadow damage to any target it hits. If choosing Benediction, the staff instead deals 2d8 holy damage to any target it hits. This is a strike effect and requires a bonus action to activate as normal.</li>\n<li><em>Channel Divinity:</em> You can use 3 charges to regain a use of your channel divinity ability (if you have it). This can be used once until the next dawn.</li>\n<li><em>Spells:</em> While holding this staff, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC: Death ward (4 charges), finger of death (7 charges), holy aura (8 charges), holy nova (heightened to 4th level; 4 charges), holy light (heightened to 4th level; 4 charges), death coil (heightened to 4th level; 4 charges), conjure undead (heightened to 4th level; 4 charges), dispel magic (3 charges), protection from evil and good (1 charge), and hallow/unhallow.</li>\n</ul>\n<p>This staff can be wielded as a magical quarterstaff that grants a +3 to attack and damage rolls made with it.</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 205",
+      "quantity": 1,
+      "weight": 4,
+      "price": null,
+      "attunement": 1,
+      "equipped": false,
+      "rarity": "artifact",
+      "identified": true,
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": null,
+         "units": ""
+      },
+      "target": {
+         "value": null,
+         "width": null,
+         "units": "",
+         "type": ""
+      },
+      "range": {
+         "value": 5,
+         "long": null,
+         "units": "ft"
+      },
+      "uses": {
+         "value": 50,
+         "max": "50",
+         "per": "charges"
+      },
+      "consume": {
+         "type": "",
+         "target": "",
+         "amount": null
+      },
+      "ability": "",
+      "actionType": "mwak",
+      "attackBonus": "3",
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [
+            [
+               "1d6 + @mod +3",
+               "bludgeoning"
+            ]
+         ],
+         "versatile": "1d8 + @mod +3"
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "scaling": "spell"
+      },
+      "armor": {
+         "value": 10
+      },
+      "hp": {
+         "value": 0,
+         "max": 0,
+         "dt": null,
+         "conditions": ""
+      },
+      "weaponType": "simpleM",
+      "baseItem": "quarterstaff",
+      "properties": {
+         "ver": true,
+         "amm": false,
+         "hvy": false,
+         "fin": false,
+         "fir": false,
+         "foc": false,
+         "lgt": false,
+         "lod": false,
+         "rch": false,
+         "rel": false,
+         "ret": false,
+         "spc": false,
+         "thr": false,
+         "two": false,
+         "mgc": true,
+         "ada": false,
+         "hvyplus": false,
+         "sil": false
+      },
+      "proficient": false,
+      "attributes": {
+         "spelldc": 10
+      }
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+   },
+   "flags": {
+      "wc5e": {
+         "type": "item",
+         "enhancement": ""
+      }
+   },
+   "_id": "XalExDqMQoFD162i"
+}

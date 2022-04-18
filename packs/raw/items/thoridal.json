@@ -1,0 +1,124 @@
+{
+   "name": "Thoridal, the Stars' Fury",
+   "type": "weapon",
+   "img": "modules/warcraft5e/res/pics/items/thoridal.webp",
+   "data": {
+      "description": {
+         "value": "<p><em>requires attunement</em></p>\n<p>Thoridal can generate its own spectral arrows when used to attack, or can use normal arrows.</p>\n<ul>\n<li><em>Arcane Arrows:</em> When you expend an arrow to attack with Thoridal, it deals an additional 1d8 arcane damage on a hit, even when the arrow has its own special effect (such as an Arrow of Slaying).</li>\n<li><em>Spectral Arrows:</em> If you do not use a projectile, the bow creates its own spectral ammunition. The attack deals extra damage equal to your Charisma modifier on a hit, and half the damage dealt is arcane damage. Spectral arrows are white and translucent, and whoever sees it in flight at first believes it is a shooting star.</li>\n<li><em>Arrowsmith:</em> Whoever is attuned to Thoridal can craft magical arrows as if they were infusionists (using their own proficiency bonus for Infusion), though the arrows are designed to be used exclusively by the bow. The legendary bow resonates with the power of the Sunwell. The origins and history of the weapon remain a mystery.</li>\n</ul>\n<p>This bow can be wielded as a magic longbow that grants a +3 to attack and damage rolls made with it.</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 208",
+      "quantity": 1,
+      "weight": 2,
+      "price": null,
+      "attunement": 1,
+      "equipped": false,
+      "rarity": "artifact",
+      "identified": true,
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": 0,
+         "units": ""
+      },
+      "target": {
+         "value": 0,
+         "width": null,
+         "units": "",
+         "type": ""
+      },
+      "range": {
+         "value": 150,
+         "long": 600,
+         "units": "ft"
+      },
+      "uses": {
+         "value": null,
+         "max": "",
+         "per": ""
+      },
+      "consume": {
+         "type": "",
+         "target": "",
+         "amount": null
+      },
+      "ability": "",
+      "actionType": "rwak",
+      "attackBonus": "3",
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [
+            [
+               "1d8 + @mod +3",
+               "piercing"
+            ],
+            [
+               "1d8",
+               "arcane"
+            ]
+         ],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "scaling": "spell"
+      },
+      "armor": {
+         "value": 10
+      },
+      "hp": {
+         "value": 0,
+         "max": 0,
+         "dt": null,
+         "conditions": ""
+      },
+      "weaponType": "martialR",
+      "baseItem": "longbow",
+      "properties": {
+         "amm": true,
+         "hvy": true,
+         "two": true,
+         "fin": false,
+         "fir": false,
+         "foc": false,
+         "lgt": false,
+         "rch": false,
+         "rel": false,
+         "ret": false,
+         "spc": false,
+         "thr": false,
+         "ver": false,
+         "lod": false,
+         "mgc": true,
+         "ada": false,
+         "hvyplus": false,
+         "sil": false
+      },
+      "proficient": false,
+      "attributes": {
+         "spelldc": 10
+      }
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+   },
+   "flags": {
+      "wc5e": {
+         "type": "item",
+         "enhancement": ""
+      }
+   },
+   "_id": "6cyw29uLT8ytun1B"
+}

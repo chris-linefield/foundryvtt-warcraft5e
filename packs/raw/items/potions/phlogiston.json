@@ -1,0 +1,79 @@
+{
+   "_id": "sIFv5z5jWQwG4rBW",
+   "name": "Phlogiston",
+   "type": "consumable",
+   "img": "icons/consumables/potions/flask-corked-blue.webp",
+   "data": {
+      "description": {
+         "value": "<p>This unusually potent combustible is perfect fuel for most combustion engines.</p>\n<p>Unlike most uncommon alchemical products, phlogiston costs 10 gp in fire-based and oily materials in most stores, and costs 5 gp to craft.</p>\n<p>The recipe for phlogiston is known to most alchemists and scholars who live alongside tinkers (usually selling for about 10-5 gold pieces).</p>\n<p>Unlike most potions, phlogiston also counts as an explosive, and can be crafted by those proficient with Engineer‘s Tools, and can‘t be consumed by an alchemical engine.</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 216",
+      "quantity": 1,
+      "weight": 1,
+      "price": 10,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "uncommon",
+      "identified": true,
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": null,
+         "units": ""
+      },
+      "target": {
+         "value": null,
+         "width": null,
+         "units": "",
+         "type": ""
+      },
+      "range": {
+         "value": null,
+         "long": null,
+         "units": ""
+      },
+      "uses": {
+         "value": 1,
+         "max": "1",
+         "per": "charges",
+         "autoDestroy": false
+      },
+      "consume": {
+         "type": "charges",
+         "target": "",
+         "amount": 1
+      },
+      "ability": null,
+      "actionType": "",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "scaling": "spell"
+      },
+      "consumableType": "potion"
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+      "default": 0
+   },
+   "flags": {
+   }
+}

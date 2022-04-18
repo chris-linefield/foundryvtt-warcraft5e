@@ -2057,6 +2057,240 @@
             "Name": "Void Being"
          }
       },
+      "EpicBoons": {
+         "AlienTechnology": {
+            "Label": "Boon of Alien Technology",
+            "Description": {
+               "1": {
+                  "Value": "Your effective proficiency bonus for Engineer‘s Tools increases by 1. This does not stack with other proficiency-increasing effects. This can allow you to access a rarity grade 1 point higher than normal, or apply 1 EP worth for no cost."
+               }
+            }
+         },
+         "CombatProwess": {
+            "Label": "Boon of Combat Prowess",
+            "Description": {
+               "1": {
+                  "Value": "When you miss with a melee weapon attack, you can choose to hit instead. Once you use this boon, you can't use it again until you finish a short rest."
+               }
+            }
+         },
+         "DimensionalTravel": {
+            "Label": "Boon of Dimensional Travel",
+            "Description": {
+               "1": {
+                  "Value": "As an action, you can cast the Misty Step spell, without using a spell slot or any components. Once you do so, you can't use this boon again until you finish a short rest."
+               }
+            }
+         },
+         "Fate": {
+            "Label": "Boon of Fate",
+            "Description": {
+               "1": {
+                  "Value": "When another creature that you can see within 60 feet of you makes an ability check, an attack roll, or a saving throw, you can roll a d10 and apply the result as a bonus or penalty to the roll. Once you use this boon, you can't use it again until you finish a short rest."
+               }
+            }
+         },
+         "Fortitude": {
+            "Label": "Boon of Fortitude",
+            "Description": {
+               "1": {
+                  "Value": "Your hit point maximum increases by 40."
+               }
+            }
+         },
+         "GrandSorcery": {
+            "Label": "Boon of Grand Sorcery",
+            "Description": {
+               "1": {
+                  "Value": "Your caster level increases by 1."
+               }
+            }
+         },
+         "HighMagic": {
+            "Label": "Boon of High Magic",
+            "Description": {
+               "1": {
+                  "Value": "You gain additional mana points equal to a 9th-level spell slot, provided that you already have one."
+               }
+            }
+         },
+         "Immortality": {
+            "Label": "Boon of Immortality",
+            "Description": {
+               "1": {
+                  "Value": "You stop aging. You are immune to any effect that would age you, and you can't die from old age."
+               }
+            }
+         },
+         "Invincibility": {
+            "Label": "Boon of Invincibility",
+            "Description": {
+               "1": {
+                  "Value": "When you take damage from any source, you can reduce that damage to 0. Once you use this boon, you can't use it again until you finish a short rest."
+               }
+            }
+         },
+         "IrresistibleOffense": {
+            "Label": "Boon of Irresistible Offense",
+            "Description": {
+               "1": {
+                  "Value": "You can bypass the damage resistances of any creature."
+               }
+            }
+         },
+         "Luck": {
+            "Label": "Boon of Luck",
+            "Description": {
+               "1": {
+                  "Value": "You can add a d10 roll to any ability check, attack roll, or saving throw you make. Once you use this boon, you can't use it again until you finish a short rest."
+               }
+            }
+         },
+         "MagicResistance": {
+            "Label": "Boon of Magic Resistance",
+            "Description": {
+               "1": {
+                  "Value": "You have advantage on saving throws against spells and other magical effects."
+               }
+            }
+         },
+         "PeerlessAim": {
+            "Label": "Boon of Peerless Aim",
+            "Description": {
+               "1": {
+                  "Value": "You can give yourself a +20 bonus to a ranged attack roll you make. Once you use this boon, you can't use it again until you finish a short rest."
+               }
+            }
+         },
+         "PerfectHealth": {
+            "Label": "Boon of Perfect Health",
+            "Description": {
+               "1": {
+                  "Value": "You are immune to all diseases and poisons, and you have advantage on Constitution saving throws."
+               }
+            }
+         },
+         "PlanarTravel": {
+            "Label": "Boon of Planar Travel",
+            "Description": {
+               "1": {
+                  "Value": "When you gain this boon, choose a plane of existence other than the Material Plane. You can now use an action to cast the Plane Shift spell (no spell slot or components required), targeting yourself only, and travel to the chosen plane, or from that plane back to the Material Plane. Once you use this boon, you can't use it again until you finish a short rest."
+               }
+            }
+         },
+         "QuickCasting": {
+            "Label": "Boon of Quick Casting",
+            "Description": {
+               "1": {
+                  "Value": "Choose one of your spells of 1st through 3rd level that has a casting time of 1 action. That spell's casting time is now 1 bonus action for you."
+               }
+            }
+         },
+         "Recovery": {
+            "Label": "Boon of Recovery",
+            "Description": {
+               "1": {
+                  "Value": "You can use a bonus action to regain a number of hit points equal to half your hit point maximum. Once you use this boon, you can't use it again until you finish a long rest."
+               }
+            }
+         },
+         "Resilience": {
+            "Label": "Boon of Resilience",
+            "Description": {
+               "1": {
+                  "Value": "You have resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons."
+               }
+            }
+         },
+         "SkillProficiency": {
+            "Label": "Boon of Skill Proficiency",
+            "Description": {
+               "1": {
+                  "Value": "You gain proficiency in all skills."
+               }
+            }
+         },
+         "Speed": {
+            "Label": "Boon of Speed",
+            "Description": {
+               "1": {
+                  "Value": "Your walking speed increases by 30 feet. In addition, you can use a bonus action to take the Dash or Disengage action. Once you do so, you can't do so again until you finish a short rest."
+               }
+            }
+         },
+         "SpellMastery": {
+            "Label": "Boon of Spell Mastery",
+            "Description": {
+               "1": {
+                  "Value": "Choose one 1st-level sorcerer, warlock, or wizard spell that you can cast. You can now cast that spell at its lowest level without expending a spell slot."
+               }
+            }
+         },
+         "SpellRecall": {
+            "Label": "Boon of Spell Recall",
+            "Description": {
+               "1": {
+                  "Value": "You can cast any spell you know or have prepared without expending a spell slot. Once you do so, you can't use this boon again until you finish a long rest."
+               }
+            }
+         },
+         "FireSoul": {
+            "Label": "Boon of the Fire Soul",
+            "Description": {
+               "1": {
+                  "Value": "You have immunity to fire damage. You can also cast Burning Hands (save DC 15) at will, without using a spell slot or any components."
+               }
+            }
+         },
+         "NightSpirit": {
+            "Label": "Boon of the Night Spirit",
+            "Description": {
+               "1": {
+                  "Value": "While completely in an area of dim light or darkness, you can become invisible as an action. You remain invisible until you take an action or a reaction."
+               }
+            }
+         },
+         "Stormborn": {
+            "Label": "Boon of the Stormborn",
+            "Description": {
+               "1": {
+                  "Value": "You have immunity to lightning and thunder damage. You can also cast Thunderwave (save DC 15) at will, without using a spell slot or any components."
+               }
+            }
+         },
+         "Unfettered": {
+            "Label": "Boon of the Unfettered",
+            "Description": {
+               "1": {
+                  "Value": "You have advantage on ability checks made to resist being grappled. In addition, you can use an action to automatically escape a grapple or free yourself of restraints of any kind."
+               }
+            }
+         },
+         "TrueCelerity": {
+            "Label": "Boon of True Celerity",
+            "Description": {
+               "1": {
+                  "Value": "Your mana pool increases by 5 points, provided you have an active mana pool."
+               }
+            }
+         },
+         "Truesight": {
+            "Label": "Boon of Truesight",
+            "Description": {
+               "1": {
+                  "Value": "You have truesight out to a range of 60 feet."
+               }
+            }
+         },
+         "Undetectability": {
+            "Label": "Boon of Undetectability",
+            "Description": {
+               "1": {
+                  "Value": "You gain a +10 bonus to Dexterity (Stealth) checks, and you can't be detected or targeted by divination magic, including scrying sensors."
+               }
+            }
+         }
+      },
       "Feats": {
          "Aberration": {
             "Label": "Aberration",
@@ -8181,14 +8415,50 @@
          }
       },
       "Items": {
+         "AcidNeutralizer": {
+            "Label": "Acid Neutralizer",
+            "ShortDescription": "Reduce acid damage by 1d6 + 3 once/round"
+         },
+         "AlarmStick": {
+            "Label": "Alarm Stick"
+         },
+         "AlchemistsAcid": {
+            "Label": "Alchemist‘s Acid"
+         },
+         "AlchemistsFire": {
+            "Label": "Alchemist‘s Fire"
+         },
+         "AlchemistsFrost": {
+            "Label": "Alchemist‘s Frost"
+         },
          "AlchemistsSupplies": {
             "Label": "Alchemist‘s Supplies"
+         },
+         "AnathemaAndBenediction": {
+            "Label": "Anathema and Benediction"
          },
          "Annihilator": {
             "Label": "Annihilator"
          },
+         "AntimagicPotion": {
+            "Label": "Antimagic Potion"
+         },
+         "Antiodor": {
+            "Label": "Antiodor",
+            "ShortDescription": "Suppresses odor and scent"
+         },
+         "AntitoxinAntiplague": {
+            "Label": "Antitoxin / Antiplague",
+            "ShortDescription": "Advantage vs. poisons (or plagues)"
+         },
          "ArcaniteReaper": {
             "Label": "Arcanite Reaper"
+         },
+         "Ashbringer": {
+            "Label": "Ashbringer"
+         },
+         "Atiesh": {
+            "Label": "Atiesh, Greatstaff of the Guardian"
          },
          "AttackClaws": {
             "Label": "Attack Claws",
@@ -8197,6 +8467,18 @@
                   "Value": "These claws may be attached to a hand, and allow for a user to perform somatic components without occupying the hand (as if a spellcasting focus). They are usually favored by orcish shamans who enter melee after conjuring elementals or placing totems. This is based on the dagger."
                }
             }
+         },
+         "AvatarRaimentArmWraps": {
+            "Label": "Avatar Raiment Arm Wraps"
+         },
+         "AvatarRaimentGloves": {
+            "Label": "Avatar Raiment Gloves"
+         },
+         "AvatarRaimentMantle": {
+            "Label": "Avatar Raiment Mantle"
+         },
+         "AvatarRaimentVestments": {
+            "Label": "Avatar Raiment Vestments"
          },
          "BayonetHeavy": {
             "Label": "Bayonet (Heavy)",
@@ -8239,6 +8521,18 @@
                   "Value": "50 fuel units for electrical engines, rechargeable"
                }
             }
+         },
+         "BlackenedDefiasArmor": {
+            "Label": "Blackened Defias Armor"
+         },
+         "BlackenedDefiasBelt": {
+            "Label": "Blackened Defias Belt"
+         },
+         "BlackenedDefiasBoots": {
+            "Label": "Blackened Defias Boots"
+         },
+         "BlackenedDefiasGloves": {
+            "Label": "Blackened Defias Gloves"
          },
          "BlackGraspOfTheDestroyer": {
             "Label": "Black Grasp of the Destroyer"
@@ -8321,6 +8615,18 @@
          "CauldronOfTheMadAlchemist": {
             "Label": "Cauldron of the Mad Alchemist"
          },
+         "CenarionRaimentBelt": {
+            "Label": "Cenarion Raiment Belt"
+         },
+         "CenarionRaimentBracers": {
+            "Label": "Cenarion Raiment Bracers"
+         },
+         "CenarionRaimentHelm": {
+            "Label": "Cenarion Raiment Helm"
+         },
+         "CenarionRaimentVestments": {
+            "Label": "Cenarion Raiment Vestments"
+         },
          "ChainsOfTheUndyingMage": {
             "Label": "Chains of the Undying Mage"
          },
@@ -8346,23 +8652,66 @@
          "CostumeClothes": {
             "Label": "Costume Clothes"
          },
+         "CracklePowder": {
+            "Label": "Crackle Powder",
+            "ShortDescription": "When stepped on, creates loud crack"
+         },
          "CrystalBall": {
             "Label": "Crystal Ball"
+         },
+         "CrystallizedAir": {
+            "Label": "Crystallized Air",
+            "ShortDescription": "Provides 1 hour of breathable air"
          },
          "Dagger": {
             "Label": "Dagger"
          },
+         "DarkLightPowder": {
+            "Label": "Dark Light Powder",
+            "ShortDescription": "Seen only with darkvision"
+         },
          "DawnsEdge": {
             "Label": "Dawn's Edge"
          },
+         "Defoliant": {
+            "Label": "Defoliant",
+            "ShortDescription": "Destroys plant life and weakens plant-type creatures"
+         },
          "DemonicFigurine": {
             "Label": "Demonic Figurine"
+         },
+         "DestroyerArmorBreastplate": {
+            "Label": "Destroyer Armor Breastplate"
+         },
+         "DestroyerArmorGauntlets": {
+            "Label": "Destroyer Armor Gauntlets"
+         },
+         "DestroyerArmorGirdle": {
+            "Label": "Destroyer Armor Girdle"
+         },
+         "DestroyerArmorGreatHelm": {
+            "Label": "Destroyer Armor Great Helm"
          },
          "DisguiseKit": {
             "Label": "Disguise Kit"
          },
          "Doomhammer": {
             "Label": "Doomhammer"
+         },
+         "DragonstalkerArmorBeastplate": {
+            "Label": "Dragonstalker Armor Beastplate"
+         },
+         "DragonstalkerArmorBracers": {
+            "Label": "Dragonstalker Armor Bracers"
+         },
+         "DragonstalkerArmorHelm": {
+            "Label": "Dragonstalker Armor Helm"
+         },
+         "DragonstalkerArmorLegguards": {
+            "Label": "Dragonstalker Armor Legguards"
+         },
+         "ElementalArmorIcon": {
+            "Label": "Elemental Armor Icon"
          },
          "EmbraceOfTheTwistingNether": {
             "Label": "Embrace of the Twisting Nether"
@@ -8378,6 +8727,9 @@
                }
             }
          },
+         "FalseLifeSpray": {
+            "Label": "False Life Spray"
+         },
          "Fearbreaker": {
             "Label": "Fearbreaker"
          },
@@ -8386,6 +8738,13 @@
          },
          "FineClothes": {
             "Label": "Fine Clothes"
+         },
+         "FlashPowder": {
+            "Label": "Flash Powder",
+            "ShortDescription": "Causes blindness, can repeat saving throw 1/round"
+         },
+         "Frostmourne": {
+            "Label": "Frostmourne"
          },
          "GarroteWire": {
             "Label": "Garrote Wire",
@@ -8420,22 +8779,39 @@
                }
             }
          },
+         "Gunpowder": {
+            "Label": "Gunpowder",
+            "ShortDescription": "Fuel for explosives, can burn for 1d6/pound"
+         },
          "HammerOfTheTitans": {
             "Label": "Hammer of the Titans"
          },
-         "HealingPotion": {
-            "Label": "Healing Potion",
+         "HealingPotionMinor": {
+            "Label": "Healing Potion, Minor",
             "Description": {
                "1": {
                   "Value": "By using this potion, character regains 1d8 + 4 hit points (if living), or takes 1d8 + 4 holy damage (if undead or fiend)."
                }
             }
          },
+         "HealingPotionGreater": {
+            "Label": "Healing Potion, Greater"
+         },
+         "HealingPotionMajor": {
+            "Label": "Healing Potion, Major"
+         },
          "Hearthstone": {
             "Label": "Hearthstone"
          },
+         "HeroismPill": {
+            "Label": "Heroism Pill"
+         },
          "HolySymbol": {
             "Label": "Holy Symbol"
+         },
+         "HolyWater": {
+            "Label": "Holy Water",
+            "ShortDescription": "Deals 2d6 points of holy damage to fiends and undead"
          },
          "HornOfStormwind": {
             "Label": "Horn of Stormwind"
@@ -8454,14 +8830,54 @@
          "JainasLocket": {
             "Label": "Jaina's Locket"
          },
+         "JudgementArmorBelt": {
+            "Label": "Judgement Armor Belt"
+         },
+         "JudgementArmorBindings": {
+            "Label": "Judgement Armor Bindings"
+         },
+         "JudgementArmorCrown": {
+            "Label": "Judgement Armor Crown"
+         },
+         "JudgementArmorPlate": {
+            "Label": "Judgement Armor Plate"
+         },
+         "LifePotion": {
+            "Label": "Life Potion"
+         },
+         "LightStick": {
+            "Label": "Light Stick"
+         },
          "LightsVengeance": {
             "Label": "Light's Vengeance"
          },
          "Longsword": {
             "Label": "Longsword"
          },
+         "MagistersRegaliaBindings": {
+            "Label": "Magister's Regalia Bindings"
+         },
+         "MagistersRegaliaCrown": {
+            "Label": "Magister's Regalia Crown"
+         },
+         "MagistersRegaliaMantle": {
+            "Label": "Magister's Regalia Mantle"
+         },
+         "MagistersRegaliaRobe": {
+            "Label": "Magister's Regalia Robe"
+         },
          "ManaBlade": {
             "Label": "Mana Blade"
+         },
+         "ManaPotionMajor": {
+            "Label": "Mana Potion, Major"
+         },
+         "ManaPotionMinor": {
+            "Label": "Mana Potion, Minor",
+            "ShortDescription": "Restores mana points as if you rested"
+         },
+         "ManaPotionModerate": {
+            "Label": "Mana Potion, Moderate"
          },
          "ManaStone": {
             "Label": "Mana Stone"
@@ -8471,6 +8887,9 @@
          },
          "Maul": {
             "Label": "Maul"
+         },
+         "MindScreamSpray": {
+            "Label": "Mind Scream Spray"
          },
          "Moonglaive": {
             "Label": "Moonglaive",
@@ -8483,8 +8902,17 @@
          "MusicalInstrument": {
             "Label": "Musical Instrument"
          },
+         "MutantSlashPotion": {
+            "Label": "Mutant Slash Potion"
+         },
+         "MutationPotion": {
+            "Label": "Mutation Potion"
+         },
          "MysticWand": {
             "Label": "Mystic Wand"
+         },
+         "NoxiousFumes": {
+            "Label": "Noxious Fumes"
          },
          "Orkenblade": {
             "Label": "Orkenblade"
@@ -8517,11 +8945,48 @@
          "PhilosophersStone": {
             "Label": "Philosopher's Stone"
          },
+         "Phlogiston": {
+            "Label": "Phlogiston",
+            "ShortDescription": "Fuel for combustion engines, provides more charges"
+         },
+         "PlagueheartRaimentMask": {
+            "Label": "Plagueheart Raiment Mask"
+         },
+         "PlagueheartRaimentGloves": {
+            "Label": "Plagueheart Raiment Gloves"
+         },
+         "PlagueheartRaimentRobe": {
+            "Label": "Plagueheart Raiment Robe"
+         },
+         "PlagueheartRaimentSandals": {
+            "Label": "Plagueheart Raiment Sandals"
+         },
          "PoisonersKit": {
             "Label": "Poisoner‘s Kit"
          },
          "PotionOfEnlarge": {
             "Label": "Potion of Enlarge"
+         },
+         "PotionOfRest": {
+            "Label": "Potion of Rest",
+            "ShortDescription": "Provides a short rest‘s worth of rejuvenation"
+         },
+         "PotionOfRestGreater": {
+            "Label": "Potion of Rest, Greater",
+            "ShortDescription": "Provides a long rest‘s worth of rejuvenation"
+         },
+         "PotionOfYouthGreater": {
+            "Label": "Potion of Youth, Greater"
+         },
+         "PotionOfYouthMajor": {
+            "Label": "Potion of Youth, Major"
+         },
+         "PotionOfYouthMinor": {
+            "Label": "Potion of Youth, Minor",
+            "ShortDescription": "Can reduce (or increase) current age"
+         },
+         "PotionOfYouthModerate": {
+            "Label": "Potion of Youth, Moderate"
          },
          "Pouch": {
             "Label": "Pouch"
@@ -8571,6 +9036,9 @@
          "QuilenStatuette": {
             "Label": "Quilen Statuette"
          },
+         "RejuvenationPill": {
+            "Label": "Rejuvenation Pill"
+         },
          "RelicOfPower": {
             "Label": "Relic of Power"
          },
@@ -8592,8 +9060,32 @@
          "ScimitarOfSirocco": {
             "Label": "Scimitar of the Sirocco"
          },
+         "Shadowmourne": {
+            "Label": "Shadowmourne"
+         },
          "Shortsword": {
             "Label": "Shortsword"
+         },
+         "SilverHandBlessedBelt": {
+            "Label": "Silver Hand Blessed Belt"
+         },
+         "SilverHandBlessedGauntlets": {
+            "Label": "Silver Hand Blessed Gauntlets"
+         },
+         "SilverHandBlessedGreaves": {
+            "Label": "Silver Hand Blessed Greaves"
+         },
+         "SilverHandBlessedPlate": {
+            "Label": "Silver Hand Blessed Plate"
+         },
+         "SkillExtract": {
+            "Label": "Skill Extract"
+         },
+         "SmokeBomb": {
+            "Label": "Smoke Bomb"
+         },
+         "SparingPotion": {
+            "Label": "Sparing Potion"
          },
          "SpellShieldAmulet": {
             "Label": "Spell Shield Amulet"
@@ -8658,6 +9150,12 @@
          "ThievesTools": {
             "Label": "Thieves‘ Tools"
          },
+         "Thoridal": {
+            "Label": "Thoridal, the Stars' Fury"
+         },
+         "Thunderfury": {
+            "Label": "Thunderfury, Blessed Blade of the Windseeker"
+         },
          "TirioshNightmareOfAges": {
             "Label": "Tiriosh, Nightmare of Ages"
          },
@@ -8689,6 +9187,18 @@
          },
          "Vestments": {
             "Label": "Vestments"
+         },
+         "VioletCitadelBoots": {
+            "Label": "Violet Citadel Boots"
+         },
+         "VioletCitadelGloves": {
+            "Label": "Violet Citadel Gloves"
+         },
+         "VioletCitadelHood": {
+            "Label": "Violet Citadel Hood"
+         },
+         "VioletCitadelRobe": {
+            "Label": "Violet Citadel Robe"
          },
          "VoodooDoll": {
             "Label": "Voodoo Doll",
@@ -9422,6 +9932,41 @@
                }
             }
          },
+         "Alchemy": {
+            "Label": "Alchemy: Potions",
+            "Description": {
+               "1": {
+                  "Value": "All potions (regardless of form) weigh 1 pound (unless the container is heavier), and can be used by imbibing or pouring on a creature or object (whichever applies better). Potions are described in more detail in Chapter 7 under Alchemist‘s Supplies."
+               },
+               "2": {
+                  "Title": "Spell Potions",
+                  "Value": "Most potions are based off spells, which cast the spell upon being consumed or used."
+               },
+               "3": {
+                  "Title": "Special Potions",
+                  "Value": "Most potions are based on spells as described in Chapter 7. Some potions diverge from this rule, however, and cover areas that are beyond the strength of spells, such as providing rest. Often times, such potions have their own prices instead of conforming to the Item Creation Complexity and Cost Table on Chapter 7."
+               },
+               "4": {
+                  "Value": "The DCs described under each potion are the default, but any creature with the Alchemy ability can increase the DC to be equal to their potion DCs."
+               }
+            }
+         },
+         "ArmorSets": {
+            "Label": "Armor Sets",
+            "AvatarRaimentArmor": "Avatar Raiment Armor",
+            "BlackenedDefiasArmor": "Blackened Defias Armor",
+            "CenarionRaiment": "Cenarion Raiment",
+            "DestroyerArmor": "Destroyer Armor",
+            "DragonstalkerArmor": "Dragonstalker Armor",
+            "JudgementArmor": "Judgement Armor",
+            "MagistersRegalia": "Magister's Regalia",
+            "PlagueheartRaiment": "Plagueheart Raiment",
+            "RobesOfTheVioletCitadel": "Robes of the Violet Citadel",
+            "SilverHandBlessedPlate": "Silver Hand Blessed Plate"
+         },
+         "Artifacts": {
+            "Label": "Artifacts"
+         },
          "Backgrounds": {
             "Label": "Backgrounds",
             "Description": {
@@ -9558,6 +10103,63 @@
                "6": {
                   "Title": "Heroic Roll",
                   "Value": "This method leads to generally stronger characters than by normal rolling. For each ability score, roll 2d6 + 6."
+               }
+            }
+         },
+         "EngineeringDevices": {
+            "Label": "Engineering: Devices"
+         },
+         "Enhancements": {
+            "Label": "Enhancements",
+            "Description": {
+               "1": {
+                  "Value": "Weapons and armors may be enhanced with the secret knowledge of infusionists. Enhancements can be applied to any weapon, and take up one step of rarity. An infusionist can stack many different enhancements on a single weapon or armor, increasing the bonus. This costs the same for the difference between the two steps of rarity."
+               },
+               "2": {
+                  "Title": "Ricochet Weapon",
+                  "Italic": "Weapon (thrown weapons), one step",
+                  "Value": "This weapon can be thrown to ricochet off one target and into another. If it does not normally have the thrown property, it becomes a thrown weapon 20/60 ft."
+               },
+               "3": {
+                  "Value": "When you make a ranged attack with this weapon, it can fly out and target another creature within range, counting its current target as its point of attack for the purposes of range. This costs an attack action. When the weapon cannot make any more attacks (such as you running out of attack actions), it returns to your hand at the end of your turn in the same round. You can make an attack with a bonus weapon as if using two-weapon fighting if the weapon normally qualifies."
+               },
+               "4": {
+                  "Value": "The weapon can ricochet up to a maximum number of times equal to once per rarity grade (twice if uncommon, six times if legendary, etc.), so long as you have the attacks to expend."
+               },
+               "5": {
+                  "Value": "Night elven huntresses often enhance their moonglaives with this weapon."
+               },
+               "6": {
+                  "Title": "Storm Weapon",
+                  "Value": "This weapon deals extra thunder damage equal to 1 per step of rarity. Furthermore, when thrown, the storm weapon returns at the same round, and may be used again with another attack action."
+               },
+               "7": {
+                  "Value": "Wildhammer dwarves often enhance their light hammers with this enhancement for use atop their flying gryphons."
+               },
+               "8": {
+                  "Title": "Single-Use Enhancements",
+                  "Value": "Temporary enhancements to weapons or ammunition can also be infused to contain a strike or shot effect if it is prepared specifically to hold it with an Infusion Kit. As this is infused with the ammunition itself, using it does not require a bonus action (but cannot be joined with another shot spell)."
+               },
+               "9": {
+                  "Value": "Ammunition are treated as both consumables and ammunition (enchanting 20 pieces of ammunition costs one-half the normal cost of the same quality). Despite the names below, ammunition infusions can be used interchangeably between ammunition such as arrows, crossbow bolts, bullets, and more. Ammunition infusions fade after a successful hit, and can be reused if they missed."
+               },
+               "10": {
+                  "Value": "For the purposes of spellcasting ability rolls for strike effects, treat the bonus as +4. Single use enhancements may be also stored into stones or gems, which can be sold by themselves."
+               }
+            },
+            "Rarity": "+1 to rarity step",
+            "RicochetShort": "Bounces per attack action, and returns",
+            "StormShort": "Extra thunder damage, returns",
+            "ArcaneShort": "Shot Array (Arcane); or 1d4 arcane damage, dispel magic (1st level)",
+            "BlackShort": "Shot Array (Black); or 3d4 shadow damage, conjure undead I",
+            "FireShort": "Shot Array (Searing); or 1d6 fire damage",
+            "SleepShort": "Shot Array (Tranquilizing); or 5d8 hit points of sleep"
+         },
+         "EpicBoons": {
+            "Label": "Epic Boons",
+            "Description": {
+               "1": {
+                  "Value": "The Warcraft Universe has its own share of epic boons."
                }
             }
          },
@@ -11126,6 +11728,17 @@
                }
             }
          },
+         "FrostBolt": {
+            "Label": "Frost Bolt",
+            "Description": {
+               "1": {
+                  "Value": "A frigid beam of blue-white light streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, it takes 1d8 cold damage, and its speed is reduced by 10 feet until the start of your next turn."
+               },
+               "2": {
+                  "Value": "The spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8)."
+               }
+            }
+         },
          "GaseousForm": {
             "Label": "Gaseous Form",
             "Description": {
@@ -11596,6 +12209,34 @@
             "Heightened": {
                "1": {
                   "Value": "When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d10 for each slot level above 2nd."
+               }
+            }
+         },
+         "Mutate": {
+            "Label": "Mutate",
+            "Description": {
+               "1": {
+                  "Value": "You transmute the touched target to gain one of the below mutations. You can choose one of the following mutations in the array:"
+               },
+               "2": {
+                  "Options": {
+                     "1": "<i>Adhesive</i>: The target becomes stickier. They gain advantage to grapple checks and checks related to climbing or holding.",
+                     "2": "<i>Ability Score Boost</i>: The target gains +2 to one attribute, but -2 to the opposite attribute. Strength is opposed to Intelligence, Agility to Spirit, and Stamina to Charisma.",
+                     "3": "<i>Bite</i>: The target gains a bite melee weapon attack. Bite is treated as a light natural attack, and deals piercing damage as a dagger of the target‘s size (1d4 for medium creatures).",
+                     "4": "<i>Claws</i>: This is treated as Bite, but instead deals slashing damage, and is treated as a shortsword of the target‘s size (1d6 for medium creatures).",
+                     "5": "<i>Longer Limbs</i>: One of the target‘s limbs lengthen. This increases the target‘s reach by 5 feet for attack rolls done through that limb (bite, kick, armed melee attacks, etc.) or movement speed (if legs or tails) by 10 feet.",
+                     "6": "<i>Resistant Skin</i>: The target reduces damage taken from one damage type of the target‘s choice by 3 points (minimum 0 damage).",
+                     "7": "<i>Thicker Skin</i>: The target gains a natural armor bonus equal to +2. This does not stack with normal armor.",
+                     "8": "<i>Sensitive Eyes</i>: The target‘s eyes become more sensitive. They gain darkvision 60 feet, or increase the range of existing darkvision by 30 feet."
+                  }
+               }
+            },
+            "Heightened": {
+               "1": {
+                  "Value": "You can increase the bonus and penalty to attribute mutation or armor by +1 for every spell level above 1st level, or energy resistance by 5 points above level 1."
+               },
+               "2": {
+                  "Value": "Alternatively, you may add another mutation for every two spell levels this is heightened."
                }
             }
          },
@@ -13053,6 +13694,7 @@
          "Bond": "Bond",
          "Bonds": "Bonds",
          "BonusAction": "Bonus Action",
+         "ChangeRace": "Change Race",
          "Class": "Class",
          "Consumable": "Consumable",
          "Cost": "Cost",
@@ -13072,6 +13714,8 @@
             "CancelSkillDescription": "Do you really want to release the skill?",
             "SelectSubrace": "Please select a Subrace:"
          },
+         "Effect": "Effect",
+         "Enhancement": "Enhancement",
          "EntertainerRoutine": "Entertainer Routine",
          "FamilyNames": "Family Names",
          "Features": "Features",
@@ -13079,6 +13723,9 @@
          "Flaw": "Flaw",
          "Flaws": "Flaws",
          "Gear": "Gear",
+         "HealingTypes": {
+            "HealingMana": "Healing (Mana)"
+         },
          "Ideal": "Ideal",
          "Ideals": "Ideals",
          "ItemRarity": {
@@ -13088,6 +13735,7 @@
          "Language": "Language",
          "Languages": "Languages",
          "MaleNames": "Male Names",
+         "ManaPoints": "Mana Points",
          "Mass": "Mass",
          "MaterialCost": "Material Cost",
          "Name": "Name",
@@ -13111,10 +13759,12 @@
             "Artifact": "Artifact"
          },
          "Rarity": "Rarity",
+         "RarityEp": "Rarity / EP",
          "Scam": "Scam",
          "Size": "Size",
          "Specialty": "Specialty",
          "Speed": "Speed",
+         "SpellSpellLevel": "Spell (Spell Level)",
          "SuggestedCharacteristics": "Suggested Characteristics",
          "Traits": "Traits",
          "Units": {
@@ -13133,6 +13783,14 @@
             "Turns": "turns"
          },
          "UseItem": "Use-Item",
+         "WeaponEnhancements": {
+            "Arcane": "Arcane",
+            "Black": "Black",
+            "Fire": "Fire",
+            "Ricochet": "Ricochet",
+            "Sleep": "Sleep",
+            "Storm": "Storm"
+         },
          "WeaponProfs": {
             "MartialWeapons": "Martial Weapons",
             "SimpleWeapons": "Simple Weapons"

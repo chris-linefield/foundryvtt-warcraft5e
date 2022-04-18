@@ -108,6 +108,7 @@
    "flags": {
       "wc5e": {
          "type": "item",
+         "enhancement": "",
          "cost": 2,
          "unit": "WC5E.UI.Units.Sp",
          "mass": 1,

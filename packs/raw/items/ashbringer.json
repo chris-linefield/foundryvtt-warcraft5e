@@ -1,0 +1,120 @@
+{
+   "name": "Ashbringer",
+   "type": "weapon",
+   "img": "modules/warcraft5e/res/pics/items/ashbringer.webp",
+   "data": {
+      "description": {
+         "value": "<p><em>requires attunement</em></p>\n<p>Any undead destroyed by this sword is burnt to ash, utterly destroying the corpse. The weapon‘s additional damage is treated as fire or holy damage (whichever is most beneficial). </p>\n<ul>\n<li><em>Ashen Strike:</em> If this blade slays an undead spellcaster who has bonded (or animated) undead, the spells are instantaneously dispelled, dispelling the bonds (seeing them loose) or dispelling the animation spell. If this blade slays creature or undead, the corpse cannot be used to animate future undead.</li>\n<li><em>Light-Blessed Sight:</em> While attuned to this blade, you have the benefits of true seeing against undead, but only to the range of 30 feet.</li>\n</ul>\n<p>Forged by King Magni Bronzebeard in grief over his brother‘s death in during the Second War out of a Light-infused crystal, Ashbringer has a storied history. Its last wielder was the paladin Highlord Mograine. Although it succeeded in containing the Scourge's efforts to spread south throughout the Eastern Kingdoms, its true strength can possibly rival that of Frostmourne.</p>\n<p>This sword can be wielded as a magic greatsword that grants a +3 to attack and damage rolls made with it.</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 206",
+      "quantity": 1,
+      "weight": 6,
+      "price": null,
+      "attunement": 1,
+      "equipped": false,
+      "rarity": "artifact",
+      "identified": true,
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": null,
+         "units": ""
+      },
+      "target": {
+         "value": null,
+         "width": null,
+         "units": "",
+         "type": ""
+      },
+      "range": {
+         "value": 5,
+         "long": null,
+         "units": "ft"
+      },
+      "uses": {
+         "value": null,
+         "max": "",
+         "per": ""
+      },
+      "consume": {
+         "type": "",
+         "target": "",
+         "amount": null
+      },
+      "ability": "",
+      "actionType": "mwak",
+      "attackBonus": "3",
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [
+            [
+               "2d6 + @mod +3",
+               "slashing"
+            ]
+         ],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "scaling": "spell"
+      },
+      "armor": {
+         "value": 10
+      },
+      "hp": {
+         "value": 0,
+         "max": 0,
+         "dt": null,
+         "conditions": ""
+      },
+      "weaponType": "martialM",
+      "baseItem": "greatsword",
+      "properties": {
+         "hvy": true,
+         "two": true,
+         "amm": false,
+         "fin": false,
+         "fir": false,
+         "foc": false,
+         "lgt": false,
+         "lod": false,
+         "rch": false,
+         "rel": false,
+         "ret": false,
+         "spc": false,
+         "thr": false,
+         "ver": false,
+         "mgc": true,
+         "ada": false,
+         "hvyplus": false,
+         "sil": false
+      },
+      "proficient": false,
+      "attributes": {
+         "spelldc": 10
+      }
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+   },
+   "flags": {
+      "wc5e": {
+         "type": "item",
+         "enhancement": ""
+      }
+   },
+   "_id": "SIZkZtYNELPbkRJf"
+}

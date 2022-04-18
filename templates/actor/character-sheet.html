@@ -35,7 +35,7 @@
                 <li>
                     <input type="text" disabled="disabled" name="data.details.race" value="{{data.details.race}}"
                            placeholder="{{ localize 'DND5E.Race' }}"/>
-                    <a class="config-button raceButton" data-action="race" title="{{localize 'DND5E.ArmorConfig'}}">
+                    <a class="config-button raceButton" data-action="race" title="{{localize 'WC5E.UI.ChangeRace'}}">
                         <i class="fas fa-cog"></i>
                     </a>
                 </li>
@@ -71,6 +71,17 @@
                                placeholder="+{{ localize 'DND5E.Max' }}"
                                value="{{data.attributes.hp.tempmax}}" data-dtype="Number"/>
                     </footer>
+                </li>
+
+                <li class="attribute mana">
+                    <h4 class="attribute-name box-title">{{ localize "WC5E.UI.ManaPoints" }}</h4>
+                    <div class="attribute-value multiple">
+                        <input name="data.attributes.mp.value" type="text" value="{{data.attributes.mp.value}}"
+                               placeholder="10" data-dtype="Number"/>
+                        <span class="sep"> / </span>
+                        <input name="data.attributes.mp.max" type="text" value="{{data.attributes.mp.max}}"
+                               placeholder="10" data-dtype="Number"/>
+                    </div>
                 </li>
 
                 <li class="attribute hit-dice">

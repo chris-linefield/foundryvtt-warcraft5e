@@ -19,7 +19,7 @@ export default class RaceSelector extends DocumentSheet {
 
     /** @inheritdoc */
     get title() {
-        return `${game.i18n.localize("DND5E.ArmorConfig")}: ${this.document.name}`;
+        return `${game.i18n.localize("WC5E.UI.ChangeRace")}: ${this.document.name}`;
     }
 
     /* -------------------------------------------- */
