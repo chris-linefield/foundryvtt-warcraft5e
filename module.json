@@ -166,13 +166,13 @@
       },
       {
          "name": "lib-wrapper",
-         "manifest": "https://github.com/ruipin/fvtt-lib-wrapper/blob/master/module.json",
+         "manifest": "https://github.com/ruipin/fvtt-lib-wrapper/releases/latest/download/module.json",
          "version": "1.10",
          "type": "module"
       },
       {
          "name": "babele",
-         "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/-/blob/master/module/module.json",
+         "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json",
          "version": "2.0",
          "type": "module"
       }
