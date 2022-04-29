@@ -1,0 +1,36 @@
+{
+   "_id": "PjVkkz08ZQycg03O",
+   "name": "Crafting Creature CR 1/4",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Wc5e - MC p. 102",
+      "requirements": "Creature CR 1/4"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.MonsterFeats.CraftingCreatureCr14.Description.1.Value"
+            },
+            {
+               "value": "WC5E.MonsterFeats.CraftingCreatureCr14.Description.2.Value"
+            },
+            {
+               "title": "WC5E.MonsterFeats.CraftingCreatureCr14.Description.3.Title",
+               "value": "WC5E.MonsterFeats.CraftingCreatureCr14.Description.3.Value"
+            },
+            {
+               "value": "WC5E.MonsterFeats.CraftingCreatureCr14.Description.4.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/tools/hand/hammer-simple-stone.webp",
+   "effects": [
+   ]
+}

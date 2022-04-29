@@ -52,9 +52,9 @@
 .directory .directory-list .directory-item.document {
     line-height: 80px;
     font-size: 16px;
-    border-top:none !important;
+    border-top: none !important;
     border-bottom: 1px solid #cab87a !important;
-    color:#191813;
+    color: #191813;
     padding: 2px 0 3px;
 }
 
@@ -62,20 +62,50 @@
     width: 80px;
     height: 80px;
     border: 3px double #cab87a;
-    background:rgba(255,255,255,0.5);
+    background: rgba(255, 255, 255, 0.5);
 }
 
 .sidebar-tab .directory-list {
-    padding-left:10px;
-    padding-right:10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.sidebar-tab li.folder > .folder-header h3 {
+    color: #1b456b;
+    font-weight:bold;
+}
+
+.sidebar-tab li.folder > .folder-header {
+    background: transparent;
+    border-top: none;
+    border-bottom: 1px dotted #cab87a;
+}
+
+.sidebar-tab li.folder.collapsed > .folder-header {
+    border-bottom: 1px solid #cab87a;
+}
+
+.sidebar-tab .directory-list .directory-item, .directory .directory-list .directory-item.document {
+    line-height:57px;
+}
+
+.sidebar-tab .subdirectory {
+    border: none;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.sidebar-tab .directory-list .directory-item.document img {
+    width:57px;
+    height:57px;
 }
 
 #compendium h3 {
-    color:#1b456b;
-    border:none;
-    border-bottom:1px solid #cab87a;
-    font-size:20px;
-    font-weight:bold;
+    color: #1b456b;
+    border: none;
+    border-bottom: 1px solid #cab87a;
+    font-size: 20px;
+    font-weight: bold;
     position: relative;
 }
 
@@ -89,21 +119,22 @@
     left: 0;
 }
 
+
 #compendium li.compendium-pack .compendium-footer {
-    color:#1b456b;
+    color: #1b456b;
 }
 
 #compendium ol.compendium-list {
-    margin-left:5px;
-    margin-right:5px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .pack-title {
-    margin-bottom:0;
+    margin-bottom: 0;
 }
 
 .fa-folder:before {
-    color:#cab87a;
+    color: #cab87a;
 }
 
 /*********************************
@@ -201,16 +232,18 @@
  ********************************/
 
 .warcraft5e .raceArea li {
-    position:relative;
+    position: relative;
 }
 
 .warcraft5e.actor .config-button.raceButton {
-    position:absolute; top:-5px; right:5px;
-    display:none;
+    position: absolute;
+    top: -5px;
+    right: 5px;
+    display: none;
 }
 
 .warcraft5e .raceArea:hover .raceButton {
-    display:block;
+    display: block;
 }
 
 /*********************************
@@ -429,8 +462,8 @@
 .warcraft5e table td,
 .warcraft5e table th {
     text-align: left;
-    padding-left:10px;
-    padding-right:10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .warcraft5e .prevlink {

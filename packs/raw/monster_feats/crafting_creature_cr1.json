@@ -1,13 +1,13 @@
 {
    "_id": "MUdeADNuv8orwpGr",
-   "name": "Crafting Creature CR1",
+   "name": "Crafting Creature CR 1",
    "permission": {
       "default": 0
    },
    "type": "feat",
    "data": {
       "source": "Wc5e - MC p. 34",
-      "requirements": "Creature CR1"
+      "requirements": "Creature CR 1"
    },
    "flags": {
       "wc5e": {

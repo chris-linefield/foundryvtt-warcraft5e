@@ -1,11 +1,11 @@
 {
-   "name": "Gnomish Combat Armor",
+   "name": "Clockwork Pest",
    "type": "npc",
-   "img": "modules/warcraft5e/res/pics/portraits/monsters/mecha/gnomish-combat-armor.webp",
+   "img": "modules/warcraft5e/res/pics/portraits/monsters/mecha/clockwork-pest.webp",
    "data": {
       "abilities": {
          "str": {
-            "value": 14,
+            "value": 4,
             "proficient": 0,
             "bonuses": {
                "check": "",
@@ -13,7 +13,7 @@
             }
          },
          "dex": {
-            "value": 11,
+            "value": 16,
             "proficient": 0,
             "bonuses": {
                "check": "",
@@ -21,7 +21,7 @@
             }
          },
          "con": {
-            "value": 13,
+            "value": 12,
             "proficient": 0,
             "bonuses": {
                "check": "",
@@ -55,17 +55,17 @@
       },
       "attributes": {
          "ac": {
-            "flat": null,
-            "calc": "default",
+            "flat": 14,
+            "calc": "natural",
             "formula": ""
          },
          "hp": {
-            "value": 33,
+            "value": 7,
             "min": 0,
-            "max": 33,
+            "max": 7,
             "temp": 0,
             "tempmax": 0,
-            "formula": "6d8 + 6"
+            "formula": "2d4+2"
          },
          "init": {
             "value": 0,
@@ -76,7 +76,7 @@
             "climb": 0,
             "fly": 0,
             "swim": 0,
-            "walk": 30,
+            "walk": 20,
             "units": "ft",
             "hover": false
          },
@@ -92,31 +92,30 @@
       },
       "details": {
          "biography": {
-            "value": "<p><em>\"Technology has given rise to advances in metallurgy, pneumatics, hydraulics and powered mechanical systems. With the frequency of conflict in Azeroth it was only a matter of time before the power of phlogiston-driven technology hit the battlefield, and during the last war the goblins arrived with a new weapon.</em></p>\n<p><em>The goblin harvester was the first insidious introduction to a new series of steam-powered armors. The suit could level forests and troops, and take an insane amount of punishment before falling to the withering hail of spells and gunfire that unfailingly targeted it when it appeared in battle. The harvester wrought incredible results — none could deny the power of such a creation. The gnomes and the dwarves stared in the direction of the gleefully wicked goblins running rampant with their new innovation, and collectively slapped themselves in the foreheads for not thinking of it first. Within a handful of years, a group of more complex and powerful suits arose, designed by dwarven and gnomish hands. The steam armor race was on.\"</em></p>\n<p> </p>",
+            "value": "",
             "public": ""
          },
          "alignment": "Unaligned",
          "race": "",
          "type": {
-            "value": "mecha",
+            "value": "construct",
             "subtype": "",
             "swarm": "",
             "custom": ""
          },
          "environment": "",
-         "cr": 1,
+         "cr": 0.25,
          "spellLevel": 0,
          "xp": {
             "value": 10
          },
-         "source": "Wc5e - MC p. 33"
+         "source": "Wc5e - MC p. 28"
       },
       "traits": {
-         "size": "med",
+         "size": "tiny",
          "di": {
             "value": [
-               "poison",
-               "psychic"
+               "poison"
             ],
             "custom": ""
          },
@@ -130,8 +129,7 @@
          },
          "ci": {
             "value": [
-               "blinded",
-               "deafened",
+               "charmed",
                "exhaustion",
                "frightened",
                "paralyzed",
@@ -245,7 +243,7 @@
             "value": 0,
             "ability": "wis",
             "bonuses": {
-               "check": "-4",
+               "check": "",
                "passive": ""
             }
          },
@@ -382,18 +380,27 @@
       }
    },
    "token": {
-      "name": "Gnomish Combat Armor",
-      "img": "modules/warcraft5e/res/pics/tokens/monsters/mecha/gnomish-combat-armor.webp",
-      "displayName": 0,
+      "_id": "fj1EunWqmZZoryG0",
+      "name": "Clockwork Goblin",
+      "displayName": 20,
+      "actorId": "UbDsSGKGwcImkrsC",
       "actorLink": false,
-      "width": 1,
-      "height": 1,
-      "scale": 1.2,
+      "actorData": {},
+      "img": "modules/warcraft5e/res/pics/tokens/monsters/mecha/clockwork-pest.webp",
+      "tint": null,
+      "width": 0.5,
+      "height": 0.5,
+      "scale": 0.8,
       "mirrorX": false,
       "mirrorY": false,
+      "x": null,
+      "y": null,
+      "elevation": 0,
       "lockRotation": false,
       "rotation": 0,
+      "effects": [],
       "alpha": 1,
+      "hidden": false,
       "vision": false,
       "dimSight": 0,
       "brightSight": 0,
@@ -429,25 +436,29 @@
          "attribute": ""
       },
       "flags": {},
-      "randomImg": false,
-      "tint": null,
-      "x": null,
-      "y": null,
-      "elevation": null
+      "tokenId": null,
+      "randomImg": false
    },
    "items": [
       {
-         "_id": "w3Ea1ZVEOUl96d4Q",
-         "name": "Slam",
-         "type": "feat",
-         "img": "icons/skills/melee/strike-hammer-destructive-blue.webp",
+         "_id": "RflpOl5eT41uGbTq",
+         "name": "Stinger",
+         "type": "weapon",
+         "img": "icons/tools/fasteners/pin-spiked.webp",
          "data": {
             "description": {
-               "value": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target.</p>\n<p>Hit: 5 (1d6 + 2) bludgeoning damage. </p>",
+               "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target.</p>\n<p>Hit: 1 piercing damage, and the target must make a DC 10 Stamina saving throw, taking 5 (2d4) poison damage on a failed save, or half as much damage on a successful one.</p>",
                "chat": "",
                "unidentified": ""
             },
-            "source": "Wc5e - WC p. 34",
+            "source": "Wc5e - MC p. 29",
+            "quantity": 1,
+            "weight": 0,
+            "price": 0,
+            "attunement": 0,
+            "equipped": true,
+            "rarity": "",
+            "identified": true,
             "activation": {
                "type": "action",
                "cost": 1,
@@ -464,8 +475,8 @@
                "type": "creature"
             },
             "range": {
-               "value": 5,
-               "long": null,
+               "value": null,
+               "long": 5,
                "units": "ft"
             },
             "uses": {
@@ -480,7 +491,7 @@
             },
             "ability": "",
             "actionType": "mwak",
-            "attackBonus": "",
+            "attackBonus": "0",
             "chatFlavor": "",
             "critical": {
                "threshold": null,
@@ -489,103 +500,24 @@
             "damage": {
                "parts": [
                   [
-                     "1d6 + 2",
-                     "bludgeoning"
+                     "1",
+                     "piercing"
+                  ],
+                  [
+                     "2d4",
+                     "poison"
                   ]
                ],
                "versatile": ""
             },
             "formula": "",
             "save": {
-               "ability": "",
-               "dc": null,
-               "scaling": "spell"
-            },
-            "requirements": "",
-            "recharge": {
-               "value": null,
-               "charged": false
-            }
-         },
-         "effects": [],
-         "folder": null,
-         "sort": 0,
-         "permission": {
-            "default": 0
-         },
-         "flags": {}
-      },
-      {
-         "_id": "l3EWqKpCsoAjqu4Z",
-         "name": "Plated Armor",
-         "type": "equipment",
-         "img": "icons/equipment/chest/breastplate-layered-steel-black.webp",
-         "data": {
-            "description": {
-               "value": "<p>Half plate consists of shaped metal plates that cover most of the wearer's body. It does not include leg protection beyond simple greaves that are attached with leather straps.</p>",
-               "chat": "",
-               "unidentified": ""
-            },
-            "source": "PHB pg. 145",
-            "quantity": 1,
-            "weight": 0,
-            "price": 0,
-            "attunement": 0,
-            "equipped": true,
-            "rarity": "common",
-            "identified": true,
-            "activation": {
-               "type": "",
-               "cost": 0,
-               "condition": ""
-            },
-            "duration": {
-               "value": null,
-               "units": ""
-            },
-            "target": {
-               "value": null,
-               "width": null,
-               "units": "",
-               "type": ""
-            },
-            "range": {
-               "value": null,
-               "long": null,
-               "units": ""
-            },
-            "uses": {
-               "value": null,
-               "max": "",
-               "per": null
-            },
-            "consume": {
-               "type": "",
-               "target": null,
-               "amount": null
-            },
-            "ability": null,
-            "actionType": "",
-            "attackBonus": 0,
-            "chatFlavor": "",
-            "critical": {
-               "threshold": null,
-               "damage": ""
-            },
-            "damage": {
-               "parts": [],
-               "versatile": ""
-            },
-            "formula": "",
-            "save": {
-               "ability": "",
-               "dc": null,
-               "scaling": "spell"
+               "ability": "con",
+               "dc": 10,
+               "scaling": "flat"
             },
             "armor": {
-               "value": 15,
-               "type": "medium",
-               "dex": 2
+               "value": 10
             },
             "hp": {
                "value": 0,
@@ -593,118 +525,42 @@
                "dt": null,
                "conditions": ""
             },
-            "baseItem": "halfplate",
-            "speed": {
-               "value": null,
-               "conditions": ""
+            "weaponType": "natural",
+            "baseItem": "",
+            "properties": {
+               "ada": false,
+               "amm": false,
+               "fin": false,
+               "fir": false,
+               "foc": false,
+               "hvy": false,
+               "hvyplus": false,
+               "lgt": false,
+               "lod": false,
+               "mgc": false,
+               "rch": false,
+               "rel": false,
+               "ret": false,
+               "sil": false,
+               "spc": false,
+               "thr": false,
+               "two": false,
+               "ver": false
             },
-            "strength": null,
-            "stealth": true,
             "proficient": true
          },
          "effects": [],
          "folder": null,
-         "sort": 700000,
+         "sort": 100000,
          "permission": {
             "default": 0
          },
          "flags": {
-            "core": {
-               "sourceId": "Compendium.dnd5e.items.vsgmACFYINloIdPm"
-            }
          }
       },
       {
-         "_id": "6hbvgiAXBPM3kXY2",
-         "name": "Mecha",
-         "type": "feat",
-         "img": "modules/warcraft5e/res/pics/portraits/monsters/mecha/gnomish-combat-armor.webp",
-         "data": {
-            "description": {
-               "value": "",
-               "chat": "",
-               "unidentified": ""
-            },
-            "source": "Wc5e - MC p. 33",
-            "activation": {
-               "type": "",
-               "cost": 0,
-               "condition": ""
-            },
-            "duration": {
-               "value": null,
-               "units": ""
-            },
-            "target": {
-               "value": null,
-               "width": null,
-               "units": "",
-               "type": ""
-            },
-            "range": {
-               "value": null,
-               "long": null,
-               "units": ""
-            },
-            "uses": {
-               "value": null,
-               "max": "",
-               "per": null
-            },
-            "consume": {
-               "type": "",
-               "target": null,
-               "amount": null
-            },
-            "ability": null,
-            "actionType": null,
-            "attackBonus": 0,
-            "chatFlavor": "",
-            "critical": {
-               "threshold": null,
-               "damage": ""
-            },
-            "damage": {
-               "parts": [],
-               "versatile": ""
-            },
-            "formula": "",
-            "save": {
-               "ability": "",
-               "dc": null,
-               "scaling": "spell"
-            },
-            "requirements": "Construct (Mecha)",
-            "recharge": {
-               "value": null,
-               "charged": false
-            },
-            "attunement": null
-         },
-         "effects": [],
-         "folder": null,
-         "sort": 0,
-         "permission": {
-            "default": 0
-         },
-         "flags": {
-            "wc5e": {
-               "type": "feat",
-               "category": "WC5E.SkillCategories.General",
-               "description": [
-                  {
-                     "value": "WC5E.MonsterFeats.Mecha.Description.1.Value"
-                  }
-               ]
-            },
-            "core": {
-               "sourceId": "Compendium.warcraft5e.wc5e_monster_feats.wyXWMcPEahq70hEu"
-            }
-         }
-      },
-      {
-         "_id": "SqG54A8TfVIOWcyI",
-         "name": "Crafting Creature CR1",
+         "_id": "o6ON0niTiUtrG4rb",
+         "name": "Crafting Creature CR 1/4",
          "type": "feat",
          "img": "icons/tools/hand/hammer-simple-stone.webp",
          "data": {
@@ -713,7 +569,7 @@
                "chat": "",
                "unidentified": ""
             },
-            "source": "Wc5e - MC p. 34",
+            "source": "Wc5e - MC p. 102",
             "activation": {
                "type": "",
                "cost": 0,
@@ -762,7 +618,7 @@
                "dc": null,
                "scaling": "spell"
             },
-            "requirements": "Creature CR1",
+            "requirements": "Creature CR 1/4",
             "recharge": {
                "value": null,
                "charged": false
@@ -781,30 +637,34 @@
                "category": "WC5E.SkillCategories.General",
                "description": [
                   {
-                     "value": "WC5E.MonsterFeats.CraftingCreatureCr1.Description.1.Value"
+                     "value": "WC5E.MonsterFeats.CraftingCreatureCr14.Description.1.Value"
                   },
                   {
-                     "value": "WC5E.MonsterFeats.CraftingCreatureCr1.Description.2.Value"
+                     "value": "WC5E.MonsterFeats.CraftingCreatureCr14.Description.2.Value"
+                  },
+                  {
+                     "title": "WC5E.MonsterFeats.CraftingCreatureCr14.Description.3.Title",
+                     "value": "WC5E.MonsterFeats.CraftingCreatureCr14.Description.3.Value"
+                  },
+                  {
+                     "value": "WC5E.MonsterFeats.CraftingCreatureCr14.Description.4.Value"
                   }
                ]
-            },
-            "core": {
-               "sourceId": "Compendium.warcraft5e.wc5e_monster_feats.MUdeADNuv8orwpGr"
             }
          }
       },
       {
-         "_id": "wZFkk4NSUuaNspYx",
-         "name": "Fuel - 2 steam units / charge",
+         "_id": "GVJJqAG7EmYvHwa6",
+         "name": "Fuel (1 mechanical units / charge)",
          "type": "feat",
          "img": "icons/commodities/tech/furnace-modern.webp",
          "data": {
             "description": {
-               "value": "<p>The construct consumes 2 units per hour for 1 charge (2 rarity, 0 size). As it runs on a steam engine, this requires 8 pounds of coal for 1 charge. It has the capacity to hold up to 10 charges.</p>",
+               "value": "<p>The construct consumes 1 units per hour for 1 charge (1 size, 0 rarity). As it runs on a mechanical engine, this requires 1 hour of winding for 1 unit, or 10 minutes for 3 unit if the user is proficient in Engineer&lsquo;s Tools and Tinker&lsquo;s Tools. It has the capacity to hold up to 10 charges.</p>",
                "chat": "",
                "unidentified": ""
             },
-            "source": "",
+            "source": "Wc5e - MC p. 28",
             "activation": {
                "type": "",
                "cost": 0,
@@ -857,32 +717,33 @@
             "recharge": {
                "value": null,
                "charged": false
-            }
+            },
+            "attunement": 0
          },
          "effects": [],
          "folder": null,
          "sort": 0,
          "permission": {
-            "default": 0,
-            "BonBLPHtXp9sRrbq": 3
+            "default": 0
          },
-         "flags": {}
+         "flags": {
+         }
       },
       {
-         "_id": "uidZ2Xf3Ke7DDSrg",
-         "name": "Customization",
+         "_id": "mqqC9rUjJd7ihV77",
+         "name": "Potent Injection",
          "type": "feat",
-         "img": "icons/commodities/tech/levers-colored.webp",
+         "img": "icons/skills/toxins/poison-bottle-corked-fire-green.webp",
          "data": {
             "description": {
-               "value": "<p>The crafter may choose one of the below two features for free to customize the armor:</p>\n<ul>\n<li>Multiattack: The armor makes two melee attacks.</li>\n<li>Quick Startup: The combat armor takes one round to activate.</li>\n</ul>",
+               "value": "<p>If the pest hits a creature with its stinger, it can inject a larger dose of poison. The target must succeed on a DC 12 Stamina saving throw or become poisoned for 1 hour. It can use better-grade poisons than normal if the user provides it (requires an action per poison to set up).</p>",
                "chat": "",
                "unidentified": ""
             },
-            "source": "",
+            "source": "Wc5e - MC p. 29",
             "activation": {
-               "type": "",
-               "cost": 0,
+               "type": "none",
+               "cost": null,
                "condition": ""
             },
             "duration": {
@@ -901,17 +762,17 @@
                "units": ""
             },
             "uses": {
-               "value": null,
-               "max": "",
-               "per": null
+               "value": 0,
+               "max": "1",
+               "per": "lr"
             },
             "consume": {
                "type": "",
-               "target": null,
+               "target": "",
                "amount": null
             },
-            "ability": null,
-            "actionType": "",
+            "ability": "",
+            "actionType": "save",
             "attackBonus": 0,
             "chatFlavor": "",
             "critical": {
@@ -924,11 +785,11 @@
             },
             "formula": "",
             "save": {
-               "ability": "",
-               "dc": null,
-               "scaling": "spell"
+               "ability": "con",
+               "dc": 12,
+               "scaling": "flat"
             },
-            "requirements": "",
+            "requirements": "Clockwork Pest",
             "recharge": {
                "value": null,
                "charged": false
@@ -940,7 +801,8 @@
          "permission": {
             "default": 0
          },
-         "flags": {}
+         "flags": {
+         }
       }
    ],
    "effects": [],
@@ -951,5 +813,5 @@
    },
    "flags": {
    },
-   "_id": "yJMbsKf8xSUJ8Jcq"
+   "_id": "fF86RJgvdvr4EInD"
 }

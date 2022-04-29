@@ -1,7 +1,8 @@
 {
+   "_id": "qXlU8EYetsUu2c8j",
    "name": "Troll - Drakkari Guard",
    "type": "npc",
-   "img": "modules/warcraft5e/res/pics/portraits/monsters/trolls/frostmane_guard.webp",
+   "img": "modules/warcraft5e/res/pics/portraits/monsters/trolls/drakkari-guard.webp",
    "data": {
       "abilities": {
          "str": {
@@ -64,7 +65,8 @@
             "min": 0,
             "max": 13,
             "temp": null,
-            "tempmax": null
+            "tempmax": null,
+            "formula": ""
          },
          "init": {
             "value": 0,
@@ -381,7 +383,7 @@
             "max": 0
          },
          "lair": {
-            "value": 0,
+            "value": false,
             "initiative": 0
          },
          "primary": {
@@ -408,29 +410,52 @@
       }
    },
    "token": {
+      "_id": "dvt2HMLMARojHO84",
       "name": "Drakkari Guard",
-      "img": "modules/warcraft5e/res/pics/tokens/monsters/trolls/frostmane_guard.webp",
       "displayName": 0,
+      "actorId": "1fIjiNJWrfFSCxtC",
       "actorLink": false,
+      "actorData": {},
+      "img": "modules/warcraft5e/res/pics/tokens/monsters/trolls/drakkari-guard2.webp",
+      "tint": null,
       "width": 1,
       "height": 1,
       "scale": 1.2,
       "mirrorX": false,
       "mirrorY": false,
+      "x": null,
+      "y": null,
+      "elevation": 0,
       "lockRotation": false,
       "rotation": 0,
+      "effects": [],
       "alpha": 1,
+      "hidden": false,
       "vision": true,
       "dimSight": 60,
       "brightSight": 0,
-      "dimLight": 0,
-      "brightLight": 0,
       "sightAngle": 0,
-      "lightAngle": 0,
-      "lightAlpha": 0.25,
-      "lightAnimation": {
-         "speed": 5,
-         "intensity": 5
+      "light": {
+         "alpha": 0.5,
+         "angle": 0,
+         "bright": 0,
+         "coloration": 1,
+         "dim": 0,
+         "gradual": true,
+         "luminosity": 0.5,
+         "saturation": 0,
+         "contrast": 0,
+         "shadows": 0,
+         "animation": {
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+         },
+         "darkness": {
+            "min": 0,
+            "max": 1
+         },
+         "color": null
       },
       "disposition": -1,
       "displayBars": 0,
@@ -441,12 +466,8 @@
          "attribute": ""
       },
       "flags": {},
-      "randomImg": false,
-      "tint": null,
-      "lightColor": null,
-      "x": null,
-      "y": null,
-      "elevation": null
+      "tokenId": null,
+      "randomImg": false
    },
    "items": [
       {
@@ -540,8 +561,7 @@
          "folder": null,
          "sort": 400000,
          "permission": {
-            "default": 0,
-            "BonBLPHtXp9sRrbq": 3
+            "default": 0
          },
          "flags": {
             "core": {
@@ -640,8 +660,7 @@
          "folder": null,
          "sort": 0,
          "permission": {
-            "default": 0,
-            "BonBLPHtXp9sRrbq": 3
+            "default": 0
          },
          "flags": {
             "core": {
@@ -741,8 +760,7 @@
          "folder": null,
          "sort": 0,
          "permission": {
-            "default": 0,
-            "BonBLPHtXp9sRrbq": 3
+            "default": 0
          },
          "flags": {
             "core": {
@@ -858,8 +876,7 @@
          "folder": null,
          "sort": 3300000,
          "permission": {
-            "default": 0,
-            "BonBLPHtXp9sRrbq": 3
+            "default": 0
          },
          "flags": {
             "core": {
@@ -878,7 +895,7 @@
                "chat": "",
                "unidentified": ""
             },
-            "source": "Core Rules page 26",
+            "source": "Wc5e - Core p. 26",
             "activation": {
                "type": "",
                "cost": 0,
@@ -937,8 +954,7 @@
          "folder": null,
          "sort": 0,
          "permission": {
-            "default": 0,
-            "BonBLPHtXp9sRrbq": 3
+            "default": 0
          },
          "flags": {
             "wc5e": {
@@ -973,7 +989,7 @@
                "chat": "",
                "unidentified": ""
             },
-            "source": "Core Rules page 27",
+            "source": "Wc5e - Core p. 27",
             "activation": {
                "type": "",
                "cost": 0,
@@ -1032,8 +1048,7 @@
          "folder": null,
          "sort": 0,
          "permission": {
-            "default": 0,
-            "BonBLPHtXp9sRrbq": 3
+            "default": 0
          },
          "flags": {
             "wc5e": {
@@ -1061,7 +1076,7 @@
                "chat": "",
                "unidentified": ""
             },
-            "source": "Core Rules page 26",
+            "source": "Wc5e - Core p. 26",
             "activation": {
                "type": "",
                "cost": 0,
@@ -1120,8 +1135,7 @@
          "folder": null,
          "sort": 0,
          "permission": {
-            "default": 0,
-            "BonBLPHtXp9sRrbq": 3
+            "default": 0
          },
          "flags": {
             "wc5e": {
@@ -1149,7 +1163,7 @@
                "chat": "",
                "unidentified": ""
             },
-            "source": "Core Rules page 37",
+            "source": "Wc5e - Core p. 37",
             "activation": {
                "type": "",
                "cost": 0,
@@ -1208,8 +1222,7 @@
          "folder": null,
          "sort": 0,
          "permission": {
-            "default": 0,
-            "BonBLPHtXp9sRrbq": 3
+            "default": 0
          },
          "flags": {
             "wc5e": {
@@ -1234,13 +1247,7 @@
    "folder": null,
    "sort": 0,
    "permission": {
-      "default": 0,
-      "BonBLPHtXp9sRrbq": 3
+      "default": 0
    },
-   "flags": {
-      "core": {
-         "sourceId": "Actor.FWeNpZi969KdIJCa"
-      }
-   },
-   "_id": "qXlU8EYetsUu2c8j"
+   "flags": {}
 }

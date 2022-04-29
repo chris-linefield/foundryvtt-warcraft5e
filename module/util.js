@@ -2,6 +2,9 @@
 export function renderWcDescription(description) {
     let descString = '';
     for (let p of description) {
+        if(typeof(p.title) !== 'undefined') {
+            descString += `<h4>${game.i18n.localize(p.title)}</h4>`
+        }
         if(typeof(p.value) !== 'undefined') {
             descString += `<p>${game.i18n.localize(p.value)}</p>`;
         }

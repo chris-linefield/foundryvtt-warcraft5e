@@ -1,0 +1,26 @@
+{
+   "_id": "9i6IBnP9zL3Kahru",
+   "name": "Constructed Mind",
+   "permission": {
+      "default": 0
+   },
+   "type": "feat",
+   "data": {
+      "source": "Wc5e - MC p. 28",
+      "requirements": "Construct"
+   },
+   "flags": {
+      "wc5e": {
+         "type": "feat",
+         "category": "WC5E.SkillCategories.General",
+         "description": [
+            {
+               "value": "WC5E.MonsterFeats.ConstructedMind.Description.1.Value"
+            }
+         ]
+      }
+   },
+   "img": "icons/commodities/tech/bulb-vacuum.webp",
+   "effects": [
+   ]
+}

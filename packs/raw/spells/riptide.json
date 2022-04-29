@@ -6,7 +6,7 @@
    },
    "type": "spell",
    "data": {
-      "source": "Core Rules page 363",
+      "source": "Wc5e - Core p. 363",
       "activation": {
          "type": "action",
          "cost": 1,

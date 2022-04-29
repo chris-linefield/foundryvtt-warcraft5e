@@ -62,6 +62,14 @@
          "system": "dnd5e"
       },
       {
+         "name": "wc5e_class_talents",
+         "label": "Wc5e | Class Talents",
+         "path": "./packs/class_talents.db",
+         "private": false,
+         "type": "Item",
+         "system": "dnd5e"
+      },
+      {
          "name": "wc5e_copy_compendium",
          "label": "Wc5e | Copy Compendium",
          "path": "./packs/copy.db",
@@ -142,17 +150,17 @@
          "system": "dnd5e"
       },
       {
-         "name": "wc5e_spells",
-         "label": "Wc5e | Spells",
-         "path": "./packs/spells.db",
+         "name": "wc5e_core_rules",
+         "label": "Wc5e | Core Rules",
+         "path": "./packs/core_rules.db",
          "private": false,
-         "type": "Item",
+         "type": "JournalEntry",
          "system": "dnd5e"
       },
       {
-         "name": "wc5e_class_talents",
-         "label": "Wc5e | Class Talents",
-         "path": "./packs/class_talents.db",
+         "name": "wc5e_spells",
+         "label": "Wc5e | Spells",
+         "path": "./packs/spells.db",
          "private": false,
          "type": "Item",
          "system": "dnd5e"
