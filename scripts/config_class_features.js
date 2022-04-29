@@ -14,7 +14,7 @@ ClassFeatures.alchemist = {
     "subclasses": {
         "apothecary": {
             "label": "Apothecary",
-            "source": "Core Rules page 39",
+            "source": "Wc5e - Core p. 39",
             "features": {
                 "3": [
                     "Compendium.warcraft5e.wc5e_class_feats.cBp6ymcqcqWtsitG",
@@ -27,7 +27,7 @@ ClassFeatures.alchemist = {
         },
         "mutant": {
             "label": "Mutant",
-            "source": "Core Rules page 40",
+            "source": "Wc5e - Core p. 40",
             "features": {
                 "3": [
                     "Compendium.warcraft5e.wc5e_class_feats.z6qfh7iXuCGYMuUU",
@@ -40,7 +40,7 @@ ClassFeatures.alchemist = {
         },
         "transmutor": {
             "label": "Transmutor",
-            "source": "Core Rules page 41",
+            "source": "Wc5e - Core p. 41",
             "features": {
                 "3": [
                     "Compendium.warcraft5e.wc5e_class_feats.MoxAQW3bvLjyYxiy",
@@ -84,7 +84,7 @@ ClassFeatures.deathknight = {
     "subclasses": {
         "pathOfBlood": {
             "label": "Path of Blood",
-            "source": "Core Rules page 49",
+            "source": "Wc5e - Core p. 49",
             "features": {
                 "3": [
                     "Compendium.warcraft5e.wc5e_class_feats.KmQj5Z2i2ySPayr2",
@@ -97,7 +97,7 @@ ClassFeatures.deathknight = {
         },
         "pathOfFrost": {
             "label": "Path of Frost",
-            "source": "Core Rules page 50",
+            "source": "Wc5e - Core p. 50",
             "features": {
                 "3": [
                     "Compendium.warcraft5e.wc5e_class_feats.Hi2IlXyd4nETYjOq",
@@ -110,7 +110,7 @@ ClassFeatures.deathknight = {
         },
         "unholyPath": {
             "label": "Unholy Path",
-            "source": "Core Rules page 51",
+            "source": "Wc5e - Core p. 51",
             "features": {
                 "3": [
                     "Compendium.warcraft5e.wc5e_class_feats.f2YutuIvE9ZtLlZE",
@@ -165,7 +165,7 @@ ClassFeatures.druid = {
     "subclasses": {
         "circleOfBalance": {
             "label": "Circle of Balance",
-            "source": "Core Rules page 58",
+            "source": "Wc5e - Core p. 58",
             "features": {
                 "2": [
                     "Compendium.warcraft5e.wc5e_class_feats.HvLHardWnT1aWNXH",
@@ -178,7 +178,7 @@ ClassFeatures.druid = {
         },
         "circleOfFeralBeast": {
             "label": "Circle of the Feral Beast",
-            "source": "Core Rules page 59",
+            "source": "Wc5e - Core p. 59",
             "features": {
                 "2": [
                     "Compendium.warcraft5e.wc5e_class_feats.t5d4RlaFNNH1cgVp",
@@ -191,7 +191,7 @@ ClassFeatures.druid = {
         },
         "circleOfRestoration": {
             "label": "Circle of Restoration",
-            "source": "Core Rules page 61",
+            "source": "Wc5e - Core p. 61",
             "features": {
                 "2": [
                     "Compendium.warcraft5e.wc5e_class_feats.XtoEYQ7OzazMiS1f",
@@ -243,7 +243,7 @@ ClassFeatures.hunter = {
     "subclasses": {
         "beastMaster": {
             "label": "Beast Master",
-            "source": "Core Rules page 67",
+            "source": "Wc5e - Core p. 67",
             "features": {
                 "3": ["Compendium.warcraft5e.wc5e_class_feats.DXx4xvTOQ2wrFC3p"],
                 "7": ["Compendium.warcraft5e.wc5e_class_feats.r4zAElBNqHgQ0fbR"],
@@ -253,7 +253,7 @@ ClassFeatures.hunter = {
         },
         "marksman": {
             "label": "Marksman",
-            "source": "Core Rules page 68",
+            "source": "Wc5e - Core p. 68",
             "features": {
                 "3": ["Compendium.warcraft5e.wc5e_class_feats.DzvT9juUQYLSR7YZ"],
                 "7": ["Compendium.warcraft5e.wc5e_class_feats.uaIpcs3TYF1q41EV"],
@@ -263,7 +263,7 @@ ClassFeatures.hunter = {
         },
         "survival": {
             "label": "Survival",
-            "source": "Core Rules page 69",
+            "source": "Wc5e - Core p. 69",
             "features": {
                 "3": ["Compendium.warcraft5e.wc5e_class_feats.AkZWkmxe9uV5xeS3"],
                 "7": ["Compendium.warcraft5e.wc5e_class_feats.ePlaLixp5XS16KeN"],
@@ -301,7 +301,7 @@ ClassFeatures.mage = {
     "subclasses": {
         "arcane": {
             "label": "Arcane",
-            "source": "Core Rules page 74",
+            "source": "Wc5e - Core p. 74",
             "features": {
                 "2": [
                     "Compendium.warcraft5e.wc5e_class_feats.Kz94qdOAZhVicLfJ",
@@ -314,7 +314,7 @@ ClassFeatures.mage = {
         },
         "fire": {
             "label": "Fire",
-            "source": "Core Rules page 75",
+            "source": "Wc5e - Core p. 75",
             "features": {
                 "2": [
                     "Compendium.warcraft5e.wc5e_class_feats.PY9zd0U6iN8zmSAG",
@@ -327,7 +327,7 @@ ClassFeatures.mage = {
         },
         "frost": {
             "label": "Frost",
-            "source": "Core Rules page 76",
+            "source": "Wc5e - Core p. 76",
             "features": {
                 "2": [
                     "Compendium.warcraft5e.wc5e_class_feats.i7MIIGg4ucXKx6rq",
@@ -361,7 +361,7 @@ ClassFeatures.monk = {
     "subclasses": {
         "brewmaster": {
             "label": "Brewmaster",
-            "source": "Core Rules page 82",
+            "source": "Wc5e - Core p. 82",
             "features": {
                 "3": [
                     "Compendium.warcraft5e.wc5e_class_feats.HREpIWCzSdX0ecB5",
@@ -378,7 +378,7 @@ ClassFeatures.monk = {
         },
         "mistweaver": {
             "label": "Mistweaver",
-            "source": "Core Rules page 84",
+            "source": "Wc5e - Core p. 84",
             "features": {
                 "3": [
                     "Compendium.warcraft5e.wc5e_class_feats.jdfAAeOUVjhJ1m3u",
@@ -396,7 +396,7 @@ ClassFeatures.monk = {
         },
         "windwalker": {
             "label": "Windwalker",
-            "source": "Core Rules page 85",
+            "source": "Wc5e - Core p. 85",
             "features": {
                 "3": [
                     "Compendium.warcraft5e.wc5e_class_feats.zCH3QykOX0EMHTcu",
@@ -448,7 +448,7 @@ ClassFeatures.paladin = {
     "subclasses": {
         "holiness": {
             "label": "Holiness",
-            "source": "Core Rules page 92",
+            "source": "Wc5e - Core p. 92",
             "features": {
                 "3": [
                     "Compendium.warcraft5e.wc5e_class_feats.LZZZqJgcLeEvrs4e",
@@ -461,7 +461,7 @@ ClassFeatures.paladin = {
         },
         "protection": {
             "label": "Protection",
-            "source": "Core Rules page 93",
+            "source": "Wc5e - Core p. 93",
             "features": {
                 "3": [
                     "Compendium.warcraft5e.wc5e_class_feats.volLu7H7RUAnQiGU",
@@ -474,7 +474,7 @@ ClassFeatures.paladin = {
         },
         "retribution": {
             "label": "Retribution",
-            "source": "Core Rules page 94",
+            "source": "Wc5e - Core p. 94",
             "features": {
                 "3": [
                     "Compendium.warcraft5e.wc5e_class_feats.rwMznR2NEW8KHjsG",
@@ -529,7 +529,7 @@ ClassFeatures.priest = {
     "subclasses": {
         "death": {
             "label": "Death",
-            "source": "Core Rules page 100",
+            "source": "Wc5e - Core p. 100",
             "features": {
                 "1": ["Compendium.warcraft5e.wc5e_class_feats.wURsbLUqrXhS7gC1"],
                 "2": [
@@ -543,7 +543,7 @@ ClassFeatures.priest = {
         },
         "discipline": {
             "label": "Discipline",
-            "source": "Core Rules page 101",
+            "source": "Wc5e - Core p. 101",
             "features": {
                 "1": [
                     "Compendium.warcraft5e.wc5e_class_feats.V60pVQs7xk96aaCk",
@@ -560,7 +560,7 @@ ClassFeatures.priest = {
         },
         "holyLight": {
             "label": "Holy Light",
-            "source": "Core Rules page 102",
+            "source": "Wc5e - Core p. 102",
             "features": {
                 "1": [
                     "Compendium.warcraft5e.wc5e_class_feats.j7XAOqsHIKkFxHIg",
@@ -577,7 +577,7 @@ ClassFeatures.priest = {
         },
         "moon": {
             "label": "Moon",
-            "source": "Core Rules page 104",
+            "source": "Wc5e - Core p. 104",
             "features": {
                 "1": [
                     "Compendium.warcraft5e.wc5e_class_feats.L7x4apvUhlhGjOLA",
@@ -594,7 +594,7 @@ ClassFeatures.priest = {
         },
         "shadow": {
             "label": "Shadow",
-            "source": "Core Rules page 106",
+            "source": "Wc5e - Core p. 106",
             "features": {
                 "1": [
                     "Compendium.warcraft5e.wc5e_class_feats.QTX7GT4x79gWUJbo",
@@ -643,7 +643,7 @@ ClassFeatures.rogue = {
     "subclasses": {
         "assassination": {
             "label": "Assassination",
-            "source": "Core Rules page 112",
+            "source": "Wc5e - Core p. 112",
             "features": {
                 "3": [
                     "Compendium.warcraft5e.wc5e_class_feats.oI0wCH7jMFKC8ip6",
@@ -656,7 +656,7 @@ ClassFeatures.rogue = {
         },
         "outlaw": {
             "label": "Outlaw",
-            "source": "Core Rules page 112",
+            "source": "Wc5e - Core p. 112",
             "features": {
                 "3": [
                     "Compendium.warcraft5e.wc5e_class_feats.SOupAvvP4QJxvsZp",
@@ -669,7 +669,7 @@ ClassFeatures.rogue = {
         },
         "subtlety": {
             "label": "Subtlety",
-            "source": "Core Rules page 113",
+            "source": "Wc5e - Core p. 113",
             "features": {
                 "3": [
                     "Compendium.warcraft5e.wc5e_class_feats.HdBCMDKhHcFg5K8E",
@@ -712,7 +712,7 @@ ClassFeatures.shaman = {
     "subclasses": {
         "elemental": {
             "label": "Elemental",
-            "source": "Core Rules page 120",
+            "source": "Wc5e - Core p. 120",
             "features": {
                 "1": [
                     "Compendium.warcraft5e.wc5e_class_feats.uwLlHRgiSbm9ncvi",
@@ -726,7 +726,7 @@ ClassFeatures.shaman = {
         },
         "enhancement": {
             "label": "Enhancement",
-            "source": "Core Rules page 121",
+            "source": "Wc5e - Core p. 121",
             "features": {
                 "1": [
                     "Compendium.warcraft5e.wc5e_class_feats.9DPJbM0zkkuI5gsk",
@@ -740,7 +740,7 @@ ClassFeatures.shaman = {
         },
         "restoration": {
             "label": "Restoration",
-            "source": "Core Rules page 122",
+            "source": "Wc5e - Core p. 122",
             "features": {
                 "1": [
                     "Compendium.warcraft5e.wc5e_class_feats.caRItDWXUgsayCb9",
@@ -793,7 +793,7 @@ ClassFeatures.tinker = {
     "subclasses": {
         "bomber": {
             "label": "Bomber",
-            "source": "Core Rules page 146",
+            "source": "Wc5e - Core p. 146",
             "features": {
                 "3": ["Compendium.warcraft5e.wc5e_class_feats.IHkdG7wrZ62CpvtN"],
                 "6": ["Compendium.warcraft5e.wc5e_class_feats.YaZ6QGI1PROtCSFC"],
@@ -803,7 +803,7 @@ ClassFeatures.tinker = {
         },
         "gunner": {
             "label": "Gunner",
-            "source": "Core Rules page 147",
+            "source": "Wc5e - Core p. 147",
             "features": {
                 "3": ["Compendium.warcraft5e.wc5e_class_feats.F9WjNpgB8SgAmZJr"],
                 "6": ["Compendium.warcraft5e.wc5e_class_feats.nJQ8RrxdQEV7ehjd"],
@@ -813,7 +813,7 @@ ClassFeatures.tinker = {
         },
         "gadgeteer": {
             "label": "Gadgeteer",
-            "source": "Core Rules page 147",
+            "source": "Wc5e - Core p. 147",
             "features": {
                 "3": ["Compendium.warcraft5e.wc5e_class_feats.weVaL0aKagU09Ox3"],
                 "6": ["Compendium.warcraft5e.wc5e_class_feats.HfkNtAfjkgE37g5B"],
@@ -863,7 +863,7 @@ ClassFeatures.warlock = {
     "subclasses": {
         "affliction": {
             "label": "Affliction",
-            "source": "Core Rules page 139",
+            "source": "Wc5e - Core p. 139",
             "features": {
                 "1": [
                     "Compendium.warcraft5e.wc5e_class_feats.IUX4nj4jmczJOhEA",
@@ -876,7 +876,7 @@ ClassFeatures.warlock = {
         },
         "demonology": {
             "label": "Demonology",
-            "source": "Core Rules page 140",
+            "source": "Wc5e - Core p. 140",
             "features": {
                 "1": [
                     "Compendium.warcraft5e.wc5e_class_feats.PHXdCoM6HH3NIf7K",
@@ -889,7 +889,7 @@ ClassFeatures.warlock = {
         },
         "destruction": {
             "label": "destruction",
-            "source": "Core Rules page 141",
+            "source": "Wc5e - Core p. 141",
             "features": {
                 "1": [
                     "Compendium.warcraft5e.wc5e_class_feats.0h7RUS2kfUXTwkdm",
@@ -926,7 +926,7 @@ ClassFeatures.warrior = {
     "subclasses": {
         "arms": {
             "label": "Warrior of Arms",
-            "source": "Core Rules page 146",
+            "source": "Wc5e - Core p. 146",
             "features": {
                 "3": [
                     "Compendium.warcraft5e.wc5e_class_feats.jZZ3jr0aiZLwdcxv",
@@ -940,7 +940,7 @@ ClassFeatures.warrior = {
         },
         "fury": {
             "label": "Warrior of Fury",
-            "source": "Core Rules page 147",
+            "source": "Wc5e - Core p. 147",
             "features": {
                 "3": ["Compendium.warcraft5e.wc5e_class_feats.na8IZmJwynNkz1iL"],
                 "7": ["Compendium.warcraft5e.wc5e_class_feats.tOcK4KygovPeQIqG"],
@@ -951,7 +951,7 @@ ClassFeatures.warrior = {
         },
         "protection": {
             "label": "Warrior of Protection",
-            "source": "Core Rules page 147",
+            "source": "Wc5e - Core p. 147",
             "features": {
                 "3": ["Compendium.warcraft5e.wc5e_class_feats.s0BmwIiZaHlfijhF"],
                 "7": ["Compendium.warcraft5e.wc5e_class_feats.B8vZWezYjs9O5uIg"],

@@ -4,7 +4,7 @@
    "type": "spell",
    "img": "systems/dnd5e/icons/spells/fog-magenta-2.jpg",
    "data": {
-      "source": "Core Rules page 330",
+      "source": "Wc5e - Core p. 330",
       "activation": {
          "type": "action",
          "cost": 1,

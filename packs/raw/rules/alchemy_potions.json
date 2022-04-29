@@ -8,14 +8,14 @@
    "flags": {
       "wc5e": {
          "type": "rule",
-         "title": "WC5E.Rules.Alchemy.Label",
+         "title": "WC5E.Rules.AlchemyPotions.Label",
          "content": [
             {
-               "value": "WC5E.Rules.Alchemy.Description.1.Value"
+               "value": "WC5E.Rules.AlchemyPotions.Description.1.Value"
             },
             {
-               "title": "WC5E.Rules.Alchemy.Description.2.Title",
-               "value": "WC5E.Rules.Alchemy.Description.2.Value"
+               "title": "WC5E.Rules.AlchemyPotions.Description.2.Title",
+               "value": "WC5E.Rules.AlchemyPotions.Description.2.Value"
             },
             {
                "table": {
@@ -431,11 +431,11 @@
                }
             },
             {
-               "title": "WC5E.Rules.Alchemy.Description.3.Title",
-               "value": "WC5E.Rules.Alchemy.Description.3.Value"
+               "title": "WC5E.Rules.AlchemyPotions.Description.3.Title",
+               "value": "WC5E.Rules.AlchemyPotions.Description.3.Value"
             },
             {
-               "value": "WC5E.Rules.Alchemy.Description.4.Value"
+               "value": "WC5E.Rules.AlchemyPotions.Description.4.Value"
             },
             {
                "table": {
@@ -765,7 +765,7 @@
          "next": {
             "pack": "wc5e_rules",
             "node": "scLYNnD9op9r3dtd",
-            "label": "WC5E.Rules.EngineeringDevices.Label"
+            "label": "WC5E.Rules.EngineeringCreatures.Label"
          }
       }
    }

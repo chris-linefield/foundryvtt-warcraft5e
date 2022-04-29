@@ -9260,6 +9260,14 @@
          "Troll": "Troll"
       },
       "MonsterFeats": {
+         "ConstructedMind": {
+            "Label": "Constructed Mind",
+            "Description": {
+               "1": {
+                  "Value": "Mechanized creatures do not have a true mind, but are instead programmed to perform certain actions congruent with those of similar natural creatures. Thus, instead of Animal Handling checks, a creature handling or riding a mechanized animal makes checks with engineer‘s tools. Its new form is immune to all living creature-specific effects."
+               }
+            }
+         },
          "CraftingCreatureCr1": {
             "Label": "Crafting",
             "Description": {
@@ -9271,6 +9279,46 @@
                }
             }
          },
+         "CraftingCreatureCr12": {
+            "Label": "Crafting",
+            "Description": {
+               "1": {
+                  "Value": "This construct can be crafted and has a rarity of Common. As a creature of CR 1/2, it has a total cost of 500 gp (20 gp base cost x 25 for creatures) in engineering materials. The engineering materials required is 250 gp to craft it with a competent craftsperson, who has a minimum Proficiency Bonus of +2 (as an Apprentice craftsperson)."
+               }
+            }
+         },
+         "CraftingCreatureCr14": {
+            "Label": "Crafting",
+            "Description": {
+               "1": {
+                  "Value": "This construct can be crafted and has a rarity of Common. As a creature of CR 1/4, it has a total cost of 250 gp (20 gp base cost x 25 for creatures, halved for lower range of CR) in engineering materials. The engineering materials required is 125 gp to craft it with a competent craftsperson, who has a minimum Proficiency Bonus of +2 (as an Apprentice craftsperson)."
+               },
+               "2": {
+                  "Value": "As a device, it has a malfunction rating of 1-2."
+               },
+               "3": {
+                  "Title": "Golem",
+                  "Value": "If made into a golem, the cost increases by an additional 250 gp, and requires an infusion matrix of Common rarity."
+               },
+               "4": {
+                  "Value": "Golems do not require fuel and can follow and understand instructions."
+               }
+            }
+         },
+         "CraftingCreatureCr4": {
+            "Label": "Crafting",
+            "Description": {
+               "1": {
+                  "Value": "This construct can be crafted and has a rarity of Rare. As a creature of CR 4, it has a total cost of 8,000 gp (320 gp base cost x 25 for creatures) in engineering materials. The engineering materials required is 4,000 gp to craft it with a competent craftsperson, who has a minimum Proficiency Bonus of +3 (as a Journeyman craftsperson)."
+               },
+               "2": {
+                  "Value": "As a device, it has a malfunction rating of 1-3."
+               },
+               "3": {
+                  "Value": "If made into a golem, the cost increases by an additional 2,000 gp, and requires an infusion matrix of Uncommon rarity."
+               }
+            }
+         },
          "Mecha": {
             "Label": "Mecha",
             "Description": {
@@ -9278,6 +9326,29 @@
                   "Value": "This construct may be controlled by sitting in the compartment, but only if the user is of Small or smaller size (otherwise it is a suit). When in the compartment, the user may use their action to access the construct‘s attack (or multiattack), and move with the construct‘s speed. Any damage taken by the construct is divided between the user and the construct itself."
                }
             }
+         }
+      },
+      "Monsters": {
+         "BattleChicken": {
+            "Label": "Battle Chicken"
+         },
+         "BladeBarrel": {
+            "Label": "Blade Barrel"
+         },
+         "ClockworkGoblin": {
+            "Label": "Clockwork Goblin"
+         },
+         "ClockworkPest": {
+            "Label": "Clockwork Pest"
+         },
+         "ClockworkPestFlying": {
+            "Label": "Clockwork Pest, Flying"
+         },
+         "CombatArmorGnomish": {
+            "Label": "Combat Armor, Gnomish"
+         },
+         "CombatArmorGnomishMk2": {
+            "Label": "Combat Armor Mk2, Gnomish"
          }
       },
       "Race": {
@@ -9932,7 +10003,7 @@
                }
             }
          },
-         "Alchemy": {
+         "AlchemyPotions": {
             "Label": "Alchemy: Potions",
             "Description": {
                "1": {
@@ -10106,8 +10177,20 @@
                }
             }
          },
-         "EngineeringDevices": {
-            "Label": "Engineering: Devices"
+         "EngineeringCreatures": {
+            "Label": "Engineering: Devices",
+            "Description": {
+               "1": {
+                  "Value": "Engineering devices are described in full detail in Chapter 7 under Engineer‘s Tools."
+               },
+               "2": {
+                  "Title": "Creatures",
+                  "Value": "With engineering, one can create battle-suits, mechanical guardians, and other creatures for attack or defense."
+               },
+               "3": {
+                  "Value": "For more details on creatures and their rules, refer to Chapter 7 under Engineer‘s Tools."
+               }
+            }
          },
          "Enhancements": {
             "Label": "Enhancements",
@@ -13694,6 +13777,7 @@
          "Bond": "Bond",
          "Bonds": "Bonds",
          "BonusAction": "Bonus Action",
+         "Challenge": "Challenge",
          "ChangeRace": "Change Race",
          "Class": "Class",
          "Consumable": "Consumable",
@@ -13703,6 +13787,7 @@
          "DamageTypes": {
             "Arcane": "Arcane",
             "Bludgeoning": "Bludgeoning",
+            "Concussive": "Concussive",
             "Fel": "Fel",
             "Holy": "Holy",
             "Piercing": "Piercing",
@@ -13715,6 +13800,12 @@
             "SelectSubrace": "Please select a Subrace:"
          },
          "Effect": "Effect",
+         "Engine": "Engine",
+         "Engines": {
+            "Combustion": "Combustion",
+            "Mechanical": "Mechanical",
+            "Steam": "Steam"
+         },
          "Enhancement": "Enhancement",
          "EntertainerRoutine": "Entertainer Routine",
          "FamilyNames": "Family Names",

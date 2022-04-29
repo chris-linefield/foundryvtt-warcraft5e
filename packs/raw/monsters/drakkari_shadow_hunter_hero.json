@@ -82,7 +82,7 @@
             "hover": false
          },
          "senses": {
-            "darkvision": 0,
+            "darkvision": 60,
             "blindsight": 0,
             "tremorsense": 0,
             "truesight": 0,
@@ -445,101 +445,6 @@
    },
    "items": [
       {
-         "_id": "ziofz7p7g2bNflV3",
-         "name": "Ancient Culture",
-         "type": "feat",
-         "img": "icons/environment/wilderness/altar-hidden.webp",
-         "data": {
-            "description": {
-               "value": "",
-               "chat": "",
-               "unidentified": ""
-            },
-            "source": "Core Rules page 26",
-            "activation": {
-               "type": "",
-               "cost": 0,
-               "condition": ""
-            },
-            "duration": {
-               "value": null,
-               "units": ""
-            },
-            "target": {
-               "value": null,
-               "width": null,
-               "units": "",
-               "type": ""
-            },
-            "range": {
-               "value": null,
-               "long": null,
-               "units": ""
-            },
-            "uses": {
-               "value": null,
-               "max": "",
-               "per": null
-            },
-            "consume": {
-               "type": "",
-               "target": null,
-               "amount": null
-            },
-            "ability": null,
-            "actionType": "",
-            "attackBonus": 0,
-            "chatFlavor": "",
-            "critical": {
-               "threshold": null,
-               "damage": ""
-            },
-            "damage": {
-               "parts": [],
-               "versatile": ""
-            },
-            "formula": "",
-            "save": {
-               "ability": "",
-               "dc": null,
-               "scaling": "spell"
-            },
-            "requirements": "Troll",
-            "recharge": {
-               "value": null,
-               "charged": false
-            }
-         },
-         "effects": [],
-         "folder": null,
-         "sort": 0,
-         "permission": {
-            "default": 0
-         },
-         "flags": {
-            "wc5e": {
-               "type": "feat",
-               "category": "WC5E.SkillCategories.General",
-               "description": [
-                  {
-                     "value": "WC5E.Feats.AncientCulture.Description.1.Value"
-                  },
-                  {
-                     "options": [
-                        "WC5E.Feats.AncientCulture.Description.2.Options.1",
-                        "WC5E.Feats.AncientCulture.Description.2.Options.2",
-                        "WC5E.Feats.AncientCulture.Description.2.Options.3"
-                     ]
-                  }
-               ]
-            },
-            "core": {
-               "sourceId": "Compendium.warcraft5e.wc5e_racial_feats.Ty1nAMXBdw1NhaMb",
-               "sheetClass": "warcraft5e.WcItemSheet"
-            }
-         }
-      },
-      {
          "_id": "QsZ2P1wFTdXvOPQl",
          "name": "Hostile Homeland",
          "type": "feat",
@@ -550,7 +455,7 @@
                "chat": "",
                "unidentified": ""
             },
-            "source": "Core Rules page 27",
+            "source": "Wc5e - Core p. 27",
             "activation": {
                "type": "",
                "cost": 0,
@@ -637,7 +542,7 @@
                "chat": "",
                "unidentified": ""
             },
-            "source": "Core Rules page 26",
+            "source": "Wc5e - Core p. 26",
             "activation": {
                "type": "",
                "cost": 0,
@@ -724,7 +629,7 @@
                "chat": "",
                "unidentified": ""
             },
-            "source": "Core Rules page 37",
+            "source": "Wc5e - Core p. 37",
             "activation": {
                "type": "",
                "cost": 0,
@@ -814,7 +719,7 @@
                "chat": "",
                "unidentified": ""
             },
-            "source": "Core Rules page 163",
+            "source": "Wc5e - Core p. 163",
             "activation": {
                "type": "",
                "cost": 0,
@@ -901,7 +806,7 @@
                "chat": "",
                "unidentified": ""
             },
-            "source": "Core Rules page 167",
+            "source": "Wc5e - Core p. 167",
             "activation": {
                "type": "",
                "cost": 0,
@@ -1217,7 +1122,7 @@
                "chat": "",
                "unidentified": ""
             },
-            "source": "Core Rules page 347",
+            "source": "Wc5e - Core p. 347",
             "activation": {
                "type": "action",
                "cost": 1,
@@ -1332,7 +1237,7 @@
                "chat": "",
                "unidentified": ""
             },
-            "source": "Core Rules page 367",
+            "source": "Wc5e - Core p. 367",
             "activation": {
                "type": "bonus",
                "cost": 1,
@@ -1466,7 +1371,7 @@
                "chat": "",
                "unidentified": ""
             },
-            "source": "Core Rules page 155",
+            "source": "Wc5e - Core p. 155",
             "activation": {
                "type": "",
                "cost": 0,
@@ -1561,7 +1466,7 @@
                "chat": "",
                "unidentified": ""
             },
-            "source": "Core Rules page 156",
+            "source": "Wc5e - Core p. 156",
             "activation": {
                "type": "",
                "cost": 0,
@@ -1649,7 +1554,7 @@
                "chat": "",
                "unidentified": ""
             },
-            "source": "Core Rules page 363",
+            "source": "Wc5e - Core p. 363",
             "activation": {
                "type": "action",
                "cost": 1,
@@ -1767,7 +1672,7 @@
                "chat": "",
                "unidentified": ""
             },
-            "source": "Core Rules page 330",
+            "source": "Wc5e - Core p. 330",
             "activation": {
                "type": "action",
                "cost": 1,
@@ -3097,7 +3002,7 @@
                "chat": "",
                "unidentified": ""
             },
-            "source": "Core Rules page 156",
+            "source": "Wc5e - Core p. 156",
             "activation": {
                "type": "",
                "cost": 0,
@@ -3180,6 +3085,102 @@
                "sourceId": "Compendium.warcraft5e.wc5e_class_feats.tpkszaJV0DBY13gm"
             }
          }
+      },
+      {
+         "_id": "7FaU14JSZwRmq6Js",
+         "name": "Ancient Culture (Naturally-Attuned - Snow Mountains)",
+         "type": "feat",
+         "img": "icons/environment/wilderness/altar-hidden.webp",
+         "data": {
+            "description": {
+               "value": "",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "Wc5e - Core p. 26",
+            "activation": {
+               "type": "",
+               "cost": 0,
+               "condition": ""
+            },
+            "duration": {
+               "value": null,
+               "units": ""
+            },
+            "target": {
+               "value": null,
+               "width": null,
+               "units": "",
+               "type": ""
+            },
+            "range": {
+               "value": null,
+               "long": null,
+               "units": ""
+            },
+            "uses": {
+               "value": null,
+               "max": "",
+               "per": null
+            },
+            "consume": {
+               "type": "",
+               "target": null,
+               "amount": null
+            },
+            "ability": null,
+            "actionType": "",
+            "attackBonus": 0,
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell"
+            },
+            "requirements": "Troll",
+            "recharge": {
+               "value": null,
+               "charged": false
+            },
+            "attunement": null
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 0,
+         "permission": {
+            "default": 0
+         },
+         "flags": {
+            "wc5e": {
+               "type": "feat",
+               "category": "WC5E.SkillCategories.General",
+               "description": [
+                  {
+                     "value": "WC5E.Feats.AncientCulture.Description.1.Value"
+                  },
+                  {
+                     "options": [
+                        "WC5E.Feats.AncientCulture.Description.2.Options.1",
+                        "WC5E.Feats.AncientCulture.Description.2.Options.2",
+                        "WC5E.Feats.AncientCulture.Description.2.Options.3"
+                     ]
+                  }
+               ]
+            },
+            "core": {
+               "sourceId": "Compendium.warcraft5e.wc5e_racial_feats.Ty1nAMXBdw1NhaMb",
+               "sheetClass": "warcraft5e.WcItemSheet"
+            }
+         }
       }
    ],
    "effects": [],
@@ -3188,6 +3189,5 @@
    "permission": {
       "default": 0
    },
-   "flags": {
-   }
+   "flags": {}
 }
