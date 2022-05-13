@@ -169,6 +169,25 @@
                         {
                            "text": "WC5E.UI.Engines.Steam"
                         }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_monsters",
+                              "node": "CqfRn0tlJOYKqkgk",
+                              "label": "WC5E.Monsters.CrowdPummeler960.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Rare",
+                           "brackets": "+3"
+                        },
+                        {
+                           "value": "4"
+                        },
+                        {
+                           "text": "WC5E.UI.Engines.Mana"
+                        }
                      ]
                   ]
                }

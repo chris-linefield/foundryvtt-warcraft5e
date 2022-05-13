@@ -9349,6 +9349,9 @@
          },
          "CombatArmorGnomishMk2": {
             "Label": "Combat Armor Mk2, Gnomish"
+         },
+         "CrowdPummeler960": {
+            "Label": "Crowd Pummeler 9-60"
          }
       },
       "Race": {
@@ -13803,6 +13806,7 @@
          "Engine": "Engine",
          "Engines": {
             "Combustion": "Combustion",
+            "Mana": "Mana",
             "Mechanical": "Mechanical",
             "Steam": "Steam"
          },
@@ -13887,6 +13891,7 @@
             "SimpleWeapons": "Simple Weapons"
          },
          "WeaponProps": {
+            "Bomb": "Bomb",
             "Finesse": "Finesse",
             "Heavy": "Heavy",
             "HeavyPlus": "Heavy++",

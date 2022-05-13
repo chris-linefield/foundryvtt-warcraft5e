@@ -72,7 +72,16 @@
 
 .sidebar-tab li.folder > .folder-header h3 {
     color: #1b456b;
-    font-weight:bold;
+    font-weight: bold;
+}
+
+.sidebar-tab li.folder > .folder-header + .subdirectory h3 {
+    font-size: 1em;
+    color: inherit;
+}
+
+.sidebar-tab li.folder > .folder-header + .subdirectory .folder-header + .subdirectory h3 {
+    font-size: 0.9em;
 }
 
 .sidebar-tab li.folder > .folder-header {
@@ -86,7 +95,7 @@
 }
 
 .sidebar-tab .directory-list .directory-item, .directory .directory-list .directory-item.document {
-    line-height:57px;
+    line-height: 57px;
 }
 
 .sidebar-tab .subdirectory {
@@ -96,8 +105,8 @@
 }
 
 .sidebar-tab .directory-list .directory-item.document img {
-    width:57px;
-    height:57px;
+    width: 57px;
+    height: 57px;
 }
 
 #compendium h3 {
@@ -393,6 +402,7 @@
     display: block;
     margin: 0 0 20px 20px;
     border: 3px double #e0d8bb;
+    position: relative;
 }
 
 .warcraft5e .artwork:nth-of-type(2n) {
@@ -426,6 +436,35 @@
 
 .warcraft5e .numberCol {
     width: 75px;
+}
+
+/*********************************
+ * LIMITED SHEET
+ ********************************/
+
+.warcraft5e .artwork.portraitBg::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("/modules/warcraft5e/res/pics/ui/portrait-bg.webp");
+}
+
+.warcraft5e .artwork.portraitBg::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(rgba(190,175,140,0.75) 55%, rgba(255,255,255,0));
+}
+
+.warcraft5e .artwork.portraitBg img {
+    position: relative;
+    z-index:1;
 }
 
 /**
@@ -525,3 +564,4 @@
 .warcraft5e .nextlink {
     text-align: right;
 }
+
