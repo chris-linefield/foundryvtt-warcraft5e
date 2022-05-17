@@ -1,0 +1,16 @@
+<form class="{{cssClass}} flexcol limited" autocomplete="off">
+
+    {{!-- Sheet Header --}}
+    <header>
+        <h1>{{actor.name}}</h1>
+    </header>
+
+    {{!-- Sheet Body --}}
+    <section class="sheet-body">
+        <div class="artwork portraitBg">
+            <img src="{{actor.img}}" title="{{actor.name}}"/>
+        </div>
+        {{editor content=data.details.biography.value target="data.details.biography.value" button=true owner=owner
+        editable=editable rollData=rollData}}
+    </section>
+</form>

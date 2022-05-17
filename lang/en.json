@@ -9319,6 +9319,20 @@
                }
             }
          },
+         "CraftingCreatureCr7": {
+            "Label": "Crafting",
+            "Description": {
+               "1": {
+                  "Value": "This construct can be crafted and has a rarity of Legendary. As a creature of CR 7, it has a total cost of 64,000 gp (5,120 gp base cost x 25 for creatures, halved for lower range of CR) in engineering materials. The engineering materials required is 32,000 gp to craft it with a competent craftsperson, who has a minimum Proficiency Bonus of +5 (as an Artisan craftsperson)."
+               },
+               "2": {
+                  "Value": "As a device, it has a malfunction rating of 1-5."
+               },
+               "3": {
+                  "Value": "If made into a golem, the cost increases by an additional 8,000 gp, and requires an infusion matrix of Rare rarity."
+               }
+            }
+         },
          "Mecha": {
             "Label": "Mecha",
             "Description": {
@@ -9349,6 +9363,9 @@
          },
          "CombatArmorGnomishMk2": {
             "Label": "Combat Armor Mk2, Gnomish"
+         },
+         "CrowdPummeler960": {
+            "Label": "Crowd Pummeler 9-60"
          }
       },
       "Race": {
@@ -13803,6 +13820,7 @@
          "Engine": "Engine",
          "Engines": {
             "Combustion": "Combustion",
+            "Mana": "Mana",
             "Mechanical": "Mechanical",
             "Steam": "Steam"
          },
@@ -13887,6 +13905,7 @@
             "SimpleWeapons": "Simple Weapons"
          },
          "WeaponProps": {
+            "Bomb": "Bomb",
             "Finesse": "Finesse",
             "Heavy": "Heavy",
             "HeavyPlus": "Heavy++",

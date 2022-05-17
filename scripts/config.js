@@ -75,3 +75,4 @@ DND5E.weaponIds.attackClaws = "H9mvCWwGzgmMWCVL";
 DND5E.weaponIds.generalFirearm = "HjmGaC8pYCUTMLpV";
 
 DND5E.weaponProperties.hvyplus = "WC5E.UI.WeaponProps.HeavyPlus";
+DND5E.weaponProperties.bomb = "WC5E.UI.WeaponProps.Bomb";

@@ -11,14 +11,24 @@ export class WcNpcSheet extends ActorSheet5eNPC {
 
     constructor(...args) {
         super(...args);
-        this.options.classes = ['warcraft5e', 'dnd5e', 'sheet', 'actor', 'npc'];
-        this.options.width = this.position.width = 600;
-        this.options.height = this.position.height = 680;
+        if (!game.user.isGM && this.actor.limited) {
+            this.options.classes = ['warcraft5e', 'sheet', 'actor', 'npc'];
+            this.options.width = this.position.width = 850;
+            this.options.height = this.position.height = 0;
+        } else {
+            this.options.classes = ['warcraft5e', 'dnd5e', 'sheet', 'actor', 'npc'];
+            this.options.width = this.position.width = 600;
+            this.options.height = this.position.height = 680;
+        }
     }
 
     /** @override */
     get template() {
-        return `modules/warcraft5e/templates/actor/npc-sheet.html`;
+        let template = 'npc';
+        if (!game.user.isGM && this.actor.limited) {
+            template = 'limited';
+        }
+        return 'modules/warcraft5e/templates/actor/' + template + '-sheet.html';
     }
 
     /**

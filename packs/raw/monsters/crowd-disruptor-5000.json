@@ -1,0 +1,1369 @@
+{
+   "name": "Crowd Disruptor 5000",
+   "type": "npc",
+   "img": "modules/warcraft5e/res/pics/portraits/monsters/mecha/crowd-disruptor-5000.webp",
+   "data": {
+      "abilities": {
+         "str": {
+            "value": 25,
+            "proficient": 0,
+            "bonuses": {
+               "check": "",
+               "save": ""
+            }
+         },
+         "dex": {
+            "value": 10,
+            "proficient": 0,
+            "bonuses": {
+               "check": "",
+               "save": ""
+            }
+         },
+         "con": {
+            "value": 19,
+            "proficient": 0,
+            "bonuses": {
+               "check": "",
+               "save": ""
+            }
+         },
+         "int": {
+            "value": 3,
+            "proficient": 0,
+            "bonuses": {
+               "check": "",
+               "save": ""
+            }
+         },
+         "wis": {
+            "value": 15,
+            "proficient": 0,
+            "bonuses": {
+               "check": "",
+               "save": ""
+            }
+         },
+         "cha": {
+            "value": 6,
+            "proficient": 0,
+            "bonuses": {
+               "check": "",
+               "save": ""
+            }
+         }
+      },
+      "attributes": {
+         "ac": {
+            "flat": null,
+            "calc": "default",
+            "formula": ""
+         },
+         "hp": {
+            "value": 126,
+            "min": 0,
+            "max": 126,
+            "temp": 0,
+            "tempmax": 0,
+            "formula": "12d12 + 48"
+         },
+         "init": {
+            "value": 0,
+            "bonus": 0
+         },
+         "movement": {
+            "burrow": 0,
+            "climb": 0,
+            "fly": 0,
+            "swim": 0,
+            "walk": 40,
+            "units": "ft",
+            "hover": false
+         },
+         "senses": {
+            "darkvision": 60,
+            "blindsight": 0,
+            "tremorsense": 0,
+            "truesight": 0,
+            "units": "ft",
+            "special": ""
+         },
+         "spellcasting": "int"
+      },
+      "details": {
+         "biography": {
+            "value": "<p><em>\"</em>Return to your homes, a curfew is in effect!<em>\"</em></p>\n<p>Crowd Pummelers are mighty constructs made for sentry duty and preserving the peace.</p>\n<p>Patrolling the streets of Gnomeregan, Crowd Pummelers bash anything they notice that violates the laws programmed into them. Since Gnomeregan‘s fall, most are programmed to attack anything that is not a leper gnome.</p>\n<p>Crowd Pummelers recognize and speak Common, but answer to only to the correct technological codes.</p>\n<p>Before Gnomeregan‘s fall, crowd pummelers warned violators and protestors aloud, giving them a short time to halt their offences, and kept their targets stable after a beating, but now all they shout is \"Intruder!\" or \"Stop resisting!\" before charging and pummeling the unfortunate victim to death. </p>\n<p> </p>",
+            "public": ""
+         },
+         "alignment": "Unaligned",
+         "race": "",
+         "type": {
+            "value": "construct",
+            "subtype": "",
+            "swarm": "",
+            "custom": ""
+         },
+         "environment": "",
+         "cr": 7,
+         "spellLevel": 0,
+         "xp": {
+            "value": 10
+         },
+         "source": "Wc5e - MC p. 36"
+      },
+      "traits": {
+         "size": "huge",
+         "di": {
+            "value": [
+               "poison",
+               "psychic"
+            ],
+            "custom": ""
+         },
+         "dr": {
+            "value": [],
+            "custom": ""
+         },
+         "dv": {
+            "value": [],
+            "custom": ""
+         },
+         "ci": {
+            "value": [
+               "blinded",
+               "deafened",
+               "exhaustion",
+               "frightened",
+               "paralyzed",
+               "petrified",
+               "poisoned"
+            ],
+            "custom": ""
+         },
+         "languages": {
+            "value": [
+               "common"
+            ],
+            "custom": "Creator's Language"
+         }
+      },
+      "currency": {
+         "pp": 0,
+         "gp": 0,
+         "ep": 0,
+         "sp": 0,
+         "cp": 0
+      },
+      "skills": {
+         "acr": {
+            "value": 0,
+            "ability": "dex",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "ani": {
+            "value": 0,
+            "ability": "wis",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "arc": {
+            "value": 0,
+            "ability": "int",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "ath": {
+            "value": 0,
+            "ability": "str",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "dec": {
+            "value": 0,
+            "ability": "cha",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "his": {
+            "value": 0,
+            "ability": "int",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "ins": {
+            "value": 0,
+            "ability": "wis",
+            "bonuses": {
+               "check": "3",
+               "passive": ""
+            }
+         },
+         "itm": {
+            "value": 0,
+            "ability": "cha",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "inv": {
+            "value": 0,
+            "ability": "int",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "med": {
+            "value": 0,
+            "ability": "wis",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "nat": {
+            "value": 0,
+            "ability": "int",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "prc": {
+            "value": 0,
+            "ability": "wis",
+            "bonuses": {
+               "check": "-1",
+               "passive": ""
+            }
+         },
+         "prf": {
+            "value": 0,
+            "ability": "cha",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "per": {
+            "value": 0,
+            "ability": "cha",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "rel": {
+            "value": 0,
+            "ability": "int",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "slt": {
+            "value": 0,
+            "ability": "dex",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "ste": {
+            "value": 0,
+            "ability": "dex",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "sur": {
+            "value": 0,
+            "ability": "wis",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         }
+      },
+      "spells": {
+         "spell1": {
+            "value": 0,
+            "override": null
+         },
+         "spell2": {
+            "value": 0,
+            "override": null
+         },
+         "spell3": {
+            "value": 0,
+            "override": null
+         },
+         "spell4": {
+            "value": 0,
+            "override": null
+         },
+         "spell5": {
+            "value": 0,
+            "override": null
+         },
+         "spell6": {
+            "value": 0,
+            "override": null
+         },
+         "spell7": {
+            "value": 0,
+            "override": null
+         },
+         "spell8": {
+            "value": 0,
+            "override": null
+         },
+         "spell9": {
+            "value": 0,
+            "override": null
+         },
+         "pact": {
+            "value": 0,
+            "override": null
+         }
+      },
+      "bonuses": {
+         "mwak": {
+            "attack": "",
+            "damage": ""
+         },
+         "rwak": {
+            "attack": "",
+            "damage": ""
+         },
+         "msak": {
+            "attack": "",
+            "damage": ""
+         },
+         "rsak": {
+            "attack": "",
+            "damage": ""
+         },
+         "abilities": {
+            "check": "",
+            "save": "",
+            "skill": ""
+         },
+         "spell": {
+            "dc": ""
+         }
+      },
+      "resources": {
+         "legact": {
+            "value": 0,
+            "max": 0
+         },
+         "legres": {
+            "value": 0,
+            "max": 0
+         },
+         "lair": {
+            "value": false,
+            "initiative": 0
+         }
+      }
+   },
+   "token": {
+      "_id": "i3Mp8iSP41gRVTPk",
+      "name": "Crowd Pummeler",
+      "displayName": 20,
+      "actorId": "Uzv14V8TJvIJNJ3J",
+      "actorLink": false,
+      "actorData": {},
+      "img": "modules/warcraft5e/res/pics/tokens/monsters/mecha/crowd-disruptor.webp",
+      "tint": null,
+      "width": 3,
+      "height": 3,
+      "scale": 1.4,
+      "mirrorX": false,
+      "mirrorY": false,
+      "x": null,
+      "y": null,
+      "elevation": 0,
+      "lockRotation": false,
+      "rotation": 0,
+      "effects": [],
+      "alpha": 1,
+      "hidden": false,
+      "vision": false,
+      "dimSight": 0,
+      "brightSight": 0,
+      "sightAngle": 0,
+      "light": {
+         "alpha": 0.5,
+         "angle": 0,
+         "bright": 0,
+         "coloration": 1,
+         "dim": 0,
+         "gradual": true,
+         "luminosity": 0.5,
+         "saturation": 0,
+         "contrast": 0,
+         "shadows": 0,
+         "animation": {
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+         },
+         "darkness": {
+            "min": 0,
+            "max": 1
+         },
+         "color": null
+      },
+      "disposition": 0,
+      "displayBars": 0,
+      "bar1": {
+         "attribute": "attributes.hp"
+      },
+      "bar2": {
+         "attribute": ""
+      },
+      "flags": {},
+      "tokenId": null,
+      "randomImg": false
+   },
+   "items": [
+      {
+         "_id": "w3Ea1ZVEOUl96d4Q",
+         "name": "Slam",
+         "type": "feat",
+         "img": "icons/skills/melee/strike-hammer-destructive-blue.webp",
+         "data": {
+            "description": {
+               "value": "<p>Melee Weapon Attack: +10 to hit, reach 10 ft., one target.</p>\n<p>Hit: 25 (4d8 + 7) bludgeoning damage.</p>",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "Wc5e - WC p. 34",
+            "activation": {
+               "type": "action",
+               "cost": 1,
+               "condition": ""
+            },
+            "duration": {
+               "value": null,
+               "units": ""
+            },
+            "target": {
+               "value": 1,
+               "width": null,
+               "units": "",
+               "type": "creature"
+            },
+            "range": {
+               "value": null,
+               "long": 10,
+               "units": "ft"
+            },
+            "uses": {
+               "value": null,
+               "max": "",
+               "per": ""
+            },
+            "consume": {
+               "type": "",
+               "target": "",
+               "amount": null
+            },
+            "ability": "",
+            "actionType": "mwak",
+            "attackBonus": "",
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [
+                  [
+                     "3d8 + 5",
+                     "bludgeoning"
+                  ]
+               ],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell"
+            },
+            "requirements": "",
+            "recharge": {
+               "value": null,
+               "charged": false
+            }
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 0,
+         "permission": {
+            "default": 0
+         },
+         "flags": {
+         }
+      },
+      {
+         "_id": "l3EWqKpCsoAjqu4Z",
+         "name": "Armor Plating",
+         "type": "equipment",
+         "img": "icons/equipment/chest/breastplate-layered-steel-black.webp",
+         "data": {
+            "description": {
+               "value": "<p>Half plate consists of shaped metal plates that cover most of the wearer's body. It does not include leg protection beyond simple greaves that are attached with leather straps.</p>",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "PHB pg. 145",
+            "quantity": 1,
+            "weight": 0,
+            "price": 0,
+            "attunement": 0,
+            "equipped": true,
+            "rarity": "common",
+            "identified": true,
+            "activation": {
+               "type": "",
+               "cost": 0,
+               "condition": ""
+            },
+            "duration": {
+               "value": null,
+               "units": ""
+            },
+            "target": {
+               "value": null,
+               "width": null,
+               "units": "",
+               "type": ""
+            },
+            "range": {
+               "value": null,
+               "long": null,
+               "units": ""
+            },
+            "uses": {
+               "value": null,
+               "max": "",
+               "per": null
+            },
+            "consume": {
+               "type": "",
+               "target": null,
+               "amount": null
+            },
+            "ability": null,
+            "actionType": "",
+            "attackBonus": 0,
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell"
+            },
+            "armor": {
+               "value": 16,
+               "type": "medium",
+               "dex": 0
+            },
+            "hp": {
+               "value": 0,
+               "max": 0,
+               "dt": null,
+               "conditions": ""
+            },
+            "baseItem": "halfplate",
+            "speed": {
+               "value": null,
+               "conditions": ""
+            },
+            "strength": null,
+            "stealth": true,
+            "proficient": true
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 700000,
+         "permission": {
+            "default": 0
+         },
+         "flags": {
+         }
+      },
+      {
+         "_id": "wZFkk4NSUuaNspYx",
+         "name": "Fuel (18 Mana Points / charge)",
+         "type": "feat",
+         "img": "icons/commodities/tech/furnace-modern.webp",
+         "data": {
+            "description": {
+               "value": "<p>The construct consumes 18 units for 1 charge (10 rarity, 8 size). As it runs on a mana engine, this requires 18 mana points for 1 hour. It has the capacity to hold up to 10 charges (or 180 mp).</p>",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "",
+            "activation": {
+               "type": "",
+               "cost": 0,
+               "condition": ""
+            },
+            "duration": {
+               "value": null,
+               "units": ""
+            },
+            "target": {
+               "value": null,
+               "width": null,
+               "units": "",
+               "type": ""
+            },
+            "range": {
+               "value": null,
+               "long": null,
+               "units": ""
+            },
+            "uses": {
+               "value": null,
+               "max": "",
+               "per": null
+            },
+            "consume": {
+               "type": "",
+               "target": null,
+               "amount": null
+            },
+            "ability": null,
+            "actionType": "",
+            "attackBonus": 0,
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell"
+            },
+            "requirements": "",
+            "recharge": {
+               "value": null,
+               "charged": false
+            }
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 0,
+         "permission": {
+            "default": 0
+         },
+         "flags": {
+         }
+      },
+      {
+         "_id": "R3exmFmRnBIDy4Ld",
+         "name": "Multiattack",
+         "type": "feat",
+         "img": "icons/skills/melee/blade-tips-triple-steel.webp",
+         "data": {
+            "description": {
+               "value": "<p>The Crowd Disruptor can make two slam attacks. It can't make both attacks against the same target. The crowd disrptor may throw a flash bomb in place of an attack.</p>",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "Wc5e - MC p. 36",
+            "activation": {
+               "type": "action",
+               "cost": 1,
+               "condition": ""
+            },
+            "duration": {
+               "value": null,
+               "units": ""
+            },
+            "target": {
+               "value": null,
+               "width": null,
+               "units": "",
+               "type": ""
+            },
+            "range": {
+               "value": null,
+               "long": null,
+               "units": ""
+            },
+            "uses": {
+               "value": null,
+               "max": "",
+               "per": ""
+            },
+            "consume": {
+               "type": "",
+               "target": "",
+               "amount": null
+            },
+            "ability": null,
+            "actionType": "",
+            "attackBonus": 0,
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell"
+            },
+            "requirements": "",
+            "recharge": {
+               "value": null,
+               "charged": false
+            },
+            "attunement": 0
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 500000,
+         "permission": {
+            "default": 0
+         },
+         "flags": {
+         }
+      },
+      {
+         "_id": "x2kkPt8DLS1dBXDg",
+         "name": "Attuned Core",
+         "type": "feat",
+         "img": "icons/magic/light/orb-container-orange.webp",
+         "data": {
+            "description": {
+               "value": "<p>The crowd disruptor‘s slam attacks are treated as magical.</p>",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "Wc5e - MC p. 36",
+            "activation": {
+               "type": "",
+               "cost": 0,
+               "condition": ""
+            },
+            "duration": {
+               "value": null,
+               "units": ""
+            },
+            "target": {
+               "value": null,
+               "width": null,
+               "units": "",
+               "type": ""
+            },
+            "range": {
+               "value": null,
+               "long": null,
+               "units": ""
+            },
+            "uses": {
+               "value": null,
+               "max": "",
+               "per": null
+            },
+            "consume": {
+               "type": "",
+               "target": null,
+               "amount": null
+            },
+            "ability": null,
+            "actionType": "",
+            "attackBonus": 0,
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell"
+            },
+            "requirements": "",
+            "recharge": {
+               "value": null,
+               "charged": false
+            }
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 0,
+         "permission": {
+            "default": 0
+         },
+         "flags": {
+         }
+      },
+      {
+         "_id": "1PQbpc1rX1BTUNo5",
+         "name": "Crowd Control",
+         "type": "feat",
+         "img": "icons/magic/earth/explosion-lava-stone-yellow.webp",
+         "data": {
+            "description": {
+               "value": "<p>If the crowd disruptor moves at least 20 feet straight toward a creature and then hits it with a slam attack on the same turn, that target must succeed on a DC 18 Strength saving throw or be knocked prone. If the target is prone, the crowd disruptor can make one slam attack against it as a bonus action. </p>",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "Wc5e - MC p. 36",
+            "activation": {
+               "type": "",
+               "cost": 0,
+               "condition": ""
+            },
+            "duration": {
+               "value": null,
+               "units": ""
+            },
+            "target": {
+               "value": null,
+               "width": null,
+               "units": "",
+               "type": ""
+            },
+            "range": {
+               "value": null,
+               "long": null,
+               "units": ""
+            },
+            "uses": {
+               "value": null,
+               "max": "",
+               "per": null
+            },
+            "consume": {
+               "type": "",
+               "target": null,
+               "amount": null
+            },
+            "ability": null,
+            "actionType": "",
+            "attackBonus": 0,
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell"
+            },
+            "requirements": "",
+            "recharge": {
+               "value": null,
+               "charged": false
+            }
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 0,
+         "permission": {
+            "default": 0
+         },
+         "flags": {
+         }
+      },
+      {
+         "_id": "ecBe2Mvkf3zxdq8x",
+         "name": "Back Shielded",
+         "type": "feat",
+         "img": "icons/equipment/shield/heater-steel-engraved-lance-rest.webp",
+         "data": {
+            "description": {
+               "value": "<p>The crowd disruptor gains a +6 bonus to its AC against attacks of opportunity.</p>",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "Wc5e - MC p. 36",
+            "activation": {
+               "type": "",
+               "cost": 0,
+               "condition": ""
+            },
+            "duration": {
+               "value": null,
+               "units": ""
+            },
+            "target": {
+               "value": null,
+               "width": null,
+               "units": "",
+               "type": ""
+            },
+            "range": {
+               "value": null,
+               "long": null,
+               "units": ""
+            },
+            "uses": {
+               "value": null,
+               "max": "",
+               "per": null
+            },
+            "consume": {
+               "type": "",
+               "target": null,
+               "amount": null
+            },
+            "ability": null,
+            "actionType": "",
+            "attackBonus": 0,
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell"
+            },
+            "requirements": "",
+            "recharge": {
+               "value": null,
+               "charged": false
+            }
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 0,
+         "permission": {
+            "default": 0
+         },
+         "flags": {
+         }
+      },
+      {
+         "_id": "XASvLt0v6X4Tp0wm",
+         "name": "Flash Bombs",
+         "type": "feat",
+         "img": "icons/weapons/thrown/bomb-metal-brown.webp",
+         "data": {
+            "description": {
+               "value": "<p>The crowd disruptor can hold up to eight flash bombs, and suffers no chance of malfunction when using them.</p>",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "Wc5e - MC p. 36",
+            "activation": {
+               "type": "",
+               "cost": 0,
+               "condition": ""
+            },
+            "duration": {
+               "value": null,
+               "units": ""
+            },
+            "target": {
+               "value": null,
+               "width": null,
+               "units": "",
+               "type": ""
+            },
+            "range": {
+               "value": null,
+               "long": null,
+               "units": ""
+            },
+            "uses": {
+               "value": null,
+               "max": "",
+               "per": null
+            },
+            "consume": {
+               "type": "",
+               "target": null,
+               "amount": null
+            },
+            "ability": null,
+            "actionType": "",
+            "attackBonus": 0,
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell"
+            },
+            "requirements": "",
+            "recharge": {
+               "value": null,
+               "charged": false
+            }
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 0,
+         "permission": {
+            "default": 0
+         },
+         "flags": {
+         }
+      },
+      {
+         "_id": "svnpCbxTiPEvi2mY",
+         "name": "Crowd Tactics",
+         "type": "feat",
+         "img": "icons/skills/melee/shield-block-gray-orange.webp",
+         "data": {
+            "description": {
+               "value": "<p>If the crowd disruptor is struck by a creature within reach that the pummeler didn‘t attack on its previous round, the disruptor can make a single slam attack against them.</p>",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "Wc5e - MC p. 37",
+            "activation": {
+               "type": "reaction",
+               "cost": 1,
+               "condition": ""
+            },
+            "duration": {
+               "value": null,
+               "units": ""
+            },
+            "target": {
+               "value": null,
+               "width": null,
+               "units": "",
+               "type": ""
+            },
+            "range": {
+               "value": null,
+               "long": null,
+               "units": ""
+            },
+            "uses": {
+               "value": null,
+               "max": "",
+               "per": ""
+            },
+            "consume": {
+               "type": "",
+               "target": "",
+               "amount": null
+            },
+            "ability": null,
+            "actionType": "",
+            "attackBonus": 0,
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell"
+            },
+            "requirements": "",
+            "recharge": {
+               "value": null,
+               "charged": false
+            }
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 0,
+         "permission": {
+            "default": 0
+         },
+         "flags": {
+         }
+      },
+      {
+         "_id": "8Ei5uH5nMkoUPdA6",
+         "name": "Bomb, Flash",
+         "type": "weapon",
+         "img": "icons/weapons/thrown/bomb-metal-brown.webp",
+         "data": {
+            "description": {
+               "value": "<p style=\"margin-bottom:0cm\"><span style=\"color:#000000\">This bomb deals 2d6 points of concussive damage, and imposes disadvantage for all rolls to creatures affected by it for one round. A successful saving throw negates the disadvantage.</span></p>\n<p>@Compendium[warcraft5e.wc5e_mechanics.4SX6o4iNVGiV1OXL]{Weakened}</p>\n<p> </p>\n<p><strong>Bomb</strong></p>\n<p>Bombs are thrown as light thrown weapons with a range of 30/60 feet. They deal no damage on impact, but explode when their fuse determines it (at the end of the user‘s turn, usually, see fuses below). A bomb that is thrown beyond optimal range provides advantage to saving throws to half damage. If you target a creature with the bomb as a ranged weapon attack and succeed on the attack roll, they do not get to roll to halve damage, and suffer the full damage. The creatures in the blast radius are still entitled saving throws as normal. If throwing a bomb on a target, the attack roll is the malfunction roll test, otherwise you must roll for malfunction as a separate d20 roll.</p>",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "Wc5e - Core p. 221",
+            "quantity": 1,
+            "weight": 2,
+            "price": 20,
+            "attunement": 0,
+            "equipped": true,
+            "rarity": "common",
+            "identified": true,
+            "activation": {
+               "type": "action",
+               "cost": 1,
+               "condition": ""
+            },
+            "duration": {
+               "value": null,
+               "units": ""
+            },
+            "target": {
+               "value": 10,
+               "width": null,
+               "units": "ft",
+               "type": "sphere"
+            },
+            "range": {
+               "value": 30,
+               "long": 60,
+               "units": ""
+            },
+            "uses": {
+               "value": 8,
+               "max": "8",
+               "per": "charges"
+            },
+            "consume": {
+               "type": "",
+               "target": "",
+               "amount": null
+            },
+            "ability": "",
+            "actionType": "rwak",
+            "attackBonus": "0",
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [
+                  [
+                     "2d6",
+                     "concussive"
+                  ]
+               ],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "dex",
+               "dc": null,
+               "scaling": "spell"
+            },
+            "armor": {
+               "value": 10
+            },
+            "hp": {
+               "value": 0,
+               "max": 0,
+               "dt": null,
+               "conditions": ""
+            },
+            "weaponType": "simpleR",
+            "baseItem": "",
+            "properties": {
+               "ada": false,
+               "amm": false,
+               "fin": false,
+               "fir": false,
+               "foc": false,
+               "hvy": false,
+               "hvyplus": false,
+               "lgt": true,
+               "lod": false,
+               "mgc": false,
+               "rch": false,
+               "rel": false,
+               "ret": false,
+               "sil": false,
+               "spc": false,
+               "thr": true,
+               "two": false,
+               "ver": false,
+               "bomb": true
+            },
+            "proficient": true
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 0,
+         "permission": {
+            "default": 0
+         },
+         "flags": {
+         }
+      },
+      {
+         "_id": "R4AlbARA7O4dUSV1",
+         "name": "Crafting Creature CR 7",
+         "type": "feat",
+         "img": "icons/tools/hand/hammer-simple-stone.webp",
+         "data": {
+            "description": {
+               "value": "",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "Wc5e - MC p. 37",
+            "activation": {
+               "type": "",
+               "cost": 0,
+               "condition": ""
+            },
+            "duration": {
+               "value": null,
+               "units": ""
+            },
+            "target": {
+               "value": null,
+               "width": null,
+               "units": "",
+               "type": ""
+            },
+            "range": {
+               "value": null,
+               "long": null,
+               "units": ""
+            },
+            "uses": {
+               "value": null,
+               "max": "",
+               "per": null
+            },
+            "consume": {
+               "type": "",
+               "target": null,
+               "amount": null
+            },
+            "ability": null,
+            "actionType": null,
+            "attackBonus": 0,
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell"
+            },
+            "requirements": "Creature CR 7",
+            "recharge": {
+               "value": null,
+               "charged": false
+            },
+            "attunement": null
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 0,
+         "permission": {
+            "default": 0
+         },
+         "flags": {
+            "wc5e": {
+               "type": "feat",
+               "category": "WC5E.SkillCategories.General",
+               "description": [
+                  {
+                     "value": "WC5E.MonsterFeats.CraftingCreatureCr7.Description.1.Value"
+                  },
+                  {
+                     "value": "WC5E.MonsterFeats.CraftingCreatureCr7.Description.2.Value"
+                  },
+                  {
+                     "title": "WC5E.MonsterFeats.CraftingCreatureCr14.Description.3.Title",
+                     "value": "WC5E.MonsterFeats.CraftingCreatureCr7.Description.3.Value"
+                  },
+                  {
+                     "value": "WC5E.MonsterFeats.CraftingCreatureCr14.Description.4.Value"
+                  }
+               ]
+            }
+         }
+      }
+   ],
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+      "default": 0
+   },
+   "flags": {
+   },
+   "_id": "ejYiv7YxqNVL1KsN"
+}
