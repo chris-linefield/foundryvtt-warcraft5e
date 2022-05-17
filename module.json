@@ -118,6 +118,14 @@
          "package": "warcraft5e"
       },
       {
+         "name": "wc5e_items_explosives",
+         "label": "Wc5e | Items - Explosives",
+         "path": "./packs/items_explosives.db",
+         "type": "Item",
+         "system": "dnd5e",
+         "package": "warcraft5e"
+      },
+      {
          "name": "wc5e_items_potions",
          "label": "Wc5e | Items - Potions",
          "path": "./packs/items_potions.db",

@@ -1,0 +1,1142 @@
+{
+   "name": "Explosive Sheep",
+   "type": "npc",
+   "img": "modules/warcraft5e/res/pics/portraits/monsters/mecha/explosive-sheep.webp",
+   "data": {
+      "abilities": {
+         "str": {
+            "value": 8,
+            "proficient": 0,
+            "bonuses": {
+               "check": "",
+               "save": ""
+            }
+         },
+         "dex": {
+            "value": 12,
+            "proficient": 0,
+            "bonuses": {
+               "check": "",
+               "save": ""
+            }
+         },
+         "con": {
+            "value": 16,
+            "proficient": 0,
+            "bonuses": {
+               "check": "",
+               "save": ""
+            }
+         },
+         "int": {
+            "value": 3,
+            "proficient": 0,
+            "bonuses": {
+               "check": "",
+               "save": ""
+            }
+         },
+         "wis": {
+            "value": 11,
+            "proficient": 0,
+            "bonuses": {
+               "check": "",
+               "save": ""
+            }
+         },
+         "cha": {
+            "value": 1,
+            "proficient": 0,
+            "bonuses": {
+               "check": "",
+               "save": ""
+            }
+         }
+      },
+      "attributes": {
+         "ac": {
+            "flat": null,
+            "calc": "default",
+            "formula": ""
+         },
+         "hp": {
+            "value": 13,
+            "min": 0,
+            "max": 13,
+            "temp": 0,
+            "tempmax": 0,
+            "formula": "2d6 + 6"
+         },
+         "init": {
+            "value": 0,
+            "bonus": 0
+         },
+         "movement": {
+            "burrow": 0,
+            "climb": 0,
+            "fly": 0,
+            "swim": 0,
+            "walk": 20,
+            "units": "ft",
+            "hover": false
+         },
+         "senses": {
+            "darkvision": 0,
+            "blindsight": 0,
+            "tremorsense": 0,
+            "truesight": 0,
+            "units": "ft",
+            "special": ""
+         },
+         "spellcasting": "int"
+      },
+      "details": {
+         "biography": {
+            "value": "<p><em>\"Exploding sheep... now why would you even make such a thing!?\"</em></p>\n<p>It is perhaps the goblins‘ delicious — most other races say ― \"dangerous\" — sense of humor that gets them into the most trouble. Bring up the exploding sheep incident of the war against the Burning Legion in any tavern in Booty Bay and the goblins there roar with laughter and buy you a drink, each desiring to tell his or her own version of the story.</p>\n<p>The tales differ, but most agree that after the Burning Legion had invaded the plague-ridden Lordaeron, most people were dead, undead or fled. One, a goblin tinker merchant traveling through the town, started making mechanical animals to distract any Burning Legion demons so that he could make his slow and panicked way south. One of these devices was cobbled together from wool, wood and some primitive clockwork. On a whim, he decided to fill it full of explosives and have it totter towards the demons. When it exploded, he decided, he would flee in the chaos that followed.</p>\n<p>He didn‘t expect a demon, a dim-witted felguard, to pick up the sheep and inspect it. He damned himself for outfitting it with a timer and not a remote, but he nearly squealed with glee with the curious demon popped the treat into its mouth.</p>\n<p>The resulting explosion of demon parts was definitely enough for the tinker to get away, laughing so hard he nearly gave himself away.</p>\n<p>Now the mechanical sheep has a bit more thought — and a lot more explosives — put into it.</p>\n<p>The goblins mainly make them to amuse themselves, giving their enemies a moment of confusion before death, but they are powerful explosives in their own right.</p>\n<p>Explosive sheep require remotes to detonate at the desired point, or otherwise need simple programming on where to head before exploding.</p>\n<p>After exploding, an explosive sheep ends with 0 hit points, and can usually be restored to health as per other constructs.</p>",
+            "public": ""
+         },
+         "alignment": "Unaligned",
+         "race": "",
+         "type": {
+            "value": "construct",
+            "subtype": "",
+            "swarm": "",
+            "custom": ""
+         },
+         "environment": "",
+         "cr": 0.25,
+         "spellLevel": 0,
+         "xp": {
+            "value": 10
+         },
+         "source": "Wc5e - MC p. 76"
+      },
+      "traits": {
+         "size": "sm",
+         "di": {
+            "value": [
+               "poison"
+            ],
+            "custom": ""
+         },
+         "dr": {
+            "value": [],
+            "custom": ""
+         },
+         "dv": {
+            "value": [],
+            "custom": ""
+         },
+         "ci": {
+            "value": [
+               "charmed",
+               "exhaustion",
+               "frightened",
+               "paralyzed",
+               "petrified",
+               "poisoned"
+            ],
+            "custom": ""
+         },
+         "languages": {
+            "value": [],
+            "custom": ""
+         }
+      },
+      "currency": {
+         "pp": 0,
+         "gp": 0,
+         "ep": 0,
+         "sp": 0,
+         "cp": 0
+      },
+      "skills": {
+         "acr": {
+            "value": 0,
+            "ability": "dex",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "ani": {
+            "value": 0,
+            "ability": "wis",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "arc": {
+            "value": 0,
+            "ability": "int",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "ath": {
+            "value": 0,
+            "ability": "str",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "dec": {
+            "value": 0,
+            "ability": "cha",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "his": {
+            "value": 0,
+            "ability": "int",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "ins": {
+            "value": 0,
+            "ability": "wis",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "itm": {
+            "value": 0,
+            "ability": "cha",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "inv": {
+            "value": 0,
+            "ability": "int",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "med": {
+            "value": 0,
+            "ability": "wis",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "nat": {
+            "value": 0,
+            "ability": "int",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "prc": {
+            "value": 0,
+            "ability": "wis",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "prf": {
+            "value": 0,
+            "ability": "cha",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "per": {
+            "value": 0,
+            "ability": "cha",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "rel": {
+            "value": 0,
+            "ability": "int",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "slt": {
+            "value": 0,
+            "ability": "dex",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "ste": {
+            "value": 0,
+            "ability": "dex",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "sur": {
+            "value": 0,
+            "ability": "wis",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         }
+      },
+      "spells": {
+         "spell1": {
+            "value": 0,
+            "override": null
+         },
+         "spell2": {
+            "value": 0,
+            "override": null
+         },
+         "spell3": {
+            "value": 0,
+            "override": null
+         },
+         "spell4": {
+            "value": 0,
+            "override": null
+         },
+         "spell5": {
+            "value": 0,
+            "override": null
+         },
+         "spell6": {
+            "value": 0,
+            "override": null
+         },
+         "spell7": {
+            "value": 0,
+            "override": null
+         },
+         "spell8": {
+            "value": 0,
+            "override": null
+         },
+         "spell9": {
+            "value": 0,
+            "override": null
+         },
+         "pact": {
+            "value": 0,
+            "override": null
+         }
+      },
+      "bonuses": {
+         "mwak": {
+            "attack": "",
+            "damage": ""
+         },
+         "rwak": {
+            "attack": "",
+            "damage": ""
+         },
+         "msak": {
+            "attack": "",
+            "damage": ""
+         },
+         "rsak": {
+            "attack": "",
+            "damage": ""
+         },
+         "abilities": {
+            "check": "",
+            "save": "",
+            "skill": ""
+         },
+         "spell": {
+            "dc": ""
+         }
+      },
+      "resources": {
+         "legact": {
+            "value": 0,
+            "max": 0
+         },
+         "legres": {
+            "value": 0,
+            "max": 0
+         },
+         "lair": {
+            "value": false,
+            "initiative": 0
+         }
+      }
+   },
+   "token": {
+      "name": "Explosive Sheep",
+      "img": "modules/warcraft5e/res/pics/tokens/monsters/mecha/explosive-sheep.webp",
+      "displayName": 0,
+      "actorLink": false,
+      "width": 1,
+      "height": 1,
+      "scale": 1,
+      "mirrorX": false,
+      "mirrorY": false,
+      "lockRotation": false,
+      "rotation": 0,
+      "alpha": 1,
+      "vision": false,
+      "dimSight": 0,
+      "brightSight": 0,
+      "sightAngle": 0,
+      "light": {
+         "alpha": 0.5,
+         "angle": 0,
+         "bright": 0,
+         "coloration": 1,
+         "dim": 0,
+         "gradual": true,
+         "luminosity": 0.5,
+         "saturation": 0,
+         "contrast": 0,
+         "shadows": 0,
+         "animation": {
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+         },
+         "darkness": {
+            "min": 0,
+            "max": 1
+         },
+         "color": null
+      },
+      "disposition": -1,
+      "displayBars": 0,
+      "bar1": {
+         "attribute": "attributes.hp"
+      },
+      "bar2": {
+         "attribute": ""
+      },
+      "flags": {},
+      "randomImg": false,
+      "tint": null
+   },
+   "items": [
+      {
+         "_id": "8dSm0UzKvW5sriOe",
+         "name": "Natural Armor",
+         "type": "equipment",
+         "img": "icons/commodities/metal/mail-plate-steel.webp",
+         "data": {
+            "description": {
+               "value": "",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "PHB pg. 145",
+            "quantity": 1,
+            "weight": 0,
+            "price": 0,
+            "attunement": 0,
+            "equipped": true,
+            "rarity": "common",
+            "identified": true,
+            "activation": {
+               "type": "",
+               "cost": 0,
+               "condition": ""
+            },
+            "duration": {
+               "value": null,
+               "units": ""
+            },
+            "target": {
+               "value": null,
+               "width": null,
+               "units": "",
+               "type": ""
+            },
+            "range": {
+               "value": null,
+               "long": null,
+               "units": ""
+            },
+            "uses": {
+               "value": null,
+               "max": "",
+               "per": null
+            },
+            "consume": {
+               "type": "",
+               "target": null,
+               "amount": null
+            },
+            "ability": null,
+            "actionType": "",
+            "attackBonus": 0,
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell"
+            },
+            "armor": {
+               "value": 14,
+               "type": "natural",
+               "dex": 0
+            },
+            "hp": {
+               "value": 0,
+               "max": 0,
+               "dt": null,
+               "conditions": ""
+            },
+            "baseItem": "",
+            "speed": {
+               "value": null,
+               "conditions": ""
+            },
+            "strength": null,
+            "stealth": true,
+            "proficient": true
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 700000,
+         "permission": {
+            "default": 0
+         },
+         "flags": {
+         }
+      },
+      {
+         "_id": "Y0CEh4p3pmj0n5uw",
+         "name": "False Appearance",
+         "type": "feat",
+         "img": "icons/creatures/mammals/livestock-sheep-green.webp",
+         "data": {
+            "description": {
+               "value": "<p>While the explosive sheep walks at a speed of 10 feet per round or slower, it is indistinguishable from a normal sheep.</p>",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "Wc5e - MC p. 76",
+            "activation": {
+               "type": "",
+               "cost": 0,
+               "condition": ""
+            },
+            "duration": {
+               "value": null,
+               "units": ""
+            },
+            "target": {
+               "value": null,
+               "width": null,
+               "units": "",
+               "type": ""
+            },
+            "range": {
+               "value": null,
+               "long": null,
+               "units": ""
+            },
+            "uses": {
+               "value": null,
+               "max": "",
+               "per": null
+            },
+            "consume": {
+               "type": "",
+               "target": null,
+               "amount": null
+            },
+            "ability": null,
+            "actionType": "",
+            "attackBonus": 0,
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell"
+            },
+            "requirements": "",
+            "recharge": {
+               "value": null,
+               "charged": false
+            }
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 0,
+         "permission": {
+            "default": 0
+         },
+         "flags": {
+         }
+      },
+      {
+         "_id": "dMBjTPCvwDnkMjjj",
+         "name": "Mounted Explosive",
+         "type": "feat",
+         "img": "icons/weapons/thrown/bomb-timer.webp",
+         "data": {
+            "description": {
+               "value": "<p>The explosive sheep can carry and use one explosive mounted on it.</p>\n<p>When the sheep explodes (taking the explode action), it deals the explosive‘s damage as well.</p>\n<p>Repairing the rip tire requires only one-quarter the cost and time to craft and restore to health.</p>",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "Wc5e - MC p.",
+            "activation": {
+               "type": "",
+               "cost": 0,
+               "condition": ""
+            },
+            "duration": {
+               "value": null,
+               "units": ""
+            },
+            "target": {
+               "value": null,
+               "width": null,
+               "units": "",
+               "type": ""
+            },
+            "range": {
+               "value": null,
+               "long": null,
+               "units": ""
+            },
+            "uses": {
+               "value": null,
+               "max": "",
+               "per": null
+            },
+            "consume": {
+               "type": "",
+               "target": null,
+               "amount": null
+            },
+            "ability": null,
+            "actionType": "",
+            "attackBonus": 0,
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell"
+            },
+            "requirements": "",
+            "recharge": {
+               "value": null,
+               "charged": false
+            }
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 0,
+         "permission": {
+            "default": 0
+         },
+         "flags": {
+         }
+      },
+      {
+         "_id": "0UCslvKYcXr9XyPu",
+         "name": "Constructed Mind",
+         "type": "feat",
+         "img": "icons/commodities/tech/bulb-vacuum.webp",
+         "data": {
+            "description": {
+               "value": "",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "Wc5e - MC p. 28",
+            "activation": {
+               "type": "",
+               "cost": 0,
+               "condition": ""
+            },
+            "duration": {
+               "value": null,
+               "units": ""
+            },
+            "target": {
+               "value": null,
+               "width": null,
+               "units": "",
+               "type": ""
+            },
+            "range": {
+               "value": null,
+               "long": null,
+               "units": ""
+            },
+            "uses": {
+               "value": null,
+               "max": "",
+               "per": null
+            },
+            "consume": {
+               "type": "",
+               "target": null,
+               "amount": null
+            },
+            "ability": null,
+            "actionType": null,
+            "attackBonus": 0,
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell"
+            },
+            "requirements": "Construct",
+            "recharge": {
+               "value": null,
+               "charged": false
+            },
+            "attunement": null
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 0,
+         "permission": {
+            "default": 0
+         },
+         "flags": {
+            "wc5e": {
+               "type": "feat",
+               "category": "WC5E.SkillCategories.General",
+               "description": [
+                  {
+                     "value": "WC5E.MonsterFeats.ConstructedMind.Description.1.Value"
+                  }
+               ]
+            }
+         }
+      },
+      {
+         "_id": "YrJYQZA7ilJvsITJ",
+         "name": "Fuel (1 Combustion units / charge)",
+         "type": "feat",
+         "img": "icons/commodities/tech/furnace-modern.webp",
+         "data": {
+            "description": {
+               "value": "<p>The construct consumes 1 unit for 1 charge (1 rarity, 0 size). As it runs on a combustion engine, this requires 1 pint of oil for 1 hour of operation. It has the capacity to hold up to 10 charges (or 10 pints of oil, or 2 vials of phlogiston).</p>",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "Wc5e - MC p. 28",
+            "activation": {
+               "type": "",
+               "cost": 0,
+               "condition": ""
+            },
+            "duration": {
+               "value": null,
+               "units": ""
+            },
+            "target": {
+               "value": null,
+               "width": null,
+               "units": "",
+               "type": ""
+            },
+            "range": {
+               "value": null,
+               "long": null,
+               "units": ""
+            },
+            "uses": {
+               "value": null,
+               "max": "",
+               "per": null
+            },
+            "consume": {
+               "type": "",
+               "target": null,
+               "amount": null
+            },
+            "ability": null,
+            "actionType": "",
+            "attackBonus": 0,
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell"
+            },
+            "requirements": "",
+            "recharge": {
+               "value": null,
+               "charged": false
+            },
+            "attunement": 0
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 0,
+         "permission": {
+            "default": 0
+         },
+         "flags": {
+         }
+      },
+      {
+         "_id": "qKHJ1HEvO5BWZPqn",
+         "name": "Needle Bite",
+         "type": "weapon",
+         "img": "icons/creatures/abilities/mouth-teeth-sharp.webp",
+         "data": {
+            "description": {
+               "value": "<p>Melee Weapon Attack: +3 to hit, reach 5 ft., one target.</p>\n<p>Hit: 3 (1d4 + 1) piercing damage</p>",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "Wc5e - MC p. 77",
+            "quantity": 1,
+            "weight": 0,
+            "price": 0,
+            "attunement": 0,
+            "equipped": true,
+            "rarity": "",
+            "identified": true,
+            "activation": {
+               "type": "action",
+               "cost": 1,
+               "condition": ""
+            },
+            "duration": {
+               "value": null,
+               "units": ""
+            },
+            "target": {
+               "value": 1,
+               "width": null,
+               "units": "",
+               "type": "creature"
+            },
+            "range": {
+               "value": null,
+               "long": 5,
+               "units": "ft"
+            },
+            "uses": {
+               "value": null,
+               "max": "",
+               "per": ""
+            },
+            "consume": {
+               "type": "",
+               "target": "",
+               "amount": null
+            },
+            "ability": "",
+            "actionType": "mwak",
+            "attackBonus": "2",
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [
+                  [
+                     "1d4 + 1",
+                     "piercing"
+                  ]
+               ],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "flat"
+            },
+            "armor": {
+               "value": 10
+            },
+            "hp": {
+               "value": 0,
+               "max": 0,
+               "dt": null,
+               "conditions": ""
+            },
+            "weaponType": "natural",
+            "baseItem": "",
+            "properties": {
+               "ada": false,
+               "amm": false,
+               "fin": false,
+               "fir": false,
+               "foc": false,
+               "hvy": false,
+               "hvyplus": false,
+               "lgt": false,
+               "lod": false,
+               "mgc": false,
+               "rch": false,
+               "rel": false,
+               "ret": false,
+               "sil": false,
+               "spc": false,
+               "thr": false,
+               "two": false,
+               "ver": false,
+               "bomb": false
+            },
+            "proficient": true
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 0,
+         "permission": {
+            "default": 0
+         },
+         "flags": {
+         }
+      },
+      {
+         "_id": "iUnQL6VmN3AtQzWj",
+         "name": "Explode",
+         "type": "feat",
+         "img": "icons/magic/fire/explosion-fireball-large-red-orange.webp",
+         "data": {
+            "description": {
+               "value": "<p>The sheep explodes, dealing 7 (2d6) concussive damage in a 10-foot-sphere, plus 1 additional damage for each additional Charge remaining in the device. If mounted with one other explosive, it blows it up as well.</p>",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "Wc5e - MC p. 77",
+            "activation": {
+               "type": "action",
+               "cost": 1,
+               "condition": ""
+            },
+            "duration": {
+               "value": null,
+               "units": ""
+            },
+            "target": {
+               "value": 10,
+               "width": null,
+               "units": "ft",
+               "type": "sphere"
+            },
+            "range": {
+               "value": null,
+               "long": null,
+               "units": "self"
+            },
+            "uses": {
+               "value": 1,
+               "max": "1",
+               "per": "charges"
+            },
+            "consume": {
+               "type": "",
+               "target": "",
+               "amount": null
+            },
+            "ability": "",
+            "actionType": "util",
+            "attackBonus": "0",
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [
+                  [
+                     "2d6",
+                     "concussive"
+                  ]
+               ],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell"
+            },
+            "requirements": "Clockwork Goblin",
+            "recharge": {
+               "value": null,
+               "charged": false
+            },
+            "attunement": null
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 0,
+         "permission": {
+            "default": 0
+         },
+         "flags": {
+         }
+      },
+      {
+         "_id": "s76OWfBzjoXd8rJB",
+         "name": "Crafting Creature CR 1/4",
+         "type": "feat",
+         "img": "icons/tools/hand/hammer-simple-stone.webp",
+         "data": {
+            "description": {
+               "value": "",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "Wc5e - MC p. 102",
+            "activation": {
+               "type": "",
+               "cost": 0,
+               "condition": ""
+            },
+            "duration": {
+               "value": null,
+               "units": ""
+            },
+            "target": {
+               "value": null,
+               "width": null,
+               "units": "",
+               "type": ""
+            },
+            "range": {
+               "value": null,
+               "long": null,
+               "units": ""
+            },
+            "uses": {
+               "value": null,
+               "max": "",
+               "per": null
+            },
+            "consume": {
+               "type": "",
+               "target": null,
+               "amount": null
+            },
+            "ability": null,
+            "actionType": null,
+            "attackBonus": 0,
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell"
+            },
+            "requirements": "Creature CR 1/4",
+            "recharge": {
+               "value": null,
+               "charged": false
+            },
+            "attunement": null
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 0,
+         "permission": {
+            "default": 0
+         },
+         "flags": {
+            "wc5e": {
+               "type": "feat",
+               "category": "WC5E.SkillCategories.General",
+               "description": [
+                  {
+                     "value": "WC5E.MonsterFeats.CraftingCreatureCr14.Description.1.Value"
+                  },
+                  {
+                     "value": "WC5E.MonsterFeats.CraftingCreatureCr14.Description.2.Value"
+                  },
+                  {
+                     "title": "WC5E.MonsterFeats.CraftingCreatureCr14.Description.3.Title",
+                     "value": "WC5E.MonsterFeats.CraftingCreatureCr14.Description.3.Value"
+                  },
+                  {
+                     "value": "WC5E.MonsterFeats.CraftingCreatureCr14.Description.4.Value"
+                  }
+               ]
+            }
+         }
+      }
+   ],
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+      "default": 0
+   },
+   "flags": {
+   },
+   "_id": "I8bKACxod7cWrtqm"
+}
