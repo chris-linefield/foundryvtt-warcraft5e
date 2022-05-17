@@ -1,20 +1,20 @@
 {
-   "name": "Anathema and Benediction",
+   "name": "Bomb, Flash",
    "type": "weapon",
-   "img": "modules/warcraft5e/res/pics/items/benediction.webp",
+   "img": "icons/weapons/thrown/bomb-metal-brown.webp",
    "data": {
       "description": {
-         "value": "<p><em>requires attunement</em></p>\n<p>The staff has 50 charges. It regains 4d6 + 2 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the ancient wood that keeps the Anathema and Benediction heads away from one another crumble, and the two gravitate towards one another, before clashing, and disappearing. On a 20, the staff regains 1d6 charges. After one year of disappearing, the staff re-forms elsewhere in Azeroth with full charges.</p>\n<ul>\n<li><em>Strike of the Cursed and Blessed:</em> When you hit with a melee attack using the staff and use 1 charge, you can expend 1 charge to cause one of the two opposing heads to strike. If choosing Anathema, the staff deals an extra 2d8 shadow damage to any target it hits. If choosing Benediction, the staff instead deals 2d8 holy damage to any target it hits. This is a strike effect and requires a bonus action to activate as normal.</li>\n<li><em>Channel Divinity:</em> You can use 3 charges to regain a use of your channel divinity ability (if you have it). This can be used once until the next dawn.</li>\n<li><em>Spells:</em> While holding this staff, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC: Death ward (4 charges), finger of death (7 charges), holy aura (8 charges), holy nova (heightened to 4th level; 4 charges), holy light (heightened to 4th level; 4 charges), death coil (heightened to 4th level; 4 charges), conjure undead (heightened to 4th level; 4 charges), dispel magic (3 charges), protection from evil and good (1 charge), and hallow/unhallow.</li>\n</ul>\n<p>This staff can be wielded as a magical quarterstaff that grants a +3 to attack and damage rolls made with it.</p>",
+         "value": "<p style=\"margin-bottom:0cm\"><span style=\"color:#000000\">This bomb deals 2d6 points of concussive damage, and imposes disadvantage for all rolls to creatures affected by it for one round. A successful saving throw negates the disadvantage.</span></p>\n<p>@Compendium[warcraft5e.wc5e_mechanics.4SX6o4iNVGiV1OXL]{Weakened}</p>\n<p> </p>\n<p><strong>Bomb</strong></p>\n<p>Bombs are thrown as light thrown weapons with a range of 30/60 feet. They deal no damage on impact, but explode when their fuse determines it (at the end of the user‘s turn, usually, see fuses below). A bomb that is thrown beyond optimal range provides advantage to saving throws to half damage. If you target a creature with the bomb as a ranged weapon attack and succeed on the attack roll, they do not get to roll to halve damage, and suffer the full damage. The creatures in the blast radius are still entitled saving throws as normal. If throwing a bomb on a target, the attack roll is the malfunction roll test, otherwise you must roll for malfunction as a separate d20 roll.</p>",
          "chat": "",
          "unidentified": ""
       },
-      "source": "Wc5e - Core p. 205",
+      "source": "Wc5e - Core p. 221",
       "quantity": 1,
-      "weight": 4,
-      "price": null,
-      "attunement": 1,
+      "weight": 2,
+      "price": 20,
+      "attunement": 0,
       "equipped": false,
-      "rarity": "artifact",
+      "rarity": "common",
       "identified": true,
       "activation": {
          "type": "action",
@@ -26,29 +26,29 @@
          "units": ""
       },
       "target": {
-         "value": null,
+         "value": 10,
          "width": null,
-         "units": "",
-         "type": ""
+         "units": "ft",
+         "type": "sphere"
       },
       "range": {
-         "value": 5,
-         "long": null,
-         "units": "ft"
+         "value": 30,
+         "long": 60,
+         "units": ""
       },
       "uses": {
-         "value": 50,
-         "max": "50",
+         "value": 1,
+         "max": "1",
          "per": "charges"
       },
       "consume": {
-         "type": "",
+         "type": "ammo",
          "target": "",
-         "amount": null
+         "amount": 1
       },
       "ability": "",
-      "actionType": "mwak",
-      "attackBonus": "3",
+      "actionType": "rwak",
+      "attackBonus": "0",
       "chatFlavor": "",
       "critical": {
          "threshold": null,
@@ -57,15 +57,15 @@
       "damage": {
          "parts": [
             [
-               "1d6 + @mod +3",
-               "bludgeoning"
+               "2d6",
+               "concussive"
             ]
          ],
-         "versatile": "1d8 + @mod +3"
+         "versatile": ""
       },
       "formula": "",
       "save": {
-         "ability": "",
+         "ability": "dex",
          "dc": null,
          "scaling": "spell"
       },
@@ -78,43 +78,97 @@
          "dt": null,
          "conditions": ""
       },
-      "weaponType": "simpleM",
-      "baseItem": "quarterstaff",
+      "weaponType": "simpleR",
+      "baseItem": "",
       "properties": {
-         "ver": true,
+         "ada": false,
          "amm": false,
-         "hvy": false,
          "fin": false,
          "fir": false,
          "foc": false,
-         "lgt": false,
+         "hvy": false,
+         "hvyplus": false,
+         "lgt": true,
          "lod": false,
+         "mgc": false,
          "rch": false,
          "rel": false,
          "ret": false,
+         "sil": false,
          "spc": false,
-         "thr": false,
+         "thr": true,
          "two": false,
-         "mgc": true,
-         "ada": false,
-         "hvyplus": false,
-         "sil": false
+         "ver": false,
+         "bomb": true
       },
-      "proficient": false,
-      "attributes": {
-         "spelldc": 10
-      }
+      "proficient": true
    },
    "effects": [],
    "folder": null,
    "sort": 0,
    "permission": {
+      "default": 0
    },
    "flags": {
-      "wc5e": {
-         "type": "item",
-         "enhancement": ""
+      "core": {
+         "sourceId": "Compendium.warcraft5e.wc5e_items_explosives.acW3BPVJM4i2HvRW"
+      },
+      "betterRolls5e": {
+         "quickDamage": {
+            "context": {
+               "0": ""
+            },
+            "value": {
+               "0": true
+            },
+            "altValue": {
+               "0": true
+            }
+         },
+         "quickOther": {
+            "context": "",
+            "value": true,
+            "altValue": true
+         },
+         "quickDesc": {
+            "value": false,
+            "altValue": false
+         },
+         "quickAttack": {
+            "value": true,
+            "altValue": true
+         },
+         "quickSave": {
+            "value": true,
+            "altValue": true
+         },
+         "quickProperties": {
+            "value": true,
+            "altValue": true
+         },
+         "quickVersatile": {
+            "value": false,
+            "altValue": false
+         },
+         "quickTemplate": {
+            "value": true,
+            "altValue": true
+         },
+         "quickFlavor": {
+            "value": true,
+            "altValue": true
+         },
+         "quickCharges": {
+            "value": {
+               "quantity": false,
+               "use": false
+            },
+            "altValue": {
+               "quantity": false,
+               "use": true
+            }
+         }
       }
    },
-   "_id": "XalExDqMQoFD162i"
+   "_id": "nVvGSyiLlPAAf1Nw"
 }

@@ -1,11 +1,11 @@
 {
-   "name": "Crowd Pummeler 9-60",
+   "name": "Crowd Disruptor 5000",
    "type": "npc",
-   "img": "modules/warcraft5e/res/pics/portraits/monsters/mecha/crowd-pummeler.webp",
+   "img": "modules/warcraft5e/res/pics/portraits/monsters/mecha/crowd-disruptor-5000.webp",
    "data": {
       "abilities": {
          "str": {
-            "value": 22,
+            "value": 25,
             "proficient": 0,
             "bonuses": {
                "check": "",
@@ -13,7 +13,7 @@
             }
          },
          "dex": {
-            "value": 9,
+            "value": 10,
             "proficient": 0,
             "bonuses": {
                "check": "",
@@ -21,7 +21,7 @@
             }
          },
          "con": {
-            "value": 17,
+            "value": 19,
             "proficient": 0,
             "bonuses": {
                "check": "",
@@ -37,7 +37,7 @@
             }
          },
          "wis": {
-            "value": 13,
+            "value": 15,
             "proficient": 0,
             "bonuses": {
                "check": "",
@@ -60,12 +60,12 @@
             "formula": ""
          },
          "hp": {
-            "value": 76,
+            "value": 126,
             "min": 0,
-            "max": 76,
+            "max": 126,
             "temp": 0,
             "tempmax": 0,
-            "formula": "8d12 + 24"
+            "formula": "12d12 + 48"
          },
          "init": {
             "value": 0,
@@ -92,7 +92,7 @@
       },
       "details": {
          "biography": {
-            "value": "<p><em>\"Curfew instituted in this sector. Citizens, return to your homes.\"</em></p>\n<p>Crowd Pummelers are mighty constructs made for sentry duty and preserving the peace.</p>\n<p>Patrolling the streets of Gnomeregan, Crowd Pummelers bash anything they notice that violates the laws programmed into them. Since Gnomeregan‘s fall, most are programmed to attack anything that is not a leper gnome.</p>\n<p>Crowd Pummelers recognize and speak Common, but answer to only to the correct technological codes.</p>\n<p>Before Gnomeregan‘s fall, crowd pummelers warned violators and protestors aloud, giving them a short time to halt their offences, and kept their targets stable after a beating, but now all they shout is \"Intruder!\" or \"Stop resisting!\" before charging and pummeling the unfortunate victim to death. </p>\n<p> </p>",
+            "value": "<p><em>\"</em>Return to your homes, a curfew is in effect!<em>\"</em></p>\n<p>Crowd Pummelers are mighty constructs made for sentry duty and preserving the peace.</p>\n<p>Patrolling the streets of Gnomeregan, Crowd Pummelers bash anything they notice that violates the laws programmed into them. Since Gnomeregan‘s fall, most are programmed to attack anything that is not a leper gnome.</p>\n<p>Crowd Pummelers recognize and speak Common, but answer to only to the correct technological codes.</p>\n<p>Before Gnomeregan‘s fall, crowd pummelers warned violators and protestors aloud, giving them a short time to halt their offences, and kept their targets stable after a beating, but now all they shout is \"Intruder!\" or \"Stop resisting!\" before charging and pummeling the unfortunate victim to death. </p>\n<p> </p>",
             "public": ""
          },
          "alignment": "Unaligned",
@@ -104,7 +104,7 @@
             "custom": ""
          },
          "environment": "",
-         "cr": 4,
+         "cr": 7,
          "spellLevel": 0,
          "xp": {
             "value": 10
@@ -390,11 +390,11 @@
       "actorId": "Uzv14V8TJvIJNJ3J",
       "actorLink": false,
       "actorData": {},
-      "img": "modules/warcraft5e/res/pics/tokens/monsters/mecha/crowd-pummeler.webp",
+      "img": "modules/warcraft5e/res/pics/tokens/monsters/mecha/crowd-disruptor.webp",
       "tint": null,
       "width": 3,
       "height": 3,
-      "scale": 1.3,
+      "scale": 1.4,
       "mirrorX": false,
       "mirrorY": false,
       "x": null,
@@ -451,7 +451,7 @@
          "img": "icons/skills/melee/strike-hammer-destructive-blue.webp",
          "data": {
             "description": {
-               "value": "<p>Melee Weapon Attack: +8 to hit, reach 10 ft., one target.</p>\n<p>Hit: 18 (3d8 + 5) bludgeoning damage.</p>",
+               "value": "<p>Melee Weapon Attack: +10 to hit, reach 10 ft., one target.</p>\n<p>Hit: 25 (4d8 + 7) bludgeoning damage.</p>",
                "chat": "",
                "unidentified": ""
             },
@@ -521,7 +521,8 @@
          "permission": {
             "default": 0
          },
-         "flags": {}
+         "flags": {
+         }
       },
       {
          "_id": "l3EWqKpCsoAjqu4Z",
@@ -591,7 +592,7 @@
                "scaling": "spell"
             },
             "armor": {
-               "value": 13,
+               "value": 16,
                "type": "medium",
                "dex": 0
             },
@@ -616,16 +617,17 @@
          "permission": {
             "default": 0
          },
-         "flags": {}
+         "flags": {
+         }
       },
       {
          "_id": "wZFkk4NSUuaNspYx",
-         "name": "Fuel (12 Mana Points / charge)",
+         "name": "Fuel (18 Mana Points / charge)",
          "type": "feat",
          "img": "icons/commodities/tech/furnace-modern.webp",
          "data": {
             "description": {
-               "value": "<p>The construct consumes 12 units for 1 charge (4 rarity, 8 size). As it runs on a mana engine, this requires 12 mana points for 1 hour. It has the capacity to hold up to 10 charges (or 120 mp).</p>",
+               "value": "<p>The construct consumes 18 units for 1 charge (10 rarity, 8 size). As it runs on a mana engine, this requires 18 mana points for 1 hour. It has the capacity to hold up to 10 charges (or 180 mp).</p>",
                "chat": "",
                "unidentified": ""
             },
@@ -690,7 +692,8 @@
          "permission": {
             "default": 0
          },
-         "flags": {}
+         "flags": {
+         }
       },
       {
          "_id": "R3exmFmRnBIDy4Ld",
@@ -699,7 +702,7 @@
          "img": "icons/skills/melee/blade-tips-triple-steel.webp",
          "data": {
             "description": {
-               "value": "<p>The Crowd Pummeler can make two slam attacks. It can't make both attacks against the same target. The crowd pummeler may throw a flash bomb in place of an attack.</p>",
+               "value": "<p>The Crowd Disruptor can make two slam attacks. It can't make both attacks against the same target. The crowd disrptor may throw a flash bomb in place of an attack.</p>",
                "chat": "",
                "unidentified": ""
             },
@@ -765,101 +768,7 @@
          "permission": {
             "default": 0
          },
-         "flags": {}
-      },
-      {
-         "_id": "ObGZwBIYI0ivTTtj",
-         "name": "Crafting Creature CR 4",
-         "type": "feat",
-         "img": "icons/tools/hand/hammer-simple-stone.webp",
-         "data": {
-            "description": {
-               "value": "",
-               "chat": "",
-               "unidentified": ""
-            },
-            "source": "Wc5e - MC p. 21",
-            "activation": {
-               "type": "",
-               "cost": 0,
-               "condition": ""
-            },
-            "duration": {
-               "value": null,
-               "units": ""
-            },
-            "target": {
-               "value": null,
-               "width": null,
-               "units": "",
-               "type": ""
-            },
-            "range": {
-               "value": null,
-               "long": null,
-               "units": ""
-            },
-            "uses": {
-               "value": null,
-               "max": "",
-               "per": null
-            },
-            "consume": {
-               "type": "",
-               "target": null,
-               "amount": null
-            },
-            "ability": null,
-            "actionType": null,
-            "attackBonus": 0,
-            "chatFlavor": "",
-            "critical": {
-               "threshold": null,
-               "damage": ""
-            },
-            "damage": {
-               "parts": [],
-               "versatile": ""
-            },
-            "formula": "",
-            "save": {
-               "ability": "",
-               "dc": null,
-               "scaling": "spell"
-            },
-            "requirements": "Creature CR 4",
-            "recharge": {
-               "value": null,
-               "charged": false
-            },
-            "attunement": null
-         },
-         "effects": [],
-         "folder": null,
-         "sort": 0,
-         "permission": {
-            "default": 0
-         },
          "flags": {
-            "wc5e": {
-               "type": "feat",
-               "category": "WC5E.SkillCategories.General",
-               "description": [
-                  {
-                     "value": "WC5E.MonsterFeats.CraftingCreatureCr4.Description.1.Value"
-                  },
-                  {
-                     "value": "WC5E.MonsterFeats.CraftingCreatureCr4.Description.2.Value"
-                  },
-                  {
-                     "title": "WC5E.MonsterFeats.CraftingCreatureCr14.Description.3.Title",
-                     "value": "WC5E.MonsterFeats.CraftingCreatureCr4.Description.3.Value"
-                  },
-                  {
-                     "value": "WC5E.MonsterFeats.CraftingCreatureCr14.Description.4.Value"
-                  }
-               ]
-            }
          }
       },
       {
@@ -869,7 +778,7 @@
          "img": "icons/magic/light/orb-container-orange.webp",
          "data": {
             "description": {
-               "value": "<p>The crowd pummeler‘s slam attacks are treated as magical.</p>",
+               "value": "<p>The crowd disruptor‘s slam attacks are treated as magical.</p>",
                "chat": "",
                "unidentified": ""
             },
@@ -934,7 +843,8 @@
          "permission": {
             "default": 0
          },
-         "flags": {}
+         "flags": {
+         }
       },
       {
          "_id": "1PQbpc1rX1BTUNo5",
@@ -943,7 +853,7 @@
          "img": "icons/magic/earth/explosion-lava-stone-yellow.webp",
          "data": {
             "description": {
-               "value": "<p>If the crowd pummeler moves at least 20 feet straight toward a creature and then hits it with a slam attack on the same turn, that target must succeed on a DC 16 Strength saving throw or be knocked prone. If the target is prone, the crowd pummeler can make one slam attack against it as a bonus action. </p>",
+               "value": "<p>If the crowd disruptor moves at least 20 feet straight toward a creature and then hits it with a slam attack on the same turn, that target must succeed on a DC 18 Strength saving throw or be knocked prone. If the target is prone, the crowd disruptor can make one slam attack against it as a bonus action. </p>",
                "chat": "",
                "unidentified": ""
             },
@@ -1008,7 +918,8 @@
          "permission": {
             "default": 0
          },
-         "flags": {}
+         "flags": {
+         }
       },
       {
          "_id": "ecBe2Mvkf3zxdq8x",
@@ -1017,7 +928,7 @@
          "img": "icons/equipment/shield/heater-steel-engraved-lance-rest.webp",
          "data": {
             "description": {
-               "value": "<p>The crowd pummeler gains a +6 bonus to its AC against attacks of opportunity.</p>",
+               "value": "<p>The crowd disruptor gains a +6 bonus to its AC against attacks of opportunity.</p>",
                "chat": "",
                "unidentified": ""
             },
@@ -1082,7 +993,8 @@
          "permission": {
             "default": 0
          },
-         "flags": {}
+         "flags": {
+         }
       },
       {
          "_id": "XASvLt0v6X4Tp0wm",
@@ -1091,7 +1003,7 @@
          "img": "icons/weapons/thrown/bomb-metal-brown.webp",
          "data": {
             "description": {
-               "value": "<p>The crowd pummeler can hold up to eight flash bombs, and suffers no chance of malfunction when using them.</p>",
+               "value": "<p>The crowd disruptor can hold up to eight flash bombs, and suffers no chance of malfunction when using them.</p>",
                "chat": "",
                "unidentified": ""
             },
@@ -1156,7 +1068,8 @@
          "permission": {
             "default": 0
          },
-         "flags": {}
+         "flags": {
+         }
       },
       {
          "_id": "svnpCbxTiPEvi2mY",
@@ -1165,7 +1078,7 @@
          "img": "icons/skills/melee/shield-block-gray-orange.webp",
          "data": {
             "description": {
-               "value": "<p>If the crowd pummeler is struck by a creature within reach that the pummeler didn‘t attack on its previous round, the pummeler can make a single slam attack against them.</p>",
+               "value": "<p>If the crowd disruptor is struck by a creature within reach that the pummeler didn‘t attack on its previous round, the disruptor can make a single slam attack against them.</p>",
                "chat": "",
                "unidentified": ""
             },
@@ -1230,16 +1143,17 @@
          "permission": {
             "default": 0
          },
-         "flags": {}
+         "flags": {
+         }
       },
       {
-         "_id": "q3LUmM8RxM1AcZf9",
+         "_id": "8Ei5uH5nMkoUPdA6",
          "name": "Bomb, Flash",
          "type": "weapon",
          "img": "icons/weapons/thrown/bomb-metal-brown.webp",
          "data": {
             "description": {
-               "value": "<p><em>special effect:</em></p>\n<p><span style=\"color:#191813;font-family:Heuristica;font-size:13px\">The target must succeed on a Wisdom saving throw or have disadvantage on the next attack roll it makes before the end of its next turn.</span></p>\n<p>@Compendium[warcraft5e.wc5e_mechanics.4SX6o4iNVGiV1OXL]{Weakened}</p>\n<p> </p>\n<p><strong>Bomb</strong></p>\n<p>Bombs are thrown as light thrown weapons with a range of 30/60 feet. They deal no damage on impact, but explode when their fuse determines it (at the end of the user‘s turn, usually, see fuses below). A bomb that is thrown beyond optimal range provides advantage to saving throws to half damage. If you target a creature with the bomb as a ranged weapon attack and succeed on the attack roll, they do not get to roll to halve damage, and suffer the full damage. The creatures in the blast radius are still entitled saving throws as normal. If throwing a bomb on a target, the attack roll is the malfunction roll test, otherwise you must roll for malfunction as a separate d20 roll.</p>",
+               "value": "<p style=\"margin-bottom:0cm\"><span style=\"color:#000000\">This bomb deals 2d6 points of concussive damage, and imposes disadvantage for all rolls to creatures affected by it for one round. A successful saving throw negates the disadvantage.</span></p>\n<p>@Compendium[warcraft5e.wc5e_mechanics.4SX6o4iNVGiV1OXL]{Weakened}</p>\n<p> </p>\n<p><strong>Bomb</strong></p>\n<p>Bombs are thrown as light thrown weapons with a range of 30/60 feet. They deal no damage on impact, but explode when their fuse determines it (at the end of the user‘s turn, usually, see fuses below). A bomb that is thrown beyond optimal range provides advantage to saving throws to half damage. If you target a creature with the bomb as a ranged weapon attack and succeed on the attack roll, they do not get to roll to halve damage, and suffer the full damage. The creatures in the blast radius are still entitled saving throws as normal. If throwing a bomb on a target, the attack roll is the malfunction roll test, otherwise you must roll for malfunction as a separate d20 roll.</p>",
                "chat": "",
                "unidentified": ""
             },
@@ -1293,7 +1207,7 @@
                "parts": [
                   [
                      "2d6",
-                     ""
+                     "concussive"
                   ]
                ],
                "versatile": ""
@@ -1344,15 +1258,112 @@
          "permission": {
             "default": 0
          },
-         "flags": {}
+         "flags": {
+         }
+      },
+      {
+         "_id": "R4AlbARA7O4dUSV1",
+         "name": "Crafting Creature CR 7",
+         "type": "feat",
+         "img": "icons/tools/hand/hammer-simple-stone.webp",
+         "data": {
+            "description": {
+               "value": "",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "Wc5e - MC p. 37",
+            "activation": {
+               "type": "",
+               "cost": 0,
+               "condition": ""
+            },
+            "duration": {
+               "value": null,
+               "units": ""
+            },
+            "target": {
+               "value": null,
+               "width": null,
+               "units": "",
+               "type": ""
+            },
+            "range": {
+               "value": null,
+               "long": null,
+               "units": ""
+            },
+            "uses": {
+               "value": null,
+               "max": "",
+               "per": null
+            },
+            "consume": {
+               "type": "",
+               "target": null,
+               "amount": null
+            },
+            "ability": null,
+            "actionType": null,
+            "attackBonus": 0,
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell"
+            },
+            "requirements": "Creature CR 7",
+            "recharge": {
+               "value": null,
+               "charged": false
+            },
+            "attunement": null
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 0,
+         "permission": {
+            "default": 0
+         },
+         "flags": {
+            "wc5e": {
+               "type": "feat",
+               "category": "WC5E.SkillCategories.General",
+               "description": [
+                  {
+                     "value": "WC5E.MonsterFeats.CraftingCreatureCr7.Description.1.Value"
+                  },
+                  {
+                     "value": "WC5E.MonsterFeats.CraftingCreatureCr7.Description.2.Value"
+                  },
+                  {
+                     "title": "WC5E.MonsterFeats.CraftingCreatureCr14.Description.3.Title",
+                     "value": "WC5E.MonsterFeats.CraftingCreatureCr7.Description.3.Value"
+                  },
+                  {
+                     "value": "WC5E.MonsterFeats.CraftingCreatureCr14.Description.4.Value"
+                  }
+               ]
+            }
+         }
       }
    ],
    "effects": [],
    "folder": null,
    "sort": 0,
    "permission": {
-      "default": 1
+      "default": 0
    },
-   "flags": {},
-   "_id": "CqfRn0tlJOYKqkgk"
+   "flags": {
+   },
+   "_id": "ejYiv7YxqNVL1KsN"
 }
