@@ -29,7 +29,7 @@ Hooks.once('init', async function () {
             fullItem = args[1].fullItem;
         }
 
-        let pack = "warcraft5e.wc5e_items";
+        let pack = "warcraft5e.wc5e_items_weapons";
         let [scope, collection, id] = identifier.split(".");
         if (scope && collection) pack = `${scope}.${collection}`;
         if (!id) id = identifier;
@@ -100,6 +100,35 @@ Hooks.once('init', async function () {
         app?.render(true);
 
         let result = wrapped(...args);
+        return result;
+    });
+
+    //rolls malfunction / mishap
+    libWrapper.register('warcraft5e', 'game.dnd5e.entities.Item5e.prototype.rollAttack', function (wrapped, ...args) {
+        let result = wrapped(...args);
+        let itemData = this.data;
+        let mrmin = 0;
+        let mrmax = 0;
+        if (typeof (itemData.flags.wc5e) !== "undefined" &&
+            typeof (itemData.flags.wc5e.mrmin) !== "undefined" &&
+            typeof (itemData.flags.wc5e.mrmax) !== "undefined") {
+            mrmin = itemData.flags.wc5e.mrmin;
+            mrmax = itemData.flags.wc5e.mrmax;
+        }
+        result.then(roll => {
+            if (roll !== null) {
+                let rollResult = roll.terms[0].results[0].result;
+                if (rollResult <= mrmax) {
+                    ChatMessage.create({content: 'Oh no! MALFUNCTION! (' + mrmin + ' - ' + mrmax + ')'});
+                    let tableName = 'Mishaps';
+                    let gamePackage = game.packs.get("warcraft5e.wc5e_rolltables");
+                    let rollTable = gamePackage.getDocument('02jo8OAWgsD6E0hi').then(table => {
+                            let result = table.draw();
+                        }
+                    )
+                }
+            }
+        });
         return result;
     });
 

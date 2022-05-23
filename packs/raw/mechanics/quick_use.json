@@ -1,0 +1,19 @@
+{
+   "_id": "iPMRbcav1BeN6JYw",
+   "name": "Quick Use",
+   "permission": {
+      "default": 0
+   },
+   "type": "class",
+   "flags": {
+      "wc5e": {
+         "type": "rule",
+         "title": "WC5E.Rules.Mechanics.QuickUse.Label",
+         "content": [
+            {
+               "value": "WC5E.Rules.Mechanics.QuickUse.Description.1.Value"
+            }
+         ]
+      }
+   }
+}

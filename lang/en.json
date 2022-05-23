@@ -9364,8 +9364,20 @@
          "CombatArmorGnomishMk2": {
             "Label": "Combat Armor Mk2, Gnomish"
          },
+         "CrowdDisruptor5000": {
+            "Label": "Crowd Disruptor 5000"
+         },
          "CrowdPummeler960": {
             "Label": "Crowd Pummeler 9-60"
+         },
+         "ExplosiveSheep": {
+            "Label": "Explosive Sheep"
+         },
+         "GyrocopterDwarven": {
+            "Label": "Gyrocopter, Dwarven"
+         },
+         "GyrocopterGrandAlliance": {
+            "Label": "Gyrocopter, Grand Alliance"
          }
       },
       "Race": {
@@ -9935,6 +9947,14 @@
                   }
                }
             },
+            "AutomaticFire": {
+               "Label": "Automatic Fire",
+               "Description": {
+                  "1": {
+                     "Value": "The firearm deals area damage in a line instead of a direct attack. This is treated as an area attack in a 5-foot wide line with length equal to half the firearm‘s initial range. Creatures in the area can attempt an Agility saving throw against the Device save DC to halve the damage. When used this way, not having proficiency reduces the Device save DC. The firearm uses three pieces of ammunition when making an attack. You can make a normal or area attack with a firearm, but not both, in a given round."
+                  }
+               }
+            },
             "Blaster": {
                "Label": "Blaster",
                "Description": {
@@ -9946,6 +9966,30 @@
                         "1": "You may deal one additional dice of damage of the firearm‘s type.",
                         "2": "You may push the target up to 5 feet per Rarity of the firearm (up to a maximum of 30 feet away from you)."
                      }
+                  }
+               }
+            },
+            "Capacity": {
+               "Label": "Capacity",
+               "Description": {
+                  "1": {
+                     "Value": "The firearm alters its current ammo capacity by 3 points per EP modified. This can be made into an add-on (as a clip or magazine)."
+                  }
+               }
+            },
+            "LowCharge": {
+               "Label": "Low Charge",
+               "Description": {
+                  "1": {
+                     "Value": "The gadget can contain only fuel enough for three Charges, not ten. If taken again, it has enough fuel for 1 charge only. If hooked up to a backup fuel tank, it instead consumes three times the normal units for a single charge."
+                  }
+               }
+            },
+            "QuickUse": {
+               "Label": "Quick Use",
+               "Description": {
+                  "1": {
+                     "Value": "The gadget‘s cooldown is 1d4 rounds instead of 1 minute. If applied twice, the gadget can be used again at the end of your turn in the next round. If applied to a device with a longer cooldown, it is reduced to 1 hour if it was 8 hours cooldown, and 8 hours if its cooldown was 1 day."
                   }
                }
             },
@@ -9966,6 +10010,14 @@
                "Description": {
                   "1": {
                      "Value": "The firearm can deal damage in a cone instead of a direct attack. This is treated as an area attack in a cone with a length of one-tenth the firearm‘s initial range. Creatures in the area can attempt an Agility saving throw against the Device save DC to halve the damage. The firearm uses two pieces of ammunition when making an attack. You can make a normal or area attack with a firearm, but not both, in a given round."
+                  }
+               }
+            },
+            "Shortened": {
+               "Label": "Shortened",
+               "Description": {
+                  "1": {
+                     "Value": "The firearm‘s range is halved. This can be made into an add-on, but only to reduce the final rarity of another modification."
                   }
                }
             },
@@ -13844,9 +13896,11 @@
          "Language": "Language",
          "Languages": "Languages",
          "MaleNames": "Male Names",
+         "MalfunctionRate": "Malfunction Rate (MR)",
          "ManaPoints": "Mana Points",
          "Mass": "Mass",
          "MaterialCost": "Material Cost",
+         "Min": "Min",
          "Name": "Name",
          "Phrases": {
             "Skill": "skill",
@@ -13892,6 +13946,7 @@
             "Turns": "turns"
          },
          "UseItem": "Use-Item",
+         "WeaponEnhancement": "Weapon Enhancement",
          "WeaponEnhancements": {
             "Arcane": "Arcane",
             "Black": "Black",
@@ -13908,8 +13963,11 @@
             "Bomb": "Bomb",
             "Finesse": "Finesse",
             "Heavy": "Heavy",
+            "HeavyPl": "Heavy+",
             "HeavyPlus": "Heavy++",
             "Light": "Light",
+            "ReloadPl": "Reload (3)",
+            "ReloadPlus": "Reload (5)",
             "Reach": "Reach",
             "TwoHanded": "Two-Handed"
          }

@@ -1,0 +1,19 @@
+{
+   "_id": "xbjQR7v9k4yV6HpD",
+   "name": "Shortened",
+   "permission": {
+      "default": 0
+   },
+   "type": "class",
+   "flags": {
+      "wc5e": {
+         "type": "rule",
+         "title": "WC5E.Rules.Mechanics.Shortened.Label",
+         "content": [
+            {
+               "value": "WC5E.Rules.Mechanics.Shortened.Description.1.Value"
+            }
+         ]
+      }
+   }
+}

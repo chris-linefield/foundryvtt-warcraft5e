@@ -1,20 +1,21 @@
 {
-   "name": "Cannon, Hand",
+   "_id": "LaGJbVQc8NvbWj9L",
+   "name": "Cannon, Flak",
    "type": "weapon",
-   "img": "icons/weapons/guns/gun-worn-gold.webp",
+   "img": "icons/weapons/artillery/cannon-engraved-gold.webp",
    "data": {
       "description": {
-         "value": "<p>TODO</p>\n<p>@Compendium[warcraft5e.wc5e_mechanics.JY4SyPpgppMZMYR1]{Blaster} @Compendium[warcraft5e.wc5e_mechanics.boZtlCbeqYuTsDVa]{Sniper}</p>",
+         "value": "<p>TODO</p>",
          "chat": "",
          "unidentified": ""
       },
-      "source": "Wc5e - Core p. 223",
+      "source": "Wc5e - MC p. 51",
       "quantity": 1,
-      "weight": 10,
-      "price": 12800,
+      "weight": 90,
+      "price": 200,
       "attunement": 0,
       "equipped": false,
-      "rarity": "veryRare",
+      "rarity": "common",
       "identified": true,
       "activation": {
          "type": "action",
@@ -26,14 +27,14 @@
          "units": ""
       },
       "target": {
-         "value": null,
+         "value": 1,
          "width": null,
-         "units": "any",
-         "type": ""
+         "units": "",
+         "type": "creature"
       },
       "range": {
-         "value": 75,
-         "long": 300,
+         "value": 200,
+         "long": 800,
          "units": "ft"
       },
       "uses": {
@@ -42,9 +43,9 @@
          "per": ""
       },
       "consume": {
-         "type": "ammo",
+         "type": "",
          "target": "",
-         "amount": 4
+         "amount": null
       },
       "ability": "",
       "actionType": "rwak",
@@ -57,7 +58,7 @@
       "damage": {
          "parts": [
             [
-               "5d6",
+               "2d8",
                "piercing"
             ]
          ],
@@ -83,22 +84,26 @@
       "properties": {
          "ada": false,
          "amm": false,
+         "bomb": false,
          "fin": false,
          "fir": true,
          "foc": false,
          "hvy": false,
+         "hvyplus": false,
          "lgt": false,
          "lod": false,
          "mgc": false,
          "rch": false,
-         "rel": true,
+         "rel": false,
          "ret": false,
          "sil": false,
          "spc": false,
          "thr": false,
-         "two": false,
+         "two": true,
          "ver": false,
-         "hvyplus": false
+         "hvypl": true,
+         "reloadpl": true,
+         "reloadplus": false
       },
       "proficient": true
    },
@@ -110,9 +115,9 @@
    },
    "flags": {
       "wc5e": {
-         "type": "item",
+         "mrmin": 1,
+         "mrmax": 2,
          "enhancement": ""
       }
-   },
-   "_id": "zOZEqLck2wnRFVD1"
+   }
 }
