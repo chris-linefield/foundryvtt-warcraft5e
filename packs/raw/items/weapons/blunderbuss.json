@@ -1,10 +1,11 @@
 {
-   "name": "Blunderbuss, Scattershot",
+   "_id": "uAAKYCAMrsSug9jN",
+   "name": "Blunderbuss, Long Muzzle",
    "type": "weapon",
-   "img": "icons/weapons/guns/gun-blunderbuss-worn-brown.webp",
+   "img": "icons/weapons/guns/gun-blunderbuss-gold.webp",
    "data": {
       "description": {
-         "value": "<p>An easier-to-use blunderbuss, the scattershot blunderbuss can be altered to shoot a cone of bullets in a 15- foot cone, dealing 2d8 damage, with an Agility save to half. As scattershot blunderbusses do not require attack rolls, they do not require proficiency to use, and can be used while adjacent to an enemy without penalty. </p>\n<p>@Compendium[warcraft5e.wc5e_mechanics.JY4SyPpgppMZMYR1]{Scattershot} @Compendium[warcraft5e.wc5e_mechanics.4SX6o4iNVGiV1OXL]{Weakened}</p>",
+         "value": "<p>A heavy and powerful firearm favored by richer dwarves, the long muzzle blunderbuss is a heavy hitter with great history on the battlefield and a revered position in a dwarven household.</p>",
          "chat": "",
          "unidentified": ""
       },
@@ -32,8 +33,8 @@
          "type": "creature"
       },
       "range": {
-         "value": 20,
-         "long": null,
+         "value": 200,
+         "long": 800,
          "units": "ft"
       },
       "uses": {
@@ -57,7 +58,7 @@
       "damage": {
          "parts": [
             [
-               "2d8",
+               "3d8",
                "piercing"
             ]
          ],
@@ -67,7 +68,7 @@
       "save": {
          "ability": "",
          "dc": null,
-         "scaling": "dex"
+         "scaling": "spell"
       },
       "armor": {
          "value": 10
@@ -98,7 +99,11 @@
          "thr": false,
          "two": true,
          "ver": false,
-         "hvyplus": false
+         "hvyplus": false,
+         "bomb": false,
+         "hvypl": false,
+         "reloadpl": false,
+         "reloadplus": false
       },
       "proficient": true
    },
@@ -115,13 +120,14 @@
          "unit": "WC5E.UI.Units.Gp",
          "mass": 15,
          "weightUnit": "WC5E.UI.Units.Lb",
-         "label": "WC5E.Items.BlunderbussScattershot.Label",
+         "label": "WC5E.Items.Blunderbuss.Label",
          "description": [
             {
-               "value": "WC5E.Items.BlunderbussScattershot.Description.1.Value"
+               "value": "WC5E.Items.Blunderbuss.Description.1.Value"
             }
-         ]
+         ],
+         "mrmin": 1,
+         "mrmax": 2
       }
-   },
-   "_id": "0Z38qNIg7rU8u0Wn"
+   }
 }

@@ -1,17 +1,17 @@
 {
-   "name": "Cannon, Field",
+   "name": "Mine, Sapper Charge 2000",
    "type": "weapon",
-   "img": "icons/weapons/artillery/cannon-engraved-gold.webp",
+   "img": "icons/weapons/thrown/ball-spiked.webp",
    "data": {
       "description": {
-         "value": "<p><em>reload (5 actions)</em></p>\n<p>This huge-sized piece of artillery can blast through walls like paper (dealing double damage to objects). This acts as a large-sized rifle, and increases in dice from 1d6 to 2d6. Due to its size, it must be mounted on a solid surface (and weighs 225 lbs.), and cannot be carried.</p>\n<p>@Compendium[warcraft5e.wc5e_mechanics.boZtlCbeqYuTsDVa]{Sniper} @Compendium[warcraft5e.wc5e_mechanics.4SX6o4iNVGiV1OXL]{Weakened}</p>",
+         "value": "<p>This mine triggers whenever any creature appears within its area of explosion. If a creature comes that close, it explodes, dealing 10d6 concussive damage to it and any creature within 10 feet. It requires a DC 12 save to half damage.</p>\n<p>@Compendium[warcraft5e.wc5e_mechanics.0kkX8fLDVucLKRE4]{Reliable Device} @Compendium[warcraft5e.wc5e_mechanics.VXKn1GHEf9WcvFv5]{Sapper} @Compendium[warcraft5e.wc5e_mechanics.4SX6o4iNVGiV1OXL]{Weakened}</p>\n<p> </p>\n<p><strong>Mine</strong></p>\n<p>Mines are explosive traps that explode when stepped on (unless modified with a fuse). A mine can be detected with a successful Spirit (Perception) check and disarmed with a successful Agility (Thieves‘ Tools) check against the Device save DC, and is treated as a trap. The mine must pass a successful malfunction roll test.</p>",
          "chat": "",
          "unidentified": ""
       },
-      "source": "Wc5e - Core p. 223",
+      "source": "Wc5e - Core p. 222",
       "quantity": 1,
-      "weight": 225,
-      "price": 51200,
+      "weight": 5,
+      "price": 5120,
       "attunement": 0,
       "equipped": false,
       "rarity": "legendary",
@@ -26,15 +26,15 @@
          "units": ""
       },
       "target": {
-         "value": null,
+         "value": 10,
          "width": null,
-         "units": "any",
-         "type": ""
+         "units": "ft",
+         "type": "sphere"
       },
       "range": {
-         "value": 800,
-         "long": 3200,
-         "units": "ft"
+         "value": null,
+         "long": null,
+         "units": "self"
       },
       "uses": {
          "value": null,
@@ -47,7 +47,7 @@
          "amount": 1
       },
       "ability": "",
-      "actionType": "rwak",
+      "actionType": "save",
       "attackBonus": "0",
       "chatFlavor": "",
       "critical": {
@@ -57,17 +57,17 @@
       "damage": {
          "parts": [
             [
-               "8d6",
-               ""
+               "10d6",
+               "arcane"
             ]
          ],
          "versatile": ""
       },
       "formula": "",
       "save": {
-         "ability": "",
-         "dc": null,
-         "scaling": "spell"
+         "ability": "dex",
+         "dc": 15,
+         "scaling": "flat"
       },
       "armor": {
          "value": 10
@@ -79,28 +79,34 @@
          "conditions": ""
       },
       "weaponType": "martialR",
-      "baseItem": "generalFirearm",
+      "baseItem": "generalExplosive",
       "properties": {
          "ada": false,
          "amm": false,
          "fin": false,
-         "fir": true,
+         "fir": false,
          "foc": false,
          "hvy": false,
+         "hvyplus": false,
          "lgt": false,
          "lod": false,
          "mgc": false,
          "rch": false,
-         "rel": true,
+         "rel": false,
          "ret": false,
          "sil": false,
          "spc": false,
          "thr": false,
          "two": false,
          "ver": false,
-         "hvyplus": true
+         "bomb": false,
+         "hvypl": false,
+         "reloadpl": false,
+         "reloadplus": false,
+         "rocket": false,
+         "mine": true
       },
-      "proficient": true
+      "proficient": false
    },
    "effects": [],
    "folder": null,
@@ -111,8 +117,10 @@
    "flags": {
       "wc5e": {
          "type": "item",
-         "enhancement": ""
+         "enhancement": "",
+         "mrmin": 1,
+         "mrmax": 3
       }
    },
-   "_id": "fhlJMblcjEXoz9u4"
+   "_id": "c7sXsP4ZqSjX6Jq3"
 }

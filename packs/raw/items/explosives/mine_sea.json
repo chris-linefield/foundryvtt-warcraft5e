@@ -1,20 +1,20 @@
 {
-   "name": "Cannon, Hand",
+   "name": "Mine, Sea",
    "type": "weapon",
-   "img": "icons/weapons/guns/gun-worn-gold.webp",
+   "img": "icons/weapons/thrown/ball-spiked.webp",
    "data": {
       "description": {
-         "value": "<p>TODO</p>\n<p>@Compendium[warcraft5e.wc5e_mechanics.JY4SyPpgppMZMYR1]{Blaster} @Compendium[warcraft5e.wc5e_mechanics.boZtlCbeqYuTsDVa]{Sniper}</p>",
+         "value": "<p>This mine triggers whenever any creature appears within its area of explosion. If a creature comes that close, it explodes, dealing 7d6 concussive damage to it and any creature within 10 feet. It requires a DC 12 save to half damage.</p>\n<p>@Compendium[warcraft5e.wc5e_mechanics.VXKn1GHEf9WcvFv5]{Sapper} @Compendium[warcraft5e.wc5e_mechanics.s7VOcvOoOdQ2PzEm]{Water (only)}</p>\n<p> </p>\n<p><strong>Mine</strong></p>\n<p>Mines are explosive traps that explode when stepped on (unless modified with a fuse). A mine can be detected with a successful Spirit (Perception) check and disarmed with a successful Agility (Thieves‘ Tools) check against the Device save DC, and is treated as a trap. The mine must pass a successful malfunction roll test.</p>",
          "chat": "",
          "unidentified": ""
       },
-      "source": "Wc5e - Core p. 223",
+      "source": "Wc5e - Core p. 222",
       "quantity": 1,
-      "weight": 10,
-      "price": 12800,
+      "weight": 3,
+      "price": 320,
       "attunement": 0,
       "equipped": false,
-      "rarity": "veryRare",
+      "rarity": "rare",
       "identified": true,
       "activation": {
          "type": "action",
@@ -26,15 +26,15 @@
          "units": ""
       },
       "target": {
-         "value": null,
+         "value": 10,
          "width": null,
-         "units": "any",
-         "type": ""
+         "units": "ft",
+         "type": "sphere"
       },
       "range": {
-         "value": 75,
-         "long": 300,
-         "units": "ft"
+         "value": null,
+         "long": null,
+         "units": "self"
       },
       "uses": {
          "value": null,
@@ -44,10 +44,10 @@
       "consume": {
          "type": "ammo",
          "target": "",
-         "amount": 4
+         "amount": 1
       },
       "ability": "",
-      "actionType": "rwak",
+      "actionType": "save",
       "attackBonus": "0",
       "chatFlavor": "",
       "critical": {
@@ -57,17 +57,17 @@
       "damage": {
          "parts": [
             [
-               "5d6",
-               "piercing"
+               "6d6",
+               "arcane"
             ]
          ],
          "versatile": ""
       },
       "formula": "",
       "save": {
-         "ability": "",
-         "dc": null,
-         "scaling": "spell"
+         "ability": "dex",
+         "dc": 12,
+         "scaling": "flat"
       },
       "armor": {
          "value": 10
@@ -79,28 +79,34 @@
          "conditions": ""
       },
       "weaponType": "martialR",
-      "baseItem": "generalFirearm",
+      "baseItem": "generalExplosive",
       "properties": {
          "ada": false,
          "amm": false,
          "fin": false,
-         "fir": true,
+         "fir": false,
          "foc": false,
          "hvy": false,
+         "hvyplus": false,
          "lgt": false,
          "lod": false,
          "mgc": false,
          "rch": false,
-         "rel": true,
+         "rel": false,
          "ret": false,
          "sil": false,
          "spc": false,
          "thr": false,
          "two": false,
          "ver": false,
-         "hvyplus": false
+         "bomb": false,
+         "hvypl": false,
+         "reloadpl": false,
+         "reloadplus": false,
+         "rocket": false,
+         "mine": true
       },
-      "proficient": true
+      "proficient": false
    },
    "effects": [],
    "folder": null,
@@ -111,8 +117,10 @@
    "flags": {
       "wc5e": {
          "type": "item",
-         "enhancement": ""
+         "enhancement": "",
+         "mrmin": 1,
+         "mrmax": 3
       }
    },
-   "_id": "zOZEqLck2wnRFVD1"
+   "_id": "wqnGA57Qqtc4g9uk"
 }

@@ -188,6 +188,82 @@
                         {
                            "text": "WC5E.UI.Engines.Mana"
                         }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_monsters",
+                              "node": "ejYiv7YxqNVL1KsN",
+                              "label": "WC5E.Monsters.CrowdDisruptor5000.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Legendary",
+                           "brackets": "+5"
+                        },
+                        {
+                           "value": "7"
+                        },
+                        {
+                           "text": "WC5E.UI.Engines.Mana"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_monsters",
+                              "node": "I8bKACxod7cWrtqm",
+                              "label": "WC5E.Monsters.ExplosiveSheep.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Common",
+                           "brackets": "+2"
+                        },
+                        {
+                           "value": "1/4"
+                        },
+                        {
+                           "text": "WC5E.UI.Engines.Combustion"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_monsters",
+                              "node": "aHnR5JJtV5ZmWxFz",
+                              "label": "WC5E.Monsters.GyrocopterDwarven.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Uncommon",
+                           "brackets": "+2"
+                        },
+                        {
+                           "value": "1"
+                        },
+                        {
+                           "text": "WC5E.UI.Engines.Combustion"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_monsters",
+                              "node": "7WqGhofUMRamXjGW",
+                              "label": "WC5E.Monsters.GyrocopterGrandAlliance.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Rare",
+                           "brackets": "+3"
+                        },
+                        {
+                           "value": "4"
+                        },
+                        {
+                           "text": "WC5E.UI.Engines.Combustion"
+                        }
                      ]
                   ]
                }
@@ -200,8 +276,8 @@
          },
          "next": {
             "pack": "wc5e_rules",
-            "node": "ABTjvMps1gDvjoJM",
-            "label": "WC5E.Rules.Explosives.Label"
+            "node": "CKNGfqUkV7iS0ONn",
+            "label": "WC5E.Rules.EngineeringExplosives.Label"
          }
       }
    }

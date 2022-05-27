@@ -17,6 +17,9 @@ export const preloadWc5eTemplates = async function() {
     //"systems/dnd5e/templates/actors/parts/actor-warnings.html",
 
     // Item Sheet Partials
+    "modules/warcraft5e/templates/item/parts/item-action.html",
+    "modules/warcraft5e/templates/item/parts/item-activation.html",
+    "modules/warcraft5e/templates/item/parts/item-description.html",
     "modules/warcraft5e/templates/item/parts/description.html",
     "modules/warcraft5e/templates/item/parts/table.html",
     //"systems/dnd5e/templates/items/parts/item-action.html",

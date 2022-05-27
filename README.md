@@ -6,7 +6,7 @@ https://drive.google.com/drive/folders/0B1FoMHLY1oOtLUlNdTZXYzVNY0k
 Join the discord if you want to support the development of the ruleset itself.
 https://discord.com/channels/410113488204070932/410113488204070934
 
-## Version: 0.1.7
+## Version: 0.1.9
 Feature | Description
 ------------ | -------------
 ![Classes Preview](http://www.hahn-webdesign.de/warcraft5e/classes_preview.jpg) | Features an overhauled class-sheet with lore and images. Features compendium entries for 13 custom classes and their respective class feats and spells.<ul><li>Alchemist</li><li>Death Knight</li><li>Druid</li><li>Hunter</li><li>Mage</li><li>Monk</li><li>Paladin</li><li>Priest</li><li>Rogue</li><li>Shaman</li><li>Tinker</li><li>Warlock</li><li>Warrior</li></ul>
@@ -23,7 +23,7 @@ Feature | Description
 
 Description | Feature
 ------------ | -------------
-Features over 15 custom Compendiums for the Warcraft Ruleset:<ul><li>Backgrounds</li><li>Background Features</li><li>Classes</li><li>Class Features</li><li>Class Talents</li><li>Monsters</li><li>Monster Features</li><li>Races</li><li>Rules</li><li>Spells</li><li>...<li/> | ![Talents Preview](http://www.hahn-webdesign.de/warcraft5e/talents_preview.jpg)
+Features over 15 custom Compendiums for the Warcraft Ruleset:<ul><li>Backgrounds</li><li>Background Features</li><li>Classes</li><li>Class Features</li><li>Class Talents</li><li>Items</li><li>Monsters</li><li>Monster Features</li><li>Races</li><li>Rules</li><li>Spells</li><li>...<li/> | ![Talents Preview](http://www.hahn-webdesign.de/warcraft5e/talents_preview.jpg)
 
 Feature | Description
 ------------ | -------------

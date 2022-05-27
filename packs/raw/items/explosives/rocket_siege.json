@@ -1,0 +1,126 @@
+{
+   "name": "Rocket, Siege",
+   "type": "weapon",
+   "img": "icons/weapons/thrown/rocket.webp",
+   "data": {
+      "description": {
+         "value": "<p>This rocket is designed to destroy fortifications. Upon impact, it deals 9d8 points of concussive damage to any creature or item within 20 feet of its impact area. It requires a DC 15 save to half damage. Against objects, it deals double damage, but half damage against creatures.</p>\n<p>@Compendium[warcraft5e.wc5e_mechanics.VXKn1GHEf9WcvFv5]{Sapper} @Compendium[warcraft5e.wc5e_mechanics.IpWuRYldlElzya0V]{Widened (large)}</p>\n<p> </p>\n<p><strong>Rocket</strong></p>\n<p>Rockets are light ranged projectile weapons with a range of 60/120 feet that soar to the point of impact and then explode instantaneously. They deal no damage on impact, but explode when their fuse determines it (or upon impact, whichever applies). If modified with a fuse, the rocket instead embeds itself in the targeted area and explodes when the fuse determines it. A rocket that is launched beyond optimal range provides advantage to saving throws to half damage. If you target a creature with the rocket and succeed on the attack roll, they do not get to roll to halve damage, and suffer the full damage. The creatures in the blast radius are still entitled saving throws as normal. When a rocket reaches its maximum range, it explodes regardless of whether it reached its target or not. If it misses its target, however, it continues along the path without guidance, usually exploding at some other point (such as at the maximum range or upon impact with a wall). If launching a rocket on a target, the attack roll is the malfunction roll test, otherwise you must roll for malfunction as a separate d20 roll.</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 222",
+      "quantity": 1,
+      "weight": 10,
+      "price": 1280,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "veryRare",
+      "identified": true,
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": null,
+         "units": ""
+      },
+      "target": {
+         "value": 20,
+         "width": null,
+         "units": "ft",
+         "type": "sphere"
+      },
+      "range": {
+         "value": 60,
+         "long": 120,
+         "units": "ft"
+      },
+      "uses": {
+         "value": null,
+         "max": "",
+         "per": ""
+      },
+      "consume": {
+         "type": "ammo",
+         "target": "",
+         "amount": 1
+      },
+      "ability": "",
+      "actionType": "rwak",
+      "attackBonus": "0",
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [
+            [
+               "9d8",
+               "concussive"
+            ]
+         ],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "dex",
+         "dc": 15,
+         "scaling": "flat"
+      },
+      "armor": {
+         "value": 10
+      },
+      "hp": {
+         "value": 0,
+         "max": 0,
+         "dt": null,
+         "conditions": ""
+      },
+      "weaponType": "martialR",
+      "baseItem": "generalExplosive",
+      "properties": {
+         "ada": false,
+         "amm": false,
+         "fin": false,
+         "fir": false,
+         "foc": false,
+         "hvy": false,
+         "hvyplus": false,
+         "lgt": false,
+         "lod": false,
+         "mgc": false,
+         "rch": false,
+         "rel": false,
+         "ret": false,
+         "sil": false,
+         "spc": false,
+         "thr": false,
+         "two": false,
+         "ver": false,
+         "bomb": false,
+         "hvypl": false,
+         "reloadpl": false,
+         "reloadplus": false,
+         "rocket": true,
+         "mine": false
+      },
+      "proficient": false
+   },
+   "effects": [],
+   "folder": null,
+   "sort": 0,
+   "permission": {
+      "default": 0
+   },
+   "flags": {
+      "wc5e": {
+         "type": "item",
+         "enhancement": "",
+         "mrmin": 1,
+         "mrmax": 4
+      }
+   },
+   "_id": "JJxUHl2R3cnWHJWC"
+}
