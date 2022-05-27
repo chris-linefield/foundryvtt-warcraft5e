@@ -1,0 +1,707 @@
+{
+   "_id": "CKNGfqUkV7iS0ONn",
+   "name": "Explosives",
+   "permission": {
+      "default": 0
+   },
+   "type": "class",
+   "flags": {
+      "wc5e": {
+         "type": "rule",
+         "title": "WC5E.Rules.EngineeringExplosives.Label",
+         "content": [
+            {
+               "value": "WC5E.Rules.EngineeringExplosives.Description.1.Value"
+            },
+            {
+               "table": {
+                  "head": [
+                     {
+                        "title": "WC5E.UI.Name"
+                     },
+                     {
+                        "title": "WC5E.UI.RarityEp"
+                     },
+                     {
+                        "title": "WC5E.UI.Damage"
+                     },
+                     {
+                        "title": "WC5E.UI.Properties"
+                     }
+                  ],
+                  "rows": [
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_explosives",
+                              "node": "8zJsdYo1QliYWuLZ",
+                              "label": "WC5E.Items.BombArcane.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Legendary",
+                           "brackets": "+5"
+                        },
+                        {
+                           "text": "5d6"
+                        },
+                        {
+                           "text": "WC5E.Items.BombArcane.ShortDescription"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_explosives",
+                              "node": "9jgO1XGXgFFR2H0K",
+                              "label": "WC5E.Items.BombBigDaddy.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Epic",
+                           "brackets": "+4"
+                        },
+                        {
+                           "text": "7d6"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_explosives",
+                              "node": "N20jJdU4UqXme8hD",
+                              "label": "WC5E.Items.BombBigIron.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Uncommon",
+                           "brackets": "+2"
+                        },
+                        {
+                           "text": "5d6"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_explosives",
+                              "node": "To48C3KOAuUIY2oZ",
+                              "label": "WC5E.Items.BombBigOne.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Artifact",
+                           "brackets": "+6"
+                        },
+                        {
+                           "text": "11d6"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_explosives",
+                              "node": "NOiwQQMh91nAfwaO",
+                              "label": "WC5E.Items.BombCobalt.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Rare",
+                           "brackets": "+3"
+                        },
+                        {
+                           "text": "7d6"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_explosives",
+                              "node": "E4z1Iumwa6rnIDyl",
+                              "label": "WC5E.Items.BombFire.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Common",
+                           "brackets": "+2"
+                        },
+                        {
+                           "text": "2d6"
+                        },
+                        {
+                           "text": "WC5E.Items.BombFire.ShortDescription"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_explosives",
+                              "node": "aQcieFx6ESxsosqr",
+                              "label": "WC5E.Items.BombFlash.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Common",
+                           "brackets": "+2"
+                        },
+                        {
+                           "text": "2d6"
+                        },
+                        {
+                           "text": "WC5E.Items.BombFlash.ShortDescription"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_explosives",
+                              "node": "Z6O4UBtAU1yIcUXE",
+                              "label": "WC5E.Items.BombFried.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Artifact",
+                           "brackets": "+6"
+                        },
+                        {
+                           "text": "7d6"
+                        },
+                        {
+                           "text": "WC5E.Items.BombFried.ShortDescription"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_explosives",
+                              "node": "uQOm5clUA79m9P48",
+                              "label": "WC5E.Items.BombIron.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Common",
+                           "brackets": "+2"
+                        },
+                        {
+                           "text": "3d6"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_explosives",
+                              "node": "KQHA5dx4fdTL9r5d",
+                              "label": "WC5E.Items.BombShock.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Rare",
+                           "brackets": "+3"
+                        },
+                        {
+                           "text": "6d6"
+                        },
+                        {
+                           "text": "WC5E.Items.BombShock.ShortDescription"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_explosives",
+                              "node": "zAb46W7zhb3oKE23",
+                              "label": "WC5E.Items.BombSmoke.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Uncommon",
+                           "brackets": "+2"
+                        },
+                        {
+                           "text": "4d6"
+                        },
+                        {
+                           "text": "WC5E.Items.BombSmoke.ShortDescription"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_explosives",
+                              "node": "gEnyxa6GQG8OIBob",
+                              "label": "WC5E.Items.BombStun.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Common",
+                           "brackets": "+2"
+                        },
+                        {
+                           "text": "2d6"
+                        },
+                        {
+                           "text": "WC5E.Items.BombStun.ShortDescription"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_explosives",
+                              "node": "TfCbyAr2QqkEB1qL",
+                              "label": "WC5E.Items.GrenadeAdamantine.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Epic",
+                           "brackets": "+4"
+                        },
+                        {
+                           "text": "8d6"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_explosives",
+                              "node": "JlL5cYCISA4HHqu3",
+                              "label": "WC5E.Items.GrenadeHand.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Common",
+                           "brackets": "+2"
+                        },
+                        {
+                           "text": "2d6"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_explosives",
+                              "node": "XVCnbrDBNO7Fx0Nk",
+                              "label": "WC5E.Items.GrenadeHeavy.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Uncommon",
+                           "brackets": "+2"
+                        },
+                        {
+                           "text": "4d6"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_explosives",
+                              "node": "4qr37DPP8E4pP54Z",
+                              "label": "WC5E.Items.GrenadePlagueSpreader.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Rare",
+                           "brackets": "+3"
+                        },
+                        {
+                           "text": "4d6"
+                        },
+                        {
+                           "text": "WC5E.Items.GrenadePlagueSpreader.ShortDescription"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_explosives",
+                              "node": "TyYEEMrVjkY2UZjf",
+                              "label": "WC5E.Items.MineArcane.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Rare",
+                           "brackets": "+3"
+                        },
+                        {
+                           "text": "6d6"
+                        },
+                        {
+                           "text": "WC5E.Items.MineArcane.ShortDescription"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_explosives",
+                              "node": "7VXKRzxaSGi8knyL",
+                              "label": "WC5E.Items.MineBlasting.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Uncommon",
+                           "brackets": "+2"
+                        },
+                        {
+                           "text": "3d6"
+                        },
+                        {
+                           "text": "WC5E.Items.MineBlasting.ShortDescription"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_explosives",
+                              "node": "U2LIuK4CcQEQO6wd",
+                              "label": "WC5E.Items.MineBreachCharge.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Common",
+                           "brackets": "+2"
+                        },
+                        {
+                           "text": "3d6"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_explosives",
+                              "node": "XtCk7hT4WX1sPRrq",
+                              "label": "WC5E.Items.MineDazing.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Uncommon",
+                           "brackets": "+2"
+                        },
+                        {
+                           "text": "4d6"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_explosives",
+                              "node": "sCPC6Ljxpks8Dt1j",
+                              "label": "WC5E.Items.MineFelIron.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Epic",
+                           "brackets": "+4"
+                        },
+                        {
+                           "text": "8d6"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_explosives",
+                              "node": "a7OoH04od4aVLU4D",
+                              "label": "WC5E.Items.MineGoblinLand.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Rare",
+                           "brackets": "+3"
+                        },
+                        {
+                           "text": "7d6"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_explosives",
+                              "node": "8fJSNPylx1IekgkL",
+                              "label": "WC5E.Items.MineIron.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Common",
+                           "brackets": "+2"
+                        },
+                        {
+                           "text": "3d6"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_explosives",
+                              "node": "K6z1kfmat7Ttbzvm",
+                              "label": "WC5E.Items.MineSapper.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Rare",
+                           "brackets": "+3"
+                        },
+                        {
+                           "text": "5d6"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_explosives",
+                              "node": "c7sXsP4ZqSjX6Jq3",
+                              "label": "WC5E.Items.MineSapperCharge2000.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Legendary",
+                           "brackets": "+5"
+                        },
+                        {
+                           "text": "10d6"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_explosives",
+                              "node": "wqnGA57Qqtc4g9uk",
+                              "label": "WC5E.Items.MineSea.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Rare",
+                           "brackets": "+3"
+                        },
+                        {
+                           "text": "7d6"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_explosives",
+                              "node": "6eqTQj4YN2FYuS3h",
+                              "label": "WC5E.Items.MortarShell.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Common",
+                           "brackets": "+2"
+                        },
+                        {
+                           "text": "3d8"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_explosives",
+                              "node": "KsIPKbZuMEtli6F2",
+                              "label": "WC5E.Items.RocketDarkIron.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Uncommon",
+                           "brackets": "+2"
+                        },
+                        {
+                           "text": "5d6"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_explosives",
+                              "node": "UAqkjwSlpyD97y00",
+                              "label": "WC5E.Items.RocketFelIron.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Rare",
+                           "brackets": "+3"
+                        },
+                        {
+                           "text": "7d6"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_explosives",
+                              "node": "H23WZeA72Obfemz5",
+                              "label": "WC5E.Items.RocketFire.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Common",
+                           "brackets": "+2"
+                        },
+                        {
+                           "text": "4d6"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_explosives",
+                              "node": "vyf2fjh2xvA7v5J7",
+                              "label": "WC5E.Items.RocketGrand.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Legendary",
+                           "brackets": "+5"
+                        },
+                        {
+                           "text": "10d6"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_explosives",
+                              "node": "yHK95IVd9L0ZbkTi",
+                              "label": "WC5E.Items.RocketIron.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Common",
+                           "brackets": "+2"
+                        },
+                        {
+                           "text": "3d6"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_explosives",
+                              "node": "4kQGJZCejwpFE9EP",
+                              "label": "WC5E.Items.RocketLandShark.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Rare",
+                           "brackets": "+3"
+                        },
+                        {
+                           "text": "7d6"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_explosives",
+                              "node": "Sh9ueCkpiRnKDXCN",
+                              "label": "WC5E.Items.RocketMechaBlast.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Epic",
+                           "brackets": "+4"
+                        },
+                        {
+                           "text": "9d6"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_explosives",
+                              "node": "JJxUHl2R3cnWHJWC",
+                              "label": "WC5E.Items.RocketSiege.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Epic",
+                           "brackets": "+4"
+                        },
+                        {
+                           "text": "9d8"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_explosives",
+                              "node": "wDXnXpLgBNjOkxNL",
+                              "label": "WC5E.Items.RocketTorpedo.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Rare",
+                           "brackets": "+3"
+                        },
+                        {
+                           "text": "7d6"
+                        },
+                        {
+                        }
+                     ]
+                  ]
+               }
+            }
+         ],
+         "prev": {
+            "pack": "wc5e_rules",
+            "node": "scLYNnD9op9r3dtd",
+            "label": "WC5E.Rules.EngineeringCreatures.Label"
+         },
+         "next": {
+            "pack": "wc5e_rules",
+            "node": "ABTjvMps1gDvjoJM",
+            "label": "WC5E.Rules.Explosives.Label"
+         }
+      }
+   }
+}

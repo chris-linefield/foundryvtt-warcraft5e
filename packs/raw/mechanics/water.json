@@ -1,0 +1,19 @@
+{
+   "_id": "s7VOcvOoOdQ2PzEm",
+   "name": "Water",
+   "permission": {
+      "default": 0
+   },
+   "type": "class",
+   "flags": {
+      "wc5e": {
+         "type": "rule",
+         "title": "WC5E.Rules.Mechanics.Water.Label",
+         "content": [
+            {
+               "value": "WC5E.Rules.Mechanics.Water.Description.1.Value"
+            }
+         ]
+      }
+   }
+}

@@ -55,7 +55,9 @@ export class WcItemSheet extends ItemSheet5e {
 
         if (typeof (item.flags.wc5e) !== "undefined" &&
             typeof (item.flags.wc5e.mrmin) !== "undefined" &&
-            typeof (item.flags.wc5e.mrmax) !== "undefined") {
+            typeof (item.flags.wc5e.mrmax) !== "undefined" &&
+            item.flags.wc5e.mrmin !== null &&
+            item.flags.wc5e.mrmax !== null) {
             parentProps.unshift('MR (' + item.flags.wc5e.mrmin + ' - ' + item.flags.wc5e.mrmax + ')');
         }
 

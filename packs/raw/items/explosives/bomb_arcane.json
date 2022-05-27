@@ -1,20 +1,20 @@
 {
-   "name": "Bomb, Flash",
+   "name": "Bomb, Arcane",
    "type": "weapon",
-   "img": "icons/weapons/thrown/bomb-metal-brown.webp",
+   "img": "icons/weapons/thrown/bomb-gas-grey-purple.webp",
    "data": {
       "description": {
-         "value": "<p style=\"margin-bottom:0cm\"><span style=\"color:#000000\">This bomb deals 2d6 points of concussive damage, and imposes disadvantage for all rolls to creatures affected by it for one round. A successful saving throw halves the damage and negates the disadvantage.</span></p>\n<p>@Compendium[warcraft5e.wc5e_mechanics.4SX6o4iNVGiV1OXL]{Weakened}</p>\n<p> </p>\n<p><strong>Bomb</strong></p>\n<p>Bombs are thrown as light thrown weapons with a range of 30/60 feet. They deal no damage on impact, but explode when their fuse determines it (at the end of the user‘s turn, usually, see fuses below). A bomb that is thrown beyond optimal range provides advantage to saving throws to half damage. If you target a creature with the bomb as a ranged weapon attack and succeed on the attack roll, they do not get to roll to halve damage, and suffer the full damage. The creatures in the blast radius are still entitled saving throws as normal. If throwing a bomb on a target, the attack roll is the malfunction roll test, otherwise you must roll for malfunction as a separate d20 roll.</p>",
+         "value": "<p><em>Mana Engine</em></p>\n<p>This powerful bomb deals 5d6 concussive damage in a 10-foot sphere. A successful saving throw halves damage.</p>\n<p>The target loses 1d4 + 1 mana points. For every mana point lost, the target takes two points of arcane damage. The target is entitled a Spirit saving throw. On a success, the mana and hit points lost are halved.</p>\n<p>@Compendium[warcraft5e.wc5e_mechanics.4SX6o4iNVGiV1OXL]{Weakened (4)}</p>\n<p> </p>\n<p><strong>Bomb</strong></p>\n<p>Bombs are thrown as light thrown weapons with a range of 30/60 feet. They deal no damage on impact, but explode when their fuse determines it (at the end of the user‘s turn, usually, see fuses below). A bomb that is thrown beyond optimal range provides advantage to saving throws to half damage. If you target a creature with the bomb as a ranged weapon attack and succeed on the attack roll, they do not get to roll to halve damage, and suffer the full damage. The creatures in the blast radius are still entitled saving throws as normal. If throwing a bomb on a target, the attack roll is the malfunction roll test, otherwise you must roll for malfunction as a separate d20 roll.</p>",
          "chat": "",
          "unidentified": ""
       },
       "source": "Wc5e - Core p. 221",
       "quantity": 1,
-      "weight": 2,
-      "price": 20,
+      "weight": 5,
+      "price": 5120,
       "attunement": 0,
       "equipped": false,
-      "rarity": "common",
+      "rarity": "legendary",
       "identified": true,
       "activation": {
          "type": "action",
@@ -34,12 +34,12 @@
       "range": {
          "value": 30,
          "long": 60,
-         "units": ""
+         "units": "ft"
       },
       "uses": {
-         "value": 1,
-         "max": "1",
-         "per": "charges"
+         "value": null,
+         "max": "",
+         "per": ""
       },
       "consume": {
          "type": "ammo",
@@ -57,8 +57,12 @@
       "damage": {
          "parts": [
             [
-               "2d6",
+               "5d6",
                "concussive"
+            ],
+            [
+               "1d4+1",
+               "mana"
             ]
          ],
          "versatile": ""
@@ -78,8 +82,8 @@
          "dt": null,
          "conditions": ""
       },
-      "weaponType": "simpleR",
-      "baseItem": "",
+      "weaponType": "martialR",
+      "baseItem": "generalExplosive",
       "properties": {
          "ada": false,
          "amm": false,
@@ -102,9 +106,10 @@
          "bomb": true,
          "hvypl": false,
          "reloadpl": false,
-         "reloadplus": false
+         "reloadplus": false,
+         "rocket": false
       },
-      "proficient": true
+      "proficient": false
    },
    "effects": [],
    "folder": null,
@@ -114,10 +119,11 @@
    },
    "flags": {
       "wc5e": {
+         "type": "item",
          "enhancement": "",
          "mrmin": 1,
-         "mrmax": 2
+         "mrmax": 5
       }
    },
-   "_id": "aQcieFx6ESxsosqr"
+   "_id": "8zJsdYo1QliYWuLZ"
 }

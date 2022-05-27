@@ -8559,6 +8559,49 @@
                }
             }
          },
+         "BombArcane": {
+            "Label": "Bomb, Arcane",
+            "ShortDescription": "TODO: Mana Burn"
+         },
+         "BombBigDaddy": {
+            "Label": "Bomb, Big Daddy"
+         },
+         "BombBigIron": {
+            "Label": "Bomb, Big Iron"
+         },
+         "BombBigOne": {
+            "Label": "Bomb, Big One"
+         },
+         "BombCobalt": {
+            "Label": "Bomb, Cobalt"
+         },
+         "BombFire": {
+            "Label": "Bomb, Fire",
+            "ShortDescription": "TODO: Fire Bolt"
+         },
+         "BombFlash": {
+            "Label": "Bomb, Flash",
+            "ShortDescription": "TODO: Vicious Mockery"
+         },
+         "BombFried": {
+            "Label": "Bomb, F.R.I.E.D.",
+            "ShortDescription": "TODO: Fire Ball"
+         },
+         "BombIron": {
+            "Label": "Bomb, Iron"
+         },
+         "BombShock": {
+            "Label": "Bomb, Shock",
+            "ShortDescription": "TODO: Shocking Grasp"
+         },
+         "BombSmoke": {
+            "Label": "Bomb, Smoke",
+            "ShortDescription": "TODO: Fog Cloud"
+         },
+         "BombStun": {
+            "Label": "Bomb, Stun",
+            "ShortDescription": "TODO: Thunderstorm"
+         },
          "BookOfTheDead": {
             "Label": "Book of the Dead"
          },
@@ -8779,6 +8822,19 @@
                }
             }
          },
+         "GrenadeAdamantine": {
+            "Label": "Grenade, Adamantine"
+         },
+         "GrenadeHand": {
+            "Label": "Grenade, Hand"
+         },
+         "GrenadeHeavy": {
+            "Label": "Grenade, Heavy"
+         },
+         "GrenadePlagueSpreader": {
+            "Label": "Grenade, Plague Spreader",
+            "ShortDescription": "TODO: Poison Spray"
+         },
          "Gunpowder": {
             "Label": "Gunpowder",
             "ShortDescription": "Fuel for explosives, can burn for 1d6/pound"
@@ -8891,6 +8947,38 @@
          "MindScreamSpray": {
             "Label": "Mind Scream Spray"
          },
+         "MineArcane": {
+            "Label": "Mine, Arcane",
+            "ShortDescription": "Arcane Damage"
+         },
+         "MineBlasting": {
+            "Label": "Mine, Blasting",
+            "ShortDescription": "TODO: Thunderstorm"
+         },
+         "MineBreachCharge": {
+            "Label": "Mine, Breach Charge"
+         },
+         "MineDazing": {
+            "Label": "Mine, Dazing"
+         },
+         "MineFelIron": {
+            "Label": "Mine, Fel Iron"
+         },
+         "MineGoblinLand": {
+            "Label": "Mine, Goblin Land"
+         },
+         "MineIron": {
+            "Label": "Mine, Iron"
+         },
+         "MineSapper": {
+            "Label": "Mine, Sapper"
+         },
+         "MineSapperCharge2000": {
+            "Label": "Mine, Sapper Charge 2000"
+         },
+         "MineSea": {
+            "Label": "Mine, Sea"
+         },
          "Moonglaive": {
             "Label": "Moonglaive",
             "Description": {
@@ -8898,6 +8986,9 @@
                   "Value": "This circular blade has three dagger-like blades jutting from its sides. Uncommonly seen but easy to train with, Moonglaives are favored by the night elves of Kalimdor."
                }
             }
+         },
+         "MortarShell": {
+            "Label": "Mortar Shell"
          },
          "MusicalInstrument": {
             "Label": "Musical Instrument"
@@ -9041,6 +9132,33 @@
          },
          "RelicOfPower": {
             "Label": "Relic of Power"
+         },
+         "RocketDarkIron": {
+            "Label": "Rocket, Dark Iron"
+         },
+         "RocketFelIron": {
+            "Label": "Rocket, Fel Iron"
+         },
+         "RocketFire": {
+            "Label": "Rocket, Fire"
+         },
+         "RocketGrand": {
+            "Label": "Rocket, Grand"
+         },
+         "RocketIron": {
+            "Label": "Rocket, Iron"
+         },
+         "RocketLandShark": {
+            "Label": "Rocket, Land Shark"
+         },
+         "RocketMechaBlast": {
+            "Label": "Rocket, Mecha-Blast"
+         },
+         "RocketSiege": {
+            "Label": "Rocket, Siege"
+         },
+         "RocketTorpedo": {
+            "Label": "Rocket, Torpedo"
          },
          "RoyalSwordOfStormwind": {
             "Label": "Royal Sword of Stormwind"
@@ -9977,6 +10095,38 @@
                   }
                }
             },
+            "Earth": {
+               "Label": "Earth",
+               "Description": {
+                  "1": {
+                     "Value": "The rocket is outfitted with fast-moving drills, and can be launched to drill into the earth and explode under the target. If you have a remote keyed to the rocket, you can direct it to attack a target. If the target is standing on the ground, you have a +2 bonus to attack rolls to attack the target. If the target is aware and uses a reaction to jump, the bonus is negated (and the attack is made normally). This can cost no modification instead, and only work in the earth."
+                  }
+               }
+            },
+            "Firework": {
+               "Label": "Firework",
+               "Description": {
+                  "1": {
+                     "Value": "The explosive (any type) releases a sharp whistle and a ringing blast. A creature who fails their saving throw against this explosive must also roll a Stamina saving throw. Upon a failed save, roll 1d4 to see the effect."
+                  },
+                  "2": {
+                     "Options": {
+                        "1": "Target is blinded for 1 minute",
+                        "2": "Target is deafened for 1 minute",
+                        "3": "Target is blinded and deafened for 3 rounds",
+                        "4": "Target loses their reaction for until the end of your turn in the next round"
+                     }
+                  }
+               }
+            },
+            "Focused": {
+               "Label": "Focused",
+               "Description": {
+                  "1": {
+                     "Value": "The explosive (any type) explosive radius halves per engineering point applied to the modification (5-foot square for explosives not modified by size). This modification is applied after all increases."
+                  }
+               }
+            },
             "LowCharge": {
                "Label": "Low Charge",
                "Description": {
@@ -9990,6 +10140,14 @@
                "Description": {
                   "1": {
                      "Value": "The gadget‘s cooldown is 1d4 rounds instead of 1 minute. If applied twice, the gadget can be used again at the end of your turn in the next round. If applied to a device with a longer cooldown, it is reduced to 1 hour if it was 8 hours cooldown, and 8 hours if its cooldown was 1 day."
+                  }
+               }
+            },
+            "ReliableDevice": {
+               "Label": "Reliable Device",
+               "Description": {
+                  "1": {
+                     "Value": "The device‘s function is controlled. Its malfunction rating is reduced by 2 points for each EP invested. This can be applied in reverse, creating a more unreliable device (to benefit more from Superfunction)."
                   }
                }
             },
@@ -10029,11 +10187,27 @@
                   }
                }
             },
+            "Water": {
+               "Label": "Water",
+               "Description": {
+                  "1": {
+                     "Value": "The explosive is waterproofed, and can be used both underwater and in air-less environments regardless of fuel type. This can cost no modification instead, and only work underwater."
+                  }
+               }
+            },
             "Weakened": {
                "Label": "Weakened",
                "Description": {
                   "1": {
                      "Value": "The device deals 1 less base dice of damage. This is applied before accounting for size changes to damage dice."
+                  }
+               }
+            },
+            "Widened": {
+               "Label": "Widened",
+               "Description": {
+                  "1": {
+                     "Value": "The explosive's (any type) radius is increased by it's default range. This can be applied multiple times."
                   }
                }
             }
@@ -10312,6 +10486,14 @@
             "Description": {
                "1": {
                   "Value": "The Warcraft Universe has its own share of epic boons."
+               }
+            }
+         },
+         "EngineeringExplosives": {
+            "Label": "Explosives",
+            "Description": {
+               "1": {
+                  "Value": "Stores sell bombs, mines, and rockets as if the designer‘s Intelligence modifier is +2, making the DC equal to 10 + EP invested. A character proficient with Engineer‘s Tools can increase the DC of any explosive to be equal to their own. For more details on the use of explosives and their rules, refer to Chapter 7 under Engineer‘s Tools."
                }
             }
          },
@@ -13859,6 +14041,7 @@
             "Concussive": "Concussive",
             "Fel": "Fel",
             "Holy": "Holy",
+            "Mana": "Mana",
             "Piercing": "Piercing",
             "Shadow": "Shadow",
             "Slashing": "Slashing"
@@ -13923,6 +14106,7 @@
          },
          "Rarity": "Rarity",
          "RarityEp": "Rarity / EP",
+         "Result": "Result",
          "Scam": "Scam",
          "Size": "Size",
          "Specialty": "Specialty",
@@ -13966,9 +14150,11 @@
             "HeavyPl": "Heavy+",
             "HeavyPlus": "Heavy++",
             "Light": "Light",
+            "Mine": "Mine",
             "ReloadPl": "Reload (3)",
             "ReloadPlus": "Reload (5)",
             "Reach": "Reach",
+            "Rocket": "Rocket",
             "TwoHanded": "Two-Handed"
          }
       }

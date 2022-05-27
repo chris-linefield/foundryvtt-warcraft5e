@@ -1,0 +1,19 @@
+{
+   "_id": "0kkX8fLDVucLKRE4",
+   "name": "Reliable Device",
+   "permission": {
+      "default": 0
+   },
+   "type": "class",
+   "flags": {
+      "wc5e": {
+         "type": "rule",
+         "title": "WC5E.Rules.Mechanics.ReliableDevice.Label",
+         "content": [
+            {
+               "value": "WC5E.Rules.Mechanics.ReliableDevice.Description.1.Value"
+            }
+         ]
+      }
+   }
+}

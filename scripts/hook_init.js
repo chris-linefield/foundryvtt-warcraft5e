@@ -111,7 +111,9 @@ Hooks.once('init', async function () {
         let mrmax = 0;
         if (typeof (itemData.flags.wc5e) !== "undefined" &&
             typeof (itemData.flags.wc5e.mrmin) !== "undefined" &&
-            typeof (itemData.flags.wc5e.mrmax) !== "undefined") {
+            typeof (itemData.flags.wc5e.mrmax) !== "undefined" &&
+            itemData.flags.wc5e.mrmin !== null &&
+            itemData.flags.wc5e.mrmax !== null) {
             mrmin = itemData.flags.wc5e.mrmin;
             mrmax = itemData.flags.wc5e.mrmax;
         }
@@ -120,10 +122,9 @@ Hooks.once('init', async function () {
                 let rollResult = roll.terms[0].results[0].result;
                 if (rollResult <= mrmax) {
                     ChatMessage.create({content: 'Oh no! MALFUNCTION! (' + mrmin + ' - ' + mrmax + ')'});
-                    let tableName = 'Mishaps';
                     let gamePackage = game.packs.get("warcraft5e.wc5e_rolltables");
-                    let rollTable = gamePackage.getDocument('02jo8OAWgsD6E0hi').then(table => {
-                            let result = table.draw();
+                    gamePackage.getDocument('02jo8OAWgsD6E0hi').then(table => {
+                            table.draw();
                         }
                     )
                 }

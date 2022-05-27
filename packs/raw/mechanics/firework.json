@@ -1,0 +1,65 @@
+{
+   "_id": "E6aVKyR3jwPK0TrQ",
+   "name": "Firework",
+   "permission": {
+      "default": 0
+   },
+   "type": "class",
+   "flags": {
+      "wc5e": {
+         "type": "rule",
+         "title": "WC5E.Rules.Mechanics.Firework.Label",
+         "content": [
+            {
+               "value": "WC5E.Rules.Mechanics.Firework.Description.1.Value"
+            },
+            {
+               "table": {
+                  "head": [
+                     {
+                        "title": ""
+                     },
+                     {
+                        "title": "WC5E.UI.Result"
+                     }
+                  ],
+                  "rows": [
+                     [
+                        {
+                           "value": 1
+                        },
+                        {
+                           "text": "WC5E.Rules.Mechanics.Firework.Description.2.Options.1"
+                        }
+                     ],
+                     [
+                        {
+                           "value": 2
+                        },
+                        {
+                           "text": "WC5E.Rules.Mechanics.Firework.Description.2.Options.2"
+                        }
+                     ],
+                     [
+                        {
+                           "value": 3
+                        },
+                        {
+                           "text": "WC5E.Rules.Mechanics.Firework.Description.2.Options.3"
+                        }
+                     ],
+                     [
+                        {
+                           "value": 4
+                        },
+                        {
+                           "text": "WC5E.Rules.Mechanics.Firework.Description.2.Options.4"
+                        }
+                     ]
+                  ]
+               }
+            }
+         ]
+      }
+   }
+}

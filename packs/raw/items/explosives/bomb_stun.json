@@ -1,10 +1,10 @@
 {
-   "name": "Bomb, Flash",
+   "name": "Bomb, Stun",
    "type": "weapon",
-   "img": "icons/weapons/thrown/bomb-metal-brown.webp",
+   "img": "icons/weapons/thrown/bomb-fuse-pink.webp",
    "data": {
       "description": {
-         "value": "<p style=\"margin-bottom:0cm\"><span style=\"color:#000000\">This bomb deals 2d6 points of concussive damage, and imposes disadvantage for all rolls to creatures affected by it for one round. A successful saving throw halves the damage and negates the disadvantage.</span></p>\n<p>@Compendium[warcraft5e.wc5e_mechanics.4SX6o4iNVGiV1OXL]{Weakened}</p>\n<p> </p>\n<p><strong>Bomb</strong></p>\n<p>Bombs are thrown as light thrown weapons with a range of 30/60 feet. They deal no damage on impact, but explode when their fuse determines it (at the end of the user‘s turn, usually, see fuses below). A bomb that is thrown beyond optimal range provides advantage to saving throws to half damage. If you target a creature with the bomb as a ranged weapon attack and succeed on the attack roll, they do not get to roll to halve damage, and suffer the full damage. The creatures in the blast radius are still entitled saving throws as normal. If throwing a bomb on a target, the attack roll is the malfunction roll test, otherwise you must roll for malfunction as a separate d20 roll.</p>",
+         "value": "<p>This powerful bomb deals 2d6 concussive damage in a 10-foot sphere. Creatures in range of the shockwave take an extra 1d6 points of damage and are pushed 10 feet away from the area of the explosion, as are unsecured objects. A successful saving throw halves damage and are moved back only half normal distance.</p>\n<p>@Compendium[warcraft5e.wc5e_mechanics.4SX6o4iNVGiV1OXL]{Weakened}</p>\n<p> </p>\n<p><strong>Bomb</strong></p>\n<p>Bombs are thrown as light thrown weapons with a range of 30/60 feet. They deal no damage on impact, but explode when their fuse determines it (at the end of the user‘s turn, usually, see fuses below). A bomb that is thrown beyond optimal range provides advantage to saving throws to half damage. If you target a creature with the bomb as a ranged weapon attack and succeed on the attack roll, they do not get to roll to halve damage, and suffer the full damage. The creatures in the blast radius are still entitled saving throws as normal. If throwing a bomb on a target, the attack roll is the malfunction roll test, otherwise you must roll for malfunction as a separate d20 roll.</p>",
          "chat": "",
          "unidentified": ""
       },
@@ -34,12 +34,12 @@
       "range": {
          "value": 30,
          "long": 60,
-         "units": ""
+         "units": "ft"
       },
       "uses": {
-         "value": 1,
-         "max": "1",
-         "per": "charges"
+         "value": null,
+         "max": "",
+         "per": ""
       },
       "consume": {
          "type": "ammo",
@@ -57,7 +57,7 @@
       "damage": {
          "parts": [
             [
-               "2d6",
+               "3d6",
                "concussive"
             ]
          ],
@@ -78,8 +78,8 @@
          "dt": null,
          "conditions": ""
       },
-      "weaponType": "simpleR",
-      "baseItem": "",
+      "weaponType": "martialR",
+      "baseItem": "generalExplosive",
       "properties": {
          "ada": false,
          "amm": false,
@@ -104,7 +104,7 @@
          "reloadpl": false,
          "reloadplus": false
       },
-      "proficient": true
+      "proficient": false
    },
    "effects": [],
    "folder": null,
@@ -114,10 +114,11 @@
    },
    "flags": {
       "wc5e": {
+         "type": "item",
          "enhancement": "",
          "mrmin": 1,
          "mrmax": 2
       }
    },
-   "_id": "aQcieFx6ESxsosqr"
+   "_id": "gEnyxa6GQG8OIBob"
 }

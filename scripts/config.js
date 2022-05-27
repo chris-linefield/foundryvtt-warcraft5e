@@ -18,6 +18,7 @@ DND5E.damageTypes.arcane = "WC5E.UI.DamageTypes.Arcane";
 DND5E.damageTypes.concussive = "WC5E.UI.DamageTypes.Concussive";
 DND5E.damageTypes.fel = "WC5E.UI.DamageTypes.Fel";
 DND5E.damageTypes.holy = "WC5E.UI.DamageTypes.Holy";
+DND5E.damageTypes.mana = "WC5E.UI.DamageTypes.Mana";
 DND5E.damageTypes.shadow = "WC5E.UI.DamageTypes.Shadow";
 
 DND5E.healingTypes.healingMana = "WC5E.UI.HealingTypes.HealingMana";
@@ -73,9 +74,12 @@ DND5E.weaponEnhancements = {
 
 DND5E.weaponIds.attackClaws = "H9mvCWwGzgmMWCVL";
 DND5E.weaponIds.generalFirearm = "HjmGaC8pYCUTMLpV";
+DND5E.weaponIds.generalExplosive = "Ufk0F3Q9ew6prMzr";
 
 DND5E.weaponProperties.bomb = "WC5E.UI.WeaponProps.Bomb";
 DND5E.weaponProperties.hvypl = "WC5E.UI.WeaponProps.HeavyPl";
 DND5E.weaponProperties.hvyplus = "WC5E.UI.WeaponProps.HeavyPlus";
+DND5E.weaponProperties.mine = "WC5E.UI.WeaponProps.Mine";
 DND5E.weaponProperties.reloadpl = "WC5E.UI.WeaponProps.ReloadPl";
 DND5E.weaponProperties.reloadplus = "WC5E.UI.WeaponProps.ReloadPlus";
+DND5E.weaponProperties.rocket = "WC5E.UI.WeaponProps.Rocket";
