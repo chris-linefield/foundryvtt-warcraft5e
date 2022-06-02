@@ -971,6 +971,7 @@ ClassFeatures.warrior = {
         "5": ["Compendium.warcraft5e.wc5e_class_feats.nAoxQouvbcuIx2JQ"],
         "6": ["Compendium.warcraft5e.wc5e_class_feats.NSwm5sXXobXorPqC"],
         "8": ["Compendium.warcraft5e.wc5e_class_feats.NSwm5sXXobXorPqC"],
+        "9": ["Compendium.warcraft5e.wc5e_class_feats.lFVytL3t8utTKs2r"],
         "11": ["Compendium.warcraft5e.wc5e_class_feats.nAoxQouvbcuIx2JQ"],
         "12": ["Compendium.warcraft5e.wc5e_class_feats.NSwm5sXXobXorPqC"],
         "14": ["Compendium.warcraft5e.wc5e_class_feats.NSwm5sXXobXorPqC"],
