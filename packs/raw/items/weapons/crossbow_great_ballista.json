@@ -1,21 +1,20 @@
 {
-   "_id": "neRiY2ZyVIUbrMiy",
-   "name": "Minigun",
+   "name": "Crossbow, Great Ballista",
    "type": "weapon",
-   "img": "icons/weapons/artillery/cannon-engraved-gold.webp",
+   "img": "icons/weapons/crossbows/crossbow-loaded-black.webp",
    "data": {
       "description": {
-         "value": "<p>TODO</p>\n<p>@Compendium[warcraft5e.wc5e_mechanics.oWZqVntYIuZJurGR]{Automatic Fire (30ft)} @Compendium[warcraft5e.wc5e_mechanics.4InJb3rIxEalpa8g]{Capacity increase} @Compendium[warcraft5e.wc5e_mechanics.xbjQR7v9k4yV6HpD]{Shortened} @Compendium[warcraft5e.wc5e_mechanics.4SX6o4iNVGiV1OXL]{Weakened}</p>",
+         "value": "<p>TODO:</p>",
          "chat": "",
          "unidentified": ""
       },
-      "source": "Wc5e - Core p. 224",
+      "source": "Wc5e - Core p. 223",
       "quantity": 1,
       "weight": 90,
-      "price": 12800,
+      "price": 3200,
       "attunement": 0,
       "equipped": false,
-      "rarity": "veryRare",
+      "rarity": "rare",
       "identified": true,
       "activation": {
          "type": "action",
@@ -33,7 +32,7 @@
          "type": "creature"
       },
       "range": {
-         "value": 125,
+         "value": 150,
          "long": 500,
          "units": "ft"
       },
@@ -45,7 +44,7 @@
       "consume": {
          "type": "ammo",
          "target": "",
-         "amount": 5
+         "amount": 2
       },
       "ability": "",
       "actionType": "rwak",
@@ -58,7 +57,7 @@
       "damage": {
          "parts": [
             [
-               "4d10",
+               "6d6",
                "piercing"
             ]
          ],
@@ -84,7 +83,6 @@
       "properties": {
          "ada": false,
          "amm": false,
-         "bomb": false,
          "fin": false,
          "fir": true,
          "foc": false,
@@ -101,9 +99,13 @@
          "thr": false,
          "two": true,
          "ver": false,
+         "bomb": false,
          "hvypl": true,
-         "reloadpl": true,
-         "reloadplus": false
+         "mine": false,
+         "reloadpl": false,
+         "reloadplus": false,
+         "rocket": false,
+         "reloadp": true
       },
       "proficient": true
    },
@@ -115,9 +117,11 @@
    },
    "flags": {
       "wc5e": {
+         "type": "item",
+         "enhancement": "",
          "mrmin": 1,
-         "mrmax": 4,
-         "enhancement": ""
+         "mrmax": 3
       }
-   }
+   },
+   "_id": "fpMcntjEshtfKW0K"
 }

@@ -30,14 +30,14 @@
                      [
                         {
                            "link": {
-                              "pack": "warcraft5e.wc5e_items",
+                              "pack": "warcraft5e.wc5e_items_artifacts",
                               "node": "XalExDqMQoFD162i",
                               "label": "WC5E.Items.AnathemaAndBenediction.Label"
                            }
                         },
                         {
                            "link": {
-                              "pack": "warcraft5e.wc5e_items",
+                              "pack": "warcraft5e.wc5e_items_artifacts",
                               "node": "SIZkZtYNELPbkRJf",
                               "label": "WC5E.Items.Ashbringer.Label"
                            }
@@ -46,14 +46,14 @@
                      [
                         {
                            "link": {
-                              "pack": "warcraft5e.wc5e_items",
+                              "pack": "warcraft5e.wc5e_items_artifacts",
                               "node": "GN2KhsyyT9nKb2tc",
                               "label": "WC5E.Items.Atiesh.Label"
                            }
                         },
                         {
                            "link": {
-                              "pack": "warcraft5e.wc5e_items",
+                              "pack": "warcraft5e.wc5e_items_artifacts",
                               "node": "TusdUj6s3EPhF9M2",
                               "label": "WC5E.Items.Frostmourne.Label"
                            }
@@ -62,14 +62,14 @@
                      [
                         {
                            "link": {
-                              "pack": "warcraft5e.wc5e_items",
+                              "pack": "warcraft5e.wc5e_items_artifacts",
                               "node": "BtWpTE4aJCWzq7sG",
                               "label": "WC5E.Items.Shadowmourne.Label"
                            }
                         },
                         {
                            "link": {
-                              "pack": "warcraft5e.wc5e_items",
+                              "pack": "warcraft5e.wc5e_items_artifacts",
                               "node": "6cyw29uLT8ytun1B",
                               "label": "WC5E.Items.Thoridal.Label"
                            }
@@ -78,7 +78,7 @@
                      [
                         {
                            "link": {
-                              "pack": "warcraft5e.wc5e_items",
+                              "pack": "warcraft5e.wc5e_items_artifacts",
                               "node": "seRmzDIiDt5cPkD1",
                               "label": "WC5E.Items.Thunderfury.Label"
                            }

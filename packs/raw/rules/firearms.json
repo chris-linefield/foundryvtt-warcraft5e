@@ -1,0 +1,832 @@
+{
+   "_id": "vtecyDKuoGE5kuS4",
+   "name": "Engineering: Firearms",
+   "permission": {
+      "default": 0
+   },
+   "type": "class",
+   "flags": {
+      "wc5e": {
+         "type": "rule",
+         "title": "WC5E.Rules.EngineeringFirearms.Label",
+         "content": [
+            {
+               "value": "WC5E.Rules.EngineeringFirearms.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Rules.EngineeringFirearms.Description.2.Value"
+            },
+            {
+               "value": "WC5E.Rules.EngineeringFirearms.Description.3.Value"
+            },
+            {
+               "value": "WC5E.Rules.EngineeringFirearms.Description.4.Value"
+            },
+            {
+               "table": {
+                  "head": [
+                     {
+                        "title": "WC5E.UI.Name"
+                     },
+                     {
+                        "title": "WC5E.UI.RarityEp"
+                     },
+                     {
+                        "title": "WC5E.UI.DamageAmmo"
+                     },
+                     {
+                        "title": "WC5E.UI.Properties"
+                     }
+                  ],
+                  "rows": [
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_weapons",
+                              "node": "uAAKYCAMrsSug9jN",
+                              "label": "WC5E.Items.Blunderbuss.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Uncommon",
+                           "brackets": "+2"
+                        },
+                        {
+                           "text": "3d8/2"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_weapons",
+                              "node": "uChd92E3zWbxYfsa",
+                              "label": "WC5E.Items.BlunderbussScattershot.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Uncommon",
+                           "brackets": "+2"
+                        },
+                        {
+                           "text": "2d8/2"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_weapons",
+                              "node": "wWUAEXDAORxDeW5D",
+                              "label": "WC5E.Items.Boomstick.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Common",
+                           "brackets": "+2"
+                        },
+                        {
+                           "text": "2d6/2"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_weapons",
+                              "node": "lECARyaPbFsQ1m6R",
+                              "label": "WC5E.Items.CannonField.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Legendary",
+                           "brackets": "+5"
+                        },
+                        {
+                           "text": "11d6/1"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_weapons",
+                              "node": "LaGJbVQc8NvbWj9L",
+                              "label": "WC5E.Items.CannonFlak.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Common",
+                           "brackets": "+2"
+                        },
+                        {
+                           "text": "2d8/4"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_weapons",
+                              "node": "Fg6qSJ4QqLGY0jCd",
+                              "label": "WC5E.Items.CannonHand.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Epic",
+                           "brackets": "+4"
+                        },
+                        {
+                           "text": "5d6/4"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_weapons",
+                              "node": "euFzRnLOpIt5EWD0",
+                              "label": "WC5E.Items.CannonSiege.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Rare",
+                           "brackets": "+3"
+                        },
+                        {
+                           "text": "8d6/1"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_weapons",
+                              "node": "2w4udo6eF6Kn5f75",
+                              "label": "WC5E.Items.CaptainsDiplomacy.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Rare",
+                           "brackets": "+3"
+                        },
+                        {
+                           "text": "4d8/3"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_weapons",
+                              "node": "vHJjxrSXY9wqFa3l",
+                              "label": "WC5E.Items.CrossbowAir.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Common",
+                           "brackets": "+2"
+                        },
+                        {
+                           "text": "1d8/1"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_weapons",
+                              "node": "vcIGBaGN9Dm237Vk",
+                              "label": "WC5E.Items.CrossbowAuto.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Uncommon",
+                           "brackets": "+2"
+                        },
+                        {
+                           "text": "1d10/5"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_weapons",
+                              "node": "5qFekQDEMua4dlkD",
+                              "label": "WC5E.Items.CrossbowBloodseeker.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Epic",
+                           "brackets": "+4"
+                        },
+                        {
+                           "text": "4d8/3"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_weapons",
+                              "node": "JMtEAzI8uhiv4TsH",
+                              "label": "WC5E.Items.CrossbowExorcists.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Uncommon",
+                           "brackets": "+2"
+                        },
+                        {
+                           "text": "1d6/4"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_weapons",
+                              "node": "Q2NO1JgcjgcVBMAm",
+                              "label": "WC5E.Items.CrossbowFalinrush.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Epic",
+                           "brackets": "+4"
+                        },
+                        {
+                           "text": "3d6/3"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_weapons",
+                              "node": "fpMcntjEshtfKW0K",
+                              "label": "WC5E.Items.CrossbowGreatBallista.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Rare",
+                           "brackets": "+3"
+                        },
+                        {
+                           "text": "6d6/2"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_weapons",
+                              "node": "p7F6M1M3oI7N6onm",
+                              "label": "WC5E.Items.CrossbowHandOfArgus.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Uncommon",
+                           "brackets": "+2"
+                        },
+                        {
+                           "text": "1d10/1"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_weapons",
+                              "node": "ihnrdYneabCGu5Sm",
+                              "label": "WC5E.Items.CrossbowLegionkiller.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Legendary",
+                           "brackets": "+5"
+                        },
+                        {
+                           "text": "5d10/4"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_weapons",
+                              "node": "tdFTxoGFGxBv0xFf",
+                              "label": "WC5E.Items.CrossbowStoneShatterer.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Rare",
+                           "brackets": "+3"
+                        },
+                        {
+                           "text": "3d6/2"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_weapons",
+                              "node": "PBO9FpRjRVq1lThT",
+                              "label": "WC5E.Items.CrossbowThroatNeedler.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Rare",
+                           "brackets": "+3"
+                        },
+                        {
+                           "text": "3d8/5"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_weapons",
+                              "node": "msBBbRuxSfwc1Jl7",
+                              "label": "WC5E.Items.GiantsBane.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Legendary",
+                           "brackets": "+5"
+                        },
+                        {
+                           "text": "6d8/5"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_weapons",
+                              "node": "ay4JHnlthgh9ghdr",
+                              "label": "WC5E.Items.Grapeshotter.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Legendary",
+                           "brackets": "+5"
+                        },
+                        {
+                           "text": "6d8/5"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_weapons",
+                              "node": "neRiY2ZyVIUbrMiy",
+                              "label": "WC5E.Items.Minigun.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Epic",
+                           "brackets": "+4"
+                        },
+                        {
+                           "text": "4d10/7"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_weapons",
+                              "node": "iUnxi20KUJyTb8rj",
+                              "label": "WC5E.Items.MusketAnvilmar.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Common",
+                           "brackets": "+2"
+                        },
+                        {
+                           "text": "2d6/5"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_weapons",
+                              "node": "wEf9801cgPwgOq8U",
+                              "label": "WC5E.Items.MusketFarwatch.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Uncommon",
+                           "brackets": "+2"
+                        },
+                        {
+                           "text": "3d6/5"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_weapons",
+                              "node": "UwAYG8Ffv4Y6p8md",
+                              "label": "WC5E.Items.MusketFelIron.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Epic",
+                           "brackets": "+4"
+                        },
+                        {
+                           "text": "4d6/6"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_weapons",
+                              "node": "YMJDRMJO5Z7XnzSy",
+                              "label": "WC5E.Items.NesingwaryDoubleBarrel.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Legendary",
+                           "brackets": "+5"
+                        },
+                        {
+                           "text": "6d8/2"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_weapons",
+                              "node": "NShawbmFz16fAxrL",
+                              "label": "WC5E.Items.PistolArcanite.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Epic",
+                           "brackets": "+4"
+                        },
+                        {
+                           "text": "5d4/4"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_weapons",
+                              "node": "NCTLDA9zDQbDNtSn",
+                              "label": "WC5E.Items.PistolFlintlock.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Common",
+                           "brackets": "+2"
+                        },
+                        {
+                           "text": "2d4/2"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_weapons",
+                              "node": "WbT6V44xdp9JgpdG",
+                              "label": "WC5E.Items.PistolIron.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Common",
+                           "brackets": "+2"
+                        },
+                        {
+                           "text": "2d4/2"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_weapons",
+                              "node": "0DCguYH15D8FaLdQ",
+                              "label": "WC5E.Items.PistolPirates.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Uncommon",
+                           "brackets": "+2"
+                        },
+                        {
+                           "text": "3d4/2"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_weapons",
+                              "node": "hgPJnK5q0AUztkDH",
+                              "label": "WC5E.Items.PistolSnubRevolver.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Rare",
+                           "brackets": "+3"
+                        },
+                        {
+                           "text": "4d4/6"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_weapons",
+                              "node": "aYEKkbUCbgJnsdeo",
+                              "label": "WC5E.Items.RifleAssault.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Rare",
+                           "brackets": "+3"
+                        },
+                        {
+                           "text": "3d8/3"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_weapons",
+                              "node": "SROoaRSn3QT8md8a",
+                              "label": "WC5E.Items.RifleCrystalShot.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Epic",
+                           "brackets": "+4"
+                        },
+                        {
+                           "text": "4d8/4"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_weapons",
+                              "node": "XGGzZMKCFkfH67TF",
+                              "label": "WC5E.Items.RifleDarkIron.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Uncommon",
+                           "brackets": "+2"
+                        },
+                        {
+                           "text": "2d8/2"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_weapons",
+                              "node": "BU9VXxx6TgyKr6Hq",
+                              "label": "WC5E.Items.RifleDeadshot.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Legendary",
+                           "brackets": "+5"
+                        },
+                        {
+                           "text": "5d8/5"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_weapons",
+                              "node": "psElYGkgG8A12c7R",
+                              "label": "WC5E.Items.RifleHunting.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Common",
+                           "brackets": "+2"
+                        },
+                        {
+                           "text": "1d8/2"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_weapons",
+                              "node": "MlIqL05mXVcsa4IR",
+                              "label": "WC5E.Items.RifleLong.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Epic",
+                           "brackets": "+4"
+                        },
+                        {
+                           "text": "5d8/1"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_weapons",
+                              "node": "tJVPhfA8VNmcTbHd",
+                              "label": "WC5E.Items.RifleSniper.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Legendary",
+                           "brackets": "+5"
+                        },
+                        {
+                           "text": "6d8/2"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_weapons",
+                              "node": "LVxN3oPF0GHoLHeS",
+                              "label": "WC5E.Items.ShipNaaruCannon.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Rare",
+                           "brackets": "+3"
+                        },
+                        {
+                           "text": "8d6/1"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_weapons",
+                              "node": "TZOmVyvUU2DSUDm4",
+                              "label": "WC5E.Items.ShipSwivelCannon.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Uncommon",
+                           "brackets": "+2"
+                        },
+                        {
+                           "text": "3d10/5"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_weapons",
+                              "node": "qGtLq6jv5pFRSHX7",
+                              "label": "WC5E.Items.ShotgunCombat.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Epic",
+                           "brackets": "+4"
+                        },
+                        {
+                           "text": "5d6/4"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_weapons",
+                              "node": "Zw7XktJx6X1XUGgh",
+                              "label": "WC5E.Items.ShotgunWardens.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Rare",
+                           "brackets": "+3"
+                        },
+                        {
+                           "text": "4d6/3"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_weapons",
+                              "node": "udlhJVavakYPxH63",
+                              "label": "WC5E.Items.ShotgunZombie.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Uncommon",
+                           "brackets": "+2"
+                        },
+                        {
+                           "text": "3d6/2"
+                        },
+                        {
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_weapons",
+                              "node": "jZvjZnQJ8D1Dnvd2",
+                              "label": "WC5E.Items.Titanstrike.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Artifact",
+                           "brackets": "+6"
+                        },
+                        {
+                           "text": "6d8/6"
+                        },
+                        {
+                        }
+                     ]
+                  ]
+               }
+            }
+         ],
+         "prev": {
+            "pack": "wc5e_rules",
+            "node": "CKNGfqUkV7iS0ONn",
+            "label": "WC5E.Rules.EngineeringExplosives.Label"
+         },
+         "next": {
+            "pack": "wc5e_rules",
+            "node": "vtecyDKuoGE5kuS4",
+            "label": "WC5E.Rules.TODO.Label"
+         }
+      }
+   }
+}

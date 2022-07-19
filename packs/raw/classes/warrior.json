@@ -243,7 +243,13 @@
                "level": "9",
                "proficiency": "4",
                "special": "3",
-               "feats": []
+               "feats": [
+                  {
+                     "pack": "warcraft5e.wc5e_class_feats",
+                     "node": "lFVytL3t8utTKs2r",
+                     "label": "WC5E.Feats.WarriorTalent.Label"
+                  }
+               ]
             },
             {
                "level": "10",

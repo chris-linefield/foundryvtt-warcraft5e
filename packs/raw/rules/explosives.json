@@ -1,6 +1,6 @@
 {
    "_id": "CKNGfqUkV7iS0ONn",
-   "name": "Explosives",
+   "name": "Engineering: Explosives",
    "permission": {
       "default": 0
    },
@@ -699,8 +699,8 @@
          },
          "next": {
             "pack": "wc5e_rules",
-            "node": "ABTjvMps1gDvjoJM",
-            "label": "WC5E.Rules.Explosives.Label"
+            "node": "vtecyDKuoGE5kuS4",
+            "label": "WC5E.Rules.EngineeringFirearms.Label"
          }
       }
    }

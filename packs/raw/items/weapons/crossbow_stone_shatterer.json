@@ -1,21 +1,20 @@
 {
-   "_id": "neRiY2ZyVIUbrMiy",
-   "name": "Minigun",
+   "name": "Crossbow, Stone Shatterer",
    "type": "weapon",
-   "img": "icons/weapons/artillery/cannon-engraved-gold.webp",
+   "img": "icons/weapons/crossbows/crossbow-purple.webp",
    "data": {
       "description": {
-         "value": "<p>TODO</p>\n<p>@Compendium[warcraft5e.wc5e_mechanics.oWZqVntYIuZJurGR]{Automatic Fire (30ft)} @Compendium[warcraft5e.wc5e_mechanics.4InJb3rIxEalpa8g]{Capacity increase} @Compendium[warcraft5e.wc5e_mechanics.xbjQR7v9k4yV6HpD]{Shortened} @Compendium[warcraft5e.wc5e_mechanics.4SX6o4iNVGiV1OXL]{Weakened}</p>",
+         "value": "<p>TODO:</p>\n<p>@Compendium[warcraft5e.wc5e_mechanics.boZtlCbeqYuTsDVa]{Sniper}</p>",
          "chat": "",
          "unidentified": ""
       },
-      "source": "Wc5e - Core p. 224",
+      "source": "Wc5e - Core p. 223",
       "quantity": 1,
-      "weight": 90,
-      "price": 12800,
+      "weight": 3,
+      "price": 3200,
       "attunement": 0,
       "equipped": false,
-      "rarity": "veryRare",
+      "rarity": "rare",
       "identified": true,
       "activation": {
          "type": "action",
@@ -33,8 +32,8 @@
          "type": "creature"
       },
       "range": {
-         "value": 125,
-         "long": 500,
+         "value": 60,
+         "long": 240,
          "units": "ft"
       },
       "uses": {
@@ -45,7 +44,7 @@
       "consume": {
          "type": "ammo",
          "target": "",
-         "amount": 5
+         "amount": 2
       },
       "ability": "",
       "actionType": "rwak",
@@ -58,7 +57,7 @@
       "damage": {
          "parts": [
             [
-               "4d10",
+               "3d6",
                "piercing"
             ]
          ],
@@ -84,13 +83,12 @@
       "properties": {
          "ada": false,
          "amm": false,
-         "bomb": false,
          "fin": false,
          "fir": true,
          "foc": false,
          "hvy": false,
          "hvyplus": false,
-         "lgt": false,
+         "lgt": true,
          "lod": false,
          "mgc": false,
          "rch": false,
@@ -99,11 +97,15 @@
          "sil": false,
          "spc": false,
          "thr": false,
-         "two": true,
+         "two": false,
          "ver": false,
-         "hvypl": true,
-         "reloadpl": true,
-         "reloadplus": false
+         "bomb": false,
+         "hvypl": false,
+         "mine": false,
+         "reloadpl": false,
+         "reloadplus": false,
+         "rocket": false,
+         "reloadp": true
       },
       "proficient": true
    },
@@ -115,9 +117,11 @@
    },
    "flags": {
       "wc5e": {
+         "type": "item",
+         "enhancement": "",
          "mrmin": 1,
-         "mrmax": 4,
-         "enhancement": ""
+         "mrmax": 3
       }
-   }
+   },
+   "_id": "tdFTxoGFGxBv0xFf"
 }

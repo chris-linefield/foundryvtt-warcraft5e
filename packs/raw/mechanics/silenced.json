@@ -1,0 +1,19 @@
+{
+   "_id": "ZXKnimzEHloeTQFN",
+   "name": "Silenced",
+   "permission": {
+      "default": 0
+   },
+   "type": "class",
+   "flags": {
+      "wc5e": {
+         "type": "rule",
+         "title": "WC5E.Rules.Mechanics.Silenced.Label",
+         "content": [
+            {
+               "value": "WC5E.Rules.Mechanics.Silenced.Description.1.Value"
+            }
+         ]
+      }
+   }
+}

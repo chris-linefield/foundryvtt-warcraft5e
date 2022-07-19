@@ -31,6 +31,7 @@ DND5E.languages = {
     "dwarven": "WC5E.Languages.Dwarven",
     "draenei": "WC5E.Languages.Draenei",
     "draconic": "WC5E.Languages.Draconic",
+    "druidic": "WC5E.Languages.Druidic",
     "elven": "WC5E.Languages.Elven",
     "eredun": "WC5E.Languages.Eredun",
     "gnomish": "WC5E.Languages.Gnomish",
@@ -80,6 +81,7 @@ DND5E.weaponProperties.bomb = "WC5E.UI.WeaponProps.Bomb";
 DND5E.weaponProperties.hvypl = "WC5E.UI.WeaponProps.HeavyPl";
 DND5E.weaponProperties.hvyplus = "WC5E.UI.WeaponProps.HeavyPlus";
 DND5E.weaponProperties.mine = "WC5E.UI.WeaponProps.Mine";
+DND5E.weaponProperties.reloadp = "WC5E.UI.WeaponProps.ReloadP";
 DND5E.weaponProperties.reloadpl = "WC5E.UI.WeaponProps.ReloadPl";
 DND5E.weaponProperties.reloadplus = "WC5E.UI.WeaponProps.ReloadPlus";
 DND5E.weaponProperties.rocket = "WC5E.UI.WeaponProps.Rocket";
