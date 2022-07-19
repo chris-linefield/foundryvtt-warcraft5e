@@ -8544,7 +8544,7 @@
             "Label": "Blight"
          },
          "Blunderbuss": {
-            "Label": "Blunderbuss",
+            "Label": "Blunderbuss, Long Muzzle",
             "Description": {
                "1": {
                   "Value": "A heavy and powerful firearm favored by richer dwarves, the long muzzle blunderbuss is a heavy hitter with great history on the battlefield and a revered position in a dwarven household."
@@ -8638,6 +8638,21 @@
                }
             }
          },
+         "CannonField": {
+            "Label": "Cannon, Field"
+         },
+         "CannonFlak": {
+            "Label": "Cannon, Flak"
+         },
+         "CannonHand": {
+            "Label": "Cannon, Hand"
+         },
+         "CannonSiege": {
+            "Label": "Cannon, Siege"
+         },
+         "CaptainsDiplomacy": {
+            "Label": "Captain's Diplomacy"
+         },
          "CauldronCastIron": {
             "Label": "Cauldron (Cast Iron)",
             "Description": {
@@ -8698,6 +8713,36 @@
          "CracklePowder": {
             "Label": "Crackle Powder",
             "ShortDescription": "When stepped on, creates loud crack"
+         },
+         "CrossbowAir": {
+            "Label": "Crossbow, Air"
+         },
+         "CrossbowAuto": {
+            "Label": "Crossbow, Auto"
+         },
+         "CrossbowBloodseeker": {
+            "Label": "Crossbow, Bloodseeker"
+         },
+         "CrossbowExorcists": {
+            "Label": "Crossbow, Exorcist's"
+         },
+         "CrossbowFalinrush": {
+            "Label": "Crossbow, Fal'inrush"
+         },
+         "CrossbowGreatBallista": {
+            "Label": "Crossbow, Great Ballista"
+         },
+         "CrossbowHandOfArgus": {
+            "Label": "Crossbow, Hand of Argus"
+         },
+         "CrossbowLegionkiller": {
+            "Label": "Crossbow, Legionkiller"
+         },
+         "CrossbowStoneShatterer": {
+            "Label": "Crossbow, Stone Shatterer"
+         },
+         "CrossbowThroatNeedler": {
+            "Label": "Crossbow, Throat Needler"
          },
          "CrystalBall": {
             "Label": "Crystal Ball"
@@ -8805,8 +8850,14 @@
                }
             }
          },
+         "GiantsBane": {
+            "Label": "Giant's Bane"
+         },
          "Gorehowl": {
             "Label": "Gorehowl"
+         },
+         "Grapeshotter": {
+            "Label": "Grapeshotter"
          },
          "Greatclub": {
             "Label": "Greatclub"
@@ -8979,6 +9030,9 @@
          "MineSea": {
             "Label": "Mine, Sea"
          },
+         "Minigun": {
+            "Label": "Minigun"
+         },
          "Moonglaive": {
             "Label": "Moonglaive",
             "Description": {
@@ -8993,6 +9047,15 @@
          "MusicalInstrument": {
             "Label": "Musical Instrument"
          },
+         "MusketAnvilmar": {
+            "Label": "Musket, Anvilmar"
+         },
+         "MusketFarwatch": {
+            "Label": "Musket, Farwatch"
+         },
+         "MusketFelIron": {
+            "Label": "Musket, Fel Iron"
+         },
          "MutantSlashPotion": {
             "Label": "Mutant Slash Potion"
          },
@@ -9001,6 +9064,9 @@
          },
          "MysticWand": {
             "Label": "Mystic Wand"
+         },
+         "NesingwaryDoubleBarrel": {
+            "Label": "Nesingwary Double Barrel"
          },
          "NoxiousFumes": {
             "Label": "Noxious Fumes"
@@ -9039,6 +9105,21 @@
          "Phlogiston": {
             "Label": "Phlogiston",
             "ShortDescription": "Fuel for combustion engines, provides more charges"
+         },
+         "PistolArcanite": {
+            "Label": "Pistol, Arcanite"
+         },
+         "PistolFlintlock": {
+            "Label": "Pistol, Flintlock"
+         },
+         "PistolIron": {
+            "Label": "Pistol, Iron"
+         },
+         "PistolPirates": {
+            "Label": "Pistol, Pirate's"
+         },
+         "PistolSnubRevolver": {
+            "Label": "Pistol, Snub Revolver"
          },
          "PlagueheartRaimentMask": {
             "Label": "Plagueheart Raiment Mask"
@@ -9133,6 +9214,27 @@
          "RelicOfPower": {
             "Label": "Relic of Power"
          },
+         "RifleAssault": {
+            "Label": "Rifle, Assault"
+         },
+         "RifleCrystalShot": {
+            "Label": "Rifle, Crystalshot"
+         },
+         "RifleDarkIron": {
+            "Label": "Rifle, Dark Iron"
+         },
+         "RifleDeadshot": {
+            "Label": "Rifle, Deadshot"
+         },
+         "RifleHunting": {
+            "Label": "Rifle, Hunting"
+         },
+         "RifleLong": {
+            "Label": "Rifle, Long"
+         },
+         "RifleSniper": {
+            "Label": "Rifle, Sniper"
+         },
          "RocketDarkIron": {
             "Label": "Rocket, Dark Iron"
          },
@@ -9181,8 +9283,23 @@
          "Shadowmourne": {
             "Label": "Shadowmourne"
          },
+         "ShipNaaruCannon": {
+            "Label": "Ship, Naaru Cannon"
+         },
+         "ShipSwivelCannon": {
+            "Label": "Ship, Swivel Cannon"
+         },
          "Shortsword": {
             "Label": "Shortsword"
+         },
+         "ShotgunCombat": {
+            "Label": "Shotgun, Combat"
+         },
+         "ShotgunWardens": {
+            "Label": "Shotgun, Warden's"
+         },
+         "ShotgunZombie": {
+            "Label": "Shotgun, Zombie"
          },
          "SilverHandBlessedBelt": {
             "Label": "Silver Hand Blessed Belt"
@@ -9277,6 +9394,9 @@
          "TirioshNightmareOfAges": {
             "Label": "Tiriosh, Nightmare of Ages"
          },
+         "Titanstrike": {
+            "Label": "Titanstrike"
+         },
          "TotemTauren": {
             "Label": "Totem, Tauren",
             "Description": {
@@ -9361,6 +9481,7 @@
          "Dwarven": "Dwarven",
          "Draenei": "Draenei",
          "Draconic": "Draconic",
+         "Druidic": "Druidic",
          "Elven": "Elven",
          "Eredun": "Eredun",
          "Gnomish": "Gnomish",
@@ -10179,6 +10300,14 @@
                   }
                }
             },
+            "Silenced": {
+               "Label": "Silenced",
+               "Description": {
+                  "1": {
+                     "Value": "The firearm‘s sound is muffled, and imposes no penalty to the user‘s Stealth check when used. This can be made into an add-on."
+                  }
+               }
+            },
             "Sniper": {
                "Label": "Sniper",
                "Description": {
@@ -10435,6 +10564,31 @@
                }
             }
          },
+         "EngineeringExplosives": {
+            "Label": "Explosives",
+            "Description": {
+               "1": {
+                  "Value": "Stores sell bombs, mines, and rockets as if the designer‘s Intelligence modifier is +2, making the DC equal to 10 + EP invested. A character proficient with Engineer‘s Tools can increase the DC of any explosive to be equal to their own. For more details on the use of explosives and their rules, refer to Chapter 7 under Engineer‘s Tools."
+               }
+            }
+         },
+         "EngineeringFirearms": {
+            "Label": "Engineering: Firearms",
+            "Description": {
+               "1": {
+                  "Value": "All firearms use combustion engines, while all crossbows use mechanical engines. Due to the properties of both weapons, adding fuel (or reloading) follows simpler mechanisms; firearms need 2 ounces of gunpowder regardless of rarity for every shot, and crossbows require 1 action to reload"
+               },
+               "2": {
+                  "Value": "Special modifications and size increases alter actions reloaded."
+               },
+               "3": {
+                  "Value": "Firearms and crossbows with special fuel sources are marked with asterisk (*)."
+               },
+               "4": {
+                  "Value": "For more details on firearms and modified crossbows, and their rules, refer to Chapter 7 under Engineer‘s Tools."
+               }
+            }
+         },
          "Enhancements": {
             "Label": "Enhancements",
             "Description": {
@@ -10486,14 +10640,6 @@
             "Description": {
                "1": {
                   "Value": "The Warcraft Universe has its own share of epic boons."
-               }
-            }
-         },
-         "EngineeringExplosives": {
-            "Label": "Explosives",
-            "Description": {
-               "1": {
-                  "Value": "Stores sell bombs, mines, and rockets as if the designer‘s Intelligence modifier is +2, making the DC equal to 10 + EP invested. A character proficient with Engineer‘s Tools can increase the DC of any explosive to be equal to their own. For more details on the use of explosives and their rules, refer to Chapter 7 under Engineer‘s Tools."
                }
             }
          },
@@ -14035,6 +14181,7 @@
          "Cost": "Cost",
          "Creature": "Creature",
          "Damage": "Damage",
+         "DamageAmmo": "Damage/Ammo",
          "DamageTypes": {
             "Arcane": "Arcane",
             "Bludgeoning": "Bludgeoning",
@@ -14151,6 +14298,7 @@
             "HeavyPlus": "Heavy++",
             "Light": "Light",
             "Mine": "Mine",
+            "ReloadP": "Reload (2)",
             "ReloadPl": "Reload (3)",
             "ReloadPlus": "Reload (5)",
             "Reach": "Reach",

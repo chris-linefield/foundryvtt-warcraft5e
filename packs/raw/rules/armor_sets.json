@@ -33,14 +33,14 @@
                      [
                         {
                            "link": {
-                              "pack": "warcraft5e.wc5e_items",
+                              "pack": "warcraft5e.wc5e_items_armor_sets",
                               "node": "3oACU5ZiSHiSQ6wP",
                               "label": "WC5E.Items.AvatarRaimentArmWraps.Label"
                            }
                         },
                         {
                            "link": {
-                              "pack": "warcraft5e.wc5e_items",
+                              "pack": "warcraft5e.wc5e_items_armor_sets",
                               "node": "uac9IAso35jQzKBq",
                               "label": "WC5E.Items.AvatarRaimentGloves.Label"
                            }
@@ -49,14 +49,14 @@
                      [
                         {
                            "link": {
-                              "pack": "warcraft5e.wc5e_items",
+                              "pack": "warcraft5e.wc5e_items_armor_sets",
                               "node": "0ykgBHOVrZCF7bCD",
                               "label": "WC5E.Items.AvatarRaimentMantle.Label"
                            }
                         },
                         {
                            "link": {
-                              "pack": "warcraft5e.wc5e_items",
+                              "pack": "warcraft5e.wc5e_items_armor_sets",
                               "node": "dzikPMoBTSgsphCC",
                               "label": "WC5E.Items.AvatarRaimentVestments.Label"
                            }
@@ -88,14 +88,14 @@
                      [
                         {
                            "link": {
-                              "pack": "warcraft5e.wc5e_items",
+                              "pack": "warcraft5e.wc5e_items_armor_sets",
                               "node": "b1NLkp3JG79xraEk",
                               "label": "WC5E.Items.BlackenedDefiasArmor.Label"
                            }
                         },
                         {
                            "link": {
-                              "pack": "warcraft5e.wc5e_items",
+                              "pack": "warcraft5e.wc5e_items_armor_sets",
                               "node": "C0QYXGldova86YWS",
                               "label": "WC5E.Items.BlackenedDefiasBelt.Label"
                            }
@@ -104,14 +104,14 @@
                      [
                         {
                            "link": {
-                              "pack": "warcraft5e.wc5e_items",
+                              "pack": "warcraft5e.wc5e_items_armor_sets",
                               "node": "vOzCjGYa3SIHA3Pc",
                               "label": "WC5E.Items.BlackenedDefiasBoots.Label"
                            }
                         },
                         {
                            "link": {
-                              "pack": "warcraft5e.wc5e_items",
+                              "pack": "warcraft5e.wc5e_items_armor_sets",
                               "node": "2pCgAkBqEcES8DeJ",
                               "label": "WC5E.Items.BlackenedDefiasGloves.Label"
                            }
@@ -143,14 +143,14 @@
                      [
                         {
                            "link": {
-                              "pack": "warcraft5e.wc5e_items",
+                              "pack": "warcraft5e.wc5e_items_armor_sets",
                               "node": "cOzVPtnh369hmerd",
                               "label": "WC5E.Items.CenarionRaimentBelt.Label"
                            }
                         },
                         {
                            "link": {
-                              "pack": "warcraft5e.wc5e_items",
+                              "pack": "warcraft5e.wc5e_items_armor_sets",
                               "node": "RE49d7raNQPcJCul",
                               "label": "WC5E.Items.CenarionRaimentBracers.Label"
                            }
@@ -159,14 +159,14 @@
                      [
                         {
                            "link": {
-                              "pack": "warcraft5e.wc5e_items",
+                              "pack": "warcraft5e.wc5e_items_armor_sets",
                               "node": "cV8nefHUoQNSrA7Y",
                               "label": "WC5E.Items.CenarionRaimentHelm.Label"
                            }
                         },
                         {
                            "link": {
-                              "pack": "warcraft5e.wc5e_items",
+                              "pack": "warcraft5e.wc5e_items_armor_sets",
                               "node": "UZIky01Xc34sk28j",
                               "label": "WC5E.Items.CenarionRaimentVestments.Label"
                            }
@@ -198,14 +198,14 @@
                      [
                         {
                            "link": {
-                              "pack": "warcraft5e.wc5e_items",
+                              "pack": "warcraft5e.wc5e_items_armor_sets",
                               "node": "aIcVSXrcEWgITnuC",
                               "label": "WC5E.Items.DestroyerArmorBreastplate.Label"
                            }
                         },
                         {
                            "link": {
-                              "pack": "warcraft5e.wc5e_items",
+                              "pack": "warcraft5e.wc5e_items_armor_sets",
                               "node": "UCrkBLOBYmfbuscf",
                               "label": "WC5E.Items.DestroyerArmorGauntlets.Label"
                            }
@@ -214,14 +214,14 @@
                      [
                         {
                            "link": {
-                              "pack": "warcraft5e.wc5e_items",
+                              "pack": "warcraft5e.wc5e_items_armor_sets",
                               "node": "SHYY1va9Iv9vQbo2",
                               "label": "WC5E.Items.DestroyerArmorGirdle.Label"
                            }
                         },
                         {
                            "link": {
-                              "pack": "warcraft5e.wc5e_items",
+                              "pack": "warcraft5e.wc5e_items_armor_sets",
                               "node": "dJxHlEA2UktB452H",
                               "label": "WC5E.Items.DestroyerArmorGreatHelm.Label"
                            }
@@ -253,14 +253,14 @@
                      [
                         {
                            "link": {
-                              "pack": "warcraft5e.wc5e_items",
+                              "pack": "warcraft5e.wc5e_items_armor_sets",
                               "node": "YNjXp18I6cu5hr9O",
                               "label": "WC5E.Items.DragonstalkerArmorBeastplate.Label"
                            }
                         },
                         {
                            "link": {
-                              "pack": "warcraft5e.wc5e_items",
+                              "pack": "warcraft5e.wc5e_items_armor_sets",
                               "node": "yzGlk1NYXhuRuYva",
                               "label": "WC5E.Items.DragonstalkerArmorBracers.Label"
                            }
@@ -269,14 +269,14 @@
                      [
                         {
                            "link": {
-                              "pack": "warcraft5e.wc5e_items",
+                              "pack": "warcraft5e.wc5e_items_armor_sets",
                               "node": "zYbPbL0Ev6d1VGDk",
                               "label": "WC5E.Items.DragonstalkerArmorHelm.Label"
                            }
                         },
                         {
                            "link": {
-                              "pack": "warcraft5e.wc5e_items",
+                              "pack": "warcraft5e.wc5e_items_armor_sets",
                               "node": "3Cs0CJ8aB7qZcdWp",
                               "label": "WC5E.Items.DragonstalkerArmorLegguards.Label"
                            }
@@ -308,14 +308,14 @@
                      [
                         {
                            "link": {
-                              "pack": "warcraft5e.wc5e_items",
+                              "pack": "warcraft5e.wc5e_items_armor_sets",
                               "node": "Nkav322etFTAXQT5",
                               "label": "WC5E.Items.JudgementArmorBelt.Label"
                            }
                         },
                         {
                            "link": {
-                              "pack": "warcraft5e.wc5e_items",
+                              "pack": "warcraft5e.wc5e_items_armor_sets",
                               "node": "Zq5RAm9xQpS2R1sH",
                               "label": "WC5E.Items.JudgementArmorBindings.Label"
                            }
@@ -324,14 +324,14 @@
                      [
                         {
                            "link": {
-                              "pack": "warcraft5e.wc5e_items",
+                              "pack": "warcraft5e.wc5e_items_armor_sets",
                               "node": "Ty0CBVpmV1utRKsO",
                               "label": "WC5E.Items.JudgementArmorCrown.Label"
                            }
                         },
                         {
                            "link": {
-                              "pack": "warcraft5e.wc5e_items",
+                              "pack": "warcraft5e.wc5e_items_armor_sets",
                               "node": "fJcbl5230khJtbxj",
                               "label": "WC5E.Items.JudgementArmorPlate.Label"
                            }
@@ -363,14 +363,14 @@
                      [
                         {
                            "link": {
-                              "pack": "warcraft5e.wc5e_items",
+                              "pack": "warcraft5e.wc5e_items_armor_sets",
                               "node": "ARiU4EzobR9gaVBU",
                               "label": "WC5E.Items.MagistersRegaliaBindings.Label"
                            }
                         },
                         {
                            "link": {
-                              "pack": "warcraft5e.wc5e_items",
+                              "pack": "warcraft5e.wc5e_items_armor_sets",
                               "node": "GJ52YZHrvpDLQpeZ",
                               "label": "WC5E.Items.MagistersRegaliaCrown.Label"
                            }
@@ -379,14 +379,14 @@
                      [
                         {
                            "link": {
-                              "pack": "warcraft5e.wc5e_items",
+                              "pack": "warcraft5e.wc5e_items_armor_sets",
                               "node": "56fwN4ByQ3RX9n1G",
                               "label": "WC5E.Items.MagistersRegaliaMantle.Label"
                            }
                         },
                         {
                            "link": {
-                              "pack": "warcraft5e.wc5e_items",
+                              "pack": "warcraft5e.wc5e_items_armor_sets",
                               "node": "zkEyutqOZ8KF3bsF",
                               "label": "WC5E.Items.MagistersRegaliaRobe.Label"
                            }
@@ -418,14 +418,14 @@
                      [
                         {
                            "link": {
-                              "pack": "warcraft5e.wc5e_items",
+                              "pack": "warcraft5e.wc5e_items_armor_sets",
                               "node": "b8cpItQuS0VoiONg",
                               "label": "WC5E.Items.PlagueheartRaimentGloves.Label"
                            }
                         },
                         {
                            "link": {
-                              "pack": "warcraft5e.wc5e_items",
+                              "pack": "warcraft5e.wc5e_items_armor_sets",
                               "node": "poEswVexHb85MFgw",
                               "label": "WC5E.Items.PlagueheartRaimentMask.Label"
                            }
@@ -434,14 +434,14 @@
                      [
                         {
                            "link": {
-                              "pack": "warcraft5e.wc5e_items",
+                              "pack": "warcraft5e.wc5e_items_armor_sets",
                               "node": "SyAsHVLV2ziNPlCh",
                               "label": "WC5E.Items.PlagueheartRaimentRobe.Label"
                            }
                         },
                         {
                            "link": {
-                              "pack": "warcraft5e.wc5e_items",
+                              "pack": "warcraft5e.wc5e_items_armor_sets",
                               "node": "DovwxOofNHuWjtCd",
                               "label": "WC5E.Items.PlagueheartRaimentSandals.Label"
                            }
@@ -473,14 +473,14 @@
                      [
                         {
                            "link": {
-                              "pack": "warcraft5e.wc5e_items",
+                              "pack": "warcraft5e.wc5e_items_armor_sets",
                               "node": "a4xOsC7Me8NL7Hlp",
                               "label": "WC5E.Items.VioletCitadelBoots.Label"
                            }
                         },
                         {
                            "link": {
-                              "pack": "warcraft5e.wc5e_items",
+                              "pack": "warcraft5e.wc5e_items_armor_sets",
                               "node": "xPJMea3TSIsLPyvW",
                               "label": "WC5E.Items.VioletCitadelGloves.Label"
                            }
@@ -489,14 +489,14 @@
                      [
                         {
                            "link": {
-                              "pack": "warcraft5e.wc5e_items",
+                              "pack": "warcraft5e.wc5e_items_armor_sets",
                               "node": "DzZfwQxKK3LUkUAl",
                               "label": "WC5E.Items.VioletCitadelHood.Label"
                            }
                         },
                         {
                            "link": {
-                              "pack": "warcraft5e.wc5e_items",
+                              "pack": "warcraft5e.wc5e_items_armor_sets",
                               "node": "LgBVSU10p7LDYPWz",
                               "label": "WC5E.Items.VioletCitadelRobe.Label"
                            }
@@ -528,14 +528,14 @@
                      [
                         {
                            "link": {
-                              "pack": "warcraft5e.wc5e_items",
+                              "pack": "warcraft5e.wc5e_items_armor_sets",
                               "node": "tdM6uOD7lSSLtctU",
                               "label": "WC5E.Items.SilverHandBlessedBelt.Label"
                            }
                         },
                         {
                            "link": {
-                              "pack": "warcraft5e.wc5e_items",
+                              "pack": "warcraft5e.wc5e_items_armor_sets",
                               "node": "lAu3TMPbnxApzHme",
                               "label": "WC5E.Items.SilverHandBlessedGauntlets.Label"
                            }
@@ -544,14 +544,14 @@
                      [
                         {
                            "link": {
-                              "pack": "warcraft5e.wc5e_items",
+                              "pack": "warcraft5e.wc5e_items_armor_sets",
                               "node": "rMfUjKtrRsyBRqWR",
                               "label": "WC5E.Items.SilverHandBlessedGreaves.Label"
                            }
                         },
                         {
                            "link": {
-                              "pack": "warcraft5e.wc5e_items",
+                              "pack": "warcraft5e.wc5e_items_armor_sets",
                               "node": "8dcStjz2DnVL0Pki",
                               "label": "WC5E.Items.SilverHandBlessedPlate.Label"
                            }
