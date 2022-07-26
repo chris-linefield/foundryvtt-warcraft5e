@@ -1,4 +1,5 @@
 {
+   "_id": "qGtLq6jv5pFRSHX7",
    "name": "Shotgun, Combat",
    "type": "weapon",
    "img": "icons/weapons/guns/gun-double-barrel.webp",
@@ -44,7 +45,7 @@
       "consume": {
          "type": "ammo",
          "target": "",
-         "amount": 4
+         "amount": 1
       },
       "ability": "",
       "actionType": "rwak",
@@ -120,8 +121,9 @@
          "type": "item",
          "enhancement": "",
          "mrmin": 1,
-         "mrmax": 4
+         "mrmax": 4,
+         "ammo": null,
+         "capacity": 4
       }
-   },
-   "_id": "qGtLq6jv5pFRSHX7"
+   }
 }

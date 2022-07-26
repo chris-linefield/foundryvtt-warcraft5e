@@ -103,20 +103,42 @@ Hooks.once('init', async function () {
         return result;
     });
 
-    //rolls malfunction / mishap
-    libWrapper.register('warcraft5e', 'game.dnd5e.entities.Item5e.prototype.rollAttack', function (wrapped, ...args) {
-        let result = wrapped(...args);
+    //rolls malfunction / mishap / capacity
+    libWrapper.register('warcraft5e', 'game.dnd5e.entities.Item5e.prototype.rollAttack', async function (wrapped, ...args) {
         let itemData = this.data;
         let mrmin = 0;
         let mrmax = 0;
-        if (typeof (itemData.flags.wc5e) !== "undefined" &&
-            typeof (itemData.flags.wc5e.mrmin) !== "undefined" &&
-            typeof (itemData.flags.wc5e.mrmax) !== "undefined" &&
-            itemData.flags.wc5e.mrmin !== null &&
-            itemData.flags.wc5e.mrmax !== null) {
-            mrmin = itemData.flags.wc5e.mrmin;
-            mrmax = itemData.flags.wc5e.mrmax;
+        let ammo = 0;
+        if (typeof (itemData.flags.wc5e) !== "undefined") {
+            if (typeof (itemData.flags.wc5e.ammo) !== "undefined") {
+                ammo = itemData.flags.wc5e.ammo;
+                if (ammo === null) {
+                    ammo = itemData.flags.wc5e.capacity;
+                    itemData.flags.wc5e.ammo = ammo;
+                } else {
+                    if (ammo === 0) {
+                        const token = this.actor.token;
+                        const html = await renderTemplate("modules/warcraft5e/templates/chat/reload.html", {
+                            actor: this.actor.data,
+                            tokenId: token?.uuid || null,
+                            item: this.data,
+                        });
+                        ChatMessage.create({
+                            content: html
+                        });
+                        return false;
+                    }
+                }
+            }
+            if (typeof (itemData.flags.wc5e.mrmin) !== "undefined" &&
+                typeof (itemData.flags.wc5e.mrmax) !== "undefined" &&
+                itemData.flags.wc5e.mrmin !== null &&
+                itemData.flags.wc5e.mrmax !== null) {
+                mrmin = itemData.flags.wc5e.mrmin;
+                mrmax = itemData.flags.wc5e.mrmax;
+            }
         }
+        let result = wrapped(...args);
         result.then(roll => {
             if (roll !== null) {
                 let rollResult = roll.terms[0].results[0].result;
@@ -128,6 +150,11 @@ Hooks.once('init', async function () {
                         }
                     )
                 }
+
+                if (ammo !== 0) {
+                    ammo = ammo - 1;
+                    this.update({['flags.wc5e.ammo']: ammo});
+                }
             }
         });
         return result;
@@ -136,6 +163,36 @@ Hooks.once('init', async function () {
     //splits damage types (like concussive) into their respective sub damage types
     libWrapper.register('warcraft5e', 'game.dnd5e.entities.Item5e.prototype.rollDamage', function (wrapped, ...args) {
         this.labels.damageTypes = this.labels.damageTypes.replace(/Concussive/i, "Concussive (Thunder, Bludgeoning)");
+        let result = wrapped(...args);
+        return result;
+    });
+
+    //Adds functionality to chat buttons
+    libWrapper.register('warcraft5e', 'game.dnd5e.entities.Item5e._onChatCardAction', async function (wrapped, ...args) {
+        let event = args[0];
+        event.preventDefault();
+
+        // Extract card data
+        const button = event.currentTarget;
+        const action = button.dataset.action;
+
+        if (action === 'reload') {
+            button.disabled = true;
+
+            const card = button.closest(".chat-card");
+            const messageId = card.closest(".message").dataset.messageId;
+            const message = game.messages.get(messageId);
+
+            const actor = await this._getChatCardActor(card);
+            if (!actor) return;
+
+            const storedData = message.getFlag("dnd5e", "itemData");
+            const item = storedData ? new this(storedData, {parent: actor}) : actor.items.get(card.dataset.itemId);
+            const itemData = item.data;
+            item.update({['flags.wc5e.ammo']: itemData.flags.wc5e.capacity});
+            return;
+        }
+
         let result = wrapped(...args);
         return result;
     });

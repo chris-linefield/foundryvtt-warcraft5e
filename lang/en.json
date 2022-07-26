@@ -10589,6 +10589,17 @@
                }
             }
          },
+         "EngineeringAmmunition": {
+            "Label": "Engineering: Ammunition",
+            "Description": {
+               "1": {
+                  "Value": "Engineered ammunition is similar to infused ammunition (see Treasures), but follows some differences in rules (See Chapter 7). Below are a number of special engineered ammunition."
+               },
+               "2": {
+                  "Value": "Ammunition costs as a consumable of the listed rarity."
+               }
+            }
+         },
          "Enhancements": {
             "Label": "Enhancements",
             "Description": {
@@ -14174,6 +14185,7 @@
          "Bond": "Bond",
          "Bonds": "Bonds",
          "BonusAction": "Bonus Action",
+         "Capacity": "Capacity",
          "Challenge": "Challenge",
          "ChangeRace": "Change Race",
          "Class": "Class",
@@ -14253,6 +14265,7 @@
          },
          "Rarity": "Rarity",
          "RarityEp": "Rarity / EP",
+         "Reload": "Reload",
          "Result": "Result",
          "Scam": "Scam",
          "Size": "Size",

@@ -93,7 +93,7 @@
          "lod": false,
          "mgc": false,
          "rch": false,
-         "rel": true,
+         "rel": false,
          "ret": false,
          "sil": false,
          "spc": false,
@@ -121,7 +121,9 @@
          "type": "item",
          "enhancement": "",
          "mrmin": 1,
-         "mrmax": 2
+         "mrmax": 1,
+         "ammo": null,
+         "capacity": 1
       }
    }
 }

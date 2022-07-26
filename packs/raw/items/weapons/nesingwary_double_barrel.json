@@ -1,4 +1,5 @@
 {
+   "_id": "YMJDRMJO5Z7XnzSy",
    "name": "Nesingwary Couble Barrel",
    "type": "weapon",
    "img": "icons/weapons/guns/gun-double-barrel.webp",
@@ -44,7 +45,7 @@
       "consume": {
          "type": "ammo",
          "target": "",
-         "amount": 2
+         "amount": 1
       },
       "ability": "",
       "actionType": "rwak",
@@ -91,7 +92,7 @@
          "lod": false,
          "mgc": false,
          "rch": false,
-         "rel": true,
+         "rel": false,
          "ret": false,
          "sil": false,
          "spc": false,
@@ -120,8 +121,9 @@
          "type": "item",
          "enhancement": "",
          "mrmin": 1,
-         "mrmax": 5
+         "mrmax": 5,
+         "ammo": null,
+         "capacity": 2
       }
-   },
-   "_id": "YMJDRMJO5Z7XnzSy"
+   }
 }

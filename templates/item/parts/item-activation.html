@@ -166,3 +166,12 @@
     </div>
 </div>
 {{/if}}
+
+{{!-- Capacity --}}
+<div class="form-group input-select">
+    <label>{{ localize "WC5E.UI.Capacity" }}</label>
+    <div class="form-fields">
+        <input type="hidden" name="flags.wc5e.ammo" value="{{item.flags.wc5e.ammo}}" data-dtype="Number"/>
+        <input type="text" name="flags.wc5e.capacity" value="{{item.flags.wc5e.capacity}}" data-dtype="Number"/>
+    </div>
+</div>

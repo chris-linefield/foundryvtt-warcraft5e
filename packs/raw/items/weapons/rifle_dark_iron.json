@@ -1,4 +1,5 @@
 {
+   "_id": "XGGzZMKCFkfH67TF",
    "name": "Rifle, Dark Iron",
    "type": "weapon",
    "img": "icons/weapons/guns/gun-wood.webp",
@@ -44,7 +45,7 @@
       "consume": {
          "type": "ammo",
          "target": "",
-         "amount": 2
+         "amount": 1
       },
       "ability": "",
       "actionType": "rwak",
@@ -91,7 +92,7 @@
          "lod": false,
          "mgc": false,
          "rch": false,
-         "rel": true,
+         "rel": false,
          "ret": false,
          "sil": false,
          "spc": false,
@@ -120,8 +121,9 @@
          "type": "item",
          "enhancement": "",
          "mrmin": 1,
-         "mrmax": 2
+         "mrmax": 2,
+         "ammo": null,
+         "capacity": 2
       }
-   },
-   "_id": "XGGzZMKCFkfH67TF"
+   }
 }

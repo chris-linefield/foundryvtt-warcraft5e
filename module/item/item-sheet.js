@@ -53,12 +53,17 @@ export class WcItemSheet extends ItemSheet5e {
 
         let parentProps = super._getItemProperties(item);
 
-        if (typeof (item.flags.wc5e) !== "undefined" &&
-            typeof (item.flags.wc5e.mrmin) !== "undefined" &&
-            typeof (item.flags.wc5e.mrmax) !== "undefined" &&
-            item.flags.wc5e.mrmin !== null &&
-            item.flags.wc5e.mrmax !== null) {
-            parentProps.unshift('MR (' + item.flags.wc5e.mrmin + ' - ' + item.flags.wc5e.mrmax + ')');
+        if (typeof (item.flags.wc5e) !== "undefined") {
+            if (typeof (item.flags.wc5e.mrmin) !== "undefined" &&
+                typeof (item.flags.wc5e.mrmax) !== "undefined" &&
+                item.flags.wc5e.mrmin !== null &&
+                item.flags.wc5e.mrmax !== null) {
+                parentProps.unshift('MR (' + item.flags.wc5e.mrmin + ' - ' + item.flags.wc5e.mrmax + ')');
+            }
+
+            if (typeof (item.flags.wc5e.capacity) !== "undefined" && item.flags.wc5e.capacity !== null) {
+                parentProps.unshift('Capacity ' + item.flags.wc5e.capacity);
+            }
         }
 
         return parentProps;
