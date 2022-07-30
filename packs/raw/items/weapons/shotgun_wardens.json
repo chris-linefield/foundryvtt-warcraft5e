@@ -1,4 +1,5 @@
 {
+   "_id": "Zw7XktJx6X1XUGgh",
    "name": "Shotgun, Warden's",
    "type": "weapon",
    "img": "icons/weapons/guns/gun-double-barrel.webp",
@@ -44,7 +45,7 @@
       "consume": {
          "type": "ammo",
          "target": "",
-         "amount": 3
+         "amount": 1
       },
       "ability": "",
       "actionType": "rwak",
@@ -120,8 +121,9 @@
          "type": "item",
          "enhancement": "",
          "mrmin": 1,
-         "mrmax": 3
+         "mrmax": 3,
+         "ammo": null,
+         "capacity": 3
       }
-   },
-   "_id": "Zw7XktJx6X1XUGgh"
+   }
 }

@@ -6,8 +6,8 @@
             <div class="imgContent">
                 <h1>{{localize item.name}}</h1>
                 <div class="headerSpellGrid">
-                    <span>{{localize "WC5E.SpellSheet.School"}}: {{localize item.data.school}}</span>
-                    <span>{{item.data.activation.cost}} {{localize item.data.activation.type}}</span>
+                    <span>{{localize "WC5E.SpellSheet.School"}}: {{localize item.system.school}}</span>
+                    <span>{{item.system.activation.cost}} {{localize item.system.activation.type}}</span>
                 </div>
             </div>
         </div>
@@ -15,33 +15,33 @@
 
     <section class="spellContent">
         <div class="spellProps">
-            {{#if item.data.range}}
+            {{#if item.system.range}}
                 <div class="spellProp">
                     <strong>{{localize "WC5E.SpellSheet.Range"}}</strong>
-                    {{item.data.range.value}} {{localize item.data.range.units}}
+                    {{item.system.range.value}} {{localize item.system.range.units}}
                 </div>
             {{/if}}
 
-            {{#if item.data.components}}
+            {{#if item.system.components}}
                 <div class="spellProp">
                     <strong>{{localize "WC5E.SpellSheet.Components"}}</strong>
-                    {{#if item.data.components.vocal}}
+                    {{#if item.system.components.vocal}}
                         V
                     {{/if}}
-                    {{#if item.data.components.somatic}}
+                    {{#if item.system.components.somatic}}
                         S
                     {{/if}}
                 </div>
             {{/if}}
 
-            {{#if item.data.duration}}
+            {{#if item.system.duration}}
                 <div class="spellProp">
-                    <strong>{{localize "WC5E.SpellSheet.Duration"}}</strong> {{item.data.duration.value}} {{localize item.data.duration.units}}
+                    <strong>{{localize "WC5E.SpellSheet.Duration"}}</strong> {{item.system.duration.value}} {{localize item.system.duration.units}}
                 </div>
             {{/if}}
         </div>
         <div class="spellDesc">
-            {{{localize item.data.description.value}}}
+            {{{localize item.system.description.value}}}
             {{#each item.flags.wc5e.description}}
                 {{> "modules/warcraft5e/templates/item/parts/description.html"}}
             {{/each}}

@@ -1,0 +1,70 @@
+{
+   "_id": "ddAue1gT44qeoZd7",
+   "name": "Engineering: Ammunition",
+   "permission": {
+      "default": 0
+   },
+   "type": "class",
+   "flags": {
+      "wc5e": {
+         "type": "rule",
+         "title": "WC5E.Rules.EngineeringAmmunition.Label",
+         "content": [
+            {
+               "value": "WC5E.Rules.EngineeringAmmunition.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Rules.EngineeringAmmunition.Description.2.Value"
+            },
+            {
+               "table": {
+                  "head": [
+                     {
+                        "title": "WC5E.UI.Name"
+                     },
+                     {
+                        "title": "WC5E.UI.RarityEp"
+                     },
+                     {
+                        "title": "WC5E.UI.Effect"
+                     },
+                     {
+                        "title": "WC5E.UI.Properties"
+                     }
+                  ],
+                  "rows": [
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_weapons",
+                              "node": "uAAKYCAMrsSug9jN",
+                              "label": "WC5E.Items.Blunderbuss.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Uncommon",
+                           "brackets": "+2"
+                        },
+                        {
+                           "text": "3d8/2"
+                        },
+                        {
+                        }
+                     ]
+                  ]
+               }
+            }
+         ],
+         "prev": {
+            "pack": "wc5e_rules",
+            "node": "CKNGfqUkV7iS0ONn",
+            "label": "WC5E.Rules.EngineeringExplosives.Label"
+         },
+         "next": {
+            "pack": "wc5e_rules",
+            "node": "vtecyDKuoGE5kuS4",
+            "label": "WC5E.Rules.TODO.Label"
+         }
+      }
+   }
+}

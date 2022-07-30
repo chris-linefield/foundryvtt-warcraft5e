@@ -103,7 +103,10 @@
          "bomb": false,
          "hvypl": false,
          "reloadpl": false,
-         "reloadplus": true
+         "reloadplus": true,
+         "mine": false,
+         "reloadp": false,
+         "rocket": false
       },
       "proficient": true
    },
@@ -118,7 +121,9 @@
          "type": "item",
          "enhancement": "",
          "mrmin": 1,
-         "mrmax": 5
+         "mrmax": 5,
+         "ammo": null,
+         "capacity": 1
       }
    }
 }

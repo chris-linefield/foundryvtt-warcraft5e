@@ -1,10 +1,11 @@
 {
+   "_id": "vcIGBaGN9Dm237Vk",
    "name": "Crossbow, Auto",
    "type": "weapon",
    "img": "icons/weapons/crossbows/crossbow-purple.webp",
    "data": {
       "description": {
-         "value": "<p>This crossbow acts as a heavy crossbow that deals 1d10 piercing damage.</p>\n<p>This does not have the loading quality.</p>\n<p>@Compendium[warcraft5e.wc5e_mechanics.4InJb3rIxEalpa8g]{Capacity increase} @Compendium[warcraft5e.wc5e_mechanics.4SX6o4iNVGiV1OXL]{Weakened}</p>",
+         "value": "<p>This crossbow acts as a heavy crossbow that deals 1d10 piercing damage.</p>\n<p>This does not have the loading quality.</p>\n<p>@Compendium[warcraft5e.wc5e_mechanics.4InJb3rIxEalpa8g]{Capacity increase (2)} @Compendium[warcraft5e.wc5e_mechanics.4SX6o4iNVGiV1OXL]{Weakened}</p>",
          "chat": "",
          "unidentified": ""
       },
@@ -44,7 +45,7 @@
       "consume": {
          "type": "ammo",
          "target": "",
-         "amount": 5
+         "amount": 1
       },
       "ability": "",
       "actionType": "rwak",
@@ -92,7 +93,7 @@
          "lod": false,
          "mgc": false,
          "rch": false,
-         "rel": true,
+         "rel": false,
          "ret": false,
          "sil": false,
          "spc": false,
@@ -104,7 +105,8 @@
          "mine": false,
          "reloadpl": false,
          "reloadplus": false,
-         "rocket": false
+         "rocket": false,
+         "reloadp": false
       },
       "proficient": true
    },
@@ -119,8 +121,9 @@
          "type": "item",
          "enhancement": "",
          "mrmin": 1,
-         "mrmax": 2
+         "mrmax": 1,
+         "ammo": null,
+         "capacity": 5
       }
-   },
-   "_id": "vcIGBaGN9Dm237Vk"
+   }
 }

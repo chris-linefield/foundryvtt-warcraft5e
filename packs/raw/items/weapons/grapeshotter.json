@@ -1,4 +1,5 @@
 {
+   "_id": "ay4JHnlthgh9ghdr",
    "name": "Grapeshotter",
    "type": "weapon",
    "img": "icons/weapons/guns/gun-pistol-brass.webp",
@@ -44,7 +45,7 @@
       "consume": {
          "type": "ammo",
          "target": "",
-         "amount": 5
+         "amount": 1
       },
       "ability": "",
       "actionType": "rwak",
@@ -120,8 +121,9 @@
          "type": "item",
          "enhancement": "",
          "mrmin": 1,
-         "mrmax": 5
+         "mrmax": 5,
+         "ammo": null,
+         "capacity": 5
       }
-   },
-   "_id": "ay4JHnlthgh9ghdr"
+   }
 }

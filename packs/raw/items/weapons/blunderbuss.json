@@ -45,7 +45,7 @@
       "consume": {
          "type": "ammo",
          "target": "",
-         "amount": 2
+         "amount": 1
       },
       "ability": "",
       "actionType": "rwak",
@@ -92,7 +92,7 @@
          "lod": false,
          "mgc": false,
          "rch": false,
-         "rel": true,
+         "rel": false,
          "ret": false,
          "sil": false,
          "spc": false,
@@ -103,15 +103,17 @@
          "bomb": false,
          "hvypl": false,
          "reloadpl": false,
-         "reloadplus": false
+         "reloadplus": false,
+         "mine": false,
+         "reloadp": false,
+         "rocket": false
       },
       "proficient": true
    },
    "effects": [],
    "folder": null,
    "sort": 0,
-   "permission": {
-   },
+   "permission": {},
    "flags": {
       "wc5e": {
          "type": "item",
@@ -127,7 +129,9 @@
             }
          ],
          "mrmin": 1,
-         "mrmax": 2
+         "mrmax": 2,
+         "capacity": 2,
+         "ammo": null
       }
    }
 }

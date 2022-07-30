@@ -1,5 +1,7 @@
 <form class="{{cssClass}} flexcol" autocomplete="off">
 
+                {{log item}}
+
     <header>
         <div class="imageRow">
             <img src="{{item.img}}">
@@ -27,7 +29,7 @@
             {{/each}}
             <br>
             <p>
-                {{{localize item.data.description.value}}}
+                {{{localize item.system.description.value}}}
             </p>
             <br>
             {{#each item.flags.wc5e.blocks}}
@@ -53,7 +55,7 @@
             <table>
                 <tr>
                     <th class="left">Hit Dice:</th>
-                    <td>1{{item.data.hitDice}} per {{item.name}} level</td>
+                    <td>1{{item.system.hitDice}} per {{item.name}} level</td>
                 </tr>
                 <tr>
                     <th class="left">Hit Points - lvl 1</th>
@@ -61,7 +63,7 @@
                 </tr>
                 <tr>
                     <th class="left">Hit Points - lvl +</th>
-                    <td>1{{item.data.hitDice}} (or {{item.flags.wc5e.hitPointsHalfed}}) + your Stamina modifier per {{item.name}} level after 1st</td>
+                    <td>1{{item.system.hitDice}} (or {{item.flags.wc5e.hitPointsHalfed}}) + your Stamina modifier per {{item.name}} level after 1st</td>
                 </tr>
             </table>
             <br>
@@ -115,7 +117,7 @@
                 <tr>
                     <th class="left">Saving Throws:</th>
                     <td>
-                        {{#each item.data.saves}}
+                        {{#each item.system.saves}}
                             {{#unless @first}}{{#if @last}} and {{else}},{{/if}}{{/unless}}
                             {{lookup ../config.abilities this}}
                         {{/each}}
@@ -124,9 +126,9 @@
                 <tr>
                     <th class="left">Skills:</th>
                     <td>
-                        Choose {{item.data.skills.number}} skills from
+                        Choose {{item.system.skills.number}} skills from
                         {{log config}}
-                        {{#each item.data.skills.choices}}
+                        {{#each item.system.skills.choices}}
                             {{#unless @first}}{{#if @last}} and {{else}},{{/if}}{{/unless}}
                             {{lookup ../config.skills this}}
                         {{/each}}
@@ -196,7 +198,7 @@
                         <td>
                             {{#if this.feats}}
                                 {{#each this.feats}}
-                                    <a class="entity-link content-link spellLink" data-pack="{{this.pack}}" data-id="{{this.node}}">
+                                    <a draggable="true" class="entity-link content-link spellLink" data-type="Item" data-pack="{{this.pack}}" data-id="{{this.node}}" data-uuid="Compendium.{{this.pack}}.{{this.node}}">
                                         {{localize this.label}}
                                         {{#if this.option}}
                                             ({{this.option}})
@@ -229,7 +231,7 @@
                             <td class="center">{{this.level}}</td>
                             <td>
                                 {{#each this.feats}}
-                                    <a class="entity-link content-link spellLink" data-pack="{{this.pack}}" data-id="{{this.node}}">
+                                    <a draggable="true" class="entity-link content-link spellLink" data-type="Item" data-pack="{{this.pack}}" data-id="{{this.node}}" data-uuid="Compendium.{{this.pack}}.{{this.node}}">
                                         {{localize this.label}}
                                         {{#if this.option}}
                                             ({{this.option}})
@@ -251,7 +253,7 @@
                                 <td class="center">{{this.level}}</td>
                                 <td>
                                     {{#each this.spells}}
-                                        <a class="entity-link content-link spellLink" data-pack="{{this.pack}}" data-id="{{this.node}}">
+                                        <a draggable="true" class="entity-link content-link spellLink" data-type="Item" data-pack="{{this.pack}}" data-id="{{this.node}}" data-uuid="Compendium.{{this.pack}}.{{this.node}}">
                                             {{localize this.label}}
                                             {{#if this.option}}
                                                 ({{this.option}})
@@ -289,7 +291,7 @@
                                 <td class="center">{{this.level}}</td>
                                 <td>
                                     {{#each this.feats}}
-                                        <a class="entity-link content-link spellLink" data-pack="{{this.pack}}" data-id="{{this.node}}">
+                                        <a draggable="true" class="entity-link content-link spellLink" data-type="Item" data-pack="{{this.pack}}" data-id="{{this.node}}" data-uuid="Compendium.{{this.pack}}.{{this.node}}">
                                             {{localize this.label}}
                                             {{#if this.option}}
                                                 ({{this.option}})
@@ -311,7 +313,7 @@
                                     <td class="center">{{this.level}}</td>
                                     <td>
                                         {{#each this.spells}}
-                                            <a class="entity-link content-link spellLink" data-pack="{{this.pack}}" data-id="{{this.node}}">
+                                            <a draggable="true" class="entity-link content-link spellLink" data-type="Item" data-pack="{{this.pack}}" data-id="{{this.node}}" data-uuid="Compendium.{{this.pack}}.{{this.node}}">
                                                 {{localize this.label}}
                                                 {{#if this.option}}
                                                     ({{this.option}})

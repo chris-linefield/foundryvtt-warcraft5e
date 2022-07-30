@@ -1,4 +1,5 @@
 {
+   "_id": "MlIqL05mXVcsa4IR",
    "name": "Rifle, Long",
    "type": "weapon",
    "img": "icons/weapons/guns/gun-wood.webp",
@@ -91,7 +92,7 @@
          "lod": false,
          "mgc": false,
          "rch": false,
-         "rel": true,
+         "rel": false,
          "ret": false,
          "sil": false,
          "spc": false,
@@ -120,8 +121,9 @@
          "type": "item",
          "enhancement": "",
          "mrmin": 1,
-         "mrmax": 4
+         "mrmax": 4,
+         "ammo": null,
+         "capacity": 1
       }
-   },
-   "_id": "MlIqL05mXVcsa4IR"
+   }
 }

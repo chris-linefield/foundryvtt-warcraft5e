@@ -43,9 +43,9 @@
          "per": ""
       },
       "consume": {
-         "type": "",
+         "type": "ammo",
          "target": "",
-         "amount": null
+         "amount": 1
       },
       "ability": "",
       "actionType": "rwak",
@@ -103,7 +103,10 @@
          "ver": false,
          "hvypl": true,
          "reloadpl": true,
-         "reloadplus": false
+         "reloadplus": false,
+         "mine": false,
+         "reloadp": false,
+         "rocket": false
       },
       "proficient": true
    },
@@ -117,7 +120,9 @@
       "wc5e": {
          "mrmin": 1,
          "mrmax": 2,
-         "enhancement": ""
+         "enhancement": "",
+         "ammo": null,
+         "capacity": 2
       }
    }
 }

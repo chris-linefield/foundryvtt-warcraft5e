@@ -1,7 +1,7 @@
 
 
 Handlebars.registerHelper('isClassSkill', function (data, skill) {
-    let classes = data.data.classes;
+    let classes = data.system.classes;
 
     let trueByClass = false;
     for (let c in classes) {

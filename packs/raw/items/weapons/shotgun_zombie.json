@@ -1,4 +1,5 @@
 {
+   "_id": "udlhJVavakYPxH63",
    "name": "Shotgun, Zombie",
    "type": "weapon",
    "img": "icons/weapons/guns/gun-double-barrel.webp",
@@ -44,7 +45,7 @@
       "consume": {
          "type": "ammo",
          "target": "",
-         "amount": 2
+         "amount": 1
       },
       "ability": "",
       "actionType": "rwak",
@@ -120,8 +121,9 @@
          "type": "item",
          "enhancement": "",
          "mrmin": 1,
-         "mrmax": 2
+         "mrmax": 2,
+         "ammo": null,
+         "capacity": 2
       }
-   },
-   "_id": "udlhJVavakYPxH63"
+   }
 }

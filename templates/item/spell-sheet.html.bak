@@ -4,10 +4,10 @@
         <div class="imageRow">
             <img src="{{item.img}}"/>
             <div class="imgContent">
-                <h1>{{localize item.data.label}}</h1>
+                <h1>{{localize item.system.label}}</h1>
                 <div class="headerSpellGrid">
-                    <span>{{localize "WC5E.SpellSheet.School"}}: {{localize item.data.rules.school}}</span>
-                    <span>{{item.data.rules.castTime.value}} {{localize item.data.rules.castTime.unit}}</span>
+                    <span>{{localize "WC5E.SpellSheet.School"}}: {{localize item.system.rules.school}}</span>
+                    <span>{{item.system.rules.castTime.value}} {{localize item.system.rules.castTime.unit}}</span>
                 </div>
             </div>
         </div>
@@ -17,42 +17,42 @@
 
         <div class="spellProps">
 
-            {{#if item.data.range}}
+            {{#if item.system.range}}
                 <div class="spellProp">
                     <strong>{{localize "WC5E.SpellSheet.Range"}}</strong>
-                    {{item.data.rules.range.value}} {{localize item.data.range.units}}
+                    {{item.system.rules.range.value}} {{localize item.system.range.units}}
                 </div>
             {{/if}}
 
-            {{#if item.data.components}}
+            {{#if item.system.components}}
                 <div class="spellProp">
                     <strong>{{localize "WC5E.SpellSheet.Components"}}</strong>
-                    {{#if item.data.components.vocal}}
+                    {{#if item.system.components.vocal}}
                         V
                     {{/if}}
                 </div>
             {{/if}}
 
-            {{#if item.data.duration}}
+            {{#if item.system.duration}}
                 <div class="spellProp">
-                    <strong>{{localize "WC5E.SpellSheet.Duration"}}</strong> {{item.data.duration.value}} {{localize item.data.duration.units}}
+                    <strong>{{localize "WC5E.SpellSheet.Duration"}}</strong> {{item.system.duration.value}} {{localize item.system.duration.units}}
                 </div>
             {{/if}}
         </div>
         <div class="spellDesc">
-            {{localize item.data.description}}
+            {{localize item.system.description}}
 
-            {{#if item.data.options}}
+            {{#if item.system.options}}
                 <ul>
-                    {{#each item.data.options}}
+                    {{#each item.system.options}}
                         <li>{{localize this}}</li>
                     {{/each}}
                 </ul>
             {{/if}}
-            {{#if item.data.heightened}}
+            {{#if item.system.heightened}}
                 <p>
                     <strong>{{localize "WC5E.SpellSheet.Heightened"}}:</strong><br>
-                    {{localize item.data.heightened}}
+                    {{localize item.system.heightened}}
                 </p>
             {{/if}}
         </div>

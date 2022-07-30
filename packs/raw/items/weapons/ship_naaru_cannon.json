@@ -1,7 +1,8 @@
 {
+   "_id": "LVxN3oPF0GHoLHeS",
    "name": "Ship, Naaru Cannon",
    "type": "weapon",
-   "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
+   "img": "icons/weapons/artillery/cannon-banded.webp",
    "data": {
       "description": {
          "value": "<p>TODO</p>",
@@ -120,8 +121,9 @@
          "type": "item",
          "enhancement": "",
          "mrmin": 1,
-         "mrmax": 3
+         "mrmax": 3,
+         "ammo": null,
+         "capacity": 1
       }
-   },
-   "_id": "LVxN3oPF0GHoLHeS"
+   }
 }

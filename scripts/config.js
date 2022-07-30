@@ -1,7 +1,8 @@
 console.log('>> Wc5e: Adjusting 5e Config');
 
-import {DND5E} from "../../../systems/dnd5e/module/config.js";
 import {} from "./config_class_features.js";
+
+let DND5E = dnd5e.config;
 
 DND5E.abilities.dex = "WC5E.Character.Agility";
 DND5E.abilities.con = "WC5E.Character.Stamina";

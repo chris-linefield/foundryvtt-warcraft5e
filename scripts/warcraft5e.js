@@ -8,7 +8,6 @@ import * as WcSkillHandler from "../module/skill-handler.js";
 import * as WcMigrationHandler from "../module/migration-handler.js";
 
 import {} from "./config.js";
-import {DND5E} from "../../../systems/dnd5e/module/config.js";
 
 import {} from "./hook_init.js";
 import {} from "./hook_drop.js";

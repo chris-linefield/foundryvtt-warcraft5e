@@ -14,8 +14,8 @@
 
     <section class="sheet-body skillContent">
         <div class="tab details">
-            {{#if item.data.requirements}}
-                <i>Prerequisites:</i> {{item.data.requirements}}<br><br>
+            {{#if item.system.requirements}}
+                <i>Prerequisites:</i> {{item.system.requirements}}<br><br>
             {{/if}}
             {{#each item.flags.wc5e.description}}
                 {{> "modules/warcraft5e/templates/item/parts/description.html"}}

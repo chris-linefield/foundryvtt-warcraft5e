@@ -1,6 +1,7 @@
 console.log('>> Wc5e: Initializing NPC Sheet');
 
-import ActorSheet5eNPC from "../../../../systems/dnd5e/module/actor/sheets/npc.js";
+export class ActorSheet5eNPC extends dnd5e.applications.actor.ActorSheet5eNPC {}
+
 import {renderWcDescription} from "../util.js"
 
 /**
@@ -49,8 +50,8 @@ export class WcNpcSheet extends ActorSheet5eNPC {
         } else {
             let summary = chatData.description.value;
             let props;
-            if (typeof (item.data.flags.wc5e) !== 'undefined') {
-                props = renderWcDescription(item.data.flags.wc5e.description);
+            if (typeof (item.flags.wc5e) !== 'undefined') {
+                props = renderWcDescription(item.flags.wc5e.description);
             } else {
                 props = $('<div class="item-properties"></div>');
                 chatData.properties.forEach(p => props.append(`<span class="tag">${p}</span>`));
@@ -66,5 +67,5 @@ export class WcNpcSheet extends ActorSheet5eNPC {
 
 Actors.registerSheet('warcraft5e', WcNpcSheet, {
     label: 'Warcraft 5e - NPC Sheet',
-    makeDefault: false
+    makeDefault: true
 });

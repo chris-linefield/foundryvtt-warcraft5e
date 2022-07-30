@@ -3,19 +3,19 @@ import RaceSelector from "../module/actor/apps/race-selector.js";
 
 //---- ON INITIALIZATION
 
-Hooks.on('preCreateItem', function (document, data, options, userId) {
-    if (data.flags.wc5e && data.flags.wc5e.type === 'background') {
+Hooks.on('preCreateItem', function (document, system, options, userId) {
+    if (system.flags.wc5e && system.flags.wc5e.type === 'background') {
 
         //Check for Variants
-        if (typeof (data.flags.wc5e.entries) !== 'undefined') {
+        if (typeof (system.flags.wc5e.entries) !== 'undefined') {
 
         }
 
         let targetActor = game.actors.get(document.parent.id);
-        targetActor.update({['data.details.background']: data});
+        targetActor.update({['system.details.background']: system});
         return false;
-    } else if (data.flags.wc5e && data.flags.wc5e.type === 'race') {
-        RaceSelector.prototype.replaceRace(document.parent.id, data._id);
+    } else if (system.flags.wc5e && system.flags.wc5e.type === 'race') {
+        RaceSelector.prototype.replaceRace(document.parent.id, system._id);
         return false;
     }
 });

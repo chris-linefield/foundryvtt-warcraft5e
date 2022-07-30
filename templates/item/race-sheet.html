@@ -66,7 +66,7 @@
                 {{#each item.flags.wc5e.traits}}
                     <strong><i>{{localize this.label}}:</i></strong>
                     <div>
-                        <a class="entity-link content-link spellLink" data-pack="{{this.pack}}" data-id="{{this.node}}">
+                        <a draggable="true" class="entity-link content-link spellLink" data-type="Item" data-pack="{{this.pack}}" data-id="{{this.node}}" data-uuid="Compendium.{{this.pack}}.{{this.node}}">
                             {{localize this.label}}
                         </a>
                     </div>
@@ -170,7 +170,7 @@
                         {{#each this.traits}}
                             <strong><i>{{localize this.label}}:</i></strong>
                             <div>
-                                <a class="entity-link content-link spellLink" data-pack="{{this.pack}}" data-id="{{this.node}}">
+                                <a draggable="true" class="entity-link content-link spellLink" data-type="Item" data-pack="{{this.pack}}" data-id="{{this.node}}" data-uuid="Compendium.{{this.pack}}.{{this.node}}">
                                     {{localize this.label}}
                                 </a>
                             </div>
@@ -202,6 +202,5 @@
                 </div>
             {{/each}}
         {{/if}}
-
     </section>
 </form>
