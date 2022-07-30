@@ -592,27 +592,27 @@
                "flags": {},
                "changes": [
                   {
-                     "key": "data.bonuses.abilities.save",
+                     "key": "system.bonuses.abilities.save",
                      "value": "-1d4",
                      "mode": 2
                   },
                   {
-                     "key": "data.bonuses.mwak.attack",
+                     "key": "system.bonuses.mwak.attack",
                      "value": "-1d4",
                      "mode": 2
                   },
                   {
-                     "key": "data.bonuses.msak.attack",
+                     "key": "system.bonuses.msak.attack",
                      "value": "-1d4",
                      "mode": 2
                   },
                   {
-                     "key": "data.bonuses.rsak.attack",
+                     "key": "system.bonuses.rsak.attack",
                      "value": "-1d4",
                      "mode": 2
                   },
                   {
-                     "key": "data.bonuses.rwak.attack",
+                     "key": "system.bonuses.rwak.attack",
                      "value": "-1d4",
                      "mode": 2
                   }
@@ -1115,27 +1115,27 @@
          "_id": "iUqdcEK5JAqX5APY",
          "changes": [
             {
-               "key": "data.bonuses.abilities.save",
+               "key": "system.bonuses.abilities.save",
                "value": "-1d4",
                "mode": 2
             },
             {
-               "key": "data.bonuses.mwak.attack",
+               "key": "system.bonuses.mwak.attack",
                "value": "-1d4",
                "mode": 2
             },
             {
-               "key": "data.bonuses.msak.attack",
+               "key": "system.bonuses.msak.attack",
                "value": "-1d4",
                "mode": 2
             },
             {
-               "key": "data.bonuses.rsak.attack",
+               "key": "system.bonuses.rsak.attack",
                "value": "-1d4",
                "mode": 2
             },
             {
-               "key": "data.bonuses.rwak.attack",
+               "key": "system.bonuses.rwak.attack",
                "value": "-1d4",
                "mode": 2
             }

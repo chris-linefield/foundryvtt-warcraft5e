@@ -8,7 +8,7 @@ export const migrate = async function() {
     let model = game.system.model;
 
     //loop through all actors
-    for(let actor of game.data.actors) {
+    for(let actor of game.system.actors) {
         console.log('>> Wc5e: syncing actor '+actor._id);
 
         var realActor = game.actors.get(actor._id);

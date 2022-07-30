@@ -1,6 +1,6 @@
 console.log('>> Wc5e: Initializing Item Sheet');
 
-import ItemSheet5e from '../../../../systems/dnd5e/module/item/sheet.js';
+export class ItemSheet5e extends dnd5e.applications.item.ItemSheet5e {}
 
 export class WcItemSheet extends ItemSheet5e {
 
@@ -8,8 +8,8 @@ export class WcItemSheet extends ItemSheet5e {
         super(...args);
 
         let wcType = 'dnd5e';
-        if (typeof (this.object.data.flags.wc5e) !== 'undefined' && typeof (this.object.data.flags.wc5e.type) !== 'undefined') {
-            wcType = this.object.data.flags.wc5e.type;
+        if (typeof (this.object.flags.wc5e) !== 'undefined' && typeof (this.object.flags.wc5e.type) !== 'undefined') {
+            wcType = this.object.flags.wc5e.type;
             let classes = ['sheet', 'item'];
             if (wcType !== 'item' && wcType !== 'weapon') {
                 classes.push('warcraft5e');
@@ -32,7 +32,7 @@ export class WcItemSheet extends ItemSheet5e {
     }
 
     get template() {
-        let wcType = (typeof (this.object.data.flags.wc5e) !== 'undefined') ? this.object.data.flags.wc5e.type : null;
+        let wcType = (typeof (this.object.flags.wc5e) !== 'undefined') ? this.object.flags.wc5e.type : null;
         if (this.object.type === 'weapon') {
             wcType = 'item';
         }
@@ -42,27 +42,27 @@ export class WcItemSheet extends ItemSheet5e {
             }
             return `modules/warcraft5e/templates/item/${wcType}-sheet.html`;
         } else {
-            return `systems/dnd5e/templates/items/${this.item.data.type}.html`;
+            return `systems/dnd5e/templates/items/${this.item.system.type}.html`;
         }
     }
 
     /**
      * Add Malfunction Rate to Item Description
      */
-    _getItemProperties(item) {
+    _getItemProperties() {
 
-        let parentProps = super._getItemProperties(item);
+        let parentProps = super._getItemProperties();
 
-        if (typeof (item.flags.wc5e) !== "undefined") {
-            if (typeof (item.flags.wc5e.mrmin) !== "undefined" &&
-                typeof (item.flags.wc5e.mrmax) !== "undefined" &&
-                item.flags.wc5e.mrmin !== null &&
-                item.flags.wc5e.mrmax !== null) {
-                parentProps.unshift('MR (' + item.flags.wc5e.mrmin + ' - ' + item.flags.wc5e.mrmax + ')');
+        if (typeof (this.item.flags.wc5e) !== "undefined") {
+            if (typeof (this.item.flags.wc5e.mrmin) !== "undefined" &&
+                typeof (this.item.flags.wc5e.mrmax) !== "undefined" &&
+                this.item.flags.wc5e.mrmin !== null &&
+                this.item.flags.wc5e.mrmax !== null) {
+                parentProps.unshift('MR (' + this.item.flags.wc5e.mrmin + ' - ' + this.item.flags.wc5e.mrmax + ')');
             }
 
-            if (typeof (item.flags.wc5e.capacity) !== "undefined" && item.flags.wc5e.capacity !== null) {
-                parentProps.unshift('Capacity ' + item.flags.wc5e.capacity);
+            if (typeof (this.item.flags.wc5e.capacity) !== "undefined" && this.item.flags.wc5e.capacity !== null) {
+                parentProps.unshift('Capacity ' + this.item.flags.wc5e.capacity);
             }
         }
 

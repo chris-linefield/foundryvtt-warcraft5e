@@ -1,6 +1,6 @@
 console.log('>> Wc5e: Adjusting 5e ClassFeatures');
 
-import {ClassFeatures} from "../../../systems/dnd5e/module/classFeatures.js";
+let ClassFeatures = dnd5e.config.classFeatures;
 
 delete ClassFeatures.bard;
 delete ClassFeatures.barbarian;

@@ -95,7 +95,7 @@
 }
 
 .sidebar-tab .directory-list .directory-item, .directory .directory-list .directory-item.document {
-    line-height: 57px;
+    line-height: 24px;
 }
 
 .sidebar-tab .subdirectory {
@@ -208,6 +208,7 @@
     font-weight: bold;
     font-size: 1.2em;
     color: #5081bd;
+    border-bottom: none;
 }
 
 .warcraft5e .window-content h4 {
@@ -459,12 +460,12 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: radial-gradient(rgba(190,175,140,0.75) 55%, rgba(255,255,255,0));
+    background: radial-gradient(rgba(190, 175, 140, 0.75) 55%, rgba(255, 255, 255, 0));
 }
 
 .warcraft5e .artwork.portraitBg img {
     position: relative;
-    z-index:1;
+    z-index: 1;
 }
 
 /**

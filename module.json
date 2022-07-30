@@ -1,15 +1,10 @@
 {
-   "name": "warcraft5e",
    "title": "Warcraft RPG - 5e",
    "description": "Conversion of the official Warcraft Role Playing Game: https://drive.google.com/drive/folders/0B1FoMHLY1oOtLUlNdTZXYzVNY0k.",
    "author": "Arthega Asdweri",
    "authors": [],
    "url": "https://github.com/ArthegaAsdweri/foundryvtt-warcraft5e",
-   "flags": {},
-   "version": "0.1.10.1",
-   "minimumCoreVersion": "0.8.2",
-   "compatibleCoreVersion": "9",
-   "scripts": [],
+   "version": "0.2.0",
    "esmodules": [
       "scripts/warcraft5e.js"
    ],
@@ -20,203 +15,260 @@
       {
          "lang": "en",
          "name": "English",
-         "path": "lang/en.json"
+         "path": "lang/en.json",
+         "flags": {}
       },
       {
          "lang": "de",
          "name": "Deutsch",
-         "path": "lang/de.json"
+         "path": "lang/de.json",
+         "flags": {}
       }
    ],
    "packs": [
       {
          "name": "wc5e_backgrounds",
          "label": "Wc5e | Backgrounds",
-         "path": "./packs/backgrounds.db",
-         "type": "Item",
-         "system": "dnd5e"
+         "path": "packs/backgrounds.db",
+         "entity": "Item",
+         "system": "dnd5e",
+         "private": false,
+         "flags": {}
       },
       {
          "name": "wc5e_background_feats",
          "label": "Wc5e | Background Feats",
-         "path": "./packs/background_feats.db",
-         "type": "Item",
-         "system": "dnd5e"
+         "path": "packs/background_feats.db",
+         "entity": "Item",
+         "system": "dnd5e",
+         "private": false,
+         "flags": {}
       },
       {
          "name": "wc5e_classes",
          "label": "Wc5e | Classes",
-         "path": "./packs/classes.db",
-         "type": "Item",
-         "system": "dnd5e"
+         "path": "packs/classes.db",
+         "entity": "Item",
+         "system": "dnd5e",
+         "private": false,
+         "flags": {}
       },
       {
          "name": "wc5e_class_feats",
          "label": "Wc5e | Class Features",
-         "path": "./packs/class_feats.db",
-         "type": "Item",
-         "system": "dnd5e"
+         "path": "packs/class_feats.db",
+         "entity": "Item",
+         "system": "dnd5e",
+         "private": false,
+         "flags": {}
       },
       {
          "name": "wc5e_class_talents",
          "label": "Wc5e | Class Talents",
-         "path": "./packs/class_talents.db",
-         "type": "Item",
-         "system": "dnd5e"
+         "path": "packs/class_talents.db",
+         "entity": "Item",
+         "system": "dnd5e",
+         "private": false,
+         "flags": {}
       },
       {
          "name": "wc5e_copy_compendium",
          "label": "Wc5e | Copy Compendium",
-         "path": "./packs/copy.db",
-         "type": "Item",
+         "path": "packs/copy.db",
+         "entity": "Item",
          "system": "dnd5e",
-         "package": "warcraft5e"
+         "private": false,
+         "flags": {}
       },
       {
          "name": "wc5e_epic_boons",
          "label": "Wc5e | Epic Boons",
-         "path": "./packs/epic_boons.db",
-         "type": "Item",
+         "path": "packs/epic_boons.db",
+         "entity": "Item",
          "system": "dnd5e",
-         "package": "warcraft5e"
+         "private": false,
+         "flags": {}
       },
       {
          "name": "wc5e_mechanics",
          "label": "Wc5e | Mechanics",
-         "path": "./packs/mechanics.db",
-         "type": "Item",
-         "system": "dnd5e"
+         "path": "packs/mechanics.db",
+         "entity": "Item",
+         "system": "dnd5e",
+         "private": false,
+         "flags": {}
       },
       {
          "name": "wc5e_monsters",
          "label": "Wc5e | Monsters",
-         "path": "./packs/monsters.db",
-         "type": "Actor",
-         "system": "dnd5e"
+         "path": "packs/monsters.db",
+         "entity": "Actor",
+         "system": "dnd5e",
+         "private": false,
+         "flags": {}
       },
       {
          "name": "wc5e_monster_feats",
          "label": "Wc5e | Monster Features",
-         "path": "./packs/monster_feats.db",
-         "type": "Item",
-         "system": "dnd5e"
+         "path": "packs/monster_feats.db",
+         "entity": "Item",
+         "system": "dnd5e",
+         "private": false,
+         "flags": {}
       },
       {
          "name": "wc5e_items",
          "label": "Wc5e | Items",
-         "path": "./packs/items.db",
-         "type": "Item",
+         "path": "packs/items.db",
+         "entity": "Item",
          "system": "dnd5e",
-         "package": "warcraft5e"
+         "private": false,
+         "flags": {}
+      },
+      {
+         "name": "wc5e_items_ammunition",
+         "label": "Wc5e | Items - Ammunition",
+         "path": "packs/items_ammunition.db",
+         "entity": "Item",
+         "system": "dnd5e",
+         "private": false,
+         "flags": {}
       },
       {
          "name": "wc5e_items_armor_sets",
          "label": "Wc5e | Items - Armor Sets",
-         "path": "./packs/items_armor_sets.db",
-         "type": "Item",
+         "path": "packs/items_armor_sets.db",
+         "entity": "Item",
          "system": "dnd5e",
-         "package": "warcraft5e"
+         "private": false,
+         "flags": {}
       },
       {
          "name": "wc5e_items_artifacts",
          "label": "Wc5e | Items - Artifacts",
-         "path": "./packs/items_artifacts.db",
-         "type": "Item",
+         "path": "packs/items_artifacts.db",
+         "entity": "Item",
          "system": "dnd5e",
-         "package": "warcraft5e"
+         "private": false,
+         "flags": {}
       },
       {
          "name": "wc5e_items_explosives",
          "label": "Wc5e | Items - Explosives",
-         "path": "./packs/items_explosives.db",
-         "type": "Item",
+         "path": "packs/items_explosives.db",
+         "entity": "Item",
          "system": "dnd5e",
-         "package": "warcraft5e"
+         "private": false,
+         "flags": {}
       },
       {
          "name": "wc5e_items_potions",
          "label": "Wc5e | Items - Potions",
-         "path": "./packs/items_potions.db",
-         "type": "Item",
+         "path": "packs/items_potions.db",
+         "entity": "Item",
          "system": "dnd5e",
-         "package": "warcraft5e"
+         "private": false,
+         "flags": {}
       },
       {
          "name": "wc5e_items_treasures",
          "label": "Wc5e | Items - Treasures",
-         "path": "./packs/items_treasures.db",
-         "type": "Item",
+         "path": "packs/items_treasures.db",
+         "entity": "Item",
          "system": "dnd5e",
-         "package": "warcraft5e"
+         "private": false,
+         "flags": {}
       },
       {
          "name": "wc5e_items_weapons",
          "label": "Wc5e | Items - Weapons",
-         "path": "./packs/items_weapons.db",
-         "type": "Item",
+         "path": "packs/items_weapons.db",
+         "entity": "Item",
          "system": "dnd5e",
-         "package": "warcraft5e"
+         "private": false,
+         "flags": {}
       },
       {
          "name": "wc5e_races",
          "label": "Wc5e | Races",
-         "path": "./packs/races.db",
-         "type": "Item",
-         "system": "dnd5e"
+         "path": "packs/races.db",
+         "entity": "Item",
+         "system": "dnd5e",
+         "private": false,
+         "flags": {}
       },
       {
          "name": "wc5e_racial_feats",
          "label": "Wc5e | Racial Features",
-         "path": "./packs/racial_feats.db",
-         "type": "Item",
-         "system": "dnd5e"
+         "path": "packs/racial_feats.db",
+         "entity": "Item",
+         "system": "dnd5e",
+         "private": false,
+         "flags": {}
       },
       {
          "name": "wc5e_rolltables",
          "label": "Wc5e | Rolltables",
-         "path": "./packs/rolltables.db",
-         "type": "RollTable",
-         "system": "dnd5e"
+         "path": "packs/rolltables.db",
+         "entity": "RollTable",
+         "system": "dnd5e",
+         "private": false,
+         "flags": {}
       },
       {
          "name": "wc5e_rules",
          "label": "Wc5e | Rules",
-         "path": "./packs/rules.db",
-         "type": "Item",
-         "system": "dnd5e"
+         "path": "packs/rules.db",
+         "entity": "Item",
+         "system": "dnd5e",
+         "private": false,
+         "flags": {}
       },
       {
          "name": "wc5e_core_rules",
          "label": "Wc5e | Core Rules",
-         "path": "./packs/core_rules.db",
-         "type": "JournalEntry",
-         "system": "dnd5e"
+         "path": "packs/core_rules.db",
+         "entity": "JournalEntry",
+         "system": "dnd5e",
+         "private": false,
+         "flags": {}
       },
       {
          "name": "wc5e_spells",
          "label": "Wc5e | Spells",
-         "path": "./packs/spells.db",
-         "type": "Item",
-         "system": "dnd5e"
+         "path": "packs/spells.db",
+         "entity": "Item",
+         "system": "dnd5e",
+         "private": false,
+         "flags": {}
       }
    ],
-   "system": [],
-   "dependencies": [
-      {
-         "name": "dnd5e",
-         "type": "system"
-      },
-      {
-         "name": "lib-wrapper",
-         "manifest": "https://github.com/ruipin/fvtt-lib-wrapper/releases/latest/download/module.json",
-         "version": "1.10",
-         "type": "module"
-      }
-   ],
-   "socket": false,
    "manifest": "https://github.com/ArthegaAsdweri/foundryvtt-warcraft5e/raw/master/module.json",
    "download": "https://github.com/ArthegaAsdweri/foundryvtt-warcraft5e/archive/master.zip",
-   "protected": false,
-   "coreTranslation": false,
-   "library": false
+   "id": "warcraft5e",
+   "name": "warcraft5e",
+   "relationships": {
+      "requires": [
+         {
+            "id": "lib-wrapper",
+            "type": "module",
+            "manifest": "https://github.com/ruipin/fvtt-lib-wrapper/releases/latest/download/module.json",
+            "compatibility": {}
+         }
+      ],
+      "systems": [
+         {
+            "id": "dnd5e",
+            "type": "system",
+            "compatibility": {}
+         }
+      ]
+   },
+	"compatibility": {
+		"minimum": "9",
+		"verified": "10.276",
+		"maximum": "10"
+	},
+   "minimumCoreVersion": "9",
+   "compatibleCoreVersion": "10"
 }

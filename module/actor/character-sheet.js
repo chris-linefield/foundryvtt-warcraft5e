@@ -1,6 +1,7 @@
 console.log('>> Wc5e: Initializing Character Sheet');
 
-import ActorSheet5eCharacter from '../../../../systems/dnd5e/module/actor/sheets/character.js';
+export class ActorSheet5eCharacter extends dnd5e.applications.actor.ActorSheet5eCharacter {}
+
 import {renderWcDescription} from "../util.js"
 
 /*
@@ -25,11 +26,12 @@ export class WcCharacterSheet extends ActorSheet5eCharacter {
      * @param {Event} event   Triggering event.
      * @private
      */
-    _onItemSummary(event) {
+    async _onItemSummary(event) {
         event.preventDefault();
         const li = $(event.currentTarget).parents(".item");
         const item = this.actor.items.get(li.data("item-id"));
-        const chatData = item.getChatData({secrets: this.actor.isOwner});
+        const chatData = await item.getChatData({secrets: this.actor.isOwner});
+        console.log(chatData);
 
         // Toggle summary
         if (li.hasClass("expanded")) {
@@ -38,8 +40,8 @@ export class WcCharacterSheet extends ActorSheet5eCharacter {
         } else {
             let summary = chatData.description.value;
             let props;
-            if (typeof (item.data.flags.wc5e) !== 'undefined') {
-                props = renderWcDescription(item.data.flags.wc5e.description);
+            if (typeof (item.flags.wc5e) !== 'undefined') {
+                props = renderWcDescription(item.flags.wc5e.description);
             } else {
                 props = $('<div class="item-properties"></div>');
                 chatData.properties.forEach(p => props.append(`<span class="tag">${p}</span>`));

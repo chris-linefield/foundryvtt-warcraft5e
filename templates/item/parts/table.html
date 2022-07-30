@@ -60,7 +60,7 @@
                         {{/each}}
                     {{/if}}
                     {{#if this.link}}
-                        <a class="entity-link content-link spellLink" data-pack="{{this.link.pack}}" data-id="{{this.link.node}}">
+                        <a draggable="true" class="entity-link content-link spellLink" data-type="Item" data-pack="{{this.link.pack}}" data-id="{{this.link.node}}" data-uuid="Compendium.{{this.link.pack}}.{{this.link.node}}">
                             {{localize this.link.label}}
                             {{#if this.link.option}}
                                 ({{this.link.option}})

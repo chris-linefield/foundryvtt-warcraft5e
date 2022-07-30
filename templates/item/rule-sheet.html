@@ -2,7 +2,11 @@
 
     <div class="ruleNav">
         {{#if item.flags.wc5e.prev}}
-            <a class="entity-link content-link prevlink" data-pack="warcraft5e.{{item.flags.wc5e.prev.pack}}" data-id="{{item.flags.wc5e.prev.node}}">
+            <a class="entity-link content-link prevlink" data-type="Item"
+               data-pack="warcraft5e.{{item.flags.wc5e.prev.pack}}"
+               data-id="{{item.flags.wc5e.prev.node}}"
+               data-uuid="Compendium.warcraft5e.{{item.flags.wc5e.prev.pack}}.{{item.flags.wc5e.prev.node}}"
+            >
                 <span>{{localize item.flags.wc5e.prev.label}}</span>
             </a>
             {{else}}
@@ -10,7 +14,11 @@
         {{/if}}
 
         {{#if item.flags.wc5e.next}}
-            <a class="entity-link content-link prevlink nextlink" data-pack="warcraft5e.{{item.flags.wc5e.next.pack}}" data-id="{{item.flags.wc5e.next.node}}">
+            <a class="entity-link content-link prevlink nextlink" data-type="Item"
+               data-pack="warcraft5e.{{item.flags.wc5e.next.pack}}"
+               data-id="{{item.flags.wc5e.next.node}}"
+               data-uuid="Compendium.warcraft5e.{{item.flags.wc5e.next.pack}}.{{item.flags.wc5e.next.node}}"
+            >
                 <span>{{localize item.flags.wc5e.next.label}}</span>
             </a>
         {{/if}}
@@ -28,7 +36,11 @@
 
     <div class="ruleNav bottom">
         {{#if item.flags.wc5e.prev}}
-            <a class="entity-link content-link prevlink" data-pack="warcraft5e.{{item.flags.wc5e.prev.pack}}" data-id="{{item.flags.wc5e.prev.node}}">
+            <a class="entity-link content-link prevlink" data-type="Item"
+               data-pack="warcraft5e.{{item.flags.wc5e.prev.pack}}"
+               data-id="{{item.flags.wc5e.prev.node}}"
+               data-uuid="Compendium.warcraft5e.{{item.flags.wc5e.prev.pack}}.{{item.flags.wc5e.prev.node}}"
+            >
                 <span>{{localize item.flags.wc5e.prev.label}}</span>
             </a>
             {{else}}
@@ -36,7 +48,11 @@
         {{/if}}
 
         {{#if item.flags.wc5e.next}}
-            <a class="entity-link content-link prevlink nextlink" data-pack="warcraft5e.{{item.flags.wc5e.next.pack}}" data-id="{{item.flags.wc5e.next.node}}">
+            <a class="entity-link content-link prevlink nextlink" data-type="Item"
+               data-pack="warcraft5e.{{item.flags.wc5e.next.pack}}"
+               data-id="{{item.flags.wc5e.next.node}}"
+               data-uuid="Compendium.warcraft5e.{{item.flags.wc5e.next.pack}}.{{item.flags.wc5e.next.node}}"
+            >
                 <span>{{localize item.flags.wc5e.next.label}}</span>
             </a>
         {{/if}}

@@ -30,12 +30,12 @@ export default class RaceSelector extends DocumentSheet {
         const featPack = game.packs.get('warcraft5e.wc5e_races');
         let racePack = await featPack.getDocuments();
 
-        let activeRace = foundry.utils.deepClone(this.object.data.data.details.race);
+        let activeRace = foundry.utils.deepClone(this.object.system.details.race);
 
         let races = {};
         for (let race of racePack) {
-            races[race.data._id] = {
-                label: race.data.name
+            races[race._id] = {
+                label: race.name
             }
         }
 
@@ -54,7 +54,7 @@ export default class RaceSelector extends DocumentSheet {
 
     /** @inheritdoc */
     async _updateObject(event, formData) {
-        let actorId = foundry.utils.deepClone(this.object.data._id);
+        let actorId = foundry.utils.deepClone(this.object._id);
         this.replaceRace(actorId, formData.race);
     }
 
@@ -72,7 +72,7 @@ export default class RaceSelector extends DocumentSheet {
         const spellPack = game.packs.get('warcraft5e.wc5e_spells');
 
         let raceEntry = await racePack.getDocument(raceId);
-        let race = raceEntry.data.flags.wc5e;
+        let race = raceEntry.flags.wc5e;
 
         let possibleFeats = await featPack.getDocuments();
         let possibleSpells = await spellPack.getDocuments();
@@ -80,14 +80,14 @@ export default class RaceSelector extends DocumentSheet {
         //get names of all compendium skills
         let compendiumFeats = [];
         for (let feat of possibleFeats) {
-            compendiumFeats.push(feat.data.name);
+            compendiumFeats.push(feat.name);
         }
 
         let matchedFeats = targetActor.items.filter(item => compendiumFeats.includes(item.name));
 
         let removableFeats = [];
         for (let feat of matchedFeats) {
-            removableFeats.push(feat.data._id);
+            removableFeats.push(feat._id);
         }
         targetActor.deleteEmbeddedDocuments("Item", removableFeats);
 
@@ -97,7 +97,7 @@ export default class RaceSelector extends DocumentSheet {
         if (traits) {
             for (let trait of traits) {
                 let entry = await featPack.get(trait.node);
-                entries.push(entry.data);
+                entries.push(entry);
             }
         }
 
@@ -106,7 +106,7 @@ export default class RaceSelector extends DocumentSheet {
         if (spells) {
             for (let spell of spells) {
                 let entry = await spellPack.get(spell.node);
-                entries.push(entry.data);
+                entries.push(entry);
             }
         }
         targetActor.createEmbeddedDocuments("Item", entries);
@@ -129,23 +129,24 @@ export default class RaceSelector extends DocumentSheet {
         }
 
         let skills = race.values.skills;
+
         if (skills) {
             for (let skill of skills) {
                 targetActor.update({
-                    ['data.skills.' + skill + '.value']: 1
+                    ['system.skills.' + skill + '.value']: 1
                 });
             }
         }
 
         //update the actor-props
         targetActor.update({
-            ['data.details.race']: game.i18n.localize(race.name),
-            ['data.attributes.movement.walk']: race.values.speed,
-            ['data.traits.size']: race.values.size,
-            ['data.traits.languages.value']: race.values.language,
-            ['data.traits.dr.value']: resArray,
-            ['data.traits.armorProf.value']: armorProfs,
-            ['data.traits.weaponProf.value']: weaponProfs,
+            ['system.details.race']: game.i18n.localize(race.name),
+            ['system.attributes.movement.walk']: race.values.speed,
+            ['system.traits.size']: race.values.size,
+            ['system.traits.languages.value']: race.values.language,
+            ['system.traits.dr.value']: resArray,
+            ['system.traits.armorProf.value']: armorProfs,
+            ['system.traits.weaponProf.value']: weaponProfs,
             ['flags.wc5e']: {}
         });
 
@@ -163,7 +164,7 @@ export default class RaceSelector extends DocumentSheet {
                         if (traits && traits.length > 0) {
                             for (let trait of traits) {
                                 let entry = await featPack.get(trait.node);
-                                entries.push(entry.data);
+                                entries.push(entry);
                             }
                         }
 
@@ -171,7 +172,7 @@ export default class RaceSelector extends DocumentSheet {
                         if (spells && spells.length > 0) {
                             for (let spell of spells) {
                                 let entry = await spellPack.get(spell.node);
-                                entries.push(entry.data);
+                                entries.push(entry);
                             }
                         }
                         targetActor.createEmbeddedDocuments("Item", entries);
@@ -186,7 +187,7 @@ export default class RaceSelector extends DocumentSheet {
                         if (skills) {
                             for (let skill of skills) {
                                 targetActor.update({
-                                    ['data.skills.' + skill + '.value']: 1
+                                    ['system.skills.' + skill + '.value']: 1
                                 });
                             }
                         }
@@ -204,10 +205,10 @@ export default class RaceSelector extends DocumentSheet {
                         }
 
                         targetActor.update({
-                            ['data.details.race']: game.i18n.localize(subrace.name),
-                            ['data.traits.dr.value']: resArray,
-                            ['data.traits.armorProf.value']: armorProfs,
-                            ['data.traits.weaponProf.value']: weaponProfs,
+                            ['system.details.race']: game.i18n.localize(subrace.name),
+                            ['system.traits.dr.value']: resArray,
+                            ['system.traits.armorProf.value']: armorProfs,
+                            ['system.traits.weaponProf.value']: weaponProfs,
                         });
                     }
                 }
