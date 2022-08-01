@@ -24,31 +24,150 @@
                      },
                      {
                         "title": "WC5E.UI.RarityEp"
-                     },
-                     {
-                        "title": "WC5E.UI.Effect"
-                     },
-                     {
-                        "title": "WC5E.UI.Properties"
                      }
                   ],
                   "rows": [
                      [
                         {
                            "link": {
-                              "pack": "warcraft5e.wc5e_items_weapons",
-                              "node": "uAAKYCAMrsSug9jN",
-                              "label": "WC5E.Items.Blunderbuss.Label"
+                              "pack": "warcraft5e.wc5e_items_ammunition",
+                              "node": "zXnxhrqVoyKCDXX0",
+                              "label": "WC5E.Items.AtomizingShot.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Epic",
+                           "brackets": "+4"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_ammunition",
+                              "node": "CY5geUVPQQdGMeA8",
+                              "label": "WC5E.Items.BlastingShot.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Common",
+                           "brackets": "+2"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_ammunition",
+                              "node": "1IMYfCsHLwXiiNhi",
+                              "label": "WC5E.Items.Buckshot.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Common",
+                           "brackets": "+2"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_ammunition",
+                              "node": "yEiSOvS8ETIXl8xQ",
+                              "label": "WC5E.Items.CursedBullet.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Rare",
+                           "brackets": "+3"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_ammunition",
+                              "node": "pU9dcwSD34mR5V8Y",
+                              "label": "WC5E.Items.FrostShot.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Common",
+                           "brackets": "+2"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_ammunition",
+                              "node": "JHyapGtNpOJDWaKv",
+                              "label": "WC5E.Items.HolyBullet.Label"
                            }
                         },
                         {
                            "text": "WC5E.UI.Rarities.Uncommon",
                            "brackets": "+2"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_ammunition",
+                              "node": "Gf6sckAZfDH9ab1z",
+                              "label": "WC5E.Items.IncendiaryShot.Label"
+                           }
                         },
                         {
-                           "text": "3d8/2"
+                           "text": "WC5E.UI.Rarities.Common",
+                           "brackets": "+2"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_ammunition",
+                              "node": "V6OiDgChL9t2l1oE",
+                              "label": "WC5E.Items.ParalyzingShot.Label"
+                           }
                         },
                         {
+                           "text": "WC5E.UI.Rarities.Uncommon",
+                           "brackets": "+2"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_ammunition",
+                              "node": "aB5Bc7tD1pnMpyBU",
+                              "label": "WC5E.Items.RazorShot.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Common",
+                           "brackets": "+2"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_ammunition",
+                              "node": "ZEh8VG1cu4GihrlG",
+                              "label": "WC5E.Items.ShockShell.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Common",
+                           "brackets": "+2"
+                        }
+                     ],
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_ammunition",
+                              "node": "rFv2XZdnKfBpchlP",
+                              "label": "WC5E.Items.WaterShot.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Common",
+                           "brackets": "+2"
                         }
                      ]
                   ]

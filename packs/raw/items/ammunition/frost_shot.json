@@ -1,0 +1,92 @@
+{
+   "name": "Frost Shot",
+   "type": "consumable",
+   "img": "icons/weapons/ammunition/shot-round-blue.webp",
+   "effects": [],
+   "flags": {
+   },
+   "system": {
+      "description": {
+         "value": "<p>Ammunition deals 1d8 extra cold damage, and the<br />target is chilled for 1 round.</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 226",
+      "quantity": 1,
+      "weight": 0.05,
+      "price": 0.2,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "common",
+      "identified": true,
+      "activation": {
+         "type": "",
+         "cost": null,
+         "condition": ""
+      },
+      "duration": {
+         "value": null,
+         "units": ""
+      },
+      "target": {
+         "value": null,
+         "width": null,
+         "units": "",
+         "type": ""
+      },
+      "range": {
+         "value": null,
+         "long": null,
+         "units": ""
+      },
+      "uses": {
+         "value": null,
+         "max": "",
+         "per": "",
+         "autoDestroy": false
+      },
+      "consume": {
+         "type": "",
+         "target": "",
+         "amount": null
+      },
+      "ability": "",
+      "actionType": "rwak",
+      "attackBonus": "0",
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [
+            [
+               "1d8",
+               "cold"
+            ]
+         ],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "scaling": "spell"
+      },
+      "consumableType": "ammo"
+   },
+   "ownership": {
+      "default": 0
+   },
+   "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.0.0-alpha2",
+      "coreVersion": "10.276",
+      "createdTime": 1659346502740,
+      "modifiedTime": 1659346502740,
+      "lastModifiedBy": "BonBLPHtXp9sRrbq"
+   },
+   "folder": null,
+   "sort": 0,
+   "_id": "pU9dcwSD34mR5V8Y"
+}

@@ -1,0 +1,92 @@
+{
+   "name": "Atomizing Shot",
+   "type": "consumable",
+   "img": "icons/weapons/ammunition/bullet-ice-blue.webp",
+   "effects": [],
+   "flags": {
+   },
+   "system": {
+      "description": {
+         "value": "<p>Ammunition deals extra 10d6 + 40 arcane damage, disintegrating the target if reduced to 0 hit points, as per the disintegrate spell.</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 225",
+      "quantity": 1,
+      "weight": 0.05,
+      "price": 12.8,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "veryRare",
+      "identified": true,
+      "activation": {
+         "type": "",
+         "cost": null,
+         "condition": ""
+      },
+      "duration": {
+         "value": null,
+         "units": ""
+      },
+      "target": {
+         "value": null,
+         "width": null,
+         "units": "",
+         "type": ""
+      },
+      "range": {
+         "value": null,
+         "long": null,
+         "units": ""
+      },
+      "uses": {
+         "value": null,
+         "max": "",
+         "per": "",
+         "autoDestroy": false
+      },
+      "consume": {
+         "type": "",
+         "target": "",
+         "amount": null
+      },
+      "ability": "",
+      "actionType": "rwak",
+      "attackBonus": "0",
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [
+            [
+               "10d6 + 40",
+               "arcane"
+            ]
+         ],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "scaling": "spell"
+      },
+      "consumableType": "ammo"
+   },
+   "ownership": {
+      "default": 0
+   },
+   "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.0.0-alpha2",
+      "coreVersion": "10.276",
+      "createdTime": 1659344870552,
+      "modifiedTime": 1659344870552,
+      "lastModifiedBy": "BonBLPHtXp9sRrbq"
+   },
+   "folder": null,
+   "sort": 0,
+   "_id": "zXnxhrqVoyKCDXX0"
+}

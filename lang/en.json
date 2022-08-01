@@ -8460,6 +8460,9 @@
          "Atiesh": {
             "Label": "Atiesh, Greatstaff of the Guardian"
          },
+         "AtomizingShot": {
+            "Label": "Atomizing Shot"
+         },
          "AttackClaws": {
             "Label": "Attack Claws",
             "Description": {
@@ -8540,6 +8543,9 @@
          "Bladefist": {
             "Label": "Bladefist"
          },
+         "BlastingShot": {
+            "Label": "Blasting Shot"
+         },
          "Blight": {
             "Label": "Blight"
          },
@@ -8615,6 +8621,9 @@
          },
          "Brainsplinter": {
             "Label": "Brainsplinter"
+         },
+         "Buckshot": {
+            "Label": "Buckshot"
          },
          "Bullets": {
             "Label": "Bullets (20)",
@@ -8751,6 +8760,9 @@
             "Label": "Crystallized Air",
             "ShortDescription": "Provides 1 hour of breathable air"
          },
+         "CursedBullet": {
+            "Label": "Cursed Bullet"
+         },
          "Dagger": {
             "Label": "Dagger"
          },
@@ -8834,6 +8846,9 @@
          "Frostmourne": {
             "Label": "Frostmourne"
          },
+         "FrostShot": {
+            "Label": "Frost Shot"
+         },
          "GarroteWire": {
             "Label": "Garrote Wire",
             "Description": {
@@ -8913,6 +8928,9 @@
          "HeroismPill": {
             "Label": "Heroism Pill"
          },
+         "HolyBullet": {
+            "Label": "Holy Bullet"
+         },
          "HolySymbol": {
             "Label": "Holy Symbol"
          },
@@ -8922,6 +8940,9 @@
          },
          "HornOfStormwind": {
             "Label": "Horn of Stormwind"
+         },
+         "IncendiaryShot": {
+            "Label": "Incendiary Shot"
          },
          "InfusionKit": {
             "Label": "Infusion Kit",
@@ -9074,6 +9095,9 @@
          "Orkenblade": {
             "Label": "Orkenblade"
          },
+         "ParalyzingShot": {
+            "Label": "Paralyzing Shot"
+         },
          "Pellets": {
             "Label": "Pellets (20)",
             "Description": {
@@ -9208,6 +9232,9 @@
          "QuilenStatuette": {
             "Label": "Quilen Statuette"
          },
+         "RazorShot": {
+            "Label": "Razor Shot"
+         },
          "RejuvenationPill": {
             "Label": "Rejuvenation Pill"
          },
@@ -9288,6 +9315,9 @@
          },
          "ShipSwivelCannon": {
             "Label": "Ship, Swivel Cannon"
+         },
+         "ShockShell": {
+            "Label": "Shock Shell"
          },
          "Shortsword": {
             "Label": "Shortsword"
@@ -9468,6 +9498,9 @@
                   "Value": "This night elf weapon is a crescent-shaped blade about 4 feet long with a hilt in the center of the back edge. Demon hunters favor these weapons."
                }
             }
+         },
+         "WaterShot": {
+            "Label": "Water Shot"
          },
          "WeightedDice": {
             "Label": "Weighted Dice"

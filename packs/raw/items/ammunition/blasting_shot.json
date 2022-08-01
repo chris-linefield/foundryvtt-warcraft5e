@@ -1,0 +1,92 @@
+{
+   "name": "Blasting Shot",
+   "type": "consumable",
+   "img": "icons/weapons/ammunition/shot-round-blue.webp",
+   "effects": [],
+   "flags": {
+   },
+   "system": {
+      "description": {
+         "value": "<p>Ammunition deals double damage to objects, half to<br />creatures, and the malfunction rate is reduced by 2<br />(minimum 0)</p>\n<p>@UUID[Compendium.warcraft5e.wc5e_mechanics.0kkX8fLDVucLKRE4]{Reliable Device} @UUID[Compendium.warcraft5e.wc5e_mechanics.VXKn1GHEf9WcvFv5]{Sapper}</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 226",
+      "quantity": 1,
+      "weight": 0.05,
+      "price": 0.02,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "common",
+      "identified": true,
+      "activation": {
+         "type": "",
+         "cost": null,
+         "condition": ""
+      },
+      "duration": {
+         "value": null,
+         "units": ""
+      },
+      "target": {
+         "value": null,
+         "width": null,
+         "units": "",
+         "type": ""
+      },
+      "range": {
+         "value": null,
+         "long": null,
+         "units": ""
+      },
+      "uses": {
+         "value": null,
+         "max": "",
+         "per": "",
+         "autoDestroy": false
+      },
+      "consume": {
+         "type": "",
+         "target": "",
+         "amount": null
+      },
+      "ability": "",
+      "actionType": "",
+      "attackBonus": "0",
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [
+            [
+               "",
+               ""
+            ]
+         ],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "scaling": "spell"
+      },
+      "consumableType": "ammo"
+   },
+   "ownership": {
+      "default": 0
+   },
+   "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.0.0-alpha2",
+      "coreVersion": "10.276",
+      "createdTime": 1659346114279,
+      "modifiedTime": 1659346268767,
+      "lastModifiedBy": "BonBLPHtXp9sRrbq"
+   },
+   "folder": null,
+   "sort": 0,
+   "_id": "CY5geUVPQQdGMeA8"
+}

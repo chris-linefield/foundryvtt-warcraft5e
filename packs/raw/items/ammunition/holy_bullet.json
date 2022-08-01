@@ -1,0 +1,92 @@
+{
+   "name": "Holy Bullet",
+   "type": "consumable",
+   "img": "icons/weapons/ammunition/shot-round-blue.webp",
+   "effects": [],
+   "flags": {
+   },
+   "system": {
+      "description": {
+         "value": "<p>Ammunition deals 4d6 extra holy damage, and the<br />next attack against the target has advantage (as per<br />@UUID[Compendium.dnd5e.spells.7buEm5KhI5lP8m1z]{Guiding Bolt})</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 226",
+      "quantity": 1,
+      "weight": 0.05,
+      "price": 0.8,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "uncommon",
+      "identified": true,
+      "activation": {
+         "type": "",
+         "cost": null,
+         "condition": ""
+      },
+      "duration": {
+         "value": null,
+         "units": ""
+      },
+      "target": {
+         "value": null,
+         "width": null,
+         "units": "",
+         "type": ""
+      },
+      "range": {
+         "value": null,
+         "long": null,
+         "units": ""
+      },
+      "uses": {
+         "value": null,
+         "max": "",
+         "per": "",
+         "autoDestroy": false
+      },
+      "consume": {
+         "type": "",
+         "target": "",
+         "amount": null
+      },
+      "ability": "",
+      "actionType": "rwak",
+      "attackBonus": "0",
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [
+            [
+               "4d6",
+               "holy"
+            ]
+         ],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "scaling": "spell"
+      },
+      "consumableType": "ammo"
+   },
+   "ownership": {
+      "default": 0
+   },
+   "_stats": {
+      "systemId": "dnd5e",
+      "systemVersion": "2.0.0-alpha2",
+      "coreVersion": "10.276",
+      "createdTime": 1659346767207,
+      "modifiedTime": 1659346767207,
+      "lastModifiedBy": "BonBLPHtXp9sRrbq"
+   },
+   "folder": null,
+   "sort": 0,
+   "_id": "JHyapGtNpOJDWaKv"
+}
