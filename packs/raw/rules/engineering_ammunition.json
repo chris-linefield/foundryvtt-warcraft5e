@@ -176,13 +176,13 @@
          ],
          "prev": {
             "pack": "wc5e_rules",
-            "node": "CKNGfqUkV7iS0ONn",
-            "label": "WC5E.Rules.EngineeringExplosives.Label"
+            "node": "vtecyDKuoGE5kuS4",
+            "label": "WC5E.Rules.EngineeringFirearms.Label"
          },
          "next": {
             "pack": "wc5e_rules",
-            "node": "vtecyDKuoGE5kuS4",
-            "label": "WC5E.Rules.TODO.Label"
+            "node": "1NIvih718GF777Sc",
+            "label": "WC5E.Rules.EngineeringGadgets.Label"
          }
       }
    }

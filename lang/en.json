@@ -10606,7 +10606,7 @@
             }
          },
          "EngineeringFirearms": {
-            "Label": "Engineering: Firearms",
+            "Label": "Firearms",
             "Description": {
                "1": {
                   "Value": "All firearms use combustion engines, while all crossbows use mechanical engines. Due to the properties of both weapons, adding fuel (or reloading) follows simpler mechanisms; firearms need 2 ounces of gunpowder regardless of rarity for every shot, and crossbows require 1 action to reload"
@@ -10623,7 +10623,7 @@
             }
          },
          "EngineeringAmmunition": {
-            "Label": "Engineering: Ammunition",
+            "Label": "Ammunition",
             "Description": {
                "1": {
                   "Value": "Engineered ammunition is similar to infused ammunition (see Treasures), but follows some differences in rules (See Chapter 7). Below are a number of special engineered ammunition."
@@ -14246,11 +14246,23 @@
          "Effect": "Effect",
          "Engine": "Engine",
          "Engines": {
+            "Alchemical": "Alchemical",
+            "ChaosEnergy": "Chaos Energy",
             "Combustion": "Combustion",
-            "Mana": "Mana",
+            "Electric": "Electric",
+            "Mana": "Mana: Any",
+            "ManaArcane": "Mana: Arcane",
+            "ManaDruid": "Mana: Druid",
             "Mechanical": "Mechanical",
+            "Soul": "Soul: Any",
+            "SoulElemental": "Soul: Elemental",
+            "SoulCelestialFiend": "Soul: Celestial / Fiend",
+            "SoulLivingCreature": "Soul: Living Creature",
+            "SoulSpellcaster": "Soul: Spellcaster",
+            "SoulUndead": "Soul: Undead",
             "Steam": "Steam"
          },
+         "EngineOptions": "Available Engine Options",
          "Enhancement": "Enhancement",
          "EntertainerRoutine": "Entertainer Routine",
          "FamilyNames": "Family Names",

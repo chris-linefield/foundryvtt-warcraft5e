@@ -1,0 +1,59 @@
+{
+   "_id": "1NIvih718GF777Sc",
+   "name": "Engineering: Gadgets",
+   "permission": {
+      "default": 0
+   },
+   "type": "class",
+   "flags": {
+      "wc5e": {
+         "type": "rule",
+         "title": "WC5E.Rules.EngineeringAmmunition.Label",
+         "content": [
+            {
+               "value": "WC5E.Rules.EngineeringAmmunition.Description.1.Value"
+            },
+            {
+               "value": "WC5E.Rules.EngineeringAmmunition.Description.2.Value"
+            },
+            {
+               "table": {
+                  "head": [
+                     {
+                        "title": "WC5E.UI.Name"
+                     },
+                     {
+                        "title": "WC5E.UI.RarityEp"
+                     }
+                  ],
+                  "rows": [
+                     [
+                        {
+                           "link": {
+                              "pack": "warcraft5e.wc5e_items_ammunition",
+                              "node": "zXnxhrqVoyKCDXX0",
+                              "label": "WC5E.Items.AtomizingShot.Label"
+                           }
+                        },
+                        {
+                           "text": "WC5E.UI.Rarities.Epic",
+                           "brackets": "+4"
+                        }
+                     ]
+                  ]
+               }
+            }
+         ],
+         "prev": {
+            "pack": "wc5e_rules",
+            "node": "ddAue1gT44qeoZd7",
+            "label": "WC5E.Rules.EngineeringAmmunition.Label"
+         },
+         "next": {
+            "pack": "wc5e_rules",
+            "node": "1NIvih718GF777Sc",
+            "label": "WC5E.Rules.TODO.Label"
+         }
+      }
+   }
+}

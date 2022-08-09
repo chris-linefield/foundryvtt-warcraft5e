@@ -46,6 +46,29 @@
 
         {{!-- Details Tab --}}
         <div class="tab details" data-group="primary" data-tab="details">
+            <h3 class="form-header">{{ localize "WC5E.UI.Engine" }}</h3>
+            <div class="form-group">
+                <label>{{ localize "WC5E.UI.Engine" }}</label>
+                <select name="flags.wc5e.engineType">
+                    <option value=""></option>
+                    {{#each item.flags.wc5e.validEngineTypes as |val prop|}}
+                        {{#if (isTrue val)}}
+                            <option value="{{prop}}" {{selected prop ../item.flags.wc5e.engineType}}>
+                                {{localize (wcString "WC5E.UI.Engines" prop)}}
+                            </option>
+                        {{/if}}
+                    {{/each}}
+                </select>
+            </div>
+            <div class="form-group stacked engineTypes">
+                <label>{{ localize "WC5E.UI.EngineOptions" }}</label>
+                {{#each config.engineTypes as |name prop|}}
+                <label class="checkbox">
+                    <input type="checkbox" name="flags.wc5e.validEngineTypes.{{prop}}" {{checked (lookup ../item.flags.wc5e.validEngineTypes prop)}}/> {{ localize name }}
+                </label>
+                {{/each}}
+            </div>
+
             <h3 class="form-header">{{ localize "DND5E.ItemWeaponDetails" }}</h3>
 
             {{!-- Weapon Type --}}

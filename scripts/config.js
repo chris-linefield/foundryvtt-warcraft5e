@@ -22,6 +22,24 @@ DND5E.damageTypes.holy = "WC5E.UI.DamageTypes.Holy";
 DND5E.damageTypes.mana = "WC5E.UI.DamageTypes.Mana";
 DND5E.damageTypes.shadow = "WC5E.UI.DamageTypes.Shadow";
 
+DND5E.engineTypes = {
+    "alchemical": "WC5E.UI.Engines.Alchemical",
+    "chaos": "WC5E.UI.Engines.ChaosEnergy",
+    "combustion": "WC5E.UI.Engines.Combustion",
+    "electric": "WC5E.UI.Engines.Electric",
+    "mana": "WC5E.UI.Engines.Mana",
+    "manaArcane": "WC5E.UI.Engines.ManaArcane",
+    "manaDruid": "WC5E.UI.Engines.ManaDruid",
+    "mechanical": "WC5E.UI.Engines.Mechanical",
+    "soul": "WC5E.UI.Engines.Soul",
+    "soulCelestial": "WC5E.UI.Engines.SoulCelestialFiend",
+    "soulElemental": "WC5E.UI.Engines.SoulElemental",
+    "soulLiving": "WC5E.UI.Engines.SoulLivingCreature",
+    "soulSpellcaster": "WC5E.UI.Engines.SoulSpellcaster",
+    "soulUndead": "WC5E.UI.Engines.SoulUndead",
+    "steam": "WC5E.UI.Engines.Steam"
+};
+
 DND5E.healingTypes.healingMana = "WC5E.UI.HealingTypes.HealingMana";
 
 DND5E.itemRarity.veryRare = "WC5E.UI.ItemRarity.Epic";
