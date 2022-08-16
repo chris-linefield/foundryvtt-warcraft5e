@@ -8,7 +8,7 @@ https://discord.com/channels/410113488204070932/410113488204070934
 
 The newest version only works for FoundryVtt Version 10
 
-## Version: 0.2.1
+## Version: 0.2.2
 Feature | Description
 ------------ | -------------
 ![Classes Preview](http://www.hahn-webdesign.de/warcraft5e/classes_preview.jpg) | Features an overhauled class-sheet with lore and images. Features compendium entries for 13 custom classes and their respective class feats and spells.<ul><li>Alchemist</li><li>Death Knight</li><li>Druid</li><li>Hunter</li><li>Mage</li><li>Monk</li><li>Paladin</li><li>Priest</li><li>Rogue</li><li>Shaman</li><li>Tinker</li><li>Warlock</li><li>Warrior</li></ul>

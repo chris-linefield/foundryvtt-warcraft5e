@@ -2,7 +2,7 @@
   "title": "Warcraft RPG - 5e",
   "description": "Conversion of the official Warcraft Role Playing Game: https://drive.google.com/drive/folders/0B1FoMHLY1oOtLUlNdTZXYzVNY0k.",
   "url": "https://github.com/ArthegaAsdweri/foundryvtt-warcraft5e",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "esmodules": [
     "scripts/warcraft5e.js"
   ],
