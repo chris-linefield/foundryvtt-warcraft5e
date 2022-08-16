@@ -1,0 +1,912 @@
+{
+   "name": "Glider, Goblin",
+   "type": "npc",
+   "img": "icons/svg/mystery-man.svg",
+   "system": {
+      "abilities": {
+         "str": {
+            "value": 14,
+            "proficient": 0,
+            "bonuses": {
+               "check": "",
+               "save": ""
+            }
+         },
+         "dex": {
+            "value": 18,
+            "proficient": 0,
+            "bonuses": {
+               "check": "",
+               "save": ""
+            }
+         },
+         "con": {
+            "value": 14,
+            "proficient": 0,
+            "bonuses": {
+               "check": "",
+               "save": ""
+            }
+         },
+         "int": {
+            "value": 1,
+            "proficient": 0,
+            "bonuses": {
+               "check": "",
+               "save": ""
+            }
+         },
+         "wis": {
+            "value": 3,
+            "proficient": 0,
+            "bonuses": {
+               "check": "",
+               "save": ""
+            }
+         },
+         "cha": {
+            "value": 1,
+            "proficient": 0,
+            "bonuses": {
+               "check": "",
+               "save": ""
+            }
+         }
+      },
+      "attributes": {
+         "ac": {
+            "flat": null,
+            "calc": "default",
+            "formula": ""
+         },
+         "hp": {
+            "value": 10,
+            "min": 0,
+            "max": 10,
+            "temp": 0,
+            "tempmax": 0,
+            "formula": ""
+         },
+         "init": {
+            "value": 0,
+            "bonus": 0
+         },
+         "movement": {
+            "burrow": 0,
+            "climb": 0,
+            "fly": 0,
+            "swim": 0,
+            "walk": 0,
+            "units": "ft",
+            "hover": false
+         },
+         "attunement": {
+            "max": 3
+         },
+         "senses": {
+            "darkvision": 0,
+            "blindsight": 0,
+            "tremorsense": 0,
+            "truesight": 0,
+            "units": "ft",
+            "special": ""
+         },
+         "spellcasting": "int"
+      },
+      "details": {
+         "biography": {
+            "value": "<p>Goblin Gliders are a special construct that are folded into cloaks or backpacks. When activated, it unfolds into a glider that not only slows the user‘s fall, but allows them to glide</p>",
+            "public": ""
+         },
+         "alignment": "Unaligned",
+         "race": "",
+         "type": {
+            "value": "construct",
+            "subtype": "",
+            "swarm": "",
+            "custom": ""
+         },
+         "environment": "",
+         "cr": 0.5,
+         "spellLevel": 0,
+         "xp": {
+            "value": 10
+         },
+         "source": "Wc5e - MC p. 98"
+      },
+      "traits": {
+         "size": "med",
+         "di": {
+            "value": [
+               "poison",
+               "psychic"
+            ],
+            "custom": ""
+         },
+         "dr": {
+            "value": [],
+            "custom": ""
+         },
+         "dv": {
+            "value": [],
+            "custom": ""
+         },
+         "ci": {
+            "value": [
+               "blinded",
+               "charmed",
+               "deafened",
+               "frightened",
+               "paralyzed",
+               "petrified",
+               "poisoned",
+               "stunned",
+               "unconscious"
+            ],
+            "custom": ""
+         },
+         "languages": {
+            "value": [],
+            "custom": ""
+         }
+      },
+      "currency": {
+         "pp": 0,
+         "gp": 0,
+         "ep": 0,
+         "sp": 0,
+         "cp": 0
+      },
+      "skills": {
+         "acr": {
+            "value": 0,
+            "ability": "dex",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "ani": {
+            "value": 0,
+            "ability": "wis",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "arc": {
+            "value": 0,
+            "ability": "int",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "ath": {
+            "value": 0,
+            "ability": "str",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "dec": {
+            "value": 0,
+            "ability": "cha",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "his": {
+            "value": 0,
+            "ability": "int",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "ins": {
+            "value": 0,
+            "ability": "wis",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "itm": {
+            "value": 0,
+            "ability": "cha",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "inv": {
+            "value": 0,
+            "ability": "int",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "med": {
+            "value": 0,
+            "ability": "wis",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "nat": {
+            "value": 0,
+            "ability": "int",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "prc": {
+            "value": 0,
+            "ability": "wis",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "prf": {
+            "value": 0,
+            "ability": "cha",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "per": {
+            "value": 0,
+            "ability": "cha",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "rel": {
+            "value": 0,
+            "ability": "int",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "slt": {
+            "value": 0,
+            "ability": "dex",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "ste": {
+            "value": 0,
+            "ability": "dex",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         },
+         "sur": {
+            "value": 0,
+            "ability": "wis",
+            "bonuses": {
+               "check": "",
+               "passive": ""
+            }
+         }
+      },
+      "spells": {
+         "spell1": {
+            "value": 0,
+            "override": null
+         },
+         "spell2": {
+            "value": 0,
+            "override": null
+         },
+         "spell3": {
+            "value": 0,
+            "override": null
+         },
+         "spell4": {
+            "value": 0,
+            "override": null
+         },
+         "spell5": {
+            "value": 0,
+            "override": null
+         },
+         "spell6": {
+            "value": 0,
+            "override": null
+         },
+         "spell7": {
+            "value": 0,
+            "override": null
+         },
+         "spell8": {
+            "value": 0,
+            "override": null
+         },
+         "spell9": {
+            "value": 0,
+            "override": null
+         },
+         "pact": {
+            "value": 0,
+            "override": null
+         }
+      },
+      "bonuses": {
+         "mwak": {
+            "attack": "",
+            "damage": ""
+         },
+         "rwak": {
+            "attack": "",
+            "damage": ""
+         },
+         "msak": {
+            "attack": "",
+            "damage": ""
+         },
+         "rsak": {
+            "attack": "",
+            "damage": ""
+         },
+         "abilities": {
+            "check": "",
+            "save": "",
+            "skill": ""
+         },
+         "spell": {
+            "dc": ""
+         }
+      },
+      "resources": {
+         "legact": {
+            "value": 0,
+            "max": 0
+         },
+         "legres": {
+            "value": 0,
+            "max": 0
+         },
+         "lair": {
+            "value": false,
+            "initiative": 0
+         }
+      }
+   },
+   "prototypeToken": {
+      "name": "Glider, Goblin",
+      "displayName": 0,
+      "actorLink": false,
+      "texture": {
+         "src": "icons/svg/mystery-man.svg",
+         "scaleX": 1,
+         "scaleY": 1,
+         "offsetX": 0,
+         "offsetY": 0,
+         "rotation": 0,
+         "tint": null
+      },
+      "width": 1,
+      "height": 1,
+      "lockRotation": false,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 0,
+      "bar1": {
+         "attribute": "attributes.hp"
+      },
+      "bar2": {
+         "attribute": null
+      },
+      "light": {
+         "alpha": 0.5,
+         "angle": 360,
+         "bright": 0,
+         "color": null,
+         "coloration": 1,
+         "dim": 0,
+         "attenuation": 0.5,
+         "luminosity": 0.5,
+         "saturation": 0,
+         "contrast": 0,
+         "shadows": 0,
+         "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+         },
+         "darkness": {
+            "min": 0,
+            "max": 1
+         }
+      },
+      "sight": {
+         "enabled": false,
+         "range": null,
+         "angle": 360,
+         "color": null,
+         "attenuation": 0.1,
+         "brightness": 0,
+         "saturation": 0,
+         "contrast": 0,
+         "visionMode": "basic"
+      },
+      "flags": {},
+      "randomImg": false
+   },
+   "items": [
+      {
+         "name": "Powerful Leap",
+         "type": "feat",
+         "system": {
+            "description": {
+               "value": "<p>The goblin glider can spend an<br />action as part of jumping to double its leaping<br />distance.</p>",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "",
+            "activation": {
+               "type": "",
+               "cost": 0,
+               "condition": ""
+            },
+            "duration": {
+               "value": null,
+               "units": ""
+            },
+            "target": {
+               "value": null,
+               "width": null,
+               "units": "",
+               "type": ""
+            },
+            "range": {
+               "value": null,
+               "long": null,
+               "units": ""
+            },
+            "uses": {
+               "value": null,
+               "max": "",
+               "per": null
+            },
+            "consume": {
+               "type": "",
+               "target": null,
+               "amount": null
+            },
+            "ability": null,
+            "actionType": "",
+            "attackBonus": 0,
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell"
+            },
+            "requirements": "",
+            "recharge": {
+               "value": null,
+               "charged": false
+            }
+         },
+         "_id": "tKUoox6DvQolZ9Am",
+         "img": "icons/skills/movement/arrow-upward-yellow.webp",
+         "effects": [],
+         "folder": null,
+         "sort": 0,
+         "ownership": {
+            "default": 0
+         },
+         "flags": {}
+      },
+      {
+         "name": "Harnessed Vehicle",
+         "type": "feat",
+         "system": {
+            "description": {
+               "value": "<p>The glider has no normal speed, and is harnessed on the user. The user gains the benefits of the glider‘s features so long as it is being active.</p>",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "",
+            "activation": {
+               "type": "",
+               "cost": 0,
+               "condition": ""
+            },
+            "duration": {
+               "value": null,
+               "units": ""
+            },
+            "target": {
+               "value": null,
+               "width": null,
+               "units": "",
+               "type": ""
+            },
+            "range": {
+               "value": null,
+               "long": null,
+               "units": ""
+            },
+            "uses": {
+               "value": null,
+               "max": "",
+               "per": null
+            },
+            "consume": {
+               "type": "",
+               "target": null,
+               "amount": null
+            },
+            "ability": null,
+            "actionType": "",
+            "attackBonus": 0,
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell"
+            },
+            "requirements": "",
+            "recharge": {
+               "value": null,
+               "charged": false
+            }
+         },
+         "_id": "2DUATMXWsu71EnIg",
+         "img": "icons/equipment/back/mantle-collared-leather.webp",
+         "effects": [],
+         "folder": null,
+         "sort": 0,
+         "ownership": {
+            "default": 0
+         },
+         "flags": {}
+      },
+      {
+         "name": "Glider",
+         "type": "feat",
+         "system": {
+            "description": {
+               "value": "<p>The glider can glide at a ratio of 2 feet horizontally for every 1 foot vertically. In other words, a goblin glider which starts out 50 feet above the ground can glide to a distance 100 feet before touching ground. While gliding, the glider cannot take any other action.</p>",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "",
+            "activation": {
+               "type": "",
+               "cost": 0,
+               "condition": ""
+            },
+            "duration": {
+               "value": null,
+               "units": ""
+            },
+            "target": {
+               "value": null,
+               "width": null,
+               "units": "",
+               "type": ""
+            },
+            "range": {
+               "value": null,
+               "long": null,
+               "units": ""
+            },
+            "uses": {
+               "value": null,
+               "max": "",
+               "per": null
+            },
+            "consume": {
+               "type": "",
+               "target": null,
+               "amount": null
+            },
+            "ability": null,
+            "actionType": "",
+            "attackBonus": 0,
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell"
+            },
+            "requirements": "",
+            "recharge": {
+               "value": null,
+               "charged": false
+            }
+         },
+         "_id": "w2qLMFVxhjErjMDh",
+         "img": "icons/magic/holy/angel-wings-gray.webp",
+         "effects": [],
+         "folder": null,
+         "sort": 0,
+         "ownership": {
+            "default": 0
+         },
+         "flags": {}
+      },
+      {
+         "_id": "OSXK3vYXToTwQ6RP",
+         "name": "Fuel (2 mechanical units / charge)",
+         "type": "feat",
+         "img": "icons/commodities/tech/furnace-modern.webp",
+         "effects": [],
+         "folder": null,
+         "sort": 0,
+         "flags": {
+            "core": {
+               "sourceId": "Compendium.warcraft5e.wc5e_monsters.cHIqmS0ulwHYlYHQ.Item.kthnNd7SUjwZQnX8"
+            }
+         },
+         "system": {
+            "description": {
+               "value": "<p>The construct consumes 2 fuel units per hour for 1 use (2 rarity, 0 size). As it runs on a mechanical engine, this requires 1 hour of winding for 1 unit, or 10 minutes for 3 unit if proficient with Engineer‘s Tools or Tinker‘s Tools</p>",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "Wc5e - MC p. 21",
+            "activation": {
+               "type": "",
+               "cost": 0,
+               "condition": ""
+            },
+            "duration": {
+               "value": null,
+               "units": ""
+            },
+            "target": {
+               "value": null,
+               "width": null,
+               "units": "",
+               "type": ""
+            },
+            "range": {
+               "value": null,
+               "long": null,
+               "units": ""
+            },
+            "uses": {
+               "value": null,
+               "max": "",
+               "per": null
+            },
+            "consume": {
+               "type": "",
+               "target": null,
+               "amount": null
+            },
+            "ability": null,
+            "actionType": "",
+            "attackBonus": 0,
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell"
+            },
+            "requirements": "",
+            "recharge": {
+               "value": null,
+               "charged": false
+            },
+            "attunement": 0
+         },
+         "ownership": {
+            "default": 0
+         }
+      },
+      {
+         "name": "Wing Slash",
+         "type": "weapon",
+         "system": {
+            "description": {
+               "value": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature.<br />Hit: 5 (1d6 + 2) slashing damage.</p>",
+               "chat": "",
+               "unidentified": ""
+            },
+            "source": "Wc5e - MC p. 98",
+            "quantity": 1,
+            "weight": 0,
+            "price": 0,
+            "attunement": 0,
+            "equipped": true,
+            "rarity": "common",
+            "identified": true,
+            "activation": {
+               "type": "action",
+               "cost": 1,
+               "condition": ""
+            },
+            "duration": {
+               "value": null,
+               "units": ""
+            },
+            "target": {
+               "value": 1,
+               "width": null,
+               "units": "",
+               "type": "creature"
+            },
+            "range": {
+               "value": null,
+               "long": 5,
+               "units": "ft"
+            },
+            "uses": {
+               "value": null,
+               "max": "",
+               "per": ""
+            },
+            "consume": {
+               "type": "",
+               "target": "",
+               "amount": null
+            },
+            "ability": "",
+            "actionType": "mwak",
+            "attackBonus": "0",
+            "chatFlavor": "",
+            "critical": {
+               "threshold": null,
+               "damage": ""
+            },
+            "damage": {
+               "parts": [
+                  [
+                     "1d6 + 2",
+                     "slashing"
+                  ]
+               ],
+               "versatile": ""
+            },
+            "formula": "",
+            "save": {
+               "ability": "",
+               "dc": null,
+               "scaling": "spell"
+            },
+            "armor": {
+               "value": 10
+            },
+            "hp": {
+               "value": 0,
+               "max": 0,
+               "dt": null,
+               "conditions": ""
+            },
+            "weaponType": "simpleM",
+            "baseItem": "",
+            "properties": {
+               "ada": false,
+               "amm": false,
+               "bomb": false,
+               "fin": false,
+               "fir": false,
+               "foc": false,
+               "gadget": false,
+               "hvy": false,
+               "hvypl": false,
+               "hvyplus": false,
+               "lgt": false,
+               "lod": false,
+               "mgc": false,
+               "mine": false,
+               "rch": false,
+               "rel": false,
+               "reloadp": false,
+               "reloadpl": false,
+               "reloadplus": false,
+               "ret": false,
+               "rocket": false,
+               "sil": false,
+               "spc": false,
+               "thr": false,
+               "two": false,
+               "ver": false
+            },
+            "proficient": true
+         },
+         "_id": "nSOgzJU6KB0jk15n",
+         "img": "icons/skills/melee/strike-slashes-red.webp",
+         "effects": [],
+         "folder": null,
+         "sort": 0,
+         "ownership": {
+            "default": 0
+         },
+         "flags": {
+            "wc5e": {
+               "engineType": "",
+               "validEngineTypes": {
+                  "alchemical": false,
+                  "chaosEnergy": false,
+                  "combustion": false,
+                  "electric": false,
+                  "mana": false,
+                  "manaArcane": false,
+                  "manaDruid": false,
+                  "mechanical": false,
+                  "soul": false,
+                  "soulCelestialFiend": false,
+                  "soulElemental": false,
+                  "soulLivingCreature": false,
+                  "soulSpellcaster": false,
+                  "soulUndead": false,
+                  "steam": false
+               },
+               "gadgetCooldown": "",
+               "enhancement": "",
+               "ammo": -1,
+               "capacity": null,
+               "mrmin": null,
+               "mrmax": null
+            }
+         }
+      }
+   ],
+   "effects": [],
+   "ownership": {
+      "default": 0
+   },
+   "flags": {
+   },
+   "folder": null,
+   "sort": 0,
+   "_id": "6rRkCwWby3O8uBni"
+}

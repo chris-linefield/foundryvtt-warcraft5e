@@ -1,0 +1,146 @@
+{
+   "name": "World Enlarger",
+   "type": "weapon",
+   "img": "icons/commodities/tech/cog-brass.webp",
+   "system": {
+      "description": {
+         "value": "<p>This phenomenally powerful gadget enlarges the whole world for a single target. When used, it casts the reduce @UUID[Compendium.dnd5e.spells.WahI41a3goVUg0x1]{Reduce Person}.</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 230",
+      "quantity": 1,
+      "weight": 10,
+      "price": 800,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "uncommon",
+      "identified": true,
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": 1,
+         "units": "minute"
+      },
+      "target": {
+         "value": 1,
+         "width": null,
+         "units": "",
+         "type": "creature"
+      },
+      "range": {
+         "value": 30,
+         "long": null,
+         "units": "ft"
+      },
+      "uses": {
+         "value": 10,
+         "max": "10",
+         "per": "charges"
+      },
+      "consume": {
+         "type": "material",
+         "target": "",
+         "amount": 4
+      },
+      "ability": "",
+      "actionType": "save",
+      "attackBonus": "0",
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "con",
+         "dc": 12,
+         "scaling": "flat"
+      },
+      "armor": {
+         "value": 10
+      },
+      "hp": {
+         "value": 0,
+         "max": 0,
+         "dt": null,
+         "conditions": ""
+      },
+      "weaponType": "improv",
+      "baseItem": "",
+      "properties": {
+         "ada": false,
+         "amm": false,
+         "bomb": false,
+         "fin": false,
+         "fir": false,
+         "foc": false,
+         "hvy": false,
+         "hvypl": false,
+         "hvyplus": false,
+         "lgt": false,
+         "lod": false,
+         "mgc": false,
+         "mine": false,
+         "rch": false,
+         "rel": false,
+         "reloadp": false,
+         "reloadpl": false,
+         "reloadplus": false,
+         "ret": false,
+         "rocket": false,
+         "sil": false,
+         "spc": false,
+         "thr": false,
+         "two": false,
+         "ver": false,
+         "gadget": true
+      },
+      "proficient": true
+   },
+   "effects": [],
+   "ownership": {
+      "default": 0
+   },
+   "flags": {
+      "wc5e": {
+         "enhancement": "",
+         "ammo": null,
+         "capacity": 40,
+         "mrmin": 1,
+         "mrmax": 2,
+         "engineType": "electric",
+         "validEngineTypes": {
+            "alchemical": false,
+            "combustion": false,
+            "mana": false,
+            "mechanical": false,
+            "steam": false,
+            "chaos": false,
+            "electric": true,
+            "manaArcane": false,
+            "manaDruid": false,
+            "soul": false,
+            "soulCelestial": false,
+            "soulElemental": false,
+            "soulLiving": false,
+            "soulSpellcaster": false,
+            "soulUndead": false,
+            "chaosEnergy": false,
+            "soulCelestialFiend": false,
+            "soulLivingCreature": false
+         },
+         "gadgetCooldown": "min"
+      }
+   },
+   "folder": null,
+   "sort": 0,
+   "_id": "o2ei9eZIs4GyDUK0"
+}

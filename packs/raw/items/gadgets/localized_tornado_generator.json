@@ -1,0 +1,151 @@
+{
+   "name": "Localized Tornado Generator",
+   "type": "weapon",
+   "img": "icons/magic/air/wind-tornado-funnel-blue-grey.webp",
+   "system": {
+      "description": {
+         "value": "<p>TODO: Description Missing</p>\n<p>@UUID[Compendium.warcraft5e.wc5e_spells.TafAVHmdRZ0wAxWZ]{Whirlwind}</p>\n<p>@UUID[Compendium.warcraft5e.wc5e_mechanics.QWRgk22veaPSawyJ]{Size increased} @UUID[Compendium.warcraft5e.wc5e_mechanics.GYZ8qpdTtZFo7tQu]{Focused Device}</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 228",
+      "quantity": 1,
+      "weight": 15,
+      "price": 51200,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "legendary",
+      "identified": true,
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": null,
+         "units": ""
+      },
+      "target": {
+         "value": 10,
+         "width": null,
+         "units": "ft",
+         "type": "cylinder"
+      },
+      "range": {
+         "value": 300,
+         "long": null,
+         "units": "ft"
+      },
+      "uses": {
+         "value": 10,
+         "max": "10",
+         "per": "charges"
+      },
+      "consume": {
+         "type": "material",
+         "target": "",
+         "amount": 10
+      },
+      "ability": "",
+      "actionType": "save",
+      "attackBonus": "0",
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [
+            [
+               "10d6",
+               "bludgeoning"
+            ]
+         ],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "dex",
+         "dc": 16,
+         "scaling": "flat"
+      },
+      "armor": {
+         "value": 10
+      },
+      "hp": {
+         "value": 0,
+         "max": 0,
+         "dt": null,
+         "conditions": ""
+      },
+      "weaponType": "improv",
+      "baseItem": "",
+      "properties": {
+         "ada": false,
+         "amm": false,
+         "bomb": false,
+         "fin": false,
+         "fir": false,
+         "foc": false,
+         "hvy": true,
+         "hvypl": false,
+         "hvyplus": false,
+         "lgt": false,
+         "lod": false,
+         "mgc": false,
+         "mine": false,
+         "rch": false,
+         "rel": false,
+         "reloadp": false,
+         "reloadpl": false,
+         "reloadplus": false,
+         "ret": false,
+         "rocket": false,
+         "sil": false,
+         "spc": false,
+         "thr": false,
+         "two": true,
+         "ver": false,
+         "gadget": true
+      },
+      "proficient": true
+   },
+   "effects": [],
+   "ownership": {
+      "default": 0
+   },
+   "flags": {
+      "wc5e": {
+         "enhancement": "",
+         "ammo": null,
+         "capacity": 100,
+         "mrmin": 1,
+         "mrmax": 5,
+         "engineType": "soulElemental",
+         "validEngineTypes": {
+            "alchemical": false,
+            "combustion": false,
+            "mana": false,
+            "mechanical": false,
+            "steam": false,
+            "chaos": false,
+            "electric": false,
+            "manaArcane": false,
+            "manaDruid": true,
+            "soul": false,
+            "soulCelestial": false,
+            "soulElemental": true,
+            "soulLiving": false,
+            "soulSpellcaster": false,
+            "soulUndead": false,
+            "chaosEnergy": false,
+            "soulCelestialFiend": false,
+            "soulLivingCreature": false
+         },
+         "gadgetCooldown": "day"
+      }
+   },
+   "folder": null,
+   "sort": 0,
+   "_id": "m2GMTmMedb37STzm"
+}

@@ -411,7 +411,7 @@ export class WcSkillHandler {
 
             //roll the dice!
             let roll = new Roll(dmgToUse);
-            roll.evaluate();
+            roll.evaluate({async:false});
             roll.toMessage();
 
             this.applyDamage();

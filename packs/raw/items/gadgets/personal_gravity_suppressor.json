@@ -1,0 +1,146 @@
+{
+   "name": "Personal Gravity Suppressor",
+   "type": "weapon",
+   "img": "icons/commodities/tech/lever.webp",
+   "system": {
+      "description": {
+         "value": "<p>TODO: Description Missing</p>\n<p>@UUID[Compendium.dnd5e.spells.pub0OWVEB71XQx1n]{Feather Fall}</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 229",
+      "quantity": 1,
+      "weight": 10,
+      "price": 800,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "uncommon",
+      "identified": true,
+      "activation": {
+         "type": "reaction",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": 1,
+         "units": "minute"
+      },
+      "target": {
+         "value": null,
+         "width": null,
+         "units": "",
+         "type": "self"
+      },
+      "range": {
+         "value": null,
+         "long": null,
+         "units": "self"
+      },
+      "uses": {
+         "value": 10,
+         "max": "10",
+         "per": "charges"
+      },
+      "consume": {
+         "type": "material",
+         "target": "",
+         "amount": 4
+      },
+      "ability": "",
+      "actionType": "util",
+      "attackBonus": "0",
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": 16,
+         "scaling": "spell"
+      },
+      "armor": {
+         "value": 10
+      },
+      "hp": {
+         "value": 0,
+         "max": 0,
+         "dt": null,
+         "conditions": ""
+      },
+      "weaponType": "improv",
+      "baseItem": "",
+      "properties": {
+         "ada": false,
+         "amm": false,
+         "bomb": false,
+         "fin": false,
+         "fir": false,
+         "foc": false,
+         "hvy": false,
+         "hvypl": false,
+         "hvyplus": false,
+         "lgt": false,
+         "lod": false,
+         "mgc": false,
+         "mine": false,
+         "rch": false,
+         "rel": false,
+         "reloadp": false,
+         "reloadpl": false,
+         "reloadplus": false,
+         "ret": false,
+         "rocket": false,
+         "sil": false,
+         "spc": false,
+         "thr": false,
+         "two": false,
+         "ver": false,
+         "gadget": true
+      },
+      "proficient": true
+   },
+   "effects": [],
+   "ownership": {
+      "default": 0
+   },
+   "flags": {
+      "wc5e": {
+         "enhancement": "",
+         "ammo": null,
+         "capacity": 40,
+         "mrmin": 1,
+         "mrmax": 2,
+         "engineType": "electric",
+         "validEngineTypes": {
+            "alchemical": false,
+            "combustion": false,
+            "mana": false,
+            "mechanical": true,
+            "steam": false,
+            "chaos": false,
+            "electric": true,
+            "manaArcane": false,
+            "manaDruid": false,
+            "soul": false,
+            "soulCelestial": false,
+            "soulElemental": false,
+            "soulLiving": false,
+            "soulSpellcaster": false,
+            "soulUndead": false,
+            "chaosEnergy": false,
+            "soulCelestialFiend": false,
+            "soulLivingCreature": false
+         },
+         "gadgetCooldown": "min"
+      }
+   },
+   "folder": null,
+   "sort": 0,
+   "_id": "hfhDjiCywjBr65vv"
+}

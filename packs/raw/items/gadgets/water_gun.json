@@ -1,0 +1,151 @@
+{
+   "name": "Water Gun",
+   "type": "weapon",
+   "img": "icons/commodities/tech/pipe-lead-closed.webp",
+   "system": {
+      "description": {
+         "value": "<p>The water pump is a 2-foot long, 8-inch thick cylinder that can hold up to 3 gallons of any liquid (or 16 quarts). The water pump can be used with an action to release one quart of liquid in a line up to 90 feet away, stopping at impact with the first object. The target must succeed on an Agility saving throw or else take 1d8 bludgeoning damage on a failed save and a secondary effect depending on the liquid. A successful save halves the initial damage and negates the secondary effect.</p>\n<ul>\n<li><em>Oil.</em> If the liquid is oil or another flammable liquid, the user may use a bonus action to set the liquid on fire as it is released (necessitating another malfunction check), setting the liquid is set aflame (regardless of malfunction). Targets who failed their save take 1d6 fire damage and are ignited until they extinguish the flame with an action and a successful Agility save (taking an additional 1d6 points of damage per round until they pass a DC equal to the gadget's DC).</li>\n<li><em>Water</em>. If the liquid is water, attack also extinguishes flames. Fire-based creatures or those vulnerable to water take double damage from this and do not employ any resistances towards this damage.</li>\n<li><em>Water, Contaminated.</em> If the liquid is a contaminated water or liquid (such as sewage water), the target must also save versus any contact, injury, or ingested poison or disease that is carried by the water. If using sewage water, the target is most likely to be contaminated by Crypt Fever, Filth Fever, Slimy Doom, and Blinding Sickness (see Contagion for details, duration 7 days),<br />although other diseases or poisons may be built into the waters.</li>\n</ul>\n<p>@UUID[Compendium.warcraft5e.wc5e_spells.Xlhe8RDoNYnH4ob3]{Catapult}</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 230",
+      "quantity": 1,
+      "weight": 10,
+      "price": 800,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "uncommon",
+      "identified": true,
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": null,
+         "units": "inst"
+      },
+      "target": {
+         "value": 90,
+         "width": null,
+         "units": "ft",
+         "type": "line"
+      },
+      "range": {
+         "value": null,
+         "long": null,
+         "units": "self"
+      },
+      "uses": {
+         "value": 10,
+         "max": "10",
+         "per": "charges"
+      },
+      "consume": {
+         "type": "material",
+         "target": "",
+         "amount": 4
+      },
+      "ability": "",
+      "actionType": "save",
+      "attackBonus": "0",
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [
+            [
+               "1d8",
+               "bludgeoning"
+            ]
+         ],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "dex",
+         "dc": 12,
+         "scaling": "flat"
+      },
+      "armor": {
+         "value": 10
+      },
+      "hp": {
+         "value": 0,
+         "max": 0,
+         "dt": null,
+         "conditions": ""
+      },
+      "weaponType": "improv",
+      "baseItem": "",
+      "properties": {
+         "ada": false,
+         "amm": false,
+         "bomb": false,
+         "fin": false,
+         "fir": false,
+         "foc": false,
+         "hvy": false,
+         "hvypl": false,
+         "hvyplus": false,
+         "lgt": false,
+         "lod": false,
+         "mgc": false,
+         "mine": false,
+         "rch": false,
+         "rel": false,
+         "reloadp": false,
+         "reloadpl": false,
+         "reloadplus": false,
+         "ret": false,
+         "rocket": false,
+         "sil": false,
+         "spc": false,
+         "thr": false,
+         "two": false,
+         "ver": false,
+         "gadget": true
+      },
+      "proficient": true
+   },
+   "effects": [],
+   "ownership": {
+      "default": 0
+   },
+   "flags": {
+      "wc5e": {
+         "enhancement": "",
+         "ammo": null,
+         "capacity": 40,
+         "mrmin": 1,
+         "mrmax": 2,
+         "engineType": "mechanical",
+         "validEngineTypes": {
+            "alchemical": false,
+            "combustion": false,
+            "mana": false,
+            "mechanical": true,
+            "steam": false,
+            "chaos": false,
+            "electric": false,
+            "manaArcane": false,
+            "manaDruid": false,
+            "soul": false,
+            "soulCelestial": false,
+            "soulElemental": true,
+            "soulLiving": false,
+            "soulSpellcaster": false,
+            "soulUndead": false,
+            "chaosEnergy": false,
+            "soulCelestialFiend": false,
+            "soulLivingCreature": false
+         },
+         "gadgetCooldown": "min"
+      }
+   },
+   "folder": null,
+   "sort": 0,
+   "_id": "lLCygukSEDeTdAzY"
+}

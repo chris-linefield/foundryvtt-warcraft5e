@@ -1,0 +1,146 @@
+{
+   "name": "Extraplanar Shifter",
+   "type": "weapon",
+   "img": "icons/commodities/tech/metal-panel.webp",
+   "system": {
+      "description": {
+         "value": "<p>TODO: Description Missing</p>\n<p>@UUID[Compendium.dnd5e.spells.J6Jpw5XzB5aTeqnz]{Plane Shift}</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 227",
+      "quantity": 1,
+      "weight": 10,
+      "price": 51200,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "legendary",
+      "identified": true,
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": null,
+         "units": "inst"
+      },
+      "target": {
+         "value": 8,
+         "width": null,
+         "units": "",
+         "type": "creature"
+      },
+      "range": {
+         "value": null,
+         "long": null,
+         "units": "touch"
+      },
+      "uses": {
+         "value": 10,
+         "max": "10",
+         "per": "charges"
+      },
+      "consume": {
+         "type": "material",
+         "target": "",
+         "amount": 10
+      },
+      "ability": "",
+      "actionType": "util",
+      "attackBonus": "0",
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "scaling": "spell"
+      },
+      "armor": {
+         "value": 10
+      },
+      "hp": {
+         "value": 0,
+         "max": 0,
+         "dt": null,
+         "conditions": ""
+      },
+      "weaponType": "improv",
+      "baseItem": "",
+      "properties": {
+         "ada": false,
+         "amm": false,
+         "bomb": false,
+         "fin": false,
+         "fir": false,
+         "foc": false,
+         "hvy": false,
+         "hvypl": false,
+         "hvyplus": false,
+         "lgt": false,
+         "lod": false,
+         "mgc": false,
+         "mine": false,
+         "rch": false,
+         "rel": false,
+         "reloadp": false,
+         "reloadpl": false,
+         "reloadplus": false,
+         "ret": false,
+         "rocket": false,
+         "sil": false,
+         "spc": false,
+         "thr": false,
+         "two": false,
+         "ver": false,
+         "gadget": true
+      },
+      "proficient": true
+   },
+   "effects": [],
+   "ownership": {
+      "default": 0
+   },
+   "flags": {
+      "wc5e": {
+         "enhancement": "",
+         "ammo": null,
+         "capacity": 100,
+         "mrmin": 1,
+         "mrmax": 5,
+         "engineType": "manaArcane",
+         "validEngineTypes": {
+            "alchemical": false,
+            "combustion": false,
+            "mana": false,
+            "mechanical": false,
+            "steam": false,
+            "chaos": false,
+            "electric": false,
+            "manaArcane": true,
+            "manaDruid": false,
+            "soul": false,
+            "soulCelestial": false,
+            "soulElemental": false,
+            "soulLiving": false,
+            "soulSpellcaster": false,
+            "soulUndead": false,
+            "chaosEnergy": false,
+            "soulCelestialFiend": false,
+            "soulLivingCreature": false
+         },
+         "gadgetCooldown": "day"
+      }
+   },
+   "folder": null,
+   "sort": 0,
+   "_id": "tOJ0oWK51FrSRlCc"
+}

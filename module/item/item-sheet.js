@@ -1,6 +1,9 @@
 console.log('>> Wc5e: Initializing Item Sheet');
 
-export class ItemSheet5e extends dnd5e.applications.item.ItemSheet5e {}
+export class ItemSheet5e extends dnd5e.applications.item.ItemSheet5e {
+}
+
+import {capitalizeFirstLetter} from "../util.js"
 
 export class WcItemSheet extends ItemSheet5e {
 
@@ -42,7 +45,7 @@ export class WcItemSheet extends ItemSheet5e {
             }
             return `modules/warcraft5e/templates/item/${wcType}-sheet.html`;
         } else {
-            return `systems/dnd5e/templates/items/${this.item.system.type}.html`;
+            return `systems/dnd5e/templates/items/${this.object.type}.html`;
         }
     }
 
@@ -62,7 +65,12 @@ export class WcItemSheet extends ItemSheet5e {
             }
 
             if (typeof (this.item.flags.wc5e.capacity) !== "undefined" && this.item.flags.wc5e.capacity !== null) {
-                parentProps.unshift('Capacity ' + this.item.flags.wc5e.capacity);
+                parentProps.unshift(game.i18n.localize("WC5E.UI.Capacity") + " " + this.item.flags.wc5e.capacity);
+            }
+
+            if (typeof (this.item.flags.wc5e.engineType) !== "undefined" && this.item.flags.wc5e.engineType !== '') {
+                let engineType = capitalizeFirstLetter(this.item.flags.wc5e.engineType);
+                parentProps.unshift(game.i18n.localize("WC5E.UI.Engine") + ": " + game.i18n.localize("WC5E.UI.Engines." + engineType));
             }
         }
 

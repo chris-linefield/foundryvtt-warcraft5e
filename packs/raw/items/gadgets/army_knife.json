@@ -1,0 +1,146 @@
+{
+   "name": "Army Knife",
+   "type": "weapon",
+   "img": "icons/weapons/daggers/knife-engraved-black.webp",
+   "system": {
+      "description": {
+         "value": "<p>When used, this device summons any one tool an adventurer needs, such as a hammer, a pair of scissors, etc., just short of Alchemy, Engineering, Infusion, and Poisoning tools, and includes 60 feet of<br />spider-silk rope. It may also deal damage as a normal dagger. @UUID[Compendium.warcraft5e.wc5e_mechanics.QWRgk22veaPSawyJ]{Size Reduced} @UUID[Compendium.warcraft5e.wc5e_mechanics.Sk6pZAH9l4dFVmeB]{Long Cooldown}</p>\n<p> </p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 226",
+      "quantity": 1,
+      "weight": 5,
+      "price": 200,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "common",
+      "identified": true,
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": null,
+         "units": ""
+      },
+      "target": {
+         "value": 1,
+         "width": null,
+         "units": "",
+         "type": "creature"
+      },
+      "range": {
+         "value": null,
+         "long": 5,
+         "units": "ft"
+      },
+      "uses": {
+         "value": 10,
+         "max": "10",
+         "per": "charges"
+      },
+      "consume": {
+         "type": "material",
+         "target": "",
+         "amount": 1
+      },
+      "ability": "",
+      "actionType": "util",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "scaling": "spell"
+      },
+      "armor": {
+         "value": 10
+      },
+      "hp": {
+         "value": 0,
+         "max": 0,
+         "dt": null,
+         "conditions": ""
+      },
+      "weaponType": "improv",
+      "baseItem": "",
+      "properties": {
+         "ada": false,
+         "amm": false,
+         "bomb": false,
+         "fin": false,
+         "fir": false,
+         "foc": false,
+         "hvy": false,
+         "hvypl": false,
+         "hvyplus": false,
+         "lgt": true,
+         "lod": false,
+         "mgc": false,
+         "mine": false,
+         "rch": false,
+         "rel": false,
+         "reloadp": false,
+         "reloadpl": false,
+         "reloadplus": false,
+         "ret": false,
+         "rocket": false,
+         "sil": false,
+         "spc": false,
+         "thr": false,
+         "two": false,
+         "ver": false,
+         "gadget": true
+      },
+      "proficient": true
+   },
+   "effects": [],
+   "ownership": {
+      "default": 0
+   },
+   "flags": {
+      "wc5e": {
+         "engineType": "mechanical",
+         "validEngineTypes": {
+            "alchemical": false,
+            "chaos": false,
+            "combustion": false,
+            "electric": false,
+            "mana": false,
+            "manaArcane": false,
+            "manaDruid": false,
+            "mechanical": true,
+            "soul": false,
+            "soulCelestial": false,
+            "soulElemental": false,
+            "soulLiving": false,
+            "soulSpellcaster": false,
+            "soulUndead": false,
+            "steam": true,
+            "chaosEnergy": false,
+            "soulCelestialFiend": false,
+            "soulLivingCreature": false
+         },
+         "enhancement": "",
+         "ammo": null,
+         "capacity": 10,
+         "mrmin": 1,
+         "mrmax": 1,
+         "gadgetCooldown": "min"
+      }
+   },
+   "folder": null,
+   "sort": 0,
+   "_id": "XnNhWQ9jApe5oHex"
+}

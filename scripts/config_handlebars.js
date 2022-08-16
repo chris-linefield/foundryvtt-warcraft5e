@@ -1,8 +1,7 @@
-
+import {capitalizeFirstLetter} from "../module/util.js";
 
 Handlebars.registerHelper('isClassSkill', function (data, skill) {
     let classes = data.system.classes;
-
     let trueByClass = false;
     for (let c in classes) {
         let classIterator = classes[c].skills.choices.values();
@@ -12,12 +11,7 @@ Handlebars.registerHelper('isClassSkill', function (data, skill) {
             }
         }
     }
-
-    if (trueByClass) {
-        return true;
-    }
-
-    return false;
+    return trueByClass;
 });
 
 Handlebars.registerHelper("increment", function (value) {
@@ -32,6 +26,14 @@ Handlebars.registerHelper("isChoice", function (value) {
     return typeof (value) === "object";
 });
 
+Handlebars.registerHelper("isTrue", function (value) {
+    return value === true;
+});
+
 Handlebars.registerHelper("selected", function (value, comparison) {
-    if(value === comparison) return "selected";
+    if (value === comparison) return "selected";
+});
+
+Handlebars.registerHelper("wcString", function (namespace, key) {
+    return namespace + '.' + capitalizeFirstLetter(key);
 });

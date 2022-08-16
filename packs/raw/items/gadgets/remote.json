@@ -1,0 +1,146 @@
+{
+   "name": "Remote",
+   "type": "weapon",
+   "img": "icons/commodities/tech/detonator-radio.webp",
+   "system": {
+      "description": {
+         "value": "<p>This small machine can activate any mine, gadget, or construct that is keyed to it.</p>\n<p>Keying a technological device to a remote takes one minute and a DC 10 Intelligence check with Engineer‘s Tools. If the check resulted in a 20, the keying is instead 1 action. Using a remote is a bonus action on the creature‘s round, or a reaction outside their round. A remote can activate any device it is bonded to as long as both of them are within 150 feet of each other. This effect can penetrate barriers, but 2 feet of rock, 2 inches of common metal, or a thin sheet of lead blocks it. It tied to an explosive that normally explodes on impact, it can hold the explosive until the remote is used (effectively, the bomb is waiting for the signal).</p>\n<p>@UUID[Compendium.dnd5e.spells.arzCrMRgcNiQuh43]{Command Construct}</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 229",
+      "quantity": 1,
+      "weight": 5,
+      "price": 800,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "uncommon",
+      "identified": true,
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": 1,
+         "units": "round"
+      },
+      "target": {
+         "value": 1,
+         "width": null,
+         "units": "",
+         "type": "creature"
+      },
+      "range": {
+         "value": 60,
+         "long": null,
+         "units": "ft"
+      },
+      "uses": {
+         "value": 10,
+         "max": "10",
+         "per": "charges"
+      },
+      "consume": {
+         "type": "material",
+         "target": "",
+         "amount": 4
+      },
+      "ability": "",
+      "actionType": "save",
+      "attackBonus": "0",
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "wis",
+         "dc": 14,
+         "scaling": "flat"
+      },
+      "armor": {
+         "value": 10
+      },
+      "hp": {
+         "value": 0,
+         "max": 0,
+         "dt": null,
+         "conditions": ""
+      },
+      "weaponType": "improv",
+      "baseItem": "",
+      "properties": {
+         "ada": false,
+         "amm": false,
+         "bomb": false,
+         "fin": false,
+         "fir": false,
+         "foc": false,
+         "hvy": false,
+         "hvypl": false,
+         "hvyplus": false,
+         "lgt": true,
+         "lod": false,
+         "mgc": false,
+         "mine": false,
+         "rch": false,
+         "rel": false,
+         "reloadp": false,
+         "reloadpl": false,
+         "reloadplus": false,
+         "ret": false,
+         "rocket": false,
+         "sil": false,
+         "spc": false,
+         "thr": false,
+         "two": false,
+         "ver": false,
+         "gadget": true
+      },
+      "proficient": true
+   },
+   "effects": [],
+   "ownership": {
+      "default": 0
+   },
+   "flags": {
+      "wc5e": {
+         "enhancement": "",
+         "ammo": null,
+         "capacity": 40,
+         "mrmin": 1,
+         "mrmax": 2,
+         "engineType": "electric",
+         "validEngineTypes": {
+            "alchemical": false,
+            "combustion": false,
+            "mana": false,
+            "mechanical": false,
+            "steam": false,
+            "chaos": false,
+            "electric": true,
+            "manaArcane": false,
+            "manaDruid": false,
+            "soul": false,
+            "soulCelestial": false,
+            "soulElemental": false,
+            "soulLiving": false,
+            "soulSpellcaster": false,
+            "soulUndead": false,
+            "chaosEnergy": false,
+            "soulCelestialFiend": false,
+            "soulLivingCreature": false
+         },
+         "gadgetCooldown": "min"
+      }
+   },
+   "folder": null,
+   "sort": 0,
+   "_id": "84ErVFjqK7eOlbFX"
+}

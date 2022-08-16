@@ -1,0 +1,151 @@
+{
+   "name": "Dragon Gun",
+   "type": "weapon",
+   "img": "icons/magic/fire/beam-jet-stream-trails-orange.webp",
+   "system": {
+      "description": {
+         "value": "<p>When used, this gadget casts the burning hands spell.</p>\n<p>@UUID[Compendium.dnd5e.spells.5SuJewoa1CRWaj1F]{Burning Hands}</p>\n<p>@UUID[Compendium.warcraft5e.wc5e_mechanics.0kkX8fLDVucLKRE4]{Unreliable Device}</p>\n<p> </p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 227",
+      "quantity": 1,
+      "weight": 5,
+      "price": 800,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "uncommon",
+      "identified": true,
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": null,
+         "units": "inst"
+      },
+      "target": {
+         "value": 15,
+         "width": null,
+         "units": "ft",
+         "type": "cone"
+      },
+      "range": {
+         "value": null,
+         "long": null,
+         "units": "self"
+      },
+      "uses": {
+         "value": 10,
+         "max": "10",
+         "per": "charges"
+      },
+      "consume": {
+         "type": "material",
+         "target": "",
+         "amount": 4
+      },
+      "ability": "",
+      "actionType": "save",
+      "attackBonus": "0",
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [
+            [
+               "3d6",
+               "fire"
+            ]
+         ],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "dex",
+         "dc": 12,
+         "scaling": "flat"
+      },
+      "armor": {
+         "value": 10
+      },
+      "hp": {
+         "value": 0,
+         "max": 0,
+         "dt": null,
+         "conditions": ""
+      },
+      "weaponType": "improv",
+      "baseItem": "",
+      "properties": {
+         "ada": false,
+         "amm": false,
+         "bomb": false,
+         "fin": false,
+         "fir": false,
+         "foc": false,
+         "hvy": false,
+         "hvypl": false,
+         "hvyplus": false,
+         "lgt": true,
+         "lod": false,
+         "mgc": false,
+         "mine": false,
+         "rch": false,
+         "rel": false,
+         "reloadp": false,
+         "reloadpl": false,
+         "reloadplus": false,
+         "ret": false,
+         "rocket": false,
+         "sil": false,
+         "spc": false,
+         "thr": false,
+         "two": false,
+         "ver": false,
+         "gadget": true
+      },
+      "proficient": true
+   },
+   "effects": [],
+   "ownership": {
+      "default": 0
+   },
+   "flags": {
+      "wc5e": {
+         "enhancement": "",
+         "ammo": null,
+         "capacity": 40,
+         "mrmin": 1,
+         "mrmax": 4,
+         "engineType": "alchemical",
+         "validEngineTypes": {
+            "alchemical": true,
+            "combustion": true,
+            "mana": false,
+            "mechanical": false,
+            "steam": true,
+            "chaos": false,
+            "electric": false,
+            "manaArcane": false,
+            "manaDruid": false,
+            "soul": false,
+            "soulCelestial": false,
+            "soulElemental": true,
+            "soulLiving": false,
+            "soulSpellcaster": false,
+            "soulUndead": false,
+            "chaosEnergy": false,
+            "soulCelestialFiend": false,
+            "soulLivingCreature": false
+         },
+         "gadgetCooldown": "min"
+      }
+   },
+   "folder": null,
+   "sort": 0,
+   "_id": "dqOTwkcEWPGO1RUs"
+}

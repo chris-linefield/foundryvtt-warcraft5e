@@ -1,0 +1,151 @@
+{
+   "name": "Antimagic Ray Gun, Improved",
+   "type": "weapon",
+   "img": "icons/magic/unholy/beam-impact-purple.webp",
+   "system": {
+      "description": {
+         "value": "<p>When used, this wand-like gun shoots a purple anti-magic ray, as the mana burn spell. Elementals required for the anti-magic ray device are pure mana elementals (such as mana wyrms and arcane<br />elementals), and souls must be of spellcasters.</p>\n<p>The improved gadget replicates a higher-level mana burn spell.</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 226",
+      "quantity": 1,
+      "weight": 10,
+      "price": 12800,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "veryRare",
+      "identified": true,
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": null,
+         "units": ""
+      },
+      "target": {
+         "value": 10,
+         "width": null,
+         "units": "",
+         "type": "creature"
+      },
+      "range": {
+         "value": null,
+         "long": 30,
+         "units": "ft"
+      },
+      "uses": {
+         "value": 10,
+         "max": "10",
+         "per": "charges"
+      },
+      "consume": {
+         "type": "material",
+         "target": "",
+         "amount": 8
+      },
+      "ability": "",
+      "actionType": "rwak",
+      "attackBonus": "0",
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [
+            [
+               "3d4+1",
+               "mana"
+            ]
+         ],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "wis",
+         "dc": 14,
+         "scaling": "flat"
+      },
+      "armor": {
+         "value": 10
+      },
+      "hp": {
+         "value": 0,
+         "max": 0,
+         "dt": null,
+         "conditions": ""
+      },
+      "weaponType": "improv",
+      "baseItem": "",
+      "properties": {
+         "ada": false,
+         "amm": false,
+         "bomb": false,
+         "fin": false,
+         "fir": false,
+         "foc": false,
+         "hvy": false,
+         "hvypl": false,
+         "hvyplus": false,
+         "lgt": false,
+         "lod": false,
+         "mgc": false,
+         "mine": false,
+         "rch": false,
+         "rel": false,
+         "reloadp": false,
+         "reloadpl": false,
+         "reloadplus": false,
+         "ret": false,
+         "rocket": false,
+         "sil": false,
+         "spc": false,
+         "thr": false,
+         "two": false,
+         "ver": false,
+         "gadget": true
+      },
+      "proficient": true
+   },
+   "effects": [],
+   "ownership": {
+      "default": 0
+   },
+   "flags": {
+      "wc5e": {
+         "enhancement": "",
+         "ammo": null,
+         "capacity": 80,
+         "mrmin": 1,
+         "mrmax": 4,
+         "engineType": "soulElemental",
+         "validEngineTypes": {
+            "alchemical": false,
+            "combustion": false,
+            "mana": true,
+            "mechanical": false,
+            "steam": false,
+            "chaos": false,
+            "electric": false,
+            "manaArcane": false,
+            "manaDruid": false,
+            "soul": false,
+            "soulCelestial": false,
+            "soulElemental": true,
+            "soulLiving": false,
+            "soulSpellcaster": true,
+            "soulUndead": false,
+            "chaosEnergy": false,
+            "soulCelestialFiend": false,
+            "soulLivingCreature": false
+         },
+         "gadgetCooldown": "hour"
+      }
+   },
+   "folder": null,
+   "sort": 0,
+   "_id": "3bVCjJUrbaBeh2mf"
+}

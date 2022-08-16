@@ -1,0 +1,19 @@
+{
+   "_id": "Sk6pZAH9l4dFVmeB",
+   "name": "Long Cooldown",
+   "permission": {
+      "default": 0
+   },
+   "type": "class",
+   "flags": {
+      "wc5e": {
+         "type": "rule",
+         "title": "WC5E.Rules.Mechanics.LongCooldown.Label",
+         "content": [
+            {
+               "value": "WC5E.Rules.Mechanics.LongCooldown.Description.1.Value"
+            }
+         ]
+      }
+   }
+}

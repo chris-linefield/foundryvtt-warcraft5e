@@ -1,0 +1,94 @@
+{
+   "name": "Ice Block",
+   "type": "spell",
+   "img": "icons/magic/water/barrier-ice-crystal-wall-green.webp",
+   "system": {
+      "description": {
+         "value": "<p>You are targeted with an attack or harmful effect.</p>\n<p>You become encased in a block of arcanereinforced ice, protecting you from damage.</p>\n<p>A thick block of ice protects you, granting you 8d6 temporary hit points so long as you channel the spell. You regain 1d6 temporary hit points at the beginning of your turn every round, up to the initial amount granted by the spell.</p>\n<p>Furthermore, you gain resistance to all types of damage, as well as immunity to cold damage. Damage is applied before being counted against the temporary hit points.</p>\n<p>If the block manages to absorb all damage from an effect, you are protected against any secondary effects (as if immune).</p>\n<p>While encased in ice and concentrating, you are incapacitated.</p>\n<p>When the ice is destroyed or when you cease channeling, you may cast any spell as a bonus action or a reaction (so long as its normal casting time is 1 action or quicker).</p>\n<p><strong>Heightened.</strong> When heightened, the temporary hit points increase by 2d6 per every spell level above 4th.</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 349",
+      "activation": {
+         "type": "reaction",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": 1,
+         "units": "hour"
+      },
+      "target": {
+         "value": null,
+         "width": null,
+         "units": "",
+         "type": "self"
+      },
+      "range": {
+         "value": null,
+         "long": null,
+         "units": "self"
+      },
+      "uses": {
+         "value": null,
+         "max": "",
+         "per": ""
+      },
+      "consume": {
+         "type": "",
+         "target": "",
+         "amount": null
+      },
+      "ability": "",
+      "actionType": "util",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "scaling": "spell"
+      },
+      "level": 4,
+      "school": "abj",
+      "components": {
+         "value": "",
+         "vocal": false,
+         "somatic": false,
+         "material": false,
+         "ritual": false,
+         "concentration": true
+      },
+      "materials": {
+         "value": "",
+         "consumed": false,
+         "cost": 0,
+         "supply": 0
+      },
+      "preparation": {
+         "mode": "prepared",
+         "prepared": false
+      },
+      "scaling": {
+         "mode": "none",
+         "formula": ""
+      }
+   },
+   "effects": [],
+   "ownership": {
+      "default": 0
+   },
+   "flags": {
+   },
+   "folder": null,
+   "sort": 0,
+   "_id": "LZN5VsQ9NI7YuNkV"
+}

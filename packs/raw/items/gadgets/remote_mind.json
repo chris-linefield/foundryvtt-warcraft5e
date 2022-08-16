@@ -1,0 +1,146 @@
+{
+   "name": "Remote, Mind",
+   "type": "weapon",
+   "img": "icons/commodities/tech/detonator-radio.webp",
+   "system": {
+      "description": {
+         "value": "<p>This strange-looking hat has a hypnotic pattern attached to it. When the gadget is active, the mind remote can focus on any person within 30 feet, casting the @UUID[Compendium.dnd5e.spells.eS7XnnApoxRxYXPs]{Charm Person} spell.</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 229",
+      "quantity": 1,
+      "weight": 5,
+      "price": 800,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "uncommon",
+      "identified": true,
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": 1,
+         "units": "hour"
+      },
+      "target": {
+         "value": 1,
+         "width": null,
+         "units": "",
+         "type": "creature"
+      },
+      "range": {
+         "value": 30,
+         "long": null,
+         "units": "ft"
+      },
+      "uses": {
+         "value": 10,
+         "max": "10",
+         "per": "charges"
+      },
+      "consume": {
+         "type": "material",
+         "target": "",
+         "amount": 4
+      },
+      "ability": "",
+      "actionType": "save",
+      "attackBonus": "0",
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "wis",
+         "dc": 14,
+         "scaling": "flat"
+      },
+      "armor": {
+         "value": 10
+      },
+      "hp": {
+         "value": 0,
+         "max": 0,
+         "dt": null,
+         "conditions": ""
+      },
+      "weaponType": "improv",
+      "baseItem": "",
+      "properties": {
+         "ada": false,
+         "amm": false,
+         "bomb": false,
+         "fin": false,
+         "fir": false,
+         "foc": false,
+         "hvy": false,
+         "hvypl": false,
+         "hvyplus": false,
+         "lgt": true,
+         "lod": false,
+         "mgc": false,
+         "mine": false,
+         "rch": false,
+         "rel": false,
+         "reloadp": false,
+         "reloadpl": false,
+         "reloadplus": false,
+         "ret": false,
+         "rocket": false,
+         "sil": false,
+         "spc": false,
+         "thr": false,
+         "two": false,
+         "ver": false,
+         "gadget": true
+      },
+      "proficient": true
+   },
+   "effects": [],
+   "ownership": {
+      "default": 0
+   },
+   "flags": {
+      "wc5e": {
+         "enhancement": "",
+         "ammo": null,
+         "capacity": 40,
+         "mrmin": 1,
+         "mrmax": 2,
+         "engineType": "mechanical",
+         "validEngineTypes": {
+            "alchemical": false,
+            "combustion": false,
+            "mana": true,
+            "mechanical": true,
+            "steam": false,
+            "chaos": false,
+            "electric": false,
+            "manaArcane": false,
+            "manaDruid": false,
+            "soul": true,
+            "soulCelestial": false,
+            "soulElemental": false,
+            "soulLiving": false,
+            "soulSpellcaster": false,
+            "soulUndead": false,
+            "chaosEnergy": false,
+            "soulCelestialFiend": false,
+            "soulLivingCreature": false
+         },
+         "gadgetCooldown": "min"
+      }
+   },
+   "folder": null,
+   "sort": 0,
+   "_id": "r1RcuaYQSwwV7fkS"
+}

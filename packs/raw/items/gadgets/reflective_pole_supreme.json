@@ -1,0 +1,146 @@
+{
+   "name": "Reflective Pole, Supreme",
+   "type": "weapon",
+   "img": "icons/commodities/tech/coil-tesla.webp",
+   "system": {
+      "description": {
+         "value": "<p>The reflective pole is a 2-foot long, 8-inch thick cylinder that is usually strapped to the back of the user, and is attached to a winding mechanism near the user's hand. The cylinder can be deployed as a reaction when the user takes elemental damage, unfurling and countering the elemental damage with a sheet of specially treated and reinforced glass. The user gains resistance to the elemental damage, and the next time the user hits with a melee attack on the next turn, the reflective pole reflects 1d6 points of the absorbed damage to the target of the user's attack. The character must be able to use their hands or similar limbs to deploy the pole.</p>\n<p>@UUID[Compendium.warcraft5e.wc5e_spells.zuFqeb7dUfRZdncs]{Absorb Elements}</p>\n<p>@UUID[Compendium.warcraft5e.wc5e_mechanics.QWRgk22veaPSawyJ]{Size increased} @UUID[Compendium.warcraft5e.wc5e_mechanics.iPMRbcav1BeN6JYw]{Quick Use}</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 229",
+      "quantity": 1,
+      "weight": 10,
+      "price": 12800,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "veryRare",
+      "identified": true,
+      "activation": {
+         "type": "reaction",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": null,
+         "units": "round"
+      },
+      "target": {
+         "value": null,
+         "width": null,
+         "units": "",
+         "type": "self"
+      },
+      "range": {
+         "value": null,
+         "long": null,
+         "units": "self"
+      },
+      "uses": {
+         "value": 10,
+         "max": "10",
+         "per": "charges"
+      },
+      "consume": {
+         "type": "material",
+         "target": "",
+         "amount": 8
+      },
+      "ability": "",
+      "actionType": "util",
+      "attackBonus": "0",
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "scaling": "spell"
+      },
+      "armor": {
+         "value": 10
+      },
+      "hp": {
+         "value": 0,
+         "max": 0,
+         "dt": null,
+         "conditions": ""
+      },
+      "weaponType": "improv",
+      "baseItem": "",
+      "properties": {
+         "ada": false,
+         "amm": false,
+         "bomb": false,
+         "fin": false,
+         "fir": false,
+         "foc": false,
+         "hvy": false,
+         "hvypl": false,
+         "hvyplus": false,
+         "lgt": false,
+         "lod": false,
+         "mgc": false,
+         "mine": false,
+         "rch": false,
+         "rel": false,
+         "reloadp": false,
+         "reloadpl": false,
+         "reloadplus": false,
+         "ret": false,
+         "rocket": false,
+         "sil": false,
+         "spc": false,
+         "thr": false,
+         "two": false,
+         "ver": false,
+         "gadget": true
+      },
+      "proficient": true
+   },
+   "effects": [],
+   "ownership": {
+      "default": 0
+   },
+   "flags": {
+      "wc5e": {
+         "enhancement": "",
+         "ammo": null,
+         "capacity": 80,
+         "mrmin": 1,
+         "mrmax": 4,
+         "engineType": "electric",
+         "validEngineTypes": {
+            "alchemical": false,
+            "combustion": false,
+            "mana": false,
+            "mechanical": false,
+            "steam": false,
+            "chaos": false,
+            "electric": true,
+            "manaArcane": false,
+            "manaDruid": false,
+            "soul": false,
+            "soulCelestial": false,
+            "soulElemental": false,
+            "soulLiving": false,
+            "soulSpellcaster": false,
+            "soulUndead": false,
+            "chaosEnergy": false,
+            "soulCelestialFiend": false,
+            "soulLivingCreature": false
+         },
+         "gadgetCooldown": "hour"
+      }
+   },
+   "folder": null,
+   "sort": 0,
+   "_id": "zdO8ac57h65lly9O"
+}

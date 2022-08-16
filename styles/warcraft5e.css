@@ -53,6 +53,7 @@
     line-height: 80px;
     font-size: 16px;
     border-top: none !important;
+    border-left: none !important;
     border-bottom: 1px solid #cab87a !important;
     color: #191813;
     padding: 2px 0 3px;
@@ -99,7 +100,7 @@
 }
 
 .sidebar-tab .subdirectory {
-    border: none;
+    border: none !important;
     margin-left: 5px;
     margin-right: 5px;
 }
@@ -128,7 +129,6 @@
     left: 0;
 }
 
-
 #compendium li.compendium-pack .compendium-footer {
     color: #1b456b;
 }
@@ -144,6 +144,14 @@
 
 .fa-folder:before {
     color: #cab87a;
+}
+
+/*********************************
+ * ITEM SHEET
+ ********************************/
+
+.dnd5e.sheet.item .engineTypes label.checkbox {
+    flex:0 0 178px;
 }
 
 /*********************************

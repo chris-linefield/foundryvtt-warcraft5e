@@ -1,0 +1,19 @@
+{
+   "_id": "GYZ8qpdTtZFo7tQu",
+   "name": "Focused Device",
+   "permission": {
+      "default": 0
+   },
+   "type": "class",
+   "flags": {
+      "wc5e": {
+         "type": "rule",
+         "title": "WC5E.Rules.Mechanics.FocusedDevice.Label",
+         "content": [
+            {
+               "value": "WC5E.Rules.Mechanics.FocusedDevice.Description.1.Value"
+            }
+         ]
+      }
+   }
+}

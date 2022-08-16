@@ -1,0 +1,146 @@
+{
+   "name": "OOBE Simulator",
+   "type": "weapon",
+   "img": "icons/commodities/tech/smoke-bomb-yellow.webp",
+   "system": {
+      "description": {
+         "value": "<p>This device puts you and the allies you choose into an Out of Body Experience, as per the astral projection spell.</p>\n<p>@UUID[Compendium.dnd5e.spells.TIoadMIsUKD4edXi]{Astral Projection}</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 229",
+      "quantity": 1,
+      "weight": 10,
+      "price": 204800,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "artifact",
+      "identified": true,
+      "activation": {
+         "type": "hour",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": null,
+         "units": "spec"
+      },
+      "target": {
+         "value": 9,
+         "width": null,
+         "units": "",
+         "type": "creature"
+      },
+      "range": {
+         "value": 10,
+         "long": null,
+         "units": "ft"
+      },
+      "uses": {
+         "value": 10,
+         "max": "10",
+         "per": "charges"
+      },
+      "consume": {
+         "type": "material",
+         "target": "",
+         "amount": 12
+      },
+      "ability": "",
+      "actionType": "util",
+      "attackBonus": "0",
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": 16,
+         "scaling": "spell"
+      },
+      "armor": {
+         "value": 10
+      },
+      "hp": {
+         "value": 0,
+         "max": 0,
+         "dt": null,
+         "conditions": ""
+      },
+      "weaponType": "improv",
+      "baseItem": "",
+      "properties": {
+         "ada": false,
+         "amm": false,
+         "bomb": false,
+         "fin": false,
+         "fir": false,
+         "foc": false,
+         "hvy": false,
+         "hvypl": false,
+         "hvyplus": false,
+         "lgt": false,
+         "lod": false,
+         "mgc": false,
+         "mine": false,
+         "rch": false,
+         "rel": false,
+         "reloadp": false,
+         "reloadpl": false,
+         "reloadplus": false,
+         "ret": false,
+         "rocket": false,
+         "sil": false,
+         "spc": false,
+         "thr": false,
+         "two": false,
+         "ver": false,
+         "gadget": true
+      },
+      "proficient": true
+   },
+   "effects": [],
+   "ownership": {
+      "default": 0
+   },
+   "flags": {
+      "wc5e": {
+         "enhancement": "",
+         "ammo": null,
+         "capacity": 120,
+         "mrmin": 1,
+         "mrmax": 6,
+         "engineType": "electric",
+         "validEngineTypes": {
+            "alchemical": false,
+            "combustion": false,
+            "mana": true,
+            "mechanical": false,
+            "steam": false,
+            "chaos": false,
+            "electric": true,
+            "manaArcane": false,
+            "manaDruid": false,
+            "soul": true,
+            "soulCelestial": false,
+            "soulElemental": false,
+            "soulLiving": false,
+            "soulSpellcaster": false,
+            "soulUndead": false,
+            "chaosEnergy": false,
+            "soulCelestialFiend": false,
+            "soulLivingCreature": false
+         },
+         "gadgetCooldown": "day"
+      }
+   },
+   "folder": null,
+   "sort": 0,
+   "_id": "3jDiSEwSNT83GOAZ"
+}

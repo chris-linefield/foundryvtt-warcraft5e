@@ -99,6 +99,44 @@ Hooks.once('init', async function () {
         return result;
     });
 
+    //rolls malfunction / mishap for items without attack roll
+    libWrapper.register('warcraft5e', 'dnd5e.documents.Item5e.prototype.roll', function (wrapped, ...args) {
+        console.log('ROLLING');
+        if (!this.hasAttack) {
+            console.log('NO ATTACK');
+            let flags = this.flags;
+            if (typeof (flags.wc5e) !== "undefined") {
+                let mrmin = 0;
+                let mrmax = 0;
+                if (typeof (flags.wc5e.mrmin) !== "undefined" &&
+                    typeof (flags.wc5e.mrmax) !== "undefined" &&
+                    flags.wc5e.mrmin !== null &&
+                    flags.wc5e.mrmax !== null) {
+
+                    mrmin = flags.wc5e.mrmin;
+                    mrmax = flags.wc5e.mrmax;
+
+                    let roll = new Roll('1d20');
+                    roll.evaluate({async:false});
+                    roll.toMessage({flavor: 'Rolling for Malfunction'});
+                    if (roll !== null) {
+                        let rollResult = roll.terms[0].results[0].result;
+                        if (rollResult <= mrmax) {
+                            ChatMessage.create({content: 'Oh no! MALFUNCTION! (' + mrmin + ' - ' + mrmax + ')'});
+                            let dnd5ePackage = game.packs.get("warcraft5e.wc5e_rolltables");
+                            dnd5ePackage.getDocument('02jo8OAWgsD6E0hi').then(table => {
+                                    table.draw();
+                                }
+                            )
+                        }
+                    }
+                }
+            }
+        }
+        let result = wrapped(...args);
+        return result;
+    });
+
     //rolls malfunction / mishap / capacity
     libWrapper.register('warcraft5e', 'dnd5e.documents.Item5e.prototype.rollAttack', async function (wrapped, ...args) {
         let flags = this.flags;
@@ -113,7 +151,6 @@ Hooks.once('init', async function () {
                     flags.wc5e.ammo = ammo;
                 } else {
                     if (ammo === 0) {
-                        console.log(this.system);
                         const token = this.actor.token;
                         const html = await renderTemplate("modules/warcraft5e/templates/chat/reload.html", {
                             actor: this.actor,

@@ -1,0 +1,94 @@
+{
+   "name": "Barrier Ward",
+   "type": "spell",
+   "img": "icons/magic/defensive/barrier-shield-dome-pink.webp",
+   "system": {
+      "description": {
+         "value": "<p>You create a barrier of magical force that can abjure a specific creature type you designate when casting the spell (such as undead, humanoids, or dragons). This creature type cannot pass the barrier, attack through it, cast spells through it. The barrier can be drawn as a line 10 feet wide, 10 feet tall, and 1 foot thick, or as a circle with a radius of 10 feet. The barrier can be destroyed or forced through.</p>\n<ul>\n<li><em>Destroyed.</em> The barrier has 10 hit points and damage threshold equal to 1. If the targeted creature types attempt to cast a spell on a creature on the other side of the ward, the ward loses 3 hit points per spell level (or 1 hit point if the spell is a cantrip). If it blocks the spell, it has no other effect (such as absorbing a slow spell). If the spell deals damage, it can deal it to the barrier ward normally.</li>\n<li><em>Forced Through.</em> The creature can force its way through the barrier by will or power, rolling a Spirit or Strength saving throw against your spell DC. A creature attempting to force its way through must spend an action or bonus action. A creature can attempt to force through only once per round. A creature has advantage to this saving throw if it was attacked from the other side of the barrier.</li>\n</ul>\n<p>When you have the spell active, you can use an action (and be treated as if you are channeling the spell) to give the barrier one of the following benefits.</p>\n<ul>\n<li><em>Reflective.</em> If the ward is damaged, you can spend a reaction to deal one-half of the damage it took to the attacker or another creature within 5 feet.<br />The ward can only reflect damage to the same side it is facing. You must succeed on a spell attack against the target you choose to deflect the damage to. If the ward was destroyed by an attack, it does not reflect damage.</li>\n<li><em>Resilient.</em> The barrier ward gains resistance to all damage.</li>\n</ul>\n<p>Whenever you use an action to channel the spell (regardless of which benefit you choose), the barrier regains 5 hit points per spell level if it is below its maximum hit points.</p>\n<p>The barrier can be semi-transparent or easily seen (such as glowing, floating runes).</p>\n<p><br /><strong>Heightened.</strong> For every spell level above 1st, the barrier gains 10 additional hit points, the damage threshold increases by 1, and it<br />regenerates 5 additional hit points when you concentrate on it. Also, it can ward off an additional creature type.</p>\n<p><em>Special.</em> By increasing the casting time to 1 minute, using a material component to draw a line (to set the barrier‘s area on) and<br />reducing the range to Touch, you can contain the barrier spell, increasing its duration to 1 hour. The seal or line automatically concentrates on resisting damage without your action, but is automatically dispelled if a creature spends a bonus action to disrupt the seal (such as by scattering the salt or wiping the chalk that formed the circle). A creature that has failed to force its way against the ward cannot disrupt the seal.</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 324",
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": 1,
+         "units": "minute"
+      },
+      "target": {
+         "value": 10,
+         "width": 1,
+         "units": "ft",
+         "type": "wall"
+      },
+      "range": {
+         "value": 30,
+         "long": null,
+         "units": "ft"
+      },
+      "uses": {
+         "value": null,
+         "max": "",
+         "per": ""
+      },
+      "consume": {
+         "type": "",
+         "target": "",
+         "amount": null
+      },
+      "ability": "",
+      "actionType": "util",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "scaling": "spell"
+      },
+      "level": 1,
+      "school": "abj",
+      "components": {
+         "value": "",
+         "vocal": true,
+         "somatic": true,
+         "material": false,
+         "ritual": false,
+         "concentration": false
+      },
+      "materials": {
+         "value": "",
+         "consumed": false,
+         "cost": 0,
+         "supply": 0
+      },
+      "preparation": {
+         "mode": "prepared",
+         "prepared": true
+      },
+      "scaling": {
+         "mode": "none",
+         "formula": ""
+      }
+   },
+   "effects": [],
+   "ownership": {
+      "default": 0
+   },
+   "flags": {
+   },
+   "folder": null,
+   "sort": 0,
+   "_id": "DAsu1F9QCxhuqjCx"
+}

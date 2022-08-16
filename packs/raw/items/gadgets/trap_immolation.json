@@ -1,0 +1,149 @@
+{
+   "name": "Trap, Immolation",
+   "type": "weapon",
+   "img": "icons/environment/traps/trap-jaw-steel.webp",
+   "system": {
+      "description": {
+         "value": "<p>This trap burns the triggering creature, replicating the immolate sigil spell, with the sigil roll being replaced with the attack bonus (Intelligence plus proficiency in Engineer‘s Tools).</p>\n<p>@UUID[Compendium.warcraft5e.wc5e_spells.qIM4h11wI4mmcbJG]{Immolate}</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 234",
+      "quantity": 1,
+      "weight": 10,
+      "price": 80,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "uncommon",
+      "identified": true,
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": 1,
+         "units": "minute"
+      },
+      "target": {
+         "value": 1,
+         "width": null,
+         "units": "",
+         "type": "creature"
+      },
+      "range": {
+         "value": null,
+         "long": null,
+         "units": "touch"
+      },
+      "uses": {
+         "value": 1,
+         "max": "1",
+         "per": "charges"
+      },
+      "consume": {
+         "type": "material",
+         "target": "",
+         "amount": 4
+      },
+      "ability": "",
+      "actionType": "util",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [
+            [
+               "1d6",
+               "fire"
+            ]
+         ],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "scaling": "spell"
+      },
+      "armor": {
+         "value": 10
+      },
+      "hp": {
+         "value": 0,
+         "max": 0,
+         "dt": null,
+         "conditions": ""
+      },
+      "weaponType": "improv",
+      "baseItem": "",
+      "properties": {
+         "ada": false,
+         "amm": false,
+         "bomb": false,
+         "fin": false,
+         "fir": false,
+         "foc": false,
+         "gadget": true,
+         "hvy": false,
+         "hvypl": false,
+         "hvyplus": false,
+         "lgt": false,
+         "lod": false,
+         "mgc": false,
+         "mine": false,
+         "rch": false,
+         "rel": false,
+         "reloadp": false,
+         "reloadpl": false,
+         "reloadplus": false,
+         "ret": false,
+         "rocket": false,
+         "sil": false,
+         "spc": false,
+         "thr": false,
+         "two": false,
+         "ver": false,
+         "trap": true
+      },
+      "proficient": true
+   },
+   "effects": [],
+   "ownership": {
+      "default": 0
+   },
+   "flags": {
+      "wc5e": {
+         "engineType": "alchemical",
+         "validEngineTypes": {
+            "alchemical": true,
+            "chaosEnergy": false,
+            "combustion": true,
+            "electric": false,
+            "mana": false,
+            "manaArcane": false,
+            "manaDruid": false,
+            "mechanical": false,
+            "soul": false,
+            "soulCelestialFiend": false,
+            "soulElemental": true,
+            "soulLivingCreature": false,
+            "soulSpellcaster": false,
+            "soulUndead": false,
+            "steam": false
+         },
+         "gadgetCooldown": "min",
+         "enhancement": "",
+         "ammo": null,
+         "capacity": 4,
+         "mrmin": 1,
+         "mrmax": 2
+      }
+   },
+   "folder": null,
+   "sort": 0,
+   "_id": "VVWGUvuBaA9pP8zF"
+}
