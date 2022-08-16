@@ -4,7 +4,7 @@
    "img": "icons/magic/acid/projectile-smoke-glowing.webp",
    "system": {
       "description": {
-         "value": "<p>TODO</p>",
+         "value": "<p>TODO</p>\n<p>@UUID[Compendium.dnd5e.spells.JLTQyqXEaJDrTXyW]{Acid Splash}</p>",
          "chat": "",
          "unidentified": ""
       },
@@ -37,14 +37,14 @@
          "units": "ft"
       },
       "uses": {
-         "value": null,
-         "max": "",
-         "per": ""
+         "value": 10,
+         "max": "10",
+         "per": "charges"
       },
       "consume": {
-         "type": "",
+         "type": "material",
          "target": "",
-         "amount": null
+         "amount": 1
       },
       "ability": "",
       "actionType": "save",
@@ -105,7 +105,8 @@
          "spc": false,
          "thr": false,
          "two": false,
-         "ver": false
+         "ver": false,
+         "gadget": true
       },
       "proficient": true
    },
@@ -117,7 +118,7 @@
       "wc5e": {
          "enhancement": "",
          "ammo": null,
-         "capacity": null,
+         "capacity": 10,
          "mrmin": 1,
          "mrmax": 2,
          "engineType": "alchemical",
@@ -131,11 +132,20 @@
             "electric": false,
             "manaArcane": false,
             "manaDruid": false,
-            "soul": false
-         }
+            "soul": false,
+            "soulCelestial": false,
+            "soulElemental": false,
+            "soulLiving": false,
+            "soulSpellcaster": false,
+            "soulUndead": false,
+            "chaosEnergy": false,
+            "soulCelestialFiend": false,
+            "soulLivingCreature": false
+         },
+         "gadgetCooldown": "min"
       }
    },
    "folder": null,
    "sort": 0,
-   "_id": "RJziaPHD71D7D74d"
+   "_id": "VnOCtelQ45TaN8Xv"
 }

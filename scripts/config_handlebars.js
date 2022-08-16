@@ -2,7 +2,6 @@ import {capitalizeFirstLetter} from "../module/util.js";
 
 Handlebars.registerHelper('isClassSkill', function (data, skill) {
     let classes = data.system.classes;
-
     let trueByClass = false;
     for (let c in classes) {
         let classIterator = classes[c].skills.choices.values();
@@ -12,12 +11,7 @@ Handlebars.registerHelper('isClassSkill', function (data, skill) {
             }
         }
     }
-
-    if (trueByClass) {
-        return true;
-    }
-
-    return false;
+    return trueByClass;
 });
 
 Handlebars.registerHelper("increment", function (value) {

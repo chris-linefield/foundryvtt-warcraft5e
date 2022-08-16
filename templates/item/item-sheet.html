@@ -63,10 +63,19 @@
             <div class="form-group stacked engineTypes">
                 <label>{{ localize "WC5E.UI.EngineOptions" }}</label>
                 {{#each config.engineTypes as |name prop|}}
-                <label class="checkbox">
-                    <input type="checkbox" name="flags.wc5e.validEngineTypes.{{prop}}" {{checked (lookup ../item.flags.wc5e.validEngineTypes prop)}}/> {{ localize name }}
-                </label>
+                    <label class="checkbox">
+                        <input type="checkbox" name="flags.wc5e.validEngineTypes.{{prop}}" {{checked (lookup ../item.flags.wc5e.validEngineTypes prop)}}/> {{ localize name }}
+                    </label>
                 {{/each}}
+            </div>
+            <div class="form-group">
+                <label>{{ localize "WC5E.UI.Cooldown" }}</label>
+                <select name="flags.wc5e.gadgetCooldown">
+                    <option value=""></option>
+                    <option value="min" {{selected 'min' item.flags.wc5e.gadgetCooldown}}>1 {{localize "WC5E.UI.Units.Minute"}}</option>
+                    <option value="hour" {{selected 'hour' item.flags.wc5e.gadgetCooldown}}>8 {{localize "WC5E.UI.Units.Hour"}}</option>
+                    <option value="day" {{selected 'day' item.flags.wc5e.gadgetCooldown}}>1 {{localize "WC5E.UI.Units.Day"}}</option>
+                </select>
             </div>
 
             <h3 class="form-header">{{ localize "DND5E.ItemWeaponDetails" }}</h3>

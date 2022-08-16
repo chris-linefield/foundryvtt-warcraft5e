@@ -1,0 +1,146 @@
+{
+   "name": "Rocket Boots",
+   "type": "weapon",
+   "img": "icons/equipment/feet/boots-armored-steel-gold.webp",
+   "system": {
+      "description": {
+         "value": "<p>These heavy boots strapped with a small backpack may be activated with an action. For each use, it gives the user a flying speed of 60 feet, usable for one minute. At the end of the duration, the user falls unless they are on solid ground.</p>\n<p>@UUID[Compendium.dnd5e.spells.yfbK8gZqESlaoY5t]{Fly}</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 229",
+      "quantity": 1,
+      "weight": 10,
+      "price": 3200,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "rare",
+      "identified": true,
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": 10,
+         "units": "minute"
+      },
+      "target": {
+         "value": null,
+         "width": null,
+         "units": "",
+         "type": "self"
+      },
+      "range": {
+         "value": null,
+         "long": null,
+         "units": "self"
+      },
+      "uses": {
+         "value": 10,
+         "max": "10",
+         "per": "charges"
+      },
+      "consume": {
+         "type": "material",
+         "target": "",
+         "amount": 6
+      },
+      "ability": "",
+      "actionType": "util",
+      "attackBonus": "0",
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "scaling": "spell"
+      },
+      "armor": {
+         "value": 10
+      },
+      "hp": {
+         "value": 0,
+         "max": 0,
+         "dt": null,
+         "conditions": ""
+      },
+      "weaponType": "improv",
+      "baseItem": "",
+      "properties": {
+         "ada": false,
+         "amm": false,
+         "bomb": false,
+         "fin": false,
+         "fir": false,
+         "foc": false,
+         "hvy": false,
+         "hvypl": false,
+         "hvyplus": false,
+         "lgt": false,
+         "lod": false,
+         "mgc": false,
+         "mine": false,
+         "rch": false,
+         "rel": false,
+         "reloadp": false,
+         "reloadpl": false,
+         "reloadplus": false,
+         "ret": false,
+         "rocket": false,
+         "sil": false,
+         "spc": false,
+         "thr": false,
+         "two": false,
+         "ver": false,
+         "gadget": true
+      },
+      "proficient": true
+   },
+   "effects": [],
+   "ownership": {
+      "default": 0
+   },
+   "flags": {
+      "wc5e": {
+         "enhancement": "",
+         "ammo": null,
+         "capacity": 60,
+         "mrmin": 1,
+         "mrmax": 3,
+         "engineType": "combustion",
+         "validEngineTypes": {
+            "alchemical": false,
+            "combustion": true,
+            "mana": false,
+            "mechanical": false,
+            "steam": true,
+            "chaos": false,
+            "electric": false,
+            "manaArcane": false,
+            "manaDruid": false,
+            "soul": false,
+            "soulCelestial": false,
+            "soulElemental": false,
+            "soulLiving": false,
+            "soulSpellcaster": false,
+            "soulUndead": false,
+            "chaosEnergy": false,
+            "soulCelestialFiend": false,
+            "soulLivingCreature": false
+         },
+         "gadgetCooldown": "min"
+      }
+   },
+   "folder": null,
+   "sort": 0,
+   "_id": "JxsAAXwOsVTnprgH"
+}

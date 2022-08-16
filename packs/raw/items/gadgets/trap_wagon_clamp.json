@@ -1,0 +1,149 @@
+{
+   "name": "Trap, Wagon Clamp",
+   "type": "weapon",
+   "img": "icons/environment/traps/metal-spikes.webp",
+   "system": {
+      "description": {
+         "value": "<p>This trap clamps down on the triggering creature or vehicle for one minute, dealing 1d8 piercing damage to the wheel (possibly breaking it). While captured, the target is restrained. A successful Stamina saving throw by the vehicle or creature halves the damage dealt and reduces the restraint for one round. A creature may use its action to open the clamp. Most wooden wheels have 5 (2d4) hit points. This is usually used to destroy vehicle wheels, but can be employed as bear traps. </p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 235",
+      "quantity": 1,
+      "weight": 5,
+      "price": 20,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "common",
+      "identified": true,
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": 1,
+         "units": "minute"
+      },
+      "target": {
+         "value": 1,
+         "width": null,
+         "units": "",
+         "type": "creature"
+      },
+      "range": {
+         "value": null,
+         "long": null,
+         "units": "touch"
+      },
+      "uses": {
+         "value": 1,
+         "max": "1",
+         "per": "charges"
+      },
+      "consume": {
+         "type": "material",
+         "target": "",
+         "amount": 1
+      },
+      "ability": "",
+      "actionType": "save",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [
+            [
+               "1d8",
+               "piercing"
+            ]
+         ],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "con",
+         "dc": 10,
+         "scaling": "flat"
+      },
+      "armor": {
+         "value": 10
+      },
+      "hp": {
+         "value": 0,
+         "max": 0,
+         "dt": null,
+         "conditions": ""
+      },
+      "weaponType": "improv",
+      "baseItem": "",
+      "properties": {
+         "ada": false,
+         "amm": false,
+         "bomb": false,
+         "fin": false,
+         "fir": false,
+         "foc": false,
+         "gadget": true,
+         "hvy": false,
+         "hvypl": false,
+         "hvyplus": false,
+         "lgt": true,
+         "lod": false,
+         "mgc": false,
+         "mine": false,
+         "rch": false,
+         "rel": false,
+         "reloadp": false,
+         "reloadpl": false,
+         "reloadplus": false,
+         "ret": false,
+         "rocket": false,
+         "sil": false,
+         "spc": false,
+         "thr": false,
+         "two": false,
+         "ver": false,
+         "trap": true
+      },
+      "proficient": true
+   },
+   "effects": [],
+   "ownership": {
+      "default": 0
+   },
+   "flags": {
+      "wc5e": {
+         "engineType": "mechanical",
+         "validEngineTypes": {
+            "alchemical": false,
+            "chaosEnergy": false,
+            "combustion": false,
+            "electric": false,
+            "mana": false,
+            "manaArcane": false,
+            "manaDruid": false,
+            "mechanical": true,
+            "soul": false,
+            "soulCelestialFiend": false,
+            "soulElemental": false,
+            "soulLivingCreature": false,
+            "soulSpellcaster": false,
+            "soulUndead": false,
+            "steam": true
+         },
+         "gadgetCooldown": "min",
+         "enhancement": "",
+         "ammo": null,
+         "capacity": 1,
+         "mrmin": 1,
+         "mrmax": 2
+      }
+   },
+   "folder": null,
+   "sort": 0,
+   "_id": "ZPTtTZ5NwjCNjVaq"
+}

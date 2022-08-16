@@ -1,0 +1,144 @@
+{
+   "name": "Trap, Crippling",
+   "type": "weapon",
+   "img": "icons/environment/traps/trap-jaw-green.webp",
+   "system": {
+      "description": {
+         "value": "<p>TODO: Description Missing</p>\n<p>@UUID[Compendium.warcraft5e.wc5e_spells.Gt0n2Y1Npxefs7JQ]{Cripple}</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 234",
+      "quantity": 1,
+      "weight": 10,
+      "price": 1280,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "veryRare",
+      "identified": true,
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": 1,
+         "units": "minute"
+      },
+      "target": {
+         "value": 1,
+         "width": null,
+         "units": "",
+         "type": "creature"
+      },
+      "range": {
+         "value": null,
+         "long": null,
+         "units": "touch"
+      },
+      "uses": {
+         "value": 1,
+         "max": "1",
+         "per": "charges"
+      },
+      "consume": {
+         "type": "material",
+         "target": "",
+         "amount": 8
+      },
+      "ability": "",
+      "actionType": "save",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "con",
+         "dc": 16,
+         "scaling": "flat"
+      },
+      "armor": {
+         "value": 10
+      },
+      "hp": {
+         "value": 0,
+         "max": 0,
+         "dt": null,
+         "conditions": ""
+      },
+      "weaponType": "improv",
+      "baseItem": "",
+      "properties": {
+         "ada": false,
+         "amm": false,
+         "bomb": false,
+         "fin": false,
+         "fir": false,
+         "foc": false,
+         "gadget": true,
+         "hvy": false,
+         "hvypl": false,
+         "hvyplus": false,
+         "lgt": false,
+         "lod": false,
+         "mgc": false,
+         "mine": false,
+         "rch": false,
+         "rel": false,
+         "reloadp": false,
+         "reloadpl": false,
+         "reloadplus": false,
+         "ret": false,
+         "rocket": false,
+         "sil": false,
+         "spc": false,
+         "thr": false,
+         "two": false,
+         "ver": false,
+         "trap": true
+      },
+      "proficient": true
+   },
+   "effects": [],
+   "ownership": {
+      "default": 0
+   },
+   "flags": {
+      "wc5e": {
+         "engineType": "mechanical",
+         "validEngineTypes": {
+            "alchemical": false,
+            "chaosEnergy": false,
+            "combustion": false,
+            "electric": false,
+            "mana": true,
+            "manaArcane": false,
+            "manaDruid": false,
+            "mechanical": true,
+            "soul": true,
+            "soulCelestialFiend": false,
+            "soulElemental": false,
+            "soulLivingCreature": false,
+            "soulSpellcaster": false,
+            "soulUndead": false,
+            "steam": false
+         },
+         "gadgetCooldown": "hour",
+         "enhancement": "",
+         "ammo": null,
+         "capacity": 8,
+         "mrmin": 1,
+         "mrmax": 4
+      }
+   },
+   "folder": null,
+   "sort": 0,
+   "_id": "Srgvp9jT9YDsbvW0"
+}

@@ -4,17 +4,17 @@
    "img": "icons/magic/air/air-wave-gust-blue.webp",
    "system": {
       "description": {
-         "value": "<p>This cylinder provides air, as the @UUID[Compendium.dnd5e.spells.13uVuBQP6VaiSPvC]{Water Breathing} spell.</p>",
+         "value": "<p>This cylinder provides air, as the @UUID[Compendium.dnd5e.spells.13uVuBQP6VaiSPvC]{Water Breathing} spell.</p>",
          "chat": "",
          "unidentified": ""
       },
       "source": "Wc5e - Core p. 226",
       "quantity": 1,
       "weight": 10,
-      "price": 800,
+      "price": 3200,
       "attunement": 0,
       "equipped": false,
-      "rarity": "uncommon",
+      "rarity": "rare",
       "identified": true,
       "activation": {
          "type": "action",
@@ -37,14 +37,14 @@
          "units": "ft"
       },
       "uses": {
-         "value": null,
-         "max": "",
-         "per": ""
+         "value": 10,
+         "max": "10",
+         "per": "charges"
       },
       "consume": {
-         "type": "",
+         "type": "material",
          "target": "",
-         "amount": null
+         "amount": 6
       },
       "ability": "",
       "actionType": "util",
@@ -100,7 +100,8 @@
          "spc": false,
          "thr": false,
          "two": false,
-         "ver": false
+         "ver": false,
+         "gadget": true
       },
       "proficient": true
    },
@@ -112,9 +113,9 @@
       "wc5e": {
          "enhancement": "",
          "ammo": null,
-         "capacity": null,
+         "capacity": 60,
          "mrmin": 1,
-         "mrmax": 2,
+         "mrmax": 3,
          "engineType": "alchemical",
          "validEngineTypes": {
             "alchemical": true,
@@ -126,11 +127,20 @@
             "electric": false,
             "manaArcane": false,
             "manaDruid": false,
-            "soul": false
-         }
+            "soul": false,
+            "soulCelestial": false,
+            "soulElemental": false,
+            "soulLiving": false,
+            "soulSpellcaster": false,
+            "soulUndead": false,
+            "chaosEnergy": false,
+            "soulCelestialFiend": false,
+            "soulLivingCreature": false
+         },
+         "gadgetCooldown": "hour"
       }
    },
    "folder": null,
    "sort": 0,
-   "_id": "fyD9ScpraGreC7T5"
+   "_id": "TJBR6fHTOWZ8PlY1"
 }

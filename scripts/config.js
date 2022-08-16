@@ -24,7 +24,7 @@ DND5E.damageTypes.shadow = "WC5E.UI.DamageTypes.Shadow";
 
 DND5E.engineTypes = {
     "alchemical": "WC5E.UI.Engines.Alchemical",
-    "chaos": "WC5E.UI.Engines.ChaosEnergy",
+    "chaosEnergy": "WC5E.UI.Engines.ChaosEnergy",
     "combustion": "WC5E.UI.Engines.Combustion",
     "electric": "WC5E.UI.Engines.Electric",
     "mana": "WC5E.UI.Engines.Mana",
@@ -32,9 +32,9 @@ DND5E.engineTypes = {
     "manaDruid": "WC5E.UI.Engines.ManaDruid",
     "mechanical": "WC5E.UI.Engines.Mechanical",
     "soul": "WC5E.UI.Engines.Soul",
-    "soulCelestial": "WC5E.UI.Engines.SoulCelestialFiend",
+    "soulCelestialFiend": "WC5E.UI.Engines.SoulCelestialFiend",
     "soulElemental": "WC5E.UI.Engines.SoulElemental",
-    "soulLiving": "WC5E.UI.Engines.SoulLivingCreature",
+    "soulLivingCreature": "WC5E.UI.Engines.SoulLivingCreature",
     "soulSpellcaster": "WC5E.UI.Engines.SoulSpellcaster",
     "soulUndead": "WC5E.UI.Engines.SoulUndead",
     "steam": "WC5E.UI.Engines.Steam"
@@ -97,6 +97,7 @@ DND5E.weaponIds.generalFirearm = "HjmGaC8pYCUTMLpV";
 DND5E.weaponIds.generalExplosive = "Ufk0F3Q9ew6prMzr";
 
 DND5E.weaponProperties.bomb = "WC5E.UI.WeaponProps.Bomb";
+DND5E.weaponProperties.gadget = "WC5E.UI.WeaponProps.Gadget";
 DND5E.weaponProperties.hvypl = "WC5E.UI.WeaponProps.HeavyPl";
 DND5E.weaponProperties.hvyplus = "WC5E.UI.WeaponProps.HeavyPlus";
 DND5E.weaponProperties.mine = "WC5E.UI.WeaponProps.Mine";
@@ -104,3 +105,4 @@ DND5E.weaponProperties.reloadp = "WC5E.UI.WeaponProps.ReloadP";
 DND5E.weaponProperties.reloadpl = "WC5E.UI.WeaponProps.ReloadPl";
 DND5E.weaponProperties.reloadplus = "WC5E.UI.WeaponProps.ReloadPlus";
 DND5E.weaponProperties.rocket = "WC5E.UI.WeaponProps.Rocket";
+DND5E.weaponProperties.trap = "WC5E.UI.WeaponProps.Trap";

@@ -1,0 +1,19 @@
+{
+   "_id": "QWRgk22veaPSawyJ",
+   "name": "Size",
+   "permission": {
+      "default": 0
+   },
+   "type": "class",
+   "flags": {
+      "wc5e": {
+         "type": "rule",
+         "title": "WC5E.Rules.Mechanics.Size.Label",
+         "content": [
+            {
+               "value": "WC5E.Rules.Mechanics.Size.Description.1.Value"
+            }
+         ]
+      }
+   }
+}

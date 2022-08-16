@@ -1,0 +1,149 @@
+{
+   "name": "Trap, Toxic Gas",
+   "type": "weapon",
+   "img": "icons/commodities/tech/smoke-bomb-yellow.webp",
+   "system": {
+      "description": {
+         "value": "<p>This trap releases a cloud of toxic fumes, replicating the @UUID[Compendium.dnd5e.spells.LkvI11Uue774QBKZ]{Cloudkill} spell.</p>\n<p> </p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 235",
+      "quantity": 1,
+      "weight": 10,
+      "price": 1280,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "veryRare",
+      "identified": true,
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": 10,
+         "units": "minute"
+      },
+      "target": {
+         "value": 20,
+         "width": null,
+         "units": "ft",
+         "type": "sphere"
+      },
+      "range": {
+         "value": null,
+         "long": null,
+         "units": "touch"
+      },
+      "uses": {
+         "value": 1,
+         "max": "1",
+         "per": "charges"
+      },
+      "consume": {
+         "type": "material",
+         "target": "",
+         "amount": 8
+      },
+      "ability": "",
+      "actionType": "save",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [
+            [
+               "5d8",
+               "poison"
+            ]
+         ],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "con",
+         "dc": 16,
+         "scaling": "flat"
+      },
+      "armor": {
+         "value": 10
+      },
+      "hp": {
+         "value": 0,
+         "max": 0,
+         "dt": null,
+         "conditions": ""
+      },
+      "weaponType": "improv",
+      "baseItem": "",
+      "properties": {
+         "ada": false,
+         "amm": false,
+         "bomb": false,
+         "fin": false,
+         "fir": false,
+         "foc": false,
+         "gadget": true,
+         "hvy": false,
+         "hvypl": false,
+         "hvyplus": false,
+         "lgt": false,
+         "lod": false,
+         "mgc": false,
+         "mine": false,
+         "rch": false,
+         "rel": false,
+         "reloadp": false,
+         "reloadpl": false,
+         "reloadplus": false,
+         "ret": false,
+         "rocket": false,
+         "sil": false,
+         "spc": false,
+         "thr": false,
+         "two": false,
+         "ver": false,
+         "trap": true
+      },
+      "proficient": true
+   },
+   "effects": [],
+   "ownership": {
+      "default": 0
+   },
+   "flags": {
+      "wc5e": {
+         "engineType": "alchemical",
+         "validEngineTypes": {
+            "alchemical": true,
+            "chaosEnergy": false,
+            "combustion": false,
+            "electric": false,
+            "mana": false,
+            "manaArcane": false,
+            "manaDruid": false,
+            "mechanical": true,
+            "soul": false,
+            "soulCelestialFiend": false,
+            "soulElemental": false,
+            "soulLivingCreature": false,
+            "soulSpellcaster": false,
+            "soulUndead": true,
+            "steam": false
+         },
+         "gadgetCooldown": "hour",
+         "enhancement": "",
+         "ammo": null,
+         "capacity": 8,
+         "mrmin": 1,
+         "mrmax": 4
+      }
+   },
+   "folder": null,
+   "sort": 0,
+   "_id": "9SpSKD5XPblt4Ila"
+}

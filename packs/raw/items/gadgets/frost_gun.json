@@ -1,0 +1,151 @@
+{
+   "name": "Frost Gun",
+   "type": "weapon",
+   "img": "icons/magic/water/beam-ice-impact.webp",
+   "system": {
+      "description": {
+         "value": "<p>The frost gun can be used with an action, creating a brilliant blue freezing ray up to 30 feet away that creates a 10-foot radius explosion of frozen air to emit from the location of the ray's impact. All creatures hit by the ray or in the explosion's radius must succeed on a Stamina saving throw or else take 4d8 points of cold damage, or half of that on a successful saving throw. If the ray or the radius strikes or includes a body of water or a liquid with similar freezing points, the ray freezes the liquid within its active radius to a depth of 6 inches for 1 minute.</p>\n<p>Creatures that were swimming or that were in the water at the moment must succeed on an additional Strength saving throw as an action against the DC of the device or be restrained. After 1 minute of being conjured, the ice shatters.</p>\n<p>@UUID[Compendium.dnd5e.spells.MImfWCzEPRMYD3Xp]{Freezing Sphere}</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "Wc5e - Core p. 227",
+      "quantity": 1,
+      "weight": 5,
+      "price": 800,
+      "attunement": 0,
+      "equipped": false,
+      "rarity": "uncommon",
+      "identified": true,
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": 1,
+         "units": "hour"
+      },
+      "target": {
+         "value": 10,
+         "width": 1,
+         "units": "ft",
+         "type": "sphere"
+      },
+      "range": {
+         "value": 30,
+         "long": null,
+         "units": "ft"
+      },
+      "uses": {
+         "value": 10,
+         "max": "10",
+         "per": "charges"
+      },
+      "consume": {
+         "type": "material",
+         "target": "",
+         "amount": 4
+      },
+      "ability": "",
+      "actionType": "save",
+      "attackBonus": "0",
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [
+            [
+               "4d8",
+               "cold"
+            ]
+         ],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "con",
+         "dc": 12,
+         "scaling": "flat"
+      },
+      "armor": {
+         "value": 10
+      },
+      "hp": {
+         "value": 0,
+         "max": 0,
+         "dt": null,
+         "conditions": ""
+      },
+      "weaponType": "improv",
+      "baseItem": "",
+      "properties": {
+         "ada": false,
+         "amm": false,
+         "bomb": false,
+         "fin": false,
+         "fir": false,
+         "foc": false,
+         "hvy": false,
+         "hvypl": false,
+         "hvyplus": false,
+         "lgt": false,
+         "lod": false,
+         "mgc": false,
+         "mine": false,
+         "rch": false,
+         "rel": false,
+         "reloadp": false,
+         "reloadpl": false,
+         "reloadplus": false,
+         "ret": false,
+         "rocket": false,
+         "sil": false,
+         "spc": false,
+         "thr": false,
+         "two": false,
+         "ver": false,
+         "gadget": true
+      },
+      "proficient": true
+   },
+   "effects": [],
+   "ownership": {
+      "default": 0
+   },
+   "flags": {
+      "wc5e": {
+         "enhancement": "",
+         "ammo": null,
+         "capacity": 40,
+         "mrmin": 1,
+         "mrmax": 2,
+         "engineType": "alchemical",
+         "validEngineTypes": {
+            "alchemical": true,
+            "combustion": false,
+            "mana": false,
+            "mechanical": false,
+            "steam": false,
+            "chaos": false,
+            "electric": false,
+            "manaArcane": true,
+            "manaDruid": false,
+            "soul": false,
+            "soulCelestial": false,
+            "soulElemental": true,
+            "soulLiving": false,
+            "soulSpellcaster": false,
+            "soulUndead": false,
+            "chaosEnergy": false,
+            "soulCelestialFiend": false,
+            "soulLivingCreature": false
+         },
+         "gadgetCooldown": "min"
+      }
+   },
+   "folder": null,
+   "sort": 0,
+   "_id": "dWF4YpIKV5FtGYbu"
+}

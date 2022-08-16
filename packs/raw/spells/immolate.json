@@ -1,0 +1,99 @@
+{
+   "name": "Immolate",
+   "type": "spell",
+   "img": "icons/magic/unholy/hand-claw-fire-green.webp",
+   "system": {
+      "description": {
+         "value": "<p>You infuse your target with flickering green hellfire. Make a ranged spell attack against a creature within range.</p>\n<p>On a hit, the target is affected by the spell, taking 1d6 damage. This damage is treated as both fire and fel. At the beginning of every round, the caster must succeed on a sigil roll to affect the target again.</p>\n<p>Also, so long as the spell is active, the target suffers -4 to the first saving throw they make until the beginning of their turn in the next round. If the ranged spell attack misses, the spell deals half the initial damage and has no other effect.</p>\n<p><strong>Heightened.</strong> The damage increases by one dice per spell level above 1st</p>",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "",
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": 1,
+         "units": "minute"
+      },
+      "target": {
+         "value": 1,
+         "width": null,
+         "units": "",
+         "type": "creature"
+      },
+      "range": {
+         "value": 60,
+         "long": null,
+         "units": "ft"
+      },
+      "uses": {
+         "value": null,
+         "max": "",
+         "per": ""
+      },
+      "consume": {
+         "type": "",
+         "target": "",
+         "amount": null
+      },
+      "ability": "",
+      "actionType": "rsak",
+      "attackBonus": "0",
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [
+            [
+               "1d6",
+               "fire"
+            ]
+         ],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "",
+         "dc": null,
+         "scaling": "spell"
+      },
+      "level": 1,
+      "school": "evo",
+      "components": {
+         "value": "",
+         "vocal": true,
+         "somatic": true,
+         "material": false,
+         "ritual": false,
+         "concentration": false
+      },
+      "materials": {
+         "value": "",
+         "consumed": false,
+         "cost": 0,
+         "supply": 0
+      },
+      "preparation": {
+         "mode": "prepared",
+         "prepared": false
+      },
+      "scaling": {
+         "mode": "none",
+         "formula": ""
+      }
+   },
+   "effects": [],
+   "ownership": {
+      "default": 0
+   },
+   "flags": {
+   },
+   "folder": null,
+   "sort": 0,
+   "_id": "qIM4h11wI4mmcbJG"
+}

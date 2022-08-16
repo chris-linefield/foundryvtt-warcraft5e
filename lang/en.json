@@ -8415,6 +8415,9 @@
          }
       },
       "Items": {
+         "AcidGun": {
+            "Label": "Acid Gun"
+         },
          "AcidNeutralizer": {
             "Label": "Acid Neutralizer",
             "ShortDescription": "Reduce acid damage by 1d6 + 3 once/round"
@@ -8434,6 +8437,9 @@
          "AlchemistsSupplies": {
             "Label": "Alchemist‘s Supplies"
          },
+         "AirRecycler": {
+            "Label": "Air Recycler"
+         },
          "AnathemaAndBenediction": {
             "Label": "Anathema and Benediction"
          },
@@ -8442,6 +8448,12 @@
          },
          "AntimagicPotion": {
             "Label": "Antimagic Potion"
+         },
+         "AntimagicRayGun": {
+            "Label": "Antimagic RayGun"
+         },
+         "AntimagicRayGunImproved": {
+            "Label": "Antimagic Ray Gun, Improved"
          },
          "Antiodor": {
             "Label": "Antiodor",
@@ -8454,11 +8466,20 @@
          "ArcaniteReaper": {
             "Label": "Arcanite Reaper"
          },
+         "ArmyKnife": {
+            "Label": "Army Knife"
+         },
          "Ashbringer": {
             "Label": "Ashbringer"
          },
+         "AtmosphericOverrideBox": {
+            "Label": "Atmospheric Override Box"
+         },
          "Atiesh": {
             "Label": "Atiesh, Greatstaff of the Guardian"
+         },
+         "Atomizer": {
+            "Label": "Atomizer"
          },
          "AtomizingShot": {
             "Label": "Atomizing Shot"
@@ -8470,6 +8491,9 @@
                   "Value": "These claws may be attached to a hand, and allow for a user to perform somatic components without occupying the hand (as if a spellcasting focus). They are usually favored by orcish shamans who enter melee after conjuring elementals or placing totems. This is based on the dagger."
                }
             }
+         },
+         "AutoFactory": {
+            "Label": "Auto Factory"
          },
          "AvatarRaimentArmWraps": {
             "Label": "Avatar Raiment Arm Wraps"
@@ -8647,6 +8671,9 @@
                }
             }
          },
+         "BuzzBox": {
+            "Label": "Buzz Box"
+         },
          "CannonField": {
             "Label": "Cannon, Field"
          },
@@ -8661,6 +8688,9 @@
          },
          "CaptainsDiplomacy": {
             "Label": "Captain's Diplomacy"
+         },
+         "CastleInABox": {
+            "Label": "Castle-in-a-Box"
          },
          "CauldronCastIron": {
             "Label": "Cauldron (Cast Iron)",
@@ -8697,6 +8727,12 @@
          "ChainsOfTheUndyingMage": {
             "Label": "Chains of the Undying Mage"
          },
+         "CloakingDevice": {
+            "Label": "Cloaking Device"
+         },
+         "CloakingDeviceGreater": {
+            "Label": "Cloaking Device, Greater"
+         },
          "Coal": {
             "Label": "Coal",
             "Description": {
@@ -8715,6 +8751,12 @@
          },
          "CommonClothes": {
             "Label": "Common Clothes"
+         },
+         "CompanionConstructor": {
+            "Label": "Companion Constructor"
+         },
+         "CosmicallyAttuned8Ball": {
+            "Label": "Cosmically-attuned 8-Ball"
          },
          "CostumeClothes": {
             "Label": "Costume Clothes"
@@ -8773,6 +8815,9 @@
          "DawnsEdge": {
             "Label": "Dawn's Edge"
          },
+         "DeathRay": {
+            "Label": "Death Ray"
+         },
          "Defoliant": {
             "Label": "Defoliant",
             "ShortDescription": "Destroys plant life and weakens plant-type creatures"
@@ -8792,11 +8837,17 @@
          "DestroyerArmorGreatHelm": {
             "Label": "Destroyer Armor Great Helm"
          },
+         "Detector": {
+            "Label": "Death Ray"
+         },
          "DisguiseKit": {
             "Label": "Disguise Kit"
          },
          "Doomhammer": {
             "Label": "Doomhammer"
+         },
+         "DragonGun": {
+            "Label": "Dragon Gun"
          },
          "DragonstalkerArmorBeastplate": {
             "Label": "Dragonstalker Armor Beastplate"
@@ -8809,6 +8860,9 @@
          },
          "DragonstalkerArmorLegguards": {
             "Label": "Dragonstalker Armor Legguards"
+         },
+         "DropoutSimulator": {
+            "Label": "Dropout Simulator"
          },
          "ElementalArmorIcon": {
             "Label": "Elemental Armor Icon"
@@ -8827,6 +8881,12 @@
                }
             }
          },
+         "ExtraplanarShifter": {
+            "Label": "Extraplanar Shifter"
+         },
+         "FactoryMeUp": {
+            "Label": "Factory-Me-Up"
+         },
          "FalseLifeSpray": {
             "Label": "False Life Spray"
          },
@@ -8839,9 +8899,30 @@
          "FineClothes": {
             "Label": "Fine Clothes"
          },
+         "Flamethrower": {
+            "Label": "Flamethrower"
+         },
+         "Flashlight": {
+            "Label": "Flashlight"
+         },
          "FlashPowder": {
             "Label": "Flash Powder",
             "ShortDescription": "Causes blindness, can repeat saving throw 1/round"
+         },
+         "FogMachine": {
+            "Label": "Fog Machine"
+         },
+         "ForceGenerator": {
+            "Label": "Force Generator"
+         },
+         "ForceReflectiveDisk": {
+            "Label": "Force Reflective Disk"
+         },
+         "FrostGun": {
+            "Label": "Forst Gun"
+         },
+         "FrostMeUp": {
+            "Label": "Frost-Me-Up"
          },
          "Frostmourne": {
             "Label": "Frostmourne"
@@ -8868,11 +8949,20 @@
          "GiantsBane": {
             "Label": "Giant's Bane"
          },
+         "GlitterboxSurprise": {
+            "Label": "Glitterbox Surprise"
+         },
+         "GoblinGliderKit": {
+            "Label": "Goblin Glider Kit"
+         },
          "Gorehowl": {
             "Label": "Gorehowl"
          },
          "Grapeshotter": {
             "Label": "Grapeshotter"
+         },
+         "GravityWell": {
+            "Label": "Gravity Well"
          },
          "Greatclub": {
             "Label": "Greatclub"
@@ -8928,6 +9018,12 @@
          "HeroismPill": {
             "Label": "Heroism Pill"
          },
+         "HologramGenerator": {
+            "Label": "Hologram Generator"
+         },
+         "HologramGeneratorGreater": {
+            "Label": "Hologram Generator, Greater"
+         },
          "HolyBullet": {
             "Label": "Holy Bullet"
          },
@@ -8940,6 +9036,9 @@
          },
          "HornOfStormwind": {
             "Label": "Horn of Stormwind"
+         },
+         "IceCannon": {
+            "Label": "Ice Cannon"
          },
          "IncendiaryShot": {
             "Label": "Incendiary Shot"
@@ -8970,14 +9069,44 @@
          "JudgementArmorPlate": {
             "Label": "Judgement Armor Plate"
          },
+         "JumperCables": {
+            "Label": "Jumper Cables"
+         },
+         "LauncherCaltrops": {
+            "Label": "Launcher, Caltrops"
+         },
+         "LauncherClusterRockets": {
+            "Label": "Launcher, Cluster Rockets"
+         },
+         "LauncherRocket": {
+            "Label": "Launcher, Rocket"
+         },
+         "LauncherTrap": {
+            "Label": "Launcher, Trap"
+         },
+         "LifeforceTransposer": {
+            "Label": "Lifeforce Transposer"
+         },
          "LifePotion": {
             "Label": "Life Potion"
+         },
+         "LightAbsorber": {
+            "Label": "Light Absorber"
+         },
+         "LightGenerator": {
+            "Label": "Light Generator"
          },
          "LightStick": {
             "Label": "Light Stick"
          },
          "LightsVengeance": {
             "Label": "Light's Vengeance"
+         },
+         "LocalizedTornadoGenerator": {
+            "Label": "Localized Tornado Generator"
+         },
+         "Locator": {
+            "Label": "Locator"
          },
          "Longsword": {
             "Label": "Longsword"
@@ -9015,6 +9144,12 @@
          },
          "Maul": {
             "Label": "Maul"
+         },
+         "MeteorsRUs": {
+            "Label": "Meteors-R-Us"
+         },
+         "MindScatteringCap": {
+            "Label": "Mind Scattering Cap"
          },
          "MindScreamSpray": {
             "Label": "Mind Scream Spray"
@@ -9054,6 +9189,12 @@
          "Minigun": {
             "Label": "Minigun"
          },
+         "MiniVolcano": {
+            "Label": "Mini Volcano"
+         },
+         "MirageGenerator": {
+            "Label": "Mirage Generator"
+         },
          "Moonglaive": {
             "Label": "Moonglaive",
             "Description": {
@@ -9061,6 +9202,9 @@
                   "Value": "This circular blade has three dagger-like blades jutting from its sides. Uncommonly seen but easy to train with, Moonglaives are favored by the night elves of Kalimdor."
                }
             }
+         },
+         "Mortar": {
+            "Label": "Mortar"
          },
          "MortarShell": {
             "Label": "Mortar Shell"
@@ -9089,8 +9233,17 @@
          "NesingwaryDoubleBarrel": {
             "Label": "Nesingwary Double Barrel"
          },
+         "Neuralyzer": {
+            "Label": "Neuralyzer"
+         },
+         "NoiseCancellerBox": {
+            "Label": "Noise Canceller Box"
+         },
          "NoxiousFumes": {
             "Label": "Noxious Fumes"
+         },
+         "OOBESimulator": {
+            "Label": "OOBE Simulator"
          },
          "Orkenblade": {
             "Label": "Orkenblade"
@@ -9119,6 +9272,9 @@
                   "Value": "These pieces of ammunition are specially-prepared to include their own fuel. Such ammunition is resistant to water, but have a 10% chance to explode every round if exposed to direct flame. Bullets and pellets are both blacksmithing and engineering product for crafting purposes."
                }
             }
+         },
+         "PersonalGravitySuppressor": {
+            "Label": "Personal Gravity Suppressor"
          },
          "PhantomBlade": {
             "Label": "Phantom Blade"
@@ -9156,6 +9312,9 @@
          },
          "PlagueheartRaimentSandals": {
             "Label": "Plagueheart Raiment Sandals"
+         },
+         "PlagueSpreadingBox": {
+            "Label": "Plague Spreading Box"
          },
          "PoisonersKit": {
             "Label": "Poisoner‘s Kit"
@@ -9226,6 +9385,9 @@
          "PrismaticBlade": {
             "Label": "Prismatic Blade"
          },
+         "PulleyGun": {
+            "Label": "Pulley Gun"
+         },
          "PuzzleBoxOfYoggSaron": {
             "Label": "Puzzle Box of Yogg-Saron"
          },
@@ -9235,11 +9397,26 @@
          "RazorShot": {
             "Label": "Razor Shot"
          },
+         "ReCombobulator": {
+            "Label": "Re-combobulator"
+         },
+         "ReflectivePole": {
+            "Label": "Reflective Pole"
+         },
+         "ReflectivePoleSupreme": {
+            "Label": "Reflective Pole, Supreme"
+         },
          "RejuvenationPill": {
             "Label": "Rejuvenation Pill"
          },
          "RelicOfPower": {
             "Label": "Relic of Power"
+         },
+         "Remote": {
+            "Label": "Remote"
+         },
+         "RemoteMind": {
+            "Label": "Remote, Mind"
          },
          "RifleAssault": {
             "Label": "Rifle, Assault"
@@ -9261,6 +9438,9 @@
          },
          "RifleSniper": {
             "Label": "Rifle, Sniper"
+         },
+         "RocketBoots": {
+            "Label": "Rocket Boots"
          },
          "RocketDarkIron": {
             "Label": "Rocket, Dark Iron"
@@ -9310,6 +9490,9 @@
          "Shadowmourne": {
             "Label": "Shadowmourne"
          },
+         "ShieldtronicShield": {
+            "Label": "Shieldtronic Shield"
+         },
          "ShipNaaruCannon": {
             "Label": "Ship, Naaru Cannon"
          },
@@ -9349,6 +9532,12 @@
          "SmokeBomb": {
             "Label": "Smoke Bomb"
          },
+         "Snowmaster9000": {
+            "Label": "Snowmaster 9000"
+         },
+         "SonicGun": {
+            "Label": "Sonic Gun"
+         },
          "SparingPotion": {
             "Label": "Sparing Potion"
          },
@@ -9369,17 +9558,47 @@
          "SpiritualEssence": {
             "Label": "Spiritual Essence"
          },
+         "SpringBoots": {
+            "Label": "Spring Boots"
+         },
          "StaffOfSorcererThaneThaurissan": {
             "Label": "Staff of Sorcerer-Thane Thaurissan"
          },
+         "StarInABox": {
+            "Label": "Star-in-a-Box"
+         },
          "StickOfIncense": {
             "Label": "Stick of Incense"
+         },
+         "Stopwatch": {
+            "Label": "Stopwatch"
+         },
+         "StrikeBuzzSaw": {
+            "Label": "Strike, Buzz Saw"
+         },
+         "StrikeDimensionalCore": {
+            "Label": "Strike, Dimensional Core"
+         },
+         "StrikeFlashingCore": {
+            "Label": "Strike, Flashing Core"
+         },
+         "StrikeResonatingSpark": {
+            "Label": "Strike, Resonating Spark"
+         },
+         "StrikeSteamHammer": {
+            "Label": "Strike, Steam Hammer"
+         },
+         "StrikeWhiteHotCore": {
+            "Label": "Strike, White-Hot Core"
          },
          "SulfurasHandOfRagnaros": {
             "Label": "Sulfuras, HandOfRagnaros"
          },
          "SulfuronHammer": {
             "Label": "Sulfuron Hammer"
+         },
+         "SunGun": {
+            "Label": "Sun Gun"
          },
          "SunstriderLongbow": {
             "Label": "Sunstrider Longbow"
@@ -9409,6 +9628,15 @@
                }
             }
          },
+         "TargetDummy": {
+            "Label": "Target Dummy"
+         },
+         "TectonicDestabilizer": {
+            "Label": "Tectonic Destabilizer"
+         },
+         "TeleportationPad": {
+            "Label": "Teleportation Pad"
+         },
          "ThePlanarEdge": {
             "Label": "The Planar Edge"
          },
@@ -9427,6 +9655,9 @@
          "Titanstrike": {
             "Label": "Titanstrike"
          },
+         "TitanTerraformer": {
+            "Label": "Titan Terraformer"
+         },
          "TotemTauren": {
             "Label": "Totem, Tauren",
             "Description": {
@@ -9438,6 +9669,24 @@
                }
             }
          },
+         "TrapCrippling": {
+            "Label": "Trap, Crippling"
+         },
+         "TrapFreezing": {
+            "Label": "Trap, Freezing"
+         },
+         "TrapImmolation": {
+            "Label": "Trap, Immolation"
+         },
+         "TrapOilSlick": {
+            "Label": "Trap, Oil Slick"
+         },
+         "TrapToxicGas": {
+            "Label": "Trap, Toxic Gas"
+         },
+         "TrapWagonClamp": {
+            "Label": "Trap, Wagon Clamp"
+         },
          "Trolkalar": {
             "Label": "Trol'kalar"
          },
@@ -9446,6 +9695,9 @@
          },
          "TwinBladesOfAzzinoth": {
             "Label": "Twin Blades of Azzinoth"
+         },
+         "UniversalTranslator": {
+            "Label": "Universal Translator"
          },
          "ValanyrHammerOfAncientKings": {
             "Label": "Val'Anyr, Hammer of Ancient Kings"
@@ -9499,6 +9751,9 @@
                }
             }
          },
+         "WaterGun": {
+            "Label": "Water Gun"
+         },
          "WaterShot": {
             "Label": "Water Shot"
          },
@@ -9507,6 +9762,12 @@
          },
          "WispAmulet": {
             "Label": "Wisp Amulet"
+         },
+         "WorldEnlarger": {
+            "Label": "World Enlarger"
+         },
+         "WormholeGenerator": {
+            "Label": "Wormhole Generator"
          }
       },
       "Languages": {
@@ -10281,6 +10542,22 @@
                   }
                }
             },
+            "FocusedDevice": {
+               "Label": "Focused Device",
+               "Description": {
+                  "1": {
+                     "Value": "You have advantage to any check to maintain concentration on this gadget."
+                  }
+               }
+            },
+            "LongCooldown": {
+               "Label": "Long Cooldown",
+               "Description": {
+                  "1": {
+                     "Value": "The gadget requires an hour to cool down instead of the normal duration. This cannot be used with quick use."
+                  }
+               }
+            },
             "LowCharge": {
                "Label": "Low Charge",
                "Description": {
@@ -10338,6 +10615,14 @@
                "Description": {
                   "1": {
                      "Value": "The firearm‘s sound is muffled, and imposes no penalty to the user‘s Stealth check when used. This can be made into an add-on."
+                  }
+               }
+            },
+            "Size": {
+               "Label": "Size",
+               "Description": {
+                  "1": {
+                     "Value": "The gadget is one size smaller or larger (from medium to light, or heavy to medium or vice versa), weighs appropriately, and its Malfunction Rate is reduced or increased by 1 point. This does not affect fuel consumption, only mobility, carry capacity and ability to hide it."
                   }
                }
             },
@@ -10582,6 +10867,17 @@
                }
             }
          },
+         "EngineeringAmmunition": {
+            "Label": "Ammunition",
+            "Description": {
+               "1": {
+                  "Value": "Engineered ammunition is similar to infused ammunition (see Treasures), but follows some differences in rules (See Chapter 7). Below are a number of special engineered ammunition."
+               },
+               "2": {
+                  "Value": "Ammunition costs as a consumable of the listed rarity."
+               }
+            }
+         },
          "EngineeringCreatures": {
             "Label": "Engineering: Devices",
             "Description": {
@@ -10622,14 +10918,28 @@
                }
             }
          },
-         "EngineeringAmmunition": {
-            "Label": "Ammunition",
+         "EngineeringGadgets": {
+            "Label": "Gadgets",
             "Description": {
                "1": {
-                  "Value": "Engineered ammunition is similar to infused ammunition (see Treasures), but follows some differences in rules (See Chapter 7). Below are a number of special engineered ammunition."
+                  "Value": "With gadget technology, a user can replicate the use of several spells. This requires special fuel sources, and follows the rules described in Chapter 7."
                },
                "2": {
-                  "Value": "Ammunition costs as a consumable of the listed rarity."
+                  "Value": "For more details on gadgets and their rules, refer to Chapter 7 under Engineer‘s Tools."
+               },
+               "3": {
+                  "Title": "Strikes",
+                  "Value": "Strike gadgets are usually attached to melee weapons, allowing the user to manifest a strike effect on a hit."
+               },
+               "4": {
+                  "Title": "Traps",
+                  "Value": "Traps are often-hostile gadgets that perform a single use (and are thus priced as consumables). They can be deployed and primed with an action, and they become active after being primed by one round. Whenever a creature moves to 10 feet or closer to a trap, it triggers and discharges its effect."
+               },
+               "5": {
+                  "Value": "The DCs are equal to that of a device."
+               },
+               "6": {
+                  "Value": "Once used, fixing a trap costs half the time and gold to make them."
                }
             }
          },
@@ -14223,6 +14533,7 @@
          "ChangeRace": "Change Race",
          "Class": "Class",
          "Consumable": "Consumable",
+         "Cooldown": "Cooldown",
          "Cost": "Cost",
          "Creature": "Creature",
          "Damage": "Damage",
@@ -14249,7 +14560,7 @@
             "Alchemical": "Alchemical",
             "ChaosEnergy": "Chaos Energy",
             "Combustion": "Combustion",
-            "Electric": "Electric",
+            "Electric": "Electrical",
             "Mana": "Mana: Any",
             "ManaArcane": "Mana: Arcane",
             "ManaDruid": "Mana: Druid",
@@ -14322,6 +14633,7 @@
          "Units": {
             "Action": "action",
             "Cp": "copper",
+            "Day": "day",
             "Ft": "ft",
             "Gp": "gp",
             "Hour": "hour",
@@ -14351,6 +14663,7 @@
          "WeaponProps": {
             "Bomb": "Bomb",
             "Finesse": "Finesse",
+            "Gadget": "Gadget",
             "Heavy": "Heavy",
             "HeavyPl": "Heavy+",
             "HeavyPlus": "Heavy++",
@@ -14361,6 +14674,7 @@
             "ReloadPlus": "Reload (5)",
             "Reach": "Reach",
             "Rocket": "Rocket",
+            "Trap": "Trap",
             "TwoHanded": "Two-Handed"
          }
       }

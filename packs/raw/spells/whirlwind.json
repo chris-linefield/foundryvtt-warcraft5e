@@ -1,0 +1,99 @@
+{
+   "name": "Whirlwind",
+   "type": "spell",
+   "img": "icons/magic/air/wind-tornado-funnel-gray.webp",
+   "system": {
+      "description": {
+         "value": "",
+         "chat": "",
+         "unidentified": ""
+      },
+      "source": "DnDBeyond",
+      "activation": {
+         "type": "action",
+         "cost": 1,
+         "condition": ""
+      },
+      "duration": {
+         "value": null,
+         "units": ""
+      },
+      "target": {
+         "value": 10,
+         "width": null,
+         "units": "ft",
+         "type": "cylinder"
+      },
+      "range": {
+         "value": 300,
+         "long": null,
+         "units": "ft"
+      },
+      "uses": {
+         "value": null,
+         "max": "",
+         "per": ""
+      },
+      "consume": {
+         "type": "",
+         "target": "",
+         "amount": null
+      },
+      "ability": "",
+      "actionType": "save",
+      "attackBonus": 0,
+      "chatFlavor": "",
+      "critical": {
+         "threshold": null,
+         "damage": ""
+      },
+      "damage": {
+         "parts": [
+            [
+               "10d6",
+               "bludgeoning"
+            ]
+         ],
+         "versatile": ""
+      },
+      "formula": "",
+      "save": {
+         "ability": "dex",
+         "dc": null,
+         "scaling": "spell"
+      },
+      "level": 7,
+      "school": "evo",
+      "components": {
+         "value": "",
+         "vocal": true,
+         "somatic": false,
+         "material": true,
+         "ritual": false,
+         "concentration": true
+      },
+      "materials": {
+         "value": "a piece of straw",
+         "consumed": false,
+         "cost": 0,
+         "supply": 0
+      },
+      "preparation": {
+         "mode": "prepared",
+         "prepared": false
+      },
+      "scaling": {
+         "mode": "none",
+         "formula": ""
+      }
+   },
+   "effects": [],
+   "ownership": {
+      "default": 0
+   },
+   "flags": {
+   },
+   "folder": null,
+   "sort": 0,
+   "_id": "TafAVHmdRZ0wAxWZ"
+}
