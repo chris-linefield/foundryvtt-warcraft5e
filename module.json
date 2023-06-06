@@ -250,8 +250,8 @@
       "type": "Item"
     }
   ],
-  "manifest": "https://github.com/ArthegaAsdweri/foundryvtt-warcraft5e/raw/master/module.json",
-  "download": "https://github.com/ArthegaAsdweri/foundryvtt-warcraft5e/archive/master.zip",
+  "manifest": "https://github.com/chris-linefield/foundryvtt-warcraft5e/raw/master/module.json",
+  "download": "https://github.com/chris-linefield/foundryvtt-warcraft5e/archive/master.zip",
   "id": "warcraft5e",
   "relationships": {
     "requires": [
